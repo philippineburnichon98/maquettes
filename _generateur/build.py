@@ -298,7 +298,7 @@ RESA_CSS = """<style>
 .rm-slots h4{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:16px 0 8px;font-weight:600}
 .rm-slots div{display:flex;flex-wrap:wrap;gap:8px}.rm-slots button{border:1px solid var(--line);background:none;padding:9px 14px;border-radius:999px;cursor:pointer;font:inherit;color:inherit}
 .rm-slots button.sel{background:var(--accent);border-color:var(--accent);color:#fff}
-.rm-sum{background:var(--paper2);padding:12px 16px;border-radius:4px;margin-bottom:18px;font-size:.92rem}
+.rm-sum{background:var(--paper-2);padding:12px 16px;border-radius:4px;margin-bottom:18px;font-size:.92rem}
 .rm form{display:grid;gap:12px}.rm label{display:grid;gap:6px;font-size:.82rem}
 .rm input,.rm textarea{font:inherit;padding:12px;border:1px solid var(--line);border-radius:3px;background:#fff;color:#222;width:100%;box-sizing:border-box}
 .rm-nav{display:flex;justify-content:space-between;gap:10px;margin-top:20px;align-items:center}
@@ -399,6 +399,18 @@ def section_visit(v):
 <iframe title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q={q}&amp;z=15&amp;output=embed"></iframe></div></div></section>'''
 
 
+LOGO_JS = r"""<script>(function(){const src=document.body.dataset.logo;if(!src)return;const i=new Image();i.crossOrigin='anonymous';i.referrerPolicy='no-referrer';
+i.onload=()=>{try{const W=Math.min(240,i.naturalWidth),H=Math.max(1,Math.round(i.naturalHeight*W/i.naturalWidth)),c=document.createElement('canvas');c.width=W;c.height=H;
+const x=c.getContext('2d');x.drawImage(i,0,0,W,H);const d=x.getImageData(0,0,W,H).data;const B={};let op=0;
+for(let k=0;k<d.length;k+=4){if(d[k+3]<200)continue;op++;const r=d[k]/255,g=d[k+1]/255,b=d[k+2]/255,mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,df=mx-mn;
+if(!df)continue;const s=df/(1-Math.abs(2*l-1));if(s<.35||l<.12||l>.78)continue;let h=mx===r?((g-b)/df)%6:mx===g?(b-r)/df+2:(r-g)/df+4;h=(h*60+360)%360;
+const q=Math.round(h/20)%18;const o=B[q]||(B[q]={n:0,r:0,g:0,b:0});o.n++;o.r+=d[k];o.g+=d[k+1];o.b+=d[k+2]}
+const best=Object.values(B).sort((a,b)=>b.n-a.n)[0];if(!best||best.n<op*.03)return;
+let rgb=[best.r/best.n,best.g/best.n,best.b/best.n];const lum=a=>{const f=v=>(v/=255)<=.03928?v/12.92:((v+.055)/1.055)**2.4;return .2126*f(a[0])+.7152*f(a[1])+.0722*f(a[2])};
+let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=>'#'+a.map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
+const R=document.documentElement.style;R.setProperty('--accent',hex(rgb));R.setProperty('--accent-2',hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>"""
+
+
 def build(d):
     t = d["theme"]
     css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
@@ -454,7 +466,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <link href="{attr(t["fonts"])}" rel="stylesheet">
 <style>{css}</style>
 </head>
-<body>
+<body{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
 <header{hcls}><div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
@@ -470,6 +482,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 {lbhtml}{annhtml}<div class="fyce" role="note"><span><b>Proposition de maquette</b> réalisée par <a href="{FYCE["site"]}" target="_blank" rel="noopener">{FYCE["brand"]}</a> · {FYCE["name"]} · <a href="tel:{FYCE["tel"]}">{FYCE["phone"]}</a></span>
 <button aria-label="Masquer" onclick="this.parentElement.remove()">×</button></div>
 <script>{JS}</script>
+{LOGO_JS if (d.get("logo") and d["theme"].get("logo_accent", True)) else ""}
 </body>
 </html>'''
 

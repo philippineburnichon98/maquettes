@@ -14,3 +14,8 @@ Toutes les maquettes sont non indexées (balise meta, `robots.txt`, `_headers`) 
 
 ## Règle photos (demandée par Philippine)
 Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui lui correspond : grande image d'en-tête de chaque page (ex. la photo de groupe en tête de la page équipe va en tête de la section équipe), photos de chaque produit, portraits, pictogrammes des rubriques (champ 3e élément des items `features`), logos des labels et certifications (champ `logos` d'une `story`), photos de la salle, de la terrasse, de la façade. Ne jamais laisser une photo du site d'origine de côté sans raison.
+
+## Règle couleurs (demande de Philippine)
+- Chaque maquette reprend les couleurs du prospect : la couleur principale de son LOGO (ex. le rouge du logo) devient `theme.accent` (boutons, liens, sélection), `theme.accent2` une version un peu plus foncée ; les autres couleurs (`paper`, `ink`, `gold`, `heroem`) s'accordent avec sa charte (couleurs de son site actuel).
+- Relève les codes couleur dans le CSS du site d'origine quand c'est possible (WebFetch sur la page ou ses feuilles de style), sinon d'après le logo.
+- En plus, build.py applique automatiquement, dans le navigateur du visiteur, la couleur dominante du logo à `--accent` quand l'hébergeur de l'image l'autorise (CORS). Désactivable avec `"logo_accent": false` dans `theme`. Le thème statique reste la valeur de secours : il doit donc déjà être juste.
