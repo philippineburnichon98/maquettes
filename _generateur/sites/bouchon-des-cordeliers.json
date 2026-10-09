@@ -322,5 +322,9 @@
       "15 rue Claudia, Lyon 2e"
     ],
     "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  },
+  "logo": {
+    "src": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/logo-dark.png",
+    "height": 50
   }
 }

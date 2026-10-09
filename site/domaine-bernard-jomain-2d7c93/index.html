@@ -26,6 +26,9 @@ header{position:fixed;inset:0 0 auto;z-index:50;transition:background .35s,box-s
 header.scrolled{background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:80px}
 .logo{font-family:var(--serif);font-size:1.45rem;line-height:1}
+header.haslogo{background:color-mix(in srgb,var(--paper) 95%,transparent);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.logo img{display:block;width:auto;max-width:60vw;object-fit:contain}
+.flogo{display:inline-block;background:var(--paper);padding:10px 14px;border-radius:6px}.flogo img{display:block;width:auto;max-width:240px}
 .logo small{display:block;font-family:var(--sans);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:6px}
 .links{display:flex;gap:32px;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
 .links a{position:relative;padding:6px 0}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%}
@@ -121,7 +124,7 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a href="#accueil" class="logo">Domaine Bernard Jomain<small>Vigneron · Charentay, Beaujolais</small></a>
+<header class="haslogo"><div class="wrap nav"><a href="#accueil" class="logo"><img src="https://static.wixstatic.com/media/aa37fe_451e70305204451a85242ea5d53e3957~mv2.gif" alt="Domaine Bernard Jomain" style="height:56px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
 <nav class="links"><a href="#domaine">Le domaine</a><a href="#vins">Nos vins</a><a href="#chambre">Chambre d&#x27;hôtes</a><a href="#contact">Nous rendre visite</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero" id="accueil" style="background-image:url('https://static.wixstatic.com/media/aa37fe_42245fd763054eed8a6a965eed4dc5ac~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_2000,h_1333,al_c,q_85/vignes.jpg')"><div class="wrap">
@@ -174,7 +177,7 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 <span class="eyebrow">Nous rendre visite</span><h2>Dégustation <em class="it">au caveau</em></h2><p style="color:var(--muted)">Le caveau est ouvert tous les jours de 8h à 20h, sur rendez-vous. Mâchon sur réservation.</p>
 <dl><dt>Adresse</dt><dd>La Valette<br>69220 Charentay</dd><dt>Horaires</dt><dd>Tous les jours, 8h – 20h<br>sur rendez-vous</dd><dt>Téléphone</dt><dd><a href="tel:+33474034760">04 74 03 47 60</a><br><a href="tel:+33680309668">06 80 30 96 68</a></dd><dt>Boutique</dt><dd><a href="https://commande.domainebernardjomain.com/" target="_blank" rel="noopener">Commander en ligne</a></dd></dl><a class="btn solid" href="tel:+33680309668">Appeler le domaine</a></div>
 <iframe title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q=Domaine%20Bernard%20Jomain%2C%20Charentay&amp;z=15&amp;output=embed"></iframe></div></div></section>
-<footer><div class="wrap"><div class="top"><div><div class="logo">Domaine Bernard Jomain<small>Vigneron · Charentay, Beaujolais</small></div>
+<footer><div class="wrap"><div class="top"><div><div class="flogo"><img src="https://static.wixstatic.com/media/aa37fe_451e70305204451a85242ea5d53e3957~mv2.gif" alt="Domaine Bernard Jomain" style="height:56px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Vigneron à Charentay, au pied du mont Brouilly, au cœur du Beaujolais.</p></div>
 <div><h4>Explorer</h4><ul><li><a href="#domaine">Le domaine</a></li><li><a href="#vins">Nos vins</a></li><li><a href="#chambre">Chambre d&#x27;hôtes</a></li><li><a href="#contact">Nous rendre visite</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="tel:+33474034760">04 74 03 47 60</a></li><li><a href="tel:+33680309668">06 80 30 96 68</a></li><li>La Valette, 69220 Charentay</li></ul></div></div>
 <div class="bottom"><span>© Domaine Bernard Jomain · Mentions légales · Confidentialité</span><span>L&#x27;abus d&#x27;alcool est dangereux pour la santé, à consommer avec modération.</span></div></div></footer>

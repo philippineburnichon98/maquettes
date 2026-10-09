@@ -341,5 +341,9 @@
       "La Valette, 69220 Charentay"
     ],
     "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  },
+  "logo": {
+    "src": "https://static.wixstatic.com/media/aa37fe_451e70305204451a85242ea5d53e3957~mv2.gif",
+    "height": 56
   }
 }

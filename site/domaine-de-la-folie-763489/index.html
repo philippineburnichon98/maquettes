@@ -33,6 +33,7 @@ em.it{font-family:var(--serif);font-style:italic}
 .btn.ghost:hover{background:#fff;color:var(--ink)}
 
 /* NAV */
+header.haslogo{background:rgba(246,241,233,.95);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
 header{position:fixed;inset:0 0 auto;z-index:50;transition:background .35s,box-shadow .35s,color .35s;color:#fff}
 header.scrolled{background:rgba(246,241,233,.94);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:84px}
@@ -187,9 +188,9 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16p
 </head>
 <body>
 
-<header id="top">
+<header id="top" class="haslogo">
   <div class="wrap nav">
-    <a href="#accueil" class="logo">Domaine de la Folie<small>Grands vins de Bourgogne</small></a>
+    <a href="#accueil" class="logo"><img src="https://image.jimcdn.com/app/cms/image/transf/dimension=206x10000:format=png/path/sff18f8473408ca27/image/iffc94ea801ef3f63/version/1517318236/image.png" alt="Domaine de la Folie" style="height:52px;width:auto;display:block" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
     <nav class="links" id="menu">
       <a href="#domaine">Le Domaine</a>
       <a href="#histoire">Histoire</a>
@@ -352,7 +353,7 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16p
   <div class="wrap">
     <div class="top">
       <div>
-        <div class="logo">Domaine de la Folie<small>Grands vins de Bourgogne · Rully</small></div>
+        <div style="display:inline-block;background:var(--paper);padding:10px 14px;border-radius:6px"><img src="https://image.jimcdn.com/app/cms/image/transf/dimension=206x10000:format=png/path/sff18f8473408ca27/image/iffc94ea801ef3f63/version/1517318236/image.png" alt="Domaine de la Folie" style="height:52px;width:auto;display:block" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
         <p style="margin-top:20px;max-width:340px;opacity:.75">Domaine familial à Chagny, au nord de la Côte Chalonnaise.</p>
       </div>
       <div><h4>Explorer</h4><ul><li><a href="#domaine">Le Domaine</a></li><li><a href="#histoire">Histoire</a></li><li><a href="#vins">Vins &amp; Spiritueux</a></li><li><a href="#visite">Visite</a></li></ul></div>

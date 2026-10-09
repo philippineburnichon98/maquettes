@@ -345,5 +345,9 @@
       "98 rue Mazenod, Lyon 3e"
     ],
     "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  },
+  "logo": {
+    "src": "https://static.wixstatic.com/media/313a31_df1dda267ca542f2857b0c6fc14828f7~mv2.png/v1/fit/w_976,h_132,q_90/logo-lebouchondesartistes.png",
+    "height": 34
   }
 }

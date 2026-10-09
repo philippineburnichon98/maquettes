@@ -37,6 +37,9 @@ header{position:fixed;inset:0 0 auto;z-index:50;transition:background .35s,box-s
 header.scrolled{background:color-mix(in srgb,var(--paper) 94%%,transparent);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:80px}
 .logo{font-family:var(--serif);font-size:1.45rem;line-height:1}
+header.haslogo{background:color-mix(in srgb,var(--paper) 95%%,transparent);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.logo img{display:block;width:auto;max-width:60vw;object-fit:contain}
+.flogo{display:inline-block;background:var(--paper);padding:10px 14px;border-radius:6px}.flogo img{display:block;width:auto;max-width:240px}
 .logo small{display:block;font-family:var(--sans);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:6px}
 .links{display:flex;gap:32px;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
 .links a{position:relative;padding:6px 0}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%%}
@@ -261,6 +264,15 @@ def build(d):
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
     legal = f'<span>{e(f["legal"])}</span>' if f.get("legal") else ""
+    lg = d.get("logo")
+    hcls = ' class="haslogo"' if lg else ""
+    if lg:
+        fb = 'onerror="this.parentElement.textContent=this.alt"'
+        hlogo = f'<a href="#accueil" class="logo"><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></a>'
+        flogo = f'<div class="flogo"><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></div>'
+    else:
+        hlogo = f'<a href="#accueil" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>'
+        flogo = f'<div class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></div>' 
     return f'''<!doctype html>
 <html lang="fr">
 <head>
@@ -274,7 +286,7 @@ def build(d):
 <style>{css}</style>
 </head>
 <body>
-<header><div class="wrap nav"><a href="#accueil" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>
+<header{hcls}><div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero" id="accueil" style="background-image:url('{attr(h["img"])}')"><div class="wrap">
@@ -282,7 +294,7 @@ def build(d):
 <div class="ctas"><a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])}</a><a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a></div></div></section>
 <div class="figures"><div class="wrap">{figs}</div></div>
 {"".join(blocks)}
-<footer><div class="wrap"><div class="top"><div><div class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></div>
+<footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p></div>
 <div><h4>Explorer</h4><ul>{fnav}</ul></div><div><h4>Contact</h4><ul>{fcontact}</ul></div></div>
 <div class="bottom"><span>© {e(d["brand"])} · Mentions légales · Confidentialité</span>{legal}</div></div></footer>

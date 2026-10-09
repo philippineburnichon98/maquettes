@@ -26,6 +26,9 @@ header{position:fixed;inset:0 0 auto;z-index:50;transition:background .35s,box-s
 header.scrolled{background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:80px}
 .logo{font-family:var(--serif);font-size:1.45rem;line-height:1}
+header.haslogo{background:color-mix(in srgb,var(--paper) 95%,transparent);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.logo img{display:block;width:auto;max-width:60vw;object-fit:contain}
+.flogo{display:inline-block;background:var(--paper);padding:10px 14px;border-radius:6px}.flogo img{display:block;width:auto;max-width:240px}
 .logo small{display:block;font-family:var(--sans);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:6px}
 .links{display:flex;gap:32px;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
 .links a{position:relative;padding:6px 0}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%}
@@ -121,7 +124,7 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a href="#accueil" class="logo">Le Bouchon des Artistes<small>Bouchon lyonnais · Lyon 3e</small></a>
+<header class="haslogo"><div class="wrap nav"><a href="#accueil" class="logo"><img src="https://static.wixstatic.com/media/313a31_df1dda267ca542f2857b0c6fc14828f7~mv2.png/v1/fit/w_976,h_132,q_90/logo-lebouchondesartistes.png" alt="Le Bouchon des Artistes" style="height:34px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
 <nav class="links"><a href="#maison">La maison</a><a href="#carte">La carte</a><a href="#photos">Photos</a><a href="#contact">Réserver</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero" id="accueil" style="background-image:url('https://static.wixstatic.com/media/313a31_ad1bb8cdaacf43979f8911a340ecd599~mv2.jpg/v1/fill/w_1920,h_1280,al_c,q_85/bouchon-des-artistes.jpg')"><div class="wrap">
@@ -145,7 +148,7 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 <span class="eyebrow">Réservation</span><h2>Venez <em class="it">nous voir</em></h2><p style="color:var(--muted)">Pour réserver une table, appelez-nous : nous serons ravis de vous accueillir.</p>
 <dl><dt>Adresse</dt><dd>98 rue Mazenod<br>69003 Lyon</dd><dt>Horaires</dt><dd>Du lundi au vendredi<br>12h – 14h · 19h – 21h45<br>Fermé le week-end</dd><dt>Téléphone</dt><dd><a href="tel:+33478033740">04 78 03 37 40</a></dd><dt>E-mail</dt><dd><a href="mailto:lebouchondesartistes@orange.fr">lebouchondesartistes@orange.fr</a></dd></dl><a class="btn solid" href="tel:+33478033740">Appeler pour réserver</a></div>
 <iframe title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q=98%20rue%20Mazenod%2C%2069003%20Lyon&amp;z=15&amp;output=embed"></iframe></div></div></section>
-<footer><div class="wrap"><div class="top"><div><div class="logo">Le Bouchon des Artistes<small>Bouchon lyonnais · Lyon 3e</small></div>
+<footer><div class="wrap"><div class="top"><div><div class="flogo"><img src="https://static.wixstatic.com/media/313a31_df1dda267ca542f2857b0c6fc14828f7~mv2.png/v1/fit/w_976,h_132,q_90/logo-lebouchondesartistes.png" alt="Le Bouchon des Artistes" style="height:34px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Bouchon lyonnais labellisé et Maître Restaurateur, dans le 3e arrondissement de Lyon.</p></div>
 <div><h4>Explorer</h4><ul><li><a href="#maison">La maison</a></li><li><a href="#carte">La carte</a></li><li><a href="#photos">Photos</a></li><li><a href="#contact">Réserver</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="tel:+33478033740">04 78 03 37 40</a></li><li><a href="mailto:lebouchondesartistes@orange.fr">lebouchondesartistes@orange.fr</a></li><li>98 rue Mazenod, Lyon 3e</li></ul></div></div>
 <div class="bottom"><span>© Le Bouchon des Artistes · Mentions légales · Confidentialité</span><span>L&#x27;abus d&#x27;alcool est dangereux pour la santé, à consommer avec modération.</span></div></div></footer>
