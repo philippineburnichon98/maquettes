@@ -411,6 +411,54 @@ def section_banner(b):
 <h2>{b["title"]}</h2><a href="{attr(b["cta"][1])}" class="btn ghost">{e(b["cta"][0])}</a></div></div>'''
 
 
+BLOG_CSS = """<style>
+.blog .bt{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px}
+.blog .bt button{font:inherit;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;padding:9px 16px;border:1px solid var(--line);background:none;cursor:pointer;color:inherit}
+.blog .bt button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.blog .bg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.blog article{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);min-width:0}
+.blog article[hidden]{display:none}
+.blog .th{aspect-ratio:16/10;background:var(--paper-2) center/cover no-repeat}
+.blog .bd{padding:18px 20px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.blog .ct{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.blog h3{font-size:1.18rem;line-height:1.25}
+.blog .bd p{color:var(--muted);font-size:.92rem;margin:0}
+.blog .rd{margin-top:auto;padding-top:8px;font-size:.85rem;font-weight:500;border-bottom:1px solid var(--gold);align-self:flex-start}
+.blog .more{display:flex;justify-content:center;margin-top:30px;gap:12px;flex-wrap:wrap}
+.blog .art-more[hidden]{display:none}
+@media(max-width:960px){.blog .bg{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.blog .bg{grid-template-columns:minmax(0,1fr)}}
+</style>"""
+
+BLOG_JS = r"""<script>document.querySelectorAll('.blog').forEach(B=>{const A=[...B.querySelectorAll('article')],N=+B.dataset.step||6;let f='all',n=N;
+const M=B.querySelector('.art-more');const draw=()=>{let k=0;A.forEach(a=>{const ok=f==='all'||a.dataset.cat===f;a.hidden=!(ok&&k++<n)});
+if(M)M.hidden=A.filter(a=>f==='all'||a.dataset.cat===f).length<=n};
+B.querySelectorAll('.bt button').forEach(b=>b.onclick=()=>{f=b.dataset.f;n=N;B.querySelectorAll('.bt button').forEach(x=>x.setAttribute('aria-pressed',x===b));draw()});
+if(M)M.onclick=()=>{n+=N;draw()};draw()})</script>"""
+
+
+def section_blog(o):
+    cats = []
+    for p in o["posts"]:
+        if p.get("cat") and p["cat"] not in cats:
+            cats.append(p["cat"])
+    slug = lambda c: "".join(ch for ch in c.lower() if ch.isalnum())
+    tabs = '<button aria-pressed="true" data-f="all">Tous les articles</button>' + "".join(
+        f'<button aria-pressed="false" data-f="{slug(c)}">{e(c)}</button>' for c in cats)
+    arts = []
+    for p in o["posts"]:
+        th = f'<div class="th" style="background-image:url(\'{attr(p["img"])}\')" role="img" aria-label=""></div>' if p.get("img") else ""
+        date = f' · {e(p["date"])}' if p.get("date") else ""
+        link = f'<a class="rd" href="{attr(p["url"])}" target="_blank" rel="noopener">Lire l\'article</a>' if p.get("url") else ""
+        arts.append(f'<article data-cat="{slug(p.get("cat", ""))}">{th}<div class="bd"><span class="ct">{e(p.get("cat", ""))}{date}</span>'
+                    f'<h3>{e(p["title"])}</h3><p>{e(p.get("desc", ""))}</p>{link}</div></article>')
+    allb = f'<a class="btn" href="{attr(o["all"][1])}" target="_blank" rel="noopener">{e(o["all"][0])}</a>' if o.get("all") else ""
+    note = f'<p class="note" style="margin-top:18px;text-align:center">{o["note"]}</p>' if o.get("note") else ""
+    return f'''<section id="{o.get("id", "blog")}"><div class="wrap blog" data-step="{o.get("step", 6)}"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
+<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="bt" role="group" aria-label="Filtrer par thème">{tabs}</div>
+<div class="bg">{"".join(arts)}</div><div class="more"><button type="button" class="btn ghost art-more" style="color:var(--ink)">Voir plus d'articles</button>{allb}</div>{note}</div></section>''' + BLOG_CSS + BLOG_JS
+
+
 def section_visit(v):
     rows = "".join(f"<dt>{e(k)}</dt><dd>{val}</dd>" for k, val in v["rows"])
     q = urllib.parse.quote(v.get("map_q", ""))
@@ -469,7 +517,7 @@ def build(d):
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])

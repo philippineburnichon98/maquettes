@@ -32,7 +32,7 @@
   ],
   [
    "informations",
-   "Informations"
+   "Actualités"
   ],
   [
    "contact",
@@ -163,27 +163,186 @@
    ]
   },
   {
-   "kind": "blocks",
+   "kind": "blog",
    "id": "informations",
-   "dark": true,
    "eyebrow": "Actualités juridiques",
-   "title": "Actualités juridiques <em class=\"it\">et lettre d'information</em>",
-   "lead": "L'étude met à disposition des actualités immobilières, juridiques et fiscales, ainsi qu'une lettre d'information gratuite. Derniers sujets publiés :",
-   "items": [
+   "title": "Le blog <em class=\"it\">de l'étude</em>",
+   "lead": "L'étude met à disposition des actualités immobilières, juridiques et fiscales, ainsi qu'une lettre d'information gratuite. Les derniers articles :",
+   "step": 6,
+   "posts": [
     {
-     "kicker": "Actualité juridique",
-     "title": "Hauteur sous plafond : pourquoi le volume redevient essentiel"
+     "title": "Achat immobilier : la check-list pour prévoir toutes les dépenses",
+     "cat": "Droit de l'immobilier",
+     "desc": "Le prix affiché ne représente qu'une partie du budget, à compléter par les frais d'acquisition, d'agence et de crédit.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1391/achat-immobiliernbsp-la-checklist-pour-prevoir-toutes-les-depenses.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg"
     },
     {
-     "kicker": "Actualité juridique",
-     "title": "Comment estimer correctement son bien immobilier ?"
+     "title": "Isolation, chauffage… et la ventilation dans tout ça ?",
+     "cat": "Droit de l'immobilier",
+     "desc": "En rénovation énergétique, la ventilation compte autant que l'isolation et les fenêtres.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1392/isolation-chauffagehellip-et-la-ventilation-dans-tout-canbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9673_1791201737943.jpg"
     },
     {
-     "kicker": "Actualité juridique",
-     "title": "Acheter un bien en famille : SCI ou indivision ?"
+     "title": "Régler une succession : 3 questions à Stéphanie Swiklinski",
+     "cat": "Patrimoine",
+     "desc": "Les étapes d'un règlement successoral : ouverture du dossier, actes à établir et délais fiscaux.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1393/regler-une-successionnbsp-3-questions-a-stephanie-swiklinski.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9674_1791201825444.jpg"
+    },
+    {
+     "title": "Hauteur sous plafond : pourquoi le volume redevient essentiel",
+     "cat": "Droit de l'immobilier",
+     "desc": "Dans les studios mansardés et sous les combles, la hauteur sous plafond peut conditionner la décence d'un logement.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1388/hauteur-sous-plafondnbsp-pourquoi-le-volume-redevient-essentiel.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9625_1787211769972.jpg"
+    },
+    {
+     "title": "Comment estimer correctement son bien immobilier ?",
+     "cat": "Droit de l'immobilier",
+     "desc": "Une estimation fiable repose sur l'analyse du marché local : un prix mal calibré nuit à la vente.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1389/comment-estimer-correctement-son-bien-immobiliernbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9626_1787211863936.jpg"
+    },
+    {
+     "title": "Acheter un bien en famille : SCI ou indivision ?",
+     "cat": "Droit de la famille",
+     "desc": "Deux formules pour acheter entre proches, une maison de vacances comme un investissement.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1390/acheter-un-bien-en-famillenbsp-sci-ou-indivisionnbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9627_1787212098076.jpg"
+    },
+    {
+     "title": "Achat en copropriété : les règles à connaître avant d'acheter",
+     "cat": "Droit de l'immobilier",
+     "desc": "Charges, travaux et décisions collectives sont à anticiper avant l'acquisition.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1385/achat-en-coproprietenbsp-les-regles-a-connaitre-avant-dacheter.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9534_1780558546839.jpg"
+    },
+    {
+     "title": "Hériter d'une maison : qui paie les frais en indivision ?",
+     "cat": "Patrimoine",
+     "desc": "Quand plusieurs héritiers se partagent un bien, se pose la question de la répartition des frais.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1386/heriter-dune-maisonnbsp-qui-paie-les-frais-en-indivisionnbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9535_1780558607826.jpg"
+    },
+    {
+     "title": "Capacité d'emprunt : combien pouvez-vous réellement emprunter ?",
+     "cat": "Droit de l'immobilier",
+     "desc": "Évaluer son budget d'emprunt avant de se lancer dans un achat.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1387/capacite-dempruntnbsp-combien-pouvezvous-reellement-emprunternbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9536_1780558661513.jpg"
+    },
+    {
+     "title": "Pacs et immobilier : faut-il se pacser avant d'acheter à deux ?",
+     "cat": "Droit de la famille",
+     "desc": "On peut acheter à deux sans mariage ni Pacs, mais le statut du couple influence la situation du bien.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1380/pacs-et-immobiliernbsp-fautil-se-pacser-avant-dacheter-a-deuxnbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9475_1776758928351.jpg"
+    },
+    {
+     "title": "Achat immobilier : quelles aides financières des parents pour devenir propriétaire ?",
+     "cat": "Droit de la famille",
+     "desc": "Avec la hausse des prix et des crédits plus difficiles à obtenir, l'aide familiale devient un levier courant.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1381/achat-immobiliernbsp-quelles-aides-financieres-des-parents-pour-devenir-proprietairenbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9476_1776758977291.jpg"
+    },
+    {
+     "title": "Contrat de mariage : se protéger avant de dire « oui »",
+     "cat": "Droit de la famille",
+     "desc": "Un contrat de mariage s'adapte à chaque profil familial et patrimonial.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1374/contrat-de-mariagenbsp-se-proteger-avant-de-dire-oui.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9444_1774530344374.jpg"
+    },
+    {
+     "title": "Médiation notariale : une alternative au procès pour résoudre vos litiges",
+     "cat": "Patrimoine",
+     "desc": "La médiation, voie amiable pour les conflits de voisinage, de succession ou de divorce.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1375/mediation-notarialenbsp-une-alternative-au-proces-pour-resoudre-vos-litiges.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9445_1774530418844.jpg"
+    },
+    {
+     "title": "Taxe foncière : une réforme pourrait augmenter l'impôt de certains logements dès 2027",
+     "cat": "Droit de l'immobilier",
+     "desc": "Un nouveau mode de calcul pourrait toucher plus de 7 millions de logements.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1376/taxe-foncierenbsp-une-reforme-pourrait-augmenter-limpot-de-certains-logements-des-2027.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9421_1774530464762.jpg"
+    },
+    {
+     "title": "SCI familiale : une solution efficace pour gérer et transmettre un bien immobilier en famille",
+     "cat": "Patrimoine",
+     "desc": "La SCI familiale permet d'acquérir, de gérer et de transmettre un bien entre membres d'une même famille.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1370/sci-familialenbsp-une-solution-efficace-pour-gerer-et-transmettre-un-bien-immobilier-en-famille.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9377_1770890235142.jpg"
+    },
+    {
+     "title": "Achat en viager : payer son bien immobilier en plusieurs fois, sans crédit bancaire",
+     "cat": "Droit de l'immobilier",
+     "desc": "Le viager permet d'acheter sans emprunt bancaire, avec un paiement échelonné.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1371/achat-en-viagernbsp-payer-son-bien-immobilier-en-plusieurs-fois-sans-credit-bancaire.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9378_1770890449541.jpg"
+    },
+    {
+     "title": "Immobilier neuf : pourquoi acheter ou investir dans le neuf en 2026 ?",
+     "cat": "Droit de l'immobilier",
+     "desc": "Les arguments du neuf, pour un acheteur comme pour un investisseur.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1372/immobilier-neufnbsp-pourquoi-acheter-ou-investir-dans-le-neuf-en-2026nbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9379_1770890800407.jpg"
+    },
+    {
+     "title": "Droits de succession : comment les calculer et éviter les mauvaises surprises",
+     "cat": "Droit de la famille",
+     "desc": "Le calcul des droits de succession et les erreurs à éviter.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1367/droits-de-successionnbsp-comment-les-calculer-et-eviter-les-mauvaises-surprises.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9344_1767966714206.jpg"
+    },
+    {
+     "title": "Donation entre époux : le guide complet pour protéger efficacement votre conjoint",
+     "cat": "Patrimoine",
+     "desc": "La transmission entre époux, notamment quand le couple détient un patrimoine immobilier.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1362/donation-entre-epouxnbsp-le-guide-complet-pour-proteger-efficacement-votre-conjoint.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9305_1765356524195.jpg"
+    },
+    {
+     "title": "Immobilier neuf : 4 atouts clés pour acheter sereinement",
+     "cat": "Droit de l'immobilier",
+     "desc": "Confort, performance énergétique et sécurité pour l'acheteur.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1363/immobilier-neufnbsp-4-atouts-cles-pour-acheter-sereinement.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9306_1765356696844.jpg"
+    },
+    {
+     "title": "Donation ou donation-partage : comment transmettre votre patrimoine sereinement ?",
+     "cat": "Patrimoine",
+     "desc": "Les donations pour transmettre un bien ou aider ses enfants de son vivant.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1364/donation-ou-donationpartagenbsp-comment-transmettre-votre-patrimoine-sereinementnbsp.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9307_1765356777413.jpg"
+    },
+    {
+     "title": "Régime matrimonial : et si c'était le moment de changer",
+     "cat": "Droit de la famille",
+     "desc": "Un régime matrimonial peut devenir inadapté après une évolution de vie, comme une recomposition familiale.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1365/regime-matrimonialnbsp-et-si-cetait-le-moment-de-changer.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9308_1765356823578.jpg"
+    },
+    {
+     "title": "Organiser sa protection en cas d'incapacité",
+     "cat": "Droit de la famille",
+     "desc": "Anticiper une perte d'autonomie due à un accident ou à une maladie.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1358/organiser-sa-protection-en-cas-dincapacite.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9253_1763038740427.jpg"
+    },
+    {
+     "title": "Donation immobilière : protéger son geste grâce aux conseils de votre notaire",
+     "cat": "Droit de la famille",
+     "desc": "Sécuriser la donation d'un bien immobilier à ses proches.",
+     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1355/donation-immobilierenbsp-proteger-son-geste-grace-aux-conseils-de-votre-notaire.html",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9171_1758876560242.jpg"
     }
    ],
-   "note": "<a href=\"https://www.notaires-lyon6.fr/actualites-juridiques.html\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Toutes les actualités juridiques de l'étude</a>"
+   "all": [
+    "Toutes les actualités (16 pages)",
+    "https://www.notaires-lyon6.fr/actualites-juridiques.html"
+   ]
   },
   {
    "kind": "blocks",

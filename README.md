@@ -26,3 +26,8 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 ## Statistiques de visite
 - Toutes les maquettes chargent Cloudflare Web Analytics (sans cookie), ajouté automatiquement par build.py et core.page.
 - Philippine exclut ses propres visites en ouvrant une fois une maquette avec `?moi` à la fin de l'adresse (mémorisé sur ce navigateur) ; `?pasmoi` annule.
+
+## Règle blog et SEO (demande de Philippine, 9 oct. 2026)
+- Un blog ou des actualités tenus à jour, c'est précieux pour le référencement : on les GARDE toujours, et en entier.
+- Section `blog` de build.py : cartes d'articles (photo, thème, titre, résumé, lien « Lire l'article »), filtres par thème, bouton « Voir plus d'articles » (par paquets de `step`), lien vers toutes les actualités (`all`). Reprendre au moins tous les articles de la première page du blog d'origine, avec leurs images. Exemple : odin-blondot.json.
+- Le reproche « actualités anciennes » ne s'utilise que si le blog est vraiment figé.
