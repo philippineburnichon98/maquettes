@@ -266,10 +266,12 @@ def build(d):
     legal = f'<span>{e(f["legal"])}</span>' if f.get("legal") else ""
     lg = d.get("logo")
     hcls = ' class="haslogo"' if lg else ""
+    if lg and lg.get("bg"):
+        hcls += f' style="background:{attr(lg["bg"])}"' 
     if lg:
         fb = 'onerror="this.parentElement.textContent=this.alt"'
         hlogo = f'<a href="#accueil" class="logo"><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></a>'
-        flogo = f'<div class="flogo"><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></div>'
+        flogo = f'<div class="flogo"{" style=\"background:" + attr(lg["bg"]) + "\"" if lg.get("bg") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></div>'
     else:
         hlogo = f'<a href="#accueil" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>'
         flogo = f'<div class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></div>' 

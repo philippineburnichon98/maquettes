@@ -344,6 +344,7 @@
   },
   "logo": {
     "src": "https://static.wixstatic.com/media/aa37fe_451e70305204451a85242ea5d53e3957~mv2.gif",
-    "height": 56
+    "height": 56,
+    "bg": "#ffffff"
   }
 }
