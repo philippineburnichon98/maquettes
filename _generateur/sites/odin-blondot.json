@@ -1,91 +1,282 @@
 {
-  "slug": "odin-blondot-c1e13c",
-  "style": "registre",
-  "title": "Office notarial Odin & Blondot, notaires à Lyon 6e",
-  "description": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon 6e, 23 quai Sarrail. Successeurs de Me Olivier THOMAS et Me Xavier COURBON.",
-  "brand": "SELARL Grégoire ODIN, Edouard BLONDOT",
-  "tagline": "Notaires à Lyon 6e, 23 quai Sarrail",
-  "theme": {
-    "paper": "#f3f4f0", "ink": "#1c2127", "river": "#24505e", "stone": "#c4c2b8", "wax": "#7b2633", "rule": "#cfd8da",
-    "serif": "\"Spectral\", Georgia, serif", "sans": "\"Public Sans\", system-ui, sans-serif",
-    "fonts": "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap"
+ "slug": "odin-blondot-c1e13c",
+ "title": "Office notarial Odin & Blondot, notaires à Lyon 6e",
+ "description": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon 6e, 23 quai Sarrail. Successeurs de Me Olivier THOMAS et Me Xavier COURBON.",
+ "brand": "SELARL Grégoire ODIN, Edouard BLONDOT",
+ "tagline": "Notaires à Lyon 6e, 23 quai Sarrail",
+ "theme": {
+  "paper": "#f3f4f0",
+  "paper2": "#e6eae8",
+  "ink": "#1c2127",
+  "muted": "#5a6268",
+  "accent": "#24505e",
+  "accent2": "#1b3d48",
+  "gold": "#a8865a",
+  "heroem": "#cfe0e3",
+  "serif": "\"Spectral\",Georgia,serif",
+  "sans": "\"Public Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400&family=Public+Sans:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "etude",
+   "L'étude"
+  ],
+  [
+   "histoire",
+   "Histoire"
+  ],
+  [
+   "competences",
+   "Compétences"
+  ],
+  [
+   "informations",
+   "Informations"
+  ],
+  [
+   "contact",
+   "Infos pratiques"
+  ]
+ ],
+ "hero": {
+  "eyebrow": "Office notarial · 23 quai Sarrail, Lyon 6e",
+  "title": "Notaires à Lyon 6e, <em>sur les quais du Rhône</em>",
+  "lead": "Officier public, professionnel du droit des familles et des entreprises, le notaire intervient dans tous les grands moments de la vie.",
+  "cta1": [
+   "Prendre rendez-vous",
+   "#contact"
+  ],
+  "cta2": [
+   "Nos compétences",
+   "#competences"
+  ]
+ },
+ "figures": [
+  [
+   "1965",
+   "création de l'office"
+  ],
+  [
+   "23",
+   "quai Sarrail"
+  ],
+  [
+   "5",
+   "domaines d'intervention"
+  ],
+  [
+   "9h–19h",
+   "réception sur rendez-vous"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "etude",
+   "eyebrow": "L'étude",
+   "title": "Notaire, <em class=\"it\">une profession exigeante</em>",
+   "paras": [
+    "Au cœur de Lyon, sur les quais du Rhône, à proximité de tous les transports en commun et parkings, l'Étude ODIN-BLONDOT et ses collaborateurs vous accueillent et vous accompagnent dans vos décisions patrimoniales.",
+    "SELARL Grégoire ODIN, Edouard BLONDOT, successeurs de Me Olivier THOMAS et Me Xavier COURBON."
+   ],
+   "sign": "Un office notarial à votre écoute : un notaire et son collaborateur direct à la disposition de chaque client."
   },
-  "nav": [["presentation", "L'étude"], ["competences", "Compétences"], ["contact", "Infos pratiques"], ["informations", "Informations"]],
-  "hero": {
-    "who": "SELARL Grégoire ODIN, Edouard BLONDOT, successeurs de Me Olivier THOMAS et Me Xavier COURBON",
-    "title": "Notaires à Lyon 6e, sur les quais du Rhône",
-    "lead": "Officier public, professionnel du droit des familles et des entreprises, le notaire intervient dans tous les grands moments de la vie."
+  {
+   "kind": "timeline",
+   "id": "histoire",
+   "eyebrow": "Histoire de l'office",
+   "title": "Successeurs <em class=\"it\">de Me Thomas et Me Courbon</em>",
+   "lead": "Office créé le 8 juin 1965.",
+   "items": [
+    {
+     "when": "8 juin 1965",
+     "who": "Création de l'office",
+     "text": "Création de l'office par Me Raymond-Sylvain THOMAS, 1 cours Lafayette, Lyon 6e."
+    },
+    {
+     "when": "2 octobre 1990",
+     "who": "SCP Thomas",
+     "text": "SCP « Raymond-Sylvain et Olivier THOMAS », 23 quai Sarrail, Lyon 6e (jusqu'au 11 décembre 1997)."
+    },
+    {
+     "when": "12 décembre 1997",
+     "who": "SCP Thomas et Courbon",
+     "text": "SCP « Olivier THOMAS et Xavier COURBON », 23 quai Sarrail, Lyon 6e."
+    },
+    {
+     "when": "Aujourd'hui",
+     "who": "SELARL Odin, Blondot",
+     "text": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires, 23 quai Sarrail, Lyon 6e."
+    }
+   ]
   },
-  "seal": ["Office créé le", "8 juin 1965", "Lyon 6e"],
-  "presentation": {
-    "margin": "L'étude",
-    "sub": "23 quai Sarrail",
-    "title": "Notaire, une profession exigeante",
-    "paras": [
-      "Au cœur de Lyon, sur les quais du Rhône, à proximité de tous les transports en commun et parkings, l'Étude ODIN-BLONDOT et ses collaborateurs vous accueillent et vous accompagnent dans vos décisions patrimoniales."
+  {
+   "kind": "blocks",
+   "id": "competences",
+   "eyebrow": "Particuliers et entreprises",
+   "title": "Les domaines <em class=\"it\">dans lesquels l'étude vous accompagne</em>",
+   "items": [
+    {
+     "title": "Droit de la famille",
+     "paras": [
+      "Union libre, PACS, mariage et remariage, divorce… Le droit de la famille ne cesse d'évoluer pour s'adapter à la société. Votre notaire vous aidera à y voir plus clair et à prendre les bonnes décisions."
+     ]
+    },
+    {
+     "title": "Le patrimoine",
+     "paras": [
+      "Testament, donation, partage de la succession, relations entre les héritiers… Pas toujours facile de s'y retrouver et de ne pas faire d'erreur. Votre notaire saura vous guider pour réussir au mieux la transmission de votre patrimoine et éviter les conflits familiaux."
+     ]
+    },
+    {
+     "title": "Le droit immobilier",
+     "paras": [
+      "Que ce soit pour y vivre ou investir, l'immobilier est le placement favori des Français. Votre notaire est la personne appropriée pour vous aider à réussir votre projet de vente ou d'achat."
+     ]
+    },
+    {
+     "title": "Le droit de l'entreprise",
+     "paras": [
+      "Les notaires offrent des prestations de conseils aux chefs d'entreprise. Ils abordent le droit de l'entreprise dans tous ses aspects : choix de la forme la mieux adaptée au projet."
+     ]
+    },
+    {
+     "title": "L'expertise",
+     "paras": [
+      "L'expertise immobilière réalisée par votre notaire permet de connaître la vraie valeur d'un bien immobilier à l'instant T. Cela sera d'une grande utilité lors de sa vente, mais aussi pour le règlement d'une succession, un investissement ou vos déclarations d'impôts."
+     ]
+    },
+    {
+     "title": "En détail",
+     "list": [
+      "achat et vente de biens immobiliers, financement",
+      "évaluation immobilière",
+      "divorce, partage",
+      "succession, donation",
+      "baux d'habitation et commerciaux",
+      "conseil en patrimoine et en investissement",
+      "lotissement, mise en copropriété",
+      "création et liquidation de société"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "informations",
+   "dark": true,
+   "eyebrow": "Actualités juridiques",
+   "title": "Actualités juridiques <em class=\"it\">et lettre d'information</em>",
+   "lead": "L'étude met à disposition des actualités immobilières, juridiques et fiscales, ainsi qu'une lettre d'information gratuite. Derniers sujets publiés :",
+   "items": [
+    {
+     "kicker": "Actualité juridique",
+     "title": "Hauteur sous plafond : pourquoi le volume redevient essentiel"
+    },
+    {
+     "kicker": "Actualité juridique",
+     "title": "Comment estimer correctement son bien immobilier ?"
+    },
+    {
+     "kicker": "Actualité juridique",
+     "title": "Acheter un bien en famille : SCI ou indivision ?"
+    }
+   ],
+   "note": "<a href=\"https://www.notaires-lyon6.fr/actualites-juridiques.html\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Toutes les actualités juridiques de l'étude</a>"
+  },
+  {
+   "kind": "blocks",
+   "id": "liens",
+   "eyebrow": "Liens pratiques",
+   "title": "Liens <em class=\"it\">utiles</em>",
+   "items": [
+    {
+     "title": "Le portail de l'administration française",
+     "link": [
+      "service-public.fr",
+      "https://www.service-public.fr"
+     ]
+    },
+    {
+     "title": "Le service public de la diffusion du droit",
+     "link": [
+      "legifrance.gouv.fr",
+      "https://www.legifrance.gouv.fr/"
+     ]
+    },
+    {
+     "title": "Le portail de la profession notariale",
+     "link": [
+      "notaires.fr/fr",
+      "https://www.notaires.fr/fr"
+     ]
+    },
+    {
+     "title": "L'immobilier des notaires",
+     "link": [
+      "immonot.com",
+      "https://www.immonot.com/"
+     ]
+    },
+    {
+     "title": "Chambre des notaires du Rhône",
+     "link": [
+      "chambre-rhone.notaires.fr",
+      "https://www.chambre-rhone.notaires.fr"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Réception sur rendez-vous",
+   "title": "Venir à l'étude, <em class=\"it\">prendre rendez-vous</em>",
+   "text": "SELARL Grégoire ODIN, Edouard BLONDOT, 23 quai Sarrail, 69006 Lyon.",
+   "rows": [
+    [
+     "Adresse",
+     "23 quai Sarrail<br>69006 Lyon"
     ],
-    "quote": "Un office notarial à votre écoute : un notaire et son collaborateur direct à la disposition de chaque client.",
-    "ledger": [
-      {"date": "8 juin 1965", "text": "Création de l'office par Me Raymond-Sylvain THOMAS, 1 cours Lafayette, Lyon 6e."},
-      {"date": "2 octobre 1990", "text": "SCP « Raymond-Sylvain et Olivier THOMAS », 23 quai Sarrail, Lyon 6e (jusqu'au 11 décembre 1997)."},
-      {"date": "12 décembre 1997", "text": "SCP « Olivier THOMAS et Xavier COURBON », 23 quai Sarrail, Lyon 6e."},
-      {"date": "Aujourd'hui", "text": "<strong>SELARL Grégoire ODIN, Edouard BLONDOT</strong>, notaires, 23 quai Sarrail, Lyon 6e.", "now": true}
-    ]
-  },
-  "competences": {
-    "margin": "Compétences",
-    "sub": "Particuliers et entreprises",
-    "title": "Les domaines dans lesquels l'étude vous accompagne",
-    "items": [
-      {"title": "Droit de la famille", "text": "Union libre, PACS, mariage et remariage, divorce… Le droit de la famille ne cesse d'évoluer pour s'adapter à la société. Votre notaire vous aidera à y voir plus clair et à prendre les bonnes décisions."},
-      {"title": "Le patrimoine", "text": "Testament, donation, partage de la succession, relations entre les héritiers… Pas toujours facile de s'y retrouver et de ne pas faire d'erreur. Votre notaire saura vous guider pour réussir au mieux la transmission de votre patrimoine et éviter les conflits familiaux."},
-      {"title": "Le droit immobilier", "text": "Que ce soit pour y vivre ou investir, l'immobilier est le placement favori des Français. Votre notaire est la personne appropriée pour vous aider à réussir votre projet de vente ou d'achat."},
-      {"title": "Le droit de l'entreprise", "text": "Les notaires offrent des prestations de conseils aux chefs d'entreprise. Ils abordent le droit de l'entreprise dans tous ses aspects : choix de la forme la mieux adaptée au projet."},
-      {"title": "L'expertise", "text": "L'expertise immobilière réalisée par votre notaire permet de connaître la vraie valeur d'un bien immobilier à l'instant T. Cela sera d'une grande utilité lors de sa vente, mais aussi pour le règlement d'une succession, un investissement ou vos déclarations d'impôts."}
+    [
+     "Téléphone",
+     "<a href=\"tel:+33478521524\">04 78 52 15 24</a>"
     ],
-    "list": "En détail : achat et vente de biens immobiliers, financement ; évaluation immobilière ; divorce, partage ; succession, donation ; baux d'habitation et commerciaux ; conseil en patrimoine et en investissement ; lotissement, mise en copropriété ; création et liquidation de société."
-  },
-  "contact": {
-    "title": "Venir à l'étude, prendre rendez-vous",
-    "sub": "Réception sur rendez-vous",
-    "name": "SELARL Grégoire ODIN, Edouard BLONDOT",
-    "address": "23 quai Sarrail, 69006 Lyon",
-    "phone": "04 78 52 15 24", "tel": "+33478521524",
-    "email": "odin-blondot@69109.notaires.fr",
-    "map_q": "23 Quai Sarrail, 69006 Lyon",
-    "hours": [
-      ["Standard téléphonique", "Du lundi au jeudi : 9h à 12h et 14h à 18h ; le vendredi jusqu'à 17h"],
-      ["Réception clientèle", "Sur rendez-vous, entre 9h et 19h non stop"],
-      ["Fermeture", "Samedi et dimanche"],
-      ["Stationnement", "Parkings Lyon Parc Auto : Cordeliers, Morand et Lafayette"]
+    [
+     "E-mail",
+     "<a href=\"mailto:odin-blondot@69109.notaires.fr\">odin-blondot@69109.notaires.fr</a>"
+    ],
+    [
+     "Standard téléphonique",
+     "Du lundi au jeudi : 9h à 12h et 14h à 18h ; le vendredi jusqu'à 17h"
+    ],
+    [
+     "Réception clientèle",
+     "Sur rendez-vous, entre 9h et 19h non stop"
+    ],
+    [
+     "Fermeture",
+     "Samedi et dimanche"
+    ],
+    [
+     "Stationnement",
+     "Parkings Lyon Parc Auto : Cordeliers, Morand et Lafayette"
     ]
-  },
-  "news": {
-    "margin": "Informations",
-    "sub": "Actualités juridiques",
-    "title": "Actualités juridiques et lettre d'information",
-    "text": "L'étude met à disposition des actualités immobilières, juridiques et fiscales, ainsi qu'une lettre d'information gratuite. Derniers sujets publiés :",
-    "titles": ["Hauteur sous plafond : pourquoi le volume redevient essentiel", "Comment estimer correctement son bien immobilier ?", "Acheter un bien en famille : SCI ou indivision ?"],
-    "url": "https://www.notaires-lyon6.fr/actualites-juridiques.html"
-  },
-  "useful": {
-    "margin": "Liens pratiques",
-    "title": "Liens utiles",
-    "items": [
-      ["Le portail de l'administration française", "https://www.service-public.fr"],
-      ["Le service public de la diffusion du droit", "https://www.legifrance.gouv.fr/"],
-      ["Le portail de la profession notariale", "https://www.notaires.fr/fr"],
-      ["L'immobilier des notaires", "https://www.immonot.com/"],
-      ["Chambre des notaires du Rhône", "https://www.chambre-rhone.notaires.fr"]
-    ]
-  },
-  "footer": {
-    "about": "Successeurs de Me Olivier THOMAS et Me Xavier COURBON. Office créé le 8 juin 1965.",
-    "chamber": "Notaires, officiers publics, membres de la Chambre des notaires du Rhône.",
-    "legal": [
-      "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon (69). SIRET 380 319 814 00022. TVA FR58 380 319 814.",
-      "Médiation : Médiateur du notariat, 60 boulevard de la Tour-Maubourg, 75007 Paris, mediateurdunotariat@notaires.fr.",
-      "Mentions légales et protection des données : sur le site actuel de l'étude."
-    ]
+   ],
+   "cta": [
+    "Demander un rendez-vous",
+    "mailto:odin-blondot@69109.notaires.fr?subject=Demande%20de%20rendez-vous"
+   ],
+   "map_q": "23 Quai Sarrail, 69006 Lyon"
   }
+ ],
+ "footer": {
+  "about": "Successeurs de Me Olivier THOMAS et Me Xavier COURBON. Office créé le 8 juin 1965. Notaires, officiers publics, membres de la Chambre des notaires du Rhône.",
+  "contact": [
+   "<a href=\"tel:+33478521524\">04 78 52 15 24</a>",
+   "<a href=\"mailto:odin-blondot@69109.notaires.fr\">odin-blondot@69109.notaires.fr</a>",
+   "23 quai Sarrail, 69006 Lyon"
+  ],
+  "legal": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon (69). SIRET 380 319 814 00022. TVA FR58 380 319 814. Médiation : Médiateur du notariat, 60 boulevard de la Tour-Maubourg, 75007 Paris, mediateurdunotariat@notaires.fr. Mentions légales et protection des données : sur le site actuel de l'étude."
+ }
 }
