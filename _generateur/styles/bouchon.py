@@ -43,6 +43,7 @@ h2.big{font-size:clamp(2.1rem,4.6vw,3.6rem);color:var(--ink)}
 .story{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(28px,5vw,70px);align-items:center}
 .story img{width:100%%;aspect-ratio:1;object-fit:cover;background:#ddd}
 .story p{margin-top:16px;max-width:60ch}.story .sig{font-family:Caveat,cursive;font-size:1.7rem;color:var(--red);margin-top:18px}
+.logos{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:24px}.logos img{height:70px;width:auto;max-width:100%%;object-fit:contain}
 @media(max-width:820px){.story{grid-template-columns:minmax(0,1fr)}}
 /* carte */
 .carte{padding:clamp(40px,7vw,90px) 0}
@@ -120,7 +121,7 @@ def render(d):
 <div class="media">{media}</div></div>
 <div class="facts"><ul>{facts}</ul></div>
 <section id="maison"><div class="w story"><img src="{a(s["img"])}" alt="{a(s.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">
-<div><h2 class="big slab">{e(s["title"])}</h2>{"".join(f"<p>{p}</p>" for p in s["paras"])}<p class="sig">{e(s.get("sign", ""))}</p></div></div></section>
+<div><h2 class="big slab">{e(s["title"])}</h2>{"".join(f"<p>{p}</p>" for p in s["paras"])}<p class="sig">{e(s.get("sign", ""))}</p>{('<div class="logos">' + "".join(f'<img src="{a(u)}" alt="{a(al)}" loading="lazy" referrerpolicy="no-referrer">' for u, al in s["logos"]) + '</div>') if s.get("logos") else ""}</div></div></section>
 <section class="carte gingham" id="carte"><div class="w"><div class="sheet"><header><h2 class="slab">{e(m["title"])}</h2><p class="sub">{e(m["sub"])}</p></header>
 {secs}{stamp}<p class="note">{e(m.get("note", ""))}</p></div></div></section>
 <section id="cave"><div class="w cave"><div><h2 class="big slab">{e(cave["title"])}</h2><p style="margin-top:14px;max-width:46ch">{e(cave["lead"])}</p></div>

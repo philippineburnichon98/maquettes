@@ -78,7 +78,17 @@
    "En cuisine, le chef Cédric Garin, passé par le Victoria Hall remarqué par le Gault &amp; Millau et membre des Toques Blanches lyonnaises, défend les produits locaux et de saison, et prépare tout à la maison.",
    "Les recettes de tradition, revisitées avec soin ; un décor de bouchon modernisé, jusqu'aux serviettes à carreaux."
   ],
-  "sign": "Cédric Garin, chef"
+  "sign": "Cédric Garin, chef",
+  "logos": [
+   [
+    "https://www.bouchondescordeliers.com/wp-content/uploads/2020/02/logos.jpg",
+    "Labels et partenaires du Bouchon des Cordeliers"
+   ],
+   [
+    "https://www.tripadvisor.fr/img/cdsi/img2/awards/v2/tchotel_2020_LL-14348-2.png",
+    "Tripadvisor Travellers' Choice 2020"
+   ]
+  ]
  },
  "menu": {
   "title": "La carte",
