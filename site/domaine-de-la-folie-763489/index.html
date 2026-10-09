@@ -104,7 +104,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .card dl.sheet dt{color:var(--muted)}.card dl.sheet dd{margin:0}
 .menu.solo{grid-template-columns:minmax(0,760px);justify-content:center}
 .tl{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.25);margin-top:50px}
-.tl li{padding:22px 20px 0 0;position:relative}.tl li::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--gold)}
+@media(min-width:961px){.tl[style]{grid-template-columns:repeat(min(var(--n),6),minmax(0,1fr))}}.tl li{padding:22px 20px 0 0;position:relative}.tl li::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--gold)}
 .tl time{font-family:var(--serif);color:var(--gold);font-size:1.1rem}.tl h3{font-size:1.3rem;margin:6px 0 10px;color:#fff}.tl p{font-size:.88rem;opacity:.72}
 @media(max-width:960px){.tl{grid-template-columns:1fr;border-top:0;border-left:1px solid rgba(255,255,255,.25)}.tl li{padding:0 0 30px 26px}.tl li::before{top:8px;left:-5px}}
 .tlimgs{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}.tlimgs img{height:130px;width:auto;object-fit:contain}
@@ -148,6 +148,20 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 @media(max-width:760px){footer .top{grid-template-columns:1fr}}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .9s,transform .9s}.rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+.solo-text{max-width:820px}.solo-text h2{margin:16px 0 26px}.solo-text p{margin-bottom:18px;color:color-mix(in srgb,var(--ink) 85%,transparent)}
+.blocks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:22px}
+.blk{background:#fff;border:1px solid var(--line);padding:30px 26px;min-width:0;display:flex;flex-direction:column}
+.blk .bi{width:calc(100% + 52px);margin:-30px -26px 22px;aspect-ratio:4/3;object-fit:cover;background:var(--paper-2)}
+.blk .bi.contain{object-fit:contain;background:#fff;padding:14px}
+.blk .k{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.blk h3{font-size:1.35rem;margin:6px 0 12px}.blk p{font-size:.92rem;color:var(--muted);margin-bottom:10px}
+.blk ul{list-style:none;margin-top:4px}.blk li{font-size:.92rem;padding:8px 0 8px 18px;border-bottom:1px dashed var(--line);position:relative}
+.blk li::before{content:"";position:absolute;left:0;top:1.05em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.blk a{border-bottom:1px solid var(--gold)}.blk .more{margin-top:auto;padding-top:14px;font-size:.85rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.chips span{border:1px solid var(--line);background:#fff;padding:7px 14px;border-radius:999px;font-size:.85rem}
+.dark .blk{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.14)}.dark .blk p{color:rgba(255,255,255,.7)}.dark .blk li{border-color:rgba(255,255,255,.14)}
+.dark .head p{color:rgba(255,255,255,.7)}.dark .chips span{background:transparent;border-color:rgba(255,255,255,.25)}
+.visit.nomap{grid-template-columns:1fr}
 .fyce{position:fixed;left:16px;bottom:16px;z-index:90;display:flex;align-items:center;gap:12px;max-width:calc(100% - 32px);background:rgba(20,18,16,.92);color:#f6f1e9;backdrop-filter:blur(8px);padding:10px 12px 10px 16px;border-radius:999px;font:400 .78rem/1.3 system-ui,sans-serif;box-shadow:0 10px 30px -10px rgba(0,0,0,.5)}
 .fyce b{font-weight:600}.fyce a{color:#f0d9b5;text-decoration:underline;text-underline-offset:2px}
 .fyce button{background:none;border:0;color:#f6f1e9;opacity:.7;cursor:pointer;font-size:1.1rem;line-height:1;padding:0 4px}
@@ -199,7 +213,7 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 <h2>Venez goûter le terroir<br><em>là où il naît</em></h2><a href="#contact" class="btn ghost">Prendre rendez-vous</a></div></div><section id="contact" style="padding-top:0"><div class="wrap"><div class="visit rv"><div class="info">
 <span class="eyebrow">Nous rendre visite</span><h2>Dégustations <em class="it">sur rendez-vous</em></h2><p style="color:var(--muted)">Le caveau vous accueille selon nos disponibilités. Écrivez-nous ou appelez-nous pour convenir d&#x27;un moment.</p>
 <dl><dt>Adresse</dt><dd>Domaine de la Folie<br>71150 Chagny</dd><dt>Téléphone</dt><dd><a href="tel:+33385871859">03 85 87 18 59</a><br><a href="tel:+33661539149">06 61 53 91 49</a></dd><dt>E-mail</dt><dd><a href="mailto:contact@domainedelafolie.fr">contact@domainedelafolie.fr</a></dd><dt>Ou encore</dt><dd><a href="mailto:domainedelafolie@sfr.fr">domainedelafolie@sfr.fr</a></dd></dl><a class="btn solid" href="mailto:contact@domainedelafolie.fr?subject=Demande%20de%20d%C3%A9gustation">Écrire au domaine</a></div>
-<iframe title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q=46.89476%2C4.74158&amp;z=15&amp;output=embed"></iframe></div></div></section>
+<iframe title="Plan d’accès" loading="lazy" src="https://maps.google.com/maps?q=46.89476%2C4.74158&amp;z=15&amp;output=embed"></iframe></div></div></section>
 <footer><div class="wrap"><div class="top"><div><div class="flogo"><img src="https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/iffc94ea801ef3f63/version/1517318236/image.png" alt="Domaine de la Folie" style="height:54px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Grands vins de Bourgogne en appellation Rully, à Chagny.</p></div>
 <div><h4>Explorer</h4><ul><li><a href="#domaine">Le domaine</a></li><li><a href="#histoire">Histoire</a></li><li><a href="#vins">Vins &amp; spiritueux</a></li><li><a href="#photos">Photos</a></li><li><a href="#contact">Nous rendre visite</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="tel:+33385871859">03 85 87 18 59</a></li><li><a href="mailto:contact@domainedelafolie.fr">contact@domainedelafolie.fr</a></li><li>71150 Chagny</li></ul></div></div>

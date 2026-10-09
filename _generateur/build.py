@@ -115,7 +115,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .card dl.sheet dt{color:var(--muted)}.card dl.sheet dd{margin:0}
 .menu.solo{grid-template-columns:minmax(0,760px);justify-content:center}
 .tl{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.25);margin-top:50px}
-.tl li{padding:22px 20px 0 0;position:relative}.tl li::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%%;background:var(--gold)}
+@media(min-width:961px){.tl[style]{grid-template-columns:repeat(min(var(--n),6),minmax(0,1fr))}}.tl li{padding:22px 20px 0 0;position:relative}.tl li::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%%;background:var(--gold)}
 .tl time{font-family:var(--serif);color:var(--gold);font-size:1.1rem}.tl h3{font-size:1.3rem;margin:6px 0 10px;color:#fff}.tl p{font-size:.88rem;opacity:.72}
 @media(max-width:960px){.tl{grid-template-columns:1fr;border-top:0;border-left:1px solid rgba(255,255,255,.25)}.tl li{padding:0 0 30px 26px}.tl li::before{top:8px;left:-5px}}
 .tlimgs{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}.tlimgs img{height:130px;width:auto;object-fit:contain}
@@ -159,6 +159,20 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 @media(max-width:760px){footer .top{grid-template-columns:1fr}}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .9s,transform .9s}.rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+.solo-text{max-width:820px}.solo-text h2{margin:16px 0 26px}.solo-text p{margin-bottom:18px;color:color-mix(in srgb,var(--ink) 85%%,transparent)}
+.blocks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%%,290px),1fr));gap:22px}
+.blk{background:#fff;border:1px solid var(--line);padding:30px 26px;min-width:0;display:flex;flex-direction:column}
+.blk .bi{width:calc(100%% + 52px);margin:-30px -26px 22px;aspect-ratio:4/3;object-fit:cover;background:var(--paper-2)}
+.blk .bi.contain{object-fit:contain;background:#fff;padding:14px}
+.blk .k{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.blk h3{font-size:1.35rem;margin:6px 0 12px}.blk p{font-size:.92rem;color:var(--muted);margin-bottom:10px}
+.blk ul{list-style:none;margin-top:4px}.blk li{font-size:.92rem;padding:8px 0 8px 18px;border-bottom:1px dashed var(--line);position:relative}
+.blk li::before{content:"";position:absolute;left:0;top:1.05em;width:6px;height:6px;border-radius:50%%;background:var(--accent)}
+.blk a{border-bottom:1px solid var(--gold)}.blk .more{margin-top:auto;padding-top:14px;font-size:.85rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.chips span{border:1px solid var(--line);background:#fff;padding:7px 14px;border-radius:999px;font-size:.85rem}
+.dark .blk{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.14)}.dark .blk p{color:rgba(255,255,255,.7)}.dark .blk li{border-color:rgba(255,255,255,.14)}
+.dark .head p{color:rgba(255,255,255,.7)}.dark .chips span{background:transparent;border-color:rgba(255,255,255,.25)}
+.visit.nomap{grid-template-columns:1fr}
 .fyce{position:fixed;left:16px;bottom:16px;z-index:90;display:flex;align-items:center;gap:12px;max-width:calc(100%% - 32px);background:rgba(20,18,16,.92);color:#f6f1e9;backdrop-filter:blur(8px);padding:10px 12px 10px 16px;border-radius:999px;font:400 .78rem/1.3 system-ui,sans-serif;box-shadow:0 10px 30px -10px rgba(0,0,0,.5)}
 .fyce b{font-weight:600}.fyce a{color:#f0d9b5;text-decoration:underline;text-underline-offset:2px}
 .fyce button{background:none;border:0;color:#f6f1e9;opacity:.7;cursor:pointer;font-size:1.1rem;line-height:1;padding:0 4px}
@@ -189,6 +203,13 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 
 
 def section_story(s):
+    if not s.get("img"):
+        paras = "".join(f"<p>{p}</p>" for p in s["paras"])
+        sign = f'<p class="sign">{e(s["sign"])}</p>' if s.get("sign") else ""
+        if s.get("logos"):
+            sign += '<div class="labels">' + "".join(f'<img src="{attr(u)}" alt="{attr(al)}" loading="lazy" referrerpolicy="no-referrer">' for u, al in s["logos"]) + '</div>'
+        cls = ' class="dark"' if s.get("dark") else ""
+        return f'''<section id="{s["id"]}"{cls}><div class="wrap"><div class="solo-text rv"><span class="eyebrow">{e(s["eyebrow"])}</span><h2>{s["title"]}</h2>{paras}{sign}</div></div></section>'''
     paras = "".join(f"<p>{p}</p>" for p in s["paras"])
     sign = f'<p class="sign">{e(s["sign"])}</p>' if s.get("sign") else ""
     if s.get("logos"):
@@ -216,15 +237,15 @@ def section_features(f):
 
 
 def section_cards(o):
-    tabs = '<button aria-pressed="true" data-f="all">Tout</button>' + "".join(
-        f'<button aria-pressed="false" data-f="{k}">{e(v)}</button>' for k, v in o["tabs"])
+    tabs = ('<div class="tabs" role="group"><button aria-pressed="true" data-f="all">Tout</button>' + "".join(
+        f'<button aria-pressed="false" data-f="{k}">{e(v)}</button>' for k, v in o["tabs"]) + '</div>') if o.get("tabs") else ""
     cards = []
     for c in o["items"]:
         badge = f'<span class="badge">{e(c["badge"])}</span>' if c.get("badge") else ""
         price = ""
         if c.get("price"):
             price = f'<div class="price"><span>{e(c.get("fmt", "Bouteille 75 cl"))}</span><b>{e(c["price"])}</b></div>'
-        sil = f'<svg class="bimg" viewBox="0 0 40 120" aria-hidden="true"><path d="M16 2h8v30c0 6 10 10 10 22v58a6 6 0 0 1-6 6H12a6 6 0 0 1-6-6V54c0-12 10-16 10-22z" fill="{c["color"]}" opacity=".85"/><rect x="10" y="66" width="20" height="28" fill="#fff" opacity=".9"/></svg>'
+        sil = f'<svg class="bimg" viewBox="0 0 40 120" aria-hidden="true"><path d="M16 2h8v30c0 6 10 10 10 22v58a6 6 0 0 1-6 6H12a6 6 0 0 1-6-6V54c0-12 10-16 10-22z" fill="{c.get("color", "#777")}" opacity=".85"/><rect x="10" y="66" width="20" height="28" fill="#fff" opacity=".9"/></svg>'
         if c.get("img"):
             img = f'<img class="bimg" src="{attr(c["img"])}" alt="{attr(c["name"])}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=this.dataset.sil" data-sil="{attr(sil)}">'
         elif any(x.get("img") for x in o["items"]):
@@ -232,12 +253,12 @@ def section_cards(o):
         else:
             img = ""
         medal = f'<div class="medal">{e(c["medal"])}</div>' if c.get("medal") else ""
-        cards.append(f'''<article class="card" data-cat="{c["cat"]}" style="--c:{c["color"]}">{badge}{img}
-<span class="tag">{e(c["tag"])}</span><h3>{e(c["name"])}</h3><div class="app">{e(c["app"])}</div>
+        cards.append(f'''<article class="card" data-cat="{c.get("cat", "")}" style="--c:{c.get("color", "var(--accent)")}">{badge}{img}
+{f'<span class="tag">{e(c["tag"])}</span>' if c.get("tag") else ""}<h3>{e(c["name"])}</h3>{f'<div class="app">{e(c["app"])}</div>' if c.get("app") else ""}
 <p>{e(c.get("desc", ""))}</p>{('<dl class="sheet">' + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in c["sheet"]) + "</dl>") if c.get("sheet") else ""}{medal}{price}</article>''')
     note = f'<p class="note">{e(o["note"])}</p>' if o.get("note") else ""
     return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
-<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="tabs" role="group">{tabs}</div>
+<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div>{tabs}
 <div class="grid">{"".join(cards)}</div>{note}</div></section>'''
 
 
@@ -370,8 +391,10 @@ def section_resaform(r):
 def section_timeline(t):
     lis = "".join(f'<li><time>{e(x["when"])}</time><h3>{e(x["who"])}</h3><p>{e(x["text"])}</p></li>' for x in t["items"])
     imgs = "".join(f'<img src="{attr(u)}" alt="" loading="lazy" referrerpolicy="no-referrer">' for u in t.get("imgs", []))
+    n = len(t["items"])
+    tlst = f' style="--n:{n}"' if n != 5 else ""
     return f'''<section id="{t.get("id", "histoire")}" class="dark"><div class="wrap"><div class="rv" style="max-width:680px"><span class="eyebrow">{e(t["eyebrow"])}</span>
-<h2 style="margin:14px 0 16px">{t["title"]}</h2><p style="opacity:.8">{e(t.get("lead", ""))}</p></div>{f'<div class="tlimgs">{imgs}</div>' if imgs else ""}<ol class="tl rv">{lis}</ol></div></section>'''
+<h2 style="margin:14px 0 16px">{t["title"]}</h2><p style="opacity:.8">{e(t.get("lead", ""))}</p></div>{f'<div class="tlimgs">{imgs}</div>' if imgs else ""}<ol class="tl rv"{tlst}>{lis}</ol></div></section>'''
 
 
 def section_gallery(g):
@@ -390,13 +413,34 @@ def section_banner(b):
 
 def section_visit(v):
     rows = "".join(f"<dt>{e(k)}</dt><dd>{val}</dd>" for k, val in v["rows"])
-    q = urllib.parse.quote(v["map_q"])
+    q = urllib.parse.quote(v.get("map_q", ""))
     cta = v["cta"]
     tgt = ' target="_blank" rel="noopener"' if cta[1].startswith("http") else ""
-    return f'''<section id="contact" style="padding-top:0"><div class="wrap"><div class="visit rv"><div class="info">
+    return f'''<section id="{v.get("id", "contact")}" style="padding-top:0"><div class="wrap"><div class="visit{"" if v.get("map_q") else " nomap"} rv"><div class="info">
 <span class="eyebrow">{e(v["eyebrow"])}</span><h2>{v["title"]}</h2><p style="color:var(--muted)">{e(v.get("text", ""))}</p>
 <dl>{rows}</dl><a class="btn solid" href="{attr(cta[1])}"{tgt}>{e(cta[0])}</a></div>
-<iframe title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q={q}&amp;z=15&amp;output=embed"></iframe></div></div></section>'''
+{f'<iframe title="Plan d’accès" loading="lazy" src="https://maps.google.com/maps?q={q}&amp;z=15&amp;output=embed"></iframe>' if v.get("map_q") else ""}</div></div></section>'''
+
+
+def section_blocks(b):
+    """Rubriques génériques (prestations, compétences, actualités, presse, liens utiles, communes…) : cartes avec photo, texte, liste."""
+    out = []
+    for x in b.get("items", []):
+        img = f'<img class="bi{" contain" if x.get("contain") else ""}" src="{attr(x["img"])}" alt="{attr(x.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">' if x.get("img") else ""
+        k = f'<span class="k">{e(x["kicker"])}</span>' if x.get("kicker") else ""
+        h = f'<h3>{x["title"]}</h3>' if x.get("title") else ""
+        ps = "".join(f"<p>{p}</p>" for p in x.get("paras", []))
+        ul = ("<ul>" + "".join(f"<li>{i}</li>" for i in x["list"]) + "</ul>") if x.get("list") else ""
+        more = f'<p class="more"><a href="{attr(x["link"][1])}"{" target=\"_blank\" rel=\"noopener\"" if x["link"][1].startswith("http") else ""}>{e(x["link"][0])}</a></p>' if x.get("link") else ""
+        out.append(f'<article class="blk">{img}{k}{h}{ps}{ul}{more}</article>')
+    chips = ('<div class="chips">' + "".join(f"<span>{e(c)}</span>" for c in b["chips"]) + "</div>") if b.get("chips") else ""
+    note = f'<p class="note">{b["note"]}</p>' if b.get("note") else ""
+    cls = ' class="dark"' if b.get("dark") else ""
+    pad = ' style="padding-top:0"' if b.get("tight") else ""
+    lead = f'<p>{b["lead"]}</p>' if b.get("lead") else ""
+    grid = f'<div class="blocks rv">{"".join(out)}</div>' if out else ""
+    return f'''<section id="{b.get("id", "rubriques")}"{cls}{pad}><div class="wrap"><div class="head rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
+<h2>{b["title"]}</h2>{lead}</div>{grid}{chips}{note}</div></section>'''
 
 
 ANALYTICS_JS = r"""<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
@@ -419,13 +463,13 @@ def build(d):
     css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
     h = d["hero"]
     nav = "".join(f'<a href="#{i}">{e(l)}</a>' for i, l in d["nav"])
-    figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d["figures"])
+    figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d.get("figures", []))
     blocks = []
     for blk in d["sections"]:
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
@@ -473,10 +517,10 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <header{hcls}><div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
-<section class="hero" id="accueil" style="background-image:url('{attr(h["img"])}')">{f'<video class="hv" autoplay muted loop playsinline poster="{attr(h["img"])}"><source src="{attr(h["video"])}" type="video/mp4"></video>' if h.get("video") else ""}<div class="wrap">
+<section class="hero" id="accueil" style="{("background-image:url('" + attr(h["img"]) + "')") if h.get("img") else "background:var(--ink)"}">{f'<video class="hv" autoplay muted loop playsinline poster="{attr(h["img"])}"><source src="{attr(h["video"])}" type="video/mp4"></video>' if h.get("video") else ""}<div class="wrap">
 <span class="eyebrow">{e(h["eyebrow"])}</span><h1>{h["title"]}</h1><p>{e(h["lead"])}</p>
 <div class="ctas"><a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])}</a><a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a></div></div></section>
-<div class="figures"><div class="wrap">{figs}</div></div>
+{f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs else ""}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p></div>
