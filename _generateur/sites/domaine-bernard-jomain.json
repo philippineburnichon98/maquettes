@@ -1,0 +1,345 @@
+{
+  "slug": "domaine-bernard-jomain-2d7c93",
+  "title": "Domaine Bernard Jomain — Vigneron à Charentay, Brouilly",
+  "description": "Brouilly, Côte de Brouilly et Beaujolais-Villages vinifiés au domaine par Bernard Jomain, vigneron à Charentay. Dégustation, vente au caveau et chambre d'hôtes.",
+  "brand": "Domaine Bernard Jomain",
+  "tagline": "Vigneron · Charentay, Beaujolais",
+  "theme": {
+    "paper": "#f5f0ea",
+    "paper2": "#ece2d6",
+    "ink": "#22131c",
+    "muted": "#6b5d64",
+    "accent": "#6b2147",
+    "accent2": "#852b59",
+    "gold": "#b3863f",
+    "heroem": "#f0c9dc",
+    "serif": "\"Fraunces\",Georgia,serif",
+    "sans": "\"Inter\",system-ui,sans-serif",
+    "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap"
+  },
+  "nav": [
+    [
+      "domaine",
+      "Le domaine"
+    ],
+    [
+      "vins",
+      "Nos vins"
+    ],
+    [
+      "chambre",
+      "Chambre d'hôtes"
+    ],
+    [
+      "contact",
+      "Nous rendre visite"
+    ]
+  ],
+  "hero": {
+    "img": "https://static.wixstatic.com/media/aa37fe_42245fd763054eed8a6a965eed4dc5ac~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_2000,h_1333,al_c,q_85/vignes.jpg",
+    "eyebrow": "Brouilly · Côte de Brouilly · Beaujolais-Villages",
+    "title": "Tombé dans<br>le <em>Brouilly</em>",
+    "lead": "Vigneron à Charentay depuis 1990, Bernard Jomain cultive, vinifie et met en bouteille chacun de ses vins au domaine.",
+    "cta1": [
+      "Découvrir nos vins",
+      "#vins"
+    ],
+    "cta2": [
+      "Commander en ligne",
+      "https://commande.domainebernardjomain.com/"
+    ]
+  },
+  "figures": [
+    [
+      "8 ha",
+      "de vignes"
+    ],
+    [
+      "1990",
+      "vigneron depuis"
+    ],
+    [
+      "HVE",
+      "certifié depuis 2019"
+    ],
+    [
+      "16",
+      "cuvées"
+    ]
+  ],
+  "sections": [
+    {
+      "kind": "story",
+      "id": "domaine",
+      "eyebrow": "Le domaine",
+      "title": "Une affaire <em class=\"it\">de famille</em>",
+      "img": "https://static.wixstatic.com/media/aa37fe_4fbe6192aa414795a9d8a001a1498742f000.jpg/v1/fit/w_1200,h_1500,q_85/domaine.jpg",
+      "alt": "Le domaine Bernard Jomain",
+      "paras": [
+        "Issu d'une lignée de vignerons, Bernard Jomain conduit le domaine depuis 1990 : 8 hectares de gamay en Brouilly, Côte de Brouilly et Beaujolais-Villages, et 50 ares de chardonnay.",
+        "Il travaille la vigne dans le plus grand respect de l'environnement, entouré de Patricia et de leurs filles Hélène et Delphine, et d'une équipe saisonnière pour la taille, les travaux d'été et les vendanges.",
+        "Tous les vins sont vinifiés, élevés, sélectionnés et mis en bouteille au domaine."
+      ],
+      "sign": "Bernard, Patricia, Hélène & Delphine"
+    },
+    {
+      "kind": "quote",
+      "eyebrow": "Le mot du vigneron",
+      "text": "« Le Brouilly, je suis tombé dedans lorsque j'étais petit ! »",
+      "sub": "Bernard Jomain"
+    },
+    {
+      "kind": "features",
+      "id": "savoir-faire",
+      "eyebrow": "Savoir-faire",
+      "title": "Le respect du vivant, <em class=\"it\">au quotidien</em>",
+      "lead": "Une viticulture attentive, du cep jusqu'à la bouteille.",
+      "items": [
+        [
+          "Haute Valeur Environnementale",
+          "Le domaine est certifié HVE depuis 2019."
+        ],
+        [
+          "Labour au cheval",
+          "Certaines parcelles sont travaillées au cheval depuis 2017."
+        ],
+        [
+          "Élevages singuliers",
+          "Fût de chêne, et jarres de grès pour les cuvées d'exception."
+        ],
+        [
+          "Tout au domaine",
+          "Vinification, élevage et mise en bouteille sur place."
+        ]
+      ]
+    },
+    {
+      "kind": "cards",
+      "id": "vins",
+      "eyebrow": "La cave",
+      "title": "Nos vins",
+      "lead": "Du Beaujolais-Villages gourmand aux crus de Brouilly élevés en grès.",
+      "tabs": [
+        [
+          "rouge",
+          "Rouges"
+        ],
+        [
+          "blanc",
+          "Blancs"
+        ],
+        [
+          "rose",
+          "Rosés"
+        ],
+        [
+          "bulles",
+          "Bulles"
+        ]
+      ],
+      "items": [
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay",
+          "name": "37° de Folie",
+          "app": "Brouilly 2023",
+          "desc": "Cuvée spéciale numérotée.",
+          "price": "20 €",
+          "badge": "Numérotée"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay · grès",
+          "name": "Strenaé",
+          "app": "Côte de Brouilly",
+          "desc": "Élevée en jarre de grès.",
+          "price": "17 €",
+          "badge": "Grès"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay · fût",
+          "name": "Cuvée Bacchus",
+          "app": "Brouilly",
+          "desc": "Élevée en fût de chêne. Existe aussi en magnum (32 €).",
+          "price": "15 €"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay",
+          "name": "Cuvée des Héritières",
+          "app": "Côte de Brouilly",
+          "desc": "Le cru de la colline, sur les pentes du mont Brouilly.",
+          "price": "11,70 €"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay · vieilles vignes",
+          "name": "Cuvée des Poètes",
+          "app": "Brouilly",
+          "desc": "Vieilles vignes. Aussi en BIB 5 L (33 €) et 10 L (62 €).",
+          "price": "10,70 €"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay · jeunes vignes",
+          "name": "Les Demoiselles",
+          "app": "Brouilly",
+          "desc": "Issue des jeunes vignes du domaine.",
+          "price": "9,10 €"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay",
+          "name": "Copains de Vin",
+          "app": "Beaujolais-Villages 2025",
+          "desc": "Le vin des retrouvailles entre amis.",
+          "price": "9,50 €"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay",
+          "name": "Les Artistes",
+          "app": "Beaujolais-Villages rouge",
+          "desc": "Un Beaujolais-Villages gourmand.",
+          "price": "8,60 €"
+        },
+        {
+          "cat": "rouge",
+          "color": "#6b2147",
+          "tag": "Gamay · primeur",
+          "name": "Nouveau 2026",
+          "app": "Beaujolais-Villages",
+          "desc": "Le primeur de l'année. Aussi en BIB 5 L (30 €).",
+          "price": "8 €",
+          "badge": "Nouveau"
+        },
+        {
+          "cat": "blanc",
+          "color": "#d9b85c",
+          "tag": "Chardonnay · grès",
+          "name": "Trifolium",
+          "app": "Beaujolais-Villages blanc",
+          "desc": "Élevé en jarre de grès.",
+          "price": "17 €",
+          "badge": "Grès"
+        },
+        {
+          "cat": "blanc",
+          "color": "#d9b85c",
+          "tag": "Chardonnay",
+          "name": "La pièce du Père Michel",
+          "app": "Beaujolais-Villages blanc",
+          "desc": "Une cuvée hommage.",
+          "price": "15 €"
+        },
+        {
+          "cat": "blanc",
+          "color": "#d9b85c",
+          "tag": "Chardonnay",
+          "name": "Cuvée des Trèfles",
+          "app": "Beaujolais-Villages blanc",
+          "desc": "Issue des 50 ares de chardonnay du domaine.",
+          "price": "9,60 €"
+        },
+        {
+          "cat": "rose",
+          "color": "#e59aa8",
+          "tag": "Gamay · grès",
+          "name": "Persicus",
+          "app": "Beaujolais-Villages rosé",
+          "desc": "Élevé en jarre de grès.",
+          "price": "13 €",
+          "badge": "Grès"
+        },
+        {
+          "cat": "rose",
+          "color": "#e59aa8",
+          "tag": "Gamay",
+          "name": "Cuvée du Pêcher",
+          "app": "Beaujolais-Villages rosé",
+          "desc": "Le rosé d'été du domaine.",
+          "price": "8 €"
+        },
+        {
+          "cat": "bulles",
+          "color": "#e6d7a8",
+          "tag": "100 % chardonnay",
+          "name": "Crémant de Bourgogne",
+          "app": "Méthode traditionnelle",
+          "desc": "Des bulles fines pour l'apéritif.",
+          "price": "10,50 €"
+        },
+        {
+          "cat": "bulles",
+          "color": "#e59aa8",
+          "tag": "Gamay · 8 % vol.",
+          "name": "Nos Bulles d'Artistes",
+          "app": "Pétillant rosé aromatique",
+          "desc": "Léger et fruité.",
+          "price": "8,90 €"
+        }
+      ],
+      "note": "Tarifs départ cave au 1er septembre 2026. Coffret découverte de 3 bouteilles au choix. Commande en ligne sur la boutique du domaine."
+    },
+    {
+      "kind": "story",
+      "id": "chambre",
+      "eyebrow": "Chambre d'hôtes",
+      "title": "Dormir <em class=\"it\">au domaine</em>",
+      "img": "https://static.wixstatic.com/media/aa37fe_3da3fa518e4943a087af0dca0313dc07~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/chambre.jpg",
+      "alt": "La chambre d'hôtes du domaine",
+      "paras": [
+        "Prolongez la visite : notre chambre d'hôtes indépendante et climatisée vous accueille au cœur des vignes.",
+        "Après la dégustation, un mâchon de charcuteries peut accompagner vos verres, sur réservation.",
+        "Tarifs et disponibilités : contactez-nous par téléphone."
+      ]
+    },
+    {
+      "kind": "visit",
+      "eyebrow": "Nous rendre visite",
+      "title": "Dégustation <em class=\"it\">au caveau</em>",
+      "text": "Le caveau est ouvert tous les jours de 8h à 20h, sur rendez-vous. Mâchon sur réservation.",
+      "rows": [
+        [
+          "Adresse",
+          "La Valette<br>69220 Charentay"
+        ],
+        [
+          "Horaires",
+          "Tous les jours, 8h – 20h<br>sur rendez-vous"
+        ],
+        [
+          "Téléphone",
+          "<a href=\"tel:+33474034760\">04 74 03 47 60</a><br><a href=\"tel:+33680309668\">06 80 30 96 68</a>"
+        ],
+        [
+          "Boutique",
+          "<a href=\"https://commande.domainebernardjomain.com/\" target=\"_blank\" rel=\"noopener\">Commander en ligne</a>"
+        ]
+      ],
+      "cta": [
+        "Appeler le domaine",
+        "tel:+33680309668"
+      ],
+      "map_q": "Domaine Bernard Jomain, Charentay"
+    }
+  ],
+  "footer": {
+    "about": "Vigneron à Charentay, au pied du mont Brouilly, au cœur du Beaujolais.",
+    "contact": [
+      "<a href=\"tel:+33474034760\">04 74 03 47 60</a>",
+      "<a href=\"tel:+33680309668\">06 80 30 96 68</a>",
+      "La Valette, 69220 Charentay"
+    ],
+    "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  }
+}

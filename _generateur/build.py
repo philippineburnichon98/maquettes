@@ -1,0 +1,288 @@
+#!/usr/bin/env python3
+"""Générateur de maquettes Fyce.
+
+Usage : python3 build.py sites/<prospect>.json [...]
+Chaque fichier JSON décrit le contenu d'un prospect ; la page est écrite dans
+../<slug>/index.html (dossier publié par Hostinger). Les maquettes sont toujours
+non indexées et portent le bandeau « Proposition de maquette — Fyce ».
+"""
+import json, sys, html, pathlib, urllib.parse
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+FYCE = {"name": "Philippine Burnichon", "brand": "Fyce", "phone": "06 65 57 16 72",
+        "tel": "+33665571672", "site": "https://fyce.space"}
+
+e = html.escape
+
+
+def attr(s):
+    return html.escape(s, quote=True)
+
+
+CSS = """
+:root{--paper:%(paper)s;--paper-2:%(paper2)s;--ink:%(ink)s;--muted:%(muted)s;--accent:%(accent)s;--accent-2:%(accent2)s;
+--gold:%(gold)s;--line:rgba(0,0,0,.12);--serif:%(serif)s;--sans:%(sans)s;--max:1200px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%%;display:block}a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.eyebrow{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);font-weight:600}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.08;letter-spacing:-.01em}
+h2{font-size:clamp(2.1rem,4.5vw,3.5rem)}h3{font-size:1.5rem}
+em.it,h1 em,h2 em{font-style:italic}
+.btn{display:inline-flex;align-items:center;gap:.6em;padding:14px 28px;border:1px solid currentColor;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;transition:.3s;background:none;cursor:pointer;font-family:var(--sans)}
+.btn.solid{background:var(--accent);border-color:var(--accent);color:#fff}.btn.solid:hover{background:var(--accent-2);border-color:var(--accent-2)}
+.btn.ghost{color:#fff}.btn.ghost:hover{background:#fff;color:var(--ink)}
+header{position:fixed;inset:0 0 auto;z-index:50;transition:background .35s,box-shadow .35s,color .35s;color:#fff}
+header.scrolled{background:color-mix(in srgb,var(--paper) 94%%,transparent);backdrop-filter:blur(10px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:80px}
+.logo{font-family:var(--serif);font-size:1.45rem;line-height:1}
+.logo small{display:block;font-family:var(--sans);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:6px}
+.links{display:flex;gap:32px;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
+.links a{position:relative;padding:6px 0}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%%}
+.burger{display:none;background:none;border:0;color:inherit;cursor:pointer;width:32px;height:32px}.burger span{display:block;height:1px;background:currentColor;margin:7px 0}
+@media(max-width:860px){.links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(-130%%);transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.links a{padding:16px 0;border-bottom:1px solid var(--line)}header.open .links{transform:none}header.open{background:var(--paper);color:var(--ink)}.burger{display:block}}
+.hero{position:relative;min-height:100svh;display:grid;place-items:end start;color:#fff;overflow:hidden;background:#222 center/cover}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%%,rgba(0,0,0,.2) 30%%,rgba(0,0,0,.55) 60%%,rgba(0,0,0,.82) 100%%)}
+.hero .wrap{position:relative;padding-bottom:12vh;width:100%%}
+.hero .eyebrow{display:inline-flex;align-items:center;gap:14px;color:#fff3df;font-size:.8rem;letter-spacing:.22em;text-shadow:0 1px 2px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.55)}
+.hero .eyebrow::before{content:"";width:42px;height:1px;background:currentColor}
+.hero h1{font-size:clamp(2.8rem,8.5vw,7rem);font-weight:400;margin:18px 0 22px;text-shadow:0 2px 20px rgba(0,0,0,.35)}
+.hero h1 em{color:%(heroem)s}
+.hero p{max-width:560px;font-size:1.08rem;opacity:.95;margin-bottom:34px;text-shadow:0 2px 14px rgba(0,0,0,.4)}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+@media(max-width:560px){.hero .eyebrow{font-size:.68rem;letter-spacing:.14em}.hero .eyebrow::before{width:22px}}
+.figures{border-bottom:1px solid var(--line)}.figures .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.fig{padding:44px 16px;text-align:center;border-right:1px solid var(--line)}.fig:last-child{border-right:0}
+.fig b{display:block;font-family:var(--serif);font-weight:400;font-size:3rem;color:var(--accent);line-height:1.05}
+.fig span{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+@media(max-width:760px){.figures .wrap{grid-template-columns:repeat(2,1fr)}.fig:nth-child(2){border-right:0}.fig:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+section{padding:clamp(80px,11vw,140px) 0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,7vw,110px);align-items:center}
+.split .img{aspect-ratio:4/5;background:var(--paper-2) center/cover;position:relative}
+.split .img::after{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--gold);z-index:-1}
+.split h2{margin:16px 0 26px}.split p{margin-bottom:18px;max-width:520px;color:color-mix(in srgb,var(--ink) 85%%,transparent)}
+.sign{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--accent);margin-top:24px}
+@media(max-width:860px){.split{grid-template-columns:1fr}.split .img{aspect-ratio:4/3}}
+.quote{text-align:center;background:var(--paper-2)}
+.quote blockquote{font-family:var(--serif);font-size:clamp(1.7rem,3.6vw,2.8rem);font-style:italic;line-height:1.3;max-width:900px;margin:22px auto 22px;color:var(--accent)}
+.quote p{max-width:600px;margin:0 auto;color:var(--muted)}
+.feat{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:56px}
+.feat div{background:var(--paper);padding:36px 28px}.feat i{font-style:normal;font-family:var(--serif);color:var(--gold)}
+.feat h3{font-size:1.3rem;margin:10px 0}.feat p{font-size:.9rem;color:var(--muted)}
+@media(max-width:960px){.feat{grid-template-columns:1fr 1fr}}@media(max-width:560px){.feat{grid-template-columns:1fr}}
+.dark{background:var(--ink);color:color-mix(in srgb,var(--paper) 90%%,transparent)}
+.dark .feat{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.14)}.dark .feat div{background:var(--ink)}.dark .feat p{color:rgba(255,255,255,.65)}
+.head{text-align:center;max-width:660px;margin:0 auto 46px}.head h2{margin:14px 0 16px}.head p{color:var(--muted)}
+.tabs{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:46px}
+.tabs button{font:inherit;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;padding:11px 20px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;transition:.25s}
+.tabs button[aria-pressed="true"],.tabs button:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.card{background:#fff;border:1px solid var(--line);padding:30px 26px 26px;display:flex;flex-direction:column;transition:transform .35s,box-shadow .35s;position:relative}
+.card:hover{transform:translateY(-5px);box-shadow:0 22px 40px -22px rgba(0,0,0,.35)}
+.card .tag{font-size:.64rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px}
+.card .tag::before{content:"";width:9px;height:9px;border-radius:50%%;background:var(--c)}
+.card h3{margin:12px 0 4px;font-size:1.4rem}.card .app{font-family:var(--serif);font-style:italic;color:var(--accent);margin-bottom:10px}
+.card p{font-size:.88rem;color:var(--muted);flex:1}
+.card .price{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;font-size:.82rem;color:var(--muted)}
+.card .price b{font-family:var(--serif);font-size:1.5rem;font-weight:500;color:var(--ink)}
+.card.hide{display:none}.badge{position:absolute;top:14px;right:14px;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;background:var(--gold);color:#fff;padding:5px 9px}
+.note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:26px}
+.menu{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(30px,5vw,70px);align-items:start}
+.menu .col h3{font-size:1.15rem;letter-spacing:.14em;text-transform:uppercase;font-family:var(--sans);font-weight:600;color:var(--accent);margin:34px 0 10px}
+.menu .col h3:first-child{margin-top:0}
+.menu ul{list-style:none}.menu li{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.menu li span{font-family:var(--serif);font-size:1.18rem}.menu li small{color:var(--muted);font-size:.8rem;white-space:nowrap}
+.menu aside{background:var(--ink);color:var(--paper);padding:38px 34px;position:sticky;top:100px}
+.menu aside h3{font-size:1.9rem;margin-bottom:6px}.menu aside .big{font-family:var(--serif);font-size:3.4rem;color:var(--gold);line-height:1.1}
+.menu aside p{opacity:.8;font-size:.9rem;margin:10px 0 18px}.menu aside ul li{border-color:rgba(255,255,255,.18)}.menu aside li small{color:rgba(255,255,255,.75)}
+@media(max-width:860px){.menu{grid-template-columns:1fr}.menu aside{position:static}}
+.gallery{columns:3 260px;column-gap:14px}
+.gallery button{display:block;width:100%%;margin:0 0 14px;padding:0;border:0;background:var(--paper-2);cursor:zoom-in;overflow:hidden;break-inside:avoid}
+.gallery img{width:100%%;height:auto;transition:transform .6s,filter .4s}.gallery button:hover img{transform:scale(1.04);filter:brightness(.92)}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,8,7,.94);display:grid;grid-template-columns:60px 1fr 60px;align-items:center}.lb[hidden]{display:none}
+.lb figure{text-align:center;padding:20px}.lb img{max-width:100%%;max-height:84vh;margin:0 auto}
+.lb button{background:none;border:0;color:#fff;cursor:pointer;font-size:2.6rem;line-height:1;opacity:.8}.lb .x{position:absolute;top:14px;right:22px}
+.banner{min-height:56vh;display:grid;place-items:center;text-align:center;color:#fff;position:relative;padding:0;background:#333 center/cover fixed}
+.banner::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.55)}.banner>div{position:relative;padding:80px 24px}
+.banner .eyebrow{color:#fff3df}.banner h2{font-weight:400;margin:16px 0 30px}
+@media(max-width:860px){.banner{background-attachment:scroll}}
+.visit{display:grid;grid-template-columns:1.05fr 1fr;background:#fff;border:1px solid var(--line)}
+.visit .info{padding:clamp(34px,6vw,66px)}.visit h2{margin:14px 0 20px}
+.visit dl{display:grid;grid-template-columns:120px 1fr;gap:16px 20px;margin:30px 0 36px;font-size:.95rem}
+.visit dt{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding-top:4px}
+.visit dd a{border-bottom:1px solid var(--gold)}
+.visit iframe{width:100%%;height:100%%;min-height:420px;border:0;filter:grayscale(.3)}
+@media(max-width:860px){.visit{grid-template-columns:1fr}.visit dl{grid-template-columns:1fr;gap:2px}.visit dd{margin-bottom:12px}}
+footer{background:var(--ink);color:color-mix(in srgb,var(--paper) 80%%,transparent);padding:64px 0 96px;font-size:.85rem}
+footer .top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.12)}
+footer .logo{color:#fff}footer h4{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px}
+footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
+footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;padding-top:24px;font-size:.74rem;opacity:.7}
+@media(max-width:760px){footer .top{grid-template-columns:1fr}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s,transform .9s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+.fyce{position:fixed;left:16px;bottom:16px;z-index:90;display:flex;align-items:center;gap:12px;max-width:calc(100%% - 32px);background:rgba(20,18,16,.92);color:#f6f1e9;backdrop-filter:blur(8px);padding:10px 12px 10px 16px;border-radius:999px;font:400 .78rem/1.3 system-ui,sans-serif;box-shadow:0 10px 30px -10px rgba(0,0,0,.5)}
+.fyce b{font-weight:600}.fyce a{color:#f0d9b5;text-decoration:underline;text-underline-offset:2px}
+.fyce button{background:none;border:0;color:#f6f1e9;opacity:.7;cursor:pointer;font-size:1.1rem;line-height:1;padding:0 4px}
+@media(max-width:560px){.fyce{font-size:.7rem;border-radius:14px}}
+"""
+
+JS = """
+const H=document.querySelector('header'),B=document.querySelector('.burger');
+const sc=()=>H.classList.toggle('scrolled',scrollY>40);addEventListener('scroll',sc,{passive:true});sc();
+B.onclick=()=>{const o=H.classList.toggle('open');B.setAttribute('aria-expanded',o)};
+document.querySelectorAll('.links a').forEach(a=>a.onclick=()=>{H.classList.remove('open');B.setAttribute('aria-expanded',false)});
+document.querySelectorAll('.tabs').forEach(t=>{const scope=t.parentElement;t.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+  t.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));const f=b.dataset.f;
+  scope.querySelectorAll('.card').forEach(c=>c.classList.toggle('hide',f!=='all'&&c.dataset.cat!==f));});});
+const G=[...document.querySelectorAll('.gallery button')],L=document.getElementById('lb');let cur=0;
+if(L){const im=L.querySelector('img'),show=i=>{cur=(i+G.length)%G.length;im.src=G[cur].dataset.full;im.alt=G[cur].querySelector('img').alt;L.hidden=false;document.body.style.overflow='hidden'},
+close=()=>{L.hidden=true;document.body.style.overflow=''};
+G.forEach((g,i)=>{g.onclick=()=>show(i);g.querySelector('img').addEventListener('error',()=>g.remove())});
+L.querySelector('.x').onclick=close;L.querySelector('.p').onclick=()=>show(cur-1);L.querySelector('.n').onclick=()=>show(cur+1);
+L.onclick=e=>{if(e.target===L||e.target.tagName==='FIGURE')close()};
+addEventListener('keydown',e=>{if(L.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});}
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.1});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+"""
+
+
+def section_story(s):
+    paras = "".join(f"<p>{p}</p>" for p in s["paras"])
+    sign = f'<p class="sign">{e(s["sign"])}</p>' if s.get("sign") else ""
+    return f'''<section id="{s["id"]}"><div class="wrap split">
+<div class="img rv" style="background-image:url('{attr(s["img"])}')" role="img" aria-label="{attr(s.get("alt", ""))}"></div>
+<div class="rv"><span class="eyebrow">{e(s["eyebrow"])}</span><h2>{s["title"]}</h2>{paras}{sign}</div></div></section>'''
+
+
+def section_quote(q):
+    return f'''<section class="quote"><div class="wrap rv"><span class="eyebrow">{e(q["eyebrow"])}</span>
+<blockquote>{e(q["text"])}</blockquote><p>{e(q.get("sub", ""))}</p></div></section>'''
+
+
+def section_features(f):
+    items = "".join(f'<div><i>{n}.</i><h3>{e(t)}</h3><p>{e(d)}</p></div>'
+                    for n, (t, d) in zip(["I", "II", "III", "IV", "V", "VI"], f["items"]))
+    cls = ' class="dark"' if f.get("dark") else ""
+    return f'''<section id="{f.get("id", "savoir-faire")}"{cls}><div class="wrap">
+<div class="rv" style="max-width:660px"><span class="eyebrow">{e(f["eyebrow"])}</span>
+<h2 style="margin:14px 0 18px">{f["title"]}</h2><p style="opacity:.8">{e(f.get("lead", ""))}</p></div>
+<div class="feat rv">{items}</div></div></section>'''
+
+
+def section_cards(o):
+    tabs = '<button aria-pressed="true" data-f="all">Tout</button>' + "".join(
+        f'<button aria-pressed="false" data-f="{k}">{e(v)}</button>' for k, v in o["tabs"])
+    cards = []
+    for c in o["items"]:
+        badge = f'<span class="badge">{e(c["badge"])}</span>' if c.get("badge") else ""
+        price = ""
+        if c.get("price"):
+            price = f'<div class="price"><span>{e(c.get("fmt", "Bouteille 75 cl"))}</span><b>{e(c["price"])}</b></div>'
+        cards.append(f'''<article class="card" data-cat="{c["cat"]}" style="--c:{c["color"]}">{badge}
+<span class="tag">{e(c["tag"])}</span><h3>{e(c["name"])}</h3><div class="app">{e(c["app"])}</div>
+<p>{e(c.get("desc", ""))}</p>{price}</article>''')
+    note = f'<p class="note">{e(o["note"])}</p>' if o.get("note") else ""
+    return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
+<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="tabs" role="group">{tabs}</div>
+<div class="grid">{"".join(cards)}</div>{note}</div></section>'''
+
+
+def section_menu(o):
+    cols = ""
+    for sec in o["sections"]:
+        lis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1]) if len(i) > 1 else ""}</small></li>' for i in sec["items"])
+        cols += f'<h3>{e(sec["title"])}</h3><ul>{lis}</ul>'
+    a = o["aside"]
+    alis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1])}</small></li>' for i in a.get("items", []))
+    cta = f'<a class="btn solid" style="margin-top:24px" href="{attr(a["cta"][1])}" target="_blank" rel="noopener">{e(a["cta"][0])}</a>' if a.get("cta") else ""
+    note = f'<p class="note" style="text-align:left">{e(o["note"])}</p>' if o.get("note") else ""
+    return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
+<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div>
+<div class="menu"><div class="col rv">{cols}{note}</div>
+<aside class="rv"><span class="eyebrow">{e(a["eyebrow"])}</span><h3>{e(a["title"])}</h3>
+<div class="big">{e(a.get("big", ""))}</div><p>{e(a.get("text", ""))}</p><ul>{alis}</ul>{cta}</aside></div></div></section>'''
+
+
+def section_gallery(g):
+    btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(p["thumb"])}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer"></button>'
+                   for p in g["photos"])
+    return f'''<section id="photos" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
+<h2>{g["title"]}</h2></div><div class="gallery">{btns}</div></div></section>
+<div class="lb" id="lb" role="dialog" aria-modal="true" hidden><button class="x" aria-label="Fermer">×</button>
+<button class="p" aria-label="Précédente">‹</button><figure><img alt="" referrerpolicy="no-referrer"></figure><button class="n" aria-label="Suivante">›</button></div>'''
+
+
+def section_banner(b):
+    return f'''<div class="banner" style="background-image:url('{attr(b["img"])}')"><div class="rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
+<h2>{b["title"]}</h2><a href="{attr(b["cta"][1])}" class="btn ghost">{e(b["cta"][0])}</a></div></div>'''
+
+
+def section_visit(v):
+    rows = "".join(f"<dt>{e(k)}</dt><dd>{val}</dd>" for k, val in v["rows"])
+    q = urllib.parse.quote(v["map_q"])
+    cta = v["cta"]
+    tgt = ' target="_blank" rel="noopener"' if cta[1].startswith("http") else ""
+    return f'''<section id="contact" style="padding-top:0"><div class="wrap"><div class="visit rv"><div class="info">
+<span class="eyebrow">{e(v["eyebrow"])}</span><h2>{v["title"]}</h2><p style="color:var(--muted)">{e(v.get("text", ""))}</p>
+<dl>{rows}</dl><a class="btn solid" href="{attr(cta[1])}"{tgt}>{e(cta[0])}</a></div>
+<iframe title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q={q}&amp;z=15&amp;output=embed"></iframe></div></div></section>'''
+
+
+def build(d):
+    t = d["theme"]
+    css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
+    h = d["hero"]
+    nav = "".join(f'<a href="#{i}">{e(l)}</a>' for i, l in d["nav"])
+    figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d["figures"])
+    blocks = []
+    for blk in d["sections"]:
+        kind = blk["kind"]
+        blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
+                       "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
+                       "banner": section_banner, "visit": section_visit}[kind](blk))
+    f = d["footer"]
+    fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
+    fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
+    legal = f'<span>{e(f["legal"])}</span>' if f.get("legal") else ""
+    return f'''<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>{e(d["title"])}</title>
+<meta name="description" content="{attr(d["description"])}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="{attr(t["fonts"])}" rel="stylesheet">
+<style>{css}</style>
+</head>
+<body>
+<header><div class="wrap nav"><a href="#accueil" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>
+<nav class="links">{nav}</nav>
+<button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
+<section class="hero" id="accueil" style="background-image:url('{attr(h["img"])}')"><div class="wrap">
+<span class="eyebrow">{e(h["eyebrow"])}</span><h1>{h["title"]}</h1><p>{e(h["lead"])}</p>
+<div class="ctas"><a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])}</a><a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a></div></div></section>
+<div class="figures"><div class="wrap">{figs}</div></div>
+{"".join(blocks)}
+<footer><div class="wrap"><div class="top"><div><div class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></div>
+<p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p></div>
+<div><h4>Explorer</h4><ul>{fnav}</ul></div><div><h4>Contact</h4><ul>{fcontact}</ul></div></div>
+<div class="bottom"><span>© {e(d["brand"])} · Mentions légales · Confidentialité</span>{legal}</div></div></footer>
+<div class="fyce" role="note"><span><b>Proposition de maquette</b> réalisée par <a href="{FYCE["site"]}" target="_blank" rel="noopener">{FYCE["brand"]}</a> · {FYCE["name"]} · <a href="tel:{FYCE["tel"]}">{FYCE["phone"]}</a></span>
+<button aria-label="Masquer" onclick="this.parentElement.remove()">×</button></div>
+<script>{JS}</script>
+</body>
+</html>'''
+
+
+if __name__ == "__main__":
+    for p in sys.argv[1:]:
+        d = json.load(open(p, encoding="utf-8"))
+        out = ROOT / d["slug"] / "index.html"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(build(d), encoding="utf-8")
+        print("écrit", out.relative_to(ROOT))
