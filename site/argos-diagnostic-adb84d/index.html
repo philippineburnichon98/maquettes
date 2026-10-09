@@ -125,6 +125,24 @@ footer{background:#fff;border-top:2px solid var(--ink);padding:44px 0 110px;font
 footer .w{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.2fr);gap:30px}
 footer h3{font-size:1.15rem;margin-bottom:6px}footer p+p{margin-top:6px}
 @media(max-width:820px){footer .w{grid-template-columns:minmax(0,1fr)}}
+
+/* formulaire de devis */
+.df{margin-top:18px;display:grid;gap:18px}.df fieldset{border:0;padding:0;margin:0;display:grid;gap:14px}
+.df legend{font-family:"Barlow Condensed",system-ui,sans-serif;font-weight:700;text-transform:uppercase;font-size:1.05rem;letter-spacing:.02em;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+.df legend b{display:inline-grid;place-items:center;min-width:34px;height:26px;padding:0 6px;background:var(--ink);color:#fff;font-size:.82rem}
+.df .q{display:grid;gap:8px}.df .q>span{font-weight:600;font-size:.92rem}
+.df .ch{display:flex;flex-wrap:wrap;gap:8px}.df .ch label{position:relative}
+.df .ch input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.df .ch span{display:inline-block;padding:8px 13px;border:2px solid var(--ink);background:#fff;font-size:.9rem;cursor:pointer}
+.df .ch input:checked+span{background:var(--ink);color:#fff;box-shadow:3px 3px 0 var(--cote)}
+.df .ch input:focus-visible+span{outline:3px solid var(--cote);outline-offset:2px}
+.df label.f{display:grid;gap:6px;font-weight:600;font-size:.92rem}
+.df input[type=text],.df input[type=number],.df input[type=email],.df input[type=tel],.df textarea{font:inherit;font-weight:400;padding:11px 12px;border:2px solid var(--ink);background:#fff;color:var(--ink);width:100%;box-sizing:border-box;border-radius:0}
+.df input:focus,.df textarea:focus{outline:3px solid var(--cote);outline-offset:1px}
+.df .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+.df small{font-weight:400;color:var(--graphite)}
+.df .ok{border:2px solid var(--ink);background:#fff;padding:18px;box-shadow:6px 6px 0 var(--cote)}
+@media(max-width:600px){.df .two{grid-template-columns:minmax(0,1fr)}}
 </style>
 </head>
 <body data-logo="https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/2021051914550260a50aa675b87.png" data-logo-vars="--cote">
@@ -163,8 +181,30 @@ footer h3{font-size:1.15rem;margin-bottom:6px}footer p+p{margin-top:6px}
 <section class="trust" id="confiance"><div class="w"><h2 class="h">Ce qu'en disent nos clients</h2><p class="intro">Depuis 2008, plus de 8 000 clients particuliers et professionnels, aucun litige ni procédure judiciaire.</p>
 <div class="cols"><div><blockquote><p>« Une société honnête qui ne pousse pas à multiplier les diagnostics, des tarifs compétitifs et une prestation bien expliquée sur place. »</p><cite>Avis client publié sur argos-diagnostic.fr</cite></blockquote><blockquote><p>« Diagnostics réalisés pour la vente de mon appartement : une entreprise réactive, les documents ont été envoyés le soir même. »</p><cite>Avis client publié sur argos-diagnostic.fr</cite></blockquote><blockquote><p>« Un diagnostiqueur très respectueux, expert et pédagogue, avec un rapport remis le soir même. »</p><cite>Avis client publié sur argos-diagnostic.fr</cite></blockquote></div><div><h3>Ils nous font confiance</h3><ul><li>Ville de Lyon, Direction de l'Équipement</li><li>Orange</li><li>Régies et agences immobilières lyonnaises</li><li>Mairie de Genas</li><li>Mairie de Saint-Genis-Laval</li><li>Mairie de Saint-Cyr-au-Mont-d'Or</li></ul><h3 style="margin-top:28px">Votre diagnostiqueur</h3><img class="ph opimg" src="https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/2021051918434760a540434b924-jpg.webp" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"><p>Un opérateur certifié qui maîtrise l'ensemble des domaines de compétences et suit une formation continue pour rester à la pointe des exigences du métier.</p></div></div></div></section>
 <section id="zone"><div class="w zone"><div><h2 class="h">Où nous intervenons</h2><p class="intro">Sur la Métropole de Lyon et les départements alentours, notamment :</p><ul class="towns"><li>Lyon</li><li>Villeurbanne</li><li>Vaulx-en-Velin</li><li>Francheville</li><li>Saint-Priest</li><li>Bron</li><li>Écully</li><li>Tassin</li><li>Vénissieux</li><li>Oullins</li><li>Feyzin</li><li>Limonest</li><li>Caluire</li><li>Monts d'Or</li><li>Irigny</li><li>Pierre-Bénite</li><li>Vienne</li><li>Estrablin</li><li>Chasse-sur-Rhône</li><li>Givors</li></ul><img class="ph zimg" src="https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/202104271808576088371918552.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></div><iframe class="map" title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q=19%20rue%20P%C3%A8re%20Chevrier%2C%2069007%20Lyon&amp;z=15&amp;output=embed"></iframe></div></section>
-<section id="devis" style="padding-top:0"><div class="w"><div class="devis"><div><h2 class="h">Demander un devis</h2><p class="intro">Chaque devis est établi selon votre besoin, pour les particuliers comme pour les professionnels. Indiquez dans votre message :</p><ol><li>Le type de prestation : vente, location, travaux ou démolition</li><li>Le type de bien et son année de construction</li><li>La surface</li><li>La présence d'une installation de gaz</li><li>L'adresse du bien, vos nom et téléphone</li></ol>
-<div class="ctas"><a class="btn" href="mailto:contact@argosdiag.fr?subject=Demande%20de%20devis%20diagnostics&amp;body=Bonjour%2C%0A%0AJe%20souhaite%20un%20devis%20pour%20des%20diagnostics.%0A%0APrestation%20%28vente%2C%20location%2C%20travaux%20ou%20d%C3%A9molition%29%20%3A%0AType%20de%20bien%20%3A%0AAnn%C3%A9e%20de%20construction%20%3A%0ASurface%20%28m%C2%B2%29%20%3A%0AInstallation%20int%C3%A9rieure%20de%20gaz%20%28oui%20/%20non%29%20%3A%0AAnn%C3%A9e%20d%27acquisition%20%28si%20moins%20de%2010%20ans%29%20%3A%0AAdresse%20du%20bien%20%3A%0A%0ANom%20%3A%0AT%C3%A9l%C3%A9phone%20%3A%0A%0AMerci.">Demander un devis par e-mail</a><a class="btn line" href="tel:+33685303048">Appeler le 06 85 30 30 48</a></div></div>
+<section id="devis" style="padding-top:0"><div class="w"><div class="devis"><div><h2 class="h">Demander un devis</h2><p class="intro">Chaque devis est établi selon votre besoin, pour les particuliers comme pour les professionnels. Quelques informations suffisent :</p><form class="df" data-to="contact@argosdiag.fr" novalidate>
+<fieldset><legend><b>01</b>Caractéristiques</legend>
+<div class="q"><span>Type de prestation</span><div class="ch" role="radiogroup"><label><input type="radio" name="prestation" value="Vente" checked><span>Vente</span></label><label><input type="radio" name="prestation" value="Location"><span>Location</span></label><label><input type="radio" name="prestation" value="Travaux ou démolition"><span>Travaux ou démolition</span></label></div></div>
+<div class="q"><span>Type de bien</span><div class="ch" role="radiogroup"><label><input type="radio" name="bien" value="Appartement" checked><span>Appartement</span></label><label><input type="radio" name="bien" value="Maison"><span>Maison</span></label><label><input type="radio" name="bien" value="Dépendance seule (cave, grenier, garage)"><span>Dépendance seule (cave, grenier, garage)</span></label><label><input type="radio" name="bien" value="Tertiaire (bureau, commerce, industrie, artisanat)"><span>Tertiaire (bureau, commerce, industrie, artisanat)</span></label></div></div>
+<div class="q"><span>Année de construction</span><div class="ch" role="radiogroup"><label><input type="radio" name="annee" value="Avant 1949" checked><span>Avant 1949</span></label><label><input type="radio" name="annee" value="Entre 1949 et 1974"><span>Entre 1949 et 1974</span></label><label><input type="radio" name="annee" value="Après 1974"><span>Après 1974</span></label></div></div>
+<label class="f" data-if-annee hidden>Précisez l'année de construction<input type="text" name="annee_precise" inputmode="numeric" maxlength="4" placeholder="Ex : 1988"></label>
+<label class="f">Surface du bien (en m²)<input type="number" name="surface" min="0" placeholder="Ex : 67" required></label>
+<div class="q"><span>Présence d'une installation fixe intérieure de gaz ?</span><div class="ch" role="radiogroup"><label><input type="radio" name="gaz" value="Oui" checked><span>Oui</span></label><label><input type="radio" name="gaz" value="Non"><span>Non</span></label></div></div>
+<label class="f">Année d'acquisition du bien <small>(si moins de 10 ans)</small><input type="text" name="acquisition" inputmode="numeric" maxlength="4"></label>
+<label class="f">Adresse du bien <small>(n°, rue, code postal, ville)</small><input type="text" name="adresse" autocomplete="street-address" required></label>
+</fieldset>
+<fieldset><legend><b>02</b>Vos informations</legend>
+<label class="f">Nom, prénom<input type="text" name="nom" autocomplete="name" required></label>
+<div class="two"><label class="f">Votre adresse e-mail<input type="email" name="email" autocomplete="email" required></label>
+<label class="f">N° de téléphone<input type="tel" name="tel" autocomplete="tel" required></label></div>
+</fieldset>
+<fieldset><legend><b>03</b>Commentaires divers</legend>
+<label class="f">Commentaires<textarea name="msg" rows="4" maxlength="2000"></textarea></label>
+<p style="font-size:.88rem;margin:0">Un plan ou une photo à joindre ? Ajoutez-le simplement à l'e-mail qui s'ouvre à l'envoi.</p>
+</fieldset>
+<p class="err" role="alert" style="color:var(--cote);font-weight:600;margin:0" hidden>Merci de remplir la surface, l'adresse du bien, vos nom, e-mail et téléphone.</p>
+<div class="ctas" style="margin-top:0"><button class="btn" type="submit">Demander le devis</button><a class="btn line" href="tel:+33685303048">Appeler le 06 85 30 30 48</a></div>
+</form>
+<div class="ok" hidden><h3 class="hd" style="font-size:1.3rem;margin-bottom:6px">Demande prête à partir</h3><p>Votre messagerie s'est ouverte avec la demande remplie : il ne reste qu'à l'envoyer.</p></div></div>
 <div><h3 class="hd" style="font-size:1.6rem;margin-bottom:8px">ARGOS Diagnostic</h3><dl><div><dt>Téléphone</dt><dd><a href="tel:+33685303048">06 85 30 30 48</a></dd></div><div><dt>E-mail</dt><dd><a href="mailto:contact@argosdiag.fr">contact@argosdiag.fr</a></dd></div><div><dt>Adresse</dt><dd>19 rue Père Chevrier, 69007 Lyon</dd></div><div><dt>Rendez-vous</dt><dd>Du lundi au samedi</dd></div></dl></div></div></div></section>
 </main>
 <footer><div class="w"><div><img class="logo-img" src="https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/2021051914550260a50aa675b87.png" alt="ARGOS Diagnostic" style="height:40px;width:auto" referrerpolicy="no-referrer" onerror="this.outerHTML='<span class=&quot;logo-txt&quot;>'+this.alt+'</span>'"><p style="margin-top:12px">Diagnostics immobiliers vente, location, avant travaux et démolition sur la Métropole de Lyon depuis 2008.</p></div>
@@ -181,6 +221,17 @@ const T=[...document.querySelectorAll('[role=tab]')];
 const sel=b=>{T.forEach(x=>{const on=x===b;x.setAttribute('aria-selected',on);x.tabIndex=on?0:-1;document.getElementById(x.getAttribute('aria-controls')).hidden=!on})};
 T.forEach((b,i)=>{b.onclick=()=>sel(b);b.onkeydown=ev=>{if(ev.key==='ArrowRight'||ev.key==='ArrowLeft'){const n=T[(i+(ev.key==='ArrowRight'?1:T.length-1))%T.length];sel(n);n.focus()}}});
 const tr=document.querySelector('#parcours .track');if(tr&&'IntersectionObserver' in window){const io=new IntersectionObserver(es=>{if(es[0].isIntersecting){tr.classList.add('run');io.disconnect()}},{threshold:.2});io.observe(tr)}
+
+document.querySelectorAll('form.df').forEach(F=>{const P=F.querySelector('[data-if-annee]');
+const upd=()=>{const v=(F.querySelector('input[name=annee]:checked')||{}).value;P.hidden=v!=='Après 1974'};F.querySelectorAll('input[name=annee]').forEach(r=>r.onchange=upd);upd();
+F.onsubmit=ev=>{ev.preventDefault();const g=n=>{const el=F.querySelector('[name='+n+']:checked')||F.elements[n];return el?String(el.value).trim():''};
+const need=['surface','adresse','nom','email','tel'];const bad=need.filter(n=>!g(n));F.querySelector('.err').hidden=!bad.length;if(bad.length){F.elements[bad[0]].focus();return}
+const an=g('annee')+(g('annee')==='Après 1974'&&g('annee_precise')?' ('+g('annee_precise')+')':'');
+const L=['Bonjour,','','Je souhaite un devis pour des diagnostics.','','01. Caractéristiques','- Type de prestation : '+g('prestation'),'- Type de bien : '+g('bien'),'- Année de construction : '+an,'- Surface : '+g('surface')+' m²','- Installation intérieure de gaz : '+g('gaz')];
+if(g('acquisition'))L.push('- Année d\'acquisition : '+g('acquisition'));L.push('- Adresse du bien : '+g('adresse'),'','02. Mes informations','- '+g('nom'),'- '+g('email'),'- '+g('tel'));
+if(g('msg'))L.push('','03. Commentaires',g('msg'));L.push('','Merci.');
+location.href='mailto:'+F.dataset.to+'?subject='+encodeURIComponent('Demande de devis diagnostics : '+g('prestation')+', '+g('bien'))+'&body='+encodeURIComponent(L.join('\n'));
+F.hidden=true;F.nextElementSibling.hidden=false}});
 </script>
 <script>(function(){const src=document.body.dataset.logo;if(!src)return;const i=new Image();i.crossOrigin='anonymous';i.referrerPolicy='no-referrer';
 i.onload=()=>{try{const W=Math.min(240,i.naturalWidth),H=Math.max(1,Math.round(i.naturalHeight*W/i.naturalWidth)),c=document.createElement('canvas');c.width=W;c.height=H;

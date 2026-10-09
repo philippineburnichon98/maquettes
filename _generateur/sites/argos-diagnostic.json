@@ -572,7 +572,9 @@
   "address": "19 rue Père Chevrier, 69007 Lyon",
   "hours": "Du lundi au samedi",
   "mail_subject": "Demande de devis diagnostics",
-  "mail_body": "Bonjour,\n\nJe souhaite un devis pour des diagnostics.\n\nPrestation (vente, location, travaux ou démolition) :\nType de bien :\nAnnée de construction :\nSurface (m²) :\nInstallation intérieure de gaz (oui / non) :\nAnnée d'acquisition (si moins de 10 ans) :\nAdresse du bien :\n\nNom :\nTéléphone :\n\nMerci."
+  "mail_body": "Bonjour,\n\nJe souhaite un devis pour des diagnostics.\n\nPrestation (vente, location, travaux ou démolition) :\nType de bien :\nAnnée de construction :\nSurface (m²) :\nInstallation intérieure de gaz (oui / non) :\nAnnée d'acquisition (si moins de 10 ans) :\nAdresse du bien :\n\nNom :\nTéléphone :\n\nMerci.",
+  "form": true,
+  "form_text": "Chaque devis est établi selon votre besoin, pour les particuliers comme pour les professionnels. Quelques informations suffisent :"
  },
  "footer": {
   "about": "Diagnostics immobiliers vente, location, avant travaux et démolition sur la Métropole de Lyon depuis 2008.",

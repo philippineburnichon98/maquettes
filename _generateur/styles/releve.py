@@ -138,6 +138,74 @@ PLAN_SVG = """<svg viewBox="0 0 520 330" role="img" aria-label="Plan d'apparteme
 _img = lambda u, c: (f'<img class="ph {c}" src="{a(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' if u else "")
 
 
+FORM_CSS = """
+/* formulaire de devis */
+.df{margin-top:18px;display:grid;gap:18px}.df fieldset{border:0;padding:0;margin:0;display:grid;gap:14px}
+.df legend{font-family:%(head)s;font-weight:700;text-transform:uppercase;font-size:1.05rem;letter-spacing:.02em;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+.df legend b{display:inline-grid;place-items:center;min-width:34px;height:26px;padding:0 6px;background:var(--ink);color:#fff;font-size:.82rem}
+.df .q{display:grid;gap:8px}.df .q>span{font-weight:600;font-size:.92rem}
+.df .ch{display:flex;flex-wrap:wrap;gap:8px}.df .ch label{position:relative}
+.df .ch input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.df .ch span{display:inline-block;padding:8px 13px;border:2px solid var(--ink);background:#fff;font-size:.9rem;cursor:pointer}
+.df .ch input:checked+span{background:var(--ink);color:#fff;box-shadow:3px 3px 0 var(--cote)}
+.df .ch input:focus-visible+span{outline:3px solid var(--cote);outline-offset:2px}
+.df label.f{display:grid;gap:6px;font-weight:600;font-size:.92rem}
+.df input[type=text],.df input[type=number],.df input[type=email],.df input[type=tel],.df textarea{font:inherit;font-weight:400;padding:11px 12px;border:2px solid var(--ink);background:#fff;color:var(--ink);width:100%%;box-sizing:border-box;border-radius:0}
+.df input:focus,.df textarea:focus{outline:3px solid var(--cote);outline-offset:1px}
+.df .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+.df small{font-weight:400;color:var(--graphite)}
+.df .ok{border:2px solid var(--ink);background:#fff;padding:18px;box-shadow:6px 6px 0 var(--cote)}
+@media(max-width:600px){.df .two{grid-template-columns:minmax(0,1fr)}}
+"""
+
+
+def _chips(name, opts):
+    return '<div class="ch" role="radiogroup">' + "".join(
+        f'<label><input type="radio" name="{name}" value="{o}"{" checked" if i == 0 else ""}><span>{o}</span></label>' for i, o in enumerate(opts)) + "</div>"
+
+
+def devis_form(c):
+    q = lambda lab, inner: f'<div class="q"><span>{lab}</span>{inner}</div>'
+    return f'''<form class="df" data-to="{c["email"]}" novalidate>
+<fieldset><legend><b>01</b>Caractéristiques</legend>
+{q("Type de prestation", _chips("prestation", ["Vente", "Location", "Travaux ou démolition"]))}
+{q("Type de bien", _chips("bien", ["Appartement", "Maison", "Dépendance seule (cave, grenier, garage)", "Tertiaire (bureau, commerce, industrie, artisanat)"]))}
+{q("Année de construction", _chips("annee", ["Avant 1949", "Entre 1949 et 1974", "Après 1974"]))}
+<label class="f" data-if-annee hidden>Précisez l'année de construction<input type="text" name="annee_precise" inputmode="numeric" maxlength="4" placeholder="Ex : 1988"></label>
+<label class="f">Surface du bien (en m²)<input type="number" name="surface" min="0" placeholder="Ex : 67" required></label>
+{q("Présence d'une installation fixe intérieure de gaz ?", _chips("gaz", ["Oui", "Non"]))}
+<label class="f">Année d'acquisition du bien <small>(si moins de 10 ans)</small><input type="text" name="acquisition" inputmode="numeric" maxlength="4"></label>
+<label class="f">Adresse du bien <small>(n°, rue, code postal, ville)</small><input type="text" name="adresse" autocomplete="street-address" required></label>
+</fieldset>
+<fieldset><legend><b>02</b>Vos informations</legend>
+<label class="f">Nom, prénom<input type="text" name="nom" autocomplete="name" required></label>
+<div class="two"><label class="f">Votre adresse e-mail<input type="email" name="email" autocomplete="email" required></label>
+<label class="f">N° de téléphone<input type="tel" name="tel" autocomplete="tel" required></label></div>
+</fieldset>
+<fieldset><legend><b>03</b>Commentaires divers</legend>
+<label class="f">Commentaires<textarea name="msg" rows="4" maxlength="2000"></textarea></label>
+<p style="font-size:.88rem;margin:0">Un plan ou une photo à joindre ? Ajoutez-le simplement à l'e-mail qui s'ouvre à l'envoi.</p>
+</fieldset>
+<p class="err" role="alert" style="color:var(--cote);font-weight:600;margin:0" hidden>Merci de remplir la surface, l'adresse du bien, vos nom, e-mail et téléphone.</p>
+<div class="ctas" style="margin-top:0"><button class="btn" type="submit">Demander le devis</button><a class="btn line" href="tel:{c["tel"]}">Appeler le {c["phone"]}</a></div>
+</form>
+<div class="ok" hidden><h3 class="hd" style="font-size:1.3rem;margin-bottom:6px">Demande prête à partir</h3><p>Votre messagerie s'est ouverte avec la demande remplie : il ne reste qu'à l'envoyer.</p></div>'''
+
+
+FORM_JS = r"""
+document.querySelectorAll('form.df').forEach(F=>{const P=F.querySelector('[data-if-annee]');
+const upd=()=>{const v=(F.querySelector('input[name=annee]:checked')||{}).value;P.hidden=v!=='Après 1974'};F.querySelectorAll('input[name=annee]').forEach(r=>r.onchange=upd);upd();
+F.onsubmit=ev=>{ev.preventDefault();const g=n=>{const el=F.querySelector('[name='+n+']:checked')||F.elements[n];return el?String(el.value).trim():''};
+const need=['surface','adresse','nom','email','tel'];const bad=need.filter(n=>!g(n));F.querySelector('.err').hidden=!bad.length;if(bad.length){F.elements[bad[0]].focus();return}
+const an=g('annee')+(g('annee')==='Après 1974'&&g('annee_precise')?' ('+g('annee_precise')+')':'');
+const L=['Bonjour,','','Je souhaite un devis pour des diagnostics.','','01. Caractéristiques','- Type de prestation : '+g('prestation'),'- Type de bien : '+g('bien'),'- Année de construction : '+an,'- Surface : '+g('surface')+' m²','- Installation intérieure de gaz : '+g('gaz')];
+if(g('acquisition'))L.push('- Année d\'acquisition : '+g('acquisition'));L.push('- Adresse du bien : '+g('adresse'),'','02. Mes informations','- '+g('nom'),'- '+g('email'),'- '+g('tel'));
+if(g('msg'))L.push('','03. Commentaires',g('msg'));L.push('','Merci.');
+location.href='mailto:'+F.dataset.to+'?subject='+encodeURIComponent('Demande de devis diagnostics : '+g('prestation')+', '+g('bien'))+'&body='+encodeURIComponent(L.join('\n'));
+F.hidden=true;F.nextElementSibling.hidden=false}});
+"""
+
+
 def _tab_panels(tabs):
     btns, panels = [], []
     for i, t in enumerate(tabs):
@@ -181,7 +249,7 @@ def _nom(items):
 
 def render(d):
     t = d["theme"]
-    css = CSS % {"ink": t["ink"], "paper": t["paper"], "cote": t["cote"], "ribbon": t["ribbon"], "graphite": t["graphite"],
+    css = (CSS + FORM_CSS) % {"ink": t["ink"], "paper": t["paper"], "cote": t["cote"], "ribbon": t["ribbon"], "graphite": t["graphite"],
                  "head": t.get("head", '"Barlow Condensed",system-ui,sans-serif'), "body": t.get("body", '"Barlow",system-ui,sans-serif')}
     h, c = d["hero"], d["devis"]
     mail = "mailto:" + c["email"] + "?subject=" + urllib.parse.quote(c["mail_subject"]) + "&body=" + urllib.parse.quote(c["mail_body"])
@@ -218,8 +286,7 @@ def render(d):
 <section class="trust" id="confiance"><div class="w"><h2 class="h">{e(tr["title"])}</h2><p class="intro">{e(tr["lead"])}</p>
 <div class="cols"><div>{avis}</div><div><h3>{e(tr["refs_title"])}</h3><ul>{refs}</ul><h3 style="margin-top:28px">{e(tr["op_title"])}</h3>{_img(tr.get("op_img"), "opimg")}<p>{e(tr["op_text"])}</p></div></div></div></section>
 <section id="zone"><div class="w zone"><div><h2 class="h">{e(z["title"])}</h2><p class="intro">{e(z["text"])}</p><ul class="towns">{towns}</ul>{_img(z.get("img"), "zimg")}</div>{map_iframe(z["map_q"])}</div></section>
-<section id="devis" style="padding-top:0"><div class="w"><div class="devis"><div><h2 class="h">{e(c["title"])}</h2><p class="intro">{e(c["text"])}</p><ol>{info}</ol>
-<div class="ctas"><a class="btn" href="{a(mail)}">Demander un devis par e-mail</a><a class="btn line" href="tel:{a(c["tel"])}">Appeler le {e(c["phone"])}</a></div></div>
+<section id="devis" style="padding-top:0"><div class="w"><div class="devis"><div><h2 class="h">{e(c["title"])}</h2><p class="intro">{e(c.get("form_text") or c["text"]) if c.get("form") else e(c["text"])}</p>{devis_form(c) if c.get("form") else f'<ol>{info}</ol><div class="ctas"><a class="btn" href="{a(mail)}">Demander un devis par e-mail</a><a class="btn line" href="tel:{a(c["tel"])}">Appeler le {e(c["phone"])}</a></div>'}</div>
 <div><h3 class="hd" style="font-size:1.6rem;margin-bottom:8px">{e(d["brand"])}</h3><dl>{rows}</dl></div></div></div></section>
 </main>
 <footer><div class="w"><div>{logo(d, 40)}<p style="margin-top:12px">{e(f["about"])}</p></div>
@@ -233,4 +300,6 @@ const sel=b=>{T.forEach(x=>{const on=x===b;x.setAttribute('aria-selected',on);x.
 T.forEach((b,i)=>{b.onclick=()=>sel(b);b.onkeydown=ev=>{if(ev.key==='ArrowRight'||ev.key==='ArrowLeft'){const n=T[(i+(ev.key==='ArrowRight'?1:T.length-1))%T.length];sel(n);n.focus()}}});
 const tr=document.querySelector('#parcours .track');if(tr&&'IntersectionObserver' in window){const io=new IntersectionObserver(es=>{if(es[0].isIntersecting){tr.classList.add('run');io.disconnect()}},{threshold:.2});io.observe(tr)}
 """
+    if c.get("form"):
+        js += FORM_JS
     return page(d, css, body, t.get("fonts", DEF_FONTS), js)
