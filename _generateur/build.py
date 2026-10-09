@@ -98,6 +98,14 @@ section{padding:clamp(80px,11vw,140px) 0}
 .ann>div{background:var(--paper);color:var(--ink);max-width:460px;width:100%%;padding:38px 34px 32px;position:relative;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
 .ann h3{font-size:1.7rem;margin:12px 0 14px;color:var(--accent)}.ann p{color:var(--muted);margin-bottom:24px}
 .ann .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--muted)}
+.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
+.team img{width:140px;height:140px;border-radius:50%%;object-fit:cover;margin:0 auto 14px;background:var(--paper-2)}
+.team b{display:block;font-family:var(--serif);font-size:1.3rem;font-weight:500}.team span{color:var(--muted);font-size:.9rem}
+.resa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(26px,5vw,60px);background:#fff;border:1px solid var(--line);padding:clamp(24px,4vw,52px)}
+.rform{display:grid;grid-template-columns:1fr 1fr;gap:14px}.rform .full{grid-column:1/-1}
+.rform label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;color:var(--muted)}
+.rform input,.rform select,.rform textarea{font:inherit;color:var(--ink);padding:11px 12px;border:1px solid var(--line);background:var(--paper)}
+@media(max-width:760px){.resa{grid-template-columns:minmax(0,1fr)}.rform{grid-template-columns:minmax(0,1fr)}}
 .card.hide{display:none}.badge{position:absolute;top:14px;right:14px;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;background:var(--gold);color:#fff;padding:5px 9px}
 .note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:26px}
 .menu{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(30px,5vw,70px);align-items:start}
@@ -242,6 +250,34 @@ def section_booking(b):
 <p class="note">Le module ne s'affiche pas ? <a href="{attr(b["url"])}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Réserver dans un nouvel onglet</a></p></div></div></section>'''
 
 
+def section_team(t):
+    ppl = "".join(f'<figure><img src="{attr(p["img"])}" alt="{attr(p["name"])}" loading="lazy" referrerpolicy="no-referrer"><figcaption><b>{e(p["name"])}</b><span>{e(p["role"])}</span></figcaption></figure>' for p in t["people"])
+    note = f'<p class="note">{e(t["note"])}</p>' if t.get("note") else ""
+    return f'''<section id="{t.get("id", "equipe")}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(t["eyebrow"])}</span>
+<h2>{t["title"]}</h2><p>{e(t.get("lead", ""))}</p></div><div class="team rv">{ppl}</div>{note}</div></section>'''
+
+
+def section_resaform(r):
+    opts = "".join(f'<option>{e(h)}</option>' for h in r["hours"])
+    return f'''<section id="{r.get("id", "reserver")}"><div class="wrap"><div class="resa rv"><div>
+<span class="eyebrow">{e(r["eyebrow"])}</span><h2 style="margin:14px 0 16px">{r["title"]}</h2><p style="color:var(--muted)">{e(r["lead"])}</p>
+<p style="margin-top:22px">Par téléphone : <a href="tel:{attr(r["tel"])}" style="border-bottom:1px solid var(--gold)">{e(r["phone"])}</a></p>
+<p style="margin-top:6px;color:var(--muted);font-size:.9rem">{e(r.get("note", ""))}</p></div>
+<form class="rform" data-to="{attr(r["email"])}" data-name="{attr(r["brand"])}">
+<label>Date<input type="date" name="date" required></label>
+<label>Heure<select name="heure" required>{opts}</select></label>
+<label>Nombre de couverts<input type="number" name="couverts" min="1" max="{r.get("max", 40)}" value="2" required></label>
+<label>Votre nom<input name="nom" autocomplete="name" required></label>
+<label>Votre téléphone<input name="tel" type="tel" autocomplete="tel" required></label>
+<label class="full">Un message (facultatif)<textarea name="msg" rows="3"></textarea></label>
+<button class="btn solid full" type="submit">Envoyer ma demande de réservation</button>
+<p class="full" style="font-size:.82rem;color:var(--muted)">Votre demande part par e-mail au restaurant, qui vous confirme la réservation.</p></form></div></div></section>
+<script>document.querySelectorAll('form.rform').forEach(f=>f.onsubmit=ev=>{{ev.preventDefault();const v=n=>f.elements[n].value;
+const s='Réservation '+v('date')+' à '+v('heure')+', '+v('couverts')+' couverts';
+const b='Bonjour,\\n\\nJe souhaite réserver une table pour '+v('couverts')+' personne(s) le '+v('date')+' à '+v('heure')+'.\\n\\n'+(v('msg')?v('msg')+'\\n\\n':'')+v('nom')+'\\n'+v('tel');
+location.href='mailto:'+f.dataset.to+'?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(b)}})</script>'''
+
+
 def section_gallery(g):
     btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(p["thumb"])}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">'
                    + (f'<figcaption>{e(p["caption"])}</figcaption>' if p.get("caption") else "") + '</button>'
@@ -278,7 +314,7 @@ def build(d):
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])

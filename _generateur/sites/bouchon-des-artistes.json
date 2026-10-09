@@ -1,24 +1,30 @@
 {
  "slug": "bouchon-des-artistes-b81e57",
- "style": "affiche",
- "title": "Le Bouchon des Artistes, bouchon lyonnais à Lyon 3e",
- "description": "Bouchon lyonnais labellisé et Maître Restaurateur, rue Mazenod : la tradition lyonnaise revisitée chaque jour, faite maison avec des produits frais et locaux.",
+ "title": "Le Bouchon des Artistes — Bouchon lyonnais, Lyon 3e",
+ "description": "Bouchon lyonnais labellisé et Maître Restaurateur : la tradition lyonnaise revisitée chaque jour, faite maison avec des produits frais et locaux.",
  "brand": "Le Bouchon des Artistes",
- "logo": {
-  "src": "https://static.wixstatic.com/media/313a31_df1dda267ca542f2857b0c6fc14828f7~mv2.png/v1/fit/w_976,h_132,q_90/logo-lebouchondesartistes.png",
-  "height": 34
- },
+ "tagline": "Bouchon lyonnais · Lyon 3e",
  "theme": {
-  "blue": "#2340C9",
-  "sun": "#F2B705",
-  "paper": "#FAFAF7",
-  "ink": "#1B1B22",
-  "muted": "#5C5C66"
+  "paper": "#f4efe6",
+  "paper2": "#e9e1d3",
+  "ink": "#15201f",
+  "muted": "#5d6563",
+  "accent": "#c4552d",
+  "accent2": "#d86a40",
+  "gold": "#c49a3a",
+  "heroem": "#f2b48f",
+  "serif": "\"Instrument Serif\",Georgia,serif",
+  "sans": "\"Bricolage Grotesque\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300;400;500;600&display=swap"
  },
  "nav": [
   [
    "maison",
    "La maison"
+  ],
+  [
+   "restaurant",
+   "Le restaurant"
   ],
   [
    "carte",
@@ -29,268 +35,429 @@
    "L'équipe"
   ],
   [
-   "photos",
-   "Photos"
+   "reserver",
+   "Réserver"
   ],
   [
-   "infos",
-   "Infos"
+   "contact",
+   "Contact"
   ]
  ],
  "hero": {
-  "title": "Authenticité & audace",
-  "lead": "Depuis 2018, nous revisitons chaque jour les plats de la tradition lyonnaise, faits maison avec des produits frais et locaux.",
-  "img": "https://static.wixstatic.com/media/313a31_ad1bb8cdaacf43979f8911a340ecd599~mv2.jpg/v1/fill/w_1000,h_1333,al_c,q_85/hero.jpg",
-  "alt": "Le Bouchon des Artistes",
-  "seal": "Bouchon lyonnais labellisé"
- },
- "marquee": [
-  "Quenelle de brochet soufflée",
-  "Pâté en croûte du chef",
-  "Œufs en meurette",
-  "Ris de veau aux morilles",
-  "Tarte praline",
-  "Le macaron des artistes",
-  "Cervelle de canut",
-  "Porcelet façon Wellington"
- ],
- "maison": {
-  "title": "La tradition, sans complexe",
-  "paras": [
-   "Au 98 rue Mazenod, Le Bouchon des Artistes réinterprète la cuisine lyonnaise avec un parti pris assumé : respecter la tradition tout en osant la surprendre.",
-   "Tout est fait maison, à partir de produits frais et locaux, dans un cadre chaleureux pour un moment décomplexé. Et pour accompagner le repas, des vins du Beaujolais, de Bourgogne et de la vallée du Rhône, en bouteille ou en pot."
+  "img": "https://static.wixstatic.com/media/313a31_ad1bb8cdaacf43979f8911a340ecd599~mv2.jpg/v1/fill/w_1920,h_1280,al_c,q_85/bouchon-des-artistes.jpg",
+  "eyebrow": "Bouchon Lyonnais · Maître Restaurateur",
+  "title": "Authenticité<br>&amp; <em>audace</em>",
+  "lead": "Depuis 2018, nous revisitons chaque jour les grands plats de la tradition lyonnaise, faits maison avec des produits frais et locaux.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
   ],
-  "imgs": [
-   "https://static.wixstatic.com/media/313a31_eb9ca898bbf5494b8032b07d9f287764~mv2.jpg/v1/fill/w_700,h_933,al_c,q_85/a.jpg",
-   "https://static.wixstatic.com/media/313a31_a695610a74844cdca5ab69165f03a165~mv2.jpg/v1/fill/w_700,h_933,al_c,q_85/b.jpg"
+  "cta2": [
+   "Voir la carte",
+   "#carte"
   ]
  },
- "labels": [
-  "Les Bouchons Lyonnais",
-  "Maître Restaurateur",
-  "English spoken"
+ "figures": [
+  [
+   "2018",
+   "ouverture"
+  ],
+  [
+   "2",
+   "labels de qualité"
+  ],
+  [
+   "Lun–Ven",
+   "midi & soir"
+  ],
+  [
+   "Fait",
+   "maison"
+  ]
  ],
- "carte": {
-  "title": "La carte d'automne",
-  "lead": "Les grands classiques lyonnais et les envies de saison. Prix TTC, service compris.",
-  "sections": [
-   {
-    "title": "Entrées",
-    "items": [
-     [
-      "Salade lyonnaise",
-      "13 €"
-     ],
-     [
-      "Pâté en croûte du chef",
-      "17 €"
-     ],
-     [
-      "Mousseline de truite aux écrevisses",
-      "12 €"
-     ],
-     [
-      "Pressé de bœuf aux carottes",
-      "12 €"
-     ],
-     [
-      "Cromesquis de pieds de cochon, foie gras mi-cuit au porto",
-      "16 €"
-     ],
-     [
-      "Œufs en meurette",
-      "15 €"
-     ]
+ "sections": [
+  {
+   "kind": "story",
+   "id": "maison",
+   "eyebrow": "La maison",
+   "title": "La tradition, <em class=\"it\">sans complexe</em>",
+   "img": "https://static.wixstatic.com/media/313a31_eb9ca898bbf5494b8032b07d9f287764~mv2.jpg/v1/fit/w_1200,h_1500,q_85/maitre-restaurateur.jpg",
+   "alt": "Le Bouchon des Artistes, Maître Restaurateur",
+   "paras": [
+    "Au 98 rue Mazenod, Le Bouchon des Artistes réinterprète la cuisine lyonnaise avec un parti pris assumé : respecter la tradition tout en osant la surprendre.",
+    "Tout est fait maison, à partir de produits frais et locaux. Un engagement reconnu par le label Les Bouchons Lyonnais et le titre de Maître Restaurateur.",
+    "En cuisine, le chef Guillaume Daubignard, entouré de Sacha Salzi et Alexis Laurent ; en salle, une équipe qui aime recevoir, dans un cadre chaleureux."
+   ],
+   "sign": "Chef Guillaume Daubignard"
+  },
+  {
+   "kind": "features",
+   "dark": true,
+   "id": "esprit",
+   "eyebrow": "Notre cuisine",
+   "title": "Quatre bonnes raisons <em class=\"it\">de passer à table</em>",
+   "lead": "Le bouchon tel qu'on l'aime, avec une pointe d'audace.",
+   "items": [
+    [
+     "La cuisine",
+     "Les plats de la tradition lyonnaise, revisités au quotidien."
+    ],
+    [
+     "Le restaurant",
+     "Un cadre chaleureux pour un moment décomplexé."
+    ],
+    [
+     "L'équipe",
+     "Des professionnels du savoir-vivre, à votre service."
+    ],
+    [
+     "La cave",
+     "Beaujolais, Bourgogne et vallée du Rhône, en bouteille ou en pot."
     ]
-   },
-   {
-    "title": "Plats",
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "restaurant",
+   "eyebrow": "Le restaurant",
+   "title": "Petites <em class=\"it\">ou grandes tablées</em>",
+   "img": "https://static.wixstatic.com/media/313a31_c97d75ffbfe447a9995fe0984776ce4a~mv2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/terrasse.jpg",
+   "alt": "La terrasse du Bouchon des Artistes",
+   "paras": [
+    "À deux pas de la Part-Dieu, Le Bouchon des Artistes sert les spécialités lyonnaises revisitées et des plats découvertes, en salle ou en terrasse.",
+    "Jusqu'à 40 couverts par service : nous nous adaptons aux petites comme aux grandes tablées.",
+    "Une privatisation du lieu est possible pour vos événements. Parlons-en par téléphone ou par e-mail."
+   ]
+  },
+  {
+   "kind": "menu",
+   "id": "carte",
+   "eyebrow": "La carte d'automne",
+   "title": "À table !",
+   "lead": "Les grands classiques lyonnais et les envies de saison, à la carte ou dans le menu lyonnais.",
+   "sections": [
+    {
+     "title": "Entrées",
+     "items": [
+      [
+       "Salade lyonnaise",
+       "13 €"
+      ],
+      [
+       "Pâté en croûte du chef",
+       "17 €"
+      ],
+      [
+       "Mousseline de truite aux écrevisses",
+       "12 €"
+      ],
+      [
+       "Pressé de bœuf aux carottes",
+       "12 €"
+      ],
+      [
+       "Cromesquis de pieds de cochon, foie gras mi-cuit au porto",
+       "16 €"
+      ],
+      [
+       "Œufs en meurette",
+       "15 €"
+      ]
+     ]
+    },
+    {
+     "title": "Plats",
+     "items": [
+      [
+       "Quenelle de brochet soufflée",
+       "21 €"
+      ],
+      [
+       "Andouillette à la fraise de veau, cochon braisé",
+       "21 €"
+      ],
+      [
+       "Porcelet braisé façon Wellington",
+       "21 €"
+      ],
+      [
+       "Gratin de macaronis aux truffes et parmesan",
+       "25 €"
+      ],
+      [
+       "Filet de bar grillé",
+       "27 €"
+      ],
+      [
+       "Ris de veau aux morilles",
+       "29 €"
+      ],
+      [
+       "Filet de bœuf grillé",
+       "32 €"
+      ]
+     ]
+    },
+    {
+     "title": "Fromages",
+     "items": [
+      [
+       "Cervelle de canut",
+       "5 €"
+      ],
+      [
+       "Faisselle de Rians, crème ou coulis",
+       "5 €"
+      ],
+      [
+       "½ Saint-Marcellin de la Mère Richard",
+       "5 €"
+      ],
+      [
+       "Saint-Marcellin entier à partager",
+       "8 €"
+      ]
+     ]
+    },
+    {
+     "title": "Desserts",
+     "items": [
+      [
+       "Tarte praline",
+       "8 €"
+      ],
+      [
+       "Mi-cuit au chocolat noir",
+       "8 €"
+      ],
+      [
+       "Brunoise de poire pochée au vin rouge et aux épices",
+       "8 €"
+      ],
+      [
+       "Le macaron des artistes",
+       "10 €"
+      ],
+      [
+       "Brioche Nanterre façon pain perdu, fève de tonka",
+       "10 €"
+      ],
+      [
+       "Café un peu gourmand",
+       "10 €"
+      ],
+      [
+       "Crèmes glacées & sorbets d'artisan glacier",
+       "8 €"
+      ]
+     ]
+    }
+   ],
+   "note": "Prix TTC, service compris. Plat végétarien : gratin de macaronis aux truffes. English spoken.",
+   "aside": {
+    "eyebrow": "Le menu",
+    "title": "Menu lyonnais",
+    "big": "29 € · 33 €",
+    "text": "Entrée + plat, ou entrée + plat + dessert. Au choix : salade lyonnaise, pressé de bœuf ou mousseline de truite ; quenelle soufflée, andouillette ou porcelet Wellington ; tarte praline, poire pochée ou mi-cuit chocolat.",
     "items": [
      [
-      "Quenelle de brochet soufflée",
-      "21 €"
-     ],
-     [
-      "Andouillette à la fraise de veau, cochon braisé",
-      "21 €"
-     ],
-     [
-      "Porcelet braisé façon Wellington",
-      "21 €"
-     ],
-     [
-      "Gratin de macaronis aux truffes et parmesan",
-      "25 €"
-     ],
-     [
-      "Filet de bar grillé",
-      "27 €"
-     ],
-     [
-      "Ris de veau aux morilles",
+      "Entrée + plat",
       "29 €"
      ],
      [
-      "Filet de bœuf grillé",
-      "32 €"
+      "Entrée + plat + dessert",
+      "33 €"
+     ],
+     [
+      "Supplément café un peu gourmand",
+      "4 €"
      ]
-    ]
-   },
-   {
-    "title": "Fromages",
-    "items": [
-     [
-      "Cervelle de canut",
-      "5 €"
-     ],
-     [
-      "Faisselle de Rians, crème ou coulis",
-      "5 €"
-     ],
-     [
-      "½ Saint-Marcellin de la Mère Richard",
-      "5 €"
-     ],
-     [
-      "Saint-Marcellin entier à partager",
-      "8 €"
-     ]
-    ]
-   },
-   {
-    "title": "Desserts",
-    "items": [
-     [
-      "Tarte praline",
-      "8 €"
-     ],
-     [
-      "Mi-cuit au chocolat noir",
-      "8 €"
-     ],
-     [
-      "Brunoise de poire pochée au vin rouge et aux épices",
-      "8 €"
-     ],
-     [
-      "Le macaron des artistes",
-      "10 €"
-     ],
-     [
-      "Brioche Nanterre façon pain perdu, fève de tonka",
-      "10 €"
-     ],
-     [
-      "Café un peu gourmand",
-      "10 €"
-     ],
-     [
-      "Crèmes glacées & sorbets d'artisan glacier",
-      "8 €"
-     ]
+    ],
+    "cta": [
+     "Réserver une table",
+     "#reserver"
     ]
    }
-  ],
-  "formule": {
-   "price": "29 € / 33 €",
-   "price_label": "entrée et plat, ou entrée, plat et dessert",
-   "title": "Le menu lyonnais",
-   "text": "À composer parmi trois entrées, trois plats et trois desserts. Supplément café un peu gourmand : 4 €.",
-   "choices": [
-    "Salade lyonnaise, pressé de bœuf aux carottes, ou mousseline de truite aux écrevisses",
-    "Quenelle de brochet soufflée, andouillette à la fraise de veau, ou porcelet braisé façon Wellington",
-    "Tarte praline, brunoise de poire pochée au vin rouge, ou mi-cuit au chocolat noir"
+  },
+  {
+   "kind": "team",
+   "id": "equipe",
+   "eyebrow": "L'équipe",
+   "title": "Ceux qui <em class=\"it\">vous accueillent</em>",
+   "lead": "Une équipe qui veut faire de chaque repas un moment partagé avec vous, du lundi au vendredi.",
+   "people": [
+    {
+     "name": "Michael",
+     "role": "Le patron",
+     "img": "https://static.wixstatic.com/media/313a31_4350817be4cc488a9522df2f5500a36b~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/m.jpg"
+    },
+    {
+     "name": "Guillaume",
+     "role": "Le chef",
+     "img": "https://static.wixstatic.com/media/313a31_dc6f0d2fa2954e53a19bd0d99cbbccb6~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/g.jpg"
+    },
+    {
+     "name": "Caroline",
+     "role": "Cheffe de rang",
+     "img": "https://static.wixstatic.com/media/313a31_03d4ee44eb8444e6abdbe29705b42ad9~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/c.jpg"
+    },
+    {
+     "name": "Olivier",
+     "role": "Chef de partie cuisine",
+     "img": "https://static.wixstatic.com/media/313a31_cff59a26a34444cdad7f34e7513555e4~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/o.jpg"
+    },
+    {
+     "name": "Thomas",
+     "role": "Apprenti cuisine",
+     "img": "https://static.wixstatic.com/media/313a31_08ae20fe7ae94513a681cedbdc1655ff~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/t.jpg"
+    }
+   ],
+   "note": "En cuisine cette saison, selon la carte d'automne : Guillaume Daubignard, Sacha Salzi et Alexis Laurent."
+  },
+  {
+   "kind": "gallery",
+   "eyebrow": "Galerie",
+   "title": "Bon <em class=\"it\">appétit !</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_fcb77aa7a6e944a48b91fe6fb495bf63~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_fcb77aa7a6e944a48b91fe6fb495bf63~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_10af999e2b7946d493e7509880fb8a80~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_10af999e2b7946d493e7509880fb8a80~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_900,h_900,q_85/a.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_1800,h_1800,q_85/a.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_900,h_900,q_85/b.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_1800,h_1800,q_85/b.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_900,h_900,q_85/c.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_1800,h_1800,q_85/c.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_900,h_900,q_85/d.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_1800,h_1800,q_85/d.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_900,h_900,q_85/e.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_1800,h_1800,q_85/e.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_900,h_900,q_85/f.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/f.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_900,h_900,q_85/g.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_1800,h_1800,q_85/g.jpg"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_900,h_900,q_85/h.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_1800,h_1800,q_85/h.jpg"
+    }
    ]
   },
-  "note": "Plat végétarien : gratin de macaronis aux truffes et parmesan. Glaces et sorbets d'un artisan glacier : vanille de Madagascar, Nuty, marron et brisures, caramel au beurre demi-sel d'Isigny, fraise, citron vert, poire Williams des monts du Lyonnais."
- },
- "team": {
-  "title": "En cuisine",
-  "lead": "Des professionnels du savoir-vivre, à votre service.",
-  "people": [
-   [
-    "Guillaume Daubignard",
-    "Chef"
-   ],
-   [
-    "Sacha Salzi",
-    "Cuisine"
-   ],
-   [
-    "Alexis Laurent",
-    "Cuisine"
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/313a31_a695610a74844cdca5ab69165f03a165~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/salle.jpg",
+   "eyebrow": "Midi & soir, du lundi au vendredi",
+   "title": "Une table vous attend<br><em>rue Mazenod</em>",
+   "cta": [
+    "Réserver une table",
+    "#reserver"
    ]
-  ]
- },
- "photos_title": "Bon appétit !",
- "photos": [
-  {
-   "thumb": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_900,h_900,q_85/a.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_1800,h_1800,q_85/a.jpg"
   },
   {
-   "thumb": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_900,h_900,q_85/b.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_1800,h_1800,q_85/b.jpg"
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservation",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Du lundi au vendredi, midi et soir. Envoyez votre demande : le restaurant vous confirme par retour.",
+   "hours": [
+    "12:00",
+    "12:15",
+    "12:30",
+    "12:45",
+    "13:00",
+    "13:15",
+    "13:30",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45"
+   ],
+   "email": "lebouchondesartistes@orange.fr",
+   "tel": "+33478033740",
+   "phone": "04 78 03 37 40",
+   "brand": "Le Bouchon des Artistes",
+   "max": 40,
+   "note": "Pour un groupe ou une privatisation, appelez-nous directement."
   },
   {
-   "thumb": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_900,h_900,q_85/c.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_1800,h_1800,q_85/c.jpg"
-  },
-  {
-   "thumb": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_900,h_900,q_85/d.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_1800,h_1800,q_85/d.jpg"
-  },
-  {
-   "thumb": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_900,h_900,q_85/e.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_1800,h_1800,q_85/e.jpg"
-  },
-  {
-   "thumb": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_900,h_900,q_85/f.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/f.jpg"
-  },
-  {
-   "thumb": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_900,h_900,q_85/g.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_1800,h_1800,q_85/g.jpg"
-  },
-  {
-   "thumb": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_900,h_900,q_85/h.jpg",
-   "full": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_1800,h_1800,q_85/h.jpg"
+   "kind": "visit",
+   "eyebrow": "Contact",
+   "title": "Venez <em class=\"it\">nous voir</em>",
+   "text": "Au cœur du 3e arrondissement, à deux pas de la Part-Dieu.",
+   "rows": [
+    [
+     "Adresse",
+     "98 rue Mazenod<br>69003 Lyon"
+    ],
+    [
+     "Horaires",
+     "Du lundi au vendredi<br>12h – 14h · 19h – 21h45<br>Fermé le week-end"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33478033740\">04 78 03 37 40</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lebouchondesartistes@orange.fr\">lebouchondesartistes@orange.fr</a>"
+    ],
+    [
+     "Instagram",
+     "<a href=\"https://www.instagram.com/bouchon_des_artistes/\" target=\"_blank\" rel=\"noopener\">@bouchon_des_artistes</a>"
+    ]
+   ],
+   "cta": [
+    "Réserver une table",
+    "#reserver"
+   ],
+   "map_q": "98 rue Mazenod, 69003 Lyon"
   }
  ],
- "infos": {
-  "title": "Venez nous voir",
-  "text": "Pour réserver une table, appelez-nous ou écrivez-nous : nous serons ravis de vous accueillir.",
-  "rows": [
-   [
-    "Adresse",
-    "98 rue Mazenod<br>69003 Lyon"
-   ],
-   [
-    "Horaires",
-    "Du lundi au vendredi<br>12 h à 14 h, 19 h à 21 h 45<br>Fermé le week-end"
-   ],
-   [
-    "Téléphone",
-    "<a href=\"tel:+33478033740\">04 78 03 37 40</a>"
-   ],
-   [
-    "E-mail",
-    "<a href=\"mailto:lebouchondesartistes@orange.fr\">lebouchondesartistes@orange.fr</a>"
-   ]
-  ],
-  "cta": [
-   "Appeler pour réserver",
-   "tel:+33478033740"
-  ],
-  "map_q": "98 rue Mazenod, 69003 Lyon"
- },
  "footer": {
-  "about": "Bouchon lyonnais labellisé et Maître Restaurateur, Lyon 3e.",
+  "about": "Bouchon lyonnais labellisé et Maître Restaurateur, dans le 3e arrondissement de Lyon.",
   "contact": [
    "<a href=\"tel:+33478033740\">04 78 03 37 40</a>",
    "<a href=\"mailto:lebouchondesartistes@orange.fr\">lebouchondesartistes@orange.fr</a>",
    "98 rue Mazenod, Lyon 3e"
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/313a31_df1dda267ca542f2857b0c6fc14828f7~mv2.png/v1/fit/w_976,h_132,q_90/logo-lebouchondesartistes.png",
+  "height": 34
  }
 }

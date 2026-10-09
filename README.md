@@ -6,8 +6,9 @@
   - Le champ `"style"` du JSON choisit la mise en page dans `_generateur/styles/` :
     - `chrono` : domaine à forte histoire (pellicule photo, frise, cuvées en étiquettes avec fiche technique). Exemple : domaine-de-la-folie.json
     - `bouchon` : bouchon / brasserie traditionnelle (nappe à carreaux, ardoise, carte imprimée, réservation intégrée, cave, groupes). Exemple : bouchon-des-cordeliers.json
-    - `affiche` : lieu au ton audacieux (affiche, bandeau défilant, carte en catalogue, équipe). Exemple : bouchon-des-artistes.json
+    - `affiche` : REFUSÉ par Philippine (trop « affiche », pas assez chaleureux pour un restaurant). Ne pas réutiliser.
     - `cellier` : domaine avec beaucoup de cuvées (parole du vigneron, étagères de bouteilles cliquables, achat, points de vente, souvenirs). Exemple : domaine-bernard-jomain.json
+  - Mise en page « classique » (sans champ style, fonction build() de build.py) : validée par Philippine pour Le Bouchon des Artistes (photo plein écran, carte, équipe, formulaire de réservation par e-mail `resaform`, réservation intégrée `booking`). Exemple : bouchon-des-artistes.json
   - Pour un métier qui ne correspond à aucun style, créer un nouveau fichier dans `styles/` (fonction `render(d)` qui s'appuie sur `core.page()`), avec sa propre direction artistique.
 - `_generateur/prospects.csv` : suivi des prospects. `_generateur/MODELE_MAIL.md` : modèle de mail validé.
 
