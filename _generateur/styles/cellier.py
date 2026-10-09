@@ -69,6 +69,14 @@ h2.h{font-size:clamp(2.1rem,4.4vw,3.4rem);color:var(--ink)}
 .pdv{margin-top:56px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
 .pdv h3{font:600 1rem "Instrument Sans",sans-serif;margin-bottom:6px}.pdv p{color:var(--muted);font-size:.93rem}
 @media(max-width:860px){.pdv{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* actualités, panoramique, images ajoutées */
+.pano{width:100%%;height:clamp(160px,22vw,320px);object-fit:cover;display:block;background:var(--blush)}
+.news{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:30px}
+.news article{border-top:2px solid var(--gamay);padding-top:14px}.news h3{font-family:"Young Serif",serif;font-weight:400;font-size:1.25rem;margin-bottom:6px}.news p{color:var(--muted);font-size:.94rem}
+@media(max-width:820px){.news{grid-template-columns:minmax(0,1fr)}}
+.buyimg{width:100%%;height:clamp(180px,24vw,340px);object-fit:cover;border-radius:4px;margin-top:26px;background:var(--blush)}
+.split figure.two{display:grid;gap:12px}.split figure.two img{aspect-ratio:16/10}
+.souv.docs img{aspect-ratio:3/4;object-fit:contain;background:#fff}
 /* souvenirs */
 .souv{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px;margin-top:34px}
 .souv button{background:#fff;border:0;padding:10px 10px 14px;box-shadow:0 10px 24px -14px rgba(0,0,0,.45);cursor:zoom-in;text-align:left}
@@ -121,6 +129,13 @@ def render(d):
     wjson = _j.dumps({k: {"h": sheet_html(v)} for k, v in data.items()}, ensure_ascii=False).replace("</", "<\\/")
     buy = "".join(f'<div class="{"hl" if x.get("hl") else ""}"><h3>{e(x["title"])}</h3><p>{e(x["text"])}</p>{f"<small>{e(x["small"])}</small>" if x.get("small") else ""}</div>' for x in d["acheter"]["items"])
     pdv = "".join(f'<div><h3>{e(x[0])}</h3><p>{e(x[1])}</p></div>' for x in d["acheter"]["pdv"])
+    ac = d.get("actus")
+    actus = ""
+    if ac:
+        news = "".join(f'<article><h3>{e(n["title"])}</h3><p>{e(n.get("text", ""))}</p></article>' for n in ac["items"])
+        docs = "".join(f'<button data-full="{a(p["full"])}" data-cap="{a(p["caption"])}" data-alt="{a(p["caption"])}"><img src="{a(p["thumb"])}" alt="{a(p["caption"])}" loading="lazy" referrerpolicy="no-referrer"><span>{e(p["caption"])}</span></button>' for p in ac["photos"])
+        actus = f'''<section id="actualites" style="padding-top:0"><div class="w"><h2 class="h ys">{e(ac["title"])}</h2><p style="color:var(--muted);margin-top:10px">{e(ac["lead"])}</p>
+<div class="news">{news}</div><div class="souv docs">{docs}</div></div></section>'''
     ch = d["chambre"]
     souv = "".join(f'<button data-full="{a(p["full"])}" data-cap="{a(p["caption"])}" data-alt="{a(p["caption"])}"><img src="{a(p["thumb"])}" alt="{a(p["caption"])}" loading="lazy" referrerpolicy="no-referrer"><span>{e(p["caption"])}</span></button>' for p in d["partage"]["photos"])
     c = d["contact"]
@@ -137,11 +152,11 @@ def render(d):
 <section class="vignes" id="vignes"><div class="w split rev"><img src="{a(vg["img"])}" alt="{a(vg.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">
 <div><h2 class="h ys">{e(vg["title"])}</h2>{"".join(f"<p>{p}</p>" for p in vg["paras"])}</div></div></section>
 <section id="savoir-faire"><div class="w"><h2 class="h ys">{e(sf["title"])}</h2><div class="sf">{sfh}</div></div></section>
-<section class="cave" id="cave"><div class="w"><div class="intro"><h2 class="h ys">{e(d["cave"]["title"])}</h2><p>{e(d["cave"]["lead"])}</p></div>{shelves}
+{f'<img class="pano" src="{a(d["pano"])}" alt="" loading="lazy" referrerpolicy="no-referrer">' if d.get("pano") else ""}<section class="cave" id="cave"><div class="w"><div class="intro"><h2 class="h ys">{e(d["cave"]["title"])}</h2><p>{e(d["cave"]["lead"])}</p></div>{shelves}
 <p class="note">{e(d["cave"]["note"])}</p></div></section>
-<section id="acheter"><div class="w"><h2 class="h ys">{e(d["acheter"]["title"])}</h2><div class="buy">{buy}</div>
+<section id="acheter"><div class="w"><h2 class="h ys">{e(d["acheter"]["title"])}</h2>{f'<img class="buyimg" src="{a(d["acheter"]["img"])}" alt="" loading="lazy" referrerpolicy="no-referrer">' if d["acheter"].get("img") else ""}<div class="buy">{buy}</div>
 <h3 class="ys" style="font-size:1.6rem;margin-top:60px">{e(d["acheter"]["pdv_title"])}</h3><div class="pdv" style="margin-top:20px">{pdv}</div></div></section>
-<section id="chambre" style="padding-top:0"><div class="w split rev"><img src="{a(ch["img"])}" alt="{a(ch.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">
+{actus}<section id="chambre" style="padding-top:0"><div class="w split rev">{f'<figure class="two"><img src="{a(ch["img"])}" alt="{a(ch.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer"><img src="{a(ch["img2"])}" alt="" loading="lazy" referrerpolicy="no-referrer"></figure>' if ch.get("img2") else f'<img src="{a(ch["img"])}" alt="{a(ch.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">'}
 <div><h2 class="h ys">{e(ch["title"])}</h2>{"".join(f"<p>{p}</p>" for p in ch["paras"])}</div></div></section>
 <section id="partage" style="padding-top:0"><div class="w"><h2 class="h ys">{e(d["partage"]["title"])}</h2><p style="color:var(--muted);margin-top:10px">{e(d["partage"]["lead"])}</p><div class="souv">{souv}</div></div></section>
 <section id="contact" style="padding-top:0"><div class="w"><div class="contact"><div class="in"><h2 class="h ys">{e(c["title"])}</h2><p style="color:var(--muted);margin-top:10px">{e(c["text"])}</p><dl>{rows}</dl>

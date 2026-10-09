@@ -44,6 +44,10 @@
    "Acheter"
   ],
   [
+   "actualites",
+   "Actualités"
+  ],
+  [
    "chambre",
    "Chambre d'hôtes"
   ],
@@ -349,7 +353,8 @@
     "Et ailleurs",
     "Des relais dans la Manche, les Bouches-du-Rhône, en Bretagne, en Dordogne… Appelez-nous, nous vous mettons en relation."
    ]
-  ]
+  ],
+  "img": "https://static.wixstatic.com/media/aa37fe_fd080c2867a148ae9817a4924a13a9d9~mv2.jpg/v1/fill/w_1600,h_600,al_c,q_85/acheter.jpg"
  },
  "chambre": {
   "title": "Dormir au domaine",
@@ -359,7 +364,8 @@
    "Prolongez la visite : notre chambre d'hôtes indépendante et climatisée vous accueille au cœur des vignes.",
    "Après la dégustation, un mâchon de charcuteries peut accompagner vos verres, sur réservation.",
    "Tarifs et disponibilités : contactez-nous par téléphone."
-  ]
+  ],
+  "img2": "https://static.wixstatic.com/media/aa37fe_88bcdec790f5425da64f4e01d8444000~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_750,al_c,q_85/chambre2.jpg"
  },
  "partage": {
   "title": "Vos moments de partage",
@@ -436,5 +442,71 @@
    "La Valette, 69220 Charentay"
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ },
+ "pano": "https://static.wixstatic.com/media/dfcc0a_573ef709ff234e75b2d8e9a878322eb8~mv2.jpg/v1/fill/w_1920,h_640,al_c,q_85/pano.jpg",
+ "actus": {
+  "title": "Actualités et distinctions",
+  "lead": "Les nouvelles du domaine, les médailles et la presse.",
+  "items": [
+   {
+    "title": "Une médaille d'argent pour la Cuvée des Poètes",
+    "text": "Notre Brouilly 2016 « Cuvée des Poètes » a été récompensé par une médaille d'argent au concours des Vignerons Indépendants."
+   },
+   {
+    "title": "C'est juste un vin de vigneron…",
+    "text": ""
+   },
+   {
+    "title": "Passionnément",
+    "text": ""
+   }
+  ],
+  "photos": [
+   {
+    "thumb": "https://static.wixstatic.com/media/dfcc0a_a3abfcbc43504c55ac1849ce67306b08~mv2.png/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/dfcc0a_a3abfcbc43504c55ac1849ce67306b08~mv2.png/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": "La Cuvée Bacchus dans le magazine Elle à table"
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/dfcc0a_f72d060fab07465a89af38513496a255~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/dfcc0a_f72d060fab07465a89af38513496a255~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": "Diplôme, médaille d'or pour le blanc (2021)"
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/dfcc0a_344e4147f973406781d9388ff60d3399~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/dfcc0a_344e4147f973406781d9388ff60d3399~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": "Diplôme, Brouilly Cuvée des Poètes (2021)"
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/aa37fe_a27a27fc5afd4d4f85131279f0930b02~mv2_d_10200_14039_s_6_4_3.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/aa37fe_a27a27fc5afd4d4f85131279f0930b02~mv2_d_10200_14039_s_6_4_3.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": "Cuvée Bacchus, concours de Mâcon 2019"
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/aa37fe_9c1c3684c91b4e43bb35396ef0f6eb4d~mv2_d_5100_7019_s_4_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/aa37fe_9c1c3684c91b4e43bb35396ef0f6eb4d~mv2_d_5100_7019_s_4_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": "Féminalise 2019"
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/dfcc0a_18b5fea66e0c413fa42cef21a833eb4a~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/dfcc0a_18b5fea66e0c413fa42cef21a833eb4a~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": ""
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/aa37fe_8f0a80a3f5464e918cb893a901491693~mv2_d_4921_6959_s_4_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/aa37fe_8f0a80a3f5464e918cb893a901491693~mv2_d_4921_6959_s_4_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": ""
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/aa37fe_a97e233c22774ffebde69d591f112d71~mv2_d_2233_5385_s_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/aa37fe_a97e233c22774ffebde69d591f112d71~mv2_d_2233_5385_s_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": ""
+   },
+   {
+    "thumb": "https://static.wixstatic.com/media/aa37fe_59e68b9eafaf4bdb809b2c5ebbfb810a~mv2_d_2363_2722_s_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+    "full": "https://static.wixstatic.com/media/aa37fe_59e68b9eafaf4bdb809b2c5ebbfb810a~mv2_d_2363_2722_s_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+    "caption": ""
+   }
+  ]
  }
 }
