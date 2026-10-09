@@ -50,6 +50,7 @@
    "#visite"
   ],
   "frames": [
+   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/backgroundarea/i0da0860cfca090fa/version/1517316060/image.jpg",
    "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/ib10c7daa5768ff51/version/1517476740/image.jpg",
    "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i48d8a7e2c746397c/version/1517476740/image.jpg",
    "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i0157c6b270b0425e/version/1517476740/image.jpg",
@@ -64,7 +65,9 @@
    "Situé à Chagny, au nord de la Côte chalonnaise, le domaine compte 13 hectares de vignes, essentiellement en appellation Rully, parmi les climats les plus prestigieux : le 1<sup>er</sup> Cru Clos Saint-Jacques, en monopole et vieilles vignes, ou le Clos de Bellecroix. La vue sur la Côte de Beaune lui confère un charme indéniable.",
    "Les vins expriment l'élégance de l'appellation, la finesse du chardonnay et du pinot noir, le caractère de chaque millésime, et cette fraîcheur qui fait la signature du Domaine de la Folie.",
    "Depuis 2010, Clémence et Baptiste Dubrulle assurent la pérennité du savoir-faire familial, en prenant le relais d'Élisabeth et Jérôme Noël-Bouton."
-  ]
+  ],
+  "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1200x10000:format=jpg/path/sff18f8473408ca27/image/i6f09663f7408a6a1/version/1517338104/image.jpg",
+  "alt": "Le domaine de la Folie"
  },
  "timeline": {
   "title": "Cinq générations de vignerons",
@@ -95,6 +98,11 @@
     "who": "Clémence et Baptiste Dubrulle",
     "text": "Venus des relations presse et de l'ingénierie, ils allient le savoir-faire hérité à la volonté d'innover."
    }
+  ],
+  "imgs": [
+   "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=png/path/sff18f8473408ca27/image/if33bf86259f657b7/version/1361201803/image.png",
+   "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=png/path/sff18f8473408ca27/image/i9d3fa395736d3b56/version/1517389681/image.png",
+   "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ice89bf7950cc60bd/version/1517403316/image.jpg"
   ]
  },
  "legend": {
@@ -426,7 +434,13 @@
     "desc": "La recette familiale de Francesca, fille d'Étienne-Jules Marey : des cassis macérés dans l'eau-de-vie de marc du domaine, quelques épices et un sirop de sucre. Un juste équilibre entre fruit et alcool. En digestif, ou avec un dessert aux fruits rouges. En demi-bouteille et en bouteille."
    }
   ],
-  "note": "Tous les vins blancs et rouges : travail des sols, culture raisonnée, vendanges manuelles en petites caisses."
+  "note": "Tous les vins blancs et rouges : travail des sols, culture raisonnée, vendanges manuelles en petites caisses.",
+  "tab_imgs": {
+   "blanc": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/iba6ed32e56ff03fd/version/1517404951/image.png",
+   "rouge": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/i9c2118d3ece16569/version/1517405813/image.png",
+   "bourgogne": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7961dd77606d85e6/version/1517579051/image.jpg",
+   "spiritueux": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7229a39368305d0b/version/1361458563/image.jpg"
+  }
  },
  "gallery": {
   "title": "Au fil des saisons",
@@ -671,7 +685,9 @@
     "<a href=\"mailto:contact@domainedelafolie.fr\">contact@domainedelafolie.fr</a>"
    ]
   ],
-  "map_q": "46.89476,4.74158"
+  "map_q": "46.89476,4.74158",
+  "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i2495609504fb6289/version/1791353062/image.jpg",
+  "alt": "Le caveau de dégustation"
  },
  "footer": {
   "about": "Grands vins de Bourgogne en appellation Rully, à Chagny.",
@@ -681,5 +697,9 @@
    "71150 Chagny"
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
- }
+ },
+ "bands": [
+  "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sff18f8473408ca27/image/i92011ef9dc583ead/version/1517387439/image.jpg",
+  "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sff18f8473408ca27/image/ibba8765dd4f86e6c/version/1517386828/image.jpg"
+ ]
 }

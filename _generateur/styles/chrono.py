@@ -31,7 +31,7 @@ nav.links a{padding:13px 0;border-bottom:1px solid var(--rule)}header.open nav.l
 .film{margin-top:clamp(40px,6vw,70px);background:var(--black);padding:22px 0;position:relative;overflow:hidden}
 .film::before,.film::after{content:"";position:absolute;left:0;right:0;height:10px;background:radial-gradient(circle,#efeeea 2.4px,transparent 2.8px) 0 0/22px 10px repeat-x;opacity:.75}
 .film::before{top:5px}.film::after{bottom:5px}
-.frames{display:grid;grid-template-columns:repeat(6,minmax(180px,1fr));gap:10px;padding:0 10px;overflow-x:auto;scrollbar-width:none}
+.frames{display:grid;grid-template-columns:repeat(7,minmax(180px,1fr));gap:10px;padding:0 10px;overflow-x:auto;scrollbar-width:none}
 .frames figure{position:relative;aspect-ratio:4/3;background:#222;opacity:0;animation:frame .5s ease-out forwards}
 .frames figure:nth-child(2){animation-delay:.12s}.frames figure:nth-child(3){animation-delay:.24s}.frames figure:nth-child(4){animation-delay:.36s}.frames figure:nth-child(5){animation-delay:.48s}.frames figure:nth-child(6){animation-delay:.6s}
 .frames img{width:100%%;height:100%%;object-fit:cover;filter:grayscale(.15)}
@@ -42,6 +42,16 @@ section{padding:clamp(70px,10vw,120px) 0}
 .intro{display:grid;grid-template-columns:1fr 1.4fr;gap:clamp(30px,6vw,90px)}
 .intro h2{font-size:clamp(2rem,4vw,3.2rem)}.intro p{margin-bottom:16px;max-width:62ch}
 @media(max-width:800px){.intro{grid-template-columns:1fr}}
+/* images ajoutées */
+.intro figure img{width:100%%;aspect-ratio:4/3;object-fit:cover;background:#ddd;margin-top:26px}
+.band-img{width:100%%;height:clamp(180px,26vw,360px);object-fit:cover;display:block;background:#ccc}
+.tl-figs{display:flex;gap:16px;margin:-20px 0 40px}.tl-figs img{height:120px;width:auto;object-fit:contain;filter:grayscale(.2)}
+.fams.tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:26px}
+.fams button{border:1px solid var(--rule);background:#fff;padding:10px;cursor:pointer;text-align:center;font-size:.9rem}
+.fams button[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.fams img{width:100%%;height:150px;object-fit:contain;margin-bottom:8px}
+@media(max-width:700px){.fams.tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.visit .in img.vimg{width:100%%;max-height:260px;object-fit:cover;margin-bottom:22px;background:#ddd}
 /* frise */
 .timeline h2{font-size:clamp(2rem,4vw,3.2rem);margin-bottom:12px}.timeline>.w>p{color:var(--muted);max-width:60ch;margin-bottom:50px}
 .tl{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--ink)}
@@ -120,6 +130,11 @@ def render(d):
     meth = "".join(f'<div><h3>{e(m[0])}</h3><p>{e(m[1])}</p></div>' for m in d["methods"]["items"])
     tabs = '<button aria-pressed="true" data-f="all">Toute la cave</button>' + "".join(
         f'<button aria-pressed="false" data-f="{k}">{e(v)}</button>' for k, v in d["wines"]["tabs"])
+    fimgs = d["wines"].get("tab_imgs", {})
+    fams = ""
+    if fimgs:
+        fams = '<div class="fams tabs" role="group" aria-label="Filtrer la cave">' + '<button aria-pressed="true" data-f="all" style="display:none">Toute la cave</button>' + "".join(
+            f'<button aria-pressed="false" data-f="{k}"><img src="{a(fimgs[k])}" alt="" loading="lazy" referrerpolicy="no-referrer">{e(v)}</button>' for k, v in d["wines"]["tabs"]) + '</div><p style="margin:-10px 0 26px"><button class="more" type="button" id="allwines" style="margin:0">Voir toute la cave</button></p>'
     labs = []
     for w in d["wines"]["items"]:
         sheet = "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in w.get("sheet", []))
@@ -145,16 +160,16 @@ def render(d):
 <section class="hero" id="accueil" style="padding-bottom:0"><div class="w"><h1>{e(h["title"])}<span>{e(h["sub"])}</span></h1>
 <div class="lead"><p>{e(h["lead"])}</p><div class="ctas"><a class="btn fill" href="{a(h["cta1"][1])}">{e(h["cta1"][0])}</a><a class="btn" href="{a(h["cta2"][1])}">{e(h["cta2"][0])}</a></div></div></div>
 <div class="film" aria-label="Le domaine en images"><div class="frames">{frames}</div></div></section>
-<section id="domaine"><div class="w intro"><h2>{e(intro["title"])}</h2><div>{"".join(f"<p>{p}</p>" for p in intro["paras"])}</div></div></section>
-<section class="timeline" id="histoire" style="padding-top:0"><div class="w"><h2>{e(d["timeline"]["title"])}</h2><p>{e(d["timeline"]["lead"])}</p><ol class="tl">{tl}</ol></div></section>
+<section id="domaine"><div class="w intro"><div><h2>{e(intro["title"])}</h2>{f'<figure><img src="{a(intro["img"])}" alt="{a(intro.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer"></figure>' if intro.get("img") else ""}</div><div>{"".join(f"<p>{p}</p>" for p in intro["paras"])}</div></div></section>
+<section class="timeline" id="histoire" style="padding-top:0"><div class="w"><h2>{e(d["timeline"]["title"])}</h2><p>{e(d["timeline"]["lead"])}</p>{('<div class="tl-figs">' + "".join(f'<img src="{a(u)}" alt="" loading="lazy" referrerpolicy="no-referrer">' for u in d["timeline"].get("imgs", [])) + '</div>') if d["timeline"].get("imgs") else ""}<ol class="tl">{tl}</ol></div></section>
 <section class="legend"><div class="w"><blockquote>{e(d["legend"]["quote"])}</blockquote><p>{e(d["legend"]["text"])}</p></div></section>
-<section class="methods" id="methodes"><div class="w"><h2>{e(d["methods"]["title"])}</h2><p style="color:var(--muted);max-width:60ch;margin-top:12px">{e(d["methods"]["lead"])}</p><div class="mlist">{meth}</div></div></section>
+{f'<img class="band-img" src="{a(d["bands"][0])}" alt="" loading="lazy" referrerpolicy="no-referrer">' if d.get("bands") else ""}<section class="methods" id="methodes"><div class="w"><h2>{e(d["methods"]["title"])}</h2><p style="color:var(--muted);max-width:60ch;margin-top:12px">{e(d["methods"]["lead"])}</p><div class="mlist">{meth}</div></div></section>
 <section class="wines" id="vins" style="padding-top:0"><div class="w"><h2>{e(d["wines"]["title"])}</h2><p>{e(d["wines"]["lead"])}</p>
-<div class="tabs" role="group" aria-label="Filtrer la cave">{tabs}</div><div class="labels">{"".join(labs)}</div>
+{fams if fams else f'<div class="tabs" role="group" aria-label="Filtrer la cave">{tabs}</div>'}<div class="labels">{"".join(labs)}</div>
 {f'<p style="color:var(--muted);font-size:.9rem;margin-top:30px">{e(d["wines"]["note"])}</p>' if d["wines"].get("note") else ""}</div></section>
 <section class="gal" id="photos" style="padding-top:0"><div class="w"><h2>{e(d["gallery"]["title"])}</h2><div class="tabs" role="group" aria-label="Choisir une série">{gtabs}</div>
 <div class="grid">{gimgs}</div><button class="more" type="button">Voir plus de photos</button></div></section>
-<section id="visite" style="padding-top:0"><div class="w"><div class="visit"><div class="in"><h2>{e(v["title"])}</h2><p>{e(v["text"])}</p><dl>{rows}</dl>
+{f'<img class="band-img" src="{a(d["bands"][1])}" alt="" loading="lazy" referrerpolicy="no-referrer" style="margin-bottom:clamp(60px,9vw,110px)">' if len(d.get("bands", [])) > 1 else ""}<section id="visite" style="padding-top:0"><div class="w"><div class="visit"><div class="in">{f'<img class="vimg" src="{a(v["img"])}" alt="{a(v.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">' if v.get("img") else ""}<h2>{e(v["title"])}</h2><p>{e(v["text"])}</p><dl>{rows}</dl>
 <form class="mail" data-to="{a(v["email"])}"><label for="f-nom">Votre nom</label><input id="f-nom" name="nom" autocomplete="name" required>
 <label for="f-msg">Votre message</label><textarea id="f-msg" name="msg" required placeholder="Par exemple : nous aimerions venir déguster le samedi 14 au matin, à deux."></textarea>
 <button class="btn fill" type="submit">Écrire au domaine</button></form></div>{map_iframe(v["map_q"])}</div></div></section>
@@ -166,6 +181,7 @@ const H=document.getElementById('top'),B=H.querySelector('.burger');B.onclick=()
 H.querySelectorAll('nav a').forEach(l=>l.onclick=()=>{H.classList.remove('open');B.setAttribute('aria-expanded',false)});
 document.querySelectorAll('#vins .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#vins .tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));
  const f=b.dataset.f;document.querySelectorAll('.lab').forEach(l=>l.hidden=!(f==='all'||l.dataset.cat===f))});
+const aw=document.getElementById('allwines');if(aw)aw.onclick=()=>{document.querySelectorAll('#vins .tabs button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.f==='all'));document.querySelectorAll('.lab').forEach(l=>l.hidden=false)};
 let gset=document.querySelector('#photos .tabs button').dataset.g,shown=12;const more=document.querySelector('#photos .more');
 const gal=()=>{let n=0;document.querySelectorAll('#photos .grid button').forEach(b=>{const ok=b.dataset.set===gset;b.hidden=!(ok&&n<shown);if(ok)n++});more.hidden=n<=shown};
 document.querySelectorAll('#photos .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#photos .tabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));gset=b.dataset.g;shown=12;gal()});
