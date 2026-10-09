@@ -255,7 +255,7 @@ def section_cards(o):
         medal = f'<div class="medal">{e(c["medal"])}</div>' if c.get("medal") else ""
         cards.append(f'''<article class="card" data-cat="{c.get("cat", "")}" style="--c:{c.get("color", "var(--accent)")}">{badge}{img}
 {f'<span class="tag">{e(c["tag"])}</span>' if c.get("tag") else ""}<h3>{e(c["name"])}</h3>{f'<div class="app">{e(c["app"])}</div>' if c.get("app") else ""}
-<p>{e(c.get("desc", ""))}</p>{('<dl class="sheet">' + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in c["sheet"]) + "</dl>") if c.get("sheet") else ""}{medal}{price}</article>''')
+<p>{e(c.get("desc", ""))}</p>{('<dl class="sheet">' + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in c["sheet"]) + "</dl>") if c.get("sheet") else ""}{medal}{price}{f'<p class="note" style="text-align:left;margin-top:12px"><a href="{attr(c["link"][1])}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">{e(c["link"][0])}</a></p>' if c.get("link") else ""}</article>''')
     note = f'<p class="note">{e(o["note"])}</p>' if o.get("note") else ""
     return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div>{tabs}
