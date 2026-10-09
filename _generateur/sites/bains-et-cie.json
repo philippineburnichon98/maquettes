@@ -1,0 +1,84 @@
+{
+  "slug": "bains-et-cie-f10f6d",
+  "style": "carnet",
+  "title": "Bains et Cie, salle de bain clé en main et plomberie",
+  "description": "Sébastien Chabert, plombier-conseil : création ou rénovation de salle de bain avec un seul interlocuteur, plomberie en rénovation et en neuf, label Handibat. Devis gratuit.",
+  "brand": "Bains et Cie",
+  "logo": {"src": "https://static.wixstatic.com/media/ab4b43_d2cf8e27ae674386806ce8e61947f865~mv2.jpeg", "height": 46},
+  "theme": {
+    "paper": "#f5f9fa", "ink": "#0e3b45", "accent": "#e8a978", "accent2": "#a4542a", "soft": "#d6e6e9",
+    "line": "rgba(14,59,69,.075)", "grid": "carrelage", "opening": "photo", "logo_bg": "#0e3b45",
+    "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Kalam:wght@400&display=swap",
+    "display": "'Outfit', system-ui, sans-serif", "body": "'Outfit', system-ui, sans-serif", "hand": "'Kalam', cursive"
+  },
+  "nav": [["prestations", "Prestations"], ["chantiers", "Réalisations"], ["artisan", "Qui suis-je ?"]],
+  "hero": {
+    "title": "Salle de bain clé en main et plomberie",
+    "mark": "clé en main",
+    "lead": "Création ou rénovation de votre salle de bain avec un seul interlocuteur, et tous vos travaux de plomberie, en rénovation comme en neuf.",
+    "badges": ["Label Handibat", "Un seul interlocuteur", "Devis gratuit"],
+    "img": "https://static.wixstatic.com/media/ab4b43_cbc88be85c6749f3845bfd061cb06362~mv2.jpg",
+    "alt": "Salle d'eau réalisée par Bains et Cie"
+  },
+  "coupon": {
+    "title": "Bon pour un devis",
+    "text": "Devis gratuit et conseils personnalisés. Décrivez votre projet de salle de bain ou votre problème de plomberie.",
+    "tel": "06 86 85 62 19", "tel_href": "+33686856219",
+    "mail": "bainsetcie@yahoo.com", "subject": "Demande de devis",
+    "small": "Sébastien Chabert, entrepreneur du réseau Cabestan, Grenoble."
+  },
+  "prestations": {
+    "title": "Salle de bain et plomberie",
+    "lead": "Mettre mon expertise au service de vos attentes, pour des réalisations performantes, esthétiques et confortables.",
+    "groups": [
+      {"title": "Salle de bain clé en main", "items": ["Création ou rénovation de votre salle de bain", "Un seul interlocuteur qui coordonne tous les corps de métier : plomberie, électricité, carrelage, faïence, parquets, peinture", "Vos besoins et vos envies définis à l'aide d'un plan 3D", "Un projet chiffré, affiné ensemble", "Une orientation vers des salles d'exposition partenaires pour choisir les appareillages", "Des finitions traitées avec un haut niveau d'exigence"]},
+      {"title": "Plomberie, rénovation et neuf", "items": ["Remplacement de robinets, de chauffe-eau, de chasse d'eau", "Remplacement des tuyaux en plomb, reprise de tuyaux vétustes", "Dépannage rapide et reprise de fuites", "Réparation et changement de robinetterie", "Installation complète, maisons neuves", "Réparation, entretien et remplacement de chauffe-eau", "WC, arrosage, cuisine"]},
+      {"title": "Accessibilité", "items": ["Label Handibat : des solutions adaptées à vos besoins et à votre budget"]}
+    ],
+    "note": "Devis gratuit et conseils personnalisés.",
+    "engage": [
+      ["L'écoute", ""],
+      ["Le respect de l'habitation", ""],
+      ["Le perfectionnisme", ""]
+    ]
+  },
+  "photos": {
+    "title": "Mes réalisations",
+    "lead": "Salles de bain et travaux de plomberie, photos du site actuel.",
+    "items": [
+      {"src": "https://static.wixstatic.com/media/ab4b43_cbc88be85c6749f3845bfd061cb06362~mv2.jpg", "cap": "Salle d'eau"},
+      {"src": "https://static.wixstatic.com/media/ab4b43_4e9642b17d0e41b6990899244dd9265c~mv2.jpg", "cap": "Baignoire"},
+      {"src": "https://static.wixstatic.com/media/ab4b43_7c3b7ea2fc124ad5a95a7e521a7e40f5~mv2.jpg", "cap": "Toilette"},
+      {"src": "https://static.wixstatic.com/media/ab4b43_d5cea46d23854a3b9e97ee9cfff3a613~mv2.jpg", "cap": "Reprise de tuyaux vétustes"},
+      {"src": "https://static.wixstatic.com/media/ab4b43_73855a03f31744bdaa76a65794845b8f~mv2.jpg", "cap": "Maisons neuves"},
+      {"src": "https://static.wixstatic.com/media/ab4b43_a303f160df0e437a9032a1fb4068a4da~mv2.jpg"},
+      {"src": "https://static.wixstatic.com/media/ab4b43_690081da685f47dcb4efb47a36ada880~mv2.jpg"},
+      {"src": "https://static.wixstatic.com/media/ab4b43_94c5a214f62545c382dde51f461544a9~mv2.jpg"}
+    ]
+  },
+  "who": {
+    "title": "Qui suis-je ?",
+    "img": "https://static.wixstatic.com/media/ab4b43_95c961903b9c437b87fb8c1243aabe7f~mv2.jpg",
+    "alt": "Sébastien Chabert",
+    "paras": [
+      "Sébastien Chabert a travaillé plusieurs années dans des entreprises de plomberie, puis a choisi de devenir l'interlocuteur privilégié de ses clients : un conseil avisé, un service exigeant et sur mesure.",
+      "Sérieux et fiable, il communique avec vous de la conception à l'exécution du chantier.",
+      "Selon les besoins de chaque projet, il travaille avec les artisans du réseau coopératif Cabestan, une SCOP de 250 professionnels qui couvre plus de soixante métiers du bâtiment, engagée pour un entreprenariat plus responsable, durable et coopératif."
+    ]
+  },
+  "labels": ["Handibat", "RGE (fiche Cabestan)", "Réseau Cabestan"],
+  "contact": {
+    "title": "Votre projet, un seul interlocuteur",
+    "text": "Un appel ou un e-mail pour parler de votre salle de bain ou d'un dépannage : le devis est gratuit.",
+    "rows": [
+      ["Téléphone", "<a href=\"tel:+33686856219\">06 86 85 62 19</a>"],
+      ["E-mail", "<a href=\"mailto:bainsetcie@yahoo.com?subject=Demande%20de%20devis\">bainsetcie@yahoo.com</a>"],
+      ["Ville", "Grenoble (38100)"],
+      ["Réseau", "<a href=\"https://www.cabestan.fr\" target=\"_blank\" rel=\"noopener\">SCOP Cabestan</a>, 88 rue Anatole France, 38100 Grenoble"]
+    ]
+  },
+  "footer": {
+    "about": "Bains et Cie, Sébastien Chabert, plombier-chauffagiste. Entrepreneur salarié de la SCOP Cabestan.",
+    "lines": ["<a href=\"tel:+33686856219\">06 86 85 62 19</a>", "<a href=\"mailto:bainsetcie@yahoo.com\">bainsetcie@yahoo.com</a>", "Label Handibat, RGE (selon la fiche Cabestan)", "Cabestan, 88 rue Anatole France, 38100 Grenoble"]
+  }
+}
