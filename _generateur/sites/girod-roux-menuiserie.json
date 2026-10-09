@@ -1,29 +1,30 @@
 {
  "slug": "girod-roux-menuiserie-870921",
- "style": "etabli",
  "title": "Girod-Roux Menuiserie, menuisier ébéniste entre Annecy et Thônes",
  "description": "Frédéric Girod-Roux, menuiserie, ébénisterie et agencement à La Balme de Thuy (74) : menuiserie intérieure et extérieure, mobilier sur mesure, dressings, cuisines, isolation RGE.",
  "brand": "Girod-Roux Menuiserie",
+ "tagline": "Menuiserie · ébénisterie · agencement",
  "logo": {
   "src": "https://static.wixstatic.com/media/6466fd_982d8680f9d64055ae9119c8332dfcfb~mv2_d_4426_2071_s_2.png",
   "height": 52
  },
  "theme": {
-  "bg": "#f7f6f1",
+  "paper": "#f7f6f1",
+  "paper2": "#e7e3d6",
   "ink": "#1d1f1c",
-  "wood": "#d9a45b",
-  "deep": "#24402f",
-  "rule": "#f0c419",
-  "soft": "#e7e3d6",
-  "opening": "atelier",
-  "fonts": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600;700&display=swap",
-  "display": "'Bricolage Grotesque', system-ui, sans-serif",
-  "mono": "'IBM Plex Mono', ui-monospace, monospace"
+  "muted": "#5c5f58",
+  "accent": "#24402f",
+  "accent2": "#182b20",
+  "gold": "#b9873f",
+  "heroem": "#f0c419",
+  "serif": "\"Bricolage Grotesque\",system-ui,sans-serif",
+  "sans": "\"Bricolage Grotesque\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600&display=swap"
  },
  "nav": [
   [
-   "avant-apres",
-   "Avant / après"
+   "entreprise",
+   "L'entreprise"
   ],
   [
    "interieur",
@@ -50,1253 +51,1673 @@
    "Chantiers mutualisés"
   ],
   [
-   "devis",
-   "Devis"
+   "contact",
+   "Contact"
   ]
  ],
  "hero": {
-  "title": "Menuiserie, ébénisterie et agencement entre Annecy et Thônes",
-  "lead": "Frédéric Girod-Roux a créé son entreprise en 2012 à La Balme de Thuy. Tous les travaux en bois et matériaux associés, sur mesure : cloisons, portes, plafonds, terrasses, garde-corps, dressings, cuisines et meubles.",
   "img": "https://static.wixstatic.com/media/6466fd_0d5241e468b948bf8db1800ec18d8841~mv2.jpg",
-  "alt": "Terrasse suspendue à Dingy-Saint-Clair",
-  "cap": "Dingy St Clair : terrasse suspendue",
-  "facts": [
-   [
-    "2012",
-    "création de l'entreprise"
-   ],
-   [
-    "24 ans",
-    "d'expérience"
-   ],
-   [
-    "RGE",
-    "Qualibat 98857"
-   ]
+  "eyebrow": "La Balme de Thuy · entre Annecy et Thônes",
+  "title": "Menuiserie, ébénisterie <em>et agencement</em>",
+  "lead": "Girod-Roux Menuiserie réalise tous vos travaux en bois et matériaux associés, sur mesure, en étant créatif et à l'écoute de vos besoins.",
+  "cta1": [
+   "Parlons de votre projet",
+   "#contact"
+  ],
+  "cta2": [
+   "Voir les réalisations",
+   "#interieur"
   ]
  },
- "pairs_title": "Avant, après",
- "pairs_lead": "Faites glisser la poignée pour comparer. Toutes les photos viennent des chantiers de l'entreprise.",
- "pairs": [
-  {
-   "title": "Terrasse en Douglas",
-   "place": "Dingy St Clair 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_d9f6929a178545a88d266360b2a5c65e~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_e11ba47098304a46b6e1b4ada665f59e~mv2.jpg"
-  },
-  {
-   "title": "Fabrication et pose de portes",
-   "place": "Le Grand Bornand 74450",
-   "before": "https://static.wixstatic.com/media/6466fd_b4992bab5b7649908b24358009862a00~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_59ea5dc9618442bdad5bfae3248da5d3~mv2.jpg"
-  },
-  {
-   "title": "Isolation et lambris thermo-brossé",
-   "place": "Thônes 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_224aeb05382142c39d20bf1bc27ae989~mv2_d_2989_1681_s_2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_b3b9f5e0029d46d084195137f7a9c268~mv2_d_2989_1681_s_2.jpg"
-  },
-  {
-   "title": "Réfection d'un coin cuisine, en épicéa étuvé",
-   "place": "Villette 73210",
-   "before": "https://static.wixstatic.com/media/6466fd_b9e5063f0be94dd0952de526750cd232~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_b9024094110847839822b1f0629aef92~mv2.jpg"
-  },
-  {
-   "title": "Garde-corps en vieux bois",
-   "place": "Thônes 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_6ccab4901ccf4abbb5bf9ccd3daf1920~mv2_d_3264_1836_s_2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_fc187ae6dee84cec89943c14ceb1d934~mv2_d_3264_1836_s_2.jpg"
-  },
-  {
-   "title": "Habillage d'un escalier béton",
-   "place": "Dingy St Clair 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_998fdc02461c423aa15b21014acb5adb~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_3c638180beea446caafbf34ff792d24e~mv2.jpg"
-  },
-  {
-   "title": "Fermeture d'un hangar",
-   "place": "La Balme de Thuy 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_c8fffded5b7e461db57bb484894d5b21~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_cd11f042039a4e6a96a474df243ace5e~mv2.jpg"
-  },
-  {
-   "title": "Remplacement d'un garde-corps",
-   "place": "Annecy le Vieux",
-   "before": "https://static.wixstatic.com/media/6466fd_0406dccb1d0c4ed2b4f1ac06a2289b9f~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_3291c0d473f040fc95a78dfd779e454d~mv2.jpg"
-  },
-  {
-   "title": "Extension de la terrasse",
-   "place": "Dingy St Clair 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_4031c4e6ceb7431299d674c77285817a~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_74f95cb9902749fe9543c9324120237b~mv2.jpg"
-  },
-  {
-   "title": "Remplacement d'une porte de communication",
-   "place": "Petit Bornand",
-   "before": "https://static.wixstatic.com/media/6466fd_6ed49722a46d4110878195baece2722b~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_e9456e9441344e158d903cf6413a3f75~mv2.jpg"
-  },
-  {
-   "title": "Nouveau garde-corps en mélèze, barreaudage en diagonale",
-   "place": "Sevrier 74320",
-   "before": "https://static.wixstatic.com/media/6466fd_efb9e9cda646474a9e3dcdc79ebea879~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_cd45ff6c2ecb491481440c292a3d05d3~mv2.jpg"
-  },
-  {
-   "title": "Garde-corps rampant",
-   "place": "Sevrier 74320",
-   "before": "https://static.wixstatic.com/media/6466fd_b4307484fe7f4531af7b76b737fddebf~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_10a3a1af0abb4698bcc554793c4d7809~mv2.jpg"
-  },
-  {
-   "title": "Ancienne cuisine, nouvelle cuisine",
-   "place": "La Balme de Thuy 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_2e52217dfba643ca9b4a2e8d1b3a6949~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_78319258b7914e258dbea2c43c224375~mv2.jpg"
-  },
-  {
-   "title": "Encadrements en mélèze vieilli, habillage pierres",
-   "place": "Dingy St Clair",
-   "before": "https://static.wixstatic.com/media/6466fd_f11dd58488284fe8850f4474e0984b65~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_ca933636bf50416489c748c13b97914e~mv2.jpg"
-  },
-  {
-   "title": "Sécurisation d'une mezzanine par 2 demi-cloisons",
-   "place": "La Balme de Thuy",
-   "before": "https://static.wixstatic.com/media/6466fd_e3e2cba22aa44a139c3b7fb6ba5e321d~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_8dbfb2eb4c5446eb9869dd681229a926~mv2.jpg"
-  },
-  {
-   "title": "Volet persienne fabriqué en atelier",
-   "place": "Thuy 74230",
-   "before": "https://static.wixstatic.com/media/6466fd_adbdcff1b5e444bcabd4bfeb457eb875~mv2.jpg",
-   "after": "https://static.wixstatic.com/media/6466fd_c4e11e2e36fc493195e0ab27f25e6feb~mv2.jpg"
-  }
+ "figures": [
+  [
+   "2012",
+   "création de l'entreprise"
+  ],
+  [
+   "24 ans",
+   "d'expérience"
+  ],
+  [
+   "RGE",
+   "Qualibat"
+  ],
+  [
+   "Sur mesure",
+   "tous travaux bois"
+  ]
  ],
  "sections": [
   {
-   "id": "interieur",
-   "title": "Menuiserie intérieure",
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "Présentation de l'entreprise",
+   "title": "L'entrepreneur : <em class=\"it\">Frédéric Girod-Roux</em>",
+   "img": "https://static.wixstatic.com/media/6466fd_1fe0c9c1b5964fd6bd0930b6e534ff70~mv2.jpg",
+   "alt": "Girod-Roux Menuiserie",
    "paras": [
-    "Envie de changements ? Rénover son logement, gagner en confort ou redonner du style à son cadre de vie : cloisons, rangements et dressings, portes de communication, faux plafonds, habillages d'encadrements, fausses poutres, lambris, parquets et travaux d'isolation, entièrement sur mesure.",
-    "Nouveauté : installation de verrières en aluminium pour créer une cloison vitrée."
+    "J'ai créé mon entreprise de menuiserie, d'ébénisterie et d'agencement en 2012. Girod-Roux Menuiserie est située 253 route de Charvex, 74230 La Balme de Thuy (entre Annecy et Thônes), et elle réalise tous vos travaux en bois et matériaux associés.",
+    "Je suis titulaire d'un BTS productique bois et d'un BT ameublement, fort de 24 années d'expérience dans la réalisation de projets d'agencements et de restauration de meubles d'art populaire alpin.",
+    "Je suis très attaché au respect des valeurs du métier et particulièrement attentif à la pérennité de mes réalisations. C'est donc naturellement que je vous propose mes services pour tous vos projets d'agencements, de menuiseries et d'ébénisterie, en étant créatif et à l'écoute de vos besoins."
    ],
-   "blocks": [
+   "sign": "Frédéric Girod-Roux"
+  },
+  {
+   "kind": "features",
+   "dark": true,
+   "id": "atouts",
+   "eyebrow": "Nos atouts",
+   "title": "Le travail <em class=\"it\">bien fait</em>",
+   "items": [
+    [
+     "Matériaux de qualité",
+     ""
+    ],
+    [
+     "Professionnel qualifié",
+     ""
+    ],
+    [
+     "Délais garantis",
+     ""
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Réalisations",
+   "title": "Avant, <em class=\"it\">après</em>",
+   "lead": "Les chantiers de l'entreprise, avant et après les travaux.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_d9f6929a178545a88d266360b2a5c65e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_d9f6929a178545a88d266360b2a5c65e~mv2.jpg",
+     "alt": "Terrasse en Douglas, Dingy St Clair 74230 : avant",
+     "caption": "Terrasse en Douglas, Dingy St Clair 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e11ba47098304a46b6e1b4ada665f59e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e11ba47098304a46b6e1b4ada665f59e~mv2.jpg",
+     "alt": "Terrasse en Douglas, Dingy St Clair 74230 : après",
+     "caption": "Terrasse en Douglas, Dingy St Clair 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b4992bab5b7649908b24358009862a00~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b4992bab5b7649908b24358009862a00~mv2.jpg",
+     "alt": "Fabrication et pose de portes, Le Grand Bornand 74450 : avant",
+     "caption": "Fabrication et pose de portes, Le Grand Bornand 74450 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_59ea5dc9618442bdad5bfae3248da5d3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_59ea5dc9618442bdad5bfae3248da5d3~mv2.jpg",
+     "alt": "Fabrication et pose de portes, Le Grand Bornand 74450 : après",
+     "caption": "Fabrication et pose de portes, Le Grand Bornand 74450 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_224aeb05382142c39d20bf1bc27ae989~mv2_d_2989_1681_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_224aeb05382142c39d20bf1bc27ae989~mv2_d_2989_1681_s_2.jpg",
+     "alt": "Isolation et lambris thermo-brossé, Thônes 74230 : avant",
+     "caption": "Isolation et lambris thermo-brossé, Thônes 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b3b9f5e0029d46d084195137f7a9c268~mv2_d_2989_1681_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b3b9f5e0029d46d084195137f7a9c268~mv2_d_2989_1681_s_2.jpg",
+     "alt": "Isolation et lambris thermo-brossé, Thônes 74230 : après",
+     "caption": "Isolation et lambris thermo-brossé, Thônes 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b9e5063f0be94dd0952de526750cd232~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b9e5063f0be94dd0952de526750cd232~mv2.jpg",
+     "alt": "Réfection d'un coin cuisine, en épicéa étuvé, Villette 73210 : avant",
+     "caption": "Réfection d'un coin cuisine, en épicéa étuvé, Villette 73210 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b9024094110847839822b1f0629aef92~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b9024094110847839822b1f0629aef92~mv2.jpg",
+     "alt": "Réfection d'un coin cuisine, en épicéa étuvé, Villette 73210 : après",
+     "caption": "Réfection d'un coin cuisine, en épicéa étuvé, Villette 73210 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_6ccab4901ccf4abbb5bf9ccd3daf1920~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_6ccab4901ccf4abbb5bf9ccd3daf1920~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Garde-corps en vieux bois, Thônes 74230 : avant",
+     "caption": "Garde-corps en vieux bois, Thônes 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_fc187ae6dee84cec89943c14ceb1d934~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_fc187ae6dee84cec89943c14ceb1d934~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Garde-corps en vieux bois, Thônes 74230 : après",
+     "caption": "Garde-corps en vieux bois, Thônes 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_998fdc02461c423aa15b21014acb5adb~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_998fdc02461c423aa15b21014acb5adb~mv2.jpg",
+     "alt": "Habillage d'un escalier béton, Dingy St Clair 74230 : avant",
+     "caption": "Habillage d'un escalier béton, Dingy St Clair 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_3c638180beea446caafbf34ff792d24e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_3c638180beea446caafbf34ff792d24e~mv2.jpg",
+     "alt": "Habillage d'un escalier béton, Dingy St Clair 74230 : après",
+     "caption": "Habillage d'un escalier béton, Dingy St Clair 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c8fffded5b7e461db57bb484894d5b21~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c8fffded5b7e461db57bb484894d5b21~mv2.jpg",
+     "alt": "Fermeture d'un hangar, La Balme de Thuy 74230 : avant",
+     "caption": "Fermeture d'un hangar, La Balme de Thuy 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_cd11f042039a4e6a96a474df243ace5e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_cd11f042039a4e6a96a474df243ace5e~mv2.jpg",
+     "alt": "Fermeture d'un hangar, La Balme de Thuy 74230 : après",
+     "caption": "Fermeture d'un hangar, La Balme de Thuy 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_0406dccb1d0c4ed2b4f1ac06a2289b9f~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_0406dccb1d0c4ed2b4f1ac06a2289b9f~mv2.jpg",
+     "alt": "Remplacement d'un garde-corps, Annecy le Vieux : avant",
+     "caption": "Remplacement d'un garde-corps, Annecy le Vieux : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_3291c0d473f040fc95a78dfd779e454d~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_3291c0d473f040fc95a78dfd779e454d~mv2.jpg",
+     "alt": "Remplacement d'un garde-corps, Annecy le Vieux : après",
+     "caption": "Remplacement d'un garde-corps, Annecy le Vieux : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_4031c4e6ceb7431299d674c77285817a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_4031c4e6ceb7431299d674c77285817a~mv2.jpg",
+     "alt": "Extension de la terrasse, Dingy St Clair 74230 : avant",
+     "caption": "Extension de la terrasse, Dingy St Clair 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_74f95cb9902749fe9543c9324120237b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_74f95cb9902749fe9543c9324120237b~mv2.jpg",
+     "alt": "Extension de la terrasse, Dingy St Clair 74230 : après",
+     "caption": "Extension de la terrasse, Dingy St Clair 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_6ed49722a46d4110878195baece2722b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_6ed49722a46d4110878195baece2722b~mv2.jpg",
+     "alt": "Remplacement d'une porte de communication, Petit Bornand : avant",
+     "caption": "Remplacement d'une porte de communication, Petit Bornand : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e9456e9441344e158d903cf6413a3f75~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e9456e9441344e158d903cf6413a3f75~mv2.jpg",
+     "alt": "Remplacement d'une porte de communication, Petit Bornand : après",
+     "caption": "Remplacement d'une porte de communication, Petit Bornand : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_efb9e9cda646474a9e3dcdc79ebea879~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_efb9e9cda646474a9e3dcdc79ebea879~mv2.jpg",
+     "alt": "Nouveau garde-corps en mélèze, barreaudage en diagonale, Sevrier 74320 : avant",
+     "caption": "Nouveau garde-corps en mélèze, barreaudage en diagonale, Sevrier 74320 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_cd45ff6c2ecb491481440c292a3d05d3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_cd45ff6c2ecb491481440c292a3d05d3~mv2.jpg",
+     "alt": "Nouveau garde-corps en mélèze, barreaudage en diagonale, Sevrier 74320 : après",
+     "caption": "Nouveau garde-corps en mélèze, barreaudage en diagonale, Sevrier 74320 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b4307484fe7f4531af7b76b737fddebf~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b4307484fe7f4531af7b76b737fddebf~mv2.jpg",
+     "alt": "Garde-corps rampant, Sevrier 74320 : avant",
+     "caption": "Garde-corps rampant, Sevrier 74320 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_10a3a1af0abb4698bcc554793c4d7809~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_10a3a1af0abb4698bcc554793c4d7809~mv2.jpg",
+     "alt": "Garde-corps rampant, Sevrier 74320 : après",
+     "caption": "Garde-corps rampant, Sevrier 74320 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2e52217dfba643ca9b4a2e8d1b3a6949~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2e52217dfba643ca9b4a2e8d1b3a6949~mv2.jpg",
+     "alt": "Ancienne cuisine, nouvelle cuisine, La Balme de Thuy 74230 : avant",
+     "caption": "Ancienne cuisine, nouvelle cuisine, La Balme de Thuy 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_78319258b7914e258dbea2c43c224375~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_78319258b7914e258dbea2c43c224375~mv2.jpg",
+     "alt": "Ancienne cuisine, nouvelle cuisine, La Balme de Thuy 74230 : après",
+     "caption": "Ancienne cuisine, nouvelle cuisine, La Balme de Thuy 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_f11dd58488284fe8850f4474e0984b65~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_f11dd58488284fe8850f4474e0984b65~mv2.jpg",
+     "alt": "Encadrements en mélèze vieilli, habillage pierres, Dingy St Clair : avant",
+     "caption": "Encadrements en mélèze vieilli, habillage pierres, Dingy St Clair : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ca933636bf50416489c748c13b97914e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ca933636bf50416489c748c13b97914e~mv2.jpg",
+     "alt": "Encadrements en mélèze vieilli, habillage pierres, Dingy St Clair : après",
+     "caption": "Encadrements en mélèze vieilli, habillage pierres, Dingy St Clair : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e3e2cba22aa44a139c3b7fb6ba5e321d~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e3e2cba22aa44a139c3b7fb6ba5e321d~mv2.jpg",
+     "alt": "Sécurisation d'une mezzanine par 2 demi-cloisons, La Balme de Thuy : avant",
+     "caption": "Sécurisation d'une mezzanine par 2 demi-cloisons, La Balme de Thuy : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8dbfb2eb4c5446eb9869dd681229a926~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8dbfb2eb4c5446eb9869dd681229a926~mv2.jpg",
+     "alt": "Sécurisation d'une mezzanine par 2 demi-cloisons, La Balme de Thuy : après",
+     "caption": "Sécurisation d'une mezzanine par 2 demi-cloisons, La Balme de Thuy : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_adbdcff1b5e444bcabd4bfeb457eb875~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_adbdcff1b5e444bcabd4bfeb457eb875~mv2.jpg",
+     "alt": "Volet persienne fabriqué en atelier, Thuy 74230 : avant",
+     "caption": "Volet persienne fabriqué en atelier, Thuy 74230 : avant"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c4e11e2e36fc493195e0ab27f25e6feb~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c4e11e2e36fc493195e0ab27f25e6feb~mv2.jpg",
+     "alt": "Volet persienne fabriqué en atelier, Thuy 74230 : après",
+     "caption": "Volet persienne fabriqué en atelier, Thuy 74230 : après"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_dcf8d74401fb4b2a90cf7e57ff5819b0~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_dcf8d74401fb4b2a90cf7e57ff5819b0~mv2.jpg",
+     "alt": "Création d'un sas",
+     "caption": "Création d'un sas"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2355e1a2fdd24ab2b0eed0aef92111f2~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2355e1a2fdd24ab2b0eed0aef92111f2~mv2.jpg",
+     "alt": "Cloison",
+     "caption": "Cloison"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_d13b70577c1b42bcbdc245309ca48c32~mv2_d_4443_2500_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_d13b70577c1b42bcbdc245309ca48c32~mv2_d_4443_2500_s_4_2.jpg",
+     "alt": "Réalisation Girod-Roux Menuiserie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_0d90eb14b2b246a0b89a3817c1948769~mv2_d_5184_2916_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_0d90eb14b2b246a0b89a3817c1948769~mv2_d_5184_2916_s_4_2.jpg",
+     "alt": "Réalisation Girod-Roux Menuiserie"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "interieur",
+   "eyebrow": "Menuiserie intérieure",
+   "title": "Envie <em class=\"it\">de changements ?</em>",
+   "lead": "Rénover son logement, améliorer son confort, donner un coup de jeune à son cadre de vie : création de cloisons, de divers rangements et dressings, de portes de communication, de faux plafonds, habillage d'encadrements, fausses poutres, pose de lambris, de parquets, travaux d'isolation… Tous les travaux sont réalisés sur mesure et au plus proche de vos attentes. Nouveau : installation de verrières en aluminium pour réaliser une cloison vitrée.",
+   "items": [
     {
      "title": "Murs et cloisons",
      "paras": [
       "Murs en vieux bois ou en bois neuf rustique pour une ambiance chalet de montagne, ou lambris de couleurs contemporaines, associés à des revêtements comme le Fermacell."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_ae511b8fe3bf4281900695a7ddf1e414~mv2.jpg",
-       "La Balme de Thuy",
-       "Verrière entre entrée et cuisine"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_458eff1233864947ad613713f5c4414a~mv2.jpg",
-       "La Balme de Thuy",
-       "Verrière entre entrée et cuisine"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_ea99e21db6b64609a08f5d55574c66c2~mv2.jpg",
-       "Dingy St Clair",
-       "Cloison ossature bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_793221303fc240058debfed31da1d224~mv2.jpg",
-       "Dingy St Clair",
-       "Cloison ossature bois et ouate de cellulose"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_a4ae0204572541debabaa8f79da6d9e8~mv2.jpg",
-       "Dingy St Clair",
-       "Revêtement Fermacell"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_38e1f6f4441d43a69c530a5818ba4c26~mv2.jpg",
-       "Dingy St Clair",
-       "Création claustra sur mezzanine"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_79d3c7c17a6a4dfb9b79386cff278790~mv2.jpg",
-       "Dingy St Clair",
-       "Claustra mezzanine démontable"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_589aa829158e4ebba1464076de3e0c12~mv2.jpg",
-       "Dingy St Clair",
-       "Cloison à refaire suite dégât des eaux"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_a5a0f83626fb47539d10919a14921aa1~mv2.jpg",
-       "Dingy St Clair",
-       "La cloison est isolée phoniquement"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_0ee2fd7e8a9f424398e49058f507861e~mv2_d_3264_1836_s_2.jpg",
-       "La Balme de Thuy 74230",
-       "Cloisons avec portes coulissantes à galandage (en cours)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_0d2f60ebfd22485e9252236a96a2ea87~mv2_d_3264_1836_s_2.jpg",
-       "La Balme de Thuy 74230",
-       "Cloisons avec portes coulissantes à galandage"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_e04694c620484039855015af8b3a3636~mv2_d_3024_4032_s_4_2.jpg",
-       "Grand Bornand 74450",
-       "Tête de lit en vieux bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_790167d13a2e4530806a4093a1252b8c~mv2.jpg",
-       "Argonay 74370",
-       "Verrière en cours d'installation"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_c532238d3d2e4462a2e2bd49360f1b4c~mv2.jpg",
-       "Argonay 74370",
-       "Verrière en aluminium laqué noir séparant la cuisine"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_539f5d8878804b71a91e6558680712ab~mv2_d_4032_3024_s_4_2.jpg",
-       "Dingy St Clair 74230",
-       "Sas d'entrée en verrière (début des travaux)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_9c64dcb0dc2346e2b0f4869c744dcf88~mv2_d_3024_4032_s_4_2.jpg",
-       "Dingy St Clair 74230",
-       "Sas d'entrée de maison en verrière"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_ddf98339bfce4f86b78fae7c5f39c65c~mv2_d_4032_3024_s_4_2.jpg",
-       "Dingy St Clair 74230",
-       "Sas d'entrée de maison en verrière"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_bf8c7f4539a349408d404d76ecfac1c4~mv2_d_2268_4032_s_2.jpg",
-       "Dingy St Clair 74230",
-       "Placard assorti à la verrière"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_8e14f6748ff4483399de09a7b0f1be53~mv2_d_3264_1836_s_2.jpg",
-       "Thônes 74230",
-       "Isolation de murs et changement de fenêtres"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_2176311bdb79465faa6dd1c78585af91~mv2.jpg",
-       "La Balme de Thuy",
-       "Cloison acoustique, restaurant l'Auberge des Cascades"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_ae511b8fe3bf4281900695a7ddf1e414~mv2.jpg",
+     "alt": "Murs et cloisons"
     },
     {
      "title": "Portes de communication",
      "paras": [
       "Habiller la porte palière d'un parement bois quand c'est possible, pour garder l'unité des parties communes ; remplacer les anciennes portes par des modèles du commerce ; ou fabriquer des portes sur mesure."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_aa3cca8fe1724426bdf3fd605cb3dbe4~mv2.jpg",
-       "Dingy St Clair",
-       "Porte de chambre épicéa"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_1608fdff867444839fa024aeca8847d3~mv2.jpg",
-       "Annecy le Vieux",
-       "Porte 2/3, 1/3 vitrée"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_33c53a8ba0ce42d994e7da13cc0f7bfa~mv2.jpg",
-       "Talloires",
-       "Porte coulissante en applique"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_4709744d276c49dca83303b1ae580777~mv2.jpg",
-       "Les Clefs",
-       "Portes de communication battante et à galandage"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_1f2226979e484078acceed392e9918a4~mv2.jpg",
-       "Les Clefs",
-       "Portes de communication battantes"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_aa3cca8fe1724426bdf3fd605cb3dbe4~mv2.jpg",
+     "alt": "Portes de communication"
     },
     {
      "title": "Mezzanine, garde-corps et main-courante",
      "paras": [
       "Une mezzanine peut créer une pièce supplémentaire. Fermeture d'un couchage supérieur en vieux bois et épicéa thermo-brossé, pose de main-courante murale."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_b4edb351291a4684ae6ae5b77401567a~mv2.jpg",
-       "Villaz 74370",
-       "Création d'une mezzanine"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_71ca822a56964679871073268295ec40~mv2.jpg",
-       "Alex 74290",
-       "Mezzanine dans la chambre d'enfant avec son échelle"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_132b4b70ddc14450ba9fb7fb9d3b3a2d~mv2_d_3264_1836_s_2.jpg",
-       "Manigod 74230",
-       "Extension de mezzanine et garde-corps sur séjour"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_9a68c7d20f594f93a500c20e85b52bca~mv2_d_3264_1836_s_2.jpg",
-       "Manigod 74230",
-       "Extension de mezzanine et garde-corps sur séjour"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_6e8fd8df4bb94761acbf69f686133aed~mv2_d_3264_1836_s_2.jpg",
-       "Manigod 74230",
-       "Extension de mezzanine et garde-corps sur séjour"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_52e2cc83df5d40c6b6bb7b28f2fc7928~mv2.jpg",
-       "Villette 73210",
-       "Main-courante bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_351d5bc62d034c1fa4d5d8e428d26928~mv2.jpg",
-       "Villette 73210",
-       "Main-courante bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_2f3634d7a5e94df08dd0575ada288e5b~mv2.jpg",
-       "Menthon St Bernard",
-       "Main-courante bois"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_b4edb351291a4684ae6ae5b77401567a~mv2.jpg",
+     "alt": "Mezzanine, garde-corps et main-courante"
     },
     {
      "title": "Parquets et planchers",
      "paras": [
       "Parquets flottants, collés ou cloués, massifs ou stratifiés : conseil du modèle selon l'usage. Remise de niveau et isolation des sols. L'entreprise ne réalise pas le ponçage ni la vitrification d'anciens parquets."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_afdb0449f3ec4505bc021d76caf17928~mv2.jpg",
-       "Dingy St Clair",
-       "Reprise de niveau par granules et Fermacell de sol"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_b6a063e26e8040a48f77a7113d3d1586~mv2.jpg",
-       "Dingy St Clair",
-       "Reprise de niveau par granules et Fermacell de sol"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_d17bf13f9ece4f3f99ec402b02240c99~mv2.jpg",
-       "Dingy St Clair",
-       "Reprise de niveau par granules et Fermacell de sol"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_1c976ff317d3477fa09a4208d967133a~mv2.jpg",
-       "Annecy",
-       "Reprise d'un plancher de combles en ossature bois (lambourdes et OSB)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_39c842938277475ab11987a973585917~mv2.jpg",
-       "Annecy",
-       "Reprise d'un plancher de combles en ossature bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_eaae43fdd4af4db096ae461604750567~mv2.jpg",
-       "Annecy",
-       "Reprise d'un plancher de combles en ossature bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_9b0668086e67430e822c6bf0a80791d2~mv2.jpg",
-       "Annecy",
-       "Reprise d'un plancher de combles en ossature bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_52f57cb7422a49ce9e9f123580a9c478~mv2.jpg",
-       "Annecy",
-       "Plinthes assorties au sol"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_a182b5568e24483e9d7f51ff1253461b~mv2.jpg",
-       "Dingy St Clair",
-       "Seuil assorti au sol"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_afdb0449f3ec4505bc021d76caf17928~mv2.jpg",
+     "alt": "Parquets et planchers"
     },
     {
      "title": "Plafonds",
      "paras": [
       "Le faux plafond bois crée une ambiance chaleureuse de chalet et permet un éclairage discret sur mesure."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_3e7e6e1922594bfbbd1bb35141992b29~mv2.jpg",
-       "La Balme de Thuy",
-       "Plafond terminé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_4551e028d868429d9651da3361cb4eb6~mv2.jpg",
-       "La Balme de Thuy",
-       "Avec les encadrements"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_3217933ab545448394fe4920eaa22835~mv2.jpg",
-       "La Balme de Thuy",
-       "Remplacement d'un plafond PVC par de l'épicéa thermo-brossé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_098a98b022844ccd89ae8077e11c8c5c~mv2.jpg",
-       "La Balme de Thuy",
-       "Remplacement d'un plafond PVC par de l'épicéa thermo-brossé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_139f3a927bf240a785146478d347f2ed~mv2.jpg",
-       "La Balme de Thuy 74230",
-       "Plafond acoustique, Auberge des Cascades (avant)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_82a77510ddde450586810cdd8add4302~mv2.jpg",
-       "La Balme de Thuy 74230",
-       "Plafond acoustique, Auberge des Cascades (avant)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_b4421b0d83fe4225be9864feb7c6f141~mv2.jpg",
-       "La Balme de Thuy 74230",
-       "Plafond acoustique, Auberge des Cascades (avant)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_2f19baa2753545518aa8804090ffc51d~mv2.jpg",
-       "La Balme de Thuy",
-       "Plafond acoustique en lattes de hêtre, Auberge des Cascades"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_8ce3ed665e6a47c2a758c31ca139ceeb~mv2.jpg",
-       "La Balme de Thuy",
-       "Plafond acoustique en lattes de hêtre, Auberge des Cascades"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_3e7e6e1922594bfbbd1bb35141992b29~mv2.jpg",
+     "alt": "Plafonds"
     },
     {
      "title": "Poutraisons, encadrements et escaliers",
      "paras": [
       "Fausses poutres et faux poteaux pour cacher une tuyauterie ou un linteau, ou créer un encadrement décoratif : légers, assemblage invisible, sans surcharger la structure porteuse. Aussi : jupe de baignoire démontable, habillage de marches béton en bois massif (hêtre, frêne ou chêne), échelles meunières."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_fe9f9361ff5a4b2c8fdedf4ec56a1252~mv2_d_2268_4032_s_2.jpg",
-       "Dingy St Clair 74",
-       "Encadrement baie libre"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_72cbb43eeb1a45749d99bc60021b13c2~mv2_d_2268_4032_s_2.jpg",
-       "Dingy St Clair 74",
-       "Encadrement baie libre"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_cc5c5b026ce649b2be5552fe9b3c0239~mv2_d_4032_2268_s_2.jpg",
-       "Dingy St Clair 74",
-       "Encadrement baie libre"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_b3d04151c28047d6ad6631ad2380971e~mv2.jpg",
-       "Cran Gevrier 74960",
-       "Fausses poutres de parement, structure légère"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_17a617c649754e3b8705055bed30e4a8~mv2_d_3264_1836_s_2.jpg",
-       "La Balme de Thuy 74230",
-       "Fausses poutres de parement décoratives"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_63078415f1e940f6a8bab92220f4eb55~mv2_d_3264_1836_s_2.jpg",
-       "La Balme de Thuy 74230",
-       "Fausses poutres de parement décoratives"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_592fced41f644e1b80833e19ae88ec47~mv2.jpg",
-       "Dingy St Clair 74230",
-       "Fausses poutres et faux poteaux"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_e2ada02e1b97499ab8a673b5d08539d2~mv2.jpg",
-       "La Balme de Thuy 74230",
-       "Fausses poutres pour cacher un linteau béton, faux poteaux d'angle"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_74348abf0384475b88dc67d590a745e9~mv2_d_1836_3264_s_2.jpg",
-       "Thônes 74230",
-       "Encadrements du séjour et de l'accès au couloir"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_ed06b855dc4948368337ca4946b7883f~mv2_d_4032_3024_s_4_2.jpg",
-       "La Balme de Thuy 74230",
-       "Jupe de baignoire en épicéa vernis"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_e799120aeb8b44488b14a550394f26bd~mv2.jpg",
-       "Dingy St Clair",
-       "Escalier pour accès mezzanine"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_cf325da729c44c348a32b3c85d31657e~mv2.jpg",
-       "Dingy St Clair",
-       "Échelle chambre enfant"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_b27ef4c398f74bbeba1d089aed1f09e3~mv2.jpg",
-       "Alex 74290",
-       "Échelle meunière pour mezzanine"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_eb89c461ce7442acab90cd7469c82060~mv2.jpg",
-       "Dingy St Clair 74",
-       "Habillage d'escalier béton en chêne massif"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_5ded5719f81a4d7db27a61ab26968893~mv2_d_4032_3024_s_4_2.jpg",
-       "Dingy St Clair 74230",
-       "Habillage de marches en hêtre massif"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_fe9f9361ff5a4b2c8fdedf4ec56a1252~mv2_d_2268_4032_s_2.jpg",
+     "alt": "Poutraisons, encadrements et escaliers"
     }
    ]
   },
   {
+   "kind": "gallery",
+   "id": "interieur-photos",
+   "eyebrow": "En images",
+   "title": "Menuiserie <em class=\"it\">intérieure</em>",
+   "lead": "Cliquez sur une photo pour l'agrandir.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ae511b8fe3bf4281900695a7ddf1e414~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ae511b8fe3bf4281900695a7ddf1e414~mv2.jpg",
+     "alt": "Verrière entre entrée et cuisine, La Balme de Thuy",
+     "caption": "Verrière entre entrée et cuisine, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_458eff1233864947ad613713f5c4414a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_458eff1233864947ad613713f5c4414a~mv2.jpg",
+     "alt": "Verrière entre entrée et cuisine, La Balme de Thuy",
+     "caption": "Verrière entre entrée et cuisine, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ea99e21db6b64609a08f5d55574c66c2~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ea99e21db6b64609a08f5d55574c66c2~mv2.jpg",
+     "alt": "Cloison ossature bois, Dingy St Clair",
+     "caption": "Cloison ossature bois, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_793221303fc240058debfed31da1d224~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_793221303fc240058debfed31da1d224~mv2.jpg",
+     "alt": "Cloison ossature bois et ouate de cellulose, Dingy St Clair",
+     "caption": "Cloison ossature bois et ouate de cellulose, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_a4ae0204572541debabaa8f79da6d9e8~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_a4ae0204572541debabaa8f79da6d9e8~mv2.jpg",
+     "alt": "Revêtement Fermacell, Dingy St Clair",
+     "caption": "Revêtement Fermacell, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_38e1f6f4441d43a69c530a5818ba4c26~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_38e1f6f4441d43a69c530a5818ba4c26~mv2.jpg",
+     "alt": "Création claustra sur mezzanine, Dingy St Clair",
+     "caption": "Création claustra sur mezzanine, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_79d3c7c17a6a4dfb9b79386cff278790~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_79d3c7c17a6a4dfb9b79386cff278790~mv2.jpg",
+     "alt": "Claustra mezzanine démontable, Dingy St Clair",
+     "caption": "Claustra mezzanine démontable, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_589aa829158e4ebba1464076de3e0c12~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_589aa829158e4ebba1464076de3e0c12~mv2.jpg",
+     "alt": "Cloison à refaire suite dégât des eaux, Dingy St Clair",
+     "caption": "Cloison à refaire suite dégât des eaux, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_a5a0f83626fb47539d10919a14921aa1~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_a5a0f83626fb47539d10919a14921aa1~mv2.jpg",
+     "alt": "La cloison est isolée phoniquement, Dingy St Clair",
+     "caption": "La cloison est isolée phoniquement, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_0ee2fd7e8a9f424398e49058f507861e~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_0ee2fd7e8a9f424398e49058f507861e~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Cloisons avec portes coulissantes à galandage (en cours), La Balme de Thuy 74230",
+     "caption": "Cloisons avec portes coulissantes à galandage (en cours), La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_0d2f60ebfd22485e9252236a96a2ea87~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_0d2f60ebfd22485e9252236a96a2ea87~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Cloisons avec portes coulissantes à galandage, La Balme de Thuy 74230",
+     "caption": "Cloisons avec portes coulissantes à galandage, La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e04694c620484039855015af8b3a3636~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e04694c620484039855015af8b3a3636~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Tête de lit en vieux bois, Grand Bornand 74450",
+     "caption": "Tête de lit en vieux bois, Grand Bornand 74450"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_790167d13a2e4530806a4093a1252b8c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_790167d13a2e4530806a4093a1252b8c~mv2.jpg",
+     "alt": "Verrière en cours d'installation, Argonay 74370",
+     "caption": "Verrière en cours d'installation, Argonay 74370"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c532238d3d2e4462a2e2bd49360f1b4c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c532238d3d2e4462a2e2bd49360f1b4c~mv2.jpg",
+     "alt": "Verrière en aluminium laqué noir séparant la cuisine, Argonay 74370",
+     "caption": "Verrière en aluminium laqué noir séparant la cuisine, Argonay 74370"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_539f5d8878804b71a91e6558680712ab~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_539f5d8878804b71a91e6558680712ab~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Sas d'entrée en verrière (début des travaux), Dingy St Clair 74230",
+     "caption": "Sas d'entrée en verrière (début des travaux), Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_9c64dcb0dc2346e2b0f4869c744dcf88~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_9c64dcb0dc2346e2b0f4869c744dcf88~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Sas d'entrée de maison en verrière, Dingy St Clair 74230",
+     "caption": "Sas d'entrée de maison en verrière, Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ddf98339bfce4f86b78fae7c5f39c65c~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ddf98339bfce4f86b78fae7c5f39c65c~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Sas d'entrée de maison en verrière, Dingy St Clair 74230",
+     "caption": "Sas d'entrée de maison en verrière, Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_bf8c7f4539a349408d404d76ecfac1c4~mv2_d_2268_4032_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_bf8c7f4539a349408d404d76ecfac1c4~mv2_d_2268_4032_s_2.jpg",
+     "alt": "Placard assorti à la verrière, Dingy St Clair 74230",
+     "caption": "Placard assorti à la verrière, Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8e14f6748ff4483399de09a7b0f1be53~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8e14f6748ff4483399de09a7b0f1be53~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Isolation de murs et changement de fenêtres, Thônes 74230",
+     "caption": "Isolation de murs et changement de fenêtres, Thônes 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2176311bdb79465faa6dd1c78585af91~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2176311bdb79465faa6dd1c78585af91~mv2.jpg",
+     "alt": "Cloison acoustique, restaurant l'Auberge des Cascades, La Balme de Thuy",
+     "caption": "Cloison acoustique, restaurant l'Auberge des Cascades, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_aa3cca8fe1724426bdf3fd605cb3dbe4~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_aa3cca8fe1724426bdf3fd605cb3dbe4~mv2.jpg",
+     "alt": "Porte de chambre épicéa, Dingy St Clair",
+     "caption": "Porte de chambre épicéa, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1608fdff867444839fa024aeca8847d3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1608fdff867444839fa024aeca8847d3~mv2.jpg",
+     "alt": "Porte 2/3, 1/3 vitrée, Annecy le Vieux",
+     "caption": "Porte 2/3, 1/3 vitrée, Annecy le Vieux"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_33c53a8ba0ce42d994e7da13cc0f7bfa~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_33c53a8ba0ce42d994e7da13cc0f7bfa~mv2.jpg",
+     "alt": "Porte coulissante en applique, Talloires",
+     "caption": "Porte coulissante en applique, Talloires"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_4709744d276c49dca83303b1ae580777~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_4709744d276c49dca83303b1ae580777~mv2.jpg",
+     "alt": "Portes de communication battante et à galandage, Les Clefs",
+     "caption": "Portes de communication battante et à galandage, Les Clefs"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1f2226979e484078acceed392e9918a4~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1f2226979e484078acceed392e9918a4~mv2.jpg",
+     "alt": "Portes de communication battantes, Les Clefs",
+     "caption": "Portes de communication battantes, Les Clefs"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b4edb351291a4684ae6ae5b77401567a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b4edb351291a4684ae6ae5b77401567a~mv2.jpg",
+     "alt": "Création d'une mezzanine, Villaz 74370",
+     "caption": "Création d'une mezzanine, Villaz 74370"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_71ca822a56964679871073268295ec40~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_71ca822a56964679871073268295ec40~mv2.jpg",
+     "alt": "Mezzanine dans la chambre d'enfant avec son échelle, Alex 74290",
+     "caption": "Mezzanine dans la chambre d'enfant avec son échelle, Alex 74290"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_132b4b70ddc14450ba9fb7fb9d3b3a2d~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_132b4b70ddc14450ba9fb7fb9d3b3a2d~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Extension de mezzanine et garde-corps sur séjour, Manigod 74230",
+     "caption": "Extension de mezzanine et garde-corps sur séjour, Manigod 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_9a68c7d20f594f93a500c20e85b52bca~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_9a68c7d20f594f93a500c20e85b52bca~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Extension de mezzanine et garde-corps sur séjour, Manigod 74230",
+     "caption": "Extension de mezzanine et garde-corps sur séjour, Manigod 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_6e8fd8df4bb94761acbf69f686133aed~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_6e8fd8df4bb94761acbf69f686133aed~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Extension de mezzanine et garde-corps sur séjour, Manigod 74230",
+     "caption": "Extension de mezzanine et garde-corps sur séjour, Manigod 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_52e2cc83df5d40c6b6bb7b28f2fc7928~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_52e2cc83df5d40c6b6bb7b28f2fc7928~mv2.jpg",
+     "alt": "Main-courante bois, Villette 73210",
+     "caption": "Main-courante bois, Villette 73210"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_351d5bc62d034c1fa4d5d8e428d26928~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_351d5bc62d034c1fa4d5d8e428d26928~mv2.jpg",
+     "alt": "Main-courante bois, Villette 73210",
+     "caption": "Main-courante bois, Villette 73210"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2f3634d7a5e94df08dd0575ada288e5b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2f3634d7a5e94df08dd0575ada288e5b~mv2.jpg",
+     "alt": "Main-courante bois, Menthon St Bernard",
+     "caption": "Main-courante bois, Menthon St Bernard"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_afdb0449f3ec4505bc021d76caf17928~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_afdb0449f3ec4505bc021d76caf17928~mv2.jpg",
+     "alt": "Reprise de niveau par granules et Fermacell de sol, Dingy St Clair",
+     "caption": "Reprise de niveau par granules et Fermacell de sol, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b6a063e26e8040a48f77a7113d3d1586~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b6a063e26e8040a48f77a7113d3d1586~mv2.jpg",
+     "alt": "Reprise de niveau par granules et Fermacell de sol, Dingy St Clair",
+     "caption": "Reprise de niveau par granules et Fermacell de sol, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_d17bf13f9ece4f3f99ec402b02240c99~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_d17bf13f9ece4f3f99ec402b02240c99~mv2.jpg",
+     "alt": "Reprise de niveau par granules et Fermacell de sol, Dingy St Clair",
+     "caption": "Reprise de niveau par granules et Fermacell de sol, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1c976ff317d3477fa09a4208d967133a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1c976ff317d3477fa09a4208d967133a~mv2.jpg",
+     "alt": "Reprise d'un plancher de combles en ossature bois (lambourdes et OSB), Annecy",
+     "caption": "Reprise d'un plancher de combles en ossature bois (lambourdes et OSB), Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_39c842938277475ab11987a973585917~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_39c842938277475ab11987a973585917~mv2.jpg",
+     "alt": "Reprise d'un plancher de combles en ossature bois, Annecy",
+     "caption": "Reprise d'un plancher de combles en ossature bois, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_eaae43fdd4af4db096ae461604750567~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_eaae43fdd4af4db096ae461604750567~mv2.jpg",
+     "alt": "Reprise d'un plancher de combles en ossature bois, Annecy",
+     "caption": "Reprise d'un plancher de combles en ossature bois, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_9b0668086e67430e822c6bf0a80791d2~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_9b0668086e67430e822c6bf0a80791d2~mv2.jpg",
+     "alt": "Reprise d'un plancher de combles en ossature bois, Annecy",
+     "caption": "Reprise d'un plancher de combles en ossature bois, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_52f57cb7422a49ce9e9f123580a9c478~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_52f57cb7422a49ce9e9f123580a9c478~mv2.jpg",
+     "alt": "Plinthes assorties au sol, Annecy",
+     "caption": "Plinthes assorties au sol, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_a182b5568e24483e9d7f51ff1253461b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_a182b5568e24483e9d7f51ff1253461b~mv2.jpg",
+     "alt": "Seuil assorti au sol, Dingy St Clair",
+     "caption": "Seuil assorti au sol, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_3e7e6e1922594bfbbd1bb35141992b29~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_3e7e6e1922594bfbbd1bb35141992b29~mv2.jpg",
+     "alt": "Plafond terminé, La Balme de Thuy",
+     "caption": "Plafond terminé, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_4551e028d868429d9651da3361cb4eb6~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_4551e028d868429d9651da3361cb4eb6~mv2.jpg",
+     "alt": "Avec les encadrements, La Balme de Thuy",
+     "caption": "Avec les encadrements, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_3217933ab545448394fe4920eaa22835~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_3217933ab545448394fe4920eaa22835~mv2.jpg",
+     "alt": "Remplacement d'un plafond PVC par de l'épicéa thermo-brossé, La Balme de Thuy",
+     "caption": "Remplacement d'un plafond PVC par de l'épicéa thermo-brossé, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_098a98b022844ccd89ae8077e11c8c5c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_098a98b022844ccd89ae8077e11c8c5c~mv2.jpg",
+     "alt": "Remplacement d'un plafond PVC par de l'épicéa thermo-brossé, La Balme de Thuy",
+     "caption": "Remplacement d'un plafond PVC par de l'épicéa thermo-brossé, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_139f3a927bf240a785146478d347f2ed~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_139f3a927bf240a785146478d347f2ed~mv2.jpg",
+     "alt": "Plafond acoustique, Auberge des Cascades (avant), La Balme de Thuy 74230",
+     "caption": "Plafond acoustique, Auberge des Cascades (avant), La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_82a77510ddde450586810cdd8add4302~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_82a77510ddde450586810cdd8add4302~mv2.jpg",
+     "alt": "Plafond acoustique, Auberge des Cascades (avant), La Balme de Thuy 74230",
+     "caption": "Plafond acoustique, Auberge des Cascades (avant), La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b4421b0d83fe4225be9864feb7c6f141~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b4421b0d83fe4225be9864feb7c6f141~mv2.jpg",
+     "alt": "Plafond acoustique, Auberge des Cascades (avant), La Balme de Thuy 74230",
+     "caption": "Plafond acoustique, Auberge des Cascades (avant), La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2f19baa2753545518aa8804090ffc51d~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2f19baa2753545518aa8804090ffc51d~mv2.jpg",
+     "alt": "Plafond acoustique en lattes de hêtre, Auberge des Cascades, La Balme de Thuy",
+     "caption": "Plafond acoustique en lattes de hêtre, Auberge des Cascades, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8ce3ed665e6a47c2a758c31ca139ceeb~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8ce3ed665e6a47c2a758c31ca139ceeb~mv2.jpg",
+     "alt": "Plafond acoustique en lattes de hêtre, Auberge des Cascades, La Balme de Thuy",
+     "caption": "Plafond acoustique en lattes de hêtre, Auberge des Cascades, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_fe9f9361ff5a4b2c8fdedf4ec56a1252~mv2_d_2268_4032_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_fe9f9361ff5a4b2c8fdedf4ec56a1252~mv2_d_2268_4032_s_2.jpg",
+     "alt": "Encadrement baie libre, Dingy St Clair 74",
+     "caption": "Encadrement baie libre, Dingy St Clair 74"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_72cbb43eeb1a45749d99bc60021b13c2~mv2_d_2268_4032_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_72cbb43eeb1a45749d99bc60021b13c2~mv2_d_2268_4032_s_2.jpg",
+     "alt": "Encadrement baie libre, Dingy St Clair 74",
+     "caption": "Encadrement baie libre, Dingy St Clair 74"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_cc5c5b026ce649b2be5552fe9b3c0239~mv2_d_4032_2268_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_cc5c5b026ce649b2be5552fe9b3c0239~mv2_d_4032_2268_s_2.jpg",
+     "alt": "Encadrement baie libre, Dingy St Clair 74",
+     "caption": "Encadrement baie libre, Dingy St Clair 74"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b3d04151c28047d6ad6631ad2380971e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b3d04151c28047d6ad6631ad2380971e~mv2.jpg",
+     "alt": "Fausses poutres de parement, structure légère, Cran Gevrier 74960",
+     "caption": "Fausses poutres de parement, structure légère, Cran Gevrier 74960"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_17a617c649754e3b8705055bed30e4a8~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_17a617c649754e3b8705055bed30e4a8~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Fausses poutres de parement décoratives, La Balme de Thuy 74230",
+     "caption": "Fausses poutres de parement décoratives, La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_63078415f1e940f6a8bab92220f4eb55~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_63078415f1e940f6a8bab92220f4eb55~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Fausses poutres de parement décoratives, La Balme de Thuy 74230",
+     "caption": "Fausses poutres de parement décoratives, La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_592fced41f644e1b80833e19ae88ec47~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_592fced41f644e1b80833e19ae88ec47~mv2.jpg",
+     "alt": "Fausses poutres et faux poteaux, Dingy St Clair 74230",
+     "caption": "Fausses poutres et faux poteaux, Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e2ada02e1b97499ab8a673b5d08539d2~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e2ada02e1b97499ab8a673b5d08539d2~mv2.jpg",
+     "alt": "Fausses poutres pour cacher un linteau béton, faux poteaux d'angle, La Balme de Thuy 74230",
+     "caption": "Fausses poutres pour cacher un linteau béton, faux poteaux d'angle, La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_74348abf0384475b88dc67d590a745e9~mv2_d_1836_3264_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_74348abf0384475b88dc67d590a745e9~mv2_d_1836_3264_s_2.jpg",
+     "alt": "Encadrements du séjour et de l'accès au couloir, Thônes 74230",
+     "caption": "Encadrements du séjour et de l'accès au couloir, Thônes 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ed06b855dc4948368337ca4946b7883f~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ed06b855dc4948368337ca4946b7883f~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Jupe de baignoire en épicéa vernis, La Balme de Thuy 74230",
+     "caption": "Jupe de baignoire en épicéa vernis, La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e799120aeb8b44488b14a550394f26bd~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e799120aeb8b44488b14a550394f26bd~mv2.jpg",
+     "alt": "Escalier pour accès mezzanine, Dingy St Clair",
+     "caption": "Escalier pour accès mezzanine, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_cf325da729c44c348a32b3c85d31657e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_cf325da729c44c348a32b3c85d31657e~mv2.jpg",
+     "alt": "Échelle chambre enfant, Dingy St Clair",
+     "caption": "Échelle chambre enfant, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b27ef4c398f74bbeba1d089aed1f09e3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b27ef4c398f74bbeba1d089aed1f09e3~mv2.jpg",
+     "alt": "Échelle meunière pour mezzanine, Alex 74290",
+     "caption": "Échelle meunière pour mezzanine, Alex 74290"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_eb89c461ce7442acab90cd7469c82060~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_eb89c461ce7442acab90cd7469c82060~mv2.jpg",
+     "alt": "Habillage d'escalier béton en chêne massif, Dingy St Clair 74",
+     "caption": "Habillage d'escalier béton en chêne massif, Dingy St Clair 74"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_5ded5719f81a4d7db27a61ab26968893~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_5ded5719f81a4d7db27a61ab26968893~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Habillage de marches en hêtre massif, Dingy St Clair 74230",
+     "caption": "Habillage de marches en hêtre massif, Dingy St Clair 74230"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
    "id": "exterieur",
-   "title": "Menuiserie extérieure",
-   "paras": [
-    "Améliorer la qualité de son logement par divers aménagements extérieurs : terrasse confortable, garde-corps, portail en bois, mobilier de rangement extérieur. Des projets qui peuvent aboutir rapidement, toujours sur mesure."
-   ],
-   "blocks": [
+   "eyebrow": "Menuiserie extérieure",
+   "title": "Aménager <em class=\"it\">l'extérieur</em>",
+   "lead": "Améliorer la qualité de son logement par divers aménagements extérieurs : aménager une terrasse confortable, changer un garde-corps, installer un portail en bois ou créer du mobilier de rangement extérieur. Tous les travaux sont réalisés sur mesure et selon vos attentes.",
+   "items": [
     {
      "title": "Terrasses",
      "paras": [
       "Des matériaux nobles et chaleureux, agréables à fouler pieds nus."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_def263ba7eb641969920b5bac8a46bce~mv2.jpg",
-       "Dingy St Clair",
-       "Terrasse suspendue"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_e788ed979f434e329c6378afaec8009e~mv2.jpg",
-       "Dingy St Clair",
-       "Terrasse suspendue"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_36de6bc414454f5e91fc26322f9d206a~mv2.jpg",
-       "Argonay",
-       "Ossature en bois exotique sur plots réglables"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_698fd628ad754e19bfc9975bc0070889~mv2.jpg",
-       "Argonay",
-       "Platelage en bois d'Itauba"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_dd468c79b878482397a8741593acec42~mv2.jpg",
-       "",
-       "Terrasse"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_def263ba7eb641969920b5bac8a46bce~mv2.jpg",
+     "alt": "Terrasses"
     },
     {
      "title": "Garde-corps et portails",
      "paras": [
       "Création et pose de garde-corps sur mesure ; portails et portillons sur mesure."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_df5b3884a9c54a2ab2cc9676961adef3~mv2_d_4032_2268_s_2.jpg",
-       "Le Grand Bornand 74450",
-       "Garde-corps en vieux bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_6c9aa4feb6104049b9049beba11c9ee6~mv2_d_4032_2268_s_2.jpg",
-       "Le Grand Bornand 74450",
-       "Garde-corps en vieux bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_c3d74b74f8604684afc22254772fef6a~mv2_d_4032_2268_s_2.jpg",
-       "Le Grand Bornand 74450",
-       "Garde-corps en vieux bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_14032be53d9a4a1d9a85643f2a4d6933~mv2.jpg",
-       "Argonay",
-       "Portillon en mélèze"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_275392a0ef1d40d6a81152c6c5855508~mv2.jpg",
-       "Dingy St Clair 74230",
-       "Portail en épicéa huilé motorisé"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_df5b3884a9c54a2ab2cc9676961adef3~mv2_d_4032_2268_s_2.jpg",
+     "alt": "Garde-corps et portails"
     },
     {
      "title": "Encadrements, mobilier extérieur et travaux insolites",
      "paras": [
       "Habillage des ouvertures en mélèze vieilli à la main façon vieux bois, avant la pose de pierres naturelles. Meubles de rangement pour le jardin ou pour dissimuler une pompe à chaleur. Et même l'isolation du plancher d'une roulotte."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_941f1b5a39f247aaba001d952413b745~mv2.jpg",
-       "Dingy St Clair",
-       "Encadrements d'ouvertures en mélèze vieilli façon vieux bois"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_2c07cf1f286642cd8a47ca3a92c7f979~mv2.jpg",
-       "Villaz",
-       "Meubles de rangement extérieur"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_6835583751724b929f56d2223736231e~mv2.jpg",
-       "Villaz",
-       "Meubles de rangement extérieur"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_b37e7cb1a3ad4404b2c8a7e7c955804a~mv2.jpg",
-       "La Balme de Thuy",
-       "Isolation d'un plancher de roulotte"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_805648e0b79e41bcbecb7cc990c03678~mv2.jpg",
-       "La Balme de Thuy",
-       "Isolation d'un plancher de roulotte"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_941f1b5a39f247aaba001d952413b745~mv2.jpg",
+     "alt": "Encadrements, mobilier extérieur et travaux insolites"
     },
     {
      "title": "Porte d'entrée et volets persiennes",
      "paras": [
       "Habillage d'une porte d'entrée repris en atelier ; remplacement d'un volet classique par une persienne fabriquée en atelier, avec réemploi de la quincaillerie existante."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_c866f3f3feb74d2ea3612abb6d2456a2~mv2.jpg",
-       "Le Grand Bornand",
-       "Porte d'entrée, avant (intérieur)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_c554ba6124044d7bad7f876ae7bb16b5~mv2.jpg",
-       "Le Grand Bornand",
-       "Reprise en atelier"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_656f6df143694772951db329d631e378~mv2.jpg",
-       "Le Grand Bornand",
-       "Face extérieure"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_35678fd03cdb4ed68cc556eb5ccf453e~mv2.jpg",
-       "Le Grand Bornand",
-       "Face intérieure"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_94ad3ca2bac84f00926b229fca9763b3~mv2.jpg",
-       "Thuy 74230",
-       "Volet : fabrication en atelier"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_e686d0eb616646e89d41a609ea07edd3~mv2.jpg",
-       "Thuy 74230",
-       "Volet après : face intérieure"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_205388bf5e514cbfa1ec16b75b958c7d~mv2.jpg",
-       "Thuy 74230",
-       "Réemploi de la quincaillerie existante"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_c866f3f3feb74d2ea3612abb6d2456a2~mv2.jpg",
+     "alt": "Porte d'entrée et volets persiennes"
     }
    ]
   },
   {
+   "kind": "gallery",
+   "id": "exterieur-photos",
+   "eyebrow": "En images",
+   "title": "Menuiserie <em class=\"it\">extérieure</em>",
+   "lead": "Cliquez sur une photo pour l'agrandir.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_def263ba7eb641969920b5bac8a46bce~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_def263ba7eb641969920b5bac8a46bce~mv2.jpg",
+     "alt": "Terrasse suspendue, Dingy St Clair",
+     "caption": "Terrasse suspendue, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e788ed979f434e329c6378afaec8009e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e788ed979f434e329c6378afaec8009e~mv2.jpg",
+     "alt": "Terrasse suspendue, Dingy St Clair",
+     "caption": "Terrasse suspendue, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_36de6bc414454f5e91fc26322f9d206a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_36de6bc414454f5e91fc26322f9d206a~mv2.jpg",
+     "alt": "Ossature en bois exotique sur plots réglables, Argonay",
+     "caption": "Ossature en bois exotique sur plots réglables, Argonay"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_698fd628ad754e19bfc9975bc0070889~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_698fd628ad754e19bfc9975bc0070889~mv2.jpg",
+     "alt": "Platelage en bois d'Itauba, Argonay",
+     "caption": "Platelage en bois d'Itauba, Argonay"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_dd468c79b878482397a8741593acec42~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_dd468c79b878482397a8741593acec42~mv2.jpg",
+     "alt": "Terrasse",
+     "caption": "Terrasse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_df5b3884a9c54a2ab2cc9676961adef3~mv2_d_4032_2268_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_df5b3884a9c54a2ab2cc9676961adef3~mv2_d_4032_2268_s_2.jpg",
+     "alt": "Garde-corps en vieux bois, Le Grand Bornand 74450",
+     "caption": "Garde-corps en vieux bois, Le Grand Bornand 74450"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_6c9aa4feb6104049b9049beba11c9ee6~mv2_d_4032_2268_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_6c9aa4feb6104049b9049beba11c9ee6~mv2_d_4032_2268_s_2.jpg",
+     "alt": "Garde-corps en vieux bois, Le Grand Bornand 74450",
+     "caption": "Garde-corps en vieux bois, Le Grand Bornand 74450"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c3d74b74f8604684afc22254772fef6a~mv2_d_4032_2268_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c3d74b74f8604684afc22254772fef6a~mv2_d_4032_2268_s_2.jpg",
+     "alt": "Garde-corps en vieux bois, Le Grand Bornand 74450",
+     "caption": "Garde-corps en vieux bois, Le Grand Bornand 74450"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_14032be53d9a4a1d9a85643f2a4d6933~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_14032be53d9a4a1d9a85643f2a4d6933~mv2.jpg",
+     "alt": "Portillon en mélèze, Argonay",
+     "caption": "Portillon en mélèze, Argonay"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_275392a0ef1d40d6a81152c6c5855508~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_275392a0ef1d40d6a81152c6c5855508~mv2.jpg",
+     "alt": "Portail en épicéa huilé motorisé, Dingy St Clair 74230",
+     "caption": "Portail en épicéa huilé motorisé, Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_941f1b5a39f247aaba001d952413b745~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_941f1b5a39f247aaba001d952413b745~mv2.jpg",
+     "alt": "Encadrements d'ouvertures en mélèze vieilli façon vieux bois, Dingy St Clair",
+     "caption": "Encadrements d'ouvertures en mélèze vieilli façon vieux bois, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2c07cf1f286642cd8a47ca3a92c7f979~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2c07cf1f286642cd8a47ca3a92c7f979~mv2.jpg",
+     "alt": "Meubles de rangement extérieur, Villaz",
+     "caption": "Meubles de rangement extérieur, Villaz"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_6835583751724b929f56d2223736231e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_6835583751724b929f56d2223736231e~mv2.jpg",
+     "alt": "Meubles de rangement extérieur, Villaz",
+     "caption": "Meubles de rangement extérieur, Villaz"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b37e7cb1a3ad4404b2c8a7e7c955804a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b37e7cb1a3ad4404b2c8a7e7c955804a~mv2.jpg",
+     "alt": "Isolation d'un plancher de roulotte, La Balme de Thuy",
+     "caption": "Isolation d'un plancher de roulotte, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_805648e0b79e41bcbecb7cc990c03678~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_805648e0b79e41bcbecb7cc990c03678~mv2.jpg",
+     "alt": "Isolation d'un plancher de roulotte, La Balme de Thuy",
+     "caption": "Isolation d'un plancher de roulotte, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c866f3f3feb74d2ea3612abb6d2456a2~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c866f3f3feb74d2ea3612abb6d2456a2~mv2.jpg",
+     "alt": "Porte d'entrée, avant (intérieur), Le Grand Bornand",
+     "caption": "Porte d'entrée, avant (intérieur), Le Grand Bornand"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c554ba6124044d7bad7f876ae7bb16b5~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c554ba6124044d7bad7f876ae7bb16b5~mv2.jpg",
+     "alt": "Reprise en atelier, Le Grand Bornand",
+     "caption": "Reprise en atelier, Le Grand Bornand"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_656f6df143694772951db329d631e378~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_656f6df143694772951db329d631e378~mv2.jpg",
+     "alt": "Face extérieure, Le Grand Bornand",
+     "caption": "Face extérieure, Le Grand Bornand"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_35678fd03cdb4ed68cc556eb5ccf453e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_35678fd03cdb4ed68cc556eb5ccf453e~mv2.jpg",
+     "alt": "Face intérieure, Le Grand Bornand",
+     "caption": "Face intérieure, Le Grand Bornand"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_94ad3ca2bac84f00926b229fca9763b3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_94ad3ca2bac84f00926b229fca9763b3~mv2.jpg",
+     "alt": "Volet : fabrication en atelier, Thuy 74230",
+     "caption": "Volet : fabrication en atelier, Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e686d0eb616646e89d41a609ea07edd3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e686d0eb616646e89d41a609ea07edd3~mv2.jpg",
+     "alt": "Volet après : face intérieure, Thuy 74230",
+     "caption": "Volet après : face intérieure, Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_205388bf5e514cbfa1ec16b75b958c7d~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_205388bf5e514cbfa1ec16b75b958c7d~mv2.jpg",
+     "alt": "Réemploi de la quincaillerie existante, Thuy 74230",
+     "caption": "Réemploi de la quincaillerie existante, Thuy 74230"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
    "id": "mobilier",
-   "title": "Mobilier sur mesure",
-   "paras": [
-    "L'ameublement est le cœur du métier : tout type de mobilier, du placard en mélaminé au meuble massif verni, en passant par l'aménagement de dressings. Fabrication sur mesure et pose, avec rigueur, qualité et pérennité."
-   ],
-   "blocks": [
+   "eyebrow": "Mobilier",
+   "title": "Le cœur <em class=\"it\">du métier</em>",
+   "lead": "Vous êtes dans le cœur de mon métier, l'ameublement. Du placard en mélaminé au meuble massif verni en passant par l'aménagement de dressings, je vous propose de réaliser tous vos projets : fabrication sur mesure et pose, avec rigueur, qualité et pérennité. Nouveau : en collaboration interne chez Cabestan, je vous propose de mettre en peinture toutes mes fabrications grâce à Luis Ferré, d'APMS74. La qualité de l'air intérieur étant primordiale, nous vous proposons du mobilier plus sain avec le 3 plis associé à de la peinture végétale (produits PURE & PAINT) : le 3 plis épicéa contient beaucoup moins de COV que le mélaminé et le médium.",
+   "items": [
     {
      "title": "Mobilier peint et mobilier sain",
      "paras": [
       "En collaboration avec Luis Ferré (APMS74), au sein de Cabestan, toutes les fabrications peuvent être peintes. Pour la qualité de l'air intérieur : dressings, placards et meubles en épicéa 3 plis, peints ou vernis avec des produits d'origine naturelle (notamment PURE & PAINT). L'épicéa 3 plis émet nettement moins de COV que le mélaminé ou le médium ; associé à une peinture végétale, il donne un mobilier sain, esthétique et pérenne."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_8902f64f64564a94bc18f09dda29c9d1~mv2.jpg",
-       "Veyrier du Lac",
-       "Meuble d'entrée en épicéa brut"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_071ef0e560ab42d184f594ace956e24f~mv2.jpg",
-       "Veyrier du Lac",
-       "Meuble d'entrée en épicéa peint"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_4db9cdf2d5c74851ae6f8c33ea1d45f0~mv2.jpg",
-       "Veyrier du Lac",
-       "Placard coulissant en épicéa brut"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_1fc616ad98e14a66a021876891ca0414~mv2.jpg",
-       "Veyrier du Lac",
-       "Placard coulissant en épicéa brut"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_365095c8357e40c8ae7f79d3341e3d2a~mv2.jpg",
-       "Veyrier du Lac",
-       "Placard coulissant en épicéa peint"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_f12cf3d5d1a94774aefefac33b1db533~mv2.jpg",
-       "Veyrier du Lac",
-       "Placard coulissant en épicéa peint"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_5e212762d262489487ed8e6348df7575~mv2.jpg",
-       "Veyrier du Lac",
-       "Placard coulissant en épicéa peint"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_65e7f46e6ef7414582a96345623ac432~mv2.jpg",
-       "Veyrier du Lac",
-       "Colonne de rangement de couloir, épicéa brut"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_10f4fd5e16c84ae7b802e2681958b963~mv2.jpg",
-       "Veyrier du Lac",
-       "Colonne de rangement de couloir, épicéa peint"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_8902f64f64564a94bc18f09dda29c9d1~mv2.jpg",
+     "alt": "Mobilier peint et mobilier sain"
     },
     {
      "title": "Cuisines",
      "paras": [
       "Vous avez choisi votre cuisine et cherchez un professionnel pour l'installer : « Je vous garantis une pose soignée, dans les règles de l'art et dans les meilleurs délais. »"
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_2ab8586fa5884024836ef7981bd9917b~mv2.jpg",
-       "La Balme de Thuy",
-       "Pose de cuisine pour appartement"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_847b1d387b5c45f5893808e39b4b4dba~mv2.jpg",
-       "La Balme de Thuy",
-       "Pose de cuisine pour appartement"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_c250903afe584d6eb2cca27d336b48a0~mv2_d_4032_2268_s_2.jpg",
-       "Annecy-le-Vieux 74960",
-       "Personnalisation de cuisine et de bar"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_ef990d2ccca341b9875972ec0b32ee0c~mv2_d_4032_2268_s_2.jpg",
-       "Annecy-le-Vieux 74960",
-       "Personnalisation de cuisine et de bar"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_1e5ccc9457364d89bf3dbf16a2a75a04~mv2_d_3264_1836_s_2.jpg",
-       "Thorens-Glières 74570",
-       "Hotte suspendue au plafond"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_2ccac221d63c4217bec634f3d25c392b~mv2_d_3264_1836_s_2.jpg",
-       "",
-       "Hotte suspendue au plafond"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_bd739d26ae794d0789e19f2f52bcdff2~mv2_d_3264_1836_s_2.jpg",
-       "",
-       "Tiroirs avec amortisseurs"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_2ab8586fa5884024836ef7981bd9917b~mv2.jpg",
+     "alt": "Cuisines"
     },
     {
      "title": "Dressings",
      "paras": [
       "Aménager un dressing en optimisant l'espace dans une chambre, une entrée, un couloir : forme, couleur, éléments intérieurs et leur disposition. Accompagnement du projet, puis réalisation."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_2bc2b33e488a4d2aa9c43a275964e1ec~mv2.jpg",
-       "Annecy",
-       "Dressing d'angle"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_7b5699d6ac7041c9af269b6323d95e5d~mv2.jpg",
-       "La Balme de Thuy 74230",
-       "Dressing dans un couloir (en cours)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_7df7a0e8e37d4d148958529de7e7d2b4~mv2.jpg",
-       "La Balme de Thuy 74230",
-       "Dressing dans un couloir"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_dcb99464b3024042bab0db882153eeea~mv2.jpg",
-       "Poisy 74330",
-       "Dressing dans une chambre"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_b34e972e99ef497884e007592d1a1c0a~mv2.jpg",
-       "Vers 74296",
-       "Dressing bicolore, noir et bois veiné"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_8705add6bd8d41e7929660240af56db2~mv2_d_3024_4032_s_4_2.jpg",
-       "Pringy 74370",
-       "Dressing bicolore"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_b8f4f47861f348a995b9388d7cc15053~mv2_d_3024_4032_s_4_2.jpg",
-       "Pringy 74370",
-       "Dressing adapté aux contraintes intérieures"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_769c7f5263e443a3b558997d98b808a9~mv2_d_4032_3024_s_4_2.jpg",
-       "Pringy 74370",
-       "Tiroirs et porte-pantalons"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_ac515da393aa4185850dfd3032c4931a~mv2_d_1836_3264_s_2.jpg",
-       "La Roche-sur-Foron 74800",
-       "Adapté à vos besoins"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_2bc2b33e488a4d2aa9c43a275964e1ec~mv2.jpg",
+     "alt": "Dressings"
     },
     {
      "title": "Meubles",
      "paras": [
       "Meubles et objets décoratifs adaptés au logement et aux besoins : « un mobilier unique et de qualité, répondant à un cahier des charges précis »."
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_c44077d506224253967b4147857c5ad8~mv2.jpg",
-       "La Balme de Thuy",
-       "Bibliothèque chambre enfant en épicéa étuvé brossé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_176ff42be2e0417ab16122708ab7410e~mv2.jpg",
-       "Dingy St Clair",
-       "Bibliothèque en épicéa (à peindre) et chêne massif pour les 2 appliques"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_93be60e1c33b4ec1b940978cd54ef01d~mv2.jpg",
-       "Menthon St Bernard",
-       "Meuble TV séjour"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_5dabaad113a54c9fac51cb4cf737236b~mv2.jpg",
-       "Annecy",
-       "Bibliothèque séjour en mélaminé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_c68fa6d666444c89874bfdbc90bd3083~mv2.jpg",
-       "Dingy St Clair",
-       "Armoire chambre en épicéa verni mat"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_8a2c93b1c05a49cba61f865d0e7b91ce~mv2.jpg",
-       "",
-       "Meuble TV en mélaminé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_79e234aa12cb4d8a91b584467f81ba89~mv2.jpg",
-       "La Balme de Thuy",
-       "Meuble de rangement de l'entrée en mélaminé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_c5b4ec38dd2b447bb0bef060804ac745~mv2.jpg",
-       "Villaz",
-       "Bibliothèque chambre en mélaminé"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_c9ab5790c2114694934c57240fbe60ce~mv2.jpg",
-       "Metz Tessy",
-       "Meuble de rangement d'une entrée"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_488fa0ea5c2d423f9eac8009f4e6b6d2~mv2.jpg",
-       "",
-       "Mobilier"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_c44077d506224253967b4147857c5ad8~mv2.jpg",
+     "alt": "Meubles"
     },
     {
      "title": "Placards",
      "paras": [
       "Des rangements adaptés à votre intérieur, sur mesure et selon vos goûts, avec écoute et conseil : « Vous bénéficierez d'une mise en œuvre conforme à votre attente. »"
      ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_f4b25af3ccc8487c8213c1220c31f3d0~mv2.jpg",
-       "Annecy",
-       "Mélaminé blanc pour masquer l'ancienne porte"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_cd8ebf7d2871409fa160e3e1c51c1984~mv2.jpg",
-       "Annecy",
-       "Mélaminé blanc pour masquer l'ancienne porte"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_d400af13258542dcafb2fc14909c53a7~mv2.jpg",
-       "Annecy",
-       "Épicéa 3 plis, prêt à peindre"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_1e7ef2d25c054bbfbfd6ba86e77287ee~mv2.jpg",
-       "Annecy",
-       "Épicéa 3 plis, prêt à peindre"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_39c1942cc168408ba46930b1f93a977b~mv2.jpg",
-       "St Jean de Sixt",
-       "Portes et tiroirs"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_484267db95e2415994b7d0938c1de442~mv2.jpg",
-       "Thônes",
-       "Rangement en sous-pente"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_0817b24ba93f4154830a55cbce171133~mv2.jpg",
-       "Thônes",
-       "Rangement en sous-pente"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_32d785b9b16f4ea795988de5d4464991~mv2.jpg",
-       "Lovagny",
-       "Chambre"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_f19a12b8af124233a143b18e267425f8~mv2.jpg",
-       "Poisy",
-       "Rangement de salle de bain"
-      ]
-     ]
+     "img": "https://static.wixstatic.com/media/6466fd_f4b25af3ccc8487c8213c1220c31f3d0~mv2.jpg",
+     "alt": "Placards"
     }
-   ]
-  }
- ],
- "rge": {
-  "title": "Isolation thermique, label RGE",
-  "paras": [
-   "Dans un immeuble ancien comme dans un chalet, la performance énergétique demande un savoir-faire précis en menuiseries extérieures et en isolation par l'intérieur. L'entreprise est labellisée RGE dans ces deux domaines et étudie avec vous des projets durables et performants."
-  ],
-  "certs": [
-   [
-    "Qualibat 98857/3511",
-    "Fourniture et pose de menuiseries extérieures"
    ],
-   [
-    "Qualibat 98857/7122",
-    "Isolation thermique par l'intérieur"
-   ]
-  ],
-  "list": [
-   "Plancher de combles à créer et à isoler",
-   "Isolation en multicouches croisées de laine de bois",
-   "Ossature légère",
-   "Plancher isolant léger et robuste",
-   "Choix des meilleurs isolants pour votre intérieur",
-   "Pose soigneuse, dans les règles de l'art",
-   "Création d'une trappe isolée",
-   "Pare-vapeur adapté à vos murs",
-   "Isolation intérieure d'un chalet avec revêtement Fermacell",
-   "Plancher isolé pour parquet et carrelage"
-  ],
-  "items": [
-   [
-    "https://static.wixstatic.com/media/6466fd_21afa846be94430fb2c1492db4b318c8~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Plancher de combles à créer et à isoler"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_61aa341a7d6549169b2824fb190e7371~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Plancher de combles à créer et à isoler"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_14d21bf163db4976958f1760dc91e622~mv2_d_2034_1362_s_2.jpg",
-    "",
-    "Isolation en multicouches croisées de laine de bois"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_a3d5b01842e445adb98d1158ccbff4b1~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Isolation en multicouches croisées de laine de bois"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_44fe6ec89e5b40948358c27a487361b2~mv2.jpg",
-    "",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_283e34efaea74cb895bb0979c70e39b3~mv2.jpg",
-    "",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_e00b266c4b76489e8c6c2b6f0ca57a13~mv2.jpg",
-    "",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_a2511ad4d7814aecb59aba6b1a7db42a~mv2.jpg",
-    "",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_aeaa70a531854246a1dc6b73f51fa1a5~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Pose soigneuse"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_c5a3286e27b44270996b4a63a8ccc84b~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Pose soigneuse"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_5b0e2d95a47549a59ff015a1afb4ab33~mv2_d_2989_1681_s_2.jpg",
-    "",
-    "Pose soigneuse"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_765b2f1cb9d049e0af0cfb0bc1635685~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Pose soigneuse"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_ab98a39b92ce4c10aa3d2e01bcf5fb1f~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Isolation intérieure d'un chalet, revêtement Fermacell"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_8a15e51d099049448bdfa546a1b81ad2~mv2_d_3264_1836_s_2.jpg",
-    "",
-    "Isolation intérieure d'un chalet, revêtement Fermacell"
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_cf87a16aa6294ad4be06a0e9caef1c70~mv2.jpg",
-    "Dingy St Clair 74230",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_8e43d26e23934bb78a739816061c3795~mv2.jpg",
-    "Dingy St Clair 74230",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_1f6f52ad16ed4bca957cb8ff05536a74~mv2.jpg",
-    "Dingy St Clair 74230",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_8f42a5bce086473f9095769b1e5691e7~mv2_d_4032_3024_s_4_2.jpg",
-    "La Balme de Thuy 74230",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_8c68afe00fe74f94849f3837aa068b2a~mv2_d_4032_3024_s_4_2.jpg",
-    "La Balme de Thuy 74230",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_a8ce4b9a540645ad8ca8e6f50fb6d31e~mv2_d_1836_3264_s_2.jpg",
-    "La Balme de Thuy 74230",
-    ""
-   ],
-   [
-    "https://static.wixstatic.com/media/6466fd_a414b2e5decf4f73bd971cff5c4d3098~mv2_d_3264_1836_s_2.jpg",
-    "La Balme de Thuy 74230",
-    ""
-   ]
-  ]
- },
- "after_sections": [
+   "note": "<a href=\"https://www.apms74.com\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">APMS74</a> · <a href=\"https://www.pureandpaint.com\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Pure & Paint</a>"
+  },
   {
-   "id": "accessibilite",
-   "title": "Accessibilité",
-   "paras": [
-    "En partenariat avec des sociétés spécialisées, mise aux normes de vos accès pour les personnes à mobilité réduite : escaliers, cheminements, signalétique."
-   ],
-   "blocks": [
+   "kind": "gallery",
+   "id": "mobilier-photos",
+   "eyebrow": "En images",
+   "title": "Mobilier <em class=\"it\">sur mesure</em>",
+   "lead": "Cliquez sur une photo pour l'agrandir.",
+   "photos": [
     {
-     "title": "Escalier, La Balme de Thuy",
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_83bd7cf89c4f4eacb0b7246e5b884b25~mv2_d_4032_3024_s_4_2.jpg",
-       "La Balme de Thuy",
-       "Accessibilité escalier"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_3413e922030443dfb8e7f500a77dd71e~mv2_d_3024_4032_s_4_2.jpg",
-       "La Balme de Thuy",
-       "Accessibilité escalier"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_2a6afc51d6e04cde814621ca1fb4fc5e~mv2_d_4032_3024_s_4_2.jpg",
-       "La Balme de Thuy",
-       "Accessibilité escalier"
-      ]
-     ]
+     "thumb": "https://static.wixstatic.com/media/6466fd_8902f64f64564a94bc18f09dda29c9d1~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8902f64f64564a94bc18f09dda29c9d1~mv2.jpg",
+     "alt": "Meuble d'entrée en épicéa brut, Veyrier du Lac",
+     "caption": "Meuble d'entrée en épicéa brut, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_071ef0e560ab42d184f594ace956e24f~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_071ef0e560ab42d184f594ace956e24f~mv2.jpg",
+     "alt": "Meuble d'entrée en épicéa peint, Veyrier du Lac",
+     "caption": "Meuble d'entrée en épicéa peint, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_4db9cdf2d5c74851ae6f8c33ea1d45f0~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_4db9cdf2d5c74851ae6f8c33ea1d45f0~mv2.jpg",
+     "alt": "Placard coulissant en épicéa brut, Veyrier du Lac",
+     "caption": "Placard coulissant en épicéa brut, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1fc616ad98e14a66a021876891ca0414~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1fc616ad98e14a66a021876891ca0414~mv2.jpg",
+     "alt": "Placard coulissant en épicéa brut, Veyrier du Lac",
+     "caption": "Placard coulissant en épicéa brut, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_365095c8357e40c8ae7f79d3341e3d2a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_365095c8357e40c8ae7f79d3341e3d2a~mv2.jpg",
+     "alt": "Placard coulissant en épicéa peint, Veyrier du Lac",
+     "caption": "Placard coulissant en épicéa peint, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_f12cf3d5d1a94774aefefac33b1db533~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_f12cf3d5d1a94774aefefac33b1db533~mv2.jpg",
+     "alt": "Placard coulissant en épicéa peint, Veyrier du Lac",
+     "caption": "Placard coulissant en épicéa peint, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_5e212762d262489487ed8e6348df7575~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_5e212762d262489487ed8e6348df7575~mv2.jpg",
+     "alt": "Placard coulissant en épicéa peint, Veyrier du Lac",
+     "caption": "Placard coulissant en épicéa peint, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_65e7f46e6ef7414582a96345623ac432~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_65e7f46e6ef7414582a96345623ac432~mv2.jpg",
+     "alt": "Colonne de rangement de couloir, épicéa brut, Veyrier du Lac",
+     "caption": "Colonne de rangement de couloir, épicéa brut, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_10f4fd5e16c84ae7b802e2681958b963~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_10f4fd5e16c84ae7b802e2681958b963~mv2.jpg",
+     "alt": "Colonne de rangement de couloir, épicéa peint, Veyrier du Lac",
+     "caption": "Colonne de rangement de couloir, épicéa peint, Veyrier du Lac"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2ab8586fa5884024836ef7981bd9917b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2ab8586fa5884024836ef7981bd9917b~mv2.jpg",
+     "alt": "Pose de cuisine pour appartement, La Balme de Thuy",
+     "caption": "Pose de cuisine pour appartement, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_847b1d387b5c45f5893808e39b4b4dba~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_847b1d387b5c45f5893808e39b4b4dba~mv2.jpg",
+     "alt": "Pose de cuisine pour appartement, La Balme de Thuy",
+     "caption": "Pose de cuisine pour appartement, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c250903afe584d6eb2cca27d336b48a0~mv2_d_4032_2268_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c250903afe584d6eb2cca27d336b48a0~mv2_d_4032_2268_s_2.jpg",
+     "alt": "Customisation cuisine et bar, Annecy-le-Vieux 74960",
+     "caption": "Customisation cuisine et bar, Annecy-le-Vieux 74960"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ef990d2ccca341b9875972ec0b32ee0c~mv2_d_4032_2268_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ef990d2ccca341b9875972ec0b32ee0c~mv2_d_4032_2268_s_2.jpg",
+     "alt": "Customisation cuisine et bar, Annecy-le-Vieux 74960",
+     "caption": "Customisation cuisine et bar, Annecy-le-Vieux 74960"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1e5ccc9457364d89bf3dbf16a2a75a04~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1e5ccc9457364d89bf3dbf16a2a75a04~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Hotte suspendue au plafond, Thorens-Glières 74570",
+     "caption": "Hotte suspendue au plafond, Thorens-Glières 74570"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2ccac221d63c4217bec634f3d25c392b~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2ccac221d63c4217bec634f3d25c392b~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Hotte suspendue au plafond",
+     "caption": "Hotte suspendue au plafond"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_bd739d26ae794d0789e19f2f52bcdff2~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_bd739d26ae794d0789e19f2f52bcdff2~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Tiroirs avec amortisseurs",
+     "caption": "Tiroirs avec amortisseurs"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2bc2b33e488a4d2aa9c43a275964e1ec~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2bc2b33e488a4d2aa9c43a275964e1ec~mv2.jpg",
+     "alt": "Dressing d'angle, Annecy",
+     "caption": "Dressing d'angle, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_7b5699d6ac7041c9af269b6323d95e5d~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_7b5699d6ac7041c9af269b6323d95e5d~mv2.jpg",
+     "alt": "Dressing dans un couloir (en cours), La Balme de Thuy 74230",
+     "caption": "Dressing dans un couloir (en cours), La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_7df7a0e8e37d4d148958529de7e7d2b4~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_7df7a0e8e37d4d148958529de7e7d2b4~mv2.jpg",
+     "alt": "Dressing dans un couloir, La Balme de Thuy 74230",
+     "caption": "Dressing dans un couloir, La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_dcb99464b3024042bab0db882153eeea~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_dcb99464b3024042bab0db882153eeea~mv2.jpg",
+     "alt": "Dressing dans une chambre, Poisy 74330",
+     "caption": "Dressing dans une chambre, Poisy 74330"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b34e972e99ef497884e007592d1a1c0a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b34e972e99ef497884e007592d1a1c0a~mv2.jpg",
+     "alt": "Dressing bicolore, noir et bois veiné, Vers 74296",
+     "caption": "Dressing bicolore, noir et bois veiné, Vers 74296"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8705add6bd8d41e7929660240af56db2~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8705add6bd8d41e7929660240af56db2~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Dressing bicolore, Pringy 74370",
+     "caption": "Dressing bicolore, Pringy 74370"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_b8f4f47861f348a995b9388d7cc15053~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_b8f4f47861f348a995b9388d7cc15053~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Dressing adapté aux contraintes intérieures, Pringy 74370",
+     "caption": "Dressing adapté aux contraintes intérieures, Pringy 74370"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_769c7f5263e443a3b558997d98b808a9~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_769c7f5263e443a3b558997d98b808a9~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Tiroirs et porte-pantalons, Pringy 74370",
+     "caption": "Tiroirs et porte-pantalons, Pringy 74370"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ac515da393aa4185850dfd3032c4931a~mv2_d_1836_3264_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ac515da393aa4185850dfd3032c4931a~mv2_d_1836_3264_s_2.jpg",
+     "alt": "Adapté à vos besoins, La Roche-sur-Foron 74800",
+     "caption": "Adapté à vos besoins, La Roche-sur-Foron 74800"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c44077d506224253967b4147857c5ad8~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c44077d506224253967b4147857c5ad8~mv2.jpg",
+     "alt": "Bibliothèque chambre enfant en épicéa étuvé brossé, La Balme de Thuy",
+     "caption": "Bibliothèque chambre enfant en épicéa étuvé brossé, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_176ff42be2e0417ab16122708ab7410e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_176ff42be2e0417ab16122708ab7410e~mv2.jpg",
+     "alt": "Bibliothèque en épicéa (à peindre) et chêne massif pour les 2 appliques, Dingy St Clair",
+     "caption": "Bibliothèque en épicéa (à peindre) et chêne massif pour les 2 appliques, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_93be60e1c33b4ec1b940978cd54ef01d~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_93be60e1c33b4ec1b940978cd54ef01d~mv2.jpg",
+     "alt": "Meuble TV séjour, Menthon St Bernard",
+     "caption": "Meuble TV séjour, Menthon St Bernard"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_5dabaad113a54c9fac51cb4cf737236b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_5dabaad113a54c9fac51cb4cf737236b~mv2.jpg",
+     "alt": "Bibliothèque séjour en mélaminé, Annecy",
+     "caption": "Bibliothèque séjour en mélaminé, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c68fa6d666444c89874bfdbc90bd3083~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c68fa6d666444c89874bfdbc90bd3083~mv2.jpg",
+     "alt": "Armoire chambre en épicéa verni mat, Dingy St Clair",
+     "caption": "Armoire chambre en épicéa verni mat, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8a2c93b1c05a49cba61f865d0e7b91ce~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8a2c93b1c05a49cba61f865d0e7b91ce~mv2.jpg",
+     "alt": "Meuble TV en mélaminé",
+     "caption": "Meuble TV en mélaminé"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_79e234aa12cb4d8a91b584467f81ba89~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_79e234aa12cb4d8a91b584467f81ba89~mv2.jpg",
+     "alt": "Meuble de rangement de l'entrée en mélaminé, La Balme de Thuy",
+     "caption": "Meuble de rangement de l'entrée en mélaminé, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c5b4ec38dd2b447bb0bef060804ac745~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c5b4ec38dd2b447bb0bef060804ac745~mv2.jpg",
+     "alt": "Bibliothèque chambre en mélaminé, Villaz",
+     "caption": "Bibliothèque chambre en mélaminé, Villaz"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c9ab5790c2114694934c57240fbe60ce~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c9ab5790c2114694934c57240fbe60ce~mv2.jpg",
+     "alt": "Meuble de rangement d'une entrée, Metz Tessy",
+     "caption": "Meuble de rangement d'une entrée, Metz Tessy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_488fa0ea5c2d423f9eac8009f4e6b6d2~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_488fa0ea5c2d423f9eac8009f4e6b6d2~mv2.jpg",
+     "alt": "Mobilier",
+     "caption": "Mobilier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_f4b25af3ccc8487c8213c1220c31f3d0~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_f4b25af3ccc8487c8213c1220c31f3d0~mv2.jpg",
+     "alt": "Mélaminé blanc pour masquer l'ancienne porte, Annecy",
+     "caption": "Mélaminé blanc pour masquer l'ancienne porte, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_cd8ebf7d2871409fa160e3e1c51c1984~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_cd8ebf7d2871409fa160e3e1c51c1984~mv2.jpg",
+     "alt": "Mélaminé blanc pour masquer l'ancienne porte, Annecy",
+     "caption": "Mélaminé blanc pour masquer l'ancienne porte, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_d400af13258542dcafb2fc14909c53a7~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_d400af13258542dcafb2fc14909c53a7~mv2.jpg",
+     "alt": "Épicéa 3 plis, prêt à peindre, Annecy",
+     "caption": "Épicéa 3 plis, prêt à peindre, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1e7ef2d25c054bbfbfd6ba86e77287ee~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1e7ef2d25c054bbfbfd6ba86e77287ee~mv2.jpg",
+     "alt": "Épicéa 3 plis, prêt à peindre, Annecy",
+     "caption": "Épicéa 3 plis, prêt à peindre, Annecy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_39c1942cc168408ba46930b1f93a977b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_39c1942cc168408ba46930b1f93a977b~mv2.jpg",
+     "alt": "Portes et tiroirs, St Jean de Sixt",
+     "caption": "Portes et tiroirs, St Jean de Sixt"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_484267db95e2415994b7d0938c1de442~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_484267db95e2415994b7d0938c1de442~mv2.jpg",
+     "alt": "Rangement en sous-pente, Thônes",
+     "caption": "Rangement en sous-pente, Thônes"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_0817b24ba93f4154830a55cbce171133~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_0817b24ba93f4154830a55cbce171133~mv2.jpg",
+     "alt": "Rangement en sous-pente, Thônes",
+     "caption": "Rangement en sous-pente, Thônes"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_32d785b9b16f4ea795988de5d4464991~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_32d785b9b16f4ea795988de5d4464991~mv2.jpg",
+     "alt": "Chambre, Lovagny",
+     "caption": "Chambre, Lovagny"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_f19a12b8af124233a143b18e267425f8~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_f19a12b8af124233a143b18e267425f8~mv2.jpg",
+     "alt": "Rangement de salle de bain, Poisy",
+     "caption": "Rangement de salle de bain, Poisy"
     }
    ]
   },
   {
-   "id": "mutualises",
-   "title": "Chantiers multiples coordonnés",
+   "kind": "story",
+   "id": "rge",
+   "eyebrow": "Isolation RGE",
+   "title": "Travaux <em class=\"it\">d'isolation</em>",
+   "img": "https://static.wixstatic.com/media/6466fd_21afa846be94430fb2c1492db4b318c8~mv2_d_3264_1836_s_2.jpg",
+   "alt": "Plancher de combles à créer et à isoler",
    "paras": [
-    "Frédéric Girod-Roux est titulaire d'un BTS productique bois et d'un BT ameublement, avec 24 ans d'expérience dans les agencements et la restauration de meubles d'art populaire alpin. Il travaille comme entrepreneur salarié de la SCOP du bâtiment Cabestan (siège à Grenoble, antenne à Grésy/Aix) : une coopérative de près de 300 professionnels, surtout en Rhône-Alpes et Auvergne, qui assure un suivi administratif rigoureux pour le client comme pour l'entrepreneur.",
-    "Mutualiser plusieurs métiers au sein d'une même entreprise permet de répondre vite et de limiter le nombre d'entreprises sur un chantier. Cloisons Fermacell montées en finition brute, enduit et peinture par Grat'poil et APMS74 ; portes et fenêtres avec Pierre Falconnet, lui aussi membre de Cabestan."
+    "Je vous propose d'améliorer l'isolation thermique de votre logement par l'intérieur. Mon entreprise est labellisée en ce domaine et je suis à votre disposition pour étudier la réalisation d'un projet durable et performant.",
+    "Ma labellisation RGE porte sur les domaines suivants :",
+    "<strong>Fournitures et poses de menuiseries extérieures</strong> (Qualibat n° 98857/3511)",
+    "<strong>Isolation thermique par l'intérieur</strong> (Qualibat n° 98857/7122)"
    ],
-   "blocks": [
+   "sign": "RGE · Qualibat"
+  },
+  {
+   "kind": "gallery",
+   "id": "rge-photos",
+   "eyebrow": "Quelques images de réalisations récentes",
+   "title": "Isolation <em class=\"it\">thermique</em>",
+   "photos": [
     {
-     "title": "Dingy St Clair : tout un étage de chalet",
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_208cadc2ee00483abea45dc14a31f0c9~mv2.jpg",
-       "Dingy St Clair",
-       "Réfection de tout un étage de chalet"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_1c8577489d0e483c8e508538b16e7d3a~mv2.jpg",
-       "Dingy St Clair",
-       "Pierre m'aide à la démolition"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_255423b469434d749aae887a56adc81c~mv2.jpg",
-       "Dingy St Clair",
-       "Pierre m'aide à la démolition"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_e62bacf1547445789f377dcc12ece34b~mv2.jpg",
-       "Dingy St Clair",
-       "Pierre s'occupe des fenêtres et velux"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_0ed6b133d6304f86b82bdac99219dc7b~mv2.jpg",
-       "Dingy St Clair",
-       "Pierre s'occupe des fenêtres et velux"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_9330d0cd6839469085b04cb0ea12c970~mv2.jpg",
-       "Dingy St Clair",
-       "Pierre s'occupe des fenêtres et velux"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_725d0d35cdbd4c39a285305e53e9e59c~mv2.jpg",
-       "Dingy St Clair",
-       "Aménagement global d'un sous-sol (avant)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_14cfd6aa7615409aadf7209295ca4d18~mv2.jpg",
-       "Dingy St Clair",
-       "Aménagement global d'un sous-sol (avant)"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_dbc7d0cf37894a3f90b60bf8c6678b39~mv2.jpg",
-       "Dingy St Clair",
-       "Isolation intérieure en laine de bois et Foamglass"
-      ]
-     ]
+     "thumb": "https://static.wixstatic.com/media/6466fd_21afa846be94430fb2c1492db4b318c8~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_21afa846be94430fb2c1492db4b318c8~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Plancher de combles à créer et à isoler",
+     "caption": "Plancher de combles à créer et à isoler"
     },
     {
-     "title": "Travaux Suspendus",
-     "paras": [
-      "Depuis 2022, Cabestan porte « Travaux Suspendus », un fonds de dotation contre le mal-logement, qui débloque des dossiers où le reste à charge reste trop élevé malgré les aides publiques, avec les Compagnons Bâtisseurs et la Fondation Abbé Pierre (www.travauxsuspendus.org). Premier chantier participatif en Ardèche : dépose d'un ancien plancher au-dessus d'une cave, nouveau solivage isolé avec parquet, puis cloison entre cuisine et salle de bain."
-     ],
-     "items": [
-      [
-       "https://static.wixstatic.com/media/6466fd_f3df0a5d8c5f4d569fd7c4c64fe38c0f~mv2.jpg",
-       "Ardèche",
-       "Début du chantier"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_9d5b3d721d6a4b32bde47b82cdb89d22~mv2.jpg",
-       "Ardèche",
-       "Dépose et évacuation de l'ancien solivage"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_db4e9dd173e245ca9b6f3fb08bae83c3~mv2.jpg",
-       "Ardèche",
-       ""
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_32854757a68e4b1388eb57234eaccadb~mv2.jpg",
-       "Ardèche",
-       ""
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_8d44a4d675784de1a40c1909dc373a89~mv2.jpg",
-       "Ardèche",
-       "Taille des poutres"
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_db769ab77aee4e07bb84a56d2ac761dd~mv2.jpg",
-       "Ardèche",
-       ""
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_8ca4d6e1af1e428d96e4e4751da8c4c8~mv2.jpg",
-       "Ardèche",
-       ""
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_23344bc1971840809406a77ffcca3186~mv2.jpg",
-       "Ardèche",
-       ""
-      ],
-      [
-       "https://static.wixstatic.com/media/6466fd_7c42284615b948a8bc7b99333db6d5e7~mv2.jpg",
-       "Ardèche",
-       ""
-      ]
-     ]
+     "thumb": "https://static.wixstatic.com/media/6466fd_61aa341a7d6549169b2824fb190e7371~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_61aa341a7d6549169b2824fb190e7371~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Plancher de combles à créer et à isoler",
+     "caption": "Plancher de combles à créer et à isoler"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_14d21bf163db4976958f1760dc91e622~mv2_d_2034_1362_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_14d21bf163db4976958f1760dc91e622~mv2_d_2034_1362_s_2.jpg",
+     "alt": "Isolation en multicouches croisées de laine de bois",
+     "caption": "Isolation en multicouches croisées de laine de bois"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_a3d5b01842e445adb98d1158ccbff4b1~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_a3d5b01842e445adb98d1158ccbff4b1~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Isolation en multicouches croisées de laine de bois",
+     "caption": "Isolation en multicouches croisées de laine de bois"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_44fe6ec89e5b40948358c27a487361b2~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_44fe6ec89e5b40948358c27a487361b2~mv2.jpg",
+     "alt": "Réalisation Girod-Roux Menuiserie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_283e34efaea74cb895bb0979c70e39b3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_283e34efaea74cb895bb0979c70e39b3~mv2.jpg",
+     "alt": "Réalisation Girod-Roux Menuiserie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e00b266c4b76489e8c6c2b6f0ca57a13~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e00b266c4b76489e8c6c2b6f0ca57a13~mv2.jpg",
+     "alt": "Réalisation Girod-Roux Menuiserie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_a2511ad4d7814aecb59aba6b1a7db42a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_a2511ad4d7814aecb59aba6b1a7db42a~mv2.jpg",
+     "alt": "Réalisation Girod-Roux Menuiserie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_aeaa70a531854246a1dc6b73f51fa1a5~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_aeaa70a531854246a1dc6b73f51fa1a5~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Pose soigneuse",
+     "caption": "Pose soigneuse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_c5a3286e27b44270996b4a63a8ccc84b~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_c5a3286e27b44270996b4a63a8ccc84b~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Pose soigneuse",
+     "caption": "Pose soigneuse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_5b0e2d95a47549a59ff015a1afb4ab33~mv2_d_2989_1681_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_5b0e2d95a47549a59ff015a1afb4ab33~mv2_d_2989_1681_s_2.jpg",
+     "alt": "Pose soigneuse",
+     "caption": "Pose soigneuse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_765b2f1cb9d049e0af0cfb0bc1635685~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_765b2f1cb9d049e0af0cfb0bc1635685~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Pose soigneuse",
+     "caption": "Pose soigneuse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_ab98a39b92ce4c10aa3d2e01bcf5fb1f~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_ab98a39b92ce4c10aa3d2e01bcf5fb1f~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Isolation intérieure d'un chalet, revêtement Fermacell",
+     "caption": "Isolation intérieure d'un chalet, revêtement Fermacell"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8a15e51d099049448bdfa546a1b81ad2~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8a15e51d099049448bdfa546a1b81ad2~mv2_d_3264_1836_s_2.jpg",
+     "alt": "Isolation intérieure d'un chalet, revêtement Fermacell",
+     "caption": "Isolation intérieure d'un chalet, revêtement Fermacell"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_cf87a16aa6294ad4be06a0e9caef1c70~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_cf87a16aa6294ad4be06a0e9caef1c70~mv2.jpg",
+     "alt": ", Dingy St Clair 74230",
+     "caption": ", Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8e43d26e23934bb78a739816061c3795~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8e43d26e23934bb78a739816061c3795~mv2.jpg",
+     "alt": ", Dingy St Clair 74230",
+     "caption": ", Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1f6f52ad16ed4bca957cb8ff05536a74~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1f6f52ad16ed4bca957cb8ff05536a74~mv2.jpg",
+     "alt": ", Dingy St Clair 74230",
+     "caption": ", Dingy St Clair 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8f42a5bce086473f9095769b1e5691e7~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8f42a5bce086473f9095769b1e5691e7~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": ", La Balme de Thuy 74230",
+     "caption": ", La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8c68afe00fe74f94849f3837aa068b2a~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8c68afe00fe74f94849f3837aa068b2a~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": ", La Balme de Thuy 74230",
+     "caption": ", La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_a8ce4b9a540645ad8ca8e6f50fb6d31e~mv2_d_1836_3264_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_a8ce4b9a540645ad8ca8e6f50fb6d31e~mv2_d_1836_3264_s_2.jpg",
+     "alt": ", La Balme de Thuy 74230",
+     "caption": ", La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_a414b2e5decf4f73bd971cff5c4d3098~mv2_d_3264_1836_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_a414b2e5decf4f73bd971cff5c4d3098~mv2_d_3264_1836_s_2.jpg",
+     "alt": ", La Balme de Thuy 74230",
+     "caption": ", La Balme de Thuy 74230"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_91cfc56a354c4acd88b5c04f71720923~mv2_d_2480_3508_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_91cfc56a354c4acd88b5c04f71720923~mv2_d_2480_3508_s_4_2.jpg",
+     "alt": "Réalisation Girod-Roux Menuiserie"
     }
    ]
+  },
+  {
+   "kind": "blocks",
+   "id": "accessibilite",
+   "eyebrow": "Accessibilité",
+   "title": "Mise aux normes <em class=\"it\">PMR</em>",
+   "lead": "Dans le cadre d'un partenariat avec des entreprises spécialisées, je vous propose mes services pour mettre aux normes vos accès aux personnes à mobilité réduite (escaliers, cheminements, signalétique).",
+   "items": [
+    {
+     "title": "Escalier, La Balme de Thuy",
+     "img": "https://static.wixstatic.com/media/6466fd_83bd7cf89c4f4eacb0b7246e5b884b25~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Escalier, La Balme de Thuy"
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "accessibilite-photos",
+   "eyebrow": "En images",
+   "title": "Accessibilité",
+   "lead": "Cliquez sur une photo pour l'agrandir.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_83bd7cf89c4f4eacb0b7246e5b884b25~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_83bd7cf89c4f4eacb0b7246e5b884b25~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Accessibilité escalier, La Balme de Thuy",
+     "caption": "Accessibilité escalier, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_3413e922030443dfb8e7f500a77dd71e~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_3413e922030443dfb8e7f500a77dd71e~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Accessibilité escalier, La Balme de Thuy",
+     "caption": "Accessibilité escalier, La Balme de Thuy"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_2a6afc51d6e04cde814621ca1fb4fc5e~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_2a6afc51d6e04cde814621ca1fb4fc5e~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Accessibilité escalier, La Balme de Thuy",
+     "caption": "Accessibilité escalier, La Balme de Thuy"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "mutualises",
+   "eyebrow": "Chantiers mutualisés",
+   "title": "Un atout, <em class=\"it\">une solution</em>",
+   "img": "https://static.wixstatic.com/media/6466fd_66f25b46abe741a8bee01aee5e4fc568~mv2.jpg",
+   "alt": "Chantiers mutualisés",
+   "paras": [
+    "Pour certains de vos projets, plusieurs corps de métiers sont nécessaires. La mutualisation au sein de Cabestan permet de répondre vite et de réduire le nombre d'entreprises sur le chantier : cloisons Fermacell montées en finition brute, enduit et peinture par Grat'poil et APMS74, tous les deux membres de Cabestan ; pour vos ouvertures, Pierre Falconnet, toujours de chez Cabestan.",
+    "Mon statut d'entrepreneur : dans le cadre de mon statut d'entrepreneur « salarié », j'ai choisi de travailler avec la SCOP du bâtiment Cabestan, espace Vaucanson, 88 rue Anatole France, 38100 Grenoble (siège social), avec une antenne savoyarde au 703 rue Boucher de la Rupelle, 73100 Grésy-sur-Aix. Cette société coopérative d'activités du bâtiment, forte de 20 années d'existence, regroupe près de 300 professionnels salariés répartis dans différents corps de métiers, en Rhône-Alpes et Auvergne pour la plupart.",
+    "Ma collaboration avec cette coopérative garantit à ma clientèle et à moi-même un suivi administratif efficace, précis et rigoureux. <a href=\"https://www.cabestan.fr\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">cabestan.fr</a>"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "mutualises-photos",
+   "eyebrow": "Dingy St Clair",
+   "title": "Tout un étage <em class=\"it\">de chalet</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_208cadc2ee00483abea45dc14a31f0c9~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_208cadc2ee00483abea45dc14a31f0c9~mv2.jpg",
+     "alt": "Réfection de tout un étage de chalet, Dingy St Clair",
+     "caption": "Réfection de tout un étage de chalet, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_1c8577489d0e483c8e508538b16e7d3a~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_1c8577489d0e483c8e508538b16e7d3a~mv2.jpg",
+     "alt": "Pierre m'aide à la démolition, Dingy St Clair",
+     "caption": "Pierre m'aide à la démolition, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_255423b469434d749aae887a56adc81c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_255423b469434d749aae887a56adc81c~mv2.jpg",
+     "alt": "Pierre m'aide à la démolition, Dingy St Clair",
+     "caption": "Pierre m'aide à la démolition, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_e62bacf1547445789f377dcc12ece34b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_e62bacf1547445789f377dcc12ece34b~mv2.jpg",
+     "alt": "Pierre s'occupe des fenêtres et velux, Dingy St Clair",
+     "caption": "Pierre s'occupe des fenêtres et velux, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_0ed6b133d6304f86b82bdac99219dc7b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_0ed6b133d6304f86b82bdac99219dc7b~mv2.jpg",
+     "alt": "Pierre s'occupe des fenêtres et velux, Dingy St Clair",
+     "caption": "Pierre s'occupe des fenêtres et velux, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_9330d0cd6839469085b04cb0ea12c970~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_9330d0cd6839469085b04cb0ea12c970~mv2.jpg",
+     "alt": "Pierre s'occupe des fenêtres et velux, Dingy St Clair",
+     "caption": "Pierre s'occupe des fenêtres et velux, Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_725d0d35cdbd4c39a285305e53e9e59c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_725d0d35cdbd4c39a285305e53e9e59c~mv2.jpg",
+     "alt": "Aménagement global d'un sous-sol (avant), Dingy St Clair",
+     "caption": "Aménagement global d'un sous-sol (avant), Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_14cfd6aa7615409aadf7209295ca4d18~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_14cfd6aa7615409aadf7209295ca4d18~mv2.jpg",
+     "alt": "Aménagement global d'un sous-sol (avant), Dingy St Clair",
+     "caption": "Aménagement global d'un sous-sol (avant), Dingy St Clair"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_dbc7d0cf37894a3f90b60bf8c6678b39~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_dbc7d0cf37894a3f90b60bf8c6678b39~mv2.jpg",
+     "alt": "Isolation intérieure en laine de bois et Foamglass, Dingy St Clair",
+     "caption": "Isolation intérieure en laine de bois et Foamglass, Dingy St Clair"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "travaux-suspendus",
+   "eyebrow": "Travaux suspendus",
+   "title": "Contre <em class=\"it\">le mal-logement</em>",
+   "img": "https://static.wixstatic.com/media/6466fd_f3df0a5d8c5f4d569fd7c4c64fe38c0f~mv2.jpg",
+   "alt": "Chantier participatif en Ardèche",
+   "paras": [
+    "Cabestan a mis en place, à partir de 2022, une opération pour lutter contre le mal-logement dans notre région : un fonds de dotation, avec les Compagnons Bâtisseurs et la Fondation Abbé Pierre. <a href=\"https://www.travauxsuspendus.org\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">travauxsuspendus.org</a>",
+    "Cabestan, en association avec les Compagnons Bâtisseurs, a mis en place son premier chantier participatif. Celui-ci s'est réalisé en Ardèche et l'objectif de la mission était de refaire un plancher isolé sur une cave.",
+    "Ce chantier ouvert aux entrepreneurs de Cabestan a vu une très bonne mobilisation, avec des bénévoles venus de nombreux départements."
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "travaux-suspendus-photos",
+   "eyebrow": "Ardèche",
+   "title": "Le chantier <em class=\"it\">participatif</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_f3df0a5d8c5f4d569fd7c4c64fe38c0f~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_f3df0a5d8c5f4d569fd7c4c64fe38c0f~mv2.jpg",
+     "alt": "Début du chantier, Ardèche",
+     "caption": "Début du chantier, Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_9d5b3d721d6a4b32bde47b82cdb89d22~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_9d5b3d721d6a4b32bde47b82cdb89d22~mv2.jpg",
+     "alt": "Dépose et évacuation de l'ancien solivage, Ardèche",
+     "caption": "Dépose et évacuation de l'ancien solivage, Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_db4e9dd173e245ca9b6f3fb08bae83c3~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_db4e9dd173e245ca9b6f3fb08bae83c3~mv2.jpg",
+     "alt": ", Ardèche",
+     "caption": ", Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_32854757a68e4b1388eb57234eaccadb~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_32854757a68e4b1388eb57234eaccadb~mv2.jpg",
+     "alt": ", Ardèche",
+     "caption": ", Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8d44a4d675784de1a40c1909dc373a89~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8d44a4d675784de1a40c1909dc373a89~mv2.jpg",
+     "alt": "Taille des poutres, Ardèche",
+     "caption": "Taille des poutres, Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_db769ab77aee4e07bb84a56d2ac761dd~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_db769ab77aee4e07bb84a56d2ac761dd~mv2.jpg",
+     "alt": ", Ardèche",
+     "caption": ", Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_8ca4d6e1af1e428d96e4e4751da8c4c8~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_8ca4d6e1af1e428d96e4e4751da8c4c8~mv2.jpg",
+     "alt": ", Ardèche",
+     "caption": ", Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_23344bc1971840809406a77ffcca3186~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_23344bc1971840809406a77ffcca3186~mv2.jpg",
+     "alt": ", Ardèche",
+     "caption": ", Ardèche"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/6466fd_7c42284615b948a8bc7b99333db6d5e7~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/6466fd_7c42284615b948a8bc7b99333db6d5e7~mv2.jpg",
+     "alt": ", Ardèche",
+     "caption": ", Ardèche"
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/6466fd_c7fd377b6bee4d688ab18973139cee36~mv2_d_5000_1250_s_2.jpg",
+   "eyebrow": "253 route de Charvex, La Balme de Thuy",
+   "title": "Un projet <em>en bois ?</em>",
+   "cta": [
+    "Contactez-moi",
+    "#contact"
+   ]
+  },
+  {
+   "kind": "team",
+   "id": "artisan",
+   "eyebrow": "Contact",
+   "title": "Frédéric <em class=\"it\">Girod-Roux</em>",
+   "people": [
+    {
+     "name": "Frédéric Girod-Roux",
+     "role": "Menuisier, ébéniste, agenceur",
+     "img": "https://static.wixstatic.com/media/6466fd_7a44cf9c333c4036a7a5198942f38276~mv2_d_1299_1334_s_2.jpg"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Contact",
+   "title": "Parlons <em class=\"it\">de votre projet</em>",
+   "text": "Un appel ou un e-mail pour décrire vos travaux.",
+   "rows": [
+    [
+     "Adresse",
+     "253 route de Charvex<br>74230 La Balme de Thuy"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33651301092\">06 51 30 10 92</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:fgrmenuiserie@gmail.com\">fgrmenuiserie@gmail.com</a>"
+    ],
+    [
+     "Labels",
+     "RGE Qualibat n° 98857/3511 et 98857/7122"
+    ],
+    [
+     "Statut",
+     "Entrepreneur salarié de la SCOP <a href=\"https://www.cabestan.fr\" target=\"_blank\" rel=\"noopener\">Cabestan</a>"
+    ]
+   ],
+   "cta": [
+    "Envoyer un e-mail",
+    "mailto:fgrmenuiserie@gmail.com?subject=Demande%20de%20devis"
+   ],
+   "map_q": "253 Route de Charvex, 74230 La Balme-de-Thuy"
   }
  ],
- "contact": {
-  "title": "Parlons de votre projet",
-  "text": "Frédéric Girod-Roux, entre Annecy et Thônes. Un appel ou un e-mail pour décrire vos travaux : il vous conseille et vous propose un devis.",
-  "tel": "06 51 30 10 92",
-  "tel_href": "+33651301092",
-  "mail": "fgrmenuiserie@gmail.com",
-  "rows": [
-   [
-    "Atelier",
-    "253 route de Charvex, 74230 La Balme de Thuy"
-   ],
-   [
-    "Téléphone",
-    "<a href=\"tel:+33651301092\">06 51 30 10 92</a>"
-   ],
-   [
-    "E-mail",
-    "<a href=\"mailto:fgrmenuiserie@gmail.com\">fgrmenuiserie@gmail.com</a><br><a href=\"mailto:fredgrx@gmail.com\">fredgrx@gmail.com</a>"
-   ],
-   [
-    "Statut",
-    "Entrepreneur salarié de la SCOP <a href=\"https://www.cabestan.fr\" target=\"_blank\" rel=\"noopener\">Cabestan</a>"
-   ]
-  ],
-  "map_q": "253 Route de Charvex, 74230 La Balme-de-Thuy"
- },
  "footer": {
   "about": "Girod-Roux Menuiserie : menuiserie, ébénisterie et agencement depuis 2012, entre Annecy et Thônes.",
-  "lines": [
-   "Frédéric Girod-Roux, 253 route de Charvex, 74230 La Balme de Thuy",
-   "<a href=\"tel:+33651301092\">06 51 30 10 92</a>, <a href=\"mailto:fgrmenuiserie@gmail.com\">fgrmenuiserie@gmail.com</a>",
-   "RGE Qualibat n° 98857/3511 (menuiseries extérieures) et 98857/7122 (isolation thermique par l'intérieur)",
-   "Entrepreneur salarié de la SCOP Cabestan, Grenoble"
-  ]
+  "contact": [
+   "253 route de Charvex, 74230 La Balme de Thuy",
+   "<a href=\"tel:+33651301092\">06 51 30 10 92</a>",
+   "<a href=\"mailto:fgrmenuiserie@gmail.com\">fgrmenuiserie@gmail.com</a>"
+  ],
+  "legal": "RGE Qualibat n° 98857/3511 et 98857/7122 · Entrepreneur salarié de la SCOP Cabestan"
  }
 }
