@@ -1,0 +1,104 @@
+{
+  "slug": "giabicani-d8d892",
+  "style": "portique",
+  "title": "Cabinet d'avocats Giabicani, Chambéry",
+  "description": "Cabinet d'avocats GIABICANI, 17 faubourg Reclus à Chambéry, depuis 1989 : conseil et actions judiciaires, droit des affaires, droit du travail, droit de la construction.",
+  "brand": "Cabinet Giabicani",
+  "tagline": "Avocats au barreau de Chambéry",
+  "theme": {
+    "plaster": "#fbfaf6", "stone": "#cfcabb", "green": "#2f5a4e", "slate": "#263036", "bronze": "#8b6a3a", "ochre": "#efe9da",
+    "serif": "\"Bodoni Moda\", Didot, Georgia, serif", "sans": "\"Work Sans\", system-ui, sans-serif",
+    "fonts": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Work+Sans:wght@400;500;600&display=swap"
+  },
+  "nav": [["conseiller", "Le cabinet"], ["domaines", "Compétences"], ["avocat", "L'avocat"], ["contact", "Contact"]],
+  "hero": {
+    "bar": "Avocats au barreau de Chambéry, 17 faubourg Reclus",
+    "title": "Conseiller et agir, à Chambéry depuis 1989",
+    "lead": "Notre cabinet d'avocats intervient tant en matière de conseil et rédaction d'actes qu'en matière d'actions judiciaires. Consultation en présentiel ou en visioconférence.",
+    "img": "https://static.wixstatic.com/media/f1ff9f_c436c67b11fb4beeaafaf4d8069759c5.jpg",
+    "alt": "La fontaine des Éléphants à Chambéry",
+    "caption": "Les éléphants, Chambéry"
+  },
+  "story": {
+    "title": "Notre cabinet",
+    "paras": [
+      "Le Cabinet d'Avocats GIABICANI est implanté à Chambéry depuis 1989. Il a été fondé par Maître Christian Giabicani, ancien Conseil juridique, Bâtonnier de l'Ordre des Avocats du Barreau de Chambéry en 2008 et 2009.",
+      "La polyvalence du cabinet permet de couvrir les besoins fondamentaux juridiques et judiciaires, tant en termes de conseils que d'actions à engager, si vous êtes chef d'entreprise ou projetez de l'être.",
+      "Les compétences du cabinet sont aussi ouvertes à tous les particuliers désireux d'être informés sur leurs droits, et de les faire valoir.",
+      "Toute consultation se fait sur rendez-vous uniquement."
+    ],
+    "side": {
+      "title": "Conseil et actions judiciaires",
+      "items": [
+        "Création et transmission d'entreprise",
+        "Vente et acquisition de fonds de commerce, baux commerciaux",
+        "Assistance en matière de sauvegarde, redressement et liquidation judiciaire",
+        "Action et défense devant les tribunaux et cours d'appel",
+        "Recouvrement de créances, droit commercial, droit des contrats",
+        "Droit du travail, droit social, droit de la construction"
+      ]
+    }
+  },
+  "domains": {
+    "title": "Compétences",
+    "lead": "Cinq domaines d'intervention, en conseil comme en contentieux. Choisissez un domaine pour en lire la présentation.",
+    "items": [
+      {"title": "Transmission et création d'entreprise", "text": "La transmission fait partie de la vie d'une entreprise et pose des questions : quand transmettre, pourquoi, à qui et comment. La création d'une entreprise nécessite d'agir avec méthode en respectant des étapes chronologiques."},
+      {"title": "Entreprises en difficultés", "text": "En droit français, une procédure collective place sous contrôle judiciaire le fonctionnement d'une entreprise en difficulté. Elle rassemble tous les créanciers et les prive du droit d'agir individuellement."},
+      {"title": "Droit commercial", "text": "Le droit commercial est la branche du droit chargée de la règlementation des relations liées aux personnes, aux actes, aux lieux et aux contrats du commerce. Branche du droit privé, il englobe l'ensemble des normes relatives aux commerçants lors de l'exercice de leur profession : c'est la branche du droit qui règle l'exercice de l'activité commerciale."},
+      {"title": "Droit du travail", "text": "Branche du droit social, le droit du travail régit les relations entre employeurs et salariés. Il encadre notamment la formation, l'exécution et la rupture du contrat de travail."},
+      {"title": "Droit de la construction", "text": "Le droit de la construction ne se définit pas tant par la nature de ses règles que par son objet. Il embrasse l'ensemble des règles qu'il convient de respecter depuis la naissance d'un projet jusqu'à l'achèvement de sa construction."}
+    ],
+    "lang": "Notre cabinet vous accueille aussi en italien."
+  },
+  "lawyer": {
+    "name": "Maître Christian Giabicani",
+    "role": "Avocat au barreau de Chambéry, fondateur du cabinet",
+    "img": "https://static.wixstatic.com/media/f1ff9f_08585fd4788d437391d6b64ddcd296da.jpg",
+    "paras": [
+      "Après un début de carrière au service juridique et fiscal d'un groupe de promotion immobilière parisien, Christian Giabicani s'installe en Savoie et crée son cabinet de conseil juridique en 1989.",
+      "Devenu avocat, il exerce en conseil comme en contentieux, principalement en droit des affaires, auprès d'une clientèle composée surtout de PME : droit des sociétés, droit commercial, cessions et acquisitions de sociétés et de fonds de commerce."
+    ],
+    "steps": [
+      ["1989", "Création du cabinet à Chambéry"],
+      ["1996", "Administrateur de la Chambre de commerce et d'industrie de Savoie"],
+      ["1997", "Président de l'école de commerce de Chambéry"],
+      ["1998", "Membre du Conseil de l'Ordre des avocats du barreau de Chambéry"],
+      ["2008 et 2009", "Bâtonnier de l'Ordre des avocats du barreau de Chambéry"],
+      ["2014", "Élu président de l'École des Avocats de la Région Rhône-Alpes (EDARA)"]
+    ]
+  },
+  "city": {
+    "title": "Un cabinet au cœur de Chambéry",
+    "photos": [
+      {"src": "https://static.wixstatic.com/media/f1ff9f_5a3471fb8e8a4165b7d4fab44bbeac24.jpg", "caption": "Vue aérienne de Chambéry"},
+      {"src": "https://static.wixstatic.com/media/f1ff9f_17abd0ba091f43c58c7fc911039cdaf8.jpg", "caption": "Hôtel de ville de Chambéry"}
+    ]
+  },
+  "contact": {
+    "title": "Prendre rendez-vous",
+    "text": "Pour une consultation, en présentiel ou en visioconférence. Toute consultation se fait sur rendez-vous uniquement.",
+    "address": "17 faubourg Reclus, 73000 Chambéry",
+    "phone": "04 79 75 13 47", "tel": "+33479751347",
+    "email": "contact@avocats-giabicani.com",
+    "map_q": "17 Faubourg Reclus, 73000 Chambéry",
+    "rows": [
+      ["Adresse", "Bureau de Chambéry<br>Cabinet d'avocats GIABICANI<br>17 faubourg Reclus, 73000 Chambéry"],
+      ["Téléphone", "<a href=\"tel:+33479751347\">04 79 75 13 47</a>"],
+      ["Courriel", "<a href=\"mailto:contact@avocats-giabicani.com\">contact@avocats-giabicani.com</a>"],
+      ["Consultation", "En présentiel ou en visioconférence, sur rendez-vous"],
+      ["Langues", "Français, italien"]
+    ],
+    "fees": "La facturation des prestations accomplies par le cabinet est faite sur la base d'une convention d'honoraires établie après devis accepté par le client. Règlements par chèques ou virements bancaires."
+  },
+  "footer": {
+    "about": "Cabinet d'avocats implanté à Chambéry depuis 1989. Conseil, rédaction d'actes et actions judiciaires.",
+    "bar": "Membre du barreau de Chambéry.",
+    "bar_url": "http://www.barreau-chambery.fr/",
+    "bar_label": "Ordre des avocats du barreau de Chambéry",
+    "legal": [
+      "Cabinet d'avocats GIABICANI SELARL, 17 faubourg Reclus, 73000 Chambéry. SIRET 344 821 541 00044. RCS Chambéry 344 821 541.",
+      "Avocats inscrits au barreau de Chambéry, profession réglementée."
+    ]
+  }
+}
