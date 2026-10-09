@@ -110,6 +110,16 @@
    "sign": "Vignoble en Agriculture Biologique"
   },
   {
+   "kind": "team",
+   "id": "famille",
+   "eyebrow": "La relève",
+   "title": "Jonathan Buisson, <em class=\"it\">depuis 2019</em>",
+   "lead": "Reprise du domaine en 2019.",
+   "img": "https://domainelesrochesbleues.com/images/le-domaine/jonathan-buisson-les-roches-bleues",
+   "alt": "Jonathan Buisson",
+   "people": []
+  },
+  {
    "kind": "banner",
    "img": "https://domainelesrochesbleues.com/images/le-domaine/le-domaine-header.jpg",
    "eyebrow": "961 route du Mont Brouilly, Odenas",
@@ -621,7 +631,8 @@
      ]
     }
    ],
-   "note": "Les prix ne sont pas publiés sur le site du domaine : pour commander, appelez le 06 17 38 11 71 ou écrivez à contact@domainelesrochesbleues.com (objet « Commande de vin »)."
+   "note": "Les prix ne sont pas publiés sur le site du domaine : pour commander, appelez le 06 17 38 11 71 ou écrivez à contact@domainelesrochesbleues.com (objet « Commande de vin »).",
+   "img": "https://domainelesrochesbleues.com/images/le-domaine/bouteille-de-vin.jpg"
   },
   {
    "kind": "gallery",
@@ -841,7 +852,8 @@
       "Les 3 Loups : 17/20 dans la revue Bourgogne Aujourd'hui (avril 2021)."
      ]
     }
-   ]
+   ],
+   "img": "https://domainelesrochesbleues.com/images/presse/image-header.jpg"
   },
   {
    "kind": "blocks",
@@ -879,7 +891,8 @@
       "La revue passe au crible le millésime 2018. Nous sommes fiers de notre cuvée « Les Mignonnes de Pierreux », qui obtient la meilleure note pour le cru Brouilly, et notre Côte de Brouilly « Cuvée Des Lys » obtient quant à elle la très belle note de 16/20."
      ]
     }
-   ]
+   ],
+   "img": "https://domainelesrochesbleues.com/images/actualites/image-header.jpg"
   },
   {
    "kind": "visit",
@@ -912,7 +925,8 @@
     "Calculer l'itinéraire",
     "https://goo.gl/maps/Ty3mnQeD1NB2"
    ],
-   "map_q": "961 route du Mont Brouilly, 69460 Odenas"
+   "map_q": "961 route du Mont Brouilly, 69460 Odenas",
+   "img": "https://domainelesrochesbleues.com/images/image-contact-cote-debrouilly-vin-brouilly.jpg"
   }
  ],
  "footer": {
@@ -922,6 +936,7 @@
    "<a href=\"tel:+33617381171\">06 17 38 11 71</a>",
    "<a href=\"mailto:contact@domainelesrochesbleues.com\">contact@domainelesrochesbleues.com</a>"
   ],
-  "legal": "SIRET 779 799 410 000 21 · Directeurs de la publication : Christiane et Dominique Lacondemine, Jonathan Buisson · Crédits photos : Gaëtan Bailly · L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  "legal": "SIRET 779 799 410 000 21 · Directeurs de la publication : Christiane et Dominique Lacondemine, Jonathan Buisson · Crédits photos : Gaëtan Bailly · L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://domainelesrochesbleues.com/mentions-legales.php"
  }
 }

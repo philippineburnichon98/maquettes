@@ -31,3 +31,10 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Un blog ou des actualités tenus à jour, c'est précieux pour le référencement : on les GARDE toujours, et en entier.
 - Section `blog` de build.py : cartes d'articles (photo, thème, titre, résumé, lien « Lire l'article »), filtres par thème, bouton « Voir plus d'articles » (par paquets de `step`), lien vers toutes les actualités (`all`). Reprendre au moins tous les articles de la première page du blog d'origine, avec leurs images. Exemple : odin-blondot.json.
 - Le reproche « actualités anciennes » ne s'utilise que si le blog est vraiment figé.
+
+## Contrôle photos obligatoire avant chaque push (demande de Philippine, 9 oct. 2026)
+- Une maquette sans logo ou sans les photos du site d'origine est inacceptable.
+- Avant de pousser : relever, page par page, TOUTES les images du site d'origine (logo, bandeau d'en-tête de chaque page, photos de personnes, de produits/réalisations, des lieux, logos de labels) et vérifier que chacune est dans le JSON (pour Wix, comparer l'identifiant média ; pour Jimdo, l'identifiant `i…`).
+- Les sections classiques acceptent une grande photo d'en-tête facultative `img` (cards, menu, gallery, blocks, visit, team) : y mettre le bandeau de la page d'origine correspondante.
+- Pied de page : `footer.legal_url` = page Mentions légales du site d'origine. Carte en PDF : `pdf` dans la section menu. Descriptions des plats : 3e élément de chaque ligne de menu.
+- Seules exceptions : logo du concepteur du site, icônes génériques (téléphone, e-mail, réseaux sociaux), images de banque sans rapport.

@@ -450,7 +450,8 @@
        "Garde",
        "4 ans"
       ]
-     ]
+     ],
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i2c1bc817b18c7af0/version/1517583286/domaine-de-la-folie-clos-saint-jacques-1er-cru-rully-chardonnay.jpg"
     },
     {
      "cat": "bourgogne",
@@ -458,7 +459,8 @@
      "tag": "Crémant de Bourgogne",
      "name": "Crémant",
      "app": "Crémant de Bourgogne",
-     "desc": "Fines bulles. Robe or brillant, bulle fine. Nez d'agrumes et de fleurs ; bouche vive, avec la finesse de la poire, une belle longueur et une touche de miel. Pour l'apéritif, les fruits de mer et les coquillages. À servir entre 7 et 9 °C."
+     "desc": "Fines bulles. Robe or brillant, bulle fine. Nez d'agrumes et de fleurs ; bouche vive, avec la finesse de la poire, une belle longueur et une touche de miel. Pour l'apéritif, les fruits de mer et les coquillages. À servir entre 7 et 9 °C.",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i4d3ad41035ecb3af/version/1517582119/domaine-de-la-folie-clos-saint-jacques-1er-cru-rully-chardonnay.jpg"
     },
     {
      "cat": "spiritueux",
@@ -475,7 +477,8 @@
      "tag": "44,5 % vol.",
      "name": "Marc de Bourgogne",
      "app": "Vieille eau-de-vie de marc de Bourgogne",
-     "desc": "Trente ans en fûts de cognac. Élaborée à partir de la gêne, fermentée à l'abri de l'air puis distillée, notre eau-de-vie de marc vieillit trente ans dans des fûts de cognac. Un digestif exceptionnel, d'une grande finesse, rond, à la belle couleur ambrée. En demi-bouteille, bouteille et magnum."
+     "desc": "Trente ans en fûts de cognac. Élaborée à partir de la gêne, fermentée à l'abri de l'air puis distillée, notre eau-de-vie de marc vieillit trente ans dans des fûts de cognac. Un digestif exceptionnel, d'une grande finesse, rond, à la belle couleur ambrée. En demi-bouteille, bouteille et magnum.",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i45309e445d7029e1/version/1361458361/domaine-de-la-folie-vieille-eau-de-vie-de-marc-digestif.jpg"
     },
     {
      "cat": "spiritueux",
@@ -483,7 +486,8 @@
      "tag": "21,5 % vol.",
      "name": "Liqueur de cassis",
      "app": "Liqueur",
-     "desc": "La recette familiale de Francesca, fille d'Étienne-Jules Marey : des cassis macérés dans l'eau-de-vie de marc du domaine, quelques épices et un sirop de sucre. Un juste équilibre entre fruit et alcool. En digestif, ou avec un dessert aux fruits rouges. En demi-bouteille et en bouteille."
+     "desc": "La recette familiale de Francesca, fille d'Étienne-Jules Marey : des cassis macérés dans l'eau-de-vie de marc du domaine, quelques épices et un sirop de sucre. Un juste équilibre entre fruit et alcool. En digestif, ou avec un dessert aux fruits rouges. En demi-bouteille et en bouteille.",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/ifda69e754bb7b5cb/version/1361458335/domaine-de-la-folie-liqueur-de-cassis-digestif.jpg"
     }
    ],
    "note": "Tous les vins blancs et rouges : travail des sols, culture raisonnée, vendanges manuelles en petites caisses."
@@ -831,7 +835,8 @@
     "Écrire au domaine",
     "mailto:contact@domainedelafolie.fr?subject=Demande%20de%20d%C3%A9gustation"
    ],
-   "map_q": "46.89476,4.74158"
+   "map_q": "46.89476,4.74158",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i0ad8591764556ea1/version/1784538781/image.jpg"
   }
  ],
  "footer": {
@@ -841,6 +846,7 @@
    "<a href=\"mailto:contact@domainedelafolie.fr\">contact@domainedelafolie.fr</a>",
    "71150 Chagny"
   ],
-  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://www.domainedelafolie.fr/about/"
  }
 }

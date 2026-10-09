@@ -138,7 +138,7 @@
    "id": "restaurant",
    "eyebrow": "Le restaurant",
    "title": "Petites <em class=\"it\">ou grandes tablées</em>",
-   "img": "https://static.wixstatic.com/media/313a31_c97d75ffbfe447a9995fe0984776ce4a~mv2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/terrasse.jpg",
+   "img": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg",
    "alt": "La terrasse du Bouchon des Artistes",
    "paras": [
     "À deux pas de la Part-Dieu, Le Bouchon des Artistes sert les spécialités lyonnaises revisitées et des plats découvertes, en salle ou en terrasse.",
@@ -294,7 +294,8 @@
      "Réserver une table",
      "#reserver"
     ]
-   }
+   },
+   "pdf": "https://www.le-bouchon-des-artistes.fr/_files/ugd/12be68_682e0eb039b5413fbe0a51297abc98dd.pdf"
   },
   {
    "kind": "team",
@@ -480,7 +481,8 @@
    "<a href=\"mailto:lebouchondesartistes@orange.fr\">lebouchondesartistes@orange.fr</a>",
    "98 rue Mazenod, Lyon 3e"
   ],
-  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://www.le-bouchon-des-artistes.fr/mentions"
  },
  "logo": {
   "src": "https://static.wixstatic.com/media/313a31_df1dda267ca542f2857b0c6fc14828f7~mv2.png/v1/fit/w_976,h_132,q_90/logo-lebouchondesartistes.png",

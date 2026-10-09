@@ -1708,7 +1708,9 @@
     "Envoyer un e-mail",
     "mailto:fgrmenuiserie@gmail.com?subject=Demande%20de%20devis"
    ],
-   "map_q": "253 Route de Charvex, 74230 La Balme-de-Thuy"
+   "map_q": "253 Route de Charvex, 74230 La Balme-de-Thuy",
+   "img": "https://static.wixstatic.com/media/6466fd_333eb55198a54753b3e42509bed671a2~mv2.jpg",
+   "alt": "Charvex"
   }
  ],
  "footer": {

@@ -100,7 +100,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .ann>div{background:var(--paper);color:var(--ink);max-width:460px;width:100%%;padding:38px 34px 32px;position:relative;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
 .ann h3{font-size:1.7rem;margin:12px 0 14px;color:var(--accent)}.ann p{color:var(--muted);margin-bottom:24px}
 .ann .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--muted)}
-.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
+.vimg{display:block;width:100%%;aspect-ratio:16/9;object-fit:cover;margin:0 0 22px}.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
 .picto{width:56px;height:56px;object-fit:contain;margin-bottom:6px}
 .labels{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:26px}.labels img{height:64px;width:auto;background:#fff;padding:6px;border-radius:4px}
 .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
@@ -127,7 +127,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .menu .col h3{font-size:1.15rem;letter-spacing:.14em;text-transform:uppercase;font-family:var(--sans);font-weight:600;color:var(--accent);margin:34px 0 10px}
 .menu .col h3:first-child{margin-top:0}
 .menu ul{list-style:none}.menu li{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px dashed var(--line)}
-.menu li span{font-family:var(--serif);font-size:1.18rem}.menu li small{color:var(--muted);font-size:.8rem;white-space:nowrap}.menu li small:not(:empty){max-width:60%%}.menu li small{white-space:normal;text-align:right}@media(min-width:861px){.menu li small{white-space:nowrap;max-width:none}}.menu li span{min-width:0}
+.menu li span{font-family:var(--serif);font-size:1.18rem}.menu li .ds{display:block;font-family:var(--sans);font-style:normal;font-size:.86rem;color:var(--muted);margin-top:3px;line-height:1.5}.menu li small{color:var(--muted);font-size:.8rem;white-space:nowrap}.menu li small:not(:empty){max-width:60%%}.menu li small{white-space:normal;text-align:right}@media(min-width:861px){.menu li small{white-space:nowrap;max-width:none}}.menu li span{min-width:0}
 .menu aside{background:var(--ink);color:var(--paper);padding:38px 34px;position:sticky;top:100px}
 .menu aside h3{font-size:1.9rem;margin-bottom:6px}.menu aside .big{font-family:var(--serif);font-size:3.4rem;color:var(--gold);line-height:1.1}
 .menu aside p{opacity:.8;font-size:.9rem;margin:10px 0 18px}.menu aside ul li{border-color:rgba(255,255,255,.18)}.menu aside li small{color:rgba(255,255,255,.75)}
@@ -202,6 +202,11 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 """
 
 
+def _headimg(x, cls="teamhero"):
+    """Grande photo d'en-tête facultative (bandeau de la page d'origine) : champ "img" de la section."""
+    return f'<img class="{cls}" src="{attr(x["img"])}" alt="{attr(x.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">' if x.get("img") else ""
+
+
 def section_story(s):
     if not s.get("img"):
         paras = "".join(f"<p>{p}</p>" for p in s["paras"])
@@ -257,7 +262,7 @@ def section_cards(o):
 {f'<span class="tag">{e(c["tag"])}</span>' if c.get("tag") else ""}<h3>{e(c["name"])}</h3>{f'<div class="app">{e(c["app"])}</div>' if c.get("app") else ""}
 <p>{e(c.get("desc", ""))}</p>{('<dl class="sheet">' + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in c["sheet"]) + "</dl>") if c.get("sheet") else ""}{medal}{price}{f'<p class="note" style="text-align:left;margin-top:12px"><a href="{attr(c["link"][1])}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">{e(c["link"][0])}</a></p>' if c.get("link") else ""}</article>''')
     note = f'<p class="note">{e(o["note"])}</p>' if o.get("note") else ""
-    return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
+    return f'''<section id="{o["id"]}"><div class="wrap">{_headimg(o)}<div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div>{tabs}
 <div class="grid">{"".join(cards)}</div>{note}</div></section>'''
 
@@ -265,22 +270,23 @@ def section_cards(o):
 def section_menu(o):
     cols = ""
     for sec in o["sections"]:
-        lis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1]) if len(i) > 1 else ""}</small></li>' for i in sec["items"])
+        lis = "".join(f'<li><span>{e(i[0])}{("<em class=" + chr(34) + "ds" + chr(34) + ">" + e(i[2]) + "</em>") if len(i) > 2 and i[2] else ""}</span><small>{e(i[1]) if len(i) > 1 else ""}</small></li>' for i in sec["items"])
         cols += f'<h3>{e(sec["title"])}</h3><ul>{lis}</ul>'
+    pdfl = f'<p class="note" style="text-align:left"><a href="{attr(o["pdf"])}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Télécharger la carte (PDF)</a></p>' if o.get("pdf") else ""
     a = o.get("aside")
     if not a:
         note = f'<p class="note" style="text-align:left">{e(o["note"])}</p>' if o.get("note") else ""
-        return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
-<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="menu solo"><div class="col rv">{cols}{note}</div></div></div></section>'''
+        return f'''<section id="{o["id"]}"><div class="wrap">{_headimg(o)}<div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
+<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="menu solo"><div class="col rv">{cols}{note}{pdfl}</div></div></div></section>'''
     alis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1])}</small></li>' for i in a.get("items", []))
     cta = ""
     if a.get("cta"):
         tgt = ' target="_blank" rel="noopener"' if a["cta"][1].startswith("http") else ""
         cta = f'<a class="btn solid" style="margin-top:24px" href="{attr(a["cta"][1])}"{tgt}>{e(a["cta"][0])}</a>'
     note = f'<p class="note" style="text-align:left">{e(o["note"])}</p>' if o.get("note") else ""
-    return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
+    return f'''<section id="{o["id"]}"><div class="wrap">{_headimg(o)}<div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div>
-<div class="menu"><div class="col rv">{cols}{note}</div>
+<div class="menu"><div class="col rv">{cols}{note}{pdfl}</div>
 <aside class="rv"><span class="eyebrow">{e(a["eyebrow"])}</span><h3>{e(a["title"])}</h3>
 <div class="big">{e(a.get("big", ""))}</div><p>{e(a.get("text", ""))}</p><ul>{alis}</ul>{cta}</aside></div></div></section>'''
 
@@ -402,7 +408,7 @@ def section_gallery(g):
                    + (f'<figcaption>{e(p["caption"])}</figcaption>' if p.get("caption") else "") + '</button>'
                    for p in g["photos"])
     lead = f'<p>{e(g["lead"])}</p>' if g.get("lead") else ""
-    return f'''<section id="{g.get("id", "photos")}" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
+    return f'''<section id="{g.get("id", "photos")}" style="padding-top:0"><div class="wrap">{_headimg(g)}<div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
 <h2>{g["title"]}</h2>{lead}</div><div class="gallery">{btns}</div></div></section>'''
 
 
@@ -464,7 +470,7 @@ def section_visit(v):
     q = urllib.parse.quote(v.get("map_q", ""))
     cta = v["cta"]
     tgt = ' target="_blank" rel="noopener"' if cta[1].startswith("http") else ""
-    return f'''<section id="{v.get("id", "contact")}" style="padding-top:0"><div class="wrap"><div class="visit{"" if v.get("map_q") else " nomap"} rv"><div class="info">
+    return f'''<section id="{v.get("id", "contact")}" style="padding-top:0"><div class="wrap"><div class="visit{"" if v.get("map_q") else " nomap"} rv"><div class="info">{_headimg(v, "vimg")}
 <span class="eyebrow">{e(v["eyebrow"])}</span><h2>{v["title"]}</h2><p style="color:var(--muted)">{e(v.get("text", ""))}</p>
 <dl>{rows}</dl><a class="btn solid" href="{attr(cta[1])}"{tgt}>{e(cta[0])}</a></div>
 {f'<iframe title="Plan d’accès" loading="lazy" src="https://maps.google.com/maps?q={q}&amp;z=15&amp;output=embed"></iframe>' if v.get("map_q") else ""}</div></div></section>'''
@@ -487,7 +493,7 @@ def section_blocks(b):
     pad = ' style="padding-top:0"' if b.get("tight") else ""
     lead = f'<p>{b["lead"]}</p>' if b.get("lead") else ""
     grid = f'<div class="blocks rv">{"".join(out)}</div>' if out else ""
-    return f'''<section id="{b.get("id", "rubriques")}"{cls}{pad}><div class="wrap"><div class="head rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
+    return f'''<section id="{b.get("id", "rubriques")}"{cls}{pad}><div class="wrap">{_headimg(b)}<div class="head rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
 <h2>{b["title"]}</h2>{lead}</div>{grid}{chips}{note}</div></section>'''
 
 
@@ -573,7 +579,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p></div>
 <div><h4>Explorer</h4><ul>{fnav}</ul></div><div><h4>Contact</h4><ul>{fcontact}</ul></div></div>
-<div class="bottom"><span>© {e(d["brand"])} · Mentions légales · Confidentialité</span>{legal}</div></div></footer>
+<div class="bottom"><span>© {e(d["brand"])} · {('<a href="' + attr(f['legal_url']) + '" target="_blank" rel="noopener" style="text-decoration:underline">Mentions légales</a>') if f.get('legal_url') else 'Mentions légales'} · Confidentialité</span>{legal}</div></div></footer>
 {lbhtml}{annhtml}<div class="fyce" role="note"><span><b>Proposition de maquette</b> réalisée par <a href="{FYCE["site"]}" target="_blank" rel="noopener">{FYCE["brand"]}</a> · {FYCE["name"]} · <a href="tel:{FYCE["tel"]}">{FYCE["phone"]}</a></span>
 <button aria-label="Masquer" onclick="this.parentElement.remove()">×</button></div>
 <script>{JS}</script>

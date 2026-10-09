@@ -142,19 +142,29 @@
        "6 · 12 hors menu"
       ],
       [
-       "Pâté-croûte"
+       "Pâté-croûte",
+       "",
+       "Foie gras, porc et veau, compotée d'oignons et pickles"
       ],
       [
-       "Œuf en meurette"
+       "Œuf en meurette",
+       "",
+       "Sauce au vin rouge, lardons, champignons et croûtons"
       ],
       [
-       "Poireaux rôtis"
+       "Poireaux rôtis",
+       "",
+       "Beurre, harengs marinés, vinaigrette à la moutarde à l'ancienne et noisettes torréfiées"
       ],
       [
-       "Tourte de veau et cochon"
+       "Tourte de veau et cochon",
+       "",
+       "Salade verte et jus de veau"
       ],
       [
-       "Tatin de pieds de cochon et escargots"
+       "Tatin de pieds de cochon et escargots",
+       "",
+       "Escargots persillés"
       ]
      ]
     },
@@ -162,23 +172,34 @@
      "title": "Plats",
      "items": [
       [
-       "Quenelle lyonnaise au brochet"
+       "Quenelle lyonnaise au brochet",
+       "",
+       "Sauce homardine et riz pilaf (20 minutes de cuisson)"
       ],
       [
-       "Andouillette de veau"
+       "Andouillette de veau",
+       "",
+       "Briochée maison, tirée à la ficelle (Maison Bobosse), pommes de terre et sauce au vin rouge"
       ],
       [
-       "Os à moelle"
+       "Os à moelle",
+       "",
+       "Pommes de terre sautées et salade verte"
       ],
       [
-       "Filet de truite"
+       "Filet de truite",
+       "",
+       "Blettes, chou chinois et beurre blanc"
       ],
       [
-       "Suprême de volaille"
+       "Suprême de volaille",
+       "",
+       "Rôti, polenta crémeuse au parmesan, girolles et jus réduit"
       ],
       [
        "Casse-croûte de ris de veau",
-       "signature · +10 € au menu"
+       "signature · +10 € au menu",
+       "Truffe d'automne et purée au beurre noisette"
       ]
      ]
     },
@@ -189,10 +210,14 @@
        "Cervelle de canut"
       ],
       [
-       "Faisselle"
+       "Faisselle",
+       "",
+       "De fromage blanc, crème ou coulis de fruits de saison"
       ],
       [
-       "½ Saint-Marcellin"
+       "½ Saint-Marcellin",
+       "",
+       "De fermes partenaires"
       ]
      ]
     },
@@ -203,18 +228,39 @@
        "Tarte à la praline"
       ],
       [
-       "Baba au vieux rhum"
+       "Baba au vieux rhum",
+       "",
+       "Arrangé à la vanille"
       ],
       [
-       "Tarte au citron meringuée"
+       "Tarte au citron meringuée",
+       "",
+       "Meringue italienne"
       ],
       [
-       "Tarte aux poires"
+       "Tarte aux poires",
+       "",
+       "Caramel au beurre salé et ganache légère"
+      ],
+      [
+       "Dessert vanille et tonka",
+       "",
+       "Éclats de noisette"
+      ]
+     ]
+    },
+    {
+     "title": "Suggestion végétarienne",
+     "items": [
+      [
+       "Velouté de petits pois",
+       "",
+       "À la menthe"
       ]
      ]
     }
    ],
-   "note": "Suggestion végétarienne selon la saison. Escargots par 12 hors menu. Carte susceptible d'évoluer au fil du marché.",
+   "note": "Escargots par 12 hors menu. Carte susceptible d'évoluer au fil du marché.",
    "aside": {
     "eyebrow": "Le menu",
     "title": "Menu des Canuts",
@@ -445,8 +491,12 @@
      "Parking des Cordeliers à côté"
     ],
     [
+     "Règlements",
+     "Espèces, MasterCard, Visa, American Express, titres-restaurant (Pluxee, Swile, UpCook, Edenred, Bimpli), chèques-vacances ANCV, bons cadeaux"
+    ],
+    [
      "Suivez-nous",
-     "<a href=\"https://www.instagram.com/bouchondescordeliers/\" target=\"_blank\" rel=\"noopener\">Instagram</a>, <a href=\"https://www.facebook.com/bouchondescordeliers/\" target=\"_blank\" rel=\"noopener\">Facebook</a>"
+     "<a href=\"https://www.instagram.com/bouchondescordeliers/\" target=\"_blank\" rel=\"noopener\">Instagram</a>, <a href=\"https://www.facebook.com/bouchondescordeliers/\" target=\"_blank\" rel=\"noopener\">Facebook</a>, <a href=\"https://www.tripadvisor.fr/Search?q=Bouchon+des+Cordeliers+Lyon\" target=\"_blank\" rel=\"noopener\">Tripadvisor</a>"
     ]
    ],
    "cta": [
@@ -463,7 +513,8 @@
    "<a href=\"mailto:contact@bouchondescordeliers.com\">contact@bouchondescordeliers.com</a>",
    "15 rue Claudia, Lyon 2e"
   ],
-  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "http://www.bouchondescordeliers.com/mentions-legales/"
  },
  "logo": {
   "src": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/logo-dark.png",

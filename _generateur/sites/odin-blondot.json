@@ -503,7 +503,8 @@
    "<a href=\"mailto:odin-blondot@69109.notaires.fr\">odin-blondot@69109.notaires.fr</a>",
    "23 quai Sarrail, 69006 Lyon"
   ],
-  "legal": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon (69). SIRET 380 319 814 00022. TVA FR58 380 319 814. Médiation : Médiateur du notariat, 60 boulevard de la Tour-Maubourg, 75007 Paris, mediateurdunotariat@notaires.fr. Mentions légales et protection des données : sur le site actuel de l'étude."
+  "legal": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon (69). SIRET 380 319 814 00022. TVA FR58 380 319 814. Médiation : Médiateur du notariat, 60 boulevard de la Tour-Maubourg, 75007 Paris, mediateurdunotariat@notaires.fr. Mentions légales et protection des données : sur le site actuel de l'étude.",
+  "legal_url": "https://www.notaires-lyon6.fr/mentions-legales.html"
  },
  "logo": {
   "src": "https://photos.notariat.services/resourcessn/resources/modele/default/assets/logo/notaires.png",

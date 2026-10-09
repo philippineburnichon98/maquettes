@@ -284,7 +284,8 @@
       "Si amiante détecté",
       "désamiantage sous 36 mois"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210430152500608c052c5eea6-jpg.webp"
    },
    {
     "id": "electricite",
@@ -307,7 +308,8 @@
       "À la charge de",
       "le vendeur"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210430152750608c05d6dc6bf-jpg.webp"
    },
    {
     "id": "gaz",
@@ -330,7 +332,8 @@
       "Validité",
       "3 ans"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210430153316608c071cb6d62-jpg.webp"
    },
    {
     "id": "dpe",
@@ -356,7 +359,8 @@
       "Validité",
       "10 ans"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210430150720608c0108076ed-jpg.webp"
    },
    {
     "id": "erp",
@@ -379,7 +383,8 @@
       "PEB",
       "depuis le 1er juin 2020"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/2021070616542560e46ea117e64-1-jpg.webp"
    },
    {
     "id": "metrages",
@@ -399,7 +404,8 @@
       "Écart de plus de 5 %",
       "baisse de prix demandée sous 1 an"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210430153518608c079628415-jpg.webp"
    },
    {
     "id": "plomb",
@@ -427,7 +433,8 @@
       "Sans plomb au-delà du seuil",
       "validité illimitée"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210430153625608c07d99203e-jpg.webp"
    },
    {
     "id": "termites",
@@ -450,7 +457,8 @@
       "Validité",
       "6 mois"
      ]
-    ]
+    ],
+    "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/photo-1585218903763-1035247f12fc-scaled.webp"
    }
   ]
  },

@@ -267,7 +267,8 @@
      "name": "Nouveau 2026",
      "app": "Beaujolais-Villages",
      "desc": "Gourmand, généreux et joyeux. Arrive le jeudi 19 novembre 2026. Aussi en BIB 5 L (30 €).",
-     "price": "8 €"
+     "price": "8 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_ff5e6449a2764182a0cf2f4b9ae673a5~mv2.png"
     },
     {
      "cat": "blanc",
@@ -341,7 +342,8 @@
      "img": "https://static.wixstatic.com/media/dfcc0a_c29f06a70a564bfcad97a8aa2014912b~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
     }
    ],
-   "note": "Tarifs départ cave au 1er septembre 2026. Coffret découverte de 3 bouteilles au choix. Transport offert dès 72 bouteilles."
+   "note": "Tarifs départ cave au 1er septembre 2026. Coffret découverte de 3 bouteilles au choix. Transport offert dès 72 bouteilles.",
+   "img": "https://static.wixstatic.com/media/aa37fe_090ac9d81240471285664fa0b2707a40~mv2.jpg"
   },
   {
    "kind": "banner",
@@ -590,7 +592,8 @@
     "Appeler le domaine",
     "tel:+33680309668"
    ],
-   "map_q": "Domaine Bernard Jomain, Charentay"
+   "map_q": "Domaine Bernard Jomain, Charentay",
+   "img": "https://static.wixstatic.com/media/aa37fe_5331114a106f4c0883a9285195a45e04~mv2.jpg"
   }
  ],
  "footer": {
