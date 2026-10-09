@@ -17,15 +17,7 @@ Pas intéressé(s) ? Un simple mot et je ne vous recontacte plus.
 
 Bien cordialement<, et bonne fin de vendanges (domaines, en saison) | et bons chantiers (artisans)>,
 
---
-Philippine Burnichon
-Web Designer | Developer
-Fyce
-06 65 57 16 72
-philippine@fyce.space
-www.fyce.space
-
-(Signature de Philippine : la reproduire exactement, dans cet ordre. Dans htmlBody : nom et « Fyce » en gras, e-mail en lien mailto, site en lien vers https://www.fyce.space. Fournir à la fois body (texte) et htmlBody avec de vrais liens <a href>.)
+(PAS de signature : le mail s'arrête à la formule de politesse. Philippine ajoute elle-même sa signature Gmail avant d'envoyer. Fournir à la fois body (texte) et htmlBody avec un vrai lien <a href> vers la maquette.)
 
 Règles : moins de 120 mots (hors signature), texte brut, un seul lien, pas de prix, pas de proposition d'appel ni de visite.
 
@@ -33,7 +25,9 @@ Règles : moins de 120 mots (hors signature), texte brut, un seul lien, pas de p
 
 Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | vendanges | chantiers | rendez-vous | dossiers>. La maquette reste en ligne si vous voulez y jeter un œil. Un simple oui ou non me suffit !
 
-Philippine
+Bien cordialement,
+
+(Pas de signature ici non plus.)
 
 # Par métier
 
