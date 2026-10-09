@@ -1,29 +1,26 @@
 {
  "slug": "roches-bleues-16158f",
- "style": "diorite",
  "title": "Domaine Les Roches Bleues, Brouilly et Côte de Brouilly à Odenas",
- "description": "Domaine familial en bio sur le versant sud du Mont Brouilly : huit cuvées de gamay, gîte de 18 places et atelier de découverte. Maquette Fyce.",
+ "description": "Domaine familial en agriculture biologique sur le versant sud du Mont Brouilly : huit cuvées de gamay en Brouilly et Côte de Brouilly, gîte de 18 places et atelier de découverte.",
  "brand": "Domaine Les Roches Bleues",
+ "tagline": "Brouilly · Côte de Brouilly · Odenas",
  "logo": {
   "src": "https://domainelesrochesbleues.com/images/footer/logo-roches-bleues.png",
-  "height": 54
+  "height": 54,
+  "bg": "#ffffff"
  },
  "theme": {
-  "rock": "#243241",
-  "rock2": "#33475a",
-  "wine": "#6a1f3c",
-  "chalk": "#eef0ef",
-  "moss": "#b4c29f",
+  "paper": "#eef0ef",
+  "paper2": "#dfe4e2",
   "ink": "#1b232b",
   "muted": "#55606b",
-  "body": "\"Newsreader\",Georgia,serif",
-  "head": "\"Archivo\",system-ui,sans-serif",
-  "stretch": "125%",
-  "hw": "800",
-  "logobg": "#ffffff",
-  "open": "relief",
-  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap",
-  "wdth": "125"
+  "accent": "#2f4a63",
+  "accent2": "#243241",
+  "gold": "#9c7a4c",
+  "heroem": "#b4c29f",
+  "serif": "\"Newsreader\",Georgia,serif",
+  "sans": "\"Archivo\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap"
  },
  "nav": [
   [
@@ -32,7 +29,7 @@
   ],
   [
    "terroir",
-   "Le terroir"
+   "Environnement"
   ],
   [
    "savoir-faire",
@@ -40,11 +37,15 @@
   ],
   [
    "vins",
-   "Les vins"
+   "Nos vins"
   ],
   [
-   "visiter",
-   "Atelier et gîte"
+   "atelier",
+   "Œnotourisme"
+  ],
+  [
+   "gite",
+   "Le gîte"
   ],
   [
    "presse",
@@ -56,703 +57,871 @@
   ]
  ],
  "hero": {
-  "title": "Du gamay sur la pierre bleue du Mont Brouilly",
-  "lead": "Domaine familial de Brouilly et Côte de Brouilly, niché sur le versant sud du Mont Brouilly, à Odenas. Certifié bio, en chemin vers l'agroécologie.",
   "img": "https://domainelesrochesbleues.com/images/les-roches-bleues-mont-brouilly-fond-01.jpg",
-  "alt": "Les vignes du domaine sur le Mont Brouilly",
-  "caption": "Le Mont Brouilly, au-dessus du domaine.",
-  "ctas": [
-   [
-    "Découvrir les huit cuvées",
+  "eyebrow": "Artisans-vignerons depuis trois générations · Odenas",
+  "title": "Les Roches Bleues, <em>Mont Brouilly</em>",
+  "lead": "Domaine familial de Brouilly et Côte de Brouilly, niché sur le versant sud du Mont Brouilly. Vignoble en agriculture biologique, en chemin vers l'agroécologie.",
+  "cta1": [
+   "Découvrir nos vins",
+   "#vins"
+  ],
+  "cta2": [
+   "Réserver une visite",
+   "#reserver"
+  ]
+ },
+ "figures": [
+  [
+   "1967",
+   "fondation du domaine"
+  ],
+  [
+   "11 ha",
+   "Brouilly et Côte de Brouilly"
+  ],
+  [
+   "8",
+   "cuvées de gamay"
+  ],
+  [
+   "18",
+   "places au gîte"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Notre domaine, notre passion",
+   "title": "Trois générations <em class=\"it\">au pied du Mont Brouilly</em>",
+   "img": "https://domainelesrochesbleues.com/images/le-domaine/le-domaine-louis-bassy.jpg",
+   "alt": "Le domaine Les Roches Bleues",
+   "paras": [
+    "Le domaine a été érigé en 1967. En 2019, Jonathan Buisson, qui travaillait dans l'économie sociale et solidaire à Paris, a pris le sécateur tendu par ses beaux-parents, Dominique et Christiane Lacondemine : avec Chloé, ils sont la troisième génération à prendre le relais.",
+    "Épaulé par Frédéric et Victorine, Jonathan cultive aujourd'hui 11 hectares de vignes en appellations Brouilly et Côte de Brouilly. Il a depuis entrepris et concrétisé la conversion des vignes en agriculture biologique, et avance progressivement selon les principes de l'agroécologie.",
+    "L'œnotourisme est développé avec l'accueil de groupes, un atelier de découverte et un gîte de 18 places."
+   ],
+   "logos": [
+    [
+     "https://domainelesrochesbleues.com/images/logos-verts-europe-ab.png",
+     "Vignoble en Agriculture Biologique"
+    ]
+   ],
+   "sign": "Vignoble en Agriculture Biologique"
+  },
+  {
+   "kind": "banner",
+   "img": "https://domainelesrochesbleues.com/images/le-domaine/le-domaine-header.jpg",
+   "eyebrow": "961 route du Mont Brouilly, Odenas",
+   "title": "Du gamay <em>sur la pierre bleue</em>",
+   "cta": [
+    "Nos vins",
     "#vins"
-   ],
-   [
-    "Réserver l'atelier",
-    "https://wgrdv.io?identifier=0ae21c02-5fe4-4288-875d-ed615390c34c&locale=fr"
    ]
-  ]
- },
- "domaine": {
-  "title": "Trois générations au pied de la colline",
-  "paras": [
-   "Sur les routes sinueuses qui mènent à la colline de Brouilly, celle-ci se dresse, majestueuse, à l'horizon. Nos vignes sont plantées sur les flancs de la pierre bleue.",
-   "Le domaine a été fondé en 1967. En 2019, Jonathan Buisson, venu de l'économie sociale et solidaire à Paris, l'a repris des mains de ses beaux-parents, Dominique et Christiane Lacondemine. Avec Chloé, ils sont la troisième génération.",
-   "Le domaine cultive 11 hectares en Brouilly et Côte de Brouilly, et a engagé la conversion de ses vignes à l'agriculture biologique. Il accueille les groupes, les clubs de vin et propose des ateliers pour faire découvrir la région, sa convivialité et ses vins."
-  ],
-  "people": [
-   [
-    "Jonathan et Chloé",
-    "Troisième génération, au domaine depuis 2019"
-   ],
-   [
-    "Dominique et Christiane Lacondemine",
-    "Ils ont transmis le domaine en 2019"
-   ],
-   [
-    "Frédéric et Victorine",
-    "Ils épaulent Jonathan au domaine"
+  },
+  {
+   "kind": "story",
+   "id": "terroir",
+   "eyebrow": "Un environnement exceptionnel",
+   "title": "Sur les pentes <em class=\"it\">du Mont Brouilly</em>",
+   "img": "https://domainelesrochesbleues.com/images/un-envirronement-exceptionnel/les-roches-bleues.jpg",
+   "alt": "Les roches bleues du Mont Brouilly",
+   "paras": [
+    "L'extraordinaire richesse de ses sols, labellisés Géopark mondial de l'UNESCO, et les variations d'altitude conférées par le caractère vallonné du territoire donnent au gamay, cépage phare de la région, une grande diversité d'expression.",
+    "Au cœur du vignoble trône le Mont Brouilly. Son sommet offre des panoramas sur les quatre principales entités paysagères du territoire : le val de Saône, les côtes viticoles, le Pays des pierres dorées et les monts du Beaujolais.",
+    "Sur ses pentes, quelque 330 hectares constituent le cru Côte de Brouilly ; tout autour s'étend le plus grand cru du vignoble beaujolais, le Brouilly. Niché sur son versant sud, notre domaine et les vignes qui l'entourent reposent sur les sols de roches bleues métamorphiques si caractéristiques du Mont Brouilly."
    ]
-  ],
-  "imgs": [
-   [
-    "https://domainelesrochesbleues.com/images/le-domaine/le-domaine-header.jpg",
-    "Le domaine Les Roches Bleues"
-   ],
-   [
-    "https://domainelesrochesbleues.com/images/le-domaine/le-domaine-louis-bassy.jpg",
-    "Le domaine"
-   ],
-   [
-    "https://domainelesrochesbleues.com/images/le-domaine/bouteille-de-vin.jpg",
-    "Une bouteille du domaine"
-   ]
-  ]
- },
- "terroir": {
-  "title": "Un environnement exceptionnel",
-  "quote": "La générosité de la nature est un atout majeur pour l'excellence du domaine.",
-  "paras": [
-   "Le Beaujolais offre à ses vignerons des atouts majeurs : des sols très riches, labellisés Géopark mondial de l'UNESCO, et un relief vallonné dont les expositions et les altitudes donnent au gamay une grande diversité d'expression.",
-   "Au cœur du vignoble, le Mont Brouilly offre des panoramas sur le val de Saône, les côtes viticoles, le Pays des pierres dorées et les monts du Beaujolais. Niché sur son versant sud, le domaine profite d'un ensoleillement optimal et de sols de roches bleues métamorphiques, qui font l'exception de son terroir."
-  ],
-  "img": "https://domainelesrochesbleues.com/images/un-envirronement-exceptionnel/les-roches-bleues.jpg",
-  "alt": "Les roches bleues du domaine",
-  "facts": [
-   [
-    "330 ha",
-    "de Côte de Brouilly sur les pentes du Mont Brouilly"
-   ],
-   [
-    "Le plus grand cru",
-    "du Beaujolais : le Brouilly, tout autour de la colline"
-   ],
-   [
-    "Géopark UNESCO",
-    "des sols labellisés au niveau mondial"
-   ],
-   [
-    "Versant sud",
-    "pour un ensoleillement optimal"
-   ]
-  ]
- },
- "savoirfaire": {
-  "title": "Notre savoir-faire",
-  "lead": "La recherche de la qualité optimale nous anime en permanence. Tous nos vins sont issus du gamay : sur les pierres bleues de la Côte de Brouilly, il donne des fruits noirs épicés, parfois poivrés, et une subtile minéralité ; sur les sables et granits roses de Brouilly, ce sont les fruits rouges frais qui dominent.",
-  "steps": [
-   [
-    "À la vigne",
-    "Depuis 10 ans, le vignoble est restructuré pour une conduite en agroécologie. Les vignes sont enherbées : la structure du sol est travaillée, l'érosion limitée, la biodiversité dynamisée."
-   ],
-   [
-    "Aux vendanges",
-    "Une récolte entièrement manuelle, pour préserver l'intégrité des raisins jusqu'à la cuve."
-   ],
-   [
-    "En cuve",
-    "Macération en grappes entières, méthodes adaptées au millésime pour respecter les fruits."
-   ],
-   [
-    "En foudre",
-    "Les vins sont élevés en foudres, de grands tonneaux de chêne : oxygénation lente, saveurs et arômes de fruits préservés. Les cuvées d'exception sont en partie élevées en fûts."
-   ]
-  ]
- },
- "coupe": {
-  "title": "Les vins, couche par couche",
-  "lead": "Huit cuvées de gamay, rangées selon la roche où poussent leurs vignes. Touchez une bouteille pour lire sa fiche technique.",
-  "layers": [
-   {
-    "key": "rose",
-    "label": "Sur le granit rose",
-    "sub": "Sables et granits roses : les fruits rouges frais dominent.",
-    "color": "#c98e80",
-    "text": "#2a1a17"
-   },
-   {
-    "key": "bleu",
-    "label": "Sur les roches bleues",
-    "sub": "Diorites et pierres bleues : fruits noirs épicés, parfois poivrés, subtile minéralité.",
-    "color": "#2f4a63",
-    "text": "#ffffff"
-   }
-  ],
-  "wines": [
-   {
-    "layer": "rose",
-    "name": "La Croquante",
-    "short": "Brouilly rouge",
-    "app": "Brouilly, rouge",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-croquante_hd.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-croquante.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/LACROQUANTE-FichePDF.pdf",
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Assemblage de plusieurs vignes"
-     ],
-     [
-      "Sol",
-      "Granit rose"
-     ],
-     [
-      "Âge des vignes",
-      "25 à 60 ans"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Macération carbonique courte (6 à 8 jours) en grappes entières, fermentation spontanée aux levures indigènes"
-     ],
-     [
-      "Élevage",
-      "6 à 8 mois en cuve, peu ou pas filtré, peu ou pas sulfité"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "5 à 6 ans"
-     ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Notre terroir",
+   "text": "La générosité de la nature est un atout majeur pour l'excellence du domaine.",
+   "sub": "Labellisé Géopark mondial de l'UNESCO."
+  },
+  {
+   "kind": "features",
+   "dark": true,
+   "id": "savoir-faire",
+   "eyebrow": "Notre savoir-faire",
+   "title": "De la vigne <em class=\"it\">au foudre</em>",
+   "lead": "L'ensemble de nos vins sont issus du célèbre cépage gamay. Sur nos pierres bleues de la Côte de Brouilly, il offre des notes de fruits noirs épicés ; sur les sables et granits roses de Brouilly, ce sont les fruits rouges frais qui prédominent.",
+   "items": [
+    [
+     "À la vigne",
+     "Depuis 10 ans, nous sommes engagés dans une restructuration de notre vignoble. Nos vignes sont désormais systématiquement enherbées afin de travailler naturellement la structure du sol."
     ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée La Croquante"
-   },
-   {
-    "layer": "rose",
-    "name": "L'Éphémère N°1",
-    "short": "Côte de Brouilly rouge",
-    "app": "Côte de Brouilly, rouge",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-ephe_hd.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-ephemere1.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/lephemere-pdfv2.pdf",
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Assemblage de parcelles"
-     ],
-     [
-      "Sol",
-      "Granite rose profond"
-     ],
-     [
-      "Âge des vignes",
-      "60 ans"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Grappes entières, macération semi-carbonique de 10 jours, levures indigènes, fermentation entre 20 et 22 °C"
-     ],
-     [
-      "Élevage",
-      "10 mois en foudre de 38 hl"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "Jusqu'à 8 ans"
-     ]
+    [
+     "Aux vendanges",
+     "L'intégralité de notre récolte est manuelle."
     ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée L'Éphémère N°1"
-   },
-   {
-    "layer": "rose",
-    "name": "La Baraquée",
-    "short": "Côte de Brouilly rouge",
-    "app": "Côte de Brouilly, rouge",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-baraquee_hd.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-baraquee.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/LABARAQUEE-FichePDF.pdf",
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Cuvée parcellaire, lieu-dit Conroy (La Poyebade)"
-     ],
-     [
-      "Sol",
-      "Granit rose"
-     ],
-     [
-      "Âge des vignes",
-      "Vieilles vignes"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Macération carbonique semi-longue (12 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes"
-     ],
-     [
-      "Élevage",
-      "8 mois en foudre de chêne, peu ou pas filtré, peu ou pas sulfité"
-     ],
-     [
-      "Service",
-      "14 °C"
-     ],
-     [
-      "Garde",
-      "10 ans"
-     ]
+    [
+     "En cuve",
+     "Adeptes de la macération en grappe entière, nous adaptons nos pratiques aux conditions du millésime."
     ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée La Baraquée"
-   },
-   {
-    "layer": "rose",
-    "name": "L'Amuse-Bouche",
-    "short": "Beaujolais-Villages rosé",
-    "app": "Beaujolais-Villages, rosé",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-amusebouche_hd.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-amusebouche.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/LAMUSEBOUCHE-FichePDF.pdf",
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Assemblage de différentes parcelles"
-     ],
-     [
-      "Sol",
-      "Granit rose"
-     ],
-     [
-      "Âge des vignes",
-      "40 à 60 ans"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Pressurage direct, débourbage à froid"
-     ],
-     [
-      "Élevage",
-      "6 à 8 mois en cuve"
-     ],
-     [
-      "Service",
-      "10 °C"
-     ],
-     [
-      "Garde",
-      "3 ans"
-     ]
-    ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée L'Amuse-Bouche"
-   },
-   {
-    "layer": "bleu",
-    "name": "Les 3 Loups",
-    "short": "Brouilly rouge",
-    "app": "Brouilly, rouge",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-3loups_hd.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-3loups.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/LES3LOUPS-FichePDF.pdf",
-    "medals": [
-     "Médaille d'argent, Concours International du Gamay 2021",
-     "17/20, revue Bourgogne Aujourd'hui (avril 2021)"
-    ],
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Cuvée parcellaire, lieu-dit Les Trois Loups (sol pierreux)"
-     ],
-     [
-      "Sol",
-      "Pierres bleues altérées en profondeur et anciennes alluvions"
-     ],
-     [
-      "Âge des vignes",
-      "10 ans"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Macération carbonique semi-longue en grappes entières (12 jours), fermentation spontanée aux levures indigènes"
-     ],
-     [
-      "Élevage",
-      "8 à 10 mois en foudre de chêne, peu ou pas filtré, peu ou pas sulfité"
-     ],
-     [
-      "Service",
-      "14 °C"
-     ],
-     [
-      "Garde",
-      "8 à 10 ans"
-     ]
-    ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée Les 3 Loups"
-   },
-   {
-    "layer": "bleu",
-    "name": "Pierreux",
-    "short": "Brouilly rouge",
-    "app": "Brouilly, rouge",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-mignonnes_hd-j.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-pierreux.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/Pierreux-v3-fr.pdf",
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Cuvée parcellaire, lieu-dit Pierreux"
-     ],
-     [
-      "Sol",
-      "Roches bleues d'origine volcanique (diorites)"
-     ],
-     [
-      "Âge des vignes",
-      "50 ans"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Macération longue (14 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes, vers 20 °C"
-     ],
-     [
-      "Élevage",
-      "12 à 18 mois en foudre selon les millésimes, peu ou pas filtré, peu ou pas sulfité"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "8 à 10 ans selon les millésimes"
-     ]
-    ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée Pierreux"
-   },
-   {
-    "layer": "bleu",
-    "name": "Brulhié",
-    "short": "Côte de Brouilly rouge",
-    "app": "Côte de Brouilly, rouge",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-soleil_hd-j.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-brulhie.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/Brulhie-FichePDF-L.pdf",
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Cuvée parcellaire, lieu-dit Brulhié, versant sud du Mont Brouilly"
-     ],
-     [
-      "Sol",
-      "Roches bleues d'origine volcanique (diorites)"
-     ],
-     [
-      "Âge des vignes",
-      "20 à 90 ans"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Macération longue (14 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes, vers 20 °C"
-     ],
-     [
-      "Élevage",
-      "12 à 18 mois en foudre selon les millésimes, peu ou pas filtré, peu ou pas sulfité"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "10 à 15 ans selon les millésimes"
-     ]
-    ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée Brulhié"
-   },
-   {
-    "layer": "bleu",
-    "name": "L'Héronde",
-    "short": "Côte de Brouilly rouge",
-    "app": "Côte de Brouilly, rouge",
-    "bottle": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-heronde_hd-j.png",
-    "photo": "https://domainelesrochesbleues.com/images/nos-vins-n/header-lheronde.jpg",
-    "pdf": "https://domainelesrochesbleues.com/PDF/LHERONDE-FichePDF-L.pdf",
-    "tech": [
-     [
-      "Cépage",
-      "Gamay"
-     ],
-     [
-      "Cuvée",
-      "Cuvée parcellaire, lieu-dit l'Héronde, versant sud-est du Mont Brouilly"
-     ],
-     [
-      "Sol",
-      "Roches bleues d'origine volcanique (diorites)"
-     ],
-     [
-      "Âge des vignes",
-      "65 ans"
-     ],
-     [
-      "Vendanges",
-      "Manuelles"
-     ],
-     [
-      "Vinification",
-      "Macération longue (14 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes, vers 20 °C"
-     ],
-     [
-      "Élevage",
-      "12 à 18 mois en foudre selon les millésimes, peu ou pas filtré, peu ou pas sulfité"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "10 à 15 ans selon les millésimes"
-     ]
-    ],
-    "noprice": "Prix non publiés : commande au 06 17 38 11 71 ou par e-mail.",
-    "photo_alt": "Visuel de la cuvée L'Héronde"
-   }
-  ],
-  "note": "Les prix ne sont pas publiés sur le site actuel. Pour commander, appelez le 06 17 38 11 71 ou écrivez à <a href=\"mailto:contact@domainelesrochesbleues.com\">contact@domainelesrochesbleues.com</a> (le formulaire du domaine propose « Commande de vin »)."
- },
- "visiter": {
-  "title": "Venir au domaine",
-  "items": [
-   {
-    "title": "De la vigne au vin, immersion au cœur d'un domaine viticole",
-    "img": "https://domainelesrochesbleues.com/images/oenotourisme/oenotourisme-degustation.jpg",
-    "alt": "Dégustation au domaine",
-    "paras": [
-     "Une balade sur le domaine qui commence dans les vignes, sur les pentes du Mont Brouilly, puis la visite du chai, des caves voûtées et des foudres. Vous êtes initiés aux grandes étapes de l'élaboration du vin, avant la dégustation des vins du domaine.",
-     "Le Mont Brouilly fait partie du Géopark mondial de l'UNESCO du Beaujolais."
-    ],
-    "thumbs": [
-     [
-      "https://domainelesrochesbleues.com/images/oenotourisme/visites-de-groupes.jpg",
-      "Visite de groupe au domaine"
-     ],
-     [
-      "https://domainelesrochesbleues.com/images/oenotourisme/oenotourisme-header.jpg",
-      "Œnotourisme au domaine"
-     ]
-    ],
-    "cta": [
-     "Réserver l'atelier en ligne",
-     "https://wgrdv.io?identifier=0ae21c02-5fe4-4288-875d-ed615390c34c&locale=fr"
+    [
+     "En foudre",
+     "Nos vins sont élevés en foudres, imposants tonneaux de chêne. Nos cuvées d'exception sont également, en partie, élevées en fûts de chêne."
     ]
-   },
-   {
-    "title": "Le gîte : 18 places, toute l'année",
-    "img": "https://domainelesrochesbleues.com/images/gite/notre-gite-header.jpg",
-    "alt": "Le gîte du domaine",
-    "paras": [
-     "148 m² aménagés dans une maison indépendante, sans aucun vis-à-vis, sur les pentes du Mont Brouilly à Odenas : à 10 minutes de l'A6 et 50 minutes de Lyon. Pour les familles, les amis, les associations (randonneurs, cyclistes) et les séminaires d'entreprise."
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "savoir-faire-photos",
+   "eyebrow": "Au domaine",
+   "title": "Le travail <em class=\"it\">de la vigne au chai</em>",
+   "photos": [
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/notre-savoir-faire/savoir-faire-header.jpg",
+     "full": "https://domainelesrochesbleues.com/images/notre-savoir-faire/savoir-faire-header.jpg",
+     "alt": "Savoir-faire du domaine"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/notre-savoir-faire/savoir-faire-image-1c.jpg",
+     "full": "https://domainelesrochesbleues.com/images/notre-savoir-faire/savoir-faire-image-1c.jpg",
+     "alt": "Savoir-faire du domaine"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/notre-savoir-faire/savoir-faire-image-1b.jpg",
+     "full": "https://domainelesrochesbleues.com/images/notre-savoir-faire/savoir-faire-image-1b.jpg",
+     "alt": "Savoir-faire du domaine"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/un-envirronement-exceptionnel/environnement-exceptionnel-header.jpg",
+     "full": "https://domainelesrochesbleues.com/images/un-envirronement-exceptionnel/environnement-exceptionnel-header.jpg",
+     "alt": "Le Mont Brouilly"
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://domainelesrochesbleues.com/images/nos-vins-n/nos-vins-header-page.jpg",
+   "eyebrow": "Brouilly · Côte de Brouilly · Beaujolais-Villages",
+   "title": "Nos <em>vins</em>",
+   "cta": [
+    "Voir les cuvées",
+    "#vins"
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "vins",
+   "eyebrow": "Huit cuvées de gamay",
+   "title": "Nos <em class=\"it\">cuvées</em>",
+   "lead": "Chaque cuvée avec sa fiche technique. Sur granit rose, les fruits rouges frais ; sur les roches bleues, les fruits noirs épicés.",
+   "tabs": [
+    [
+     "rose",
+     "Sur granit rose"
     ],
-    "list": [
-     "Grande salle de séjour très lumineuse, cuisine équipée ouverte, coin salon avec TV",
-     "3 chambres de 4 lits et 1 chambre de 6 lits",
-     "3 douches, 3 WC, 7 lavabos",
-     "Chauffage électrique dans les chambres, pompe à chaleur et climatisation dans le séjour",
-     "Terrain de pétanque, table de ping-pong, barbecue",
-     "Accessible aux personnes handicapées"
-    ],
-    "offer": "Remise de 20 % sur l'atelier « De la vigne au vin » pour les pensionnaires du gîte.",
-    "thumbs": [
-     [
-      "https://domainelesrochesbleues.com/images/gite/notre-gite-table-degustation.jpg",
-      "La table de dégustation"
-     ],
-     [
-      "https://domainelesrochesbleues.com/images/gite/notre-gite-chambre-jaune.jpg",
-      "La chambre jaune"
-     ]
-    ],
-    "cta": [
-     "Disponibilités et tarifs",
-     "https://www.cybevasion.fr/gites-grand-gite-les-roches-bleues-odenas-e51166.html"
+    [
+     "bleu",
+     "Sur roches bleues"
     ]
-   }
-  ]
- },
- "presse": {
-  "title": "Ils parlent du domaine",
-  "items": [
-   {
-    "date": "10 novembre 2020",
-    "media": "Nouvelles Écoutes",
-    "title": "Podcast : quel goût aura le vin de demain ?",
-    "url": "https://soundcloud.com/nouvelles-ecoutes/bouffons106-rechauffement-climatique-quel-gout-aura-le-vin-de-demain?in=nouvelles-ecoutes/sets/bouffons"
-   },
-   {
-    "date": "1er novembre 2020",
-    "media": "La Vigne",
-    "title": "La reprise du domaine",
-    "url": "https://domainelesrochesbleues.com/img-uploads/20210105093434-20201119_Lot du 19_11_2020 08_34_49_736465850_038.pdf"
-   },
-   {
-    "date": "20 août 2020",
-    "media": "France 3 Rhône-Alpes",
-    "title": "Reportage au domaine",
-    "url": "https://www.france.tv/france-3/auvergne-rhone-alpes/19-20-rhone-alpes/1902771-emission-du-jeudi-20-aout-2020.html"
-   },
-   {
-    "date": "2 juillet 2020",
-    "media": "Le Patriote",
-    "title": "Vins rosés : plus qu'une mode, un savoir-faire",
-    "url": "https://domainelesrochesbleues.com/img-uploads/20210105105141-20200703_Lot du 03_07_2020 06_25_31_695847189_012.pdf"
-   },
-   {
-    "date": "22 juin 2020",
-    "media": "Bourgogne Life",
-    "title": "Les beaujolais de l'été : L'Amuse-Bouche",
-    "url": "https://bourgognelife.com/les-beaujolais-de-lete-notre-selection/"
-   },
-   {
-    "date": "9 avril 2020",
-    "media": "Les 5 du Vin",
-    "title": "Brouilly, Côte de Brouilly et Morgon : La Croquante",
-    "url": "https://les5duvin.wordpress.com/2020/09/04/beaujolais-les-crus-brouilly-cotes-de-brouilly-et-morgon/"
-   },
-   {
-    "date": "26 mars 2020",
-    "media": "Trends",
-    "title": "Le Beaujolais",
-    "url": "https://domainelesrochesbleues.com/img-uploads/20210105105230-260320_TRENDS Beaujolais.pdf"
-   },
-   {
-    "date": "17 septembre 2019",
-    "media": "Le Progrès",
-    "title": "Présentation du domaine",
-    "url": "https://domainelesrochesbleues.com/img-uploads/20210105093208-20190917_Lot du 17_09_2019 06_41_49_610674672_006.pdf"
-   },
-   {
-    "date": "Avril 2021",
-    "media": "Bourgogne Aujourd'hui",
-    "title": "Spécial crus du Beaujolais : Les 3 Loups, 17/20"
-   }
-  ],
-  "news": [
-   [
-    "1er décembre",
-    "Notre espace dégustation fait peau neuve !",
-    "La salle de dégustation a été rénovée : venez y déguster un Brouilly."
    ],
-   [
-    "Au vignoble",
-    "Des haies dans nos vignes !",
-    ""
+   "items": [
+    {
+     "cat": "rose",
+     "color": "#c98e80",
+     "tag": "Granit rose",
+     "name": "La Croquante",
+     "app": "Brouilly, rouge",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-croquante_hd.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Assemblage de plusieurs vignes"
+      ],
+      [
+       "Sol",
+       "Granit rose"
+      ],
+      [
+       "Âge des vignes",
+       "25 à 60 ans"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Macération carbonique courte (6 à 8 jours) en grappes entières, fermentation spontanée aux levures indigènes"
+      ],
+      [
+       "Élevage",
+       "6 à 8 mois en cuve, peu ou pas filtré, peu ou pas sulfité"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "5 à 6 ans"
+      ]
+     ],
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/LACROQUANTE-FichePDF.pdf"
+     ]
+    },
+    {
+     "cat": "rose",
+     "color": "#c98e80",
+     "tag": "Granit rose",
+     "name": "L'Éphémère N°1",
+     "app": "Côte de Brouilly, rouge",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-ephe_hd.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Assemblage de parcelles"
+      ],
+      [
+       "Sol",
+       "Granite rose profond"
+      ],
+      [
+       "Âge des vignes",
+       "60 ans"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Grappes entières, macération semi-carbonique de 10 jours, levures indigènes, fermentation entre 20 et 22 °C"
+      ],
+      [
+       "Élevage",
+       "10 mois en foudre de 38 hl"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "8 ans"
+      ]
+     ],
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/lephemere-pdfv2.pdf"
+     ]
+    },
+    {
+     "cat": "rose",
+     "color": "#c98e80",
+     "tag": "Granit rose",
+     "name": "La Baraquée",
+     "app": "Côte de Brouilly, rouge",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-baraquee_hd.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Cuvée parcellaire, lieu-dit Conroy (La Poyebade)"
+      ],
+      [
+       "Sol",
+       "Granit rose"
+      ],
+      [
+       "Âge des vignes",
+       "Vieilles vignes"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Macération carbonique semi-longue (12 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes"
+      ],
+      [
+       "Élevage",
+       "8 mois en foudre de chêne, peu ou pas filtré, peu ou pas sulfité"
+      ],
+      [
+       "Service",
+       "14 °C"
+      ],
+      [
+       "Garde",
+       "10 ans"
+      ]
+     ],
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/LABARAQUEE-FichePDF.pdf"
+     ]
+    },
+    {
+     "cat": "rose",
+     "color": "#c98e80",
+     "tag": "Granit rose",
+     "name": "L'Amuse-Bouche",
+     "app": "Beaujolais-Villages, rosé",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-amusebouche_hd.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Assemblage de différentes parcelles"
+      ],
+      [
+       "Sol",
+       "Granit rose"
+      ],
+      [
+       "Âge des vignes",
+       "40 à 60 ans"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Pressurage direct, débourbage à froid"
+      ],
+      [
+       "Élevage",
+       "6 à 8 mois en cuve"
+      ],
+      [
+       "Service",
+       "10 °C"
+      ],
+      [
+       "Garde",
+       "3 ans"
+      ]
+     ],
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/LAMUSEBOUCHE-FichePDF.pdf"
+     ]
+    },
+    {
+     "cat": "bleu",
+     "color": "#2f4a63",
+     "tag": "Roches bleues",
+     "name": "Les 3 Loups",
+     "app": "Brouilly, rouge",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-3loups_hd.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Cuvée parcellaire, lieu-dit Les Trois Loups (Pierreux)"
+      ],
+      [
+       "Sol",
+       "Pierres bleues altérées en profondeur et anciennes alluvions"
+      ],
+      [
+       "Âge des vignes",
+       "10 ans"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Macération carbonique semi-longue en grappes entières (12 jours), fermentation spontanée aux levures indigènes"
+      ],
+      [
+       "Élevage",
+       "8 à 10 mois en foudre de chêne, peu ou pas filtré, peu ou pas sulfité"
+      ],
+      [
+       "Service",
+       "14 °C"
+      ],
+      [
+       "Garde",
+       "8 à 10 ans"
+      ]
+     ],
+     "medal": "Médaille d'argent, Concours International du Gamay 2021 · 17/20, revue Bourgogne Aujourd'hui (avril 2021)",
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/LES3LOUPS-FichePDF.pdf"
+     ]
+    },
+    {
+     "cat": "bleu",
+     "color": "#2f4a63",
+     "tag": "Roches bleues",
+     "name": "Pierreux",
+     "app": "Brouilly, rouge",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-mignonnes_hd-j.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Cuvée parcellaire, lieu-dit Pierreux"
+      ],
+      [
+       "Sol",
+       "Roches bleues d'origine volcanique (diorites)"
+      ],
+      [
+       "Âge des vignes",
+       "50 ans"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Macération longue (14 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes, vers 20 °C"
+      ],
+      [
+       "Élevage",
+       "12 à 18 mois en foudre selon les millésimes, peu ou pas filtré, peu ou pas sulfité"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "8 à 10 ans selon les millésimes"
+      ]
+     ],
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/Pierreux-v3-fr.pdf"
+     ]
+    },
+    {
+     "cat": "bleu",
+     "color": "#2f4a63",
+     "tag": "Roches bleues",
+     "name": "Brulhié",
+     "app": "Côte de Brouilly, rouge",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-soleil_hd-j.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Cuvée parcellaire, lieu-dit Brulhié, versant sud du Mont Brouilly"
+      ],
+      [
+       "Sol",
+       "Roches bleues d'origine volcanique (diorites)"
+      ],
+      [
+       "Âge des vignes",
+       "20 à 90 ans"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Macération longue (14 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes, vers 20 °C"
+      ],
+      [
+       "Élevage",
+       "12 à 18 mois en foudre selon les millésimes, peu ou pas filtré, peu ou pas sulfité"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "10 à 15 ans selon les millésimes"
+      ]
+     ],
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/Brulhie-FichePDF-L.pdf"
+     ]
+    },
+    {
+     "cat": "bleu",
+     "color": "#2f4a63",
+     "tag": "Roches bleues",
+     "name": "L'Héronde",
+     "app": "Côte de Brouilly, rouge",
+     "img": "https://domainelesrochesbleues.com/images/nos-vins-n/bouteille-heronde_hd-j.png",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay"
+      ],
+      [
+       "Cuvée",
+       "Cuvée parcellaire, lieu-dit l'Héronde, versant sud-est du Mont Brouilly"
+      ],
+      [
+       "Sol",
+       "Roches bleues d'origine volcanique (diorites)"
+      ],
+      [
+       "Âge des vignes",
+       "65 ans"
+      ],
+      [
+       "Vendanges",
+       "Manuelles"
+      ],
+      [
+       "Vinification",
+       "Macération longue (14 à 15 jours) en grappes entières, fermentation spontanée aux levures indigènes, vers 20 °C"
+      ],
+      [
+       "Élevage",
+       "12 à 18 mois en foudre selon les millésimes, peu ou pas filtré, peu ou pas sulfité"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "10 à 15 ans selon les millésimes"
+      ]
+     ],
+     "link": [
+      "Fiche technique (PDF)",
+      "https://domainelesrochesbleues.com/PDF/LHERONDE-FichePDF-L.pdf"
+     ]
+    }
    ],
-   [
-    "Presse",
-    "Les vins du domaine à l'honneur dans la Revue du Vin de France",
-    ""
+   "note": "Les prix ne sont pas publiés sur le site du domaine : pour commander, appelez le 06 17 38 11 71 ou écrivez à contact@domainelesrochesbleues.com (objet « Commande de vin »)."
+  },
+  {
+   "kind": "gallery",
+   "id": "cuvees-photos",
+   "eyebrow": "Les cuvées en images",
+   "title": "Une étiquette, <em class=\"it\">une histoire</em>",
+   "photos": [
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-croquante.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-croquante.jpg",
+     "alt": "La Croquante",
+     "caption": "La Croquante"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-ephemere1.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-ephemere1.jpg",
+     "alt": "L'Éphémère N°1",
+     "caption": "L'Éphémère N°1"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-baraquee.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-baraquee.jpg",
+     "alt": "La Baraquée",
+     "caption": "La Baraquée"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-amusebouche.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-amusebouche.jpg",
+     "alt": "L'Amuse-Bouche",
+     "caption": "L'Amuse-Bouche"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-3loups.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-3loups.jpg",
+     "alt": "Les 3 Loups",
+     "caption": "Les 3 Loups"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-pierreux.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-pierreux.jpg",
+     "alt": "Pierreux",
+     "caption": "Pierreux"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-brulhie.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-brulhie.jpg",
+     "alt": "Brulhié",
+     "caption": "Brulhié"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/nos-vins-n/header-lheronde.jpg",
+     "full": "https://domainelesrochesbleues.com/images/nos-vins-n/header-lheronde.jpg",
+     "alt": "L'Héronde",
+     "caption": "L'Héronde"
+    }
    ]
-  ]
- },
- "contact": {
-  "title": "Passer au domaine",
-  "text": "Jonathan vous accueille du lundi au samedi de 9h à 19h, et le dimanche sur rendez-vous.",
-  "rows": [
-   [
-    "Adresse",
-    "961 route du Mont Brouilly<br>69460 Odenas"
-   ],
-   [
-    "Téléphone",
-    "<a href=\"tel:+33617381171\">06 17 38 11 71</a><br><a href=\"tel:+33474034311\">04 74 03 43 11</a>"
-   ],
-   [
-    "E-mail",
-    "<a href=\"mailto:contact@domainelesrochesbleues.com\">contact@domainelesrochesbleues.com</a>"
-   ],
-   [
-    "Horaires",
-    "Du lundi au samedi, 9h à 19h<br>Dimanche sur rendez-vous"
-   ],
-   [
-    "Vins",
-    "Brouilly, Côte de Brouilly, Beaujolais-Villages rosé"
+  },
+  {
+   "kind": "story",
+   "id": "atelier",
+   "eyebrow": "Œnotourisme",
+   "title": "De la vigne au vin, <em class=\"it\">immersion au cœur d'un domaine viticole</em>",
+   "img": "https://domainelesrochesbleues.com/images/oenotourisme/oenotourisme-degustation.jpg",
+   "alt": "Dégustation au domaine",
+   "paras": [
+    "La visite débutera dans les vignes, sur les pentes du Mont Brouilly, labellisé Géopark mondial de l'UNESCO.",
+    "Vous découvrirez ensuite le chai où, après les vendanges, le raisin donne naissance au vin. Vous apprendrez du vigneron les étapes incontournables de l'élaboration d'un vin, puis vous vous initierez à la dégustation avec les vins du domaine.",
+    "L'accueil de groupes est possible : contactez-nous."
    ]
-  ],
-  "cta": [
-   "Calculer l'itinéraire",
-   "https://goo.gl/maps/Ty3mnQeD1NB2"
-  ],
-  "map_q": "961 route du Mont Brouilly, 69460 Odenas"
- },
+  },
+  {
+   "kind": "booking",
+   "id": "reserver",
+   "eyebrow": "Réservez votre visite",
+   "title": "Réserver <em class=\"it\">un atelier</em>",
+   "lead": "Choisissez votre atelier, votre date et le nombre de participants : le module de réservation du domaine, directement dans la page.",
+   "url": "https://wgrdv.io?identifier=0ae21c02-5fe4-4288-875d-ed615390c34c&locale=fr",
+   "label": "Réservation des ateliers du domaine",
+   "height": 720
+  },
+  {
+   "kind": "story",
+   "id": "gite",
+   "eyebrow": "Le gîte",
+   "title": "18 places <em class=\"it\">au pied du Mont Brouilly</em>",
+   "img": "https://domainelesrochesbleues.com/images/gite/notre-gite-header.jpg",
+   "alt": "Le gîte du domaine",
+   "paras": [
+    "Au cœur du vignoble beaujolais, sur les pentes du Mont Brouilly (à 10 minutes de l'autoroute A6 et à 50 minutes de Lyon), notre gîte d'une capacité de 18 places vous accueille tout au long de l'année pour tous vos événements.",
+    "Ce très bel espace de 148 m² est aménagé dans une maison indépendante et sans aucun vis-à-vis. Il est idéal pour des séjours en famille, entre amis, associatifs (randonneurs, cyclistes…) et pour les séminaires d'entreprise.",
+    "3 chambres de 4 lits et 1 chambre de 6 lits · 3 douches, 3 WC, 7 lavabos · grande salle de séjour très lumineuse · cuisine équipée ouvrant sur le séjour · chauffage électrique dans les chambres, pompe à chaleur et climatisation dans le séjour · coin salon avec TV · terrain de pétanque, table de ping-pong · barbecue · accessible aux personnes handicapées.",
+    "<strong>Pour les pensionnaires du gîte, remise de 20 % sur l'atelier découverte.</strong>",
+    "<a href=\"https://www.cybevasion.fr/gites-grand-gite-les-roches-bleues-odenas-e51166.html\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">En savoir plus, disponibilités et tarifs</a>"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Au domaine",
+   "title": "Le gîte <em class=\"it\">et l'espace dégustation</em>",
+   "photos": [
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/gite/notre-gite-table-degustation.jpg",
+     "full": "https://domainelesrochesbleues.com/images/gite/notre-gite-table-degustation.jpg",
+     "alt": "La table de dégustation"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/gite/notre-gite-chambre-jaune.jpg",
+     "full": "https://domainelesrochesbleues.com/images/gite/notre-gite-chambre-jaune.jpg",
+     "alt": "Une chambre du gîte"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/gite/fond-gite.jpg",
+     "full": "https://domainelesrochesbleues.com/images/gite/fond-gite.jpg",
+     "alt": "Le gîte"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/oenotourisme/visites-de-groupes.jpg",
+     "full": "https://domainelesrochesbleues.com/images/oenotourisme/visites-de-groupes.jpg",
+     "alt": "Visite de groupe"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/oenotourisme/oenotourisme-header.jpg",
+     "full": "https://domainelesrochesbleues.com/images/oenotourisme/oenotourisme-header.jpg",
+     "alt": "Œnotourisme au domaine"
+    },
+    {
+     "thumb": "https://domainelesrochesbleues.com/images/oenotourisme/fond-oenotourisme.jpg",
+     "full": "https://domainelesrochesbleues.com/images/oenotourisme/fond-oenotourisme.jpg",
+     "alt": "Œnotourisme au domaine"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "presse",
+   "eyebrow": "La presse",
+   "title": "Ils parlent <em class=\"it\">du domaine</em>",
+   "items": [
+    {
+     "kicker": "10 novembre 2020 · Nouvelles Écoutes",
+     "title": "Podcast : quel goût aura le vin de demain ?",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://soundcloud.com/nouvelles-ecoutes/bouffons106-rechauffement-climatique-quel-gout-aura-le-vin-de-demain?in=nouvelles-ecoutes/sets/bouffons"
+     ],
+     "paras": [
+      "Changement de goût, hausse du taux d'alcool, baisse de rendement de la vigne…"
+     ]
+    },
+    {
+     "kicker": "1er novembre 2020 · La Vigne",
+     "title": "La reprise du domaine",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://domainelesrochesbleues.com/img-uploads/20210105093434-20201119_Lot du 19_11_2020 08_34_49_736465850_038.pdf"
+     ],
+     "paras": [
+      "Très bel article dans le magazine « La Vigne » sur la reprise du domaine."
+     ]
+    },
+    {
+     "kicker": "20 août 2020 · France 3 Rhône-Alpes",
+     "title": "Reportage au domaine",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://www.france.tv/france-3/auvergne-rhone-alpes/19-20-rhone-alpes/1902771-emission-du-jeudi-20-aout-2020.html"
+     ]
+    },
+    {
+     "kicker": "2 juillet 2020 · Le Patriote",
+     "title": "Vins rosés : plus qu'une mode, un savoir-faire",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://domainelesrochesbleues.com/img-uploads/20210105105141-20200703_Lot du 03_07_2020 06_25_31_695847189_012.pdf"
+     ]
+    },
+    {
+     "kicker": "22 juin 2020 · Bourgogne Life",
+     "title": "Les beaujolais de l'été : L'Amuse-Bouche",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://bourgognelife.com/les-beaujolais-de-lete-notre-selection/"
+     ]
+    },
+    {
+     "kicker": "9 avril 2020 · Les 5 du Vin",
+     "title": "Brouilly, Côte de Brouilly et Morgon : La Croquante",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://les5duvin.wordpress.com/2020/09/04/beaujolais-les-crus-brouilly-cotes-de-brouilly-et-morgon/"
+     ]
+    },
+    {
+     "kicker": "26 mars 2020 · Trends",
+     "title": "Le Beaujolais",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://domainelesrochesbleues.com/img-uploads/20210105105230-260320_TRENDS Beaujolais.pdf"
+     ]
+    },
+    {
+     "kicker": "17 septembre 2019 · Le Progrès",
+     "title": "Présentation du domaine",
+     "link": [
+      "Lire, écouter ou voir",
+      "https://domainelesrochesbleues.com/img-uploads/20210105093208-20190917_Lot du 17_09_2019 06_41_49_610674672_006.pdf"
+     ]
+    },
+    {
+     "kicker": "Bourgogne Aujourd'hui",
+     "title": "Spécial crus du Beaujolais",
+     "img": "https://domainelesrochesbleues.com/img-uploads/2023120111372735074266.jpg",
+     "contain": true,
+     "alt": "Bourgogne Aujourd'hui, spécial crus du Beaujolais",
+     "paras": [
+      "Les 3 Loups : 17/20 dans la revue Bourgogne Aujourd'hui (avril 2021)."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "actualites",
+   "tight": true,
+   "eyebrow": "Actualités",
+   "title": "Des nouvelles <em class=\"it\">du domaine</em>",
+   "items": [
+    {
+     "img": "https://domainelesrochesbleues.com/img-uploads/202012141008342109700596.jpg",
+     "alt": "L'espace dégustation",
+     "kicker": "1er décembre",
+     "title": "Notre espace dégustation fait peau neuve !",
+     "paras": [
+      "On a mis à profit le calme imposé ces dernières semaines pour refaire une beauté à notre espace de dégustation. Venez vite voir le rendu et partager un chouette moment autour d'un verre de Brouilly.",
+      "Nous sommes prêts et ravis de vous accueillir de nouveau dès maintenant dans ce bel endroit pour déguster, partager, échanger, rire et sourire… On vous attend !"
+     ]
+    },
+    {
+     "img": "https://domainelesrochesbleues.com/img-uploads/20200113233813987839852.jpg",
+     "alt": "Plantation de haies dans les vignes",
+     "kicker": "15 janvier",
+     "title": "Des haies dans nos vignes !",
+     "paras": [
+      "En janvier, on plante des haies au domaine ! Des centaines de mètres de haies pour ramener de la biodiversité dans nos vignes, contenir les effets du climat, favoriser l'infiltration de l'eau dans nos sols et, accessoirement, embellir le paysage.",
+      "En route vers l'agroécologie !"
+     ]
+    },
+    {
+     "img": "https://domainelesrochesbleues.com/img-uploads/201906022024582070412621.jpg",
+     "alt": "La Revue du Vin de France",
+     "kicker": "1er juin",
+     "title": "Les vins du domaine à l'honneur dans La Revue du Vin de France",
+     "paras": [
+      "La revue passe au crible le millésime 2018. Nous sommes fiers de notre cuvée « Les Mignonnes de Pierreux », qui obtient la meilleure note pour le cru Brouilly, et notre Côte de Brouilly « Cuvée Des Lys » obtient quant à elle la très belle note de 16/20."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Contact",
+   "title": "Passer <em class=\"it\">au domaine</em>",
+   "text": "Pour plus de renseignements ou pour réserver un atelier, n'hésitez pas à nous contacter. Jonathan Buisson vous accueille au domaine.",
+   "rows": [
+    [
+     "Adresse",
+     "961 route du Mont Brouilly<br>69460 Odenas"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33617381171\">06 17 38 11 71</a><br><a href=\"tel:+33474034311\">04 74 03 43 11</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@domainelesrochesbleues.com\">contact@domainelesrochesbleues.com</a>"
+    ],
+    [
+     "Horaires",
+     "Du lundi au samedi, 9h à 19h<br>Le dimanche sur rendez-vous<br>(réservations possibles)"
+    ],
+    [
+     "Vins",
+     "Brouilly, Côte de Brouilly, Beaujolais-Villages rosé"
+    ]
+   ],
+   "cta": [
+    "Calculer l'itinéraire",
+    "https://goo.gl/maps/Ty3mnQeD1NB2"
+   ],
+   "map_q": "961 route du Mont Brouilly, 69460 Odenas"
+  }
+ ],
  "footer": {
-  "about": "Domaine familial en Brouilly et Côte de Brouilly, versant sud du Mont Brouilly. Agriculture biologique.",
+  "about": "Domaine familial en Brouilly et Côte de Brouilly, versant sud du Mont Brouilly. Vignoble en agriculture biologique.",
   "contact": [
    "961 route du Mont Brouilly, 69460 Odenas",
    "<a href=\"tel:+33617381171\">06 17 38 11 71</a>",
    "<a href=\"mailto:contact@domainelesrochesbleues.com\">contact@domainelesrochesbleues.com</a>"
   ],
-  "legal": [
-   "SIRET 779 799 410 000 21",
-   "Directeurs de la publication : Christiane et Dominique Lacondemine, Jonathan Buisson",
-   "Hébergement : OVH"
-  ]
+  "legal": "SIRET 779 799 410 000 21 · Directeurs de la publication : Christiane et Dominique Lacondemine, Jonathan Buisson · Crédits photos : Gaëtan Bailly · L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
  }
 }
