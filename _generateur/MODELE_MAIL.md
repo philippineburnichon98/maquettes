@@ -19,7 +19,8 @@ https://maquettes.philippine-burnichon.workers.dev/<slug>/
 Ça vous parlerait ? Je serais ravie d'avoir votre retour. Et si ce n'est pas le bon moment, dites-le-moi simplement, je ne vous embêterai pas davantage.
 (Notaires et avocats : « Cela vous parlerait-il ? Je serais ravie d'avoir votre retour. Et si ce n'est pas le bon moment, dites-le-moi simplement, je ne vous importunerai pas davantage. »)
 
-Bien cordialement<, et bonne fin de vendanges (domaines, en saison) | et bons chantiers (artisans)>,
+Bien cordialement<, et bons chantiers (artisans)>,
+(Domaines : JAMAIS de formule sur les vendanges. En Bourgogne et Beaujolais elles se terminent en septembre ; Philippine l'a signalé le 9 oct. 2026. Pas d'allusion à la saison si elle n'est pas certaine.)
 
 (PAS de signature : le mail s'arrête à la formule de politesse. Philippine ajoute elle-même sa signature Gmail avant d'envoyer. Fournir à la fois body (texte) et htmlBody avec un vrai lien <a href> vers la maquette.)
 
@@ -27,7 +28,7 @@ Règles : moins de 120 mots (hors signature), texte brut, un seul lien, pas de p
 
 # Relance (J+7, dans le même fil, seulement sans réponse)
 
-Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | vendanges | chantiers | rendez-vous | dossiers>. La maquette reste en ligne si vous voulez y jeter un œil. Je serais ravie d'avoir votre avis, même en deux mots.
+Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | chantiers | rendez-vous | dossiers | (domaines) deux livraisons>. La maquette reste en ligne si vous voulez y jeter un œil. Je serais ravie d'avoir votre avis, même en deux mots.
 
 Bien cordialement,
 
@@ -36,7 +37,7 @@ Bien cordialement,
 # Par métier
 
 - Restaurants : « entre deux services ». Envoi 15h–17h.
-- Domaines : « entre deux vendanges » en saison. Envoi mardi–jeudi 9h–10h.
+- Domaines : aucune allusion aux vendanges (finies en septembre). Envoi mardi–jeudi 9h–10h.
 - Artisans (plombier, électricien, peintre…) : « entre deux chantiers », « bons chantiers ». Envoi 7h30–8h30 ou 18h–19h.
 - Diagnostiqueurs immobiliers : « entre deux rendez-vous ». Envoi 8h–9h.
 - Notaires, avocats : vouvoiement soigné (« Maître »), ton sobre, pas de « coup de jeune » familier : « un site plus moderne et plus lisible ». Envoi mardi–jeudi 8h30–9h30.
