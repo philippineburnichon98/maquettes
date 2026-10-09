@@ -5,62 +5,194 @@
   "brand": "Le Bouchon des Artistes",
   "tagline": "Bouchon lyonnais · Lyon 3e",
   "theme": {
-    "paper": "#f4efe6", "paper2": "#e9e1d3", "ink": "#15201f", "muted": "#5d6563",
-    "accent": "#c4552d", "accent2": "#d86a40", "gold": "#c49a3a", "heroem": "#f2b48f",
-    "serif": "\"Instrument Serif\",Georgia,serif", "sans": "\"Bricolage Grotesque\",system-ui,sans-serif",
+    "paper": "#f4efe6",
+    "paper2": "#e9e1d3",
+    "ink": "#15201f",
+    "muted": "#5d6563",
+    "accent": "#c4552d",
+    "accent2": "#d86a40",
+    "gold": "#c49a3a",
+    "heroem": "#f2b48f",
+    "serif": "\"Instrument Serif\",Georgia,serif",
+    "sans": "\"Bricolage Grotesque\",system-ui,sans-serif",
     "fonts": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300;400;500;600&display=swap"
   },
-  "nav": [["maison", "La maison"], ["esprit", "Notre cuisine"], ["photos", "Photos"], ["contact", "Réserver"]],
+  "nav": [
+    [
+      "maison",
+      "La maison"
+    ],
+    [
+      "esprit",
+      "Notre cuisine"
+    ],
+    [
+      "photos",
+      "Photos"
+    ],
+    [
+      "contact",
+      "Réserver"
+    ]
+  ],
   "hero": {
     "img": "https://static.wixstatic.com/media/313a31_ad1bb8cdaacf43979f8911a340ecd599~mv2.jpg/v1/fill/w_1920,h_1280,al_c,q_85/bouchon-des-artistes.jpg",
     "eyebrow": "Bouchon Lyonnais · Maître Restaurateur",
     "title": "Authenticité<br>&amp; <em>audace</em>",
     "lead": "Depuis 2018, nous revisitons chaque jour les grands plats de la tradition lyonnaise, faits maison avec des produits frais et locaux.",
-    "cta1": ["Réserver une table", "#contact"],
-    "cta2": ["Découvrir la maison", "#maison"]
+    "cta1": [
+      "Réserver une table",
+      "#contact"
+    ],
+    "cta2": [
+      "Découvrir la maison",
+      "#maison"
+    ]
   },
-  "figures": [["2018", "ouverture"], ["2", "labels de qualité"], ["Lun–Ven", "midi & soir"], ["Fait", "maison"]],
-  "sections": [
-    {"kind": "story", "id": "maison", "eyebrow": "La maison",
-     "title": "La tradition, <em class=\"it\">sans complexe</em>",
-     "img": "https://static.wixstatic.com/media/313a31_eb9ca898bbf5494b8032b07d9f287764~mv2.jpg/v1/fit/w_1200,h_1500,q_85/maitre-restaurateur.jpg",
-     "alt": "Le Bouchon des Artistes, Maître Restaurateur",
-     "paras": [
-       "Au 98 rue Mazenod, Le Bouchon des Artistes réinterprète la cuisine lyonnaise avec un parti pris assumé : respecter la tradition tout en osant la surprendre.",
-       "Tout est fait maison, à partir de produits frais et locaux. Un engagement reconnu par le label Les Bouchons Lyonnais et le titre de Maître Restaurateur.",
-       "Le tout dans un cadre chaleureux, servi par une équipe qui aime recevoir."
-     ]},
-    {"kind": "features", "dark": true, "id": "esprit", "eyebrow": "Notre cuisine",
-     "title": "Quatre bonnes raisons <em class=\"it\">de passer à table</em>",
-     "lead": "Le bouchon tel qu'on l'aime, avec une pointe d'audace.",
-     "items": [["La cuisine", "Les plats de la tradition lyonnaise, revisités au quotidien."],
-               ["Le restaurant", "Un cadre chaleureux pour un moment décomplexé."],
-               ["L'équipe", "Des professionnels du savoir-vivre, à votre service."],
-               ["La cave", "Beaujolais, Bourgogne et vallée du Rhône, en bouteille ou en pot."]]},
-    {"kind": "gallery", "eyebrow": "Galerie", "title": "Bon <em class=\"it\">appétit !</em>",
-     "photos": [
-       {"thumb": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_900,h_900,q_85/a.jpg", "full": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_1800,h_1800,q_85/a.jpg"},
-       {"thumb": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_900,h_900,q_85/b.jpg", "full": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_1800,h_1800,q_85/b.jpg"},
-       {"thumb": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_900,h_900,q_85/c.jpg", "full": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_1800,h_1800,q_85/c.jpg"},
-       {"thumb": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_900,h_900,q_85/d.jpg", "full": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_1800,h_1800,q_85/d.jpg"},
-       {"thumb": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_900,h_900,q_85/e.jpg", "full": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_1800,h_1800,q_85/e.jpg"},
-       {"thumb": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_900,h_900,q_85/f.jpg", "full": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/f.jpg"},
-       {"thumb": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_900,h_900,q_85/g.jpg", "full": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_1800,h_1800,q_85/g.jpg"},
-       {"thumb": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_900,h_900,q_85/h.jpg", "full": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_1800,h_1800,q_85/h.jpg"}
-     ]},
-    {"kind": "banner", "img": "https://static.wixstatic.com/media/313a31_a695610a74844cdca5ab69165f03a165~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/salle.jpg",
-     "eyebrow": "Midi & soir, du lundi au vendredi",
-     "title": "Une table vous attend<br><em>rue Mazenod</em>",
-     "cta": ["Réserver", "#contact"]},
-    {"kind": "visit", "eyebrow": "Réservation", "title": "Venez <em class=\"it\">nous voir</em>",
-     "text": "Pour réserver une table, appelez-nous : nous serons ravis de vous accueillir.",
-     "rows": [["Adresse", "98 rue Mazenod<br>69003 Lyon"],
-              ["Horaires", "Du lundi au vendredi<br>12h – 14h · 19h – 21h45<br>Fermé le week-end"],
-              ["Téléphone", "<a href=\"tel:+33478033740\">04 78 03 37 40</a>"]],
-     "cta": ["Appeler pour réserver", "tel:+33478033740"],
-     "map_q": "98 rue Mazenod, 69003 Lyon"}
+  "figures": [
+    [
+      "2018",
+      "ouverture"
+    ],
+    [
+      "2",
+      "labels de qualité"
+    ],
+    [
+      "Lun–Ven",
+      "midi & soir"
+    ],
+    [
+      "Fait",
+      "maison"
+    ]
   ],
-  "footer": {"about": "Bouchon lyonnais labellisé et Maître Restaurateur, dans le 3e arrondissement de Lyon.",
-             "contact": ["<a href=\"tel:+33478033740\">04 78 03 37 40</a>", "98 rue Mazenod, Lyon 3e"],
-             "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."}
+  "sections": [
+    {
+      "kind": "story",
+      "id": "maison",
+      "eyebrow": "La maison",
+      "title": "La tradition, <em class=\"it\">sans complexe</em>",
+      "img": "https://static.wixstatic.com/media/313a31_eb9ca898bbf5494b8032b07d9f287764~mv2.jpg/v1/fit/w_1200,h_1500,q_85/maitre-restaurateur.jpg",
+      "alt": "Le Bouchon des Artistes, Maître Restaurateur",
+      "paras": [
+        "Au 98 rue Mazenod, Le Bouchon des Artistes réinterprète la cuisine lyonnaise avec un parti pris assumé : respecter la tradition tout en osant la surprendre.",
+        "Tout est fait maison, à partir de produits frais et locaux. Un engagement reconnu par le label Les Bouchons Lyonnais et le titre de Maître Restaurateur.",
+        "Le tout dans un cadre chaleureux, servi par une équipe qui aime recevoir."
+      ]
+    },
+    {
+      "kind": "features",
+      "dark": true,
+      "id": "esprit",
+      "eyebrow": "Notre cuisine",
+      "title": "Quatre bonnes raisons <em class=\"it\">de passer à table</em>",
+      "lead": "Le bouchon tel qu'on l'aime, avec une pointe d'audace.",
+      "items": [
+        [
+          "La cuisine",
+          "Les plats de la tradition lyonnaise, revisités au quotidien."
+        ],
+        [
+          "Le restaurant",
+          "Un cadre chaleureux pour un moment décomplexé."
+        ],
+        [
+          "L'équipe",
+          "Des professionnels du savoir-vivre, à votre service."
+        ],
+        [
+          "La cave",
+          "Beaujolais, Bourgogne et vallée du Rhône, en bouteille ou en pot."
+        ]
+      ]
+    },
+    {
+      "kind": "gallery",
+      "eyebrow": "Galerie",
+      "title": "Bon <em class=\"it\">appétit !</em>",
+      "photos": [
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_900,h_900,q_85/a.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_1800,h_1800,q_85/a.jpg"
+        },
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_900,h_900,q_85/b.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_6e662c9753af4fdca35f569add046037~mv2.jpg/v1/fit/w_1800,h_1800,q_85/b.jpg"
+        },
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_900,h_900,q_85/c.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_638a053a1c714b498c9dae3fca0094ed~mv2.jpg/v1/fit/w_1800,h_1800,q_85/c.jpg"
+        },
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_900,h_900,q_85/d.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_3465ba821bd04d1c94f3c11febac3507~mv2.jpg/v1/fit/w_1800,h_1800,q_85/d.jpg"
+        },
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_900,h_900,q_85/e.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_7b38abe13e804b62b10c9cbc81650c64~mv2.jpg/v1/fit/w_1800,h_1800,q_85/e.jpg"
+        },
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_900,h_900,q_85/f.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_136344e7496c48068df7ed73b5781a4d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/f.jpg"
+        },
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_900,h_900,q_85/g.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_65a5b96a20254ce282163e4accf6f58f~mv2.jpg/v1/fit/w_1800,h_1800,q_85/g.jpg"
+        },
+        {
+          "thumb": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_900,h_900,q_85/h.jpg",
+          "full": "https://static.wixstatic.com/media/313a31_7883c3dc126b45708069ee9b6a13fb20~mv2.jpg/v1/fit/w_1800,h_1800,q_85/h.jpg"
+        }
+      ]
+    },
+    {
+      "kind": "banner",
+      "img": "https://static.wixstatic.com/media/313a31_a695610a74844cdca5ab69165f03a165~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/salle.jpg",
+      "eyebrow": "Midi & soir, du lundi au vendredi",
+      "title": "Une table vous attend<br><em>rue Mazenod</em>",
+      "cta": [
+        "Réserver",
+        "#contact"
+      ]
+    },
+    {
+      "kind": "visit",
+      "eyebrow": "Réservation",
+      "title": "Venez <em class=\"it\">nous voir</em>",
+      "text": "Pour réserver une table, appelez-nous : nous serons ravis de vous accueillir.",
+      "rows": [
+        [
+          "Adresse",
+          "98 rue Mazenod<br>69003 Lyon"
+        ],
+        [
+          "Horaires",
+          "Du lundi au vendredi<br>12h – 14h · 19h – 21h45<br>Fermé le week-end"
+        ],
+        [
+          "Téléphone",
+          "<a href=\"tel:+33478033740\">04 78 03 37 40</a>"
+        ],
+        [
+          "E-mail",
+          "<a href=\"mailto:lebouchondesartistes@orange.fr\">lebouchondesartistes@orange.fr</a>"
+        ]
+      ],
+      "cta": [
+        "Appeler pour réserver",
+        "tel:+33478033740"
+      ],
+      "map_q": "98 rue Mazenod, 69003 Lyon"
+    }
+  ],
+  "footer": {
+    "about": "Bouchon lyonnais labellisé et Maître Restaurateur, dans le 3e arrondissement de Lyon.",
+    "contact": [
+      "<a href=\"tel:+33478033740\">04 78 03 37 40</a>",
+      "<a href=\"mailto:lebouchondesartistes@orange.fr\">lebouchondesartistes@orange.fr</a>",
+      "98 rue Mazenod, Lyon 3e"
+    ],
+    "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  }
 }
