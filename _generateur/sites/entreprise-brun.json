@@ -1,0 +1,105 @@
+{
+  "slug": "entreprise-brun-d7aca1",
+  "style": "carnet",
+  "title": "Entreprise Brun, artisan plâtrier peintre à Lyon",
+  "description": "Frédéric Brun, plâtrier peintre à Lyon et dans toute la région lyonnaise : peinture, enduits à la chaux, tadelakt, béton ciré, plâtrerie, papier peint. Devis gratuit sur demande.",
+  "brand": "Entreprise Brun",
+  "logo": {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp55660363_06.png", "height": 46},
+  "theme": {
+    "paper": "#f3f4f1", "ink": "#1f2a44", "accent": "#f2c230", "accent2": "#2e6f95", "soft": "#dfe3df",
+    "line": "rgba(31,42,68,.07)", "grid": "quadrille", "opening": "liste",
+    "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=Caveat:wght@600&display=swap",
+    "display": "'Archivo', system-ui, sans-serif", "body": "'Archivo', system-ui, sans-serif", "hand": "'Caveat', cursive"
+  },
+  "nav": [["prestations", "Prestations"], ["zone", "Secteur"], ["chantiers", "Chantiers"], ["artisan", "L'artisan"]],
+  "hero": {
+    "title": "Plâtrier peintre à Lyon",
+    "mark": "peintre",
+    "lead": "Plus de 15 ans d'expérience dans la plâtrerie peinture. Frédéric Brun intervient sur Lyon et toute la région lyonnaise, en spécialiste des petits et moyens chantiers.",
+    "badges": ["+ de 15 ans d'expérience", "Petits et moyens chantiers", "Devis gratuit sur demande"],
+    "img": "https://www.artisan-platrier-peintre.com/wpimages/wpbac9155e_05_06.jpg",
+    "alt": "Cuisine peinte par l'entreprise Brun",
+    "note": "une cuisine peinte"
+  },
+  "coupon": {
+    "title": "Bon pour un devis",
+    "text": "Devis gratuit sur demande et tarif compétitif. Un appel ou un e-mail suffit pour décrire vos travaux.",
+    "tel": "06 07 96 79 93", "tel_href": "+33607967993",
+    "mail": "entreprise.brun@gmail.com", "subject": "Contact demande de devis",
+    "small": "Lyon 1er au 9e et communes de la région lyonnaise."
+  },
+  "prestations": {
+    "title": "Ce que je fais chez vous",
+    "lead": "Peinture, enduits décoratifs, plâtrerie : tous travaux, du rafraîchissement d'une pièce à la rénovation d'un plafond.",
+    "groups": [
+      {"title": "Peinture", "items": ["Peinture glycéro et acrylique : mate, satinée, veloutée", "Tous travaux de peinture", "Peinture des menuiseries intérieures", "Peinture et vernis", "Peinture de sols", "Peintures extérieures", "Lasure intérieure et extérieure", "Stucco et peinture à effets", "Toutes les peintures décoratives et revêtements muraux"]},
+      {"title": "Enduits et décors à la chaux", "items": ["Enduit badigeon et peinture à la chaux", "Enduit à la chaux ferrée", "Tadelakt et stuc à la chaux", "Enduit ciré et béton ciré", "Crépis décoratifs"]},
+      {"title": "Murs et plafonds", "items": ["Plâtrerie à l'enduit et au plâtre", "Ratissage des murs et plafonds à l'enduit", "Réparation de fissures de plafonds et de murs", "Pose de fibre de verre à peindre", "Détapissage et pose de papier peint", "Plâtrerie et rénovation de plafond en plâtre", "Montage de cloisons en placo"]},
+      {"title": "Sols et habillages", "items": ["Pose de parquet flottant", "Pose de lambris et frisette", "Petite faïence"]}
+    ],
+    "note": "… et tous travaux sur demande.",
+    "engage": [
+      ["Chantier protégé", "Protection avec des bâches PVC."],
+      ["Votre confort", "Le respect de votre confort pendant toute la durée des travaux."],
+      ["Devis gratuit", "Sur demande, à tarif compétitif."]
+    ]
+  },
+  "zone": {
+    "title": "Lyon et toute la région lyonnaise",
+    "text": "Les neuf arrondissements de Lyon et une cinquantaine de communes autour.",
+    "center": "Lyon 1er au 9e",
+    "towns": ["Albigny-sur-Saône", "Bron", "Brignais", "Cailloux-sur-Fontaines", "Caluire", "Champagne-au-Mont-d'Or", "Charbonnières-les-Bains", "Charly", "Chassieu", "Collonges-au-Mont-d'Or", "Corbas", "Couzon-au-Mont-d'Or", "Craponne", "Curis-au-Mont-d'Or", "Dardilly", "Décines", "Écully", "Feyzin", "Fleurieu-sur-Saône", "Fontaines-Saint-Martin", "Fontaines-sur-Saône", "Francheville", "Genas", "Irigny", "Jonage", "La Mulatière", "La Tour-de-Salvagny", "Limonest", "Marcy-l'Étoile", "Meyzieu", "Mions", "Oullins", "Pierre-Bénite", "Poleymieux-au-Mont-d'Or", "Rillieux-la-Pape", "Rochetaillée-sur-Saône", "Saint-Cyr-au-Mont-d'Or", "Saint-Didier-au-Mont-d'Or", "Saint-Fons", "Saint-Genis-Laval", "Saint-Genis-les-Ollières", "Saint-Germain-au-Mont-d'Or", "Saint-Priest", "Saint-Romain-au-Mont-d'Or", "Sainte-Foy-lès-Lyon", "Sathonay-Camp", "Sathonay-Village", "Solaize", "Tassin-la-Demi-Lune", "Villeurbanne", "Vourles"],
+    "map_q": "Lyon, France"
+  },
+  "photos": {
+    "title": "Sur les chantiers",
+    "lead": "Quelques travaux de l'entreprise, photos du site actuel.",
+    "items": [
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wpbac9155e_05_06.jpg", "cap": "Cuisine peinte"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp1c115031_05_06.jpg", "cap": "Chambre terminée"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wpb8acc86e_05_06.jpg", "cap": "Crépi posé à la taloche dans un salon"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp30787322_05_06.jpg", "cap": "Pose de parquet flottant"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp0606bf61_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp8235106e_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wpd3206edb_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp2b6963cb_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp26f963b9_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp6c50c17e_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp67c2a2ea_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp0b560f87_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp8eb4cba5_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp35f44542_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wpd962ca9e_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wpf6da330c_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wpf9f812ab_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp8c9226c8_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp184f8167_05_06.jpg"},
+      {"src": "https://www.artisan-platrier-peintre.com/wpimages/wp1bb04f1a_05_06.jpg"}
+    ]
+  },
+  "who": {
+    "title": "Frédéric Brun, artisan",
+    "img": "https://www.artisan-platrier-peintre.com/wpimages/wp6b76ad84_05_06.jpg",
+    "alt": "",
+    "paras": [
+      "Frédéric Brun est artisan plâtrier peintre, avec plus de 15 ans d'expérience dans la plâtrerie peinture.",
+      "Il intervient chez les particuliers de Lyon et de toute la région lyonnaise et se présente comme spécialiste des petits et moyens chantiers.",
+      "Le devis est gratuit, sur simple demande par téléphone ou par e-mail."
+    ]
+  },
+  "labels": ["Plâtrerie", "Peinture", "Enduits à la chaux", "Béton ciré et tadelakt"],
+  "contact": {
+    "title": "Parlons de vos travaux",
+    "text": "Décrivez la pièce, la surface et ce que vous souhaitez : Frédéric Brun vous répond avec un devis gratuit.",
+    "rows": [
+      ["Téléphone", "<a href=\"tel:+33607967993\">06 07 96 79 93</a>"],
+      ["E-mail", "<a href=\"mailto:entreprise.brun@gmail.com?subject=Contact%20demande%20de%20devis\">entreprise.brun@gmail.com</a>"],
+      ["Secteur", "Lyon 1er au 9e et région lyonnaise"],
+      ["Chantiers", "Petits et moyens chantiers, tous travaux"]
+    ]
+  },
+  "footer": {
+    "about": "Ent Brun Frédéric, artisan plâtrier peintre à Lyon.",
+    "lines": ["Ent Brun Frédéric", "<a href=\"tel:+33607967993\">06 07 96 79 93</a>", "<a href=\"mailto:entreprise.brun@gmail.com\">entreprise.brun@gmail.com</a>", "Lyon et région lyonnaise"]
+  }
+}
