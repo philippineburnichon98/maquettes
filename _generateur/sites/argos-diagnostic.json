@@ -1,20 +1,67 @@
 {
  "slug": "argos-diagnostic-adb84d",
- "style": "releve",
  "title": "ARGOS Diagnostic — Diagnostics immobiliers à Lyon",
  "description": "ARGOS Diagnostic, diagnostics immobiliers vente, location, avant travaux et démolition sur la Métropole de Lyon depuis 2008.",
  "brand": "ARGOS Diagnostic",
- "theme": {
-  "ink": "#1c2a48",
-  "paper": "#f6f8fb",
-  "cote": "#c4362b",
-  "ribbon": "#f1c232",
-  "graphite": "#55607a"
+ "tagline": "Diagnostics immobiliers, Lyon",
+ "logo": {
+  "src": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/2021051914550260a50aa675b87.png",
+  "height": 52,
+  "bg": "#ffffff"
  },
+ "theme": {
+  "paper": "#f6f8fb",
+  "paper2": "#e9eef5",
+  "ink": "#1c2a48",
+  "muted": "#55607a",
+  "accent": "#c4362b",
+  "accent2": "#a42c23",
+  "gold": "#b0302a",
+  "heroem": "#f1c232",
+  "serif": "\"Source Serif 4\",Georgia,serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "hero": {
+  "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210511152345609a85616b7f1-jpg.webp",
+  "eyebrow": "Métropole de Lyon et départements alentours",
+  "title": "Diagnostics <em>immobiliers</em>",
+  "lead": "Vente, location, avant travaux et démolition. Intervention sur la Métropole de Lyon et les départements alentours, dans les 24 h suivant votre demande.",
+  "cta1": [
+   "Demander un devis",
+   "#contact"
+  ],
+  "cta2": [
+   "Nos diagnostics",
+   "#diagnostics"
+  ]
+ },
+ "figures": [
+  [
+   "2008",
+   "Actif depuis"
+  ],
+  [
+   "Plus de 8 000",
+   "Clients particuliers et pros"
+  ],
+  [
+   "0",
+   "Sinistre"
+  ],
+  [
+   "Lyon 7e",
+   "Bureau"
+  ]
+ ],
  "nav": [
   [
-   "parcours",
-   "Votre parcours"
+   "societe",
+   "La société"
+  ],
+  [
+   "projet",
+   "Votre projet"
   ],
   [
    "diagnostics",
@@ -25,554 +72,490 @@
    "Patrimoine"
   ],
   [
+   "avis",
+   "Avis"
+  ],
+  [
    "zone",
    "Zone"
   ],
   [
-   "devis",
+   "contact",
    "Devis"
   ]
  ],
- "hero": {
-  "title": "Diagnostics immobiliers",
-  "sub": "Vente, location, avant travaux et démolition",
-  "lead": "Intervention sur la Métropole de Lyon et les départements alentours, dans les 24 h suivant votre demande.",
-  "cartouche": [
-   [
-    "Actif depuis",
-    "2008"
-   ],
-   [
-    "Clients particuliers et pros",
-    "Plus de 8 000"
-   ],
-   [
-    "Sinistre",
-    "0"
-   ],
-   [
-    "Bureau",
-    "Lyon 7e"
+ "sections": [
+  {
+   "kind": "features",
+   "id": "atouts",
+   "eyebrow": "Pourquoi ARGOS Diagnostic",
+   "title": "Simple, rapide, <em class=\"it\">sans surprise</em>",
+   "lead": "",
+   "items": [
+    [
+     "Rendez-vous du lundi au samedi",
+     "Selon vos disponibilités, avec une intervention dans les 24 h suivant votre demande."
+    ],
+    [
+     "Experts certifiés",
+     "Des opérateurs de diagnostics certifiés, qui suivent une formation continue."
+    ],
+    [
+     "Rapports en ligne",
+     "Vos rapports sont consultables sur un extranet sécurisé ou envoyés par e-mail."
+    ],
+    [
+     "Tarifs et conseils",
+     "Chaque devis est établi selon votre besoin, pour les particuliers comme pour les professionnels."
+    ],
+    [
+     "Jusqu'à la signature",
+     "Un accompagnement jusqu'à la signature de l'acte."
+    ]
    ]
-  ]
- },
- "parcours": {
-  "title": "Votre parcours, du devis au dossier",
-  "lead": "Vendre, louer ou faire des travaux : choisissez votre projet pour voir les étapes et les diagnostics qui peuvent vous concerner.",
-  "tabs": [
-   {
-    "id": "vente",
-    "label": "Je vends",
-    "steps": [
-     {
-      "t": "Vous décrivez le bien",
-      "text": [
-       "Pour établir le devis, ces informations suffisent :"
+  },
+  {
+   "kind": "story",
+   "id": "societe",
+   "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/2021042817191060897cee966d5-jpg.webp",
+   "eyebrow": "Notre société",
+   "title": "Votre spécialiste régional du <em class=\"it\">diagnostic immobilier</em>",
+   "paras": [
+    "Depuis 2008, plus de 8 000 clients particuliers et professionnels, aucun litige ni procédure judiciaire.",
+    "Ils nous font confiance : Ville de Lyon, Direction de l'Équipement, Orange, Régies et agences immobilières lyonnaises, Mairie de Genas, Mairie de Saint-Genis-Laval, Mairie de Saint-Cyr-au-Mont-d'Or."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "projet",
+   "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210429161703608abfdf1bfe4-jpg.webp",
+   "eyebrow": "Obligations réglementaires",
+   "title": "Les diagnostics à annexer à la <em class=\"it\">vente</em> et à la <em class=\"it\">location</em>",
+   "paras": [
+    "Vendre, louer ou faire des travaux : choisissez votre projet pour voir les étapes et les diagnostics qui peuvent vous concerner.",
+    "Pour établir le devis, ces informations suffisent : Le type de bien : appartement, maison, dépendance seule (cave, grenier, garage) ou local tertiaire ; L'année de construction : avant 1949, entre 1949 et 1974, après 1974, ou l'année exacte ; La surface en m² ; La présence ou non d'une installation fixe intérieure de gaz ; L'année d'acquisition, si le bien a été acquis il y a moins de 10 ans ; L'adresse du bien."
+   ]
+  },
+  {
+   "kind": "menu",
+   "id": "selon-projet",
+   "eyebrow": "Selon votre projet",
+   "title": "Quels diagnostics pour <em class=\"it\">quel projet</em> ?",
+   "lead": "Selon l'âge, la nature et l'emplacement du bien.",
+   "sections": [
+    {
+     "title": "Je vends",
+     "items": [
+      [
+       "DPE",
+       "tous les biens vendus, sauf exceptions (valable 10 ans)"
       ],
-      "list": [
-       "Le type de bien : appartement, maison, dépendance seule (cave, grenier, garage) ou local tertiaire",
-       "L'année de construction : avant 1949, entre 1949 et 1974, après 1974, ou l'année exacte",
-       "La surface en m²",
-       "La présence ou non d'une installation fixe intérieure de gaz",
-       "L'année d'acquisition, si le bien a été acquis il y a moins de 10 ans",
-       "L'adresse du bien"
-      ]
-     },
-     {
-      "t": "Nous fixons le rendez-vous",
-      "text": [
-       "Du lundi au samedi, selon vos disponibilités. Intervention dans les 24 h suivant la demande."
-      ]
-     },
-     {
-      "t": "Les diagnostics à réaliser",
-      "text": [
-       "Selon l'âge, la nature et l'emplacement du bien :"
+      [
+       "Amiante",
+       "permis de construire délivré avant le 1er juillet 1997"
       ],
-      "list": [
-       [
-        "DPE",
-        "tous les biens vendus, sauf exceptions",
-        "valable 10 ans"
-       ],
-       [
-        "Amiante",
-        "permis de construire délivré avant le 1er juillet 1997",
-        ""
-       ],
-       [
-        "Plomb (CREP)",
-        "logements construits avant 1949",
-        "valable 1 an"
-       ],
-       [
-        "Électricité",
-        "installation de plus de 15 ans",
-        ""
-       ],
-       [
-        "Gaz",
-        "installation intérieure de plus de 15 ans",
-        "valable 3 ans"
-       ],
-       [
-        "ERP",
-        "zone d'un plan de prévention des risques, de sismicité 2 à 5 ou de radon niveau 3",
-        "valable 6 mois"
-       ],
-       [
-        "PEB",
-        "bien situé près d'un aéroport, depuis le 1er juin 2020",
-        ""
-       ],
-       [
-        "Termites",
-        "secteurs fixés par arrêté préfectoral du Rhône",
-        "valable 6 mois"
-       ],
-       [
-        "Métrage Carrez et surface habitable (ALUR)",
-        "lot de copropriété",
-        ""
-       ]
-      ]
-     },
-     {
-      "t": "Le dossier de diagnostic technique",
-      "text": [
-       "Le vendeur le fournit à l'acquéreur. L'état de l'installation électrique et le constat plomb doivent être annexés à la promesse de vente ou à l'acte authentique."
-      ]
-     }
-    ]
-   },
-   {
-    "id": "location",
-    "label": "Je loue",
-    "steps": [
-     {
-      "t": "Vous décrivez le bien",
-      "text": [
-       "Type de bien, année de construction, surface, présence d'une installation de gaz et adresse du bien."
-      ]
-     },
-     {
-      "t": "Nous fixons le rendez-vous",
-      "text": [
-       "Du lundi au samedi, selon vos disponibilités. Intervention dans les 24 h suivant la demande."
-      ]
-     },
-     {
-      "t": "Les diagnostics à réaliser",
-      "text": [
-       "Selon l'âge, la nature et l'emplacement du bien :"
+      [
+       "Plomb (CREP)",
+       "logements construits avant 1949 (valable 1 an)"
       ],
-      "list": [
-       [
-        "DPE",
-        "tous les biens loués, sauf exceptions",
-        "valable 10 ans"
-       ],
-       [
-        "Plomb (CREP)",
-        "logements construits avant 1949",
-        "valable 6 ans"
-       ],
-       [
-        "ERP",
-        "zone d'un plan de prévention des risques, de sismicité 2 à 5 ou de radon niveau 3",
-        "valable 6 mois"
-       ],
-       [
-        "PEB",
-        "bien situé près d'un aéroport, depuis le 1er juin 2020",
-        ""
-       ],
-       [
-        "Surface habitable (loi Boutin)",
-        "location non meublée",
-        ""
-       ]
+      [
+       "Électricité",
+       "installation de plus de 15 ans"
+      ],
+      [
+       "Gaz",
+       "installation intérieure de plus de 15 ans (valable 3 ans)"
+      ],
+      [
+       "ERP",
+       "zone d'un plan de prévention des risques, de sismicité 2 à 5 ou de radon niveau 3 (valable 6 mois)"
+      ],
+      [
+       "PEB",
+       "bien situé près d'un aéroport, depuis le 1er juin 2020"
+      ],
+      [
+       "Termites",
+       "secteurs fixés par arrêté préfectoral du Rhône (valable 6 mois)"
+      ],
+      [
+       "Métrage Carrez et surface habitable (ALUR)",
+       "lot de copropriété"
       ]
-     },
-     {
-      "t": "Le dossier de diagnostic technique",
-      "text": [
-       "Il est annexé au bail lors de sa signature ou de son renouvellement."
+     ]
+    },
+    {
+     "title": "Je loue",
+     "items": [
+      [
+       "DPE",
+       "tous les biens loués, sauf exceptions (valable 10 ans)"
+      ],
+      [
+       "Plomb (CREP)",
+       "logements construits avant 1949 (valable 6 ans)"
+      ],
+      [
+       "ERP",
+       "zone d'un plan de prévention des risques, de sismicité 2 à 5 ou de radon niveau 3 (valable 6 mois)"
+      ],
+      [
+       "PEB",
+       "bien situé près d'un aéroport, depuis le 1er juin 2020"
+      ],
+      [
+       "Surface habitable (loi Boutin)",
+       "location non meublée"
       ]
-     }
-    ]
-   },
-   {
-    "id": "travaux",
-    "label": "Je fais des travaux",
-    "steps": [
-     {
-      "t": "Vous décrivez le chantier",
-      "text": [
-       "Type de bien ou d'ouvrage, année de construction, surface et adresse."
+     ]
+    },
+    {
+     "title": "Je fais des travaux",
+     "items": [
+      [
+       "Amiante avant travaux et démolition",
+       "bâtiments construits avant le 1er juillet 1997"
+      ],
+      [
+       "Plomb avant travaux",
+       "logements construits avant 1949"
+      ],
+      [
+       "Amiante et HAP sur voirie",
+       "sols revêtus d'enrobé (parkings, voies) avant travaux"
       ]
-     },
-     {
-      "t": "Nous fixons le rendez-vous",
-      "text": [
-       "Du lundi au samedi, selon vos disponibilités. Intervention dans les 24 h suivant la demande."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "vente",
+   "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210429162735608ac257aa75c-jpg.webp",
+   "eyebrow": "Vente",
+   "title": "Informer l'<em class=\"it\">acquéreur</em>",
+   "paras": [
+    "Le vendeur le fournit à l'acquéreur. L'état de l'installation électrique et le constat plomb doivent être annexés à la promesse de vente ou à l'acte authentique."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "location",
+   "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210429163402608ac3da701f2-jpg.webp",
+   "eyebrow": "Location",
+   "title": "Le dossier fourni par le <em class=\"it\">bailleur</em>",
+   "paras": [
+    "Il est annexé au bail lors de sa signature ou de son renouvellement."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "travaux",
+   "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/20210429161703608abfdf1bfe4-jpg.webp",
+   "eyebrow": "Travaux et démolition",
+   "title": "Les repérages <em class=\"it\">avant travaux</em>",
+   "paras": [
+    "Pour la voirie, le rapport cartographie l'amiante et les HAP dans la zone de travaux et doit être remis aux intervenants avant le début du chantier."
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "diagnostics",
+   "eyebrow": "Nos diagnostics",
+   "title": "Les diagnostics, un par un",
+   "lead": "Ce que vérifie chaque diagnostic, quand il est obligatoire et combien de temps il reste valable.",
+   "tabs": [],
+   "items": [
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "DAPP, vente, DTA, avant travaux et démolition",
+     "name": "Amiante",
+     "app": "",
+     "desc": "La France a interdit l'amiante en 1997 pour ses effets nocifs et cancérigènes, mais il reste présent dans de nombreux bâtiments lyonnais construits avant cette date : isolation, joints, revêtements. L'amiante friable (flocages, calorifugeages) peut libérer des fibres sous l'effet de chocs, de vibrations ou de courants d'air. L'amiante lié, comme l'amiante-ciment, représente environ 95 % de l'amiante utilisé en France. Le DTA évalue l'état de conservation des matériaux, localise les matériaux amiantés accessibles, consigne les travaux de retrait ou de confinement, fixe les consignes de sécurité et se termine par une fiche récapitulative.",
+     "sheet": [
+      [
+       "Concerne",
+       "permis de construire avant le 1er juillet 1997"
+      ],
+      [
+       "À la charge de",
+       "le propriétaire"
+      ],
+      [
+       "Si amiante détecté",
+       "désamiantage sous 36 mois"
       ]
-     },
-     {
-      "t": "Les repérages avant travaux",
-      "list": [
-       [
-        "Amiante avant travaux et démolition",
-        "bâtiments construits avant le 1er juillet 1997",
-        ""
-       ],
-       [
-        "Plomb avant travaux",
-        "logements construits avant 1949",
-        ""
-       ],
-       [
-        "Amiante et HAP sur voirie",
-        "sols revêtus d'enrobé (parkings, voies) avant travaux",
-        ""
-       ]
+     ]
+    },
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "État de l'installation intérieure",
+     "name": "Électricité",
+     "app": "",
+     "desc": "Il porte sur toutes les parties privatives du logement et leurs dépendances : caves, garages, greniers, annexes. Il suit un modèle réglementé, le même pour tous les diagnostiqueurs. Il contrôle l'appareil général de commande et de protection, les dispositifs différentiels, les protections contre les surintensités, la liaison équipotentielle et les locaux avec baignoire ou douche, pour repérer les matériels dangereux et les conducteurs non protégés.",
+     "sheet": [
+      [
+       "Concerne",
+       "installation de plus de 15 ans"
+      ],
+      [
+       "Depuis",
+       "janvier 2009, dans la promesse ou l'acte"
+      ],
+      [
+       "À la charge de",
+       "le vendeur"
       ]
-     },
-     {
-      "t": "Le rapport remis aux intervenants",
-      "text": [
-       "Pour la voirie, le rapport cartographie l'amiante et les HAP dans la zone de travaux et doit être remis aux intervenants avant le début du chantier."
+     ]
+    },
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "État de l'installation intérieure de gaz",
+     "name": "Gaz",
+     "app": "",
+     "desc": "Son but : la sécurité des occupants, face aux risques d'intoxication au monoxyde de carbone et d'explosion. Il décrit l'état des appareils fixes de chauffage et de production d'eau chaude, des tuyauteries fixes d'alimentation en gaz et de leurs accessoires, et l'aménagement des locaux où fonctionnent les appareils.",
+     "sheet": [
+      [
+       "Concerne",
+       "installation de plus de 15 ans"
+      ],
+      [
+       "Remis à",
+       "le vendeur, pour le dossier de diagnostic technique"
+      ],
+      [
+       "Validité",
+       "3 ans"
       ]
-     }
-    ]
-   }
-  ]
- },
- "diagnostics": {
-  "title": "Les diagnostics, un par un",
-  "lead": "Ce que vérifie chaque diagnostic, quand il est obligatoire et combien de temps il reste valable.",
-  "items": [
-   {
-    "id": "amiante",
-    "name": "Amiante",
-    "tag": "DAPP, vente, DTA, avant travaux et démolition",
-    "text": [
-     "La France a interdit l'amiante en 1997 pour ses effets nocifs et cancérigènes, mais il reste présent dans de nombreux bâtiments lyonnais construits avant cette date : isolation, joints, revêtements.",
-     "L'amiante friable (flocages, calorifugeages) peut libérer des fibres sous l'effet de chocs, de vibrations ou de courants d'air. L'amiante lié, comme l'amiante-ciment, représente environ 95 % de l'amiante utilisé en France.",
-     "Le DTA évalue l'état de conservation des matériaux, localise les matériaux amiantés accessibles, consigne les travaux de retrait ou de confinement, fixe les consignes de sécurité et se termine par une fiche récapitulative."
-    ],
-    "facts": [
-     [
-      "Concerne",
-      "permis de construire avant le 1er juillet 1997"
-     ],
-     [
-      "À la charge de",
-      "le propriétaire"
-     ],
-     [
-      "Si amiante détecté",
-      "désamiantage sous 36 mois"
      ]
-    ]
-   },
-   {
-    "id": "electricite",
-    "name": "Électricité",
-    "tag": "État de l'installation intérieure",
-    "text": [
-     "Il porte sur toutes les parties privatives du logement et leurs dépendances : caves, garages, greniers, annexes. Il suit un modèle réglementé, le même pour tous les diagnostiqueurs.",
-     "Il contrôle l'appareil général de commande et de protection, les dispositifs différentiels, les protections contre les surintensités, la liaison équipotentielle et les locaux avec baignoire ou douche, pour repérer les matériels dangereux et les conducteurs non protégés."
-    ],
-    "facts": [
-     [
-      "Concerne",
-      "installation de plus de 15 ans"
-     ],
-     [
-      "Depuis",
-      "janvier 2009, dans la promesse ou l'acte"
-     ],
-     [
-      "À la charge de",
-      "le vendeur"
+    },
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "Diagnostic de performance énergétique",
+     "name": "DPE",
+     "app": "",
+     "desc": "Il indique la quantité d'énergie consommée ou estimée et propose des recommandations pour l'améliorer. Depuis 2021, il est opposable à l'acquéreur ou au locataire, sauf ses recommandations. L'étiquette réunit une estimation en euros, une classe de consommation d'énergie et une classe d'impact sur l'effet de serre. Depuis le 1er janvier 2011, la performance énergétique doit figurer dans les annonces de vente et de location. Sont exclus : les bâtiments agricoles, artisanaux, les lieux de culte et monuments historiques, les biens de moins de 50 m², ceux occupés moins de 3 mois par an et ceux sans chauffage fixe atteignant 12 °C. Logements : 7 classes, de A à G. Locaux tertiaires : 9 classes, de A à I.",
+     "sheet": [
+      [
+       "Obligatoire depuis",
+       "juillet 2007"
+      ],
+      [
+       "Concerne",
+       "vente et location"
+      ],
+      [
+       "Validité",
+       "10 ans"
+      ]
      ]
-    ]
-   },
-   {
-    "id": "gaz",
-    "name": "Gaz",
-    "tag": "État de l'installation intérieure de gaz",
-    "text": [
-     "Son but : la sécurité des occupants, face aux risques d'intoxication au monoxyde de carbone et d'explosion.",
-     "Il décrit l'état des appareils fixes de chauffage et de production d'eau chaude, des tuyauteries fixes d'alimentation en gaz et de leurs accessoires, et l'aménagement des locaux où fonctionnent les appareils."
-    ],
-    "facts": [
-     [
-      "Concerne",
-      "installation de plus de 15 ans"
-     ],
-     [
-      "Remis à",
-      "le vendeur, pour le dossier de diagnostic technique"
-     ],
-     [
-      "Validité",
-      "3 ans"
+    },
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "État des risques et pollutions, plan d'exposition au bruit",
+     "name": "ERP et PEB",
+     "app": "",
+     "desc": "L'ERP regroupe les informations sur les risques et la pollution des sols, pour un bien bâti ou non, vendu ou loué. Le diagnostiqueur vérifie les plans de prévention des risques naturels, miniers et technologiques, la sismicité de la commune et les secteurs d'information sur les sols proches du bien. Le PEB informe les nouveaux arrivants près d'un aéroport de leur exposition au bruit. Il distingue quatre zones, de A (exposition très forte) à D (exposition faible), et permet de limiter, voire d'interdire, la construction dans les zones exposées.",
+     "sheet": [
+      [
+       "ERP obligatoire",
+       "zone PPR, sismicité 2 à 5, radon niveau 3"
+      ],
+      [
+       "Validité ERP",
+       "6 mois"
+      ],
+      [
+       "PEB",
+       "depuis le 1er juin 2020"
+      ]
      ]
-    ]
-   },
-   {
-    "id": "dpe",
-    "name": "DPE",
-    "tag": "Diagnostic de performance énergétique",
-    "dpe": true,
-    "dpe_note": "Logements : 7 classes, de A à G. Locaux tertiaires : 9 classes, de A à I.",
-    "text": [
-     "Il indique la quantité d'énergie consommée ou estimée et propose des recommandations pour l'améliorer. Depuis 2021, il est opposable à l'acquéreur ou au locataire, sauf ses recommandations.",
-     "L'étiquette réunit une estimation en euros, une classe de consommation d'énergie et une classe d'impact sur l'effet de serre. Depuis le 1er janvier 2011, la performance énergétique doit figurer dans les annonces de vente et de location.",
-     "Sont exclus : les bâtiments agricoles, artisanaux, les lieux de culte et monuments historiques, les biens de moins de 50 m², ceux occupés moins de 3 mois par an et ceux sans chauffage fixe atteignant 12 °C."
-    ],
-    "facts": [
-     [
-      "Obligatoire depuis",
-      "juillet 2007"
-     ],
-     [
-      "Concerne",
-      "vente et location"
-     ],
-     [
-      "Validité",
-      "10 ans"
+    },
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "Carrez, Boutin, ALUR",
+     "name": "Métrages",
+     "app": "",
+     "desc": "Loi Carrez (18 décembre 1996) : le vendeur d'un lot de copropriété indique la superficie privative dans tous les documents de la vente. On mesure les planchers clos et couverts, sans les murs, cloisons, marches, gaines et embrasures, ni les parties de moins de 1,80 m de hauteur. Balcons et terrasses n'en font pas partie. Loi ALUR : le vendeur indique aussi la surface habitable. Loi Boutin : le bailleur d'un logement non meublé indique la surface habitable. La loi n'impose pas de professionnel, mais le mesurage est à l'origine de l'essentiel des litiges : mieux vaut un diagnostiqueur certifié et assuré.",
+     "sheet": [
+      [
+       "Surface absente de l'acte",
+       "nullité demandée sous 1 mois"
+      ],
+      [
+       "Écart de plus de 5 %",
+       "baisse de prix demandée sous 1 an"
+      ]
      ]
-    ]
-   },
-   {
-    "id": "erp",
-    "name": "ERP et PEB",
-    "tag": "État des risques et pollutions, plan d'exposition au bruit",
-    "text": [
-     "L'ERP regroupe les informations sur les risques et la pollution des sols, pour un bien bâti ou non, vendu ou loué. Le diagnostiqueur vérifie les plans de prévention des risques naturels, miniers et technologiques, la sismicité de la commune et les secteurs d'information sur les sols proches du bien.",
-     "Le PEB informe les nouveaux arrivants près d'un aéroport de leur exposition au bruit. Il distingue quatre zones, de A (exposition très forte) à D (exposition faible), et permet de limiter, voire d'interdire, la construction dans les zones exposées."
-    ],
-    "facts": [
-     [
-      "ERP obligatoire",
-      "zone PPR, sismicité 2 à 5, radon niveau 3"
-     ],
-     [
-      "Validité ERP",
-      "6 mois"
-     ],
-     [
-      "PEB",
-      "depuis le 1er juin 2020"
+    },
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "CREP et plomb avant travaux",
+     "name": "Plomb",
+     "app": "",
+     "desc": "Le constat de risque d'exposition au plomb repère le plomb dans les revêtements et évalue leur dégradation au-delà de 1 mg/cm². Le diagnostiqueur mesure chaque paroi avec un appareil portatif à fluorescence X. En cas de facteur de dégradation du bâti (plomb dégradé, moisissures, plancher ou plafond menaçant de s'effondrer…), le rapport est envoyé à l'Agence régionale de santé dans les 5 jours. Le CREP des parties communes est obligatoire depuis 2008 ; réalisé après 2008, il n'a pas de durée de validité.",
+     "sheet": [
+      [
+       "Concerne",
+       "logements construits avant 1949"
+      ],
+      [
+       "Validité vente",
+       "1 an"
+      ],
+      [
+       "Validité bail",
+       "6 ans"
+      ],
+      [
+       "Sans plomb au-delà du seuil",
+       "validité illimitée"
+      ]
      ]
-    ]
-   },
-   {
-    "id": "metrages",
-    "name": "Métrages",
-    "tag": "Carrez, Boutin, ALUR",
-    "text": [
-     "Loi Carrez (18 décembre 1996) : le vendeur d'un lot de copropriété indique la superficie privative dans tous les documents de la vente. On mesure les planchers clos et couverts, sans les murs, cloisons, marches, gaines et embrasures, ni les parties de moins de 1,80 m de hauteur. Balcons et terrasses n'en font pas partie.",
-     "Loi ALUR : le vendeur indique aussi la surface habitable. Loi Boutin : le bailleur d'un logement non meublé indique la surface habitable.",
-     "La loi n'impose pas de professionnel, mais le mesurage est à l'origine de l'essentiel des litiges : mieux vaut un diagnostiqueur certifié et assuré."
-    ],
-    "facts": [
-     [
-      "Surface absente de l'acte",
-      "nullité demandée sous 1 mois"
-     ],
-     [
-      "Écart de plus de 5 %",
-      "baisse de prix demandée sous 1 an"
+    },
+    {
+     "cat": "diag",
+     "color": "#c4362b",
+     "tag": "Arrêtés préfectoraux du Rhône",
+     "name": "Termites",
+     "app": "",
+     "desc": "Exigé lors de la vente d'un bien ou d'un terrain dans les secteurs fixés par arrêté : certains quartiers des 1er, 4e et 5e arrondissements de Lyon, et des parties de Sainte-Foy-lès-Lyon et de Francheville. Le diagnostiqueur cherche les traces d'infestation dans le bien et dans un rayon de 20 m. En cas d'infestation, le propriétaire la déclare en mairie. La recherche de mérule est elle aussi obligatoire dans certains quartiers lyonnais.",
+     "sheet": [
+      [
+       "Concerne",
+       "vente"
+      ],
+      [
+       "Périmètre",
+       "le bien et 20 m autour"
+      ],
+      [
+       "Validité",
+       "6 mois"
+      ]
      ]
-    ]
-   },
-   {
-    "id": "plomb",
-    "name": "Plomb",
-    "tag": "CREP et plomb avant travaux",
-    "text": [
-     "Le constat de risque d'exposition au plomb repère le plomb dans les revêtements et évalue leur dégradation au-delà de 1 mg/cm². Le diagnostiqueur mesure chaque paroi avec un appareil portatif à fluorescence X.",
-     "En cas de facteur de dégradation du bâti (plomb dégradé, moisissures, plancher ou plafond menaçant de s'effondrer…), le rapport est envoyé à l'Agence régionale de santé dans les 5 jours.",
-     "Le CREP des parties communes est obligatoire depuis 2008 ; réalisé après 2008, il n'a pas de durée de validité."
-    ],
-    "facts": [
-     [
-      "Concerne",
-      "logements construits avant 1949"
-     ],
-     [
-      "Validité vente",
-      "1 an"
-     ],
-     [
-      "Validité bail",
-      "6 ans"
-     ],
-     [
-      "Sans plomb au-delà du seuil",
-      "validité illimitée"
-     ]
-    ]
-   },
-   {
-    "id": "termites",
-    "name": "Termites",
-    "tag": "Arrêtés préfectoraux du Rhône",
-    "text": [
-     "Exigé lors de la vente d'un bien ou d'un terrain dans les secteurs fixés par arrêté : certains quartiers des 1er, 4e et 5e arrondissements de Lyon, et des parties de Sainte-Foy-lès-Lyon et de Francheville.",
-     "Le diagnostiqueur cherche les traces d'infestation dans le bien et dans un rayon de 20 m. En cas d'infestation, le propriétaire la déclare en mairie. La recherche de mérule est elle aussi obligatoire dans certains quartiers lyonnais."
-    ],
-    "facts": [
-     [
-      "Concerne",
-      "vente"
-     ],
-     [
-      "Périmètre",
-      "le bien et 20 m autour"
-     ],
-     [
-      "Validité",
-      "6 mois"
-     ]
-    ]
-   }
-  ]
- },
- "patrimoine": {
-  "title": "Pour tout votre patrimoine",
-  "lead": "Des logements aux voiries, les mêmes exigences s'appliquent à la vente, à la location et aux travaux.",
-  "items": [
-   {
-    "t": "Habitations",
-    "text": [
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "patrimoine",
+   "dark": true,
+   "eyebrow": "Nos champs d'action",
+   "title": "Pour tout votre patrimoine",
+   "lead": "Des logements aux voiries, les mêmes exigences s'appliquent à la vente, à la location et aux travaux.",
+   "items": [
+    [
+     "Habitations",
      "Les normes de construction, d'isolation et d'électricité évoluent. ARGOS Diagnostic informe et conseille les propriétaires pour rester conformes aux règles en vigueur."
-    ]
-   },
-   {
-    "t": "Bureaux",
-    "text": [
-     "À la vente ou à la location :"
     ],
-    "list": [
-     "DTA pour les locaux construits avant le 1er juillet 1997",
-     "DPE",
-     "ERP en zone couverte par un plan de prévention des risques",
-     "Termites en zone délimitée par arrêté préfectoral"
-    ]
-   },
-   {
-    "t": "Commerces et locaux d'activités",
-    "text": [
+    [
+     "Bureaux",
+     "À la vente ou à la location : DTA pour les locaux construits avant le 1er juillet 1997 ; DPE ; ERP en zone couverte par un plan de prévention des risques ; Termites en zone délimitée par arrêté préfectoral."
+    ],
+    [
+     "Commerces et locaux d'activités",
      "Les mêmes diagnostics que pour les bureaux. Le DTA couvre les parties communes et privatives, pour protéger les personnes qui travaillent dans le local."
-    ]
-   },
-   {
-    "t": "Industries",
-    "list": [
-     "DPE, quelle que soit la date de construction",
-     "ERP en zone de plan de prévention des risques",
-     "Termites selon arrêté préfectoral",
-     "DTA pour les bâtiments construits avant le 1er juillet 1997"
-    ]
-   },
-   {
-    "t": "Parties communes",
-    "list": [
-     "Plomb (CREP) : obligatoire depuis 2008 pour les copropriétés construites avant 1949",
-     "DTA : pour les syndicats de copropriété dont le permis date d'avant le 1er juillet 1997"
-    ]
-   },
-   {
-    "t": "Voiries",
-    "text": [
+    ],
+    [
+     "Industries",
+     "DPE, quelle que soit la date de construction ; ERP en zone de plan de prévention des risques ; Termites selon arrêté préfectoral ; DTA pour les bâtiments construits avant le 1er juillet 1997."
+    ],
+    [
+     "Parties communes",
+     "Plomb (CREP) : obligatoire depuis 2008 pour les copropriétés construites avant 1949 ; DTA : pour les syndicats de copropriété dont le permis date d'avant le 1er juillet 1997."
+    ],
+    [
+     "Voiries",
      "Avant des travaux sur un sol revêtu d'enrobé, public ou privé (un parking par exemple) : repérage de l'amiante et des HAP pour protéger riverains et travailleurs."
     ]
-   }
-  ]
- },
- "confiance": {
-  "title": "Ce qu'en disent nos clients",
-  "lead": "Depuis 2008, plus de 8 000 clients particuliers et professionnels, aucun litige ni procédure judiciaire.",
-  "avis_cite": "Avis client publié sur argos-diagnostic.fr",
-  "avis": [
-   "Une société honnête qui ne pousse pas à multiplier les diagnostics, des tarifs compétitifs et une prestation bien expliquée sur place.",
-   "Diagnostics réalisés pour la vente de mon appartement : une entreprise réactive, les documents ont été envoyés le soir même.",
-   "Un diagnostiqueur très respectueux, expert et pédagogue, avec un rapport remis le soir même."
-  ],
-  "refs_title": "Ils nous font confiance",
-  "refs": [
-   "Ville de Lyon, Direction de l'Équipement",
-   "Orange",
-   "Régies et agences immobilières lyonnaises",
-   "Mairie de Genas",
-   "Mairie de Saint-Genis-Laval",
-   "Mairie de Saint-Cyr-au-Mont-d'Or"
-  ],
-  "op_title": "Votre diagnostiqueur",
-  "op_text": "Un opérateur certifié qui maîtrise l'ensemble des domaines de compétences et suit une formation continue pour rester à la pointe des exigences du métier."
- },
- "zone": {
-  "title": "Où nous intervenons",
-  "text": "Sur la Métropole de Lyon et les départements alentours, notamment :",
-  "towns": [
-   "Lyon",
-   "Villeurbanne",
-   "Vaulx-en-Velin",
-   "Francheville",
-   "Saint-Priest",
-   "Bron",
-   "Écully",
-   "Tassin",
-   "Vénissieux",
-   "Oullins",
-   "Feyzin",
-   "Limonest",
-   "Caluire",
-   "Monts d'Or",
-   "Irigny",
-   "Pierre-Bénite",
-   "Vienne",
-   "Estrablin",
-   "Chasse-sur-Rhône",
-   "Givors"
-  ],
-  "map_q": "19 rue Père Chevrier, 69007 Lyon"
- },
- "devis": {
-  "title": "Demander un devis",
-  "text": "Chaque devis est établi selon votre besoin, pour les particuliers comme pour les professionnels. Indiquez dans votre message :",
-  "infos": [
-   "Le type de prestation : vente, location, travaux ou démolition",
-   "Le type de bien et son année de construction",
-   "La surface",
-   "La présence d'une installation de gaz",
-   "L'adresse du bien, vos nom et téléphone"
-  ],
-  "email": "contact@argosdiag.fr",
-  "phone": "06 85 30 30 48",
-  "tel": "+33685303048",
-  "address": "19 rue Père Chevrier, 69007 Lyon",
-  "hours": "Du lundi au samedi",
-  "mail_subject": "Demande de devis diagnostics",
-  "mail_body": "Bonjour,\n\nJe souhaite un devis pour des diagnostics.\n\nPrestation (vente, location, travaux ou démolition) :\nType de bien :\nAnnée de construction :\nSurface (m²) :\nInstallation intérieure de gaz (oui / non) :\nAnnée d'acquisition (si moins de 10 ans) :\nAdresse du bien :\n\nNom :\nTéléphone :\n\nMerci."
- },
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "avis",
+   "eyebrow": "Témoignages",
+   "title": "Ce qu'en disent nos clients",
+   "lead": "Avis client publié sur argos-diagnostic.fr",
+   "items": [
+    [
+     "Avis client",
+     "Une société honnête qui ne pousse pas à multiplier les diagnostics, des tarifs compétitifs et une prestation bien expliquée sur place."
+    ],
+    [
+     "Avis client",
+     "Diagnostics réalisés pour la vente de mon appartement : une entreprise réactive, les documents ont été envoyés le soir même."
+    ],
+    [
+     "Avis client",
+     "Un diagnostiqueur très respectueux, expert et pédagogue, avec un rapport remis le soir même."
+    ]
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "diagnostiqueur",
+   "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/2021051918434760a540434b924-jpg.webp",
+   "eyebrow": "Votre diagnostiqueur",
+   "title": "Une formation <em class=\"it\">continue</em>",
+   "paras": [
+    "Un opérateur certifié qui maîtrise l'ensemble des domaines de compétences et suit une formation continue pour rester à la pointe des exigences du métier."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "zone",
+   "img": "https://www.argos-diagnostic.fr/wp-content/uploads/2023/12/202104271808576088371918552.png",
+   "eyebrow": "Zone d'intervention",
+   "title": "Où nous intervenons",
+   "paras": [
+    "Sur la Métropole de Lyon et les départements alentours, notamment : Lyon, Villeurbanne, Vaulx-en-Velin, Francheville, Saint-Priest, Bron, Écully, Tassin, Vénissieux, Oullins, Feyzin, Limonest, Caluire, Monts d'Or, Irigny, Pierre-Bénite, Vienne, Estrablin, Chasse-sur-Rhône, Givors."
+   ]
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Devis et rendez-vous",
+   "title": "Demander un devis",
+   "text": "Chaque devis est établi selon votre besoin, pour les particuliers comme pour les professionnels. Indiquez dans votre message : Le type de prestation : vente, location, travaux ou démolition ; Le type de bien et son année de construction ; La surface ; La présence d'une installation de gaz ; L'adresse du bien, vos nom et téléphone.",
+   "rows": [
+    [
+     "Adresse",
+     "19 rue Père Chevrier, 69007 Lyon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33685303048\">06 85 30 30 48</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@argosdiag.fr\">contact@argosdiag.fr</a>"
+    ],
+    [
+     "Rendez-vous",
+     "Du lundi au samedi"
+    ]
+   ],
+   "cta": [
+    "Demander un devis par e-mail",
+    "mailto:contact@argosdiag.fr?subject=Demande%20de%20devis%20diagnostics&body=Bonjour%2C%0A%0AJe%20souhaite%20un%20devis%20pour%20des%20diagnostics.%0A%0APrestation%20%28vente%2C%20location%2C%20travaux%20ou%20d%C3%A9molition%29%20%3A%0AType%20de%20bien%20%3A%0AAnn%C3%A9e%20de%20construction%20%3A%0ASurface%20%28m%C2%B2%29%20%3A%0AInstallation%20int%C3%A9rieure%20de%20gaz%20%28oui%20/%20non%29%20%3A%0AAnn%C3%A9e%20d%27acquisition%20%28si%20moins%20de%2010%20ans%29%20%3A%0AAdresse%20du%20bien%20%3A%0A%0ANom%20%3A%0AT%C3%A9l%C3%A9phone%20%3A%0A%0AMerci."
+   ],
+   "map_q": "19 rue Père Chevrier, 69007 Lyon"
+  }
+ ],
  "footer": {
   "about": "Diagnostics immobiliers vente, location, avant travaux et démolition sur la Métropole de Lyon depuis 2008.",
   "contact": [
    "19 rue Père Chevrier, 69007 Lyon",
-   "06 85 30 30 48",
-   "contact@argosdiag.fr"
+   "<a href=\"tel:+33685303048\">06 85 30 30 48</a>",
+   "<a href=\"mailto:contact@argosdiag.fr\">contact@argosdiag.fr</a>"
   ],
-  "legal": [
-   "Opérateurs de diagnostics certifiés, en formation continue.",
-   "Assurance responsabilité civile professionnelle Groupama, police n° 155861180002.",
-   "© ARGOS Diagnostic"
-  ]
+  "legal": "Opérateurs de diagnostics certifiés, en formation continue. · Assurance responsabilité civile professionnelle Groupama, police n° 155861180002."
  }
 }
