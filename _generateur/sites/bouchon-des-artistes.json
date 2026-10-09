@@ -403,7 +403,7 @@
    "id": "reserver",
    "eyebrow": "Réservation",
    "title": "Réservez <em class=\"it\">votre table</em>",
-   "lead": "Du lundi au vendredi, midi et soir. Envoyez votre demande : le restaurant vous confirme par retour.",
+   "lead": "Du lundi au vendredi, midi et soir. Choisissez votre jour et votre créneau : le restaurant vous confirme la réservation.",
    "hours": [
     "12:00",
     "12:15",
@@ -430,7 +430,14 @@
    "phone": "04 78 03 37 40",
    "brand": "Le Bouchon des Artistes",
    "max": 40,
-   "note": "Pour un groupe ou une privatisation, appelez-nous directement."
+   "note": "Pour un groupe ou une privatisation, appelez-nous directement.",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
   },
   {
    "kind": "visit",

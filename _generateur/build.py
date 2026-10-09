@@ -281,25 +281,90 @@ def section_team(t):
 <h2>{t["title"]}</h2><p>{e(t.get("lead", ""))}</p></div><div class="team rv">{ppl}</div>{note}</div></section>'''
 
 
+RESA_CSS = """<style>
+.rm{background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:28px;box-shadow:0 20px 50px rgba(0,0,0,.06);min-width:0}
+.rm-steps{display:flex;gap:6px;margin-bottom:22px}.rm-steps i{flex:1;height:3px;background:var(--line);border-radius:2px}.rm-steps i.on{background:var(--accent)}
+.rm h3{font-family:var(--serif);font-weight:400;font-size:1.35rem;margin:0 0 14px}
+.rm-cov{display:flex;align-items:center;gap:14px;margin-bottom:22px}.rm-cov button{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:none;font-size:1.2rem;cursor:pointer;color:inherit}
+.rm-cov b{font-family:var(--serif);font-size:1.6rem;min-width:2ch;text-align:center;font-weight:400}
+.rm-cal header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-weight:600;text-transform:capitalize}
+.rm-cal header button{background:none;border:1px solid var(--line);width:34px;height:34px;border-radius:50%;cursor:pointer;color:inherit}.rm-cal header button:disabled{opacity:.3;cursor:default}
+.rm-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;text-align:center}
+.rm-grid span{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:4px 0}
+.rm-grid button{height:40px;width:40px;max-width:100%;justify-self:center;border:0;background:none;border-radius:50%;cursor:pointer;font:inherit;color:inherit;padding:0}
+.rm-grid button:hover:not(:disabled){background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.rm-grid button:disabled{color:var(--muted);opacity:.35;cursor:default;text-decoration:line-through}
+.rm-grid button.sel,.rm-grid button.sel:hover{background:var(--accent);color:#fff}
+.rm-slots h4{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:16px 0 8px;font-weight:600}
+.rm-slots div{display:flex;flex-wrap:wrap;gap:8px}.rm-slots button{border:1px solid var(--line);background:none;padding:9px 14px;border-radius:999px;cursor:pointer;font:inherit;color:inherit}
+.rm-slots button.sel{background:var(--accent);border-color:var(--accent);color:#fff}
+.rm-sum{background:var(--paper2);padding:12px 16px;border-radius:4px;margin-bottom:18px;font-size:.92rem}
+.rm form{display:grid;gap:12px}.rm label{display:grid;gap:6px;font-size:.82rem}
+.rm input,.rm textarea{font:inherit;padding:12px;border:1px solid var(--line);border-radius:3px;background:#fff;color:#222;width:100%;box-sizing:border-box}
+.rm-nav{display:flex;justify-content:space-between;gap:10px;margin-top:20px;align-items:center}
+.rm-back{background:none;border:0;cursor:pointer;color:var(--muted);font:inherit;text-decoration:underline}
+.rm .btn[disabled]{opacity:.4;pointer-events:none}
+.rm-ok{text-align:center;padding:20px 0}.rm-ok .ck{width:56px;height:56px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;margin:0 auto 16px;font-size:1.6rem}
+.rm [hidden]{display:none!important}
+@media(max-width:480px){.rm{padding:20px 16px}}
+.resa .rm{border:0;box-shadow:none;padding:0;background:none}
+</style>"""
+
+RESA_JS = r"""<script>document.querySelectorAll('.rm').forEach(R=>{const C=JSON.parse(R.dataset.cfg);
+const st={n:2,d:null,h:null,step:0};const $=q=>R.querySelector(q);const today=new Date();today.setHours(0,0,0,0);
+const maxD=new Date(today);maxD.setDate(maxD.getDate()+(C.ahead||60));let view=new Date(today.getFullYear(),today.getMonth(),1);
+const fmt=d=>d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
+const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const open=d=>C.days.includes(d.getDay())&&d>=today&&d<=maxD&&!(C.closed||[]).includes(iso(d));
+function show(i){st.step=i;R.querySelectorAll('[data-step]').forEach(p=>p.hidden=+p.dataset.step!==i);
+R.querySelectorAll('.rm-steps i').forEach((b,k)=>b.classList.toggle('on',k<=i));sum()}
+function sum(){const t=(st.n+' couvert'+(st.n>1?'s':''))+(st.d?', '+fmt(st.d):'')+(st.h?' à '+st.h.replace(':','h'):'');R.querySelectorAll('.rm-sum').forEach(x=>x.textContent=t)}
+function cal(){const g=$('.rm-grid');g.innerHTML='';['lun','mar','mer','jeu','ven','sam','dim'].forEach(x=>g.insertAdjacentHTML('beforeend','<span>'+x+'</span>'));
+$('.rm-cal header b').textContent=view.toLocaleDateString('fr-FR',{month:'long',year:'numeric'});
+const off=(view.getDay()+6)%7;for(let i=0;i<off;i++)g.insertAdjacentHTML('beforeend','<i></i>');
+const last=new Date(view.getFullYear(),view.getMonth()+1,0).getDate();
+for(let k=1;k<=last;k++){const d=new Date(view.getFullYear(),view.getMonth(),k);const b=document.createElement('button');b.type='button';b.textContent=k;
+b.disabled=!open(d);b.setAttribute('aria-label',fmt(d));if(st.d&&+st.d===+d)b.classList.add('sel');b.onclick=()=>{st.d=d;st.h=null;cal();slots();sum()};g.appendChild(b)}
+$('.rm-prev').disabled=view<=new Date(today.getFullYear(),today.getMonth(),1);$('.rm-nextm').disabled=new Date(view.getFullYear(),view.getMonth()+1,1)>maxD;
+$('[data-next="1"]').disabled=!st.d}
+function slots(){const w=$('.rm-slots');w.innerHTML='';$('[data-next="2"]').disabled=!st.h;if(!st.d)return;
+const now=new Date();C.services.forEach(([lab,hs])=>{const ok=hs.filter(h=>{const[a,b]=h.split(':');const t=new Date(st.d);t.setHours(+a,+b);return t-now>3600e3});if(!ok.length)return;
+w.insertAdjacentHTML('beforeend','<h4>'+lab+'</h4>');const box=document.createElement('div');ok.forEach(h=>{const b=document.createElement('button');b.type='button';b.textContent=h.replace(':','h');
+if(st.h===h)b.classList.add('sel');b.onclick=()=>{st.h=h;slots();sum()};box.appendChild(b)});w.appendChild(box)});
+if(!w.children.length)w.innerHTML='<p style="color:var(--muted);font-size:.9rem">Plus de créneau disponible ce jour-là.</p>'}
+$('.rm-minus').onclick=()=>{st.n=Math.max(1,st.n-1);$('.rm-cov b').textContent=st.n;sum()};
+$('.rm-plus').onclick=()=>{st.n=Math.min(C.max,st.n+1);$('.rm-cov b').textContent=st.n;sum()};
+$('.rm-prev').onclick=()=>{view.setMonth(view.getMonth()-1);cal()};$('.rm-nextm').onclick=()=>{view.setMonth(view.getMonth()+1);cal()};
+R.querySelectorAll('[data-next]').forEach(b=>b.onclick=()=>show(+b.dataset.next));R.querySelectorAll('.rm-back').forEach(b=>b.onclick=()=>show(st.step-1));
+R.querySelector('form').onsubmit=ev=>{ev.preventDefault();const f=ev.target,v=n=>f.elements[n].value.trim();const hh=st.h.replace(':','h'),cv=st.n+' couvert'+(st.n>1?'s':'');
+const s='Réservation '+st.d.toLocaleDateString('fr-FR')+' à '+hh+', '+cv;
+const b='Bonjour,\n\nNouvelle demande de réservation :\n- '+cv+'\n- '+fmt(st.d)+' à '+hh+'\n\n'+(v('msg')?'Message : '+v('msg')+'\n\n':'')+v('nom')+'\n'+v('tel')+(v('mail')?'\n'+v('mail'):'');
+location.href='mailto:'+C.to+'?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(b);$('.rm-ok p b').textContent=fmt(st.d)+' à '+hh;show(3)};
+cal();slots();show(0)})</script>"""
+
+
 def section_resaform(r):
-    opts = "".join(f'<option>{e(h)}</option>' for h in r["hours"])
+    hours = r["hours"]
+    services = r.get("services") or [[lab, hs] for lab, hs in (("Midi", [h for h in hours if int(h[:2]) < 17]), ("Soir", [h for h in hours if int(h[:2]) >= 17])) if hs]
+    cfg = {"to": r["email"], "max": r.get("max", 40), "days": r.get("days", [1, 2, 3, 4, 5, 6]), "services": services,
+           "ahead": r.get("ahead", 60), "closed": r.get("closed", [])}
+    nxt = '<button type="button" class="btn solid" data-next="{n}">Continuer</button>'
     return f'''<section id="{r.get("id", "reserver")}"><div class="wrap"><div class="resa rv"><div>
 <span class="eyebrow">{e(r["eyebrow"])}</span><h2 style="margin:14px 0 16px">{r["title"]}</h2><p style="color:var(--muted)">{e(r["lead"])}</p>
 <p style="margin-top:22px">Par téléphone : <a href="tel:{attr(r["tel"])}" style="border-bottom:1px solid var(--gold)">{e(r["phone"])}</a></p>
 <p style="margin-top:6px;color:var(--muted);font-size:.9rem">{e(r.get("note", ""))}</p></div>
-<form class="rform" data-to="{attr(r["email"])}" data-name="{attr(r["brand"])}">
-<label>Date<input type="date" name="date" required></label>
-<label>Heure<select name="heure" required>{opts}</select></label>
-<label>Nombre de couverts<input type="number" name="couverts" min="1" max="{r.get("max", 40)}" value="2" required></label>
-<label>Votre nom<input name="nom" autocomplete="name" required></label>
-<label>Votre téléphone<input name="tel" type="tel" autocomplete="tel" required></label>
-<label class="full">Un message (facultatif)<textarea name="msg" rows="3"></textarea></label>
-<button class="btn solid full" type="submit">Envoyer ma demande de réservation</button>
-<p class="full" style="font-size:.82rem;color:var(--muted)">Votre demande part par e-mail au restaurant, qui vous confirme la réservation.</p></form></div></div></section>
-<script>document.querySelectorAll('form.rform').forEach(f=>f.onsubmit=ev=>{{ev.preventDefault();const v=n=>f.elements[n].value;
-const s='Réservation '+v('date')+' à '+v('heure')+', '+v('couverts')+' couverts';
-const b='Bonjour,\\n\\nJe souhaite réserver une table pour '+v('couverts')+' personne(s) le '+v('date')+' à '+v('heure')+'.\\n\\n'+(v('msg')?v('msg')+'\\n\\n':'')+v('nom')+'\\n'+v('tel');
-location.href='mailto:'+f.dataset.to+'?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(b)}})</script>'''
+<div class="rm" data-cfg="{attr(json.dumps(cfg, ensure_ascii=False))}" aria-live="polite"><div class="rm-steps"><i></i><i></i><i></i><i></i></div>
+<div data-step="0"><h3>Combien serez-vous ?</h3><div class="rm-cov"><button type="button" class="rm-minus" aria-label="Un couvert de moins">&minus;</button><b>2</b><button type="button" class="rm-plus" aria-label="Un couvert de plus">+</button><span style="color:var(--muted)">couverts</span></div>
+<h3>Quel jour ?</h3><div class="rm-cal"><header><button type="button" class="rm-prev" aria-label="Mois précédent">&lsaquo;</button><b></b><button type="button" class="rm-nextm" aria-label="Mois suivant">&rsaquo;</button></header><div class="rm-grid"></div></div>
+<div class="rm-nav"><span></span>{nxt.format(n=1)}</div></div>
+<div data-step="1" hidden><div class="rm-sum"></div><h3>À quelle heure ?</h3><div class="rm-slots"></div>
+<div class="rm-nav"><button type="button" class="rm-back">Retour</button>{nxt.format(n=2)}</div></div>
+<div data-step="2" hidden><div class="rm-sum"></div><h3>Vos coordonnées</h3><form>
+<label>Nom<input name="nom" autocomplete="name" required></label><label>Téléphone<input name="tel" type="tel" autocomplete="tel" required></label>
+<label>E-mail (facultatif)<input name="mail" type="email" autocomplete="email"></label><label>Un message, une allergie, une occasion ? (facultatif)<textarea name="msg" rows="2"></textarea></label>
+<div class="rm-nav"><button type="button" class="rm-back">Retour</button><button class="btn solid" type="submit">Confirmer la réservation</button></div></form></div>
+<div data-step="3" hidden><div class="rm-ok"><div class="ck">&#10003;</div><h3>Demande envoyée</h3><p>Votre table pour le <b></b> est demandée. {e(r["brand"])} vous confirme très vite.</p></div></div>
+</div></div></div></section>''' + RESA_CSS + RESA_JS
 
 
 def section_timeline(t):
