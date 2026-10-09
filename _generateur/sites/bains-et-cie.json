@@ -1,84 +1,252 @@
 {
-  "slug": "bains-et-cie-f10f6d",
-  "style": "carnet",
-  "title": "Bains et Cie, salle de bain clé en main et plomberie",
-  "description": "Sébastien Chabert, plombier-conseil : création ou rénovation de salle de bain avec un seul interlocuteur, plomberie en rénovation et en neuf, label Handibat. Devis gratuit.",
-  "brand": "Bains et Cie",
-  "logo": {"src": "https://static.wixstatic.com/media/ab4b43_d2cf8e27ae674386806ce8e61947f865~mv2.jpeg", "height": 46},
-  "theme": {
-    "paper": "#f5f9fa", "ink": "#0e3b45", "accent": "#e8a978", "accent2": "#a4542a", "soft": "#d6e6e9",
-    "line": "rgba(14,59,69,.075)", "grid": "carrelage", "opening": "photo", "logo_bg": "#0e3b45",
-    "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Kalam:wght@400&display=swap",
-    "display": "'Outfit', system-ui, sans-serif", "body": "'Outfit', system-ui, sans-serif", "hand": "'Kalam', cursive"
+ "slug": "bains-et-cie-f10f6d",
+ "title": "Bains et Cie, salle de bain clé en main et plomberie",
+ "description": "Sébastien Chabert, Bains et Cie : création ou rénovation de salle de bain clé en main avec un seul interlocuteur, plomberie en rénovation et en neuf, label Handibat. Devis gratuit.",
+ "brand": "Bains et Cie",
+ "tagline": "Plomberie & salles de bains",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/ab4b43_d2cf8e27ae674386806ce8e61947f865~mv2.jpeg",
+  "height": 46,
+  "bg": "#0e3b45"
+ },
+ "theme": {
+  "paper": "#f5f9fa",
+  "paper2": "#d6e6e9",
+  "ink": "#0e3b45",
+  "muted": "#4d6a70",
+  "accent": "#0e5a69",
+  "accent2": "#0b4652",
+  "gold": "#c98a5a",
+  "heroem": "#e8a978",
+  "serif": "\"Outfit\",system-ui,sans-serif",
+  "sans": "\"Outfit\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+ },
+ "nav": [
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "plomberie",
+   "Plomberie"
+  ],
+  [
+   "realisations",
+   "Réalisations"
+  ],
+  [
+   "qui",
+   "Qui suis-je ?"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/ab4b43_cbc88be85c6749f3845bfd061cb06362~mv2.jpg",
+  "eyebrow": "Plomberie & salles de bains · Label Handibat®",
+  "title": "Salle de bain <em>clé en main</em>, un seul interlocuteur",
+  "lead": "Bains et Cie met en œuvre son expertise pour répondre au plus près des attentes de ses clients et leur offrir des réalisations performantes, esthétiques et confortables à vivre.",
+  "cta1": [
+   "Devis gratuit",
+   "#contact"
+  ],
+  "cta2": [
+   "Les prestations",
+   "#prestations"
+  ]
+ },
+ "figures": [
+  [
+   "1",
+   "seul interlocuteur"
+  ],
+  [
+   "3D",
+   "plan de votre projet"
+  ],
+  [
+   "Neuf",
+   "et rénovation"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "quote",
+   "eyebrow": "Nos valeurs",
+   "text": "L'écoute, le respect de l'habitation et le perfectionnisme sont les valeurs auxquelles nous tenons le plus.",
+   "sub": "Devis gratuit, conseils personnalisés : consultez-nous pour toutes vos demandes."
   },
-  "nav": [["prestations", "Prestations"], ["chantiers", "Réalisations"], ["artisan", "Qui suis-je ?"]],
-  "hero": {
-    "title": "Salle de bain clé en main et plomberie",
-    "mark": "clé en main",
-    "lead": "Création ou rénovation de votre salle de bain avec un seul interlocuteur, et tous vos travaux de plomberie, en rénovation comme en neuf.",
-    "badges": ["Label Handibat", "Un seul interlocuteur", "Devis gratuit"],
-    "img": "https://static.wixstatic.com/media/ab4b43_cbc88be85c6749f3845bfd061cb06362~mv2.jpg",
-    "alt": "Salle d'eau réalisée par Bains et Cie"
+  {
+   "kind": "story",
+   "id": "prestations",
+   "eyebrow": "Création ou rénovation de votre salle de bain",
+   "title": "Salle de bain clé en main, <em class=\"it\">un seul interlocuteur</em>",
+   "img": "https://static.wixstatic.com/media/ab4b43_4e9642b17d0e41b6990899244dd9265c~mv2.jpg",
+   "alt": "Baignoire",
+   "paras": [
+    "Pour réaliser votre salle de bain, notre équipe se charge de tout, pour votre tranquillité d'esprit. Nous assurons tous les travaux des différents corps de métier, tels que la plomberie, l'électricité, la pose de carrelage, de faïence, de parquets et la peinture.",
+    "Définir vos besoins et vos désirs avec plan 3D à l'appui. Présenter un projet chiffré que nous affinons ensemble. Vous orienter vers nos salles d'exposition partenaires pour finaliser le choix de vos appareillages.",
+    "Nous finalisons le tout avec un degré d'exigence élevé pour les finitions.",
+    "Notre entreprise, certifiée handibat®, vous propose des solutions adaptées à vos besoins et à votre budget."
+   ]
   },
-  "coupon": {
-    "title": "Bon pour un devis",
-    "text": "Devis gratuit et conseils personnalisés. Décrivez votre projet de salle de bain ou votre problème de plomberie.",
-    "tel": "06 86 85 62 19", "tel_href": "+33686856219",
-    "mail": "bainsetcie@yahoo.com", "subject": "Demande de devis",
-    "small": "Sébastien Chabert, entrepreneur du réseau Cabestan, Grenoble."
+  {
+   "kind": "blocks",
+   "id": "plomberie",
+   "eyebrow": "Plomberie",
+   "title": "Rénovation <em class=\"it\">et neuf</em>",
+   "lead": "Profitez du savoir-faire de votre artisan pour la réalisation de vos travaux de plomberie en rénovation et en neuf.",
+   "items": [
+    {
+     "title": "Dépannage",
+     "img": "https://static.wixstatic.com/media/ab4b43_d5cea46d23854a3b9e97ee9cfff3a613~mv2.jpg",
+     "alt": "Reprise de tuyaux vétustes",
+     "paras": [
+      "Remplacement de robinet, de chauffe-eau, de chasse d'eau, de tuyaux plomb : l'entreprise Bains et Cie agit dans les meilleurs délais pour le dépannage de votre plomberie."
+     ]
+    },
+    {
+     "title": "Installation et entretien",
+     "img": "https://static.wixstatic.com/media/ab4b43_73855a03f31744bdaa76a65794845b8f~mv2.jpg",
+     "alt": "Maisons neuves",
+     "paras": [
+      "Pour une réparation et un changement de robinetterie, une installation complète, la réparation, l'entretien et le remplacement de chauffe-eau, Bains et Cie est en mesure de répondre rapidement à toutes vos demandes."
+     ]
+    },
+    {
+     "title": "Toutes vos demandes",
+     "img": "https://static.wixstatic.com/media/ab4b43_09a991fb564d4b1fb9071eff4d45efba~mv2.png",
+     "contain": true,
+     "alt": "Chauffe-eau",
+     "list": [
+      "WC",
+      "Chauffe-eau",
+      "Dépannage",
+      "Reprise de fuites",
+      "Robinetterie",
+      "Arrosage",
+      "Cuisine"
+     ]
+    }
+   ]
   },
-  "prestations": {
-    "title": "Salle de bain et plomberie",
-    "lead": "Mettre mon expertise au service de vos attentes, pour des réalisations performantes, esthétiques et confortables.",
-    "groups": [
-      {"title": "Salle de bain clé en main", "items": ["Création ou rénovation de votre salle de bain", "Un seul interlocuteur qui coordonne tous les corps de métier : plomberie, électricité, carrelage, faïence, parquets, peinture", "Vos besoins et vos envies définis à l'aide d'un plan 3D", "Un projet chiffré, affiné ensemble", "Une orientation vers des salles d'exposition partenaires pour choisir les appareillages", "Des finitions traitées avec un haut niveau d'exigence"]},
-      {"title": "Plomberie, rénovation et neuf", "items": ["Remplacement de robinets, de chauffe-eau, de chasse d'eau", "Remplacement des tuyaux en plomb, reprise de tuyaux vétustes", "Dépannage rapide et reprise de fuites", "Réparation et changement de robinetterie", "Installation complète, maisons neuves", "Réparation, entretien et remplacement de chauffe-eau", "WC, arrosage, cuisine"]},
-      {"title": "Accessibilité", "items": ["Label Handibat : des solutions adaptées à vos besoins et à votre budget"]}
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Mes réalisations",
+   "title": "Salles de bain <em class=\"it\">et plomberie</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_cbc88be85c6749f3845bfd061cb06362~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_cbc88be85c6749f3845bfd061cb06362~mv2.jpg",
+     "alt": "Salle d'eau",
+     "caption": "Salle d'eau"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_4e9642b17d0e41b6990899244dd9265c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_4e9642b17d0e41b6990899244dd9265c~mv2.jpg",
+     "alt": "Baignoire",
+     "caption": "Baignoire"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_7c3b7ea2fc124ad5a95a7e521a7e40f5~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_7c3b7ea2fc124ad5a95a7e521a7e40f5~mv2.jpg",
+     "alt": "Toilette",
+     "caption": "Toilette"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_d5cea46d23854a3b9e97ee9cfff3a613~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_d5cea46d23854a3b9e97ee9cfff3a613~mv2.jpg",
+     "alt": "Reprise de tuyaux vétustes",
+     "caption": "Reprise de tuyaux vétustes"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_73855a03f31744bdaa76a65794845b8f~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_73855a03f31744bdaa76a65794845b8f~mv2.jpg",
+     "alt": "Maisons neuves",
+     "caption": "Maisons neuves"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_09a991fb564d4b1fb9071eff4d45efba~mv2.png",
+     "full": "https://static.wixstatic.com/media/ab4b43_09a991fb564d4b1fb9071eff4d45efba~mv2.png",
+     "alt": "Chauffe eau",
+     "caption": "Chauffe eau"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_a303f160df0e437a9032a1fb4068a4da~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_a303f160df0e437a9032a1fb4068a4da~mv2.jpg",
+     "alt": "Réalisation Bains et Cie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_690081da685f47dcb4efb47a36ada880~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_690081da685f47dcb4efb47a36ada880~mv2.jpg",
+     "alt": "Réalisation Bains et Cie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ab4b43_94c5a214f62545c382dde51f461544a9~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ab4b43_94c5a214f62545c382dde51f461544a9~mv2.jpg",
+     "alt": "Réalisation Bains et Cie"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "qui",
+   "eyebrow": "Qui suis-je ?",
+   "title": "Sébastien <em class=\"it\">Chabert</em>",
+   "img": "https://static.wixstatic.com/media/ab4b43_95c961903b9c437b87fb8c1243aabe7f~mv2.jpg",
+   "alt": "Sébastien Chabert",
+   "paras": [
+    "Après plusieurs années au service d'entreprises de plomberie, j'ai choisi de devenir l'interlocuteur privilégié de mes clients, de leur apporter le meilleur conseil, et un niveau de service exigeant et sur mesure.",
+    "Je suis un interlocuteur sérieux, fiable. J'ai le souci de bien communiquer avec mes clients de la conception à l'exécution du projet, pour m'assurer de leur satisfaction.",
+    "Je travaille en collaboration avec les artisans du réseau coopératif Cabestan pour les spécificités de chaque projet.",
+    "<strong>La SCOP Cabestan</strong> est une entreprise rassemblant 250 professionnels et plus de soixante métiers du bâtiment. C'est donc un très large réseau de compétences, mais c'est aussi un projet : celui de construire une nouvelle forme d'entreprenariat plus responsable, plus durable, plus coopératif. <a href=\"https://www.cabestan.fr\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">cabestan.fr</a>"
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/ab4b43_08c8be6d09dc4c61953b224cdf23b56d~mv2.png",
+     "SCOP Cabestan"
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Contact",
+   "title": "Votre projet, <em class=\"it\">un seul interlocuteur</em>",
+   "text": "Devis gratuit et conseils personnalisés : un appel ou un e-mail pour parler de votre salle de bain ou d'un dépannage.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33686856219\">06 86 85 62 19</a>"
     ],
-    "note": "Devis gratuit et conseils personnalisés.",
-    "engage": [
-      ["L'écoute", ""],
-      ["Le respect de l'habitation", ""],
-      ["Le perfectionnisme", ""]
+    [
+     "E-mail",
+     "<a href=\"mailto:bainsetcie@yahoo.com?subject=Demande%20de%20devis\">bainsetcie@yahoo.com</a>"
+    ],
+    [
+     "Réseau",
+     "<a href=\"https://www.cabestan.fr\" target=\"_blank\" rel=\"noopener\">SCOP Cabestan</a>"
     ]
-  },
-  "photos": {
-    "title": "Mes réalisations",
-    "lead": "Salles de bain et travaux de plomberie, photos du site actuel.",
-    "items": [
-      {"src": "https://static.wixstatic.com/media/ab4b43_cbc88be85c6749f3845bfd061cb06362~mv2.jpg", "cap": "Salle d'eau"},
-      {"src": "https://static.wixstatic.com/media/ab4b43_4e9642b17d0e41b6990899244dd9265c~mv2.jpg", "cap": "Baignoire"},
-      {"src": "https://static.wixstatic.com/media/ab4b43_7c3b7ea2fc124ad5a95a7e521a7e40f5~mv2.jpg", "cap": "Toilette"},
-      {"src": "https://static.wixstatic.com/media/ab4b43_d5cea46d23854a3b9e97ee9cfff3a613~mv2.jpg", "cap": "Reprise de tuyaux vétustes"},
-      {"src": "https://static.wixstatic.com/media/ab4b43_73855a03f31744bdaa76a65794845b8f~mv2.jpg", "cap": "Maisons neuves"},
-      {"src": "https://static.wixstatic.com/media/ab4b43_a303f160df0e437a9032a1fb4068a4da~mv2.jpg"},
-      {"src": "https://static.wixstatic.com/media/ab4b43_690081da685f47dcb4efb47a36ada880~mv2.jpg"},
-      {"src": "https://static.wixstatic.com/media/ab4b43_94c5a214f62545c382dde51f461544a9~mv2.jpg"}
-    ]
-  },
-  "who": {
-    "title": "Qui suis-je ?",
-    "img": "https://static.wixstatic.com/media/ab4b43_95c961903b9c437b87fb8c1243aabe7f~mv2.jpg",
-    "alt": "Sébastien Chabert",
-    "paras": [
-      "Sébastien Chabert a travaillé plusieurs années dans des entreprises de plomberie, puis a choisi de devenir l'interlocuteur privilégié de ses clients : un conseil avisé, un service exigeant et sur mesure.",
-      "Sérieux et fiable, il communique avec vous de la conception à l'exécution du chantier.",
-      "Selon les besoins de chaque projet, il travaille avec les artisans du réseau coopératif Cabestan, une SCOP de 250 professionnels qui couvre plus de soixante métiers du bâtiment, engagée pour un entreprenariat plus responsable, durable et coopératif."
-    ]
-  },
-  "labels": ["Handibat", "RGE (fiche Cabestan)", "Réseau Cabestan"],
-  "contact": {
-    "title": "Votre projet, un seul interlocuteur",
-    "text": "Un appel ou un e-mail pour parler de votre salle de bain ou d'un dépannage : le devis est gratuit.",
-    "rows": [
-      ["Téléphone", "<a href=\"tel:+33686856219\">06 86 85 62 19</a>"],
-      ["E-mail", "<a href=\"mailto:bainsetcie@yahoo.com?subject=Demande%20de%20devis\">bainsetcie@yahoo.com</a>"],
-      ["Ville", "Grenoble (38100)"],
-      ["Réseau", "<a href=\"https://www.cabestan.fr\" target=\"_blank\" rel=\"noopener\">SCOP Cabestan</a>, 88 rue Anatole France, 38100 Grenoble"]
-    ]
-  },
-  "footer": {
-    "about": "Bains et Cie, Sébastien Chabert, plombier-chauffagiste. Entrepreneur salarié de la SCOP Cabestan.",
-    "lines": ["<a href=\"tel:+33686856219\">06 86 85 62 19</a>", "<a href=\"mailto:bainsetcie@yahoo.com\">bainsetcie@yahoo.com</a>", "Label Handibat, RGE (selon la fiche Cabestan)", "Cabestan, 88 rue Anatole France, 38100 Grenoble"]
+   ],
+   "cta": [
+    "Demander un devis",
+    "mailto:bainsetcie@yahoo.com?subject=Demande%20de%20devis"
+   ]
   }
+ ],
+ "footer": {
+  "about": "Bains et Cie, Sébastien Chabert : salles de bain clé en main et plomberie, en rénovation et en neuf. Label Handibat®.",
+  "contact": [
+   "<a href=\"tel:+33686856219\">06 86 85 62 19</a>",
+   "<a href=\"mailto:bainsetcie@yahoo.com\">bainsetcie@yahoo.com</a>"
+  ],
+  "legal": "© CHAB'S"
+ }
 }
