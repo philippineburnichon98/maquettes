@@ -4,5 +4,3 @@ Options -Indexes
   Header set X-Robots-Tag "noindex, nofollow, noarchive"
 </IfModule>
 
-# Le générateur n'est pas public
-RedirectMatch 404 ^/_generateur(/|$)

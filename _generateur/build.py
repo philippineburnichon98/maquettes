@@ -8,7 +8,7 @@ non indexées et portent le bandeau « Proposition de maquette — Fyce ».
 """
 import json, sys, html, pathlib, urllib.parse
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent / "site"
 FYCE = {"name": "Philippine Burnichon", "brand": "Fyce", "phone": "06 65 57 16 72",
         "tel": "+33665571672", "site": "https://fyce.space"}
 
