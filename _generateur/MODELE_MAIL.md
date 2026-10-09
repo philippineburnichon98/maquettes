@@ -13,13 +13,21 @@ https://maquettes.philippine-burnichon.workers.dev/<slug>/
 
 Ça vous parlerait ? Une réponse à ce mail me suffit, même pour me dire non.
 
-Belle journée<, et bonne fin de vendanges (domaines, en saison) | et bons chantiers (artisans)>,
-Philippine Burnichon — Fyce
-fyce.space · 06 65 57 16 72
-
 Pas intéressé(s) ? Un simple mot et je ne vous recontacte plus.
 
-Règles : moins de 120 mots, texte brut, un seul lien, pas de prix, pas de proposition d'appel ni de visite.
+Bien cordialement<, et bonne fin de vendanges (domaines, en saison) | et bons chantiers (artisans)>,
+
+--
+Philippine Burnichon
+Web Designer | Developer
+Fyce
+06 65 57 16 72
+philippine@fyce.space
+www.fyce.space
+
+(Signature de Philippine : la reproduire exactement, dans cet ordre. Dans htmlBody : nom et « Fyce » en gras, e-mail en lien mailto, site en lien vers https://www.fyce.space. Fournir à la fois body (texte) et htmlBody avec de vrais liens <a href>.)
+
+Règles : moins de 120 mots (hors signature), texte brut, un seul lien, pas de prix, pas de proposition d'appel ni de visite.
 
 # Relance (J+7, dans le même fil, seulement sans réponse)
 
