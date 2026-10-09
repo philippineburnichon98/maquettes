@@ -11,9 +11,7 @@ Le vôtre m'a donné envie de m'y essayer : <2-3 détails précis et flatteurs s
 Alors j'ai pris les devants et préparé une maquette, juste pour voir<. phrase optionnelle sur un outil existant conservé, ex. module TheFork> :
 https://maquettes.philippine-burnichon.workers.dev/<slug>/
 
-Ça vous parlerait ? Une réponse à ce mail me suffit, même pour me dire non.
-
-Pas intéressé(s) ? Un simple mot et je ne vous recontacte plus.
+Ça vous parlerait ? Je serais ravie d'avoir votre retour. Et si ce n'est pas le bon moment, dites-le-moi simplement, je ne vous embêterai pas davantage.
 
 Bien cordialement<, et bonne fin de vendanges (domaines, en saison) | et bons chantiers (artisans)>,
 
@@ -23,7 +21,7 @@ Règles : moins de 120 mots (hors signature), texte brut, un seul lien, pas de p
 
 # Relance (J+7, dans le même fil, seulement sans réponse)
 
-Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | vendanges | chantiers | rendez-vous | dossiers>. La maquette reste en ligne si vous voulez y jeter un œil. Un simple oui ou non me suffit !
+Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | vendanges | chantiers | rendez-vous | dossiers>. La maquette reste en ligne si vous voulez y jeter un œil. Je serais ravie d'avoir votre avis, même en deux mots.
 
 Bien cordialement,
 
