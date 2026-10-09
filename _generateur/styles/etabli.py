@@ -143,6 +143,7 @@ def render(d):
     rge = f'''<section id="rge" class="dark"><div class="w"><h2>{e(r["title"])}</h2>{"".join(f'<p class="intro">{e(p)}</p>' for p in r["paras"])}
 <div class="rge">{certs}</div><ul class="list">{rlist}</ul><div class="block">{_shelf(r["items"])}</div></div></section>'''
     extra = "".join(_section(s, "alt" if k % 2 == 0 else "") for k, s in enumerate(d.get("after_sections", [])))
+    before = "".join(_section(s, "alt") for s in d.get("before_sections", []))
     c = d["contact"]
     rows = "".join(f"<dt>{e(k)}</dt><dd>{v}</dd>" for k, v in c["rows"])
     f = d["footer"]
@@ -152,6 +153,7 @@ def render(d):
 <section class="hero" id="accueil"><div class="w"><div><h1>{e(h["title"])}</h1><p class="lead">{e(h["lead"])}</p>
 <div class="ctas"><a class="btn" href="#devis">Demander un devis</a><a class="btn light" href="#avant-apres">Voir les avant / après</a></div><div class="facts">{facts}</div></div>
 <figure><img src="{a(h["img"])}" alt="{a(h.get("alt", ""))}" referrerpolicy="no-referrer"><figcaption>{e(h.get("cap", ""))}</figcaption></figure></div></section>
+{before}
 <section id="avant-apres"><div class="w"><h2>{e(d["pairs_title"])}</h2><p class="intro">{e(d["pairs_lead"])}</p><div class="pairs" style="margin-top:28px">{pairs}</div></div></section>
 {sections}
 {rge}
@@ -166,4 +168,4 @@ document.querySelectorAll('.cmp').forEach(c=>{const r=c.querySelector('input');c
 c.querySelectorAll('img').forEach(i=>i.addEventListener('error',()=>c.closest('.pair').remove()))});
 """
     html = page(d, css, body, t["fonts"], js)
-    return html.replace("<body>", f'<body class="opening-{a(t.get("opening", "atelier"))}">', 1)
+    return html.replace("<body", f'<body class="opening-{a(t.get("opening", "atelier"))}"', 1)

@@ -196,4 +196,4 @@ H.querySelectorAll('nav a').forEach(l=>l.addEventListener('click',()=>{H.classLi
 """
     html = page(d, css, body, t["fonts"], js)
     cls = t.get("grid", "quadrille") + (" opening-photo" if t.get("opening") == "photo" else "")
-    return html.replace("<body>", f'<body class="{cls}">', 1)
+    return html.replace("<body", f'<body class="{cls}"', 1)
