@@ -1,330 +1,305 @@
 {
-  "slug": "bouchon-des-cordeliers-4f9a2c",
-  "title": "Bouchon des Cordeliers — Bouchon lyonnais, Presqu'île",
-  "description": "Bouchon lyonnais labellisé au cœur de la Presqu'île : cuisine maison, produits de saison, menu des Canuts.",
-  "brand": "Bouchon des Cordeliers",
-  "tagline": "Bouchon lyonnais · Lyon 2e",
-  "theme": {
-    "paper": "#f7f2ea",
-    "paper2": "#efe4d4",
-    "ink": "#23140f",
-    "muted": "#6e5d52",
-    "accent": "#a3242b",
-    "accent2": "#c0333a",
-    "gold": "#b8873b",
-    "heroem": "#f3c9a8",
-    "serif": "\"DM Serif Display\",Georgia,serif",
-    "sans": "\"Work Sans\",system-ui,sans-serif",
-    "fonts": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Work+Sans:wght@300;400;500;600&display=swap"
-  },
-  "nav": [
-    [
-      "maison",
-      "La maison"
-    ],
-    [
-      "carte",
-      "La carte"
-    ],
-    [
-      "photos",
-      "Photos"
-    ],
-    [
-      "reserver",
-      "Réserver"
-    ]
+ "slug": "bouchon-des-cordeliers-4f9a2c",
+ "style": "bouchon",
+ "title": "Bouchon des Cordeliers, bouchon lyonnais de la Presqu'île",
+ "description": "Bouchon lyonnais labellisé au cœur de la Presqu'île : cuisine maison du chef Cédric Garin, menu des Canuts, ardoise du midi, groupes jusqu'à 80 personnes.",
+ "brand": "Bouchon des Cordeliers",
+ "logo": {
+  "src": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/logo-dark.png",
+  "height": 50
+ },
+ "theme": {
+  "red": "#B4232C",
+  "slate": "#2F3A36",
+  "chalk": "#EFEEE8",
+  "mustard": "#D9A21B",
+  "ink": "#231F1C",
+  "muted": "#6E6560"
+ },
+ "nav": [
+  [
+   "maison",
+   "La maison"
   ],
-  "hero": {
-    "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/17.jpg",
-    "eyebrow": "Bouchon lyonnais labellisé · Presqu'île",
-    "title": "La tradition<br>lyonnaise, <em>faite maison</em>",
-    "lead": "Au cœur de la Presqu'île, une cuisine lyonnaise raffinée servie dans une ambiance détendue, en salle ou en terrasse aux beaux jours.",
-    "cta1": [
-      "Réserver une table",
-      "#reserver"
-    ],
-    "cta2": [
-      "Voir la carte",
-      "#carte"
-    ]
-  },
-  "figures": [
-    [
-      "2015",
-      "ouverture"
-    ],
-    [
-      "34 €",
-      "menu des Canuts"
-    ],
-    [
-      "Label",
-      "Bouchon Lyonnais"
-    ],
-    [
-      "Mar–Sam",
-      "midi & soir"
-    ]
+  [
+   "carte",
+   "La carte"
   ],
+  [
+   "cave",
+   "La cave"
+  ],
+  [
+   "groupes",
+   "Groupes"
+  ],
+  [
+   "infos",
+   "Infos pratiques"
+  ]
+ ],
+ "hero": {
+  "title": "Le bouchon de la Presqu'île",
+  "lead": "Une cuisine lyonnaise raffinée et faite maison, servie dans une ambiance détendue, en salle ou en terrasse couverte, à deux pas des Cordeliers.",
+  "video": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/bouchon-des-cordeliers.mp4",
+  "poster": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/17.jpg",
+  "media_alt": "Le Bouchon des Cordeliers en images"
+ },
+ "ardoise": {
+  "title": "L'ardoise du midi",
+  "when": "du mardi au vendredi",
+  "items": [
+   [
+    "Plat du jour",
+    "14 €"
+   ],
+   [
+    "Plat du jour + dessert",
+    "18 €"
+   ],
+   [
+    "Entrée + plat du jour",
+    "21 €"
+   ]
+  ]
+ },
+ "facts": [
+  "Label Les Bouchons Lyonnais",
+  "Chef membre des Toques Blanches lyonnaises",
+  "Ouvert depuis 2015",
+  "Du mardi au samedi, midi et soir"
+ ],
+ "story": {
+  "title": "Un bouchon d'aujourd'hui",
+  "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/5.jpg",
+  "alt": "La salle du Bouchon des Cordeliers",
+  "paras": [
+   "Ouvert en septembre 2015, le Bouchon des Cordeliers perpétue l'esprit des bouchons lyonnais au cœur de la Presqu'île : une salle typique et chaleureuse, et une terrasse couverte.",
+   "En cuisine, le chef Cédric Garin, passé par le Victoria Hall remarqué par le Gault &amp; Millau et membre des Toques Blanches lyonnaises, défend les produits locaux et de saison, et prépare tout à la maison.",
+   "Les recettes de tradition, revisitées avec soin ; un décor de bouchon modernisé, jusqu'aux serviettes à carreaux."
+  ],
+  "sign": "Cédric Garin, chef"
+ },
+ "menu": {
+  "title": "La carte",
+  "sub": "Les incontournables lyonnais, à la carte ou dans le menu des Canuts",
   "sections": [
-    {
-      "kind": "story",
-      "id": "maison",
-      "eyebrow": "La maison",
-      "title": "Un bouchon <em class=\"it\">d'aujourd'hui</em>",
-      "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/5.jpg",
-      "alt": "La salle du Bouchon des Cordeliers",
-      "paras": [
-        "Ouvert en septembre 2015, le Bouchon des Cordeliers perpétue l'esprit des bouchons lyonnais dans un cadre chaleureux : une salle typique et, l'été, une terrasse.",
-        "En cuisine, le chef Cédric Garin, passé par le Victoria Hall remarqué par le Gault &amp; Millau, défend les produits locaux et les recettes de tradition, toutes préparées à la maison.",
-        "Serviettes à carreaux et décor revisité : le bouchon d'hier, avec la fraîcheur d'aujourd'hui."
-      ],
-      "sign": "Chef Cédric Garin"
-    },
-    {
-      "kind": "features",
-      "dark": true,
-      "id": "esprit",
-      "eyebrow": "Notre esprit",
-      "title": "Ce qui fait <em class=\"it\">un vrai bouchon</em>",
-      "lead": "Des gestes simples, répétés chaque jour avec soin.",
-      "items": [
-        [
-          "Recettes de tradition",
-          "Quenelle, andouillette, pâté-croûte : les grands classiques lyonnais."
-        ],
-        [
-          "Fait maison",
-          "Toutes les préparations sont réalisées sur place."
-        ],
-        [
-          "Produits de saison",
-          "Des produits frais, sélectionnés au fil du marché."
-        ],
-        [
-          "Bouchon modernisé",
-          "Le décor et les serviettes à carreaux, revisités avec goût."
-        ]
-      ]
-    },
-    {
-      "kind": "menu",
-      "id": "carte",
-      "eyebrow": "La carte",
-      "title": "À table !",
-      "lead": "Les incontournables lyonnais, à la carte ou dans le menu des Canuts.",
-      "sections": [
-        {
-          "title": "Entrées",
-          "items": [
-            [
-              "Escargots de Bourgogne en persillade",
-              "6 · 12 hors menu"
-            ],
-            [
-              "Pâté-croûte"
-            ],
-            [
-              "Œuf en meurette"
-            ],
-            [
-              "Poireaux rôtis"
-            ],
-            [
-              "Tourte de veau et cochon"
-            ],
-            [
-              "Tatin de pieds de cochon et escargots"
-            ]
-          ]
-        },
-        {
-          "title": "Plats",
-          "items": [
-            [
-              "Quenelle lyonnaise au brochet"
-            ],
-            [
-              "Andouillette de veau"
-            ],
-            [
-              "Os à moelle"
-            ],
-            [
-              "Filet de truite"
-            ],
-            [
-              "Suprême de volaille"
-            ],
-            [
-              "Casse-croûte de ris de veau",
-              "signature · +10 € au menu"
-            ]
-          ]
-        },
-        {
-          "title": "Fromages",
-          "items": [
-            [
-              "Cervelle de canut"
-            ],
-            [
-              "Faisselle"
-            ],
-            [
-              "½ Saint-Marcellin"
-            ]
-          ]
-        },
-        {
-          "title": "Desserts",
-          "items": [
-            [
-              "Tarte à la praline"
-            ],
-            [
-              "Baba au vieux rhum"
-            ],
-            [
-              "Tarte au citron meringuée"
-            ],
-            [
-              "Tarte aux poires"
-            ]
-          ]
-        }
-      ],
-      "note": "Suggestion végétarienne selon la saison. Carte susceptible d'évoluer au fil du marché.",
-      "aside": {
-        "eyebrow": "Le menu",
-        "title": "Menu des Canuts",
-        "big": "34 €",
-        "text": "À composer librement parmi toute la carte : entrée, plat, fromage ou dessert.",
-        "items": [
-          [
-            "Ardoise du midi · plat du jour",
-            "14 €"
-          ],
-          [
-            "Plat du jour + dessert",
-            "18 €"
-          ],
-          [
-            "Entrée + plat du jour",
-            "21 €"
-          ]
-        ],
-        "cta": [
-          "Réserver une table",
-          "#reserver"
-        ]
-      }
-    },
-    {
-      "kind": "gallery",
-      "eyebrow": "Galerie",
-      "title": "Le bouchon <em class=\"it\">en images</em>",
-      "photos": [
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/1-2.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/1-2.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/2-2.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/2-2.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/4-1.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/4-1.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/16.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/16.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/13-1.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/13-1.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/7-1.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/7-1.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/8-1.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/8-1.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/14-1.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/14-1.jpg"
-        },
-        {
-          "thumb": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/9-1.jpg",
-          "full": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/9-1.jpg"
-        }
-      ]
-    },
-    {
-      "kind": "banner",
-      "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/10-1.jpg",
-      "eyebrow": "Groupes & événements",
-      "title": "Un repas de groupe,<br><em>à la lyonnaise</em>",
-      "cta": [
-        "Nous contacter",
-        "#contact"
-      ]
-    },
-    {
-      "kind": "booking",
-      "id": "reserver",
-      "eyebrow": "Réservation",
-      "title": "Réservez <em class=\"it\">votre table</em>",
-      "lead": "Choisissez votre date et votre heure : la confirmation est immédiate.",
-      "url": "https://module.lafourchette.com/fr_FR/module/74508-a6279",
-      "label": "Réservation TheFork",
-      "height": 680
-    },
-    {
-      "kind": "visit",
-      "eyebrow": "Infos pratiques",
-      "title": "Nous <em class=\"it\">trouver</em>",
-      "text": "Pour les groupes et les événements, appelez-nous ou écrivez-nous.",
-      "rows": [
-        [
-          "Adresse",
-          "15 rue Claudia<br>69002 Lyon"
-        ],
-        [
-          "Horaires",
-          "Du mardi au samedi<br>12h – 14h · 19h30 – 21h30"
-        ],
-        [
-          "Téléphone",
-          "<a href=\"tel:+33478033353\">04 78 03 33 53</a>"
-        ],
-        [
-          "E-mail",
-          "<a href=\"mailto:contact@bouchondescordeliers.com\">contact@bouchondescordeliers.com</a>"
-        ]
-      ],
-      "cta": [
-        "Nous appeler",
-        "tel:+33478033353"
-      ],
-      "map_q": "15 rue Claudia, 69002 Lyon"
-    }
+   {
+    "title": "Entrées",
+    "items": [
+     [
+      "Escargots de Bourgogne en persillade",
+      "6 · 12 hors menu"
+     ],
+     [
+      "Pâté-croûte"
+     ],
+     [
+      "Œuf en meurette"
+     ],
+     [
+      "Poireaux rôtis"
+     ],
+     [
+      "Tourte de veau et cochon"
+     ],
+     [
+      "Tatin de pieds de cochon et escargots"
+     ]
+    ]
+   },
+   {
+    "title": "Plats",
+    "items": [
+     [
+      "Quenelle lyonnaise au brochet"
+     ],
+     [
+      "Andouillette de veau"
+     ],
+     [
+      "Os à moelle"
+     ],
+     [
+      "Filet de truite"
+     ],
+     [
+      "Suprême de volaille"
+     ],
+     [
+      "Casse-croûte de ris de veau",
+      "signature · +10 € au menu"
+     ]
+    ]
+   },
+   {
+    "title": "Fromages",
+    "items": [
+     [
+      "Cervelle de canut"
+     ],
+     [
+      "Faisselle"
+     ],
+     [
+      "½ Saint-Marcellin"
+     ]
+    ]
+   },
+   {
+    "title": "Desserts",
+    "items": [
+     [
+      "Tarte à la praline"
+     ],
+     [
+      "Baba au vieux rhum"
+     ],
+     [
+      "Tarte au citron meringuée"
+     ],
+     [
+      "Tarte aux poires"
+     ]
+    ]
+   }
   ],
-  "footer": {
-    "about": "Bouchon lyonnais labellisé au cœur de la Presqu'île, entre Cordeliers et Jacobins.",
-    "contact": [
-      "<a href=\"tel:+33478033353\">04 78 03 33 53</a>",
-      "<a href=\"mailto:contact@bouchondescordeliers.com\">contact@bouchondescordeliers.com</a>",
-      "15 rue Claudia, Lyon 2e"
-    ],
-    "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  "stamp": {
+   "title": "Menu des Canuts",
+   "price": "34 €",
+   "text": "Entrée, plat, fromage ou dessert, à composer librement dans toute la carte. Casse-croûte de ris de veau : supplément de 10 €."
   },
-  "logo": {
-    "src": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/logo-dark.png",
-    "height": 50
-  }
+  "note": "Suggestion végétarienne selon la saison. Escargots par 12 hors menu. Carte susceptible d'évoluer au fil du marché."
+ },
+ "cave": {
+  "title": "La cave",
+  "lead": "Une sélection de vins du Rhône, de Bourgogne et du Beaujolais, et les vins de la maison servis au verre, au quart ou au pot lyonnais.",
+  "rows": [
+   [
+    "Vins de la maison, au verre",
+    "5 à 6 €"
+   ],
+   [
+    "Au quart",
+    "9 à 10 €"
+   ],
+   [
+    "Au pot lyonnais",
+    "15 à 17 €"
+   ],
+   [
+    "Vallée du Rhône, blancs",
+    "28 à 220 €"
+   ],
+   [
+    "Vallée du Rhône, rouges",
+    "32 à 110 €"
+   ],
+   [
+    "Vallée du Rhône, magnums",
+    "65 à 120 €"
+   ],
+   [
+    "Bourgogne et Beaujolais, blancs",
+    "28 à 139 €"
+   ],
+   [
+    "Bourgogne, rouges",
+    "41 à 129 €"
+   ],
+   [
+    "Beaujolais, rouges",
+    "32 à 54 €"
+   ],
+   [
+    "Rosé, Côtes de Provence",
+    "49 €"
+   ],
+   [
+    "Champagne Haton",
+    "70 €"
+   ],
+   [
+    "Champagne Jacquesson 746, extra brut",
+    "100 €"
+   ]
+  ]
+ },
+ "booking": {
+  "title": "Réservez votre table",
+  "lead": "Choisissez le jour, l'heure et le nombre de couverts : la confirmation est immédiate.",
+  "url": "https://module.lafourchette.com/fr_FR/module/74508-a6279"
+ },
+ "groups": {
+  "title": "Groupes et événements",
+  "lead": "Réceptions privées, repas d'affaires, anniversaires : le chef compose avec vous un menu sur mesure, dans la tradition lyonnaise.",
+  "capacity": "10 à 80",
+  "capacity_label": "convives, en salle, en terrasse couverte ou au salon privatisable de l'étage",
+  "items": [
+   "Un menu personnalisé, élaboré avec le chef",
+   "Des accords avec une sélection de vins du Beaujolais et de la vallée du Rhône",
+   "Un gâteau d'anniversaire sur demande, au chocolat ou aux fruits de saison",
+   "Le salon de l'étage, privatisable pour votre groupe",
+   "Le parking des Cordeliers juste à côté"
+  ],
+  "cta": [
+   "Organiser un repas de groupe",
+   "mailto:contact@bouchondescordeliers.com?subject=Repas%20de%20groupe"
+  ],
+  "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/10-1.jpg"
+ },
+ "photos_title": "Le bouchon en images",
+ "photos": [
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/1-2.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/2-2.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/4-1.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/16.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/13-1.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/7-1.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/8-1.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/14-1.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/9-1.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/17.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/5.jpg",
+  "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/10-1.jpg"
+ ],
+ "infos": {
+  "title": "Infos pratiques",
+  "map_q": "15 rue Claudia, 69002 Lyon",
+  "rows": [
+   [
+    "Adresse",
+    "15 rue Claudia<br>69002 Lyon"
+   ],
+   [
+    "Horaires",
+    "Du mardi au samedi<br>12 h à 14 h, 19 h 30 à 21 h 30"
+   ],
+   [
+    "Téléphone",
+    "<a href=\"tel:+33478033353\">04 78 03 33 53</a>"
+   ],
+   [
+    "E-mail",
+    "<a href=\"mailto:contact@bouchondescordeliers.com\">contact@bouchondescordeliers.com</a>"
+   ],
+   [
+    "Accès",
+    "Parking des Cordeliers à côté"
+   ],
+   [
+    "Suivez-nous",
+    "<a href=\"https://www.instagram.com/bouchondescordeliers/\" target=\"_blank\" rel=\"noopener\">Instagram</a>, <a href=\"https://www.facebook.com/bouchondescordeliers/\" target=\"_blank\" rel=\"noopener\">Facebook</a>"
+   ]
+  ]
+ },
+ "footer": {
+  "about": "Bouchon lyonnais labellisé, au cœur de la Presqu'île.",
+  "contact": [
+   "<a href=\"tel:+33478033353\">04 78 03 33 53</a>",
+   "<a href=\"mailto:contact@bouchondescordeliers.com\">contact@bouchondescordeliers.com</a>",
+   "15 rue Claudia, Lyon 2e"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
 }
