@@ -23,8 +23,8 @@
       "La maison"
     ],
     [
-      "esprit",
-      "Notre cuisine"
+      "carte",
+      "La carte"
     ],
     [
       "photos",
@@ -45,8 +45,8 @@
       "#contact"
     ],
     "cta2": [
-      "Découvrir la maison",
-      "#maison"
+      "Voir la carte",
+      "#carte"
     ]
   },
   "figures": [
@@ -78,8 +78,9 @@
       "paras": [
         "Au 98 rue Mazenod, Le Bouchon des Artistes réinterprète la cuisine lyonnaise avec un parti pris assumé : respecter la tradition tout en osant la surprendre.",
         "Tout est fait maison, à partir de produits frais et locaux. Un engagement reconnu par le label Les Bouchons Lyonnais et le titre de Maître Restaurateur.",
-        "Le tout dans un cadre chaleureux, servi par une équipe qui aime recevoir."
-      ]
+        "En cuisine, le chef Guillaume Daubignard, entouré de Sacha Salzi et Alexis Laurent ; en salle, une équipe qui aime recevoir, dans un cadre chaleureux."
+      ],
+      "sign": "Chef Guillaume Daubignard"
     },
     {
       "kind": "features",
@@ -106,6 +107,156 @@
           "Beaujolais, Bourgogne et vallée du Rhône, en bouteille ou en pot."
         ]
       ]
+    },
+    {
+      "kind": "menu",
+      "id": "carte",
+      "eyebrow": "La carte d'automne",
+      "title": "À table !",
+      "lead": "Les grands classiques lyonnais et les envies de saison, à la carte ou dans le menu lyonnais.",
+      "sections": [
+        {
+          "title": "Entrées",
+          "items": [
+            [
+              "Salade lyonnaise",
+              "13 €"
+            ],
+            [
+              "Pâté en croûte du chef",
+              "17 €"
+            ],
+            [
+              "Mousseline de truite aux écrevisses",
+              "12 €"
+            ],
+            [
+              "Pressé de bœuf aux carottes",
+              "12 €"
+            ],
+            [
+              "Cromesquis de pieds de cochon, foie gras mi-cuit au porto",
+              "16 €"
+            ],
+            [
+              "Œufs en meurette",
+              "15 €"
+            ]
+          ]
+        },
+        {
+          "title": "Plats",
+          "items": [
+            [
+              "Quenelle de brochet soufflée",
+              "21 €"
+            ],
+            [
+              "Andouillette à la fraise de veau, cochon braisé",
+              "21 €"
+            ],
+            [
+              "Porcelet braisé façon Wellington",
+              "21 €"
+            ],
+            [
+              "Gratin de macaronis aux truffes et parmesan",
+              "25 €"
+            ],
+            [
+              "Filet de bar grillé",
+              "27 €"
+            ],
+            [
+              "Ris de veau aux morilles",
+              "29 €"
+            ],
+            [
+              "Filet de bœuf grillé",
+              "32 €"
+            ]
+          ]
+        },
+        {
+          "title": "Fromages",
+          "items": [
+            [
+              "Cervelle de canut",
+              "5 €"
+            ],
+            [
+              "Faisselle de Rians, crème ou coulis",
+              "5 €"
+            ],
+            [
+              "½ Saint-Marcellin de la Mère Richard",
+              "5 €"
+            ],
+            [
+              "Saint-Marcellin entier à partager",
+              "8 €"
+            ]
+          ]
+        },
+        {
+          "title": "Desserts",
+          "items": [
+            [
+              "Tarte praline",
+              "8 €"
+            ],
+            [
+              "Mi-cuit au chocolat noir",
+              "8 €"
+            ],
+            [
+              "Brunoise de poire pochée au vin rouge et aux épices",
+              "8 €"
+            ],
+            [
+              "Le macaron des artistes",
+              "10 €"
+            ],
+            [
+              "Brioche Nanterre façon pain perdu, fève de tonka",
+              "10 €"
+            ],
+            [
+              "Café un peu gourmand",
+              "10 €"
+            ],
+            [
+              "Crèmes glacées & sorbets d'artisan glacier",
+              "8 €"
+            ]
+          ]
+        }
+      ],
+      "note": "Prix TTC, service compris. Plat végétarien : gratin de macaronis aux truffes. English spoken.",
+      "aside": {
+        "eyebrow": "Le menu",
+        "title": "Menu lyonnais",
+        "big": "29 € · 33 €",
+        "text": "Entrée + plat, ou entrée + plat + dessert. Au choix : salade lyonnaise, pressé de bœuf ou mousseline de truite ; quenelle soufflée, andouillette ou porcelet Wellington ; tarte praline, poire pochée ou mi-cuit chocolat.",
+        "items": [
+          [
+            "Entrée + plat",
+            "29 €"
+          ],
+          [
+            "Entrée + plat + dessert",
+            "33 €"
+          ],
+          [
+            "Supplément café un peu gourmand",
+            "4 €"
+          ]
+        ],
+        "cta": [
+          "Réserver une table",
+          "#contact"
+        ]
+      }
     },
     {
       "kind": "gallery",
