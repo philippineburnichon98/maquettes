@@ -346,5 +346,11 @@ if __name__ == "__main__":
         d = json.load(open(p, encoding="utf-8"))
         out = ROOT / d["slug"] / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(build(d), encoding="utf-8")
+        if d.get("style"):
+            import importlib
+            sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+            mod = importlib.import_module("styles." + d["style"])
+            out.write_text(mod.render(d), encoding="utf-8")
+        else:
+            out.write_text(build(d), encoding="utf-8")
         print("écrit", out.relative_to(ROOT))
