@@ -16,6 +16,11 @@ DPE = [("A", "#009c6d", "#fff"), ("B", "#52b153", "#fff"), ("C", "#78bd76", "#14
        ("E", "#f0b40f", "#332300"), ("F", "#eb8235", "#2b1400"), ("G", "#d7221f", "#fff")]
 
 CSS = """
+.ph{display:block;width:100%%;object-fit:cover;border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ribbon);background:#fff}
+.band{height:clamp(200px,32vw,360px);margin:8px 0 30px}
+.soc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(22px,4vw,48px);align-items:center}.soc .ph{aspect-ratio:4/3}
+.tabimg{aspect-ratio:21/8;margin:6px 0 22px}.opimg{aspect-ratio:4/3;margin:0 0 16px}.zimg{max-height:260px;margin:18px 0 0;object-fit:contain;box-shadow:none;border:0;background:none}
+@media(max-width:760px){.soc{grid-template-columns:minmax(0,1fr)}.tabimg{aspect-ratio:16/9}}
 :root{--ink:%(ink)s;--paper:%(paper)s;--cote:%(cote)s;--ribbon:%(ribbon)s;--graphite:%(graphite)s;--grid:rgba(28,42,72,.07);--rule:rgba(28,42,72,.18)}
 body{background:var(--paper);color:var(--ink);font:400 1.03rem/1.62 %(body)s;
 background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px}
@@ -130,6 +135,9 @@ PLAN_SVG = """<svg viewBox="0 0 520 330" role="img" aria-label="Plan d'apparteme
 </svg>"""
 
 
+_img = lambda u, c: (f'<img class="ph {c}" src="{a(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' if u else "")
+
+
 def _tab_panels(tabs):
     btns, panels = [], []
     for i, t in enumerate(tabs):
@@ -150,7 +158,7 @@ def _tab_panels(tabs):
             steps.append(f'<div class="step"><span class="n" aria-hidden="true">{n}</span><h3><span class="sr">Étape {n} : </span>{e(s["t"])}</h3>'
                          f'{"".join(f"<p>{e(p)}</p>" for p in s.get("text", []))}{lst}</div>')
         hid = "" if i == 0 else " hidden"
-        panels.append(f'<div class="panel" role="tabpanel" id="pn-{a(t["id"])}" aria-labelledby="tb-{a(t["id"])}"{hid}><div class="track"><div class="tape" aria-hidden="true"></div>{"".join(steps)}</div></div>')
+        panels.append(f'<div class="panel" role="tabpanel" id="pn-{a(t["id"])}" aria-labelledby="tb-{a(t["id"])}"{hid}>{_img(t.get("img"), "tabimg")}<div class="track"><div class="tape" aria-hidden="true"></div>{"".join(steps)}</div></div>')
     return f'<div class="tabs" role="tablist" aria-label="Choisir votre projet">{"".join(btns)}</div>{"".join(panels)}'
 
 
@@ -190,6 +198,9 @@ def render(d):
     rows = "".join(f"<div><dt>{e(k)}</dt><dd>{v}</dd></div>" for k, v in [
         ("Téléphone", f'<a href="tel:{a(c["tel"])}">{e(c["phone"])}</a>'), ("E-mail", f'<a href="mailto:{a(c["email"])}">{e(c["email"])}</a>'),
         ("Adresse", e(c["address"])), ("Rendez-vous", e(c["hours"]))])
+    so = d.get("societe")
+    soc = (f'<section id="societe" style="padding-top:10px"><div class="w soc">{_img(so.get("img"), "")}<div><h2 class="h">{e(so["title"])}</h2>'
+           + "".join(f"<p>{e(p)}</p>" for p in so["paras"]) + '</div></div></section>') if so else ""
     f = d["footer"]
     body = f'''<header id="top"><div class="w nav"><a href="#accueil" aria-label="{a(d["brand"])}, retour en haut">{logo(d)}</a>
 <nav class="links" aria-label="Menu principal">{nav}</nav><a class="btn tel" href="tel:{a(c["tel"])}">Appeler le {e(c["phone"])}</a>
@@ -198,13 +209,15 @@ def render(d):
 <div class="w hero"><div><h1>{e(h["title"])}</h1><p class="sub">{e(h["sub"])}</p><p class="lead">{e(h["lead"])}</p>
 <div class="ctas"><a class="btn" href="{a(mail)}">Demander un devis par e-mail</a><a class="btn line" href="tel:{a(c["tel"])}">Appeler le {e(c["phone"])}</a></div></div>
 <figure class="sheet">{PLAN_SVG}<figcaption class="cart">{cart}</figcaption></figure></div>
+{('<div class="w">' + _img(h.get("img"), "band") + '</div>') if h.get("img") else ""}
+{soc}
 <section id="parcours" style="padding-top:20px"><div class="w"><h2 class="h">{e(d["parcours"]["title"])}</h2><p class="intro">{e(d["parcours"]["lead"])}</p>
 {_tab_panels(d["parcours"]["tabs"])}</div></section>
 <section id="diagnostics" style="padding-top:0"><div class="w"><h2 class="h">{e(d["diagnostics"]["title"])}</h2><p class="intro">{e(d["diagnostics"]["lead"])}</p>{_nom(d["diagnostics"]["items"])}</div></section>
 <section id="patrimoine" style="padding-top:0"><div class="w"><h2 class="h">{e(d["patrimoine"]["title"])}</h2><p class="intro">{e(d["patrimoine"]["lead"])}</p><div class="fields">{fields}</div></div></section>
 <section class="trust" id="confiance"><div class="w"><h2 class="h">{e(tr["title"])}</h2><p class="intro">{e(tr["lead"])}</p>
-<div class="cols"><div>{avis}</div><div><h3>{e(tr["refs_title"])}</h3><ul>{refs}</ul><h3 style="margin-top:28px">{e(tr["op_title"])}</h3><p>{e(tr["op_text"])}</p></div></div></div></section>
-<section id="zone"><div class="w zone"><div><h2 class="h">{e(z["title"])}</h2><p class="intro">{e(z["text"])}</p><ul class="towns">{towns}</ul></div>{map_iframe(z["map_q"])}</div></section>
+<div class="cols"><div>{avis}</div><div><h3>{e(tr["refs_title"])}</h3><ul>{refs}</ul><h3 style="margin-top:28px">{e(tr["op_title"])}</h3>{_img(tr.get("op_img"), "opimg")}<p>{e(tr["op_text"])}</p></div></div></div></section>
+<section id="zone"><div class="w zone"><div><h2 class="h">{e(z["title"])}</h2><p class="intro">{e(z["text"])}</p><ul class="towns">{towns}</ul>{_img(z.get("img"), "zimg")}</div>{map_iframe(z["map_q"])}</div></section>
 <section id="devis" style="padding-top:0"><div class="w"><div class="devis"><div><h2 class="h">{e(c["title"])}</h2><p class="intro">{e(c["text"])}</p><ol>{info}</ol>
 <div class="ctas"><a class="btn" href="{a(mail)}">Demander un devis par e-mail</a><a class="btn line" href="tel:{a(c["tel"])}">Appeler le {e(c["phone"])}</a></div></div>
 <div><h3 class="hd" style="font-size:1.6rem;margin-bottom:8px">{e(d["brand"])}</h3><dl>{rows}</dl></div></div></div></section>
