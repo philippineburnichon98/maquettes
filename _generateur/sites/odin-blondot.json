@@ -23,12 +23,20 @@
    "L'étude"
   ],
   [
+   "equipe",
+   "L'équipe"
+  ],
+  [
    "histoire",
    "Histoire"
   ],
   [
    "competences",
    "Compétences"
+  ],
+  [
+   "honoraires",
+   "Honoraires"
   ],
   [
    "informations",
@@ -50,7 +58,8 @@
   "cta2": [
    "Nos compétences",
    "#competences"
-  ]
+  ],
+  "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/slide31692799899286.jpg"
  },
  "figures": [
   [
@@ -80,7 +89,28 @@
     "Au cœur de Lyon, sur les quais du Rhône, à proximité de tous les transports en commun et parkings, l'Étude ODIN-BLONDOT et ses collaborateurs vous accueillent et vous accompagnent dans vos décisions patrimoniales.",
     "SELARL Grégoire ODIN, Edouard BLONDOT, successeurs de Me Olivier THOMAS et Me Xavier COURBON."
    ],
-   "sign": "Un office notarial à votre écoute : un notaire et son collaborateur direct à la disposition de chaque client."
+   "sign": "Un office notarial à votre écoute : un notaire et son collaborateur direct à la disposition de chaque client.",
+   "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/slide31692799899286.jpg",
+   "alt": "L'étude, quai Sarrail"
+  },
+  {
+   "kind": "team",
+   "id": "equipe",
+   "eyebrow": "L'équipe",
+   "title": "Les <em class=\"it\">notaires</em>",
+   "lead": "",
+   "people": [
+    {
+     "name": "Grégoire ODIN",
+     "role": "Successeur de Me Olivier THOMAS",
+     "img": "https://s3media.notariat.services/medias_immonot/ressources/0000013620/photo/1680276197659_1663854151135-copie.jpeg"
+    },
+    {
+     "name": "Edouard BLONDOT",
+     "role": "Successeur de Me Xavier COURBON",
+     "img": "https://s3media.notariat.services/medias_immonot/ressources/0000013620/photo/1780923957059_MatreBLONDOTEdouard.jpg"
+    }
+   ]
   },
   {
    "kind": "timeline",
@@ -121,31 +151,36 @@
      "title": "Droit de la famille",
      "paras": [
       "Union libre, PACS, mariage et remariage, divorce… Le droit de la famille ne cesse d'évoluer pour s'adapter à la société. Votre notaire vous aidera à y voir plus clair et à prendre les bonnes décisions."
-     ]
+     ],
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_famille.jpg"
     },
     {
      "title": "Le patrimoine",
      "paras": [
       "Testament, donation, partage de la succession, relations entre les héritiers… Pas toujours facile de s'y retrouver et de ne pas faire d'erreur. Votre notaire saura vous guider pour réussir au mieux la transmission de votre patrimoine et éviter les conflits familiaux."
-     ]
+     ],
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/patrimoine.jpg"
     },
     {
      "title": "Le droit immobilier",
      "paras": [
       "Que ce soit pour y vivre ou investir, l'immobilier est le placement favori des Français. Votre notaire est la personne appropriée pour vous aider à réussir votre projet de vente ou d'achat."
-     ]
+     ],
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_immobilier.jpg"
     },
     {
      "title": "Le droit de l'entreprise",
      "paras": [
       "Les notaires offrent des prestations de conseils aux chefs d'entreprise. Ils abordent le droit de l'entreprise dans tous ses aspects : choix de la forme la mieux adaptée au projet."
-     ]
+     ],
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_entreprise.jpg"
     },
     {
      "title": "L'expertise",
      "paras": [
       "L'expertise immobilière réalisée par votre notaire permet de connaître la vraie valeur d'un bien immobilier à l'instant T. Cela sera d'une grande utilité lors de sa vente, mais aussi pour le règlement d'une succession, un investissement ou vos déclarations d'impôts."
-     ]
+     ],
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/expertise.jpg"
     },
     {
      "title": "En détail",
@@ -158,6 +193,38 @@
       "conseil en patrimoine et en investissement",
       "lotissement, mise en copropriété",
       "création et liquidation de société"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "honoraires",
+   "eyebrow": "Honoraires",
+   "title": "Frais de notaire <em class=\"it\">et honoraires</em>",
+   "lead": "Les « frais de notaire » regroupent trois types de dépenses : la rémunération du notaire, les débours versés à des tiers, et les impôts et taxes reversés à l'État.",
+   "items": [
+    {
+     "title": "Émoluments",
+     "paras": [
+      "Proportionnels, selon un taux dégressif propre à la nature de l'acte, ou fixes. Ils sont réglementés (décret n° 2016-230 à l'arrêté du 25 février 2022)."
+     ]
+    },
+    {
+     "title": "Honoraires libres",
+     "paras": [
+      "Pour le domaine concurrentiel, notamment la négociation immobilière : leur tarif est fixé par chaque notaire.",
+      "Consultation : 70 € TTC. Convention d'honoraires possible pour le suivi d'un dossier, au tarif horaire ou forfaitaire."
+     ]
+    },
+    {
+     "title": "Estimer vos frais",
+     "paras": [
+      "Un simulateur de frais d'acquisition est disponible sur le site de l'étude."
+     ],
+     "link": [
+      "Accéder au simulateur",
+      "https://www.notaires-lyon6.fr/tarif-honoraires.html"
      ]
     }
    ]
@@ -437,5 +504,10 @@
    "23 quai Sarrail, 69006 Lyon"
   ],
   "legal": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon (69). SIRET 380 319 814 00022. TVA FR58 380 319 814. Médiation : Médiateur du notariat, 60 boulevard de la Tour-Maubourg, 75007 Paris, mediateurdunotariat@notaires.fr. Mentions légales et protection des données : sur le site actuel de l'étude."
+ },
+ "logo": {
+  "src": "https://photos.notariat.services/resourcessn/resources/modele/default/assets/logo/notaires.png",
+  "height": 48,
+  "bg": "#ffffff"
  }
 }
