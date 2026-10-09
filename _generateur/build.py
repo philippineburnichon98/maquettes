@@ -98,6 +98,8 @@ section{padding:clamp(80px,11vw,140px) 0}
 .menu aside h3{font-size:1.9rem;margin-bottom:6px}.menu aside .big{font-family:var(--serif);font-size:3.4rem;color:var(--gold);line-height:1.1}
 .menu aside p{opacity:.8;font-size:.9rem;margin:10px 0 18px}.menu aside ul li{border-color:rgba(255,255,255,.18)}.menu aside li small{color:rgba(255,255,255,.75)}
 @media(max-width:860px){.menu{grid-template-columns:1fr}.menu aside{position:static}}
+.booking{max-width:760px;margin:0 auto;background:#fff;border:1px solid var(--line);padding:12px}
+.booking iframe{display:block;width:100%%;border:0;background:#fff}
 .gallery{columns:3 260px;column-gap:14px}
 .gallery button{display:block;width:100%%;margin:0 0 14px;padding:0;border:0;background:var(--paper-2);cursor:zoom-in;overflow:hidden;break-inside:avoid}
 .gallery img{width:100%%;height:auto;transition:transform .6s,filter .4s}.gallery button:hover img{transform:scale(1.04);filter:brightness(.92)}
@@ -197,13 +199,25 @@ def section_menu(o):
         cols += f'<h3>{e(sec["title"])}</h3><ul>{lis}</ul>'
     a = o["aside"]
     alis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1])}</small></li>' for i in a.get("items", []))
-    cta = f'<a class="btn solid" style="margin-top:24px" href="{attr(a["cta"][1])}" target="_blank" rel="noopener">{e(a["cta"][0])}</a>' if a.get("cta") else ""
+    cta = ""
+    if a.get("cta"):
+        tgt = ' target="_blank" rel="noopener"' if a["cta"][1].startswith("http") else ""
+        cta = f'<a class="btn solid" style="margin-top:24px" href="{attr(a["cta"][1])}"{tgt}>{e(a["cta"][0])}</a>'
     note = f'<p class="note" style="text-align:left">{e(o["note"])}</p>' if o.get("note") else ""
     return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div>
 <div class="menu"><div class="col rv">{cols}{note}</div>
 <aside class="rv"><span class="eyebrow">{e(a["eyebrow"])}</span><h3>{e(a["title"])}</h3>
 <div class="big">{e(a.get("big", ""))}</div><p>{e(a.get("text", ""))}</p><ul>{alis}</ul>{cta}</aside></div></div></section>'''
+
+
+def section_booking(b):
+    """Module de réservation existant du client (TheFork, Zenchef…), intégré tel quel dans la page."""
+    h = b.get("height", 640)
+    return f'''<section id="{b.get("id", "reserver")}" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
+<h2>{b["title"]}</h2><p>{e(b.get("lead", ""))}</p></div>
+<div class="booking rv"><iframe src="{attr(b["url"])}" title="{attr(b.get("label", "Module de réservation"))}" loading="lazy" style="height:{h}px"></iframe>
+<p class="note">Le module ne s'affiche pas ? <a href="{attr(b["url"])}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Réserver dans un nouvel onglet</a></p></div></div></section>'''
 
 
 def section_gallery(g):
@@ -242,7 +256,7 @@ def build(d):
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
