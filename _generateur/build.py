@@ -399,6 +399,9 @@ def section_visit(v):
 <iframe title="Plan d'accès" loading="lazy" src="https://maps.google.com/maps?q={q}&amp;z=15&amp;output=embed"></iframe></div></div></section>'''
 
 
+ANALYTICS_JS = r"""<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
+var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>"""
+
 LOGO_JS = r"""<script>(function(){const src=document.body.dataset.logo;if(!src)return;const i=new Image();i.crossOrigin='anonymous';i.referrerPolicy='no-referrer';
 i.onload=()=>{try{const W=Math.min(240,i.naturalWidth),H=Math.max(1,Math.round(i.naturalHeight*W/i.naturalWidth)),c=document.createElement('canvas');c.width=W;c.height=H;
 const x=c.getContext('2d');x.drawImage(i,0,0,W,H);const d=x.getImageData(0,0,W,H).data;const B={};let op=0;
@@ -483,6 +486,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <button aria-label="Masquer" onclick="this.parentElement.remove()">×</button></div>
 <script>{JS}</script>
 {LOGO_JS if (d.get("logo") and d["theme"].get("logo_accent", True)) else ""}
+{ANALYTICS_JS}
 </body>
 </html>'''
 

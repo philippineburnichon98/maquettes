@@ -22,3 +22,7 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Chaque maquette reprend les couleurs du prospect : la couleur principale de son LOGO (ex. le rouge du logo) devient `theme.accent` (boutons, liens, sélection), `theme.accent2` une version un peu plus foncée ; les autres couleurs (`paper`, `ink`, `gold`, `heroem`) s'accordent avec sa charte (couleurs de son site actuel).
 - Relève les codes couleur dans le CSS du site d'origine quand c'est possible (WebFetch sur la page ou ses feuilles de style), sinon d'après le logo.
 - En plus, build.py applique automatiquement, dans le navigateur du visiteur, la couleur dominante du logo à `--accent` quand l'hébergeur de l'image l'autorise (CORS). Désactivable avec `"logo_accent": false` dans `theme` ; `"logo_vars"` choisit les variables CSS à colorer (par défaut `--accent,--accent-2`, `--cote` pour le style releve). Fonctionne aussi pour les styles (core.page). Le thème statique reste la valeur de secours : il doit donc déjà être juste.
+
+## Statistiques de visite
+- Toutes les maquettes chargent Cloudflare Web Analytics (sans cookie), ajouté automatiquement par build.py et core.page.
+- Philippine exclut ses propres visites en ouvrant une fois une maquette avec `?moi` à la fin de l'adresse (mémorisé sur ce navigateur) ; `?pasmoi` annule.

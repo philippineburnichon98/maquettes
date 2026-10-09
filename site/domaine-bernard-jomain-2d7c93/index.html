@@ -116,7 +116,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .menu .col h3{font-size:1.15rem;letter-spacing:.14em;text-transform:uppercase;font-family:var(--sans);font-weight:600;color:var(--accent);margin:34px 0 10px}
 .menu .col h3:first-child{margin-top:0}
 .menu ul{list-style:none}.menu li{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px dashed var(--line)}
-.menu li span{font-family:var(--serif);font-size:1.18rem}.menu li small{color:var(--muted);font-size:.8rem;white-space:nowrap}
+.menu li span{font-family:var(--serif);font-size:1.18rem}.menu li small{color:var(--muted);font-size:.8rem;white-space:nowrap}.menu li small:not(:empty){max-width:60%}.menu li small{white-space:normal;text-align:right}@media(min-width:861px){.menu li small{white-space:nowrap;max-width:none}}.menu li span{min-width:0}
 .menu aside{background:var(--ink);color:var(--paper);padding:38px 34px;position:sticky;top:100px}
 .menu aside h3{font-size:1.9rem;margin-bottom:6px}.menu aside .big{font-family:var(--serif);font-size:3.4rem;color:var(--gold);line-height:1.1}
 .menu aside p{opacity:.8;font-size:.9rem;margin:10px 0 18px}.menu aside ul li{border-color:rgba(255,255,255,.18)}.menu aside li small{color:rgba(255,255,255,.75)}
@@ -264,6 +264,8 @@ const q=Math.round(h/20)%18;const o=B[q]||(B[q]={n:0,r:0,g:0,b:0});o.n++;o.r+=d[
 const best=Object.values(B).sort((a,b)=>b.n-a.n)[0];if(!best||best.n<op*.03)return;
 let rgb=[best.r/best.n,best.g/best.n,best.b/best.n];const lum=a=>{const f=v=>(v/=255)<=.03928?v/12.92:((v+.055)/1.055)**2.4;return .2126*f(a[0])+.7152*f(a[1])+.0722*f(a[2])};
 let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=>'#'+a.map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
-const R=document.documentElement.style;R.setProperty('--accent',hex(rgb));R.setProperty('--accent-2',hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>
+const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>
+<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
+var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
 </body>
 </html>

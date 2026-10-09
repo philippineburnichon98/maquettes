@@ -112,5 +112,8 @@ footer.ft .legal{margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,
 <button aria-label="Masquer ce bandeau" onclick="this.parentElement.remove()">×</button></div>
 <script>const H=document.querySelector('header.top'),B=H.querySelector('.burger');B.onclick=()=>{const o=H.classList.toggle('open');B.setAttribute('aria-expanded',o)};
 H.querySelectorAll('nav a').forEach(x=>x.onclick=()=>{H.classList.remove('open');B.setAttribute('aria-expanded',false)});</script>
+
+<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
+var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
 </body>
 </html>
