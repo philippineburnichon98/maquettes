@@ -1,19 +1,25 @@
 {
  "slug": "domaine-de-la-folie-763489",
- "style": "chrono",
  "title": "Domaine de la Folie, grands vins de Bourgogne à Rully",
  "description": "Domaine familial depuis plus de trois siècles à Chagny : 13 hectares en appellation Rully, dont le 1er Cru Clos Saint-Jacques en monopole. Dégustations sur rendez-vous.",
  "brand": "Domaine de la Folie",
+ "tagline": "Grands vins de Bourgogne",
  "logo": {
   "src": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/iffc94ea801ef3f63/version/1517318236/image.png",
   "height": 54
  },
  "theme": {
-  "chalk": "#EFEEEA",
-  "ink": "#1F1E1C",
-  "stone": "#B39B6B",
-  "vine": "#47533F",
-  "muted": "#66635C"
+  "paper": "#f6f1e9",
+  "paper2": "#efe7da",
+  "ink": "#1d1815",
+  "muted": "#6b5f55",
+  "accent": "#5b1a26",
+  "accent2": "#7a2533",
+  "gold": "#b48a4e",
+  "heroem": "#e9d3b0",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap"
  },
  "nav": [
   [
@@ -26,669 +32,808 @@
   ],
   [
    "vins",
-   "Vins et spiritueux"
+   "Vins & spiritueux"
   ],
   [
    "photos",
    "Photos"
   ],
   [
-   "visite",
+   "contact",
    "Nous rendre visite"
   ]
  ],
  "hero": {
-  "title": "Domaine de la Folie",
-  "sub": "Rully, au cœur de la Bourgogne",
-  "lead": "Treize hectares de chardonnay et de pinot noir au nord de la Côte chalonnaise, transmis de génération en génération depuis plus de trois cents ans.",
+  "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/backgroundarea/i0da0860cfca090fa/version/1517316060/image.jpg",
+  "eyebrow": "Rully · Côte Chalonnaise · Depuis plus de 300 ans",
+  "title": "Rully, au cœur<br>de la <em>Bourgogne</em>",
+  "lead": "Un domaine familial transmis de génération en génération, où le chardonnay et le pinot noir expriment l'élégance et la fraîcheur de leur terroir.",
   "cta1": [
-   "Découvrir la cave",
+   "Découvrir nos vins",
    "#vins"
   ],
   "cta2": [
-   "Prendre rendez-vous",
-   "#visite"
-  ],
-  "frames": [
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/backgroundarea/i0da0860cfca090fa/version/1517316060/image.jpg",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/ib10c7daa5768ff51/version/1517476740/image.jpg",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i48d8a7e2c746397c/version/1517476740/image.jpg",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i0157c6b270b0425e/version/1517476740/image.jpg",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/if4b829124e041f62/version/1517476740/image.jpg",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i5b286d04a865d679/version/1517476740/image.jpg",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/ie5df7cca5c6007b8/version/1517476740/image.jpg"
+   "Réserver une dégustation",
+   "#contact"
   ]
  },
- "intro": {
-  "title": "La fraîcheur, signature du domaine",
-  "paras": [
-   "Situé à Chagny, au nord de la Côte chalonnaise, le domaine compte 13 hectares de vignes, essentiellement en appellation Rully, parmi les climats les plus prestigieux : le 1<sup>er</sup> Cru Clos Saint-Jacques, en monopole et vieilles vignes, ou le Clos de Bellecroix. La vue sur la Côte de Beaune lui confère un charme indéniable.",
-   "Les vins expriment l'élégance de l'appellation, la finesse du chardonnay et du pinot noir, le caractère de chaque millésime, et cette fraîcheur qui fait la signature du Domaine de la Folie.",
-   "Depuis 2010, Clémence et Baptiste Dubrulle assurent la pérennité du savoir-faire familial, en prenant le relais d'Élisabeth et Jérôme Noël-Bouton."
+ "figures": [
+  [
+   "300",
+   "ans d'histoire"
   ],
-  "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1200x10000:format=jpg/path/sff18f8473408ca27/image/i6f09663f7408a6a1/version/1517338104/image.jpg",
-  "alt": "Le domaine de la Folie"
- },
- "timeline": {
-  "title": "Cinq générations de vignerons",
-  "lead": "Le domaine appartient depuis trois siècles à la famille Noël-Bouton. Rien ne destinait pourtant ceux qui l'ont fait vivre au métier de la vigne.",
-  "items": [
-   {
-    "when": "1830–1904",
-    "who": "Étienne-Jules Marey",
-    "text": "Professeur au Collège de France, physiologiste, précurseur du cinéma, inventeur du fusil chronophotographique et du sphygmographe. Il reconstitue et met en valeur l'exploitation."
-   },
-   {
-    "when": "1860–1954",
-    "who": "Victor Bouton",
-    "text": "Artiste peintre, il dessine les étiquettes toujours utilisées, et habille parmi les premiers les rouges d'étiquettes noires."
-   },
-   {
-    "when": "1906–1994",
-    "who": "Étienne Noël-Bouton",
-    "text": "Fondateur de Primagaz, grand passionné de vin, il bâtit les caves et la cuverie."
-   },
-   {
-    "when": "Né en 1950",
-    "who": "Jérôme et Élisabeth Noël-Bouton",
-    "text": "Avocat au barreau de Paris jusqu'en 2012 et « homme de terrain », il développe le domaine avec Élisabeth, notamment à l'international. Ils créent la Cuvée Marey."
-   },
-   {
-    "when": "Depuis 2010",
-    "who": "Clémence et Baptiste Dubrulle",
-    "text": "Venus des relations presse et de l'ingénierie, ils allient le savoir-faire hérité à la volonté d'innover."
-   }
+  [
+   "13",
+   "hectares de vignes"
   ],
-  "imgs": [
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=png/path/sff18f8473408ca27/image/if33bf86259f657b7/version/1361201803/image.png",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=png/path/sff18f8473408ca27/image/i9d3fa395736d3b56/version/1517389681/image.png",
-   "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ice89bf7950cc60bd/version/1517403316/image.jpg"
+  [
+   "5<sup style=\"font-size:.5em\">e</sup>",
+   "génération"
+  ],
+  [
+   "100 %",
+   "vendanges manuelles"
   ]
- },
- "legend": {
-  "quote": "Les Chagnotins voyaient, dit-on, des lumières virevolter la nuit, et des fées danser.",
-  "text": "Le nom de « la Folie » est très ancien. Certains historiens y voient l'écho de la danse des fées, la folia. Et le marquis Bouton de Chamilly, maréchal de France sous Louis XIV, avait sa demeure à six kilomètres de Chagny."
- },
- "methods": {
-  "title": "En culture raisonnée depuis plus de quinze ans",
-  "lead": "Le domaine respecte les méthodes traditionnelles et l'environnement, à chaque étape jusqu'à la mise en bouteille.",
-  "items": [
-   [
-    "Les sols travaillés",
-    "Le travail des sols est préféré aux désherbants."
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Le domaine",
+   "title": "Une signature : <em class=\"it\">la fraîcheur</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1200x10000:format=jpg/path/sff18f8473408ca27/image/i6f09663f7408a6a1/version/1517338104/image.jpg",
+   "alt": "Le domaine de la Folie",
+   "paras": [
+    "Situé à Chagny, au nord de la Côte chalonnaise, le domaine compte 13 hectares de vignes, essentiellement en appellation Rully, parmi les climats les plus prestigieux : le 1<sup>er</sup> Cru Clos Saint-Jacques, en monopole et vieilles vignes, ou le Clos de Bellecroix. La vue sur la Côte de Beaune lui confère un charme indéniable.",
+    "Les vins expriment l'élégance de l'appellation, la finesse du chardonnay et du pinot noir, le caractère de chaque millésime, et cette fraîcheur qui fait la signature du Domaine de la Folie.",
+    "Depuis 2010, Clémence et Baptiste Dubrulle assurent la pérennité du savoir-faire familial, en prenant le relais d'Élisabeth et Jérôme Noël-Bouton."
    ],
-   [
-    "Des rendements maîtrisés",
-    "La quantité s'efface au profit de la qualité."
+   "sign": "Clémence & Baptiste Dubrulle"
+  },
+  {
+   "kind": "timeline",
+   "id": "histoire",
+   "eyebrow": "Une histoire d'hommes",
+   "title": "Cinq générations, <em class=\"it\">une même passion</em>",
+   "lead": "Le domaine appartient depuis trois siècles à la famille Noël-Bouton. Rien ne destinait pourtant ceux qui l'ont fait vivre au métier de la vigne.",
+   "items": [
+    {
+     "when": "1830–1904",
+     "who": "Étienne-Jules Marey",
+     "text": "Professeur au Collège de France, physiologiste, précurseur du cinéma, inventeur du fusil chronophotographique et du sphygmographe. Il reconstitue et met en valeur l'exploitation."
+    },
+    {
+     "when": "1860–1954",
+     "who": "Victor Bouton",
+     "text": "Artiste peintre, il dessine les étiquettes toujours utilisées, et habille parmi les premiers les rouges d'étiquettes noires."
+    },
+    {
+     "when": "1906–1994",
+     "who": "Étienne Noël-Bouton",
+     "text": "Fondateur de Primagaz, grand passionné de vin, il bâtit les caves et la cuverie."
+    },
+    {
+     "when": "Né en 1950",
+     "who": "Jérôme et Élisabeth Noël-Bouton",
+     "text": "Avocat au barreau de Paris jusqu'en 2012 et « homme de terrain », il développe le domaine avec Élisabeth, notamment à l'international. Ils créent la Cuvée Marey."
+    },
+    {
+     "when": "Depuis 2010",
+     "who": "Clémence et Baptiste Dubrulle",
+     "text": "Venus des relations presse et de l'ingénierie, ils allient le savoir-faire hérité à la volonté d'innover."
+    }
    ],
-   [
-    "La vendange à la main",
-    "En petites caisses, pour préserver l'intégrité des grappes jusqu'à la cuverie."
-   ],
-   [
-    "Une vinification attentive",
-    "Chaque étape est maîtrisée, jusqu'à la mise en bouteille."
+   "imgs": [
+    "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=png/path/sff18f8473408ca27/image/if33bf86259f657b7/version/1361201803/image.png",
+    "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=png/path/sff18f8473408ca27/image/i9d3fa395736d3b56/version/1517389681/image.png",
+    "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ice89bf7950cc60bd/version/1517403316/image.jpg"
    ]
-  ]
- },
- "wines": {
-  "title": "Vins et spiritueux",
-  "lead": "Trois Rully blancs, deux Rully rouges, deux Bourgognes et les spiritueux de la maison. Cliquez sur une famille pour filtrer.",
-  "tabs": [
-   [
-    "blanc",
-    "Rully blancs"
-   ],
-   [
-    "rouge",
-    "Rully rouges"
-   ],
-   [
-    "bourgogne",
-    "Bourgognes"
-   ],
-   [
-    "spiritueux",
-    "Spiritueux"
-   ]
-  ],
-  "items": [
-   {
-    "cat": "blanc",
-    "app": "Rully blanc",
-    "name": "Clos la Folie",
-    "mono": "Monopole",
-    "line": "Frais et fruité",
-    "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/id3d9e092bd08a6a8/version/1517578130/image.jpg",
-    "sheet": [
-     [
-      "Surface",
-      "1,96 ha"
-     ],
-     [
-      "Sol",
-      "Argilo-calcaire"
-     ],
-     [
-      "Exposition",
-      "Nord-nord-est"
-     ],
-     [
-      "Âge des vignes",
-      "40 ans en moyenne"
-     ],
-     [
-      "Vinification",
-      "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
-     ],
-     [
-      "Élevage",
-      "En cuve"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "7 ans"
-     ]
-    ]
-   },
-   {
-    "cat": "blanc",
-    "app": "Rully 1er Cru blanc",
-    "name": "Clos du Chaigne",
-    "mono": "Monopole",
-    "line": "Puissant et généreux",
-    "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i6b810f7caf182d77/version/1517578071/image.jpg",
-    "sheet": [
-     [
-      "Surface",
-      "3,26 ha"
-     ],
-     [
-      "Sol",
-      "Argilo-calcaire"
-     ],
-     [
-      "Exposition",
-      "Est"
-     ],
-     [
-      "Âge des vignes",
-      "50 ans en moyenne"
-     ],
-     [
-      "Vinification",
-      "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
-     ],
-     [
-      "Élevage",
-      "En fûts, 20 % de fûts neufs"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "10 ans"
-     ]
-    ]
-   },
-   {
-    "cat": "blanc",
-    "app": "Rully 1er Cru blanc",
-    "name": "Clos Saint-Jacques",
-    "mono": "Monopole, vieilles vignes",
-    "line": "Puissant et élégant",
-    "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i27e9488dca7a2eab/version/1517416310/image.jpg",
-    "sheet": [
-     [
-      "Surface",
-      "1,69 ha"
-     ],
-     [
-      "Sol",
-      "Argilo-calcaire"
-     ],
-     [
-      "Exposition",
-      "Est"
-     ],
-     [
-      "Âge des vignes",
-      "80 à 90 ans en moyenne"
-     ],
-     [
-      "Vinification",
-      "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
-     ],
-     [
-      "Élevage",
-      "En fûts, 20 % de fûts neufs"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "10 ans"
-     ]
-    ]
-   },
-   {
-    "cat": "rouge",
-    "noir": true,
-    "app": "Rully rouge",
-    "name": "Clos de Bellecroix",
-    "line": "Frais et croquant",
-    "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i8e8a09c8568a0cc3/version/1517579601/image.jpg",
-    "sheet": [
-     [
-      "Surface",
-      "3,18 ha"
-     ],
-     [
-      "Sol",
-      "Argilo-calcaire"
-     ],
-     [
-      "Exposition",
-      "Nord-nord-est"
-     ],
-     [
-      "Âge des vignes",
-      "50 ans en moyenne"
-     ],
-     [
-      "Vinification",
-      "100 % éraflé, macération préfermentaire, remontages et délestages, sans pigeage"
-     ],
-     [
-      "Élevage",
-      "En cuve"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "10 ans"
-     ]
-    ]
-   },
-   {
-    "cat": "rouge",
-    "noir": true,
-    "app": "Rully rouge",
-    "name": "Cuvée Marey",
-    "line": "Intense et élégant",
-    "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i7cfe56f3d7ac2e00/version/1517581341/image.jpg",
-    "sheet": [
-     [
-      "Surface",
-      "1,60 ha"
-     ],
-     [
-      "Sol",
-      "Argilo-calcaire"
-     ],
-     [
-      "Exposition",
-      "Est"
-     ],
-     [
-      "Âge des vignes",
-      "50 ans en moyenne"
-     ],
-     [
-      "Vinification",
-      "100 % éraflé, macération préfermentaire, fermentation sous claie sans pigeage, remontages"
-     ],
-     [
-      "Élevage",
-      "En fûts de chêne, 20 % de fûts neufs"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "10 ans"
-     ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "L'origine du nom",
+   "text": "Les Chagnotins voyaient, dit-on, des lumières virevolter la nuit, et des fées danser.",
+   "sub": "Le nom de « la Folie » est très ancien. Certains historiens y voient l'écho de la danse des fées, la folia. Et le marquis Bouton de Chamilly, maréchal de France sous Louis XIV, avait sa demeure à six kilomètres de Chagny."
+  },
+  {
+   "kind": "features",
+   "id": "methodes",
+   "eyebrow": "Savoir-faire & tradition",
+   "title": "Le respect du terroir, <em class=\"it\">geste après geste</em>",
+   "lead": "En culture raisonnée depuis plus de quinze ans. Le domaine respecte les méthodes traditionnelles et l'environnement, à chaque étape jusqu'à la mise en bouteille.",
+   "items": [
+    [
+     "Les sols travaillés",
+     "Le travail des sols est préféré aux désherbants."
     ],
-    "desc": "Créée par Jérôme et Élisabeth Noël-Bouton, en hommage à Étienne-Jules Marey."
-   },
-   {
-    "cat": "bourgogne",
-    "app": "Bourgogne",
-    "name": "Aligoté",
-    "line": "Frais et fruité",
-    "sheet": [
-     [
-      "Surface",
-      "0,75 ha"
-     ],
-     [
-      "Sol",
-      "Argilo-calcaire"
-     ],
-     [
-      "Exposition",
-      "Nord-nord-est"
-     ],
-     [
-      "Âge des vignes",
-      "90 ans en moyenne"
-     ],
-     [
-      "Vinification",
-      "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
-     ],
-     [
-      "Élevage",
-      "En cuve"
-     ],
-     [
-      "Service",
-      "12 à 14 °C"
-     ],
-     [
-      "Garde",
-      "4 ans"
-     ]
+    [
+     "Des rendements maîtrisés",
+     "La quantité s'efface au profit de la qualité."
+    ],
+    [
+     "La vendange à la main",
+     "En petites caisses, pour préserver l'intégrité des grappes jusqu'à la cuverie."
+    ],
+    [
+     "Une vinification attentive",
+     "Chaque étape est maîtrisée, jusqu'à la mise en bouteille."
     ]
-   },
-   {
-    "cat": "bourgogne",
-    "app": "Crémant de Bourgogne",
-    "name": "Crémant",
-    "line": "Fines bulles",
-    "desc": "Robe or brillant, bulle fine. Nez d'agrumes et de fleurs ; bouche vive, avec la finesse de la poire, une belle longueur et une touche de miel. Pour l'apéritif, les fruits de mer et les coquillages. À servir entre 7 et 9 °C."
-   },
-   {
-    "cat": "spiritueux",
-    "app": "Apéritif",
-    "name": "Ratafia",
-    "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/sff18f8473408ca27/image/id697b7be1e3a9d7d/version/1361459261/image.jpg",
-    "desc": "Un apéritif très ancien : deux tiers de moût d'aligoté, un tiers d'eau-de-vie de marc. À l'apéritif, ou au dessert avec un gâteau au chocolat ; il accompagne aussi le melon et le foie gras."
-   },
-   {
-    "cat": "spiritueux",
-    "app": "Vieille eau-de-vie de marc de Bourgogne",
-    "name": "Marc de Bourgogne",
-    "mono": "44,5 % vol.",
-    "line": "Trente ans en fûts de cognac",
-    "desc": "Élaborée à partir de la gêne, fermentée à l'abri de l'air puis distillée, notre eau-de-vie de marc vieillit trente ans dans des fûts de cognac. Un digestif exceptionnel, d'une grande finesse, rond, à la belle couleur ambrée. En demi-bouteille, bouteille et magnum."
-   },
-   {
-    "cat": "spiritueux",
-    "app": "Liqueur",
-    "name": "Liqueur de cassis",
-    "mono": "21,5 % vol.",
-    "desc": "La recette familiale de Francesca, fille d'Étienne-Jules Marey : des cassis macérés dans l'eau-de-vie de marc du domaine, quelques épices et un sirop de sucre. Un juste équilibre entre fruit et alcool. En digestif, ou avec un dessert aux fruits rouges. En demi-bouteille et en bouteille."
-   }
-  ],
-  "note": "Tous les vins blancs et rouges : travail des sols, culture raisonnée, vendanges manuelles en petites caisses.",
-  "tab_imgs": {
-   "blanc": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/iba6ed32e56ff03fd/version/1517404951/image.png",
-   "rouge": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/i9c2118d3ece16569/version/1517405813/image.png",
-   "bourgogne": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7961dd77606d85e6/version/1517579051/image.jpg",
-   "spiritueux": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7229a39368305d0b/version/1361458563/image.jpg"
-  }
- },
- "gallery": {
-  "title": "Au fil des saisons",
-  "sets": {
-   "vignes": {
-    "label": "Le domaine et les vignes",
-    "photos": [
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i48d8a7e2c746397c/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i48d8a7e2c746397c/version/1517476740/image.jpg",
-      "alt": "Taille au Clos Saint-Jacques"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ib71197f8a6ba20fb/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ib71197f8a6ba20fb/version/1517476740/image.jpg",
-      "alt": "Brûlot au Clos la Folie"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/if4b829124e041f62/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/if4b829124e041f62/version/1517476740/image.jpg",
-      "alt": "Maturité de la grappe"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ib10c7daa5768ff51/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ib10c7daa5768ff51/version/1517476740/image.jpg",
-      "alt": "Le domaine sous la neige"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i0157c6b270b0425e/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i0157c6b270b0425e/version/1517476740/image.jpg",
-      "alt": "Le domaine au début de l'été"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ie455e4e009b55ddb/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ie455e4e009b55ddb/version/1517476740/image.jpg",
-      "alt": "La Plante"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i992ea5a8526e7af1/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i992ea5a8526e7af1/version/1517476740/image.jpg",
-      "alt": "Le Clos la Folie"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ie5df7cca5c6007b8/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ie5df7cca5c6007b8/version/1517476740/image.jpg",
-      "alt": "Le Clos Marey en hiver"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/id76870cd83b782a1/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/id76870cd83b782a1/version/1517476740/image.jpg",
-      "alt": "Le domaine sous la neige"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i5b286d04a865d679/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i5b286d04a865d679/version/1517476740/image.jpg",
-      "alt": "Les fûts au rinçage"
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ib5794e68106ef994/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ib5794e68106ef994/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i6ec0f7fb52cc8693/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i6ec0f7fb52cc8693/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i0ef60a8106708e44/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i0ef60a8106708e44/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ic99bc54a4fed6247/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ic99bc54a4fed6247/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i4ef4e4520510b327/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i4ef4e4520510b327/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/idde4e00da724102f/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/idde4e00da724102f/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i6886aef118e04b0c/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i6886aef118e04b0c/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ibd6e7a89d5a5b4a3/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ibd6e7a89d5a5b4a3/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i5619c129ec1f9272/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i5619c129ec1f9272/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i7acbf1beb5390c61/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i7acbf1beb5390c61/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/iac1fe1a144f14b5c/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/iac1fe1a144f14b5c/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/if9c0faa69e6004c0/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/if9c0faa69e6004c0/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i265d03f9363e3b7e/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i265d03f9363e3b7e/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i70623f0212ba837c/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i70623f0212ba837c/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/idfccbcb5eaafd903/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/idfccbcb5eaafd903/version/1517476740/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i82709907537c95cf/version/1517476740/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i82709907537c95cf/version/1517476740/image.jpg",
-      "alt": ""
-     }
-    ]
-   },
-   "gens": {
-    "label": "Les personnes et le travail",
-    "photos": [
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i45bea5aa69112010/version/1722260498/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i45bea5aa69112010/version/1722260498/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ic3fad9e8b6119a76/version/1722260498/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ic3fad9e8b6119a76/version/1722260498/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i0e2c80aae79afe10/version/1722260498/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i0e2c80aae79afe10/version/1722260498/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i9beb593b22303d9f/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i9beb593b22303d9f/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i72c33dc6188b4a77/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i72c33dc6188b4a77/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i3c45dcb2e7d81417/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i3c45dcb2e7d81417/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ie66d04a10b44c051/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ie66d04a10b44c051/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i7e81fcdbefe791fa/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i7e81fcdbefe791fa/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i03abb1d33b2e6106/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i03abb1d33b2e6106/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/idc09e70502272a75/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/idc09e70502272a75/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/if8a2bfb798c909ed/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/if8a2bfb798c909ed/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/icf49eb6dd9fb416b/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/icf49eb6dd9fb416b/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ida63851a93dd9d64/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ida63851a93dd9d64/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i190dd3cf885989d8/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i190dd3cf885989d8/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i4b3be19363da1a8f/version/1722260494/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i4b3be19363da1a8f/version/1722260494/image.jpg",
-      "alt": ""
-     },
-     {
-      "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i5ea68b50de56e87f/version/1722260470/image.jpg",
-      "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i5ea68b50de56e87f/version/1722260470/image.jpg",
-      "alt": ""
-     }
-    ]
-   }
-  }
- },
- "visit": {
-  "title": "Dégustations sur rendez-vous",
-  "text": "Le caveau vous accueille selon nos disponibilités. Écrivez-nous ou appelez-nous pour convenir d'un moment.",
-  "email": "contact@domainedelafolie.fr",
-  "rows": [
-   [
-    "Adresse",
-    "Domaine de la Folie<br>71150 Chagny"
-   ],
-   [
-    "Téléphone",
-    "<a href=\"tel:+33385871859\">03 85 87 18 59</a><br><a href=\"tel:+33661539149\">06 61 53 91 49</a>"
-   ],
-   [
-    "E-mail",
-    "<a href=\"mailto:contact@domainedelafolie.fr\">contact@domainedelafolie.fr</a>"
    ]
-  ],
-  "map_q": "46.89476,4.74158",
-  "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i2495609504fb6289/version/1791353062/image.jpg",
-  "alt": "Le caveau de dégustation"
- },
+  },
+  {
+   "kind": "banner",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sff18f8473408ca27/image/i92011ef9dc583ead/version/1517387439/image.jpg",
+   "eyebrow": "Rully, Côte Chalonnaise",
+   "title": "Treize hectares<br><em>face à la Côte de Beaune</em>",
+   "cta": [
+    "Découvrir nos vins",
+    "#vins"
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "vins",
+   "eyebrow": "La cave",
+   "title": "Vins & Spiritueux",
+   "lead": "Trois Rully blancs, deux Rully rouges, deux Bourgognes et les spiritueux de la maison.",
+   "tabs": [
+    [
+     "blanc",
+     "Rully blancs"
+    ],
+    [
+     "rouge",
+     "Rully rouges"
+    ],
+    [
+     "bourgogne",
+     "Bourgognes"
+    ],
+    [
+     "spiritueux",
+     "Spiritueux"
+    ]
+   ],
+   "items": [
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Monopole",
+     "name": "Clos la Folie",
+     "app": "Rully blanc",
+     "desc": "Frais et fruité.",
+     "sheet": [
+      [
+       "Surface",
+       "1,96 ha"
+      ],
+      [
+       "Sol",
+       "Argilo-calcaire"
+      ],
+      [
+       "Exposition",
+       "Nord-nord-est"
+      ],
+      [
+       "Âge des vignes",
+       "40 ans en moyenne"
+      ],
+      [
+       "Vinification",
+       "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
+      ],
+      [
+       "Élevage",
+       "En cuve"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "7 ans"
+      ]
+     ],
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/id3d9e092bd08a6a8/version/1517578130/image.jpg"
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Monopole",
+     "name": "Clos du Chaigne",
+     "app": "Rully 1er Cru blanc",
+     "desc": "Puissant et généreux.",
+     "sheet": [
+      [
+       "Surface",
+       "3,26 ha"
+      ],
+      [
+       "Sol",
+       "Argilo-calcaire"
+      ],
+      [
+       "Exposition",
+       "Est"
+      ],
+      [
+       "Âge des vignes",
+       "50 ans en moyenne"
+      ],
+      [
+       "Vinification",
+       "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
+      ],
+      [
+       "Élevage",
+       "En fûts, 20 % de fûts neufs"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "10 ans"
+      ]
+     ],
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i6b810f7caf182d77/version/1517578071/image.jpg"
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Monopole, vieilles vignes",
+     "name": "Clos Saint-Jacques",
+     "app": "Rully 1er Cru blanc",
+     "desc": "Puissant et élégant.",
+     "sheet": [
+      [
+       "Surface",
+       "1,69 ha"
+      ],
+      [
+       "Sol",
+       "Argilo-calcaire"
+      ],
+      [
+       "Exposition",
+       "Est"
+      ],
+      [
+       "Âge des vignes",
+       "80 à 90 ans en moyenne"
+      ],
+      [
+       "Vinification",
+       "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
+      ],
+      [
+       "Élevage",
+       "En fûts, 20 % de fûts neufs"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "10 ans"
+      ]
+     ],
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i27e9488dca7a2eab/version/1517416310/image.jpg"
+    },
+    {
+     "cat": "rouge",
+     "color": "#7a2533",
+     "tag": "Rully rouge",
+     "name": "Clos de Bellecroix",
+     "app": "Rully rouge",
+     "desc": "Frais et croquant.",
+     "sheet": [
+      [
+       "Surface",
+       "3,18 ha"
+      ],
+      [
+       "Sol",
+       "Argilo-calcaire"
+      ],
+      [
+       "Exposition",
+       "Nord-nord-est"
+      ],
+      [
+       "Âge des vignes",
+       "50 ans en moyenne"
+      ],
+      [
+       "Vinification",
+       "100 % éraflé, macération préfermentaire, remontages et délestages, sans pigeage"
+      ],
+      [
+       "Élevage",
+       "En cuve"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "10 ans"
+      ]
+     ],
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i8e8a09c8568a0cc3/version/1517579601/image.jpg"
+    },
+    {
+     "cat": "rouge",
+     "color": "#7a2533",
+     "tag": "Rully rouge",
+     "name": "Cuvée Marey",
+     "app": "Rully rouge",
+     "desc": "Intense et élégant. Créée par Jérôme et Élisabeth Noël-Bouton, en hommage à Étienne-Jules Marey.",
+     "sheet": [
+      [
+       "Surface",
+       "1,60 ha"
+      ],
+      [
+       "Sol",
+       "Argilo-calcaire"
+      ],
+      [
+       "Exposition",
+       "Est"
+      ],
+      [
+       "Âge des vignes",
+       "50 ans en moyenne"
+      ],
+      [
+       "Vinification",
+       "100 % éraflé, macération préfermentaire, fermentation sous claie sans pigeage, remontages"
+      ],
+      [
+       "Élevage",
+       "En fûts de chêne, 20 % de fûts neufs"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "10 ans"
+      ]
+     ],
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sff18f8473408ca27/image/i7cfe56f3d7ac2e00/version/1517581341/image.jpg"
+    },
+    {
+     "cat": "bourgogne",
+     "color": "#c9b46a",
+     "tag": "Bourgogne",
+     "name": "Aligoté",
+     "app": "Bourgogne",
+     "desc": "Frais et fruité.",
+     "sheet": [
+      [
+       "Surface",
+       "0,75 ha"
+      ],
+      [
+       "Sol",
+       "Argilo-calcaire"
+      ],
+      [
+       "Exposition",
+       "Nord-nord-est"
+      ],
+      [
+       "Âge des vignes",
+       "90 ans en moyenne"
+      ],
+      [
+       "Vinification",
+       "Pressurage à basse pression, débourbage soigné, vinification sans SO₂"
+      ],
+      [
+       "Élevage",
+       "En cuve"
+      ],
+      [
+       "Service",
+       "12 à 14 °C"
+      ],
+      [
+       "Garde",
+       "4 ans"
+      ]
+     ]
+    },
+    {
+     "cat": "bourgogne",
+     "color": "#c9b46a",
+     "tag": "Crémant de Bourgogne",
+     "name": "Crémant",
+     "app": "Crémant de Bourgogne",
+     "desc": "Fines bulles. Robe or brillant, bulle fine. Nez d'agrumes et de fleurs ; bouche vive, avec la finesse de la poire, une belle longueur et une touche de miel. Pour l'apéritif, les fruits de mer et les coquillages. À servir entre 7 et 9 °C."
+    },
+    {
+     "cat": "spiritueux",
+     "color": "#a8643a",
+     "tag": "Apéritif",
+     "name": "Ratafia",
+     "app": "Apéritif",
+     "desc": "Un apéritif très ancien : deux tiers de moût d'aligoté, un tiers d'eau-de-vie de marc. À l'apéritif, ou au dessert avec un gâteau au chocolat ; il accompagne aussi le melon et le foie gras.",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/sff18f8473408ca27/image/id697b7be1e3a9d7d/version/1361459261/image.jpg"
+    },
+    {
+     "cat": "spiritueux",
+     "color": "#a8643a",
+     "tag": "44,5 % vol.",
+     "name": "Marc de Bourgogne",
+     "app": "Vieille eau-de-vie de marc de Bourgogne",
+     "desc": "Trente ans en fûts de cognac. Élaborée à partir de la gêne, fermentée à l'abri de l'air puis distillée, notre eau-de-vie de marc vieillit trente ans dans des fûts de cognac. Un digestif exceptionnel, d'une grande finesse, rond, à la belle couleur ambrée. En demi-bouteille, bouteille et magnum."
+    },
+    {
+     "cat": "spiritueux",
+     "color": "#a8643a",
+     "tag": "21,5 % vol.",
+     "name": "Liqueur de cassis",
+     "app": "Liqueur",
+     "desc": "La recette familiale de Francesca, fille d'Étienne-Jules Marey : des cassis macérés dans l'eau-de-vie de marc du domaine, quelques épices et un sirop de sucre. Un juste équilibre entre fruit et alcool. En digestif, ou avec un dessert aux fruits rouges. En demi-bouteille et en bouteille."
+    }
+   ],
+   "note": "Tous les vins blancs et rouges : travail des sols, culture raisonnée, vendanges manuelles en petites caisses."
+  },
+  {
+   "kind": "gallery",
+   "id": "familles",
+   "eyebrow": "Nos familles de vins",
+   "title": "La cave <em class=\"it\">en images</em>",
+   "photos": [
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/iba6ed32e56ff03fd/version/1517404951/image.png",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/iba6ed32e56ff03fd/version/1517404951/image.png",
+     "alt": "Rully blancs",
+     "caption": "Rully blancs"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/i9c2118d3ece16569/version/1517405813/image.png",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=png/path/sff18f8473408ca27/image/i9c2118d3ece16569/version/1517405813/image.png",
+     "alt": "Rully rouges",
+     "caption": "Rully rouges"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7961dd77606d85e6/version/1517579051/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7961dd77606d85e6/version/1517579051/image.jpg",
+     "alt": "Bourgognes",
+     "caption": "Bourgognes"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7229a39368305d0b/version/1361458563/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=400x10000:format=jpg/path/sff18f8473408ca27/image/i7229a39368305d0b/version/1361458563/image.jpg",
+     "alt": "Spiritueux",
+     "caption": "Spiritueux"
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Galerie",
+   "title": "Le domaine <em class=\"it\">et les vignes</em>",
+   "photos": [
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sff18f8473408ca27/image/ibba8765dd4f86e6c/version/1517386828/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sff18f8473408ca27/image/ibba8765dd4f86e6c/version/1517386828/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i48d8a7e2c746397c/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i48d8a7e2c746397c/version/1517476740/image.jpg",
+     "alt": "Taille au Clos Saint-Jacques",
+     "caption": "Taille au Clos Saint-Jacques"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ib71197f8a6ba20fb/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ib71197f8a6ba20fb/version/1517476740/image.jpg",
+     "alt": "Brûlot au Clos la Folie",
+     "caption": "Brûlot au Clos la Folie"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/if4b829124e041f62/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/if4b829124e041f62/version/1517476740/image.jpg",
+     "alt": "Maturité de la grappe",
+     "caption": "Maturité de la grappe"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ib10c7daa5768ff51/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ib10c7daa5768ff51/version/1517476740/image.jpg",
+     "alt": "Le domaine sous la neige",
+     "caption": "Le domaine sous la neige"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i0157c6b270b0425e/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i0157c6b270b0425e/version/1517476740/image.jpg",
+     "alt": "Le domaine au début de l'été",
+     "caption": "Le domaine au début de l'été"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ie455e4e009b55ddb/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ie455e4e009b55ddb/version/1517476740/image.jpg",
+     "alt": "La Plante",
+     "caption": "La Plante"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i992ea5a8526e7af1/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i992ea5a8526e7af1/version/1517476740/image.jpg",
+     "alt": "Le Clos la Folie",
+     "caption": "Le Clos la Folie"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ie5df7cca5c6007b8/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ie5df7cca5c6007b8/version/1517476740/image.jpg",
+     "alt": "Le Clos Marey en hiver",
+     "caption": "Le Clos Marey en hiver"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/id76870cd83b782a1/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/id76870cd83b782a1/version/1517476740/image.jpg",
+     "alt": "Le domaine sous la neige",
+     "caption": "Le domaine sous la neige"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i5b286d04a865d679/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i5b286d04a865d679/version/1517476740/image.jpg",
+     "alt": "Les fûts au rinçage",
+     "caption": "Les fûts au rinçage"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ib5794e68106ef994/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ib5794e68106ef994/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i6ec0f7fb52cc8693/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i6ec0f7fb52cc8693/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i0ef60a8106708e44/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i0ef60a8106708e44/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ic99bc54a4fed6247/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ic99bc54a4fed6247/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i4ef4e4520510b327/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i4ef4e4520510b327/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/idde4e00da724102f/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/idde4e00da724102f/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i6886aef118e04b0c/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i6886aef118e04b0c/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ibd6e7a89d5a5b4a3/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ibd6e7a89d5a5b4a3/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i5619c129ec1f9272/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i5619c129ec1f9272/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i7acbf1beb5390c61/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i7acbf1beb5390c61/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/iac1fe1a144f14b5c/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/iac1fe1a144f14b5c/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/if9c0faa69e6004c0/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/if9c0faa69e6004c0/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i265d03f9363e3b7e/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i265d03f9363e3b7e/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i70623f0212ba837c/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i70623f0212ba837c/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/idfccbcb5eaafd903/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/idfccbcb5eaafd903/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i82709907537c95cf/version/1517476740/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i82709907537c95cf/version/1517476740/image.jpg",
+     "alt": "",
+     "caption": ""
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos-gens",
+   "eyebrow": "Galerie",
+   "title": "Les personnes <em class=\"it\">et le travail</em>",
+   "photos": [
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i45bea5aa69112010/version/1722260498/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i45bea5aa69112010/version/1722260498/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ic3fad9e8b6119a76/version/1722260498/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ic3fad9e8b6119a76/version/1722260498/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i0e2c80aae79afe10/version/1722260498/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i0e2c80aae79afe10/version/1722260498/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i9beb593b22303d9f/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i9beb593b22303d9f/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i72c33dc6188b4a77/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i72c33dc6188b4a77/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i3c45dcb2e7d81417/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i3c45dcb2e7d81417/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ie66d04a10b44c051/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ie66d04a10b44c051/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i7e81fcdbefe791fa/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i7e81fcdbefe791fa/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i03abb1d33b2e6106/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i03abb1d33b2e6106/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/idc09e70502272a75/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/idc09e70502272a75/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/if8a2bfb798c909ed/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/if8a2bfb798c909ed/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/icf49eb6dd9fb416b/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/icf49eb6dd9fb416b/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/ida63851a93dd9d64/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/ida63851a93dd9d64/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i190dd3cf885989d8/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i190dd3cf885989d8/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i4b3be19363da1a8f/version/1722260494/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i4b3be19363da1a8f/version/1722260494/image.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=jpg/path/sff18f8473408ca27/image/i5ea68b50de56e87f/version/1722260470/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1600x10000:format=jpg/path/sff18f8473408ca27/image/i5ea68b50de56e87f/version/1722260470/image.jpg",
+     "alt": "",
+     "caption": ""
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=900x10000:format=jpg/path/sff18f8473408ca27/image/i2495609504fb6289/version/1791353062/image.jpg",
+   "eyebrow": "Caveau de dégustation",
+   "title": "Venez goûter le terroir<br><em>là où il naît</em>",
+   "cta": [
+    "Prendre rendez-vous",
+    "#contact"
+   ]
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Nous rendre visite",
+   "title": "Dégustations <em class=\"it\">sur rendez-vous</em>",
+   "text": "Le caveau vous accueille selon nos disponibilités. Écrivez-nous ou appelez-nous pour convenir d'un moment.",
+   "rows": [
+    [
+     "Adresse",
+     "Domaine de la Folie<br>71150 Chagny"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33385871859\">03 85 87 18 59</a><br><a href=\"tel:+33661539149\">06 61 53 91 49</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@domainedelafolie.fr\">contact@domainedelafolie.fr</a>"
+    ],
+    [
+     "Ou encore",
+     "<a href=\"mailto:domainedelafolie@sfr.fr\">domainedelafolie@sfr.fr</a>"
+    ]
+   ],
+   "cta": [
+    "Écrire au domaine",
+    "mailto:contact@domainedelafolie.fr?subject=Demande%20de%20d%C3%A9gustation"
+   ],
+   "map_q": "46.89476,4.74158"
+  }
+ ],
  "footer": {
   "about": "Grands vins de Bourgogne en appellation Rully, à Chagny.",
   "contact": [
@@ -697,9 +842,5 @@
    "71150 Chagny"
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
- },
- "bands": [
-  "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sff18f8473408ca27/image/i92011ef9dc583ead/version/1517387439/image.jpg",
-  "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sff18f8473408ca27/image/ibba8765dd4f86e6c/version/1517386828/image.jpg"
- ]
+ }
 }

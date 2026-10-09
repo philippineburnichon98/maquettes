@@ -1,30 +1,21 @@
 {
  "slug": "domaine-bernard-jomain-2d7c93",
- "style": "cellier",
- "title": "Domaine Bernard Jomain, vigneron à Charentay (Brouilly)",
+ "title": "Domaine Bernard Jomain — Vigneron à Charentay, Brouilly",
  "description": "Brouilly, Côte de Brouilly et Beaujolais-Villages vinifiés au domaine par Bernard Jomain, vigneron à Charentay. Dégustation, vente au caveau et chambre d'hôtes.",
  "brand": "Domaine Bernard Jomain",
- "logo": {
-  "src": "https://static.wixstatic.com/media/aa37fe_451e70305204451a85242ea5d53e3957~mv2.gif",
-  "height": 56,
-  "bg": "#ffffff"
- },
- "announce": {
-  "kicker": "Beaujolais nouveau 2026",
-  "title": "Notre Beaujolais nouveau 2026 arrive le jeudi 19 novembre !",
-  "text": "Ce millésime est exceptionnel mais rare : n'hésitez pas à anticiper vos commandes, il n'y en aura pas pour tout le monde…",
-  "cta": [
-   "Réserver mes bouteilles",
-   "https://commande.domainebernardjomain.com/"
-  ]
- },
+ "tagline": "Vigneron · Charentay, Beaujolais",
  "theme": {
-  "gamay": "#5A1F45",
-  "stone": "#3F5B66",
-  "blush": "#F3EAE6",
-  "ink": "#26191F",
-  "gold": "#B08A3E",
-  "muted": "#6E6168"
+  "paper": "#f5f0ea",
+  "paper2": "#ece2d6",
+  "ink": "#22131c",
+  "muted": "#6b5d64",
+  "accent": "#6b2147",
+  "accent2": "#852b59",
+  "gold": "#b3863f",
+  "heroem": "#f0c9dc",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap"
  },
  "nav": [
   [
@@ -36,8 +27,8 @@
    "Les vignes"
   ],
   [
-   "cave",
-   "La cave"
+   "vins",
+   "Nos vins"
   ],
   [
    "acheter",
@@ -61,379 +52,547 @@
   ]
  ],
  "hero": {
-  "quote": "« Le Brouilly, je suis tombé dedans lorsque j'étais petit ! »",
-  "cite": "Bernard Jomain, vigneron à Charentay depuis 1990",
-  "lead": "Brouilly, Côte de Brouilly et Beaujolais-Villages : huit hectares cultivés, vinifiés et mis en bouteille au domaine, en famille.",
-  "shop": "https://commande.domainebernardjomain.com/",
-  "img": "https://static.wixstatic.com/media/aa37fe_42245fd763054eed8a6a965eed4dc5ac~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1000,h_1250,al_c,q_85/vignes.jpg",
-  "alt": "Les vignes du domaine",
-  "caption": "Les vignes du domaine, à Charentay"
+  "img": "https://static.wixstatic.com/media/aa37fe_42245fd763054eed8a6a965eed4dc5ac~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_2000,h_1333,al_c,q_85/vignes.jpg",
+  "eyebrow": "Brouilly · Côte de Brouilly · Beaujolais-Villages",
+  "title": "Tombé dans<br>le <em>Brouilly</em>",
+  "lead": "Vigneron à Charentay depuis 1990, Bernard Jomain cultive, vinifie et met en bouteille chacun de ses vins au domaine.",
+  "cta1": [
+   "Découvrir nos vins",
+   "#vins"
+  ],
+  "cta2": [
+   "Commander en ligne",
+   "https://commande.domainebernardjomain.com/"
+  ]
  },
- "band": [
+ "figures": [
   [
-   "Caveau ouvert tous les jours",
-   "de 8 h à 20 h, sur rendez-vous"
+   "8 ha",
+   "de vignes"
   ],
   [
-   "Transport offert",
-   "dès 72 bouteilles"
+   "1990",
+   "vigneron depuis"
   ],
   [
-   "Certifié HVE",
-   "depuis 2019"
+   "HVE",
+   "certifié depuis 2019"
+  ],
+  [
+   "Or",
+   "Gamay du Monde 2023"
   ]
  ],
- "domaine": {
-  "title": "Une affaire de famille",
-  "img": "https://static.wixstatic.com/media/aa37fe_4fbe6192aa414795a9d8a001a1498742f000.jpg/v1/fit/w_1200,h_1500,q_85/domaine.jpg",
-  "alt": "Le domaine Bernard Jomain",
-  "paras": [
-   "Issu d'une lignée de vignerons, Bernard Jomain conduit le domaine depuis 1990 : 8 hectares de gamay en Brouilly, Côte de Brouilly et Beaujolais-Villages, et 50 ares de chardonnay.",
-   "Il travaille la vigne dans le plus grand respect de l'environnement, entouré de Patricia et de leurs filles Hélène et Delphine, et d'une équipe saisonnière pour la taille, les travaux d'été et les vendanges.",
-   "Tous les vins sont vinifiés, élevés, sélectionnés et mis en bouteille au domaine."
-  ],
-  "sign": "Bernard, Patricia, Hélène et Delphine"
- },
- "vignes": {
-  "title": "Le cheval plutôt que le tracteur",
-  "img": "https://static.wixstatic.com/media/aa37fe_05d37cda9b3c45369d4d2f7d3800e9b6~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/vignes.jpg",
-  "alt": "Travail du sol au cheval dans les vignes",
-  "paras": [
-   "Sur les jeunes parcelles, dont les racines ne sont pas encore remontées en surface, Bernard a repris le travail du sol à l'ancienne : au cheval, plutôt qu'au tracteur.",
-   "Résultat : une terre qui sent bon, des vers de terre reconnaissants, et un terroir qui s'exprime encore plus naturellement dans le verre.",
-   "Certaines parcelles du domaine sont ainsi travaillées au cheval depuis 2017."
-  ]
- },
- "savoirfaire": {
-  "title": "Le respect du vivant, au quotidien",
-  "items": [
-   [
-    "Haute Valeur Environnementale",
-    "Le domaine est certifié HVE depuis 2019."
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Le domaine",
+   "title": "Une affaire <em class=\"it\">de famille</em>",
+   "img": "https://static.wixstatic.com/media/aa37fe_4fbe6192aa414795a9d8a001a1498742f000.jpg/v1/fit/w_1200,h_1500,q_85/domaine.jpg",
+   "alt": "Le domaine Bernard Jomain",
+   "paras": [
+    "Issu d'une lignée de vignerons, Bernard Jomain conduit le domaine depuis 1990 : 8 hectares de gamay en Brouilly, Côte de Brouilly et Beaujolais-Villages, et 50 ares de chardonnay.",
+    "Il travaille la vigne dans le plus grand respect de l'environnement, entouré de Patricia et de leurs filles Hélène et Delphine, et d'une équipe saisonnière pour la taille, les travaux d'été et les vendanges.",
+    "Tous les vins sont vinifiés, élevés, sélectionnés et mis en bouteille au domaine."
    ],
-   [
-    "Labour au cheval",
-    "Certaines parcelles sont travaillées au cheval depuis 2017."
-   ],
-   [
-    "Élevages singuliers",
-    "Fûts de chêne de 215 litres, œuf et jarres de grès pour les cuvées d'exception."
-   ],
-   [
-    "Tout au domaine",
-    "Vinification, élevage et mise en bouteille sur place."
+   "sign": "Bernard, Patricia, Hélène & Delphine"
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Le mot du vigneron",
+   "text": "« Le Brouilly, je suis tombé dedans lorsque j'étais petit ! »",
+   "sub": "Bernard Jomain"
+  },
+  {
+   "kind": "story",
+   "id": "vignes",
+   "eyebrow": "Dans les vignes",
+   "title": "Le cheval <em class=\"it\">plutôt que le tracteur</em>",
+   "img": "https://static.wixstatic.com/media/aa37fe_05d37cda9b3c45369d4d2f7d3800e9b6~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/vignes.jpg",
+   "alt": "Travail du sol au cheval dans les vignes",
+   "paras": [
+    "Sur les jeunes parcelles, dont les racines ne sont pas encore remontées en surface, Bernard a repris le travail du sol à l'ancienne : au cheval, plutôt qu'au tracteur.",
+    "Résultat : une terre qui sent bon, des vers de terre reconnaissants, et un terroir qui s'exprime encore plus naturellement dans le verre.",
+    "Certaines parcelles du domaine sont ainsi travaillées au cheval depuis 2017."
    ]
-  ]
- },
- "cave": {
-  "title": "La cave",
-  "lead": "Seize cuvées, rangées par couleur. Choisissez une bouteille pour lire sa fiche.",
-  "shelves": [
-   [
-    "rouge",
-    "Les rouges"
-   ],
-   [
-    "blanc",
-    "Les blancs"
-   ],
-   [
-    "rose",
-    "Les rosés"
-   ],
-   [
-    "bulles",
-    "Les bulles"
+  },
+  {
+   "kind": "features",
+   "id": "savoir-faire",
+   "eyebrow": "Savoir-faire",
+   "title": "Le respect du vivant, <em class=\"it\">au quotidien</em>",
+   "lead": "Une viticulture attentive, du cep jusqu'à la bouteille.",
+   "items": [
+    [
+     "Haute Valeur Environnementale",
+     "Le domaine est certifié HVE depuis 2019."
+    ],
+    [
+     "Labour au cheval",
+     "Certaines parcelles sont travaillées au cheval depuis 2017."
+    ],
+    [
+     "Élevages singuliers",
+     "Fûts de chêne de 215 litres, œuf et jarres de grès pour les cuvées d'exception."
+    ],
+    [
+     "Tout au domaine",
+     "Vinification, élevage et mise en bouteille sur place."
+    ]
    ]
-  ],
-  "items": [
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay",
-    "name": "37° de Folie",
-    "app": "Brouilly 2023",
-    "desc": "Cuvée spéciale numérotée.",
-    "price": "20 €"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay, grès",
-    "name": "Strenaé",
-    "app": "Côte de Brouilly",
-    "desc": "Gamay sur granite profond, élevé en jarre de grès, non filtré et sans soufre ajouté : élégant, complexe, poivré et épicé.",
-    "price": "17 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_4ce4da8c9870464faf3fa99d6e54cb8c~mv2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay, fût de chêne",
-    "name": "Cuvée Bacchus",
-    "app": "Brouilly",
-    "desc": "Les plus vieilles vignes du domaine, vinifiées à l'ancienne, élevées en fûts de chêne de 215 litres, non filtré. À garder une dizaine d'années. Aussi en magnum (32 €).",
-    "medal": "Médaille d'or, Gamay du Monde 2023",
-    "price": "15 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_e098e5b5e50d4faeb5ba2dd9f0d5f184~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay",
-    "name": "Cuvée des Héritières",
-    "app": "Côte de Brouilly",
-    "desc": "Au pied de la colline de Brouilly, sur la pierre bleue volcanique, la « corne verte ». Volailles parfumées, viandes grillées, fromages ; plus âgé, viandes en sauce et gibier.",
-    "medal": "Médaille d'or, Gamay du Monde 2023",
-    "price": "11,70 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_bb620cdd7de246a8a2749e74bf3fc082~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay, vieilles vignes",
-    "name": "Cuvée des Poètes",
-    "app": "Brouilly",
-    "desc": "Vieilles vignes sur des coteaux de granite sableux et pauvres : rond, élégant et fruité, avec du corps et de la longueur. À garder au moins 5 ans. Aussi en BIB 5 L (33 €) et 10 L (62 €).",
-    "medal": "Médailles d'argent : Gamay du Monde 2021, et Vignerons Indépendants pour le millésime 2016",
-    "price": "10,70 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_dc2d8616f05f4751a7e7a0b962a2f7b5~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay, jeunes vignes",
-    "name": "Les Demoiselles",
-    "app": "Brouilly",
-    "desc": "Issue des plus jeunes vignes, dont une parcelle plantée en 2005 : frais, souple, aux arômes généreux et un brin sauvages.",
-    "medal": "Médaille d'or, Féminalise 2020",
-    "price": "9,10 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_833e143fe2974dae8f3fcfddb8cc693f~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay",
-    "name": "Copains de Vin",
-    "app": "Beaujolais-Villages 2025",
-    "desc": "",
-    "price": "9,50 €"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay",
-    "name": "Les Artistes",
-    "app": "Beaujolais-Villages rouge",
-    "desc": "Un rouge simple, plaisant et facile à boire, sur le fruit frais du raisin.",
-    "medal": "Médaille d'or, Féminalise 2021",
-    "price": "8,60 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_9fdcccca94444cd8b32a25f8573cca9e~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "rouge",
-    "color": "#6b2147",
-    "tag": "Gamay, primeur",
-    "name": "Nouveau 2026",
-    "app": "Beaujolais-Villages",
-    "desc": "Gourmand, généreux et joyeux. Arrive le jeudi 19 novembre 2026. Aussi en BIB 5 L (30 €).",
-    "price": "8 €"
-   },
-   {
-    "cat": "blanc",
-    "color": "#d9b85c",
-    "tag": "Chardonnay, grès",
-    "name": "Trifolium",
-    "app": "Beaujolais-Villages blanc",
-    "desc": "Les chardonnays des Trèfles élevés en œuf de grès : pureté, minéralité et une pointe de salinité.",
-    "price": "17 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_47ab0f77dda04cd88bd776561cb385a1~mv2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "blanc",
-    "color": "#d9b85c",
-    "tag": "Chardonnay, fût de chêne",
-    "name": "La Pièce du Père Michel",
-    "app": "Beaujolais-Villages blanc",
-    "desc": "Chardonnay sur argilo-calcaire, vigne labourée au cheval, élevé en fût de chêne : l'esprit d'un grand vin blanc.",
-    "price": "15 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_af58dbc954c844ceaff9ee169e48244a~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "blanc",
-    "color": "#d9b85c",
-    "tag": "Chardonnay",
-    "name": "Cuvée des Trèfles",
-    "app": "Beaujolais-Villages blanc",
-    "desc": "Chardonnay sur sols argilo-siliceux : un blanc fruité aux arômes complexes, pour l'apéritif, les entrées, les poissons et certains fromages.",
-    "medal": "Médaille d'argent, Chardonnay du Monde 2017 ; médaille d'or, Grands Vins du Beaujolais 2021 (millésime 2020)",
-    "price": "9,60 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_578e5e440ad84f2daec4edb5fa827f76~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "rose",
-    "color": "#e59aa8",
-    "tag": "Gamay, grès",
-    "name": "Persicus",
-    "app": "Beaujolais-Villages rosé",
-    "desc": "Élevé en jarre de grès.",
-    "price": "13 €"
-   },
-   {
-    "cat": "rose",
-    "color": "#e59aa8",
-    "tag": "Gamay",
-    "name": "Cuvée du Pêcher",
-    "app": "Beaujolais-Villages rosé",
-    "desc": "Pressurage presque immédiat et fermentation à basse température : des notes de pêche et une finale fraîche, pour les grillades et les repas d'été.",
-    "medal": "Médaille d'or, Gamay du Monde 2019",
-    "price": "8 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_8349a1ee348545cbaa227060c43c4b22~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "bulles",
-    "color": "#e6d7a8",
-    "tag": "100 % chardonnay",
-    "name": "Crémant de Bourgogne",
-    "app": "Méthode traditionnelle",
-    "desc": "Chardonnay vendangé tôt pour garder la fraîcheur, prise de mousse en bouteille. À servir à 8 °C, à l'apéritif.",
-    "price": "10,50 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_f30a90920a2e4038b44901582cde6570~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
-   },
-   {
-    "cat": "bulles",
-    "color": "#e59aa8",
-    "tag": "100 % gamay, 8 % vol.",
-    "name": "Nos Bulles d'Artistes",
-    "app": "Pétillant rosé, méthode ancestrale",
-    "desc": "Nature, ou en kir royal avec une pointe de cassis, de mûre ou de framboise. À servir entre 6 et 8 °C.",
-    "price": "8,90 €",
-    "img": "https://static.wixstatic.com/media/dfcc0a_c29f06a70a564bfcad97a8aa2014912b~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
-   }
-  ],
-  "note": "Tarifs départ cave au 1er septembre 2026. Coffret découverte de 3 bouteilles au choix. Magnums des Demoiselles, des Poètes et des Héritières selon disponibilité."
- },
- "acheter": {
-  "title": "Acheter nos vins",
-  "items": [
-   {
-    "title": "Commander en ligne",
-    "text": "Toutes nos cuvées sur la boutique du domaine, en quelques clics."
-   },
-   {
-    "title": "Au caveau",
-    "text": "À La Valette, Charentay : tous les jours, sur rendez-vous. Un mâchon peut accompagner la dégustation, sur réservation."
-   },
-   {
-    "hl": true,
-    "title": "Transport offert dès 72 bouteilles",
-    "text": "Notre conseil : groupez-vous avec vos proches, partagez, et découvrez tous nos vins livrés chez vous gratuitement.",
-    "small": "Sauf DOM-TOM et destinations concernées par la taxe montagne, îles ou arrière-pays. Pour plus de détails, nous consulter."
-   },
-   {
-    "title": "Paris et sa région",
-    "text": "Nous y passons régulièrement, ou expédions par messagerie. Contactez-nous."
-   }
-  ],
-  "pdv_title": "Où trouver nos vins",
-  "pdv": [
-   [
-    "Normandie",
-    "Dépôt à Bavent, relais à Hérouville-Saint-Clair, et le Salon des Vins de La Bouille, près de Rouen, en mars et en octobre."
-   ],
-   [
-    "Seine-et-Marne",
-    "La Cave de Nemours, 69 rue de Paris, à Nemours."
-   ],
-   [
-    "Aisne & Somme",
-    "Dépôts permanents à Droizy ou Chacrise, et à Mareuil-Caubert."
-   ],
-   [
-    "Et ailleurs",
-    "Des relais dans la Manche, les Bouches-du-Rhône, en Bretagne, en Dordogne… Appelez-nous, nous vous mettons en relation."
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/dfcc0a_573ef709ff234e75b2d8e9a878322eb8~mv2.jpg/v1/fill/w_1920,h_640,al_c,q_85/pano.jpg",
+   "eyebrow": "Brouilly, Côte de Brouilly, Beaujolais-Villages",
+   "title": "Seize cuvées,<br><em>une seule passion</em>",
+   "cta": [
+    "Découvrir nos vins",
+    "#vins"
    ]
-  ],
-  "img": "https://static.wixstatic.com/media/aa37fe_fd080c2867a148ae9817a4924a13a9d9~mv2.jpg/v1/fill/w_1600,h_600,al_c,q_85/acheter.jpg"
- },
- "chambre": {
-  "title": "Dormir au domaine",
-  "img": "https://static.wixstatic.com/media/aa37fe_3da3fa518e4943a087af0dca0313dc07~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/chambre.jpg",
-  "alt": "La chambre d'hôtes du domaine",
-  "paras": [
-   "Prolongez la visite : notre chambre d'hôtes indépendante et climatisée vous accueille au cœur des vignes.",
-   "Après la dégustation, un mâchon de charcuteries peut accompagner vos verres, sur réservation.",
-   "Tarifs et disponibilités : contactez-nous par téléphone."
-  ],
-  "img2": "https://static.wixstatic.com/media/aa37fe_88bcdec790f5425da64f4e01d8444000~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_750,al_c,q_85/chambre2.jpg"
- },
- "partage": {
-  "title": "Vos moments de partage",
-  "lead": "De la Normandie à la Belgique, nos vins accompagnent vos plus beaux moments.",
-  "photos": [
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_8346caa2719d49cba7a6f89962843e07~mv2.jpeg/v1/fit/w_900,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_8346caa2719d49cba7a6f89962843e07~mv2.jpeg/v1/fit/w_1800,h_1800,q_85/p.jpg",
-    "caption": "En Normandie, un jour de pluie…",
-    "alt": "En Normandie, un jour de pluie…"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_30946e7df7e143e98a6e6f5832cb749a~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_30946e7df7e143e98a6e6f5832cb749a~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
-    "caption": "Chez Guillaume, au Jeu de quilles à Lyon",
-    "alt": "Chez Guillaume, au Jeu de quilles à Lyon"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_37dd44cb7be94d20b47dab179b36032d~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_37dd44cb7be94d20b47dab179b36032d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
-    "caption": "À la tienne Sylvain… et vive les Bretons !",
-    "alt": "À la tienne Sylvain… et vive les Bretons !"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_837ccd37799c4c2a828c1ea4ca88336d~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_837ccd37799c4c2a828c1ea4ca88336d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
-    "caption": "Salon Vins et Gastronomie à Sainte-Orse, avec la marraine Céline Géraud",
-    "alt": "Salon Vins et Gastronomie à Sainte-Orse, avec la marraine Céline Géraud"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_d44693c511e54da8b51a1c7449be0fa1~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_d44693c511e54da8b51a1c7449be0fa1~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
-    "caption": "Un dimanche matin en Belgique…",
-    "alt": "Un dimanche matin en Belgique…"
-   }
-  ]
- },
- "contact": {
-  "title": "Venez déguster au caveau",
-  "text": "Le caveau est ouvert tous les jours de 8 h à 20 h, sur rendez-vous.",
-  "rows": [
-   [
-    "Adresse",
-    "La Valette<br>69220 Charentay"
+  },
+  {
+   "kind": "cards",
+   "id": "vins",
+   "eyebrow": "La cave",
+   "title": "Nos vins",
+   "lead": "Du Beaujolais-Villages gourmand aux crus de Brouilly élevés en grès.",
+   "tabs": [
+    [
+     "rouge",
+     "Rouges"
+    ],
+    [
+     "blanc",
+     "Blancs"
+    ],
+    [
+     "rose",
+     "Rosés"
+    ],
+    [
+     "bulles",
+     "Bulles"
+    ]
    ],
-   [
-    "Horaires",
-    "Tous les jours, 8 h à 20 h,<br>sur rendez-vous"
+   "items": [
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay",
+     "name": "37° de Folie",
+     "app": "Brouilly 2023",
+     "desc": "Cuvée spéciale numérotée.",
+     "price": "20 €"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay, grès",
+     "name": "Strenaé",
+     "app": "Côte de Brouilly",
+     "desc": "Gamay sur granite profond, élevé en jarre de grès, non filtré et sans soufre ajouté : élégant, complexe, poivré et épicé.",
+     "price": "17 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_4ce4da8c9870464faf3fa99d6e54cb8c~mv2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay, fût de chêne",
+     "name": "Cuvée Bacchus",
+     "app": "Brouilly",
+     "desc": "Les plus vieilles vignes du domaine, vinifiées à l'ancienne, élevées en fûts de chêne de 215 litres, non filtré. À garder une dizaine d'années. Aussi en magnum (32 €).",
+     "medal": "Médaille d'or, Gamay du Monde 2023",
+     "price": "15 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_e098e5b5e50d4faeb5ba2dd9f0d5f184~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay",
+     "name": "Cuvée des Héritières",
+     "app": "Côte de Brouilly",
+     "desc": "Au pied de la colline de Brouilly, sur la pierre bleue volcanique, la « corne verte ». Volailles parfumées, viandes grillées, fromages ; plus âgé, viandes en sauce et gibier.",
+     "medal": "Médaille d'or, Gamay du Monde 2023",
+     "price": "11,70 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_bb620cdd7de246a8a2749e74bf3fc082~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay, vieilles vignes",
+     "name": "Cuvée des Poètes",
+     "app": "Brouilly",
+     "desc": "Vieilles vignes sur des coteaux de granite sableux et pauvres : rond, élégant et fruité, avec du corps et de la longueur. À garder au moins 5 ans. Aussi en BIB 5 L (33 €) et 10 L (62 €).",
+     "medal": "Médailles d'argent : Gamay du Monde 2021, et Vignerons Indépendants pour le millésime 2016",
+     "price": "10,70 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_dc2d8616f05f4751a7e7a0b962a2f7b5~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay, jeunes vignes",
+     "name": "Les Demoiselles",
+     "app": "Brouilly",
+     "desc": "Issue des plus jeunes vignes, dont une parcelle plantée en 2005 : frais, souple, aux arômes généreux et un brin sauvages.",
+     "medal": "Médaille d'or, Féminalise 2020",
+     "price": "9,10 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_833e143fe2974dae8f3fcfddb8cc693f~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay",
+     "name": "Copains de Vin",
+     "app": "Beaujolais-Villages 2025",
+     "desc": "",
+     "price": "9,50 €"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay",
+     "name": "Les Artistes",
+     "app": "Beaujolais-Villages rouge",
+     "desc": "Un rouge simple, plaisant et facile à boire, sur le fruit frais du raisin.",
+     "medal": "Médaille d'or, Féminalise 2021",
+     "price": "8,60 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_9fdcccca94444cd8b32a25f8573cca9e~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6b2147",
+     "tag": "Gamay, primeur",
+     "name": "Nouveau 2026",
+     "app": "Beaujolais-Villages",
+     "desc": "Gourmand, généreux et joyeux. Arrive le jeudi 19 novembre 2026. Aussi en BIB 5 L (30 €).",
+     "price": "8 €"
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Chardonnay, grès",
+     "name": "Trifolium",
+     "app": "Beaujolais-Villages blanc",
+     "desc": "Les chardonnays des Trèfles élevés en œuf de grès : pureté, minéralité et une pointe de salinité.",
+     "price": "17 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_47ab0f77dda04cd88bd776561cb385a1~mv2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Chardonnay, fût de chêne",
+     "name": "La Pièce du Père Michel",
+     "app": "Beaujolais-Villages blanc",
+     "desc": "Chardonnay sur argilo-calcaire, vigne labourée au cheval, élevé en fût de chêne : l'esprit d'un grand vin blanc.",
+     "price": "15 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_af58dbc954c844ceaff9ee169e48244a~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Chardonnay",
+     "name": "Cuvée des Trèfles",
+     "app": "Beaujolais-Villages blanc",
+     "desc": "Chardonnay sur sols argilo-siliceux : un blanc fruité aux arômes complexes, pour l'apéritif, les entrées, les poissons et certains fromages.",
+     "medal": "Médaille d'argent, Chardonnay du Monde 2017 ; médaille d'or, Grands Vins du Beaujolais 2021 (millésime 2020)",
+     "price": "9,60 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_578e5e440ad84f2daec4edb5fa827f76~mv2.png/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "rose",
+     "color": "#e59aa8",
+     "tag": "Gamay, grès",
+     "name": "Persicus",
+     "app": "Beaujolais-Villages rosé",
+     "desc": "Élevé en jarre de grès.",
+     "price": "13 €"
+    },
+    {
+     "cat": "rose",
+     "color": "#e59aa8",
+     "tag": "Gamay",
+     "name": "Cuvée du Pêcher",
+     "app": "Beaujolais-Villages rosé",
+     "desc": "Pressurage presque immédiat et fermentation à basse température : des notes de pêche et une finale fraîche, pour les grillades et les repas d'été.",
+     "medal": "Médaille d'or, Gamay du Monde 2019",
+     "price": "8 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_8349a1ee348545cbaa227060c43c4b22~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "bulles",
+     "color": "#e6d7a8",
+     "tag": "100 % chardonnay",
+     "name": "Crémant de Bourgogne",
+     "app": "Méthode traditionnelle",
+     "desc": "Chardonnay vendangé tôt pour garder la fraîcheur, prise de mousse en bouteille. À servir à 8 °C, à l'apéritif.",
+     "price": "10,50 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_f30a90920a2e4038b44901582cde6570~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
+    },
+    {
+     "cat": "bulles",
+     "color": "#e59aa8",
+     "tag": "100 % gamay, 8 % vol.",
+     "name": "Nos Bulles d'Artistes",
+     "app": "Pétillant rosé, méthode ancestrale",
+     "desc": "Nature, ou en kir royal avec une pointe de cassis, de mûre ou de framboise. À servir entre 6 et 8 °C.",
+     "price": "8,90 €",
+     "img": "https://static.wixstatic.com/media/dfcc0a_c29f06a70a564bfcad97a8aa2014912b~mv2_d_1299_4134_s_2.jpg/v1/fit/w_400,h_800,q_90/bouteille.png"
+    }
    ],
-   [
-    "Téléphone",
-    "<a href=\"tel:+33474034760\">04 74 03 47 60</a><br><a href=\"tel:+33680309668\">06 80 30 96 68</a>"
-   ],
-   [
-    "Boutique",
-    "<a href=\"https://commande.domainebernardjomain.com/\" target=\"_blank\" rel=\"noopener\">Commander en ligne</a>"
-   ],
-   [
-    "Livraison",
-    "Transport offert dès 72 bouteilles"
+   "note": "Tarifs départ cave au 1er septembre 2026. Coffret découverte de 3 bouteilles au choix. Transport offert dès 72 bouteilles."
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/aa37fe_fd080c2867a148ae9817a4924a13a9d9~mv2.jpg/v1/fill/w_1600,h_600,al_c,q_85/acheter.jpg",
+   "eyebrow": "Transport offert dès 72 bouteilles",
+   "title": "Groupez-vous,<br><em>partagez</em>",
+   "cta": [
+    "Commander en ligne",
+    "https://commande.domainebernardjomain.com/"
    ]
-  ],
-  "cta": [
-   "Appeler le domaine",
-   "tel:+33680309668"
-  ],
-  "map_q": "Domaine Bernard Jomain, Charentay"
- },
+  },
+  {
+   "kind": "features",
+   "id": "acheter",
+   "eyebrow": "Acheter nos vins",
+   "title": "Du caveau <em class=\"it\">à votre table</em>",
+   "lead": "Commandez en ligne, passez au caveau, ou faites-vous livrer.",
+   "items": [
+    [
+     "Commander en ligne",
+     "Toutes nos cuvées sur la boutique du domaine, en quelques clics."
+    ],
+    [
+     "Au caveau",
+     "À La Valette, Charentay : tous les jours, sur rendez-vous."
+    ],
+    [
+     "Transport offert dès 72 bouteilles",
+     "Notre conseil : groupez-vous avec vos proches, partagez, et découvrez tous nos vins livrés chez vous gratuitement. Sauf DOM-TOM et destinations concernées par la taxe montagne, îles ou arrière-pays : nous consulter."
+    ],
+    [
+     "Paris et sa région",
+     "Nous y passons régulièrement, ou expédions par messagerie. Contactez-nous."
+    ]
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "points-de-vente",
+   "eyebrow": "Points de vente",
+   "title": "Où trouver <em class=\"it\">nos vins</em>",
+   "dark": true,
+   "lead": "Nos vins voyagent : dépôts, cavistes et relais un peu partout en France.",
+   "items": [
+    [
+     "Normandie",
+     "Dépôt à Bavent, relais à Hérouville-Saint-Clair, et le Salon des Vins de La Bouille, près de Rouen, en mars et en octobre."
+    ],
+    [
+     "Seine-et-Marne",
+     "La Cave de Nemours, 69 rue de Paris, à Nemours."
+    ],
+    [
+     "Aisne & Somme",
+     "Dépôts permanents à Droizy ou Chacrise, et à Mareuil-Caubert."
+    ],
+    [
+     "Et ailleurs",
+     "Des relais dans la Manche, les Bouches-du-Rhône, en Bretagne, en Dordogne… Appelez-nous, nous vous mettons en relation."
+    ]
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "actualites",
+   "eyebrow": "Actualités",
+   "title": "Les nouvelles <em class=\"it\">du domaine</em>",
+   "lead": "Les nouvelles du domaine, les médailles et la presse.",
+   "items": [
+    [
+     "Une médaille d'argent pour la Cuvée des Poètes",
+     "Notre Brouilly 2016 « Cuvée des Poètes » a été récompensé par une médaille d'argent au concours des Vignerons Indépendants."
+    ],
+    [
+     "C'est juste un vin de vigneron…",
+     ""
+    ],
+    [
+     "Passionnément",
+     ""
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "presse",
+   "eyebrow": "Distinctions et presse",
+   "title": "Ils parlent <em class=\"it\">de nos vins</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_a3abfcbc43504c55ac1849ce67306b08~mv2.png/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_a3abfcbc43504c55ac1849ce67306b08~mv2.png/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "La Cuvée Bacchus dans le magazine Elle à table",
+     "caption": "La Cuvée Bacchus dans le magazine Elle à table"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_f72d060fab07465a89af38513496a255~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_f72d060fab07465a89af38513496a255~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "Diplôme, médaille d'or pour le blanc (2021)",
+     "caption": "Diplôme, médaille d'or pour le blanc (2021)"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_344e4147f973406781d9388ff60d3399~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_344e4147f973406781d9388ff60d3399~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "Diplôme, Brouilly Cuvée des Poètes (2021)",
+     "caption": "Diplôme, Brouilly Cuvée des Poètes (2021)"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/aa37fe_a27a27fc5afd4d4f85131279f0930b02~mv2_d_10200_14039_s_6_4_3.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/aa37fe_a27a27fc5afd4d4f85131279f0930b02~mv2_d_10200_14039_s_6_4_3.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "Cuvée Bacchus, concours de Mâcon 2019",
+     "caption": "Cuvée Bacchus, concours de Mâcon 2019"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/aa37fe_9c1c3684c91b4e43bb35396ef0f6eb4d~mv2_d_5100_7019_s_4_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/aa37fe_9c1c3684c91b4e43bb35396ef0f6eb4d~mv2_d_5100_7019_s_4_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "Féminalise 2019",
+     "caption": "Féminalise 2019"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_18b5fea66e0c413fa42cef21a833eb4a~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_18b5fea66e0c413fa42cef21a833eb4a~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/aa37fe_8f0a80a3f5464e918cb893a901491693~mv2_d_4921_6959_s_4_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/aa37fe_8f0a80a3f5464e918cb893a901491693~mv2_d_4921_6959_s_4_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/aa37fe_a97e233c22774ffebde69d591f112d71~mv2_d_2233_5385_s_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/aa37fe_a97e233c22774ffebde69d591f112d71~mv2_d_2233_5385_s_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/aa37fe_59e68b9eafaf4bdb809b2c5ebbfb810a~mv2_d_2363_2722_s_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/aa37fe_59e68b9eafaf4bdb809b2c5ebbfb810a~mv2_d_2363_2722_s_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
+     "alt": "",
+     "caption": ""
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "chambre",
+   "eyebrow": "Chambre d'hôtes",
+   "title": "Dormir <em class=\"it\">au domaine</em>",
+   "img": "https://static.wixstatic.com/media/aa37fe_3da3fa518e4943a087af0dca0313dc07~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/chambre.jpg",
+   "alt": "La chambre d'hôtes du domaine",
+   "paras": [
+    "Prolongez la visite : notre chambre d'hôtes indépendante et climatisée vous accueille au cœur des vignes.",
+    "Après la dégustation, un mâchon de charcuteries peut accompagner vos verres, sur réservation.",
+    "Tarifs et disponibilités : contactez-nous par téléphone."
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "chambre-photos",
+   "eyebrow": "Chambre d'hôtes",
+   "title": "La chambre <em class=\"it\">en images</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/aa37fe_3da3fa518e4943a087af0dca0313dc07~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/chambre.jpg",
+     "full": "https://static.wixstatic.com/media/aa37fe_3da3fa518e4943a087af0dca0313dc07~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_1500,al_c,q_85/chambre.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/aa37fe_88bcdec790f5425da64f4e01d8444000~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_750,al_c,q_85/chambre2.jpg",
+     "full": "https://static.wixstatic.com/media/aa37fe_88bcdec790f5425da64f4e01d8444000~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1200,h_750,al_c,q_85/chambre2.jpg",
+     "alt": "",
+     "caption": ""
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "partage",
+   "eyebrow": "Vos moments de partage",
+   "title": "Le Brouilly, <em class=\"it\">ça se partage</em>",
+   "lead": "De la Normandie à la Belgique, nos vins accompagnent vos plus beaux moments.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_8346caa2719d49cba7a6f89962843e07~mv2.jpeg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_8346caa2719d49cba7a6f89962843e07~mv2.jpeg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+     "caption": "En Normandie, un jour de pluie…",
+     "alt": "En Normandie, un jour de pluie…"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_30946e7df7e143e98a6e6f5832cb749a~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_30946e7df7e143e98a6e6f5832cb749a~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+     "caption": "Chez Guillaume, au Jeu de quilles à Lyon",
+     "alt": "Chez Guillaume, au Jeu de quilles à Lyon"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_37dd44cb7be94d20b47dab179b36032d~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_37dd44cb7be94d20b47dab179b36032d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+     "caption": "À la tienne Sylvain… et vive les Bretons !",
+     "alt": "À la tienne Sylvain… et vive les Bretons !"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_837ccd37799c4c2a828c1ea4ca88336d~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_837ccd37799c4c2a828c1ea4ca88336d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+     "caption": "Salon Vins et Gastronomie à Sainte-Orse, avec la marraine Céline Géraud",
+     "alt": "Salon Vins et Gastronomie à Sainte-Orse, avec la marraine Céline Géraud"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/dfcc0a_d44693c511e54da8b51a1c7449be0fa1~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/dfcc0a_d44693c511e54da8b51a1c7449be0fa1~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+     "caption": "Un dimanche matin en Belgique…",
+     "alt": "Un dimanche matin en Belgique…"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Nous rendre visite",
+   "title": "Dégustation <em class=\"it\">au caveau</em>",
+   "text": "Le caveau est ouvert tous les jours de 8h à 20h, sur rendez-vous. Mâchon sur réservation.",
+   "rows": [
+    [
+     "Adresse",
+     "La Valette<br>69220 Charentay"
+    ],
+    [
+     "Horaires",
+     "Tous les jours, 8h – 20h<br>sur rendez-vous"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474034760\">04 74 03 47 60</a><br><a href=\"tel:+33680309668\">06 80 30 96 68</a>"
+    ],
+    [
+     "Boutique",
+     "<a href=\"https://commande.domainebernardjomain.com/\" target=\"_blank\" rel=\"noopener\">Commander en ligne</a>"
+    ],
+    [
+     "Livraison",
+     "Transport offert dès 72 bouteilles"
+    ]
+   ],
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33680309668"
+   ],
+   "map_q": "Domaine Bernard Jomain, Charentay"
+  }
+ ],
  "footer": {
   "about": "Vigneron à Charentay, au pied du mont Brouilly, au cœur du Beaujolais.",
   "contact": [
@@ -443,70 +602,18 @@
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
  },
- "pano": "https://static.wixstatic.com/media/dfcc0a_573ef709ff234e75b2d8e9a878322eb8~mv2.jpg/v1/fill/w_1920,h_640,al_c,q_85/pano.jpg",
- "actus": {
-  "title": "Actualités et distinctions",
-  "lead": "Les nouvelles du domaine, les médailles et la presse.",
-  "items": [
-   {
-    "title": "Une médaille d'argent pour la Cuvée des Poètes",
-    "text": "Notre Brouilly 2016 « Cuvée des Poètes » a été récompensé par une médaille d'argent au concours des Vignerons Indépendants."
-   },
-   {
-    "title": "C'est juste un vin de vigneron…",
-    "text": ""
-   },
-   {
-    "title": "Passionnément",
-    "text": ""
-   }
-  ],
-  "photos": [
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_a3abfcbc43504c55ac1849ce67306b08~mv2.png/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_a3abfcbc43504c55ac1849ce67306b08~mv2.png/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": "La Cuvée Bacchus dans le magazine Elle à table"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_f72d060fab07465a89af38513496a255~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_f72d060fab07465a89af38513496a255~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": "Diplôme, médaille d'or pour le blanc (2021)"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_344e4147f973406781d9388ff60d3399~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_344e4147f973406781d9388ff60d3399~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": "Diplôme, Brouilly Cuvée des Poètes (2021)"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/aa37fe_a27a27fc5afd4d4f85131279f0930b02~mv2_d_10200_14039_s_6_4_3.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/aa37fe_a27a27fc5afd4d4f85131279f0930b02~mv2_d_10200_14039_s_6_4_3.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": "Cuvée Bacchus, concours de Mâcon 2019"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/aa37fe_9c1c3684c91b4e43bb35396ef0f6eb4d~mv2_d_5100_7019_s_4_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/aa37fe_9c1c3684c91b4e43bb35396ef0f6eb4d~mv2_d_5100_7019_s_4_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": "Féminalise 2019"
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/dfcc0a_18b5fea66e0c413fa42cef21a833eb4a~mv2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/dfcc0a_18b5fea66e0c413fa42cef21a833eb4a~mv2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": ""
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/aa37fe_8f0a80a3f5464e918cb893a901491693~mv2_d_4921_6959_s_4_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/aa37fe_8f0a80a3f5464e918cb893a901491693~mv2_d_4921_6959_s_4_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": ""
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/aa37fe_a97e233c22774ffebde69d591f112d71~mv2_d_2233_5385_s_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/aa37fe_a97e233c22774ffebde69d591f112d71~mv2_d_2233_5385_s_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": ""
-   },
-   {
-    "thumb": "https://static.wixstatic.com/media/aa37fe_59e68b9eafaf4bdb809b2c5ebbfb810a~mv2_d_2363_2722_s_2.jpg/v1/fit/w_700,h_900,q_85/p.jpg",
-    "full": "https://static.wixstatic.com/media/aa37fe_59e68b9eafaf4bdb809b2c5ebbfb810a~mv2_d_2363_2722_s_2.jpg/v1/fit/w_1600,h_2000,q_85/p.jpg",
-    "caption": ""
-   }
+ "logo": {
+  "src": "https://static.wixstatic.com/media/aa37fe_451e70305204451a85242ea5d53e3957~mv2.gif",
+  "height": 56,
+  "bg": "#ffffff"
+ },
+ "announce": {
+  "eyebrow": "Beaujolais nouveau 2026",
+  "title": "Notre Beaujolais nouveau 2026 arrive le jeudi 19 novembre !",
+  "text": "Ce millésime est exceptionnel mais rare : n'hésitez pas à anticiper vos commandes, il n'y en aura pas pour tout le monde…",
+  "cta": [
+   "Réserver mes bouteilles",
+   "https://commande.domainebernardjomain.com/"
   ]
  }
 }

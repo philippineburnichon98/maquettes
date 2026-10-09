@@ -42,10 +42,12 @@ header.haslogo{background:color-mix(in srgb,var(--paper) 95%%,transparent);backd
 .flogo{display:inline-block;background:var(--paper);padding:10px 14px;border-radius:6px}.flogo img{display:block;width:auto;max-width:240px}
 .logo small{display:block;font-family:var(--sans);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:6px}
 .links{display:flex;gap:32px;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
-.links a{position:relative;padding:6px 0}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%%}
+.links a{position:relative;padding:6px 0;white-space:nowrap}.logo{flex-shrink:0;margin-right:24px}@media(max-width:1280px){.links{gap:20px;font-size:.7rem;letter-spacing:.1em}}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%%}
 .burger{display:none;background:none;border:0;color:inherit;cursor:pointer;width:32px;height:32px}.burger span{display:block;height:1px;background:currentColor;margin:7px 0}
 @media(max-width:860px){.links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(-130%%);transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
 .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.open .links{transform:none}header.open{background:var(--paper);color:var(--ink)}.burger{display:block}}
+@media(min-width:861px) and (max-width:1180px){header.many .links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(-130%%);transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+header.many .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.many.open .links{transform:none}header.many.open{background:var(--paper);color:var(--ink)}header.many .burger{display:block}}
 .hero{position:relative;min-height:100svh;display:grid;place-items:end start;color:#fff;overflow:hidden;background:#222 center/cover}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%%,rgba(0,0,0,.2) 30%%,rgba(0,0,0,.55) 60%%,rgba(0,0,0,.82) 100%%)}
 .hero .wrap{position:relative;padding-bottom:12vh;width:100%%}
@@ -109,6 +111,16 @@ section{padding:clamp(80px,11vw,140px) 0}
 .rform label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;color:var(--muted)}
 .rform input,.rform select,.rform textarea{font:inherit;color:var(--ink);padding:11px 12px;border:1px solid var(--line);background:var(--paper)}
 @media(max-width:760px){.resa{grid-template-columns:minmax(0,1fr)}.rform{grid-template-columns:minmax(0,1fr)}}
+.card dl.sheet{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-size:.8rem;margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.card dl.sheet dt{color:var(--muted)}.card dl.sheet dd{margin:0}
+.menu.solo{grid-template-columns:minmax(0,760px);justify-content:center}
+.tl{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.25);margin-top:50px}
+.tl li{padding:22px 20px 0 0;position:relative}.tl li::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%%;background:var(--gold)}
+.tl time{font-family:var(--serif);color:var(--gold);font-size:1.1rem}.tl h3{font-size:1.3rem;margin:6px 0 10px;color:#fff}.tl p{font-size:.88rem;opacity:.72}
+@media(max-width:960px){.tl{grid-template-columns:1fr;border-top:0;border-left:1px solid rgba(255,255,255,.25)}.tl li{padding:0 0 30px 26px}.tl li::before{top:8px;left:-5px}}
+.tlimgs{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}.tlimgs img{height:130px;width:auto;object-fit:contain}
+.hero .hv{position:absolute;inset:0;width:100%%;height:100%%;object-fit:cover}.hero::before{z-index:1}.hero .wrap{z-index:2}
+@media(prefers-reduced-motion:reduce){.hero .hv{display:none}}
 .card.hide{display:none}.badge{position:absolute;top:14px;right:14px;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;background:var(--gold);color:#fff;padding:5px 9px}
 .note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:26px}
 .menu{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(30px,5vw,70px);align-items:start}
@@ -222,7 +234,7 @@ def section_cards(o):
         medal = f'<div class="medal">{e(c["medal"])}</div>' if c.get("medal") else ""
         cards.append(f'''<article class="card" data-cat="{c["cat"]}" style="--c:{c["color"]}">{badge}{img}
 <span class="tag">{e(c["tag"])}</span><h3>{e(c["name"])}</h3><div class="app">{e(c["app"])}</div>
-<p>{e(c.get("desc", ""))}</p>{medal}{price}</article>''')
+<p>{e(c.get("desc", ""))}</p>{('<dl class="sheet">' + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in c["sheet"]) + "</dl>") if c.get("sheet") else ""}{medal}{price}</article>''')
     note = f'<p class="note">{e(o["note"])}</p>' if o.get("note") else ""
     return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="tabs" role="group">{tabs}</div>
@@ -234,7 +246,11 @@ def section_menu(o):
     for sec in o["sections"]:
         lis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1]) if len(i) > 1 else ""}</small></li>' for i in sec["items"])
         cols += f'<h3>{e(sec["title"])}</h3><ul>{lis}</ul>'
-    a = o["aside"]
+    a = o.get("aside")
+    if not a:
+        note = f'<p class="note" style="text-align:left">{e(o["note"])}</p>' if o.get("note") else ""
+        return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
+<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="menu solo"><div class="col rv">{cols}{note}</div></div></div></section>'''
     alis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1])}</small></li>' for i in a.get("items", []))
     cta = ""
     if a.get("cta"):
@@ -286,6 +302,13 @@ const b='Bonjour,\\n\\nJe souhaite réserver une table pour '+v('couverts')+' pe
 location.href='mailto:'+f.dataset.to+'?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(b)}})</script>'''
 
 
+def section_timeline(t):
+    lis = "".join(f'<li><time>{e(x["when"])}</time><h3>{e(x["who"])}</h3><p>{e(x["text"])}</p></li>' for x in t["items"])
+    imgs = "".join(f'<img src="{attr(u)}" alt="" loading="lazy" referrerpolicy="no-referrer">' for u in t.get("imgs", []))
+    return f'''<section id="{t.get("id", "histoire")}" class="dark"><div class="wrap"><div class="rv" style="max-width:680px"><span class="eyebrow">{e(t["eyebrow"])}</span>
+<h2 style="margin:14px 0 16px">{t["title"]}</h2><p style="opacity:.8">{e(t.get("lead", ""))}</p></div>{f'<div class="tlimgs">{imgs}</div>' if imgs else ""}<ol class="tl rv">{lis}</ol></div></section>'''
+
+
 def section_gallery(g):
     btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(p["thumb"])}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">'
                    + (f'<figcaption>{e(p["caption"])}</figcaption>' if p.get("caption") else "") + '</button>'
@@ -322,7 +345,7 @@ def build(d):
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
@@ -343,7 +366,8 @@ const close=()=>{{A.hidden=true;try{{sessionStorage.setItem('ann','1')}}catch(e)
 if(!seen)setTimeout(()=>A.hidden=false,1200);A.querySelector('.x').onclick=close;A.onclick=e=>{{if(e.target===A)close()}};
 A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventListener('keydown',e=>{{if(e.key==='Escape'&&!A.hidden)close()}});}})();</script>'''
     lg = d.get("logo")
-    hcls = ' class="haslogo"' if lg else ""
+    _c = (["haslogo"] if lg else []) + (["many"] if len(d.get("nav", [])) > 6 else [])
+    hcls = f' class="{" ".join(_c)}"' if _c else ""
     if lg and lg.get("bg"):
         hcls += f' style="background:{attr(lg["bg"])}"' 
     if lg:
@@ -369,7 +393,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <header{hcls}><div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
-<section class="hero" id="accueil" style="background-image:url('{attr(h["img"])}')"><div class="wrap">
+<section class="hero" id="accueil" style="background-image:url('{attr(h["img"])}')">{f'<video class="hv" autoplay muted loop playsinline poster="{attr(h["img"])}"><source src="{attr(h["video"])}" type="video/mp4"></video>' if h.get("video") else ""}<div class="wrap">
 <span class="eyebrow">{e(h["eyebrow"])}</span><h1>{h["title"]}</h1><p>{e(h["lead"])}</p>
 <div class="ctas"><a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])}</a><a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a></div></div></section>
 <div class="figures"><div class="wrap">{figs}</div></div>

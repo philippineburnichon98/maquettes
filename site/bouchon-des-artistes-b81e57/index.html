@@ -31,10 +31,12 @@ header.haslogo{background:color-mix(in srgb,var(--paper) 95%,transparent);backdr
 .flogo{display:inline-block;background:var(--paper);padding:10px 14px;border-radius:6px}.flogo img{display:block;width:auto;max-width:240px}
 .logo small{display:block;font-family:var(--sans);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:6px}
 .links{display:flex;gap:32px;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
-.links a{position:relative;padding:6px 0}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%}
+.links a{position:relative;padding:6px 0;white-space:nowrap}.logo{flex-shrink:0;margin-right:24px}@media(max-width:1280px){.links{gap:20px;font-size:.7rem;letter-spacing:.1em}}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%}
 .burger{display:none;background:none;border:0;color:inherit;cursor:pointer;width:32px;height:32px}.burger span{display:block;height:1px;background:currentColor;margin:7px 0}
 @media(max-width:860px){.links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(-130%);transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
 .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.open .links{transform:none}header.open{background:var(--paper);color:var(--ink)}.burger{display:block}}
+@media(min-width:861px) and (max-width:1180px){header.many .links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(-130%);transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+header.many .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.many.open .links{transform:none}header.many.open{background:var(--paper);color:var(--ink)}header.many .burger{display:block}}
 .hero{position:relative;min-height:100svh;display:grid;place-items:end start;color:#fff;overflow:hidden;background:#222 center/cover}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.2) 30%,rgba(0,0,0,.55) 60%,rgba(0,0,0,.82) 100%)}
 .hero .wrap{position:relative;padding-bottom:12vh;width:100%}
@@ -98,6 +100,16 @@ section{padding:clamp(80px,11vw,140px) 0}
 .rform label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;color:var(--muted)}
 .rform input,.rform select,.rform textarea{font:inherit;color:var(--ink);padding:11px 12px;border:1px solid var(--line);background:var(--paper)}
 @media(max-width:760px){.resa{grid-template-columns:minmax(0,1fr)}.rform{grid-template-columns:minmax(0,1fr)}}
+.card dl.sheet{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-size:.8rem;margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.card dl.sheet dt{color:var(--muted)}.card dl.sheet dd{margin:0}
+.menu.solo{grid-template-columns:minmax(0,760px);justify-content:center}
+.tl{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.25);margin-top:50px}
+.tl li{padding:22px 20px 0 0;position:relative}.tl li::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--gold)}
+.tl time{font-family:var(--serif);color:var(--gold);font-size:1.1rem}.tl h3{font-size:1.3rem;margin:6px 0 10px;color:#fff}.tl p{font-size:.88rem;opacity:.72}
+@media(max-width:960px){.tl{grid-template-columns:1fr;border-top:0;border-left:1px solid rgba(255,255,255,.25)}.tl li{padding:0 0 30px 26px}.tl li::before{top:8px;left:-5px}}
+.tlimgs{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}.tlimgs img{height:130px;width:auto;object-fit:contain}
+.hero .hv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hero::before{z-index:1}.hero .wrap{z-index:2}
+@media(prefers-reduced-motion:reduce){.hero .hv{display:none}}
 .card.hide{display:none}.badge{position:absolute;top:14px;right:14px;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;background:var(--gold);color:#fff;padding:5px 9px}
 .note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:26px}
 .menu{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(30px,5vw,70px);align-items:start}
