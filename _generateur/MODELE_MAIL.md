@@ -6,12 +6,18 @@ Bonjour <Prénom(s) si connus>,
 
 Pardonnez-moi ce contact un peu direct : je suis Philippine, je crée des sites pour <les restaurants lyonnais | les domaines du Beaujolais et de Bourgogne | les artisans de la région lyonnaise | les professionnels de l'immobilier | les études notariales | les cabinets d'avocats>, et je repère ceux qui mériteraient un petit coup de jeune.
 
-Le vôtre m'a donné envie de m'y essayer : <2-3 détails précis et flatteurs sur eux>… mais <ce qui coince sur le site actuel, dit avec tact>.
+<Phrase complète et flatteuse avec 2-3 détails précis sur eux, ex. « Votre domaine a une histoire rare : … » / « Votre bouchon a tout pour plaire : … »>. <Une phrase complète sur ce qui coince sur le site actuel, dite avec tact, ex. « Pourtant, les actualités de votre site s'arrêtent en 2020. »>
+
+RÈGLES (validées par Philippine le 9 oct. 2026) :
+- Ne plus utiliser « Le vôtre m'a donné envie de m'y essayer : … ». Des phrases simples et naturelles, jamais de liste sans verbe.
+- Chaque reproche doit être VRAI et vérifié sur le site (jamais « un bouton qui ne mène nulle part » si un module ou une page existe). En cas de doute, garder seulement un fait sûr (date de la dernière actualité, site non adapté au téléphone…).
+- Après le lien de la maquette, on peut préciser ce qu'elle apporte (« avec votre carte d'automne et un module de réservation en ligne »).
 
 Alors j'ai pris les devants et préparé une maquette, juste pour voir<. phrase optionnelle sur un outil existant conservé, ex. module TheFork> :
 https://maquettes.philippine-burnichon.workers.dev/<slug>/
 
 Ça vous parlerait ? Je serais ravie d'avoir votre retour. Et si ce n'est pas le bon moment, dites-le-moi simplement, je ne vous embêterai pas davantage.
+(Notaires et avocats : « Cela vous parlerait-il ? Je serais ravie d'avoir votre retour. Et si ce n'est pas le bon moment, dites-le-moi simplement, je ne vous importunerai pas davantage. »)
 
 Bien cordialement<, et bonne fin de vendanges (domaines, en saison) | et bons chantiers (artisans)>,
 
