@@ -17,6 +17,7 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 
 
 - EXCEPTION validée par Philippine (9 oct. 2026) : ARGOS Diagnostic garde le style `releve` (plan coté, mètre ruban), avec les photos du site et le vert du logo. Ne pas le convertir en mise en page classique.
+- EXCEPTION validée par Philippine (9 oct. 2026) : Girod-Roux Menuiserie garde le style `etabli` (mètre pliant, avant/après à glisser). Ne pas le convertir en mise en page classique.
 
 ## Règle couleurs (demande de Philippine)
 - Chaque maquette reprend les couleurs du prospect : la couleur principale de son LOGO (ex. le rouge du logo) devient `theme.accent` (boutons, liens, sélection), `theme.accent2` une version un peu plus foncée ; les autres couleurs (`paper`, `ink`, `gold`, `heroem`) s'accordent avec sa charte (couleurs de son site actuel).
