@@ -13,3 +13,6 @@
 - `_generateur/prospects.csv` : suivi des prospects. `_generateur/MODELE_MAIL.md` : modèle de mail validé.
 
 Toutes les maquettes sont non indexées (balise meta, `robots.txt`, `_headers`) et portent le bandeau Fyce.
+
+## Règle photos (demandée par Philippine)
+Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui lui correspond : grande image d'en-tête de chaque page (ex. la photo de groupe en tête de la page équipe va en tête de la section équipe), photos de chaque produit, portraits, pictogrammes des rubriques (champ 3e élément des items `features`), logos des labels et certifications (champ `logos` d'une `story`), photos de la salle, de la terrasse, de la façade. Ne jamais laisser une photo du site d'origine de côté sans raison.

@@ -98,6 +98,9 @@ section{padding:clamp(80px,11vw,140px) 0}
 .ann>div{background:var(--paper);color:var(--ink);max-width:460px;width:100%%;padding:38px 34px 32px;position:relative;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
 .ann h3{font-size:1.7rem;margin:12px 0 14px;color:var(--accent)}.ann p{color:var(--muted);margin-bottom:24px}
 .ann .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--muted)}
+.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
+.picto{width:56px;height:56px;object-fit:contain;margin-bottom:6px}
+.labels{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:26px}.labels img{height:64px;width:auto;background:#fff;padding:6px;border-radius:4px}
 .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
 .team img{width:140px;height:140px;border-radius:50%%;object-fit:cover;margin:0 auto 14px;background:var(--paper-2)}
 .team b{display:block;font-family:var(--serif);font-size:1.3rem;font-weight:500}.team span{color:var(--muted);font-size:.9rem}
@@ -176,6 +179,8 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 def section_story(s):
     paras = "".join(f"<p>{p}</p>" for p in s["paras"])
     sign = f'<p class="sign">{e(s["sign"])}</p>' if s.get("sign") else ""
+    if s.get("logos"):
+        sign += '<div class="labels">' + "".join(f'<img src="{attr(u)}" alt="{attr(al)}" loading="lazy" referrerpolicy="no-referrer">' for u, al in s["logos"]) + '</div>'
     return f'''<section id="{s["id"]}"><div class="wrap split">
 <div class="img rv" style="background-image:url('{attr(s["img"])}')" role="img" aria-label="{attr(s.get("alt", ""))}"></div>
 <div class="rv"><span class="eyebrow">{e(s["eyebrow"])}</span><h2>{s["title"]}</h2>{paras}{sign}</div></div></section>'''
@@ -187,8 +192,10 @@ def section_quote(q):
 
 
 def section_features(f):
-    items = "".join(f'<div><i>{n}.</i><h3>{e(t)}</h3><p>{e(d)}</p></div>'
-                    for n, (t, d) in zip(["I", "II", "III", "IV", "V", "VI"], f["items"]))
+    def _it(n, it):
+        ic = f'<img class="picto" src="{attr(it[2])}" alt="" loading="lazy" referrerpolicy="no-referrer">' if len(it) > 2 else f'<i>{n}.</i>'
+        return f'<div>{ic}<h3>{e(it[0])}</h3><p>{e(it[1])}</p></div>'
+    items = "".join(_it(n, it) for n, it in zip(["I", "II", "III", "IV", "V", "VI"], f["items"]))
     cls = ' class="dark"' if f.get("dark") else ""
     return f'''<section id="{f.get("id", "savoir-faire")}"{cls}><div class="wrap">
 <div class="rv" style="max-width:660px"><span class="eyebrow">{e(f["eyebrow"])}</span>
@@ -253,7 +260,8 @@ def section_booking(b):
 def section_team(t):
     ppl = "".join(f'<figure><img src="{attr(p["img"])}" alt="{attr(p["name"])}" loading="lazy" referrerpolicy="no-referrer"><figcaption><b>{e(p["name"])}</b><span>{e(p["role"])}</span></figcaption></figure>' for p in t["people"])
     note = f'<p class="note">{e(t["note"])}</p>' if t.get("note") else ""
-    return f'''<section id="{t.get("id", "equipe")}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(t["eyebrow"])}</span>
+    big = f'<img class="teamhero" src="{attr(t["img"])}" alt="{attr(t.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">' if t.get("img") else ""
+    return f'''<section id="{t.get("id", "equipe")}"><div class="wrap">{big}<div class="head rv"><span class="eyebrow">{e(t["eyebrow"])}</span>
 <h2>{t["title"]}</h2><p>{e(t.get("lead", ""))}</p></div><div class="team rv">{ppl}</div>{note}</div></section>'''
 
 

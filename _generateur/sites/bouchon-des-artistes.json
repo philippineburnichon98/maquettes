@@ -88,7 +88,21 @@
     "Tout est fait maison, à partir de produits frais et locaux. Un engagement reconnu par le label Les Bouchons Lyonnais et le titre de Maître Restaurateur.",
     "En cuisine, le chef Guillaume Daubignard, entouré de Sacha Salzi et Alexis Laurent ; en salle, une équipe qui aime recevoir, dans un cadre chaleureux."
    ],
-   "sign": "Chef Guillaume Daubignard"
+   "sign": "Chef Guillaume Daubignard",
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/12be68_4e5dff04c2924dedbd988b85788ed507~mv2.png/v1/fit/w_300,h_240,q_90/bouchons-lyonnais.png",
+     "Les Bouchons Lyonnais"
+    ],
+    [
+     "https://static.wixstatic.com/media/313a31_10b8c61be4744f5cb1acd1601bb5eb30~mv2.png/v1/fit/w_500,h_200,q_90/maitre-restaurateur.png",
+     "Maître Restaurateur"
+    ],
+    [
+     "https://static.wixstatic.com/media/12be68_d08246285afe4e5293a146ad50ae0d9c~mv2.png/v1/fit/w_500,h_200,q_90/afmr.png",
+     "Association française des Maîtres Restaurateurs"
+    ]
+   ]
   },
   {
    "kind": "features",
@@ -100,15 +114,18 @@
    "items": [
     [
      "La cuisine",
-     "Les plats de la tradition lyonnaise, revisités au quotidien."
+     "Les plats de la tradition lyonnaise, revisités au quotidien.",
+     "https://static.wixstatic.com/media/313a31_24d602f59e2d44f0990309a26e8695a9~mv2.png/v1/fit/w_200,h_200,q_90/picto.png"
     ],
     [
      "Le restaurant",
-     "Un cadre chaleureux pour un moment décomplexé."
+     "Un cadre chaleureux pour un moment décomplexé.",
+     "https://static.wixstatic.com/media/313a31_e50b3c05a55748ff81906b6950d398bf~mv2.png/v1/fit/w_200,h_200,q_90/picto.png"
     ],
     [
      "L'équipe",
-     "Des professionnels du savoir-vivre, à votre service."
+     "Des professionnels du savoir-vivre, à votre service.",
+     "https://static.wixstatic.com/media/313a31_ba19eca3a55549fab5b81d837d84ed6a~mv2.png/v1/fit/w_200,h_200,q_90/picto.png"
     ],
     [
      "La cave",
@@ -312,7 +329,9 @@
      "img": "https://static.wixstatic.com/media/313a31_08ae20fe7ae94513a681cedbdc1655ff~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/t.jpg"
     }
    ],
-   "note": "En cuisine cette saison, selon la carte d'automne : Guillaume Daubignard, Sacha Salzi et Alexis Laurent."
+   "note": "En cuisine cette saison, selon la carte d'automne : Guillaume Daubignard, Sacha Salzi et Alexis Laurent.",
+   "img": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fill/w_1800,h_788,al_c,q_85/equipe.jpg",
+   "alt": "L'équipe du Bouchon des Artistes"
   },
   {
    "kind": "gallery",
@@ -332,8 +351,8 @@
      "full": "https://static.wixstatic.com/media/313a31_10af999e2b7946d493e7509880fb8a80~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
     },
     {
-     "thumb": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-     "full": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
+     "thumb": "https://static.wixstatic.com/media/313a31_475e8dc0dbaf41ddbd32962f663ba693~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+     "full": "https://static.wixstatic.com/media/313a31_475e8dc0dbaf41ddbd32962f663ba693~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
     },
     {
      "thumb": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_900,h_900,q_85/a.jpg",
