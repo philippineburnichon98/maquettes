@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers : publie uniquement le dossier site/ (le générateur reste privé)
+  "name": "maquettes",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./site"
+  }
+}
