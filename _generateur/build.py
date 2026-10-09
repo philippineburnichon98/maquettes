@@ -90,6 +90,14 @@ section{padding:clamp(80px,11vw,140px) 0}
 .card p{font-size:.88rem;color:var(--muted);flex:1}
 .card .price{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;font-size:.82rem;color:var(--muted)}
 .card .price b{font-family:var(--serif);font-size:1.5rem;font-weight:500;color:var(--ink)}
+.card .bimg{display:block;height:230px;width:100%%;object-fit:contain;margin:0 auto 18px}
+.card svg.bimg{height:170px;margin:30px auto 48px}
+.card .medal{font-size:.74rem;color:var(--gold);font-weight:600;margin-top:10px;line-height:1.4}
+.gallery figcaption{padding:10px 4px 2px;font-size:.85rem;color:var(--muted);text-align:left;font-style:italic;font-family:var(--serif)}
+.ann{position:fixed;inset:0;z-index:120;background:rgba(0,0,0,.55);display:grid;place-items:center;padding:20px}.ann[hidden]{display:none}
+.ann>div{background:var(--paper);color:var(--ink);max-width:460px;width:100%%;padding:38px 34px 32px;position:relative;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
+.ann h3{font-size:1.7rem;margin:12px 0 14px;color:var(--accent)}.ann p{color:var(--muted);margin-bottom:24px}
+.ann .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--muted)}
 .card.hide{display:none}.badge{position:absolute;top:14px;right:14px;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;background:var(--gold);color:#fff;padding:5px 9px}
 .note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:26px}
 .menu{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(30px,5vw,70px);align-items:start}
@@ -133,6 +141,9 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 .fyce button{background:none;border:0;color:#f6f1e9;opacity:.7;cursor:pointer;font-size:1.1rem;line-height:1;padding:0 4px}
 @media(max-width:560px){.fyce{font-size:.7rem;border-radius:14px}}
 """
+
+LB = """<div class="lb" id="lb" role="dialog" aria-modal="true" hidden><button class="x" aria-label="Fermer">×</button>
+<button class="p" aria-label="Précédente">‹</button><figure><img alt="" referrerpolicy="no-referrer"></figure><button class="n" aria-label="Suivante">›</button></div>"""
 
 JS = """
 const H=document.querySelector('header'),B=document.querySelector('.burger');
@@ -186,9 +197,17 @@ def section_cards(o):
         price = ""
         if c.get("price"):
             price = f'<div class="price"><span>{e(c.get("fmt", "Bouteille 75 cl"))}</span><b>{e(c["price"])}</b></div>'
-        cards.append(f'''<article class="card" data-cat="{c["cat"]}" style="--c:{c["color"]}">{badge}
+        sil = f'<svg class="bimg" viewBox="0 0 40 120" aria-hidden="true"><path d="M16 2h8v30c0 6 10 10 10 22v58a6 6 0 0 1-6 6H12a6 6 0 0 1-6-6V54c0-12 10-16 10-22z" fill="{c["color"]}" opacity=".85"/><rect x="10" y="66" width="20" height="28" fill="#fff" opacity=".9"/></svg>'
+        if c.get("img"):
+            img = f'<img class="bimg" src="{attr(c["img"])}" alt="{attr(c["name"])}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=this.dataset.sil" data-sil="{attr(sil)}">'
+        elif any(x.get("img") for x in o["items"]):
+            img = sil
+        else:
+            img = ""
+        medal = f'<div class="medal">{e(c["medal"])}</div>' if c.get("medal") else ""
+        cards.append(f'''<article class="card" data-cat="{c["cat"]}" style="--c:{c["color"]}">{badge}{img}
 <span class="tag">{e(c["tag"])}</span><h3>{e(c["name"])}</h3><div class="app">{e(c["app"])}</div>
-<p>{e(c.get("desc", ""))}</p>{price}</article>''')
+<p>{e(c.get("desc", ""))}</p>{medal}{price}</article>''')
     note = f'<p class="note">{e(o["note"])}</p>' if o.get("note") else ""
     return f'''<section id="{o["id"]}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="tabs" role="group">{tabs}</div>
@@ -224,12 +243,12 @@ def section_booking(b):
 
 
 def section_gallery(g):
-    btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(p["thumb"])}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer"></button>'
+    btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(p["thumb"])}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">'
+                   + (f'<figcaption>{e(p["caption"])}</figcaption>' if p.get("caption") else "") + '</button>'
                    for p in g["photos"])
-    return f'''<section id="photos" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
-<h2>{g["title"]}</h2></div><div class="gallery">{btns}</div></div></section>
-<div class="lb" id="lb" role="dialog" aria-modal="true" hidden><button class="x" aria-label="Fermer">×</button>
-<button class="p" aria-label="Précédente">‹</button><figure><img alt="" referrerpolicy="no-referrer"></figure><button class="n" aria-label="Suivante">›</button></div>'''
+    lead = f'<p>{e(g["lead"])}</p>' if g.get("lead") else ""
+    return f'''<section id="{g.get("id", "photos")}" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
+<h2>{g["title"]}</h2>{lead}</div><div class="gallery">{btns}</div></div></section>'''
 
 
 def section_banner(b):
@@ -264,6 +283,21 @@ def build(d):
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
     legal = f'<span>{e(f["legal"])}</span>' if f.get("legal") else ""
+    lbhtml = LB if any(b["kind"] == "gallery" for b in d["sections"]) else ""
+    an = d.get("announce")
+    annhtml = ""
+    if an:
+        acta = ""
+        if an.get("cta"):
+            tgt = ' target="_blank" rel="noopener"' if an["cta"][1].startswith("http") else ""
+            acta = f'<a class="btn solid" href="{attr(an["cta"][1])}"{tgt}>{e(an["cta"][0])}</a>'
+        annhtml = f'''<div class="ann" id="ann" role="dialog" aria-modal="true" aria-labelledby="ann-t" hidden><div>
+<button class="x" aria-label="Fermer">×</button><span class="eyebrow">{e(an.get("eyebrow", "Actualité"))}</span>
+<h3 id="ann-t">{e(an["title"])}</h3><p>{e(an["text"])}</p>{acta}</div></div>
+<script>(()=>{{const A=document.getElementById('ann');let seen=false;try{{seen=sessionStorage.getItem('ann')==='1'}}catch(e){{}}
+const close=()=>{{A.hidden=true;try{{sessionStorage.setItem('ann','1')}}catch(e){{}}}};
+if(!seen)setTimeout(()=>A.hidden=false,1200);A.querySelector('.x').onclick=close;A.onclick=e=>{{if(e.target===A)close()}};
+A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventListener('keydown',e=>{{if(e.key==='Escape'&&!A.hidden)close()}});}})();</script>'''
     lg = d.get("logo")
     hcls = ' class="haslogo"' if lg else ""
     if lg and lg.get("bg"):
@@ -300,7 +334,7 @@ def build(d):
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p></div>
 <div><h4>Explorer</h4><ul>{fnav}</ul></div><div><h4>Contact</h4><ul>{fcontact}</ul></div></div>
 <div class="bottom"><span>© {e(d["brand"])} · Mentions légales · Confidentialité</span>{legal}</div></div></footer>
-<div class="fyce" role="note"><span><b>Proposition de maquette</b> réalisée par <a href="{FYCE["site"]}" target="_blank" rel="noopener">{FYCE["brand"]}</a> · {FYCE["name"]} · <a href="tel:{FYCE["tel"]}">{FYCE["phone"]}</a></span>
+{lbhtml}{annhtml}<div class="fyce" role="note"><span><b>Proposition de maquette</b> réalisée par <a href="{FYCE["site"]}" target="_blank" rel="noopener">{FYCE["brand"]}</a> · {FYCE["name"]} · <a href="tel:{FYCE["tel"]}">{FYCE["phone"]}</a></span>
 <button aria-label="Masquer" onclick="this.parentElement.remove()">×</button></div>
 <script>{JS}</script>
 </body>
