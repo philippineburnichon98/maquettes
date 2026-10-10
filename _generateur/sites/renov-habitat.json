@@ -1,0 +1,255 @@
+{
+ "slug": "renov-habitat-00b444",
+ "title": "Rénov Habitat — Peinture et rénovation à Lyon, Mike Nakache",
+ "description": "Rénov Habitat, entreprise de peinture et rénovation à Lyon pour les particuliers et les sociétés : peinture, revêtements muraux, plâtrerie. Mike Nakache, artisan peintre et plâtrier. Devis gratuit.",
+ "brand": "Rénov Habitat",
+ "tagline": "Peinture et rénovation · Lyon",
+ "theme": {
+  "paper": "#f7f4ef",
+  "paper2": "#ece5da",
+  "ink": "#1f2326",
+  "muted": "#5e6266",
+  "accent": "#b5532f",
+  "accent2": "#8f3f22",
+  "gold": "#c49a4a",
+  "heroem": "#ffd2a8",
+  "serif": "\"DM Serif Display\",Georgia,serif",
+  "sans": "\"DM Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "entreprise",
+   "L'entreprise"
+  ],
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "photos",
+   "Photos"
+  ],
+  [
+   "devis",
+   "Devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/11d79d_2313ee1dc9444789b26fe4acf58e3bf4.jpg/v1/fill/w_1920,h_1300,al_c,q_85/11d79d_2313ee1dc9444789b26fe4acf58e3bf4.jpg",
+  "eyebrow": "Entreprise de peinture et rénovation · Lyon centre",
+  "title": "Peinture et rénovation <em>pour les particuliers et les sociétés</em>",
+  "lead": "Mike Nakache, artisan peintre et plâtrier, spécialiste de la peinture et des revêtements muraux.",
+  "cta1": [
+   "Demander un devis gratuit",
+   "#devis"
+  ],
+  "cta2": [
+   "06 12 66 80 51",
+   "tel:+33612668051"
+  ]
+ },
+ "figures": [
+  [
+   "Devis",
+   "gratuit"
+  ],
+  [
+   "48 h",
+   "pour vous recontacter"
+  ],
+  [
+   "30 %",
+   "d'acompte au démarrage"
+  ],
+  [
+   "Lyon",
+   "centre"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "L'entreprise",
+   "title": "Un artisan peintre <em class=\"it\">créatif et passionné</em>",
+   "img": "https://static.wixstatic.com/media/11d79d_0989d2c2a3cf4217aaa6d1e523fb19ca.jpg/v1/fill/w_1000,h_1250,al_c,q_85/11d79d_0989d2c2a3cf4217aaa6d1e523fb19ca.jpg",
+   "alt": "Rénov Habitat, peinture et rénovation à Lyon",
+   "paras": [
+    "Mike Nakache, situé à Lyon centre, est le spécialiste de la peinture et des revêtements muraux. Cet artisan peintre et plâtrier possède toutes les compétences pour sublimer vos surfaces et vous aider à imprimer votre empreinte et votre cachet dans votre habitat.",
+    "Bien plus qu'un simple exécutant, il vous guidera dans vos choix et dans vos travaux de rénovation, afin d'optimiser au mieux votre chantier. Expert en couleurs, il est à votre service pour réaliser votre projet et vous assurer des prestations uniques et sur mesure.",
+    "Toujours à l'écoute de sa clientèle, il attache la plus grande importance à vos envies ainsi qu'à vos remarques, pour une prestation de haute qualité et dans les normes."
+   ],
+   "sign": "Mike Nakache"
+  },
+  {
+   "kind": "features",
+   "id": "prestations",
+   "dark": true,
+   "eyebrow": "Prestations",
+   "title": "Sublimer <em class=\"it\">vos surfaces</em>",
+   "lead": "Pour votre intérieur comme pour vos locaux professionnels.",
+   "items": [
+    [
+     "Peinture",
+     "Peinture intérieure, conseil et choix des couleurs."
+    ],
+    [
+     "Revêtements muraux",
+     "Le spécialiste des revêtements muraux, pour donner du cachet à votre habitat."
+    ],
+    [
+     "Plâtrerie",
+     "Les travaux de plâtrerie, par un artisan peintre et plâtrier."
+    ],
+    [
+     "Rénovation",
+     "Rénovation d'intérieurs et de locaux professionnels, de l'étude du projet au chantier."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Rénov <em class=\"it\">Habitat</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/11d79d_0989d2c2a3cf4217aaa6d1e523fb19ca.jpg/v1/fit/w_800,h_800,al_c,q_85/11d79d_0989d2c2a3cf4217aaa6d1e523fb19ca.jpg",
+     "full": "https://static.wixstatic.com/media/11d79d_0989d2c2a3cf4217aaa6d1e523fb19ca.jpg/v1/fit/w_1600,h_1600,al_c,q_85/11d79d_0989d2c2a3cf4217aaa6d1e523fb19ca.jpg",
+     "alt": "Rénov Habitat, peinture et rénovation"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/11d79d_72c33f5991434264aac0b892f3190e09.jpg/v1/fit/w_800,h_800,al_c,q_85/11d79d_72c33f5991434264aac0b892f3190e09.jpg",
+     "full": "https://static.wixstatic.com/media/11d79d_72c33f5991434264aac0b892f3190e09.jpg/v1/fit/w_1600,h_1600,al_c,q_85/11d79d_72c33f5991434264aac0b892f3190e09.jpg",
+     "alt": "Rénov Habitat, peinture et rénovation"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/06b2f6_c092ce7665eb42b9b41a3bb84ad2a132~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/06b2f6_c092ce7665eb42b9b41a3bb84ad2a132~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/06b2f6_c092ce7665eb42b9b41a3bb84ad2a132~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/06b2f6_c092ce7665eb42b9b41a3bb84ad2a132~mv2.jpg",
+     "alt": "Rénov Habitat, peinture et rénovation"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/11d79d_2313ee1dc9444789b26fe4acf58e3bf4.jpg/v1/fit/w_800,h_800,al_c,q_85/11d79d_2313ee1dc9444789b26fe4acf58e3bf4.jpg",
+     "full": "https://static.wixstatic.com/media/11d79d_2313ee1dc9444789b26fe4acf58e3bf4.jpg/v1/fit/w_1600,h_1600,al_c,q_85/11d79d_2313ee1dc9444789b26fe4acf58e3bf4.jpg",
+     "alt": "Rénov Habitat, peinture et rénovation"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "conditions",
+   "eyebrow": "Comment ça se passe",
+   "title": "Du devis <em class=\"it\">au chantier</em>",
+   "items": [
+    {
+     "kicker": "1",
+     "title": "Un devis gratuit",
+     "paras": [
+      "Après une étude détaillée de votre projet et de l'état de votre intérieur, Mike établit un devis gratuit avant de commencer tout chantier de rénovation."
+     ]
+    },
+    {
+     "kicker": "2",
+     "title": "Réponse sous 48 h",
+     "paras": [
+      "Envoyez un message bien détaillé de votre demande : nous vous recontactons sous 48 heures pour établir votre devis personnalisé."
+     ]
+    },
+    {
+     "kicker": "3",
+     "title": "Acompte de 30 % du chantier",
+     "paras": [
+      "Un acompte de 30 % du montant du chantier est demandé ; il peut être réglé par PayPal."
+     ],
+     "link": [
+      "Régler l'acompte par PayPal",
+      "https://paypal.me/peintreLyon?locale.x=fr_FR"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Devis personnalisé",
+   "title": "Demander <em class=\"it\">un devis</em>",
+   "lead": "Envoyez-nous un message bien détaillé de votre demande et nous vous recontacterons sous 48 heures pour effectuer votre devis personnalisé.",
+   "email": "peintre.de.lyon@gmail.com",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer",
+   "side": [
+    "Tél. : <a href=\"tel:+33612668051\" style=\"border-bottom:1px solid var(--gold)\">06 12 66 80 51</a>"
+   ],
+   "fields": [
+    {
+     "label": "Prénom"
+    },
+    {
+     "label": "Nom de famille"
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Veuillez détailler votre demande pour effectuer un devis personnalisé au plus juste",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "label": "Adresse du chantier",
+     "full": true
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Rénov Habitat, <em class=\"it\">Lyon</em>",
+   "text": "Entreprise de peinture et rénovation à Lyon centre, pour les particuliers et les sociétés.",
+   "rows": [
+    [
+     "Adresse",
+     "17 rue Hector Berlioz<br>69009 Lyon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33612668051\">06 12 66 80 51</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:peintre.de.lyon@gmail.com\">peintre.de.lyon@gmail.com</a>"
+    ],
+    [
+     "Réseaux",
+     "<a href=\"https://www.facebook.com/profile.php?id=100072465187222\" target=\"_blank\" rel=\"noopener\">Facebook</a> · <a href=\"https://www.instagram.com/renov681/?hl=fr\" target=\"_blank\" rel=\"noopener\">Instagram</a>"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ],
+   "map_q": "17 rue Hector Berlioz, 69009 Lyon"
+  }
+ ],
+ "footer": {
+  "about": "Rénov Habitat, entreprise de peinture et rénovation à Lyon centre : peinture, revêtements muraux, plâtrerie, rénovation d'intérieurs et de locaux professionnels.",
+  "contact": [
+   "<a href=\"tel:+33612668051\">06 12 66 80 51</a>",
+   "<a href=\"mailto:peintre.de.lyon@gmail.com\">peintre.de.lyon@gmail.com</a>",
+   "17 rue Hector Berlioz, 69009 Lyon"
+  ],
+  "legal": "Rénov Habitat · Mike Nakache, artisan peintre et plâtrier · Lyon."
+ }
+}
