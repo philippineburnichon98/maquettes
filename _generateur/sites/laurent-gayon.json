@@ -1,0 +1,272 @@
+{
+ "slug": "laurent-gayon-b57a4b",
+ "title": "Laurent Gayon — Plomberie, chauffage à Chaponnay (Rhône)",
+ "description": "Laurent Gayon, plombier chauffagiste à Chaponnay et dans les communes du Rhône. Entreprise familiale depuis 1974 : salle de bain clés en main, chaudière, chauffe-eau, climatisation, pompe à chaleur, traitement d'eau, dépannages.",
+ "brand": "Laurent Gayon",
+ "tagline": "Plomberie · Chauffage",
+ "theme": {
+  "paper": "#f3f5f7",
+  "paper2": "#e3e9ef",
+  "ink": "#14212e",
+  "muted": "#566270",
+  "accent": "#1d5fa8",
+  "accent2": "#164a84",
+  "gold": "#c07a3a",
+  "heroem": "#9fd0ff",
+  "serif": "\"Archivo\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "entreprise",
+   "L'entreprise"
+  ],
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "realisations",
+   "Réalisations"
+  ],
+  [
+   "devis",
+   "Devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/11062b_715e97bca3d7464389d8c02b4a5a49eaf000.jpg/v1/fill/w_1920,h_1200,al_c,q_85/banniere.jpg",
+  "eyebrow": "Plombier chauffagiste · Chaponnay et Rhône",
+  "title": "Bienvenue chez <em>Laurent Gayon</em>",
+  "lead": "Plomberie, chauffage, climatisation et traitement de l'eau, à Chaponnay et dans les autres communes du Rhône.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 64 82 67 57",
+   "tel:+33664826757"
+  ]
+ },
+ "figures": [
+  [
+   "1974",
+   "entreprise familiale"
+  ],
+  [
+   "10",
+   "types d'interventions"
+  ],
+  [
+   "Clés",
+   "en main"
+  ],
+  [
+   "Rhône",
+   "zone d'intervention"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "À propos",
+   "title": "Une entreprise familiale <em class=\"it\">depuis 1974</em>",
+   "img": "https://static.wixstatic.com/media/70c375_cf186078739542c5adce062346aac34c~mv2.jpg/v1/fill/w_1000,h_1250,al_c,q_85/70c375_cf186078739542c5adce062346aac34c.jpg",
+   "alt": "Laurent Gayon",
+   "paras": [
+    "Entreprise familiale depuis 1974, nous sommes à même de réaliser votre salle de bain clés en main, le remplacement de votre chaudière ou de votre chauffe-eau, la pose d'une climatisation ou d'une pompe à chaleur, la pose de traitement d'eau ainsi que tous types de dépannages.",
+    "Nous vous assurons de réaliser vos devis rapidement ainsi qu'un suivi de chantier rigoureux.",
+    "Au plaisir de vous rencontrer prochainement pour établir ensemble vos besoins et construire vos projets. Je vous dis donc à très bientôt !"
+   ],
+   "sign": "Laurent Gayon"
+  },
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Nos prestations",
+   "title": "De la salle de bain <em class=\"it\">au chauffage</em>",
+   "lead": "Installation, remplacement et dépannage, à Chaponnay et dans les communes du Rhône.",
+   "items": [
+    {
+     "kicker": "Salle de bain",
+     "title": "Clés en main",
+     "list": [
+      "Douche à l'italienne",
+      "Cabine de douche",
+      "Baignoire",
+      "WC",
+      "Robinetterie"
+     ]
+    },
+    {
+     "kicker": "Chauffage et eau chaude",
+     "title": "Chaudière, chauffe-eau",
+     "list": [
+      "Remplacement de chaudière",
+      "Gaz",
+      "Chauffe-eau thermodynamique",
+      "Ballon d'eau chaude"
+     ]
+    },
+    {
+     "kicker": "Confort",
+     "title": "Climatisation, pompe à chaleur",
+     "list": [
+      "Pose de climatisation",
+      "Pompe à chaleur"
+     ]
+    },
+    {
+     "kicker": "Eau",
+     "title": "Traitement de l'eau",
+     "list": [
+      "Adoucisseur d'eau",
+      "Pose de traitement d'eau"
+     ]
+    },
+    {
+     "kicker": "Urgences",
+     "title": "Dépannages",
+     "paras": [
+      "Tous types de dépannages en plomberie et en chauffage."
+     ],
+     "link": [
+      "Appeler le 06 64 82 67 57",
+      "tel:+33664826757"
+     ]
+    }
+   ],
+   "chips": [
+    "Adoucisseur d'eau",
+    "Douche à l'italienne",
+    "Gaz",
+    "Baignoire",
+    "Chauffe-eau thermodynamique",
+    "WC",
+    "Robinetterie",
+    "Cabine de douche",
+    "Ballon d'eau chaude",
+    "Clim"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Projets vedettes",
+   "title": "Nos <em class=\"it\">réalisations</em>",
+   "lead": "Quelques salles d'eau réalisées par l'entreprise.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/70c375_73e2e6387bdb4b19b85d951de323c399~mv2.png/v1/fit/w_800,h_800,al_c,q_85/70c375_73e2e6387bdb4b19b85d951de323c399.jpg",
+     "full": "https://static.wixstatic.com/media/70c375_73e2e6387bdb4b19b85d951de323c399~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/70c375_73e2e6387bdb4b19b85d951de323c399.jpg",
+     "alt": "Salle d'eau réalisée par Laurent Gayon",
+     "caption": "Salle d'eau"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/70c375_5252057a47604cf4bc9c352bedb78b98~mv2.png/v1/fit/w_800,h_800,al_c,q_85/70c375_5252057a47604cf4bc9c352bedb78b98.jpg",
+     "full": "https://static.wixstatic.com/media/70c375_5252057a47604cf4bc9c352bedb78b98~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/70c375_5252057a47604cf4bc9c352bedb78b98.jpg",
+     "alt": "Salle d'eau réalisée par Laurent Gayon",
+     "caption": "Salle d'eau"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/70c375_15221b5c73cc412ab28a3308f2bc14dc~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/70c375_15221b5c73cc412ab28a3308f2bc14dc.jpg",
+     "full": "https://static.wixstatic.com/media/70c375_15221b5c73cc412ab28a3308f2bc14dc~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/70c375_15221b5c73cc412ab28a3308f2bc14dc.jpg",
+     "alt": "Salle d'eau réalisée par Laurent Gayon",
+     "caption": "Salle d'eau"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/70c375_f9343b96182041a3b8a491995e66b46e~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/70c375_f9343b96182041a3b8a491995e66b46e.jpg",
+     "full": "https://static.wixstatic.com/media/70c375_f9343b96182041a3b8a491995e66b46e~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/70c375_f9343b96182041a3b8a491995e66b46e.jpg",
+     "alt": "Salle d'eau réalisée par Laurent Gayon",
+     "caption": "Salle d'eau"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/70c375_105dd3e0e06f4908b9266414657c45c2~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/70c375_105dd3e0e06f4908b9266414657c45c2.jpg",
+     "full": "https://static.wixstatic.com/media/70c375_105dd3e0e06f4908b9266414657c45c2~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/70c375_105dd3e0e06f4908b9266414657c45c2.jpg",
+     "alt": "Salle d'eau réalisée par Laurent Gayon",
+     "caption": "Salle d'eau"
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Contactez-moi",
+   "title": "Demander <em class=\"it\">un devis</em>",
+   "lead": "Laissez vos coordonnées : nous réalisons vos devis rapidement.",
+   "email": "laurentgayon@orange.fr",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer",
+   "side": [
+    "Tél. : <a href=\"tel:+33664826757\" style=\"border-bottom:1px solid var(--gold)\">06 64 82 67 57</a>",
+    "E-mail : <a href=\"mailto:laurentgayon@orange.fr\" style=\"border-bottom:1px solid var(--gold)\">laurentgayon@orange.fr</a>"
+   ],
+   "fields": [
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Commune",
+     "full": true
+    },
+    {
+     "label": "Votre projet",
+     "type": "textarea"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Plomberie, chauffage <em class=\"it\">à Chaponnay</em>",
+   "text": "Laurent Gayon intervient à Chaponnay et dans les autres communes du Rhône.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33664826757\">06 64 82 67 57</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:laurentgayon@orange.fr\">laurentgayon@orange.fr</a>"
+    ],
+    [
+     "Zone",
+     "Chaponnay et autres communes du Rhône"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ],
+   "map_q": "Chaponnay, 69970"
+  }
+ ],
+ "footer": {
+  "about": "Laurent Gayon, plombier chauffagiste. Entreprise familiale depuis 1974 : salle de bain clés en main, chauffage, climatisation, traitement d'eau et dépannages.",
+  "contact": [
+   "<a href=\"tel:+33664826757\">06 64 82 67 57</a>",
+   "<a href=\"mailto:laurentgayon@orange.fr\">laurentgayon@orange.fr</a>",
+   "Chaponnay (Rhône)"
+  ],
+  "legal": "Laurent Gayon · Plomberie, chauffage · Chaponnay (69)."
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/70c375_d20bdb3cf7144feea5e6a85c4f2f2717~mv2.png",
+  "height": 58,
+  "bg": "#ffffff"
+ }
+}
