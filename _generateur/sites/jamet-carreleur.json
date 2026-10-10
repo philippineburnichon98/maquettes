@@ -1,0 +1,390 @@
+{
+ "slug": "jamet-carreleur-c16c16",
+ "title": "Jérôme Jamet — Artisan carreleur mosaïste, Lyon 5e",
+ "description": "Entreprise Jamet, de père en fils depuis 1980 : carrelage et faïence intérieur et extérieur, douche à l'italienne, mosaïque, pierres naturelles. Lyon 5e et alentours. Devis gratuit sur place.",
+ "brand": "Jérôme Jamet",
+ "tagline": "Artisan · Carreleur · Mosaïste",
+ "theme": {
+  "paper": "#f5f2ee",
+  "paper2": "#e8e1d8",
+  "ink": "#1d1f22",
+  "muted": "#5d5f63",
+  "accent": "#2f6f73",
+  "accent2": "#245559",
+  "gold": "#b08a5a",
+  "heroem": "#a9e0dc",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Manrope\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Manrope:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "apropos",
+   "À propos"
+  ],
+  [
+   "savoir-faire",
+   "Savoir-faire"
+  ],
+  [
+   "realisations",
+   "Réalisations"
+  ],
+  [
+   "fournisseurs",
+   "Fournisseurs"
+  ],
+  [
+   "devis",
+   "Devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/2901b3_922350d8060e40b084b32ff9eac759c5~mv2.jpg/v1/fill/w_1920,h_1300,al_c,q_85/2901b3_922350d8060e40b084b32ff9eac759c5~mv2.jpg",
+  "eyebrow": "Artisan carreleur mosaïste · Lyon 5e",
+  "title": "Vos carrelages, <em>de père en fils</em>",
+  "lead": "Carrelage et faïence intérieur et extérieur, douche à l'italienne, mosaïque et pierres naturelles, à Lyon et dans ses environs.",
+  "cta1": [
+   "Demander un devis gratuit",
+   "#devis"
+  ],
+  "cta2": [
+   "Voir les réalisations",
+   "#realisations"
+  ]
+ },
+ "figures": [
+  [
+   "1980",
+   "entreprise familiale"
+  ],
+  [
+   "1996",
+   "carreleur mosaïste"
+  ],
+  [
+   "10 ans",
+   "garantie décennale"
+  ],
+  [
+   "Gratuit",
+   "devis sur place"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "apropos",
+   "eyebrow": "À propos",
+   "title": "Entreprise Jamet, <em class=\"it\">de père en fils</em>",
+   "img": "https://static.wixstatic.com/media/2901b3_003b3b2f13e04eef9ce3ada7d58977a8~mv2.jpg/v1/fill/w_1000,h_1250,al_c,q_85/2901b3_003b3b2f13e04eef9ce3ada7d58977a8~mv2.jpg",
+   "alt": "Jérôme Jamet, artisan carreleur",
+   "paras": [
+    "Entreprise JAMET, de père en fils, pour vos carrelages intérieurs et extérieurs. Depuis 1980, nous sommes spécialisés dans la pose de carrelages, de faïences, de douches à l'italienne et de pierres naturelles, sur sol et mur.",
+    "Artisan, carreleur, mosaïste depuis 1996 et fort d'une expérience familiale, je vous propose mes services professionnels pour la réalisation de tous vos projets de carrelage.",
+    "L'entreprise JAMET intervient en neuf ou en rénovation, dans le département du Rhône et ses alentours. Muni d'une expérience de plus de 20 ans, je mets tout mon savoir-faire à votre disposition pour vous conseiller."
+   ],
+   "sign": "Jérôme Jamet"
+  },
+  {
+   "kind": "features",
+   "id": "savoir-faire",
+   "dark": true,
+   "eyebrow": "Savoir-faire",
+   "title": "Du conseil <em class=\"it\">à la pose</em>",
+   "lead": "Spécialisé depuis de nombreuses années dans le carrelage intérieur et extérieur, pour toutes les pièces de la maison.",
+   "items": [
+    [
+     "Conseil",
+     "Le choix des matériaux et la solution de pose adaptée aux contraintes techniques et à votre budget."
+    ],
+    [
+     "Douche à l'italienne",
+     "Réalisation avec imperméabilisation totale des supports par des produits professionnels."
+    ],
+    [
+     "Carrelage, faïence, mosaïque",
+     "Sols et murs, intérieur et extérieur, pierres naturelles, en neuf ou en rénovation."
+    ],
+    [
+     "Garantie",
+     "Des travaux réalisés selon les règles de l'art, garantis par une assurance décennale."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Réalisations",
+   "title": "Quelques <em class=\"it\">chantiers</em>",
+   "lead": "Salles de bains, douches à l'italienne, sols et faïences réalisés par l'entreprise.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_e47032b2435b41bfa5e1698047cdc150~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_e47032b2435b41bfa5e1698047cdc150~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_e47032b2435b41bfa5e1698047cdc150~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_e47032b2435b41bfa5e1698047cdc150~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_fcbcafeefd6d45688f23593976b95977~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_fcbcafeefd6d45688f23593976b95977~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_fcbcafeefd6d45688f23593976b95977~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_fcbcafeefd6d45688f23593976b95977~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_8858ce6093ba4d0cba55f641ea8db08e~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_8858ce6093ba4d0cba55f641ea8db08e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_8858ce6093ba4d0cba55f641ea8db08e~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_8858ce6093ba4d0cba55f641ea8db08e~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_1c4c408778f246f2a3a5c179fb91a8ca~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_1c4c408778f246f2a3a5c179fb91a8ca~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_1c4c408778f246f2a3a5c179fb91a8ca~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_1c4c408778f246f2a3a5c179fb91a8ca~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_aa1506034ad74ee4aa5dbdfe6d027451~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_aa1506034ad74ee4aa5dbdfe6d027451~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_aa1506034ad74ee4aa5dbdfe6d027451~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_aa1506034ad74ee4aa5dbdfe6d027451~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_e8c0d8a8c48a441d8d1c57b763508c61~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_e8c0d8a8c48a441d8d1c57b763508c61~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_e8c0d8a8c48a441d8d1c57b763508c61~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_e8c0d8a8c48a441d8d1c57b763508c61~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_d072fe6eecdb467fba820e479f6d49ff~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_d072fe6eecdb467fba820e479f6d49ff~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_d072fe6eecdb467fba820e479f6d49ff~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_d072fe6eecdb467fba820e479f6d49ff~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_27ac64ffb23542d7a8fe26c27da9b07c~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_27ac64ffb23542d7a8fe26c27da9b07c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_27ac64ffb23542d7a8fe26c27da9b07c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_27ac64ffb23542d7a8fe26c27da9b07c~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_f21e6e1a5f904f7e9ef52ee6d9176e04~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_f21e6e1a5f904f7e9ef52ee6d9176e04~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_f21e6e1a5f904f7e9ef52ee6d9176e04~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_f21e6e1a5f904f7e9ef52ee6d9176e04~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_c998e018544043aea6ad0180450a60d6~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_c998e018544043aea6ad0180450a60d6~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_c998e018544043aea6ad0180450a60d6~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_c998e018544043aea6ad0180450a60d6~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_61bbdb54c4be47128af0c23a3650b0b1~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_61bbdb54c4be47128af0c23a3650b0b1~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_61bbdb54c4be47128af0c23a3650b0b1~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_61bbdb54c4be47128af0c23a3650b0b1~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_a1fcd97d13a24f518830dfe48173ace4~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_a1fcd97d13a24f518830dfe48173ace4~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_a1fcd97d13a24f518830dfe48173ace4~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_a1fcd97d13a24f518830dfe48173ace4~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_5951b02631da40b295e0bd18800e1fa0~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_5951b02631da40b295e0bd18800e1fa0~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_5951b02631da40b295e0bd18800e1fa0~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_5951b02631da40b295e0bd18800e1fa0~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_11935ba813bf47fa921f535c8467008b~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_11935ba813bf47fa921f535c8467008b~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_11935ba813bf47fa921f535c8467008b~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_11935ba813bf47fa921f535c8467008b~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_6f81c4943e9a4361a3431aa53da90daf~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_6f81c4943e9a4361a3431aa53da90daf~mv2_d_4032_3024_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_6f81c4943e9a4361a3431aa53da90daf~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_6f81c4943e9a4361a3431aa53da90daf~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_7997dc17c7894179b5b882f691b427d8~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_7997dc17c7894179b5b882f691b427d8~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_7997dc17c7894179b5b882f691b427d8~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_7997dc17c7894179b5b882f691b427d8~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_72bf26c7c77e4c528c8ebcea7ccaa6c1~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_72bf26c7c77e4c528c8ebcea7ccaa6c1~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_72bf26c7c77e4c528c8ebcea7ccaa6c1~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_72bf26c7c77e4c528c8ebcea7ccaa6c1~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_d43838ab917641b78af1b1653f9624f7~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_d43838ab917641b78af1b1653f9624f7~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_d43838ab917641b78af1b1653f9624f7~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_d43838ab917641b78af1b1653f9624f7~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_9eec3eca3e6e43c39b5c900e9cb2887e~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_9eec3eca3e6e43c39b5c900e9cb2887e~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_9eec3eca3e6e43c39b5c900e9cb2887e~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_9eec3eca3e6e43c39b5c900e9cb2887e~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_97ae9a14c27a44f29948b4f891501574~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_97ae9a14c27a44f29948b4f891501574~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_97ae9a14c27a44f29948b4f891501574~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_97ae9a14c27a44f29948b4f891501574~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_4c1afaf73c48444fb044230bac3f8fa1~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_4c1afaf73c48444fb044230bac3f8fa1~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_4c1afaf73c48444fb044230bac3f8fa1~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_4c1afaf73c48444fb044230bac3f8fa1~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_9a0139eb6c2a4fe2909b41b8ebd58d6d~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_9a0139eb6c2a4fe2909b41b8ebd58d6d~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_9a0139eb6c2a4fe2909b41b8ebd58d6d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_9a0139eb6c2a4fe2909b41b8ebd58d6d~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_f2078b00a19a46759f89b55e6ac6ce97~mv2.png/v1/fit/w_700,h_700,al_c,q_85/2901b3_f2078b00a19a46759f89b55e6ac6ce97~mv2.png",
+     "full": "https://static.wixstatic.com/media/2901b3_f2078b00a19a46759f89b55e6ac6ce97~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_f2078b00a19a46759f89b55e6ac6ce97~mv2.png",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_ecb417f3b84a4230bbf2b6cc1831886e~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_ecb417f3b84a4230bbf2b6cc1831886e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_ecb417f3b84a4230bbf2b6cc1831886e~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_ecb417f3b84a4230bbf2b6cc1831886e~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_60de5db92dd54940b8074644cfe7b77f~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_60de5db92dd54940b8074644cfe7b77f~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_60de5db92dd54940b8074644cfe7b77f~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_60de5db92dd54940b8074644cfe7b77f~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_fdc373c3e67b4b8ead8a1479960e6796~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_fdc373c3e67b4b8ead8a1479960e6796~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_fdc373c3e67b4b8ead8a1479960e6796~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_fdc373c3e67b4b8ead8a1479960e6796~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2901b3_adf9294650eb4417a763056d0bd3c515~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/2901b3_adf9294650eb4417a763056d0bd3c515~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/2901b3_adf9294650eb4417a763056d0bd3c515~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2901b3_adf9294650eb4417a763056d0bd3c515~mv2.jpg",
+     "alt": "Réalisation de l'entreprise Jamet, carrelage"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "fournisseurs",
+   "eyebrow": "Fournisseurs",
+   "title": "Des matériaux <em class=\"it\">choisis avec soin</em>",
+   "paras": [
+    "L'entreprise travaille avec des fournisseurs reconnus, à Lyon et ailleurs, pour vous proposer carrelages, faïences, mosaïques et produits de pose professionnels."
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/2901b3_995aa2120af1409bacd044196b8e1371~mv2.jpg/v1/fit/w_400,h_240,al_c,q_85/2901b3_995aa2120af1409bacd044196b8e1371~mv2.jpg",
+     "Dépôt Service"
+    ],
+    [
+     "https://static.wixstatic.com/media/2901b3_3b0c4a10fff242ff851f0c3c30f101ce~mv2.png/v1/fit/w_400,h_240,al_c,q_85/2901b3_3b0c4a10fff242ff851f0c3c30f101ce~mv2.png",
+     "Mapei"
+    ],
+    [
+     "https://static.wixstatic.com/media/2901b3_1215055dc93446f0828533e389219a54~mv2.jpg/v1/fit/w_400,h_240,al_c,q_85/2901b3_1215055dc93446f0828533e389219a54~mv2.jpg",
+     "Fournisseur"
+    ],
+    [
+     "https://static.wixstatic.com/media/2901b3_f57375157dc7487b93f04e47e5a0e96c~mv2.png/v1/fit/w_400,h_240,al_c,q_85/2901b3_f57375157dc7487b93f04e47e5a0e96c~mv2.png",
+     "Marazzi"
+    ],
+    [
+     "https://static.wixstatic.com/media/2901b3_23be845d32ca438bab15c4700a1f922d~mv2.jpg/v1/fit/w_400,h_240,al_c,q_85/2901b3_23be845d32ca438bab15c4700a1f922d~mv2.jpg",
+     "Fournisseur"
+    ],
+    [
+     "https://static.wixstatic.com/media/2901b3_2a55517c0e1a488aa9606c741bcfa8e7~mv2.jpg/v1/fit/w_400,h_240,al_c,q_85/2901b3_2a55517c0e1a488aa9606c741bcfa8e7~mv2.jpg",
+     "Dépôt Service"
+    ],
+    [
+     "https://static.wixstatic.com/media/2901b3_fbd5f8d08af74fdab069445e0c87baf4~mv2.png/v1/fit/w_400,h_240,al_c,q_85/2901b3_fbd5f8d08af74fdab069445e0c87baf4~mv2.png",
+     "Decoceram Lyon"
+    ]
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Vous avez un projet ?",
+   "title": "Demander <em class=\"it\">un devis gratuit</em>",
+   "lead": "Je me déplace sur les lieux pour établir un devis gratuit.",
+   "email": "jeromejamet@yahoo.fr",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer",
+   "side": [
+    "Portable : <a href=\"tel:+33672514993\" style=\"border-bottom:1px solid var(--gold)\">06 72 51 49 93</a>",
+    "Fixe : <a href=\"tel:+33478195936\" style=\"border-bottom:1px solid var(--gold)\">04 78 19 59 36</a>"
+   ],
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Commune du chantier"
+    },
+    {
+     "label": "Votre projet",
+     "type": "textarea",
+     "required": true
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Lyon 5e <em class=\"it\">et ses environs</em>",
+   "text": "Jérôme Jamet, artisan carreleur mosaïste, intervient à Lyon et dans le Rhône.",
+   "rows": [
+    [
+     "Adresse",
+     "10 rue de l'Oiseau Blanc<br>69005 Lyon"
+    ],
+    [
+     "Portable",
+     "<a href=\"tel:+33672514993\">06 72 51 49 93</a>"
+    ],
+    [
+     "Fixe",
+     "<a href=\"tel:+33478195936\">04 78 19 59 36</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:jeromejamet@yahoo.fr\">jeromejamet@yahoo.fr</a>"
+    ],
+    [
+     "Zone",
+     "Lyon et ses environs, département du Rhône"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ],
+   "map_q": "10 rue de l'Oiseau Blanc, 69005 Lyon"
+  }
+ ],
+ "footer": {
+  "about": "Entreprise Jamet, de père en fils depuis 1980. Carrelage, faïence, mosaïque, douches à l'italienne et pierres naturelles, en neuf ou en rénovation.",
+  "contact": [
+   "<a href=\"tel:+33672514993\">06 72 51 49 93</a>",
+   "<a href=\"tel:+33478195936\">04 78 19 59 36</a>",
+   "<a href=\"mailto:jeromejamet@yahoo.fr\">jeromejamet@yahoo.fr</a>",
+   "10 rue de l'Oiseau Blanc, 69005 Lyon"
+  ],
+  "legal": "Travaux garantis par une assurance décennale."
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/2901b3_916870de97504ae18f1044522f3b34f7~mv2.png/v1/crop/x_0,y_160,w_844,h_496/fill/w_474,h_280,al_c,q_85/2901b3_916870de97504ae18f1044522f3b34f7~mv2.png",
+  "height": 54,
+  "bg": "#ffffff"
+ }
+}
