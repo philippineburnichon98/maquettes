@@ -1,0 +1,593 @@
+{
+ "slug": "lionel-despres-f3408f",
+ "title": "Domaine Lionel Despres — Vigneron récoltant à Fleurie, Beaujolais",
+ "description": "Lionel Despres, vigneron récoltant à Fleurie, au pied de la Chapelle de la Madone : Fleurie Cuvée Madone, Fleurie Cuvée Albert, Chiroubles Cuvée Anne-Marie & Armand. Gîte La Cachette d'Ampelopsis.",
+ "brand": "Lionel Despres",
+ "tagline": "Vigneron récoltant à Fleurie",
+ "theme": {
+  "paper": "#f6f1ea",
+  "paper2": "#ece2d6",
+  "ink": "#24161a",
+  "muted": "#6b5c5e",
+  "accent": "#c8200f",
+  "accent2": "#9c170a",
+  "gold": "#a4824a",
+  "heroem": "#ffb3a6",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Jost\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "domaine",
+   "Lionel Despres"
+  ],
+  [
+   "cuvees",
+   "Nos cuvées"
+  ],
+  [
+   "actualites",
+   "Actualités"
+  ],
+  [
+   "agenda",
+   "Agenda"
+  ],
+  [
+   "gite",
+   "Gîte"
+  ],
+  [
+   "galerie",
+   "Galerie"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://www.lionel-despres.com/_image/photos/accueil-01-xl.jpg",
+  "eyebrow": "Fleurie · Chiroubles · Beaujolais",
+  "title": "Bienvenue dans un vignoble <em>d'exception</em>",
+  "lead": "Vigneron récoltant à Fleurie, au cœur du Beaujolais, au pied de la Chapelle de la Madone.",
+  "cta1": [
+   "Découvrir nos cuvées",
+   "#cuvees"
+  ],
+  "cta2": [
+   "Nous rendre visite",
+   "#contact"
+  ]
+ },
+ "figures": [
+  [
+   "7 ha",
+   "de vignes"
+  ],
+  [
+   "45 ans",
+   "âge moyen des vignes"
+  ],
+  [
+   "20–40 %",
+   "de pente à Fleurie"
+  ],
+  [
+   "3",
+   "cuvées"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Une passion en héritage",
+   "title": "Lionel Despres, <em class=\"it\">vigneron à Fleurie</em>",
+   "img": "https://www.lionel-despres.com/_image/lionel-despres-vignes-01.png",
+   "alt": "Lionel Despres dans ses vignes",
+   "paras": [
+    "C'est tout naturellement que j'ai suivi le chemin de mes aïeux : certaines de mes vignes appartenaient déjà à mon arrière-grand-père.",
+    "Le domaine s'étend sur environ 7 hectares de vignes de 45 ans d'âge moyen, en appellations Fleurie et Chiroubles, au pied de la Chapelle de la Madone. À Fleurie, la plupart des parcelles sont plantées sur des coteaux de 20 à 40 % de pente, où la mécanisation est difficile.",
+    "J'assure l'ensemble des travaux, de la taille jusqu'à la commercialisation de mes vins, pour des vins authentiques qui allient la tradition et des techniques plus récentes. Les vins sont mis en bouteille au domaine."
+   ],
+   "sign": "Lionel Despres"
+  },
+  {
+   "kind": "gallery",
+   "id": "portraits",
+   "eyebrow": "Au domaine",
+   "title": "La vigne, <em class=\"it\">au fil des saisons</em>",
+   "photos": [
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/despres-lionel-01.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/despres-lionel-01-xl.jpg",
+     "alt": "Lionel Despres au domaine"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/despres-lionel-02.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/despres-lionel-02-xl.jpg",
+     "alt": "Lionel Despres au domaine"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/despres-lionel-03.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/despres-lionel-03-xl.jpg",
+     "alt": "Lionel Despres au domaine"
+    }
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "cuvees",
+   "eyebrow": "Des vins authentiques",
+   "title": "Nos <em class=\"it\">cuvées</em>",
+   "lead": "Gamay noir à jus blanc, vinification traditionnelle beaujolaise, mise en bouteille au domaine. Des vins à boire jeunes ou à attendre.",
+   "items": [
+    {
+     "name": "Cuvée Madone",
+     "app": "Fleurie",
+     "tag": "Rouge",
+     "color": "#8e1b2a",
+     "img": "https://www.lionel-despres.com/img/fiche-vin/f8f0a7d34103c38805482509bef204cb/161-fleurie-cuvee-madone.png",
+     "desc": "Un sol granitique et un fort ensoleillement donnent des vins fruités. Robe rubis, nez frais de fruits rouges, bouche ronde et souple aux notes épicées.",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay noir à jus blanc"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise"
+      ],
+      [
+       "Garde",
+       "3 à 5 ans"
+      ],
+      [
+       "Accords",
+       "Charcuterie, viandes blanches"
+      ]
+     ]
+    },
+    {
+     "name": "Cuvée Albert",
+     "app": "Fleurie",
+     "tag": "Rouge",
+     "color": "#5e1020",
+     "img": "https://www.lionel-despres.com/img/fiche-vin/b9890ce30a5015c5637bed07252625de/162-fleurie-cuvee-albert.png",
+     "desc": "Dédiée à Albert, le grand-père, homme de caractère. Robe grenat profond, nez de figue, d'épices et de tabac frais, bouche équilibrée aux tanins fins.",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay noir à jus blanc"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, 10 mois en fût"
+      ],
+      [
+       "Garde",
+       "6 à 7 ans"
+      ],
+      [
+       "Accords",
+       "Gibier, fromages"
+      ]
+     ]
+    },
+    {
+     "name": "Cuvée Anne-Marie & Armand",
+     "app": "Chiroubles",
+     "tag": "Rouge",
+     "color": "#a3243b",
+     "img": "https://www.lionel-despres.com/img/fiche-vin/5f5db10a9eca1cd4daba487923bbc592/160-chiroubles-cuvee-anne-marie-armand.png",
+     "desc": "Issue des vignes reprises de la propriété des parents d'Adeline. Robe rubis, notes de fruits rouges et de fleurs (violette, iris, pivoine), bouche structurée et fruitée.",
+     "sheet": [
+      [
+       "Cépage",
+       "Gamay noir à jus blanc"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise"
+      ],
+      [
+       "Garde",
+       "2 à 4 ans"
+      ],
+      [
+       "Accords",
+       "Apéritif, barbecue, charcuterie, viandes blanches"
+      ]
+     ]
+    }
+   ],
+   "note": "Pour connaître les tarifs ou passer commande, contactez le domaine par téléphone ou par e-mail."
+  },
+  {
+   "kind": "banner",
+   "eyebrow": "Fleurie, au cœur du Beaujolais",
+   "title": "Au pied de la <em>Chapelle de la Madone</em>",
+   "img": "https://www.lionel-despres.com/_image/domaine-lionel-despres-fleurie-chapelle-madone.jpg",
+   "cta": [
+    "Venir au domaine",
+    "#contact"
+   ]
+  },
+  {
+   "kind": "blog",
+   "id": "actualites",
+   "eyebrow": "Le domaine à la loupe",
+   "title": "Les <em class=\"it\">actualités</em>",
+   "lead": "Les nouvelles du domaine, de la vigne et du ciel de Fleurie.",
+   "step": 6,
+   "posts": [
+    {
+     "title": "Belles lumières à Fleurie !",
+     "date": "03 novembre 2022",
+     "cat": "Fleurie",
+     "desc": "Lumières du matin sur le village et les vignes de Fleurie.",
+     "url": "https://www.lionel-despres.com/actualites/belles-lumieres-a-fleurie-73.php",
+     "img": "https://www.lionel-despres.com/img/actualite/84e67860c0ce3b1eae4097e01316ebd1/244-belles-lumieres-a-fleurie.jpg"
+    },
+    {
+     "title": "Quand la nature animale se dessine dans le ciel !…",
+     "date": "25 octobre 2022",
+     "cat": "Fleurie",
+     "desc": "Des formes d'animaux dessinées par les nuages au-dessus du vignoble.",
+     "url": "https://www.lionel-despres.com/actualites/quand-la-nature-animale-se-dessine-dans-le-ciel-76.php",
+     "img": "https://www.lionel-despres.com/img/actualite/306fe86c7dd5f69df110b019cb117c45/248-quand-la-nature-animale-se-dessine-dans-le-ciel.jpg"
+    },
+    {
+     "title": "On dégrafe une par une !…",
+     "date": "20 octobre 2022",
+     "cat": "À la vigne",
+     "desc": "Travail à la vigne, sur les coteaux granitiques.",
+     "url": "https://www.lionel-despres.com/actualites/on-degrafe-une-par-une-78.php",
+     "img": "https://www.lionel-despres.com/img/actualite/ad5e8801a149e37a691ab7519a33c824/249-on-degrafe-une-par-une.jpg"
+    },
+    {
+     "title": "Éclat de couleur à Chiroubles ! ❤",
+     "date": "18 octobre 2022",
+     "cat": "Chiroubles",
+     "desc": "Les couleurs de l'automne sur les vignes de Chiroubles.",
+     "url": "https://www.lionel-despres.com/actualites/eclat-de-couleur-a-chiroubles-79.php",
+     "img": "https://www.lionel-despres.com/img/actualite/a30587a75577145de042fb3cd8a5b43f/252-eclat-de-couleur-a-chiroubles.jpg"
+    },
+    {
+     "title": "Ciel majestueux ce matin, j'en ai pris plein les yeux !…",
+     "date": "16 octobre 2022",
+     "cat": "Fleurie",
+     "desc": "Lever du soleil sur le Beaujolais.",
+     "url": "https://www.lionel-despres.com/actualites/ciel-majestueux-ce-matin-j-en-ai-pris-plein-les-yeux-80.php",
+     "img": "https://www.lionel-despres.com/img/actualite/ff383a87fb7483ecb5cd51d5e336abf3/254-ciel-majestueux-ce-matin-j-en-ai-pris-plein-les-yeux.jpg"
+    },
+    {
+     "title": "GAMAY à croquer !…",
+     "date": "14 octobre 2022",
+     "cat": "À la vigne",
+     "desc": "Les grappes de gamay de la récolte 2022, en Fleurie et en Chiroubles.",
+     "url": "https://www.lionel-despres.com/actualites/gamay-a-croquer-81.php",
+     "img": "https://www.lionel-despres.com/img/actualite/7bf1e4c7499e5074eca7c5b41ae01153/255-gamay-a-croquer.jpg"
+    },
+    {
+     "title": "Il y a quelques années… le bon vieux temps !…",
+     "date": "11 octobre 2022",
+     "cat": "Le domaine",
+     "desc": "Un souvenir du domaine.",
+     "url": "https://www.lionel-despres.com/actualites/il-y-a-quelques-anneesle-bon-vieux-temps-82.php"
+    },
+    {
+     "title": "Même un vigneron est sensible à Octobre Rose !…",
+     "date": "05 octobre 2022",
+     "cat": "Le domaine",
+     "desc": "Le domaine soutient Octobre Rose.",
+     "url": "https://www.lionel-despres.com/actualites/meme-un-vigneron-est-sensible-a-octobre-rose-83.php"
+    },
+    {
+     "title": "Émotions assurées !… ☺",
+     "date": "07 mai 2022",
+     "cat": "Le domaine",
+     "desc": "",
+     "url": "https://www.lionel-despres.com/actualites/emotions-assurees-72.php"
+    },
+    {
+     "title": "À la Saint Valérie, souvent le soleil luit !…",
+     "date": "28 avril 2022",
+     "cat": "À la vigne",
+     "desc": "",
+     "url": "https://www.lionel-despres.com/actualites/a-la-saint-valerie-souvent-le-soleil-luit-75.php"
+    },
+    {
+     "title": "Beauté du jour !…",
+     "date": "30 mars 2022",
+     "cat": "À la vigne",
+     "desc": "",
+     "url": "https://www.lionel-despres.com/actualites/beaute-du-jour-74.php"
+    },
+    {
+     "title": "Le printemps s'installe tout doucement !…",
+     "date": "22 mars 2022",
+     "cat": "À la vigne",
+     "desc": "",
+     "url": "https://www.lionel-despres.com/actualites/le-printemps-s-installe-tout-doucement-70.php"
+    }
+   ],
+   "all": [
+    "Toutes les actualités",
+    "https://www.lionel-despres.com/actualites.php"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "agenda",
+   "eyebrow": "Salons et dégustations",
+   "title": "<em class=\"it\">Agenda</em>",
+   "tight": false,
+   "items": [
+    {
+     "title": "Prochaines dégustations",
+     "paras": [
+      "Aucune dégustation à venir pour le moment. Revenez plus tard…",
+      "Pour une visite au domaine, merci de nous prévenir de votre passage."
+     ],
+     "link": [
+      "Annoncer ma visite",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "gite",
+   "eyebrow": "Au plus près de la nature, au cœur du Beaujolais",
+   "title": "Gîte <em class=\"it\">La Cachette d'Ampelopsis</em>",
+   "img": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-01.jpg",
+   "alt": "Le gîte La Cachette d'Ampelopsis à Chiroubles",
+   "paras": [
+    "À Chiroubles, notre gîte 3 épis entièrement rénové accueille familles et groupes jusqu'à 12 personnes.",
+    "Chambre « Découverte » pour 5 personnes, chambre « Secrète » pour 3 personnes, buanderie avec lave-linge et sèche-linge.",
+    "<a href=\"https://www.gites-de-france.com/fr/auvergne-rhone-alpes/rhone/la-cachette-dampelopsis-69g1791\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Réserver sur Gîtes de France</a>"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "gite-photos",
+   "eyebrow": "Le gîte en images",
+   "title": "La Cachette <em class=\"it\">d'Ampelopsis</em>",
+   "photos": [
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-01.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-01.jpg",
+     "alt": "La façade du gîte",
+     "caption": "La façade du gîte"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-02.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-02.jpg",
+     "alt": "La chambre « Découverte »",
+     "caption": "La chambre « Découverte »"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-03.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-03.jpg",
+     "alt": "Le séjour",
+     "caption": "Le séjour"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-04.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-04.jpg",
+     "alt": "La chambre « Secrète »",
+     "caption": "La chambre « Secrète »"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-05.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-05.jpg",
+     "alt": "La buanderie",
+     "caption": "La buanderie"
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "galerie",
+   "eyebrow": "La découverte en images du domaine",
+   "title": "Galerie <em class=\"it\">photos</em>",
+   "photos": [
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/98ae19e223c6268ca2b667f85e131108/84.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/b41edc033d741b1d0c1ab3b10a2afe40/84.jpg",
+     "alt": "Le village de Fleurie",
+     "caption": "Le village de Fleurie"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/5cf71ac71f8238830f91f16299c95669/85.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/345619dd499330e830e69ec34221748f/85.jpg",
+     "alt": "Bienvenue au Domaine !",
+     "caption": "Bienvenue au Domaine !"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/5c560f502b80e833762a6b5e20d89293/86.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/1d3a1224ca0135328dfa6dcd244e6935/86.jpg",
+     "alt": "La Chapelle de la Madone vue du domaine",
+     "caption": "La Chapelle de la Madone vue du domaine"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/fa87faf937b0726843e91a206438c89c/87.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/7968720b7f7e240035bd44bedad25288/87.jpg",
+     "alt": "La porte de la cave s'ouvre sur les fûts",
+     "caption": "La porte de la cave s'ouvre sur les fûts"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/88bc2434d9c264bd4db9bba73cd14260/89.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/d13fa6f0e067354a0117bf627b83f61a/89.jpg",
+     "alt": "La cuvée Albert",
+     "caption": "La cuvée Albert"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/72c55feda1b1b0a8d5f91c192a2bda5b/90.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/a0547ecb4ec2440ff7f703005707b35c/90.jpg",
+     "alt": "La rue des caves",
+     "caption": "La rue des caves"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/3a64f2af30325b55bdfd86971f91f65b/91.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/9f71150e6ad2da72bff035413d2a0420/91.jpg",
+     "alt": "Un pied de vigne",
+     "caption": "Un pied de vigne"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/eb242bea2484a3bec0d1f97b8fae6b4a/92.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/1fa98337f6d1d89066a83891eb567475/92.jpg",
+     "alt": "Chemin de vignes",
+     "caption": "Chemin de vignes"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/7936b802892bf9a2d15030d0a96f48c5/94.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/06a4f316e651b738a6b8c5152ea080af/94.jpg",
+     "alt": "Roche granitique",
+     "caption": "Roche granitique"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/fff174fc2103c396e9e35a3d9a30c914/95.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/a5573518531f329c760e7baa91f4c6a6/95.jpg",
+     "alt": "Le soleil éclaire la vigne",
+     "caption": "Le soleil éclaire la vigne"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/f037cd5ff780ccf5a5ec6aa3803a401f/96.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/9d955689e31f82656dcb61967da0a536/96.jpg",
+     "alt": "De futurs vignerons",
+     "caption": "De futurs vignerons"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/91d4c78af3faadcd64ca10c2cc1308cd/97.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/2657dc7d26dd4dac54b8dd134c03c812/97.jpg",
+     "alt": "Balade dans les vignes",
+     "caption": "Balade dans les vignes"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/e00fa5e1172df9f3b57045d6e264ddb2/99.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/1036bc7a11cc10d83878d1187381705c/99.jpg",
+     "alt": "Dégustation du nectar",
+     "caption": "Dégustation du nectar"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/93c1bafe532d488757f37cb25f5e6bb0/100.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/23d9ae6502bbd96081f36dd703a63575/100.jpg",
+     "alt": "Adeline & Lionel Despres",
+     "caption": "Adeline & Lionel Despres"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/img/galerie-miniature/d2cebe5c7ea75d783c5e6c84f4f636d2/101.jpg",
+     "full": "https://www.lionel-despres.com/img/galerie/fd0e394dc0c77dd1f2bb2ff314bada09/101.jpg",
+     "alt": "Un vigneron heureux",
+     "caption": "Un vigneron heureux"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/accueil-01.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/accueil-01-xl.jpg",
+     "alt": "Le domaine Lionel Despres à Fleurie"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/accueil-02.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/accueil-02-xl.jpg",
+     "alt": "Le domaine Lionel Despres à Fleurie"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/photos/accueil-03.jpg",
+     "full": "https://www.lionel-despres.com/_image/photos/accueil-03-xl.jpg",
+     "alt": "Le domaine Lionel Despres à Fleurie"
+    },
+    {
+     "thumb": "https://www.lionel-despres.com/_image/partage-site.jpg",
+     "full": "https://www.lionel-despres.com/_image/partage-site.jpg",
+     "alt": "Le domaine Lionel Despres"
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "message",
+   "eyebrow": "Une question, une demande… Un message",
+   "title": "Contactez-<em class=\"it\">nous</em>",
+   "lead": "Écrivez-nous, nous vous répondrons rapidement.",
+   "email": "contact@lionel-despres.com",
+   "subject": "Message depuis le site",
+   "submit": "Envoyer",
+   "side": [
+    "<a href=\"tel:+33474698244\" style=\"border-bottom:1px solid var(--gold)\">04 74 69 82 44</a> · <a href=\"tel:+33632278877\" style=\"border-bottom:1px solid var(--gold)\">06 32 27 88 77</a>"
+   ],
+   "fields": [
+    {
+     "label": "Nom et prénom",
+     "required": true
+    },
+    {
+     "label": "Société"
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "required": true
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous rendre visite",
+   "title": "Le domaine, <em class=\"it\">à Fleurie</em>",
+   "text": "Pour une visite ou une dégustation, merci de nous prévenir de votre passage.",
+   "rows": [
+    [
+     "Adresse",
+     "376 rue du Beaujolais<br>69820 Fleurie"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474698244\">04 74 69 82 44</a><br><a href=\"tel:+33632278877\">06 32 27 88 77</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@lionel-despres.com\">contact@lionel-despres.com</a>"
+    ],
+    [
+     "GPS",
+     "Lat. 46.193343 · Long. 4.697880"
+    ],
+    [
+     "Réseaux",
+     "<a href=\"https://www.facebook.com/domaine.lionel.despres/\" target=\"_blank\" rel=\"noopener\">Facebook</a> · <a href=\"https://www.instagram.com/domaine_lionel_despres/\" target=\"_blank\" rel=\"noopener\">Instagram</a>"
+    ]
+   ],
+   "cta": [
+    "Annoncer ma visite",
+    "mailto:contact@lionel-despres.com?subject=Visite%20au%20domaine"
+   ],
+   "map_q": "376 Rue du Beaujolais, 69820 Fleurie"
+  }
+ ],
+ "footer": {
+  "about": "Lionel Despres, vigneron récoltant à Fleurie, au cœur du Beaujolais. Fleurie et Chiroubles, gamay noir à jus blanc, mis en bouteille au domaine.",
+  "contact": [
+   "<a href=\"tel:+33474698244\">04 74 69 82 44</a>",
+   "<a href=\"tel:+33632278877\">06 32 27 88 77</a>",
+   "<a href=\"mailto:contact@lionel-despres.com\">contact@lionel-despres.com</a>",
+   "376 rue du Beaujolais, 69820 Fleurie"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://www.lionel-despres.com/mentions-legales.php"
+ }
+}

@@ -497,6 +497,44 @@ def section_blocks(b):
 <h2>{b["title"]}</h2>{lead}</div>{grid}{chips}{note}</div></section>'''
 
 
+FORM_CSS = """<style>
+.cform{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:clamp(26px,5vw,60px);background:#fff;border:1px solid var(--line);padding:clamp(24px,4vw,52px)}
+.cform form{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}.cform .full{grid-column:1/-1}
+.cform label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;color:var(--muted)}
+.cform input,.cform select,.cform textarea{font:inherit;color:var(--ink);padding:11px 12px;border:1px solid var(--line);background:var(--paper);width:100%;min-width:0}
+.cform .ok{grid-column:1/-1;color:var(--accent);font-weight:500}
+@media(max-width:760px){.cform,.cform form{grid-template-columns:minmax(0,1fr)}}
+</style>"""
+
+FORM_JS = r"""<script>document.querySelectorAll('.cform form').forEach(F=>F.onsubmit=ev=>{ev.preventDefault();
+const L=[...F.querySelectorAll('[name]')].map(x=>{const l=x.closest('label');const t=l?l.firstChild.textContent.trim():x.name;return t+' : '+(x.value||'').trim()}).join('\n');
+location.href='mailto:'+F.dataset.to+'?subject='+encodeURIComponent(F.dataset.subject)+'&body='+encodeURIComponent('Bonjour,\n\n'+L+'\n');
+const o=F.querySelector('.ok');if(o)o.hidden=false})</script>"""
+
+
+def section_form(f):
+    """Formulaire de contact ou de devis reprenant les champs du site d'origine (envoi par e-mail au prospect)."""
+    fields = []
+    for x in f["fields"]:
+        req = " required" if x.get("required") else ""
+        lab = e(x["label"]) + (" *" if x.get("required") else "")
+        cls = ' class="full"' if x.get("full") or x.get("type") == "textarea" else ""
+        n = attr(x.get("name", x["label"]))
+        if x.get("type") == "textarea":
+            inp = f'<textarea name="{n}" rows="{x.get("rows", 4)}"{req}></textarea>'
+        elif x.get("type") == "select":
+            inp = f'<select name="{n}"{req}>' + "".join(f"<option>{e(o)}</option>" for o in x["options"]) + "</select>"
+        else:
+            inp = f'<input name="{n}" type="{attr(x.get("type", "text"))}"{req}>'
+        fields.append(f"<label{cls}>{lab}{inp}</label>")
+    side = "".join(f"<p style=\"margin-top:14px\">{p}</p>" for p in f.get("side", []))
+    return f'''<section id="{f.get("id", "devis")}"><div class="wrap"><div class="cform rv"><div>
+<span class="eyebrow">{e(f["eyebrow"])}</span><h2 style="margin:14px 0 16px">{f["title"]}</h2><p style="color:var(--muted)">{e(f.get("lead", ""))}</p>{side}</div>
+<form data-to="{attr(f["email"])}" data-subject="{attr(f.get("subject", "Demande depuis le site"))}">{"".join(fields)}
+<div class="full"><button class="btn solid" type="submit">{e(f.get("submit", "Envoyer"))}</button></div><p class="ok" hidden>Merci, votre messagerie va s'ouvrir pour envoyer la demande.</p></form>
+</div></div></section>''' + FORM_CSS + FORM_JS
+
+
 ANALYTICS_JS = r"""<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
 var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>"""
 
@@ -523,7 +561,7 @@ def build(d):
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "form": section_form}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
