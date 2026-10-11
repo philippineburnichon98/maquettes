@@ -774,9 +774,25 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
     return _fixlinks(html, page, prefix, idmap)
 
 
+def _figees():
+    """Slugs des maquettes déjà envoyées aux prospects : on n'y touche plus (règle de Philippine)."""
+    import csv
+    f = pathlib.Path(__file__).resolve().parent / "prospects.csv"
+    if not f.exists():
+        return set()
+    bloq = ("envoye", "a repondu", "relance", "sans suite", "refus")
+    return {r.get("slug_maquette", "") for r in csv.DictReader(open(f, encoding="utf-8"))
+            if r.get("slug_maquette") and r.get("statut", "").startswith(bloq)}
+
+
 if __name__ == "__main__":
-    for p in sys.argv[1:]:
+    force = "--force" in sys.argv
+    figees = set() if force else _figees()
+    for p in [a for a in sys.argv[1:] if a != "--force"]:
         d = json.load(open(p, encoding="utf-8"))
+        if d["slug"] in figees:
+            print("ignoré (maquette déjà envoyée, figée) :", d["slug"])
+            continue
         out = ROOT / d["slug"] / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         if d.get("style"):
