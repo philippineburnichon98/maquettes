@@ -24,24 +24,8 @@
  },
  "nav": [
   [
-   "entreprise",
-   "L'entreprise"
-  ],
-  [
-   "prestations",
-   "Prestations"
-  ],
-  [
-   "depannage",
-   "Dépannage"
-  ],
-  [
-   "zones",
-   "Zones"
-  ],
-  [
-   "devis",
-   "Devis"
+   "informations",
+   "Informations complémentaires"
   ],
   [
    "contact",
@@ -83,17 +67,13 @@
  "sections": [
   {
    "kind": "story",
-   "id": "entreprise",
-   "eyebrow": "L'entreprise",
+   "id": "activites",
+   "eyebrow": "Domaines d'activités",
    "title": "Spécialiste en travaux d'électricité <em class=\"it\">depuis 1988</em>",
-   "img": "https://static.wixstatic.com/media/02637b_bf0d1fb78d41475c9cd850d0ea5ab540~mv2.jpg",
-   "alt": "Alain Besson, BESSON Electricité",
    "paras": [
     "Spécialiste en travaux d'électricité depuis 1988, l'entreprise d'électricité générale BESSON Electricité intervient auprès des particuliers et des professionnels pour assurer tous travaux d'électricité, d'installations électriques domestiques et de domotique !",
-    "Besson Electricité vous apporte toute l'expertise dont vous avez besoin et intervient pour vos travaux de rénovation électrique, d'installations électriques neuves et de mises aux normes électriques.",
-    "Votre artisan intervient à votre domicile ou dans vos locaux professionnels, et ce dans les meilleurs délais."
-   ],
-   "sign": "Alain Besson"
+    "<a href=\"informations/\" style=\"border-bottom:1px solid var(--gold)\">Plus d'informations sur l'entreprise</a>"
+   ]
   },
   {
    "kind": "cards",
@@ -146,87 +126,6 @@
   },
   {
    "kind": "blocks",
-   "id": "depannage",
-   "eyebrow": "Dépannages électriques",
-   "title": "Votre spécialiste <em class=\"it\">des dépannages électriques</em>",
-   "tight": true,
-   "items": [
-    {
-     "img": "https://static.wixstatic.com/media/02637b_493f4e31e64745aabe0681082b08800e~mv2.jpg",
-     "alt": "Dépannage électrique",
-     "kicker": "Dépannage",
-     "title": "Sur tout type d'installation",
-     "paras": [
-      "Dépannage électrique sur tout type d'installation dans votre habitation."
-     ],
-     "list": [
-      "Habitation",
-      "Commerces",
-      "Tertiaire"
-     ]
-    },
-    {
-     "kicker": "Interventions",
-     "title": "Dépannages courants",
-     "list": [
-      "Dépannage d'éclairage intérieur/extérieur",
-      "Dépannage de chauffage",
-      "Dépannage de tableau électrique",
-      "Dépannage circuit prise",
-      "Dépannage de ventilation",
-      "Dépannage de domotique"
-     ],
-     "link": [
-      "Appeler le 06 11 34 36 11",
-      "tel:+33611343611"
-     ]
-    },
-    {
-     "kicker": "Travaux",
-     "title": "Rénovation et mises aux normes",
-     "list": [
-      "Rénovation électrique",
-      "Installations électriques neuves",
-      "Mises aux normes électriques"
-     ],
-     "link": [
-      "Demander un devis",
-      "#devis"
-     ]
-    }
-   ]
-  },
-  {
-   "kind": "story",
-   "id": "partenaires",
-   "eyebrow": "Enseignes partenaires",
-   "title": "Nos enseignes <em class=\"it\">partenaires</em>",
-   "paras": [],
-   "logos": [
-    [
-     "https://static.wixstatic.com/media/02637b_2ffa80357a7f465aa55eedd7597557d4~mv2.jpg",
-     "Enseigne partenaire"
-    ],
-    [
-     "https://static.wixstatic.com/media/02637b_bde32fd61c0f4bf7838abde9c32ef4a6~mv2.png",
-     "Enseigne partenaire"
-    ],
-    [
-     "https://static.wixstatic.com/media/02637b_8932a12401c74ad7847376ece6bea073~mv2.jpg",
-     "Enseigne partenaire"
-    ],
-    [
-     "https://static.wixstatic.com/media/02637b_b04094f285e149b89b4408d05afeef7b~mv2.png",
-     "Enseigne partenaire"
-    ],
-    [
-     "https://static.wixstatic.com/media/02637b_d153e457b1754089932ed78ea60f37bd~mv2.jpg",
-     "Enseigne partenaire"
-    ]
-   ]
-  },
-  {
-   "kind": "blocks",
    "id": "zones",
    "dark": true,
    "eyebrow": "Zones d'intervention",
@@ -248,51 +147,11 @@
    ]
   },
   {
-   "kind": "form",
-   "id": "devis",
-   "eyebrow": "Appel devis gratuit",
-   "title": "Demande <em class=\"it\">de devis</em>",
-   "lead": "Décrivez vos travaux d'électricité : Besson Electricité vous recontacte.",
-   "email": "alain4besson@free.fr",
-   "subject": "Demande de devis depuis le site",
-   "submit": "Envoyer",
-   "side": [
-    "Portable : <a href=\"tel:+33611343611\" style=\"border-bottom:1px solid var(--gold)\">06 11 34 36 11</a>",
-    "Tél. : <a href=\"tel:+33478225843\" style=\"border-bottom:1px solid var(--gold)\">04 78 22 58 43</a>",
-    "E-mail : <a href=\"mailto:alain4besson@free.fr\" style=\"border-bottom:1px solid var(--gold)\">alain4besson@free.fr</a>"
-   ],
-   "fields": [
-    {
-     "label": "Nom",
-     "required": true
-    },
-    {
-     "label": "Téléphone",
-     "type": "tel",
-     "required": true
-    },
-    {
-     "label": "E-mail",
-     "type": "email",
-     "required": true
-    },
-    {
-     "label": "Adresse du chantier"
-    },
-    {
-     "label": "Message",
-     "type": "textarea"
-    }
-   ]
-  },
-  {
    "kind": "visit",
-   "id": "contact",
+   "id": "coordonnees",
    "eyebrow": "Contact",
    "title": "BESSON Electricité <em class=\"it\">à Collonges</em>",
-   "img": "https://static.wixstatic.com/media/02637b_34a1d8f742b3497f9cc7e939bc8c7984~mv2.png",
-   "alt": "BESSON Electricité",
-   "text": "Votre entreprise d'électricité générale implantée à Collonges-au-Mont-d'Or.",
+   "text": "Appel devis gratuit : votre entreprise d'électricité générale implantée à Collonges-au-Mont-d'Or.",
    "rows": [
     [
      "Adresse",
@@ -301,10 +160,6 @@
     [
      "Portable",
      "<a href=\"tel:+33611343611\">06 11 34 36 11</a>"
-    ],
-    [
-     "Téléphone",
-     "<a href=\"tel:+33478225843\">04 78 22 58 43</a>"
     ],
     [
      "E-mail",
@@ -316,10 +171,9 @@
     ]
    ],
    "cta": [
-    "Appeler le 06 11 34 36 11",
-    "tel:+33611343611"
-   ],
-   "map_q": "10 Rue Jean-Baptiste Perret, 69660 Collonges-au-Mont-d'Or"
+    "Demander un devis",
+    "contact/#devis"
+   ]
   }
  ],
  "footer": {
@@ -331,5 +185,219 @@
    "10 Rue Jean-Baptiste Perret, 69660 Collonges-au-Mont-d'Or"
   ],
   "legal": "Électricien à Collonges-au-Mont-d'Or"
- }
+ },
+ "pages": [
+  {
+   "slug": "informations",
+   "label": "Informations complémentaires",
+   "title": "Informations complémentaires",
+   "eyebrow": "Électricien depuis 1988",
+   "lead": "Rénovation électrique, installations neuves, mises aux normes et dépannages, pour les particuliers et les professionnels.",
+   "img": "https://static.wixstatic.com/media/02637b_71d50cb792404ad8979cc8c1415e0165~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "entreprise",
+     "eyebrow": "L'entreprise",
+     "title": "Spécialiste en travaux d'électricité <em class=\"it\">depuis 1988</em>",
+     "img": "https://static.wixstatic.com/media/02637b_bf0d1fb78d41475c9cd850d0ea5ab540~mv2.jpg",
+     "alt": "Alain Besson, BESSON Electricité",
+     "paras": [
+      "Spécialiste en travaux d'électricité depuis 1988, l'entreprise d'électricité générale BESSON Electricité intervient auprès des particuliers et des professionnels pour assurer tous travaux d'électricité, d'installations électriques domestiques et de domotique !",
+      "Besson Electricité vous apporte toute l'expertise dont vous avez besoin et intervient pour vos travaux de rénovation électrique, d'installations électriques neuves et de mises aux normes électriques.",
+      "Votre artisan intervient à votre domicile ou dans vos locaux professionnels, et ce dans les meilleurs délais."
+     ],
+     "sign": "Alain Besson"
+    },
+    {
+     "kind": "blocks",
+     "id": "depannage",
+     "eyebrow": "Dépannages électriques",
+     "title": "Votre spécialiste <em class=\"it\">des dépannages électriques</em>",
+     "tight": true,
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/02637b_493f4e31e64745aabe0681082b08800e~mv2.jpg",
+       "alt": "Dépannage électrique",
+       "kicker": "Dépannage",
+       "title": "Sur tout type d'installation",
+       "paras": [
+        "Dépannage électrique sur tout type d'installation dans votre habitation."
+       ],
+       "list": [
+        "Habitation",
+        "Commerces",
+        "Tertiaire"
+       ]
+      },
+      {
+       "kicker": "Interventions",
+       "title": "Dépannages courants",
+       "list": [
+        "Dépannage d'éclairage intérieur/extérieur",
+        "Dépannage de chauffage",
+        "Dépannage de tableau électrique",
+        "Dépannage circuit prise",
+        "Dépannage de ventilation",
+        "Dépannage de domotique"
+       ],
+       "link": [
+        "Appeler le 06 11 34 36 11",
+        "tel:+33611343611"
+       ]
+      },
+      {
+       "kicker": "Travaux",
+       "title": "Rénovation et mises aux normes",
+       "list": [
+        "Rénovation électrique",
+        "Installations électriques neuves",
+        "Mises aux normes électriques"
+       ],
+       "link": [
+        "Demander un devis",
+        "#devis"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "partenaires",
+     "eyebrow": "Enseignes partenaires",
+     "title": "Nos enseignes <em class=\"it\">partenaires</em>",
+     "paras": [],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/02637b_2ffa80357a7f465aa55eedd7597557d4~mv2.jpg",
+       "Enseigne partenaire"
+      ],
+      [
+       "https://static.wixstatic.com/media/02637b_bde32fd61c0f4bf7838abde9c32ef4a6~mv2.png",
+       "Enseigne partenaire"
+      ],
+      [
+       "https://static.wixstatic.com/media/02637b_8932a12401c74ad7847376ece6bea073~mv2.jpg",
+       "Enseigne partenaire"
+      ],
+      [
+       "https://static.wixstatic.com/media/02637b_b04094f285e149b89b4408d05afeef7b~mv2.png",
+       "Enseigne partenaire"
+      ],
+      [
+       "https://static.wixstatic.com/media/02637b_d153e457b1754089932ed78ea60f37bd~mv2.jpg",
+       "Enseigne partenaire"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "secteur",
+     "dark": true,
+     "eyebrow": "Zones d'intervention",
+     "title": "Un artisan électricien <em class=\"it\">à proximité</em>",
+     "lead": "Besoin d'un renseignement ? Contactez votre entreprise d'électricité générale implantée à Collonges-au-Mont-d'Or. L'entreprise intervient notamment sur le secteur de :",
+     "chips": [
+      "Collonges-au-Mont-d'Or",
+      "Lyon",
+      "Caluire-et-Cuire",
+      "Champagne-au-Mont-d'Or",
+      "Limonest",
+      "Dardilly",
+      "Écully",
+      "Sathonay",
+      "Fontaines-sur-Saône",
+      "Saint-Cyr-au-Mont-d'Or",
+      "Saint-Didier-au-Mont-d'Or",
+      "Neuville-sur-Saône"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Appel devis gratuit",
+   "lead": "Vous recherchez un électricien ? Faites appel à Besson Electricité !",
+   "img": "https://static.wixstatic.com/media/02637b_71d50cb792404ad8979cc8c1415e0165~mv2.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Appel devis gratuit",
+     "title": "Demande <em class=\"it\">de devis</em>",
+     "lead": "Décrivez vos travaux d'électricité : Besson Electricité vous recontacte.",
+     "email": "alain4besson@free.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Portable : <a href=\"tel:+33611343611\" style=\"border-bottom:1px solid var(--gold)\">06 11 34 36 11</a>",
+      "Tél. : <a href=\"tel:+33478225843\" style=\"border-bottom:1px solid var(--gold)\">04 78 22 58 43</a>",
+      "E-mail : <a href=\"mailto:alain4besson@free.fr\" style=\"border-bottom:1px solid var(--gold)\">alain4besson@free.fr</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Adresse du chantier"
+      },
+      {
+       "label": "Message",
+       "type": "textarea"
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "BESSON Electricité <em class=\"it\">à Collonges</em>",
+     "img": "https://static.wixstatic.com/media/02637b_34a1d8f742b3497f9cc7e939bc8c7984~mv2.png",
+     "alt": "BESSON Electricité",
+     "text": "Votre entreprise d'électricité générale implantée à Collonges-au-Mont-d'Or.",
+     "rows": [
+      [
+       "Adresse",
+       "10 Rue Jean-Baptiste Perret<br>69660 Collonges-au-Mont-d'Or"
+      ],
+      [
+       "Portable",
+       "<a href=\"tel:+33611343611\">06 11 34 36 11</a>"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33478225843\">04 78 22 58 43</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:alain4besson@free.fr\">alain4besson@free.fr</a>"
+      ],
+      [
+       "LinkedIn",
+       "<a href=\"https://www.linkedin.com/in/alain-besson-493390b3\" target=\"_blank\" rel=\"noopener\">Alain Besson</a>"
+      ]
+     ],
+     "cta": [
+      "Appeler le 06 11 34 36 11",
+      "tel:+33611343611"
+     ],
+     "map_q": "10 Rue Jean-Baptiste Perret, 69660 Collonges-au-Mont-d'Or"
+    }
+   ]
+  }
+ ],
+ "home_label": "Accueil"
 }
