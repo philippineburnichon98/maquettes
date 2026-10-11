@@ -6,7 +6,7 @@ Chaque fichier JSON décrit le contenu d'un prospect ; la page est écrite dans
 ../<slug>/index.html (dossier publié par Hostinger). Les maquettes sont toujours
 non indexées et portent le bandeau « Proposition de maquette — Fyce ».
 """
-import json, sys, html, pathlib, urllib.parse
+import json, sys, html, pathlib, urllib.parse, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent / "site"
 FYCE = {"name": "Philippine Burnichon", "brand": "Fyce", "phone": "06 65 57 16 72",
@@ -100,7 +100,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .ann>div{background:var(--paper);color:var(--ink);max-width:460px;width:100%%;padding:38px 34px 32px;position:relative;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
 .ann h3{font-size:1.7rem;margin:12px 0 14px;color:var(--accent)}.ann p{color:var(--muted);margin-bottom:24px}
 .ann .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--muted)}
-.vimg{display:block;width:100%%;aspect-ratio:16/9;object-fit:cover;margin:0 0 22px}.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
+.vimg{display:block;width:100%%;aspect-ratio:16/9;object-fit:cover;margin:0 0 22px}.hero.phead{min-height:46vh}.hero.phead h1{font-size:clamp(2.2rem,5vw,3.6rem)}.links a[aria-current]{border-bottom:1px solid currentColor}.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
 .picto{width:56px;height:56px;object-fit:contain;margin-bottom:6px}
 .labels{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:26px}.labels img{height:64px;width:auto;background:#fff;padding:6px;border-radius:4px}
 .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
@@ -550,24 +550,83 @@ let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=
 const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>"""
 
 
-def build(d):
+def _navitems(d, page):
+    """Liens du menu. Site multi-pages : Accueil + une entrée par page (+ ancres de l'accueil listées dans nav)."""
+    pref = "../" if page else ""
+    if not d.get("pages"):
+        return [("#" + i, l, "") for i, l in d["nav"]]
+    items = [(pref or "./", d.get("home_label", "Accueil"), "" if page else ' aria-current="page"')]
+    for pg in d["pages"]:
+        cur = ' aria-current="page"' if page and page["slug"] == pg["slug"] else ""
+        items.append((pref + pg["slug"] + "/", pg.get("label", pg["title"]), cur))
+    for i, l in d.get("nav_extra", []):
+        items.append((pref + "#" + i, l, ""))
+    return items
+
+
+def _pagehead(pg):
+    img = pg.get("img")
+    style = f"background-image:url('{attr(img)}')" if img else "background:var(--ink)"
+    eb = f'<span class="eyebrow">{e(pg["eyebrow"])}</span>' if pg.get("eyebrow") else ""
+    lead = f'<p>{e(pg["lead"])}</p>' if pg.get("lead") else ""
+    return f'''<section class="hero phead" id="accueil" style="{style}"><div class="wrap">{eb}<h1>{pg.get("h1", pg["title"])}</h1>{lead}</div></section>'''
+
+
+def _fixlinks(html, page, prefix, idmap):
+    """Réécrit les liens internes #ancre vers la bonne page quand l'ancre est ailleurs."""
+    if not idmap:
+        return html
+    cur = page["slug"] if page else ""
+    def rw(m):
+        anchor = m.group(1)
+        where = idmap.get(anchor)
+        if where is None or where == cur:
+            return m.group(0)
+        return 'href="' + prefix + (where + "/" if where else "") + "#" + anchor + '"'
+    return re.sub(r'href="#([\w-]+)"', rw, html)
+
+
+def build_all(d):
+    """Rend la page d'accueil et, si le JSON a des "pages", une page par entrée : {slug: html}."""
+    idmap = None
+    if d.get("pages"):
+        idmap = {}
+        for blk in d["sections"]:
+            if blk.get("id"):
+                idmap.setdefault(blk["id"], "")
+            if blk["kind"] == "visit":
+                idmap.setdefault(blk.get("id", "contact"), "")
+        for pg in d["pages"]:
+            for blk in pg["sections"]:
+                bid = blk.get("id") or ("contact" if blk["kind"] == "visit" else None)
+                if bid:
+                    idmap.setdefault(bid, pg["slug"])
+    out = {"": build(d, None, "", idmap)}
+    for pg in d.get("pages", []):
+        out[pg["slug"]] = build(d, pg, "../", idmap)
+    return out
+
+
+def build(d, page=None, prefix="", idmap=None):
     t = d["theme"]
     css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
     h = d["hero"]
-    nav = "".join(f'<a href="#{i}">{e(l)}</a>' for i, l in d["nav"])
+    sections = page["sections"] if page else d["sections"]
+    navitems = _navitems(d, page)
+    nav = "".join(f'<a href="{attr(hr)}"{cur}>{e(l)}</a>' for hr, l, cur in navitems)
     figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d.get("figures", []))
     blocks = []
-    for blk in d["sections"]:
+    for blk in sections:
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
                        "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "form": section_form}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
-    fnav = "".join(f'<li><a href="#{i}">{e(l)}</a></li>' for i, l in d["nav"])
+    fnav = "".join(f'<li><a href="{attr(hr)}">{e(l)}</a></li>' for hr, l, cur in navitems)
     legal = f'<span>{e(f["legal"])}</span>' if f.get("legal") else ""
-    lbhtml = LB if any(b["kind"] == "gallery" for b in d["sections"]) else ""
-    an = d.get("announce")
+    lbhtml = LB if any(b["kind"] == "gallery" for b in sections) else ""
+    an = d.get("announce") if not page else None
     annhtml = ""
     if an:
         acta = ""
@@ -588,18 +647,22 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
         hcls += f' style="background:{attr(lg["bg"])}"' 
     if lg:
         fb = 'onerror="this.parentElement.textContent=this.alt"'
-        hlogo = f'<a href="#accueil" class="logo"><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></a>'
+        hlogo = f'<a href="{prefix or './'}" class="logo"><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></a>'
         flogo = f'<div class="flogo"{" style=\"background:" + attr(lg["bg"]) + "\"" if lg.get("bg") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></div>'
     else:
-        hlogo = f'<a href="#accueil" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>'
+        hlogo = f'<a href="{prefix or './'}" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>'
         flogo = f'<div class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></div>' 
-    return f'''<!doctype html>
+    HOME_HERO = f'''<section class="hero" id="accueil" style="{("background-image:url('" + attr(h["img"]) + "')") if h.get("img") else "background:var(--ink)"}">{f'<video class="hv" autoplay muted loop playsinline poster="{attr(h["img"])}"><source src="{attr(h["video"])}" type="video/mp4"></video>' if h.get("video") else ""}<div class="wrap">
+<span class="eyebrow">{e(h["eyebrow"])}</span><h1>{h["title"]}</h1><p>{e(h["lead"])}</p>
+<div class="ctas"><a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])}</a><a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a></div></div></section>
+'''
+    html = f'''<!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<title>{e(d["title"])}</title>
+<title>{e((page["title"] + " | " + d["brand"]) if page else d["title"])}</title>
 <meta name="description" content="{attr(d["description"])}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="{attr(t["fonts"])}" rel="stylesheet">
@@ -609,10 +672,8 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <header{hcls}><div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
-<section class="hero" id="accueil" style="{("background-image:url('" + attr(h["img"]) + "')") if h.get("img") else "background:var(--ink)"}">{f'<video class="hv" autoplay muted loop playsinline poster="{attr(h["img"])}"><source src="{attr(h["video"])}" type="video/mp4"></video>' if h.get("video") else ""}<div class="wrap">
-<span class="eyebrow">{e(h["eyebrow"])}</span><h1>{h["title"]}</h1><p>{e(h["lead"])}</p>
-<div class="ctas"><a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])}</a><a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a></div></div></section>
-{f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs else ""}
+{_pagehead(page) if page else HOME_HERO}
+{f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else ""}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p></div>
@@ -625,6 +686,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 {ANALYTICS_JS}
 </body>
 </html>'''
+    return _fixlinks(html, page, prefix, idmap)
 
 
 if __name__ == "__main__":
@@ -638,5 +700,8 @@ if __name__ == "__main__":
             mod = importlib.import_module("styles." + d["style"])
             out.write_text(mod.render(d), encoding="utf-8")
         else:
-            out.write_text(build(d), encoding="utf-8")
+            for sub, html in build_all(d).items():
+                o = out.parent / sub / "index.html" if sub else out
+                o.parent.mkdir(parents=True, exist_ok=True)
+                o.write_text(html, encoding="utf-8")
         print("écrit", out.relative_to(ROOT))

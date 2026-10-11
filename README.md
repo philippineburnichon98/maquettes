@@ -39,3 +39,9 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Les sections classiques acceptent une grande photo d'en-tête facultative `img` (cards, menu, gallery, blocks, visit, team) : y mettre le bandeau de la page d'origine correspondante.
 - Pied de page : `footer.legal_url` = page Mentions légales du site d'origine. Carte en PDF : `pdf` dans la section menu. Descriptions des plats : 3e élément de chaque ligne de menu.
 - Seules exceptions : logo du concepteur du site, icônes génériques (téléphone, e-mail, réseaux sociaux), images de banque sans rapport.
+
+## Sites multi-pages (demande de Philippine, 11 oct. 2026)
+- Si le site d'origine a plusieurs pages, la maquette a les MÊMES pages : champ `pages` du JSON, liste de `{slug, label, title, eyebrow, lead, img, sections}`. Chaque page est générée dans `site/<slug>/<page>/index.html`, avec le même menu (Accueil + les pages, `nav_extra` pour d'éventuelles ancres) et un en-tête de page (photo `img` = bandeau de la page d'origine).
+- `sections` (racine) = contenu de la page d'accueil : reprendre l'accueil d'origine, avec des accroches vers les pages.
+- Les liens `#ancre` sont réécrits automatiquement vers la bonne page. Slugs de pages courts et lisibles, idéalement les mêmes que sur le site d'origine (référencement).
+- Exemple : domaine-de-la-folie.json. Un site d'origine sur une seule page reste en une seule page.
