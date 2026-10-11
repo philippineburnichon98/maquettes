@@ -118,14 +118,15 @@
    "id": "devis",
    "eyebrow": "Nous contacter",
    "title": "Demander <em class=\"it\">un devis</em>",
-   "lead": "Décrivez votre bien et les diagnostics dont vous avez besoin : nous revenons vers vous.",
+   "lead": "Décrivez votre bien et les diagnostics dont vous avez besoin : nous vous répondrons dès que possible.",
    "email": "actidiag@neuf.fr",
    "subject": "Demande de devis depuis le site",
    "submit": "Envoyer",
    "side": [
     "Tél. : <a href=\"tel:+33479363217\" style=\"border-bottom:1px solid var(--gold)\">04 79 36 32 17</a>",
     "E-mail : <a href=\"mailto:actidiag@neuf.fr\" style=\"border-bottom:1px solid var(--gold)\">actidiag@neuf.fr</a>",
-    "Du lundi au vendredi, de 8 h 30 à 19 h."
+    "Du lundi au vendredi, de 8 h 30 à 19 h.",
+    "<small style=\"color:var(--muted)\">Les données personnelles que vous nous communiquez sont utilisées par Acti-diag aux seules fins de répondre à votre demande.</small>"
    ],
    "fields": [
     {
@@ -141,9 +142,6 @@
      "label": "Téléphone",
      "type": "tel",
      "required": true
-    },
-    {
-     "label": "Adresse du bien"
     },
     {
      "label": "Message",
