@@ -1,0 +1,54 @@
+# Interface d'administration du site (Pages CMS : https://app.pagescms.org)
+# Le client se connecte avec son e-mail, écrit ses articles, et le site se met à jour tout seul.
+media:
+  input: public/images
+  output: /images
+content:
+  - name: articles
+    label: Articles du blog
+    type: collection
+    path: content/articles
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view: { primary: "title", sort: "date", order: "desc" }
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: date
+        label: Date de publication
+        type: date
+        required: true
+      - name: category
+        label: Thème
+        type: select
+        options:
+          values: [Actualités, Conseils, Réalisations, Vie de l'entreprise]
+      - name: image
+        label: Photo principale
+        type: image
+      - name: description
+        label: "Résumé (liste des articles et résultats Google, 160 caractères max.)"
+        type: text
+      - name: draft
+        label: "Brouillon : ne pas publier encore"
+        type: boolean
+      - name: body
+        label: Texte de l'article
+        type: rich-text
+  - name: site
+    label: Informations du site
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: name, label: "Nom de l'entreprise", type: string }
+      - { name: tagline, label: Accroche, type: string }
+      - { name: intro, label: "Présentation (page d'accueil)", type: text }
+      - { name: phone, label: Téléphone, type: string }
+      - { name: email, label: E-mail, type: string }
+      - { name: address, label: Adresse, type: string }
+      - { name: hours, label: Horaires, type: string }
+      - { name: logo, label: Logo, type: image }
+      - { name: hero_image, label: "Photo d'accueil", type: image }

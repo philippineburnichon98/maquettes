@@ -1,0 +1,3 @@
+# Redirections permanentes des anciennes adresses vers les nouvelles (conserve le référencement).
+# Une ligne par ancienne page : ancienne-adresse  nouvelle-adresse  301
+# /actualites-juridiques/droit-de-l-immobilier/article/1391/achat-immobilier.html  /blog/achat-immobilier-la-checklist/  301

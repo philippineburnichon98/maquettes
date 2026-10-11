@@ -1,0 +1,14 @@
+{
+  "name": "Atelier Exemple",
+  "tagline": "Menuiserie et agencement sur mesure",
+  "intro": "Ce modèle montre un site vitrine dont le blog se gère depuis une interface simple : le client écrit ses articles, ajoute ses photos, et le site se met à jour tout seul en une minute.",
+  "phone": "04 00 00 00 00",
+  "email": "contact@exemple.fr",
+  "address": "1 rue de l'Exemple, 69000 Lyon",
+  "hours": "Du lundi au vendredi, 8 h à 18 h",
+  "logo": "",
+  "hero_image": "",
+  "url": "https://www.exemple.fr",
+  "accent": "#24505e",
+  "nav": [["Accueil", "/"], ["Le blog", "/blog/"], ["Contact", "/#contact"]]
+}

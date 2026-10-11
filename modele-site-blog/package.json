@@ -1,0 +1,14 @@
+{
+  "name": "modele-site-blog-fyce",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Modèle de site vitrine avec blog modifiable par le client (Pages CMS + Cloudflare)",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs"
+  },
+  "dependencies": {
+    "marked": "16.4.2",
+    "yaml": "2.8.4"
+  }
+}

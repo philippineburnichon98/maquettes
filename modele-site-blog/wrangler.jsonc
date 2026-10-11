@@ -1,0 +1,7 @@
+{
+  // Cloudflare : déploiement automatique à chaque modification (commit) du dépôt.
+  // Commande de build à renseigner dans Cloudflare : npm install && npm run build
+  "name": "site-client",
+  "compatibility_date": "2025-09-01",
+  "assets": { "directory": "./dist", "not_found_handling": "404-page" }
+}
