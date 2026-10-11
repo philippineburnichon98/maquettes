@@ -19,24 +19,12 @@
  },
  "nav": [
   [
-   "maison",
-   "La maison"
-  ],
-  [
-   "restaurant",
+   "le-restaurant",
    "Le restaurant"
   ],
   [
-   "carte",
-   "La carte"
-  ],
-  [
-   "equipe",
+   "team",
    "L'équipe"
-  ],
-  [
-   "reserver",
-   "Réserver"
   ],
   [
    "contact",
@@ -131,19 +119,6 @@
      "La cave",
      "Beaujolais, Bourgogne et vallée du Rhône, en bouteille ou en pot."
     ]
-   ]
-  },
-  {
-   "kind": "story",
-   "id": "restaurant",
-   "eyebrow": "Le restaurant",
-   "title": "Petites <em class=\"it\">ou grandes tablées</em>",
-   "img": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg",
-   "alt": "La terrasse du Bouchon des Artistes",
-   "paras": [
-    "À deux pas de la Part-Dieu, Le Bouchon des Artistes sert les spécialités lyonnaises revisitées et des plats découvertes, en salle ou en terrasse.",
-    "Jusqu'à 40 couverts par service : nous nous adaptons aux petites comme aux grandes tablées.",
-    "Une privatisation du lieu est possible pour vos événements. Parlons-en par téléphone ou par e-mail."
    ]
   },
   {
@@ -298,63 +273,10 @@
    "pdf": "https://www.le-bouchon-des-artistes.fr/_files/ugd/12be68_682e0eb039b5413fbe0a51297abc98dd.pdf"
   },
   {
-   "kind": "team",
-   "id": "equipe",
-   "eyebrow": "L'équipe",
-   "title": "Ceux qui <em class=\"it\">vous accueillent</em>",
-   "lead": "Une équipe qui veut faire de chaque repas un moment partagé avec vous, du lundi au vendredi.",
-   "people": [
-    {
-     "name": "Michael",
-     "role": "Le patron",
-     "img": "https://static.wixstatic.com/media/313a31_4350817be4cc488a9522df2f5500a36b~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/m.jpg"
-    },
-    {
-     "name": "Guillaume",
-     "role": "Le chef",
-     "img": "https://static.wixstatic.com/media/313a31_dc6f0d2fa2954e53a19bd0d99cbbccb6~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/g.jpg"
-    },
-    {
-     "name": "Caroline",
-     "role": "Cheffe de rang",
-     "img": "https://static.wixstatic.com/media/313a31_03d4ee44eb8444e6abdbe29705b42ad9~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/c.jpg"
-    },
-    {
-     "name": "Olivier",
-     "role": "Chef de partie cuisine",
-     "img": "https://static.wixstatic.com/media/313a31_cff59a26a34444cdad7f34e7513555e4~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/o.jpg"
-    },
-    {
-     "name": "Thomas",
-     "role": "Apprenti cuisine",
-     "img": "https://static.wixstatic.com/media/313a31_08ae20fe7ae94513a681cedbdc1655ff~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/t.jpg"
-    }
-   ],
-   "note": "En cuisine cette saison, selon la carte d'automne : Guillaume Daubignard, Sacha Salzi et Alexis Laurent.",
-   "img": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fill/w_1800,h_788,al_c,q_85/equipe.jpg",
-   "alt": "L'équipe du Bouchon des Artistes"
-  },
-  {
    "kind": "gallery",
    "eyebrow": "Galerie",
    "title": "Bon <em class=\"it\">appétit !</em>",
    "photos": [
-    {
-     "thumb": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-     "full": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/313a31_fcb77aa7a6e944a48b91fe6fb495bf63~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-     "full": "https://static.wixstatic.com/media/313a31_fcb77aa7a6e944a48b91fe6fb495bf63~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/313a31_10af999e2b7946d493e7509880fb8a80~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-     "full": "https://static.wixstatic.com/media/313a31_10af999e2b7946d493e7509880fb8a80~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/313a31_475e8dc0dbaf41ddbd32962f663ba693~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
-     "full": "https://static.wixstatic.com/media/313a31_475e8dc0dbaf41ddbd32962f663ba693~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg"
-    },
     {
      "thumb": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_900,h_900,q_85/a.jpg",
      "full": "https://static.wixstatic.com/media/313a31_3939065d440840ceb164ff069095b1c7~mv2.jpg/v1/fit/w_1800,h_1800,q_85/a.jpg"
@@ -487,5 +409,122 @@
  "logo": {
   "src": "https://static.wixstatic.com/media/313a31_df1dda267ca542f2857b0c6fc14828f7~mv2.png/v1/fit/w_976,h_132,q_90/logo-lebouchondesartistes.png",
   "height": 34
- }
+ },
+ "pages": [
+  {
+   "slug": "le-restaurant",
+   "label": "Le restaurant",
+   "title": "Le restaurant",
+   "eyebrow": "À deux pas de la Part-Dieu",
+   "lead": "Jusqu'à 40 couverts par service, petites ou grandes tablées.",
+   "img": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg/v1/fill/w_1920,h_900,al_c,q_85/facade.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "restaurant",
+     "eyebrow": "Le restaurant",
+     "title": "Petites <em class=\"it\">ou grandes tablées</em>",
+     "img": "https://static.wixstatic.com/media/313a31_c97d75ffbfe447a9995fe0984776ce4a~mv2.jpg/v1/fit/w_1200,h_1500,q_85/terrasse-2.jpg",
+     "alt": "La terrasse du Bouchon des Artistes",
+     "paras": [
+      "À deux pas de la Part-Dieu, Le Bouchon des Artistes sert les spécialités lyonnaises revisitées et des plats découvertes, en salle ou en terrasse.",
+      "Jusqu'à 40 couverts par service : nous nous adaptons aux petites comme aux grandes tablées.",
+      "Une privatisation du lieu est possible pour vos événements. Parlons-en par téléphone ou par e-mail."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/313a31_10b8c61be4744f5cb1acd1601bb5eb30~mv2.png/v1/fit/w_500,h_200,q_90/maitre-restaurateur.png",
+       "Maître Restaurateur"
+      ]
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "lieu",
+     "eyebrow": "Le lieu",
+     "title": "Salle <em class=\"it\">et terrasse</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/313a31_c97d75ffbfe447a9995fe0984776ce4a~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+       "full": "https://static.wixstatic.com/media/313a31_c97d75ffbfe447a9995fe0984776ce4a~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+       "alt": "La terrasse"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/313a31_10af999e2b7946d493e7509880fb8a80~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+       "full": "https://static.wixstatic.com/media/313a31_10af999e2b7946d493e7509880fb8a80~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+       "alt": "La salle"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/313a31_fcb77aa7a6e944a48b91fe6fb495bf63~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+       "full": "https://static.wixstatic.com/media/313a31_fcb77aa7a6e944a48b91fe6fb495bf63~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+       "alt": "La terrasse"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+       "full": "https://static.wixstatic.com/media/313a31_ac5e308d43a343c88faf88f2bc072063~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+       "alt": "La façade"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/313a31_475e8dc0dbaf41ddbd32962f663ba693~mv2.jpg/v1/fit/w_900,h_900,q_85/p.jpg",
+       "full": "https://static.wixstatic.com/media/313a31_475e8dc0dbaf41ddbd32962f663ba693~mv2.jpg/v1/fit/w_1800,h_1800,q_85/p.jpg",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "team",
+   "label": "L'équipe",
+   "title": "L'équipe",
+   "eyebrow": "Vous faire vivre un bel instant…",
+   "img": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fill/w_1800,h_788,al_c,q_85/equipe.jpg",
+   "sections": [
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "L'équipe",
+     "title": "Ceux qui <em class=\"it\">vous accueillent</em>",
+     "lead": "Vous faire vivre un bel instant… Pour nous, un repas, c'est avant tout un moment partagé avec vous, du lundi au vendredi.",
+     "people": [
+      {
+       "name": "Michael",
+       "role": "Le patron",
+       "img": "https://static.wixstatic.com/media/313a31_4350817be4cc488a9522df2f5500a36b~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/m.jpg"
+      },
+      {
+       "name": "Guillaume",
+       "role": "Le chef",
+       "img": "https://static.wixstatic.com/media/313a31_dc6f0d2fa2954e53a19bd0d99cbbccb6~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/g.jpg"
+      },
+      {
+       "name": "Caroline",
+       "role": "Cheffe de rang",
+       "img": "https://static.wixstatic.com/media/313a31_03d4ee44eb8444e6abdbe29705b42ad9~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/c.jpg"
+      },
+      {
+       "name": "Olivier",
+       "role": "Chef de partie cuisine",
+       "img": "https://static.wixstatic.com/media/313a31_cff59a26a34444cdad7f34e7513555e4~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/o.jpg"
+      },
+      {
+       "name": "Thomas",
+       "role": "Apprenti cuisine",
+       "img": "https://static.wixstatic.com/media/313a31_08ae20fe7ae94513a681cedbdc1655ff~mv2.jpg/v1/fill/w_300,h_300,al_c,q_85/t.jpg"
+      }
+     ],
+     "note": "En cuisine cette saison, selon la carte d'automne : Guillaume Daubignard, Sacha Salzi et Alexis Laurent.",
+     "img": "https://static.wixstatic.com/media/313a31_e32e28b795764cc4b1e7ed504b7de411~mv2.jpg/v1/fill/w_1800,h_788,al_c,q_85/equipe.jpg",
+     "alt": "L'équipe du Bouchon des Artistes"
+    }
+   ]
+  }
+ ],
+ "home_label": "À propos",
+ "nav_extra": [
+  [
+   "contact",
+   "Contact"
+  ]
+ ]
 }
