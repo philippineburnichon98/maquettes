@@ -1,7 +1,7 @@
 nom,type,ville,site_actuel,email,slug_maquette,statut,date
-Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,brouillon pret,2026-10-09
-Bouchon des Cordeliers,restaurant,Lyon 2e,http://www.bouchondescordeliers.com/,contact@bouchondescordeliers.com,bouchon-des-cordeliers-4f9a2c,brouillon pret,2026-10-09
-Domaine Bernard Jomain,domaine,Charentay (Brouilly),https://www.domainebernardjomain.com/,jomainb@wanadoo.fr,domaine-bernard-jomain-2d7c93,brouillon pret,2026-10-09
+Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,"envoye (domainedelafolie@sfr.fr introuvable, contact@ ok)",2026-10-09
+Bouchon des Cordeliers,restaurant,Lyon 2e,http://www.bouchondescordeliers.com/,contact@bouchondescordeliers.com,bouchon-des-cordeliers-4f9a2c,envoye,2026-10-09
+Domaine Bernard Jomain,domaine,Charentay (Brouilly),https://www.domainebernardjomain.com/,jomainb@wanadoo.fr,domaine-bernard-jomain-2d7c93,envoye,2026-10-09
 Le Bouchon des Artistes,restaurant,Lyon 3e,https://www.le-bouchon-des-artistes.fr/,lebouchondesartistes@orange.fr,bouchon-des-artistes-b81e57,brouillon pret,2026-10-09
 Les Fines Gueules,restaurant,Lyon 5e,http://www.fines-gueules.fr,,,ecarte (site recent),2026-10-09
 Bouchon Palais Grillet,restaurant,Lyon 2e,https://www.bouchonpalaisgrillet.com/,,,ecarte (site recent),2026-10-09
