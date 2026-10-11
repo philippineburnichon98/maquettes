@@ -1,0 +1,616 @@
+{
+ "slug": "rde-electricite-1fae37",
+ "title": "RDE, Romain Daviet Électricité · Électricien à Gruffy, près d'Annecy",
+ "description": "RDE, Romain Daviet Électricité : électricien à Gruffy et sur le bassin annécien. Rénovation, dépannage, VMC, domotique, alarme, interphonie, réseau, bornes de recharge (QUALIFELEC IRVE), espace pros. Devis gratuit.",
+ "brand": "RDE",
+ "tagline": "Romain Daviet Électricité",
+ "theme": {
+  "paper": "#f4f6f8",
+  "paper2": "#e3e9ef",
+  "ink": "#13202c",
+  "muted": "#56626f",
+  "accent": "#1b6fb5",
+  "accent2": "#145690",
+  "gold": "#d99a00",
+  "heroem": "#ffd34d",
+  "serif": "\"Barlow Semi Condensed\",system-ui,sans-serif",
+  "sans": "\"Barlow\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500&family=Barlow:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/ia0cda20a09009e74/version/1481813261/image.png",
+  "height": 56,
+  "bg": "#ffffff"
+ },
+ "nav": [
+  [
+   "entreprise",
+   "L'entreprise"
+  ],
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "tarifs",
+   "Tarifs"
+  ],
+  [
+   "references",
+   "Références"
+  ],
+  [
+   "devis",
+   "Devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/backgroundarea/i33037fe396b6bace/version/1472764611/image.jpg",
+  "eyebrow": "Électricien à Gruffy · Annecy et Haute-Savoie",
+  "title": "Votre électricien, <em>réactif et proche</em> de chez vous",
+  "lead": "Création, rénovation, dépannage, domotique : RDE propose ses services aux particuliers et aux professionnels, en courant fort comme en courant faible.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 07 22 08 68",
+   "tel:+33607220868"
+  ]
+ },
+ "figures": [
+  [
+   "2017",
+   "création de l'entreprise"
+  ],
+  [
+   "55 €",
+   "HT de l'heure"
+  ],
+  [
+   "IRVE",
+   "qualification QUALIFELEC"
+  ],
+  [
+   "13",
+   "références clients"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "L'entreprise",
+   "title": "Qui <em class=\"it\">suis-je ?</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/ib7a6486699eb39b9/version/1480009758/image.jpg",
+   "alt": "RDE, Romain Daviet Électricité",
+   "paras": [
+    "Vous recherchez un partenaire de confiance, réactif et proche de chez vous pour vos projets en électricité ?",
+    "Romain DAVIET, titulaire d'un CAP et d'un BP en électricité ainsi que d'un DUT en Qualité Logistique Industrielle et Organisation.",
+    "Je crée l'entreprise RDE en 2017 en m'appuyant sur une double compétence : d'un côté la maîtrise des techniques et des technologies aussi bien en courant fort qu'en courant faible, acquises grâce à ma formation d'électricien ; de l'autre la maîtrise de la satisfaction client, de la qualité et du service après-vente, obtenus au cours de mon DUT.",
+    "Fort de plusieurs années d'expérience dans l'électricité, je serai en mesure de vous accompagner dans votre projet, que vous soyez un particulier ou un professionnel."
+   ],
+   "sign": "Romain Daviet"
+  },
+  {
+   "kind": "blocks",
+   "id": "valeurs",
+   "dark": true,
+   "eyebrow": "Mes valeurs",
+   "title": "Qualité, conseil, <em class=\"it\">réactivité</em>",
+   "lead": "Les engagements de RDE sur chaque chantier.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i88561e72515cd607/version/1472764478/image.jpg",
+   "alt": "RDE, Romain Daviet Électricité",
+   "items": [
+    {
+     "kicker": "Qualité",
+     "paras": [
+      "Faire de la qualité le pilier central de toutes mes prestations."
+     ]
+    },
+    {
+     "kicker": "Conseil",
+     "paras": [
+      "Vous conseiller dans votre projet, aussi bien sur le plan de la sécurité que celui du confort."
+     ]
+    },
+    {
+     "kicker": "Réactivité",
+     "paras": [
+      "Je m'engage à être réactif, à m'adapter aux contraintes et à toujours mener mes chantiers à terme, dans les délais."
+     ]
+    },
+    {
+     "kicker": "Énergie",
+     "paras": [
+      "Parce que l'énergie est devenue un enjeu majeur, je peux vous proposer des solutions non seulement pour optimiser votre consommation mais également préserver l'environnement."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Prestations",
+   "title": "Courant fort, courant faible, <em class=\"it\">pros et IRVE</em>",
+   "lead": "Création, rénovation, dépannage, domotique : découvrez les solutions proposées par l'entreprise.",
+   "items": [
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i190859aa13806db5/version/1482011394/image.jpg",
+     "alt": "Courant fort",
+     "kicker": "Courant fort",
+     "title": "Électricité",
+     "paras": [
+      "Parce qu'une installation électrique rénovée, c'est un confort supplémentaire, un sentiment de sécurité et une consommation mieux maîtrisée, RDE vous propose une rénovation électrique adaptée à vos besoins et votre budget."
+     ],
+     "list": [
+      "Rénovation",
+      "VMC",
+      "Dépannage"
+     ],
+     "link": [
+      "Voir le détail",
+      "#electricite"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/idb986eb42b81af56/version/1482010289/image.jpg",
+     "alt": "Courant faible",
+     "kicker": "Courant faible",
+     "title": "Domotique, alarme, interphonie",
+     "list": [
+      "Mesurer la consommation de vos appareils",
+      "Commander à distance des éclairages, du chauffage, des volets roulants ou tout type d'appareil",
+      "Réaliser une installation domotique totale ou partielle",
+      "Installer un interphone/vidéophone individuel ou collectif",
+      "Constituer un réseau informatique",
+      "Installer une alarme intrusion ne nécessitant pas de travaux lourds et pilotable sur smartphone"
+     ],
+     "link": [
+      "Voir le détail",
+      "#courant-faible"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i779a0707fc472e23/version/1482010433/image.jpg",
+     "alt": "Espace pros",
+     "kicker": "Espace pros",
+     "title": "Commerces, bureaux, ateliers",
+     "paras": [
+      "Pour l'équipement des locaux des entreprises (commerces, bureaux, ateliers, etc.) et collectivités, le matériel utilisé et les techniques de travail sont différents de ceux utilisés dans l'habitat. C'est pourquoi nous vous proposons les mêmes services qu'aux particuliers mais de façon adaptée à vos locaux et vos exigences de professionnel."
+     ],
+     "link": [
+      "Voir le détail",
+      "#pros"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i602c18592857103f/version/1666086495/image.jpg",
+     "alt": "Borne de recharge pour véhicule électrique",
+     "kicker": "Bornes recharge VE",
+     "title": "IRVE",
+     "paras": [
+      "Titulaire de la qualification QUALIFELEC IRVE, obligatoire pour toute installation d'IRVE supérieure à 3,6 kW."
+     ],
+     "link": [
+      "Voir le détail",
+      "#irve"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "electricite",
+   "eyebrow": "Courant fort",
+   "title": "Rénovation, VMC, <em class=\"it\">dépannage</em>",
+   "lead": "Les chiffres parlent d'eux-mêmes : 75 % des propriétaires jugent que leur installation électrique est tout à fait aux normes, alors que 60 % des biens immobiliers de plus de 15 ans vendus en 2012 ne respectent pas les 6 points de sécurité électrique minimums.",
+   "tight": true,
+   "items": [
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i59bbc40f260df00c/version/1484747702/surconsommation-%C3%A9lectrique.jpg",
+     "alt": "Surconsommation électrique",
+     "kicker": "Rénovation",
+     "title": "Rester en sécurité",
+     "paras": [
+      "Au moment de sa construction, un logement est automatiquement certifié conforme à la norme NFC 15 100. Mais, avec le temps, l'installation électrique vieillit jusqu'à devenir obsolète, voire dangereuse. Par ailleurs, la norme évolue, suivant les besoins de plus en plus importants des consommateurs et des technologies.",
+      "Un logement peut donc ne plus être « aux normes » indéfiniment, mais doit au minimum rester en sécurité et fonctionnel. Il est donc important de faire contrôler régulièrement son installation électrique, dans l'idéal tous les 10 ans.",
+      "Les 6 points de sécurité électrique indispensables pour une installation :"
+     ],
+     "list": [
+      "Présence d'un appareil général de commande et de protection de l'installation, facilement accessible.",
+      "Présence, à l'origine de l'installation, d'un dispositif de protection différentielle de sensibilité appropriée aux conditions de mise à la terre.",
+      "Présence, sur chaque circuit, d'au moins un dispositif de protection contre les surintensités adapté à la section des conducteurs.",
+      "Présence d'une liaison équipotentielle et respect des règles liées aux zones dans chaque local contenant une baignoire ou une douche.",
+      "Absence de tout risque de contact direct avec des éléments sous tension pouvant entraîner l'électrocution et de tout matériel vétuste ou inadapté à l'usage.",
+      "Conducteurs protégés par des conduits, moulures ou plinthes en matière isolante."
+     ]
+    },
+    {
+     "kicker": "VMC",
+     "title": "Simple ou double flux",
+     "paras": [
+      "Dans tout type de local, habitation ou commercial, la ventilation est indispensable pour l'évacuation de l'excès d'humidité, la pollution et le renouvellement de l'air. Une isolation de qualité est également indispensable pour éviter les déperditions inutiles de chaleur.",
+      "Il existe deux systèmes de VMC : la VMC simple flux ainsi que la VMC double flux. Installée dans les pièces humides de la maison (cuisine, salle de bain, WC), la VMC hygroréglable simple ou double flux permet de ventiler une pièce en fonction du taux d'humidité de celle-ci.",
+      "L'air humide et pollué est ensuite aspiré par des bouches reliées à la VMC par des gaines spécifiques puis rejeté. Système fiable et indispensable, la VMC hygroréglable peut permettre d'économiser jusqu'à 15 % sur sa facture de chauffage."
+     ],
+     "link": [
+      "Vidéo : fonctionnement d'une VMC hygroréglable simple flux",
+      "https://www.youtube.com/watch?v=z65twn0YFWE"
+     ]
+    },
+    {
+     "kicker": "Dépannage",
+     "title": "Besoin d'un électricien en urgence ?",
+     "paras": [
+      "Un disjoncteur qui déclenche sans arrêt, un circuit qui ne fonctionne plus, une consommation électrique anormalement élevée, tous ces incidents peuvent être résolus rapidement par un professionnel.",
+      "De plus, ces pannes peuvent parfois cacher de plus gros défauts comme des mauvais câblages ou des connexions usées qui peuvent à terme être source d'échauffements voire de départs d'incendie.",
+      "Pour votre sécurité, n'attendez pas : RDE intervient rapidement sur tout type de panne électrique sur Annecy et ses alentours."
+     ],
+     "link": [
+      "Appeler le 06 07 22 08 68",
+      "tel:+33607220868"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "courant-faible",
+   "eyebrow": "Courant faible",
+   "title": "Où que vous soyez, <em class=\"it\">gardez le contrôle</em>",
+   "lead": "Aujourd'hui, la technologie ne cesse d'évoluer : de nombreux appareils peuvent désormais être pilotés depuis votre smartphone. De plus, la domotique peut maintenant se greffer sur votre installation électrique de façon partielle, sans avoir à refaire à neuf, sans dégâts et pour un coût modéré.",
+   "tight": true,
+   "items": [
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i42b6c2af45783568/version/1481840740/application-domotique-sur-smartphone.jpg",
+     "alt": "Application domotique sur smartphone",
+     "kicker": "Domotique",
+     "title": "Piloter votre habitation",
+     "paras": [
+      "Découvrez les solutions pour piloter votre habitation chez vous ou à l'extérieur depuis votre smartphone. Éclairage, chauffage, volets roulants, les possibilités sont immenses.",
+      "De plus, l'installation est évolutive : vous pouvez choisir d'équiper en domotique seulement 1 éclairage pour commencer, puis ajouter par la suite d'autres éclairages, puis des convecteurs, et ainsi de suite. Votre installation évolue ainsi en suivant vos envies et votre budget."
+     ],
+     "link": [
+      "En savoir plus (Delta Dore)",
+      "http://www.deltadore.fr/solution-domotique"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/if34cfaa04fc54518/version/1481840765/kit-alarme-intrusion-delta-dore.jpg",
+     "alt": "Kit alarme intrusion Delta Dore",
+     "contain": true,
+     "kicker": "Alarme intrusion",
+     "title": "Une alarme sans fil",
+     "paras": [
+      "Sécurisez votre habitation avec un système d'alarme sans fil. Vous pourrez être alerté en cas d'intrusion ou d'incidents tels que des fuites de liquide ou incendie.",
+      "En plus de la centrale d'alarme, des détecteurs de présence et des contacts de porte, une sirène extérieure et des détecteurs de fumée assurent une protection optimale de votre habitation. Une application mobile vous permet d'agir sur votre système où que vous soyez.",
+      "Simple d'utilisation, efficace et intuitive, l'alarme sans fil permet d'obtenir un niveau de protection optimal sans passage de fils et sans détérioration des murs."
+     ],
+     "link": [
+      "En savoir plus (Delta Dore)",
+      "http://www.deltadore.fr/actualites/nouveaute/alarme-connectee-tyxal-plus"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i2cbbe3ad33c63b53/version/1481840793/kit-visiophone-r%C3%A9sidentiel-aiphone.jpg",
+     "alt": "Kit visiophone résidentiel Aiphone",
+     "contain": true,
+     "kicker": "Interphonie",
+     "title": "Du visiophone au collectif",
+     "paras": [
+      "De plus en plus, l'interphonie cède sa place à la visiophonie. Avec sa caméra grand angle et son écran intérieur tactile, le visiophone permet de contrôler l'accès à votre habitation en toute sérénité.",
+      "Il dispose d'options très utiles comme la possibilité de gérer l'ouverture à la fois d'un portail motorisé et d'un portillon, ou encore de reporter l'appel et les commandes d'ouverture sur votre smartphone.",
+      "Je propose l'installation d'interphonie aussi bien en résidentiel qu'en collectif."
+     ],
+     "link": [
+      "En savoir plus (Aiphone)",
+      "http://www.aiphone.fr/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "pros",
+   "eyebrow": "Espace pros",
+   "title": "Pour les entreprises <em class=\"it\">et collectivités</em>",
+   "lead": "Vous êtes un professionnel et vous cherchez un partenaire de confiance qui interviendra rapidement ? N'hésitez pas à me contacter afin de me faire part de votre projet.",
+   "tight": true,
+   "items": [
+    {
+     "kicker": "Que vous souhaitiez",
+     "title": "Construire, rénover, sécuriser",
+     "list": [
+      "Construire un site complet",
+      "Rénover votre local",
+      "Remplacer votre éclairage par de la LED pour réaliser des économies",
+      "Corriger des défauts signalés suite à la visite d'un bureau de contrôle",
+      "Mettre en place des alimentations spécifiques pour des machines",
+      "Remettre aux normes votre armoire électrique",
+      "Installer une alarme intrusion ou incendie",
+      "Constituer un réseau informatique avec une baie de brassage",
+      "Et bien plus encore…"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/ibf40734f497838fa/version/1481840634/bureau-%C3%A9quip%C3%A9-en-pav%C3%A9-led.jpg",
+     "alt": "Bureau équipé en pavé LED",
+     "kicker": "Relamping",
+     "title": "Passer à la LED",
+     "paras": [
+      "Les anciennes générations de luminaires nécessitaient bien souvent une maintenance annuelle et représentaient une consommation électrique importante. Aujourd'hui, le matériel a grandement évolué grâce à la LED notamment : les nouveaux luminaires sont nettement plus économiques et proposent une durée de vie largement supérieure."
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i38891fedb058d268/version/1516828217/kit-alarme-incendie.jpg",
+     "alt": "Kit alarme incendie",
+     "contain": true,
+     "kicker": "Protection incendie",
+     "title": "Sécurité incendie des ERP",
+     "paras": [
+      "Pour les ERP, la mise en place d'un équipement de sécurité incendie comprenant alarme et/ou éclairage de sécurité est indispensable. Je vous propose l'installation de tous les dispositifs nécessaires à la sécurité incendie tels que les centrales d'alarme, les déclencheurs manuels, les sirènes ou encore les blocs secours."
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i113bc601ea1cac96/version/1516828276/c%C3%A2bles-ethernet.jpg",
+     "alt": "Câbles ethernet",
+     "kicker": "Réseau",
+     "title": "Une connectivité maximale",
+     "paras": [
+      "Aujourd'hui, le réseau informatique est un outil indispensable dans toute activité. Internet, téléphone, fax, toutes ces applications nécessitent un réseau filaire de qualité. Je réalise la distribution de câbles, le raccordement de prises RJ45 et la confection de baies de brassage."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "irve",
+   "eyebrow": "Bornes de recharge pour véhicule électrique",
+   "title": "Installer votre <em class=\"it\">IRVE</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i602c18592857103f/version/1666086495/image.jpg",
+   "alt": "Borne de recharge pour véhicule électrique",
+   "paras": [
+    "Avant de passer à un véhicule électrique, il est très important de bien prendre en considération qu'il impactera de façon plus ou moins importante votre installation électrique en fonction du type de charge que vous souhaitez installer.",
+    "Au même titre que n'importe quel appareil électrique conséquent (pompe à chaleur, chaudière, panneaux solaires, etc.), il convient de faire réaliser l'installation d'une IRVE (Infrastructure de Recharge pour Véhicule Électrique) par un professionnel qualifié.",
+    "Étant titulaire de la qualification QUALIFELEC IRVE (obligatoire pour toute installation d'IRVE supérieure à 3,6 kW) et ayant suivi la formation obligatoire pour l'obtenir auprès de l'APAVE, je serai en mesure de vous accompagner dans votre projet pour bien préparer le terrain avant l'arrivée de votre nouveau véhicule électrique."
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "irve-etapes",
+   "eyebrow": "Un projet bien préparé",
+   "title": "Trois étapes <em class=\"it\">avant la pose</em>",
+   "tight": true,
+   "items": [
+    {
+     "kicker": "Étape 1",
+     "title": "Analyse du besoin",
+     "paras": [
+      "Je vous proposerai un RDV afin de récolter les données nécessaires à l'étude. Le véhicule envisagé, la configuration de votre logement et votre rythme de vie sont des éléments à bien prendre en compte pour adapter l'infrastructure à vos besoins, votre budget et votre besoin de charger rapidement ou non."
+     ]
+    },
+    {
+     "kicker": "Étape 2",
+     "title": "Analyse technique",
+     "paras": [
+      "L'installation d'une IRVE nécessite des prérequis au niveau de l'installation électrique, indispensables pour être en conformité avec la norme et donc votre sécurité au quotidien. État et composition du tableau électrique, test de déclenchement des différentiels, prise de terre : autant de mesures effectuées pour garantir la sécurité et établir un rapport à la mise en service. Cette étape comprend également l'étude des passages de câble et le positionnement de la borne de recharge."
+     ]
+    },
+    {
+     "kicker": "Étape 3",
+     "title": "Établissement d'un devis",
+     "paras": [
+      "Après avoir synthétisé les données précédemment récoltées, je vous établirai un devis précis, répondant au mieux à vos besoins."
+     ],
+     "link": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "menu",
+   "id": "tarifs",
+   "eyebrow": "Tarifs",
+   "title": "Des prix <em class=\"it\">transparents</em>",
+   "lead": "Parce que la transparence fait partie intégrante des valeurs de RDE, vous trouverez ci-dessous les tarifs des prestations proposées par l'entreprise.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i4bad766197a553be/version/1490187836/tarif-travaux-%C3%A9lectricit%C3%A9.jpg",
+   "alt": "Tarif travaux électricité",
+   "sections": [
+    {
+     "title": "Déplacement",
+     "items": [
+      [
+       "Gruffy",
+       "Offert"
+      ],
+      [
+       "Z1 : bassin annécien, Aix-les-Bains, Bauges",
+       "35 € HT"
+      ],
+      [
+       "Z2 : 30 à 50 km autour de Gruffy",
+       "50 € HT"
+      ],
+      [
+       "Au-delà",
+       "À définir"
+      ]
+     ]
+    },
+    {
+     "title": "Main-d'œuvre",
+     "items": [
+      [
+       "Tarif horaire",
+       "55 € HT / heure"
+      ]
+     ]
+    }
+   ],
+   "note": "Les prix sont affichés net hors taxes.",
+   "aside": {
+    "eyebrow": "Tarif personnalisé",
+    "title": "Le devis",
+    "big": "Gratuit",
+    "text": "N'hésitez pas à nous contacter pour obtenir un tarif personnalisé, le devis est gratuit !",
+    "cta": [
+     "Demander un devis",
+     "#devis"
+    ]
+   }
+  },
+  {
+   "kind": "story",
+   "id": "references",
+   "eyebrow": "Références clients",
+   "title": "Ils nous font <em class=\"it\">confiance</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i170fa6c3f49d0b64/version/1482011170/image.jpg",
+   "alt": "Réalisations RDE",
+   "paras": [
+    "Commerces, entreprises et professionnels du bassin annécien : Le Dauphiné Libéré, Ludocortex, Pandora, Stil Bag, Zepanek Coiffeurs, Sibeery et Noesis à Annecy, MOA à Annemasse, Kiloutou à Seynod et Bellegarde, Au Bonheur des sens à Poisy.",
+    "Réalisations : rendez-vous sur le site de <a href=\"https://archi-noesis.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">NOESIS Architecture</a> afin de découvrir nos réalisations."
+   ],
+   "logos": [
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i2ed3eb92a0c9eae5/version/1516830099/image.jpg",
+     "Le Dauphiné Libéré Annecy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i69b8ef23539899a3/version/1516830517/image.jpg",
+     "Ludocortex Annecy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i11c463af0e612f1f/version/1516831727/image.png",
+     "Pandora Annecy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i3dbd92f490233367/version/1516830315/image.jpg",
+     "Stil Bag Annecy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i798cb64df4d3ace6/version/1516830373/image.jpg",
+     "MOA Annemasse"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/ic91f2e58a2311c97/version/1516830460/image.jpg",
+     "Kiloutou Seynod / Bellegarde"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i6967daa2e576fd59/version/1516830517/image.jpg",
+     "Zepanek Coiffeurs Annecy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/iad105596aa1842a7/version/1516830824/image.jpg",
+     "Au Bonheur des sens Poisy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i6ea1f8fb1d10b5bd/version/1516830957/image.jpg",
+     "Sibeery Annecy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/iae679aaf9b286d9e/version/1516831727/image.jpg",
+     "Noesis Annecy"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i36133fa3c118d044/version/1666087628/image.jpg",
+     "Client RDE"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i315253fa33a85613/version/1666087628/image.jpg",
+     "Client RDE"
+    ],
+    [
+     "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/ibe4c3e9f1ccb4af4/version/1666087628/image.png",
+     "Client RDE"
+    ]
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Devis gratuit",
+   "title": "Demander <em class=\"it\">un devis</em>",
+   "lead": "N'hésitez pas à me contacter par mail ou téléphone pour obtenir un devis gratuit ! Je vous répondrai dans les meilleurs délais.",
+   "email": "info@rde-electricite.com",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer ma demande",
+   "side": [
+    "Tél. : <a href=\"tel:+33607220868\" style=\"border-bottom:1px solid var(--gold)\">06 07 22 08 68</a>",
+    "E-mail : <a href=\"mailto:info@rde-electricite.com\" style=\"border-bottom:1px solid var(--gold)\">info@rde-electricite.com</a>",
+    "<img src=\"https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i5d3ff5504471d122/version/1473972371/image.jpg\" alt=\"RDE\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;max-width:360px;height:auto;margin-top:8px\">"
+   ],
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Commune"
+    },
+    {
+     "label": "Message",
+     "type": "textarea"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i41dd21f8b9d62647/version/1480092978/image.jpg",
+   "alt": "RDE, Romain Daviet Électricité",
+   "eyebrow": "Contact",
+   "title": "RDE <em class=\"it\">à Gruffy</em>",
+   "text": "Romain Daviet Électricité intervient sur Annecy, le bassin annécien et la Haute-Savoie.",
+   "rows": [
+    [
+     "Adresse",
+     "3376 route des Bauges<br>74540 Gruffy"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33607220868\">06 07 22 08 68</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:info@rde-electricite.com\">info@rde-electricite.com</a>"
+    ],
+    [
+     "Zone",
+     "Gruffy, bassin annécien, Aix-les-Bains, Bauges, et jusqu'à 50 km autour de Gruffy"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ],
+   "map_q": "3376 route des Bauges, 74540 Gruffy"
+  }
+ ],
+ "footer": {
+  "about": "RDE, Romain Daviet Électricité : électricien à Gruffy, près d'Annecy. Courant fort et courant faible, domotique, alarme, interphonie, réseau, bornes de recharge, pour les particuliers et les professionnels.",
+  "contact": [
+   "<a href=\"tel:+33607220868\">06 07 22 08 68</a>",
+   "<a href=\"mailto:info@rde-electricite.com\">info@rde-electricite.com</a>",
+   "3376 route des Bauges, 74540 Gruffy"
+  ],
+  "legal": "RDE · Romain Daviet Électricité · Gruffy (74) · Qualification QUALIFELEC IRVE.",
+  "legal_url": "https://rde-electricite.jimdofree.com/about/"
+ }
+}
