@@ -22,32 +22,6 @@
   "height": 52,
   "bg": "#ffffff"
  },
- "nav": [
-  [
-   "etude",
-   "L'office"
-  ],
-  [
-   "competences",
-   "Compétences"
-  ],
-  [
-   "equipe",
-   "L'équipe"
-  ],
-  [
-   "visio",
-   "Visio"
-  ],
-  [
-   "actualites",
-   "Actualités"
-  ],
-  [
-   "contact",
-   "Contact"
-  ]
- ],
  "hero": {
   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock297547859jpeg_6644c90df26093.51025371.jpeg",
   "eyebrow": "Office notarial · Décines-Charpieu et Lyon 2e",
@@ -90,6 +64,7 @@
     "Notre groupe notarial UP'NOTAIRES, comportant une équipe de 30 salariés, est implanté dans l'est lyonnais, à Décines-Charpieu et à Lyon 2e.",
     "Nos implantations permettent un accès rapide à nos bureaux, mais nous sommes aussi à même de nous déplacer.",
     "En France ou à l'international, notre clientèle se compose de particuliers, d'entreprises mais aussi d'institutionnels.",
+    "Nous utilisons la visioconférence et la signature électronique.",
     "Nous intervenons partout en région Auvergne-Rhône-Alpes et à Paris."
    ],
    "sign": "Membre de la Chambre interdépartementale des notaires de la Cour d'appel de Lyon.",
@@ -97,6 +72,10 @@
     [
      "https://www.upnotaire.fr/public/img/big/Chambredesnotairespng_5f48c655d9fce.png",
      "Chambre des notaires"
+    ],
+    [
+     "https://www.upnotaire.fr/templates/notaire/img/interface/eltLogo.png",
+     "UP'NOTAIRES"
     ]
    ],
    "img": "https://www.upnotaire.fr/public/img/big/AdobeStock2118271501jpeg_664ef40abe18c2.02521733.jpeg",
@@ -144,126 +123,66 @@
    "img": "https://www.upnotaire.fr/public/img/big/AdobeStock558704093jpeg_664efca5cfab38.14934903.jpeg",
    "items": [
     {
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock179308448jpeg_5ec3ff2f3b1b2.jpeg",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock179308448jpeg_5ec2b9a1dec5e.jpeg",
      "kicker": "Lyon, Décines, France et international",
      "title": "Gestion de patrimoine",
      "paras": [
-      "Ce service fonctionne en étroite collaboration avec nos notaires spécialistes de l'international."
-     ],
-     "list": [
-      "anticipation successorale (estate planning)",
-      "accompagnement home office",
-      "bilan patrimonial",
-      "projection pour la retraite",
-      "patrimoine immobilier : classique, industriel, défiscalisé",
-      "assurances vie : rédaction des clauses bénéficiaires, conservation à l'étude",
-      "montage de structures patrimoniales, en France ou à l'international"
+      "Un service bilingue, avec des notaires salariés formés à la gestion de patrimoine : bilan patrimonial, anticipation successorale, home office."
      ],
      "link": [
-      "Page Gestion de patrimoine",
-      "https://www.upnotaire.fr/gestion-de-patrimoine-w1"
+      "En savoir plus",
+      "gestion-de-patrimoine/"
      ]
     },
     {
-     "img": "https://www.upnotaire.fr/public/img/big/construction4661168960720jpg_5eccd54e69364.jpg",
+     "img": "https://www.upnotaire.fr/public/img/big/construction4661168960720jpg_5ec7d46f44138.jpg",
      "kicker": "Lyon, Décines, France et international",
      "title": "Droit immobilier",
      "paras": [
-      "<b>Acquisitions et ventes immobilières</b> : avant-contrat ou promesse, acte authentique, diagnostics, fiscalité, plus-values, financement, prêts et garanties hypothécaires.",
-      "<b>Immobilier complexe</b> : pour les promoteurs, marchands de biens, lotisseurs, collectivités et associations."
-     ],
-     "list": [
-      "copropriété : règlements, modificatifs, scissions",
-      "urbanisme : autorisations, lotissements",
-      "droit de l'environnement : pollution des sols, loi sur l'eau",
-      "volumes, VEFA, ASL, servitudes",
-      "démembrement, usufruit et nue-propriété"
+      "Dossiers de particuliers, promoteurs et collectivités : copropriété, urbanisme, environnement, montages complexes."
      ],
      "link": [
-      "Page Droit immobilier",
-      "https://www.upnotaire.fr/droit-immobilier-w1"
+      "En savoir plus",
+      "droit-immobilier/"
      ]
     },
     {
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock277478641jpeg_5ec2bb0cefd86.jpeg",
-     "kicker": "Lyon, Décines, France ou international",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock297746916jpeg_5ec2b9a023a5b.jpeg",
+     "kicker": "Lyon, Décines, France et international",
      "title": "Droit de la famille",
      "paras": [
-      "Un service dédié existe au sein du groupe à Lyon et à Décines pour accompagner nos clients dans tous les dossiers de la famille."
-     ],
-     "list": [
-      "donation, donation entre époux, donation-partage, donation-partage conjonctive et transgénérationnelle",
-      "contrat de mariage, changement de régime, clauses (préciput, avantages matrimoniaux, mise en communauté)",
-      "succession, testament",
-      "divorce",
-      "mandat de protection future, mandat post mortem",
-      "adoption",
-      "transmission de parts d'entreprise aux enfants ou aux salariés"
+      "Mariage, PACS, divorce, successions, donations et testaments, y compris à l'international."
      ],
      "link": [
-      "Page Droit de la famille",
-      "https://www.upnotaire.fr/droit-de-la-famille-w1"
+      "En savoir plus",
+      "droit-de-la-famille/"
      ]
     },
     {
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock311308769jpeg_5ec3ff6ee4eeb.jpeg",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock311308769jpeg_5ec2b9a2e46df.jpeg",
      "kicker": "Lyon, Décines, France et international",
      "title": "Sociétés et entreprises",
      "paras": [
-      "Nous travaillons en partenariat avec les experts-comptables et les organismes financiers."
-     ],
-     "list": [
-      "certifier des signatures et documents, légalisation, apostilles",
-      "effectuer les dépôts de capital",
-      "procéder à l'établissement des procurations",
-      "choisir les structures adéquates en fonction de vos projets",
-      "choisir les régimes fiscaux (I.S., transparence fiscale)",
-      "rédiger les statuts des sociétés, associations, groupements ; formalités, assemblées",
-      "fiscalité immobilière et des sociétés : LMP, LMNP, TVA marchand de biens, pacte Dutreil"
+      "De la création à la transmission d'une société ou d'une association, avec un suivi juridique et fiscal."
      ],
      "link": [
-      "Page Sociétés et entreprises",
-      "https://www.upnotaire.fr/droit-des-societes-entreprises-w1"
+      "En savoir plus",
+      "droit-des-societes/"
      ]
     },
     {
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock58704415jpeg_5ec3ff801fd85.jpeg",
-     "kicker": "Droit international",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock58704415jpeg_5ec2b9a3cdb05.jpeg",
+     "kicker": "Lyon, Décines, France et international",
      "title": "International",
      "paras": [
-      "Nous pouvons intervenir auprès de nos clients français vivant à l'étranger ou étrangers vivant en France. L'office notarial collabore avec un réseau de partenaires dans le monde."
-     ],
-     "list": [
-      "questions matrimoniales et familiales transnationales",
-      "acquisition, structuration, détention et cession d'un patrimoine immobilier",
-      "planification successorale internationale",
-      "expatriation ou retour en France",
-      "entités étrangères : trusts, fondations, fiducies"
+      "Conseil aux personnes résidant en France ou à l'étranger dont la situation patrimoniale ou familiale est internationale."
      ],
      "link": [
-      "Page International",
-      "https://www.upnotaire.fr/international-w1"
-     ]
-    },
-    {
-     "title": "Réseau de partenaires",
-     "paras": [
-      "Royaume-Uni, Allemagne, Belgique, Espagne, Italie, Suisse, Turquie, États-Unis, Dubaï, Bahreïn, Hong Kong, Australie, Maroc."
+      "En savoir plus",
+      "international/"
      ]
     }
    ]
-  },
-  {
-   "kind": "story",
-   "id": "patrimonial",
-   "eyebrow": "Le droit patrimonial",
-   "title": "Un service <em class=\"it\">bilingue</em>",
-   "paras": [
-    "Le groupe UP NOTAIRES dispose d'un service spécialisé bilingue à Lyon et à Décines.",
-    "Ce service s'appuie sur des notaires salariés bilingues, ayant acquis des compétences spécifiques en gestion de patrimoine (CGP)."
-   ],
-   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock239819780jpeg_664efdba13fb04.11248982.jpeg",
-   "alt": ""
   },
   {
    "kind": "banner",
@@ -276,60 +195,11 @@
    "img": "https://www.upnotaire.fr/public/img/big/AdobeStock341744629jpeg_664efd34cae961.99736087.jpeg"
   },
   {
-   "kind": "story",
-   "id": "visio",
-   "eyebrow": "RDV et signature en visioconférence",
-   "title": "Le rendez-vous <em class=\"it\">en visioconférence</em>",
-   "paras": [
-    "Il suffit d'un ordinateur ou d'une tablette avec caméra, micro et connexion internet. Le rendez-vous en visioconférence se demande à l'accueil de l'office ; il est confidentiel et sans surcoût.",
-    "Logiciel gratuit conseillé : <a href=\"http://visio.notaires.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">visio.notaires.fr</a>. Pour un autre logiciel, demandez à l'office sa compatibilité avec ses règles de confidentialité et de sécurité.",
-    "La signature à distance est également possible. Contact : <a href=\"mailto:contact@upnotaires.fr\" style=\"border-bottom:1px solid var(--gold)\">contact@upnotaires.fr</a>."
-   ],
-   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock334592650jpg_5ed0b9b873aaf.jpg",
-   "alt": "Rendez-vous en visioconférence"
-  },
-  {
-   "kind": "team",
-   "id": "equipe",
-   "eyebrow": "L'équipe d'UP' Notaires",
-   "title": "Les notaires <em class=\"it\">et l'office</em>",
-   "lead": "Une étude généraliste de plus de 30 collaborateurs, avec des spécialistes en patrimonial, international, immobilier et construction, et famille.",
-   "people": [
-    {
-     "name": "Me Fabrice VAZ",
-     "role": "Notaire associé depuis 2002 · immobilier, famille, gestion de patrimoine",
-     "img": "https://www.upnotaire.fr/public/img/big/9A0A8220jpg_5ed64b3c176bc.jpg"
-    },
-    {
-     "name": "Me Delphine GONÇALVES",
-     "role": "Notaire associée · professionnels, particuliers et collectivités",
-     "img": "https://www.upnotaire.fr/public/img/big/9A0A8208jpg_5ed64a22336ee.jpg"
-    },
-    {
-     "name": "Me Vardouhie HAKOBYAN",
-     "role": "Notaire associée · droit des sociétés et international",
-     "img": "https://www.upnotaire.fr/public/img/big/IMG1965jpg_5ed7b502512d4.jpg"
-    },
-    {
-     "name": "Me Guillaume MICOLAU",
-     "role": "Responsable du pôle « Clientèle Internationale »",
-     "img": "https://www.upnotaire.fr/public/img/big/portraitGuilllaumeMICOLAUjpg_5f730174ef8d8.jpg"
-    },
-    {
-     "name": "Mme Magalie COMBES",
-     "role": "Responsable de la comptabilité et des ressources humaines du groupe",
-     "img": "https://www.upnotaire.fr/public/img/big/IMG1975jpeg_5ed90dd7aafac.jpeg"
-    }
-   ],
-   "note": "Également : Me Anne BAUNARD, notaire, responsable du Pôle Famille ; Me Olivier DUCHENE, notaire spécialisé en immobilier complexe et institutionnel."
-  },
-  {
    "kind": "blog",
    "id": "actualites",
    "eyebrow": "Actualités et infos juridiques",
-   "title": "Les articles <em class=\"it\">de l'office</em>",
+   "title": "Actualités <em class=\"it\">de l'office</em>",
    "step": 6,
-   "lead": "Actualités de l'office et articles des pages de compétences.",
    "posts": [
     {
      "title": "Déconfinement chez UP NOTAIRES",
@@ -351,343 +221,20 @@
      "title": "Aide d'un notaire lors de mon achat immobilier à Lyon en région Auvergne Rhône Alpes",
      "cat": "Actualités de l'office",
      "desc": "",
-     "url": "https://www.upnotaire.fr/archives-1"
+     "url": "https://www.upnotaire.fr/details-aide+d+un+notaire+lors+de+mon+achat+immobilier+a+lyon+en+region+auvergne+rhone+alpes-93"
     },
     {
      "title": "Spécialisée en droit international à Décines et Lyon, lors de ma succession, comment faire valoir la loi de ma nationalité ?",
      "cat": "Actualités de l'office",
      "desc": "",
-     "url": "https://www.upnotaire.fr/archives-1"
-    },
-    {
-     "title": "Investir à Décines proche de Lyon : SCI à l'IS ou à l'IR pour votre patrimoine immobilier ?",
-     "cat": "Gestion de patrimoine",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/gestion-de-patrimoine-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock205010824jpeg_6602a03a159af.jpeg"
-    },
-    {
-     "title": "Un outil de gestion de patrimoine : « La donation graduelle »",
-     "cat": "Gestion de patrimoine",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/gestion-de-patrimoine-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/UnoutildegestiondepatrimoineLadonationgraduellejpg_6024ed2cb6d39.jpg"
-    },
-    {
-     "title": "Qu'est-ce que le Pacte Dutreil ?",
-     "cat": "Gestion de patrimoine",
-     "desc": "Le pacte Dutreil permet de réduire les droits de mutation à moins de 2 %.",
-     "url": "https://www.upnotaire.fr/gestion-de-patrimoine-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/teamspirit24471631920jpg_5ece1a2456cc9.jpg"
-    },
-    {
-     "title": "Qu'est-ce que la mise en communauté d'un bien propre ?",
-     "cat": "Gestion de patrimoine",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/gestion-de-patrimoine-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/miseencommunautedunbienproprejpg_5ece195190c38.jpg"
-    },
-    {
-     "title": "Demander un audit pour une assurance vie à un notaire à Lyon",
-     "cat": "Gestion de patrimoine",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/gestion-de-patrimoine-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/lassuranceviejpg_5ece188656488.jpg"
-    },
-    {
-     "title": "Conseil d'un notaire pour un audit patrimonial à Décines près de Lyon",
-     "cat": "Gestion de patrimoine",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/gestion-de-patrimoine-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/realestate34080391920jpg_5ed654d6df02d.jpg"
-    },
-    {
-     "title": "La plus-value immobilière de particuliers par un notaire à Décines près de Lyon",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/PlusvalueimmobilirePNG_5ecd4b7c95e9d.PNG"
-    },
-    {
-     "title": "La vente en l'état futur de rénovation par un notaire à Lyon proche de Décines",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock191790836jpeg_5ed673385204d.jpeg"
-    },
-    {
-     "title": "Comment faire changer la destination d'un bien par un notaire à Lyon ou Décines ?",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/changementdedestinationjpg_5ecd4a2802eae.jpg"
-    },
-    {
-     "title": "Quelle est la procédure suivie par un notaire lors de l'achat d'un terrain à bâtir à Lyon près de Décines ?",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/aerialview18670941920jpg_5ecd49a6bd6aa.jpg"
-    },
-    {
-     "title": "Aide d'un notaire pour l'acquisition d'un bien neuf à Lyon et ses alentours près de Décines",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/acquisitionimmeubleneufjpg_5ecd474c81012.jpg"
-    },
-    {
-     "title": "Optimiser un financement avec un prêt immobilier avec l'aide d'un notaire à Décines proche de Lyon",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/prtimmobilierjpg_5ecd45f05d66a.jpg"
-    },
-    {
-     "title": "La vente et l'achat conjoints d'une résidence principale avec l'aide d'un notaire à Lyon à deux pas de Décines",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/residenceprincipalejpg_5ecd53294d242.jpg"
-    },
-    {
-     "title": "Problèmes liés au droit à l'environnement expliqués par un notaire à Lyon proche de Décines",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/Droitenvironnementjpg_5ecd44182aed2.jpg"
-    },
-    {
-     "title": "Aide d'un notaire pour vérification des règles d'urbanisme à Décines près de Lyon",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/plandurbanismejpg_5ecd439890cf9.jpg"
-    },
-    {
-     "title": "Contrat de réservation pour l'acquisition d'un logement neuf à Lyon proche de Décines",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/acquisitionimmeubleneufjpg_5ecd433868cb7.jpg"
-    },
-    {
-     "title": "Documents pour préparer une promesse de vente",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/documentspourprparerunepromessedeventejpg_5ecd42d65a52f.jpg"
-    },
-    {
-     "title": "Quel notaire choisir lors d'un achat immobilier à Décines ?",
-     "cat": "Droit immobilier",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-immobilier-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/lechoixnotairedansuneventeimmobilierejpg_5ecd43f750c3e.jpg"
-    },
-    {
-     "title": "Nouvel abattement fiscal pour les donations sous conditions",
-     "cat": "Droit de la famille",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-de-la-famille-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/donationjpg_6024ec79660e9.jpg"
-    },
-    {
-     "title": "Quelles sont les différentes procédures de successions ?",
-     "cat": "Droit de la famille",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-de-la-famille-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock299561099jpeg_5ed67351bd666.jpeg"
-    },
-    {
-     "title": "Faire appel à un notaire lors d'un divorce à Lyon",
-     "cat": "Droit de la famille",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-de-la-famille-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/divorce6191951920jpg_5ecd50d5248f3.jpg"
-    },
-    {
-     "title": "Comment modifier son régime matrimonial ?",
-     "cat": "Droit de la famille",
-     "desc": "La modification est possible après 2 ans de mariage mais nécessite souvent la non-opposition des enfants.",
-     "url": "https://www.upnotaire.fr/droit-de-la-famille-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock132761522jpeg_5ed67367c4d1b.jpeg"
-    },
-    {
-     "title": "Qu'est-ce que sont un mandat de protection future et un mandat post mortem ?",
-     "cat": "Droit de la famille",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-de-la-famille-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/mandatdeprotectionjpg_5ecd5200bbca5.jpg"
-    },
-    {
-     "title": "Comment effectuer une donation ?",
-     "cat": "Droit de la famille",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-de-la-famille-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/donations10419711920jpg_5ecd4fde329fd.jpg"
-    },
-    {
-     "title": "Rédaction du contrat de mariage par un notaire",
-     "cat": "Droit de la famille",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/droit-de-la-famille-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/rgimematrimonialjpg_5ecd4eb4caa82.jpg"
-    },
-    {
-     "title": "Qu'est-ce qu'une SCI ?",
-     "cat": "Sociétés et entreprises",
-     "desc": "Une S.C.I. est une personne morale disposant d'une existence juridique propre.",
-     "url": "https://www.upnotaire.fr/droit-des-societes-entreprises-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/workplace12457761920jpg_5ece1c8d6342d.jpg"
-    },
-    {
-     "title": "Comment choisir un type de société ?",
-     "cat": "Sociétés et entreprises",
-     "desc": "Si vous souhaitez exercer votre activité et la développer, il est nécessaire de lui donner un cadre légal.",
-     "url": "https://www.upnotaire.fr/droit-des-societes-entreprises-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/away46106991920jpg_5ece1b1c0f83c.jpg"
-    },
-    {
-     "title": "Rédiger un testament ou une donation à l'international",
-     "cat": "International",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/international-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/testamentinternationaljpg_5ece1705a836c.jpg"
-    },
-    {
-     "title": "Demander une modification du régime matrimonial à l'international",
-     "cat": "International",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/international-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/prenup40114241920jpg_5ece15f2a2f7d.jpg"
-    },
-    {
-     "title": "Quelle différence pour un mariage à l'international ?",
-     "cat": "International",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/international-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/mariageinternationaljpg_5ece15044265d.jpg"
-    },
-    {
-     "title": "Comment se déroule une vente à l'international ?",
-     "cat": "International",
-     "desc": "",
-     "url": "https://www.upnotaire.fr/international-w1",
-     "img": "https://www.upnotaire.fr/public/img/big/venteinternationaljpg_5ece14276fc0c.jpg"
+     "url": "https://www.upnotaire.fr/details-specialisee+en+droit+international+a+decines+et+lyon+lors+de+ma+succession+comment+faire+valoir+la+loi+de+ma+nationalite-92"
     }
    ],
    "all": [
     "Toutes les actualités",
     "https://www.upnotaire.fr/archives-1"
-   ]
-  },
-  {
-   "kind": "form",
-   "id": "ecrire",
-   "eyebrow": "Nous écrire",
-   "title": "Contacter <em class=\"it\">l'office</em>",
-   "email": "upnotaires@notaires.fr",
-   "subject": "Demande depuis le site UP NOTAIRES",
-   "lead": "Les champs indiqués par un astérisque (*) sont obligatoires.",
-   "side": [
-    "Téléphone : <a href=\"tel:+33430220349\">04 30 22 03 49</a>",
-    "E-mail : <a href=\"mailto:upnotaires@notaires.fr\">upnotaires@notaires.fr</a>"
    ],
-   "fields": [
-    {
-     "label": "Nom",
-     "required": true
-    },
-    {
-     "label": "Prénom"
-    },
-    {
-     "label": "Téléphone",
-     "type": "tel",
-     "required": true
-    },
-    {
-     "label": "Email",
-     "type": "email",
-     "required": true
-    },
-    {
-     "label": "Message",
-     "type": "textarea",
-     "required": true
-    },
-    {
-     "label": "J'accepte que mes données soient traitées par UP NOTAIRES (politique de confidentialité)",
-     "type": "checkbox",
-     "required": true,
-     "full": true,
-     "name": "Consentement"
-    }
-   ],
-   "submit": "Envoyer"
-  },
-  {
-   "kind": "visit",
-   "id": "contact",
-   "eyebrow": "Office de Décines-Charpieu (siège)",
-   "title": "Décines-<em class=\"it\">Charpieu</em>",
-   "text": "UP NOTAIRES, 2 avenue Silvin, 69150 Décines-Charpieu. Réception sur rendez-vous.",
-   "img": "https://www.upnotaire.fr/public/img/medium/AdobeStock1jpg_5ebea1f667697.jpg",
-   "rows": [
-    [
-     "Adresse",
-     "2 avenue Silvin<br>69150 Décines-Charpieu"
-    ],
-    [
-     "Téléphone",
-     "<a href=\"tel:+33430220349\">04 30 22 03 49</a>"
-    ],
-    [
-     "E-mail",
-     "<a href=\"mailto:upnotaires@notaires.fr\">upnotaires@notaires.fr</a>"
-    ],
-    [
-     "Itinéraire",
-     "<a href=\"https://goo.gl/maps/k4ZGzidyqBFwDGht9\" target=\"_blank\" rel=\"noopener\">Ouvrir dans Google Maps</a>"
-    ]
-   ],
-   "cta": [
-    "Demander un rendez-vous",
-    "mailto:upnotaires@notaires.fr?subject=Demande%20de%20rendez-vous"
-   ],
-   "map_q": "2 Avenue Silvin, 69150 Décines-Charpieu"
-  },
-  {
-   "kind": "visit",
-   "id": "lyon",
-   "eyebrow": "Office de Lyon 2e",
-   "title": "Lyon, <em class=\"it\">rue Édouard Herriot</em>",
-   "text": "105 rue Édouard Herriot, 2e étage, Étude Althémis Lyon, 69002 Lyon. Réception sur rendez-vous.",
-   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock16942100631jpeg_664ef3897ad221.76025500.jpeg",
-   "rows": [
-    [
-     "Adresse",
-     "105 rue Édouard Herriot, 2e étage<br>Étude Althémis Lyon<br>69002 Lyon"
-    ],
-    [
-     "Téléphone",
-     "<a href=\"tel:+33430220349\">04 30 22 03 49</a>"
-    ],
-    [
-     "E-mail",
-     "<a href=\"mailto:upnotaires@notaires.fr\">upnotaires@notaires.fr</a>"
-    ],
-    [
-     "Itinéraire",
-     "<a href=\"https://maps.app.goo.gl/WXXaZJaCeBiodF5y8\" target=\"_blank\" rel=\"noopener\">Ouvrir dans Google Maps</a>"
-    ]
-   ],
-   "cta": [
-    "Demander un rendez-vous",
-    "mailto:upnotaires@notaires.fr?subject=Demande%20de%20rendez-vous%20%28Lyon%29"
-   ],
-   "map_q": "105 Rue Edouard Herriot, 69002 Lyon"
+   "lead": "Les articles de chaque domaine sont sur les pages de compétences."
   }
  ],
  "footer": {
@@ -701,5 +248,774 @@
   ],
   "legal": "SELAS UP NOTAIRES, notaires, 2 avenue Silvin, 69150 Décines-Charpieu. SIRET 377 778 121 00014. Office rattaché à la Chambre interdépartementale des notaires de la Cour d'appel de Lyon (Ain, Loire, Rhône), 45 quai Charles de Gaulle, 69006 Lyon. Mentions légales et protection des données : sur le site actuel de l'office.",
   "legal_url": "https://www.upnotaire.fr/mentions-legales"
- }
+ },
+ "pages": [
+  {
+   "slug": "gestion-de-patrimoine",
+   "label": "Patrimoine",
+   "title": "Gestion de patrimoine",
+   "h1": "Gestion <em>de patrimoine</em>",
+   "eyebrow": "Lyon, Décines, France et international",
+   "lead": "Notaire pour la gestion du patrimoine à Décines-Charpieu.",
+   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock179308448jpeg_5ec3ff2f3b1b2.jpeg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "patrimoine",
+     "eyebrow": "Gestion patrimoniale",
+     "title": "Organiser <em class=\"it\">votre patrimoine</em>",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock179308448jpeg_5ec2b9a1dec5e.jpeg",
+     "alt": "",
+     "paras": [
+      "Le groupe UP' NOTAIRES vous accompagne dans l'organisation de votre patrimoine : anticipation successorale (estate planning), accompagnement home office.",
+      "Ce service fonctionne en étroite collaboration avec nos notaires spécialistes de l'international, à Décines et à Lyon."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "services-patrimoine",
+     "eyebrow": "Nos services",
+     "title": "Gestion <em class=\"it\">patrimoniale</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Le service patrimonial",
+       "list": [
+        "anticipation successorale (estate planning)",
+        "accompagnement home office",
+        "bilan patrimonial",
+        "projection pour la retraite",
+        "patrimoine immobilier : classique, industriel, défiscalisé",
+        "assurances vie : rédaction des clauses bénéficiaires, conservation à l'étude",
+        "montage de structures patrimoniales, en France ou à l'international"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "patrimonial",
+     "eyebrow": "Le droit patrimonial",
+     "title": "Un service <em class=\"it\">bilingue</em>",
+     "paras": [
+      "Le groupe UP NOTAIRES dispose d'un service spécialisé bilingue à Lyon et à Décines.",
+      "Ce service s'appuie sur des notaires salariés bilingues, ayant acquis des compétences spécifiques en gestion de patrimoine (CGP)."
+     ],
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock239819780jpeg_664efdba13fb04.11248982.jpeg",
+     "alt": ""
+    },
+    {
+     "kind": "blog",
+     "id": "articles-patrimoine",
+     "eyebrow": "Articles",
+     "title": "Gestion <em class=\"it\">de patrimoine</em>",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Investir à Décines proche de Lyon : SCI à l'IS ou à l'IR pour votre patrimoine immobilier ?",
+       "cat": "Gestion de patrimoine",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-investir+a+decines+proche+de+lyon+sci+a+l+is+ou+a+l+ir+pour+votre+patrimoine+immobilier-91",
+       "img": "https://www.upnotaire.fr/public/img/big/AdobeStock205010824jpeg_6602a03a159af.jpeg"
+      },
+      {
+       "title": "Un outil de gestion de patrimoine : « La donation graduelle »",
+       "cat": "Gestion de patrimoine",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-un+outil+de+gestion+de+patrimoine+la+donation+graduelle-85",
+       "img": "https://www.upnotaire.fr/public/img/big/UnoutildegestiondepatrimoineLadonationgraduellejpg_6024ed2cb6d39.jpg"
+      },
+      {
+       "title": "Qu'est-ce que le Pacte Dutreil ?",
+       "cat": "Gestion de patrimoine",
+       "desc": "Le pacte Dutreil permet de réduire les droits de mutation à moins de 2 %.",
+       "url": "https://www.upnotaire.fr/details-qu+est-ce+que+le+pacte+dutreil-70",
+       "img": "https://www.upnotaire.fr/public/img/big/teamspirit24471631920jpg_5ece1a2456cc9.jpg"
+      },
+      {
+       "title": "Qu'est-ce que la mise en communauté d'un bien propre ?",
+       "cat": "Gestion de patrimoine",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-qu+est-ce+que+la+mise+en+communaute+d+un+bien+propre-69",
+       "img": "https://www.upnotaire.fr/public/img/big/miseencommunautedunbienproprejpg_5ece195190c38.jpg"
+      },
+      {
+       "title": "Demander un audit pour une assurance vie à un notaire à Lyon",
+       "cat": "Gestion de patrimoine",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-demander+un+audit+pour+une+assurance+vie+a+un+notaire+a+lyon-68",
+       "img": "https://www.upnotaire.fr/public/img/big/lassuranceviejpg_5ece188656488.jpg"
+      },
+      {
+       "title": "Conseil d'un notaire pour un audit patrimonial à Décines près de Lyon",
+       "cat": "Gestion de patrimoine",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-conseil+d+un+notaire+pour+un+audit+patrimonial+a+decines+pres+de+lyon-67",
+       "img": "https://www.upnotaire.fr/public/img/big/realestate34080391920jpg_5ed654d6df02d.jpg"
+      }
+     ],
+     "all": [
+      "Toutes les archives",
+      "https://www.upnotaire.fr/archives-1"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-immobilier",
+   "label": "Immobilier",
+   "title": "Droit immobilier",
+   "h1": "Droit <em>immobilier</em>",
+   "eyebrow": "Lyon, Décines, France et international",
+   "lead": "Un notaire en droit immobilier près de Lyon.",
+   "img": "https://www.upnotaire.fr/public/img/big/construction4661168960720jpg_5eccd54e69364.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "immobilier",
+     "eyebrow": "Droit immobilier",
+     "title": "Acheter, vendre, <em class=\"it\">construire</em>",
+     "img": "https://www.upnotaire.fr/public/img/big/construction4661168960720jpg_5ec7d46f44138.jpg",
+     "alt": "",
+     "paras": [
+      "L'office notarial UP NOTAIRES, à Décines-Charpieu près de Lyon, accompagne ses clients dans leurs dossiers de droit immobilier : particuliers, promoteurs et collectivités."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "services-immobilier",
+     "eyebrow": "Nos interventions",
+     "title": "Particuliers <em class=\"it\">et professionnels</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Acquisitions et ventes",
+       "paras": [
+        "Avant-contrat ou promesse, acte authentique, diagnostics, fiscalité, plus-values, financement, prêts et garanties hypothécaires."
+       ]
+      },
+      {
+       "title": "Immobilier complexe",
+       "paras": [
+        "Pour les promoteurs, marchands de biens, lotisseurs, collectivités et associations."
+       ],
+       "list": [
+        "copropriété : règlements, modificatifs, scissions",
+        "urbanisme : autorisations, lotissements",
+        "droit de l'environnement : pollution des sols, loi sur l'eau",
+        "volumes, VEFA, ASL, servitudes",
+        "démembrement, usufruit et nue-propriété"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blog",
+     "id": "articles-immobilier",
+     "eyebrow": "Articles",
+     "title": "Droit <em class=\"it\">immobilier</em>",
+     "step": 6,
+     "posts": [
+      {
+       "title": "La plus-value immobilière de particuliers par un notaire à Décines près de Lyon",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-la+plus-value+immobiliere+de+particuliers+par+un+notaire+a+decines+pres+de+lyon-56",
+       "img": "https://www.upnotaire.fr/public/img/big/PlusvalueimmobilirePNG_5ecd4b7c95e9d.PNG"
+      },
+      {
+       "title": "La vente en l'état futur de rénovation par un notaire à Lyon proche de Décines",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-la+vente+en+l+etat+futur+de+renovation+par+un+notaire+a+lyon+proche+de+decines-55",
+       "img": "https://www.upnotaire.fr/public/img/big/AdobeStock191790836jpeg_5ed673385204d.jpeg"
+      },
+      {
+       "title": "Comment faire changer la destination d'un bien par un notaire à Lyon ou Décines ?",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-comment+faire+changer+la+destination+d+un+bien+par+un+notaire+a+lyon+ou+decines-54",
+       "img": "https://www.upnotaire.fr/public/img/big/changementdedestinationjpg_5ecd4a2802eae.jpg"
+      },
+      {
+       "title": "Quelle est la procédure suivie par un notaire lors de l'achat d'un terrain à bâtir à Lyon près de Décines ?",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-quelle+est+la+procedure+suivie+par+un+notaire+lors+de+l+achat+d+un+terrain+a+batir+a+lyon+pres+de+decines-53",
+       "img": "https://www.upnotaire.fr/public/img/big/aerialview18670941920jpg_5ecd49a6bd6aa.jpg"
+      },
+      {
+       "title": "Aide d'un notaire pour l'acquisition d'un bien neuf à Lyon et ses alentours près de Décines",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-aide+d+un+notaire+pour+l+acquisition+d+un+bien+neuf+a+lyon+et+ses+alentours+pres+de+decines-52",
+       "img": "https://www.upnotaire.fr/public/img/big/acquisitionimmeubleneufjpg_5ecd474c81012.jpg"
+      },
+      {
+       "title": "Optimiser un financement avec un prêt immobilier avec l'aide d'un notaire à Décines proche de Lyon",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-optimiser+un+financement+avec+un+pret+immobilier+avec+l+aide+d+un+notaire+a+decines+proche+de+lyon-51",
+       "img": "https://www.upnotaire.fr/public/img/big/prtimmobilierjpg_5ecd45f05d66a.jpg"
+      },
+      {
+       "title": "La vente et l'achat conjoints d'une résidence principale avec l'aide d'un notaire à Lyon à deux pas de Décines",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-la+vente+et+l+achat+conjoints+d+une+residence+principale+avec+l+aide+d+un+notaire+a+lyon+a+deux+pas+de+decines-50",
+       "img": "https://www.upnotaire.fr/public/img/big/residenceprincipalejpg_5ecd53294d242.jpg"
+      },
+      {
+       "title": "Problèmes liés au droit à l'environnement expliqués par un notaire à Lyon proche de Décines",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-problemes+lies+au+droit+a+l+environnement+expliques+par+un+notaire+a+lyon+proche+de+decines-49",
+       "img": "https://www.upnotaire.fr/public/img/big/Droitenvironnementjpg_5ecd44182aed2.jpg"
+      },
+      {
+       "title": "Aide d'un notaire pour vérification des règles d'urbanisme à Décines près de Lyon",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-aide+d+un+notaire+pour+verification+des+regles+d+urbanisme+a+decines+pres+de+lyon-48",
+       "img": "https://www.upnotaire.fr/public/img/big/plandurbanismejpg_5ecd439890cf9.jpg"
+      },
+      {
+       "title": "Contrat de réservation pour l'acquisition d'un logement neuf à Lyon proche de Décines",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-contrat+de+reservation+pour+l+acquisition+d+un+logement+neuf+a+lyon+proche+de+decines-47",
+       "img": "https://www.upnotaire.fr/public/img/big/acquisitionimmeubleneufjpg_5ecd433868cb7.jpg"
+      },
+      {
+       "title": "Documents pour préparer une promesse de vente",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-documents+pour+preparer+une+promesse+de+vente-45",
+       "img": "https://www.upnotaire.fr/public/img/big/documentspourprparerunepromessedeventejpg_5ecd42d65a52f.jpg"
+      },
+      {
+       "title": "Quel notaire choisir lors d'un achat immobilier à Décines ?",
+       "cat": "Droit immobilier",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-quel+notaire+choisir+lors+d+un+achat+immobilier+a+decines-44",
+       "img": "https://www.upnotaire.fr/public/img/big/lechoixnotairedansuneventeimmobilierejpg_5ecd43f750c3e.jpg"
+      }
+     ],
+     "all": [
+      "Toutes les archives",
+      "https://www.upnotaire.fr/archives-1"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-de-la-famille",
+   "label": "Famille",
+   "title": "Droit de la famille",
+   "h1": "Droit <em>de la famille</em>",
+   "eyebrow": "Lyon, Décines, France ou international",
+   "lead": "Un notaire en droit de la famille près de Lyon.",
+   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock277478641jpeg_5ec2bb0cefd86.jpeg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "famille",
+     "eyebrow": "Droit de la famille",
+     "title": "Organiser <em class=\"it\">et transmettre</em>",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock297746916jpeg_5ec2b9a023a5b.jpeg",
+     "alt": "",
+     "paras": [
+      "Un service dédié existe au sein du groupe à Lyon et à Décines pour accompagner nos clients dans tous les dossiers de la famille.",
+      "Une succession implique de nombreux documents et démarches ; son règlement prend en moyenne 6 mois. L'office assiste et écoute les familles."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "services-famille",
+     "eyebrow": "Nos interventions",
+     "title": "Les dossiers <em class=\"it\">de la famille</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Actes de la famille",
+       "list": [
+        "donation, donation entre époux, donation-partage, donation-partage conjonctive et transgénérationnelle",
+        "contrat de mariage, changement de régime, clauses (préciput, avantages matrimoniaux, mise en communauté)",
+        "succession, testament",
+        "divorce",
+        "mandat de protection future, mandat post mortem",
+        "adoption",
+        "transmission de parts d'entreprise aux enfants ou aux salariés"
+       ]
+      },
+      {
+       "title": "Contrat de mariage et régime matrimonial",
+       "paras": [
+        "Comprendre les options et leurs effets sur le patrimoine ; changer de régime quand la famille ou le patrimoine évolue ; ajouter des clauses (préciput, mise en communauté)."
+       ]
+      },
+      {
+       "title": "Divorce",
+       "paras": [
+        "Conseil sur les conséquences patrimoniales et fiscales du divorce."
+       ]
+      },
+      {
+       "title": "Transmission d'entreprise",
+       "paras": [
+        "Transmission de parts aux enfants ou aux salariés, de l'organisation à la rédaction des actes."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blog",
+     "id": "articles-famille",
+     "eyebrow": "Articles",
+     "title": "Droit <em class=\"it\">de la famille</em>",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Nouvel abattement fiscal pour les donations sous conditions",
+       "cat": "Droit de la famille",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-nouvel+abattement+fiscal+pour+les+donations+sous+conditions-84",
+       "img": "https://www.upnotaire.fr/public/img/big/donationjpg_6024ec79660e9.jpg"
+      },
+      {
+       "title": "Quelles sont les différentes procédures de successions ?",
+       "cat": "Droit de la famille",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-quelles+sont+les+differentes+procedures+de+successions-62",
+       "img": "https://www.upnotaire.fr/public/img/big/AdobeStock299561099jpeg_5ed67351bd666.jpeg"
+      },
+      {
+       "title": "Faire appel à un notaire lors d'un divorce à Lyon",
+       "cat": "Droit de la famille",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-faire+appel+a+un+notaire+lors+d+un+divorce+a+lyon-60",
+       "img": "https://www.upnotaire.fr/public/img/big/divorce6191951920jpg_5ecd50d5248f3.jpg"
+      },
+      {
+       "title": "Comment modifier son régime matrimonial ?",
+       "cat": "Droit de la famille",
+       "desc": "La modification est possible après 2 ans de mariage mais nécessite souvent la non-opposition des enfants.",
+       "url": "https://www.upnotaire.fr/details-comment+modifier+son+regime+matrimonial-59",
+       "img": "https://www.upnotaire.fr/public/img/big/AdobeStock132761522jpeg_5ed67367c4d1b.jpeg"
+      },
+      {
+       "title": "Qu'est-ce que sont un mandat de protection future et un mandat post mortem ?",
+       "cat": "Droit de la famille",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-qu+est-ce+que+sont+un+mandat+de+protection+future+et+un+mandat+post+mortem-61",
+       "img": "https://www.upnotaire.fr/public/img/big/mandatdeprotectionjpg_5ecd5200bbca5.jpg"
+      },
+      {
+       "title": "Comment effectuer une donation ?",
+       "cat": "Droit de la famille",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-comment+effectuer+une+donation-58",
+       "img": "https://www.upnotaire.fr/public/img/big/donations10419711920jpg_5ecd4fde329fd.jpg"
+      },
+      {
+       "title": "Rédaction du contrat de mariage par un notaire",
+       "cat": "Droit de la famille",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-redaction+du+contrat+de+mariage+par+un+notaire-57",
+       "img": "https://www.upnotaire.fr/public/img/big/rgimematrimonialjpg_5ecd4eb4caa82.jpg"
+      }
+     ],
+     "all": [
+      "Toutes les archives",
+      "https://www.upnotaire.fr/archives-1"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-des-societes",
+   "label": "Sociétés et entreprises",
+   "title": "Droit des sociétés et entreprises",
+   "h1": "Droit des sociétés <em>et entreprises</em>",
+   "eyebrow": "Lyon, Décines, France et international",
+   "lead": "Un notaire en droit des entreprises et des affaires près de Lyon.",
+   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock311308769jpeg_5ec3ff6ee4eeb.jpeg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "societes",
+     "eyebrow": "Sociétés et entreprises",
+     "title": "De la création <em class=\"it\">à la transmission</em>",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock311308769jpeg_5ec2b9a2e46df.jpeg",
+     "alt": "",
+     "paras": [
+      "L'office, à Décines-Charpieu près de Lyon, intervient en droit des sociétés et des entreprises pour ses clients de Lyon, de Décines et de l'international.",
+      "Nous travaillons en partenariat avec les experts-comptables et les organismes financiers."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "services-societes",
+     "eyebrow": "Nos interventions",
+     "title": "Droit des sociétés <em class=\"it\">et fiscalité</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Sociétés et entreprises",
+       "list": [
+        "certifier des signatures et documents, légalisation, apostilles",
+        "effectuer les dépôts de capital",
+        "procéder à l'établissement des procurations",
+        "choisir les structures adéquates en fonction de vos projets",
+        "choisir les régimes fiscaux (I.S., transparence fiscale)",
+        "rédiger les statuts des sociétés, associations, groupements ; formalités, assemblées"
+       ]
+      },
+      {
+       "title": "Fiscalité immobilière et des sociétés",
+       "paras": [
+        "Utiliser les règles fiscales, optimiser l'imposition et anticiper : LMP, LMNP, TVA marchand de biens, démembrement de propriété, usufruit et nue-propriété, pacte Dutreil."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blog",
+     "id": "articles-societes",
+     "eyebrow": "Articles",
+     "title": "Sociétés <em class=\"it\">et entreprises</em>",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Qu'est-ce qu'une SCI ?",
+       "cat": "Sociétés et entreprises",
+       "desc": "Une S.C.I. est une personne morale disposant d'une existence juridique propre.",
+       "url": "https://www.upnotaire.fr/details-qu+est-ce+qu+une+sci-72",
+       "img": "https://www.upnotaire.fr/public/img/big/workplace12457761920jpg_5ece1c8d6342d.jpg"
+      },
+      {
+       "title": "Comment choisir un type de société ?",
+       "cat": "Sociétés et entreprises",
+       "desc": "Si vous souhaitez exercer votre activité et la développer, il est nécessaire de lui donner un cadre légal.",
+       "url": "https://www.upnotaire.fr/details-comment+choisir+un+type+de+societe-71",
+       "img": "https://www.upnotaire.fr/public/img/big/away46106991920jpg_5ece1b1c0f83c.jpg"
+      }
+     ],
+     "all": [
+      "Toutes les archives",
+      "https://www.upnotaire.fr/archives-1"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "international",
+   "label": "International",
+   "title": "Droit international",
+   "h1": "Droit <em>international</em>",
+   "eyebrow": "France et étranger",
+   "lead": "Un cabinet de notaires en droit international près de Lyon.",
+   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock58704415jpeg_5ec3ff801fd85.jpeg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "international-office",
+     "eyebrow": "Droit international",
+     "title": "Français à l'étranger, <em class=\"it\">étrangers en France</em>",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock58704415jpeg_5ec2b9a3cdb05.jpeg",
+     "alt": "",
+     "paras": [
+      "Nous pouvons intervenir auprès de nos clients français vivant à l'étranger ou étrangers vivant en France. L'office notarial collabore avec un réseau de partenaires dans le monde."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "services-international",
+     "eyebrow": "Nos interventions",
+     "title": "Situations <em class=\"it\">transfrontalières</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Domaines",
+       "list": [
+        "questions matrimoniales et familiales transnationales",
+        "acquisition, structuration, détention et cession d'un patrimoine immobilier",
+        "planification successorale internationale",
+        "expatriation ou retour en France",
+        "entités étrangères : trusts, fondations, fiducies"
+       ]
+      },
+      {
+       "title": "Réseau de partenaires",
+       "paras": [
+        "Royaume-Uni, Allemagne, Belgique, Espagne, Italie, Suisse, Turquie, États-Unis, Dubaï, Bahreïn, Hong Kong, Australie, Maroc."
+       ]
+      },
+      {
+       "title": "Successions étrangères",
+       "paras": [
+        "L'office conseille et rédige les actes nécessaires lorsqu'une succession relève de règles étrangères complexes."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blog",
+     "id": "articles-international",
+     "eyebrow": "Articles",
+     "title": "Droit <em class=\"it\">international</em>",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Rédiger un testament ou une donation à l'international",
+       "cat": "International",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-rediger+un+testament+ou+une+donation+a+l+international-66",
+       "img": "https://www.upnotaire.fr/public/img/big/testamentinternationaljpg_5ece1705a836c.jpg"
+      },
+      {
+       "title": "Demander une modification du régime matrimonial à l'international",
+       "cat": "International",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-demander+une+modification+du+regime+matrimonial+a+l+international-65",
+       "img": "https://www.upnotaire.fr/public/img/big/prenup40114241920jpg_5ece15f2a2f7d.jpg"
+      },
+      {
+       "title": "Quelle différence pour un mariage à l'international ?",
+       "cat": "International",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-quel+difference+pour+un+mariage+a+l+international-64",
+       "img": "https://www.upnotaire.fr/public/img/big/mariageinternationaljpg_5ece15044265d.jpg"
+      },
+      {
+       "title": "Comment se déroule une vente à l'international ?",
+       "cat": "International",
+       "desc": "",
+       "url": "https://www.upnotaire.fr/details-comment+se+deroule+une+vente+a+l+international-63",
+       "img": "https://www.upnotaire.fr/public/img/big/venteinternationaljpg_5ece14276fc0c.jpg"
+      }
+     ],
+     "all": [
+      "Toutes les archives",
+      "https://www.upnotaire.fr/archives-1"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "notre-equipe",
+   "label": "Notre équipe",
+   "title": "Notre équipe",
+   "h1": "Notre <em>équipe</em>",
+   "eyebrow": "Les notaires",
+   "lead": "Les notaires de l'office à Décines-Charpieu et à Lyon.",
+   "img": "https://www.upnotaire.fr/public/img/big/AdobeStock2118271501jpeg_664ef40abe18c2.02521733.jpeg",
+   "sections": [
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "L'équipe d'UP' Notaires",
+     "title": "Les notaires <em class=\"it\">et l'office</em>",
+     "lead": "Entre tradition et modernité : une étude généraliste de plus de 30 collaborateurs, avec des spécialistes reconnus en droit patrimonial, international, immobilier et construction, et famille, à l'écoute de ses clients.",
+     "people": [
+      {
+       "name": "Me Fabrice VAZ",
+       "role": "Notaire associé depuis 2002 · droit immobilier, droit de la famille, gestion de patrimoine · Diplôme supérieur du notariat (Lyon 3), DU de gestion de patrimoine (Clermont Auvergne)",
+       "img": "https://www.upnotaire.fr/public/img/big/9A0A8220jpg_5ed64b3c176bc.jpg"
+      },
+      {
+       "name": "Me Delphine GONÇALVES",
+       "role": "Notaire associée, ancienne maître de conférences à l'Université Jean Moulin Lyon 3 · professionnels, particuliers et collectivités : immobilier, famille, gestion de patrimoine",
+       "img": "https://www.upnotaire.fr/public/img/big/9A0A8208jpg_5ed64a22336ee.jpg"
+      },
+      {
+       "name": "Me Vardouhie HAKOBYAN",
+       "role": "Notaire associée, responsable d'un pôle immobilier généraliste et international · droit des sociétés et international · arménien et russe",
+       "img": "https://www.upnotaire.fr/public/img/big/IMG1965jpg_5ed7b502512d4.jpg"
+      },
+      {
+       "name": "Me Anne BAUNARD",
+       "role": "Notaire, responsable du Pôle Famille · successions, divorces, séparations, donations, transmission de patrimoine",
+       "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
+      },
+      {
+       "name": "Me Olivier DUCHENE",
+       "role": "Notaire, spécialisé en immobilier complexe et institutionnel, pour les particuliers et les professionnels",
+       "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
+      },
+      {
+       "name": "Me Guillaume MICOLAU",
+       "role": "Responsable du pôle « Clientèle Internationale »",
+       "img": "https://www.upnotaire.fr/public/img/big/portraitGuilllaumeMICOLAUjpg_5f730174ef8d8.jpg"
+      },
+      {
+       "name": "Mme Magalie COMBES",
+       "role": "Responsable de la comptabilité et des ressources humaines du groupe",
+       "img": "https://www.upnotaire.fr/public/img/big/IMG1975jpeg_5ed90dd7aafac.jpeg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "Prendre <em>rendez-vous</em>",
+   "eyebrow": "Contactez-nous",
+   "lead": "Possibilité de signature à distance et de visioconférence.",
+   "img": "https://www.upnotaire.fr/public/img/medium/AdobeStock1jpg_5ebea1f667697.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Nous écrire",
+     "title": "Contacter <em class=\"it\">l'office</em>",
+     "email": "upnotaires@notaires.fr",
+     "subject": "Demande depuis le site UP NOTAIRES",
+     "lead": "Les champs indiqués par un astérisque (*) sont obligatoires.",
+     "side": [
+      "Téléphone : <a href=\"tel:+33430220349\">04 30 22 03 49</a>",
+      "E-mail : <a href=\"mailto:upnotaires@notaires.fr\">upnotaires@notaires.fr</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Prénom"
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      },
+      {
+       "label": "J'accepte que mes données soient traitées par UP NOTAIRES (politique de confidentialité)",
+       "type": "checkbox",
+       "required": true,
+       "full": true,
+       "name": "Consentement"
+      }
+     ],
+     "submit": "Envoyer"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Office de Décines-Charpieu (siège)",
+     "title": "Décines-<em class=\"it\">Charpieu</em>",
+     "text": "UP NOTAIRES, 2 avenue Silvin, 69150 Décines-Charpieu. Réception sur rendez-vous.",
+     "rows": [
+      [
+       "Adresse",
+       "2 avenue Silvin<br>69150 Décines-Charpieu"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33430220349\">04 30 22 03 49</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:upnotaires@notaires.fr\">upnotaires@notaires.fr</a>"
+      ],
+      [
+       "Itinéraire",
+       "<a href=\"https://goo.gl/maps/k4ZGzidyqBFwDGht9\" target=\"_blank\" rel=\"noopener\">Ouvrir dans Google Maps</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un rendez-vous",
+      "mailto:upnotaires@notaires.fr?subject=Demande%20de%20rendez-vous"
+     ],
+     "map_q": "2 Avenue Silvin, 69150 Décines-Charpieu"
+    },
+    {
+     "kind": "visit",
+     "id": "lyon",
+     "eyebrow": "Office de Lyon 2e",
+     "title": "Lyon, <em class=\"it\">rue Édouard Herriot</em>",
+     "text": "105 rue Édouard Herriot, 2e étage, Étude Althémis Lyon, 69002 Lyon. Réception sur rendez-vous.",
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock16942100631jpeg_664ef3897ad221.76025500.jpeg",
+     "rows": [
+      [
+       "Adresse",
+       "105 rue Édouard Herriot, 2e étage<br>Étude Althémis Lyon<br>69002 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33430220349\">04 30 22 03 49</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:upnotaires@notaires.fr\">upnotaires@notaires.fr</a>"
+      ],
+      [
+       "Itinéraire",
+       "<a href=\"https://maps.app.goo.gl/WXXaZJaCeBiodF5y8\" target=\"_blank\" rel=\"noopener\">Ouvrir dans Google Maps</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un rendez-vous",
+      "mailto:upnotaires@notaires.fr?subject=Demande%20de%20rendez-vous%20%28Lyon%29"
+     ],
+     "map_q": "105 Rue Edouard Herriot, 69002 Lyon"
+    },
+    {
+     "kind": "story",
+     "id": "visio",
+     "eyebrow": "RDV et signature en visioconférence",
+     "title": "Le rendez-vous <em class=\"it\">en visioconférence</em>",
+     "paras": [
+      "Il suffit d'un ordinateur ou d'une tablette avec caméra, micro et connexion internet. Le rendez-vous en visioconférence se demande à l'accueil de l'office ; il est confidentiel et sans surcoût.",
+      "Logiciel gratuit conseillé : <a href=\"http://visio.notaires.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">visio.notaires.fr</a>. Pour un autre logiciel, demandez à l'office sa compatibilité avec ses règles de confidentialité et de sécurité.",
+      "La signature à distance est également possible. Contact : <a href=\"mailto:contact@upnotaires.fr\" style=\"border-bottom:1px solid var(--gold)\">contact@upnotaires.fr</a>."
+     ],
+     "img": "https://www.upnotaire.fr/public/img/big/AdobeStock334592650jpg_5ed0b9b873aaf.jpg",
+     "alt": "Rendez-vous en visioconférence"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  [
+   "gestion-de-patrimoine",
+   "Patrimoine"
+  ],
+  [
+   "droit-immobilier",
+   "Immobilier"
+  ],
+  [
+   "droit-de-la-famille",
+   "Famille"
+  ],
+  [
+   "droit-des-societes",
+   "Sociétés et entreprises"
+  ],
+  [
+   "international",
+   "International"
+  ],
+  [
+   "notre-equipe",
+   "Notre équipe"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ]
 }
