@@ -23,28 +23,24 @@
  },
  "nav": [
   [
-   "maison",
-   "Le restaurant"
-  ],
-  [
    "carte",
-   "Carte & menus"
+   "Carte et menus"
   ],
   [
-   "bouchons",
-   "Les bouchons"
+   "histoire-des-bouchons-lyonnais",
+   "Histoire des bouchons lyonnais"
   ],
   [
-   "crus",
-   "Les crus"
+   "histoire-des-crus-du-beaujolais",
+   "Histoire des crus du Beaujolais"
+  ],
+  [
+   "contacts",
+   "Contacts"
   ],
   [
    "reserver",
    "Réserver"
-  ],
-  [
-   "contact",
-   "Contact"
   ]
  ],
  "hero": {
@@ -121,127 +117,48 @@
    ]
   },
   {
-   "kind": "gallery",
-   "id": "carte",
-   "eyebrow": "Carte et menus",
-   "title": "La carte <em class=\"it\">et les menus</em>",
-   "lead": "Notre carte, le Menu Beaujolais, le Menu Brouilly et le Menu Grenouilles. Touchez une page pour l'agrandir.",
-   "photos": [
-    {
-     "thumb": "https://static.wixstatic.com/media/52cf98_cc8c9db19c094f809cc126799f33f8b4~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-1.jpg",
-     "full": "https://static.wixstatic.com/media/52cf98_cc8c9db19c094f809cc126799f33f8b4~mv2.jpg",
-     "caption": "Notre carte",
-     "alt": "Notre carte, page 1"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/52cf98_2aaea15d7a7b467199fe2d87a3fb506f~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-2.jpg",
-     "full": "https://static.wixstatic.com/media/52cf98_2aaea15d7a7b467199fe2d87a3fb506f~mv2.jpg",
-     "caption": "Notre carte",
-     "alt": "Notre carte, page 2"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/52cf98_6cc88c64985a4bed84c55331c21ed662~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-3.jpg",
-     "full": "https://static.wixstatic.com/media/52cf98_6cc88c64985a4bed84c55331c21ed662~mv2.jpg",
-     "caption": "Notre carte",
-     "alt": "Notre carte, page 3"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/52cf98_27e098340c3c46a291707630b76cfe8d~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-beaujolais.jpg",
-     "full": "https://static.wixstatic.com/media/52cf98_27e098340c3c46a291707630b76cfe8d~mv2.jpg",
-     "caption": "Menu Beaujolais",
-     "alt": "Menu Beaujolais"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/52cf98_5b7209e5195a4ae3b06d7f897c919303~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-brouilly.jpg",
-     "full": "https://static.wixstatic.com/media/52cf98_5b7209e5195a4ae3b06d7f897c919303~mv2.jpg",
-     "caption": "Menu Brouilly",
-     "alt": "Menu Brouilly"
-    },
-    {
-     "thumb": "https://static.wixstatic.com/media/52cf98_6d1cc868e7454845a042b52c912406f8~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-grenouilles.jpg",
-     "full": "https://static.wixstatic.com/media/52cf98_6d1cc868e7454845a042b52c912406f8~mv2.jpg",
-     "caption": "Menu Grenouilles",
-     "alt": "Menu Grenouilles"
-    }
-   ]
-  },
-  {
    "kind": "blocks",
-   "id": "bouchons",
-   "eyebrow": "Histoire des bouchons lyonnais",
-   "title": "Du mâchon des canuts <em class=\"it\">au bouchon</em>",
-   "img": "https://static.wixstatic.com/media/52cf98_c42e653b51ca44239cd9aaea83fb14a0~mv2.jpg",
-   "alt": "Bouchon lyonnais",
+   "id": "decouvrir",
+   "eyebrow": "À découvrir",
+   "title": "Notre carte <em class=\"it\">et nos histoires</em>",
    "items": [
     {
-     "img": "https://static.wixstatic.com/media/52cf98_83fe980ae4a24302b8373a85966c1044~mv2.png",
-     "contain": true,
-     "alt": "Histoire des bouchons lyonnais",
-     "kicker": "Les origines",
-     "title": "Le mâchon des canuts",
+     "img": "https://static.wixstatic.com/media/52cf98_cc8c9db19c094f809cc126799f33f8b4~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-1.jpg",
+     "alt": "Notre carte",
+     "kicker": "Carte et menus",
+     "title": "Notre carte",
      "paras": [
-      "Le bouchon est né des mâchons, les casse-croûtes de milieu de matinée des canuts de la Croix-Rousse, au XIXᵉ siècle. Le vin y est servi en pots."
-     ]
-    },
-    {
-     "kicker": "Le nom",
-     "title": "Pourquoi « bouchon » ?",
-     "paras": [
-      "Plusieurs origines sont avancées :"
+      "La carte, le Menu Beaujolais, le Menu Brouilly et le Menu Grenouilles."
      ],
-     "list": [
-      "un fagot de lierre ou de genêt suspendu à l'entrée",
-      "le bouchon de paille servant à frotter les chevaux",
-      "le bouchon de bouteille"
+     "link": [
+      "Voir la carte et les menus",
+      "#carte"
      ]
     },
     {
-     "kicker": "Sur la table",
-     "title": "Les plats typiques",
-     "list": [
-      "Grattons, saucisson, rosette",
-      "Tablier de sapeur, andouillette, fromage de tête",
-      "Quenelles, gratin de cardons",
-      "Cervelle de canut, bugnes",
-      "Boudin noir, tripes, œufs meurette, gratinée"
-     ]
-    }
-   ]
-  },
-  {
-   "kind": "blocks",
-   "id": "crus",
-   "eyebrow": "Histoire des crus du Beaujolais",
-   "title": "Dix crus, <em class=\"it\">un cépage</em>",
-   "img": "https://static.wixstatic.com/media/52cf98_0d2494e0dfe84362afaa47de6f362322~mv2.jpg",
-   "alt": "Vignes du Beaujolais",
-   "items": [
-    {
-     "img": "https://static.wixstatic.com/media/52cf98_434e7d5df34c45d68cacf69f2b587d20~mv2.jpg",
-     "alt": "Les crus du Beaujolais",
-     "kicker": "XVIIᵉ siècle",
-     "title": "Une vigne née pour Lyon",
+     "img": "https://static.wixstatic.com/media/52cf98_c42e653b51ca44239cd9aaea83fb14a0~mv2.jpg",
+     "alt": "Bouchon lyonnais",
+     "kicker": "Histoire",
+     "title": "Les bouchons lyonnais",
      "paras": [
-      "La vigne se développe au XVIIᵉ siècle, grâce au terroir, à la Saône et au Rhône, et à la demande de Lyon."
+      "Du mâchon des canuts au bouchon d'aujourd'hui."
+     ],
+     "link": [
+      "Lire l'histoire",
+      "#bouchons"
      ]
     },
     {
-     "kicker": "Les appellations",
-     "title": "De 1936 à 1988",
-     "list": [
-      "1936 : Chiroubles, Fleurie, Chénas, Morgon, Moulin-à-Vent",
-      "1938 : Juliénas, Brouilly et Côte de Brouilly",
-      "1946 : Saint-Amour",
-      "1988 : Régnié"
-     ]
-    },
-    {
-     "img": "https://static.wixstatic.com/media/52cf98_ac52716a71084eae8d75962a0aab5a28~mv2.jpg",
-     "alt": "Le cépage gamay",
-     "kicker": "Le cépage",
-     "title": "Le gamay noir à jus blanc",
+     "img": "https://static.wixstatic.com/media/52cf98_0d2494e0dfe84362afaa47de6f362322~mv2.jpg",
+     "alt": "Vignes du Beaujolais",
+     "kicker": "Histoire",
+     "title": "Les crus du Beaujolais",
      "paras": [
-      "C'est l'unique cépage des crus, classés en « tendres » (Chiroubles, Fleurie, Saint-Amour) et « robustes » (tous les autres)."
+      "Dix crus, un cépage : le gamay noir à jus blanc."
+     ],
+     "link": [
+      "Découvrir les crus",
+      "#crus"
      ]
     }
    ]
@@ -301,36 +218,6 @@
    "phone": "04 74 03 31 21",
    "brand": "Le Côte de Brouilly",
    "note": "Service du soir le vendredi et le samedi. Pour un mâchon ou un banquet, appelez-nous directement."
-  },
-  {
-   "kind": "visit",
-   "id": "contact",
-   "eyebrow": "Contacts",
-   "title": "Venez <em class=\"it\">nous voir</em>",
-   "text": "Au cœur du Beaujolais, au pied du Mont Brouilly.",
-   "rows": [
-    [
-     "Adresse",
-     "27 rue du Beaujolais<br>69460 Odenas"
-    ],
-    [
-     "Horaires",
-     "Lundi, mardi, mercredi : 7h30 – 13h30<br>Jeudi : fermé<br>Vendredi, samedi : 7h30 – 13h30 · 19h – 20h30<br>Dimanche : 9h – 13h30"
-    ],
-    [
-     "Téléphone",
-     "<a href=\"tel:+33474033121\">04 74 03 31 21</a>"
-    ],
-    [
-     "E-mail",
-     "<a href=\"mailto:restaurant@cote-de-brouilly.com\">restaurant@cote-de-brouilly.com</a>"
-    ]
-   ],
-   "cta": [
-    "Réserver une table",
-    "#reserver"
-   ],
-   "map_q": "27 rue du Beaujolais, 69460 Odenas"
   }
  ],
  "footer": {
@@ -342,5 +229,457 @@
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
   "legal_url": "https://delphinefontanel1.wixsite.com/le-cote-de-brouilly/contacts"
- }
+ },
+ "pages": [
+  {
+   "slug": "carte",
+   "label": "Carte et menus",
+   "title": "Carte et menus",
+   "eyebrow": "Bouchon lyonnais dans le Beaujolais",
+   "lead": "Des produits frais, de producteurs, une cuisine 100 % terroir.",
+   "img": "https://static.wixstatic.com/media/52cf98_118a525a62004cb1bf61b8d348473c55.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "carte",
+     "eyebrow": "Carte et menus",
+     "title": "La carte <em class=\"it\">et les menus</em>",
+     "lead": "Une carte de produits frais et de qualité, qui proviennent de producteurs, et une cuisine 100 % terroir. Notre carte, le Menu Beaujolais, le Menu Brouilly et le Menu Grenouilles : touchez une page pour l'agrandir.",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/52cf98_cc8c9db19c094f809cc126799f33f8b4~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-1.jpg",
+       "full": "https://static.wixstatic.com/media/52cf98_cc8c9db19c094f809cc126799f33f8b4~mv2.jpg",
+       "caption": "Notre carte",
+       "alt": "Notre carte, page 1"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/52cf98_2aaea15d7a7b467199fe2d87a3fb506f~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-2.jpg",
+       "full": "https://static.wixstatic.com/media/52cf98_2aaea15d7a7b467199fe2d87a3fb506f~mv2.jpg",
+       "caption": "Notre carte",
+       "alt": "Notre carte, page 2"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/52cf98_6cc88c64985a4bed84c55331c21ed662~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-3.jpg",
+       "full": "https://static.wixstatic.com/media/52cf98_6cc88c64985a4bed84c55331c21ed662~mv2.jpg",
+       "caption": "Notre carte",
+       "alt": "Notre carte, page 3"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/52cf98_27e098340c3c46a291707630b76cfe8d~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-beaujolais.jpg",
+       "full": "https://static.wixstatic.com/media/52cf98_27e098340c3c46a291707630b76cfe8d~mv2.jpg",
+       "caption": "Menu Beaujolais",
+       "alt": "Menu Beaujolais"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/52cf98_5b7209e5195a4ae3b06d7f897c919303~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-brouilly.jpg",
+       "full": "https://static.wixstatic.com/media/52cf98_5b7209e5195a4ae3b06d7f897c919303~mv2.jpg",
+       "caption": "Menu Brouilly",
+       "alt": "Menu Brouilly"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/52cf98_6d1cc868e7454845a042b52c912406f8~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-grenouilles.jpg",
+       "full": "https://static.wixstatic.com/media/52cf98_6d1cc868e7454845a042b52c912406f8~mv2.jpg",
+       "caption": "Menu Grenouilles",
+       "alt": "Menu Grenouilles"
+      }
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "formules",
+     "eyebrow": "À toute heure",
+     "title": "Menu du jour <em class=\"it\">et mâchons</em>",
+     "lead": "Ouvert dès 7h30 du matin, six jours sur sept.",
+     "items": [
+      [
+       "Menu du jour",
+       "Sur place ou à emporter, hors week-end et jours fériés."
+      ],
+      [
+       "Mâchons beaujolais",
+       "Entrecôtes, tripes, rognons... à toutes heures, sur réservation."
+      ],
+      [
+       "Banquets",
+       "Possibilité de banquets : parlons-en par téléphone ou par e-mail."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "histoire-des-bouchons-lyonnais",
+   "label": "Histoire des bouchons lyonnais",
+   "title": "Histoire des bouchons lyonnais",
+   "eyebrow": "Spécialité lyonnaise",
+   "img": "https://static.wixstatic.com/media/52cf98_c42e653b51ca44239cd9aaea83fb14a0~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "bouchons",
+     "eyebrow": "Histoire des bouchons lyonnais",
+     "title": "Du mâchon des canuts <em class=\"it\">au bouchon</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/52cf98_83fe980ae4a24302b8373a85966c1044~mv2.png",
+       "contain": true,
+       "alt": "Histoire des bouchons lyonnais",
+       "kicker": "Les origines",
+       "title": "Le mâchon des canuts",
+       "paras": [
+        "Le bouchon est né des mâchons, les casse-croûtes que prenaient les canuts vers 9 ou 10 heures du matin, souvent avec les restes de la veille, dans les bistrots, les caves ou les ateliers de soierie. Des rendez-vous surtout masculins, où l'on parlait affaires.",
+        "Le mâchon entre dans la tradition lyonnaise avec la création des Halles de Lyon aux Cordeliers, à l'emplacement de l'actuel parking. Le rythme de travail a changé depuis le XIXᵉ siècle, mais certains restaurants servent encore le mâchon."
+       ]
+      },
+      {
+       "kicker": "Le nom",
+       "title": "Pourquoi « bouchon » ?",
+       "paras": [
+        "Plusieurs origines sont avancées :"
+       ],
+       "list": [
+        "sous l'Ancien Régime, un fagot de lierre ou de genêt suspendu à la porte des cabarets, pour les distinguer des auberges",
+        "la paille avec laquelle les voyageurs « bouchonnaient » leurs chevaux avant de se restaurer",
+        "le bouchon de bouteille, même si à Lyon le vin se sert traditionnellement en pot"
+       ]
+      },
+      {
+       "kicker": "Aujourd'hui",
+       "title": "De la Croix-Rousse à nos tables",
+       "paras": [
+        "Les premiers bouchons s'installent à la Croix-Rousse, où vivaient et travaillaient les canuts. Traditionnellement, la femme est en cuisine, le mari tient la cave et la salle.",
+        "On cuisine les restes pour ne rien gâcher ; avec le temps, les cartes se diversifient autour des produits lyonnais traditionnels. Une cuisine simple et conviviale."
+       ]
+      },
+      {
+       "kicker": "Sur la table",
+       "title": "Les plats typiques",
+       "list": [
+        "Grattons, saucisson, rosette",
+        "Tablier de sapeur, andouillette, fromage de tête",
+        "Quenelles, gratin de cardons",
+        "Cervelle de canut, bugnes",
+        "Boudin noir, tripes, œufs meurette, gratinée",
+        "Gâteau de foies de volaille, foie de veau, assiette du gnafron, caviar de la Croix-Rousse, saladiers de clapotons"
+       ]
+      }
+     ],
+     "lead": "Quand on vient à Lyon, on veut manger dans un « bouchon », symbole de la gastronomie lyonnaise : des plats simples, surtout de la cochonnaille, arrosés de Beaujolais."
+    },
+    {
+     "kind": "blocks",
+     "id": "specialites",
+     "tight": true,
+     "eyebrow": "Les spécialités",
+     "title": "Les plats <em class=\"it\">du bouchon</em>",
+     "lead": "Venez les goûter au Côte de Brouilly.",
+     "items": [
+      {
+       "title": "Grattons",
+       "paras": [
+        "Couenne de porc grillée et croustillante, souvent à l'apéritif : la « cacahuète lyonnaise », idéale avec un pot de Beaujolais."
+       ]
+      },
+      {
+       "title": "Charcuterie",
+       "paras": [
+        "Le saucisson lyonnais : petits dés de gras (5 à 6 mm) et maigre finement haché, assaisonnés et embossés en boyau naturel. Aussi la rosette et le cervelas, meilleur truffé et pistaché."
+       ]
+      },
+      {
+       "title": "Tablier de sapeur",
+       "paras": [
+        "Gras double mariné au vin blanc du Mâconnais, moutarde, citron et huile, pané puis frit au beurre, servi avec une sauce gribiche. Le nom viendrait du maréchal de Castellane, qui le comparait au tablier de cuir des sapeurs."
+       ]
+      },
+      {
+       "title": "Andouillette lyonnaise",
+       "paras": [
+        "« Bobosse » : andouillette de veau faite à la main avec la fraise entière, marinée 72 heures dans la moutarde, puis tirée dans son boyau à la ficelle."
+       ]
+      },
+      {
+       "title": "Fromage de tête",
+       "paras": [
+        "Joues, museau et langue de porc cuits avec carottes, cornichons, échalotes ou oignon, pris en gelée, relevés de persil, ail, poivre, thym, genièvre et clous de girofle."
+       ]
+      },
+      {
+       "title": "Quenelles",
+       "paras": [
+        "Tradition lyonnaise depuis le XIXᵉ siècle : farine ou semoule, beurre et lait, à la volaille, au veau ou au brochet, avec une béchamel ou, pour le brochet, une sauce Nantua au beurre d'écrevisses."
+       ]
+      },
+      {
+       "title": "Cardons",
+       "paras": [
+        "Légume cousin de la blette, en gratin à la moelle, surtout à Noël."
+       ]
+      },
+      {
+       "title": "Fromages",
+       "paras": [
+        "La cervelle de canut (claqueret) : fromage blanc battu avec sel, poivre, vinaigre, huile d'olive, échalote, ciboulette, fines herbes, ail, parfois crème et vin blanc. Le saint-marcellin, du Dauphiné, servi bien affiné."
+       ]
+      },
+      {
+       "title": "Bugnes",
+       "paras": [
+        "Beignets lyonnais du premier dimanche de Carême : farine, beurre, sucre, sel, parfois eau de fleur d'oranger."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "histoire-des-crus-du-beaujolais",
+   "label": "Histoire des crus du Beaujolais",
+   "title": "Histoire des crus du Beaujolais",
+   "eyebrow": "Gamay noir à jus blanc",
+   "img": "https://static.wixstatic.com/media/52cf98_0d2494e0dfe84362afaa47de6f362322~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "crus",
+     "eyebrow": "Histoire des crus du Beaujolais",
+     "title": "Dix crus, <em class=\"it\">un cépage</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/52cf98_434e7d5df34c45d68cacf69f2b587d20~mv2.jpg",
+       "alt": "Les crus du Beaujolais",
+       "kicker": "XVIIᵉ siècle",
+       "title": "Une vigne née pour Lyon",
+       "paras": [
+        "La vigne se développe au XVIIᵉ siècle, grâce au terroir, à la Saône et au Rhône, et à la demande de Lyon."
+       ]
+      },
+      {
+       "kicker": "Les appellations",
+       "title": "De 1936 à 1988",
+       "list": [
+        "Septembre 1936 : Chiroubles, Fleurie, Chénas, Morgon et Moulin-à-Vent, parmi les premiers décrets",
+        "Mars 1938 : Juliénas",
+        "Octobre 1938 : Brouilly et Côte de Brouilly",
+        "Février 1946 : Saint-Amour",
+        "Décembre 1988 : Régnié"
+       ],
+       "paras": [
+        "Après les premiers classements nés de la Révolution, les premières AOC arrivent en 1936 ; c'est l'INAO qui attribue les appellations."
+       ]
+      },
+      {
+       "kicker": "Le terroir",
+       "title": "Coteaux et sols",
+       "paras": [
+        "Les rangs de vigne suivent les coteaux du nord-est au sud-ouest, à 300 m d'altitude en moyenne, avec des sommets jusqu'à 1 000 m.",
+        "Au sud, des sols argilo-calcaires et gréseux peu profonds ; sur les hauteurs, des sols cristallins légers et acides ; au nord, le granite."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/52cf98_ac52716a71084eae8d75962a0aab5a28~mv2.jpg",
+       "alt": "Le cépage gamay",
+       "kicker": "Le cépage",
+       "title": "Le gamay noir à jus blanc",
+       "paras": [
+        "C'est l'unique cépage de toutes les appellations du Beaujolais : près de 70 % des 36 000 hectares de gamay du monde y sont plantés.",
+        "Les crus se classent en « tendres » (Chiroubles, Fleurie, Saint-Amour) et « robustes » (tous les autres) : fruits rouges, cassis, épices, et ils gagnent à attendre quelques mois."
+       ]
+      }
+     ],
+     "lead": "Au XVIIᵉ siècle, le Beaujolais développe sa vigne grâce à ses coteaux, à la Saône et au Rhône navigables et aux villes proches. Les familles aisées de Lyon s'y intéressent ; les notables, qui peuvent vendre leur vin sans taxe, font connaître à Paris ce vin rouge léger, le « clairet »."
+    },
+    {
+     "kind": "blocks",
+     "id": "les-crus",
+     "tight": true,
+     "eyebrow": "Les dix crus",
+     "title": "Du Brouilly <em class=\"it\">au Saint-Amour</em>",
+     "items": [
+      {
+       "kicker": "Environ 400 vignerons",
+       "title": "Brouilly",
+       "paras": [
+        "Le plus vaste et le plus méridional des crus : quatre terroirs, du granite rose aux marno-calcaires. Robe rubis, notes fruitées et minérales. Il tient son nom du Mont Brouilly ; aucune commune ne porte son nom."
+       ]
+      },
+      {
+       "kicker": "Environ 85 vignerons",
+       "title": "Côte de Brouilly",
+       "paras": [
+        "Robe pourpre, arômes de raisin et d'iris. Sols de diorite et de schistes, dont la « corne verte ». Il gagne à vieillir."
+       ]
+      },
+      {
+       "kicker": "Environ 122 vignerons",
+       "title": "Chénas",
+       "paras": [
+        "Le plus rare des crus, entre Chénas (Rhône) et La Chapelle-de-Guinchay (Saône-et-Loire). Robe rubis-grenat, pivoine et rose, puis épices et bois avec l'âge."
+       ]
+      },
+      {
+       "kicker": "Environ 80 vignerons",
+       "title": "Chiroubles",
+       "paras": [
+        "Le cru le plus haut, de 250 à 450 m. Robe rubis, violette, iris, muguet et pivoine. On y vendange environ une semaine après le ban des vendanges."
+       ]
+      },
+      {
+       "kicker": "Environ 150 vignerons",
+       "title": "Fleurie",
+       "paras": [
+        "Granite rose, robe carmin, iris, violette, rose et pêche. Treize climats, dont La Madone, Grille-Midi, La Chapelle des Bois et Champagne."
+       ]
+      },
+      {
+       "kicker": "Plus de 60 vignerons",
+       "title": "Juliénas",
+       "paras": [
+        "Peut-être le berceau de la vigne en Beaujolais. Les sols les plus variés, de 230 à 430 m : granitiques à l'ouest, sédimentaires à l'est. Meilleur après 2 à 3 ans."
+       ]
+      },
+      {
+       "kicker": "Environ 250 vignerons",
+       "title": "Morgon",
+       "paras": [
+        "Du village de Villié-Morgon. Robe grenat, cerise, pêche, abricot et prune, sur les « roches pourries » du Mont du Py. Six climats : Les Charmes, Corcelette, Côte du Py, Douby, Grand Cras, Les Micouds. Garde de 5 à 10 ans : on dit qu'il « morgonne »."
+       ]
+      },
+      {
+       "kicker": "Environ 300 vignerons",
+       "title": "Moulin-à-Vent",
+       "paras": [
+        "Le plus prestigieux, à Romanèche-Thorins et Chénas, sur granite rose veiné de manganèse. Floral et fruité, puis iris, épices, truffe et musc ; structuré, jusqu'à 10 ans de garde."
+       ]
+      },
+      {
+       "kicker": "Environ 120 vignerons",
+       "title": "Régnié",
+       "paras": [
+        "Robe rubis-cerise, framboise, groseille, mûre et cassis, notes épicées. Granite rose exposé sud-est, à 350 m. À boire jeune, jusqu'à 5 ans."
+       ]
+      },
+      {
+       "kicker": "Environ 50 vignerons",
+       "title": "Saint-Amour",
+       "paras": [
+        "L'une des plus petites appellations, près de Saint-Véran : granite, argile et schistes. Léger, à boire dans les 12 à 15 mois ; plus riche, à son apogée vers 4 à 5 ans. La star de la Saint-Valentin."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "cepages",
+     "tight": true,
+     "eyebrow": "Le saviez-vous ?",
+     "title": "La vigne <em class=\"it\">et ses cépages</em>",
+     "items": [
+      {
+       "title": "La vigne",
+       "paras": [
+        "La plupart des vignes sont des lianes de la famille des Vitacées, genre Vitis, cultivées en climat tempéré ou méditerranéen. Le cépage, c'est la variété de raisin ; la plupart des vins viennent de l'espèce Vitis vinifera. Il influence le goût, l'acidité, les tanins, l'alcool, la couleur et les arômes."
+       ]
+      },
+      {
+       "title": "Cépages rouges",
+       "list": [
+        "Cabernet Sauvignon, Syrah, Grenache, Merlot",
+        "Pinot Noir, Mourvèdre, Carignan",
+        "Cabernet Franc, Gamay"
+       ]
+      },
+      {
+       "title": "Cépages blancs",
+       "list": [
+        "Chardonnay, Chenin Blanc, Sauvignon, Muscat",
+        "Riesling, Gewurztraminer",
+        "Roussanne, Marsanne"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contacts",
+   "label": "Contacts",
+   "title": "Contacts",
+   "eyebrow": "Odenas · Beaujolais",
+   "img": "https://static.wixstatic.com/media/52cf98_52b0e043e3074e80b78b6c9b9c09b9ec~mv2.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contacts",
+     "title": "Venez <em class=\"it\">nous voir</em>",
+     "text": "27 rue du Beaujolais, 69460 Odenas, en plein cœur du Beaujolais, au pied du Mont Brouilly.",
+     "rows": [
+      [
+       "Adresse",
+       "27 rue du Beaujolais<br>69460 Odenas"
+      ],
+      [
+       "Horaires",
+       "Lundi, mardi, mercredi : 7h30 – 13h30<br>Jeudi : fermé<br>Vendredi, samedi : 7h30 – 13h30 · 19h – 20h30<br>Dimanche : 9h – 13h30"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474033121\">04 74 03 31 21</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:restaurant@cote-de-brouilly.com\">restaurant@cote-de-brouilly.com</a>"
+      ]
+     ],
+     "cta": [
+      "Réserver une table",
+      "#reserver"
+     ],
+     "map_q": "27 rue du Beaujolais, 69460 Odenas"
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Contacts",
+     "title": "Écrivez-<em class=\"it\">nous</em>",
+     "lead": "Une question, un mâchon, un banquet ? Laissez-nous un message.",
+     "side": [
+      "Par téléphone : <a href=\"tel:+33474033121\">04 74 03 31 21</a>",
+      "Par e-mail : <a href=\"mailto:restaurant@cote-de-brouilly.com\">restaurant@cote-de-brouilly.com</a>"
+     ],
+     "email": "restaurant@cote-de-brouilly.com",
+     "subject": "Message depuis le site du Côte de Brouilly",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "nav_extra": [
+  [
+   "reserver",
+   "Réserver"
+  ]
+ ],
+ "home_label": "Accueil"
 }
