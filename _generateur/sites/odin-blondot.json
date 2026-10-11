@@ -242,7 +242,8 @@
      "cat": "Droit de l'immobilier",
      "desc": "Le prix affiché ne représente qu'une partie du budget, à compléter par les frais d'acquisition, d'agence et de crédit.",
      "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1391/achat-immobiliernbsp-la-checklist-pour-prevoir-toutes-les-depenses.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg"
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg",
+     "page": "actualites-juridiques/achat-immobilier-la-checklist-pour-prevoir-toutes-les-depenses"
     },
     {
      "title": "Isolation, chauffage… et la ventilation dans tout ça ?",
@@ -409,7 +410,8 @@
    "all": [
     "Toutes les actualités (16 pages)",
     "https://www.notaires-lyon6.fr/actualites-juridiques.html"
-   ]
+   ],
+   "note": "Exemple : le premier article a sa propre page sur la maquette ; tous les articles peuvent être repris de la même façon."
   },
   {
    "kind": "blocks",
@@ -510,5 +512,194 @@
   "src": "https://photos.notariat.services/resourcessn/resources/modele/default/assets/logo/notaires.png",
   "height": 48,
   "bg": "#ffffff"
- }
+ },
+ "pages": [
+  {
+   "slug": "actualites-juridiques/achat-immobilier-la-checklist-pour-prevoir-toutes-les-depenses",
+   "hidden": true,
+   "title": "Achat immobilier : la check-list pour prévoir toutes les dépenses",
+   "h1": "Achat immobilier : la check-list pour prévoir toutes les dépenses",
+   "eyebrow": "Actualités juridiques",
+   "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Droit de l'immobilier",
+     "date": "Mis à jour le 5 octobre 2026",
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg",
+     "chapo": "Le prix affiché n'est que le point de départ. Frais d'acquisition, d'agence, de crédit, assurance, travaux, déménagement, charges de copropriété et taxe foncière s'ajoutent avant et après la signature. Les anticiper évite de fragiliser son budget.",
+     "keys": "Les frais d'acquisition représentent environ 7 à 10 % du prix dans l'ancien et 2 à 3 % dans le neuf. Frais d'agence, de crédit, de garantie et d'assurance s'ajoutent selon le projet. Travaux et déménagement doivent être budgétés avant l'emménagement. En copropriété, il faut regarder les travaux votés ou envisagés, pas seulement les charges courantes. La taxe foncière est à anticiper dès la première année.",
+     "body": [
+      {
+       "h2": "Quels frais prévoir au moment de l'achat ?"
+      },
+      {
+       "p": "Le budget d'acquisition comprend le prix du logement, puis selon les cas les frais d'agence, les frais d'acquisition, les frais de crédit et l'assurance emprunteur. Ils ne sont pas calculés de la même façon ni payés au même moment."
+      },
+      {
+       "ul": [
+        [
+         "Le prix du bien.",
+         "Vérifier ce qui est inclus dans la vente (mobilier, équipements, dépendances, cave, garage, stationnement). Deux biens au même prix peuvent générer des budgets finaux différents si des équipements doivent être rachetés aussitôt."
+        ],
+        [
+         "Les frais d'agence.",
+         "Ce sont des honoraires, souvent à la charge de l'acquéreur, selon l'annonce et le mandat. Vérifier s'ils sont inclus dans le prix affiché."
+        ],
+        [
+         "Les frais d'acquisition (« frais de notaire »).",
+         "Ils regroupent des taxes versées à l'État et aux collectivités, des débours et la rémunération du notaire. Repère : 7 à 10 % du prix dans l'ancien, 2 à 3 % dans le neuf. Ils ne couvrent pas l'ensemble des autres dépenses."
+        ],
+        [
+         "Les frais liés au crédit.",
+         "Frais de dossier bancaire, coût de la garantie (caution ou hypothèque) et éventuels frais de courtage. Leur montant varie selon la banque et le montage, et doit figurer dans le plan de financement."
+        ],
+        [
+         "L'assurance emprunteur.",
+         "Elle se paie pendant toute la durée du prêt et s'ajoute aux mensualités. Pour mesurer l'effort mensuel réel, il faut raisonner sur la mensualité incluant crédit et assurance."
+        ]
+       ]
+      },
+      {
+       "h2": "Quelles dépenses prévoir dès l'installation ?"
+      },
+      {
+       "p": "Après la signature, travaux, déménagement, équipements, charges de copropriété et taxe foncière peuvent arriver vite. Il faut les provisionner avant l'entrée dans les lieux."
+      },
+      {
+       "ul": [
+        [
+         "Les travaux éventuels.",
+         "Rafraîchissement, rénovation énergétique, toiture, électricité ou plomberie. Distinguer les travaux indispensables dès l'entrée de ceux qui peuvent être étalés, et demander plusieurs devis pour les gros travaux."
+        ],
+        [
+         "Le déménagement et l'emménagement.",
+         "Location de véhicule, déménageurs, cartons, mobilier, électroménager, changement de serrures, petits travaux : leur addition explique souvent des premières semaines plus coûteuses que prévu."
+        ],
+        [
+         "Les charges de copropriété.",
+         "Au-delà des charges courantes, examiner les travaux votés ou envisagés (toiture, ravalement, travaux énergétiques). Les procès-verbaux des dernières assemblées générales permettent de les repérer avant signature."
+        ],
+        [
+         "La taxe foncière.",
+         "Due chaque année par le propriétaire, elle est généralement répartie entre vendeur et acquéreur au prorata. Son montant doit être connu avant l'achat."
+        ]
+       ]
+      },
+      {
+       "h2": "La check-list complète des postes à budgéter"
+      },
+      {
+       "table": {
+        "head": [
+         "Poste",
+         "Ordre de grandeur / point à vérifier"
+        ],
+        "rows": [
+         [
+          "Prix du logement",
+          "Prix affiché et éléments inclus dans la vente"
+         ],
+         [
+          "Frais d'acquisition",
+          "Environ 7 à 10 % dans l'ancien, 2 à 3 % dans le neuf"
+         ],
+         [
+          "Frais d'agence",
+          "Selon le mandat et l'annonce"
+         ],
+         [
+          "Crédit",
+          "Frais de dossier, garantie, éventuel courtage"
+         ],
+         [
+          "Assurance emprunteur",
+          "Selon le prêt et le profil"
+         ],
+         [
+          "Travaux",
+          "À chiffrer avec des devis"
+         ],
+         [
+          "Déménagement / emménagement",
+          "Selon la distance et les besoins"
+         ],
+         [
+          "Copropriété",
+          "Charges courantes + travaux votés ou envisagés"
+         ],
+         [
+          "Taxe foncière",
+          "Montant propre au bien et à la commune"
+         ]
+        ]
+       }
+      },
+      {
+       "h2": "Quand paye-t-on les différents frais d'un achat immobilier ?"
+      },
+      {
+       "table": {
+        "head": [
+         "Moment du projet",
+         "Dépenses à prévoir"
+        ],
+        "rows": [
+         [
+          "Avant et au moment de l'achat",
+          "Frais de dossier bancaire, garantie du prêt, assurance emprunteur, prix du bien, frais d'acquisition, éventuels frais d'agence"
+         ],
+         [
+          "À l'emménagement",
+          "Déménagement, mobilier, électroménager, serrures, petits travaux"
+         ],
+         [
+          "Dans les premiers mois",
+          "Travaux plus importants, charges de copropriété"
+         ],
+         [
+          "Chaque année",
+          "Taxe foncière, charges récurrentes et entretien"
+         ]
+        ]
+       }
+      },
+      {
+       "p": "Garder une réserve après la signature évite de financer dans l'urgence les premières dépenses."
+      },
+      {
+       "h2": "Un budget immobilier se prépare au-delà du prix affiché"
+      },
+      {
+       "p": "Le bon budget est celui qui laisse une marge une fois les clés remises. Avant une offre, il faut chiffrer séparément le prix, les frais d'acquisition et de financement, puis les dépenses après installation. Le notaire sécurise l'acquisition et précise les frais liés à l'acte."
+      }
+     ],
+     "faq": [
+      [
+       "Quels frais s'ajoutent au prix ?",
+       "Frais d'acquisition, honoraires d'agence éventuels, frais de crédit et de garantie, assurance emprunteur, puis travaux, déménagement et dépenses liées au logement."
+      ],
+      [
+       "Combien prévoir en plus ?",
+       "Il n'existe pas de pourcentage unique. Pour les seuls frais d'acquisition : 7 à 10 % dans l'ancien, 2 à 3 % dans le neuf, auxquels s'ajoutent les frais de financement et ceux liés au logement."
+      ],
+      [
+       "Faut-il payer la taxe foncière l'année de l'achat ?",
+       "Elle est légalement due par le propriétaire au 1er janvier. En pratique, l'acte prévoit généralement une répartition au prorata entre vendeur et acquéreur."
+      ],
+      [
+       "Faut-il une réserve après l'achat ?",
+       "Oui, par prudence : travaux imprévus, équipements à remplacer, charges de copropriété ou entretien peuvent survenir rapidement."
+      ]
+     ],
+     "source": "Article repris du site actuel de l'étude (actualités juridiques).",
+     "back": [
+      "← Toutes les actualités de l'étude",
+      "../../#informations"
+     ]
+    }
+   ]
+  }
+ ]
 }

@@ -100,7 +100,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .ann>div{background:var(--paper);color:var(--ink);max-width:460px;width:100%%;padding:38px 34px 32px;position:relative;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
 .ann h3{font-size:1.7rem;margin:12px 0 14px;color:var(--accent)}.ann p{color:var(--muted);margin-bottom:24px}
 .ann .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--muted)}
-.vimg{display:block;width:100%%;aspect-ratio:16/9;object-fit:cover;margin:0 0 22px}.hero.phead{min-height:46vh}.hero.phead h1{font-size:clamp(2.2rem,5vw,3.6rem)}.links a[aria-current]{border-bottom:1px solid currentColor}.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
+.vimg{display:block;width:100%%;aspect-ratio:16/9;object-fit:cover;margin:0 0 22px}header.many .links{gap:18px;font-size:.7rem;letter-spacing:.1em}.hero.phead{min-height:46vh}.hero.phead h1{font-size:clamp(2.2rem,5vw,3.6rem)}.links a[aria-current]{border-bottom:1px solid currentColor}.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
 .picto{width:56px;height:56px;object-fit:contain;margin-bottom:6px}
 .labels{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:26px}.labels img{height:64px;width:auto;background:#fff;padding:6px;border-radius:4px}
 .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
@@ -455,7 +455,10 @@ def section_blog(o):
     for p in o["posts"]:
         th = f'<div class="th" style="background-image:url(\'{attr(p["img"])}\')" role="img" aria-label=""></div>' if p.get("img") else ""
         date = f' · {e(p["date"])}' if p.get("date") else ""
-        link = f'<a class="rd" href="{attr(p["url"])}" target="_blank" rel="noopener">Lire l\'article</a>' if p.get("url") else ""
+        if p.get("page"):
+            link = f'<a class="rd" href="{attr(p["page"])}/">Lire l\'article</a>'
+        else:
+            link = f'<a class="rd" href="{attr(p["url"])}" target="_blank" rel="noopener">Lire l\'article</a>' if p.get("url") else ""
         arts.append(f'<article data-cat="{slug(p.get("cat", ""))}">{th}<div class="bd"><span class="ct">{e(p.get("cat", ""))}{date}</span>'
                     f'<h3>{e(p["title"])}</h3><p>{e(p.get("desc", ""))}</p>{link}</div></article>')
     allb = f'<a class="btn" href="{attr(o["all"][1])}" target="_blank" rel="noopener">{e(o["all"][0])}</a>' if o.get("all") else ""
@@ -463,6 +466,45 @@ def section_blog(o):
     return f'''<section id="{o.get("id", "blog")}"><div class="wrap blog" data-step="{o.get("step", 6)}"><div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="bt" role="group" aria-label="Filtrer par thème">{tabs}</div>
 <div class="bg">{"".join(arts)}</div><div class="more"><button type="button" class="btn ghost art-more" style="color:var(--ink)">Voir plus d'articles</button>{allb}</div>{note}</div></section>''' + BLOG_CSS + BLOG_JS
+
+
+ART_CSS = """<style>
+.art{max-width:760px;margin:0 auto}.art .meta{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.art .chapo{font-size:1.2rem;line-height:1.6;margin:18px 0 26px;color:var(--ink)}
+.art .cover{width:100%;aspect-ratio:16/9;object-fit:cover;margin:0 0 30px;background:var(--paper-2)}
+.art .keys{background:var(--paper-2);border-left:3px solid var(--accent);padding:20px 24px;margin:0 0 34px}.art .keys h2{font-size:1.15rem;margin:0 0 8px}
+.art h2{font-size:clamp(1.5rem,3vw,1.9rem);margin:40px 0 14px}.art p{margin:0 0 14px}.art ul{margin:0 0 18px 20px}.art li{margin-bottom:8px}
+.art table{width:100%;border-collapse:collapse;margin:8px 0 22px;font-size:.94rem}.art th,.art td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}.art th{font-weight:600;background:var(--paper-2)}
+.art .tw{overflow-x:auto}.art details{border-bottom:1px solid var(--line);padding:12px 0}.art summary{cursor:pointer;font-weight:500}.art details p{margin:10px 0 0;color:var(--muted)}
+.art .back{display:inline-block;margin-top:34px;border-bottom:1px solid var(--gold)}.art .src{font-size:.85rem;color:var(--muted);margin-top:24px}
+</style>"""
+
+
+def section_article(a):
+    """Article de blog complet (page d'article) : meta, chapô, image, encadré « à retenir », corps (h2, p, ul, table), FAQ."""
+    out = []
+    for b in a.get("body", []):
+        if "h2" in b:
+            out.append(f"<h2>{e(b['h2'])}</h2>")
+        if "p" in b:
+            out.append(f"<p>{e(b['p'])}</p>")
+        if "ul" in b:
+            out.append("<ul>" + "".join(f"<li><b>{e(x[0])}</b> {e(x[1])}</li>" if isinstance(x, list) else f"<li>{e(x)}</li>" for x in b["ul"]) + "</ul>")
+        if "table" in b:
+            t = b["table"]
+            out.append('<div class="tw"><table><thead><tr>' + "".join(f"<th>{e(h)}</th>" for h in t["head"]) + "</tr></thead><tbody>"
+                       + "".join("<tr>" + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in t["rows"]) + "</tbody></table></div>")
+    faq = ""
+    if a.get("faq"):
+        faq = "<h2>Questions fréquentes</h2>" + "".join(f"<details><summary>{e(q)}</summary><p>{e(r)}</p></details>" for q, r in a["faq"])
+    keys = f'<div class="keys"><h2>Ce qu\'il faut retenir</h2><p>{e(a["keys"])}</p></div>' if a.get("keys") else ""
+    cover = f'<img class="cover" src="{attr(a["img"])}" alt="" referrerpolicy="no-referrer">' if a.get("img") else ""
+    meta = " · ".join(x for x in (a.get("cat"), a.get("date")) if x)
+    src = f'<p class="src">{a["source"]}</p>' if a.get("source") else ""
+    back = f'<a class="back" href="{attr(a["back"][1])}">{e(a["back"][0])}</a>' if a.get("back") else ""
+    return f'''<section id="{a.get("id", "article")}"><div class="wrap"><article class="art"><span class="meta">{e(meta)}</span>
+<p class="chapo">{e(a.get("chapo", ""))}</p>{cover}{keys}{"".join(out)}{faq}{src}{back}</article></div></section>''' + ART_CSS
+
 
 
 def section_visit(v):
@@ -550,13 +592,15 @@ let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=
 const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>"""
 
 
-def _navitems(d, page):
-    """Liens du menu. Site multi-pages : Accueil + une entrée par page (+ ancres de l'accueil listées dans nav)."""
-    pref = "../" if page else ""
-    if not d.get("pages"):
-        return [("#" + i, l, "") for i, l in d["nav"]]
+def _navitems(d, page, prefix=""):
+    """Liens du menu. Site multi-pages : Accueil + une entrée par page visible (+ ancres de l'accueil listées dans nav_extra).
+    Sans page visible : les ancres de nav, préfixées vers l'accueil depuis une sous-page."""
+    pref = prefix if page else ""
+    visible = [pg for pg in d.get("pages", []) if not pg.get("hidden")]
+    if not visible:
+        return [(pref + "#" + i, l, "") for i, l in d["nav"]]
     items = [(pref or "./", d.get("home_label", "Accueil"), "" if page else ' aria-current="page"')]
-    for pg in d["pages"]:
+    for pg in visible:
         cur = ' aria-current="page"' if page and page["slug"] == pg["slug"] else ""
         items.append((pref + pg["slug"] + "/", pg.get("label", pg["title"]), cur))
     for i, l in d.get("nav_extra", []):
@@ -603,7 +647,7 @@ def build_all(d):
                     idmap.setdefault(bid, pg["slug"])
     out = {"": build(d, None, "", idmap)}
     for pg in d.get("pages", []):
-        out[pg["slug"]] = build(d, pg, "../", idmap)
+        out[pg["slug"]] = build(d, pg, "../" * (pg["slug"].count("/") + 1), idmap)
     return out
 
 
@@ -612,7 +656,7 @@ def build(d, page=None, prefix="", idmap=None):
     css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
     h = d["hero"]
     sections = page["sections"] if page else d["sections"]
-    navitems = _navitems(d, page)
+    navitems = _navitems(d, page, prefix)
     nav = "".join(f'<a href="{attr(hr)}"{cur}>{e(l)}</a>' for hr, l, cur in navitems)
     figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d.get("figures", []))
     blocks = []
@@ -620,7 +664,7 @@ def build(d, page=None, prefix="", idmap=None):
         kind = blk["kind"]
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "form": section_form}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "article": section_article, "form": section_form}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="{attr(hr)}">{e(l)}</a></li>' for hr, l, cur in navitems)
