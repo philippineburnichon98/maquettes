@@ -17,43 +17,13 @@
   "sans": "\"Public Sans\",system-ui,sans-serif",
   "fonts": "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400&family=Public+Sans:wght@300;400;500;600&display=swap"
  },
- "nav": [
-  [
-   "etude",
-   "L'étude"
-  ],
-  [
-   "equipe",
-   "L'équipe"
-  ],
-  [
-   "histoire",
-   "Histoire"
-  ],
-  [
-   "competences",
-   "Compétences"
-  ],
-  [
-   "honoraires",
-   "Honoraires"
-  ],
-  [
-   "informations",
-   "Actualités"
-  ],
-  [
-   "contact",
-   "Infos pratiques"
-  ]
- ],
  "hero": {
   "eyebrow": "Office notarial · 23 quai Sarrail, Lyon 6e",
   "title": "Notaires à Lyon 6e, <em>sur les quais du Rhône</em>",
   "lead": "Officier public, professionnel du droit des familles et des entreprises, le notaire intervient dans tous les grands moments de la vie.",
   "cta1": [
    "Prendre rendez-vous",
-   "#contact"
+   "contact/"
   ],
   "cta2": [
    "Nos compétences",
@@ -94,324 +64,125 @@
    "alt": "L'étude, quai Sarrail"
   },
   {
-   "kind": "team",
-   "id": "equipe",
-   "eyebrow": "L'équipe",
-   "title": "Les <em class=\"it\">notaires</em>",
-   "lead": "",
-   "people": [
-    {
-     "name": "Grégoire ODIN",
-     "role": "Successeur de Me Olivier THOMAS",
-     "img": "https://s3media.notariat.services/medias_immonot/ressources/0000013620/photo/1680276197659_1663854151135-copie.jpeg"
-    },
-    {
-     "name": "Edouard BLONDOT",
-     "role": "Successeur de Me Xavier COURBON",
-     "img": "https://s3media.notariat.services/medias_immonot/ressources/0000013620/photo/1780923957059_MatreBLONDOTEdouard.jpg"
-    }
-   ]
-  },
-  {
-   "kind": "timeline",
-   "id": "histoire",
-   "eyebrow": "Histoire de l'office",
-   "title": "Successeurs <em class=\"it\">de Me Thomas et Me Courbon</em>",
-   "lead": "Office créé le 8 juin 1965.",
-   "items": [
-    {
-     "when": "8 juin 1965",
-     "who": "Création de l'office",
-     "text": "Création de l'office par Me Raymond-Sylvain THOMAS, 1 cours Lafayette, Lyon 6e."
-    },
-    {
-     "when": "2 octobre 1990",
-     "who": "SCP Thomas",
-     "text": "SCP « Raymond-Sylvain et Olivier THOMAS », 23 quai Sarrail, Lyon 6e (jusqu'au 11 décembre 1997)."
-    },
-    {
-     "when": "12 décembre 1997",
-     "who": "SCP Thomas et Courbon",
-     "text": "SCP « Olivier THOMAS et Xavier COURBON », 23 quai Sarrail, Lyon 6e."
-    },
-    {
-     "when": "Aujourd'hui",
-     "who": "SELARL Odin, Blondot",
-     "text": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires, 23 quai Sarrail, Lyon 6e."
-    }
-   ]
-  },
-  {
    "kind": "blocks",
-   "id": "competences",
-   "eyebrow": "Particuliers et entreprises",
-   "title": "Les domaines <em class=\"it\">dans lesquels l'étude vous accompagne</em>",
+   "id": "pages",
+   "eyebrow": "L'office notarial",
+   "title": "Découvrir <em class=\"it\">l'étude</em>",
+   "tight": true,
    "items": [
     {
-     "title": "Droit de la famille",
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/slide31692799899286.jpg",
+     "kicker": "Présentation",
+     "title": "L'étude depuis 1965",
      "paras": [
-      "Union libre, PACS, mariage et remariage, divorce… Le droit de la famille ne cesse d'évoluer pour s'adapter à la société. Votre notaire vous aidera à y voir plus clair et à prendre les bonnes décisions."
-     ],
-     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_famille.jpg"
-    },
-    {
-     "title": "Le patrimoine",
-     "paras": [
-      "Testament, donation, partage de la succession, relations entre les héritiers… Pas toujours facile de s'y retrouver et de ne pas faire d'erreur. Votre notaire saura vous guider pour réussir au mieux la transmission de votre patrimoine et éviter les conflits familiaux."
-     ],
-     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/patrimoine.jpg"
-    },
-    {
-     "title": "Le droit immobilier",
-     "paras": [
-      "Que ce soit pour y vivre ou investir, l'immobilier est le placement favori des Français. Votre notaire est la personne appropriée pour vous aider à réussir votre projet de vente ou d'achat."
-     ],
-     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_immobilier.jpg"
-    },
-    {
-     "title": "Le droit de l'entreprise",
-     "paras": [
-      "Les notaires offrent des prestations de conseils aux chefs d'entreprise. Ils abordent le droit de l'entreprise dans tous ses aspects : choix de la forme la mieux adaptée au projet."
-     ],
-     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_entreprise.jpg"
-    },
-    {
-     "title": "L'expertise",
-     "paras": [
-      "L'expertise immobilière réalisée par votre notaire permet de connaître la vraie valeur d'un bien immobilier à l'instant T. Cela sera d'une grande utilité lors de sa vente, mais aussi pour le règlement d'une succession, un investissement ou vos déclarations d'impôts."
-     ],
-     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/expertise.jpg"
-    },
-    {
-     "title": "En détail",
-     "list": [
-      "achat et vente de biens immobiliers, financement",
-      "évaluation immobilière",
-      "divorce, partage",
-      "succession, donation",
-      "baux d'habitation et commerciaux",
-      "conseil en patrimoine et en investissement",
-      "lotissement, mise en copropriété",
-      "création et liquidation de société"
-     ]
-    }
-   ]
-  },
-  {
-   "kind": "blocks",
-   "id": "honoraires",
-   "eyebrow": "Honoraires",
-   "title": "Frais de notaire <em class=\"it\">et honoraires</em>",
-   "lead": "Les « frais de notaire » regroupent trois types de dépenses : la rémunération du notaire, les débours versés à des tiers, et les impôts et taxes reversés à l'État.",
-   "items": [
-    {
-     "title": "Émoluments",
-     "paras": [
-      "Proportionnels, selon un taux dégressif propre à la nature de l'acte, ou fixes. Ils sont réglementés (décret n° 2016-230 à l'arrêté du 25 février 2022)."
-     ]
-    },
-    {
-     "title": "Honoraires libres",
-     "paras": [
-      "Pour le domaine concurrentiel, notamment la négociation immobilière : leur tarif est fixé par chaque notaire.",
-      "Consultation : 70 € TTC. Convention d'honoraires possible pour le suivi d'un dossier, au tarif horaire ou forfaitaire."
-     ]
-    },
-    {
-     "title": "Estimer vos frais",
-     "paras": [
-      "Un simulateur de frais d'acquisition est disponible sur le site de l'étude."
+      "Office créé le 8 juin 1965 par Me Raymond-Sylvain THOMAS ; installé 23 quai Sarrail depuis 1990."
      ],
      "link": [
-      "Accéder au simulateur",
-      "https://www.notaires-lyon6.fr/tarif-honoraires.html"
+      "La présentation de l'étude",
+      "#histoire"
+     ]
+    },
+    {
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/patrimoine.jpg",
+     "kicker": "Compétences",
+     "title": "Particuliers et entreprises",
+     "paras": [
+      "Droit de la famille, patrimoine, droit immobilier, droit de l'entreprise, expertise."
+     ],
+     "link": [
+      "Nos compétences",
+      "#competences"
+     ]
+    },
+    {
+     "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_immobilier.jpg",
+     "kicker": "Honoraires",
+     "title": "Frais de notaire",
+     "paras": [
+      "Émoluments réglementés, honoraires libres, consultation à 70 € TTC."
+     ],
+     "link": [
+      "Tarifs et honoraires",
+      "#honoraires"
      ]
     }
    ]
   },
   {
-   "kind": "blog",
-   "id": "informations",
+   "kind": "blocks",
+   "id": "actualites",
    "eyebrow": "Actualités juridiques",
-   "title": "Le blog <em class=\"it\">de l'étude</em>",
-   "lead": "L'étude met à disposition des actualités immobilières, juridiques et fiscales, ainsi qu'une lettre d'information gratuite. Les derniers articles :",
-   "step": 6,
-   "posts": [
+   "title": "Les dernières <em class=\"it\">actualités</em>",
+   "lead": "Informations immobilières, juridiques et fiscales, et lettre d'information gratuite.",
+   "items": [
     {
-     "title": "Achat immobilier : la check-list pour prévoir toutes les dépenses",
-     "cat": "Droit de l'immobilier",
-     "desc": "Le prix affiché ne représente qu'une partie du budget, à compléter par les frais d'acquisition, d'agence et de crédit.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1391/achat-immobiliernbsp-la-checklist-pour-prevoir-toutes-les-depenses.html",
      "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg",
-     "page": "actualites-juridiques/achat-immobilier-la-checklist-pour-prevoir-toutes-les-depenses"
+     "kicker": "Droit de l'immobilier",
+     "title": "Achat immobilier : la check-list pour prévoir toutes les dépenses",
+     "paras": [
+      "Le prix affiché ne représente qu'une partie du budget, à compléter par les frais d'acquisition, d'agence et de crédit."
+     ],
+     "link": [
+      "Lire l'article",
+      "actualites-juridiques/achat-immobilier-la-checklist-pour-prevoir-toutes-les-depenses/"
+     ]
     },
     {
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9673_1791201737943.jpg",
+     "kicker": "Droit de l'immobilier",
      "title": "Isolation, chauffage… et la ventilation dans tout ça ?",
-     "cat": "Droit de l'immobilier",
-     "desc": "En rénovation énergétique, la ventilation compte autant que l'isolation et les fenêtres.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1392/isolation-chauffagehellip-et-la-ventilation-dans-tout-canbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9673_1791201737943.jpg"
+     "paras": [
+      "En rénovation énergétique, la ventilation compte autant que l'isolation et les fenêtres."
+     ],
+     "link": [
+      "Lire l'article",
+      "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1392/isolation-chauffagehellip-et-la-ventilation-dans-tout-canbsp.html"
+     ]
     },
     {
+     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9674_1791201825444.jpg",
+     "kicker": "Patrimoine",
      "title": "Régler une succession : 3 questions à Stéphanie Swiklinski",
-     "cat": "Patrimoine",
-     "desc": "Les étapes d'un règlement successoral : ouverture du dossier, actes à établir et délais fiscaux.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1393/regler-une-successionnbsp-3-questions-a-stephanie-swiklinski.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9674_1791201825444.jpg"
-    },
-    {
-     "title": "Hauteur sous plafond : pourquoi le volume redevient essentiel",
-     "cat": "Droit de l'immobilier",
-     "desc": "Dans les studios mansardés et sous les combles, la hauteur sous plafond peut conditionner la décence d'un logement.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1388/hauteur-sous-plafondnbsp-pourquoi-le-volume-redevient-essentiel.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9625_1787211769972.jpg"
-    },
-    {
-     "title": "Comment estimer correctement son bien immobilier ?",
-     "cat": "Droit de l'immobilier",
-     "desc": "Une estimation fiable repose sur l'analyse du marché local : un prix mal calibré nuit à la vente.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1389/comment-estimer-correctement-son-bien-immobiliernbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9626_1787211863936.jpg"
-    },
-    {
-     "title": "Acheter un bien en famille : SCI ou indivision ?",
-     "cat": "Droit de la famille",
-     "desc": "Deux formules pour acheter entre proches, une maison de vacances comme un investissement.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1390/acheter-un-bien-en-famillenbsp-sci-ou-indivisionnbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9627_1787212098076.jpg"
-    },
-    {
-     "title": "Achat en copropriété : les règles à connaître avant d'acheter",
-     "cat": "Droit de l'immobilier",
-     "desc": "Charges, travaux et décisions collectives sont à anticiper avant l'acquisition.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1385/achat-en-coproprietenbsp-les-regles-a-connaitre-avant-dacheter.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9534_1780558546839.jpg"
-    },
-    {
-     "title": "Hériter d'une maison : qui paie les frais en indivision ?",
-     "cat": "Patrimoine",
-     "desc": "Quand plusieurs héritiers se partagent un bien, se pose la question de la répartition des frais.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1386/heriter-dune-maisonnbsp-qui-paie-les-frais-en-indivisionnbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9535_1780558607826.jpg"
-    },
-    {
-     "title": "Capacité d'emprunt : combien pouvez-vous réellement emprunter ?",
-     "cat": "Droit de l'immobilier",
-     "desc": "Évaluer son budget d'emprunt avant de se lancer dans un achat.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1387/capacite-dempruntnbsp-combien-pouvezvous-reellement-emprunternbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9536_1780558661513.jpg"
-    },
-    {
-     "title": "Pacs et immobilier : faut-il se pacser avant d'acheter à deux ?",
-     "cat": "Droit de la famille",
-     "desc": "On peut acheter à deux sans mariage ni Pacs, mais le statut du couple influence la situation du bien.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1380/pacs-et-immobiliernbsp-fautil-se-pacser-avant-dacheter-a-deuxnbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9475_1776758928351.jpg"
-    },
-    {
-     "title": "Achat immobilier : quelles aides financières des parents pour devenir propriétaire ?",
-     "cat": "Droit de la famille",
-     "desc": "Avec la hausse des prix et des crédits plus difficiles à obtenir, l'aide familiale devient un levier courant.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1381/achat-immobiliernbsp-quelles-aides-financieres-des-parents-pour-devenir-proprietairenbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9476_1776758977291.jpg"
-    },
-    {
-     "title": "Contrat de mariage : se protéger avant de dire « oui »",
-     "cat": "Droit de la famille",
-     "desc": "Un contrat de mariage s'adapte à chaque profil familial et patrimonial.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1374/contrat-de-mariagenbsp-se-proteger-avant-de-dire-oui.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9444_1774530344374.jpg"
-    },
-    {
-     "title": "Médiation notariale : une alternative au procès pour résoudre vos litiges",
-     "cat": "Patrimoine",
-     "desc": "La médiation, voie amiable pour les conflits de voisinage, de succession ou de divorce.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1375/mediation-notarialenbsp-une-alternative-au-proces-pour-resoudre-vos-litiges.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9445_1774530418844.jpg"
-    },
-    {
-     "title": "Taxe foncière : une réforme pourrait augmenter l'impôt de certains logements dès 2027",
-     "cat": "Droit de l'immobilier",
-     "desc": "Un nouveau mode de calcul pourrait toucher plus de 7 millions de logements.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1376/taxe-foncierenbsp-une-reforme-pourrait-augmenter-limpot-de-certains-logements-des-2027.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9421_1774530464762.jpg"
-    },
-    {
-     "title": "SCI familiale : une solution efficace pour gérer et transmettre un bien immobilier en famille",
-     "cat": "Patrimoine",
-     "desc": "La SCI familiale permet d'acquérir, de gérer et de transmettre un bien entre membres d'une même famille.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1370/sci-familialenbsp-une-solution-efficace-pour-gerer-et-transmettre-un-bien-immobilier-en-famille.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9377_1770890235142.jpg"
-    },
-    {
-     "title": "Achat en viager : payer son bien immobilier en plusieurs fois, sans crédit bancaire",
-     "cat": "Droit de l'immobilier",
-     "desc": "Le viager permet d'acheter sans emprunt bancaire, avec un paiement échelonné.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1371/achat-en-viagernbsp-payer-son-bien-immobilier-en-plusieurs-fois-sans-credit-bancaire.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9378_1770890449541.jpg"
-    },
-    {
-     "title": "Immobilier neuf : pourquoi acheter ou investir dans le neuf en 2026 ?",
-     "cat": "Droit de l'immobilier",
-     "desc": "Les arguments du neuf, pour un acheteur comme pour un investisseur.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1372/immobilier-neufnbsp-pourquoi-acheter-ou-investir-dans-le-neuf-en-2026nbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9379_1770890800407.jpg"
-    },
-    {
-     "title": "Droits de succession : comment les calculer et éviter les mauvaises surprises",
-     "cat": "Droit de la famille",
-     "desc": "Le calcul des droits de succession et les erreurs à éviter.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1367/droits-de-successionnbsp-comment-les-calculer-et-eviter-les-mauvaises-surprises.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9344_1767966714206.jpg"
-    },
-    {
-     "title": "Donation entre époux : le guide complet pour protéger efficacement votre conjoint",
-     "cat": "Patrimoine",
-     "desc": "La transmission entre époux, notamment quand le couple détient un patrimoine immobilier.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1362/donation-entre-epouxnbsp-le-guide-complet-pour-proteger-efficacement-votre-conjoint.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9305_1765356524195.jpg"
-    },
-    {
-     "title": "Immobilier neuf : 4 atouts clés pour acheter sereinement",
-     "cat": "Droit de l'immobilier",
-     "desc": "Confort, performance énergétique et sécurité pour l'acheteur.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1363/immobilier-neufnbsp-4-atouts-cles-pour-acheter-sereinement.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9306_1765356696844.jpg"
-    },
-    {
-     "title": "Donation ou donation-partage : comment transmettre votre patrimoine sereinement ?",
-     "cat": "Patrimoine",
-     "desc": "Les donations pour transmettre un bien ou aider ses enfants de son vivant.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1364/donation-ou-donationpartagenbsp-comment-transmettre-votre-patrimoine-sereinementnbsp.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9307_1765356777413.jpg"
-    },
-    {
-     "title": "Régime matrimonial : et si c'était le moment de changer",
-     "cat": "Droit de la famille",
-     "desc": "Un régime matrimonial peut devenir inadapté après une évolution de vie, comme une recomposition familiale.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1365/regime-matrimonialnbsp-et-si-cetait-le-moment-de-changer.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9308_1765356823578.jpg"
-    },
-    {
-     "title": "Organiser sa protection en cas d'incapacité",
-     "cat": "Droit de la famille",
-     "desc": "Anticiper une perte d'autonomie due à un accident ou à une maladie.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1358/organiser-sa-protection-en-cas-dincapacite.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9253_1763038740427.jpg"
-    },
-    {
-     "title": "Donation immobilière : protéger son geste grâce aux conseils de votre notaire",
-     "cat": "Droit de la famille",
-     "desc": "Sécuriser la donation d'un bien immobilier à ses proches.",
-     "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1355/donation-immobilierenbsp-proteger-son-geste-grace-aux-conseils-de-votre-notaire.html",
-     "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9171_1758876560242.jpg"
+     "paras": [
+      "Les étapes d'un règlement successoral : ouverture du dossier, actes à établir et délais fiscaux."
+     ],
+     "link": [
+      "Lire l'article",
+      "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1393/regler-une-successionnbsp-3-questions-a-stephanie-swiklinski.html"
+     ]
     }
    ],
-   "all": [
-    "Toutes les actualités (16 pages)",
-    "https://www.notaires-lyon6.fr/actualites-juridiques.html"
+   "note": "<a href=\"actualites-juridiques/\" style=\"border-bottom:1px solid var(--gold)\">Toutes les actualités de l'étude</a>"
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Notre bureau",
+   "title": "23 quai Sarrail, <em class=\"it\">Lyon 6e</em>",
+   "text": "SELARL Grégoire ODIN, Edouard BLONDOT, 23 quai Sarrail, 69006 Lyon.",
+   "rows": [
+    [
+     "Adresse",
+     "23 quai Sarrail<br>69006 Lyon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33478521524\">04 78 52 15 24</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:odin-blondot@69109.notaires.fr\">odin-blondot@69109.notaires.fr</a>"
+    ],
+    [
+     "Réception clientèle",
+     "Sur rendez-vous, entre 9h et 19h non stop"
+    ]
    ],
-   "note": "Exemple : le premier article a sa propre page sur la maquette ; tous les articles peuvent être repris de la même façon."
+   "cta": [
+    "Contactez-nous",
+    "contact/"
+   ],
+   "map_q": "23 Quai Sarrail, 69006 Lyon",
+   "id": "bureau"
   },
   {
    "kind": "blocks",
@@ -455,47 +226,6 @@
      ]
     }
    ]
-  },
-  {
-   "kind": "visit",
-   "eyebrow": "Réception sur rendez-vous",
-   "title": "Venir à l'étude, <em class=\"it\">prendre rendez-vous</em>",
-   "text": "SELARL Grégoire ODIN, Edouard BLONDOT, 23 quai Sarrail, 69006 Lyon.",
-   "rows": [
-    [
-     "Adresse",
-     "23 quai Sarrail<br>69006 Lyon"
-    ],
-    [
-     "Téléphone",
-     "<a href=\"tel:+33478521524\">04 78 52 15 24</a>"
-    ],
-    [
-     "E-mail",
-     "<a href=\"mailto:odin-blondot@69109.notaires.fr\">odin-blondot@69109.notaires.fr</a>"
-    ],
-    [
-     "Standard téléphonique",
-     "Du lundi au jeudi : 9h à 12h et 14h à 18h ; le vendredi jusqu'à 17h"
-    ],
-    [
-     "Réception clientèle",
-     "Sur rendez-vous, entre 9h et 19h non stop"
-    ],
-    [
-     "Fermeture",
-     "Samedi et dimanche"
-    ],
-    [
-     "Stationnement",
-     "Parkings Lyon Parc Auto : Cordeliers, Morand et Lafayette"
-    ]
-   ],
-   "cta": [
-    "Demander un rendez-vous",
-    "mailto:odin-blondot@69109.notaires.fr?subject=Demande%20de%20rendez-vous"
-   ],
-   "map_q": "23 Quai Sarrail, 69006 Lyon"
   }
  ],
  "footer": {
@@ -514,6 +244,566 @@
   "bg": "#ffffff"
  },
  "pages": [
+  {
+   "slug": "nos-bureaux",
+   "label": "Présentation",
+   "title": "Présentation de l'étude",
+   "h1": "Présentation <em>de l'étude</em>",
+   "eyebrow": "Office notarial depuis 1965",
+   "lead": "SELARL Grégoire ODIN, Edouard BLONDOT, successeurs de Me Olivier THOMAS et Me Xavier COURBON.",
+   "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/slide31692799899286.jpg",
+   "sections": [
+    {
+     "kind": "timeline",
+     "id": "histoire",
+     "eyebrow": "Histoire de l'office",
+     "title": "Successeurs <em class=\"it\">de Me Thomas et Me Courbon</em>",
+     "lead": "Office créé le 8 juin 1965.",
+     "items": [
+      {
+       "when": "8 juin 1965",
+       "who": "Création de l'office",
+       "text": "Création de l'office par Me Raymond-Sylvain THOMAS, 1 cours Lafayette, Lyon 6e."
+      },
+      {
+       "when": "2 octobre 1990",
+       "who": "SCP Thomas",
+       "text": "SCP « Raymond-Sylvain et Olivier THOMAS », 23 quai Sarrail, Lyon 6e (jusqu'au 11 décembre 1997)."
+      },
+      {
+       "when": "12 décembre 1997",
+       "who": "SCP Thomas et Courbon",
+       "text": "SCP « Olivier THOMAS et Xavier COURBON », 23 quai Sarrail, Lyon 6e."
+      },
+      {
+       "when": "Aujourd'hui",
+       "who": "SELARL Odin, Blondot",
+       "text": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires, 23 quai Sarrail, Lyon 6e."
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "activites",
+     "eyebrow": "Notre étude",
+     "title": "Les activités <em class=\"it\">de l'office</em>",
+     "lead": "L'Étude ODIN-BLONDOT et ses collaborateurs vous accueillent et vous accompagnent dans vos décisions patrimoniales.",
+     "items": [
+      {
+       "title": "Domaines traités",
+       "list": [
+        "achat et vente de biens immobiliers, financement",
+        "évaluation immobilière",
+        "divorce, partage",
+        "succession, donation",
+        "baux d'habitation et commerciaux",
+        "conseil en patrimoine et en investissement",
+        "lotissement, mise en copropriété",
+        "création et liquidation de société"
+       ]
+      },
+      {
+       "title": "Un office à votre écoute",
+       "paras": [
+        "Un office notarial à votre écoute : un notaire et son collaborateur direct à la disposition de chaque client.",
+        "Au cœur de Lyon, sur les quais du Rhône, à proximité de tous les transports en commun et parkings."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "presentation-de-l-equipe",
+   "label": "Équipe",
+   "title": "Présentation de l'équipe",
+   "h1": "L'<em>équipe</em>",
+   "eyebrow": "Les notaires",
+   "lead": "Un notaire et son collaborateur direct à la disposition de chaque client.",
+   "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/slide31692799899286.jpg",
+   "sections": [
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "Présentation de l'équipe",
+     "title": "Les <em class=\"it\">notaires</em>",
+     "lead": "SELARL Grégoire ODIN, Edouard BLONDOT, notaires à Lyon 6e.",
+     "people": [
+      {
+       "name": "Grégoire ODIN",
+       "role": "Successeur de Me Olivier THOMAS",
+       "img": "https://s3media.notariat.services/medias_immonot/ressources/0000013620/photo/1680276197659_1663854151135-copie.jpeg"
+      },
+      {
+       "name": "Edouard BLONDOT",
+       "role": "Successeur de Me Xavier COURBON",
+       "img": "https://s3media.notariat.services/medias_immonot/ressources/0000013620/photo/1780923957059_MatreBLONDOTEdouard.jpg"
+      }
+     ],
+     "note": "E-mail : Grégoire ODIN, gregoire.odin@notaires.fr · Edouard BLONDOT, blondot.edouard@notaires.fr"
+    }
+   ]
+  },
+  {
+   "slug": "tarif-honoraires",
+   "label": "Honoraires",
+   "title": "Tarifs et honoraires",
+   "h1": "Tarifs <em>et honoraires</em>",
+   "eyebrow": "Frais d'acquisition",
+   "lead": "Émoluments, honoraires, débours, impôts et taxes.",
+   "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_immobilier.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "honoraires",
+     "eyebrow": "Honoraires",
+     "title": "Frais de notaire <em class=\"it\">et honoraires</em>",
+     "lead": "Les « frais de notaire » regroupent trois types de dépenses : la rémunération du notaire, les débours versés à des tiers, et les impôts et taxes reversés à l'État.",
+     "items": [
+      {
+       "title": "Émoluments",
+       "paras": [
+        "<b>Proportionnels</b> : calculés à partir d'un taux appliqué à la valeur de l'opération figurant dans l'acte ; ce taux est dégressif et varie selon la nature de l'acte (donation, déclaration de succession, vente immobilière…).",
+        "<b>Fixes</b> : dans les autres cas, par exemple pour un contrat de mariage."
+       ],
+       "list": [
+        "Décret n° 2016-230 du 26 février 2016",
+        "Arrêté du 26 février 2016",
+        "Arrêté du 28 octobre 2016",
+        "Arrêté du 8 août 2019",
+        "Décret n° 2020-179 du 28 février 2020",
+        "Arrêté du 28 février 2020",
+        "Arrêté du 25 février 2022"
+       ]
+      },
+      {
+       "title": "Honoraires libres",
+       "paras": [
+        "Pour le domaine concurrentiel : bilan patrimonial, déclaration d'IFI, rédaction de baux commerciaux, transactions et négociation immobilières.",
+        "Chaque notaire fixe son tarif, identique pour tous ses clients."
+       ]
+      },
+      {
+       "title": "Depuis le 1er mai 2016",
+       "paras": [
+        "La négociation immobilière est libéralisée et donne lieu à des honoraires. Baisse générale d'environ 1,9 % de tous les actes tarifés depuis le 1er janvier 2021.",
+        "Barème des émoluments de vente immobilière depuis le 1er janvier 2021 :"
+       ],
+       "list": [
+        "de 0 à 6 500 € : 3,870 %",
+        "de 6 500 € à 17 000 € : 1,596 %",
+        "de 17 000 € à 60 000 € : 1,064 %",
+        "au-delà de 60 000 € : 0,799 %"
+       ]
+      },
+      {
+       "title": "Petites mutations et remise",
+       "paras": [
+        "Pour les mutations immobilières et formalités liées, les émoluments ne peuvent pas dépasser 10 % de la valeur du bien ou du droit, avec un minimum de 90 €.",
+        "Depuis le 1er janvier 2021, les notaires peuvent accorder une remise maximale de 20 % sur leurs émoluments pour les opérations supérieures à 100 000 €."
+       ]
+      },
+      {
+       "title": "Remises (art. R 444-10 du Code de commerce)",
+       "paras": [
+        "Alinéa 1 : la remise ne peut dépasser 10 % de l'émolument pour un bien ou un droit dont la valeur dépasse 150 000 € (seuil au 1er mai 2016).",
+        "Alinéa 2 : 40 % au-delà de 10 000 000 € pour la mutation ou le financement de biens professionnels ou de logements sociaux, et la mutation de parts ou d'actions de société ou de biens affectés à l'exploitation d'une entreprise."
+       ]
+      },
+      {
+       "title": "Consultation et suivi de dossier",
+       "paras": [
+        "Consultation, au bureau ou par rendez-vous téléphonique : 70 € TTC, réglable par chèque ou carte bancaire.",
+        "Pour le suivi d'un dossier, une convention d'honoraires peut préciser les démarches et le coût horaire pratiqué, ou un montant forfaitaire. Renseignements auprès du secrétariat."
+       ]
+      },
+      {
+       "title": "Estimer vos frais",
+       "paras": [
+        "Un simulateur de frais d'acquisition (département, profil de l'acquéreur, montant de l'acquisition) est disponible sur le site de l'étude."
+       ],
+       "link": [
+        "Accéder au simulateur",
+        "https://www.notaires-lyon6.fr/tarif-honoraires.html"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites-juridiques",
+   "label": "Informations",
+   "title": "Actualités juridiques",
+   "h1": "Actualités <em>juridiques</em>",
+   "eyebrow": "Informations",
+   "lead": "Informations juridiques, fiscales et immobilières.",
+   "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "informations",
+     "eyebrow": "Actualités juridiques",
+     "title": "Le blog <em class=\"it\">de l'étude</em>",
+     "lead": "L'étude met à disposition des actualités immobilières, juridiques et fiscales, ainsi qu'une lettre d'information gratuite. Les derniers articles :",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Achat immobilier : la check-list pour prévoir toutes les dépenses",
+       "cat": "Droit de l'immobilier",
+       "desc": "Le prix affiché ne représente qu'une partie du budget, à compléter par les frais d'acquisition, d'agence et de crédit.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1391/achat-immobiliernbsp-la-checklist-pour-prevoir-toutes-les-depenses.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9672_1791201633505.jpg",
+       "page": "achat-immobilier-la-checklist-pour-prevoir-toutes-les-depenses"
+      },
+      {
+       "title": "Isolation, chauffage… et la ventilation dans tout ça ?",
+       "cat": "Droit de l'immobilier",
+       "desc": "En rénovation énergétique, la ventilation compte autant que l'isolation et les fenêtres.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1392/isolation-chauffagehellip-et-la-ventilation-dans-tout-canbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9673_1791201737943.jpg"
+      },
+      {
+       "title": "Régler une succession : 3 questions à Stéphanie Swiklinski",
+       "cat": "Patrimoine",
+       "desc": "Les étapes d'un règlement successoral : ouverture du dossier, actes à établir et délais fiscaux.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1393/regler-une-successionnbsp-3-questions-a-stephanie-swiklinski.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9674_1791201825444.jpg"
+      },
+      {
+       "title": "Hauteur sous plafond : pourquoi le volume redevient essentiel",
+       "cat": "Droit de l'immobilier",
+       "desc": "Dans les studios mansardés et sous les combles, la hauteur sous plafond peut conditionner la décence d'un logement.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1388/hauteur-sous-plafondnbsp-pourquoi-le-volume-redevient-essentiel.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9625_1787211769972.jpg"
+      },
+      {
+       "title": "Comment estimer correctement son bien immobilier ?",
+       "cat": "Droit de l'immobilier",
+       "desc": "Une estimation fiable repose sur l'analyse du marché local : un prix mal calibré nuit à la vente.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1389/comment-estimer-correctement-son-bien-immobiliernbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9626_1787211863936.jpg"
+      },
+      {
+       "title": "Acheter un bien en famille : SCI ou indivision ?",
+       "cat": "Droit de la famille",
+       "desc": "Deux formules pour acheter entre proches, une maison de vacances comme un investissement.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1390/acheter-un-bien-en-famillenbsp-sci-ou-indivisionnbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9627_1787212098076.jpg"
+      },
+      {
+       "title": "Achat en copropriété : les règles à connaître avant d'acheter",
+       "cat": "Droit de l'immobilier",
+       "desc": "Charges, travaux et décisions collectives sont à anticiper avant l'acquisition.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1385/achat-en-coproprietenbsp-les-regles-a-connaitre-avant-dacheter.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9534_1780558546839.jpg"
+      },
+      {
+       "title": "Hériter d'une maison : qui paie les frais en indivision ?",
+       "cat": "Patrimoine",
+       "desc": "Quand plusieurs héritiers se partagent un bien, se pose la question de la répartition des frais.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1386/heriter-dune-maisonnbsp-qui-paie-les-frais-en-indivisionnbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9535_1780558607826.jpg"
+      },
+      {
+       "title": "Capacité d'emprunt : combien pouvez-vous réellement emprunter ?",
+       "cat": "Droit de l'immobilier",
+       "desc": "Évaluer son budget d'emprunt avant de se lancer dans un achat.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1387/capacite-dempruntnbsp-combien-pouvezvous-reellement-emprunternbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9536_1780558661513.jpg"
+      },
+      {
+       "title": "Pacs et immobilier : faut-il se pacser avant d'acheter à deux ?",
+       "cat": "Droit de la famille",
+       "desc": "On peut acheter à deux sans mariage ni Pacs, mais le statut du couple influence la situation du bien.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1380/pacs-et-immobiliernbsp-fautil-se-pacser-avant-dacheter-a-deuxnbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9475_1776758928351.jpg"
+      },
+      {
+       "title": "Achat immobilier : quelles aides financières des parents pour devenir propriétaire ?",
+       "cat": "Droit de la famille",
+       "desc": "Avec la hausse des prix et des crédits plus difficiles à obtenir, l'aide familiale devient un levier courant.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1381/achat-immobiliernbsp-quelles-aides-financieres-des-parents-pour-devenir-proprietairenbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9476_1776758977291.jpg"
+      },
+      {
+       "title": "Contrat de mariage : se protéger avant de dire « oui »",
+       "cat": "Droit de la famille",
+       "desc": "Un contrat de mariage s'adapte à chaque profil familial et patrimonial.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1374/contrat-de-mariagenbsp-se-proteger-avant-de-dire-oui.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9444_1774530344374.jpg"
+      },
+      {
+       "title": "Médiation notariale : une alternative au procès pour résoudre vos litiges",
+       "cat": "Patrimoine",
+       "desc": "La médiation, voie amiable pour les conflits de voisinage, de succession ou de divorce.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1375/mediation-notarialenbsp-une-alternative-au-proces-pour-resoudre-vos-litiges.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9445_1774530418844.jpg"
+      },
+      {
+       "title": "Taxe foncière : une réforme pourrait augmenter l'impôt de certains logements dès 2027",
+       "cat": "Droit de l'immobilier",
+       "desc": "Un nouveau mode de calcul pourrait toucher plus de 7 millions de logements.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1376/taxe-foncierenbsp-une-reforme-pourrait-augmenter-limpot-de-certains-logements-des-2027.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9421_1774530464762.jpg"
+      },
+      {
+       "title": "SCI familiale : une solution efficace pour gérer et transmettre un bien immobilier en famille",
+       "cat": "Patrimoine",
+       "desc": "La SCI familiale permet d'acquérir, de gérer et de transmettre un bien entre membres d'une même famille.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1370/sci-familialenbsp-une-solution-efficace-pour-gerer-et-transmettre-un-bien-immobilier-en-famille.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9377_1770890235142.jpg"
+      },
+      {
+       "title": "Achat en viager : payer son bien immobilier en plusieurs fois, sans crédit bancaire",
+       "cat": "Droit de l'immobilier",
+       "desc": "Le viager permet d'acheter sans emprunt bancaire, avec un paiement échelonné.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1371/achat-en-viagernbsp-payer-son-bien-immobilier-en-plusieurs-fois-sans-credit-bancaire.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9378_1770890449541.jpg"
+      },
+      {
+       "title": "Immobilier neuf : pourquoi acheter ou investir dans le neuf en 2026 ?",
+       "cat": "Droit de l'immobilier",
+       "desc": "Les arguments du neuf, pour un acheteur comme pour un investisseur.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1372/immobilier-neufnbsp-pourquoi-acheter-ou-investir-dans-le-neuf-en-2026nbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9379_1770890800407.jpg"
+      },
+      {
+       "title": "Droits de succession : comment les calculer et éviter les mauvaises surprises",
+       "cat": "Droit de la famille",
+       "desc": "Le calcul des droits de succession et les erreurs à éviter.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1367/droits-de-successionnbsp-comment-les-calculer-et-eviter-les-mauvaises-surprises.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9344_1767966714206.jpg"
+      },
+      {
+       "title": "Donation entre époux : le guide complet pour protéger efficacement votre conjoint",
+       "cat": "Patrimoine",
+       "desc": "La transmission entre époux, notamment quand le couple détient un patrimoine immobilier.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1362/donation-entre-epouxnbsp-le-guide-complet-pour-proteger-efficacement-votre-conjoint.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9305_1765356524195.jpg"
+      },
+      {
+       "title": "Immobilier neuf : 4 atouts clés pour acheter sereinement",
+       "cat": "Droit de l'immobilier",
+       "desc": "Confort, performance énergétique et sécurité pour l'acheteur.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-l-immobilier/article/1363/immobilier-neufnbsp-4-atouts-cles-pour-acheter-sereinement.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9306_1765356696844.jpg"
+      },
+      {
+       "title": "Donation ou donation-partage : comment transmettre votre patrimoine sereinement ?",
+       "cat": "Patrimoine",
+       "desc": "Les donations pour transmettre un bien ou aider ses enfants de son vivant.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/mon-patrimoine/article/1364/donation-ou-donationpartagenbsp-comment-transmettre-votre-patrimoine-sereinementnbsp.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9307_1765356777413.jpg"
+      },
+      {
+       "title": "Régime matrimonial : et si c'était le moment de changer",
+       "cat": "Droit de la famille",
+       "desc": "Un régime matrimonial peut devenir inadapté après une évolution de vie, comme une recomposition familiale.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1365/regime-matrimonialnbsp-et-si-cetait-le-moment-de-changer.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9308_1765356823578.jpg"
+      },
+      {
+       "title": "Organiser sa protection en cas d'incapacité",
+       "cat": "Droit de la famille",
+       "desc": "Anticiper une perte d'autonomie due à un accident ou à une maladie.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1358/organiser-sa-protection-en-cas-dincapacite.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9253_1763038740427.jpg"
+      },
+      {
+       "title": "Donation immobilière : protéger son geste grâce aux conseils de votre notaire",
+       "cat": "Droit de la famille",
+       "desc": "Sécuriser la donation d'un bien immobilier à ses proches.",
+       "url": "https://www.notaires-lyon6.fr/actualites-juridiques/droit-de-la-famille/article/1355/donation-immobilierenbsp-proteger-son-geste-grace-aux-conseils-de-votre-notaire.html",
+       "img": "https://s3media.notariat.services/sitesnotaires/actualites/images/9171_1758876560242.jpg"
+      }
+     ],
+     "all": [
+      "Toutes les actualités (16 pages)",
+      "https://www.notaires-lyon6.fr/actualites-juridiques.html"
+     ],
+     "note": "Exemple : le premier article a sa propre page sur la maquette ; tous les articles peuvent être repris de la même façon."
+    }
+   ]
+  },
+  {
+   "slug": "nos-expertises",
+   "label": "Compétences",
+   "title": "Nos compétences",
+   "h1": "Nos <em>compétences</em>",
+   "eyebrow": "Particuliers et entreprises",
+   "lead": "Famille, patrimoine, immobilier, entreprise, expertise.",
+   "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/patrimoine.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "competences",
+     "eyebrow": "Nos compétences",
+     "title": "Les domaines <em class=\"it\">dans lesquels l'étude vous accompagne</em>",
+     "items": [
+      {
+       "title": "Droit de la famille",
+       "paras": [
+        "Union libre, PACS, mariage et remariage, divorce… Le droit de la famille ne cesse d'évoluer pour s'adapter à la société. Votre notaire vous aidera à y voir plus clair et à prendre les bonnes décisions."
+       ],
+       "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_famille.jpg",
+       "list": [
+        "union libre",
+        "PACS",
+        "mariage",
+        "enfants",
+        "divorce"
+       ]
+      },
+      {
+       "title": "Le patrimoine",
+       "paras": [
+        "Testament, donation, partage de la succession, relations entre les héritiers… Pas toujours facile de s'y retrouver et de ne pas faire d'erreur. Votre notaire saura vous guider pour réussir au mieux la transmission de votre patrimoine et éviter les conflits familiaux."
+       ],
+       "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/patrimoine.jpg",
+       "list": [
+        "succession",
+        "règlement de la succession",
+        "donation",
+        "testaments"
+       ]
+      },
+      {
+       "title": "Le droit immobilier",
+       "paras": [
+        "Que ce soit pour y vivre ou investir, l'immobilier est le placement favori des Français. Votre notaire est la personne appropriée pour vous aider à réussir votre projet de vente ou d'achat."
+       ],
+       "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_immobilier.jpg",
+       "list": [
+        "financer son achat",
+        "acheter un bien immobilier",
+        "hypothèque",
+        "faire construire sa maison",
+        "relations de voisinage",
+        "investissements immobiliers"
+       ]
+      },
+      {
+       "title": "Le droit de l'entreprise",
+       "paras": [
+        "Les notaires offrent des prestations de conseils aux chefs d'entreprise. Ils abordent le droit de l'entreprise dans tous ses aspects : choix de la forme la mieux adaptée au projet."
+       ],
+       "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/droit_entreprise.jpg"
+      },
+      {
+       "title": "L'expertise",
+       "paras": [
+        "L'expertise immobilière réalisée par votre notaire permet de connaître la vraie valeur d'un bien immobilier à l'instant T. Cela sera d'une grande utilité lors de sa vente, mais aussi pour le règlement d'une succession, un investissement ou vos déclarations d'impôts."
+       ],
+       "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/competences/expertise.jpg"
+      }
+     ],
+     "lead": "L'étude et ses collaborateurs vous accompagnent dans vos besoins juridiques et fiscaux, personnels comme professionnels."
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "Contactez <em>l'étude</em>",
+   "eyebrow": "Réception sur rendez-vous",
+   "lead": "23 quai Sarrail, 69006 Lyon · 04 78 52 15 24",
+   "img": "https://photos.notariat.services/resourcessn/resources/modele/city/10331/medias/slide31692799899286.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "eyebrow": "Réception sur rendez-vous",
+     "title": "Venir à l'étude, <em class=\"it\">prendre rendez-vous</em>",
+     "text": "SELARL Grégoire ODIN, Edouard BLONDOT, 23 quai Sarrail, 69006 Lyon.",
+     "rows": [
+      [
+       "Adresse",
+       "23 quai Sarrail<br>69006 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33478521524\">04 78 52 15 24</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:odin-blondot@69109.notaires.fr\">odin-blondot@69109.notaires.fr</a>"
+      ],
+      [
+       "Standard téléphonique",
+       "Du lundi au jeudi : 9h à 12h et 14h à 18h ; le vendredi jusqu'à 17h"
+      ],
+      [
+       "Réception clientèle",
+       "Sur rendez-vous, entre 9h et 19h non stop"
+      ],
+      [
+       "Fermeture",
+       "Samedi et dimanche"
+      ],
+      [
+       "Stationnement",
+       "Parkings Lyon Parc Auto : Cordeliers, Morand et Lafayette"
+      ]
+     ],
+     "cta": [
+      "Demander un rendez-vous",
+      "mailto:odin-blondot@69109.notaires.fr?subject=Demande%20de%20rendez-vous"
+     ],
+     "map_q": "23 Quai Sarrail, 69006 Lyon",
+     "id": "contact"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Nous écrire",
+     "title": "Contacter <em class=\"it\">l'étude</em>",
+     "email": "odin-blondot@69109.notaires.fr",
+     "subject": "Demande depuis le site de l'étude Odin-Blondot",
+     "lead": "Les champs marqués d'un astérisque (*) sont obligatoires.",
+     "side": [
+      "Téléphone : <a href=\"tel:+33478521524\">04 78 52 15 24</a>",
+      "E-mail : <a href=\"mailto:odin-blondot@69109.notaires.fr\">odin-blondot@69109.notaires.fr</a>",
+      "Nous ne communiquons ni votre e-mail ni votre numéro."
+     ],
+     "fields": [
+      {
+       "label": "Prénom"
+      },
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Je souhaite contacter",
+       "type": "select",
+       "options": [
+        "Grégoire ODIN",
+        "Edouard BLONDOT"
+       ]
+      },
+      {
+       "label": "Sujet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  },
   {
    "slug": "actualites-juridiques/achat-immobilier-la-checklist-pour-prevoir-toutes-les-depenses",
    "hidden": true,
@@ -696,7 +986,7 @@
      "source": "Article repris du site actuel de l'étude (actualités juridiques).",
      "back": [
       "← Toutes les actualités de l'étude",
-      "../../#informations"
+      "../"
      ]
     }
    ]
