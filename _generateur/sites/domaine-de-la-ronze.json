@@ -1,0 +1,1251 @@
+{
+ "slug": "domaine-de-la-ronze-107fe1",
+ "title": "Domaine de la Ronze — Séraphin Bernardo & Fils, vigneron à Régnié-Durette",
+ "description": "Vigneron de père en fils depuis 1850 à Régnié-Durette : Régnié, Morgon, Côte de Brouilly et Beaujolais-Villages, visite de cave, groupes et gîte La Petite Vernaise.",
+ "brand": "Domaine de la Ronze",
+ "tagline": "Séraphin Bernardo & Fils · Régnié-Durette",
+ "theme": {
+  "paper": "#f7f2ea",
+  "paper2": "#eee3d4",
+  "ink": "#24141a",
+  "muted": "#6b5c60",
+  "accent": "#6d1a2a",
+  "accent2": "#561421",
+  "gold": "#b0893f",
+  "heroem": "#f2cfa0",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Lato\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Lato:wght@300;400;700&display=swap"
+ },
+ "logo": {
+  "src": "https://www.domaine-de-la-ronze.com/gifs/logo.png",
+  "height": 60
+ },
+ "nav": [
+  [
+   "domaine",
+   "Le domaine"
+  ],
+  [
+   "vins",
+   "Nos vins"
+  ],
+  [
+   "metier",
+   "Notre métier"
+  ],
+  [
+   "visite",
+   "Visite de caves"
+  ],
+  [
+   "gite",
+   "Le gîte"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://www.domaine-de-la-ronze.com/gifs/illusIndex.jpg",
+  "eyebrow": "Régnié · Morgon · Côte de Brouilly",
+  "title": "Pas de bonne soirée<br>sans un bon <em>Régnié</em>",
+  "lead": "Vigneron de père en fils depuis 1850, le Domaine de la Ronze est une histoire de famille, au cœur des Terres Beaujolaises.",
+  "cta1": [
+   "Découvrir nos vins",
+   "#vins"
+  ],
+  "cta2": [
+   "04 74 69 20 06",
+   "tel:+33474692006"
+  ]
+ },
+ "figures": [
+  [
+   "1850",
+   "vigneron de père en fils"
+  ],
+  [
+   "17 ha",
+   "de vignes"
+  ],
+  [
+   "80 000",
+   "bouteilles par an"
+  ],
+  [
+   "7<sup>e</sup>",
+   "génération de vignerons"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Bienvenue au domaine",
+   "title": "Séraphin Bernardo <em class=\"it\">& Fils</em>",
+   "img": "https://www.domaine-de-la-ronze.com/photos/visuel01.jpg",
+   "alt": "Le Domaine de la Ronze",
+   "paras": [
+    "Vigneron de père en fils depuis 1850, le Domaine de la Ronze est une histoire de famille. Le domaine s'étend sur 17 hectares de vignes, au cœur des Terres Beaujolaises, à Régnié-Durette.",
+    "La vendange est manuelle et la vinification traditionnelle, conduite par Cyrille Bernardo. Toute la récolte est vendue en bouteilles, en direct : aux particuliers, aux groupes, aux comités d'entreprise et sur les salons.",
+    "Nous vous accueillons dans nos chais, pour une visite de la cave et une dégustation de nos Crus du Beaujolais : Régnié, Morgon, Côte de Brouilly et Beaujolais-Villages rosé."
+   ],
+   "sign": "Cyrille, Karine, Séraphin & Joelle Bernardo",
+   "logos": [
+    [
+     "https://www.domaine-de-la-ronze.com/gifs/pictoIndependant.png",
+     "Vigneron Indépendant"
+    ]
+   ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Nos valeurs",
+   "text": "« Caractère, Tradition, Terroir, Famille, Générosité & Convivialité sont les valeurs de notre métier. »",
+   "sub": "Cyrille, Karine, Séraphin & Joelle Bernardo"
+  },
+  {
+   "kind": "timeline",
+   "id": "histoire",
+   "eyebrow": "Vigneron de père en fils",
+   "title": "Une histoire <em>qui se vit</em>",
+   "lead": "« Il y a des histoires qui se racontent, et d'autres qui se vivent. »",
+   "imgs": [
+    "https://www.domaine-de-la-ronze.com/photos/histoire03.jpg",
+    "https://www.domaine-de-la-ronze.com/photos/histoire02.jpg",
+    "https://www.domaine-de-la-ronze.com/photos/histoire01.jpg",
+    "https://www.domaine-de-la-ronze.com/photos/jean-braillon-et-son-cheval.jpg",
+    "https://www.domaine-de-la-ronze.com/photos/histoire04.jpg",
+    "https://www.domaine-de-la-ronze.com/photos/histoire05.jpg",
+    "https://www.domaine-de-la-ronze.com/photos/442x200/img_3439-copie-1.JPG"
+   ],
+   "items": [
+    {
+     "when": "1850",
+     "who": "La première page",
+     "text": "Un couple de cultivateurs de Régnié commence « à écrire la première page de notre domaine »."
+    },
+    {
+     "when": "1963",
+     "who": "Claudius Lathuillière & Marie Vernay",
+     "text": "113 ans plus tard, ils fondent le domaine et commencent la vente en bouteilles : les premières années, 1 500 bouteilles sortent des chais."
+    },
+    {
+     "when": "1979",
+     "who": "Séraphin & Joelle",
+     "text": "Ils s'installent sur 6 hectares. Séraphin agrandit le domaine en achetant des vignes à Régnié et à Villié-Morgon."
+    },
+    {
+     "when": "2005",
+     "who": "Cyrille & Karine",
+     "text": "Cyrille, né en 1980, a repris le savoir-faire familial ; Karine le rejoint en 2005. Ils forment la septième génération de vignerons."
+    },
+    {
+     "when": "Aujourd'hui",
+     "who": "Nouvelle génération",
+     "text": "Le domaine produit environ 80 000 bouteilles par an, toutes vendues en direct."
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "savoir-faire",
+   "eyebrow": "Notre façon de faire",
+   "title": "Confiance, convivialité, <em class=\"it\">conseil</em>",
+   "lead": "Du cep jusqu'à la bouteille, tout se fait au domaine, en famille.",
+   "items": [
+    [
+     "Vendange manuelle",
+     "Les raisins sont récoltés à la main, sur nos 17 hectares de vignes."
+    ],
+    [
+     "Vinification traditionnelle",
+     "Macération carbonique à la beaujolaise, conduite par Cyrille Bernardo."
+    ],
+    [
+     "Vente directe",
+     "Toute la récolte est vendue en bouteilles : au caveau, en ligne et sur les salons."
+    ],
+    [
+     "Soucieux de l'environnement",
+     "« Nous n'adhérons pas actuellement à un label bio ou autres, mais nous sommes soucieux de notre environnement. »"
+    ]
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "vins",
+   "eyebrow": "La cave",
+   "title": "Nos <em class=\"it\">vins</em>",
+   "lead": "Régnié, Morgon, Côte de Brouilly et Beaujolais-Villages : chaque cuvée avec sa fiche technique.",
+   "tabs": [
+    [
+     "rouge",
+     "Rouges"
+    ],
+    [
+     "rose",
+     "Rosé"
+    ],
+    [
+     "blanc",
+     "Blancs"
+    ]
+   ],
+   "items": [
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "100 % gamay",
+     "name": "Beaujolais-Villages",
+     "app": "Beaujolais-Villages rouge",
+     "desc": "Fruité et léger, développant des arômes de fruits rouges.",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/beaujolais-village-1.jpg",
+     "sheet": [
+      [
+       "Sol",
+       "Terrain sablonneux"
+      ],
+      [
+       "Vignes",
+       "35 à 40 ans, 1 ha à Villié-Morgon (lieu « St Joseph »)"
+      ],
+      [
+       "Rendement",
+       "52 hl/ha"
+      ],
+      [
+       "Culture",
+       "Sol travaillé, labouré et enherbé ; traitements limités ; vendange en vert si nécessaire"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération carbonique"
+      ],
+      [
+       "Élevage",
+       "Cuve inox"
+      ],
+      [
+       "Dégustation",
+       "Fruité avec de bons arômes de fruits rouges."
+      ],
+      [
+       "Accords",
+       "Charcuterie, viande grillée, barbecue, salade et viandes blanches en été ; en apéritif avec une crème de framboise ou de cassis"
+      ],
+      [
+       "Garde",
+       "1 à 3 ans"
+      ]
+     ]
+    },
+    {
+     "cat": "rose",
+     "color": "#e59aa8",
+     "tag": "100 % gamay",
+     "name": "Amour d'un soir",
+     "app": "Beaujolais-Villages rosé",
+     "desc": "Une évasion sous le soleil grâce à ce vin frais, fruité aux arômes d'agrumes.",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/beaujolais-village-rose-2.jpg",
+     "sheet": [
+      [
+       "Sol",
+       "Terrain sablonneux"
+      ],
+      [
+       "Vignes",
+       "De 10 à 30 ans"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération à froid"
+      ],
+      [
+       "Élevage",
+       "Cuve inox"
+      ],
+      [
+       "Dégustation",
+       "Fruité, arômes d'agrumes"
+      ],
+      [
+       "Accords",
+       "En apéritif avec une crème de pamplemousse, de griotte ou de pêche, ou avec de la charcuterie ; barbecue, salade, viandes blanches en été"
+      ],
+      [
+       "Service",
+       "Servez-le frais"
+      ],
+      [
+       "Garde",
+       "1 à 2 ans"
+      ]
+     ],
+     "medal": "Sélection « Un Vin presque parfait » (millésime 2013)"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "100 % gamay",
+     "name": "Marie Vernay",
+     "app": "Régnié",
+     "desc": "Arômes délicieux de fraise, framboise : retrouvez toutes les saveurs des fruits rouges.",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/regine-marie-vernay-1.jpg",
+     "sheet": [
+      [
+       "Sol",
+       "Terrain sablonneux sur arène granitique"
+      ],
+      [
+       "Vignes",
+       "Entre 15 et 40 ans, sur les coteaux de Régnié-Durette"
+      ],
+      [
+       "Rendement",
+       "52 hl/ha"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération carbonique"
+      ],
+      [
+       "Élevage",
+       "Cuve inox"
+      ],
+      [
+       "Dégustation",
+       "Fruité et parfumé tel un panier de fruits rouges prêts à être dégustés."
+      ],
+      [
+       "Accords",
+       "Apéritif avec une crème de cassis ou de mûre, charcuterie ; barbecue et salade en été ; terrines ; volailles rôties et pommes de terre au four"
+      ],
+      [
+       "Garde",
+       "3 à 5 ans"
+      ]
+     ],
+     "medal": "Médaille d'argent, Grands Vins de Mâcon (millésime 2015) · Concours général de Paris : or 1999, argent 2004, bronze 2005, 3e prix 2007"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "100 % gamay, vieilles vignes",
+     "name": "Clos de la Vernaise",
+     "app": "Régnié",
+     "desc": "Les parfums expressifs rappellent les fruits noirs, la prune, accompagnés de notes minérales.",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/regine-clos-de-la-vernaise-1.jpg",
+     "sheet": [
+      [
+       "Sol",
+       "Sablonneux sur arène granitique"
+      ],
+      [
+       "Vignes",
+       "Vieilles vignes de 60 ans, sur 80 ares"
+      ],
+      [
+       "Rendement",
+       "52 hl/ha"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération carbonique"
+      ],
+      [
+       "Élevage",
+       "Cuve inox"
+      ],
+      [
+       "Dégustation",
+       "Nez de fruits noirs et de prune, notes minérales ; bouche ample et charnue, notes de miel et d'épices"
+      ],
+      [
+       "Accords",
+       "Magret de canard déglacé au vinaigre de framboise"
+      ],
+      [
+       "Garde",
+       "10 ans"
+      ]
+     ],
+     "medal": "Sélectionné par le Guide Hachette 2009"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "100 % gamay",
+     "name": "Morgon",
+     "app": "Morgon",
+     "desc": "Il nous offre des fragrances de fruits rouges avec des notes d'épices.",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/morgon-1.jpg",
+     "sheet": [
+      [
+       "Sol",
+       "Argile, sablonneux avec des galets"
+      ],
+      [
+       "Vignes",
+       "50 ans, 3 hectares en Morgon"
+      ],
+      [
+       "Rendement",
+       "52 hl/ha"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération carbonique"
+      ],
+      [
+       "Élevage",
+       "Cuve inox"
+      ],
+      [
+       "Dégustation",
+       "Corsé et robuste, avec quelques notes épicées."
+      ],
+      [
+       "Accords",
+       "Gibier, viande en sauce, dessert au chocolat"
+      ],
+      [
+       "Garde",
+       "5 à 8 ans"
+      ]
+     ],
+     "medal": "Médaille de bronze, Concours général agricole de Paris 2007 · Sélection « Un Vin presque parfait » (millésime 2013)"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "100 % gamay, vieilles vignes",
+     "name": "Perle de la Ronze",
+     "app": "Régnié Vieilles Vignes",
+     "desc": "Élaboré à partir de ceps de vignes de 60 à 80 ans d'âge.",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/regine-perle-de-la-ronze-1.jpg",
+     "sheet": [
+      [
+       "Sol",
+       "Terrain sablonneux sur arène granitique"
+      ],
+      [
+       "Vignes",
+       "De 50 à 80 ans, 4 hectares en vieilles vignes"
+      ],
+      [
+       "Rendement",
+       "52 hl/ha"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération carbonique"
+      ],
+      [
+       "Élevage",
+       "Cuve inox"
+      ],
+      [
+       "Dégustation",
+       "Charpenté, doté d'arômes de fruits plus puissants ; à boire maintenant ou à garder quelques années"
+      ],
+      [
+       "Accords",
+       "Idéal avec une entrecôte à l'échalote, un civet de porc ou une daube de bœuf à l'ancienne ; viandes rouges en sauce, gibier, fromages"
+      ],
+      [
+       "Garde",
+       "5 à 8 ans"
+      ]
+     ],
+     "medal": "Médaille d'argent, Concours général agricole de Paris (millésime 2013) · Sélection « Un Vin presque parfait » (2013) · Présent dans le guide Gilbert & Gaillard"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "100 % gamay, fût de chêne",
+     "name": "Grande Sélection",
+     "app": "Régnié élevé en fût de chêne",
+     "desc": "Un vin raffiné aux notes subtiles de vanille et légèrement boisé. En boutique sous le nom « Régnié Fût de Chêne Authentique la Ronze ».",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/regine-grande-selection-1.jpg",
+     "sheet": [
+      [
+       "Sol",
+       "Sableux"
+      ],
+      [
+       "Vignes",
+       "60 à 80 ans, 2 ha sur les coteaux ensoleillés de Régnié"
+      ],
+      [
+       "Rendement",
+       "52 hl/ha"
+      ],
+      [
+       "Culture",
+       "Sol labouré, travaillé, enherbé ; traitements limités ; vendange en vert si nécessaire"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération carbonique"
+      ],
+      [
+       "Élevage",
+       "9 à 12 mois en fûts de chêne, par tiers : fûts neufs, d'un an et de deux ans"
+      ],
+      [
+       "Dégustation",
+       "Bouche équilibrée, finale élégante légèrement boisée"
+      ],
+      [
+       "Accords",
+       "Viandes rouges en sauce, gibier, fromages"
+      ],
+      [
+       "Garde",
+       "5 à 10 ans"
+      ]
+     ],
+     "medal": "91/100, guide DVE (millésime 2014) · Médaille de bronze, Vignerons Indépendants (2013) · Sélection « Un Vin presque parfait » (2012) · Guides Hachette et Gilbert & Gaillard"
+    },
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "100 % gamay, fût de chêne",
+     "name": "Expression Jean Braillon",
+     "app": "Côte de Brouilly",
+     "desc": "Héritage de la passion du vigneron, ce vin est une mosaïque savoureuse et intrigante.",
+     "img": "https://www.domaine-de-la-ronze.com/photos/203x600/cote-de-brouilly-expression-jean-braillon-1.jpg",
+     "sheet": [
+      [
+       "Situation",
+       "Sur le Mont Brouilly"
+      ],
+      [
+       "Sol",
+       "Pierre bleue et sol volcanique"
+      ],
+      [
+       "Vignes",
+       "40 ans, 0,65 ha en Côte de Brouilly"
+      ],
+      [
+       "Rendement",
+       "52 hl/ha"
+      ],
+      [
+       "Culture",
+       "Sol travaillé, labouré, enherbé ; traitements limités ; vendanges en vert si nécessaire"
+      ],
+      [
+       "Vinification",
+       "Traditionnelle beaujolaise, macération carbonique"
+      ],
+      [
+       "Élevage",
+       "6 mois en cuve puis 6 mois en fût de chêne ; mise en bouteille un an après la vendange"
+      ],
+      [
+       "Dégustation",
+       "Charpenté, des tanins qui permettent le vieillissement, subtil et charmeur"
+      ],
+      [
+       "Accords",
+       "Gibiers, plats épicés"
+      ],
+      [
+       "Garde",
+       "5 à 8 ans"
+      ]
+     ],
+     "medal": "Médaille d'or, Grands Vins de Mâcon (millésime 2015) · Médaille de bronze, Vignerons Indépendants (2014)"
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Sauvignon",
+     "name": "Sauvignon Blanc",
+     "app": "IGP",
+     "desc": "En vente au domaine."
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Blanc",
+     "name": "La Friche",
+     "app": "Beaujolais-Villages blanc 2023",
+     "desc": "En vente au domaine."
+    },
+    {
+     "cat": "blanc",
+     "color": "#d9b85c",
+     "tag": "Blanc",
+     "name": "Pierre D'Aigle",
+     "app": "Beaujolais-Villages blanc 2022",
+     "desc": "En vente au domaine."
+    },
+    {
+     "cat": "rouge",
+     "color": "#6d1a2a",
+     "tag": "Régnié",
+     "name": "Réginus L'Origine",
+     "app": "Régnié 2022",
+     "desc": "En vente au domaine."
+    }
+   ],
+   "note": "Commande par 12 bouteilles minimum, puis par multiples de 6. Livraison en France métropolitaine (hors Corse et îles). Paiement par carte bancaire en ligne ou par chèque à l'ordre du Domaine de la Ronze."
+  },
+  {
+   "kind": "banner",
+   "img": "https://www.domaine-de-la-ronze.com/photos/visuel06.jpg",
+   "eyebrow": "Boutique en ligne",
+   "title": "Nos vins livrés<br><em>chez vous</em>",
+   "cta": [
+    "Passer commande",
+    "https://www.domaine-de-la-ronze.com/commande-bouteille-vins.php"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "metier",
+   "eyebrow": "Notre métier vigneron",
+   "title": "Pour élaborer des vins de qualité, <em class=\"it\">une belle vendange</em>",
+   "lead": "« Pour élaborer des vins de qualité, il faut d'abord une belle vendange. » Une année au domaine, saison après saison.",
+   "items": [
+    {
+     "kicker": "Janvier à mars",
+     "title": "La taille",
+     "paras": [
+      "« De Janvier à Mars nous taillons les vignes. »"
+     ]
+    },
+    {
+     "kicker": "Mars à avril",
+     "title": "Remettre les parcelles en état",
+     "img": "https://www.domaine-de-la-ronze.com/photos/visuel--1--6.jpg",
+     "paras": [
+      "« De Mars à Avril nous réparons les parcelles de vignes abîmées par l'année » : terrassement, travail du sol et révision des palissages."
+     ]
+    },
+    {
+     "kicker": "Avril à juillet",
+     "title": "La vigne pousse",
+     "paras": [
+      "« D'Avril à Juillet la vigne pousse, elle requiert toute notre attention, nous la relevons, et la cisaillons. »"
+     ]
+    },
+    {
+     "kicker": "Août",
+     "title": "Les raisins mûrissent",
+     "img": "https://www.domaine-de-la-ronze.com/photos/visuel--1--7.jpg",
+     "paras": [
+      "« Août, la saison est plus calme, les raisins mûrissent paisiblement, nous nous préparons pour les vendanges. »"
+     ]
+    },
+    {
+     "kicker": "Septembre à octobre",
+     "title": "Les vendanges",
+     "img": "https://www.domaine-de-la-ronze.com/photos/visuel--2--2.jpg",
+     "paras": [
+      "L'aboutissement d'une année de travail : Cyrille et Séraphin vinifient le nouveau millésime."
+     ]
+    },
+    {
+     "kicker": "Une journée de vendange",
+     "title": "De 7h30 au dîner",
+     "img": "https://www.domaine-de-la-ronze.com/photos/visuel--1--3.jpg",
+     "paras": [
+      "Petit-déjeuner vers 7h30, puis départ à la vigne. Cyrille trie la vendange depuis le tracteur, pause café-charcuterie, Séraphin surveille les premières cuves et fait les remontages. Vers 17h, on débriefe autour d'un verre de Régnié."
+     ]
+    },
+    {
+     "kicker": "Octobre à décembre",
+     "title": "Place à la vente",
+     "img": "https://www.domaine-de-la-ronze.com/photos/visuel--1--5.jpg",
+     "paras": [
+      "« Octobre à Décembre, nous commercialisons nos vins, livraisons, préparations des commandes. »"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "metier-photos",
+   "eyebrow": "Au fil des saisons",
+   "title": "Une année <em class=\"it\">dans nos vignes</em>",
+   "photos": [
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--3--6.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--3--6.jpg",
+     "alt": "Mars à avril",
+     "caption": "Mars à avril"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--4--6.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--4--6.jpg",
+     "alt": "Mars à avril",
+     "caption": "Mars à avril"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--5--6.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--5--6.jpg",
+     "alt": "Mars à avril",
+     "caption": "Mars à avril"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--2--6.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--2--6.jpg",
+     "alt": "Mars à avril",
+     "caption": "Mars à avril"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--3--7.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--3--7.jpg",
+     "alt": "Août",
+     "caption": "Août"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--4--7.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--4--7.jpg",
+     "alt": "Août",
+     "caption": "Août"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--5--7.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--5--7.jpg",
+     "alt": "Août",
+     "caption": "Août"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--2--7.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--2--7.jpg",
+     "alt": "Août",
+     "caption": "Août"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--3--2.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--3--2.jpg",
+     "alt": "Septembre à octobre",
+     "caption": "Septembre à octobre"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--3--4.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--3--4.jpg",
+     "alt": "Septembre à octobre",
+     "caption": "Septembre à octobre"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--4-.JPG",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--4-.JPG",
+     "alt": "Septembre à octobre",
+     "caption": "Septembre à octobre"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--5--4.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--5--4.jpg",
+     "alt": "Septembre à octobre",
+     "caption": "Septembre à octobre"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--3--3.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--3--3.jpg",
+     "alt": "Une journée de vendange",
+     "caption": "Une journée de vendange"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--4--3.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--4--3.jpg",
+     "alt": "Une journée de vendange",
+     "caption": "Une journée de vendange"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--5--3.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--5--3.jpg",
+     "alt": "Une journée de vendange",
+     "caption": "Une journée de vendange"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--2--3.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--2--3.jpg",
+     "alt": "Une journée de vendange",
+     "caption": "Une journée de vendange"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--3--5.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--3--5.jpg",
+     "alt": "Octobre à décembre",
+     "caption": "Octobre à décembre"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--4--5.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--4--5.jpg",
+     "alt": "Octobre à décembre",
+     "caption": "Octobre à décembre"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--5--5.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--5--5.jpg",
+     "alt": "Octobre à décembre",
+     "caption": "Octobre à décembre"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel--2--5.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel--2--5.jpg",
+     "alt": "Octobre à décembre",
+     "caption": "Octobre à décembre"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "visite",
+   "eyebrow": "Visite de caves",
+   "title": "Visite et dégustation <em class=\"it\">au domaine</em>",
+   "lead": "Dégustation de nos Crus du Beaujolais : Régnié, Morgon, Côte de Brouilly et Beaujolais-Villages rosé « Amour d'un soir ».",
+   "items": [
+    {
+     "kicker": "Jusqu'à 10 personnes",
+     "title": "Visite gratuite",
+     "paras": [
+      "Visite de la cave et dégustation de nos crus, gratuites jusqu'à 10 personnes. Merci de nous prévenir par téléphone avant de passer."
+     ]
+    },
+    {
+     "kicker": "De 10 à 80 personnes",
+     "title": "Groupes et comités d'entreprise",
+     "paras": [
+      "Nous vous proposons un espace d'accueil pour les groupes de 10 à 80 personnes : visite suivie d'une dégustation avec mâchon beaujolais."
+     ],
+     "list": [
+      "<b>6 € par personne</b>, mâchon compris",
+      "Uniquement sur réservation au <a href=\"tel:+33474692006\">04 74 69 20 06</a>"
+     ]
+    },
+    {
+     "kicker": "Horaires",
+     "title": "Le caveau",
+     "list": [
+      "Du lundi au vendredi, 9h – 12h et 14h – 18h",
+      "Samedi, dimanche et jours fériés : sur rendez-vous"
+     ],
+     "paras": [
+      "Les vignerons sont parfois dans les vignes : un petit appel avant de venir est le bienvenu."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "visite-photos",
+   "eyebrow": "Visite du domaine",
+   "title": "Les chais, le cuvage <em class=\"it\">et l'ancienne cave</em>",
+   "photos": [
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel01.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel01.jpg",
+     "alt": "Visite du domaine",
+     "caption": "Visite du domaine"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel02.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel02.jpg",
+     "alt": "Visite du domaine",
+     "caption": "Visite du domaine"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel03.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel03.jpg",
+     "alt": "Visite du domaine",
+     "caption": "Visite du domaine"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel04.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel04.jpg",
+     "alt": "Visite du domaine",
+     "caption": "Visite du domaine"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel05.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel05.jpg",
+     "alt": "Visite du domaine",
+     "caption": "Visite du domaine"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel07.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel07.jpg",
+     "alt": "Cuvage et ancienne cave",
+     "caption": "Cuvage et ancienne cave"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel08.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel08.jpg",
+     "alt": "Cuvage et ancienne cave",
+     "caption": "Cuvage et ancienne cave"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel09.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel09.jpg",
+     "alt": "Cuvage et ancienne cave",
+     "caption": "Cuvage et ancienne cave"
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/visuel10.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/visuel10.jpg",
+     "alt": "Cuvage et ancienne cave",
+     "caption": "Cuvage et ancienne cave"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "gite",
+   "eyebrow": "Gîte La Petite Vernaise",
+   "title": "Séjourner <em class=\"it\">au cœur des vignes</em>",
+   "img": "https://www.domaine-de-la-ronze.com/photos/gite01.jpg",
+   "alt": "Le gîte La Petite Vernaise",
+   "paras": [
+    "« Joelle a le plaisir de vous accueillir dans son gîte la Petite Vernaise, pour un séjour agréable en Beaujolais. » Un séjour au calme, avec une vue panoramique sur le Beaujolais et, par temps clair, sur le Mont Blanc.",
+    "De 4 à 6 personnes : séjour avec cuisine équipée (lave-vaisselle, micro-ondes, TV), 2 chambres avec lit double et un canapé convertible pour 2, salle de bain avec douche à l'italienne et lave-linge.",
+    "Équipement bébé, location de draps et de linge de toilette possible. En été, salon de jardin avec vue panoramique et barbecue."
+   ]
+  },
+  {
+   "kind": "menu",
+   "id": "gite-tarifs",
+   "eyebrow": "Tarifs du gîte",
+   "title": "Séjours <em class=\"it\">et courts séjours</em>",
+   "sections": [
+    {
+     "title": "À la semaine",
+     "items": [
+      [
+       "Basse saison",
+       "295 €"
+      ],
+      [
+       "Moyenne saison",
+       "320 €"
+      ],
+      [
+       "Vacances scolaires",
+       "320 €"
+      ],
+      [
+       "Haute saison",
+       "350 €"
+      ],
+      [
+       "Très haute saison",
+       "350 €"
+      ]
+     ]
+    },
+    {
+     "title": "Courts séjours",
+     "items": [
+      [
+       "Week-end",
+       "170 €"
+      ],
+      [
+       "3 nuits",
+       "215 €"
+      ],
+      [
+       "4 nuits",
+       "260 €"
+      ]
+     ]
+    }
+   ],
+   "note": "Le détail des périodes de chaque saison est à demander au domaine.",
+   "aside": {
+    "eyebrow": "Au domaine",
+    "title": "Aire de camping-car",
+    "big": "",
+    "text": "À une dizaine de kilomètres de l'A6 (sortie Belleville-sur-Saône), pour une nuit au calme. Eau et électricité sur place ; accueil dans nos caves autour d'un verre de l'amitié, puis balade dans les vignes.",
+    "items": [
+     [
+      "Services",
+      "Eau, électricité"
+     ]
+    ],
+    "cta": [
+     "Réserver le gîte",
+     "#ecrire"
+    ]
+   }
+  },
+  {
+   "kind": "gallery",
+   "id": "gite-photos",
+   "eyebrow": "La Petite Vernaise",
+   "title": "Le gîte <em class=\"it\">en images</em>",
+   "photos": [
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite03.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite03.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite04.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite04.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite11.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite11.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite12-1.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite12-1.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite13-1.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite13-1.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite14-1.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite14-1.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite15-1.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite15-1.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite16-1.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite16-1.jpg",
+     "alt": "",
+     "caption": ""
+    },
+    {
+     "thumb": "https://www.domaine-de-la-ronze.com/photos/gite-sejour-1.jpg",
+     "full": "https://www.domaine-de-la-ronze.com/photos/gite-sejour-1.jpg",
+     "alt": "",
+     "caption": ""
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "palmares",
+   "eyebrow": "Presse et palmarès",
+   "title": "Nos vins <em class=\"it\">distingués</em>",
+   "items": [
+    {
+     "kicker": "Millésime 2015",
+     "title": "Grands Vins de Mâcon",
+     "list": [
+      "Côte de Brouilly : médaille d'or",
+      "Régnié Marie Vernay : médaille d'argent"
+     ]
+    },
+    {
+     "kicker": "Millésime 2014",
+     "img": "https://www.domaine-de-la-ronze.com/photos/319x482/sans-titre-1.jpg",
+     "contain": true,
+     "alt": "Palmarès 2014",
+     "title": "Guide DVE et Vignerons Indépendants",
+     "list": [
+      "Régnié Fût de Chêne Grande Sélection : 91/100, guide DVE",
+      "Côte de Brouilly Expression Jean Braillon : médaille de bronze, concours des Vignerons Indépendants"
+     ]
+    },
+    {
+     "kicker": "Millésime 2013",
+     "title": "Paris, Vignerons Indépendants, Un Vin presque parfait",
+     "list": [
+      "Régnié Vieilles Vignes Perle de la Ronze : médaille d'argent, Concours général agricole de Paris",
+      "Régnié Fût de Chêne Grande Sélection : médaille de bronze, Vignerons Indépendants",
+      "Sélection « Un Vin presque parfait » : Beaujolais-Villages rosé Amour d'un soir, Perle de la Ronze, Morgon"
+     ]
+    },
+    {
+     "kicker": "Millésime 2012",
+     "title": "Un Vin presque parfait",
+     "list": [
+      "Régnié Fût de Chêne Grande Sélection : sélection « Un Vin presque parfait »"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "region",
+   "eyebrow": "Découvrir la région",
+   "title": "Nichée au cœur <em class=\"it\">des vignobles du Beaujolais</em>",
+   "lead": "Le domaine est à environ 5 km de Villié-Morgon, 7 km de Beaujeu, 11 km de la sortie A6 Belleville-sur-Saône et 25 km de Villefranche.",
+   "items": [
+    {
+     "img": "https://www.domaine-de-la-ronze.com/photos/498x281/159040274387222200-salles-arbuissonnas-patrimoine-cloitre-beaujolais-auvergne-rhone-alpes-er-destination-beaujolais-2.jpg",
+     "alt": "Cloître de Salles-Arbuissonnas",
+     "kicker": "Patrimoine",
+     "title": "Geopark du Beaujolais",
+     "paras": [
+      "Un territoire classé par l'UNESCO, avec Beaujeu, « capitale historique du Beaujolais »."
+     ]
+    },
+    {
+     "img": "https://www.domaine-de-la-ronze.com/photos/498x281/terrasse-chiroubles-beaujolez-vous-fetes-beaujolais-sorties-auvergne-rhone-alpes-er-destination-beaujolais-1-13.jpg",
+     "alt": "Terrasse à Chiroubles",
+     "kicker": "Vignoble",
+     "title": "La Route des Vins",
+     "paras": [
+      "Des crus du Beaujolais aux villages perchés, à parcourir de cave en cave."
+     ]
+    },
+    {
+     "img": "https://www.domaine-de-la-ronze.com/photos/498x281/158868504186042100-belleville-en-beaujolais-hotel-dieu-v50-rhone-auvergne-rhone-alpes-guillaumerobert-famy.jpg",
+     "alt": "Hôtel-Dieu de Belleville",
+     "kicker": "Musée",
+     "title": "Hôtel-Dieu de Belleville",
+     "paras": [
+      "Un ancien hôpital du 18e siècle."
+     ]
+    },
+    {
+     "img": "https://www.domaine-de-la-ronze.com/photos/498x281/158981148063239600-027-etienne-ramousse-destination-beaujolais-oingt-rues-reseaux-sociaux-2019.jpg",
+     "alt": "Les rues d'Oingt",
+     "kicker": "Villages",
+     "title": "Oingt et Villefranche",
+     "paras": [
+      "Oingt, parmi les Plus Beaux Villages de France ; Villefranche et ses cours intérieures Renaissance ; et, un peu plus loin, le Monastère Royal de Brou."
+     ]
+    }
+   ],
+   "chips": [
+    "Villié-Morgon · 5 km",
+    "Beaujeu · 7 km",
+    "A6 Belleville · 11 km",
+    "Villefranche · 25 km"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "ecrire",
+   "eyebrow": "Nous écrire",
+   "title": "Une question, <em class=\"it\">une réservation ?</em>",
+   "lead": "Commande, visite de groupe, séjour au gîte : écrivez-nous, nous vous répondons rapidement.",
+   "side": [
+    "Par téléphone : <a href=\"tel:+33474692006\">04 74 69 20 06</a>",
+    "Par e-mail : <a href=\"mailto:contact@domaine-de-la-ronze.com\">contact@domaine-de-la-ronze.com</a>"
+   ],
+   "email": "contact@domaine-de-la-ronze.com",
+   "subject": "Demande depuis le site du Domaine de la Ronze",
+   "submit": "Envoyer ma demande",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Prénom"
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "Adresse e-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Adresse",
+     "full": true
+    },
+    {
+     "label": "Code postal"
+    },
+    {
+     "label": "Ville"
+    },
+    {
+     "label": "Votre demande concerne",
+     "type": "select",
+     "required": true,
+     "full": true,
+     "options": [
+      "Nos vins",
+      "Visite de cave",
+      "Visite de groupe",
+      "Gîte La Petite Vernaise",
+      "Aire de camping-car",
+      "Autre"
+     ]
+    },
+    {
+     "label": "Message",
+     "type": "textarea"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Plan d'accès",
+   "title": "Venir <em class=\"it\">au domaine</em>",
+   "text": "Un panneau indiquant le domaine se trouve au bord de la route.",
+   "img": "https://www.domaine-de-la-ronze.com/gifs/map.jpg",
+   "alt": "Plan d'accès au domaine",
+   "rows": [
+    [
+     "Adresse",
+     "40 chemin de la Vernaise<br>La Haute Ronze<br>69430 Régnié-Durette"
+    ],
+    [
+     "Horaires",
+     "Lundi – vendredi : 9h – 12h et 14h – 18h<br>Week-end et jours fériés : sur rendez-vous"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474692006\">04 74 69 20 06</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@domaine-de-la-ronze.com\">contact@domaine-de-la-ronze.com</a>"
+    ],
+    [
+     "Itinéraire",
+     "A6 sortie n°30 Belleville-sur-Saône, puis direction Villié-Morgon. Au rond-point face à l'église, D9 vers Régnié-Durette sur 3,4 km, puis D78 sur 400 m ; 1re à droite direction La Haute Ronze, tout droit sur 2,4 km jusqu'à la dernière maison à gauche."
+    ],
+    [
+     "Boutique",
+     "<a href=\"https://www.domaine-de-la-ronze.com/commande-bouteille-vins.php\" target=\"_blank\" rel=\"noopener\">Commander en ligne</a>"
+    ]
+   ],
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33474692006"
+   ],
+   "map_q": "40 chemin de la Vernaise, La Haute Ronze, 69430 Régnié-Durette"
+  }
+ ],
+ "footer": {
+  "about": "EARL Domaine de la Ronze Séraphin Bernardo & Fils, vigneron indépendant à Régnié-Durette, au cœur du Beaujolais. Vins, visite de caves et gîte La Petite Vernaise.",
+  "contact": [
+   "<a href=\"tel:+33474692006\">04 74 69 20 06</a>",
+   "<a href=\"mailto:contact@domaine-de-la-ronze.com\">contact@domaine-de-la-ronze.com</a>",
+   "40 chemin de la Vernaise, La Haute Ronze, 69430 Régnié-Durette",
+   "<a href=\"https://www.facebook.com/domainedelaronze\" target=\"_blank\" rel=\"noopener\">Facebook</a>",
+   "<a href=\"https://www.domaine-de-la-ronze.com/commande-bouteille-vins.php\" target=\"_blank\" rel=\"noopener\">Boutique en ligne</a>"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://www.domaine-de-la-ronze.com/ressources/ajax/mentions_legales_box.php"
+ }
+}
