@@ -174,55 +174,12 @@
    ]
   },
   {
-   "kind": "form",
-   "id": "devis",
-   "eyebrow": "Devis personnalisé",
-   "title": "Demander <em class=\"it\">un devis</em>",
-   "lead": "Envoyez-nous un message bien détaillé de votre demande et nous vous recontacterons sous 48 heures pour effectuer votre devis personnalisé.",
-   "email": "peintre.de.lyon@gmail.com",
-   "subject": "Demande de devis depuis le site",
-   "submit": "Envoyer",
-   "side": [
-    "Tél. : <a href=\"tel:+33612668051\" style=\"border-bottom:1px solid var(--gold)\">06 12 66 80 51</a>"
-   ],
-   "fields": [
-    {
-     "label": "Prénom"
-    },
-    {
-     "label": "Nom de famille"
-    },
-    {
-     "label": "E-mail",
-     "type": "email",
-     "required": true
-    },
-    {
-     "label": "Téléphone",
-     "type": "tel"
-    },
-    {
-     "label": "Veuillez détailler votre demande pour effectuer un devis personnalisé au plus juste",
-     "type": "textarea",
-     "required": true
-    },
-    {
-     "label": "Adresse du chantier",
-     "full": true
-    }
-   ]
-  },
-  {
    "kind": "visit",
-   "id": "contact",
+   "id": "coordonnees",
    "eyebrow": "Contact",
-   "title": "Rénov Habitat, <em class=\"it\">Lyon</em>",
+   "title": "Lyon <em class=\"it\">centre</em>",
    "text": "Entreprise de peinture et rénovation à Lyon centre, pour les particuliers et les sociétés.",
    "rows": [
-    [
-     "Adresse",
-     "17 rue Hector Berlioz<br>69009 Lyon"
-    ],
     [
      "Téléphone",
      "<a href=\"tel:+33612668051\">06 12 66 80 51</a>"
@@ -230,17 +187,12 @@
     [
      "E-mail",
      "<a href=\"mailto:peintre.de.lyon@gmail.com\">peintre.de.lyon@gmail.com</a>"
-    ],
-    [
-     "Réseaux",
-     "<a href=\"https://www.facebook.com/profile.php?id=100072465187222\" target=\"_blank\" rel=\"noopener\">Facebook</a> · <a href=\"https://www.instagram.com/renov681/?hl=fr\" target=\"_blank\" rel=\"noopener\">Instagram</a>"
     ]
    ],
    "cta": [
     "Demander un devis",
     "#devis"
-   ],
-   "map_q": "17 rue Hector Berlioz, 69009 Lyon"
+   ]
   }
  ],
  "footer": {
@@ -251,5 +203,91 @@
    "17 rue Hector Berlioz, 69009 Lyon"
   ],
   "legal": "Rénov Habitat · Mike Nakache, artisan peintre et plâtrier · Lyon."
+ },
+ "pages": [
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis personnalisé sous 48 h",
+   "lead": "17, rue Hector Berlioz, 69009 Lyon.",
+   "img": "https://static.wixstatic.com/media/11d79d_72c33f5991434264aac0b892f3190e09.jpg/v1/fill/w_1600,h_900,al_c,q_85/11d79d_72c33f5991434264aac0b892f3190e09.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis personnalisé",
+     "title": "Demander <em class=\"it\">un devis</em>",
+     "lead": "Envoyez-nous un message bien détaillé de votre demande et nous vous recontacterons sous 48 heures pour effectuer votre devis personnalisé.",
+     "email": "peintre.de.lyon@gmail.com",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33612668051\" style=\"border-bottom:1px solid var(--gold)\">06 12 66 80 51</a>"
+     ],
+     "fields": [
+      {
+       "label": "Prénom"
+      },
+      {
+       "label": "Nom de famille"
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Veuillez détailler votre demande pour effectuer un devis personnalisé au plus juste",
+       "type": "textarea",
+       "required": true
+      },
+      {
+       "label": "Adresse du chantier",
+       "full": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Rénov Habitat, <em class=\"it\">Lyon</em>",
+     "text": "Entreprise de peinture et rénovation à Lyon centre, pour les particuliers et les sociétés.",
+     "rows": [
+      [
+       "Adresse",
+       "17 rue Hector Berlioz<br>69009 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33612668051\">06 12 66 80 51</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:peintre.de.lyon@gmail.com\">peintre.de.lyon@gmail.com</a>"
+      ],
+      [
+       "Réseaux",
+       "<a href=\"https://www.facebook.com/profile.php?id=100072465187222\" target=\"_blank\" rel=\"noopener\">Facebook</a> · <a href=\"https://www.instagram.com/renov681/?hl=fr\" target=\"_blank\" rel=\"noopener\">Instagram</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ],
+     "map_q": "17 rue Hector Berlioz, 69009 Lyon"
+    }
+   ]
+  }
+ ],
+ "home_label": "Accueil",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/11d79d_73a60ffab4b34eea8047f3e3545eb98c.png",
+  "height": 46
  }
 }
