@@ -50,3 +50,7 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 
 ## Modèle de vrai site avec blog modifiable
 - Dossier `modele-site-blog/` : point de départ d'un site client avec blog géré par le client (Pages CMS + Cloudflare). Mode d'emploi : `modele-site-blog/GUIDE.md`, guide client : `GUIDE-CLIENT.md`. Démo (côté visiteur) : site/modele-blog-demo-7e2b1c/.
+
+## Maquettes déjà envoyées : NE PLUS LES MODIFIER (règle de Philippine, 11 oct. 2026)
+- Dès qu'un prospect a le statut « envoye » (ou suivant) dans prospects.csv, sa maquette est figée : le prospect l'a peut-être déjà vue. Ne régénère pas son JSON, ne touche pas à son dossier site/.
+- Quand on régénère toutes les maquettes (`build.py sites/*.json`), exclure celles des prospects envoyés.

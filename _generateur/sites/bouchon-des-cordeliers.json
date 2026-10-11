@@ -20,19 +20,23 @@
  "nav": [
   [
    "maison",
-   "Le restaurant"
+   "La maison"
   ],
   [
    "carte",
    "La carte"
   ],
   [
-   "evenements-et-groupes",
-   "Évènements et groupes"
+   "cave",
+   "La cave"
   ],
   [
    "reserver",
-   "Réservation"
+   "Réserver"
+  ],
+  [
+   "groupes",
+   "Groupes"
   ],
   [
    "contact",
@@ -371,13 +375,38 @@
    "height": 680
   },
   {
+   "kind": "features",
+   "id": "groupes",
+   "eyebrow": "Groupes & événements",
+   "title": "De 10 à 80 <em class=\"it\">convives</em>",
+   "lead": "Réceptions privées, repas d'affaires, anniversaires : le chef compose avec vous un menu sur mesure, dans la tradition lyonnaise. En salle, en terrasse couverte ou au salon privatisable de l'étage.",
+   "items": [
+    [
+     "Menu sur mesure",
+     "Un menu personnalisé, élaboré avec le chef, dans la tradition lyonnaise."
+    ],
+    [
+     "Accords mets et vins",
+     "Une sélection de vins du Beaujolais et de la vallée du Rhône."
+    ],
+    [
+     "Anniversaires",
+     "Un gâteau sur demande, au chocolat ou aux fruits de saison."
+    ],
+    [
+     "Salon privatisable",
+     "Le salon de l'étage, rien que pour votre groupe. Parking des Cordeliers juste à côté."
+    ]
+   ]
+  },
+  {
    "kind": "banner",
    "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/10-1.jpg",
-   "eyebrow": "Évènements et groupes",
-   "title": "Parce que chaque occasion<br><em>est unique !</em>",
+   "eyebrow": "Groupes & événements",
+   "title": "Un repas de groupe,<br><em>à la lyonnaise</em>",
    "cta": [
-    "Découvrir les offres groupes",
-    "evenements-et-groupes/"
+    "Organiser un repas de groupe",
+    "mailto:contact@bouchondescordeliers.com?subject=Repas%20de%20groupe"
    ]
   },
   {
@@ -490,81 +519,5 @@
  "logo": {
   "src": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/logo-dark.png",
   "height": 50
- },
- "pages": [
-  {
-   "slug": "evenements-et-groupes",
-   "label": "Évènements et groupes",
-   "title": "Évènements et Groupes",
-   "eyebrow": "De 10 à 80 convives",
-   "lead": "Parce que chaque occasion est unique !",
-   "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/10-1.jpg",
-   "sections": [
-    {
-     "kind": "features",
-     "id": "groupes",
-     "eyebrow": "Groupes & événements",
-     "title": "De 10 à 80 <em class=\"it\">convives</em>",
-     "lead": "Réceptions privées, repas d'affaires, anniversaires : le chef compose avec vous un menu sur mesure, dans la tradition lyonnaise. En salle, en terrasse couverte ou au salon privatisable de l'étage.",
-     "items": [
-      [
-       "Menu sur mesure",
-       "Un menu personnalisé, élaboré avec le chef, dans la tradition lyonnaise."
-      ],
-      [
-       "Accords mets et vins",
-       "Une sélection de vins du Beaujolais et de la vallée du Rhône."
-      ],
-      [
-       "Anniversaires",
-       "Un gâteau sur demande, au chocolat ou aux fruits de saison."
-      ],
-      [
-       "Salon privatisable",
-       "Le salon de l'étage, rien que pour votre groupe. Parking des Cordeliers juste à côté."
-      ]
-     ]
-    },
-    {
-     "kind": "quote",
-     "eyebrow": "Nos espaces",
-     "text": "Nous mettons à votre disposition l'ensemble de nos espaces.",
-     "sub": "La terrasse couverte, la salle du restaurant et la salle de l'étage, privatisable. Parking des Cordeliers juste à côté."
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.bouchondescordeliers.com/wp-content/uploads/2019/02/17.jpg",
-     "eyebrow": "Groupes & événements",
-     "title": "Un repas de groupe,<br><em>à la lyonnaise</em>",
-     "cta": [
-      "Organiser un repas de groupe",
-      "mailto:contact@bouchondescordeliers.com?subject=Repas%20de%20groupe"
-     ]
-    }
-   ]
-  }
- ],
- "nav_extra": [
-  [
-   "maison",
-   "Le restaurant",
-   1
-  ],
-  [
-   "carte",
-   "La carte",
-   2
-  ],
-  [
-   "reserver",
-   "Réservation",
-   3
-  ],
-  [
-   "contact",
-   "Infos",
-   4
-  ]
- ],
- "home_label": "Accueil"
+ }
 }
