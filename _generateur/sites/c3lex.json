@@ -17,28 +17,6 @@
   "sans": "\"Source Sans 3\",system-ui,sans-serif",
   "fonts": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
  },
- "nav": [
-  [
-   "cabinet",
-   "Le cabinet"
-  ],
-  [
-   "domaines",
-   "Domaines d'intervention"
-  ],
-  [
-   "parcours",
-   "Parcours"
-  ],
-  [
-   "honoraires",
-   "Honoraires"
-  ],
-  [
-   "contact",
-   "Contact"
-  ]
- ],
  "hero": {
   "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290",
   "eyebrow": "Avocate au Barreau de Lyon",
@@ -73,19 +51,6 @@
  ],
  "sections": [
   {
-   "kind": "story",
-   "id": "cabinet",
-   "eyebrow": "Le cabinet",
-   "title": "Conseiller et assister, <em class=\"it\">particuliers et professionnels</em>",
-   "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2484288568.jpg?t=1574194988",
-   "alt": "Le cabinet C3LEX",
-   "paras": [
-    "Le cabinet d'avocats C3LEX est inscrit au Barreau de Lyon. Il conseille et assiste ses clients, particuliers ou professionnels, dans ses domaines d'intervention.",
-    "Le cabinet déploie l'essentiel de son activité sur les régions Auvergne-Rhône-Alpes et Provence-Alpes-Côte d'Azur, et se déplace dans toute la France.",
-    "Il travaille également avec des confrères, qui peuvent l'épauler sur certains dossiers ou accomplir des démarches devant des juridictions situées hors de Lyon."
-   ]
-  },
-  {
    "kind": "blocks",
    "id": "domaines",
    "eyebrow": "Nos domaines d'intervention",
@@ -98,6 +63,10 @@
      "img": "https://www.c3lex.fr/s/cc_images/cache_2484283655.png?t=1574111166",
      "paras": [
       "Accidents de la route, du travail, de sport ou de loisir ; atteintes corporelles ou matérielles causées par des personnes, des produits défectueux ou des animaux ; incendies et dégâts des eaux. Responsabilité civile ou pénale des professionnels : médecins, hôpitaux et cliniques, huissiers de justice, experts-comptables, agences de voyage."
+     ],
+     "link": [
+      "En savoir plus",
+      "le-cabinet/responsabilite-et-assurances/"
      ]
     },
     {
@@ -105,6 +74,10 @@
      "img": "https://www.c3lex.fr/s/cc_images/cache_2484283656.jpg?t=1574284229",
      "paras": [
       "Assurances de responsabilité, de biens et de personnes, obligatoires ou facultatives, dont les garanties peuvent bénéficier aux responsables comme aux victimes. Examen attentif des garanties du contrat et recherche de provisions pour les dépenses urgentes."
+     ],
+     "link": [
+      "En savoir plus",
+      "le-cabinet/responsabilite-et-assurances/"
      ]
     },
     {
@@ -112,6 +85,10 @@
      "img": "https://www.c3lex.fr/s/cc_images/cache_2484283657.jpg?t=1574284252",
      "paras": [
       "Réception des travaux, désordres et malfaçons, garanties de parfait achèvement, biennale et décennale, responsabilité contractuelle, travaux impayés, troubles de voisinage, évaluation des préjudices ; assurances dommages-ouvrage et responsabilité ; expertises judiciaires. Litiges de baux d'habitation."
+     ],
+     "link": [
+      "En savoir plus",
+      "le-cabinet/immobilier-et-construction/"
      ]
     },
     {
@@ -119,6 +96,10 @@
      "img": "https://www.c3lex.fr/s/cc_images/cache_2484283680.jpg?t=1574111261",
      "paras": [
       "Indemnisation intégrale des victimes directes et indirectes selon la nomenclature Dintilhac ; contentieux des accidents du travail et de l'incapacité. Constitution du dossier et assistance dans les démarches amiables ou devant les juridictions."
+     ],
+     "link": [
+      "En savoir plus",
+      "le-cabinet/reparation-du-dommage-corporel/"
      ]
     },
     {
@@ -126,6 +107,10 @@
      "img": "https://www.c3lex.fr/s/cc_images/cache_2484283681.png?t=1574111305",
      "paras": [
       "Litige à propos d'un emprunt bancaire ou à la suite de l'achat d'un bien ou d'un service : le cabinet vous assiste et vous conseille pour trouver la solution adaptée à votre situation."
+     ],
+     "link": [
+      "En savoir plus",
+      "le-cabinet/bancaire-et-consommation/"
      ]
     },
     {
@@ -133,150 +118,45 @@
      "img": "https://www.c3lex.fr/s/cc_images/cache_2484283682.png?t=1574111366",
      "paras": [
       "Litiges nés d'un contrat, d'une vente ou d'une prestation de service, règlement de factures, recouvrement de créances, procédures collectives : déclarations de créances, relevés de forclusion, démarches auprès du mandataire judiciaire."
+     ],
+     "link": [
+      "En savoir plus",
+      "le-cabinet/litiges-commerciaux/"
      ]
     },
     {
      "title": "Pénal",
      "paras": [
       "Victime ou prévenu : composition pénale, comparution sur reconnaissance préalable de culpabilité, Tribunal de police, Tribunal correctionnel, Tribunal pour enfants, Cour d'assises. Garde à vue et audition, instruction : dans toutes ces hypothèses, le cabinet vous assiste et vous conseille."
+     ],
+     "link": [
+      "En savoir plus",
+      "le-cabinet/penal/"
      ]
-    }
-   ]
-  },
-  {
-   "kind": "timeline",
-   "id": "parcours",
-   "eyebrow": "Historique",
-   "title": "Maître Caroline <em class=\"it\">Cerveau-Colliard</em>",
-   "lead": "Double cursus de droit français et de droit allemand à l'Université Paris Ouest Nanterre, DESS de Juriste Européen d'Affaires.",
-   "items": [
-    {
-     "when": "17 janvier 2001",
-     "who": "Prestation de serment",
-     "text": "Puis six années d'exercice au sein du cabinet parisien Normand & Associés."
-    },
-    {
-     "when": "Lyon",
-     "who": "Perrier & Associés",
-     "text": "Elle rejoint ensuite le cabinet Perrier & Associés, puis le cabinet de Maître Joëlle Grandclément."
-    },
-    {
-     "when": "2011",
-     "who": "Installation",
-     "text": "Caroline Cerveau-Colliard s'installe à titre individuel."
-    },
-    {
-     "when": "2015",
-     "who": "Création de C3LEX",
-     "text": "Création du cabinet C3LEX, inscrit au Barreau de Lyon."
     }
    ]
   },
   {
    "kind": "story",
-   "id": "avocate",
-   "eyebrow": "L'avocate",
-   "title": "Contentieux, <em class=\"it\">médiation, langues</em>",
-   "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2492394754.png?t=1704386791",
-   "alt": "Cabinet C3LEX",
-   "paras": [
-    "Une solide expérience du contentieux devant les différents ordres de juridiction, et de la gestion précontentieuse des dossiers, pour en limiter le coût.",
-    "Caroline Cerveau-Colliard parle couramment l'allemand et maîtrise l'anglais juridique et commercial, ce qui lui permet d'accompagner des clients étrangers dans leurs litiges en France.",
-    "Elle collabore régulièrement à l'édition spécialisée « Assurances » de la Gazette du Palais et au BJDA. Membre de l'AJAR, elle participe à plusieurs commissions de l'Ordre des avocats du Barreau de Lyon.",
-    "Sa formation de médiateur lui permet de proposer un éventail plus large de solutions amiables. Elle a également rejoint le réseau HUMANETHIC, qui regroupe des professionnels partageant les mêmes valeurs et le même engagement auprès de leurs clients."
-   ]
-  },
-  {
-   "kind": "blocks",
-   "id": "honoraires",
-   "eyebrow": "Honoraires",
-   "title": "Des honoraires <em class=\"it\">clairs et prévisibles</em>",
-   "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2484293746.jpg?t=1574285173",
-   "items": [
-    {
-     "title": "Libre fixation",
-     "paras": [
-      "Les honoraires sont librement fixés entre l'avocat et son client."
-     ]
-    },
-    {
-     "title": "Convention d'honoraires",
-     "paras": [
-      "Le cabinet C3LEX est attaché à la clarté et à la prévisibilité du montant de ses honoraires, et formalise ses interventions par une convention d'honoraires."
-     ],
-     "link": [
-      "Détails sur le site actuel",
-      "https://www.c3lex.fr/accueil/honoraires/"
-     ]
-    }
-   ]
-  },
-  {
-   "kind": "gallery",
-   "id": "images",
+   "id": "presentation",
    "eyebrow": "Le cabinet",
-   "title": "C3LEX, <em class=\"it\">à Lyon</em>",
-   "photos": [
-    {
-     "thumb": "https://www.c3lex.fr/s/cc_images/teaserbox_2484288562.png?t=1756666541",
-     "full": "https://www.c3lex.fr/s/cc_images/teaserbox_2484288562.png?t=1756666541",
-     "alt": "Cabinet C3LEX"
-    },
-    {
-     "thumb": "https://www.c3lex.fr/s/cc_images/cache_2484255538.jpg?t=1574196254",
-     "full": "https://www.c3lex.fr/s/cc_images/cache_2484255538.jpg?t=1574196254",
-     "alt": "Cabinet C3LEX"
-    },
-    {
-     "thumb": "https://www.c3lex.fr/s/cc_images/cache_2485445020.png?t=1586795401",
-     "full": "https://www.c3lex.fr/s/cc_images/cache_2485445020.png?t=1586795401",
-     "alt": "Cabinet C3LEX"
-    },
-    {
-     "thumb": "https://www.c3lex.fr/s/cc_images/cache_2484288833.jpg?t=1574197042",
-     "full": "https://www.c3lex.fr/s/cc_images/cache_2484288833.jpg?t=1574197042",
-     "alt": "Cabinet C3LEX"
-    },
-    {
-     "thumb": "https://www.c3lex.fr/s/cc_images/cache_2484255540.jpg?t=1573767171",
-     "full": "https://www.c3lex.fr/s/cc_images/cache_2484255540.jpg?t=1573767171",
-     "alt": "Cabinet C3LEX"
-    }
+   "title": "Conseiller et assister, <em class=\"it\">particuliers et professionnels</em>",
+   "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2484288568.jpg?t=1574194988",
+   "alt": "Le cabinet C3LEX",
+   "paras": [
+    "Le cabinet d'avocats C3LEX est inscrit au Barreau de Lyon. Il conseille et assiste ses clients, particuliers ou professionnels, dans ses domaines d'intervention.",
+    "<a href=\"le-cabinet/\" style=\"border-bottom:1px solid var(--gold)\">Le cabinet, l'historique et les honoraires</a>"
    ]
   },
   {
-   "kind": "visit",
-   "id": "contact",
-   "eyebrow": "Contact",
-   "title": "Prendre <em class=\"it\">rendez-vous</em>",
-   "text": "Le cabinet vous reçoit sur rendez-vous.",
-   "rows": [
-    [
-     "Adresse",
-     "17 rue Dunoir<br>69003 Lyon"
-    ],
-    [
-     "Téléphone",
-     "<a href=\"tel:+33482533796\">04 82 53 37 96</a>"
-    ],
-    [
-     "Fax",
-     "04 82 53 37 97"
-    ],
-    [
-     "E-mail",
-     "<a href=\"mailto:contact@c3lex.fr\">contact@c3lex.fr</a>"
-    ],
-    [
-     "Accès",
-     "Métro B : Place Guichard · Tram T1 et bus C4 : Saxe Préfecture · Parking du Palais de Justice"
-    ]
-   ],
+   "kind": "banner",
+   "eyebrow": "Sur rendez-vous",
+   "title": "Contacter <em>le cabinet</em>",
    "cta": [
-    "Écrire au cabinet",
-    "mailto:contact@c3lex.fr?subject=Demande%20de%20rendez-vous"
+    "Coordonnées",
+    "#contact"
    ],
-   "map_q": "17 rue Dunoir, 69003 Lyon"
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290"
   }
  ],
  "footer": {
@@ -293,5 +173,480 @@
   "src": "https://www.c3lex.fr/s/misc/logo.jpg?t=1786600169",
   "height": 52,
   "bg": "#ffffff"
- }
+ },
+ "pages": [
+  {
+   "slug": "le-cabinet",
+   "label": "Le cabinet",
+   "title": "Le cabinet",
+   "h1": "Le <em>cabinet</em>",
+   "eyebrow": "Avocate au Barreau de Lyon",
+   "lead": "Conseil et assistance des particuliers et des professionnels.",
+   "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2484288562.png?t=1756666541",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "cabinet",
+     "eyebrow": "Le cabinet",
+     "title": "Conseiller et assister, <em class=\"it\">particuliers et professionnels</em>",
+     "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2484288568.jpg?t=1574194988",
+     "alt": "Le cabinet C3LEX",
+     "paras": [
+      "Le cabinet d'avocats C3LEX est inscrit au Barreau de Lyon. Il conseille et assiste ses clients, particuliers ou professionnels, dans ses domaines d'intervention.",
+      "Le cabinet déploie l'essentiel de son activité sur les régions Auvergne-Rhône-Alpes et Provence-Alpes-Côte d'Azur, et se déplace dans toute la France.",
+      "Il travaille également avec des confrères, qui peuvent l'épauler sur certains dossiers ou accomplir des démarches devant des juridictions situées hors de Lyon."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "domaines-cabinet",
+     "eyebrow": "Domaines d'intervention",
+     "title": "Le cabinet <em class=\"it\">intervient en</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Responsabilité et assurances",
+       "link": [
+        "En savoir plus",
+        "responsabilite-et-assurances/"
+       ]
+      },
+      {
+       "title": "Immobilier et construction",
+       "link": [
+        "En savoir plus",
+        "immobilier-et-construction/"
+       ]
+      },
+      {
+       "title": "Réparation du dommage corporel",
+       "link": [
+        "En savoir plus",
+        "reparation-du-dommage-corporel/"
+       ]
+      },
+      {
+       "title": "Bancaire et consommation",
+       "link": [
+        "En savoir plus",
+        "bancaire-et-consommation/"
+       ]
+      },
+      {
+       "title": "Litiges commerciaux",
+       "link": [
+        "En savoir plus",
+        "litiges-commerciaux/"
+       ]
+      },
+      {
+       "title": "Pénal",
+       "link": [
+        "En savoir plus",
+        "penal/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "parcours",
+     "eyebrow": "Historique",
+     "title": "Maître Caroline <em class=\"it\">Cerveau-Colliard</em>",
+     "lead": "Double cursus de droit français et de droit allemand à l'Université Paris Ouest Nanterre, DESS de Juriste Européen d'Affaires.",
+     "items": [
+      {
+       "when": "17 janvier 2001",
+       "who": "Prestation de serment",
+       "text": "Puis six années d'exercice au sein du cabinet parisien Normand & Associés."
+      },
+      {
+       "when": "Lyon",
+       "who": "Perrier & Associés",
+       "text": "Elle rejoint ensuite le cabinet Perrier & Associés, puis le cabinet de Maître Joëlle Grandclément."
+      },
+      {
+       "when": "2011",
+       "who": "Installation",
+       "text": "Caroline Cerveau-Colliard s'installe à titre individuel."
+      },
+      {
+       "when": "2015",
+       "who": "Création de C3LEX",
+       "text": "Création du cabinet C3LEX, inscrit au Barreau de Lyon."
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "avocate",
+     "eyebrow": "L'avocate",
+     "title": "Contentieux, <em class=\"it\">médiation, langues</em>",
+     "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2492394754.png?t=1704386791",
+     "alt": "Cabinet C3LEX",
+     "paras": [
+      "Une solide expérience du contentieux devant les différents ordres de juridiction, et de la gestion précontentieuse des dossiers, pour en limiter le coût.",
+      "Caroline Cerveau-Colliard parle couramment l'allemand et maîtrise l'anglais juridique et commercial, ce qui lui permet d'accompagner des clients étrangers dans leurs litiges en France.",
+      "Elle collabore régulièrement à l'édition spécialisée « Assurances » de la Gazette du Palais et au BJDA. Membre de l'AJAR, elle participe à plusieurs commissions de l'Ordre des avocats du Barreau de Lyon.",
+      "Sa formation de médiateur lui permet de proposer un éventail plus large de solutions amiables. Elle a également rejoint le réseau HUMANETHIC, qui regroupe des professionnels partageant les mêmes valeurs et le même engagement auprès de leurs clients."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "honoraires",
+     "eyebrow": "Honoraires",
+     "title": "Des honoraires <em class=\"it\">clairs et prévisibles</em>",
+     "img": "https://www.c3lex.fr/s/cc_images/teaserbox_2484293746.jpg?t=1574285173",
+     "items": [
+      {
+       "title": "Libre fixation",
+       "paras": [
+        "Les honoraires sont librement fixés entre l'avocat et son client."
+       ]
+      },
+      {
+       "title": "Convention d'honoraires",
+       "paras": [
+        "Le cabinet C3LEX est attaché à la clarté et à la prévisibilité du montant de ses honoraires, et formalise ses interventions par une convention d'honoraires."
+       ],
+       "link": [
+        "Détails sur le site actuel",
+        "https://www.c3lex.fr/accueil/honoraires/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact-et-mentions-legales",
+   "label": "Contact et mentions légales",
+   "title": "Contact et mentions légales",
+   "h1": "Contact <em>et mentions légales</em>",
+   "eyebrow": "Coordonnées",
+   "lead": "17 rue Dunoir, 69003 Lyon · 04 82 53 37 96",
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2484255538.jpg?t=1574196254",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Prendre <em class=\"it\">rendez-vous</em>",
+     "text": "Le cabinet vous reçoit sur rendez-vous.",
+     "rows": [
+      [
+       "Adresse",
+       "17 rue Dunoir<br>69003 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33482533796\">04 82 53 37 96</a>"
+      ],
+      [
+       "Fax",
+       "04 82 53 37 97"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@c3lex.fr\">contact@c3lex.fr</a>"
+      ],
+      [
+       "Accès",
+       "Métro B : Place Guichard · Tram T1 et bus C4 : Saxe Préfecture · Parking du Palais de Justice"
+      ]
+     ],
+     "cta": [
+      "Écrire au cabinet",
+      "mailto:contact@c3lex.fr?subject=Demande%20de%20rendez-vous"
+     ],
+     "map_q": "17 rue Dunoir, 69003 Lyon"
+    },
+    {
+     "kind": "gallery",
+     "id": "images",
+     "eyebrow": "Le cabinet",
+     "title": "C3LEX, <em class=\"it\">17 rue Dunoir</em>",
+     "photos": [
+      {
+       "thumb": "https://www.c3lex.fr/s/cc_images/cache_2485445020.png?t=1586795401",
+       "full": "https://www.c3lex.fr/s/cc_images/cache_2485445020.png?t=1586795401",
+       "alt": "Cabinet C3LEX"
+      },
+      {
+       "thumb": "https://www.c3lex.fr/s/cc_images/cache_2484288833.jpg?t=1574197042",
+       "full": "https://www.c3lex.fr/s/cc_images/cache_2484288833.jpg?t=1574197042",
+       "alt": "Cabinet C3LEX"
+      },
+      {
+       "thumb": "https://www.c3lex.fr/s/cc_images/cache_2484255540.jpg?t=1573767171",
+       "full": "https://www.c3lex.fr/s/cc_images/cache_2484255540.jpg?t=1573767171",
+       "alt": "Cabinet C3LEX"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "mentions-legales",
+     "eyebrow": "Mentions légales",
+     "title": "Mentions <em class=\"it\">légales</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Éditeur",
+       "paras": [
+        "SELARL C3LEX, au capital de 3 000 €",
+        "RCS Lyon 813 176 641 · code APE 6910Z"
+       ]
+      },
+      {
+       "title": "Directeur de la publication",
+       "paras": [
+        "Maître Caroline CERVEAU-COLLIARD",
+        "17 rue Dunoir, 69003 Lyon · 04 82 53 37 96"
+       ]
+      },
+      {
+       "title": "Hébergement",
+       "paras": [
+        "1&1 IONOS SARL, 7 place de la Gare, BP 70109, 57201 Sarreguemines Cedex · 0970 808 911"
+       ]
+      },
+      {
+       "title": "Crédits",
+       "paras": [
+        "Logo : Axelle POIX",
+        "Photographies : Marc LAURENT"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "le-cabinet/responsabilite-et-assurances",
+   "hidden": true,
+   "label": "Responsabilité et assurances",
+   "title": "Responsabilité et assurances",
+   "h1": "Droit de la responsabilité <em>et des assurances</em>",
+   "eyebrow": "Domaine d'intervention",
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2484283655.png?t=1574111166",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "responsabilite",
+     "eyebrow": "Responsabilité",
+     "title": "Droit <em class=\"it\">de la responsabilité</em>",
+     "paras": [
+      "Le droit de la responsabilité couvre de nombreux domaines : accidents de la route, du travail, de sport ou de loisir, atteintes corporelles ou matérielles causées par des personnes, des produits défectueux ou des animaux, incendies et dégâts des eaux.",
+      "La responsabilité civile ou pénale de professionnels peut aussi être engagée dans certains cas : médecins, hôpitaux et cliniques, huissiers de justice, experts-comptables, agences de voyage."
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2484283655.png?t=1574111166",
+     "alt": ""
+    },
+    {
+     "kind": "story",
+     "id": "assurances",
+     "eyebrow": "Assurances",
+     "title": "Garanties <em class=\"it\">et indemnisation</em>",
+     "paras": [
+      "La plupart de ces responsabilités sont couvertes par des assurances obligatoires ou facultatives, dont les garanties peuvent bénéficier aux responsables comme aux victimes. Les dossiers peuvent être traités à l'amiable ou devant les juridictions.",
+      "Apprécier les responsabilités et les garanties d'assurance demande un examen attentif du dossier. Les victimes, en particulier, ont besoin d'être accompagnées pour obtenir la réparation intégrale de leurs préjudices matériels ou corporels.",
+      "Des provisions sur indemnisation peuvent souvent être obtenues, à l'amiable comme en justice, pour faire face aux dépenses urgentes dans l'attente de l'indemnisation définitive.",
+      "Le cabinet C3LEX vous aide à constituer votre dossier, à choisir la voie procédurale, à travailler avec les techniciens et à défendre vos intérêts, à l'amiable ou devant les juridictions.",
+      "<a href=\"../\" style=\"border-bottom:1px solid var(--gold)\">← Le cabinet et ses domaines d'intervention</a>"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2484283656.jpg?t=1574284229",
+     "alt": ""
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Sur rendez-vous",
+     "title": "Contacter <em>le cabinet</em>",
+     "cta": [
+      "Coordonnées",
+      "#contact"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290"
+    }
+   ]
+  },
+  {
+   "slug": "le-cabinet/immobilier-et-construction",
+   "hidden": true,
+   "label": "Immobilier et construction",
+   "title": "Immobilier et construction",
+   "h1": "Immobilier <em>et construction</em>",
+   "eyebrow": "Domaine d'intervention",
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2484283657.jpg?t=1574284252",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "construction",
+     "eyebrow": "Droit de la construction",
+     "title": "Maîtres d'ouvrage <em class=\"it\">et constructeurs</em>",
+     "paras": [
+      "Le droit de la construction régit les relations entre le maître d'ouvrage et les intervenants à l'acte de construire : architectes, bureaux d'études, entreprises du bâtiment, coordonnateurs SPS, économistes de la construction, contrôleurs techniques.",
+      "<b>Responsabilité des constructeurs</b> : réception des travaux, désordres et malfaçons, garantie de parfait achèvement, garanties biennale et décennale, responsabilité contractuelle, travaux impayés, troubles de voisinage ; évaluation des préjudices (coût des réparations, préjudice de jouissance, frais de relogement).",
+      "<b>Assurances</b> : l'assurance obligatoire (décennale) et les assurances facultatives (dommages-ouvrage, responsabilité civile) doivent être mises en œuvre dans les délais pour financer les réparations et les indemnisations.",
+      "<b>Expertise</b> : en cas d'échec de l'expertise amiable, ou sans diagnostic technique, l'expertise judiciaire permet souvent de qualifier les désordres et d'évaluer les préjudices. Une solution transactionnelle est recherchée avant le procès.",
+      "Le cabinet C3LEX vous aide à réunir les pièces du dossier, à définir une stratégie, et vous accompagne lors des expertises, des réunions et des audiences. Il traite également les litiges de baux d'habitation.",
+      "<a href=\"../\" style=\"border-bottom:1px solid var(--gold)\">← Le cabinet et ses domaines d'intervention</a>"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2484283657.jpg?t=1574284252",
+     "alt": ""
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Sur rendez-vous",
+     "title": "Contacter <em>le cabinet</em>",
+     "cta": [
+      "Coordonnées",
+      "#contact"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290"
+    }
+   ]
+  },
+  {
+   "slug": "le-cabinet/reparation-du-dommage-corporel",
+   "hidden": true,
+   "label": "Réparation du dommage corporel",
+   "title": "Réparation du dommage corporel",
+   "h1": "Réparation <em>du dommage corporel</em>",
+   "eyebrow": "Domaine d'intervention",
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2484283680.jpg?t=1574111261",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "dommage-corporel",
+     "eyebrow": "Dommage corporel",
+     "title": "La réparation <em class=\"it\">intégrale</em>",
+     "paras": [
+      "Le droit de la réparation du dommage corporel s'applique à toutes les situations de responsabilité, qu'elles relèvent de régimes spéciaux ou du droit commun : accidents de la circulation, indemnisation des victimes d'infractions, accidents médicaux, accidents de sport ou de la vie privée.",
+      "Les accidents du travail relèvent de procédures spécifiques devant les juridictions de sécurité sociale ou pénales, mais obéissent aussi au principe de la réparation intégrale du dommage corporel.",
+      "La nomenclature Dintilhac recense les postes de préjudices indemnisables des victimes directes et indirectes, et sert de référence pour leur évaluation.",
+      "Les contestations du taux d'incapacité ou de l'inaptitude après un accident du travail ou une maladie professionnelle mêlent des notions juridiques et médicales souvent mal connues des assurés.",
+      "Quel que soit le dommage, la victime doit pouvoir confier la défense de ses intérêts à un avocat et à un médecin à même de la représenter. Le cabinet C3LEX vous aide à constituer votre dossier et vous accompagne dans les négociations amiables ou devant les juridictions compétentes, pour obtenir la réparation intégrale de vos préjudices.",
+      "<a href=\"../\" style=\"border-bottom:1px solid var(--gold)\">← Le cabinet et ses domaines d'intervention</a>"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2484283680.jpg?t=1574111261",
+     "alt": ""
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Sur rendez-vous",
+     "title": "Contacter <em>le cabinet</em>",
+     "cta": [
+      "Coordonnées",
+      "#contact"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290"
+    }
+   ]
+  },
+  {
+   "slug": "le-cabinet/bancaire-et-consommation",
+   "hidden": true,
+   "label": "Bancaire et consommation",
+   "title": "Bancaire et consommation",
+   "h1": "Bancaire <em>et consommation</em>",
+   "eyebrow": "Domaine d'intervention",
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2484283681.png?t=1574111305",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "bancaire",
+     "eyebrow": "Bancaire et consommation",
+     "title": "Emprunts, achats, <em class=\"it\">prestations</em>",
+     "paras": [
+      "Vous avez un litige à propos d'un emprunt bancaire ou à la suite de l'achat d'un bien ou d'un service.",
+      "Le cabinet C3LEX vous assiste et vous conseille pour trouver la solution adaptée à votre situation.",
+      "<a href=\"../\" style=\"border-bottom:1px solid var(--gold)\">← Le cabinet et ses domaines d'intervention</a>"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2484283681.png?t=1574111305",
+     "alt": ""
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Sur rendez-vous",
+     "title": "Contacter <em>le cabinet</em>",
+     "cta": [
+      "Coordonnées",
+      "#contact"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290"
+    }
+   ]
+  },
+  {
+   "slug": "le-cabinet/litiges-commerciaux",
+   "hidden": true,
+   "label": "Litiges commerciaux",
+   "title": "Litiges commerciaux",
+   "h1": "Litiges <em>commerciaux</em>",
+   "eyebrow": "Domaine d'intervention",
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2484283682.png?t=1574111366",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "commercial",
+     "eyebrow": "Litiges commerciaux",
+     "title": "Contrats, factures, <em class=\"it\">procédures collectives</em>",
+     "paras": [
+      "Les relations commerciales sont régies par la loi, les règlements et le contrat des parties.",
+      "Pour un litige né d'un contrat, d'une vente, d'une prestation de service ou d'une facture impayée, le cabinet vous aide à constituer votre dossier et vous représente, à l'amiable ou devant les juridictions civiles ou commerciales.",
+      "Il met en place les procédures de recouvrement de vos factures impayées.",
+      "Il vous assiste lorsque vos partenaires font l'objet d'une procédure collective : déclaration de créances dans les délais, relevé de forclusion, démarches auprès du mandataire judiciaire et de l'administrateur judiciaire.",
+      "<a href=\"../\" style=\"border-bottom:1px solid var(--gold)\">← Le cabinet et ses domaines d'intervention</a>"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2484283682.png?t=1574111366",
+     "alt": ""
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Sur rendez-vous",
+     "title": "Contacter <em>le cabinet</em>",
+     "cta": [
+      "Coordonnées",
+      "#contact"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290"
+    }
+   ]
+  },
+  {
+   "slug": "le-cabinet/penal",
+   "hidden": true,
+   "label": "Pénal",
+   "title": "Pénal",
+   "h1": "Droit <em>pénal</em>",
+   "eyebrow": "Domaine d'intervention",
+   "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "droit-penal",
+     "eyebrow": "Pénal",
+     "title": "Victimes <em class=\"it\">et prévenus</em>",
+     "paras": [
+      "Le cabinet conseille et représente les victimes comme les prévenus : composition pénale, comparution sur reconnaissance préalable de culpabilité, Tribunal de police, Tribunal correctionnel, Tribunal pour enfants, Cour d'assises.",
+      "<b>Garde à vue</b> : depuis la réforme de 2011, la personne gardée à vue peut être assistée d'un avocat lors de ses auditions, y compris lors d'une confrontation avec la victime.",
+      "<b>Instruction</b> : le juge d'instruction entend toutes les personnes concernées, en présence de leurs avocats.",
+      "<b>Dans toutes ces hypothèses procédurales, le cabinet C3LEX vous assiste et vous conseille.</b>",
+      "<a href=\"../\" style=\"border-bottom:1px solid var(--gold)\">← Le cabinet et ses domaines d'intervention</a>"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Sur rendez-vous",
+     "title": "Contacter <em>le cabinet</em>",
+     "cta": [
+      "Coordonnées",
+      "#contact"
+     ],
+     "img": "https://www.c3lex.fr/s/cc_images/cache_2494595331.png?t=1756668290"
+    }
+   ]
+  }
+ ]
 }
