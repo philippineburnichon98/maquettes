@@ -1,0 +1,346 @@
+{
+ "slug": "cote-de-brouilly-738061",
+ "title": "Le Côte de Brouilly — Bouchon lyonnais à Odenas, Beaujolais",
+ "description": "Le Côte de Brouilly, en plein cœur du Beaujolais à Odenas : spécialités lyonnaises, mâchons beaujolais et vins des crus du Beaujolais.",
+ "brand": "Le Côte de Brouilly",
+ "tagline": "Bouchon lyonnais · Odenas",
+ "theme": {
+  "paper": "#f6f0e6",
+  "paper2": "#ebe0cf",
+  "ink": "#2a1916",
+  "muted": "#6d5e56",
+  "accent": "#7d1f2c",
+  "accent2": "#601722",
+  "gold": "#a9843f",
+  "heroem": "#efc1a8",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@300;400;600&display=swap"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/52cf98_67d304417e80429cb8eff46c88f17db4.jpg",
+  "height": 56
+ },
+ "nav": [
+  [
+   "maison",
+   "Le restaurant"
+  ],
+  [
+   "carte",
+   "Carte & menus"
+  ],
+  [
+   "bouchons",
+   "Les bouchons"
+  ],
+  [
+   "crus",
+   "Les crus"
+  ],
+  [
+   "reserver",
+   "Réserver"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/52cf98_52b0e043e3074e80b78b6c9b9c09b9ec~mv2.jpg",
+  "eyebrow": "Bouchon lyonnais · Odenas, Beaujolais",
+  "title": "Au cœur<br>du <em>Beaujolais</em>",
+  "lead": "Spécialités lyonnaises et vins des crus du Beaujolais, au 27 rue du Beaujolais à Odenas.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
+  ],
+  "cta2": [
+   "04 74 03 31 21",
+   "tel:+33474033121"
+  ]
+ },
+ "figures": [
+  [
+   "7h30",
+   "ouverture du matin"
+  ],
+  [
+   "6 jours",
+   "sur 7, fermé le jeudi"
+  ],
+  [
+   "3",
+   "menus"
+  ],
+  [
+   "10",
+   "crus du Beaujolais"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "maison",
+   "eyebrow": "Le restaurant",
+   "title": "Le bouchon <em class=\"it\">du Beaujolais</em>",
+   "img": "https://static.wixstatic.com/media/b2c0a7_92ab2c73fc4540adb51239e8b2440f70.jpg/v1/fit/w_1200,h_1200,q_85/horaires.jpg",
+   "alt": "Horaires d'ouverture du Côte de Brouilly",
+   "paras": [
+    "Le Côte de Brouilly se trouve en plein cœur du Beaujolais, au pied du Mont Brouilly. Il propose des spécialités lyonnaises et les vins des crus du Beaujolais.",
+    "Menu du jour sur place ou à emporter (hors week-end et jours fériés).",
+    "Mâchons beaujolais (entrecôtes, tripes, rognons...) à toutes heures sur réservation.",
+    "Possibilité de banquets."
+   ]
+  },
+  {
+   "kind": "features",
+   "dark": true,
+   "id": "esprit",
+   "eyebrow": "À la table du Côte de Brouilly",
+   "title": "Du mâchon <em class=\"it\">au banquet</em>",
+   "lead": "Ouvert dès 7h30 du matin, six jours sur sept.",
+   "items": [
+    [
+     "Menu du jour",
+     "Sur place ou à emporter, hors week-end et jours fériés."
+    ],
+    [
+     "Mâchons beaujolais",
+     "Entrecôtes, tripes, rognons... à toutes heures, sur réservation."
+    ],
+    [
+     "Banquets",
+     "Possibilité de banquets : parlons-en par téléphone ou par e-mail."
+    ],
+    [
+     "Crus du Beaujolais",
+     "Les vins des crus du Beaujolais, au pied du Mont Brouilly."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "carte",
+   "eyebrow": "Carte et menus",
+   "title": "La carte <em class=\"it\">et les menus</em>",
+   "lead": "Notre carte, le Menu Beaujolais, le Menu Brouilly et le Menu Grenouilles. Touchez une page pour l'agrandir.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/52cf98_cc8c9db19c094f809cc126799f33f8b4~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-1.jpg",
+     "full": "https://static.wixstatic.com/media/52cf98_cc8c9db19c094f809cc126799f33f8b4~mv2.jpg",
+     "caption": "Notre carte",
+     "alt": "Notre carte, page 1"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/52cf98_2aaea15d7a7b467199fe2d87a3fb506f~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-2.jpg",
+     "full": "https://static.wixstatic.com/media/52cf98_2aaea15d7a7b467199fe2d87a3fb506f~mv2.jpg",
+     "caption": "Notre carte",
+     "alt": "Notre carte, page 2"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/52cf98_6cc88c64985a4bed84c55331c21ed662~mv2.jpg/v1/fit/w_900,h_900,q_85/carte-3.jpg",
+     "full": "https://static.wixstatic.com/media/52cf98_6cc88c64985a4bed84c55331c21ed662~mv2.jpg",
+     "caption": "Notre carte",
+     "alt": "Notre carte, page 3"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/52cf98_27e098340c3c46a291707630b76cfe8d~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-beaujolais.jpg",
+     "full": "https://static.wixstatic.com/media/52cf98_27e098340c3c46a291707630b76cfe8d~mv2.jpg",
+     "caption": "Menu Beaujolais",
+     "alt": "Menu Beaujolais"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/52cf98_5b7209e5195a4ae3b06d7f897c919303~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-brouilly.jpg",
+     "full": "https://static.wixstatic.com/media/52cf98_5b7209e5195a4ae3b06d7f897c919303~mv2.jpg",
+     "caption": "Menu Brouilly",
+     "alt": "Menu Brouilly"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/52cf98_6d1cc868e7454845a042b52c912406f8~mv2.jpg/v1/fit/w_900,h_900,q_85/menu-grenouilles.jpg",
+     "full": "https://static.wixstatic.com/media/52cf98_6d1cc868e7454845a042b52c912406f8~mv2.jpg",
+     "caption": "Menu Grenouilles",
+     "alt": "Menu Grenouilles"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "bouchons",
+   "eyebrow": "Histoire des bouchons lyonnais",
+   "title": "Du mâchon des canuts <em class=\"it\">au bouchon</em>",
+   "img": "https://static.wixstatic.com/media/52cf98_c42e653b51ca44239cd9aaea83fb14a0~mv2.jpg",
+   "alt": "Bouchon lyonnais",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/52cf98_83fe980ae4a24302b8373a85966c1044~mv2.png",
+     "contain": true,
+     "alt": "Histoire des bouchons lyonnais",
+     "kicker": "Les origines",
+     "title": "Le mâchon des canuts",
+     "paras": [
+      "Le bouchon est né des mâchons, les casse-croûtes de milieu de matinée des canuts de la Croix-Rousse, au XIXᵉ siècle. Le vin y est servi en pots."
+     ]
+    },
+    {
+     "kicker": "Le nom",
+     "title": "Pourquoi « bouchon » ?",
+     "paras": [
+      "Plusieurs origines sont avancées :"
+     ],
+     "list": [
+      "un fagot de lierre ou de genêt suspendu à l'entrée",
+      "le bouchon de paille servant à frotter les chevaux",
+      "le bouchon de bouteille"
+     ]
+    },
+    {
+     "kicker": "Sur la table",
+     "title": "Les plats typiques",
+     "list": [
+      "Grattons, saucisson, rosette",
+      "Tablier de sapeur, andouillette, fromage de tête",
+      "Quenelles, gratin de cardons",
+      "Cervelle de canut, bugnes",
+      "Boudin noir, tripes, œufs meurette, gratinée"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "crus",
+   "eyebrow": "Histoire des crus du Beaujolais",
+   "title": "Dix crus, <em class=\"it\">un cépage</em>",
+   "img": "https://static.wixstatic.com/media/52cf98_0d2494e0dfe84362afaa47de6f362322~mv2.jpg",
+   "alt": "Vignes du Beaujolais",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/52cf98_434e7d5df34c45d68cacf69f2b587d20~mv2.jpg",
+     "alt": "Les crus du Beaujolais",
+     "kicker": "XVIIᵉ siècle",
+     "title": "Une vigne née pour Lyon",
+     "paras": [
+      "La vigne se développe au XVIIᵉ siècle, grâce au terroir, à la Saône et au Rhône, et à la demande de Lyon."
+     ]
+    },
+    {
+     "kicker": "Les appellations",
+     "title": "De 1936 à 1988",
+     "list": [
+      "1936 : Chiroubles, Fleurie, Chénas, Morgon, Moulin-à-Vent",
+      "1938 : Juliénas, Brouilly et Côte de Brouilly",
+      "1946 : Saint-Amour",
+      "1988 : Régnié"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/52cf98_ac52716a71084eae8d75962a0aab5a28~mv2.jpg",
+     "alt": "Le cépage gamay",
+     "kicker": "Le cépage",
+     "title": "Le gamay noir à jus blanc",
+     "paras": [
+      "C'est l'unique cépage des crus, classés en « tendres » (Chiroubles, Fleurie, Saint-Amour) et « robustes » (tous les autres)."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/52cf98_118a525a62004cb1bf61b8d348473c55.jpg",
+   "eyebrow": "27 rue du Beaujolais · Odenas",
+   "title": "Une table vous attend<br><em>au pied du Mont Brouilly</em>",
+   "cta": [
+    "Réserver une table",
+    "#reserver"
+   ]
+  },
+  {
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservation",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Le midi du lundi au mercredi et du vendredi au dimanche, le soir le vendredi et le samedi. Choisissez votre jour et votre créneau : le restaurant vous confirme la réservation.",
+   "hours": [
+    "12:00",
+    "12:30",
+    "13:00",
+    "19:00",
+    "19:30",
+    "20:00"
+   ],
+   "services": [
+    [
+     "Midi",
+     [
+      "12:00",
+      "12:30",
+      "13:00"
+     ]
+    ],
+    [
+     "Soir (vendredi et samedi)",
+     [
+      "19:00",
+      "19:30",
+      "20:00"
+     ]
+    ]
+   ],
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "email": "restaurant@cote-de-brouilly.com",
+   "tel": "+33474033121",
+   "phone": "04 74 03 31 21",
+   "brand": "Le Côte de Brouilly",
+   "note": "Service du soir le vendredi et le samedi. Pour un mâchon ou un banquet, appelez-nous directement."
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contacts",
+   "title": "Venez <em class=\"it\">nous voir</em>",
+   "text": "Au cœur du Beaujolais, au pied du Mont Brouilly.",
+   "rows": [
+    [
+     "Adresse",
+     "27 rue du Beaujolais<br>69460 Odenas"
+    ],
+    [
+     "Horaires",
+     "Lundi, mardi, mercredi : 7h30 – 13h30<br>Jeudi : fermé<br>Vendredi, samedi : 7h30 – 13h30 · 19h – 20h30<br>Dimanche : 9h – 13h30"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474033121\">04 74 03 31 21</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:restaurant@cote-de-brouilly.com\">restaurant@cote-de-brouilly.com</a>"
+    ]
+   ],
+   "cta": [
+    "Réserver une table",
+    "#reserver"
+   ],
+   "map_q": "27 rue du Beaujolais, 69460 Odenas"
+  }
+ ],
+ "footer": {
+  "about": "Bouchon lyonnais en plein cœur du Beaujolais : spécialités lyonnaises, mâchons beaujolais et vins des crus.",
+  "contact": [
+   "<a href=\"tel:+33474033121\">04 74 03 31 21</a>",
+   "<a href=\"mailto:restaurant@cote-de-brouilly.com\">restaurant@cote-de-brouilly.com</a>",
+   "27 rue du Beaujolais, 69460 Odenas"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://delphinefontanel1.wixsite.com/le-cote-de-brouilly/contacts"
+ }
+}
