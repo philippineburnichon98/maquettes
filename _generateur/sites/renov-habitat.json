@@ -288,6 +288,7 @@
  "home_label": "Accueil",
  "logo": {
   "src": "https://static.wixstatic.com/media/11d79d_73a60ffab4b34eea8047f3e3545eb98c.png",
-  "height": 46
+  "height": 46,
+  "with_name": true
  }
 }

@@ -603,8 +603,13 @@ def _navitems(d, page, prefix=""):
     for pg in visible:
         cur = ' aria-current="page"' if page and page["slug"] == pg["slug"] else ""
         items.append((pref + pg["slug"] + "/", pg.get("label", pg["title"]), cur))
-    for i, l in d.get("nav_extra", []):
-        items.append((pref + "#" + i, l, ""))
+    for x in d.get("nav_extra", []):
+        i, l = x[0], x[1]
+        it = (pref + "#" + i, l, "")
+        if len(x) > 2:            # 3e élément : position dans le menu (0 = avant Accueil)
+            items.insert(int(x[2]), it)
+        else:
+            items.append(it)
     return items
 
 
@@ -691,7 +696,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
         hcls += f' style="background:{attr(lg["bg"])}"' 
     if lg:
         fb = 'onerror="this.parentElement.textContent=this.alt"'
-        hlogo = f'<a href="{prefix or './'}" class="logo"><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></a>'
+        hlogo = f'<a href="{prefix or './'}" class="logo"{' style="display:flex;align-items:center;gap:12px"' if lg.get("with_name") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}>{e(d["brand"]) if lg.get("with_name") else ""}</a>'
         flogo = f'<div class="flogo"{" style=\"background:" + attr(lg["bg"]) + "\"" if lg.get("bg") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></div>'
     else:
         hlogo = f'<a href="{prefix or './'}" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>'
@@ -744,8 +749,8 @@ if __name__ == "__main__":
             mod = importlib.import_module("styles." + d["style"])
             out.write_text(mod.render(d), encoding="utf-8")
         else:
-            for sub, html in build_all(d).items():
+            for sub, page_html in build_all(d).items():
                 o = out.parent / sub / "index.html" if sub else out
                 o.parent.mkdir(parents=True, exist_ok=True)
-                o.write_text(html, encoding="utf-8")
+                o.write_text(page_html, encoding="utf-8")
         print("écrit", out.relative_to(ROOT))

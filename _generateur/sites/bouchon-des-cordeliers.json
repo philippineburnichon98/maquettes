@@ -547,19 +547,23 @@
  "nav_extra": [
   [
    "maison",
-   "Le restaurant"
+   "Le restaurant",
+   1
   ],
   [
    "carte",
-   "La carte"
+   "La carte",
+   2
   ],
   [
    "reserver",
-   "Réservation"
+   "Réservation",
+   3
   ],
   [
    "contact",
-   "Infos"
+   "Infos",
+   4
   ]
  ],
  "home_label": "Accueil"
