@@ -45,6 +45,8 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - `sections` (racine) = contenu de la page d'accueil : reprendre l'accueil d'origine, avec des accroches vers les pages.
 - Les liens `#ancre` sont réécrits automatiquement vers la bonne page. Slugs de pages courts et lisibles, idéalement les mêmes que sur le site d'origine (référencement).
 - Exemple : domaine-de-la-folie.json. Un site d'origine sur une seule page reste en une seule page.
+- Styles sur mesure (ARGOS `releve`, Girod-Roux `etabli`) : `pages` = `[{slug, label, title, keep: [ids des sections]}]` et `home_keep` = ids gardés sur l'accueil ; build.py découpe la page du style en plusieurs pages (style_pages).
+
 
 ## Modèle de vrai site avec blog modifiable
 - Dossier `modele-site-blog/` : point de départ d'un site client avec blog géré par le client (Pages CMS + Cloudflare). Mode d'emploi : `modele-site-blog/GUIDE.md`, guide client : `GUIDE-CLIENT.md`. Démo (côté visiteur) : site/modele-blog-demo-7e2b1c/.

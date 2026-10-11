@@ -1404,5 +1404,61 @@
     }
    ]
   }
+ ],
+ "home_keep": [
+  "entreprise",
+  "avant-apres"
+ ],
+ "pages": [
+  {
+   "slug": "menuiserie",
+   "label": "Menuiserie",
+   "title": "Menuiserie intérieure et extérieure",
+   "keep": [
+    "interieur",
+    "exterieur"
+   ]
+  },
+  {
+   "slug": "mobilier",
+   "label": "Mobilier",
+   "title": "Mobilier sur mesure",
+   "keep": [
+    "mobilier"
+   ]
+  },
+  {
+   "slug": "isolation-rge",
+   "label": "Isolation RGE",
+   "title": "Isolation thermique, label RGE",
+   "keep": [
+    "rge"
+   ]
+  },
+  {
+   "slug": "accessibilite",
+   "label": "Accessibilité",
+   "title": "Accessibilité",
+   "keep": [
+    "accessibilite"
+   ]
+  },
+  {
+   "slug": "chantiers-mutualises",
+   "label": "Chantiers mutualisés",
+   "title": "Chantiers mutualisés",
+   "keep": [
+    "mutualises"
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact et devis",
+   "keep": [
+    "atelier",
+    "devis"
+   ]
+  }
  ]
 }

@@ -635,6 +635,42 @@ def _fixlinks(html, page, prefix, idmap):
     return re.sub(r'href="#([\w-]+)"', rw, html)
 
 
+def style_pages(d, full):
+    """Styles sur mesure (releve, etabli…) : découpe la page rendue en plusieurs pages.
+    d["pages"] = [{slug, label, title, keep: [ids de sections]}], d["home_keep"] = ids gardés sur l'accueil."""
+    secs = list(re.finditer(r'<section\b[^>]*>.*?</section>', full, re.S))
+    def sid(m):
+        x = re.search(r'id="([^"]+)"', m.group(0)[:300])
+        return x.group(1) if x else None
+    idmap = {}
+    for pg in d["pages"]:
+        for k in pg["keep"]:
+            idmap[k] = pg["slug"]
+    def cut(keep, sub):
+        out, last = [], 0
+        for m in secs:
+            out.append(full[last:m.start()])
+            if sid(m) in keep:
+                out.append(m.group(0))
+            last = m.end()
+        out.append(full[last:])
+        h = "".join(out)
+        if sub:   # retire l'en-tête d'accueil (tout ce qui précède la première section dans <main>) et met un titre de page
+            mm = re.search(r'(<main\b[^>]*>)(.*?)(?=<section\b)', h, re.S)
+            title = f'<section class="phead" style="padding:clamp(48px,8vw,90px) 0 10px"><div class="w"><h1 style="font-size:.85rem;letter-spacing:.2em;text-transform:uppercase;opacity:.75;margin:0">{e(sub["title"])}</h1></div></section>'
+            if mm:
+                h = h[:mm.start()] + mm.group(1) + title + h[mm.end():]
+            h = h.replace("<title>", f"<title>{e(sub['title'])} | ", 1).replace(f"<title>{e(sub['title'])} | " + e(d["title"]), f"<title>{e(sub['title'])} | {e(d['brand'])}", 1)
+        return h
+    pages = {"": _fixlinks(cut(set(d.get("home_keep", [])) | {"accueil"}, None), None, "", idmap)}
+    for pg in d["pages"]:
+        pref = "../" * (pg["slug"].count("/") + 1)
+        h = cut(set(pg["keep"]), pg)
+        h = h.replace('href="#accueil"', f'href="{pref}"')
+        pages[pg["slug"]] = _fixlinks(h, pg, pref, {**{k: "" for k in d.get("home_keep", [])}, "accueil": "", **idmap})
+    return pages
+
+
 def build_all(d):
     """Rend la page d'accueil et, si le JSON a des "pages", une page par entrée : {slug: html}."""
     idmap = None
@@ -747,7 +783,14 @@ if __name__ == "__main__":
             import importlib
             sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
             mod = importlib.import_module("styles." + d["style"])
-            out.write_text(mod.render(d), encoding="utf-8")
+            full = mod.render(d)
+            if d.get("pages"):
+                for sub, page_html in style_pages(d, full).items():
+                    o = out.parent / sub / "index.html" if sub else out
+                    o.parent.mkdir(parents=True, exist_ok=True)
+                    o.write_text(page_html, encoding="utf-8")
+            else:
+                out.write_text(full, encoding="utf-8")
         else:
             for sub, page_html in build_all(d).items():
                 o = out.parent / sub / "index.html" if sub else out

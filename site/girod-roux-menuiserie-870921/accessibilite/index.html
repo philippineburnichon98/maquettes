@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Accessibilité | Girod-Roux Menuiserie</title>
+<meta name="description" content="Frédéric Girod-Roux, menuiserie, ébénisterie et agencement à La Balme de Thuy (74) : menuiserie intérieure et extérieure, mobilier sur mesure, dressings, cuisines, isolation RGE.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+img,video,iframe{max-width:100%;display:block}a{color:inherit}button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.fyce{position:fixed;left:14px;bottom:14px;z-index:90;display:flex;align-items:center;gap:10px;max-width:calc(100% - 28px);background:rgba(24,22,22,.93);color:#f5f2ec;padding:9px 10px 9px 15px;border-radius:999px;font:400 .76rem/1.35 system-ui,-apple-system,sans-serif;box-shadow:0 10px 30px -12px rgba(0,0,0,.6)}
+.fyce b{font-weight:600}.fyce a{color:#f1d9b0}.fyce button{background:none;border:0;color:#f5f2ec;opacity:.7;cursor:pointer;font-size:1.1rem;padding:0 4px}
+@media(max-width:560px){.fyce{font-size:.68rem;border-radius:12px}}
+.lb{position:fixed;inset:0;z-index:110;background:rgba(10,9,9,.94);display:grid;grid-template-columns:56px 1fr 56px;align-items:center}.lb[hidden]{display:none}
+.lb figure{text-align:center;padding:16px;color:#eee}.lb img{max-width:100%;max-height:82vh;margin:0 auto}.lb figcaption{margin-top:12px;font-size:.95rem;opacity:.85}
+.lb button{background:none;border:0;color:#fff;cursor:pointer;font-size:2.4rem;line-height:1;opacity:.8}.lb .x{position:absolute;top:12px;right:18px}
+.ann{position:fixed;inset:0;z-index:120;background:rgba(0,0,0,.5);display:grid;place-items:center;padding:20px}.ann[hidden]{display:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+:root{--bg:#f7f6f1;--ink:#1d1f1c;--wood:#d9a45b;--deep:#24402f;--rule:#f0c419;--soft:#e7e3d6;--display:'Bricolage Grotesque', system-ui, sans-serif;--mono:'IBM Plex Mono', ui-monospace, monospace}
+body{background:var(--bg);color:var(--ink);font:400 1.02rem/1.62 var(--display);overflow-x:hidden}
+.w{max-width:1220px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:var(--display);font-weight:800;line-height:1.02;letter-spacing:-.02em}
+h2{font-size:clamp(2rem,4.8vw,3.4rem);margin-bottom:16px}
+h3{font-size:1.35rem;margin-bottom:8px}
+.mono{font-family:var(--mono);font-size:.82rem;letter-spacing:.02em}
+.btn{display:inline-block;padding:13px 22px;background:var(--deep);color:#fff;border:2px solid var(--deep);font-weight:700;text-decoration:none;border-radius:3px}
+.btn:hover{background:var(--wood);border-color:var(--wood);color:var(--ink)}
+.btn.light{background:transparent;color:var(--deep)}.btn.light:hover{background:var(--rule);border-color:var(--rule);color:var(--ink)}
+header{background:var(--bg);position:sticky;top:0;z-index:50;box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}
+.top .logo-img{max-width:min(260px,58vw);object-fit:contain}
+.logo-txt{font-weight:800;font-size:1.15rem}
+.top .call{font-weight:700;text-decoration:none;white-space:nowrap}
+/* mètre pliant */
+.metre{background:var(--rule);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);overflow-x:auto;scrollbar-width:none}
+.metre::-webkit-scrollbar{display:none}
+.metre ol{list-style:none;display:flex;min-width:max-content;max-width:1220px;margin:0 auto}
+.metre li{flex:1 0 auto;border-right:2px solid var(--ink);position:relative}
+.metre li:first-child{border-left:2px solid var(--ink)}
+.metre a{display:block;padding:16px 18px 9px;font:600 .9rem var(--mono);text-decoration:none;color:var(--ink);white-space:nowrap;
+background-image:repeating-linear-gradient(90deg,var(--ink) 0 1px,transparent 1px 10px);background-size:100% 7px;background-repeat:no-repeat;background-position:0 0}
+.metre a:hover,.metre a:focus-visible{background-color:#fff6c9}
+.metre li span{position:absolute;right:5px;bottom:2px;font:500 .62rem var(--mono);opacity:.7}
+/* ouverture */
+.hero{padding:clamp(40px,7vw,90px) 0}
+.hero .w{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(26px,5vw,70px);align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.6vw,4.8rem)}
+.hero .lead{font-size:1.15rem;max-width:50ch;margin:22px 0 26px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero figure img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--soft);border-radius:3px}
+.hero figcaption,.tag{display:inline-block;margin-top:10px;background:#fff;border:1px solid rgba(0,0,0,.18);padding:3px 9px;font:500 .8rem var(--mono)}
+.opening-plein .hero .w{grid-template-columns:minmax(0,1fr)}
+.opening-plein .hero figure img{aspect-ratio:21/9}
+@media(max-width:860px){.hero .w{grid-template-columns:minmax(0,1fr)}.opening-plein .hero figure img{aspect-ratio:4/3}}
+.facts{display:flex;flex-wrap:wrap;gap:0;margin-top:30px;border-top:2px solid var(--ink)}
+.facts div{flex:1 1 160px;padding:12px 16px 0 0}.facts b{display:block;font-size:1.5rem;font-weight:800}.facts small{display:block;font:500 .8rem/1.4 var(--mono)}
+/* sections */
+section{padding:clamp(60px,9vw,110px) 0}
+.alt{background:var(--soft)}
+.dark{background:var(--deep);color:#fff}.dark .tag{color:var(--ink)}
+.intro{max-width:64ch;margin-bottom:12px}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px 50px;margin-top:20px}
+@media(max-width:860px){.cols{grid-template-columns:minmax(0,1fr)}}
+.block{margin-top:44px}
+.block>p{max-width:64ch;margin-bottom:14px}
+.shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:18px}
+.shelf button{display:block;width:100%;border:0;padding:0;background:var(--soft);cursor:zoom-in;text-align:left;color:inherit;font:inherit}
+.alt .shelf button{background:#fff}
+.shelf img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.shelf .cap{display:block;padding:8px 2px 0;font-size:.9rem;line-height:1.35}
+.shelf .cap i{display:block;font:normal 500 .74rem var(--mono);opacity:.75;margin-bottom:2px}
+.more{margin-top:14px}.more summary{display:inline-block;cursor:pointer;font:600 .85rem var(--mono);padding:8px 14px;border:2px solid currentColor;border-radius:3px;margin-bottom:14px;list-style:none}
+.more summary::-webkit-details-marker{display:none}.more[open] summary{background:var(--rule);color:var(--ink);border-color:var(--rule)}
+@media(max-width:560px){.shelf{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+/* avant/après */
+.pairs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:30px}
+.cmp{position:relative;overflow:hidden;aspect-ratio:4/3;background:#2a2a2a;border-radius:3px;--p:50%;touch-action:pan-y}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cmp .after{clip-path:inset(0 0 0 var(--p))}
+.cmp .bar{position:absolute;top:0;bottom:0;left:var(--p);width:3px;margin-left:-1px;background:var(--rule);pointer-events:none}
+.cmp .bar::after{content:"◂ ▸";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--rule);color:var(--ink);font:700 .8rem var(--mono);padding:8px 9px;border-radius:999px;white-space:nowrap}
+.cmp input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.cmp input:focus-visible+.bar{outline:3px solid #fff}
+.cmp .lb1,.cmp .lb2{position:absolute;bottom:10px;background:rgba(0,0,0,.65);color:#fff;font:500 .74rem var(--mono);padding:3px 8px;pointer-events:none}
+.cmp .lb1{left:10px}.cmp .lb2{right:10px}
+.pair h3{font-size:1.1rem;margin-top:12px}.pair p{font:500 .8rem var(--mono);opacity:.8}
+/* RGE */
+.rge{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px;margin:26px 0 10px}
+.rge div{border:2px solid #fff;padding:18px 20px}.rge b{display:block;font:700 1.35rem var(--mono);color:var(--rule)}
+.list{list-style:none;columns:2 260px;column-gap:40px;margin-top:16px}.list li{padding:6px 0;border-bottom:1px solid rgba(255,255,255,.25);break-inside:avoid}
+/* contact */
+.contact .w{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(26px,5vw,60px)}
+.contact dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:10px 16px;margin:22px 0 28px}.contact dt{font:600 .85rem var(--mono);padding-top:2px}.contact dd{overflow-wrap:anywhere}
+.contact .map{width:100%;min-height:380px;height:100%;border:2px solid var(--ink);background:var(--soft)}
+@media(max-width:860px){.contact .w{grid-template-columns:minmax(0,1fr)}.contact dl{grid-template-columns:minmax(0,1fr);gap:2px}.contact dd{margin-bottom:10px}}
+footer{background:var(--ink);color:#eee;padding:40px 0 110px;font-size:.9rem}footer .w{display:flex;flex-wrap:wrap;gap:20px 40px;justify-content:space-between}
+footer a{color:#fff}footer .logo-txt{color:#fff}footer p{max-width:48ch}
+</style>
+</head>
+<body class="opening-atelier" data-logo="https://static.wixstatic.com/media/6466fd_982d8680f9d64055ae9119c8332dfcfb~mv2_d_4426_2071_s_2.png" data-logo-vars="--accent,--accent-2">
+<header id="top"><div class="w top"><a href="../" aria-label="Girod-Roux Menuiserie, retour en haut"><img class="logo-img" src="https://static.wixstatic.com/media/6466fd_982d8680f9d64055ae9119c8332dfcfb~mv2_d_4426_2071_s_2.png" alt="Girod-Roux Menuiserie" style="height:52px;width:auto" referrerpolicy="no-referrer" onerror="this.outerHTML='<span class=&quot;logo-txt&quot;>'+this.alt+'</span>'"></a><a class="call" href="tel:+33651301092">06 51 30 10 92</a></div>
+<nav class="metre" aria-label="Navigation principale"><ol><li><a href="../#entreprise">L'entreprise</a><span>10</span></li><li><a href="../#avant-apres">Avant / après</a><span>20</span></li><li><a href="../menuiserie/#interieur">Intérieur</a><span>30</span></li><li><a href="../menuiserie/#exterieur">Extérieur</a><span>40</span></li><li><a href="../mobilier/#mobilier">Mobilier</a><span>50</span></li><li><a href="../isolation-rge/#rge">Isolation RGE</a><span>60</span></li><li><a href="#accessibilite">Accessibilité</a><span>70</span></li><li><a href="../chantiers-mutualises/#mutualises">Chantiers mutualisés</a><span>80</span></li><li><a href="../contact/#devis">Devis</a><span>90</span></li></ol></nav></header>
+<main><section class="phead" style="padding:clamp(48px,8vw,90px) 0 10px"><div class="w"><h1 style="font-size:.85rem;letter-spacing:.2em;text-transform:uppercase;opacity:.75;margin:0">Accessibilité</h1></div></section><section id="accessibilite" class="alt"><div class="w"><h2>Accessibilité</h2><p class="intro">En partenariat avec des sociétés spécialisées, mise aux normes de vos accès pour les personnes à mobilité réduite : escaliers, cheminements, signalétique.</p><div class="block"><h3>Escalier, La Balme de Thuy</h3><div class="shelf"><button data-full="https://static.wixstatic.com/media/6466fd_83bd7cf89c4f4eacb0b7246e5b884b25~mv2_d_4032_3024_s_4_2.jpg" data-cap="La Balme de Thuy : Accessibilité escalier" data-alt="La Balme de Thuy : Accessibilité escalier" aria-label="Agrandir : La Balme de Thuy : Accessibilité escalier"><img src="https://static.wixstatic.com/media/6466fd_83bd7cf89c4f4eacb0b7246e5b884b25~mv2_d_4032_3024_s_4_2.jpg" alt="La Balme de Thuy : Accessibilité escalier" loading="lazy" referrerpolicy="no-referrer"><span class="cap"><i>La Balme de Thuy</i>Accessibilité escalier</span></button><button data-full="https://static.wixstatic.com/media/6466fd_3413e922030443dfb8e7f500a77dd71e~mv2_d_3024_4032_s_4_2.jpg" data-cap="La Balme de Thuy : Accessibilité escalier" data-alt="La Balme de Thuy : Accessibilité escalier" aria-label="Agrandir : La Balme de Thuy : Accessibilité escalier"><img src="https://static.wixstatic.com/media/6466fd_3413e922030443dfb8e7f500a77dd71e~mv2_d_3024_4032_s_4_2.jpg" alt="La Balme de Thuy : Accessibilité escalier" loading="lazy" referrerpolicy="no-referrer"><span class="cap"><i>La Balme de Thuy</i>Accessibilité escalier</span></button><button data-full="https://static.wixstatic.com/media/6466fd_2a6afc51d6e04cde814621ca1fb4fc5e~mv2_d_4032_3024_s_4_2.jpg" data-cap="La Balme de Thuy : Accessibilité escalier" data-alt="La Balme de Thuy : Accessibilité escalier" aria-label="Agrandir : La Balme de Thuy : Accessibilité escalier"><img src="https://static.wixstatic.com/media/6466fd_2a6afc51d6e04cde814621ca1fb4fc5e~mv2_d_4032_3024_s_4_2.jpg" alt="La Balme de Thuy : Accessibilité escalier" loading="lazy" referrerpolicy="no-referrer"><span class="cap"><i>La Balme de Thuy</i>Accessibilité escalier</span></button></div></div></div></section>
+
+</main>
+<footer><div class="w"><div><img class="logo-img" src="https://static.wixstatic.com/media/6466fd_982d8680f9d64055ae9119c8332dfcfb~mv2_d_4426_2071_s_2.png" alt="Girod-Roux Menuiserie" style="height:34px;width:auto" referrerpolicy="no-referrer" onerror="this.outerHTML='<span class=&quot;logo-txt&quot;>'+this.alt+'</span>'"><p style="margin-top:12px">Girod-Roux Menuiserie : menuiserie, ébénisterie et agencement depuis 2012, entre Annecy et Thônes.</p></div><p>Frédéric Girod-Roux, 253 route de Charvex, 74230 La Balme de Thuy<br><a href="tel:+33651301092">06 51 30 10 92</a>, <a href="mailto:fgrmenuiserie@gmail.com">fgrmenuiserie@gmail.com</a><br>RGE Qualibat n° 98857/3511 (menuiseries extérieures) et 98857/7122 (isolation thermique par l'intérieur)<br>Entrepreneur salarié de la SCOP Cabestan, Grenoble</p></div></footer>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo agrandie" hidden><button class="x" aria-label="Fermer">×</button>
+<button class="p" aria-label="Photo précédente">‹</button><figure><img alt="" referrerpolicy="no-referrer"><figcaption></figcaption></figure><button class="n" aria-label="Photo suivante">›</button></div>
+
+<div class="fyce" role="note"><span><b>Proposition de maquette</b> réalisée par <a href="https://fyce.space" target="_blank" rel="noopener">Fyce</a>, Philippine Burnichon, <a href="tel:+33665571672">06 65 57 16 72</a></span>
+<button aria-label="Masquer ce bandeau" onclick="this.parentElement.remove()">×</button></div>
+<script>(()=>{const L=document.getElementById('lb');if(!L)return;const im=L.querySelector('img'),cap=L.querySelector('figcaption');let G=[],cur=0;
+const show=i=>{cur=(i+G.length)%G.length;const g=G[cur];im.src=g.dataset.full;im.alt=g.dataset.alt||'';cap.textContent=g.dataset.cap||'';L.hidden=false;document.body.style.overflow='hidden'};
+const close=()=>{L.hidden=true;document.body.style.overflow=''};
+document.addEventListener('click',ev=>{const b=ev.target.closest('[data-full]');if(!b)return;G=[...document.querySelectorAll('[data-full]')].filter(x=>x.offsetParent!==null);show(G.indexOf(b))});
+document.querySelectorAll('[data-full] img').forEach(i=>i.addEventListener('error',()=>i.closest('[data-full]').remove()));
+L.querySelector('.x').onclick=close;L.querySelector('.p').onclick=()=>show(cur-1);L.querySelector('.n').onclick=()=>show(cur+1);
+L.onclick=ev=>{if(ev.target===L||ev.target.tagName==='FIGURE')close()};
+addEventListener('keydown',ev=>{if(L.hidden)return;if(ev.key==='Escape')close();if(ev.key==='ArrowLeft')show(cur-1);if(ev.key==='ArrowRight')show(cur+1)});})();
+document.querySelectorAll('.cmp').forEach(c=>{const r=c.querySelector('input');const s=()=>c.style.setProperty('--p',r.value+'%');r.addEventListener('input',s);s();
+c.querySelectorAll('img').forEach(i=>i.addEventListener('error',()=>c.closest('.pair').remove()))});
+</script>
+<script>(function(){const src=document.body.dataset.logo;if(!src)return;const i=new Image();i.crossOrigin='anonymous';i.referrerPolicy='no-referrer';
+i.onload=()=>{try{const W=Math.min(240,i.naturalWidth),H=Math.max(1,Math.round(i.naturalHeight*W/i.naturalWidth)),c=document.createElement('canvas');c.width=W;c.height=H;
+const x=c.getContext('2d');x.drawImage(i,0,0,W,H);const d=x.getImageData(0,0,W,H).data;const B={};let op=0;
+for(let k=0;k<d.length;k+=4){if(d[k+3]<200)continue;op++;const r=d[k]/255,g=d[k+1]/255,b=d[k+2]/255,mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,df=mx-mn;
+if(!df)continue;const s=df/(1-Math.abs(2*l-1));if(s<.35||l<.12||l>.78)continue;let h=mx===r?((g-b)/df)%6:mx===g?(b-r)/df+2:(r-g)/df+4;h=(h*60+360)%360;
+const q=Math.round(h/20)%18;const o=B[q]||(B[q]={n:0,r:0,g:0,b:0});o.n++;o.r+=d[k];o.g+=d[k+1];o.b+=d[k+2]}
+const best=Object.values(B).sort((a,b)=>b.n-a.n)[0];if(!best||best.n<op*.03)return;
+let rgb=[best.r/best.n,best.g/best.n,best.b/best.n];const lum=a=>{const f=v=>(v/=255)<=.03928?v/12.92:((v+.055)/1.055)**2.4;return .2126*f(a[0])+.7152*f(a[1])+.0722*f(a[2])};
+let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=>'#'+a.map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
+const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>
+<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
+var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
+</body>
+</html>

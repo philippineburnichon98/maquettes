@@ -608,5 +608,37 @@
    "Depuis 2008, plus de 8 000 clients particuliers et professionnels, aucun litige ni procédure judiciaire.",
    "Des clients institutionnels, des régies et des agences immobilières nous font confiance, parmi lesquels la Ville de Lyon (Direction de l'Équipement), Orange et plusieurs mairies de la métropole."
   ]
- }
+ },
+ "home_keep": [
+  "societe",
+  "parcours",
+  "confiance",
+  "zone"
+ ],
+ "pages": [
+  {
+   "slug": "patrimoine",
+   "label": "Patrimoine",
+   "title": "Patrimoine",
+   "keep": [
+    "patrimoine"
+   ]
+  },
+  {
+   "slug": "nos-diagnostics",
+   "label": "Nos diagnostics",
+   "title": "Nos diagnostics",
+   "keep": [
+    "diagnostics"
+   ]
+  },
+  {
+   "slug": "devis",
+   "label": "Devis",
+   "title": "Demander un devis",
+   "keep": [
+    "devis"
+   ]
+  }
+ ]
 }
