@@ -1,0 +1,3594 @@
+{
+ "slug": "safaryan-avocat-9211ac",
+ "title": "Avocat en droit du travail à Lyon | Safaryan Avocat",
+ "description": "Maître Lilit Safaryan, avocate au Barreau de Lyon : droit du travail et droit social, conseil, contentieux et formation, pour les entreprises, dirigeants et salariés.",
+ "brand": "Safaryan Avocat",
+ "tagline": "Avocate au Barreau de Lyon",
+ "monogram": "LS",
+ "theme": {
+  "look": "editorial",
+  "paper": "#fbf9f6",
+  "paper2": "#f1ebe3",
+  "ink": "#1e2230",
+  "muted": "#5c6170",
+  "accent": "#7a2e3a",
+  "accent2": "#5e222c",
+  "gold": "#a8814a",
+  "heroem": "#e9c9a0",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Manrope\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap"
+ },
+ "hero": {
+  "img": "https://static.wixstatic.com/media/11062b_74ef3d923f9b451492d3ed9278991873f000.jpg",
+  "eyebrow": "Avocate au Barreau de Lyon",
+  "title": "Avocat en droit du travail <em>à Lyon</em>",
+  "lead": "Conseil, contentieux et relations sociales, pour les entreprises, les dirigeants et les salariés.",
+  "cta1": [
+   "Prendre rendez-vous",
+   "https://consultation.avocat.fr/avocat-lyon/lilit-safaryan-46778.html"
+  ],
+  "cta2": [
+   "Nos compétences",
+   "competences/"
+  ]
+ },
+ "figures": [
+  [
+   "10 ans",
+   "d'expérience en droit social"
+  ],
+  [
+   "8",
+   "domaines de compétence"
+  ],
+  [
+   "3",
+   "langues : FR · HY · RU"
+  ],
+  [
+   "Lyon",
+   "et toute la France"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Le cabinet",
+   "title": "Maître Lilit Safaryan, <em class=\"it\">avocate au Barreau de Lyon</em>",
+   "img": "https://static.wixstatic.com/media/db27ee_fb7b9509f7d24ad4a139801bc217dc64~mv2.jpg",
+   "alt": "Maître Lilit Safaryan",
+   "paras": [
+    "Fondé par Maître Lilit SAFARYAN, avocate au Barreau de Lyon, le cabinet SAFARYAN AVOCAT accompagne les entreprises, dirigeants et salariés dans l’ensemble de leurs problématiques en droit du travail et relations sociales.",
+    "Forte de plus de 10 ans d’expérience en droit social, d’abord en entreprise, puis comme avocate, Maître SAFARYAN a développé une approche unique, combinant expertise juridique, vision opérationnelle RH et compréhension fine des enjeux humains.",
+    "Le cabinet intervient en conseil, contentieux et formation, avec une exigence constante d’efficacité, de clarté et de proximité.",
+    "Le cabinet accompagne également une clientèle internationale, grâce à la maîtrise par Maître SAFARYAN du français, de l’arménien et du russe, facilitant ainsi les échanges avec les sociétés étrangères souhaitant s’implanter en France et leurs salariés détachés ou expatriés."
+   ],
+   "link": [
+    "Découvrir le cabinet",
+    "le-cabinet/"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "competences",
+   "eyebrow": "Compétences",
+   "title": "Droit du travail <em class=\"it\">et droit social</em>",
+   "items": [
+    {
+     "kicker": "01",
+     "title": "Droit du travail – Employeur",
+     "link": [
+      "En savoir plus",
+      "competences/employeur/"
+     ]
+    },
+    {
+     "kicker": "02",
+     "title": "Contrôle URSSAF",
+     "link": [
+      "En savoir plus",
+      "competences/controle-urssaf/"
+     ]
+    },
+    {
+     "kicker": "03",
+     "title": "Droit du travail – Salarié",
+     "link": [
+      "En savoir plus",
+      "competences/salaries/"
+     ]
+    },
+    {
+     "kicker": "04",
+     "title": "Cadres et cadres dirigeants",
+     "link": [
+      "En savoir plus",
+      "competences/cadres-dirigeants/"
+     ]
+    },
+    {
+     "kicker": "05",
+     "title": "Droit de la protection sociale",
+     "link": [
+      "En savoir plus",
+      "competences/protection-sociale/"
+     ]
+    },
+    {
+     "kicker": "06",
+     "title": "Droit de la sécurité sociale",
+     "link": [
+      "En savoir plus",
+      "competences/securite-sociale/"
+     ]
+    },
+    {
+     "kicker": "07",
+     "title": "CSE et élus du personnel",
+     "link": [
+      "En savoir plus",
+      "competences/cse/"
+     ]
+    },
+    {
+     "kicker": "08",
+     "title": "Formations en droit du travail",
+     "link": [
+      "En savoir plus",
+      "competences/formations/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "International",
+   "text": "Accompagnement des entreprises étrangères qui s'installent en France et des salariés détachés ou expatriés.",
+   "sub": "Le cabinet vous reçoit en français, en arménien et en russe."
+  },
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Prestations",
+   "title": "Un accompagnement <em class=\"it\">sur mesure</em>",
+   "chips": [
+    "Harcèlement moral",
+    "Droit du travail",
+    "Licenciement d’un salarié : procédure",
+    "Enquête interne en droit social",
+    "Paiement des heures supplémentaires",
+    "Modification du contrat de travail",
+    "Mise en place du CSE",
+    "Rédaction du contrat de travail"
+   ],
+   "note": "<a href=\"prestations/\" style=\"border-bottom:1px solid var(--gold)\">Voir toutes les prestations</a> · <a href=\"abonnement/\" style=\"border-bottom:1px solid var(--gold)\">Abonnement juridique</a>"
+  },
+  {
+   "kind": "blocks",
+   "id": "actualites",
+   "eyebrow": "Actualités",
+   "title": "Les derniers <em class=\"it\">articles</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/11062b_f49e1b8d63be40c0bfe86a2e97b743d8~mv2.jpg",
+     "kicker": "7 mars 2026",
+     "title": "Jour férié au travail : quelles sont les règles pour l’employeur et le salarié ?",
+     "paras": [
+      "Le jour férié occupe une place singulière en droit du travail. Il ne se confond ni avec les congés payés, ni avec le repos hebdomadaire, ni…"
+     ],
+     "link": [
+      "Lire l'article",
+      "actualites/jour-ferie-au-travail/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/db27ee_bf2fea4ffbdc41dba4672a0cf2f645ff~mv2.png",
+     "kicker": "5 mai 2026",
+     "title": "Le cabinet dans la presse",
+     "paras": [
+      "Le cabinet est récemment intervenu dans un contentieux prud'homal à Lyon relatif à un licenciement vexatoire et abusif, ayant donné lieu à…"
+     ],
+     "link": [
+      "Lire l'article",
+      "https://www.safaryan-avocat.com/post/le-cabinet-dans-la-presse"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/11062b_2bbcc20186564b9eb3c9d2b6afc49684~mv2_d_2200_2200_s_2.jpg",
+     "kicker": "9 mars 2026",
+     "title": "Le « test du sac à main » en entretien d’embauche : une pratique illégale qui expose l’employeur",
+     "paras": [
+      "Certaines méthodes de recrutement peuvent surprendre. Parmi elles figure ce que certains recruteurs appellent le « test du sac à main » :…"
+     ],
+     "link": [
+      "Lire l'article",
+      "https://www.safaryan-avocat.com/post/le-test-du-sac-à-main-en-entretien-d-embauche-une-pratique-illégale-qui-expose-l-employeur"
+     ]
+    }
+   ],
+   "note": "<a href=\"actualites/\" style=\"border-bottom:1px solid var(--gold)\">Toutes les actualités</a>"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Rendez-vous <em class=\"it\">au cabinet ou par téléphone</em>",
+   "text": "Réservez votre date sur consultation.avocat.fr et réglez la consultation sur la page honoraires.",
+   "rows": [
+    [
+     "Adresse",
+     "83 avenue Félix Faure<br>69003 Lyon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33780978789\">07 80 97 87 89</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:avocat@cabinet-safaryan.com\">avocat@cabinet-safaryan.com</a>"
+    ]
+   ],
+   "cta": [
+    "Réserver une date",
+    "https://consultation.avocat.fr/avocat-lyon/lilit-safaryan-46778.html"
+   ],
+   "map_q": "83 avenue Félix Faure, 69003 Lyon"
+  }
+ ],
+ "footer": {
+  "about": "SAFARYAN AVOCAT, Maître Lilit Safaryan, avocate au Barreau de Lyon. Droit du travail et droit social : conseil, contentieux et formation.",
+  "contact": [
+   "<a href=\"tel:+33780978789\">07 80 97 87 89</a>",
+   "<a href=\"mailto:avocat@cabinet-safaryan.com\">avocat@cabinet-safaryan.com</a>",
+   "83 avenue Félix Faure, 69003 Lyon"
+  ],
+  "legal": "SELARL SAFARYAN AVOCAT · capital 5 000 € · RCS Lyon 934 822 511 · Barreau de Lyon",
+  "legal_url": "https://www.safaryan-avocat.com/general-5"
+ },
+ "pages": [
+  {
+   "slug": "le-cabinet",
+   "label": "Le cabinet",
+   "title": "Le cabinet",
+   "h1": "Le <em>cabinet</em>",
+   "eyebrow": "Droit du travail & ressources humaines",
+   "lead": "SAFARYAN AVOCAT, Maître Lilit Safaryan, avocate au Barreau de Lyon.",
+   "img": "https://static.wixstatic.com/media/83c1fd_83c8dd9f78f3466281b1748ef656281b~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "fondatrice",
+     "eyebrow": "Avocat fondateur",
+     "title": "Lilit Safaryan, <em class=\"it\">avocate en droit du travail</em>",
+     "img": "https://static.wixstatic.com/media/db27ee_bcc76cf1a67d4099934dc416450962c8~mv2.png",
+     "alt": "Maître Lilit Safaryan",
+     "paras": [
+      "Inscrite auprès du Barreau de Lyon",
+      "Lilit SAFARYAN est avocate au Barreau de Lyon et consacre son activité au droit du travail. Elle accompagne les entreprises, dirigeants, services RH et représentants du personnel dans la gestion et la sécurisation de leurs relations sociales, tant au quotidien que dans des situations sensibles.",
+      "Le cabinet intervient sur l'ensemble du territoire national.",
+      "Après plusieurs années au sein de cabinets lyonnais reconnus pour leur expertise en droit social, elle a développé une pratique centrée sur les relations individuelles et collectives, avec une expérience affirmée en matière de discipline, de ruptures de contrat, d'organisation du travail et d'accompagnement des CSE.",
+      "Elle intervient également dans la conduite d'enquêtes internes portant sur des faits de harcèlement ou de risques psychosociaux.",
+      "Lilit SAFARYAN est titulaire du Certificat d'aptitude à la profession d'avocat délivré par l'École des Avocats Rhône-Alpes.",
+      "Elle est diplômée d'un Master 2 en Droit et Relations Sociales dans l'Entreprise (DRESE) de l'Institut d'Études du Travail de Lyon ainsi que d'un Master 1 en Droit des Affaires de l'Université Grenoble Alpes.",
+      "Son activité couvre l'ensemble des problématiques liées aux relations individuelles et collectives de travail, à la structuration des pratiques RH, à la gestion des situations sensibles et à la formation professionnelle en droit social."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "au-cabinet",
+     "eyebrow": "Au cabinet",
+     "title": "83 avenue Félix Faure, <em class=\"it\">Lyon 3e</em>",
+     "img": "https://static.wixstatic.com/media/db27ee_f7e8350e290f4586a01c6653b0d32c2b~mv2.jpg",
+     "alt": "Maître Lilit Safaryan au cabinet",
+     "paras": [
+      "Le cabinet reçoit sur rendez-vous, au cabinet ou par téléphone, et intervient sur l'ensemble du territoire national.",
+      "Consultations en français, en arménien et en russe."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "partenaires",
+     "eyebrow": "Réseau",
+     "title": "Partenaires <em class=\"it\">et associations</em>",
+     "lead": "Nous collaborons avec des acteurs du droit qui partagent nos valeurs d'exigence, de rigueur et de qualité. Ces partenariats renforcent notre capacité à accompagner nos clients sur des problématiques connexes au droit social.",
+     "items": [
+      {
+       "title": "Cabinet AMS",
+       "paras": [
+        "Fondé par Maître Séphora Amsellem, avocate au Barreau de Lyon : droit immobilier et droit des affaires."
+       ],
+       "link": [
+        "Site du cabinet AMS",
+        "https://www.ams-lawfirm.com/"
+       ]
+      },
+      {
+       "title": "ipolit.",
+       "paras": [
+        "Fondé par Maître Arthur Vasse, avocat au Barreau de Lyon."
+       ],
+       "link": [
+        "Site d'ipolit.",
+        "https://ipolit.law/"
+       ]
+      },
+      {
+       "title": "ANAES",
+       "paras": [
+        "Association nationale des avocats enquêteurs en droit social."
+       ],
+       "link": [
+        "anaesavocats.eu",
+        "https://anaesavocats.eu/"
+       ]
+      },
+      {
+       "title": "Armenian Lawyers Association",
+       "paras": [
+        "Membre de l'association des avocats arméniens."
+       ],
+       "link": [
+        "Voir la fiche",
+        "https://armenianlawyers.org/lawyer/lilit-safaryan/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "reseau",
+     "eyebrow": "Reconnaissance",
+     "title": "Associations <em class=\"it\">et partenaires</em>",
+     "paras": [
+      "Membre de l'Association nationale des avocats enquêteurs en droit social et de l'association des avocats arméniens."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/db27ee_0bf7be0bc16040a19d32b23b87fa1ec8~mv2.png",
+       "Badge association"
+      ],
+      [
+       "https://static.wixstatic.com/media/db27ee_f88ff3772b794f769e9ac3406cde6fe5~mv2.png",
+       "Armenian Lawyers Association"
+      ],
+      [
+       "https://static.wixstatic.com/media/db27ee_3eda8a1bbd4a4536bded34a6af52f43d~mv2.png",
+       "Partenaire"
+      ],
+      [
+       "https://static.wixstatic.com/media/db27ee_0c19756fb3054979b6c6de0378374c9d~mv2.png",
+       "Partenaire"
+      ]
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Coordonnées",
+     "title": "Nous <em class=\"it\">trouver</em>",
+     "text": "Le cabinet intervient sur l'ensemble du territoire national.",
+     "rows": [
+      [
+       "Adresse",
+       "83 avenue Félix Faure<br>69003 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33780978789\">07 80 97 87 89</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:avocat@cabinet-safaryan.com\">avocat@cabinet-safaryan.com</a>"
+      ],
+      [
+       "LinkedIn",
+       "<a href=\"https://fr.linkedin.com/in/lilit-safaryan-b5bab9b6\" target=\"_blank\" rel=\"noopener\">Lilit Safaryan</a>"
+      ],
+      [
+       "Carte de visite",
+       "<a href=\"https://www.safaryan-avocat.com/_files/ugd/83c1fd_4179597b3f1a4db492033541d7b0c139.vcf?dn=Lilit%20Safaryan.vcf\">Télécharger la vCard</a>"
+      ]
+     ],
+     "cta": [
+      "Prendre rendez-vous en ligne",
+      "https://consultation.avocat.fr/avocat-lyon/lilit-safaryan-46778.html"
+     ],
+     "map_q": "83 avenue Félix Faure, 69003 Lyon"
+    }
+   ]
+  },
+  {
+   "slug": "competences",
+   "label": "Compétences",
+   "title": "Compétences",
+   "h1": "Nos <em>compétences</em>",
+   "eyebrow": "Droit du travail et droit social",
+   "lead": "Conseil, contentieux et formation, pour les entreprises, les dirigeants et les salariés.",
+   "img": "https://static.wixstatic.com/media/11062b_38e59a8142f94a6b91a2840fadc2a6abf000.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "liste-competences",
+     "eyebrow": "Domaines d'intervention",
+     "title": "Huit <em class=\"it\">domaines</em>",
+     "items": [
+      {
+       "kicker": "01",
+       "title": "Droit du travail – Employeur",
+       "paras": [
+        "Le cabinet SAFARYAN AVOCAT accompagne les employeurs, dirigeants d'entreprise et services RH dans la gestion de l'ensemble de leurs problématiques en droit du travail,…"
+       ],
+       "link": [
+        "En savoir plus",
+        "employeur/"
+       ]
+      },
+      {
+       "kicker": "02",
+       "title": "Contrôle URSSAF",
+       "paras": [
+        "Un contrôle URSSAF est une procédure encadrée, qui se joue autant sur le fond que sur la forme. Selon le contexte, il peut conduire à un redressement, à des majorations…"
+       ],
+       "link": [
+        "En savoir plus",
+        "controle-urssaf/"
+       ]
+      },
+      {
+       "kicker": "03",
+       "title": "Droit du travail – Salarié",
+       "paras": [
+        "Le cabinet SAFARYAN AVOCAT accompagne et défend les salariés, cadres et représentants du personnel dans l'ensemble de leurs problématiques en droit du travail."
+       ],
+       "link": [
+        "En savoir plus",
+        "salaries/"
+       ]
+      },
+      {
+       "kicker": "04",
+       "title": "Cadres et cadres dirigeants",
+       "paras": [
+        "Accompagnement sur mesure des cadres et cadres dirigeants"
+       ],
+       "link": [
+        "En savoir plus",
+        "cadres-dirigeants/"
+       ]
+      },
+      {
+       "kicker": "05",
+       "title": "Droit de la protection sociale",
+       "paras": [
+        "URSSAF, CPAM, AT/MP : une expertise complète en droit social"
+       ],
+       "link": [
+        "En savoir plus",
+        "protection-sociale/"
+       ]
+      },
+      {
+       "kicker": "06",
+       "title": "Droit de la sécurité sociale",
+       "paras": [
+        "Le Cabinet SAFARYAN AVOCAT intervient dans tous les contentieux et démarches relevant du droit de la sécurité sociale, que ce soit pour les salariés, les employeurs ou…"
+       ],
+       "link": [
+        "En savoir plus",
+        "securite-sociale/"
+       ]
+      },
+      {
+       "kicker": "07",
+       "title": "CSE et élus du personnel",
+       "paras": [
+        "Le CSE est au cœur du dialogue social et joue un rôle essentiel dans la prévention des risques, la santé et la sécurité au travail, ainsi que dans les consultations…"
+       ],
+       "link": [
+        "En savoir plus",
+        "cse/"
+       ]
+      },
+      {
+       "kicker": "08",
+       "title": "Formations en droit du travail",
+       "paras": [
+        "Des formations animées par une avocate en droit social, à destination des entreprises, CSE et professionnels RH."
+       ],
+       "link": [
+        "En savoir plus",
+        "formations/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "competences/employeur",
+   "label": "Droit du travail – Employeur",
+   "title": "Droit du travail – Employeur",
+   "h1": "Votre cabinet pour les employeurs, dirigeants et services RH",
+   "eyebrow": "Compétences",
+   "lead": "Le cabinet SAFARYAN AVOCAT accompagne les employeurs, dirigeants d'entreprise et services RH dans la gestion de l'ensemble de leurs problématiques en droit du travail, tant en conseil qu'en contentieux.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Avocate en droit du travail à Lyon, le cabinet intervient aux côtés des entreprises à chaque étape de la relation de travail, afin de sécuriser les décisions RH, prévenir les risques prud'homaux et défendre efficacement l'employeur en cas de litige."
+      },
+      {
+       "h2": "Avocate en droit du travail – conseil et défense des employeurs à Lyon"
+      },
+      {
+       "p": "Le cabinet SAFARYAN AVOCAT accompagne les employeurs, dirigeants d'entreprise et services RH dans la gestion des problématiques de droit du travail à forts enjeux, tant en conseil qu'en contentieux."
+      },
+      {
+       "p": "Avocate en droit du travail à Lyon, le cabinet intervient à chaque étape de la relation de travail afin de sécuriser juridiquement les décisions de l'employeur, prévenir les risques prud'homaux et assurer la défense de l'entreprise en cas de litige."
+      },
+      {
+       "h2": "Un accompagnement juridique dédié aux employeurs et aux services RH"
+      },
+      {
+       "p": "Les employeurs sont confrontés à des obligations légales complexes et à des situations sensibles pouvant engager leur responsabilité juridique et financière."
+      },
+      {
+       "p": "Le cabinet accompagne notamment les entreprises dans les domaines suivants :"
+      },
+      {
+       "ul": [
+        "procédures de licenciement (faute grave, insuffisance professionnelle, inaptitude, licenciement économique),",
+        "gestion des relations individuelles et collectives de travail,",
+        "relations avec le comité social et économique (CSE, CSEC),",
+        "prévention et traitement des situations de harcèlement moral ou sexuel,",
+        "défense de l'employeur devant le Conseil de prud'hommes et les juridictions compétentes,",
+        "mise en conformité des pratiques et documents RH."
+       ]
+      },
+      {
+       "h2": "Sécurisation des décisions RH et prévention des contentieux"
+      },
+      {
+       "p": "L'intervention du cabinet vise à apporter aux employeurs une analyse juridique rigoureuse, des recommandations opérationnelles et une sécurisation des pratiques RH, adaptées à la taille de l'entreprise et à la nature des enjeux rencontrés."
+      },
+      {
+       "p": "Chaque dossier est traité de manière personnalisée, avec pour objectif de limiter les risques, de maîtriser les conséquences financières et de préserver les intérêts de l'entreprise."
+      },
+      {
+       "h2": "Avocat employeur à Lyon et sur l'ensemble du territoire national"
+      },
+      {
+       "p": "Implanté à Lyon, le cabinet intervient auprès des employeurs sur l'ensemble du territoire national, dans le cadre d'un accompagnement ponctuel ou d'un suivi juridique régulier."
+      },
+      {
+       "p": "Vous souhaitez échanger sur une situation RH à risque ou être accompagné dans vos décisions en droit du travail ?"
+      },
+      {
+       "p": "Les modalités d'intervention du cabinet sont définies sur devis, en fonction de vos besoins."
+      },
+      {
+       "p": "SAFARYAN AVOCAT – Avocate en droit du travail, conseil et défense des employeurs"
+      },
+      {
+       "h2": "Nos formules d'accompagnement en droit du travail"
+      },
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT propose deux modes d'accompagnement en droit du travail afin de s'adapter à vos besoins, à votre rythme et à la structure de votre entreprise :"
+      },
+      {
+       "ul": [
+        "L'abonnement juridique, pour un suivi continu et global",
+        "Les prestations à la carte, pour des interventions ponctuelles ciblées"
+       ]
+      },
+      {
+       "h2": "Abonnement en droit du travail"
+      },
+      {
+       "p": "Une formule complète et souple, pensée pour les entreprises, dirigeants et services RH souhaitant disposer d'un appui juridique régulier et d'une veille sociale permanente."
+      },
+      {
+       "p": "L'abonnement comprend notamment :"
+      },
+      {
+       "ul": [
+        "Assistance juridique (par téléphone ou e-mail)",
+        "Rédaction et validation de vos documents RH (contrats, avenants, courriers, sanctions, ruptures)",
+        "Veille sociale mensuelle et alertes juridiques personnalisées",
+        "Formations incluses (1 à 3 par an selon la formule)",
+        "Audit annuel de conformité sociale",
+        "Tarifs préférentiels sur les contentieux et interventions spécifiques"
+       ]
+      },
+      {
+       "h2": "2. Les prestations à la carte"
+      },
+      {
+       "p": "La formule à la carte s'adresse aux entreprises qui souhaitent une intervention ponctuelle, sur un sujet précis, sans engagement d'abonnement."
+      },
+      {
+       "p": "Chaque prestation fait l'objet d'un devis clair et individualisé."
+      },
+      {
+       "ul": [
+        "Rédaction de contrat de travail, d'avenant ou de clause spécifique",
+        "Vérification et mise à jour de vos documents RH",
+        "Rédaction de courriers juridiques, disciplinaires ou de rupture",
+        "Accompagnement d'un licenciement ou d'une rupture conventionnelle",
+        "Enquête interne (harcèlement, discrimination)",
+        "Assistance en réunion CSE / négociation collective",
+        "Audit ponctuel de conformité sociale ou préparation à contrôle",
+        "Formation ciblée sur un thème précis",
+        "Mise en place et fonctionnement du CSE",
+        "Organisation des élections professionnelles",
+        "Rédaction du règlement intérieur du CSE et procès-verbaux de réunion",
+        "Négociation et rédaction d'accords collectifs : télétravail ; égalité professionnelle et QVCT ; GEPP (gestion des emplois et des parcours professionnels) ; accord de performance collective (APC) ; intéressement, participation ; rupture conventionnelle collective (RCC)",
+        "Réorganisation et PSE",
+        "Accompagnement des consultations du CSE et des échanges avec la DREETS",
+        "Prévention et gestion des conflits collectifs (grève, médiation, communication interne)"
+       ]
+      },
+      {
+       "h2": "Nos domaines d'intervention"
+      },
+      {
+       "h2": "Gestion des salariés et contrat de travail"
+      },
+      {
+       "ul": [
+        "Conseil dans la phase de recrutement",
+        "Rédaction et analyse des contrats de travail",
+        "Préparation et mise en place de l'entretien annuel d'évaluation",
+        "Audit social"
+       ]
+      },
+      {
+       "h2": "Procédure de licenciement et rupture négociée"
+      },
+      {
+       "ul": [
+        "Licenciement personnel",
+        "Licenciement économique",
+        "Rupture conventionnelle (individuelle et collective)",
+        "Procédure disciplinaire",
+        "Accord transactionnel"
+       ]
+      },
+      {
+       "h2": "Les relations collectives du travail"
+      },
+      {
+       "ul": [
+        "Négociation collective",
+        "Aménagement et organisation du temps de travail",
+        "Mise en place du compte épargne-temps",
+        "Mise en place du télétravail",
+        "Activité partielle",
+        "Mise en place et fonctionnement du Comité Social et économique (CSE)",
+        "Élections professionnelles",
+        "Règlement des conflits collectifs",
+        "Règlement intérieur"
+       ]
+      },
+      {
+       "h2": "La santé , la sécurité et la qualité de vie au travail"
+      },
+      {
+       "ul": [
+        "Prévention des risques professionnels",
+        "Médecine du travail",
+        "Procédure de licenciement pour inaptitude et impossibilité de reclassement",
+        "Gestion des ATMP",
+        "Document unique d'évaluation des risques (DUER)"
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_38e59a8142f94a6b91a2840fadc2a6abf000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "competences/controle-urssaf",
+   "label": "Contrôle URSSAF",
+   "title": "Contrôle URSSAF",
+   "h1": "Contrôle URSSAF : accompagnement juridique des employeurs",
+   "eyebrow": "Compétences",
+   "lead": "Un contrôle URSSAF est une procédure encadrée, qui se joue autant sur le fond que sur la forme. Selon le contexte, il peut conduire à un redressement, à des majorations et pénalités, et parfois à des enjeux plus sensibles (travail dissimulé, sous-traitance, solidarité financière).",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Le cabinet accompagne les employeurs à chaque étape, avec une approche rigoureuse, pragmatique et orientée défense."
+      },
+      {
+       "h2": "Notre méthode"
+      },
+      {
+       "p": "Le cabinet a développé une approche spécifiquement adaptée au contentieux et au précontentieux URSSAF, fondée sur une maîtrise approfondie des règles de la sécurité sociale, de la procédure de contrôle et des pratiques de l’organisme de recouvrement."
+      },
+      {
+       "p": "Notre intervention repose sur trois axes complémentaires :"
+      },
+      {
+       "ul": [
+        "une analyse factuelle précise des pratiques de l’entreprise,",
+        "une vigilance particulière portée au respect des exigences procédurales,",
+        "l’élaboration d’une stratégie juridique cohérente sur l’ensemble du dossier, du contrôle initial jusqu’au contentieux, lorsque celui-ci est nécessaire."
+       ]
+      },
+      {
+       "h2": "Étape 1"
+      },
+      {
+       "h2": "1. Audit ciblé et identification des zones à risque"
+      },
+      {
+       "p": "Nous réalisons une analyse des pratiques sociales de l’entreprise afin d’identifier les sujets le plus souvent redressés (frais professionnels, avantages en nature, primes, exonérations, indemnités, statut de certains intervenants, sous-traitance)."
+      },
+      {
+       "h2": "2. Préparation documentaire et stratégie de contrôle"
+      },
+      {
+       "p": "Nous organisons les pièces utiles et la manière de les présenter, afin de sécuriser les échanges avec l’URSSAF et limiter les interprétations défavorables."
+      },
+      {
+       "p": "L’objectif est d’entrer dans le contrôle avec une position claire et cohérente."
+      },
+      {
+       "h2": "Étape 2"
+      },
+      {
+       "h2": "1. Vérification du périmètre et des demandes"
+      },
+      {
+       "p": "Dès réception de l’avis de contrôle, nous vérifions le périmètre (périodes, établissements, thèmes) et les demandes de documents, afin de répondre de façon complète mais maîtrisée."
+      },
+      {
+       "h2": "2. Organisation de la communication avec l’agent de contrôle"
+      },
+      {
+       "p": "Nous fixons une méthode de communication (interlocuteurs, calendrier, traçabilité), essentielle pour éviter les contradictions et préserver les moyens de contestation."
+      },
+      {
+       "h2": "Étape 3"
+      },
+      {
+       "h2": "1. Assistance dans la production des pièces"
+      },
+      {
+       "p": "Nous vous assistons pour répondre aux demandes de l’URSSAF de manière structurée, en évitant les erreurs classiques : documents incomplets, transmissions non maîtrisées, explications maladroites, absence de justification."
+      },
+      {
+       "h2": "2. Gestion des points sensibles"
+      },
+      {
+       "p": "Lorsque le contrôle touche des sujets à risque (frais, avantages, exonérations, sous-traitance, indépendants), nous encadrons les réponses et préparons une argumentation factuelle et juridique."
+      },
+      {
+       "h2": "Étape 7"
+      },
+      {
+       "p": "Certains contrôles peuvent évoluer vers des problématiques plus sensibles."
+      },
+      {
+       "h2": "1. Travail dissimulé et risques aggravés"
+      },
+      {
+       "p": "Nous intervenons pour encadrer la stratégie, limiter les conséquences financières et gérer, si nécessaire, l’articulation avec un volet pénal."
+      },
+      {
+       "h2": "2. Solidarité financière du donneur d’ordre"
+      },
+      {
+       "p": "Nous assistons les entreprises mises en cause en tant que donneur d’ordre ou maître d’ouvrage, notamment en cas de sous-traitance, lorsque l’URSSAF tente d’engager la solidarité financière."
+      },
+      {
+       "h2": "Étape 4"
+      },
+      {
+       "p": "La lettre d’observations est l’étape déterminante : elle fixe les chefs de redressement envisagés, les périodes et les modes de calcul."
+      },
+      {
+       "h2": "1. Analyse juridique et technique des chefs de redressement"
+      },
+      {
+       "p": "Nous vérifions la motivation, les fondements, les calculs, et l’adéquation entre les faits reprochés et les règles applicables."
+      },
+      {
+       "h2": "2. Rédaction d’observations structurées"
+      },
+      {
+       "p": "Nous rédigeons une réponse argumentée, avec pièces à l’appui, et sollicitons si nécessaire des précisions (assiettes, taux, ventilation, méthode de calcul), afin de réduire ou écarter les chefs de redressement."
+      },
+      {
+       "h2": "Étape 5"
+      },
+      {
+       "h2": "1. Analyse de la décision de maintien ou d’abandon"
+      },
+      {
+       "p": "Nous analysons les suites données par l’URSSAF (maintien total/partiel), et évaluons la stratégie la plus pertinente : régularisation, discussion, recours."
+      },
+      {
+       "h2": "2. Préparation des recours"
+      },
+      {
+       "p": "En présence d’une mise en demeure, nous préparons la contestation dans les formes utiles, en sécurisant les délais et la preuve."
+      },
+      {
+       "h2": "Étape 6"
+      },
+      {
+       "p": "En cas de contrainte, l’enjeu est de réagir immédiatement, car l’opposition obéit à des délais stricts."
+      },
+      {
+       "h2": "1. Opposition à contrainte"
+      },
+      {
+       "p": "Nous formons l’opposition et structurons la défense, sur le fond et sur la procédure, afin d’obtenir l’annulation ou la réduction des sommes réclamées lorsque cela est justifié."
+      },
+      {
+       "h2": "2. Contentieux URSSAF"
+      },
+      {
+       "p": "Nous assurons la défense devant le pôle social du tribunal judiciaire, puis, si nécessaire, devant la cour d’appel."
+      }
+     ],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_bcbd249e179746c78fdfde283fce1253f000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "competences/salaries",
+   "label": "Droit du travail – Salarié",
+   "title": "Droit du travail – Salarié",
+   "h1": "Avocat en droit du travail pour les salariés à Lyon",
+   "eyebrow": "Compétences",
+   "lead": "Le cabinet SAFARYAN AVOCAT accompagne et défend les salariés, cadres et représentants du personnel dans l'ensemble de leurs problématiques en droit du travail.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Avocate en droit du travail à Lyon, le cabinet intervient tant en conseil qu'en contentieux, notamment en matière de licenciement, harcèlement moral, discrimination, accident du travail et maladie professionnelle."
+      },
+      {
+       "p": "Chaque situation est analysée de manière personnalisée afin de garantir la défense effective des droits du salarié et la sécurisation de ses intérêts."
+      },
+      {
+       "h2": "Droit du travail – Salariés"
+      },
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT, implanté à Lyon et intervenant sur tout le territoire, défend les salariés, cadres et représentants du personnel dans toutes les problématiques liées à la relation de travail."
+      },
+      {
+       "p": "Nous intervenons aussi bien lors de l'exécution du contrat (conditions de travail, harcèlement, discrimination, rémunération) qu'au moment de sa rupture (licenciement, rupture conventionnelle, transaction)."
+      },
+      {
+       "p": "Chaque dossier fait l'objet d'une analyse approfondie et individualisée, afin de construire une stratégie adaptée à votre situation, à vos objectifs et à votre réalité professionnelle."
+      },
+      {
+       "p": "Notre priorité : protéger vos droits, sécuriser votre avenir professionnel et rétablir un équilibre dans la relation de travail."
+      },
+      {
+       "p": "Nous vous accompagnons à chaque étape — en conseil, en négociation amiable ou devant les juridictions du travail — avec rigueur, écoute et engagement."
+      },
+      {
+       "h2": "Notre approche"
+      },
+      {
+       "ul": [
+        "Un accompagnement personnalisé et humain",
+        "Une expertise solide en droit social et en contentieux prud'homal",
+        "Une stratégie adaptée à chaque situation individuelle",
+        "Une transparence totale sur les honoraires et les étapes de la procédure"
+       ]
+      },
+      {
+       "h2": "Nos domaines d'intervention"
+      },
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT intervient dans toutes les situations liées à la relation de travail, que ce soit pendant l'exécution du contrat, à l'occasion de sa rupture ou en cas de difficultés liées à la santé, au harcèlement ou à la discrimination."
+      },
+      {
+       "p": "Chaque situation est analysée avec rigueur et bienveillance, afin de construire une stratégie adaptée à votre réalité professionnelle et de défendre efficacement vos droits."
+      },
+      {
+       "h2": "1. Rupture du contrat de travail"
+      },
+      {
+       "p": "Le Cabinet vous assiste et vous représente dans toutes les situations de rupture :"
+      },
+      {
+       "ul": [
+        "Contestation d'un licenciement (personnel, économique, nul ou abusif)",
+        "Contestation d'une rupture de période d'essai",
+        "Négociation d'une rupture conventionnelle individuelle ou collective",
+        "Transaction à la suite d'une rupture du contrat de travail",
+        "Procédures disciplinaires et sanctions",
+        "Requalification d'un CDD en CDI",
+        "Non-remise des documents de fin de contrat"
+       ]
+      },
+      {
+       "h2": "2. Santé, sécurité et conditions de travail"
+      },
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT défend les salariés confrontés à des atteintes à leur santé ou à leur dignité au travail :"
+      },
+      {
+       "ul": [
+        "Harcèlement moral ou sexuel",
+        "Discrimination (âge, sexe, origine, activité syndicale, etc.)",
+        "Inaptitude, invalidité ou maladie professionnelle",
+        "Accident du travail et reconnaissance auprès de la CPAM",
+        "Manquement de l'employeur à son obligation de sécurité",
+        "Contentieux de la sécurité sociale",
+        "Défense dans le cadre d'une enquête interne ou d'une procédure disciplinaire injustifiée"
+       ]
+      },
+      {
+       "h2": "3. Exécution du contrat de travail"
+      },
+      {
+       "p": "Le Cabinet intervient également sur toutes les questions liées à la vie du contrat :"
+      },
+      {
+       "ul": [
+        "Modification du contrat ou des conditions de travail",
+        "Paiement du salaire, primes, heures supplémentaires, congés payés",
+        "Travail dissimulé ou non-déclaration",
+        "Absence de transmission des documents de fin de contrat",
+        "Retard dans la signature ou la remise du contrat CDD",
+        "Droit au congé maternité ou paternité",
+        "Transfert du contrat de travail"
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_4340bbcd93f14d92b07da0b006fc5f43f000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "competences/cadres-dirigeants",
+   "label": "Cadres et cadres dirigeants",
+   "title": "Cadres et cadres dirigeants",
+   "h1": "Avocat cadres et dirigeants à Lyon",
+   "eyebrow": "Compétences",
+   "lead": "Accompagnement sur mesure des cadres et cadres dirigeants",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_38e59a8142f94a6b91a2840fadc2a6abf000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "competences/protection-sociale",
+   "label": "Droit de la protection sociale",
+   "title": "Droit de la protection sociale",
+   "h1": "Droit de la protection sociale – Avocat à Lyon",
+   "eyebrow": "Compétences",
+   "lead": "URSSAF, CPAM, AT/MP : une expertise complète en droit social",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT intervient dans tous les domaines de la protection sociale complémentaire, à l’interface du droit du travail et du droit de la sécurité sociale."
+      },
+      {
+       "p": "Nous accompagnons les entreprises, organisations syndicales, CSE, et salariés cadres dans la mise en place, la gestion et la contestation des dispositifs de prévoyance, de retraite complémentaire et de mutuelle d’entreprise."
+      },
+      {
+       "p": "Notre mission : sécuriser les régimes collectifs, garantir les droits des salariés et anticiper les risques sociaux et financiers liés à la protection complémentaire."
+      },
+      {
+       "h2": "Nos domaines d’intervention"
+      },
+      {
+       "ul": [
+        "Régimes de prévoyance et mutuelles d’entreprise",
+        "Mise en place ou révision des régimes collectifs obligatoires",
+        "Négociation et rédaction d’accords collectifs ou de décisions unilatérales",
+        "Vérification de la conformité URSSAF et fiscale",
+        "Gestion des litiges avec les organismes assureurs ou les courtiers",
+        "Retraite complémentaire",
+        "Gestion et contentieux des régimes ARRCO – AGIRC",
+        "Vérification des cotisations et calcul des droits",
+        "Application des conventions collectives et accords de branche",
+        "Accompagnement lors de réorganisations ou transferts de personnel"
+       ]
+      },
+      {
+       "h2": "Contentieux et conformité"
+      },
+      {
+       "ul": [
+        "Contestation des redressements URSSAF liés à la protection complémentaire",
+        "Défense des droits des salariés non affiliés ou mal couverts",
+        "Assistance lors de contrôles ou de réformes des régimes collectifs",
+        "Sécurisation des pratiques en cas de fusion, cession ou réorganisation",
+        "Dialogue social et information du personnel",
+        "Assistance du CSE lors des consultations sur les régimes de protection sociale",
+        "Formation des élus sur les enjeux de la protection complémentaire",
+        "Audit social et accompagnement des DRH dans la mise en conformité"
+       ]
+      },
+      {
+       "h2": "Public concerné"
+      },
+      {
+       "ul": [
+        "Employeurs, dirigeants et services RH, CSE et représentants du personnel",
+        "Salariés cadres et cadres dirigeants",
+        "Organisations syndicales et branches professionnelles"
+       ]
+      },
+      {
+       "h2": "Notre accompagnement"
+      },
+      {
+       "ul": [
+        "Conseil : audit, conformité, stratégie et rédaction d’actes",
+        "Négociation : accompagnement des partenaires sociaux",
+        "Contentieux : représentation devant les juridictions sociales et commerciales"
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_469b0be7b99040b3ad18c2ac3dab2b9bf000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "competences/securite-sociale",
+   "label": "Droit de la sécurité sociale",
+   "title": "Droit de la sécurité sociale",
+   "h1": "Droit de la Sécurité sociale",
+   "eyebrow": "Compétences",
+   "lead": "Le Cabinet SAFARYAN AVOCAT intervient dans tous les contentieux et démarches relevant du droit de la sécurité sociale, que ce soit pour les salariés, les employeurs ou les travailleurs indépendants.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Nous vous accompagnons dans la gestion et la contestation des décisions des organismes sociaux, en matière d'accidents du travail, de maladies professionnelles, de redressements URSSAF ou de prestations sociales."
+      },
+      {
+       "p": "Notre objectif : protéger vos droits, sécuriser vos démarches et anticiper les risques financiers et contentieux."
+      },
+      {
+       "h2": "Nos domaines d'intervention"
+      },
+      {
+       "ul": [
+        "Accident du travail et maladie professionnelle",
+        "Déclaration et reconnaissance du caractère professionnel",
+        "Contestation de la décision de la CPAM (CRA / Pôle social du TJ)",
+        "Faute inexcusable de l'employeur",
+        "Expertise médicale et réparation du préjudice",
+        "Redressements et contrôles URSSAF",
+        "Assistance lors des contrôles",
+        "Contestation des redressements",
+        "Analyse des pratiques sociales et régularisations",
+        "Défense devant les juridictions sociales",
+        "Contentieux de l'incapacité et invalidité",
+        "Taux d'incapacité, rente, indemnités journalières",
+        "Expertise médicale et recours contre les décisions de la CPAM / MDPH",
+        "Suivi des arrêts de travail et reprises contestées",
+        "Cotisations et prestations sociales",
+        "Contestation du calcul des cotisations",
+        "Demande de régularisation auprès des caisses",
+        "Aides et prestations (allocations, IJSS, retraite, invalidité, maternité…)"
+       ]
+      },
+      {
+       "h2": "Notre accompagnement"
+      },
+      {
+       "ul": [
+        "Conseil et prévention : audit des pratiques et analyse de la conformité sociale",
+        "Contentieux : représentation devant le Pôle social du tribunal judiciaire, la CRA, et les juridictions d'appel",
+        "Expertise juridique et médicale : constitution de dossiers solides, accompagnement aux expertises"
+       ]
+      },
+      {
+       "h2": "Public concerné"
+      },
+      {
+       "ul": [
+        "Salariés victimes d'un accident ou d'une maladie professionnelle",
+        "Employeurs confrontés à une faute inexcusable ou un redressement URSSAF",
+        "Travailleurs indépendants / professions libérales",
+        "DRH et services RH en recherche de conformité sociale"
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_696e66ac2dd040b88d58853f7998765af000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "competences/cse",
+   "label": "CSE et élus du personnel",
+   "title": "CSE et élus du personnel",
+   "h1": "Avocat CSE : accompagnement juridique et formation des élus du CSE",
+   "eyebrow": "Compétences",
+   "lead": "Le CSE est au cœur du dialogue social et joue un rôle essentiel dans la prévention des risques, la santé et la sécurité au travail, ainsi que dans les consultations stratégiques de l’entreprise.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "En tant qu’avocate en droit du travail, Maître Lilit SAFARYAN accompagne les CSE et leurs élus dans l’exercice de leurs missions, tant sur le plan juridique que stratégique."
+      },
+      {
+       "h2": "Nos services"
+      },
+      {
+       "h2": "Le Cabinet SAFARYAN AVOCAT accompagne les élus à chaque étape de leur mandat :"
+      },
+      {
+       "h2": "GESTION QUOTIDIENNE DU CSE"
+      },
+      {
+       "p": "Conseiller et sécuriser les actions des élus au quotidien"
+      },
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT accompagne les élus dans la préparation et la tenue des réunions du CSE, la rédaction des procès-verbaux, la gestion des consultations récurrentes et le suivi des obligations légales.."
+      },
+      {
+       "h2": "CONSULTATIONS ET RELATIONS AVEC L’EMPLOYEUR"
+      },
+      {
+       "p": "Anticiper, négocier et agir en toute légalité"
+      },
+      {
+       "p": "Le Cabinet intervient dans toutes les étapes de la relation entre le CSE et la direction : consultations économiques et sociales, accords collectifs, projets de réorganisation, PSE ou ruptures collectives."
+      },
+      {
+       "p": "L’objectif est d’assurer un dialogue social constructif, juridiquement fondé et respectueux des prérogatives de chacun."
+      },
+      {
+       "h2": "SANTÉ, SÉCURITÉ ET CONDITIONS DE TRAVAIL"
+      },
+      {
+       "p": "Protéger la santé et les droits des salariés"
+      },
+      {
+       "p": "Le CSE joue un rôle central dans la prévention des risques professionnels."
+      },
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT conseille et forme les élus sur les procédures d’alerte, les enquêtes internes, le droit d’alerte en matière de danger grave et imminent, et les obligations de l’employeur en matière de santé et sécurité."
+      },
+      {
+       "p": "Le Cabinet apporte un appui concret pour bâtir une culture de prévention durable au sein de l’entreprise."
+      },
+      {
+       "h2": "FORMATION DES ÉLUS CSE"
+      },
+      {
+       "p": "Développer les compétences pour un mandat efficace"
+      },
+      {
+       "p": "Avocate et formatrice, le Cabinet SAFARYAN AVOCAT propose des formations adaptées aux besoins des élus :"
+      },
+      {
+       "ul": [
+        "formation économique du CSE (L2315-63 du Code du travail)",
+        "formation santé, sécurité et conditions de travail (L2315-18)",
+        "modules thématiques : harcèlement, discrimination, IA au travail, communication sociale."
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ],
+     "img": "https://static.wixstatic.com/media/db27ee_b76f57ee9a314058b359853ae4a8a497~mv2.jpg"
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_5134112f03d34ead8d02c772861b479df000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "competences/formations",
+   "label": "Formations en droit du travail",
+   "title": "Formations en droit du travail",
+   "h1": "Avocate et formatrice en droit du travail",
+   "eyebrow": "Compétences",
+   "lead": "Des formations animées par une avocate en droit social, à destination des entreprises, CSE et professionnels RH.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Les formations proposées par le cabinet SAFARYAN AVOCAT sont réalisées sous l'égide d'un organisme partenaire certifié Qualiopi au titre des actions de formation."
+      },
+      {
+       "h2": "Des formations juridiques animées par une avocate-formatrice rattachée à un organisme agréé Qualiopi"
+      },
+      {
+       "p": "Le cabinet SAFARYAN AVOCAT, basé à Lyon, propose des formations en droit du travail conçues et animées par Me Lilit SAFARYAN."
+      },
+      {
+       "p": "Rattaché à un organisme de formation agréé et certifié Qualiopi, le cabinet garantit la conformité aux exigences qualité."
+      },
+      {
+       "p": "Nos formations s'adressent aux entreprises, directions RH, CSE, représentants du personnel et dirigeants."
+      },
+      {
+       "p": "Objectif : rendre le droit du travail accessible, concret et utile pour prévenir les risques."
+      },
+      {
+       "h2": "Une expertise juridique au service de la formation professionnelle"
+      },
+      {
+       "h2": "Les fondamentaux des relations de travail"
+      },
+      {
+       "ul": [
+        "Rédaction et exécution du contrat de travail (CDI, CDD, télétravail, clauses spécifiques)",
+        "Gestion du temps de travail et des heures supplémentaires",
+        "Pouvoir disciplinaire et entretien préalable à sanction ou licenciement",
+        "Rupture du contrat de travail : licenciement, rupture conventionnelle, transaction"
+       ]
+      },
+      {
+       "h2": "Dialogue social et rôle du CSE"
+      },
+      {
+       "ul": [
+        "Missions et moyens du Comité Social et Économique (CSE)",
+        "Consultation, information et expertises légales",
+        "Heures de délégation, protection des représentants du personnel",
+        "Formation « Fonctionnement et rôle du CSE » – prise en charge possible par l'OPCO"
+       ]
+      },
+      {
+       "h2": "Risques psychosociaux et enquêtes internes"
+      },
+      {
+       "ul": [
+        "Harcèlement moral ou sexuel, discriminations, violences internes",
+        "Obligations de l'employeur et procédure d'enquête interne",
+        "Rôle de l'avocat enquêteur et articulation avec le CSE",
+        "Mesures de prévention et politique interne d'alerte"
+       ]
+      },
+      {
+       "h2": "Santé, sécurité et risques psychosociaux"
+      },
+      {
+       "ul": [
+        "Obligation de sécurité de l'employeur et prévention des risques",
+        "Harcèlement moral et sexuel, discriminations, violences au travail",
+        "Procédure d'enquête interne et rôle de l'avocat enquêteur",
+        "Gestion des alertes internes et du signalement éthique (loi Waserman)",
+        "Évaluation des risques professionnels (DUERP, document unique, politique de prévention)"
+       ]
+      },
+      {
+       "h2": "Management, encadrement et droit du travail appliqué"
+      },
+      {
+       "ul": [
+        "Encadrer sans enfreindre le droit du travail : droits, devoirs et marges de manœuvre du manager",
+        "Entretien annuel, professionnel, disciplinaire : les bonnes pratiques juridiques",
+        "Communication interne et climat social : prévenir les tensions, agir dans le cadre légal",
+        "Formation des cadres et dirigeants : pilotage RH, responsabilité et conformité"
+       ]
+      },
+      {
+       "h2": "Actualités sociales et réformes"
+      },
+      {
+       "ul": [
+        "Actualité du Code du travail et de la jurisprudence",
+        "Évolutions du forfait jours, télétravail, IA au travail",
+        "Réforme de la retraite, apprentissage et formation professionnelle",
+        "Loi sur la transparence salariale européenne (directive 2026)",
+        "Nouveaux droits numériques du salarié et enjeux de l'IA générative en entreprise"
+       ]
+      },
+      {
+       "h2": "Spécialisations thématiques sur demande"
+      },
+      {
+       "ul": [
+        "Droit disciplinaire et gestion des fautes professionnelles",
+        "Procédure prud'homale et stratégie de défense de l'employeur ou du salarié",
+        "Égalité professionnelle femmes-hommes et index d'égalité",
+        "Reclassement et inaptitude médicale",
+        "Licenciement collectif et PSE (plan de sauvegarde de l'emploi)",
+        "Sous-traitance, co-emploi et travail dissimulé",
+        "Droit social européen et international du travail"
+       ]
+      },
+      {
+       "h2": "Des formations certifiables et financées"
+      },
+      {
+       "p": "Nos formations sont dispensées en partenariat avec un organisme de formation agréé et certifié Qualiopi."
+      },
+      {
+       "p": "Grâce à ce rattachement, vos formations peuvent être prises en charge par votre OPCO (Afdas, Atlas, Akto, Uniformation, etc.)"
+      },
+      {
+       "p": "Chaque session inclut :"
+      },
+      {
+       "ul": [
+        "un programme détaillé et un support stagiaire remis aux participants,",
+        "une attestation de formation,",
+        "une évaluation des acquis,",
+        "la possibilité de formation en présentiel à Lyon ou à distance en visioconférence."
+       ]
+      },
+      {
+       "h2": "Pourquoi choisir SAFARYAN AVOCAT ?"
+      },
+      {
+       "h2": "Une expertise juridique de terrain"
+      },
+      {
+       "p": "Avocate en droit du travail depuis plus de 10 ans, Me SAFARYAN met son expérience du contentieux social au service d'une pédagogie concrète et pragmatique."
+      },
+      {
+       "h2": "Une approche pédagogique claire et engageante"
+      },
+      {
+       "p": "Cas pratiques, mises en situation, quiz interactifs et analyse de décisions récentes rendent chaque formation vivante et immédiatement opérationnelle."
+      },
+      {
+       "h2": "Une démarche qualité et conformité"
+      },
+      {
+       "p": "En travaillant avec un organisme partenaire certifié Qualiopi, le cabinet garantit la qualité, la traçabilité et la conformité des formations proposées."
+      },
+      {
+       "h2": "Contact et demande de devis"
+      },
+      {
+       "p": "Vous souhaitez organiser une formation en droit du travail pour votre entreprise, vos élus du CSE ou votre service RH ?"
+      },
+      {
+       "p": "Contactez-nous pour recevoir :"
+      },
+      {
+       "ul": [
+        "un programme personnalisé,",
+        "un devis gratuit,",
+        "un accompagnement administratif OPCO."
+       ]
+      },
+      {
+       "h2": "Obtenir un devis d'honoraires"
+      },
+      {
+       "p": "Les formations du Cabinet SAFARYAN s'inscrivent dans une démarche de conformité juridique et de qualité pédagogique."
+      },
+      {
+       "p": "Elles peuvent être intégrées à votre plan de développement des compétences et faire l'objet d'une convention de formation sur demande."
+      }
+     ],
+     "back": [
+      "← Toutes les compétences",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_096a16ed4fae4a58b83f413906c4278df000.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations",
+   "label": "Prestations",
+   "title": "Prestations",
+   "h1": "Nos <em>prestations</em>",
+   "eyebrow": "Accompagnement sur mesure",
+   "lead": "Des interventions ciblées, en conseil comme en contentieux.",
+   "img": "https://static.wixstatic.com/media/11062b_a3d0e4b5611840269077d5a4b962fccd~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "liste-prestations",
+     "eyebrow": "À la carte",
+     "title": "Huit <em class=\"it\">prestations</em>",
+     "items": [
+      {
+       "title": "Harcèlement moral",
+       "paras": [
+        "Harcèlement moral au travail : prévenir, agir et protéger les droits"
+       ],
+       "link": [
+        "En savoir plus",
+        "harcelement-moral/"
+       ]
+      },
+      {
+       "title": "Droit du travail",
+       "paras": [
+        "Le droit du travail encadre l’ensemble des relations individuelles et collectives entre employeurs et salariés."
+       ],
+       "link": [
+        "En savoir plus",
+        "droit-du-travail/"
+       ]
+      },
+      {
+       "title": "Licenciement d’un salarié : procédure",
+       "paras": [
+        "Le licenciement est une rupture du contrat de travail à l’initiative de l’employeur, strictement encadrée par le Code du travail."
+       ],
+       "link": [
+        "En savoir plus",
+        "licenciement/"
+       ]
+      },
+      {
+       "title": "Enquête interne en droit social",
+       "paras": [
+        "Votre avocat enquêteur en enquête interne d’entreprise basé à Lyon intervient sur l’ensemble du territoire national"
+       ],
+       "link": [
+        "En savoir plus",
+        "enquete-interne/"
+       ]
+      },
+      {
+       "title": "Paiement des heures supplémentaires",
+       "paras": [
+        "Heures supplémentaires : faites valoir vos droits avec un avocat en droit du travail à Lyon"
+       ],
+       "link": [
+        "En savoir plus",
+        "heures-supplementaires/"
+       ]
+      },
+      {
+       "title": "Modification du contrat de travail",
+       "paras": [
+        "La modification du contrat de travail suppose l'accord du salarié et de l'employeur, donc des deux parties."
+       ],
+       "link": [
+        "En savoir plus",
+        "modification-contrat/"
+       ]
+      },
+      {
+       "title": "Mise en place du CSE",
+       "paras": [
+        "Ce que dit la loi, vos obligations et les risques en cas d'oubli"
+       ],
+       "link": [
+        "En savoir plus",
+        "mise-en-place-cse/"
+       ]
+      },
+      {
+       "title": "Rédaction du contrat de travail",
+       "paras": [
+        "Rédaction du contrat de travail : sécurisez votre relation de travail dès l'embauche"
+       ],
+       "link": [
+        "En savoir plus",
+        "contrat-de-travail/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "prestations/harcelement-moral",
+   "label": "Harcèlement moral",
+   "title": "Harcèlement moral",
+   "h1": "Votre Avocat en harcèlement moral et sexuel",
+   "eyebrow": "Prestations",
+   "lead": "Harcèlement moral au travail : prévenir, agir et protéger les droits",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT, intervient auprès des salariés, cadres, employeurs et CSE pour identifier, prévenir et traiter les situations de harcèlement moral au sein de l’entreprise."
+      },
+      {
+       "h2": "1. Qu’est-ce que le harcèlement moral ?"
+      },
+      {
+       "p": "Selon l’article L.1152-1 du Code du travail:"
+      },
+      {
+       "p": "Aucun salarié ne doit subir des agissements répétés ayant pour objet ou pour effet une dégradation de ses conditions de travail susceptible de porter atteinte à ses droits, à sa dignité, d’altérer sa santé physique ou mentale ou de compromettre son avenir professionnel."
+      },
+      {
+       "h2": "Manifestations"
+      },
+      {
+       "p": "Le harcèlement moral peut se manifester par :"
+      },
+      {
+       "ul": [
+        "des critiques ou humiliations répétées,",
+        "une marginalisation ou mise à l’écart,",
+        "des pressions ou consignes abusives,",
+        "une dégradation volontaire des conditions de travail,",
+        "ou tout comportement visant à déstabiliser un salarié."
+       ]
+      },
+      {
+       "h2": "L’obligation de prévention de l’employeur"
+      },
+      {
+       "p": "L’employeur est tenu, en vertu des articles L.4121-1 et suivants du Code du travail, de prendre toutes les mesures nécessaires pour assurer la sécurité et la santé physique et mentale des salariés."
+      },
+      {
+       "p": "Cela implique :"
+      },
+      {
+       "ul": [
+        "la prévention des risques psychosociaux (RPS),",
+        "la formation et l’information des managers,",
+        "la mise en place d’une procédure d’alerte et d’une enquête interne en cas de signalement."
+       ]
+      },
+      {
+       "h2": "Notre accompagnement"
+      },
+      {
+       "ul": [
+        "Salariés / cadres: Conseil, constitution du dossier, action en reconnaissance de harcèlement moral, résiliation judiciaire, nullité du licenciement.",
+        "Employeurs / DRH: Analyse des risques, accompagnement dans les signalements et enquêtes internes, gestion du contentieux.",
+        "CSE / représentants du personnel: Assistance lors des alertes, participation aux enquêtes internes, actions préventives."
+       ]
+      },
+      {
+       "h2": "L'importance de l'enquête interne (citation)"
+      },
+      {
+       "p": "L’enquête interne permet de vérifier les faits signalés et d’agir rapidement pour prévenir toute aggravation de la situation."
+      },
+      {
+       "p": "Conduite par un avocat enquêteur indépendant, elle garantit la neutralité, la confidentialité et la recevabilité juridique du rapport."
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_fffcbb67fae4409792283f001a09a600~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations/droit-du-travail",
+   "label": "Droit du travail",
+   "title": "Droit du travail",
+   "h1": "Avocat en droit du travail à Lyon",
+   "eyebrow": "Prestations",
+   "lead": "Le droit du travail encadre l’ensemble des relations individuelles et collectives entre employeurs et salariés.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Il s’agit d’un droit technique, évolutif et fortement contentieux, dont la maîtrise suppose une connaissance approfondie des textes, de la jurisprudence et des pratiques juridictionnelles."
+      },
+      {
+       "p": "Le cabinet Safaryan Avocat, implanté à Lyon, intervient exclusivement en droit du travail et droit social, tant en conseil qu’en contentieux, au bénéfice des salariés, cadres, dirigeants, entreprises et représentants du personnel."
+      },
+      {
+       "h2": "Contacter le cabinet – Droit du travail"
+      },
+      {
+       "h2": "Cabinet d’avocat en droit du travail et droit social"
+      },
+      {
+       "p": "Le cabinet accompagne ses clients à chaque étape de la relation de travail, de la conclusion du contrat à sa rupture, ainsi que dans la gestion des litiges individuels et collectifs."
+      },
+      {
+       "p": "L’intervention du cabinet repose sur une analyse juridique rigoureuse, une stratégie adaptée aux enjeux du dossier et une parfaite maîtrise des procédures prud’homales et sociales."
+      },
+      {
+       "p": "L’objectif est d’apporter des solutions juridiquement sécurisées, tout en tenant compte des réalités humaines et économiques propres à chaque situation."
+      },
+      {
+       "h2": "Que fait un avocat en droit du travail ?"
+      },
+      {
+       "p": "L’avocat en droit du travail intervient aussi bien en amont d’un litige qu’en phase contentieuse."
+      },
+      {
+       "p": "Il assiste notamment ses clients pour :"
+      },
+      {
+       "ul": [
+        "la rédaction, l’analyse et la sécurisation des contrats de travail",
+        "la gestion de l’exécution du contrat (modification des fonctions, rémunération, temps de travail)",
+        "les procédures disciplinaires et les ruptures du contrat de travail",
+        "la prévention et le traitement des situations de harcèlement ou de discrimination",
+        "la défense devant le Conseil de prud’hommes et la Cour d’appel",
+        "l’accompagnement lors des contrôles et contentieux URSSAF",
+        "la gestion des relations collectives et du fonctionnement du CSE"
+       ]
+      },
+      {
+       "h2": "Quand faire appel à un avocat en droit du travail à Lyon ?"
+      },
+      {
+       "p": "Il est vivement recommandé de consulter un avocat en droit du travail dès l’apparition d’une difficulté, et non uniquement lorsque le litige est engagé."
+      },
+      {
+       "p": "L’intervention d’un avocat est particulièrement opportune dans les situations suivantes :"
+      },
+      {
+       "ul": [
+        "convocation à un entretien préalable ou notification d’une mise à pied",
+        "projet ou contestation de licenciement",
+        "litige relatif à la rémunération, aux heures supplémentaires ou au temps de travail",
+        "situation de harcèlement moral ou sexuel",
+        "discrimination ou atteinte aux droits fondamentaux du salarié",
+        "contrôle URSSAF ou réception d’une lettre d’observations",
+        "conflit collectif ou difficulté liée au fonctionnement du CSE"
+       ]
+      },
+      {
+       "h2": "Contentieux prud’homal : une défense rigoureuse et individualisée"
+      },
+      {
+       "p": "Le contentieux du travail obéit à des règles procédurales strictes et à des délais précis."
+      },
+      {
+       "p": "Le cabinet Safaryan Avocat assure une défense complète devant le Conseil de prud’hommes et la Cour d’appel."
+      },
+      {
+       "p": "Chaque dossier fait l’objet :"
+      },
+      {
+       "ul": [
+        "d’une analyse approfondie des faits et des pièces",
+        "d’une évaluation des chances de succès et des risques financiers",
+        "d’une stratégie procédurale adaptée aux objectifs du client",
+        "d’une rédaction rigoureuse des conclusions",
+        "d’une représentation effective à l’audience"
+       ]
+      },
+      {
+       "h2": "Droit du travail et entreprises : sécurisation et prévention des risques"
+      },
+      {
+       "p": "Le cabinet accompagne également les employeurs et dirigeants dans la gestion quotidienne et stratégique de leurs relations sociales."
+      },
+      {
+       "p": "À ce titre, il intervient notamment pour :"
+      },
+      {
+       "ul": [
+        "l’audit social et la sécurisation des pratiques RH",
+        "l’accompagnement des procédures disciplinaires et de licenciement",
+        "la gestion des relations avec les représentants du personnel",
+        "l’assistance dans le cadre des restructurations et réorganisations",
+        "la prévention et le traitement des risques contentieux et URSSAF"
+       ]
+      },
+      {
+       "h2": "Honoraires d’un avocat en droit du travail"
+      },
+      {
+       "p": "Les honoraires sont fixés conformément aux règles déontologiques de la profession d’avocat, dans un souci de transparence et de prévisibilité."
+      },
+      {
+       "p": "Ils peuvent être déterminés selon différentes modalités, en fonction de la nature et de la complexité du dossier :"
+      },
+      {
+       "ul": [
+        "honoraire forfaitaire",
+        "honoraire au temps passé",
+        "honoraire de résultat, lorsque cela est juridiquement possible"
+       ]
+      },
+      {
+       "h2": "Avocat en droit du travail à Lyon et en région Auvergne-Rhône-Alpes"
+      },
+      {
+       "p": "Le cabinet intervient principalement à Lyon et dans l’ensemble de la métropole lyonnaise, ainsi que dans plusieurs villes de la région."
+      },
+      {
+       "h2": "Avocat en droit du travail à Lyon"
+      },
+      {
+       "p": "Intervention devant le Conseil de prud’hommes de Lyon et les juridictions compétentes."
+      },
+      {
+       "h2": "Avocat en droit du travail à Grenoble"
+      },
+      {
+       "p": "Accompagnement des salariés et employeurs en Isère, tant en conseil qu’en contentieux."
+      },
+      {
+       "h2": "Avocat en droit du travail à Vienne"
+      },
+      {
+       "p": "Intervention en Nord-Isère et sur les litiges relevant des juridictions locales."
+      },
+      {
+       "h2": "Intervention en région Auvergne-Rhône-Alpes"
+      },
+      {
+       "p": "Le cabinet intervient plus largement sur l’ensemble du territoire régional, selon les besoins du dossier."
+      },
+      {
+       "h2": "Questions fréquentes en droit du travail"
+      },
+      {
+       "h2": "Quels sont les honoraires d’un avocat en droit du travail ?"
+      },
+      {
+       "p": "Les honoraires dépendent de la nature du dossier, de sa complexité et des enjeux."
+      },
+      {
+       "p": "Une convention d’honoraires est systématiquement proposée avant toute intervention."
+      },
+      {
+       "h2": "Peut-on contester un licenciement abusif ?"
+      },
+      {
+       "p": "Oui, sous réserve du respect des délais de prescription et de l’analyse des motifs invoqués par l’employeur."
+      },
+      {
+       "h2": "Quand saisir le Conseil de prud’hommes ?"
+      },
+      {
+       "p": "La saisine dépend de la nature du litige."
+      },
+      {
+       "p": "Les délais varient selon les demandes formulées."
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations/licenciement",
+   "label": "Licenciement d’un salarié : procédure",
+   "title": "Licenciement d’un salarié : procédure",
+   "h1": "Licenciement d’un salarié : motifs légaux, procédure et risques en droit du travail",
+   "eyebrow": "Prestations",
+   "lead": "Le licenciement est une rupture du contrat de travail à l’initiative de l’employeur, strictement encadrée par le Code du travail.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Quel que soit le motif invoqué (disciplinaire, insuffisance, inaptitude, économique), l’employeur doit respecter une procédure impérative et fonder sa décision sur une cause réelle et sérieuse."
+      },
+      {
+       "p": "La lettre de licenciement, notamment, fixe les limites du litige et conditionne la sécurité juridique de la rupture."
+      },
+      {
+       "p": "Cette page présente les principaux motifs de licenciement, les étapes de la procédure et les risques en cas d’irrégularité, à la lumière des textes et de la jurisprudence."
+      },
+      {
+       "h2": "Les grands types de licenciement (vue d’ensemble)"
+      },
+      {
+       "h2": "1/ Le licenciement pour motif personnel"
+      },
+      {
+       "p": "(- disciplinaire, insuffisance, inaptitude, perturbation fonctionnement…"
+      },
+      {
+       "h2": "2/ Licenciement pour motif économique"
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_fffcbb67fae4409792283f001a09a600~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations/enquete-interne",
+   "label": "Enquête interne en droit social",
+   "title": "Enquête interne en droit social",
+   "h1": "Enquête interne en entreprise – Harcèlement, discrimination et RPS",
+   "eyebrow": "Prestations",
+   "lead": "Votre avocat enquêteur en enquête interne d’entreprise basé à Lyon intervient sur l’ensemble du territoire national",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Adhérent de l’Association des Avocats enquêteurs en droit social"
+      },
+      {
+       "h2": "Pourquoi déclencher une enquête interne ?"
+      },
+      {
+       "ul": [
+        "Signalement de harcèlement moral, sexuel, d’agissements sexistes, de discriminations ou de violences au travail.",
+        "L’employeur est tenu, en vertu des articles L.4121-1 et L.4121-2 du Code du travail, d’assurer la protection de la santé physique et mentale des salariés.",
+        "L’absence ou la mauvaise conduite d’une enquête peut engager la responsabilité de l’entreprise et compromettre la sécurité juridique des décisions prises."
+       ]
+      },
+      {
+       "h2": "Les atouts d’une enquête menée par un avocat enquêteur"
+      },
+      {
+       "ul": [
+        "Neutralité et indépendance : absence de lien hiérarchique ou d’intérêt personnel.",
+        "Confidentialité et secret professionnel : les échanges et entretiens sont protégés.",
+        "Respect du contradictoire et des droits de chaque partie.",
+        "Sécurisation du rapport d’enquête : Le rapport est remis à celui qui a ordonné l'enquête qui peut l'exploiter en interne ou devant les juridictions prud’homales couvert par le secret professionnel.",
+        "Crédibilité externe : gage de sérieux vis-à-vis de la direction, des salariés et de l’Inspection du travail."
+       ]
+      },
+      {
+       "h2": "Une méthodologie structurée en 5 étapes"
+      },
+      {
+       "ul": [
+        "1. Analyse du signalement : Étude du contexte, vérification de la recevabilité, définition du périmètre de l’enquête.",
+        "2. Élaboration du protocole : Signature d’une convention de mission, planification des entretiens, rappel des droits et devoirs.",
+        "3. Entretiens et recueil des éléments : Auditions confidentielles des personnes concernées et témoins, analyse documentaire.",
+        "4. Analyse et synthèse : Mise en perspective des faits, évaluation juridique, respect du contradictoire.",
+        "5. Rapport d’enquête : Remise d’un rapport circonstancié et confidentiel, utilisable dans le cadre disciplinaire ou contentieux."
+       ]
+      },
+      {
+       "h2": "Un accompagnement sur mesure"
+      },
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT intervient à chaque étape du processus :"
+      },
+      {
+       "ul": [
+        "Employeurs / DRH : Pilotage complet de l’enquête, sécurisation juridique, gestion du risque contentieux.",
+        "CSE et représentants du personnel : Aide à la mise en place ou au contrôle d’une enquête, défense en cas d’atteinte à la représentation du personnel.",
+        "Salariés : Assistance et accompagnement en cas de participation à une enquête ou de procédure disciplinaire."
+       ]
+      },
+      {
+       "h2": "Pourquoi confier votre enquête interne à un avocat en droit social ?"
+      },
+      {
+       "p": "Garantir la neutralité et la recherche de la vérité."
+      },
+      {
+       "p": "Externaliser une enquête interne à un avocat en droit social permet d’assurer une neutralité absolue, une objectivité totale et une recherche rigoureuse de la vérité."
+      },
+      {
+       "p": "L’avocat enquêteur intervient comme tiers indépendant, sans lien hiérarchique ni intérêt personnel, garantissant ainsi la confiance des parties et la crédibilité du processus."
+      },
+      {
+       "p": "Dans sa décision-cadre du 5 février 2025, le Défenseure des droits a rappelé l’importance pour l’employeur de choisir un enquêteur disposant de solides compétences juridiques, essentielles pour qualifier les faits signalés et respecter le cadre légal applicable."
+      },
+      {
+       "p": "L’avocat, formé au droit du travail et à la déontologie, maîtrise les notions de preuve, de contradictoire et de responsabilité, garantissant une analyse fiable et exploitable."
+      },
+      {
+       "h2": "LES DIFFÉRENTS TYPES D’ENQUÊTES INTERNES"
+      },
+      {
+       "p": "Le cabinet SAFARYAN AVOCAT intervient dans tous les domaines où la neutralité et la rigueur juridique sont indispensables :"
+      },
+      {
+       "ul": [
+        "Enquête harcèlement moral : comportements répétés susceptibles d’altérer la santé physique ou mentale d’un salarié.",
+        "Enquête harcèlement sexuel ou agissements sexistes : propos, gestes, comportements à connotation sexuelle ou sexiste.",
+        "Enquête discrimination : traitement différencié fondé sur un critère prohibé (origine, sexe, âge, opinions, etc.).",
+        "Enquête relative à des agissements inappropriés ou des conflits interpersonnels : situations de tension au sein d’une équipe nécessitant un diagnostic neutre.",
+        "Enquête sur les risques psychosociaux (RPS) : analyse globale de situations de souffrance au travail ou d’atteinte à la QVT (qualité de vie au travail)."
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ],
+     "img": "https://static.wixstatic.com/media/db27ee_396397753f1d4d99b52504a47a0de4e7~mv2.jpg"
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_a3d0e4b5611840269077d5a4b962fccd~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations/heures-supplementaires",
+   "label": "Paiement des heures supplémentaires",
+   "title": "Paiement des heures supplémentaires",
+   "h1": "Votre Avocat en paiement des heures supplementaires",
+   "eyebrow": "Prestations",
+   "lead": "Heures supplémentaires : faites valoir vos droits avec un avocat en droit du travail à Lyon",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Le Cabinet SAFARYAN AVOCAT, intervient auprès des salariés, cadres, employeurs et CSE pour identifier, prévenir et traiter les situations de harcèlement moral au sein de l'entreprise."
+      },
+      {
+       "h2": "Qu'est-ce qu'une heure supplémentaire ?"
+      },
+      {
+       "p": "Les heures effectuées au-delà de 35 heures par semaine sont des heures supplémentaires, ouvrant droit à une majoration de salaire :"
+      },
+      {
+       "ul": [
+        "+25 % de la 36e à la 43e heure,",
+        "+50 % à partir de la 44e heure."
+       ]
+      },
+      {
+       "h2": "Le contingent annuel"
+      },
+      {
+       "p": "Les heures supplémentaires peuvent être accomplies dans la limite d'un certain nombre d'heures effectuées par an."
+      },
+      {
+       "p": "Cette limite d'heures est appelée contingent annuel."
+      },
+      {
+       "p": "Le nombre d'heures prévu dans le contingent annuel est défini par convention collective ou accord collectif d'entreprise ou accord de branche étendu."
+      },
+      {
+       "p": "Si aucun de ces 3 accords n'existe dans l'entreprise, le nombre maximal d'heures supplémentaires est de 220 heures par salarié et par an."
+      },
+      {
+       "p": "Les heures supplémentaires sont comptabilisées par semaine civile."
+      },
+      {
+       "h2": "Comment les prouver ?"
+      },
+      {
+       "p": "Le salarié doit présenter des éléments précis et concordants (plannings, mails, relevés d'heures, fiches de poste, etc.)."
+      },
+      {
+       "p": "L'employeur doit alors répondre par ses propres éléments de contrôle des horaires."
+      },
+      {
+       "h2": "Notre accompagnement"
+      },
+      {
+       "p": "Le cabinet intervient à chaque étape :"
+      },
+      {
+       "ul": [
+        "Vérification du décompte des heures,",
+        "Rédaction de la mise en demeure,",
+        "Négociation amiable avec l'employeur,",
+        "Rédaction et dépôt de la saisine prud'homale,",
+        "Représentation devant le Conseil de prud'hommes."
+       ]
+      },
+      {
+       "h2": "Pourquoi faire appel à un avocat ?"
+      },
+      {
+       "ul": [
+        "Sécuriser votre dossier avant toute action,",
+        "Chiffrer avec précision les sommes dues,",
+        "Maximiser vos chances de succès devant le Conseil de prud'hommes."
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_fffcbb67fae4409792283f001a09a600~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations/modification-contrat",
+   "label": "Modification du contrat de travail",
+   "title": "Modification du contrat de travail",
+   "h1": "Votre Avocat en modification du contrat de travail",
+   "eyebrow": "Prestations",
+   "lead": "",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "h2": "CE QUE DIT LA LOI?"
+      },
+      {
+       "p": "La modification du contrat de travail suppose l'accord du salarié et de l'employeur, donc des deux parties."
+      },
+      {
+       "p": "Elle ne peut pas être imposée unilatéralement par l'employeur lorsque le changement touche un élément essentiel du contrat, comme :"
+      },
+      {
+       "ul": [
+        "la rémunération,",
+        "la qualification ou les fonctions,",
+        "la durée ou le lieu de travail,",
+        "ou encore les horaires s'ils modifient l'équilibre de vie."
+       ]
+      },
+      {
+       "h2": "Différence entre modification du contrat et changement des conditions de travail"
+      },
+      {
+       "p": "Le simple changement des conditions de travail relève du pouvoir de direction de l'employeur (ex. légère variation d'horaires)."
+      },
+      {
+       "p": "La modification du contrat, elle, nécessite l'accord écrit du salarié."
+      },
+      {
+       "p": "Tout refus ne peut pas être assimilé à une faute, sauf abus."
+      },
+      {
+       "h2": "Étape 1 – Analyse de la proposition"
+      },
+      {
+       "p": "Le salarié dispose d'un délai de réflexion pour accepter ou refuser la modification proposée."
+      },
+      {
+       "p": "Le cabinet SAFARYAN AVOCAT analyse :"
+      },
+      {
+       "ul": [
+        "la légalité de la proposition,",
+        "ses conséquences sur vos droits et votre rémunération,",
+        "et les solutions stratégiques possibles (acceptation, refus motivé, transaction…)."
+       ]
+      },
+      {
+       "h2": "Étape 2 – Mise en demeure et réponse écrite"
+      },
+      {
+       "p": "En cas de pression ou d'imposition de la modification sans votre accord, une mise en demeure peut être adressée à l'employeur pour exiger :"
+      },
+      {
+       "ul": [
+        "le maintien du contrat initial,",
+        "la cessation des mesures unilatérales,",
+        "ou la reconnaissance d'un manquement de l'employeur."
+       ]
+      },
+      {
+       "h2": "Étape 3 – Saisine du Conseil de prud'hommes"
+      },
+      {
+       "p": "Si le différend persiste, le salarié peut saisir le Conseil de prud'hommes pour :"
+      },
+      {
+       "ul": [
+        "faire constater la modification illicite du contrat,",
+        "obtenir la résiliation judiciaire aux torts de l'employeur,",
+        "ou la requalification du licenciement s'il est prononcé à la suite du refus."
+       ]
+      },
+      {
+       "h2": "Notre accompagnement"
+      },
+      {
+       "p": "Le cabinet intervient à chaque étape :"
+      },
+      {
+       "ul": [
+        "Analyse du contrat et des avenants,",
+        "Rédaction de la réponse ou mise en demeure,",
+        "Négociation amiable,",
+        "Saisine et représentation devant le Conseil de prud'hommes."
+       ]
+      },
+      {
+       "h2": "Pourquoi faire appel à un avocat ?"
+      },
+      {
+       "ul": [
+        "Approche juridique rigoureuse et humaine,",
+        "Analyse stratégique personnalisée,",
+        "Défense efficace et réactive en cas de contentieux."
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_fffcbb67fae4409792283f001a09a600~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations/mise-en-place-cse",
+   "label": "Mise en place du CSE",
+   "title": "Mise en place du CSE",
+   "h1": "Votre Avocat pour la mise en place du CSE",
+   "eyebrow": "Prestations",
+   "lead": "",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "h2": "Mise en place du CSE – Vos obligations en tant qu'employeur"
+      },
+      {
+       "p": "Ce que dit la loi, vos obligations et les risques en cas d'oubli"
+      },
+      {
+       "p": "Un dispositif obligatoire depuis le 1er janvier 2020"
+      },
+      {
+       "p": "Depuis le 1er janvier 2020, le Comité Social et Économique (CSE) remplace toutes les anciennes instances représentatives du personnel (DP, CE, CHSCT)."
+      },
+      {
+       "p": "Sa mise en place est obligatoire dès lors que l'entreprise emploie au moins 11 salariés pendant 12 mois consécutifs."
+      },
+      {
+       "p": "Articles L1221-1 et suivants du Code du travail."
+      },
+      {
+       "h2": "Quelles structures sont concernées ?"
+      },
+      {
+       "p": "Toutes les structures du secteur privé sont soumises à cette obligation, quelle que soit leur forme juridique :"
+      },
+      {
+       "ul": [
+        "Sociétés commerciales ou civiles",
+        "Associations, fondations, syndicats",
+        "Groupements d'intérêt économique (GIE)",
+        "Entreprises individuelles ou libérales",
+        "Activités industrielles, agricoles, commerciales ou artisanales"
+       ]
+      },
+      {
+       "h2": "Les obligations concrètes de l'employeur"
+      },
+      {
+       "p": "Dès que le seuil d'effectif est atteint, l'employeur doit :"
+      },
+      {
+       "ul": [
+        "Informer les salariés de l'organisation des élections,",
+        "Inviter les organisations syndicales à négocier le protocole d'accord préélectoral,",
+        "Organiser le scrutin dans les délais légaux."
+       ]
+      },
+      {
+       "h2": "Comment calculer l'effectif ?"
+      },
+      {
+       "p": "Le calcul s'effectue sur les 12 derniers mois consécutifs en intégrant :"
+      },
+      {
+       "ul": [
+        "Tous les CDI à temps plein, même en suspension,",
+        "Les temps partiels au prorata du temps de travail,",
+        "Les CDD, intérimaires et stagiaires sous certaines conditions."
+       ]
+      },
+      {
+       "h2": "Quelles sanctions en cas d'absence de CSE ?"
+      },
+      {
+       "p": "En l'absence de mise en place du CSE sans procès-verbal de carence, l'employeur s'expose à :"
+      },
+      {
+       "ul": [
+        "7 500 € d'amende,",
+        "1 an d'emprisonnement pour délit d'entrave (C. trav., art. L.2317-1),",
+        "Dommages et intérêts aux syndicats ou représentants du personnel."
+       ]
+      },
+      {
+       "h2": "Notre accompagnement"
+      },
+      {
+       "p": "SAFARYAN AVOCAT accompagne les employeurs dans toutes les étapes de mise en place du CSE :"
+      },
+      {
+       "ul": [
+        "Vérification du seuil d'effectif et du périmètre électoral,",
+        "Rédaction du protocole d'accord préélectoral,",
+        "Organisation des élections (listes, affichage, PV de carence),",
+        "Formation du CSE après sa mise en place."
+       ]
+      },
+      {
+       "h2": "Pourquoi faire appel à un avocat ?"
+      },
+      {
+       "p": "La mise en place du CSE obéit à des règles strictes dont la méconnaissance peut entraîner la nullité des élections ou un délit d'entrave."
+      },
+      {
+       "p": "Faire appel à un avocat, c'est garantir une procédure conforme, adaptée à la structure de votre entreprise et sécurisée sur le plan juridique.."
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_fffcbb67fae4409792283f001a09a600~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "prestations/contrat-de-travail",
+   "label": "Rédaction du contrat de travail",
+   "title": "Rédaction du contrat de travail",
+   "h1": "Votre Avocat pour la rédaction des contrats de travail",
+   "eyebrow": "Prestations",
+   "lead": "Rédaction du contrat de travail : sécurisez votre relation de travail dès l'embauche",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "h2": "Pourquoi faire appel à un avocat pour rédiger un contrat de travail ?"
+      },
+      {
+       "p": "Le contrat de travail est le socle de la relation entre l'employeur et le salarié."
+      },
+      {
+       "p": "Une rédaction imprécise peut entraîner des litiges coûteux : requalification, rappels de salaires, ou contentieux prud'homal."
+      },
+      {
+       "p": "SAFARYAN AVOCAT assure une rédaction claire, équilibrée et conforme au Code du travail et à votre convention collective."
+      },
+      {
+       "h2": "Un contrat de travail sur mesure"
+      },
+      {
+       "p": "Chaque contrat est rédigé en fonction du poste, du niveau de responsabilité et des enjeux de l'entreprise."
+      },
+      {
+       "p": "Le cabinet SAFARYAN AVOCAT vous accompagne pour :"
+      },
+      {
+       "ul": [
+        "Choisir le type de contrat adapté (CDI, CDD, temps partiel, contrat cadre, alternance, etc.),",
+        "Définir les clauses essentielles : rémunération, fonctions, durée du travail, mobilité, objectifs, confidentialité,",
+        "Intégrer les clauses protectrices (non-concurrence, propriété intellectuelle, etc).",
+        "Assurer la conformité aux dernières réformes et à la jurisprudence sociale."
+       ]
+      },
+      {
+       "h2": "Rédaction – Validation – Sécurisation"
+      },
+      {
+       "p": "Le cabinet peut également relire et valider un contrat rédigé par une autre partie avant signature."
+      },
+      {
+       "p": "Pour l'employeur : sécuriser juridiquement les relations de travail et prévenir tout risque de contentieux."
+      },
+      {
+       "h2": "Étapes de l'accompagnement"
+      },
+      {
+       "ul": [
+        "1. Entretien de cadrage pour comprendre vos besoins et le contexte.",
+        "2. Rédaction ou relecture du projet de contrat.",
+        "3. Échanges et ajustements jusqu'à validation finale.",
+        "4. Conseils complémentaires sur la période d'essai, les avenants, ou la rupture du contrat."
+       ]
+      },
+      {
+       "h2": "Notre accompagnement"
+      },
+      {
+       "ul": [
+        "Expertise confirmée en droit du travail et droit social,",
+        "Rédaction sur mesure adaptée à chaque situation professionnelle,",
+        "Réactivité, confidentialité et accompagnement personnalisé,",
+        "Interventions à Lyon et dans toute la France."
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les prestations",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_fffcbb67fae4409792283f001a09a600~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "abonnement",
+   "label": "Abonnement",
+   "title": "Abonnement juridique",
+   "h1": "Abonnement <em>juridique</em>",
+   "eyebrow": "Droit du travail pour les entreprises",
+   "lead": "Un accompagnement juridique continu des employeurs et services RH en droit du travail",
+   "img": "https://static.wixstatic.com/media/11062b_f003137d185045bfb2d86d03e1a0ba81~mv2.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "presentation",
+     "body": [
+      {
+       "p": "Nos abonnements juridiques permettent aux entreprises de bénéficier d’un accompagnement continu en droit du travail, adapté à leur volume RH et à la complexité des situations rencontrées."
+      },
+      {
+       "p": "Que vous soyez une TPE, une PME en croissance ou une entreprise structurée, nous vous proposons une formule claire, prévisible et adaptée à vos besoins."
+      },
+      {
+       "p": "Chaque abonnement inclut un suivi régulier, des réponses rapides, la sécurisation de vos pratiques RH et un appui opérationnel sur vos décisions du quotidien."
+      },
+      {
+       "p": "Le cabinet intervient à Lyon et sur tout le territoire national."
+      },
+      {
+       "h2": "Ayez une visibilité totale sur vos frais juridiques"
+      },
+      {
+       "p": "Nos abonnements juridiques ont été conçus pour offrir aux entreprises, dirigeants, services RH et CSE un accompagnement clair, structuré et adapté à leurs enjeux."
+      },
+      {
+       "p": "Chaque formule repose sur un périmètre défini, une disponibilité garantie et un coût prévisible, sans facturation au temps passé."
+      },
+      {
+       "p": "L’objectif est simple : vous permettre de bénéficier d’un accompagnement continu, d’un budget maîtrisé et d’une sécurité juridique renforcée."
+      },
+      {
+       "p": "Découvrez nos abonnements juridiques en droit du travail – Essentielle, Standard et Premium – pour sécuriser vos décisions RH, gérer vos obligations sociales et accompagner votre croissance."
+      },
+      {
+       "p": "Cabinet Safaryan Avocat – Lyon et France entière."
+      },
+      {
+       "h2": "Vous avez des besoins juridiques Nous avons des offres adaptées à votre entreprise"
+      },
+      {
+       "p": "Lancer et développer une entreprise implique des enjeux sociaux et RH qui évoluent rapidement."
+      },
+      {
+       "p": "Nos abonnements juridiques offrent un accompagnement sur-mesure, conçu pour répondre aux besoins des startups, PME et entreprises en croissance, avec des solutions claires, adaptées et immédiatement opérationnelles."
+      }
+     ],
+     "img": "https://static.wixstatic.com/media/db27ee_a0322023c7f14c0baa7720d399c46568~mv2.png"
+    },
+    {
+     "kind": "blocks",
+     "id": "offres",
+     "eyebrow": "Trois formules",
+     "title": "Des offres <em class=\"it\">adaptées</em>",
+     "lead": "Tarifs sur devis.",
+     "items": [
+      {
+       "kicker": "Abonnement",
+       "title": "Offre Essentielle",
+       "paras": [
+        "L’Offre Essentielle couvre les besoins juridiques simples, rapides et standardisés, qui ne nécessitent ni analyse complexe ni procédure lourde."
+       ],
+       "link": [
+        "Découvrir l'offre",
+        "essentielle/"
+       ]
+      },
+      {
+       "kicker": "Abonnement",
+       "title": "Offre Standard",
+       "paras": [
+        "L’Offre Standard s’adresse aux PME et entreprises en croissance qui rencontrent un volume RH plus important et des situations nécessitant une analyse juridique régulière."
+       ],
+       "link": [
+        "Découvrir l'offre",
+        "standard/"
+       ]
+      },
+      {
+       "kicker": "Abonnement",
+       "title": "Offre Premium",
+       "paras": [
+        "L’Offre Premium s’adresse aux entreprises structurées, multi-sites ou en forte évolution, qui sont confrontées à des situations sociales sensibles ou à forts enjeux."
+       ],
+       "link": [
+        "Découvrir l'offre",
+        "premium/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "abonnement/essentielle",
+   "label": "Offre Essentielle",
+   "title": "Offre Essentielle",
+   "h1": "Offre Essentielle",
+   "eyebrow": "Abonnement juridique",
+   "lead": "L’Offre Essentielle couvre les besoins juridiques simples, rapides et standardisés, qui ne nécessitent ni analyse complexe ni procédure lourde.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Elle permet de sécuriser les opérations RH quotidiennes tout en maîtrisant votre budget."
+      },
+      {
+       "p": "L’Offre Essentielle a été conçue pour les TPE, jeunes entreprises et structures avec un volume RH limité."
+      },
+      {
+       "p": "Elle couvre les besoins juridiques simples et récurrents du quotidien : réponses aux questions courantes, rédaction de contrats standards, relecture de documents courts et conformité RH de base."
+      },
+      {
+       "p": "Cet abonnement permet de sécuriser vos premières décisions RH tout en maîtrisant votre budget, grâce à un accompagnement réactif et adapté."
+      },
+      {
+       "h2": "À qui s’adresse l’Offre Essentielle ?"
+      },
+      {
+       "p": "L’Offre Essentielle a été conçue pour répondre aux besoins RH du quotidien des TPE et startups, qui doivent gérer leurs premières obligations sociales tout en sécurisant leurs décisions."
+      },
+      {
+       "p": "Grâce à un abonnement juridique clair et accessible, vous bénéficiez d’un accompagnement en droit du travail assuré par un avocat expérimenté, capable de vous guider sur l’ensemble des questions courantes : gestion des absences, périodes d’essai, organisation du travail, conformité de base."
+      },
+      {
+       "p": "Cet abonnement inclut également la rédaction et la mise à jour de vos contrats de travail (CDI, CDD, apprentissage), ainsi que la relecture de documents courts pour garantir la sécurisation RH de votre entreprise dès les premières étapes de son développement."
+      },
+      {
+       "p": "Pensée pour faciliter la vie des dirigeants et responsables RH débutants, cette formule vous permet d’éviter les erreurs coûteuses et de mettre en place des pratiques solides."
+      },
+      {
+       "p": "Le Cabinet Safaryan Avocat, installé à Lyon et intervenant en France entière, accompagne chaque jour des dirigeants, créateurs d’entreprise et responsables RH qui souhaitent disposer d’un appui juridique fiable, réactif et adapté à leur structure."
+      },
+      {
+       "p": "Avec cette offre, vous profitez d’un véritable support juridique du quotidien, sans facturation horaire et sans imprévu."
+      },
+      {
+       "h2": "Réponses aux questions RH courantes"
+      },
+      {
+       "p": "Accompagnement sur les sujets simples du quotidien :"
+      },
+      {
+       "ul": [
+        "congés payés, absences, arrêts maladie,",
+        "période d’essai,",
+        "obligations légales de base,",
+        "organisation du temps de travail simple."
+       ]
+      },
+      {
+       "h2": "Relecture de documents courts"
+      },
+      {
+       "p": "Validation juridique de documents administratifs simples :"
+      },
+      {
+       "ul": [
+        "courriers RH,",
+        "attestations,",
+        "petites notes internes."
+       ]
+      },
+      {
+       "h2": "Vérification des obligations RH essentielles"
+      },
+      {
+       "ul": [
+        "affichages légaux,",
+        "registre unique du personnel,",
+        "mentions obligatoires dans les documents de base."
+       ]
+      },
+      {
+       "h2": "Rédaction et mise à jour des contrats standards"
+      },
+      {
+       "p": "Documents courts et sans complexité :"
+      },
+      {
+       "ul": [
+        "CDI « classiques »,",
+        "CDD standards,",
+        "contrats d’apprentissage,",
+        "avenants légers (modification d’horaires, ajustements mineurs)."
+       ]
+      },
+      {
+       "h2": "Gestion des petites procédures RH"
+      },
+      {
+       "p": "Accompagnement limité aux démarches les plus usuelles :"
+      },
+      {
+       "ul": [
+        "fin de période d’essai,",
+        "rappel à l’ordre,",
+        "avertissement simple."
+       ]
+      },
+      {
+       "h2": "Volume d’échanges maîtrisé"
+      },
+      {
+       "p": "Afin de garantir un suivi réactif et de qualité, l’offre inclut jusqu’à 5 demandes par mois dans le périmètre défini."
+      },
+      {
+       "p": "Cela permet de maintenir un accompagnement fluide, sans surcharge, parfaitement adapté aux petites structures."
+      }
+     ],
+     "back": [
+      "← Toutes les offres",
+      "../"
+     ],
+     "img": "https://static.wixstatic.com/media/db27ee_3be9b149ee5741b3a4cc29e47cc690bf~mv2.jpg"
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_f003137d185045bfb2d86d03e1a0ba81~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "abonnement/standard",
+   "label": "Offre Standard",
+   "title": "Offre Standard",
+   "h1": "Offre Standard",
+   "eyebrow": "Abonnement juridique",
+   "lead": "L’Offre Standard s’adresse aux PME et entreprises en croissance qui rencontrent un volume RH plus important et des situations nécessitant une analyse juridique régulière.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Cet abonnement permet de gérer efficacement les sujets sociaux du quotidien : discipline, ruptures simples, organisation du travail, rédaction ou mise à jour de documents internes et accompagnement des managers."
+      },
+      {
+       "p": "Grâce à un suivi juridique continu assuré par un avocat spécialisé en droit du travail, vous sécurisez vos processus RH, réduisez les risques et disposez d’un support fiable pour chaque décision importante."
+      },
+      {
+       "h2": "Accompagnement RH quotidien avec réponses argumentées et exemples pratiques"
+      },
+      {
+       "p": "Vous bénéficiez d’un soutien permanent pour gérer toutes les situations courantes :"
+      },
+      {
+       "ul": [
+        "comment encadrer un retard récurrent ?",
+        "quelles mesures prendre si un salarié refuse une consigne de travail ?",
+        "comment gérer un arrêt maladie qui se prolonge ?",
+        "quelle procédure suivre si un collaborateur ne respecte pas ses horaires?",
+        "comment organiser le télétravail ponctuel d’un salarié ?"
+       ]
+      },
+      {
+       "h2": "Ruptures de contrat simples"
+      },
+      {
+       "p": "L’offre Standard vous accompagne lorsqu’un départ doit être organisé sans entrer dans un contexte lourd, par exemple :"
+      },
+      {
+       "ul": [
+        "rupture conventionnelle non négociée,",
+        "fin de période d’essai devenue sensible,",
+        "licenciement pour motif simple (insuffisance professionnelle légère, désintérêt manifeste, réorganisation interne mineure)."
+       ]
+      },
+      {
+       "h2": "Rédaction de documents internes simples"
+      },
+      {
+       "p": "Pour fluidifier la communication interne, nous rédigeons notamment :"
+      },
+      {
+       "ul": [
+        "notes de rappel (ex. : règles de ponctualité, procédures d’absence),",
+        "communications sur des changements d’organisation,",
+        "instructions RH nécessaires au bon fonctionnement des équipes."
+       ]
+      },
+      {
+       "h2": "Procédures disciplinaires complètes (hors cas complexes)"
+      },
+      {
+       "p": "Cette offre permet de gérer les premières procédures importantes de votre entreprise, par exemple :"
+      },
+      {
+       "ul": [
+        "un salarié dont les performances chutent brutalement ;",
+        "des incidents répétés malgré des rappels;",
+        "un comportement inapproprié envers un collègue ;",
+        "des absences injustifiées."
+       ]
+      },
+      {
+       "h2": "Structuration RH progressive"
+      },
+      {
+       "p": "Cette offre vous permet d’améliorer progressivement vos pratiques RH, par exemple :"
+      },
+      {
+       "ul": [
+        "mettre à jour les dossiers du personnel,",
+        "clarifier les règles internes (retards, absences, télétravail ponctuel),",
+        "instaurer des modèles fiables de courriers RH,",
+        "vérifier la tenue correcte des registres obligatoires."
+       ]
+      },
+      {
+       "h2": "Volume d’échanges maîtrisé"
+      },
+      {
+       "p": "L’offre couvre les besoins RH courants d’une entreprise en croissance, avec un volume d’échanges raisonnable et conforme au périmètre défini."
+      }
+     ],
+     "back": [
+      "← Toutes les offres",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_f003137d185045bfb2d86d03e1a0ba81~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "abonnement/premium",
+   "label": "Offre Premium",
+   "title": "Offre Premium",
+   "h1": "Offre Premium",
+   "eyebrow": "Abonnement juridique",
+   "lead": "L’Offre Premium s’adresse aux entreprises structurées, multi-sites ou en forte évolution, qui sont confrontées à des situations sociales sensibles ou à forts enjeux.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Cet abonnement permet de sécuriser les décisions managériales, d’encadrer les dossiers individuels complexes, de gérer les relations collectives avec le CSE et d’analyser en amont l’impact juridique des projets d’organisation."
+      },
+      {
+       "p": "Vous bénéficiez d’un accompagnement stratégique en droit du travail, assuré par un cabinet dédié aux enjeux RH et sociaux, pour limiter les risques contentieux et piloter sereinement les dossiers les plus délicats."
+      },
+      {
+       "h2": "Accompagnement avancé sur les situations individuelles sensibles"
+      },
+      {
+       "p": "Intervention sur les dossiers nécessitant une analyse approfondie et une stratégie précise :"
+      },
+      {
+       "ul": [
+        "comportements problématiques répétés (retards, refus d’exécution, tensions persistantes),",
+        "difficultés managériales impactant le fonctionnement d’une équipe,",
+        "situations de malaise, conflits internes ou détérioration du climat social,",
+        "divergences entre collaborateur et hiérarchie nécessitant un cadrage juridique clair,",
+        "incidents ayant des conséquences organisationnelles importantes."
+       ]
+      },
+      {
+       "h2": "Ruptures contractuelles à enjeux"
+      },
+      {
+       "p": "Prise en charge des départs nécessitant une expertise renforcée, tels que :"
+      },
+      {
+       "ul": [
+        "licenciement pour insuffisance professionnelle documentée,",
+        "rupture conventionnelle dans un climat conflictuel,",
+        "départ d’un salarié clé (manager, expert, commercial stratégique),",
+        "dossier nécessitant une analyse fine du risque prud’homal,",
+        "cas où un repositionnement interne ou un accompagnement préalable doit être envisagé."
+       ]
+      },
+      {
+       "h2": "Analyse et sécurisation des projets d’organisation interne"
+      },
+      {
+       "p": "Accompagnement en amont des projets impactant l’organisation du travail :"
+      },
+      {
+       "ul": [
+        "réorganisation d’un service,",
+        "modification ou redistribution des missions,",
+        "évolution des responsabilités d’un collaborateur ou d’un manager,",
+        "réaffectation d’équipes ou de périmètres d’activité,",
+        "transformation du mode de fonctionnement interne."
+       ]
+      },
+      {
+       "h2": "Procédures disciplinaires complexes"
+      },
+      {
+       "p": "Cette offre permet de gérer les premières procédures importantes de votre entreprise, par exemple :"
+      },
+      {
+       "ul": [
+        "un salarié dont les performances chutent brutalement ;",
+        "des incidents répétés malgré des rappels;",
+        "un comportement inapproprié envers un collègue ;",
+        "des absences injustifiées."
+       ]
+      },
+      {
+       "h2": "Relations collectives et accompagnement CSE"
+      },
+      {
+       "p": "L’Offre Premium couvre l’ensemble des besoins liés aux interlocuteurs sociaux, notamment :"
+      },
+      {
+       "ul": [
+        "préparation juridique des réunions importantes (orientations, organisation, questions sensibles),",
+        "analyse des informations transmises au CSE (orientation stratégique, données économiques ou sociales),",
+        "appui dans la rédaction des réponses aux observations des élus,",
+        "gestion des alertes, questions écrites ou signalements du CSE,",
+        "sécurisation du dialogue social pour éviter tensions, blocages ou contentieux collectifs."
+       ]
+      },
+      {
+       "h2": "Structuration RH et conformité avancée"
+      },
+      {
+       "p": "L’offre Premium inclut un accompagnement global pour professionnaliser et harmoniser vos pratiques :"
+      },
+      {
+       "ul": [
+        "mise en cohérence des pratiques managériales,",
+        "clarification des règles internes (télétravail, organisation, comportement),",
+        "accompagnement dans la rédaction des documents RH stratégiques,",
+        "contrôle approfondi de la conformité de vos procédures,",
+        "amélioration ou création de process RH adaptés à la taille et au niveau de maturité de l’entreprise."
+       ]
+      }
+     ],
+     "back": [
+      "← Toutes les offres",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_f003137d185045bfb2d86d03e1a0ba81~mv2.jpg",
+   "hidden": true
+  },
+  {
+   "slug": "honoraires",
+   "label": "Honoraires",
+   "title": "Honoraires",
+   "h1": "<em>Honoraires</em>",
+   "eyebrow": "Transparence",
+   "lead": "Le cabinet SAFARYAN AVOCAT attache une importance essentielle à la transparence et à la prévisibilité des honoraires.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "contenu",
+     "body": [
+      {
+       "p": "Dès l’ouverture du dossier, un échange permet d’identifier précisément les besoins du client, le niveau d’enjeu et les diligences prévisibles."
+      },
+      {
+       "p": "Une convention d’honoraires écrite est systématiquement établie afin d’assurer une parfaite clarté sur le cadre de l’intervention et les modalités de facturation."
+      },
+      {
+       "p": "Les honoraires peuvent prendre différentes formes, en fonction de la nature de la mission :"
+      },
+      {
+       "h2": "Honoraires forfaitaires"
+      },
+      {
+       "p": "Certains accompagnements se prêtent à un forfait lorsque l’étendue des diligences peut être anticipée."
+      },
+      {
+       "p": "Il peut notamment s’agir :"
+      },
+      {
+       "ul": [
+        "de la mise en œuvre d’une procédure prud’homale ;",
+        "d’une enquête interne (harcèlement, discrimination, RPS) ;",
+        "d’un accompagnement RH ponctuel ;",
+        "d’une mission de conseil en restructuration ou en gestion d’un dossier sensible ;",
+        "d’une formation professionnelle."
+       ]
+      },
+      {
+       "h2": "Honoraires de résultat"
+      },
+      {
+       "p": "Lorsque cela est adapté, une part variable peut compléter les honoraires fixes."
+      },
+      {
+       "p": "Elle est définie de manière transparente dans la convention et repose sur les sommes obtenues ou économisées au profit du client."
+      },
+      {
+       "h2": "Honoraires au temps passé"
+      },
+      {
+       "p": "Les missions nécessitant une analyse approfondie, une intervention urgente ou une gestion évolutive peuvent être facturées au temps passé."
+      },
+      {
+       "p": "Le client est informé de l’estimation prévisible et des éventuels ajustements en fonction de l’évolution du dossier."
+      },
+      {
+       "h2": "Engagement de transparence"
+      },
+      {
+       "p": "Aucun honoraire complémentaire n’est engagé sans l’accord préalable du client."
+      },
+      {
+       "p": "En cas d’évolution du dossier, un point d’étape budgétaire est systématiquement réalisé pour garantir une parfaite maîtrise des coûts."
+      },
+      {
+       "h2": "Abonnements juridiques"
+      },
+      {
+       "p": "Le cabinet SAFARYAN AVOCAT propose des abonnements mensuels permettant aux entreprises de bénéficier d’un accompagnement juridique continu en droit du travail."
+      },
+      {
+       "p": "Ces formules ont été conçues pour offrir prévisibilité, réactivité, sécurisation et une maîtrise totale du budget juridique."
+      },
+      {
+       "p": "Nous accompagnons aujourd’hui plusieurs centaines d’entreprises, dirigeants, services RH et CSE, avec une prise en charge adaptée à leur volume d’activité et à la complexité de leurs enjeux sociaux."
+      },
+      {
+       "h2": "Pourquoi choisir un abonnement juridique ?"
+      },
+      {
+       "p": "Le droit du travail évolue rapidement, et les questions sociales nécessitent souvent une réponse immédiate."
+      },
+      {
+       "p": "L’abonnement permet :"
+      },
+      {
+       "ul": [
+        "d’obtenir un avis juridique fiable sans multiplier les devis,",
+        "de sécuriser les décisions RH au quotidien,",
+        "d’anticiper les risques avant qu’ils ne se transforment en contentieux,",
+        "d’être accompagné par un cabinet spécialisé,",
+        "de maîtriser les coûts grâce à un tarif mensuel fixe."
+       ]
+      },
+      {
+       "h2": "Un échange dédié pour analyser votre situation"
+      },
+      {
+       "p": "Consultation téléphonique: Durée maximale 45 mn"
+      },
+      {
+       "p": "Entretien au cabinet: Durée maximale 45 mn"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "consultations",
+     "eyebrow": "Un échange dédié pour analyser votre situation",
+     "title": "Consultations <em class=\"it\">150 € TTC</em>",
+     "lead": "Réservez votre date sur consultation.avocat.fr, puis réglez la consultation.",
+     "items": [
+      {
+       "kicker": "45 minutes maximum",
+       "title": "Consultation téléphonique",
+       "paras": [
+        "150 € TTC"
+       ],
+       "link": [
+        "Réserver une date",
+        "https://consultation.avocat.fr/avocat-lyon/lilit-safaryan-46778.html"
+       ]
+      },
+      {
+       "kicker": "45 minutes maximum",
+       "title": "Entretien au cabinet",
+       "paras": [
+        "150 € TTC"
+       ],
+       "link": [
+        "Réserver une date",
+        "https://consultation.avocat.fr/avocat-lyon/lilit-safaryan-46778.html"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ],
+   "img": "https://static.wixstatic.com/media/11062b_bf5397a796344a34a1cbf6a489cb67ec~mv2.jpg"
+  },
+  {
+   "slug": "actualites",
+   "label": "Actualités",
+   "title": "Actualités",
+   "h1": "<em>Actualités</em>",
+   "eyebrow": "Droit du travail",
+   "lead": "Les articles du cabinet sur l'actualité du droit social.",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "articles",
+     "eyebrow": "Le blog du cabinet",
+     "title": "Toutes les <em class=\"it\">actualités</em>",
+     "lead": "Jurisprudence, réformes et conseils pratiques, par Maître Lilit Safaryan.",
+     "step": 9,
+     "posts": [
+      {
+       "title": "Le cabinet dans la presse",
+       "cat": "Actualité",
+       "date": "5 mai 2026",
+       "desc": "Le cabinet est récemment intervenu dans un contentieux prud'homal à Lyon relatif à un licenciement vexatoire et abusif, ayant donné lieu à une décision favorable pour la salariée.",
+       "url": "https://www.safaryan-avocat.com/post/le-cabinet-dans-la-presse",
+       "img": "https://static.wixstatic.com/media/db27ee_bf2fea4ffbdc41dba4672a0cf2f645ff~mv2.png"
+      },
+      {
+       "title": "Le « test du sac à main » en entretien d’embauche : une pratique illégale qui expose l’employeur",
+       "cat": "Actualité",
+       "date": "9 mars 2026",
+       "desc": "Certaines méthodes de recrutement peuvent surprendre. Parmi elles figure ce que certains recruteurs appellent le « test du sac à main » : demander à un candidat d’ouvrir son sac lors d’un entretien…",
+       "url": "https://www.safaryan-avocat.com/post/le-test-du-sac-à-main-en-entretien-d-embauche-une-pratique-illégale-qui-expose-l-employeur",
+       "img": "https://static.wixstatic.com/media/11062b_2bbcc20186564b9eb3c9d2b6afc49684~mv2_d_2200_2200_s_2.jpg"
+      },
+      {
+       "title": "Jour férié au travail : quelles sont les règles pour l’employeur et le salarié ?",
+       "cat": "Actualité",
+       "date": "7 mars 2026",
+       "desc": "Le jour férié occupe une place singulière en droit du travail. Il ne se confond ni avec les congés payés, ni avec le repos hebdomadaire, ni avec les jours de réduction du temps de travail. Son régime…",
+       "url": "https://www.safaryan-avocat.com/post/jour-férié-au-travail-quelles-sont-les-règles-pour-l-employeur-et-le-salarié",
+       "img": "https://static.wixstatic.com/media/11062b_f49e1b8d63be40c0bfe86a2e97b743d8~mv2.jpg",
+       "page": "jour-ferie-au-travail"
+      },
+      {
+       "title": "Pause au travail : quelles sont les obligations légales de l’employeur ?",
+       "cat": "Actualité",
+       "date": "7 mars 2026",
+       "desc": "La pause au travail est souvent perçue comme un simple moment de repos informel. Pourtant, il s'agit d'un droit encadré par le Code du travail et par le droit européen, dont le non-respect peut…",
+       "url": "https://www.safaryan-avocat.com/post/pause-au-travail-quelles-sont-les-obligations-légales-de-l-employeur",
+       "img": "https://static.wixstatic.com/media/11062b_8f77b040a972433ebdb4007ef48704b0~mv2.jpg"
+      },
+      {
+       "title": "Convocation à entretien préalable : la remise en main propre reste valable même sans signature",
+       "cat": "Actualité",
+       "date": "12 février 2026",
+       "desc": "La procédure de licenciement impose à l’employeur de convoquer le salarié à un entretien préalable par lettre recommandée ou par lettre remise en main propre contre décharge.",
+       "url": "https://www.safaryan-avocat.com/post/convocation-à-entretien-préalable-la-remise-en-main-propre-reste-valable-même-sans-signature",
+       "img": "https://static.wixstatic.com/media/db27ee_b377c124d56549a9956e5e91501611ac~mv2.png"
+      },
+      {
+       "title": "Congés payés et maladie : la Cour de cassation précise la limite des 24 jours",
+       "cat": "Actualité",
+       "date": "12 février 2026",
+       "desc": "La réforme issue de la loi du 22 avril 2024 continue d'alimenter le contentieux. Dans un arrêt du 21 janvier 2026, la Cour de cassation apporte deux précisions importantes sur la limite de 24 jours…",
+       "url": "https://www.safaryan-avocat.com/post/congés-payés-et-maladie-la-cour-de-cassation-précise-la-limite-des-24-jours",
+       "img": "https://static.wixstatic.com/media/11062b_f0b4e2051fbf425eb24d4f1a5cd12ea2~mv2.jpg"
+      },
+      {
+       "title": "APC et forfait en jours : l’augmentation du nombre de jours nécessite l’accord du salarié",
+       "cat": "Actualité",
+       "date": "12 février 2026",
+       "desc": "Un accord de performance collective permet d’adapter l’organisation du travail aux nécessités économiques de l’entreprise.",
+       "url": "https://www.safaryan-avocat.com/post/apc-et-forfait-en-jours-l-augmentation-du-nombre-de-jours-nécessite-l-accord-du-salarié",
+       "img": "https://static.wixstatic.com/media/11062b_ec281b726b0e41229fb01d60ccfc742c~mv2.jpeg"
+      },
+      {
+       "title": "Mes démarches travail : un nouveau téléservice pour centraliser les formalités des entreprises",
+       "cat": "Actualité",
+       "date": "26 janvier 2026",
+       "desc": "Le Ministère du Travail a récemment mis en ligne un nouveau téléservice dénommé «Mes démarches travail», dont l’objectif est de simplifier et centraliser les formalités administratives que les…",
+       "url": "https://www.safaryan-avocat.com/post/mes-démarches-travail-un-nouveau-téléservice-pour-centraliser-les-formalités-des-entreprises",
+       "img": "https://static.wixstatic.com/media/11062b_0c6ace4e6ec2427e90d6cc5eee47c964~mv2.jpg"
+      },
+      {
+       "title": "Contrôle URSSAF : la responsabilité du donneur d’ordre en cas de travail dissimulé depuis le 1er janvier 2026",
+       "cat": "Actualité",
+       "date": "21 janvier 2026",
+       "desc": "La lutte contre le travail dissimulé ne concerne pas uniquement les entreprises directement en infraction. Depuis plusieurs années, le législateur renforce également la responsabilité des donneurs…",
+       "url": "https://www.safaryan-avocat.com/post/contrôle-urssaf-la-responsabilité-du-donneur-d-ordre-en-cas-de-travail-dissimulé-depuis-le-1er-jan",
+       "img": "https://static.wixstatic.com/media/db27ee_d9e89dca85ca41e5b59f2fda54157c5c~mv2.png"
+      },
+      {
+       "title": "Contrôle URSSAF : ce qui change dans la procédure et pourquoi les employeurs doivent redoubler de vigilance",
+       "cat": "Actualité",
+       "date": "21 janvier 2026",
+       "desc": "Le contrôle URSSAF reste l'un des moments les plus sensibles de la vie sociale d'une entreprise. Au-delà de ses conséquences financières parfois considérables, il s'inscrit désormais dans un cadre…",
+       "url": "https://www.safaryan-avocat.com/post/contrôle-urssaf-ce-qui-change-dans-la-procédure-et-pourquoi-les-employeurs-doivent-redoubler-de-vi",
+       "img": "https://static.wixstatic.com/media/11062b_ad46240f4d0641e290ca65e612885e92~mv2.jpg"
+      },
+      {
+       "title": "La déduction de cotisations patronales sur les heures supplémentaires étendue à toutes les entreprises",
+       "cat": "Actualité",
+       "date": "13 janvier 2026",
+       "desc": "La loi de financement de la sécurité sociale pour 2026 marque une évolution importante du régime social des heures supplémentaires.",
+       "url": "https://www.safaryan-avocat.com/post/la-déduction-de-cotisations-patronales-sur-les-heures-supplémentaires-étendue-à-toutes-les-entrepris",
+       "img": "https://static.wixstatic.com/media/nsplsh_8c2db0976f1d4d869cfcd12565195d00~mv2.jpg"
+      },
+      {
+       "title": "La rupture conventionnelle devient plus coûteuse : la contribution patronale passe à 40 % (LFSS 2026)",
+       "cat": "Actualité",
+       "date": "13 janvier 2026",
+       "desc": "La rupture conventionnelle, longtemps perçue comme un mode de rupture sécurisé et maîtrisé du contrat de travail, voit son coût sensiblement augmenter.",
+       "url": "https://www.safaryan-avocat.com/post/la-rupture-conventionnelle-devient-plus-coûteuse-la-contribution-patronale-passe-à-40-lfss-2026",
+       "img": "https://static.wixstatic.com/media/11062b_e8165589a9884a5e93feb8813b52e0bc~mv2.jpg"
+      },
+      {
+       "title": "Le licenciement fondé sur des informations obtenues en violation du secret médical est nul",
+       "cat": "Actualité",
+       "date": "13 janvier 2026",
+       "desc": "Par un arrêt du 10 décembre 2025, la chambre sociale de la Cour de cassation rappelle avec une particulière fermeté les limites absolues auxquelles est soumis l'employeur lorsqu'il s'agit de la santé…",
+       "url": "https://www.safaryan-avocat.com/post/le-licenciement-fondé-sur-des-informations-obtenues-en-violation-du-secret-médical-est-nul",
+       "img": "https://static.wixstatic.com/media/nsplsh_ca11723c5a024e259f0ab94ba2dea75d~mv2.jpg"
+      },
+      {
+       "title": "L’employeur ne peut pas exiger d’être informé de la situation familiale de ses salariés",
+       "cat": "Actualité",
+       "date": "13 janvier 2026",
+       "desc": "La Cour de cassation apporte, par un arrêt du 10 décembre 2025, un rappel particulièrement utile sur les limites du pouvoir de l’employeur en matière de vie privée des salariés.",
+       "url": "https://www.safaryan-avocat.com/post/l-employeur-ne-peut-pas-exiger-d-être-informé-de-la-situation-familiale-de-ses-salariés",
+       "img": "https://static.wixstatic.com/media/11062b_6d756a8d3bff43498732c588f6e69a1b~mv2.jpg"
+      },
+      {
+       "title": "Enquête interne en matière de harcèlement : les erreurs susceptibles d’en neutraliser la valeur devant le juge",
+       "cat": "Actualité",
+       "date": "14 déc. 2025",
+       "desc": "",
+       "url": "https://www.safaryan-avocat.com/post/enquête-interne-en-matière-de-harcèlement-les-erreurs-susceptibles-d-en-neutraliser-la-valeur-deva"
+      },
+      {
+       "title": "Enquête interne en matière de harcèlement : cadre juridique, valeur probante et sécurisation contentieuse",
+       "cat": "Actualité",
+       "date": "14 déc. 2025",
+       "desc": "",
+       "url": "https://www.safaryan-avocat.com/post/enquete-interne-harcelement"
+      },
+      {
+       "title": "Licenciement d’un salarié en arrêt maladie ou accident du travail : quels sont les risques de nullité pour l’employeur ?",
+       "cat": "Actualité",
+       "date": "12 déc. 2025",
+       "desc": "",
+       "url": "https://www.safaryan-avocat.com/post/licenciement-d-un-salarié-en-arrêt-maladie-ou-accident-du-travail-quels-sont-les-risques-de-nullit"
+      },
+      {
+       "title": "Votre avocat pour l’obtention du titre de séjour « métiers en tension » – Procédure d’admission exceptionnelle au séjour par le travail",
+       "cat": "Actualité",
+       "date": "5 nov. 2025",
+       "desc": "",
+       "url": "https://www.safaryan-avocat.com/post/votre-avocat-pour-l-obtention-du-titre-de-séjour-métiers-en-tension-procédure-d-admission-exce"
+      },
+      {
+       "title": "Licenciement économique : le guide express pour décider sans faux pas",
+       "cat": "Actualité",
+       "date": "3 nov. 2025",
+       "desc": "",
+       "url": "https://www.safaryan-avocat.com/post/licenciement-économique-le-guide-express-pour-décider-sans-faux-pas"
+      },
+      {
+       "title": "Sanctionner un salarié : la méthode sûre en 5 étapes pour éviter tout risque prud’homal",
+       "cat": "Actualité",
+       "date": "3 nov. 2025",
+       "desc": "",
+       "url": "https://www.safaryan-avocat.com/post/sanctionner-un-salarié-la-méthode-sûre-en-5-étapes-pour-éviter-tout-risque-prud-homal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites/jour-ferie-au-travail",
+   "hidden": true,
+   "label": "Article",
+   "title": "Jour férié au travail : quelles sont les règles pour l’employeur et le salarié ?",
+   "h1": "Jour férié au travail : quelles sont les règles pour l’employeur et le salarié ?",
+   "eyebrow": "Actualité · 7 mars 2026",
+   "lead": "",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Droit du travail",
+     "date": "7 mars 2026 · 5 min de lecture",
+     "img": "https://static.wixstatic.com/media/11062b_f49e1b8d63be40c0bfe86a2e97b743d8~mv2.jpg",
+     "chapo": "Le jour férié occupe une place singulière en droit du travail. Il ne se confond ni avec les congés payés, ni avec le repos hebdomadaire, ni avec les jours de réduction du temps de travail. Son régime dépend de la loi, des conventions collectives, des usages de l’entreprise et parfois du droit local.",
+     "keys": "En dehors du 1er mai, un jour férié n’est pas nécessairement un jour non travaillé. Le 1er mai est obligatoirement chômé, et le salarié qui y travaille perçoit une indemnité égale à son salaire. Un jour de RTT ne peut pas être imputé sur un jour férié habituellement chômé.",
+     "body": [
+      {
+       "h2": "Qu’est-ce qu’un jour férié ?"
+      },
+      {
+       "p": "Les jours fériés sont des dates reconnues par la loi pour des raisons historiques, civiques ou religieuses. Point essentiel : un jour férié n’est pas nécessairement un jour non travaillé. En dehors du 1er mai, il n’est chômé que si un accord, un usage ou une décision de l’employeur le prévoit."
+      },
+      {
+       "h2": "Quels sont les jours fériés légaux en France ?"
+      },
+      {
+       "p": "L’article L. 3133-1 du Code du travail fixe onze jours fériés :"
+      },
+      {
+       "ul": [
+        "le 1er janvier",
+        "le lundi de Pâques",
+        "le 1er mai",
+        "le 8 mai",
+        "l’Ascension",
+        "le lundi de Pentecôte",
+        "le 14 juillet",
+        "le 15 août",
+        "la Toussaint (1er novembre)",
+        "le 11 novembre",
+        "le jour de Noël (25 décembre)"
+       ]
+      },
+      {
+       "p": "Des jours fériés locaux peuvent s’y ajouter, notamment en Alsace-Moselle, dans certains territoires d’outre-mer ou dans certaines professions."
+      },
+      {
+       "h2": "Le jour férié se distingue des congés payés et du repos hebdomadaire"
+      },
+      {
+       "p": "Les congés payés sont un droit individuel, alors que le jour férié chômé s’applique collectivement. Le repos hebdomadaire protège la santé du salarié, tandis que le jour férié répond à une finalité commémorative, civique, culturelle ou religieuse."
+      },
+      {
+       "h2": "Tous les jours fériés sont-ils obligatoirement chômés ?"
+      },
+      {
+       "p": "Non. En dehors du 1er mai, la loi n’impose pas de chômer les jours fériés. Sauf convention collective ou usage contraire, l’employeur peut demander de travailler un jour férié ordinaire, et un refus peut constituer une absence injustifiée. En revanche, lorsque le jour férié est chômé par accord, usage ou décision de l’employeur, le travail ne peut pas être imposé hors de ce cadre, et le salarié qui refuse pour ce seul motif ne peut pas être sanctionné."
+      },
+      {
+       "h2": "Le 1er mai obéit à un régime particulier"
+      },
+      {
+       "p": "Le 1er mai est le seul jour férié obligatoirement chômé, sauf dans les établissements qui ne peuvent interrompre le travail en raison de la nature de leur activité. Le salarié qui travaille ce jour-là a droit, en plus du salaire correspondant au travail accompli, à une indemnité égale à ce salaire. Cette règle est d’ordre public : elle ne peut pas être remplacée par un repos compensateur, même par accord collectif."
+      },
+      {
+       "h2": "Quel est l’impact d’un jour férié sur la rémunération ?"
+      },
+      {
+       "p": "Le chômage d’un jour férié ne doit pas entraîner de perte de salaire, selon le Code du travail ou les accords applicables. Les heures travaillées un jour férié comptent dans le temps de travail. Sauf texte spécifique ou convention collective plus favorable, le travail un jour férié ordinaire n’ouvre pas automatiquement droit à une majoration. Si le jour férié aurait normalement dû être chômé dans l’entreprise, une contrepartie (majoration ou repos) peut en revanche être due."
+      },
+      {
+       "h2": "Que se passe-t-il lorsqu’un jour férié tombe un jour de repos ?"
+      },
+      {
+       "p": "Lorsqu’un jour férié habituellement chômé tombe un jour de repos, un jour de fermeture ou un jour où le salarié ne travaille pas, il n’ouvre en principe droit à aucune compensation particulière, sauf disposition contractuelle ou conventionnelle contraire. L’exception : lorsqu’un texte garantit un nombre de jours fériés chômés par an ou prévoit expressément une compensation."
+      },
+      {
+       "h2": "Qu’en est-il si le jour férié tombe sur un RTT ou un JRTT ?"
+      },
+      {
+       "p": "Un jour de RTT ou de repos issu d’un accord de réduction du temps de travail ne peut pas être positionné sur un jour férié habituellement chômé : la Cour de cassation l’a expressément jugé. La même logique devrait s’appliquer aux jours de repos des salariés en forfait jours. L’employeur ne peut donc pas fixer un RTT le 15 août ou le 1er novembre pour réduire les jours de repos effectivement pris. Si le jour férié tombe un jour où le salarié ne travaille pas, il n’y a pas de droit automatique à récupération, sauf texte plus favorable."
+      },
+      {
+       "h2": "Le salarié a-t-il droit à une compensation si le jour férié tombe pendant ses congés payés ?"
+      },
+      {
+       "p": "Oui, sous conditions. Un jour férié habituellement chômé qui tombe un jour ouvrable pendant les congés payés ne doit pas être décompté des congés : la durée du congé est prolongée d’autant. La règle diffère de celle applicable aux jours de repos hebdomadaire."
+      },
+      {
+       "h2": "Que se passe-t-il si deux jours fériés coïncident ?"
+      },
+      {
+       "p": "Tout dépend des textes applicables. Sans accord garantissant un nombre de jours fériés chômés ou payés par an, la coïncidence de deux jours fériés n’ouvre en principe droit à aucune compensation. Si une convention collective garantit un nombre annuel, le salarié peut dans certains cas prétendre à un jour supplémentaire ou à une indemnité."
+      },
+      {
+       "h2": "Conclusion"
+      },
+      {
+       "p": "Le jour férié n’est ni un congé payé, ni un jour de repos, ni un jour de RTT. Son régime dépend d’abord de la loi, puis des conventions collectives, des usages et de l’organisation du travail. Deux principes : en dehors du 1er mai, un jour férié n’est pas nécessairement chômé, et un jour férié qui tombe un jour de repos n’ouvre pas automatiquement droit à compensation, sauf texte plus favorable. Un RTT ou JRTT ne peut en revanche pas être imputé sur un jour férié habituellement chômé."
+      }
+     ],
+     "source": "Article publié par le cabinet SAFARYAN AVOCAT. Exemple de mise en page : tous les articles du blog seraient repris de la même façon, à la même adresse.",
+     "back": [
+      "← Toutes les actualités",
+      "../"
+     ]
+    },
+    {
+     "kind": "banner",
+     "eyebrow": "Prendre rendez-vous",
+     "title": "Une question <em>en droit du travail</em> ?",
+     "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+     "cta": [
+      "Contacter le cabinet",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "<em>Contact</em>",
+   "eyebrow": "Rendez-vous au cabinet ou par téléphone",
+   "lead": "83 avenue Félix Faure, 69003 Lyon.",
+   "img": "https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "rendez-vous",
+     "eyebrow": "Rendez-vous",
+     "title": "Prendre <em class=\"it\">rendez-vous</em>",
+     "lead": "Réservez votre date sur consultation.avocat.fr et réglez la consultation sur la page honoraires.",
+     "items": [
+      {
+       "title": "Rendez-vous au cabinet",
+       "paras": [
+        "150 € TTC, 45 minutes maximum."
+       ],
+       "link": [
+        "Réserver une date",
+        "https://consultation.avocat.fr/avocat-lyon/lilit-safaryan-46778.html"
+       ]
+      },
+      {
+       "title": "Consultation téléphonique",
+       "paras": [
+        "150 € TTC, 45 minutes maximum."
+       ],
+       "link": [
+        "Demander un rendez-vous",
+        "https://consultation.avocat.fr/consultation-telephonique/forms.php?hashid=f1ad8cbf66390edb2251"
+       ]
+      },
+      {
+       "title": "Honoraires",
+       "paras": [
+        "Forfait, temps passé ou résultat : les modalités en toute transparence."
+       ],
+       "link": [
+        "Voir les honoraires",
+        "../honoraires/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Formulaire",
+     "title": "Écrire <em class=\"it\">au cabinet</em>",
+     "lead": "Vous pouvez nous contacter via le formulaire ci-contre.",
+     "email": "avocat@cabinet-safaryan.com",
+     "subject": "Demande de contact",
+     "side": [
+      "Cabinet d’avocat SAFARYAN",
+      "83 avenue Félix Faure, 69003 Lyon",
+      "<a href=\"tel:+33780978789\">07 80 97 87 89</a>",
+      "<a href=\"mailto:avocat@cabinet-safaryan.com\">avocat@cabinet-safaryan.com</a>"
+     ],
+     "fields": [
+      {
+       "label": "Prénom",
+       "required": true
+      },
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Adresse",
+     "title": "Le <em class=\"it\">cabinet</em>",
+     "text": "",
+     "rows": [
+      [
+       "Adresse",
+       "83 avenue Félix Faure<br>69003 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33780978789\">07 80 97 87 89</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:avocat@cabinet-safaryan.com\">avocat@cabinet-safaryan.com</a>"
+      ],
+      [
+       "Langues",
+       "Français, arménien, russe"
+      ]
+     ],
+     "cta": [
+      "Itinéraire",
+      "https://www.google.com/maps/search/?api=1&query=83+avenue+F%C3%A9lix+Faure+69003+Lyon"
+     ],
+     "map_q": "83 avenue Félix Faure, 69003 Lyon"
+    }
+   ]
+  }
+ ]
+}
