@@ -61,3 +61,9 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Pas de logo sur le site d'origine : le générateur crée un monogramme (initiales dans une pastille à la couleur du site) + le nom. `monogram` pour forcer les initiales.
 - Domaines viticoles : `"agegate": true` → pop-up « Avez-vous 18 ans ou plus ? » à l'entrée (mémorisé).
 - Formule de menu lisible : `aside.courses` = `[["Entrée", "…"], ["Plat", "…"], ["Dessert", "…"]]`. Carte PDF intégrée à la page : `"pdf_embed": true` avec `pdf`.
+
+## Choix des prospects (règles de Philippine, 12 oct. 2026)
+- Dès que « 2026 » apparaît quelque part sur le site (copyright, actualité, mention « mis à jour »), le prospect est écarté : site trop récent.
+- Écarter aussi les sites déjà bien faits (responsive, propres, récents) : pas de reproche crédible, mauvaise cible.
+- Ne jamais affirmer « pas adapté au téléphone » sans l'avoir vérifié.
+- Logo du pied de page : jamais blanc sur blanc ; vérifier qu'il reste visible.

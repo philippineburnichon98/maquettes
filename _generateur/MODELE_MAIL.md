@@ -13,6 +13,14 @@ RÈGLES (validées par Philippine le 9 oct. 2026) :
 - Chaque reproche doit être VRAI et vérifié sur le site (jamais « un bouton qui ne mène nulle part » si un module ou une page existe). En cas de doute, garder seulement un fait sûr (date de la dernière actualité, site non adapté au téléphone…).
 - Après le lien de la maquette, on peut préciser ce qu'elle apporte (« avec votre carte d'automne et un module de réservation en ligne »).
 
+RÈGLES AJOUTÉES (Philippine, 12 oct. 2026) :
+- Tout en haut de chaque brouillon, une ligne de vérification : « [À retirer avant envoi] Site actuel : <URL du site d'origine> » (en rouge dans htmlBody). Philippine la supprime avant l'envoi. L'URL est aussi dans la colonne site_actuel de prospects.csv.
+- Ne plus utiliser l'argument du bandeau publicitaire Wix. Pour un site Wix/Jimdo gratuit, dire plutôt : adresse gratuite plutôt qu'à son nom, moins facile à trouver et à retenir, services et téléphone peu visibles.
+- Un constat daté (« actualités arrêtées en 2020 ») doit être suivi de sa conséquence (« une mise à jour donnerait une image plus vivante… »).
+- Pas de détail géographique inutile (ex. deux communes voisines) : seulement ce qui sert l'argument.
+- Site déjà soigné : le reconnaître (« Votre site actuel est déjà soigné : j'ai imaginé une version plus actuelle et plus vivante… »).
+- Si la maquette contient un exemple d'article de blog, le mentionner et préciser que tous les articles seraient repris à la même adresse pour préserver le référencement naturel.
+
 Alors j'ai pris les devants et préparé une maquette, juste pour voir<. phrase optionnelle sur un outil existant conservé, ex. module TheFork> :
 https://maquettes.philippine-burnichon.workers.dev/<slug>/
 
