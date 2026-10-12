@@ -617,6 +617,22 @@
  ],
  "pages": [
   {
+   "slug": "la-societe",
+   "label": "La société",
+   "title": "La société",
+   "keep": [
+    "societe"
+   ]
+  },
+  {
+   "slug": "votre-parcours",
+   "label": "Votre parcours",
+   "title": "Votre parcours",
+   "keep": [
+    "parcours"
+   ]
+  },
+  {
    "slug": "patrimoine",
    "label": "Patrimoine",
    "title": "Patrimoine",
@@ -638,6 +654,14 @@
    "title": "Demander un devis",
    "keep": [
     "devis"
+   ]
+  },
+  {
+   "slug": "zone",
+   "label": "Zone d'intervention",
+   "title": "Zone d'intervention",
+   "keep": [
+    "zone"
    ]
   }
  ]
