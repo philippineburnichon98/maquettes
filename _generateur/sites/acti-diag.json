@@ -15,7 +15,8 @@
   "heroem": "#b8d2e8",
   "serif": "\"IBM Plex Sans\",system-ui,sans-serif",
   "sans": "\"Inter\",system-ui,sans-serif",
-  "fonts": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap"
+  "fonts": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap",
+  "look": "split"
  },
  "nav": [
   [
@@ -147,6 +148,12 @@
      "label": "Message",
      "type": "textarea",
      "required": true
+    },
+    {
+     "label": "En cochant cette case, j'accepte les conditions particulières ci-dessous",
+     "name": "Opt-In",
+     "type": "checkbox",
+     "full": true
     }
    ]
   },
@@ -190,5 +197,6 @@
   ],
   "legal": "SIRET 499 234 409 00013",
   "legal_url": "https://auditconseiltechimmobdiagnostics.site-solocal.com/mentionslegales"
- }
+ },
+ "monogram": "AD"
 }
