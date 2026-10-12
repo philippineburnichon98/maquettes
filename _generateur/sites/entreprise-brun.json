@@ -16,7 +16,7 @@
   "serif": "\"Archivo\",system-ui,sans-serif",
   "sans": "\"Archivo\",system-ui,sans-serif",
   "fonts": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap",
-  "look": "framed"
+  "look": "split"
  },
  "nav": [
   [
@@ -791,5 +791,7 @@
   }
  ],
  "home_label": "Accueil",
- "monogram": "EB"
+ "monogram": "EB",
+ "phead": "plain",
+ "extra_css": ".look-split .hero::before{left:auto!important;width:min(42vw,500px);right:max(24px,calc((100vw - var(--max))/2 + 24px));top:50%!important;bottom:auto!important;transform:translateY(-42%);aspect-ratio:4/3;height:auto;border-radius:16px!important;box-shadow:0 24px 50px -30px rgba(0,0,0,.45)}@media(max-width:860px){.look-split .hero::before{left:20px!important;right:auto;width:calc(100% - 40px);top:auto!important;bottom:28px!important;transform:none;height:auto}}.gallery{columns:4 200px}.gallery button{max-width:340px;margin-left:auto;margin-right:auto}.split .img{max-width:460px;justify-self:center}"
 }

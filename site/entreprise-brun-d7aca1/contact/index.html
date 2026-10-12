@@ -234,14 +234,26 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .menu aside dl.courses dt{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.75;margin-bottom:4px}.menu aside dl.courses dd{font-size:.95rem;line-height:1.45}
 .pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
 </style>
-
+<style>.look-split .hero::before{left:auto!important;width:min(42vw,500px);right:max(24px,calc((100vw - var(--max))/2 + 24px));top:50%!important;bottom:auto!important;transform:translateY(-42%);aspect-ratio:4/3;height:auto;border-radius:16px!important;box-shadow:0 24px 50px -30px rgba(0,0,0,.45)}@media(max-width:860px){.look-split .hero::before{left:20px!important;right:auto;width:calc(100% - 40px);top:auto!important;bottom:28px!important;transform:none;height:auto}}.gallery{columns:4 200px}.gallery button{max-width:340px;margin-left:auto;margin-right:auto}.split .img{max-width:460px;justify-self:center}</style>
 </head>
-<body class="look-framed">
+<body class="look-split">
 
 <header><div class="wrap nav"><a href="../" class="logo gen"><span class="mono" aria-hidden="true">EB</span><span class="nm">Entreprise Brun<small>Plâtrier peintre · Lyon</small></span></a>
 <nav class="links"><a href="../">Accueil</a><a href="../prestations/">Prestations</a><a href="../realisations/">Réalisations</a><a href="../secteur/">Secteur d&#x27;intervention</a><a href="../contact/" aria-current="page">Contact</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
-<section class="hero phead" id="accueil" style="background-image:url('https://www.artisan-platrier-peintre.com/wpimages/wp1bb04f1a_05_06.jpg')"><div class="wrap"><span class="eyebrow">Devis gratuit</span><h1>Contact</h1><p>Artisan plâtrier peintre, Ent Brun Frédéric. Intervention sur Lyon et sur toute la région lyonnaise.</p></div></section>
+<section class="phead pbox pplain" id="accueil"><div class="wrap"><div class="rv in"><span class="eyebrow">Devis gratuit</span><h1>Contact</h1><i class="prule"></i><p>Artisan plâtrier peintre, Ent Brun Frédéric. Intervention sur Lyon et sur toute la région lyonnaise.</p></div></div><span class="pmono" aria-hidden="true">EB</span></section><style>
+.pbox{padding:clamp(120px,13vw,160px) 0 clamp(36px,5vw,64px);background:var(--paper-2)}
+.pbox-g{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,64px);align-items:center}
+.pbox h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:14px 0 14px}.pbox p{color:var(--muted);max-width:52ch}
+.pbox figure{margin:0;justify-self:end;width:100%;max-width:500px;overflow:hidden;border-radius:14px;box-shadow:0 24px 50px -30px rgba(0,0,0,.45)}
+.pbox figure img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}.pbox figure:hover img{transform:scale(1.03)}
+.pplain{position:relative;overflow:hidden;padding-bottom:clamp(48px,6vw,80px)}.pplain .wrap{position:relative;z-index:1}
+.pplain h1{font-size:clamp(2.6rem,6vw,4.4rem)}.prule{display:block;width:72px;height:2px;background:var(--gold);margin:4px 0 20px}
+.pmono{position:absolute;right:max(4vw,calc((100vw - var(--max))/2));top:50%;transform:translateY(-38%);font-family:var(--serif);font-size:clamp(9rem,22vw,19rem);line-height:1;color:var(--accent);opacity:.08;letter-spacing:-.04em;pointer-events:none;animation:pm-in 1.4s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pm-in{from{opacity:0;transform:translateY(-30%)}to{opacity:.08;transform:translateY(-38%)}}
+@media(prefers-reduced-motion:reduce){.pmono{animation:none}}
+@media(max-width:820px){.pbox-g{grid-template-columns:minmax(0,1fr)}.pbox figure{justify-self:stretch;max-width:none}}
+</style>
 
 <section id="contact"><div class="wrap"><div class="visit nomap rv"><div class="info">
 <span class="eyebrow">Devis gratuit</span><h2>Parlons <em class="it">de vos travaux</em></h2><p style="color:var(--muted)">Devis gratuit sur demande et tarif compétitif. Un appel ou un e-mail suffit pour décrire vos travaux.</p>
