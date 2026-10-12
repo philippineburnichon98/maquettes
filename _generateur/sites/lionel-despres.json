@@ -6,14 +6,14 @@
  "tagline": "Vigneron récoltant à Fleurie",
  "theme": {
   "look": "split",
-  "paper": "#fffaf0",
-  "paper2": "#fbefcf",
-  "ink": "#2a1a1a",
-  "muted": "#6e5d55",
-  "accent": "#fe1300",
-  "accent2": "#c80f00",
-  "gold": "#b07d00",
-  "heroem": "#ffc400",
+  "paper": "#fffaf2",
+  "paper2": "#f8ecd6",
+  "ink": "#2a1420",
+  "muted": "#6b5560",
+  "accent": "#460c2a",
+  "accent2": "#2e071b",
+  "gold": "#c8922f",
+  "heroem": "#e4ac48",
   "logo_accent": false,
   "serif": "\"Lora\",Georgia,serif",
   "sans": "\"Jost\",system-ui,sans-serif",
@@ -378,7 +378,7 @@
      ]
     }
    ],
-   "note": "<style>\n/* Touches propres à cette maquette (jaune et rouge du domaine) */\n.look-split .hero::after{content:\"\";position:absolute;width:min(30vw,380px);aspect-ratio:1;border-radius:50%;background:#ffc400;left:47%;bottom:-60px;z-index:0;animation:ld-float 9s ease-in-out infinite}\n@keyframes ld-float{50%{transform:translateY(-22px) scale(1.04)}}\n.look-split .hero .wrap{z-index:2}\n.figures{background:#ffc400;border:0}.fig{border-color:rgba(42,26,26,.18)!important}.fig b{color:#c80f00}.fig span{color:#2a1a1a;font-weight:500}\n.quote blockquote{color:#c80f00}\n#cuvees .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}\n#cuvees .card{border:0;border-top:4px solid #ffc400;border-radius:4px;box-shadow:0 18px 40px -30px rgba(42,26,26,.5);padding-top:36px}\n#cuvees .card .bimg{height:320px;transition:transform .6s cubic-bezier(.2,.7,.2,1)}\n#cuvees .card:hover .bimg{transform:translateY(-8px) rotate(-3deg)}\n#cuvees .card:hover{border-top-color:#fe1300}\n#savoir-faire .feat i{color:#ffc400;font-size:1.4rem}\n.dark .eyebrow{color:#ffc400}\n.banner .eyebrow{color:#ffc400}\n#agenda{background:#fbefcf}#agenda .blocks{max-width:680px;margin:0 auto}#agenda .blk{border:0;border-left:4px solid #fe1300;border-radius:4px;text-align:center}#agenda .note{margin:0}\n@media(max-width:560px){.fig b{font-size:2.1rem}.fig{padding:30px 10px}}\n@media(max-width:960px){#cuvees .grid{grid-template-columns:minmax(0,1fr)}.look-split .hero::after{display:none}}\n@media(prefers-reduced-motion:reduce){.look-split .hero::after{animation:none}}\n</style>"
+   "note": "<style>\n/* Touches propres à cette maquette (or et bordeaux du domaine) */\n.look-split .hero::after{content:\"\";position:absolute;width:min(30vw,380px);aspect-ratio:1;border-radius:50%;background:#e4ac48;left:47%;bottom:-60px;z-index:0;animation:ld-float 9s ease-in-out infinite}\n@keyframes ld-float{50%{transform:translateY(-22px) scale(1.04)}}\n.look-split .hero .wrap{z-index:2}\n.figures{background:#e4ac48;border:0}.fig{border-color:rgba(42,26,26,.18)!important}.fig b{color:#460c2a}.fig span{color:#2a1420;font-weight:500}\n.quote blockquote{color:#460c2a}\n#cuvees .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}\n#cuvees .card{border:0;border-top:4px solid #e4ac48;border-radius:4px;box-shadow:0 18px 40px -30px rgba(42,26,26,.5);padding-top:36px}\n#cuvees .card .bimg{height:320px;transition:transform .6s cubic-bezier(.2,.7,.2,1)}\n#cuvees .card:hover .bimg{transform:translateY(-8px) rotate(-3deg)}\n#cuvees .card:hover{border-top-color:#460c2a}\n#savoir-faire .feat i{color:#e4ac48;font-size:1.4rem}\n.dark .eyebrow{color:#e4ac48}\n.banner .eyebrow{color:#e4ac48}\n#agenda{background:#f8ecd6}#agenda .blocks{max-width:680px;margin:0 auto}#agenda .blk{border:0;border-left:4px solid #460c2a;border-radius:4px;text-align:center}#agenda .note{margin:0}\n@media(max-width:560px){.fig b{font-size:2.1rem}.fig{padding:30px 10px}}\n@media(max-width:960px){#cuvees .grid{grid-template-columns:minmax(0,1fr)}.look-split .hero::after{display:none}}\n@media(prefers-reduced-motion:reduce){.look-split .hero::after{animation:none}}\n</style>"
   },
   {
    "kind": "story",
@@ -634,7 +634,8 @@
  },
  "agegate": true,
  "logo": {
-  "src": "logo.svg",
-  "height": 58
+  "src": "logo.png",
+  "height": 46,
+  "bg": "#ffffff"
  }
 }

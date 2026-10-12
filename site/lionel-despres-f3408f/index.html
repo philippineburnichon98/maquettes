@@ -9,8 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
 <style>
-:root{--paper:#fffaf0;--paper-2:#fbefcf;--ink:#2a1a1a;--muted:#6e5d55;--accent:#fe1300;--accent-2:#c80f00;
---gold:#b07d00;--line:rgba(0,0,0,.12);--serif:"Lora",Georgia,serif;--sans:"Jost",system-ui,sans-serif;--max:1200px}
+:root{--paper:#fffaf2;--paper-2:#f8ecd6;--ink:#2a1420;--muted:#6b5560;--accent:#460c2a;--accent-2:#2e071b;
+--gold:#c8922f;--line:rgba(0,0,0,.12);--serif:"Lora",Georgia,serif;--sans:"Jost",system-ui,sans-serif;--max:1200px}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
@@ -43,7 +43,7 @@ header.many .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.m
 .hero .eyebrow{display:inline-flex;align-items:center;gap:14px;color:#fff3df;font-size:.8rem;letter-spacing:.22em;text-shadow:0 1px 2px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.55)}
 .hero .eyebrow::before{content:"";width:42px;height:1px;background:currentColor}
 .hero h1{font-size:clamp(2.8rem,8.5vw,7rem);font-weight:400;margin:18px 0 22px;text-shadow:0 2px 20px rgba(0,0,0,.35)}
-.hero h1 em{color:#ffc400}
+.hero h1 em{color:#e4ac48}
 .hero p{max-width:560px;font-size:1.08rem;opacity:.95;margin-bottom:34px;text-shadow:0 2px 14px rgba(0,0,0,.4)}
 .hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
 @media(max-width:560px){.hero .eyebrow{font-size:.68rem;letter-spacing:.14em}.hero .eyebrow::before{width:22px}}
@@ -233,13 +233,13 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 </style>
 
 </head>
-<body class="look-split" data-logo="logo.svg">
+<body class="look-split" data-logo="logo.png">
 <div class="agegate" id="agegate" role="dialog" aria-modal="true" aria-labelledby="ag-t" hidden><div>
 <span class="eyebrow">Lionel Despres</span><h2 id="ag-t">Avez-vous 18 ans ou plus ?</h2>
 <p>L'accès à ce site est réservé aux personnes ayant l'âge légal pour consommer de l'alcool.</p>
 <div class="ctas"><button class="btn solid yes" type="button">Oui, entrer</button><button class="btn ghost no" type="button" style="color:var(--ink);border-color:var(--ink)">Non</button></div>
 <p class="no-msg" hidden>Désolé, vous devez avoir 18 ans pour accéder à ce site. L'abus d'alcool est dangereux pour la santé.</p></div></div>
-<header class="haslogo many"><div class="wrap nav"><a href="./" class="logo"><img src="logo.svg" alt="Lionel Despres" style="height:58px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
+<header class="haslogo many" style="background:#ffffff"><div class="wrap nav"><a href="./" class="logo"><img src="logo.png" alt="Lionel Despres" style="height:46px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
 <nav class="links"><a href="#domaine">Lionel Despres</a><a href="#cuvees">Nos cuvées</a><a href="#actualites">Actualités</a><a href="#agenda">Agenda</a><a href="#gite">Gîte</a><a href="#galerie">Galerie</a><a href="#contact">Contact</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero" id="accueil" style="background-image:url('https://www.lionel-despres.com/_image/photos/accueil-01-xl.jpg')"><div class="wrap">
@@ -288,21 +288,21 @@ if(M)M.hidden=A.filter(a=>f==='all'||a.dataset.cat===f).length<=n};
 B.querySelectorAll('.bt button').forEach(b=>b.onclick=()=>{f=b.dataset.f;n=N;B.querySelectorAll('.bt button').forEach(x=>x.setAttribute('aria-pressed',x===b));draw()});
 if(M)M.onclick=()=>{n+=N;draw()};draw()})</script><section id="agenda"><div class="wrap"><div class="head rv"><span class="eyebrow">Salons et dégustations</span>
 <h2><em class="it">Agenda</em></h2></div><div class="blocks rv"><article class="blk"><h3>Prochaines dégustations</h3><p>Aucune dégustation à venir pour le moment. Revenez plus tard…</p><p>Pour une visite au domaine, merci de nous prévenir de votre passage.</p><p class="more"><a href="#contact">Annoncer ma visite</a></p></article></div><p class="note"><style>
-/* Touches propres à cette maquette (jaune et rouge du domaine) */
-.look-split .hero::after{content:"";position:absolute;width:min(30vw,380px);aspect-ratio:1;border-radius:50%;background:#ffc400;left:47%;bottom:-60px;z-index:0;animation:ld-float 9s ease-in-out infinite}
+/* Touches propres à cette maquette (or et bordeaux du domaine) */
+.look-split .hero::after{content:"";position:absolute;width:min(30vw,380px);aspect-ratio:1;border-radius:50%;background:#e4ac48;left:47%;bottom:-60px;z-index:0;animation:ld-float 9s ease-in-out infinite}
 @keyframes ld-float{50%{transform:translateY(-22px) scale(1.04)}}
 .look-split .hero .wrap{z-index:2}
-.figures{background:#ffc400;border:0}.fig{border-color:rgba(42,26,26,.18)!important}.fig b{color:#c80f00}.fig span{color:#2a1a1a;font-weight:500}
-.quote blockquote{color:#c80f00}
+.figures{background:#e4ac48;border:0}.fig{border-color:rgba(42,26,26,.18)!important}.fig b{color:#460c2a}.fig span{color:#2a1420;font-weight:500}
+.quote blockquote{color:#460c2a}
 #cuvees .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
-#cuvees .card{border:0;border-top:4px solid #ffc400;border-radius:4px;box-shadow:0 18px 40px -30px rgba(42,26,26,.5);padding-top:36px}
+#cuvees .card{border:0;border-top:4px solid #e4ac48;border-radius:4px;box-shadow:0 18px 40px -30px rgba(42,26,26,.5);padding-top:36px}
 #cuvees .card .bimg{height:320px;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
 #cuvees .card:hover .bimg{transform:translateY(-8px) rotate(-3deg)}
-#cuvees .card:hover{border-top-color:#fe1300}
-#savoir-faire .feat i{color:#ffc400;font-size:1.4rem}
-.dark .eyebrow{color:#ffc400}
-.banner .eyebrow{color:#ffc400}
-#agenda{background:#fbefcf}#agenda .blocks{max-width:680px;margin:0 auto}#agenda .blk{border:0;border-left:4px solid #fe1300;border-radius:4px;text-align:center}#agenda .note{margin:0}
+#cuvees .card:hover{border-top-color:#460c2a}
+#savoir-faire .feat i{color:#e4ac48;font-size:1.4rem}
+.dark .eyebrow{color:#e4ac48}
+.banner .eyebrow{color:#e4ac48}
+#agenda{background:#f8ecd6}#agenda .blocks{max-width:680px;margin:0 auto}#agenda .blk{border:0;border-left:4px solid #460c2a;border-radius:4px;text-align:center}#agenda .note{margin:0}
 @media(max-width:560px){.fig b{font-size:2.1rem}.fig{padding:30px 10px}}
 @media(max-width:960px){#cuvees .grid{grid-template-columns:minmax(0,1fr)}.look-split .hero::after{display:none}}
 @media(prefers-reduced-motion:reduce){.look-split .hero::after{animation:none}}
@@ -328,7 +328,7 @@ const o=F.querySelector('.ok');if(o)o.hidden=false})</script><section id="contac
 <span class="eyebrow">Nous rendre visite</span><h2>Le domaine, <em class="it">à Fleurie</em></h2><p style="color:var(--muted)">Pour une visite ou une dégustation, merci de nous prévenir de votre passage.</p>
 <dl><dt>Adresse</dt><dd>376 rue du Beaujolais<br>69820 Fleurie</dd><dt>Téléphone</dt><dd><a href="tel:+33474698244">04 74 69 82 44</a><br><a href="tel:+33632278877">06 32 27 88 77</a></dd><dt>E-mail</dt><dd><a href="mailto:contact@lionel-despres.com">contact@lionel-despres.com</a></dd><dt>GPS</dt><dd>Lat. 46.193343 · Long. 4.697880</dd><dt>Réseaux</dt><dd><a href="https://www.facebook.com/domaine.lionel.despres/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/domaine_lionel_despres/" target="_blank" rel="noopener">Instagram</a></dd></dl><a class="btn solid" href="mailto:contact@lionel-despres.com?subject=Visite%20au%20domaine">Annoncer ma visite</a></div>
 <iframe title="Plan d’accès" loading="lazy" src="https://maps.google.com/maps?q=376%20Rue%20du%20Beaujolais%2C%2069820%20Fleurie&amp;z=15&amp;output=embed"></iframe></div></div></section>
-<footer><div class="wrap"><div class="top"><div><div class="flogo"><img src="logo.svg" alt="Lionel Despres" style="height:58px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
+<footer><div class="wrap"><div class="top"><div><div class="flogo" style="background:#ffffff"><img src="logo.png" alt="Lionel Despres" style="height:46px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Lionel Despres, vigneron récoltant à Fleurie, au cœur du Beaujolais. Fleurie et Chiroubles, gamay noir à jus blanc, mis en bouteille au domaine.</p></div>
 <div><h4>Explorer</h4><ul><li><a href="#domaine">Lionel Despres</a></li><li><a href="#cuvees">Nos cuvées</a></li><li><a href="#actualites">Actualités</a></li><li><a href="#agenda">Agenda</a></li><li><a href="#gite">Gîte</a></li><li><a href="#galerie">Galerie</a></li><li><a href="#contact">Contact</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="tel:+33474698244">04 74 69 82 44</a></li><li><a href="tel:+33632278877">06 32 27 88 77</a></li><li><a href="mailto:contact@lionel-despres.com">contact@lionel-despres.com</a></li><li>376 rue du Beaujolais, 69820 Fleurie</li></ul></div></div>
 <div class="bottom"><span>© Lionel Despres · <a href="https://www.lionel-despres.com/mentions-legales.php" target="_blank" rel="noopener" style="text-decoration:underline">Mentions légales</a> · Confidentialité</span><span>L&#x27;abus d&#x27;alcool est dangereux pour la santé, à consommer avec modération.</span></div></div></footer>
