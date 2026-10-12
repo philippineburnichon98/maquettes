@@ -250,7 +250,7 @@
     "eyebrow": "Le menu",
     "title": "Menu lyonnais",
     "big": "29 € · 33 €",
-    "text": "Entrée + plat, ou entrée + plat + dessert. Au choix : salade lyonnaise, pressé de bœuf ou mousseline de truite ; quenelle soufflée, andouillette ou porcelet Wellington ; tarte praline, poire pochée ou mi-cuit chocolat.",
+    "text": "Entrée + plat, ou entrée + plat + dessert. Au choix :",
     "items": [
      [
       "Entrée + plat",
@@ -268,9 +268,24 @@
     "cta": [
      "Réserver une table",
      "#reserver"
+    ],
+    "courses": [
+     [
+      "Entrée",
+      "Salade lyonnaise, pressé de bœuf ou mousseline de truite"
+     ],
+     [
+      "Plat",
+      "Quenelle soufflée, andouillette ou porcelet Wellington"
+     ],
+     [
+      "Dessert",
+      "Tarte praline, poire pochée ou mi-cuit chocolat"
+     ]
     ]
    },
-   "pdf": "https://www.le-bouchon-des-artistes.fr/_files/ugd/12be68_682e0eb039b5413fbe0a51297abc98dd.pdf"
+   "pdf": "https://www.le-bouchon-des-artistes.fr/_files/ugd/12be68_682e0eb039b5413fbe0a51297abc98dd.pdf",
+   "pdf_embed": true
   },
   {
    "kind": "gallery",

@@ -169,7 +169,7 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 </style>
 <style>
 /* ---- Variantes de mise en page (theme.look) : chaque maquette a sa propre allure, toujours sobre ---- */
-.flogo{color:var(--ink)}
+.flogo{color:var(--ink)}.blk .bi{max-width:none}
 .logo.gen{display:flex;align-items:center;gap:12px}.logo.gen .mono{flex:0 0 auto;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-family:var(--serif);font-size:1.05rem;letter-spacing:.02em;font-weight:500}
 .logo.gen .nm{display:flex;flex-direction:column;line-height:1.05}.logo.gen small{margin-top:4px}
 footer .logo.gen .mono{background:var(--gold);color:var(--ink)}
@@ -231,9 +231,14 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .menu aside dl.courses dt{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.75;margin-bottom:4px}.menu aside dl.courses dd{font-size:.95rem;line-height:1.45}
 .pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
 </style>
+
 </head>
 <body class="look-center" data-logo="https://www.domaine-de-la-ronze.com/gifs/logo.png">
-
+<div class="agegate" id="agegate" role="dialog" aria-modal="true" aria-labelledby="ag-t" hidden><div>
+<span class="eyebrow">Domaine de la Ronze</span><h2 id="ag-t">Avez-vous 18 ans ou plus ?</h2>
+<p>L'accès à ce site est réservé aux personnes ayant l'âge légal pour consommer de l'alcool.</p>
+<div class="ctas"><button class="btn solid yes" type="button">Oui, entrer</button><button class="btn ghost no" type="button" style="color:var(--ink);border-color:var(--ink)">Non</button></div>
+<p class="no-msg" hidden>Désolé, vous devez avoir 18 ans pour accéder à ce site. L'abus d'alcool est dangereux pour la santé.</p></div></div>
 <header class="haslogo many"><div class="wrap nav"><a href="../" class="logo"><img src="https://www.domaine-de-la-ronze.com/gifs/logo.png" alt="Domaine de la Ronze" style="height:60px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
 <nav class="links"><a href="../">Accueil</a><a href="../vigneron/">Notre histoire</a><a href="../vins/">Nos vins</a><a href="../metier/">Notre métier</a><a href="../cave/">Visite de caves</a><a href="../region/">La région</a><a href="../palmares/" aria-current="page">Palmarès</a><a href="../boutique/">Boutique</a><a href="../actualites/">Actualités</a><a href="../contact/">Contact</a><a href="../plan/">Plan d&#x27;accès</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>

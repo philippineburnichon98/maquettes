@@ -597,7 +597,7 @@ LOOKS = ["split", "center", "editorial", "framed"]
 
 LOOK_CSS = """<style>
 /* ---- Variantes de mise en page (theme.look) : chaque maquette a sa propre allure, toujours sobre ---- */
-.flogo{color:var(--ink)}
+.flogo{color:var(--ink)}.blk .bi{max-width:none}
 .logo.gen{display:flex;align-items:center;gap:12px}.logo.gen .mono{flex:0 0 auto;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-family:var(--serif);font-size:1.05rem;letter-spacing:.02em;font-weight:500}
 .logo.gen .nm{display:flex;flex-direction:column;line-height:1.05}.logo.gen small{margin-top:4px}
 footer .logo.gen .mono{background:var(--gold);color:var(--ink)}
@@ -863,6 +863,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <link href="{attr(t["fonts"])}" rel="stylesheet">
 <style>{css}</style>
 {LOOK_CSS}
+{('<style>' + d['extra_css'] + '</style>') if d.get('extra_css') else ''}
 </head>
 <body class="look-{pick_look(d)}"{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
 {agegate_html(d)}
