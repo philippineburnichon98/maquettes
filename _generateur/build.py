@@ -745,7 +745,7 @@ def _pagehead(pg):
     return f'''<section class="hero phead" id="accueil" style="{style}"><div class="wrap">{eb}<h1>{pg.get("h1", pg["title"])}</h1>{lead}</div></section>'''
 
 
-def _fixlinks(html, page, prefix, idmap):
+def _fixlinks(html, page, prefix, idmap, firsts=()):
     """Réécrit les liens internes #ancre vers la bonne page quand l'ancre est ailleurs."""
     if not idmap:
         return html
@@ -753,6 +753,8 @@ def _fixlinks(html, page, prefix, idmap):
     def rw(m):
         anchor = m.group(1)
         where = idmap.get(anchor)
+        if anchor in firsts and where:   # 1re section d'une page : on arrive en haut de la page, pas au milieu
+            return 'href="' + ("./" if where == cur else prefix + where + "/") + '"'
         if where is None or where == cur:
             return m.group(0)
         return 'href="' + prefix + (where + "/" if where else "") + "#" + anchor + '"'
@@ -786,12 +788,13 @@ def style_pages(d, full):
                 h = h[:mm.start()] + mm.group(1) + title + h[mm.end():]
             h = h.replace("<title>", f"<title>{e(sub['title'])} | ", 1).replace(f"<title>{e(sub['title'])} | " + e(d["title"]), f"<title>{e(sub['title'])} | {e(d['brand'])}", 1)
         return h
-    pages = {"": _fixlinks(cut(set(d.get("home_keep", [])) | {"accueil"}, None), None, "", idmap)}
+    firsts = {pg["keep"][0] for pg in d["pages"] if pg.get("keep")}
+    pages = {"": _fixlinks(cut(set(d.get("home_keep", [])) | {"accueil"}, None), None, "", idmap, firsts)}
     for pg in d["pages"]:
         pref = "../" * (pg["slug"].count("/") + 1)
         h = cut(set(pg["keep"]), pg)
         h = h.replace('href="#accueil"', f'href="{pref}"')
-        pages[pg["slug"]] = _fixlinks(h, pg, pref, {**{k: "" for k in d.get("home_keep", [])}, "accueil": "", **idmap})
+        pages[pg["slug"]] = _fixlinks(h, pg, pref, {**{k: "" for k in d.get("home_keep", [])}, "accueil": "", **idmap}, firsts)
     return pages
 
 
