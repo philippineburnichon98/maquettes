@@ -404,13 +404,32 @@ def section_timeline(t):
 <h2 style="margin:14px 0 16px">{t["title"]}</h2><p style="opacity:.8">{e(t.get("lead", ""))}</p></div>{f'<div class="tlimgs">{imgs}</div>' if imgs else ""}<ol class="tl rv"{tlst}>{lis}</ol></div></section>'''
 
 
+CAR_CSS = """<style>
+.carw{position:relative}
+.gallery.car{columns:auto;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding-bottom:4px}
+.gallery.car::-webkit-scrollbar{display:none}
+.gallery.car button{flex:0 0 calc((100% - 28px)/3);aspect-ratio:4/3;margin:0;scroll-snap-align:start}
+.gallery.car img{height:100%;object-fit:cover}
+.carb{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:50%;border:0;background:var(--paper);color:var(--ink);font-size:1.7rem;line-height:1;cursor:pointer;box-shadow:0 8px 24px -10px rgba(0,0,0,.45);z-index:2;transition:background .25s,color .25s}
+.carb:hover{background:var(--accent);color:#fff}.carb.prev{left:-12px}.carb.next{right:-12px}
+@media(max-width:860px){.gallery.car button{flex-basis:calc((100% - 14px)/2)}}
+@media(max-width:560px){.gallery.car button{flex-basis:84%}.carb.prev{left:4px}.carb.next{right:4px}}
+</style>"""
+CAR_JS = r"""<script>document.querySelectorAll('.carw').forEach(W=>{if(W.dataset.ok)return;W.dataset.ok=1;const T=W.querySelector('.car');
+const step=()=>{const b=T.querySelector('button');return b?b.getBoundingClientRect().width+14:300};
+const go=d=>{const end=T.scrollLeft+T.clientWidth>=T.scrollWidth-4;if(d>0&&end)T.scrollTo({left:0});else if(d<0&&T.scrollLeft<4)T.scrollTo({left:T.scrollWidth});else T.scrollBy({left:d*step()})};
+W.querySelector('.prev').onclick=()=>go(-1);W.querySelector('.next').onclick=()=>go(1);
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches){let t=setInterval(()=>go(1),3800);const stop=()=>{clearInterval(t);t=null},start=()=>{if(!t)t=setInterval(()=>go(1),3800)};
+W.addEventListener('mouseenter',stop);W.addEventListener('mouseleave',start);W.addEventListener('focusin',stop);T.addEventListener('touchstart',stop,{passive:true})}})</script>"""
+
+
 def section_gallery(g):
     btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(p["thumb"])}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">'
                    + (f'<figcaption>{e(p["caption"])}</figcaption>' if p.get("caption") else "") + '</button>'
                    for p in g["photos"])
     lead = f'<p>{e(g["lead"])}</p>' if g.get("lead") else ""
     return f'''<section id="{g.get("id", "photos")}" style="padding-top:0"><div class="wrap">{_headimg(g)}<div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
-<h2>{g["title"]}</h2>{lead}</div><div class="gallery">{btns}</div>{('<div class="ctas" style="justify-content:center;margin-top:34px"><a class="btn" href="' + attr(g["cta"][1]) + '">' + e(g["cta"][0]) + '</a></div>') if g.get("cta") else ""}</div></section>'''
+<h2>{g["title"]}</h2>{lead}</div>{('<div class="carw"><div class="gallery car">' + btns + '</div><button type="button" class="carb prev" aria-label="Photos précédentes">&lsaquo;</button><button type="button" class="carb next" aria-label="Photos suivantes">&rsaquo;</button></div>' + CAR_CSS + CAR_JS) if g.get("carousel") else ('<div class="gallery">' + btns + '</div>')}{('<div class="ctas" style="display:flex;justify-content:center;margin-top:34px"><a class="btn" href="' + attr(g["cta"][1]) + '">' + e(g["cta"][0]) + '</a></div>') if g.get("cta") else ""}</div></section>'''
 
 
 def section_banner(b):
