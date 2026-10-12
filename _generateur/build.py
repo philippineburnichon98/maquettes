@@ -837,7 +837,9 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
     _c = (["haslogo"] if lg else []) + (["many"] if len(d.get("nav", [])) > 6 else [])
     hcls = f' class="{" ".join(_c)}"' if _c else ""
     if lg and lg.get("bg"):
-        hcls += f' style="background:{attr(lg["bg"])}"' 
+        _bg = lg["bg"].lstrip("#")
+        _dark = len(_bg) == 6 and (0.299 * int(_bg[0:2], 16) + 0.587 * int(_bg[2:4], 16) + 0.114 * int(_bg[4:6], 16)) < 140
+        hcls += f' style="background:{attr(lg["bg"])}{";color:#fff" if _dark else ""}"' 
     if lg:
         fb = 'onerror="this.parentElement.textContent=this.alt"'
         hlogo = f'<a href="{prefix or './'}" class="logo"{' style="display:flex;align-items:center;gap:12px"' if lg.get("with_name") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}>{e(d["brand"]) if lg.get("with_name") else ""}</a>'
