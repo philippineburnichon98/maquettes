@@ -745,12 +745,22 @@ PBOX_CSS = """<style>
 .pbox h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:14px 0 14px}.pbox p{color:var(--muted);max-width:52ch}
 .pbox figure{margin:0;justify-self:end;width:100%;max-width:500px;overflow:hidden;border-radius:14px;box-shadow:0 24px 50px -30px rgba(0,0,0,.45)}
 .pbox figure img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}.pbox figure:hover img{transform:scale(1.03)}
+.pplain{position:relative;overflow:hidden;padding-bottom:clamp(48px,6vw,80px)}.pplain .wrap{position:relative;z-index:1}
+.pplain h1{font-size:clamp(2.6rem,6vw,4.4rem)}.prule{display:block;width:72px;height:2px;background:var(--gold);margin:4px 0 20px}
+.pmono{position:absolute;right:max(4vw,calc((100vw - var(--max))/2));top:50%;transform:translateY(-38%);font-family:var(--serif);font-size:clamp(9rem,22vw,19rem);line-height:1;color:var(--accent);opacity:.08;letter-spacing:-.04em;pointer-events:none;animation:pm-in 1.4s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pm-in{from{opacity:0;transform:translateY(-30%)}to{opacity:.08;transform:translateY(-38%)}}
+@media(prefers-reduced-motion:reduce){.pmono{animation:none}}
 @media(max-width:820px){.pbox-g{grid-template-columns:minmax(0,1fr)}.pbox figure{justify-self:stretch;max-width:none}}
 </style>"""
 
 
 def _pagehead(pg, d=None):
     img = pg.get("img")
+    if (pg.get("head") or (d or {}).get("phead")) == "plain":   # en-tête sobre sans photo : titre, filet doré, grand monogramme
+        eb = f'<span class="eyebrow">{e(pg["eyebrow"])}</span>' if pg.get("eyebrow") else ""
+        lead = f'<p>{e(pg["lead"])}</p>' if pg.get("lead") else ""
+        mono = e((d or {}).get("monogram") or initials((d or {}).get("brand", "")))
+        return f'''<section class="phead pbox pplain" id="accueil"><div class="wrap"><div class="rv in">{eb}<h1>{pg.get("h1", pg["title"])}</h1><i class="prule"></i>{lead}</div></div><span class="pmono" aria-hidden="true">{mono}</span></section>''' + PBOX_CSS
     if img and (pg.get("head") or (d or {}).get("phead")) == "box":   # photo d'en-tête petite : cadre net à côté du titre, pas étirée plein écran
         eb = f'<span class="eyebrow">{e(pg["eyebrow"])}</span>' if pg.get("eyebrow") else ""
         lead = f'<p>{e(pg["lead"])}</p>' if pg.get("lead") else ""

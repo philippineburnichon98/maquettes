@@ -68,3 +68,4 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Ne jamais affirmer « pas adapté au téléphone » sans l'avoir vérifié.
 - Logo du pied de page : jamais blanc sur blanc ; vérifier qu'il reste visible.
 - Photos d'en-tête de petite taille (souvent Wix) : ne pas les étirer plein écran, elles deviennent floues. Mettre `"phead": "box"` dans le JSON (ou `"head": "box"` sur une page) : la photo s'affiche dans un cadre net à côté du titre. `img_pos` pour régler le cadrage (ex. "center top").
+- Photos d'en-tête laides ou de mauvaise qualité (clipart, bords brûlés, personnage coupé) : ne pas les mettre du tout. `"phead": "plain"` donne un en-tête sobre (titre, filet doré, grand monogramme en filigrane). Ne jamais mettre une photo de banque d'images sans l'avoir vue.
