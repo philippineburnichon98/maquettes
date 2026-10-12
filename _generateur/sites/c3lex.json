@@ -636,5 +636,12 @@
     }
    ]
   }
+ ],
+ "nav_extra": [
+  [
+   "domaines",
+   "Domaines d'intervention",
+   2
+  ]
  ]
 }
