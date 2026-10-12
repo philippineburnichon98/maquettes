@@ -5,17 +5,19 @@
  "brand": "Lionel Despres",
  "tagline": "Vigneron récoltant à Fleurie",
  "theme": {
-  "paper": "#f6f1ea",
-  "paper2": "#ece2d6",
-  "ink": "#24161a",
-  "muted": "#6b5c5e",
-  "accent": "#c8200f",
-  "accent2": "#9c170a",
-  "gold": "#a4824a",
-  "heroem": "#ffb3a6",
-  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "look": "split",
+  "paper": "#fffaf0",
+  "paper2": "#fbefcf",
+  "ink": "#2a1a1a",
+  "muted": "#6e5d55",
+  "accent": "#fe1300",
+  "accent2": "#c80f00",
+  "gold": "#b07d00",
+  "heroem": "#ffc400",
+  "logo_accent": false,
+  "serif": "\"Lora\",Georgia,serif",
   "sans": "\"Jost\",system-ui,sans-serif",
-  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap"
+  "fonts": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap"
  },
  "nav": [
   [
@@ -49,9 +51,9 @@
  ],
  "hero": {
   "img": "https://www.lionel-despres.com/_image/photos/accueil-01-xl.jpg",
-  "eyebrow": "Fleurie · Chiroubles · Beaujolais",
+  "eyebrow": "Vigneron récoltant · Fleurie · Beaujolais",
   "title": "Bienvenue dans un vignoble <em>d'exception</em>",
-  "lead": "Vigneron récoltant à Fleurie, au cœur du Beaujolais, au pied de la Chapelle de la Madone.",
+  "lead": "Fleurie et Chiroubles, au pied de la Chapelle de la Madone : environ 7 hectares de gamay sur les coteaux granitiques du Beaujolais.",
   "cta1": [
    "Découvrir nos cuvées",
    "#cuvees"
@@ -89,8 +91,8 @@
    "alt": "Lionel Despres dans ses vignes",
    "paras": [
     "C'est tout naturellement que j'ai suivi le chemin de mes aïeux : certaines de mes vignes appartenaient déjà à mon arrière-grand-père.",
-    "Le domaine s'étend sur environ 7 hectares de vignes de 45 ans d'âge moyen, en appellations Fleurie et Chiroubles, au pied de la Chapelle de la Madone. À Fleurie, la plupart des parcelles sont plantées sur des coteaux de 20 à 40 % de pente, où la mécanisation est difficile.",
-    "J'assure l'ensemble des travaux, de la taille jusqu'à la commercialisation de mes vins, pour des vins authentiques qui allient la tradition et des techniques plus récentes. Les vins sont mis en bouteille au domaine."
+    "Le domaine s'étend sur environ 7 hectares de vignes de 45 ans d'âge moyen, en appellations Fleurie et Chiroubles. La plupart des vignes de Fleurie sont situées au pied de la Chapelle de la Madone.",
+    "Je travaille mes vignes tout au long de l'année, dans le respect du terroir, pour des vins authentiques."
    ],
    "sign": "Lionel Despres"
   },
@@ -118,11 +120,43 @@
    ]
   },
   {
+   "kind": "quote",
+   "eyebrow": "Le chemin des aïeux",
+   "text": "C'est tout naturellement que j'ai suivi le chemin de mes aïeux.",
+   "sub": "Lionel Despres, vigneron récoltant à Fleurie"
+  },
+  {
+   "kind": "features",
+   "id": "savoir-faire",
+   "dark": true,
+   "eyebrow": "Le travail du vigneron",
+   "title": "De la taille <em class=\"it\">à la bouteille</em>",
+   "lead": "J'assure l'ensemble des travaux, de la taille jusqu'à la commercialisation de mes vins.",
+   "items": [
+    [
+     "Des coteaux escarpés",
+     "À Fleurie, la plupart des parcelles sont plantées sur des coteaux de 20 à 40 % de pente, où la mécanisation est difficile."
+    ],
+    [
+     "Des vignes de 45 ans",
+     "Environ 7 hectares de vignes de 45 ans d'âge moyen, en Fleurie et en Chiroubles, dont certaines appartenaient à mon arrière-grand-père."
+    ],
+    [
+     "Tradition et modernité",
+     "Des vins authentiques qui allient la tradition et des techniques plus récentes, dans le respect du terroir."
+    ],
+    [
+     "Mis en bouteille au domaine",
+     "Des vins mis en bouteille au domaine, à boire jeunes ou à attendre quelques années."
+    ]
+   ]
+  },
+  {
    "kind": "cards",
    "id": "cuvees",
    "eyebrow": "Des vins authentiques",
    "title": "Nos <em class=\"it\">cuvées</em>",
-   "lead": "Gamay noir à jus blanc, vinification traditionnelle beaujolaise, mise en bouteille au domaine. Des vins à boire jeunes ou à attendre.",
+   "lead": "Gamay noir à jus blanc, vinification traditionnelle beaujolaise, mise en bouteille au domaine. Des vins à boire jeunes ou à attendre quelques années.",
    "items": [
     {
      "name": "Cuvée Madone",
@@ -343,7 +377,8 @@
       "#contact"
      ]
     }
-   ]
+   ],
+   "note": "<style>\n/* Touches propres à cette maquette (jaune et rouge du domaine) */\n.look-split .hero::after{content:\"\";position:absolute;width:min(30vw,380px);aspect-ratio:1;border-radius:50%;background:#ffc400;left:47%;bottom:-60px;z-index:0;animation:ld-float 9s ease-in-out infinite}\n@keyframes ld-float{50%{transform:translateY(-22px) scale(1.04)}}\n.look-split .hero .wrap{z-index:2}\n.figures{background:#ffc400;border:0}.fig{border-color:rgba(42,26,26,.18)!important}.fig b{color:#c80f00}.fig span{color:#2a1a1a;font-weight:500}\n.quote blockquote{color:#c80f00}\n#cuvees .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}\n#cuvees .card{border:0;border-top:4px solid #ffc400;border-radius:4px;box-shadow:0 18px 40px -30px rgba(42,26,26,.5);padding-top:36px}\n#cuvees .card .bimg{height:320px;transition:transform .6s cubic-bezier(.2,.7,.2,1)}\n#cuvees .card:hover .bimg{transform:translateY(-8px) rotate(-3deg)}\n#cuvees .card:hover{border-top-color:#fe1300}\n#savoir-faire .feat i{color:#ffc400;font-size:1.4rem}\n.dark .eyebrow{color:#ffc400}\n.banner .eyebrow{color:#ffc400}\n#agenda{background:#fbefcf}#agenda .blocks{max-width:680px;margin:0 auto}#agenda .blk{border:0;border-left:4px solid #fe1300;border-radius:4px;text-align:center}#agenda .note{margin:0}\n@media(max-width:560px){.fig b{font-size:2.1rem}.fig{padding:30px 10px}}\n@media(max-width:960px){#cuvees .grid{grid-template-columns:minmax(0,1fr)}.look-split .hero::after{display:none}}\n@media(prefers-reduced-motion:reduce){.look-split .hero::after{animation:none}}\n</style>"
   },
   {
    "kind": "story",
@@ -353,6 +388,7 @@
    "img": "https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-01.jpg",
    "alt": "Le gîte La Cachette d'Ampelopsis à Chiroubles",
    "paras": [
+    "Les parents d'Adeline sont heureux de vous accueillir au cœur des Crus du Beaujolais, à Chiroubles.",
     "À Chiroubles, notre gîte 3 épis entièrement rénové accueille familles et groupes jusqu'à 12 personnes.",
     "Chambre « Découverte » pour 5 personnes, chambre « Secrète » pour 3 personnes, buanderie avec lave-linge et sèche-linge.",
     "<a href=\"https://www.gites-de-france.com/fr/auvergne-rhone-alpes/rhone/la-cachette-dampelopsis-69g1791\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Réserver sur Gîtes de France</a>"
@@ -595,5 +631,10 @@
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
   "legal_url": "https://www.lionel-despres.com/mentions-legales.php"
+ },
+ "agegate": true,
+ "logo": {
+  "src": "logo.svg",
+  "height": 58
  }
 }
