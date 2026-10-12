@@ -6,7 +6,8 @@
  "tagline": "Plâtrier peintre · Lyon",
  "logo": {
   "src": "https://www.artisan-platrier-peintre.com/wpimages/wp55660363_06.png",
-  "height": 40
+  "height": 46,
+  "with_name": true
  },
  "theme": {
   "paper": "#f3f4f1",
@@ -19,52 +20,21 @@
   "heroem": "#f2c230",
   "serif": "\"Archivo\",system-ui,sans-serif",
   "sans": "\"Archivo\",system-ui,sans-serif",
-  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap",
+  "look": "framed"
  },
  "nav": [
   [
-   "accueil",
-   "Accueil"
+   "prestations",
+   "Prestations"
   ],
   [
-   "platrier-peintre-lyon",
-   "Plâtrerie"
+   "realisations",
+   "Réalisations"
   ],
   [
-   "parquet-flottant",
-   "Parquet"
-  ],
-  [
-   "renovation-lyon",
-   "Rénovation"
-  ],
-  [
-   "travaux-peinture-lyon",
-   "Peinture"
-  ],
-  [
-   "peintures-exterieures",
-   "Extérieur"
-  ],
-  [
-   "papiers-peints",
-   "Papier peint"
-  ],
-  [
-   "menuiseries-interieures",
-   "Menuiseries"
-  ],
-  [
-   "peinture-vernis",
-   "Vernis"
-  ],
-  [
-   "badigeon-chaux",
-   "Badigeon"
-  ],
-  [
-   "secteur-intervention",
-   "Secteur"
+   "secteur",
+   "Secteur d'intervention"
   ],
   [
    "contact",
@@ -136,7 +106,9 @@
       "Lasure intérieure et extérieure",
       "Stucco et peinture à effets",
       "Toutes les peintures décoratives et revêtements muraux"
-     ]
+     ],
+     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
+     "alt": "Peinture"
     },
     {
      "title": "Enduits et décors à la chaux",
@@ -148,7 +120,9 @@
       "Crépis décoratifs",
       "Enduit à l'argile pour vos murs, en finition brute ou ferrée",
       "Murs d'autrefois, tout style"
-     ]
+     ],
+     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
+     "alt": "Enduits et décors à la chaux"
     },
     {
      "title": "Murs et plafonds",
@@ -160,7 +134,9 @@
       "Détapissage et pose de papier peint",
       "Plâtrerie et rénovation de plafond en plâtre",
       "Montage de cloisons en placo"
-     ]
+     ],
+     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
+     "alt": "Murs et plafonds"
     },
     {
      "title": "Sols et habillages",
@@ -168,10 +144,12 @@
       "Pose de parquet flottant",
       "Pose de lambris et frisette",
       "Petite faïence"
-     ]
+     ],
+     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
+     "alt": "Sols et habillages"
     }
    ],
-   "note": "… et tous travaux sur demande.<br><br><a href=\"platrier-peintre-lyon/\" style=\"border-bottom:1px solid var(--gold)\">Plâtrier peintre à Lyon</a> · <a href=\"parquet-flottant/\" style=\"border-bottom:1px solid var(--gold)\">Pose de parquet flottant à Lyon</a> · <a href=\"renovation-lyon/\" style=\"border-bottom:1px solid var(--gold)\">Rénovation peinture à Lyon</a> · <a href=\"travaux-peinture-lyon/\" style=\"border-bottom:1px solid var(--gold)\">Travaux de peinture à Lyon</a> · <a href=\"peintures-exterieures/\" style=\"border-bottom:1px solid var(--gold)\">Les peintures extérieures</a> · <a href=\"papiers-peints/\" style=\"border-bottom:1px solid var(--gold)\">Pose de papiers peints à Lyon</a> · <a href=\"menuiseries-interieures/\" style=\"border-bottom:1px solid var(--gold)\">Peinture des menuiseries intérieures</a> · <a href=\"peinture-vernis/\" style=\"border-bottom:1px solid var(--gold)\">Peinture et vernis à Lyon</a> · <a href=\"badigeon-chaux/\" style=\"border-bottom:1px solid var(--gold)\">Badigeon de chaux à Lyon</a>"
+   "note": "… et tous travaux sur demande.<br><br><a href=\"prestations/\" style=\"border-bottom:1px solid var(--gold)\">Voir le détail des 9 prestations</a><style>.blk .bi{max-width:none}</style>"
   },
   {
    "kind": "features",
@@ -192,6 +170,10 @@
     [
      "Devis gratuit",
      "Sur demande, à tarif compétitif."
+    ],
+    [
+     "Petits et moyens chantiers",
+     "Spécialiste des petits et moyens chantiers, et tous travaux sur demande."
     ]
    ]
   },
@@ -200,7 +182,7 @@
    "id": "chantiers",
    "eyebrow": "Chantiers",
    "title": "Sur <em class=\"it\">les chantiers</em>",
-   "lead": "Quelques travaux de l'entreprise.",
+   "lead": "Quelques travaux de l'entreprise. Toutes les photos sont sur la page Réalisations.",
    "photos": [
     {
      "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
@@ -227,96 +209,42 @@
      "caption": "Pose de parquet flottant"
     },
     {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp4098b73b_06.gif",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp4098b73b_06.gif",
-     "alt": "Plâtrerie"
-    },
-    {
      "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
      "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
-     "alt": ""
+     "alt": "Salon en peinture",
+     "caption": "Salon en peinture"
     },
     {
      "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
      "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpd3206edb_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wpd3206edb_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
-     "alt": ""
+     "alt": "Pose de toile de verre",
+     "caption": "Pose de toile de verre"
     },
     {
      "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg",
      "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg",
-     "alt": ""
+     "alt": "Chantier de l'entreprise Brun"
     },
     {
-     "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp35f44542_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/wpimages/wp35f44542_05_06.jpg",
-     "alt": ""
+     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
+     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
+     "alt": "Chantier de l'entreprise Brun"
     },
     {
-     "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wpd962ca9e_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/wpimages/wpd962ca9e_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wpf6da330c_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/wpimages/wpf6da330c_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wpf9f812ab_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/wpimages/wpf9f812ab_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp8c9226c8_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/wpimages/wp8c9226c8_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp184f8167_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/wpimages/wp184f8167_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp1bb04f1a_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/wpimages/wp1bb04f1a_05_06.jpg",
-     "alt": ""
-    },
-    {
-     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
-     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
-     "alt": "",
-     "caption": ""
+     "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
+     "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
+     "alt": "Chantier de l'entreprise Brun"
     }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
+   "eyebrow": "Réalisations",
+   "title": "Tous <em>les chantiers en images</em>",
+   "cta": [
+    "Voir les réalisations",
+    "realisations/"
    ]
   },
   {
@@ -326,7 +254,7 @@
    "eyebrow": "Secteur d'intervention",
    "title": "Lyon <em class=\"it\">et toute la région lyonnaise</em>",
    "lead": "Les neuf arrondissements de Lyon et une cinquantaine de communes autour.",
-   "note": "<a href=\"secteur-intervention/\" style=\"border-bottom:1px solid var(--gold)\">Voir toutes les communes</a>"
+   "note": "<a href=\"secteur/\" style=\"border-bottom:1px solid var(--gold)\">Voir toutes les communes</a>"
   },
   {
    "kind": "visit",
@@ -360,178 +288,199 @@
  },
  "pages": [
   {
-   "slug": "platrier-peintre-lyon",
-   "label": "Plâtrerie",
-   "title": "Plâtrier peintre à Lyon",
-   "eyebrow": "Plâtrerie peinture",
+   "slug": "prestations",
+   "label": "Prestations",
+   "title": "Prestations",
+   "eyebrow": "Plâtrerie · peinture · décoration",
+   "h1": "Nos <em>prestations</em>",
    "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
    "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
    "sections": [
     {
      "kind": "blocks",
-     "id": "detail-platrier-peintre-lyon",
-     "eyebrow": "Plâtrerie peinture",
+     "id": "detail-prestations",
+     "eyebrow": "9 prestations",
      "title": "Plâtrier peintre <em class=\"it\">à Lyon</em>",
      "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Plâtrerie à l'enduit et au plâtre",
-      "Ratissage des murs et plafonds à l'enduit",
-      "Réparation de fissures de plafonds et de murs",
-      "Rénovation de plafond en plâtre",
-      "Montage de cloisons en placo",
-      "Pose de fibre de verre à peindre",
-      "Peinture mate, satinée, veloutée et laquée"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
-     "kind": "gallery",
-     "id": "photos-platrier-peintre-lyon",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
+     "items": [
       {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp4098b73b_06.gif",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp4098b73b_06.gif",
-       "alt": "Plâtrerie",
-       "caption": "Plâtrerie"
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
+       "alt": "Plâtrier peintre à Lyon",
+       "kicker": "Plâtrerie peinture",
+       "title": "Plâtrier peintre à Lyon",
+       "list": [
+        "Plâtrerie à l'enduit et au plâtre",
+        "Ratissage des murs et plafonds à l'enduit",
+        "Réparation de fissures de plafonds et de murs",
+        "Rénovation de plafond en plâtre",
+        "Montage de cloisons en placo",
+        "Pose de fibre de verre à peindre",
+        "Peinture mate, satinée, veloutée et laquée"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp4098b73b_06.gif\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
       },
       {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
-       "alt": "Plâtrier peintre à Lyon"
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
+       "alt": "Pose de parquet flottant à Lyon",
+       "kicker": "Sols et habillages",
+       "title": "Pose de parquet flottant à Lyon",
+       "list": [
+        "Pose de parquet flottant",
+        "Pose de lambris et frisette",
+        "Petite faïence",
+        "Peinture de sols"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
       },
       {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
-       "alt": "Plâtrier peintre à Lyon"
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg",
+       "alt": "Rénovation peinture à Lyon",
+       "kicker": "Rénovation et décoration intérieure",
+       "title": "Rénovation peinture à Lyon",
+       "list": [
+        "Peinture mate, satinée, veloutée et laquée",
+        "Pose de papier peint, tapisserie",
+        "Enduit et peinture déco",
+        "Béton ciré et tadelakt",
+        "Ratissage des murs et plafonds à l'enduit",
+        "Rénovation de plafond",
+        "Montage de cloisons en placo",
+        "Pose de parquet flottant"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
       },
       {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-       "alt": "Plâtrier peintre à Lyon"
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
+       "alt": "Travaux de peinture à Lyon",
+       "kicker": "Peinture intérieure",
+       "title": "Travaux de peinture à Lyon",
+       "list": [
+        "Peinture glycéro et acrylique : mate, satinée, veloutée",
+        "Tous travaux de peinture",
+        "Peinture des menuiseries intérieures",
+        "Peinture et vernis",
+        "Peinture de sols",
+        "Peintures extérieures",
+        "Lasure intérieure et extérieure",
+        "Stucco et peinture à effets",
+        "Toutes les peintures décoratives et revêtements muraux"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
+      },
+      {
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
+       "alt": "Les peintures extérieures",
+       "kicker": "Peinture extérieure",
+       "title": "Les peintures extérieures",
+       "list": [
+        "Peintures extérieures",
+        "Lasure intérieure et extérieure",
+        "Crépis décoratifs",
+        "Peinture de sols",
+        "Portail en peinture antirouille"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
+      },
+      {
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
+       "alt": "Pose de papiers peints à Lyon",
+       "kicker": "Revêtements muraux",
+       "title": "Pose de papiers peints à Lyon",
+       "list": [
+        "Détapissage et pose de papier peint",
+        "Pose de papier peint, tapisserie",
+        "Pose de fibre de verre à peindre",
+        "Toutes les peintures décoratives et revêtements muraux"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/wpimages/wp184f8167_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
+      },
+      {
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
+       "alt": "Peinture des menuiseries intérieures",
+       "kicker": "Boiseries et menuiseries",
+       "title": "Peinture des menuiseries intérieures",
+       "list": [
+        "Peinture des menuiseries intérieures",
+        "Peinture glycéro et acrylique : mate, satinée, veloutée",
+        "Peinture et vernis",
+        "Lasure intérieure et extérieure"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
+      },
+      {
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
+       "alt": "Peinture et vernis à Lyon",
+       "kicker": "Peinture et vernis",
+       "title": "Peinture et vernis à Lyon",
+       "list": [
+        "Peinture et vernis",
+        "Lasure intérieure et extérieure",
+        "Peinture des menuiseries intérieures",
+        "Peinture glycéro et acrylique : mate, satinée, veloutée"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
+      },
+      {
+       "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
+       "alt": "Badigeon de chaux à Lyon",
+       "kicker": "Enduits et décors à la chaux",
+       "title": "Badigeon de chaux à Lyon",
+       "list": [
+        "Enduit badigeon et peinture à la chaux",
+        "Enduit à la chaux ferrée",
+        "Tadelakt et stuc à la chaux",
+        "Enduit ciré et béton ciré",
+        "Crépis décoratifs",
+        "Enduit à l'argile pour vos murs, en finition brute ou ferrée",
+        "Murs d'autrefois, tout style"
+       ],
+       "paras": [
+        "<span style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"><img src=\"https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\" style=\"width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:var(--paper-2)\"></span>"
+       ]
       }
-     ]
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-     "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
-     "cta": [
-      "Demander un devis",
-      "#contact"
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "parquet-flottant",
-   "label": "Parquet",
-   "title": "Pose de parquet flottant à Lyon",
-   "eyebrow": "Sols et habillages",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
-   "sections": [
-    {
-     "kind": "blocks",
-     "id": "detail-parquet-flottant",
-     "eyebrow": "Sols et habillages",
-     "title": "Pose de parquet flottant <em class=\"it\">à Lyon</em>",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Pose de parquet flottant",
-      "Pose de lambris et frisette",
-      "Petite faïence",
-      "Peinture de sols"
      ],
-     "note": "… et tous travaux sur demande."
+     "note": "… et tous travaux sur demande.<style>.blk .bi{max-width:none}</style>"
     },
     {
-     "kind": "gallery",
-     "id": "photos-parquet-flottant",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
-       "alt": "Pose de parquet flottant",
-       "caption": "Pose de parquet flottant"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
-       "alt": "Chambre terminée",
-       "caption": "Chambre terminée"
-      }
-     ]
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
-     "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
-     "cta": [
-      "Demander un devis",
-      "#contact"
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "renovation-lyon",
-   "label": "Rénovation",
-   "title": "Rénovation peinture à Lyon",
-   "eyebrow": "Rénovation et décoration intérieure",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
-   "sections": [
-    {
-     "kind": "blocks",
-     "id": "detail-renovation-lyon",
-     "eyebrow": "Rénovation et décoration intérieure",
-     "title": "Rénovation peinture <em class=\"it\">à Lyon</em>",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Peinture mate, satinée, veloutée et laquée",
-      "Pose de papier peint, tapisserie",
-      "Enduit et peinture déco",
-      "Béton ciré et tadelakt",
-      "Ratissage des murs et plafonds à l'enduit",
-      "Rénovation de plafond",
-      "Montage de cloisons en placo",
-      "Pose de parquet flottant"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
-     "kind": "gallery",
-     "id": "photos-renovation-lyon",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg",
-       "alt": "Rénovation peinture à Lyon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
-       "alt": "Rénovation peinture à Lyon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
-       "alt": "Rénovation peinture à Lyon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
-       "alt": "Chambre terminée",
-       "caption": "Chambre terminée"
-      }
+     "kind": "features",
+     "dark": true,
+     "id": "engagements",
+     "eyebrow": "Engagements",
+     "title": "Un chantier <em class=\"it\">soigné</em>",
+     "lead": "",
+     "items": [
+      [
+       "Chantier protégé",
+       "Protection avec des bâches PVC."
+      ],
+      [
+       "Votre confort",
+       "Le respect de votre confort pendant toute la durée des travaux."
+      ],
+      [
+       "Devis gratuit",
+       "Sur demande, à tarif compétitif."
+      ],
+      [
+       "Petits et moyens chantiers",
+       "Spécialiste des petits et moyens chantiers, et tous travaux sur demande."
+      ]
      ]
     },
     {
@@ -547,37 +496,20 @@
    ]
   },
   {
-   "slug": "travaux-peinture-lyon",
-   "label": "Peinture",
-   "title": "Travaux de peinture à Lyon",
-   "eyebrow": "Peinture intérieure",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
+   "slug": "realisations",
+   "label": "Réalisations",
+   "title": "Réalisations",
+   "eyebrow": "Sur les chantiers",
+   "h1": "Nos <em>réalisations</em>",
+   "lead": "Peinture, plâtrerie, enduits, papier peint, parquet : quelques chantiers de l'entreprise à Lyon et dans la région lyonnaise.",
+   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
    "sections": [
     {
-     "kind": "blocks",
-     "id": "detail-travaux-peinture-lyon",
-     "eyebrow": "Peinture intérieure",
-     "title": "Travaux de peinture <em class=\"it\">à Lyon</em>",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Peinture glycéro et acrylique : mate, satinée, veloutée",
-      "Tous travaux de peinture",
-      "Peinture des menuiseries intérieures",
-      "Peinture et vernis",
-      "Peinture de sols",
-      "Peintures extérieures",
-      "Lasure intérieure et extérieure",
-      "Stucco et peinture à effets",
-      "Toutes les peintures décoratives et revêtements muraux"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
      "kind": "gallery",
-     "id": "photos-travaux-peinture-lyon",
-     "eyebrow": "Sur les chantiers",
+     "id": "galerie",
+     "eyebrow": "Chantiers",
      "title": "En <em class=\"it\">images</em>",
+     "lead": "Cliquez sur une photo pour l'agrandir.",
      "photos": [
       {
        "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
@@ -586,14 +518,122 @@
        "caption": "Cuisine peinte"
       },
       {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
+       "alt": "Chambre terminée",
+       "caption": "Chambre terminée"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
+       "alt": "Crépi posé à la taloche dans un salon",
+       "caption": "Crépi posé à la taloche dans un salon"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp30787322_05_06.jpg",
+       "alt": "Pose de parquet flottant",
+       "caption": "Pose de parquet flottant"
+      },
+      {
        "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
        "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0606bf61_05_06.jpg",
-       "alt": "Travaux de peinture à Lyon"
+       "alt": "Salon en peinture",
+       "caption": "Salon en peinture"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp4098b73b_06.gif",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp4098b73b_06.gif",
+       "alt": "Plâtrerie",
+       "caption": "Plâtrerie"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
+       "alt": "Pose de toile de verre",
+       "caption": "Pose de toile de verre"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
+       "alt": "Protection avec des bâches PVC",
+       "caption": "Protection avec des bâches PVC"
       },
       {
        "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg",
        "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8eb4cba5_05_06.jpg",
-       "alt": "Travaux de peinture à Lyon"
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp0b560f87_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpd3206edb_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wpd3206edb_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp6b76ad84_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wp6b76ad84_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp35f44542_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wp35f44542_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wpd962ca9e_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wpd962ca9e_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wpf6da330c_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wpf6da330c_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wpf9f812ab_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wpf9f812ab_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp8c9226c8_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wp8c9226c8_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp184f8167_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wp184f8167_05_06.jpg",
+       "alt": "Chambre, tapisserie en cours",
+       "caption": "Chambre, tapisserie en cours"
+      },
+      {
+       "thumb": "https://www.artisan-platrier-peintre.com/wpimages/wp1bb04f1a_05_06.jpg",
+       "full": "https://www.artisan-platrier-peintre.com/wpimages/wp1bb04f1a_05_06.jpg",
+       "alt": "Chantier de l'entreprise Brun"
       }
      ]
     },
@@ -601,7 +641,7 @@
      "kind": "banner",
      "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
      "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
+     "title": "Un projet <em>de rénovation ?</em>",
      "cta": [
       "Demander un devis",
       "#contact"
@@ -610,285 +650,8 @@
    ]
   },
   {
-   "slug": "peintures-exterieures",
-   "label": "Extérieur",
-   "title": "Les peintures extérieures",
-   "eyebrow": "Peinture extérieure",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-   "sections": [
-    {
-     "kind": "blocks",
-     "id": "detail-peintures-exterieures",
-     "eyebrow": "Peinture extérieure",
-     "title": "Les peintures extérieures",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Peintures extérieures",
-      "Lasure intérieure et extérieure",
-      "Crépis décoratifs",
-      "Peinture de sols"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
-     "kind": "gallery",
-     "id": "photos-peintures-exterieures",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
-       "alt": "Crépi posé à la taloche dans un salon",
-       "caption": "Crépi posé à la taloche dans un salon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
-       "alt": "Les peintures extérieures"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
-       "alt": "Les peintures extérieures"
-      }
-     ]
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-     "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
-     "cta": [
-      "Demander un devis",
-      "#contact"
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "papiers-peints",
-   "label": "Papier peint",
-   "title": "Pose de papiers peints à Lyon",
-   "eyebrow": "Revêtements muraux",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-   "sections": [
-    {
-     "kind": "blocks",
-     "id": "detail-papiers-peints",
-     "eyebrow": "Revêtements muraux",
-     "title": "Pose de papiers peints <em class=\"it\">à Lyon</em>",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Détapissage et pose de papier peint",
-      "Pose de papier peint, tapisserie",
-      "Pose de fibre de verre à peindre",
-      "Toutes les peintures décoratives et revêtements muraux"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
-     "kind": "gallery",
-     "id": "photos-papiers-peints",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp8235106e_05_06.jpg",
-       "alt": "Pose de papiers peints à Lyon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp1c115031_05_06.jpg",
-       "alt": "Chambre terminée",
-       "caption": "Chambre terminée"
-      }
-     ]
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-     "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
-     "cta": [
-      "Demander un devis",
-      "#contact"
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "menuiseries-interieures",
-   "label": "Menuiseries",
-   "title": "Peinture des menuiseries intérieures",
-   "eyebrow": "Boiseries et menuiseries",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-   "sections": [
-    {
-     "kind": "blocks",
-     "id": "detail-menuiseries-interieures",
-     "eyebrow": "Boiseries et menuiseries",
-     "title": "Peinture des menuiseries intérieures",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Peinture des menuiseries intérieures",
-      "Peinture glycéro et acrylique : mate, satinée, veloutée",
-      "Peinture et vernis",
-      "Lasure intérieure et extérieure"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
-     "kind": "gallery",
-     "id": "photos-menuiseries-interieures",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wpbac9155e_05_06.jpg",
-       "alt": "Cuisine peinte",
-       "caption": "Cuisine peinte"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
-       "alt": "Peinture des menuiseries intérieures"
-      }
-     ]
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-     "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
-     "cta": [
-      "Demander un devis",
-      "#contact"
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "peinture-vernis",
-   "label": "Vernis",
-   "title": "Peinture et vernis à Lyon",
-   "eyebrow": "Peinture et vernis",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-   "sections": [
-    {
-     "kind": "blocks",
-     "id": "detail-peinture-vernis",
-     "eyebrow": "Peinture et vernis",
-     "title": "Peinture et vernis <em class=\"it\">à Lyon</em>",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Peinture et vernis",
-      "Lasure intérieure et extérieure",
-      "Peinture des menuiseries intérieures",
-      "Peinture glycéro et acrylique : mate, satinée, veloutée"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
-     "kind": "gallery",
-     "id": "photos-peinture-vernis",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp67c2a2ea_05_06.jpg",
-       "alt": "Peinture et vernis à Lyon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
-       "alt": "Peinture et vernis à Lyon"
-      }
-     ]
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp6c50c17e_05_06.jpg",
-     "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
-     "cta": [
-      "Demander un devis",
-      "#contact"
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "badigeon-chaux",
-   "label": "Badigeon",
-   "title": "Badigeon de chaux à Lyon",
-   "eyebrow": "Enduits et décors à la chaux",
-   "lead": "Intervention sur Lyon et toute la région lyonnaise. Spécialiste des petits et moyens chantiers.",
-   "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
-   "sections": [
-    {
-     "kind": "blocks",
-     "id": "detail-badigeon-chaux",
-     "eyebrow": "Enduits et décors à la chaux",
-     "title": "Badigeon de chaux <em class=\"it\">à Lyon</em>",
-     "lead": "Devis gratuit sur demande et tarif compétitif. Le respect de votre confort pendant toute la durée des travaux.",
-     "chips": [
-      "Enduit badigeon et peinture à la chaux",
-      "Enduit à la chaux ferrée",
-      "Tadelakt et stuc à la chaux",
-      "Enduit ciré et béton ciré",
-      "Crépis décoratifs",
-      "Enduit à l'argile pour vos murs, en finition brute ou ferrée",
-      "Murs d'autrefois, tout style"
-     ],
-     "note": "… et tous travaux sur demande."
-    },
-    {
-     "kind": "gallery",
-     "id": "photos-badigeon-chaux",
-     "eyebrow": "Sur les chantiers",
-     "title": "En <em class=\"it\">images</em>",
-     "photos": [
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
-       "alt": "Crépi posé à la taloche dans un salon",
-       "caption": "Crépi posé à la taloche dans un salon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp2b6963cb_05_06.jpg",
-       "alt": "Badigeon de chaux à Lyon"
-      },
-      {
-       "thumb": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
-       "full": "https://www.artisan-platrier-peintre.com/_wp_generated/wp05862136_05_06.jpg",
-       "alt": "Badigeon de chaux à Lyon"
-      }
-     ]
-    },
-    {
-     "kind": "banner",
-     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wpb8acc86e_05_06.jpg",
-     "eyebrow": "Devis gratuit",
-     "title": "Parlons <em>de vos travaux</em>",
-     "cta": [
-      "Demander un devis",
-      "#contact"
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "secteur-intervention",
-   "label": "Secteur",
+   "slug": "secteur",
+   "label": "Secteur d'intervention",
    "title": "Secteur d'intervention",
    "eyebrow": "Lyon et région lyonnaise",
    "lead": "Voici la liste de tous les lieux où nous intervenons.",
@@ -953,6 +716,16 @@
       "Villeurbanne",
       "Vourles"
      ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.artisan-platrier-peintre.com/_wp_generated/wp26f963b9_05_06.jpg",
+     "eyebrow": "Devis gratuit",
+     "title": "Parlons <em>de vos travaux</em>",
+     "cta": [
+      "Demander un devis",
+      "#contact"
+     ]
     }
    ]
   },
@@ -1012,6 +785,10 @@
       [
        "Devis gratuit",
        "Sur demande, à tarif compétitif."
+      ],
+      [
+       "Petits et moyens chantiers",
+       "Spécialiste des petits et moyens chantiers, et tous travaux sur demande."
       ]
      ]
     }
