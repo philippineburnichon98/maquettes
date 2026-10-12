@@ -63,7 +63,7 @@ header.many .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.m
 .fig b{display:block;font-family:var(--serif);font-weight:400;font-size:3rem;color:var(--accent);line-height:1.05}
 .fig span{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
 @media(max-width:760px){.figures .wrap{grid-template-columns:repeat(2,1fr)}.fig:nth-child(2){border-right:0}.fig:nth-child(-n+2){border-bottom:1px solid var(--line)}}
-section{padding:clamp(80px,11vw,140px) 0}
+section{padding:clamp(56px,7vw,92px) 0}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,7vw,110px);align-items:center}
 .split .img{aspect-ratio:4/5;background:var(--paper-2) center/cover;position:relative}
 .split .img::after{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--gold);z-index:-1}
@@ -100,7 +100,7 @@ section{padding:clamp(80px,11vw,140px) 0}
 .ann>div{background:var(--paper);color:var(--ink);max-width:460px;width:100%%;padding:38px 34px 32px;position:relative;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
 .ann h3{font-size:1.7rem;margin:12px 0 14px;color:var(--accent)}.ann p{color:var(--muted);margin-bottom:24px}
 .ann .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--muted)}
-.vimg{display:block;width:100%%;aspect-ratio:16/9;object-fit:cover;margin:0 0 22px}header.many .links{gap:18px;font-size:.7rem;letter-spacing:.1em}.hero.phead{min-height:46vh}.hero.phead h1{font-size:clamp(2.2rem,5vw,3.6rem)}.links a[aria-current]{border-bottom:1px solid currentColor}.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
+.vimg{display:block;width:100%%;aspect-ratio:16/9;object-fit:cover;margin:0 0 22px}header.many .links{gap:18px;font-size:.7rem;letter-spacing:.1em}.hero.phead{min-height:36vh}.hero.phead h1{font-size:clamp(2.2rem,5vw,3.6rem)}.links a[aria-current]{border-bottom:1px solid currentColor}.teamhero{width:100%%;aspect-ratio:16/7;object-fit:cover;margin-bottom:clamp(40px,6vw,70px);background:var(--paper-2)}
 .picto{width:56px;height:56px;object-fit:contain;margin-bottom:6px}
 .labels{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:26px}.labels img{height:64px;width:auto;background:#fff;padding:6px;border-radius:4px}
 .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
@@ -295,7 +295,7 @@ def section_menu(o):
 def section_booking(b):
     """Module de réservation existant du client (TheFork, Zenchef…), intégré tel quel dans la page."""
     h = b.get("height", 640)
-    return f'''<section id="{b.get("id", "reserver")}" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
+    return f'''<section id="{b.get("id", "reserver")}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
 <h2>{b["title"]}</h2><p>{e(b.get("lead", ""))}</p></div>
 <div class="booking rv"><iframe src="{attr(b["url"])}" title="{attr(b.get("label", "Module de réservation"))}" loading="lazy" style="height:{h}px"></iframe>
 <p class="note">Le module ne s'affiche pas ? <a href="{attr(b["url"])}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Réserver dans un nouvel onglet</a></p></div></div></section>'''
@@ -428,7 +428,7 @@ def section_gallery(g):
                    + (f'<figcaption>{e(p["caption"])}</figcaption>' if p.get("caption") else "") + '</button>'
                    for p in g["photos"])
     lead = f'<p>{e(g["lead"])}</p>' if g.get("lead") else ""
-    return f'''<section id="{g.get("id", "photos")}" style="padding-top:0"><div class="wrap">{_headimg(g)}<div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
+    return f'''<section id="{g.get("id", "photos")}"><div class="wrap">{_headimg(g)}<div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
 <h2>{g["title"]}</h2>{lead}</div>{('<div class="carw"><div class="gallery car">' + btns + '</div><button type="button" class="carb prev" aria-label="Photos précédentes">&lsaquo;</button><button type="button" class="carb next" aria-label="Photos suivantes">&rsaquo;</button></div>' + CAR_CSS + CAR_JS) if g.get("carousel") else ('<div class="gallery">' + btns + '</div>')}{('<div class="ctas" style="display:flex;justify-content:center;margin-top:34px"><a class="btn" href="' + attr(g["cta"][1]) + '">' + e(g["cta"][0]) + '</a></div>') if g.get("cta") else ""}</div></section>'''
 
 
@@ -532,7 +532,7 @@ def section_visit(v):
     q = urllib.parse.quote(v.get("map_q", ""))
     cta = v["cta"]
     tgt = ' target="_blank" rel="noopener"' if cta[1].startswith("http") else ""
-    return f'''<section id="{v.get("id", "contact")}" style="padding-top:0"><div class="wrap"><div class="visit{"" if v.get("map_q") else " nomap"} rv"><div class="info">{_headimg(v, "vimg")}
+    return f'''<section id="{v.get("id", "contact")}"><div class="wrap"><div class="visit{"" if v.get("map_q") else " nomap"} rv"><div class="info">{_headimg(v, "vimg")}
 <span class="eyebrow">{e(v["eyebrow"])}</span><h2>{v["title"]}</h2><p style="color:var(--muted)">{e(v.get("text", ""))}</p>
 <dl>{rows}</dl><a class="btn solid" href="{attr(cta[1])}"{tgt}>{e(cta[0])}</a></div>
 {f'<iframe title="Plan d’accès" loading="lazy" src="https://maps.google.com/maps?q={q}&amp;z=15&amp;output=embed"></iframe>' if v.get("map_q") else ""}</div></div></section>'''
@@ -617,6 +617,8 @@ LOOKS = ["split", "center", "editorial", "framed"]
 LOOK_CSS = """<style>
 /* ---- Variantes de mise en page (theme.look) : chaque maquette a sa propre allure, toujours sobre ---- */
 .flogo{color:var(--ink)}.blk .bi{max-width:none}
+section:is(.quote,.dark,.alt,.trust,.contact)+section[style*="padding-top:0"]{padding-top:clamp(56px,7vw,92px)!important}
+section:is(:not([class]),[class=""])+section:is(:not([class]),[class=""]):not([style]){padding-top:clamp(16px,2.5vw,32px)}
 .nav .logo img{max-height:60px;transition:max-height .3s}header.scrolled .nav .logo img{max-height:52px}
 .logo.gen{display:flex;align-items:center;gap:12px}.logo.gen .mono{flex:0 0 auto;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-family:var(--serif);font-size:1.05rem;letter-spacing:.02em;font-weight:500}
 .logo.gen .nm{display:flex;flex-direction:column;line-height:1.05}.logo.gen small{margin-top:4px}
@@ -664,7 +666,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 /* framed : photo d'accueil encadrée, coins arrondis, boutons ronds */
 .look-framed .hero{margin:84px 16px 0;border-radius:24px;min-height:calc(100svh - 100px)}
 .look-framed header:not(.open){background:var(--paper);color:var(--ink)}
-.look-framed .hero.phead{min-height:40vh}
+.look-framed .hero.phead{min-height:34vh}
 .look-framed .btn{border-radius:999px}.look-framed .split .img,.look-framed .card,.look-framed .gallery button,.look-framed .blocks article,.look-framed .banner{border-radius:18px;overflow:hidden}
 .look-framed .banner{margin:0 16px}.look-framed .split .img::after{display:none}
 .look-framed .card:hover{transform:translateY(-4px);box-shadow:0 20px 40px -26px rgba(0,0,0,.4)}.look-framed .card{transition:transform .3s,box-shadow .3s}
