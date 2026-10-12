@@ -4,20 +4,20 @@
  "description": "Maître Lilit Safaryan, avocate au Barreau de Lyon : droit du travail et droit social, conseil, contentieux et formation, pour les entreprises, dirigeants et salariés.",
  "brand": "Safaryan Avocat",
  "tagline": "Avocate au Barreau de Lyon",
- "monogram": "LS",
  "theme": {
   "look": "editorial",
-  "paper": "#fbf9f6",
-  "paper2": "#f1ebe3",
-  "ink": "#1e2230",
-  "muted": "#5c6170",
-  "accent": "#7a2e3a",
-  "accent2": "#5e222c",
-  "gold": "#a8814a",
-  "heroem": "#e9c9a0",
+  "paper": "#f8f9f7",
+  "paper2": "#e8eee9",
+  "ink": "#1f2a25",
+  "muted": "#5a6660",
+  "accent": "#618c74",
+  "accent2": "#4b6f5b",
+  "gold": "#a08a62",
+  "heroem": "#cfe2d5",
   "serif": "\"Cormorant Garamond\",Georgia,serif",
   "sans": "\"Manrope\",system-ui,sans-serif",
-  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap"
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap",
+  "logo_accent": false
  },
  "hero": {
   "img": "https://static.wixstatic.com/media/11062b_74ef3d923f9b451492d3ed9278991873f000.jpg",
@@ -3591,5 +3591,10 @@
     }
    ]
   }
- ]
+ ],
+ "logo": {
+  "src": "logo.svg",
+  "height": 46,
+  "with_name": true
+ }
 }

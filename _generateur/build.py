@@ -891,6 +891,9 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
         _dark = len(_bg) == 6 and (0.299 * int(_bg[0:2], 16) + 0.587 * int(_bg[2:4], 16) + 0.114 * int(_bg[4:6], 16)) < 140
         hcls += f' style="background:{attr(lg["bg"])}{";color:#fff" if _dark else ""}"' 
     if lg:
+        lg = dict(lg)
+        if not re.match(r"^(https?:|/|data:)", lg["src"]):   # logo stocké avec la maquette : chemin relatif à la page
+            lg["src"] = (prefix or "") + lg["src"]
         fb = 'onerror="this.parentElement.textContent=this.alt"'
         hlogo = f'<a href="{prefix or './'}" class="logo"{' style="display:flex;align-items:center;gap:12px"' if lg.get("with_name") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}>{e(d["brand"]) if lg.get("with_name") else ""}</a>'
         flogo = f'<div class="flogo"{" style=\"background:" + attr(lg["bg"]) + "\"" if lg.get("bg") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></div>'

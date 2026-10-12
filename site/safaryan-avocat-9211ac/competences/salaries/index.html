@@ -9,8 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
 <style>
-:root{--paper:#fbf9f6;--paper-2:#f1ebe3;--ink:#1e2230;--muted:#5c6170;--accent:#7a2e3a;--accent-2:#5e222c;
---gold:#a8814a;--line:rgba(0,0,0,.12);--serif:"Cormorant Garamond",Georgia,serif;--sans:"Manrope",system-ui,sans-serif;--max:1200px}
+:root{--paper:#f8f9f7;--paper-2:#e8eee9;--ink:#1f2a25;--muted:#5a6660;--accent:#618c74;--accent-2:#4b6f5b;
+--gold:#a08a62;--line:rgba(0,0,0,.12);--serif:"Cormorant Garamond",Georgia,serif;--sans:"Manrope",system-ui,sans-serif;--max:1200px}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
@@ -43,7 +43,7 @@ header.many .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.m
 .hero .eyebrow{display:inline-flex;align-items:center;gap:14px;color:#fff3df;font-size:.8rem;letter-spacing:.22em;text-shadow:0 1px 2px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.55)}
 .hero .eyebrow::before{content:"";width:42px;height:1px;background:currentColor}
 .hero h1{font-size:clamp(2.8rem,8.5vw,7rem);font-weight:400;margin:18px 0 22px;text-shadow:0 2px 20px rgba(0,0,0,.35)}
-.hero h1 em{color:#e9c9a0}
+.hero h1 em{color:#cfe2d5}
 .hero p{max-width:560px;font-size:1.08rem;opacity:.95;margin-bottom:34px;text-shadow:0 2px 14px rgba(0,0,0,.4)}
 .hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
 @media(max-width:560px){.hero .eyebrow{font-size:.68rem;letter-spacing:.14em}.hero .eyebrow::before{width:22px}}
@@ -236,9 +236,9 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 </style>
 
 </head>
-<body class="look-editorial">
+<body class="look-editorial" data-logo="logo.svg">
 
-<header><div class="wrap nav"><a href="../../" class="logo gen"><span class="mono" aria-hidden="true">LS</span><span class="nm">Safaryan Avocat<small>Avocate au Barreau de Lyon</small></span></a>
+<header class="haslogo"><div class="wrap nav"><a href="../../" class="logo" style="display:flex;align-items:center;gap:12px"><img src="../../logo.svg" alt="Safaryan Avocat" style="height:46px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt">Safaryan Avocat</a>
 <nav class="links"><a href="../../">Accueil</a><a href="../../le-cabinet/">Le cabinet</a><a href="../../competences/">Compétences</a><a href="../../prestations/">Prestations</a><a href="../../abonnement/">Abonnement</a><a href="../../honoraires/">Honoraires</a><a href="../../actualites/">Actualités</a><a href="../../contact/">Contact</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero phead" id="accueil" style="background-image:url('https://static.wixstatic.com/media/11062b_4340bbcd93f14d92b07da0b006fc5f43f000.jpg')"><div class="wrap"><span class="eyebrow">Compétences</span><h1>Avocat en droit du travail pour les salariés à Lyon</h1><p>Le cabinet SAFARYAN AVOCAT accompagne et défend les salariés, cadres et représentants du personnel dans l&#x27;ensemble de leurs problématiques en droit du travail.</p></div></section>
@@ -255,7 +255,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .art .back{display:inline-block;margin-top:34px;border-bottom:1px solid var(--gold)}.art .src{font-size:.85rem;color:var(--muted);margin-top:24px}
 </style><div class="banner" style="background-image:url('https://static.wixstatic.com/media/83c1fd_3e8ecbdd53694f689c06e52af46c7300~mv2.jpg')"><div class="rv"><span class="eyebrow">Prendre rendez-vous</span>
 <h2>Une question <em>en droit du travail</em> ?</h2><a href="../../#contact" class="btn ghost">Contacter le cabinet</a></div></div>
-<footer><div class="wrap"><div class="top"><div><div class="logo gen"><span class="mono" aria-hidden="true">LS</span><span class="nm">Safaryan Avocat<small>Avocate au Barreau de Lyon</small></span></div>
+<footer><div class="wrap"><div class="top"><div><div class="flogo"><img src="../../logo.svg" alt="Safaryan Avocat" style="height:46px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">SAFARYAN AVOCAT, Maître Lilit Safaryan, avocate au Barreau de Lyon. Droit du travail et droit social : conseil, contentieux et formation.</p></div>
 <div><h4>Explorer</h4><ul><li><a href="../../">Accueil</a></li><li><a href="../../le-cabinet/">Le cabinet</a></li><li><a href="../../competences/">Compétences</a></li><li><a href="../../prestations/">Prestations</a></li><li><a href="../../abonnement/">Abonnement</a></li><li><a href="../../honoraires/">Honoraires</a></li><li><a href="../../actualites/">Actualités</a></li><li><a href="../../contact/">Contact</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="tel:+33780978789">07 80 97 87 89</a></li><li><a href="mailto:avocat@cabinet-safaryan.com">avocat@cabinet-safaryan.com</a></li><li>83 avenue Félix Faure, 69003 Lyon</li></ul></div></div>
 <div class="bottom"><span>© Safaryan Avocat · <a href="https://www.safaryan-avocat.com/general-5" target="_blank" rel="noopener" style="text-decoration:underline">Mentions légales</a> · Confidentialité</span><span>SELARL SAFARYAN AVOCAT · capital 5 000 € · RCS Lyon 934 822 511 · Barreau de Lyon</span></div></div></footer>
