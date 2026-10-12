@@ -9,10 +9,10 @@
   "paper2": "#e8e1d8",
   "ink": "#1d1f22",
   "muted": "#5d5f63",
-  "accent": "#2f6f73",
-  "accent2": "#245559",
+  "accent": "#a42b24",
+  "accent2": "#84211b",
   "gold": "#b08a5a",
-  "heroem": "#a9e0dc",
+  "heroem": "#f2b3ad",
   "serif": "\"Fraunces\",Georgia,serif",
   "sans": "\"Manrope\",system-ui,sans-serif",
   "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400&family=Manrope:wght@300;400;500;600&display=swap",
@@ -169,10 +169,9 @@
   "legal": "Travaux garantis par une assurance décennale."
  },
  "logo": {
-  "src": "https://static.wixstatic.com/media/2901b3_916870de97504ae18f1044522f3b34f7~mv2.png",
-  "height": 64,
-  "bg": "#ffffff",
-  "with_name": true
+  "src": "logo.png",
+  "height": 72,
+  "bg": "#e3e3e3"
  },
  "pages": [
   {

@@ -4,11 +4,6 @@
  "description": "Frédéric Brun, plâtrier peintre à Lyon et dans toute la région lyonnaise : peinture, enduits à la chaux, tadelakt, béton ciré, plâtrerie, papier peint. Devis gratuit sur demande.",
  "brand": "Entreprise Brun",
  "tagline": "Plâtrier peintre · Lyon",
- "logo": {
-  "src": "https://www.artisan-platrier-peintre.com/wpimages/wp55660363_06.png",
-  "height": 46,
-  "with_name": true
- },
  "theme": {
   "paper": "#f3f4f1",
   "paper2": "#e3e7e3",
@@ -795,5 +790,6 @@
    ]
   }
  ],
- "home_label": "Accueil"
+ "home_label": "Accueil",
+ "monogram": "EB"
 }

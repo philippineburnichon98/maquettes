@@ -233,9 +233,9 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 </style>
 
 </head>
-<body class="look-framed" data-logo="https://www.artisan-platrier-peintre.com/wpimages/wp55660363_06.png">
+<body class="look-framed">
 
-<header class="haslogo"><div class="wrap nav"><a href="../" class="logo" style="display:flex;align-items:center;gap:12px"><img src="https://www.artisan-platrier-peintre.com/wpimages/wp55660363_06.png" alt="Entreprise Brun" style="height:46px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt">Entreprise Brun</a>
+<header><div class="wrap nav"><a href="../" class="logo gen"><span class="mono" aria-hidden="true">EB</span><span class="nm">Entreprise Brun<small>Plâtrier peintre · Lyon</small></span></a>
 <nav class="links"><a href="../">Accueil</a><a href="../prestations/">Prestations</a><a href="../realisations/">Réalisations</a><a href="../secteur/">Secteur d&#x27;intervention</a><a href="../contact/" aria-current="page">Contact</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero phead" id="accueil" style="background-image:url('https://www.artisan-platrier-peintre.com/wpimages/wp1bb04f1a_05_06.jpg')"><div class="wrap"><span class="eyebrow">Devis gratuit</span><h1>Contact</h1><p>Artisan plâtrier peintre, Ent Brun Frédéric. Intervention sur Lyon et sur toute la région lyonnaise.</p></div></section>
@@ -247,7 +247,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 <div class="rv" style="max-width:660px"><span class="eyebrow">Engagements</span>
 <h2 style="margin:14px 0 18px">Un chantier <em class="it">soigné</em></h2><p style="opacity:.8"></p></div>
 <div class="feat rv"><div><i>I.</i><h3>Chantier protégé</h3><p>Protection avec des bâches PVC.</p></div><div><i>II.</i><h3>Votre confort</h3><p>Le respect de votre confort pendant toute la durée des travaux.</p></div><div><i>III.</i><h3>Devis gratuit</h3><p>Sur demande, à tarif compétitif.</p></div><div><i>IV.</i><h3>Petits et moyens chantiers</h3><p>Spécialiste des petits et moyens chantiers, et tous travaux sur demande.</p></div></div></div></section>
-<footer><div class="wrap"><div class="top"><div><div class="flogo"><img src="https://www.artisan-platrier-peintre.com/wpimages/wp55660363_06.png" alt="Entreprise Brun" style="height:46px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
+<footer><div class="wrap"><div class="top"><div><div class="logo gen"><span class="mono" aria-hidden="true">EB</span><span class="nm">Entreprise Brun<small>Plâtrier peintre · Lyon</small></span></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Ent Brun Frédéric, artisan plâtrier peintre à Lyon.</p></div>
 <div><h4>Explorer</h4><ul><li><a href="../">Accueil</a></li><li><a href="../prestations/">Prestations</a></li><li><a href="../realisations/">Réalisations</a></li><li><a href="../secteur/">Secteur d&#x27;intervention</a></li><li><a href="../contact/">Contact</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="tel:+33607967993">06 07 96 79 93</a></li><li><a href="mailto:entreprise.brun@gmail.com">entreprise.brun@gmail.com</a></li><li>Lyon et région lyonnaise</li></ul></div></div>
 <div class="bottom"><span>© Entreprise Brun · Mentions légales · Confidentialité</span></div></div></footer>
@@ -271,16 +271,7 @@ addEventListener('keydown',e=>{if(L.hidden)return;if(e.key==='Escape')close();if
 const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.1});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 </script>
-<script>(function(){const src=document.body.dataset.logo;if(!src)return;const i=new Image();i.crossOrigin='anonymous';i.referrerPolicy='no-referrer';
-i.onload=()=>{try{const W=Math.min(240,i.naturalWidth),H=Math.max(1,Math.round(i.naturalHeight*W/i.naturalWidth)),c=document.createElement('canvas');c.width=W;c.height=H;
-const x=c.getContext('2d');x.drawImage(i,0,0,W,H);const d=x.getImageData(0,0,W,H).data;const B={};let op=0;
-for(let k=0;k<d.length;k+=4){if(d[k+3]<200)continue;op++;const r=d[k]/255,g=d[k+1]/255,b=d[k+2]/255,mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,df=mx-mn;
-if(!df)continue;const s=df/(1-Math.abs(2*l-1));if(s<.35||l<.12||l>.78)continue;let h=mx===r?((g-b)/df)%6:mx===g?(b-r)/df+2:(r-g)/df+4;h=(h*60+360)%360;
-const q=Math.round(h/20)%18;const o=B[q]||(B[q]={n:0,r:0,g:0,b:0});o.n++;o.r+=d[k];o.g+=d[k+1];o.b+=d[k+2]}
-const best=Object.values(B).sort((a,b)=>b.n-a.n)[0];if(!best||best.n<op*.03)return;
-let rgb=[best.r/best.n,best.g/best.n,best.b/best.n];const lum=a=>{const f=v=>(v/=255)<=.03928?v/12.92:((v+.055)/1.055)**2.4;return .2126*f(a[0])+.7152*f(a[1])+.0722*f(a[2])};
-let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=>'#'+a.map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
-const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>
+
 <script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
 document.querySelectorAll('.fig b').forEach(b=>{const m=b.innerHTML.match(/^(\d[\d\s]*)(.*)$/s);if(!m||R)return;const n=parseInt(m[1].replace(/\s/g,''),10);if(!n||n>100000)return;
 const tail=m[2];const io=new IntersectionObserver(es=>{if(!es[0].isIntersecting)return;io.disconnect();const t0=performance.now(),d=1200;
