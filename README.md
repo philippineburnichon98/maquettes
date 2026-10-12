@@ -67,3 +67,4 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Écarter aussi les sites déjà bien faits (responsive, propres, récents) : pas de reproche crédible, mauvaise cible.
 - Ne jamais affirmer « pas adapté au téléphone » sans l'avoir vérifié.
 - Logo du pied de page : jamais blanc sur blanc ; vérifier qu'il reste visible.
+- Photos d'en-tête de petite taille (souvent Wix) : ne pas les étirer plein écran, elles deviennent floues. Mettre `"phead": "box"` dans le JSON (ou `"head": "box"` sur une page) : la photo s'affiche dans un cadre net à côté du titre. `img_pos` pour régler le cadrage (ex. "center top").

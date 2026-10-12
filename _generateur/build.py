@@ -739,8 +739,23 @@ def _navitems(d, page, prefix=""):
     return items
 
 
-def _pagehead(pg):
+PBOX_CSS = """<style>
+.pbox{padding:clamp(120px,13vw,160px) 0 clamp(36px,5vw,64px);background:var(--paper-2)}
+.pbox-g{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,64px);align-items:center}
+.pbox h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:14px 0 14px}.pbox p{color:var(--muted);max-width:52ch}
+.pbox figure{margin:0;justify-self:end;width:100%;max-width:500px;overflow:hidden;border-radius:14px;box-shadow:0 24px 50px -30px rgba(0,0,0,.45)}
+.pbox figure img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}.pbox figure:hover img{transform:scale(1.03)}
+@media(max-width:820px){.pbox-g{grid-template-columns:minmax(0,1fr)}.pbox figure{justify-self:stretch;max-width:none}}
+</style>"""
+
+
+def _pagehead(pg, d=None):
     img = pg.get("img")
+    if img and (pg.get("head") or (d or {}).get("phead")) == "box":   # photo d'en-tête petite : cadre net à côté du titre, pas étirée plein écran
+        eb = f'<span class="eyebrow">{e(pg["eyebrow"])}</span>' if pg.get("eyebrow") else ""
+        lead = f'<p>{e(pg["lead"])}</p>' if pg.get("lead") else ""
+        return f'''<section class="phead pbox" id="accueil"><div class="wrap pbox-g"><div class="rv in">{eb}<h1>{pg.get("h1", pg["title"])}</h1>{lead}</div>
+<figure><img src="{attr(img)}" alt="" referrerpolicy="no-referrer" style="object-position:{attr(pg.get("img_pos", "center"))}"></figure></div></section>''' + PBOX_CSS
     style = f"background-image:url('{attr(img)}')" if img else "background:var(--ink)"
     eb = f'<span class="eyebrow">{e(pg["eyebrow"])}</span>' if pg.get("eyebrow") else ""
     lead = f'<p>{e(pg["lead"])}</p>' if pg.get("lead") else ""
@@ -897,7 +912,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <header{hcls}><div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
-{_pagehead(page) if page else HOME_HERO}
+{_pagehead(page, d) if page else HOME_HERO}
 {f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else ""}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
