@@ -5,17 +5,19 @@
  "brand": "UP NOTAIRES",
  "tagline": "Office notarial · Décines-Charpieu et Lyon 2e",
  "theme": {
-  "paper": "#f4f5f4",
-  "paper2": "#e6eaec",
-  "ink": "#1a2229",
-  "muted": "#5a636b",
-  "accent": "#1f4c6b",
-  "accent2": "#173a52",
-  "gold": "#a88a5c",
-  "heroem": "#d2e1ea",
-  "serif": "\"Crimson Pro\",Georgia,serif",
-  "sans": "\"Source Sans 3\",system-ui,sans-serif",
-  "fonts": "https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+  "look": "editorial",
+  "paper": "#faf9f6",
+  "paper2": "#efeee9",
+  "ink": "#1a1b1d",
+  "muted": "#5f5b55",
+  "accent": "#b39c7f",
+  "accent2": "#907656",
+  "gold": "#907656",
+  "heroem": "#b39c7f",
+  "logo_accent": false,
+  "serif": "\"Newsreader\",Georgia,serif",
+  "sans": "\"Manrope\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap"
  },
  "logo": {
   "src": "https://www.upnotaire.fr/templates/notaire/img/interface/logo.png",
@@ -116,6 +118,12 @@
    ]
   },
   {
+   "kind": "quote",
+   "eyebrow": "Nos implantations",
+   "text": "Nos implantations permettent un accès rapide à nos bureaux, mais nous sommes aussi à même de nous déplacer.",
+   "sub": "Décines-Charpieu · Lyon 2e · Auvergne-Rhône-Alpes et Paris"
+  },
+  {
    "kind": "blocks",
    "id": "competences",
    "eyebrow": "Compétences",
@@ -181,6 +189,60 @@
       "En savoir plus",
       "international/"
      ]
+    }
+   ],
+   "note": "<style>\n/* Touches propres à cette maquette (charte UP NOTAIRES : beige #b39c7f, noir #1a1b1d, grège #efeee9) */\n.figures{background:#1a1b1d;border:0}.fig{border-color:rgba(255,255,255,.12)!important}.fig b{color:#b39c7f;font-weight:300}.fig span{color:rgba(255,255,255,.75)}\n#activites .feat{grid-template-columns:repeat(5,minmax(0,1fr));background:none;border:0;gap:18px}\n#activites .feat>div{border:0;border-top:2px solid #b39c7f;background:#fff;padding:28px 22px;transition:transform .35s,box-shadow .35s}\n#activites .feat>div:hover{transform:translateY(-6px);box-shadow:0 22px 40px -28px rgba(26,27,29,.45)}\n#activites .picto{width:52px;height:52px;transition:transform .5s}#activites .feat>div:hover .picto{transform:scale(1.1) rotate(-4deg)}\n#competences .blk{border:0;border-bottom:2px solid transparent;transition:border-color .35s,transform .35s,box-shadow .35s}\n#competences .blk:hover{border-bottom-color:#b39c7f;transform:translateY(-6px);box-shadow:0 26px 44px -30px rgba(26,27,29,.5)}\n#competences .k{color:#907656}\n#competences .blk .bi{max-width:none}\n.quote blockquote{color:#1a1b1d}.quote blockquote::before{color:#b39c7f}\n.tl h3{color:#fff}.tl time{font-size:2.4rem;font-weight:300;color:#b39c7f}\n#a-decouvrir{background:#efeee9}\n.team figure{background:#fff;padding:30px 20px 26px;border-top:2px solid #b39c7f;transition:transform .35s,box-shadow .35s}\n.team figure:hover{transform:translateY(-6px);box-shadow:0 22px 40px -28px rgba(26,27,29,.45)}\n.team img{filter:grayscale(.25);transition:filter .4s}.team figure:hover img{filter:none}\n#equipe{padding-top:0}.team{grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:22px}.team img{width:150px;height:150px}\n.team figcaption span{display:block;margin-top:8px;font-size:.84rem;line-height:1.5}\n@media(max-width:1100px){#activites .feat{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media(max-width:560px){#activites .feat{grid-template-columns:minmax(0,1fr)}.fig b{font-size:2.3rem}}\n</style>"
+  },
+  {
+   "kind": "timeline",
+   "id": "distance",
+   "eyebrow": "RDV et signature en visioconférence",
+   "title": "Un rendez-vous <em class=\"it\">à distance</em>",
+   "lead": "Si vous ne pouvez pas vous rendre dans l'un de nos deux offices, le rendez-vous peut se tenir en visioconférence.",
+   "items": [
+    {
+     "when": "01",
+     "who": "L'équipement",
+     "text": "Un ordinateur ou une tablette avec caméra, micro et connexion internet."
+    },
+    {
+     "when": "02",
+     "who": "La demande",
+     "text": "Le rendez-vous en visioconférence se demande à l'accueil de l'office. La démarche est confidentielle et sans surcoût."
+    },
+    {
+     "when": "03",
+     "who": "Le logiciel",
+     "text": "Logiciel gratuit conseillé : visio.notaires.fr. Pour un autre logiciel, l'office vérifie sa compatibilité avec ses règles de confidentialité et de sécurité."
+    },
+    {
+     "when": "04",
+     "who": "La signature à distance",
+     "text": "La signature à distance est possible : l'office en charge de votre dossier vous en indique les modalités."
+    }
+   ]
+  },
+  {
+   "kind": "team",
+   "id": "a-decouvrir",
+   "eyebrow": "À découvrir",
+   "title": "Les notaires <em class=\"it\">de l'office</em>",
+   "lead": "Une équipe de 30 salariés à Décines-Charpieu et à Lyon 2e.",
+   "people": [
+    {
+     "name": "Me Delphine GONÇALVES",
+     "role": "Notaire associée, ancienne maître de conférences à l'Université Jean Moulin Lyon 3 · professionnels, particuliers et collectivités : immobilier, famille, gestion de patrimoine",
+     "img": "https://www.upnotaire.fr/public/img/big/9A0A8208jpg_5ed64a22336ee.jpg"
+    },
+    {
+     "name": "Me Olivier DUCHENE",
+     "role": "Notaire, spécialisé en immobilier complexe et institutionnel, pour les particuliers et les professionnels",
+     "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
+    },
+    {
+     "name": "Me Anne BAUNARD",
+     "role": "Notaire, responsable du Pôle Famille · successions, divorces, séparations, donations, transmission de patrimoine",
+     "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
     }
    ]
   },
@@ -812,11 +874,21 @@
    "img": "https://www.upnotaire.fr/public/img/big/AdobeStock2118271501jpeg_664ef40abe18c2.02521733.jpeg",
    "sections": [
     {
+     "kind": "story",
+     "id": "office",
+     "eyebrow": "L'équipe d'UP' Notaires",
+     "title": "Entre tradition <em class=\"it\">et modernité</em>",
+     "paras": [
+      "Une étude généraliste de plus de 30 collaborateurs, avec des notaires spécialisés en droit patrimonial, international, immobilier et construction, et famille, à l'écoute de ses clients.",
+      "<style>\n/* Touches propres à cette maquette (charte UP NOTAIRES : beige #b39c7f, noir #1a1b1d, grège #efeee9) */\n.figures{background:#1a1b1d;border:0}.fig{border-color:rgba(255,255,255,.12)!important}.fig b{color:#b39c7f;font-weight:300}.fig span{color:rgba(255,255,255,.75)}\n#activites .feat{grid-template-columns:repeat(5,minmax(0,1fr));background:none;border:0;gap:18px}\n#activites .feat>div{border:0;border-top:2px solid #b39c7f;background:#fff;padding:28px 22px;transition:transform .35s,box-shadow .35s}\n#activites .feat>div:hover{transform:translateY(-6px);box-shadow:0 22px 40px -28px rgba(26,27,29,.45)}\n#activites .picto{width:52px;height:52px;transition:transform .5s}#activites .feat>div:hover .picto{transform:scale(1.1) rotate(-4deg)}\n#competences .blk{border:0;border-bottom:2px solid transparent;transition:border-color .35s,transform .35s,box-shadow .35s}\n#competences .blk:hover{border-bottom-color:#b39c7f;transform:translateY(-6px);box-shadow:0 26px 44px -30px rgba(26,27,29,.5)}\n#competences .k{color:#907656}\n#competences .blk .bi{max-width:none}\n.quote blockquote{color:#1a1b1d}.quote blockquote::before{color:#b39c7f}\n.tl h3{color:#fff}.tl time{font-size:2.4rem;font-weight:300;color:#b39c7f}\n#a-decouvrir{background:#efeee9}\n.team figure{background:#fff;padding:30px 20px 26px;border-top:2px solid #b39c7f;transition:transform .35s,box-shadow .35s}\n.team figure:hover{transform:translateY(-6px);box-shadow:0 22px 40px -28px rgba(26,27,29,.45)}\n.team img{filter:grayscale(.25);transition:filter .4s}.team figure:hover img{filter:none}\n#equipe{padding-top:0}.team{grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:22px}.team img{width:150px;height:150px}\n.team figcaption span{display:block;margin-top:8px;font-size:.84rem;line-height:1.5}\n@media(max-width:1100px){#activites .feat{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media(max-width:560px){#activites .feat{grid-template-columns:minmax(0,1fr)}.fig b{font-size:2.3rem}}\n</style>"
+     ]
+    },
+    {
      "kind": "team",
      "id": "equipe",
-     "eyebrow": "L'équipe d'UP' Notaires",
-     "title": "Les notaires <em class=\"it\">et l'office</em>",
-     "lead": "Entre tradition et modernité : une étude généraliste de plus de 30 collaborateurs, avec des spécialistes reconnus en droit patrimonial, international, immobilier et construction, et famille, à l'écoute de ses clients.",
+     "eyebrow": "Notaires et collaborateurs",
+     "title": "L'équipe <em class=\"it\">de l'office</em>",
+     "lead": "",
      "people": [
       {
        "name": "Me Fabrice VAZ",
