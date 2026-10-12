@@ -219,7 +219,7 @@ def section_story(s):
     sign = f'<p class="sign">{e(s["sign"])}</p>' if s.get("sign") else ""
     if s.get("logos"):
         sign += '<div class="labels">' + "".join(f'<img src="{attr(u)}" alt="{attr(al)}" loading="lazy" referrerpolicy="no-referrer">' for u, al in s["logos"]) + '</div>'
-    return f'''<section id="{s["id"]}"><div class="wrap split">
+    return f'''<section id="{s["id"]}"><div class="wrap split{" flip" if s.get("_flip") else ""}">
 <div class="img rv" style="background-image:url('{attr(s["img"])}')" role="img" aria-label="{attr(s.get("alt", ""))}"></div>
 <div class="rv"><span class="eyebrow">{e(s["eyebrow"])}</span><h2>{s["title"]}</h2>{paras}{sign}</div></div></section>'''
 
@@ -272,12 +272,13 @@ def section_menu(o):
     for sec in o["sections"]:
         lis = "".join(f'<li><span>{e(i[0])}{("<em class=" + chr(34) + "ds" + chr(34) + ">" + e(i[2]) + "</em>") if len(i) > 2 and i[2] else ""}</span><small>{e(i[1]) if len(i) > 1 else ""}</small></li>' for i in sec["items"])
         cols += f'<h3>{e(sec["title"])}</h3><ul>{lis}</ul>'
+    pdfv = f'<div class="pdfview rv"><object data="{attr(o["pdf"])}" type="application/pdf" aria-label="Carte en PDF"><p class="note"><a href="{attr(o["pdf"])}" target="_blank" rel="noopener">Ouvrir la carte en PDF</a></p></object></div>' if o.get("pdf") and o.get("pdf_embed") else ""
     pdfl = f'<p class="note" style="text-align:left"><a href="{attr(o["pdf"])}" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Télécharger la carte (PDF)</a></p>' if o.get("pdf") else ""
     a = o.get("aside")
     if not a:
         note = f'<p class="note" style="text-align:left">{e(o["note"])}</p>' if o.get("note") else ""
         return f'''<section id="{o["id"]}"><div class="wrap">{_headimg(o)}<div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span>
-<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="menu solo"><div class="col rv">{cols}{note}{pdfl}</div></div></div></section>'''
+<h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div><div class="menu solo"><div class="col rv">{cols}{note}{pdfl}</div></div>{pdfv}</div></section>'''
     alis = "".join(f'<li><span>{e(i[0])}</span><small>{e(i[1])}</small></li>' for i in a.get("items", []))
     cta = ""
     if a.get("cta"):
@@ -288,7 +289,7 @@ def section_menu(o):
 <h2>{o["title"]}</h2><p>{e(o.get("lead", ""))}</p></div>
 <div class="menu"><div class="col rv">{cols}{note}{pdfl}</div>
 <aside class="rv"><span class="eyebrow">{e(a["eyebrow"])}</span><h3>{e(a["title"])}</h3>
-<div class="big">{e(a.get("big", ""))}</div><p>{e(a.get("text", ""))}</p><ul>{alis}</ul>{cta}</aside></div></div></section>'''
+<div class="big">{e(a.get("big", ""))}</div><p>{e(a.get("text", ""))}</p>{('<dl class="courses">' + "".join(f"<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>" for k, v in a["courses"]) + "</dl>") if a.get("courses") else ""}<ul>{alis}</ul>{cta}</aside></div>{pdfv}</div></section>'''
 
 
 def section_booking(b):
@@ -592,6 +593,109 @@ let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=
 const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>"""
 
 
+LOOKS = ["split", "center", "editorial", "framed"]
+
+LOOK_CSS = """<style>
+/* ---- Variantes de mise en page (theme.look) : chaque maquette a sa propre allure, toujours sobre ---- */
+.flogo{color:var(--ink)}
+.logo.gen{display:flex;align-items:center;gap:12px}.logo.gen .mono{flex:0 0 auto;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-family:var(--serif);font-size:1.05rem;letter-spacing:.02em;font-weight:500}
+.logo.gen .nm{display:flex;flex-direction:column;line-height:1.05}.logo.gen small{margin-top:4px}
+footer .logo.gen .mono{background:var(--gold);color:var(--ink)}
+.split.flip>.img{order:2}@media(max-width:860px){.split.flip>.img{order:0}}
+.gallery button img,.card .bimg,.blocks .bi{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.gallery button:hover img,.blocks article:hover .bi{transform:scale(1.04)}
+@media(min-width:1024px) and (prefers-reduced-motion:no-preference){.banner{background-attachment:fixed}}
+header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.scrolled .nav{height:66px}
+.nav{transition:height .3s}
+.btn{transition:background .25s,color .25s,transform .25s,box-shadow .25s}.btn:hover{transform:translateY(-2px)}
+
+/* split : texte sur fond clair à gauche, photo à droite */
+.look-split .hero{background-color:var(--paper)!important;background-size:0 0!important;color:var(--ink);min-height:88svh;place-items:center start}
+.look-split .hero::before{content:"";position:absolute;inset:96px 0 40px 52%;background:inherit;background-size:cover!important;background-position:center!important;border-radius:18px 0 0 18px;z-index:0}
+.look-split .hero .wrap{padding:120px 24px 60px;max-width:var(--max)}.look-split .hero .wrap>*{max-width:46%}
+.look-split .hero .eyebrow,.look-split .hero h1,.look-split .hero p{color:var(--ink);text-shadow:none}.look-split .hero .eyebrow{color:var(--accent)}
+.look-split .hero h1{font-size:clamp(2.6rem,6vw,5rem)}.look-split .hero h1 em{color:var(--accent)}
+.look-split .hero .btn.ghost{color:var(--ink);border-color:var(--ink)}
+.look-split header:not(.open){background:color-mix(in srgb,var(--paper) 94%,transparent);color:var(--ink);backdrop-filter:blur(8px)}
+.look-split .hero.phead::before{inset:0;border-radius:0;opacity:.18}
+@media(max-width:860px){.look-split .hero::before{inset:auto 0 0 0;height:38%;border-radius:0}.look-split .hero .wrap>*{max-width:100%}.look-split .hero .wrap{padding:110px 20px 46vh}}
+.look-split .split .img{border-radius:14px}.look-split .split .img::after{display:none}
+
+/* center : titre centré, sections centrées, cartes arrondies */
+.look-center .hero{place-items:center}.look-center .hero .wrap{text-align:center;padding-bottom:0;display:flex;flex-direction:column;align-items:center}
+.look-center .hero::before{background:rgba(0,0,0,.5)}.look-center .hero p{margin-left:auto;margin-right:auto}.look-center .hero .ctas{justify-content:center}
+.look-center .hero .eyebrow::before{display:none}
+.look-center .card,.look-center .blocks article,.look-center .split .img{border-radius:16px;overflow:hidden}
+.look-center .card{box-shadow:0 14px 40px -24px rgba(0,0,0,.35);border-color:transparent}
+.look-center .split .img::after{display:none}.look-center .btn{border-radius:999px}
+.look-center .rv{transform:scale(.97)}.look-center .rv.in{transform:none}
+
+/* editorial : grands titres fins, filets, photos sans cadre */
+.look-editorial h2{font-weight:400;letter-spacing:-.02em}.look-editorial .hero h1{font-weight:300;letter-spacing:-.03em}
+.look-editorial .hero::before{background:linear-gradient(90deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.35) 55%,rgba(0,0,0,.1) 100%)}
+.look-editorial .hero{place-items:center start}.look-editorial .hero .wrap{padding-bottom:0}
+.look-editorial .split .img::after{inset:auto;left:-18px;top:-18px;width:90px;height:90px;border:0;background:var(--accent);opacity:.12}
+.look-editorial .feat>div{border-top:2px solid var(--ink);padding-top:22px}
+.look-editorial .quote{text-align:left;background:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.look-editorial .quote blockquote{margin-left:0;position:relative;padding-left:56px}.look-editorial .quote blockquote::before{content:"“";position:absolute;left:0;top:-.2em;font-size:4em;line-height:1;color:var(--gold)}
+.look-editorial .quote p{margin-left:56px}
+.look-editorial .rv{transform:translateX(-24px)}.look-editorial .rv.in{transform:none}
+
+/* framed : photo d'accueil encadrée, coins arrondis, boutons ronds */
+.look-framed .hero{margin:84px 16px 0;border-radius:24px;min-height:calc(100svh - 100px)}
+.look-framed header:not(.open){background:var(--paper);color:var(--ink)}
+.look-framed .hero.phead{min-height:40vh}
+.look-framed .btn{border-radius:999px}.look-framed .split .img,.look-framed .card,.look-framed .gallery button,.look-framed .blocks article,.look-framed .banner{border-radius:18px;overflow:hidden}
+.look-framed .banner{margin:0 16px}.look-framed .split .img::after{display:none}
+.look-framed .card:hover{transform:translateY(-4px);box-shadow:0 20px 40px -26px rgba(0,0,0,.4)}.look-framed .card{transition:transform .3s,box-shadow .3s}
+
+/* pop-up âge légal (domaines viticoles) */
+.agegate{position:fixed;inset:0;z-index:300;background:color-mix(in srgb,var(--ink) 92%,transparent);display:grid;place-items:center;padding:20px;backdrop-filter:blur(6px)}
+.agegate[hidden]{display:none}.agegate>div{background:var(--paper);color:var(--ink);max-width:440px;width:100%;padding:40px 32px;text-align:center;border-radius:6px}
+.agegate h2{font-size:1.6rem;margin:14px 0 10px}.agegate p{color:var(--muted);font-size:.95rem}.agegate .ctas{display:flex;gap:12px;justify-content:center;margin-top:24px;flex-wrap:wrap}
+.agegate .no-msg{margin-top:16px;color:var(--accent);font-size:.9rem}
+/* formule de menu lisible */
+.menu aside dl.courses{margin:14px 0 6px;text-align:left}.menu aside dl.courses div{padding:10px 0;border-top:1px solid rgba(255,255,255,.18)}
+.menu aside dl.courses dt{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.75;margin-bottom:4px}.menu aside dl.courses dd{font-size:.95rem;line-height:1.45}
+.pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
+</style>"""
+
+LOOK_JS = r"""<script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
+document.querySelectorAll('.fig b').forEach(b=>{const m=b.innerHTML.match(/^(\d[\d\s]*)(.*)$/s);if(!m||R)return;const n=parseInt(m[1].replace(/\s/g,''),10);if(!n||n>100000)return;
+const tail=m[2];const io=new IntersectionObserver(es=>{if(!es[0].isIntersecting)return;io.disconnect();const t0=performance.now(),d=1200;
+const step=t=>{const k=Math.min(1,(t-t0)/d),v=Math.round(n*(1-Math.pow(1-k,3)));b.innerHTML=v.toLocaleString('fr-FR')+tail;if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step)},{threshold:.4});io.observe(b)});
+const A=document.getElementById('agegate');if(A){let ok=false;try{ok=localStorage.getItem('age_ok')==='1'}catch(e){}
+if(!ok){A.hidden=false;document.body.style.overflow='hidden';A.querySelector('.yes').focus()}
+A.querySelector('.yes').onclick=()=>{try{localStorage.setItem('age_ok','1')}catch(e){}A.hidden=true;document.body.style.overflow=''};
+A.querySelector('.no').onclick=()=>{A.querySelector('.no-msg').hidden=false}}})()</script>"""
+
+
+def agegate_html(d):
+    if not d.get("agegate"):
+        return ""
+    return f'''<div class="agegate" id="agegate" role="dialog" aria-modal="true" aria-labelledby="ag-t" hidden><div>
+<span class="eyebrow">{e(d["brand"])}</span><h2 id="ag-t">Avez-vous 18 ans ou plus ?</h2>
+<p>L'accès à ce site est réservé aux personnes ayant l'âge légal pour consommer de l'alcool.</p>
+<div class="ctas"><button class="btn solid yes" type="button">Oui, entrer</button><button class="btn ghost no" type="button" style="color:var(--ink);border-color:var(--ink)">Non</button></div>
+<p class="no-msg" hidden>Désolé, vous devez avoir 18 ans pour accéder à ce site. L'abus d'alcool est dangereux pour la santé.</p></div></div>'''
+
+
+def initials(name):
+    stop = {"le", "la", "les", "de", "du", "des", "d", "l", "et", "&", "sarl", "selarl", "sas", "eurl", "entreprise", "domaine", "cabinet", "etude", "étude"}
+    words = [w for w in re.split(r"[\s'’\-]+", name) if w and w.lower() not in stop]
+    if not words:
+        words = name.split()
+    return ("".join(w[0] for w in words[:2])).upper()
+
+
+def pick_look(d):
+    t = d.get("theme", {})
+    if t.get("look") in LOOKS:
+        return t["look"]
+    h = sum(ord(c) for c in d.get("slug", "x"))
+    return LOOKS[h % len(LOOKS)]
+
+
 def _navitems(d, page, prefix=""):
     """Liens du menu. Site multi-pages : Accueil + une entrée par page visible (+ ancres de l'accueil listées dans nav_extra).
     Sans page visible : les ancres de nav, préfixées vers l'accueil depuis une sous-page."""
@@ -701,8 +805,12 @@ def build(d, page=None, prefix="", idmap=None):
     nav = "".join(f'<a href="{attr(hr)}"{cur}>{e(l)}</a>' for hr, l, cur in navitems)
     figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d.get("figures", []))
     blocks = []
+    nstory = 0
     for blk in sections:
         kind = blk["kind"]
+        if kind == "story":
+            blk = {**blk, "_flip": nstory % 2 == 1}
+            nstory += 1
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
                        "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "article": section_article, "form": section_form}[kind](blk))
@@ -735,8 +843,10 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
         hlogo = f'<a href="{prefix or './'}" class="logo"{' style="display:flex;align-items:center;gap:12px"' if lg.get("with_name") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}>{e(d["brand"]) if lg.get("with_name") else ""}</a>'
         flogo = f'<div class="flogo"{" style=\"background:" + attr(lg["bg"]) + "\"" if lg.get("bg") else ""}><img src="{attr(lg["src"])}" alt="{attr(d["brand"])}" style="height:{lg.get("height", 44)}px" referrerpolicy="no-referrer" {fb}></div>'
     else:
-        hlogo = f'<a href="{prefix or './'}" class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></a>'
-        flogo = f'<div class="logo">{e(d["brand"])}<small>{e(d["tagline"])}</small></div>' 
+        ini = e(d.get("monogram") or initials(d["brand"]))
+        tg = f'<small>{e(d["tagline"])}</small>' if d.get("tagline") else ""
+        hlogo = f'<a href="{prefix or './'}" class="logo gen"><span class="mono" aria-hidden="true">{ini}</span><span class="nm">{e(d["brand"])}{tg}</span></a>'
+        flogo = f'<div class="logo gen"><span class="mono" aria-hidden="true">{ini}</span><span class="nm">{e(d["brand"])}{tg}</span></div>'
     HOME_HERO = f'''<section class="hero" id="accueil" style="{("background-image:url('" + attr(h["img"]) + "')") if h.get("img") else "background:var(--ink)"}">{f'<video class="hv" autoplay muted loop playsinline poster="{attr(h["img"])}"><source src="{attr(h["video"])}" type="video/mp4"></video>' if h.get("video") else ""}<div class="wrap">
 <span class="eyebrow">{e(h["eyebrow"])}</span><h1>{h["title"]}</h1><p>{e(h["lead"])}</p>
 <div class="ctas"><a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])}</a><a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a></div></div></section>
@@ -752,8 +862,10 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="{attr(t["fonts"])}" rel="stylesheet">
 <style>{css}</style>
+{LOOK_CSS}
 </head>
-<body{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
+<body class="look-{pick_look(d)}"{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
+{agegate_html(d)}
 <header{hcls}><div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
@@ -768,6 +880,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <button aria-label="Masquer" onclick="this.parentElement.remove()">×</button></div>
 <script>{JS}</script>
 {LOGO_JS if (d.get("logo") and d["theme"].get("logo_accent", True)) else ""}
+{LOOK_JS}
 {ANALYTICS_JS}
 </body>
 </html>'''

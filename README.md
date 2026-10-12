@@ -54,3 +54,10 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 ## Maquettes déjà envoyées : NE PLUS LES MODIFIER (règle de Philippine, 11 oct. 2026)
 - Dès qu'un prospect a le statut « envoye » (ou suivant) dans prospects.csv, sa maquette est figée : le prospect l'a peut-être déjà vue. Ne régénère pas son JSON, ne touche pas à son dossier site/.
 - Quand on régénère toutes les maquettes (`build.py sites/*.json`), exclure celles des prospects envoyés.
+
+## Variété, animations, logo, âge légal (demande de Philippine, 12 oct. 2026)
+- `theme.look` : `split` (texte à gauche sur fond clair, photo arrondie à droite), `center` (titre centré, cartes arrondies), `editorial` (grands titres fins, filets, citation à guillemet), `framed` (photo d'accueil encadrée, coins arrondis, boutons ronds). Sans valeur, le look est choisi d'après le slug : les maquettes ne se ressemblent plus. Choisis le look qui va le mieux au métier et à la charte.
+- Animations sobres incluses partout : apparition au défilement, chiffres clés qui défilent, zoom léger des photos au survol, bandeaux en parallaxe, en-tête qui se resserre au défilement ; les blocs « story » alternent photo à gauche / à droite.
+- Pas de logo sur le site d'origine : le générateur crée un monogramme (initiales dans une pastille à la couleur du site) + le nom. `monogram` pour forcer les initiales.
+- Domaines viticoles : `"agegate": true` → pop-up « Avez-vous 18 ans ou plus ? » à l'entrée (mémorisé).
+- Formule de menu lisible : `aside.courses` = `[["Entrée", "…"], ["Plat", "…"], ["Dessert", "…"]]`. Carte PDF intégrée à la page : `"pdf_embed": true` avec `pdf`.

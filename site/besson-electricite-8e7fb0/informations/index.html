@@ -167,8 +167,73 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 .fyce button{background:none;border:0;color:#f6f1e9;opacity:.7;cursor:pointer;font-size:1.1rem;line-height:1;padding:0 4px}
 @media(max-width:560px){.fyce{font-size:.7rem;border-radius:14px}}
 </style>
+<style>
+/* ---- Variantes de mise en page (theme.look) : chaque maquette a sa propre allure, toujours sobre ---- */
+.flogo{color:var(--ink)}
+.logo.gen{display:flex;align-items:center;gap:12px}.logo.gen .mono{flex:0 0 auto;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-family:var(--serif);font-size:1.05rem;letter-spacing:.02em;font-weight:500}
+.logo.gen .nm{display:flex;flex-direction:column;line-height:1.05}.logo.gen small{margin-top:4px}
+footer .logo.gen .mono{background:var(--gold);color:var(--ink)}
+.split.flip>.img{order:2}@media(max-width:860px){.split.flip>.img{order:0}}
+.gallery button img,.card .bimg,.blocks .bi{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.gallery button:hover img,.blocks article:hover .bi{transform:scale(1.04)}
+@media(min-width:1024px) and (prefers-reduced-motion:no-preference){.banner{background-attachment:fixed}}
+header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.scrolled .nav{height:66px}
+.nav{transition:height .3s}
+.btn{transition:background .25s,color .25s,transform .25s,box-shadow .25s}.btn:hover{transform:translateY(-2px)}
+
+/* split : texte sur fond clair à gauche, photo à droite */
+.look-split .hero{background-color:var(--paper)!important;background-size:0 0!important;color:var(--ink);min-height:88svh;place-items:center start}
+.look-split .hero::before{content:"";position:absolute;inset:96px 0 40px 52%;background:inherit;background-size:cover!important;background-position:center!important;border-radius:18px 0 0 18px;z-index:0}
+.look-split .hero .wrap{padding:120px 24px 60px;max-width:var(--max)}.look-split .hero .wrap>*{max-width:46%}
+.look-split .hero .eyebrow,.look-split .hero h1,.look-split .hero p{color:var(--ink);text-shadow:none}.look-split .hero .eyebrow{color:var(--accent)}
+.look-split .hero h1{font-size:clamp(2.6rem,6vw,5rem)}.look-split .hero h1 em{color:var(--accent)}
+.look-split .hero .btn.ghost{color:var(--ink);border-color:var(--ink)}
+.look-split header:not(.open){background:color-mix(in srgb,var(--paper) 94%,transparent);color:var(--ink);backdrop-filter:blur(8px)}
+.look-split .hero.phead::before{inset:0;border-radius:0;opacity:.18}
+@media(max-width:860px){.look-split .hero::before{inset:auto 0 0 0;height:38%;border-radius:0}.look-split .hero .wrap>*{max-width:100%}.look-split .hero .wrap{padding:110px 20px 46vh}}
+.look-split .split .img{border-radius:14px}.look-split .split .img::after{display:none}
+
+/* center : titre centré, sections centrées, cartes arrondies */
+.look-center .hero{place-items:center}.look-center .hero .wrap{text-align:center;padding-bottom:0;display:flex;flex-direction:column;align-items:center}
+.look-center .hero::before{background:rgba(0,0,0,.5)}.look-center .hero p{margin-left:auto;margin-right:auto}.look-center .hero .ctas{justify-content:center}
+.look-center .hero .eyebrow::before{display:none}
+.look-center .card,.look-center .blocks article,.look-center .split .img{border-radius:16px;overflow:hidden}
+.look-center .card{box-shadow:0 14px 40px -24px rgba(0,0,0,.35);border-color:transparent}
+.look-center .split .img::after{display:none}.look-center .btn{border-radius:999px}
+.look-center .rv{transform:scale(.97)}.look-center .rv.in{transform:none}
+
+/* editorial : grands titres fins, filets, photos sans cadre */
+.look-editorial h2{font-weight:400;letter-spacing:-.02em}.look-editorial .hero h1{font-weight:300;letter-spacing:-.03em}
+.look-editorial .hero::before{background:linear-gradient(90deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.35) 55%,rgba(0,0,0,.1) 100%)}
+.look-editorial .hero{place-items:center start}.look-editorial .hero .wrap{padding-bottom:0}
+.look-editorial .split .img::after{inset:auto;left:-18px;top:-18px;width:90px;height:90px;border:0;background:var(--accent);opacity:.12}
+.look-editorial .feat>div{border-top:2px solid var(--ink);padding-top:22px}
+.look-editorial .quote{text-align:left;background:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.look-editorial .quote blockquote{margin-left:0;position:relative;padding-left:56px}.look-editorial .quote blockquote::before{content:"“";position:absolute;left:0;top:-.2em;font-size:4em;line-height:1;color:var(--gold)}
+.look-editorial .quote p{margin-left:56px}
+.look-editorial .rv{transform:translateX(-24px)}.look-editorial .rv.in{transform:none}
+
+/* framed : photo d'accueil encadrée, coins arrondis, boutons ronds */
+.look-framed .hero{margin:84px 16px 0;border-radius:24px;min-height:calc(100svh - 100px)}
+.look-framed header:not(.open){background:var(--paper);color:var(--ink)}
+.look-framed .hero.phead{min-height:40vh}
+.look-framed .btn{border-radius:999px}.look-framed .split .img,.look-framed .card,.look-framed .gallery button,.look-framed .blocks article,.look-framed .banner{border-radius:18px;overflow:hidden}
+.look-framed .banner{margin:0 16px}.look-framed .split .img::after{display:none}
+.look-framed .card:hover{transform:translateY(-4px);box-shadow:0 20px 40px -26px rgba(0,0,0,.4)}.look-framed .card{transition:transform .3s,box-shadow .3s}
+
+/* pop-up âge légal (domaines viticoles) */
+.agegate{position:fixed;inset:0;z-index:300;background:color-mix(in srgb,var(--ink) 92%,transparent);display:grid;place-items:center;padding:20px;backdrop-filter:blur(6px)}
+.agegate[hidden]{display:none}.agegate>div{background:var(--paper);color:var(--ink);max-width:440px;width:100%;padding:40px 32px;text-align:center;border-radius:6px}
+.agegate h2{font-size:1.6rem;margin:14px 0 10px}.agegate p{color:var(--muted);font-size:.95rem}.agegate .ctas{display:flex;gap:12px;justify-content:center;margin-top:24px;flex-wrap:wrap}
+.agegate .no-msg{margin-top:16px;color:var(--accent);font-size:.9rem}
+/* formule de menu lisible */
+.menu aside dl.courses{margin:14px 0 6px;text-align:left}.menu aside dl.courses div{padding:10px 0;border-top:1px solid rgba(255,255,255,.18)}
+.menu aside dl.courses dt{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.75;margin-bottom:4px}.menu aside dl.courses dd{font-size:.95rem;line-height:1.45}
+.pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
+</style>
 </head>
-<body data-logo="https://static.wixstatic.com/media/02637b_ecccb51e219b420c876414732a8001cf~mv2.png">
+<body class="look-center" data-logo="https://static.wixstatic.com/media/02637b_ecccb51e219b420c876414732a8001cf~mv2.png">
+
 <header class="haslogo" style="background:#ffffff"><div class="wrap nav"><a href="../" class="logo"><img src="https://static.wixstatic.com/media/02637b_ecccb51e219b420c876414732a8001cf~mv2.png" alt="BESSON Electricité" style="height:64px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
 <nav class="links"><a href="../">Accueil</a><a href="../informations/" aria-current="page">Informations complémentaires</a><a href="../contact/">Contact</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
@@ -213,6 +278,14 @@ const best=Object.values(B).sort((a,b)=>b.n-a.n)[0];if(!best||best.n<op*.03)retu
 let rgb=[best.r/best.n,best.g/best.n,best.b/best.n];const lum=a=>{const f=v=>(v/=255)<=.03928?v/12.92:((v+.055)/1.055)**2.4;return .2126*f(a[0])+.7152*f(a[1])+.0722*f(a[2])};
 let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=>'#'+a.map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
 const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>
+<script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
+document.querySelectorAll('.fig b').forEach(b=>{const m=b.innerHTML.match(/^(\d[\d\s]*)(.*)$/s);if(!m||R)return;const n=parseInt(m[1].replace(/\s/g,''),10);if(!n||n>100000)return;
+const tail=m[2];const io=new IntersectionObserver(es=>{if(!es[0].isIntersecting)return;io.disconnect();const t0=performance.now(),d=1200;
+const step=t=>{const k=Math.min(1,(t-t0)/d),v=Math.round(n*(1-Math.pow(1-k,3)));b.innerHTML=v.toLocaleString('fr-FR')+tail;if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step)},{threshold:.4});io.observe(b)});
+const A=document.getElementById('agegate');if(A){let ok=false;try{ok=localStorage.getItem('age_ok')==='1'}catch(e){}
+if(!ok){A.hidden=false;document.body.style.overflow='hidden';A.querySelector('.yes').focus()}
+A.querySelector('.yes').onclick=()=>{try{localStorage.setItem('age_ok','1')}catch(e){}A.hidden=true;document.body.style.overflow=''};
+A.querySelector('.no').onclick=()=>{A.querySelector('.no-msg').hidden=false}}})()</script>
 <script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
 var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
 </body>

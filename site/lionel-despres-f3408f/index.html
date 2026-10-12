@@ -167,9 +167,74 @@ footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14p
 .fyce button{background:none;border:0;color:#f6f1e9;opacity:.7;cursor:pointer;font-size:1.1rem;line-height:1;padding:0 4px}
 @media(max-width:560px){.fyce{font-size:.7rem;border-radius:14px}}
 </style>
+<style>
+/* ---- Variantes de mise en page (theme.look) : chaque maquette a sa propre allure, toujours sobre ---- */
+.flogo{color:var(--ink)}
+.logo.gen{display:flex;align-items:center;gap:12px}.logo.gen .mono{flex:0 0 auto;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font-family:var(--serif);font-size:1.05rem;letter-spacing:.02em;font-weight:500}
+.logo.gen .nm{display:flex;flex-direction:column;line-height:1.05}.logo.gen small{margin-top:4px}
+footer .logo.gen .mono{background:var(--gold);color:var(--ink)}
+.split.flip>.img{order:2}@media(max-width:860px){.split.flip>.img{order:0}}
+.gallery button img,.card .bimg,.blocks .bi{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.gallery button:hover img,.blocks article:hover .bi{transform:scale(1.04)}
+@media(min-width:1024px) and (prefers-reduced-motion:no-preference){.banner{background-attachment:fixed}}
+header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.scrolled .nav{height:66px}
+.nav{transition:height .3s}
+.btn{transition:background .25s,color .25s,transform .25s,box-shadow .25s}.btn:hover{transform:translateY(-2px)}
+
+/* split : texte sur fond clair à gauche, photo à droite */
+.look-split .hero{background-color:var(--paper)!important;background-size:0 0!important;color:var(--ink);min-height:88svh;place-items:center start}
+.look-split .hero::before{content:"";position:absolute;inset:96px 0 40px 52%;background:inherit;background-size:cover!important;background-position:center!important;border-radius:18px 0 0 18px;z-index:0}
+.look-split .hero .wrap{padding:120px 24px 60px;max-width:var(--max)}.look-split .hero .wrap>*{max-width:46%}
+.look-split .hero .eyebrow,.look-split .hero h1,.look-split .hero p{color:var(--ink);text-shadow:none}.look-split .hero .eyebrow{color:var(--accent)}
+.look-split .hero h1{font-size:clamp(2.6rem,6vw,5rem)}.look-split .hero h1 em{color:var(--accent)}
+.look-split .hero .btn.ghost{color:var(--ink);border-color:var(--ink)}
+.look-split header:not(.open){background:color-mix(in srgb,var(--paper) 94%,transparent);color:var(--ink);backdrop-filter:blur(8px)}
+.look-split .hero.phead::before{inset:0;border-radius:0;opacity:.18}
+@media(max-width:860px){.look-split .hero::before{inset:auto 0 0 0;height:38%;border-radius:0}.look-split .hero .wrap>*{max-width:100%}.look-split .hero .wrap{padding:110px 20px 46vh}}
+.look-split .split .img{border-radius:14px}.look-split .split .img::after{display:none}
+
+/* center : titre centré, sections centrées, cartes arrondies */
+.look-center .hero{place-items:center}.look-center .hero .wrap{text-align:center;padding-bottom:0;display:flex;flex-direction:column;align-items:center}
+.look-center .hero::before{background:rgba(0,0,0,.5)}.look-center .hero p{margin-left:auto;margin-right:auto}.look-center .hero .ctas{justify-content:center}
+.look-center .hero .eyebrow::before{display:none}
+.look-center .card,.look-center .blocks article,.look-center .split .img{border-radius:16px;overflow:hidden}
+.look-center .card{box-shadow:0 14px 40px -24px rgba(0,0,0,.35);border-color:transparent}
+.look-center .split .img::after{display:none}.look-center .btn{border-radius:999px}
+.look-center .rv{transform:scale(.97)}.look-center .rv.in{transform:none}
+
+/* editorial : grands titres fins, filets, photos sans cadre */
+.look-editorial h2{font-weight:400;letter-spacing:-.02em}.look-editorial .hero h1{font-weight:300;letter-spacing:-.03em}
+.look-editorial .hero::before{background:linear-gradient(90deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.35) 55%,rgba(0,0,0,.1) 100%)}
+.look-editorial .hero{place-items:center start}.look-editorial .hero .wrap{padding-bottom:0}
+.look-editorial .split .img::after{inset:auto;left:-18px;top:-18px;width:90px;height:90px;border:0;background:var(--accent);opacity:.12}
+.look-editorial .feat>div{border-top:2px solid var(--ink);padding-top:22px}
+.look-editorial .quote{text-align:left;background:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.look-editorial .quote blockquote{margin-left:0;position:relative;padding-left:56px}.look-editorial .quote blockquote::before{content:"“";position:absolute;left:0;top:-.2em;font-size:4em;line-height:1;color:var(--gold)}
+.look-editorial .quote p{margin-left:56px}
+.look-editorial .rv{transform:translateX(-24px)}.look-editorial .rv.in{transform:none}
+
+/* framed : photo d'accueil encadrée, coins arrondis, boutons ronds */
+.look-framed .hero{margin:84px 16px 0;border-radius:24px;min-height:calc(100svh - 100px)}
+.look-framed header:not(.open){background:var(--paper);color:var(--ink)}
+.look-framed .hero.phead{min-height:40vh}
+.look-framed .btn{border-radius:999px}.look-framed .split .img,.look-framed .card,.look-framed .gallery button,.look-framed .blocks article,.look-framed .banner{border-radius:18px;overflow:hidden}
+.look-framed .banner{margin:0 16px}.look-framed .split .img::after{display:none}
+.look-framed .card:hover{transform:translateY(-4px);box-shadow:0 20px 40px -26px rgba(0,0,0,.4)}.look-framed .card{transition:transform .3s,box-shadow .3s}
+
+/* pop-up âge légal (domaines viticoles) */
+.agegate{position:fixed;inset:0;z-index:300;background:color-mix(in srgb,var(--ink) 92%,transparent);display:grid;place-items:center;padding:20px;backdrop-filter:blur(6px)}
+.agegate[hidden]{display:none}.agegate>div{background:var(--paper);color:var(--ink);max-width:440px;width:100%;padding:40px 32px;text-align:center;border-radius:6px}
+.agegate h2{font-size:1.6rem;margin:14px 0 10px}.agegate p{color:var(--muted);font-size:.95rem}.agegate .ctas{display:flex;gap:12px;justify-content:center;margin-top:24px;flex-wrap:wrap}
+.agegate .no-msg{margin-top:16px;color:var(--accent);font-size:.9rem}
+/* formule de menu lisible */
+.menu aside dl.courses{margin:14px 0 6px;text-align:left}.menu aside dl.courses div{padding:10px 0;border-top:1px solid rgba(255,255,255,.18)}
+.menu aside dl.courses dt{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.75;margin-bottom:4px}.menu aside dl.courses dd{font-size:.95rem;line-height:1.45}
+.pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
+</style>
 </head>
-<body>
-<header class="many"><div class="wrap nav"><a href="./" class="logo">Lionel Despres<small>Vigneron récoltant à Fleurie</small></a>
+<body class="look-editorial">
+
+<header class="many"><div class="wrap nav"><a href="./" class="logo gen"><span class="mono" aria-hidden="true">LD</span><span class="nm">Lionel Despres<small>Vigneron récoltant à Fleurie</small></span></a>
 <nav class="links"><a href="#domaine">Lionel Despres</a><a href="#cuvees">Nos cuvées</a><a href="#actualites">Actualités</a><a href="#agenda">Agenda</a><a href="#gite">Gîte</a><a href="#galerie">Galerie</a><a href="#contact">Contact</a></nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero" id="accueil" style="background-image:url('https://www.lionel-despres.com/_image/photos/accueil-01-xl.jpg')"><div class="wrap">
@@ -213,7 +278,7 @@ const M=B.querySelector('.art-more');const draw=()=>{let k=0;A.forEach(a=>{const
 if(M)M.hidden=A.filter(a=>f==='all'||a.dataset.cat===f).length<=n};
 B.querySelectorAll('.bt button').forEach(b=>b.onclick=()=>{f=b.dataset.f;n=N;B.querySelectorAll('.bt button').forEach(x=>x.setAttribute('aria-pressed',x===b));draw()});
 if(M)M.onclick=()=>{n+=N;draw()};draw()})</script><section id="agenda"><div class="wrap"><div class="head rv"><span class="eyebrow">Salons et dégustations</span>
-<h2><em class="it">Agenda</em></h2></div><div class="blocks rv"><article class="blk"><h3>Prochaines dégustations</h3><p>Aucune dégustation à venir pour le moment. Revenez plus tard…</p><p>Pour une visite au domaine, merci de nous prévenir de votre passage.</p><p class="more"><a href="#contact">Annoncer ma visite</a></p></article></div></div></section><section id="gite"><div class="wrap split">
+<h2><em class="it">Agenda</em></h2></div><div class="blocks rv"><article class="blk"><h3>Prochaines dégustations</h3><p>Aucune dégustation à venir pour le moment. Revenez plus tard…</p><p>Pour une visite au domaine, merci de nous prévenir de votre passage.</p><p class="more"><a href="#contact">Annoncer ma visite</a></p></article></div></div></section><section id="gite"><div class="wrap split flip">
 <div class="img rv" style="background-image:url('https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-01.jpg')" role="img" aria-label="Le gîte La Cachette d&#x27;Ampelopsis à Chiroubles"></div>
 <div class="rv"><span class="eyebrow">Au plus près de la nature, au cœur du Beaujolais</span><h2>Gîte <em class="it">La Cachette d'Ampelopsis</em></h2><p>À Chiroubles, notre gîte 3 épis entièrement rénové accueille familles et groupes jusqu'à 12 personnes.</p><p>Chambre « Découverte » pour 5 personnes, chambre « Secrète » pour 3 personnes, buanderie avec lave-linge et sèche-linge.</p><p><a href="https://www.gites-de-france.com/fr/auvergne-rhone-alpes/rhone/la-cachette-dampelopsis-69g1791" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Réserver sur Gîtes de France</a></p></div></div></section><section id="gite-photos" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">Le gîte en images</span>
 <h2>La Cachette <em class="it">d'Ampelopsis</em></h2></div><div class="gallery"><button data-full="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-01.jpg" aria-label="Agrandir"><img src="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-01.jpg" alt="La façade du gîte" loading="lazy" referrerpolicy="no-referrer"><figcaption>La façade du gîte</figcaption></button><button data-full="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-02.jpg" aria-label="Agrandir"><img src="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-02.jpg" alt="La chambre « Découverte »" loading="lazy" referrerpolicy="no-referrer"><figcaption>La chambre « Découverte »</figcaption></button><button data-full="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-03.jpg" aria-label="Agrandir"><img src="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-03.jpg" alt="Le séjour" loading="lazy" referrerpolicy="no-referrer"><figcaption>Le séjour</figcaption></button><button data-full="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-04.jpg" aria-label="Agrandir"><img src="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-04.jpg" alt="La chambre « Secrète »" loading="lazy" referrerpolicy="no-referrer"><figcaption>La chambre « Secrète »</figcaption></button><button data-full="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-05.jpg" aria-label="Agrandir"><img src="https://www.lionel-despres.com/_image/photos/gite-chiroubles-la-cachette-ampelopsis-05.jpg" alt="La buanderie" loading="lazy" referrerpolicy="no-referrer"><figcaption>La buanderie</figcaption></button></div></div></section><section id="galerie" style="padding-top:0"><div class="wrap"><div class="head rv"><span class="eyebrow">La découverte en images du domaine</span>
@@ -235,7 +300,7 @@ const o=F.querySelector('.ok');if(o)o.hidden=false})</script><section id="contac
 <span class="eyebrow">Nous rendre visite</span><h2>Le domaine, <em class="it">à Fleurie</em></h2><p style="color:var(--muted)">Pour une visite ou une dégustation, merci de nous prévenir de votre passage.</p>
 <dl><dt>Adresse</dt><dd>376 rue du Beaujolais<br>69820 Fleurie</dd><dt>Téléphone</dt><dd><a href="tel:+33474698244">04 74 69 82 44</a><br><a href="tel:+33632278877">06 32 27 88 77</a></dd><dt>E-mail</dt><dd><a href="mailto:contact@lionel-despres.com">contact@lionel-despres.com</a></dd><dt>GPS</dt><dd>Lat. 46.193343 · Long. 4.697880</dd><dt>Réseaux</dt><dd><a href="https://www.facebook.com/domaine.lionel.despres/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/domaine_lionel_despres/" target="_blank" rel="noopener">Instagram</a></dd></dl><a class="btn solid" href="mailto:contact@lionel-despres.com?subject=Visite%20au%20domaine">Annoncer ma visite</a></div>
 <iframe title="Plan d’accès" loading="lazy" src="https://maps.google.com/maps?q=376%20Rue%20du%20Beaujolais%2C%2069820%20Fleurie&amp;z=15&amp;output=embed"></iframe></div></div></section>
-<footer><div class="wrap"><div class="top"><div><div class="logo">Lionel Despres<small>Vigneron récoltant à Fleurie</small></div>
+<footer><div class="wrap"><div class="top"><div><div class="logo gen"><span class="mono" aria-hidden="true">LD</span><span class="nm">Lionel Despres<small>Vigneron récoltant à Fleurie</small></span></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Lionel Despres, vigneron récoltant à Fleurie, au cœur du Beaujolais. Fleurie et Chiroubles, gamay noir à jus blanc, mis en bouteille au domaine.</p></div>
 <div><h4>Explorer</h4><ul><li><a href="#domaine">Lionel Despres</a></li><li><a href="#cuvees">Nos cuvées</a></li><li><a href="#actualites">Actualités</a></li><li><a href="#agenda">Agenda</a></li><li><a href="#gite">Gîte</a></li><li><a href="#galerie">Galerie</a></li><li><a href="#contact">Contact</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="tel:+33474698244">04 74 69 82 44</a></li><li><a href="tel:+33632278877">06 32 27 88 77</a></li><li><a href="mailto:contact@lionel-despres.com">contact@lionel-despres.com</a></li><li>376 rue du Beaujolais, 69820 Fleurie</li></ul></div></div>
 <div class="bottom"><span>© Lionel Despres · <a href="https://www.lionel-despres.com/mentions-legales.php" target="_blank" rel="noopener" style="text-decoration:underline">Mentions légales</a> · Confidentialité</span><span>L&#x27;abus d&#x27;alcool est dangereux pour la santé, à consommer avec modération.</span></div></div></footer>
@@ -261,6 +326,14 @@ const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.targ
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 </script>
 
+<script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
+document.querySelectorAll('.fig b').forEach(b=>{const m=b.innerHTML.match(/^(\d[\d\s]*)(.*)$/s);if(!m||R)return;const n=parseInt(m[1].replace(/\s/g,''),10);if(!n||n>100000)return;
+const tail=m[2];const io=new IntersectionObserver(es=>{if(!es[0].isIntersecting)return;io.disconnect();const t0=performance.now(),d=1200;
+const step=t=>{const k=Math.min(1,(t-t0)/d),v=Math.round(n*(1-Math.pow(1-k,3)));b.innerHTML=v.toLocaleString('fr-FR')+tail;if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step)},{threshold:.4});io.observe(b)});
+const A=document.getElementById('agegate');if(A){let ok=false;try{ok=localStorage.getItem('age_ok')==='1'}catch(e){}
+if(!ok){A.hidden=false;document.body.style.overflow='hidden';A.querySelector('.yes').focus()}
+A.querySelector('.yes').onclick=()=>{try{localStorage.setItem('age_ok','1')}catch(e){}A.hidden=true;document.body.style.overflow=''};
+A.querySelector('.no').onclick=()=>{A.querySelector('.no-msg').hidden=false}}})()</script>
 <script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
 var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
 </body>
