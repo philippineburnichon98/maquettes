@@ -410,7 +410,7 @@ def section_gallery(g):
                    for p in g["photos"])
     lead = f'<p>{e(g["lead"])}</p>' if g.get("lead") else ""
     return f'''<section id="{g.get("id", "photos")}" style="padding-top:0"><div class="wrap">{_headimg(g)}<div class="head rv"><span class="eyebrow">{e(g["eyebrow"])}</span>
-<h2>{g["title"]}</h2>{lead}</div><div class="gallery">{btns}</div></div></section>'''
+<h2>{g["title"]}</h2>{lead}</div><div class="gallery">{btns}</div>{('<div class="ctas" style="justify-content:center;margin-top:34px"><a class="btn" href="' + attr(g["cta"][1]) + '">' + e(g["cta"][0]) + '</a></div>') if g.get("cta") else ""}</div></section>'''
 
 
 def section_banner(b):
