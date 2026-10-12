@@ -15,12 +15,13 @@
   "heroem": "#ffd34d",
   "serif": "\"Barlow Semi Condensed\",system-ui,sans-serif",
   "sans": "\"Barlow\",system-ui,sans-serif",
-  "fonts": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500&family=Barlow:wght@300;400;500;600&display=swap"
+  "fonts": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500&family=Barlow:wght@300;400;500;600&display=swap",
+  "look": "split"
  },
  "logo": {
   "src": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/ia0cda20a09009e74/version/1481813261/image.png",
-  "height": 48,
-  "bg": "#ffffff"
+  "height": 52,
+  "bg": "#13202c;color:#fff"
  },
  "nav": [
   [
@@ -541,7 +542,7 @@
      "eyebrow": "Références clients",
      "title": "Ils nous font <em class=\"it\">confiance</em>",
      "paras": [
-      "Commerces, entreprises et professionnels du bassin annécien : Le Dauphiné Libéré, Ludocortex, Pandora, Stil Bag, Zepanek Coiffeurs, Sibeery et Noesis à Annecy, MOA à Annemasse, Kiloutou à Seynod et Bellegarde, Au Bonheur des sens à Poisy."
+      "Commerces, entreprises et professionnels du bassin annécien : Le Dauphiné Libéré, Ludocortex, Pandora, Stil Bag, Zepanek Coiffeurs, Sibeery et Noesis à Annecy, MOA à Annemasse, Kiloutou à Seynod et Bellegarde, Au Bonheur des sens."
      ],
      "logos": [
       [
@@ -574,7 +575,7 @@
       ],
       [
        "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/iad105596aa1842a7/version/1516830824/image.jpg",
-       "Au Bonheur des sens Poisy"
+       "Au Bonheur des sens"
       ],
       [
        "https://image.jimcdn.com/app/cms/image/transf/none/path/sd245ff5bfff21dca/image/i6ea1f8fb1d10b5bd/version/1516830957/image.jpg",
