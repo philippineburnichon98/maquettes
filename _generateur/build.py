@@ -741,7 +741,7 @@ def initials(name):
 
 def pick_look(d):
     t = d.get("theme", {})
-    if t.get("look") in LOOKS:
+    if t.get("look") in LOOKS or t.get("look") == "classic":   # classic = grande bannière plein écran d'origine, sans variante
         return t["look"]
     h = sum(ord(c) for c in d.get("slug", "x"))
     return LOOKS[h % len(LOOKS)]

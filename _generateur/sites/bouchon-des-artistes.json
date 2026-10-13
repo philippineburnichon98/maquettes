@@ -15,7 +15,8 @@
   "heroem": "#f2b48f",
   "serif": "\"Instrument Serif\",Georgia,serif",
   "sans": "\"Bricolage Grotesque\",system-ui,sans-serif",
-  "fonts": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300;400;500;600&display=swap"
+  "fonts": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300;400;500;600&display=swap",
+  "look": "classic"
  },
  "nav": [
   [
@@ -284,8 +285,7 @@
      ]
     ]
    },
-   "pdf": "https://www.le-bouchon-des-artistes.fr/_files/ugd/12be68_682e0eb039b5413fbe0a51297abc98dd.pdf",
-   "pdf_embed": true
+   "pdf": "https://www.le-bouchon-des-artistes.fr/_files/ugd/12be68_682e0eb039b5413fbe0a51297abc98dd.pdf"
   },
   {
    "kind": "gallery",
