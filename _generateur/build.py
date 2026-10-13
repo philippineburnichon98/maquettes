@@ -574,6 +574,35 @@ location.href='mailto:'+F.dataset.to+'?subject='+encodeURIComponent(F.dataset.su
 const o=F.querySelector('.ok');if(o)o.hidden=false})</script>"""
 
 
+REV_CSS = """<style>
+.rev-top{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin:-8px 0 30px;color:var(--muted);font-size:.92rem}
+.rev-top b{font-family:var(--serif);font-size:2rem;color:var(--ink);font-weight:500}.rev-top .st{color:var(--gold);letter-spacing:2px;font-size:1.1rem}
+.rev-top a{border-bottom:1px solid var(--gold)}
+.revs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.rev{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px 24px 20px;display:flex;flex-direction:column;gap:12px;min-width:0;transition:transform .3s,box-shadow .3s}
+.rev:hover{transform:translateY(-4px);box-shadow:0 18px 40px -28px rgba(0,0,0,.45)}
+.rev .q{font-family:var(--serif);font-size:2.6rem;line-height:.6;color:var(--accent);height:18px}
+.rev p{margin:0;font-size:.95rem;line-height:1.6}
+.rev .k{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.rev .rf{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:.82rem;color:var(--muted);background:none}
+.rev .rf strong{color:var(--ink);font-weight:600}
+@media(max-width:960px){.revs{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.revs{grid-template-columns:minmax(0,1fr)}}
+</style>"""
+
+
+def section_reviews(r):
+    """Avis clients réels, cités mot pour mot avec leur source (jamais inventés)."""
+    cards = "".join(
+        f'<article class="rev"><span class="q" aria-hidden="true">“</span>{f"<span class=\"k\">{e(x['work'])}</span>" if x.get("work") else ""}<p>{e(x["text"])}</p>'
+        f'<div class="rf"><span><strong>{e(x["name"])}</strong>{(" · " + e(x["city"])) if x.get("city") else ""}</span><span>{e(x.get("date", ""))}</span></div></article>'
+        for x in r["items"])
+    src = r.get("source")
+    top = (f'<div class="rev-top"><b>{e(r["score"])}</b><span class="st" aria-hidden="true">★★★★★</span><span>{e(r.get("count", ""))}</span>'
+           + (f'<a href="{attr(src[1])}" target="_blank" rel="noopener">{e(src[0])}</a>' if src else "") + '</div>') if r.get("score") else ""
+    return f'''<section id="{r.get("id", "avis")}"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(r["eyebrow"])}</span><h2>{r["title"]}</h2></div>{top}
+<div class="revs rv">{cards}</div></div></section>''' + REV_CSS
+
+
 def section_form(f):
     """Formulaire de contact ou de devis reprenant les champs du site d'origine (envoi par e-mail au prospect)."""
     fields = []
@@ -863,7 +892,7 @@ def build(d, page=None, prefix="", idmap=None):
             nstory += 1
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "article": section_article, "form": section_form}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "article": section_article, "form": section_form, "reviews": section_reviews}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="{attr(hr)}">{e(l)}</a></li>' for hr, l, cur in navitems)

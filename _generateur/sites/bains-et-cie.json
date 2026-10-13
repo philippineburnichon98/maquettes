@@ -217,6 +217,62 @@
    ]
   },
   {
+   "kind": "reviews",
+   "id": "avis",
+   "eyebrow": "Avis clients",
+   "title": "Ils nous ont <em>confié leur salle de bain</em>",
+   "score": "4,7/5",
+   "count": "14 avis · Recommandé Bilik 2022",
+   "source": [
+    "Voir tous les avis sur Bilik",
+    "https://www.bilik.fr/presentations/1358-bains-et-compagnie"
+   ],
+   "items": [
+    {
+     "name": "Marie Mathivet",
+     "city": "Grenoble",
+     "date": "Octobre 2026",
+     "work": "Rénovation salle de bain",
+     "text": "M. Chabert est intervenu cet été pour une rénovation quasi complète de notre salle de bain : changement de la douche, pose de carrelage au sol et sur les murs, peinture et création d'une nouveau point de lumière. Le travail a été fait avec un grand sérieux et une parfaite rigueur. Nous avons eu confiance pendant toute l'intervention et le résultat est à la hauteur de nos attente. Je recommande vivement ce professionnel !"
+    },
+    {
+     "name": "Mathieu David",
+     "city": "Claix",
+     "date": "Mars 2026",
+     "work": "Réfection complète salle d'eau & WC",
+     "text": "Nous avons fait appel à Sébastien pour la rénovation complète de notre salle de bain des années 80, restée dans son jus. Le suivi des travaux et les explications ont été au top. Le travail est soigné et les finitions sont propres. Nous sommes ravis du résultat. Les échanges avec Sébastien ont toujours été très bons, ce qui facilite vraiment le suivi du chantier. Nous recommandons sans hésiter."
+    },
+    {
+     "name": "Franck Genevois",
+     "city": "Saint-Égrève",
+     "date": "Février 2025",
+     "work": "Rénovation douche",
+     "text": "Le résultat est impeccable ! La nouvelle douche PMR qui remplace une vieille baignoire est magnifique et fonctionnelle. Les finitions sont parfaites et le travail méticuleux a été réalisé avec un grand souci du détail. Merci à Monsieur Chabert pour son professionnalisme."
+    },
+    {
+     "name": "Gael Souchet",
+     "city": "Saint-Égrève",
+     "date": "Juillet 2025",
+     "work": "Réfection totale salle d'eau",
+     "text": "Nous avons vraiment beaucoup apprécié le sérieux, le soin, la minutie du travail réalisé par Sébastien Chabert chez nous. […] Encore merci ! Nous recommandons fortement !"
+    },
+    {
+     "name": "Philippe Villain",
+     "city": "Grenoble",
+     "date": "Juin 2025",
+     "work": "Rénovation salle de bain",
+     "text": "Travail très sérieux, Nous sommes très satisfait du résultat. Mr Chabert est un excellent professionnel, méticuleux, toujours aimable et à notre écoute. Je recommande vivement."
+    },
+    {
+     "name": "Nathalie Lebocey",
+     "city": "Grenoble",
+     "date": "Avril 2026",
+     "work": "Rénovation salle de bain",
+     "text": "Travail sérieux. Finition impeccable et bonne écoute des besoins."
+    }
+   ]
+  },
+  {
    "kind": "visit",
    "eyebrow": "Contact",
    "title": "Votre projet, <em class=\"it\">un seul interlocuteur</em>",
