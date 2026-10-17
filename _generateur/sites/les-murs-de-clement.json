@@ -1,0 +1,272 @@
+{
+ "slug": "les-murs-de-clement-374fb0",
+ "title": "Les Murs de Clément — Artisan peintre décorateur à Lyon, Clément Margot",
+ "description": "Les Murs de Clément : Clément Margot, peintre décorateur formé par les Compagnons du Tour de France. Peinture d'intérieur, revêtements muraux, peinture des boiseries, plâtrerie, à Lyon et dans sa région.",
+ "brand": "Les Murs de Clément",
+ "tagline": "Artisan peintre · Lyon",
+ "theme": {
+  "paper": "#f6f4f0",
+  "paper2": "#ebe6de",
+  "ink": "#23272b",
+  "muted": "#5f6368",
+  "accent": "#36607d",
+  "accent2": "#284a62",
+  "gold": "#b48a4e",
+  "heroem": "#f3d9a8",
+  "serif": "\"Bodoni Moda\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;1,400&family=Work+Sans:wght@300;400;500;600&display=swap",
+  "look": "center"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/b41804_3c42061eac594e118d36a279e0a14e04~mv2.jpg/v1/fit/w_200,h_284,al_c,q_90/b41804_3c42061eac594e118d36a279e0a14e04~mv2.jpg",
+  "height": 56,
+  "bg": "#ffffff",
+  "with_name": true
+ },
+ "nav": [
+  [
+   "apropos",
+   "À propos"
+  ],
+  [
+   "services",
+   "Services"
+  ],
+  [
+   "engagements",
+   "Mes engagements"
+  ],
+  [
+   "devis",
+   "Devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/91bbf6172899422ab9800d84e755af4e.jpeg/v1/fill/w_1920,h_1100,al_c,q_85/91bbf6172899422ab9800d84e755af4e.jpeg",
+  "eyebrow": "Peintre décorateur formé par les Compagnons du Tour de France",
+  "title": "Les Murs <em>de Clément</em>",
+  "lead": "Artisan peintre sur Lyon pour vos projets de plâtrerie et de peinture intérieure.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "07 84 34 31 80",
+   "tel:+33784343180"
+  ]
+ },
+ "figures": [
+  [
+   "Lyon",
+   "et sa région"
+  ],
+  [
+   "Neuf",
+   "et rénovation"
+  ],
+  [
+   "5",
+   "engagements"
+  ],
+  [
+   "Mat",
+   "satiné ou velouté"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "apropos",
+   "eyebrow": "En savoir plus sur l'entreprise",
+   "title": "Un peintre décorateur <em class=\"it\">formé chez les Compagnons</em>",
+   "img": "https://static.wixstatic.com/media/b41804_3a0b987a46e54decbf3d4c636f832809~mv2.jpg/v1/fill/w_800,h_1000,al_c,q_85/b41804_3a0b987a46e54decbf3d4c636f832809~mv2.jpg",
+   "alt": "Chantier de peinture des Murs de Clément",
+   "paras": [
+    "Peintre décorateur formé par les Compagnons du Tour de France, je vous propose mes services sur Lyon et sa région.",
+    "Spécialiste des petits et moyens chantiers, du neuf à la rénovation."
+   ],
+   "sign": "Clément Margot"
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Services",
+   "title": "Du mur <em class=\"it\">aux boiseries</em>",
+   "lead": "Préparation soignée des supports et finitions au choix, pour tout votre intérieur.",
+   "img": "https://static.wixstatic.com/media/191a8017fe214ee3a16d82b83a0b6365.jpeg/v1/fill/w_1600,h_700,al_c,q_85/191a8017fe214ee3a16d82b83a0b6365.jpeg",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/b41804_606325c0dd3e4071aae0fbd3f2327bdc~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/b41804_606325c0dd3e4071aae0fbd3f2327bdc~mv2.jpg",
+     "alt": "Peinture d'intérieur, murs et plafonds",
+     "kicker": "Murs et plafonds",
+     "title": "Peinture d'intérieur",
+     "list": [
+      "Couche d'impression (sous-couche), préparation des murs",
+      "Peinture glycéro ou acrylique",
+      "Peinture mate, satinée ou veloutée"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/2d1980f2901848bab1fc0ee8f6526f33.jpg/v1/fill/w_800,h_600,al_c,q_85/2d1980f2901848bab1fc0ee8f6526f33.jpg",
+     "alt": "Palette de couleurs de peinture",
+     "kicker": "Pose et dépose",
+     "title": "Revêtements muraux",
+     "paras": [
+      "Pose et dépose de tout type de revêtements :"
+     ],
+     "list": [
+      "Papiers peints",
+      "Toile de verre",
+      "Entoilage"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b41804_697f6e6f22b5427b871d4a7c0f915ddd~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/b41804_697f6e6f22b5427b871d4a7c0f915ddd~mv2.jpg",
+     "alt": "Réalisation des Murs de Clément",
+     "kicker": "Bois",
+     "title": "Peinture boiserie",
+     "list": [
+      "Plinthes",
+      "Portes et encadrements",
+      "Fenêtres",
+      "Meubles"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "engagements",
+   "dark": true,
+   "eyebrow": "Mes engagements",
+   "title": "Un chantier <em class=\"it\">soigné et propre</em>",
+   "img": "https://static.wixstatic.com/media/b41804_2508527374524fb29b5c9ac07bedc951~mv2.jpg/v1/fill/w_1600,h_700,al_c,q_85/b41804_2508527374524fb29b5c9ac07bedc951~mv2.jpg",
+   "alt": "Les Murs de Clément, mes engagements",
+   "chips": [
+    "Rigueur",
+    "Travail soigné",
+    "Écoute et satisfaction client",
+    "Propreté du chantier",
+    "Non fumeur"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Quelques <em class=\"it\">chantiers</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/b41804_697f6e6f22b5427b871d4a7c0f915ddd~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/b41804_697f6e6f22b5427b871d4a7c0f915ddd~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/b41804_697f6e6f22b5427b871d4a7c0f915ddd~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b41804_697f6e6f22b5427b871d4a7c0f915ddd~mv2.jpg",
+     "alt": "Chantier des Murs de Clément"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b41804_606325c0dd3e4071aae0fbd3f2327bdc~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/b41804_606325c0dd3e4071aae0fbd3f2327bdc~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/b41804_606325c0dd3e4071aae0fbd3f2327bdc~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b41804_606325c0dd3e4071aae0fbd3f2327bdc~mv2.jpg",
+     "alt": "Peinture d'intérieur"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b41804_3a0b987a46e54decbf3d4c636f832809~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/b41804_3a0b987a46e54decbf3d4c636f832809~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/b41804_3a0b987a46e54decbf3d4c636f832809~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b41804_3a0b987a46e54decbf3d4c636f832809~mv2.jpg",
+     "alt": "Chantier des Murs de Clément"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b41804_2508527374524fb29b5c9ac07bedc951~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/b41804_2508527374524fb29b5c9ac07bedc951~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/b41804_2508527374524fb29b5c9ac07bedc951~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b41804_2508527374524fb29b5c9ac07bedc951~mv2.jpg",
+     "alt": "Chantier des Murs de Clément"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b41804_c3bc7c25aaf94f8490cc3e3c7783e2cc~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/b41804_c3bc7c25aaf94f8490cc3e3c7783e2cc~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/b41804_c3bc7c25aaf94f8490cc3e3c7783e2cc~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b41804_c3bc7c25aaf94f8490cc3e3c7783e2cc~mv2.jpg",
+     "alt": "Chantier des Murs de Clément"
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Devis",
+   "title": "Demander <em class=\"it\">un devis</em>",
+   "lead": "Décrivez votre projet de peinture, de revêtement ou de plâtrerie : Clément Margot vous recontacte.",
+   "email": "lesmursdeclement@gmail.com",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer",
+   "side": [
+    "Tél. : <a href=\"tel:+33784343180\" style=\"border-bottom:1px solid var(--gold)\">07 84 34 31 80</a>",
+    "E-mail : <a href=\"mailto:lesmursdeclement@gmail.com\" style=\"border-bottom:1px solid var(--gold)\">lesmursdeclement@gmail.com</a>"
+   ],
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Travaux",
+     "type": "select",
+     "options": [
+      "Peinture d'intérieur",
+      "Revêtements muraux",
+      "Peinture boiserie",
+      "Plâtrerie",
+      "Autre"
+     ]
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "required": true
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Clément Margot, <em class=\"it\">Lyon</em>",
+   "img": "https://static.wixstatic.com/media/b41804_c3bc7c25aaf94f8490cc3e3c7783e2cc~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85/b41804_c3bc7c25aaf94f8490cc3e3c7783e2cc~mv2.jpg",
+   "text": "Artisan peintre à Lyon et dans sa région, pour les petits et moyens chantiers, du neuf à la rénovation.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33784343180\">07 84 34 31 80</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lesmursdeclement@gmail.com\">lesmursdeclement@gmail.com</a>"
+    ],
+    [
+     "Secteur",
+     "Lyon et sa région"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Les Murs de Clément : Clément Margot, peintre décorateur formé par les Compagnons du Tour de France. Peinture d'intérieur, revêtements muraux, peinture boiserie et plâtrerie à Lyon et dans sa région.",
+  "contact": [
+   "<a href=\"tel:+33784343180\">07 84 34 31 80</a>",
+   "<a href=\"mailto:lesmursdeclement@gmail.com\">lesmursdeclement@gmail.com</a>",
+   "Lyon et sa région"
+  ],
+  "legal": "Les Murs de Clément · Clément Margot, artisan peintre · Lyon."
+ }
+}
