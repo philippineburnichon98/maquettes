@@ -1,0 +1,235 @@
+{
+ "slug": "domaine-hirsch-ef4a2c",
+ "title": "Domaine Hirsch, Céline & Nicolas Hirsch, vignerons à Chénas (Les Brureaux)",
+ "description": "Céline et Nicolas Hirsch, œnologues et vignerons à Chénas au lieu-dit Les Brureaux : Chénas, Juliénas, Moulin-à-Vent et Pouilly-Fuissé en vinification naturelle. Visites sur rendez-vous.",
+ "brand": "Domaine Hirsch",
+ "tagline": "Céline & Nicolas Hirsch · Chénas",
+ "agegate": true,
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f3ee",
+  "paper2": "#ece5da",
+  "ink": "#1f1a1d",
+  "muted": "#6a6064",
+  "accent": "#7a2335",
+  "accent2": "#5e1a29",
+  "gold": "#a8874f",
+  "heroem": "#f0d2a8",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/efdae5_329d60cbf2f34ed7855d7d910f4ce153~mv2.jpg",
+  "height": 58,
+  "bg": "#ffffff"
+ },
+ "nav": [["vignerons", "Les vignerons"], ["domaine", "Le domaine"], ["vins", "Les vins"], ["photos", "Photos"], ["commander", "Commander"], ["contact", "Nous rendre visite"]],
+ "nav_extra": [["vignerons", "Les vignerons", 1], ["domaine", "Le domaine", 2], ["vins", "Les vins", 3], ["commander", "Commander", 4], ["contact", "Visite", 5]],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/efdae5_5f18b06ae1e24a4d87d6e23ba9429326~mv2_d_4000_3000_s_4_2.jpg",
+  "eyebrow": "Chénas · Juliénas · Pouilly-Fuissé",
+  "title": "Des vins fins, sincères<br>et <em>vibrants</em>",
+  "lead": "Céline et Nicolas Hirsch, alsaciens d'origine et beaujolais de cœur, cultivent de vieilles vignes à Chénas, au lieu-dit Les Brureaux.",
+  "cta1": ["Découvrir nos vins", "#vins"],
+  "cta2": ["03 85 33 50 40", "tel:+33385335040"]
+ },
+ "figures": [
+  ["​2010", "installés à Chénas"],
+  ["​5 ha", "de vignes"],
+  ["100 %", "vendanges manuelles"],
+  ["​24 mois", "d'élevage minimum en fût pour le Pouilly-Fuissé"]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "vignerons",
+   "eyebrow": "Les vignerons",
+   "title": "Alsaciens d'origine, <em class=\"it\">beaujolais de cœur</em>",
+   "img": "https://static.wixstatic.com/media/efdae5_34c78aad247d41ed9b617376ba311387~mv2.jpg",
+   "alt": "Céline et Nicolas Hirsch",
+   "paras": [
+    "Après notre diplôme d'œnologue et quelques voyages de par le monde, nous avons décidé de créer notre domaine.",
+    "Séduits par la région, son charme, ses vins et la dimension artisanale et humaine de ses exploitations, nous nous sommes installés en 2010 à Chénas.",
+    "Vignerons indépendants, nous faisons tout nous-mêmes : de la vigne à la cave, jusqu'à la vente."
+   ],
+   "sign": "Céline & Nicolas Hirsch"
+  },
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Le domaine",
+   "title": "Les Brureaux, <em class=\"it\">coteaux de granite</em>",
+   "img": "https://static.wixstatic.com/media/efdae5_ca97eb816f9149b0952714362366a39e~mv2.jpg",
+   "alt": "Vue aérienne du domaine",
+   "paras": [
+    "Le domaine se situe à Chénas, au lieu-dit Les Brureaux. Propriétaires et récoltants, nous cultivons de vieilles vignes à Chénas, Juliénas et Pouilly-Fuissé.",
+    "Nos cinq hectares sont surtout plantés en Chénas, sur les coteaux granitiques des Brureaux, avec aussi du Moulin-à-Vent, du Juliénas, du Beaujolais-Villages et quelques vignes de blanc, conduites en bio et à haute densité : 9 000 à 12 000 pieds par hectare.",
+    "Notre objectif est d'offrir des vins fins, sincères et vibrants."
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "vinification",
+   "eyebrow": "À la cave",
+   "title": "Une vinification <em class=\"it\">naturelle</em>",
+   "lead": "Nous travaillons nos vins de manière naturelle, pour laisser parler chaque terroir.",
+   "items": [
+    ["Vendanges manuelles", "Toutes les grappes sont cueillies à la main."],
+    ["Sans levures ajoutées", "La fermentation se fait avec les levures du raisin."],
+    ["Sans filtration", "Les vins sont mis en bouteille sans être filtrés."],
+    ["Vendange entière", "Pour les rouges frais et fruités : vendange entière et macération carbonique."]
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "vins",
+   "eyebrow": "Les vins",
+   "title": "Nos <em class=\"it\">cuvées</em>",
+   "lead": "Des rouges frais et fruités, des rouges de garde élevés en fût, et quelques blancs.",
+   "tabs": [["rouge", "Rouges"], ["blanc", "Blancs"]],
+   "items": [
+    {"cat": "rouge", "color": "#7a2335", "tag": "Cru du Beaujolais", "name": "Juliénas", "app": "Lieu-dit Chanoriers", "desc": "Située au lieu-dit Chanoriers, sur des sols riches de pierres bleues, élevage en cuve, cette vigne produit un vin frais et fruité.", "sheet": [["Sol", "Pierres bleues"], ["Élevage", "En cuve"]]},
+    {"cat": "rouge", "color": "#5e1a29", "tag": "Cru du Beaujolais, vin de garde", "name": "Chénas Les Brureaux", "app": "Vieilles vignes", "desc": "De vieilles vignes sur des coteaux granitiques, élevage en cuve et en fût. Les Brureaux sont un vin de garde par excellence, fin et élégant.", "sheet": [["Sol", "Coteaux granitiques"], ["Élevage", "En cuve et en fût"]]},
+    {"cat": "rouge", "color": "#8a3040", "tag": "Cru du Beaujolais", "name": "Chénas", "app": "Rouge frais et fruité", "desc": "Vendange entière et macération carbonique, pour un rouge frais et fruité."},
+    {"cat": "rouge", "color": "#4f1622", "tag": "Cru du Beaujolais, vin de garde", "name": "Moulin-à-Vent", "app": "Rouge de garde", "desc": "Un rouge de garde, élevé en fût de chêne."},
+    {"cat": "rouge", "color": "#9a3a48", "tag": "Beaujolais", "name": "Beaujolais-Villages", "app": "Rouge frais et fruité", "desc": "Vendange entière et macération carbonique, pour un rouge frais et fruité."},
+    {"cat": "blanc", "color": "#d6b45a", "tag": "Mâconnais", "name": "Pouilly-Fuissé", "app": "Chardonnay, vieilles vignes", "desc": "Terroir argilo-calcaire propice à l'élégant chardonnay, vieilles vignes, élevage de 24 mois minimum en fût sur lies fines pour souligner un vin minéral et complexe.", "sheet": [["Cépage", "Chardonnay"], ["Sol", "Argilo-calcaire"], ["Élevage", "24 mois minimum en fût, sur lies fines"]]},
+    {"cat": "blanc", "color": "#d9bf6a", "tag": "Mâconnais", "name": "Mâcon-Villages", "app": "Blanc", "desc": "Cuvée de blanc du domaine, en appellation Mâcon-Villages."},
+    {"cat": "blanc", "color": "#cdb763", "tag": "Blanc", "name": "Les Terrasses", "app": "Blanc", "desc": "Cuvée de blanc du domaine."},
+    {"cat": "blanc", "color": "#c9c06a", "tag": "Blanc", "name": "Sylvaner", "app": "Blanc", "desc": "Cuvée de blanc du domaine, cépage sylvaner."}
+   ],
+   "note": "Tarifs : voir la grille plus bas, dans les photos, ou nous contacter. Expédition de vin possible sur demande."
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/efdae5_3ef9291df5784b32952f7b6e80382c14~mv2_d_6000_4000_s_4_2.jpg",
+   "eyebrow": "Chénas, entre Juliénas et Moulin-à-Vent",
+   "title": "Venez goûter<br><em>les Brureaux</em>",
+   "cta": ["Prendre rendez-vous", "#contact"]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Le domaine en images",
+   "title": "Photos <em class=\"it\">& tarifs</em>",
+   "lead": "Cliquez sur une photo pour l'agrandir, notamment la grille des tarifs.",
+   "photos": [
+    {"thumb": "https://static.wixstatic.com/media/efdae5_331b5291a1ab418381e7c7fb95776917~mv2.jpg", "full": "https://static.wixstatic.com/media/efdae5_331b5291a1ab418381e7c7fb95776917~mv2.jpg", "alt": "Grille des tarifs du Domaine Hirsch", "caption": "Nos tarifs"},
+    {"thumb": "https://static.wixstatic.com/media/efdae5_5f18b06ae1e24a4d87d6e23ba9429326~mv2_d_4000_3000_s_4_2.jpg", "full": "https://static.wixstatic.com/media/efdae5_5f18b06ae1e24a4d87d6e23ba9429326~mv2_d_4000_3000_s_4_2.jpg", "alt": "Les Brureaux vus de Juliénas", "caption": "Les Brureaux vus de Juliénas"},
+    {"thumb": "https://static.wixstatic.com/media/efdae5_4ba4ead8b57c4434b4126d00e99b3de7~mv2_d_1755_1241_s_2.jpg", "full": "https://static.wixstatic.com/media/efdae5_4ba4ead8b57c4434b4126d00e99b3de7~mv2_d_1755_1241_s_2.jpg", "alt": "Bouteilles à la cave", "caption": "À la cave"},
+    {"thumb": "https://static.wixstatic.com/media/efdae5_0586c97281744a8abb32d0cd00ff2636~mv2.jpg", "full": "https://static.wixstatic.com/media/efdae5_0586c97281744a8abb32d0cd00ff2636~mv2.jpg", "alt": "Céline et Nicolas Hirsch", "caption": "Céline et Nicolas"},
+    {"thumb": "https://static.wixstatic.com/media/efdae5_3ef9291df5784b32952f7b6e80382c14~mv2_d_6000_4000_s_4_2.jpg", "full": "https://static.wixstatic.com/media/efdae5_3ef9291df5784b32952f7b6e80382c14~mv2_d_6000_4000_s_4_2.jpg", "alt": "Le domaine", "caption": "Le domaine"},
+    {"thumb": "https://static.wixstatic.com/media/efdae5_ca97eb816f9149b0952714362366a39e~mv2.jpg", "full": "https://static.wixstatic.com/media/efdae5_ca97eb816f9149b0952714362366a39e~mv2.jpg", "alt": "Vue aérienne du domaine", "caption": "Vue aérienne"}
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "commander",
+   "eyebrow": "Commander",
+   "title": "Contactez-nous pour <em class=\"it\">toute commande</em>",
+   "lead": "Indiquez les vins et les quantités souhaités : nous vous répondons rapidement. Expédition de vin possible sur demande.",
+   "side": ["Fixe : <a href=\"tel:+33385335040\" style=\"border-bottom:1px solid var(--gold)\">03 85 33 50 40</a>", "Portable : <a href=\"tel:+33679660944\" style=\"border-bottom:1px solid var(--gold)\">06 79 66 09 44</a>", "<a href=\"mailto:contact@domainehirsch.fr\" style=\"border-bottom:1px solid var(--gold)\">contact@domainehirsch.fr</a>"],
+   "email": "contact@domainehirsch.fr",
+   "subject": "Commande depuis le site",
+   "submit": "Envoyer ma commande",
+   "fields": [
+    {"label": "Nom", "name": "nom", "required": true},
+    {"label": "Téléphone", "name": "tel", "type": "tel", "required": true},
+    {"label": "E-mail", "name": "mail", "type": "email", "required": true},
+    {"label": "Retrait ou expédition", "name": "mode", "type": "select", "options": ["Retrait au domaine", "Expédition"]},
+    {"label": "Vins et quantités souhaités", "name": "vins", "type": "textarea", "required": true},
+    {"label": "Adresse de livraison (si expédition)", "name": "adresse", "type": "textarea", "rows": 2}
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous rendre visite",
+   "title": "Au domaine, <em class=\"it\">sur rendez-vous</em>",
+   "text": "Nous vous recevons toute l'année, sur rendez-vous, pour une dégustation au domaine.",
+   "rows": [
+    ["Adresse", "Les Brureaux<br>69840 Chénas"],
+    ["Visites", "Toute l'année, sur rendez-vous"],
+    ["Téléphone", "<a href=\"tel:+33385335040\">03 85 33 50 40</a><br><a href=\"tel:+33679660944\">06 79 66 09 44</a>"],
+    ["E-mail", "<a href=\"mailto:contact@domainehirsch.fr\">contact@domainehirsch.fr</a>"]
+   ],
+   "cta": ["Appeler le domaine", "tel:+33385335040"],
+   "map_q": "Les Brureaux, 69840 Chénas"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "English",
+   "title": "Domaine Hirsch, in English",
+   "eyebrow": "Céline & Nicolas Hirsch · Chénas, Beaujolais",
+   "lead": "Winegrowers in Chénas, at Les Brureaux, since 2010.",
+   "img": "https://static.wixstatic.com/media/efdae5_5f18b06ae1e24a4d87d6e23ba9429326~mv2_d_4000_3000_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "winegrowers",
+     "eyebrow": "The winegrowers",
+     "title": "From Alsace, <em class=\"it\">Beaujolais at heart</em>",
+     "img": "https://static.wixstatic.com/media/efdae5_0586c97281744a8abb32d0cd00ff2636~mv2.jpg",
+     "alt": "Céline and Nicolas Hirsch",
+     "paras": [
+      "Céline and Nicolas Hirsch are originally from Alsace. After their oenology degree and some travels around the world, they decided to create their own estate.",
+      "Charmed by the region, its wines and the human, traditional scale of its farms, they settled in Chénas.",
+      "As independent winegrowers, they do all the work themselves, from the vineyard to the cellar and the sales."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "estate",
+     "eyebrow": "The estate",
+     "title": "Five hectares <em class=\"it\">on granite slopes</em>",
+     "img": "https://static.wixstatic.com/media/efdae5_ca97eb816f9149b0952714362366a39e~mv2.jpg",
+     "alt": "Aerial view of the estate",
+     "paras": [
+      "The estate covers 5 hectares, mainly Chénas on the granite hillsides of Les Brureaux, plus Moulin-à-Vent, Juliénas, Beaujolais-Villages and a few white vines.",
+      "The vines are organically farmed and planted at high density, 9,000 to 12,000 vines per hectare."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "wines",
+     "eyebrow": "The wines",
+     "title": "Natural <em class=\"it\">winemaking</em>",
+     "img": "https://static.wixstatic.com/media/efdae5_4ba4ead8b57c4434b4126d00e99b3de7~mv2_d_1755_1241_s_2.jpg",
+     "alt": "Bottles in the cellar",
+     "paras": [
+      "Manual harvest, no added yeast, no filtration.",
+      "Fresh and fruity reds (Beaujolais-Villages, Chénas, Juliénas) are made with whole bunches and carbonic maceration. Age-worthy reds (Moulin-à-Vent, Chénas Les Brureaux) are aged in oak casks.",
+      "Whites: Les Terrasses, Sylvaner, Mâcon-Villages and Pouilly-Fuissé."
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "meet",
+     "eyebrow": "Meet us",
+     "title": "Visits <em class=\"it\">by appointment</em>",
+     "text": "We welcome you all year round, by appointment.",
+     "rows": [
+      ["Address", "Les Brureaux<br>69840 Chénas, France"],
+      ["Phone", "<a href=\"tel:+33385335040\">+33 3 85 33 50 40</a><br><a href=\"tel:+33679660944\">+33 6 79 66 09 44</a>"],
+      ["E-mail", "<a href=\"mailto:contact@domainehirsch.fr\">contact@domainehirsch.fr</a>"]
+     ],
+     "cta": ["E-mail us", "mailto:contact@domainehirsch.fr"],
+     "map_q": "Les Brureaux, 69840 Chénas"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Céline et Nicolas Hirsch, vignerons indépendants à Chénas, au lieu-dit Les Brureaux : Chénas, Juliénas, Moulin-à-Vent, Beaujolais-Villages et Pouilly-Fuissé.",
+  "contact": [
+   "<a href=\"tel:+33385335040\">03 85 33 50 40</a>",
+   "<a href=\"tel:+33679660944\">06 79 66 09 44</a>",
+   "<a href=\"mailto:contact@domainehirsch.fr\">contact@domainehirsch.fr</a>",
+   "Les Brureaux, 69840 Chénas"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
