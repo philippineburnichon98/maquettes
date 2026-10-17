@@ -1,0 +1,891 @@
+{
+ "slug": "louis-cheret-notaire-632c28",
+ "title": "Maître Louis Cheret, notaire à Villefranche-sur-Saône",
+ "description": "Office notarial de Maître Louis Cheret, 40 rue Auguste Aucour, 69400 Villefranche-sur-Saône : droit de la famille, succession et donation, droit de l'immobilier, droit des sociétés.",
+ "brand": "Maître Louis Cheret",
+ "tagline": "Notaire à Villefranche-sur-Saône",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f5f2",
+  "paper2": "#eae8e3",
+  "ink": "#1d2230",
+  "muted": "#5d6270",
+  "accent": "#7a1f2b",
+  "accent2": "#5e1720",
+  "gold": "#9a7b4f",
+  "heroem": "#e9d6b8",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/logo.png",
+  "height": 54,
+  "bg": "#ffffff"
+ },
+ "hero": {
+  "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/March%C3%A9_couvert_de_Villefranche.jpg",
+  "eyebrow": "Office notarial · Villefranche-sur-Saône",
+  "title": "Maître Louis Cheret, <em>notaire à Villefranche-sur-Saône</em>",
+  "lead": "Notaire nommé par la Garde des Sceaux, membre du Conseil régional des notaires de Lyon. Office créé en novembre 2017, 40 rue Auguste Aucour.",
+  "cta1": [
+   "Prendre contact",
+   "cabinet-de-notaire/"
+  ],
+  "cta2": [
+   "04 74 60 03 22",
+   "tel:+33474600322"
+  ]
+ },
+ "sections": [
+  {
+   "kind": "story",
+   "id": "presentation",
+   "eyebrow": "Présentation",
+   "title": "Votre notaire <em class=\"it\">à Villefranche-sur-Saône</em>",
+   "paras": [
+    "Maître Louis Cheret est notaire nommé par la Garde des Sceaux, inscrit à l'Ordre des notaires de France sous le numéro 69173 et membre du Conseil régional des notaires de Lyon.",
+    "Son office, créé en novembre 2017, est installé 40, rue Auguste Aucour à Villefranche-sur-Saône. Il intervient à Villefranche-sur-Saône et dans ses alentours : Gleizé, Lyon, Belleville (Rhône)."
+   ],
+   "sign": "Réactif et respectueux de l'éthique, privilégiant la proximité.",
+   "logos": [
+    [
+     "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/logo-notaire-fr.png",
+     "Notaires de France"
+    ]
+   ],
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-1.jpg",
+   "alt": "Maître Louis Cheret, notaire"
+  },
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "eyebrow": "Domaines d'intervention",
+   "title": "Les compétences <em class=\"it\">de l'office</em>",
+   "lead": "L'office accompagne particuliers et professionnels, en aide juridique comme en conseil.",
+   "items": [
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart1.jpg",
+     "alt": "Droit de la famille",
+     "kicker": "Droit de la famille",
+     "title": "Notaire pour la famille à Villefranche-sur-Saône",
+     "paras": [
+      "Contrat de mariage, convention de divorce, procédure d'adoption."
+     ],
+     "link": [
+      "En savoir plus",
+      "notaire-droit-de-la-famille/"
+     ]
+    },
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart2.jpg",
+     "alt": "Succession et donation",
+     "kicker": "Succession et donation",
+     "title": "Notaire en succession et donation à Villefranche-sur-Saône",
+     "paras": [
+      "Transmission et gestion du patrimoine, sécurisation de la succession ou de la donation."
+     ],
+     "link": [
+      "En savoir plus",
+      "notaire-donation-et-succession/"
+     ]
+    },
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart3.jpg",
+     "alt": "Droit de l'immobilier",
+     "kicker": "Droit de l'immobilier",
+     "title": "Notaire pour l'immobilier à Villefranche-sur-Saône",
+     "paras": [
+      "Conseils juridiques et fiscaux pour la vente, l'acquisition et la location immobilière."
+     ],
+     "link": [
+      "En savoir plus",
+      "notaire-droit-immobilier/"
+     ]
+    },
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart4.jpg",
+     "alt": "Droit des sociétés",
+     "kicker": "Droit des sociétés",
+     "title": "Notaire en droit des entreprises à Villefranche-sur-Saône",
+     "paras": [
+      "Baux commerciaux, création de sociétés, cession de fonds de commerce, transmission d'entreprises."
+     ],
+     "link": [
+      "En savoir plus",
+      "notaire-en-droit-des-entreprises/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "famille-succession",
+   "eyebrow": "Famille et patrimoine",
+   "title": "Famille, succession <em class=\"it\">et donation</em>",
+   "paras": [
+    "Pour la famille, l'office conseille sur le contrat de mariage et la convention de divorce, et accompagne la procédure d'adoption.",
+    "Pour la succession et la donation, Maître Cheret assiste dans la transmission et la gestion du patrimoine et met en œuvre les procédures qui sécurisent la succession ou la donation."
+   ],
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-2.jpg",
+   "alt": "Notaire, Louis Cheret"
+  },
+  {
+   "kind": "story",
+   "id": "immobilier-societes",
+   "eyebrow": "Immobilier et entreprise",
+   "title": "Immobilier <em class=\"it\">et droit des sociétés</em>",
+   "paras": [
+    "En droit de l'immobilier, l'office apporte ses conseils juridiques et fiscaux pour la vente, l'acquisition et la location immobilière.",
+    "En droit des sociétés, il prend en charge les démarches administratives, fiscales et juridiques des baux commerciaux, de la création de sociétés, de la cession de fonds de commerce et de la transmission d'entreprises."
+   ],
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-3.jpg",
+   "alt": "Notaire, Louis Cheret"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "L'office notarial",
+   "title": "40, rue Auguste Aucour, <em class=\"it\">Villefranche-sur-Saône</em>",
+   "text": "Maître Louis Cheret vous reçoit au sein de son office notarial à Villefranche-sur-Saône (Rhône).",
+   "rows": [
+    [
+     "Adresse",
+     "40, rue Auguste Aucour<br>69400 Villefranche-sur-Saône"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474600322\">04 74 60 03 22</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:louis.cheret@notaires.fr\">louis.cheret@notaires.fr</a>"
+    ],
+    [
+     "Secteur",
+     "Villefranche-sur-Saône et ses alentours : Gleizé, Lyon, Belleville"
+    ]
+   ],
+   "cta": [
+    "Contacter l'office",
+    "mailto:louis.cheret@notaires.fr?subject=Demande%20de%20rendez-vous"
+   ],
+   "map_q": "40 Rue Auguste Aucour, 69400 Villefranche-sur-Saône"
+  },
+  {
+   "kind": "blocks",
+   "id": "liens",
+   "eyebrow": "Liens utiles",
+   "title": "Liens <em class=\"it\">utiles</em>",
+   "items": [
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/images_clicables_21/en_savoir_plus_sur_les_notaires-ez2i.png",
+     "contain": true,
+     "title": "En savoir plus sur les notaires",
+     "link": [
+      "notaires.fr",
+      "https://www.notaires.fr/fr"
+     ]
+    },
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/images_clicables_21/les_prix_de_limmobilier_en_regions-5cm4.png",
+     "contain": true,
+     "title": "Les prix de l'immobilier en régions",
+     "link": [
+      "immobilier.statistiques.notaires.fr",
+      "https://immobilier.statistiques.notaires.fr/prix-immobilier"
+     ]
+    },
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/images_clicables_21/les_prix_de_limmobilier_a_paris_et_ile_de_france-w5y5.jpg",
+     "contain": true,
+     "title": "Les prix de l'immobilier à Paris et Île-de-France",
+     "link": [
+      "paris.notaires.fr",
+      "http://www.paris.notaires.fr/outil/immobilier/prix-et-nombre-de-ventes-paris-idf"
+     ]
+    },
+    {
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/images_clicables_21/en_savoir_plus_sur_les_notaires-q8j4.png",
+     "contain": true,
+     "title": "Protection des données personnelles",
+     "link": [
+      "cnil.fr",
+      "https://www.cnil.fr"
+     ]
+    },
+    {
+     "title": "Conseil régional des notaires de Lyon",
+     "link": [
+      "cr-lyon.notaires.fr",
+      "http://www.cr-lyon.notaires.fr/fr"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Maître Louis Cheret, notaire, officier public nommé par la Garde des Sceaux. Ordre des notaires de France n° 69173. Membre du Conseil régional des notaires de Lyon, Chambre des notaires du Rhône.",
+  "contact": [
+   "<a href=\"tel:+33474600322\">04 74 60 03 22</a>",
+   "<a href=\"mailto:louis.cheret@notaires.fr\">louis.cheret@notaires.fr</a>",
+   "40, rue Auguste Aucour, 69400 Villefranche-sur-Saône"
+  ],
+  "legal": "Maître Louis Cheret, notaire à Villefranche-sur-Saône (69). SIRET 837 746 619 00019. Médiation : Médiateur du notariat, mediateurdunotariat@notaires.fr."
+ },
+ "pages": [
+  {
+   "slug": "office-notarial",
+   "label": "L'Office",
+   "title": "L'Office notarial",
+   "h1": "Office notarial <em>de Maître Louis Cheret</em>",
+   "eyebrow": "À Villefranche-sur-Saône depuis novembre 2017",
+   "lead": "Droit de la famille, immobilier, droit des sociétés, donations et successions : pour les particuliers comme pour les professionnels.",
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/March%C3%A9_couvert_de_Villefranche.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "office",
+     "eyebrow": "L'office",
+     "title": "Un office créé <em class=\"it\">en novembre 2017</em>",
+     "paras": [
+      "L'Office notarial de Maître Louis Cheret a été créé en novembre 2017 à Villefranche-sur-Saône (Rhône).",
+      "Il met ses compétences en droit de la famille, en immobilier, en droit des sociétés et en donations et successions au service des particuliers comme des professionnels, en aide juridique et en conseil."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-1.jpg",
+     "alt": "L'office notarial"
+    },
+    {
+     "kind": "timeline",
+     "id": "parcours",
+     "eyebrow": "Une expertise juridique sur-mesure",
+     "title": "Le parcours <em class=\"it\">de Maître Cheret</em>",
+     "lead": "Une formation universitaire et notariale complète, puis plusieurs années en étude avant l'installation.",
+     "items": [
+      {
+       "when": "Formation",
+       "who": "Licence en droit",
+       "text": "Licence en droit, puis master 2 en droit notarial."
+      },
+      {
+       "when": "Diplôme",
+       "who": "Diplôme supérieur de notariat",
+       "text": "Diplôme supérieur de notariat, à la suite du master 2."
+      },
+      {
+       "when": "Expérience",
+       "who": "Notaire stagiaire, notaire-assistant",
+       "text": "Notaire stagiaire puis notaire-assistant dans plusieurs études."
+      },
+      {
+       "when": "2017",
+       "who": "Serment et installation",
+       "text": "Prestation de serment en 2017 et création de son office, exercé sous sa seule responsabilité."
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "engagement",
+     "eyebrow": "L'office",
+     "title": "Un office <em class=\"it\">de proximité</em>",
+     "paras": [
+      "Maître Louis Cheret reçoit ses clients au 40, rue Auguste Aucour à Villefranche-sur-Saône, et intervient à Gleizé, Lyon et Belleville."
+     ],
+     "sign": "Réactif et respectueux de l'éthique, privilégiant la proximité.",
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-5.jpg",
+     "alt": "Maître Louis Cheret"
+    },
+    {
+     "kind": "blocks",
+     "id": "competences",
+     "eyebrow": "Domaines d'intervention",
+     "title": "Les compétences <em class=\"it\">de l'office</em>",
+     "lead": "L'office accompagne particuliers et professionnels, en aide juridique comme en conseil.",
+     "items": [
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart1.jpg",
+       "alt": "Droit de la famille",
+       "kicker": "Droit de la famille",
+       "title": "Notaire pour la famille à Villefranche-sur-Saône",
+       "paras": [
+        "Contrat de mariage, convention de divorce, procédure d'adoption."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-de-la-famille/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart2.jpg",
+       "alt": "Succession et donation",
+       "kicker": "Succession et donation",
+       "title": "Notaire en succession et donation à Villefranche-sur-Saône",
+       "paras": [
+        "Transmission et gestion du patrimoine, sécurisation de la succession ou de la donation."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-donation-et-succession/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart3.jpg",
+       "alt": "Droit de l'immobilier",
+       "kicker": "Droit de l'immobilier",
+       "title": "Notaire pour l'immobilier à Villefranche-sur-Saône",
+       "paras": [
+        "Conseils juridiques et fiscaux pour la vente, l'acquisition et la location immobilière."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-immobilier/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart4.jpg",
+       "alt": "Droit des sociétés",
+       "kicker": "Droit des sociétés",
+       "title": "Notaire en droit des entreprises à Villefranche-sur-Saône",
+       "paras": [
+        "Baux commerciaux, création de sociétés, cession de fonds de commerce, transmission d'entreprises."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-en-droit-des-entreprises/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "notaire-droit-de-la-famille",
+   "label": "Couple et famille",
+   "title": "Notaire en droit de la famille",
+   "h1": "Droit <em>de la famille</em>",
+   "eyebrow": "Couple et famille",
+   "lead": "Un service dédié au droit de la famille et au conseil patrimonial : contrat de mariage, convention de divorce, procédure d'adoption.",
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-6.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "famille",
+     "eyebrow": "Couple et famille",
+     "title": "Un service dédié <em class=\"it\">au droit de la famille</em>",
+     "paras": [
+      "L'office de Maître Louis Cheret, 40 rue Auguste Aucour à Villefranche-sur-Saône, dispose d'un service dédié au droit de la famille et au conseil patrimonial.",
+      "Il vous conseille sur le contrat de mariage et la convention de divorce, et vous accompagne dans la procédure d'adoption."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-6.jpg",
+     "alt": "Droit de la famille"
+    },
+    {
+     "kind": "story",
+     "id": "adoption",
+     "eyebrow": "Adoption",
+     "title": "L'<em class=\"it\">adoption</em>",
+     "paras": [
+      "Le notaire vous informe sur les conditions et les différents types d'adoption, et sur leurs conséquences familiales, patronymiques, juridiques, patrimoniales et fiscales. Il peut vous orienter vers les organismes habilités.",
+      "Il vérifie les conditions légales, rédige l'acte de consentement et réunit les pièces d'état civil."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-8.jpg",
+     "alt": "Adoption"
+    },
+    {
+     "kind": "story",
+     "id": "divorce",
+     "eyebrow": "Divorce",
+     "title": "Le <em class=\"it\">divorce</em>",
+     "paras": [
+      "Le notaire accompagne la procédure de divorce prévue par l'article 229 du Code civil : il rédige et authentifie la convention, puis finalise l'acte de partage.",
+      "Il intervient pour la liquidation du régime matrimonial et le partage des biens communs."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-7.jpg",
+     "alt": "Divorce"
+    },
+    {
+     "kind": "story",
+     "id": "mariage",
+     "eyebrow": "Mariage",
+     "title": "Le <em class=\"it\">mariage</em>",
+     "paras": [
+      "Le notaire vous conseille sur le choix du régime matrimonial le plus adapté à votre situation, puis rédige et authentifie le contrat de mariage.",
+      "Il intervient également pour modifier un régime matrimonial existant."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-9.jpg",
+     "alt": "Mariage"
+    },
+    {
+     "kind": "blocks",
+     "id": "autres-famille",
+     "eyebrow": "Domaines d'intervention",
+     "title": "Les compétences <em class=\"it\">de l'office</em>",
+     "lead": "L'office accompagne particuliers et professionnels, en aide juridique comme en conseil.",
+     "items": [
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart1.jpg",
+       "alt": "Droit de la famille",
+       "kicker": "Droit de la famille",
+       "title": "Notaire pour la famille à Villefranche-sur-Saône",
+       "paras": [
+        "Contrat de mariage, convention de divorce, procédure d'adoption."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-de-la-famille/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart2.jpg",
+       "alt": "Succession et donation",
+       "kicker": "Succession et donation",
+       "title": "Notaire en succession et donation à Villefranche-sur-Saône",
+       "paras": [
+        "Transmission et gestion du patrimoine, sécurisation de la succession ou de la donation."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-donation-et-succession/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart3.jpg",
+       "alt": "Droit de l'immobilier",
+       "kicker": "Droit de l'immobilier",
+       "title": "Notaire pour l'immobilier à Villefranche-sur-Saône",
+       "paras": [
+        "Conseils juridiques et fiscaux pour la vente, l'acquisition et la location immobilière."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-immobilier/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart4.jpg",
+       "alt": "Droit des sociétés",
+       "kicker": "Droit des sociétés",
+       "title": "Notaire en droit des entreprises à Villefranche-sur-Saône",
+       "paras": [
+        "Baux commerciaux, création de sociétés, cession de fonds de commerce, transmission d'entreprises."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-en-droit-des-entreprises/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "notaire-donation-et-succession",
+   "label": "Donation / Succession",
+   "title": "Notaire en succession et en donation",
+   "h1": "Donation <em>et succession</em>",
+   "eyebrow": "Transmettre son patrimoine",
+   "lead": "Confiez l'élaboration de vos dossiers de donation et de succession à votre notaire à Villefranche-sur-Saône.",
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/img150-22.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "succession",
+     "eyebrow": "Succession",
+     "title": "La <em class=\"it\">succession</em>",
+     "paras": [
+      "Maître Louis Cheret vous reçoit au sein de son office notarial pour sécuriser une succession ou une donation, en vous prodiguant des conseils juridiques et fiscaux adaptés.",
+      "La succession permet de transmettre, par voie légale, un héritage à un ou plusieurs héritiers. Le notaire recense les biens, actions et droits du défunt, désigne les héritiers et établit les actes de notoriété et de partage."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/img150-22.jpg",
+     "alt": "Succession"
+    },
+    {
+     "kind": "story",
+     "id": "donation",
+     "eyebrow": "Donation",
+     "title": "La <em class=\"it\">donation</em>",
+     "paras": [
+      "La donation est un acte notarié, volontaire et gratuit, par lequel une personne transmet son patrimoine de son vivant. Cet acte irrévocable permet d'anticiper les litiges et de bénéficier d'avantages fiscaux.",
+      "Le notaire vous informe sur les différentes formes de donation et leurs conséquences civiles et fiscales, rédige l'acte, fait mentionner l'acceptation du donataire et veille au paiement des droits d'enregistrement."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-11.jpg",
+     "alt": "Donation"
+    },
+    {
+     "kind": "blocks",
+     "id": "autres-succession",
+     "eyebrow": "Domaines d'intervention",
+     "title": "Les compétences <em class=\"it\">de l'office</em>",
+     "lead": "L'office accompagne particuliers et professionnels, en aide juridique comme en conseil.",
+     "items": [
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart1.jpg",
+       "alt": "Droit de la famille",
+       "kicker": "Droit de la famille",
+       "title": "Notaire pour la famille à Villefranche-sur-Saône",
+       "paras": [
+        "Contrat de mariage, convention de divorce, procédure d'adoption."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-de-la-famille/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart2.jpg",
+       "alt": "Succession et donation",
+       "kicker": "Succession et donation",
+       "title": "Notaire en succession et donation à Villefranche-sur-Saône",
+       "paras": [
+        "Transmission et gestion du patrimoine, sécurisation de la succession ou de la donation."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-donation-et-succession/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart3.jpg",
+       "alt": "Droit de l'immobilier",
+       "kicker": "Droit de l'immobilier",
+       "title": "Notaire pour l'immobilier à Villefranche-sur-Saône",
+       "paras": [
+        "Conseils juridiques et fiscaux pour la vente, l'acquisition et la location immobilière."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-immobilier/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart4.jpg",
+       "alt": "Droit des sociétés",
+       "kicker": "Droit des sociétés",
+       "title": "Notaire en droit des entreprises à Villefranche-sur-Saône",
+       "paras": [
+        "Baux commerciaux, création de sociétés, cession de fonds de commerce, transmission d'entreprises."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-en-droit-des-entreprises/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "notaire-droit-immobilier",
+   "label": "Droit de l'immobilier",
+   "title": "Notaire en droit immobilier",
+   "h1": "Droit <em>de l'immobilier</em>",
+   "eyebrow": "Vente, acquisition, location",
+   "lead": "Office notarial pour vos affaires de droit immobilier à Villefranche-sur-Saône.",
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-12.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "immobilier",
+     "eyebrow": "Acquisition et vente immobilière",
+     "title": "Acquisition <em class=\"it\">et vente immobilière</em>",
+     "paras": [
+      "Maître Louis Cheret vous conseille en droit immobilier pour la vente, l'acquisition et la location, et vous assiste dans les démarches administratives, juridiques et fiscales liées à la transaction.",
+      "Il vous informe sur les procédures préalables, réalise un état des lieux pour estimer la valeur du bien, puis rédige et authentifie les contrats et actes : compromis de vente et acte authentique."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-12.jpg",
+     "alt": "Acquisition et vente immobilière"
+    },
+    {
+     "kind": "story",
+     "id": "pret",
+     "eyebrow": "Prêt immobilier",
+     "title": "Le <em class=\"it\">prêt immobilier</em>",
+     "paras": [
+      "Le notaire vous conseille aussi sur le financement de votre acquisition."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-13.jpg",
+     "alt": "Prêt immobilier"
+    },
+    {
+     "kind": "blocks",
+     "id": "liens-immobilier",
+     "eyebrow": "Prix de l'immobilier",
+     "title": "Les prix <em class=\"it\">de l'immobilier</em>",
+     "items": [
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/images_clicables_21/les_prix_de_limmobilier_en_regions-5cm4.png",
+       "contain": true,
+       "title": "Les prix de l'immobilier en régions",
+       "link": [
+        "immobilier.statistiques.notaires.fr",
+        "https://immobilier.statistiques.notaires.fr/prix-immobilier"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/images_clicables_21/les_prix_de_limmobilier_a_paris_et_ile_de_france-w5y5.jpg",
+       "contain": true,
+       "title": "Les prix de l'immobilier à Paris et Île-de-France",
+       "link": [
+        "paris.notaires.fr",
+        "http://www.paris.notaires.fr/outil/immobilier/prix-et-nombre-de-ventes-paris-idf"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "autres-immobilier",
+     "eyebrow": "Domaines d'intervention",
+     "title": "Les compétences <em class=\"it\">de l'office</em>",
+     "lead": "L'office accompagne particuliers et professionnels, en aide juridique comme en conseil.",
+     "items": [
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart1.jpg",
+       "alt": "Droit de la famille",
+       "kicker": "Droit de la famille",
+       "title": "Notaire pour la famille à Villefranche-sur-Saône",
+       "paras": [
+        "Contrat de mariage, convention de divorce, procédure d'adoption."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-de-la-famille/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart2.jpg",
+       "alt": "Succession et donation",
+       "kicker": "Succession et donation",
+       "title": "Notaire en succession et donation à Villefranche-sur-Saône",
+       "paras": [
+        "Transmission et gestion du patrimoine, sécurisation de la succession ou de la donation."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-donation-et-succession/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart3.jpg",
+       "alt": "Droit de l'immobilier",
+       "kicker": "Droit de l'immobilier",
+       "title": "Notaire pour l'immobilier à Villefranche-sur-Saône",
+       "paras": [
+        "Conseils juridiques et fiscaux pour la vente, l'acquisition et la location immobilière."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-immobilier/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart4.jpg",
+       "alt": "Droit des sociétés",
+       "kicker": "Droit des sociétés",
+       "title": "Notaire en droit des entreprises à Villefranche-sur-Saône",
+       "paras": [
+        "Baux commerciaux, création de sociétés, cession de fonds de commerce, transmission d'entreprises."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-en-droit-des-entreprises/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "notaire-en-droit-des-entreprises",
+   "label": "Droit des sociétés",
+   "title": "Notaire en droit des entreprises",
+   "h1": "Droit <em>des sociétés</em>",
+   "eyebrow": "Entrepreneurs et professionnels",
+   "lead": "Maître Louis Cheret, notaire en droit des entreprises à Villefranche-sur-Saône.",
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-14.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "societes",
+     "eyebrow": "Votre notaire pour une expertise juridique efficace",
+     "title": "Accompagner <em class=\"it\">la vie de l'entreprise</em>",
+     "paras": [
+      "Le notaire exerce à Villefranche-sur-Saône avec une approche personnalisée axée sur la transparence. Il accompagne les entrepreneurs, actuels ou futurs, pendant toute la vie de l'entreprise.",
+      "Le droit des sociétés est la spécialisation du droit qui s'applique aux sociétés civiles et commerciales."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-14.jpg",
+     "alt": "Droit des sociétés"
+    },
+    {
+     "kind": "story",
+     "id": "entreprises",
+     "eyebrow": "Création, transmission, gestion",
+     "title": "Des solutions <em class=\"it\">sur mesure</em>",
+     "paras": [
+      "Baux commerciaux, création de société, cession de fonds de commerce, transmission d'entreprise, patrimoine immobilier et professionnel : l'office recherche des solutions adaptées pour la création, la transmission et la gestion de vos sociétés et de votre patrimoine professionnel.",
+      "Il prépare l'ensemble des documents administratifs et juridiques nécessaires à votre dossier."
+     ],
+     "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/notaire-louis-cheret-15.jpg",
+     "alt": "Création et transmission d'entreprise"
+    },
+    {
+     "kind": "blocks",
+     "id": "autres-societes",
+     "eyebrow": "Domaines d'intervention",
+     "title": "Les compétences <em class=\"it\">de l'office</em>",
+     "lead": "L'office accompagne particuliers et professionnels, en aide juridique comme en conseil.",
+     "items": [
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart1.jpg",
+       "alt": "Droit de la famille",
+       "kicker": "Droit de la famille",
+       "title": "Notaire pour la famille à Villefranche-sur-Saône",
+       "paras": [
+        "Contrat de mariage, convention de divorce, procédure d'adoption."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-de-la-famille/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart2.jpg",
+       "alt": "Succession et donation",
+       "kicker": "Succession et donation",
+       "title": "Notaire en succession et donation à Villefranche-sur-Saône",
+       "paras": [
+        "Transmission et gestion du patrimoine, sécurisation de la succession ou de la donation."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-donation-et-succession/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart3.jpg",
+       "alt": "Droit de l'immobilier",
+       "kicker": "Droit de l'immobilier",
+       "title": "Notaire pour l'immobilier à Villefranche-sur-Saône",
+       "paras": [
+        "Conseils juridiques et fiscaux pour la vente, l'acquisition et la location immobilière."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-droit-immobilier/"
+       ]
+      },
+      {
+       "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/encart4.jpg",
+       "alt": "Droit des sociétés",
+       "kicker": "Droit des sociétés",
+       "title": "Notaire en droit des entreprises à Villefranche-sur-Saône",
+       "paras": [
+        "Baux commerciaux, création de sociétés, cession de fonds de commerce, transmission d'entreprises."
+       ],
+       "link": [
+        "En savoir plus",
+        "../notaire-en-droit-des-entreprises/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cabinet-de-notaire",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "Contactez <em>votre notaire</em>",
+   "eyebrow": "Cabinet de notaire à Villefranche-sur-Saône",
+   "lead": "40, rue Auguste Aucour, 69400 Villefranche-sur-Saône · 04 74 60 03 22",
+   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/March%C3%A9_couvert_de_Villefranche.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "acces",
+     "eyebrow": "L'office notarial",
+     "title": "Venir à l'office, <em class=\"it\">prendre rendez-vous</em>",
+     "text": "Maître Louis Cheret vous reçoit au sein de son office notarial à Villefranche-sur-Saône (Rhône).",
+     "rows": [
+      [
+       "Adresse",
+       "40, rue Auguste Aucour<br>69400 Villefranche-sur-Saône"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474600322\">04 74 60 03 22</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:louis.cheret@notaires.fr\">louis.cheret@notaires.fr</a>"
+      ],
+      [
+       "Secteur",
+       "Villefranche-sur-Saône et ses alentours : Gleizé, Lyon, Belleville"
+      ]
+     ],
+     "cta": [
+      "Contacter l'office",
+      "mailto:louis.cheret@notaires.fr?subject=Demande%20de%20rendez-vous"
+     ],
+     "map_q": "40 Rue Auguste Aucour, 69400 Villefranche-sur-Saône"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Contact",
+     "title": "Contactez votre notaire <em class=\"it\">à Villefranche-sur-Saône</em>",
+     "email": "louis.cheret@notaires.fr",
+     "subject": "Demande depuis le site de l'office de Maître Louis Cheret",
+     "lead": "Les champs marqués d'un astérisque (*) sont obligatoires.",
+     "side": [
+      "Téléphone : <a href=\"tel:+33474600322\">04 74 60 03 22</a>",
+      "E-mail : <a href=\"mailto:louis.cheret@notaires.fr\">louis.cheret@notaires.fr</a>",
+      "Adresse : 40, rue Auguste Aucour, 69400 Villefranche-sur-Saône"
+     ],
+     "fields": [
+      {
+       "label": "Votre nom",
+       "required": true
+      },
+      {
+       "label": "Votre prénom"
+      },
+      {
+       "label": "Votre numéro de téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Votre adresse email",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Sujet",
+       "required": true,
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      },
+      {
+       "label": "Je souhaite recevoir les lettres d'informations gratuitement",
+       "type": "select",
+       "options": [
+        "Non",
+        "Oui"
+       ],
+       "full": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "extra_css": "#domaines .blocks,#competences .blocks,[id^=autres] .blocks{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}.hero.phead .wrap{padding-top:110px}"
+}
