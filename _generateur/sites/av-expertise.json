@@ -1,0 +1,679 @@
+{
+ "slug": "av-expertise-e26ce8",
+ "title": "AV Expertise — Diagnostics immobiliers à Villefranche-sur-Saône",
+ "description": "AV Expertise, cabinet indépendant d'expertise immobilière à Villefranche-sur-Saône : amiante, plomb, DPE, gaz, électricité, loi Carrez, termites, état des risques. Devis gratuit.",
+ "brand": "AV Expertise",
+ "tagline": "Diagnostics immobiliers",
+ "monogram": "AV",
+ "theme": {
+  "look": "framed",
+  "paper": "#f5f6f3",
+  "paper2": "#e7ebe6",
+  "ink": "#1d2a2f",
+  "muted": "#5b676b",
+  "accent": "#2f6f5e",
+  "accent2": "#225446",
+  "gold": "#b08d4f",
+  "heroem": "#cfe8dc",
+  "serif": "\"Source Serif 4\",Georgia,serif",
+  "sans": "\"Manrope\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600;700&display=swap"
+ },
+ "hero": {
+  "img": "https://images.pexels.com/photos/17325347/pexels-photo-17325347.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  "eyebrow": "Cabinet indépendant d'expertise immobilière · Villefranche-sur-Saône",
+  "title": "Vos diagnostics immobiliers, <em>de la vente à la location</em>",
+  "lead": "AV Expertise réalise l'ensemble des diagnostics techniques immobiliers obligatoires dans le cadre d'une vente ou de la location de votre bien.",
+  "cta1": [
+   "Demander un devis",
+   "besoin-diagnostics/"
+  ],
+  "cta2": [
+   "04 74 02 51 55",
+   "tel:+33474025155"
+  ]
+ },
+ "figures": [
+  [
+   "8",
+   "diagnostics proposés"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ],
+  [
+   "SOCOTEC",
+   "technicien certifié"
+  ],
+  [
+   "69400",
+   "Villefranche-sur-Saône"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Le cabinet",
+   "title": "Un diagnostiqueur <em class=\"it\">caladois de proximité</em>",
+   "paras": [
+    "Cabinet indépendant d'expertise immobilière, AV Expertise réalise l'ensemble des diagnostics techniques immobiliers obligatoires dans le cadre d'une vente ou de la location de votre bien, à Villefranche-sur-Saône et dans le Beaujolais.",
+    "Vous allez vendre ou louer ? Vous devez prouver que votre bien répond aux normes actuelles. Nous nous engageons sur la certification de nos compétences par un organisme accrédité, sur une garantie financière et sur le respect de l'indépendance et de l'impartialité du diagnostic."
+   ],
+   "sign": "Diagnostics réalisés par un technicien certifié par SOCOTEC Certification France (certificat DTI/202304-017 : amiante, DPE, électricité, gaz, plomb)."
+  },
+  {
+   "kind": "blocks",
+   "id": "diagnostics",
+   "eyebrow": "Nos diagnostics",
+   "title": "Tous les diagnostics <em class=\"it\">obligatoires</em>",
+   "lead": "Pour une vente ou une location, habitation ou local professionnel.",
+   "items": [
+    {
+     "img": "https://www.avexpertise.com/ressources/images/image_amiante.png",
+     "contain": true,
+     "alt": "Amiante",
+     "kicker": "Amiante",
+     "title": "Diagnostic amiante",
+     "paras": [
+      "Recherche de matériaux contenant de l'amiante dans les habitations et locaux commerciaux dont le permis de construire est antérieur au 1er juillet 1997."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostics/"
+     ]
+    },
+    {
+     "img": "https://www.avexpertise.com/ressources/images/image_plomb.png",
+     "contain": true,
+     "alt": "Plomb",
+     "kicker": "Plomb",
+     "title": "Diagnostic plomb",
+     "paras": [
+      "Recherche de plomb dans les peintures : un constat des risques d'exposition au plomb doit être fourni pour les habitations construites avant le 1er janvier 1949."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostics/"
+     ]
+    },
+    {
+     "img": "https://www.avexpertise.com/ressources/images/image_performance_energetique.png",
+     "contain": true,
+     "alt": "DPE",
+     "kicker": "DPE",
+     "title": "Performance énergétique",
+     "paras": [
+      "Pour toute vente ou location, le DPE doit être fourni par le vendeur à l'acquéreur dès la signature du compromis de vente."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostics/"
+     ]
+    },
+    {
+     "img": "https://www.avexpertise.com/ressources/images/image_gaz.png",
+     "contain": true,
+     "alt": "Gaz",
+     "kicker": "Gaz",
+     "title": "Diagnostic gaz",
+     "paras": [
+      "Contrôle de la sécurité de l'installation intérieure de gaz, obligatoire pour les installations de plus de 15 ans."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostics/"
+     ]
+    },
+    {
+     "img": "https://www.avexpertise.com/ressources/images/image_electricite.png",
+     "contain": true,
+     "alt": "Électricité",
+     "kicker": "Électricité",
+     "title": "Diagnostic électricité",
+     "paras": [
+      "État de l'installation intérieure d'électricité, exigé lors de la vente pour toute habitation dont l'installation date de plus de 15 ans."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostics/"
+     ]
+    },
+    {
+     "img": "https://www.avexpertise.com/ressources/images/image_carrez.png",
+     "contain": true,
+     "alt": "Loi Carrez",
+     "kicker": "Loi Carrez",
+     "title": "Mesurage loi Carrez",
+     "paras": [
+      "Calcul de la superficie privative d'un lot : le certificat « loi Carrez » est obligatoire pour les biens en copropriété depuis 1997."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostics/"
+     ]
+    }
+   ],
+   "chips": [
+    "État parasitaire (termites)",
+    "État des risques (ERP)"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "espace",
+   "dark": true,
+   "eyebrow": "Pour vous guider",
+   "title": "Particuliers <em class=\"it\">et professionnels</em>",
+   "items": [
+    {
+     "img": "https://www.avexpertise.com/ressources/images/visu_bon_a_savoir.jpg",
+     "contain": true,
+     "alt": "Bon à savoir",
+     "kicker": "Bon à savoir",
+     "title": "Vos obligations",
+     "paras": [
+      "Quels diagnostics fournir, et pour combien de temps sont-ils valables ?"
+     ],
+     "link": [
+      "Vos obligations",
+      "obligations/"
+     ]
+    },
+    {
+     "img": "https://www.avexpertise.com/ressources/images/visu_identifiez.jpg",
+     "contain": true,
+     "alt": "Identifiez vos besoins",
+     "kicker": "Questionnaire",
+     "title": "Vos besoins en diagnostics",
+     "paras": [
+      "Répondez à quelques questions sur votre bien et recevez un devis gratuit sur les diagnostics à réaliser."
+     ],
+     "link": [
+      "Identifier mes besoins",
+      "besoin-diagnostics/"
+     ]
+    },
+    {
+     "img": "https://www.avexpertise.com/ressources/images/visu_professionnels.jpg",
+     "contain": true,
+     "alt": "Professionnels",
+     "kicker": "Professionnels",
+     "title": "Gérez vos ordres de mission",
+     "paras": [
+      "Professionnels, connectez-vous à votre espace pour gérer vos ordres de mission."
+     ],
+     "link": [
+      "Espace professionnels",
+      "https://www.avexpertise.com/login.php"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "AV Expertise, <em class=\"it\">Villefranche-sur-Saône</em>",
+   "text": "Votre diagnostiqueur immobilier caladois de proximité.",
+   "rows": [
+    [
+     "Adresse",
+     "90, rue Auguste Aucour<br>69400 Villefranche-sur-Saône"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474025155\">04 74 02 51 55</a>"
+    ],
+    [
+     "Fax",
+     "04 74 07 08 89"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@avexpertise.com\">contact@avexpertise.com</a>"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "besoin-diagnostics/"
+   ],
+   "map_q": "90 rue Auguste Aucour, 69400 Villefranche-sur-Saône"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "obligations",
+   "label": "Vos obligations",
+   "title": "Vos obligations",
+   "eyebrow": "Vente ou location",
+   "lead": "Vous allez vendre ou louer ? Vous devez prouver que votre bien répond aux normes actuelles.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "engagements",
+     "eyebrow": "Nos engagements",
+     "title": "Des professionnels <em class=\"it\">de la région</em>",
+     "lead": "Faire réaliser vos diagnostics par des professionnels qualifiés de la région, engagés sur trois points :",
+     "items": [
+      [
+       "Certification",
+       "Des compétences certifiées par un organisme accrédité."
+      ],
+      [
+       "Garantie financière",
+       "Une garantie financière."
+      ],
+      [
+       "Indépendance",
+       "Le respect de l'indépendance et de l'impartialité du diagnostic."
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "tableau",
+     "eyebrow": "Récapitulatif",
+     "title": "Les diagnostics <em class=\"it\">et leur validité</em>",
+     "items": [
+      {
+       "img": "https://www.avexpertise.com/ressources/images/tableau.png",
+       "contain": true,
+       "alt": "Tableau récapitulatif des diagnostics obligatoires",
+       "title": "Le tableau des diagnostics",
+       "paras": [
+        "Diagnostics à fournir selon le bien, et durée de validité de chaque attestation."
+       ]
+      },
+      {
+       "kicker": "Selon votre bien",
+       "title": "Durées de validité",
+       "list": [
+        "Électricité : 3 ans pour la vente, 6 ans pour la location",
+        "Gaz : 3 ans",
+        "DPE : 10 ans",
+        "Amiante : illimitée en l'absence d'amiante, 3 ans en présence d'amiante",
+        "Plomb : illimitée en l'absence de plomb",
+        "Loi Carrez : illimitée en l'absence de modification intérieure",
+        "État parasitaire : 6 mois",
+        "État des risques : 6 mois"
+       ],
+       "link": [
+        "Le détail de chaque diagnostic",
+        "diagnostics/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "label": "Nos diagnostics",
+   "title": "Nos diagnostics",
+   "eyebrow": "Vente · location",
+   "lead": "Électricité, gaz, DPE, amiante, plomb, loi Carrez, état parasitaire et état des risques.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "liste",
+     "eyebrow": "En détail",
+     "title": "Huit diagnostics <em class=\"it\">pour votre dossier</em>",
+     "items": [
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_electricite.png",
+       "contain": true,
+       "alt": "Diagnostic électricité",
+       "kicker": "Validité : 3 ans (vente), 6 ans (location)",
+       "title": "Diagnostic électricité",
+       "paras": [
+        "Le diagnostic électricité concerne uniquement les biens à usage d'habitation ayant une installation intérieure de plus de 15 ans. Il est à annexer dès votre compromis de vente.",
+        "Les maisons, les appartements et la partie habitation des locaux mixtes sont donc visés par cette mesure. En copropriété, le diagnostic s'applique aux parties privatives du logement et de leurs dépendances, pas aux parties communes.",
+        "Le technicien certifié vérifie l'adéquation des équipements fixes aux caractéristiques du réseau : appareil général de commande et de protection, dispositifs différentiel et de protection, liaison équipotentielle, identification des matériels électriques inadaptés et des conducteurs non protégés.",
+        "Un rapport permet d'identifier les anomalies le cas échéant. Le vendeur n'a aucune obligation de travaux, mais doit transmettre ce rapport à l'acquéreur afin de s'exonérer de la garantie des vices cachés."
+       ]
+      },
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_gaz.png",
+       "contain": true,
+       "alt": "Diagnostic gaz",
+       "kicker": "Validité : 3 ans",
+       "title": "Diagnostic gaz",
+       "paras": [
+        "Pour éviter les intoxications et les explosions causées par des installations au gaz défectueuses ou mal réglées, l'État a mis en place ce diagnostic. Il est obligatoire pour toutes les ventes de logement dont l'installation intérieure de gaz a plus de quinze ans.",
+        "Réalisé par des professionnels certifiés, il consiste à établir un état de l'installation intérieure de gaz afin d'évaluer les risques pouvant compromettre la sécurité des personnes. Il porte sur quatre points : la tuyauterie fixe, le raccordement en gaz des appareils, la ventilation des locaux, la combustion.",
+        "Il doit être réalisé même si le gaz est coupé et même si le compteur a été supprimé, à partir du moment où il subsiste une tuyauterie fixe dans le logement. Il ne s'agit pas d'une attestation de conformité, mais de savoir si l'installation est dangereuse ou non.",
+        "Nous contrôlons les installations de production individuelle de chaleur ou d'eau chaude et vos appareils de cuisson s'ils sont desservis par une installation fixe. Notre intervention ne porte que sur les éléments visibles et accessibles : il n'y a pas de démontage des appareils.",
+        "En cas d'anomalie (excepté le « danger grave »), vous n'êtes pas obligés de faire réaliser immédiatement les travaux, mais vous devez en informer vos acquéreurs. Ce dossier est à annexer à la promesse de vente."
+       ]
+      },
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_performance_energetique.png",
+       "contain": true,
+       "alt": "Diagnostic de performance énergétique (DPE)",
+       "kicker": "Validité : 10 ans",
+       "title": "Diagnostic de performance énergétique (DPE)",
+       "paras": [
+        "Le DPE est obligatoire pour toutes les ventes et les locations de biens équipés d'un chauffage (individuel ou collectif).",
+        "Son objectif est double : vous informer, grâce à l'étiquette énergie, qui classe le logement de A (économe) à G (consommateur), et vous inciter à diminuer votre facture en consommant moins et mieux.",
+        "Pour cela, le diagnostic comporte des recommandations (isoler vos combles, changer votre chaudière, etc.) et précise l'investissement et les économies correspondantes."
+       ]
+      },
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_amiante.png",
+       "contain": true,
+       "alt": "Diagnostic amiante",
+       "kicker": "Validité : illimitée sans amiante, 3 ans en présence d'amiante",
+       "title": "Diagnostic amiante",
+       "paras": [
+        "Le diagnostic amiante concerne tous les immeubles collectifs ou les maisons individuelles dont le permis de construire est antérieur au 1er juillet 1997 : appartements, maisons, locaux commerciaux ou professionnels, mais aussi emplacements de stationnement ou caves.",
+        "Les investigations portent notamment sur les calorifugeages, les flocages, les faux plafonds, mais également sur tous les autres matériaux répertoriés (fibre ciment, dalles de sol, enduits projetés…).",
+        "Nous nous déplaçons chez vous afin de rechercher les matériaux visibles susceptibles de contenir de l'amiante. En cas de présence d'amiante, vous n'avez pas de travaux à réaliser, seulement l'obligation d'en informer l'acquéreur dès la signature du compromis de vente."
+       ]
+      },
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_plomb.png",
+       "contain": true,
+       "alt": "Diagnostic plomb",
+       "kicker": "Validité : illimitée en l'absence de plomb",
+       "title": "Diagnostic plomb",
+       "paras": [
+        "Le diagnostic plomb concerne uniquement les biens à usage d'habitation construits avant le 1er janvier 1949. Il est à annexer à votre compromis de vente ou à votre bail.",
+        "Autrefois, le plomb était très utilisé dans les peintures de bonne qualité. Lors de leur dégradation (fissures, dégâts des eaux…), des écailles et des poussières tombent au sol : toxiques en cas d'ingestion, elles ont un goût sucré particulièrement apprécié des enfants.",
+        "Le constat s'effectue à l'aide d'un appareil à fluorescence X, soumis à un agrément ministériel, capable de détecter les anciennes peintures au plomb sous des revêtements récents. La recherche porte sur l'ensemble des éléments peints : murs, plafonds, portes, plinthes, fenêtres, garde-corps, volets… Cet examen n'entraîne aucune dégradation de vos peintures.",
+        "Le rapport indique l'ensemble des mesures positives ou négatives. En cas de présence de plomb, le propriétaire doit veiller à l'entretien des peintures et supprimer l'exposition au plomb si elles sont dégradées."
+       ]
+      },
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_carrez.png",
+       "contain": true,
+       "alt": "Mesurage loi Carrez",
+       "kicker": "Validité : illimitée sans modification intérieure",
+       "title": "Mesurage loi Carrez",
+       "paras": [
+        "La loi Carrez concerne toutes les ventes de logements en copropriété d'une surface au moins égale à 8 m² : appartements, locaux commerciaux ou professionnels, chambres de service, certaines maisons en copropriété horizontale.",
+        "Elle porte sur la superficie des planchers des locaux clos et couverts, après déduction des cloisons, des murs, des marches et cages d'escalier, des gaines, des embrasures de portes et fenêtres. Sont exclus les surfaces d'une hauteur inférieure à 1,80 m, les loggias, balcons, terrasses, caves, garages et jardins, ainsi que les logements vendus sur plan et les maisons individuelles.",
+        "La loi n'oblige pas à recourir à un professionnel, mais nous vous le recommandons vivement : si l'acte mentionne une surface supérieure de plus de 5 % à la surface réelle, l'acquéreur peut, dans un délai d'un an, demander au juge une diminution du prix au prorata des m² manquants."
+       ]
+      },
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_termites.png",
+       "contain": true,
+       "alt": "État parasitaire (termites)",
+       "kicker": "Validité : 6 mois",
+       "title": "État parasitaire (termites)",
+       "paras": [
+        "Depuis le 8 juin 1999, la vente d'un bien immobilier situé dans une zone considérée à risque doit être accompagnée d'un diagnostic attestant ou non de la présence de parasites.",
+        "L'expert détermine si le bien est infesté, identifie les zones touchées et le type de parasite, et indique les parties visitées (ainsi que celles qui n'auraient pas pu l'être).",
+        "Le professionnel peut informer le propriétaire sur les travaux et traitements envisageables, mais en aucun cas les réaliser lui-même. Depuis le 1er novembre 2007, ce diagnostic doit être confié à un professionnel répondant aux articles L.271-4 à L.271-6 du code de la construction et de l'habitation."
+       ]
+      },
+      {
+       "img": "https://www.avexpertise.com/ressources/images/image_naturel.png",
+       "contain": true,
+       "alt": "État des risques (ERP)",
+       "kicker": "Validité : 6 mois",
+       "title": "État des risques (ERP)",
+       "paras": [
+        "Pour toutes les locations et ventes, le propriétaire doit annexer au contrat un état des risques naturels et technologiques.",
+        "Ce document présente les risques naturels (inondation, sécheresse, mouvement de terrain…) et technologiques (industriels, biologiques) auxquels l'immeuble est exposé. Il comprend l'arrêté préfectoral, les cartes communales, le plan de situation et la liste des risques de votre bien."
+       ]
+      }
+     ],
+     "note": "Diagnostics réalisés par un technicien certifié par SOCOTEC Certification France (certificat DTI/202304-017 : amiante, DPE, électricité, gaz, plomb)."
+    }
+   ]
+  },
+  {
+   "slug": "besoin-diagnostics",
+   "label": "Vos besoins",
+   "title": "Vos besoins en diagnostics",
+   "eyebrow": "Questionnaire · devis gratuit",
+   "lead": "Quelques questions pour cerner les diagnostics à réaliser sur votre bien.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Demander <em class=\"it\">un devis</em>",
+     "lead": "Répondez au questionnaire et indiquez-nous les diagnostics que vous souhaitez chiffrer. Les diagnostics réalisés pour un précédent propriétaire peuvent encore être valables.",
+     "email": "contact@avexpertise.com",
+     "subject": "Demande de devis gratuit (diagnostics)",
+     "submit": "Demander mon devis gratuit",
+     "side": [
+      "Tél. : <a href=\"tel:+33474025155\">04 74 02 51 55</a>",
+      "E-mail : <a href=\"mailto:contact@avexpertise.com\">contact@avexpertise.com</a>"
+     ],
+     "fields": [
+      {
+       "label": "Diagnostic à réaliser dans le cadre",
+       "type": "select",
+       "options": [
+        "de la vente d'un bien",
+        "de la mise en location d'un bien"
+       ]
+      },
+      {
+       "label": "Le bien est-il à usage",
+       "type": "select",
+       "options": [
+        "d'habitation",
+        "professionnel"
+       ]
+      },
+      {
+       "label": "Votre bien est-il",
+       "type": "select",
+       "options": [
+        "une habitation individuelle",
+        "un appartement",
+        "autre"
+       ]
+      },
+      {
+       "label": "Votre bien est-il situé en copropriété ?",
+       "type": "select",
+       "options": [
+        "—",
+        "Oui",
+        "Non"
+       ]
+      },
+      {
+       "label": "Construit avant le 1er janvier 1949 ?",
+       "type": "select",
+       "options": [
+        "—",
+        "Oui",
+        "Non"
+       ]
+      },
+      {
+       "label": "Permis de construire délivré avant le 1er juillet 1997 ?",
+       "type": "select",
+       "options": [
+        "—",
+        "Oui",
+        "Non"
+       ]
+      },
+      {
+       "label": "Installation intérieure de gaz de plus de 15 ans ?",
+       "type": "select",
+       "options": [
+        "—",
+        "Oui",
+        "Non"
+       ]
+      },
+      {
+       "label": "Installation intérieure d'électricité de plus de 15 ans ?",
+       "type": "select",
+       "options": [
+        "—",
+        "Oui",
+        "Non"
+       ]
+      },
+      {
+       "label": "Civilité",
+       "type": "select",
+       "options": [
+        "Madame",
+        "Monsieur",
+        "Société"
+       ],
+       "required": true
+      },
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Prénom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Indiquez-nous les diagnostics que vous souhaitez chiffrer",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Rendez-vous · conseils · tarifs",
+   "lead": "Une prise de rendez-vous, des conseils gratuits et personnalisés, ou plus d'informations sur nos prestations et nos tarifs ?",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Écrivez-nous",
+     "title": "Nous <em class=\"it\">contacter</em>",
+     "lead": "Remplissez le formulaire : nous vous répondrons dans les plus brefs délais.",
+     "email": "contact@avexpertise.com",
+     "subject": "Demande depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33474025155\">04 74 02 51 55</a>",
+      "Fax : 04 74 07 08 89"
+     ],
+     "fields": [
+      {
+       "label": "Civilité",
+       "type": "select",
+       "options": [
+        "Madame",
+        "Monsieur",
+        "Société"
+       ],
+       "required": true
+      },
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Prénom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Adresse"
+      },
+      {
+       "label": "Code postal",
+       "required": true
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Objet",
+       "required": true,
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "AV Expertise, <em class=\"it\">Villefranche-sur-Saône</em>",
+     "text": "Votre diagnostiqueur immobilier caladois de proximité.",
+     "rows": [
+      [
+       "Adresse",
+       "90, rue Auguste Aucour<br>69400 Villefranche-sur-Saône"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474025155\">04 74 02 51 55</a>"
+      ],
+      [
+       "Fax",
+       "04 74 07 08 89"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@avexpertise.com\">contact@avexpertise.com</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "besoin-diagnostics/"
+     ],
+     "map_q": "90 rue Auguste Aucour, 69400 Villefranche-sur-Saône"
+    }
+   ]
+  }
+ ],
+ "home_label": "Accueil",
+ "footer": {
+  "about": "Cabinet indépendant d'expertise immobilière à Villefranche-sur-Saône : diagnostics amiante, plomb, DPE, gaz, électricité, loi Carrez, état parasitaire et état des risques, pour la vente et la location.",
+  "contact": [
+   "<a href=\"tel:+33474025155\">04 74 02 51 55</a>",
+   "<a href=\"mailto:contact@avexpertise.com\">contact@avexpertise.com</a>",
+   "90, rue Auguste Aucour, 69400 Villefranche-sur-Saône"
+  ],
+  "legal": "Andreani-Vetter Expertise, société au capital de 7 600 € · SIRET 445 102 007 00033 · Technicien certifié SOCOTEC Certification France (DTI/202304-017) · Le consommateur peut s'inscrire sur la liste d'opposition au démarchage téléphonique Bloctel.",
+  "legal_url": "https://www.avexpertise.com/mentions_legales.html"
+ },
+ "extra_css": "@media(max-width:760px){.fig b{font-size:2.1rem}.figures .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}}"
+}
