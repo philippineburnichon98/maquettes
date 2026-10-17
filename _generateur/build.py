@@ -780,6 +780,7 @@ PBOX_CSS = """<style>
 @keyframes pm-in{from{opacity:0;transform:translateY(-30%)}to{opacity:.08;transform:translateY(-38%)}}
 @media(prefers-reduced-motion:reduce){.pmono{animation:none}}
 @media(max-width:820px){.pbox-g{grid-template-columns:minmax(0,1fr)}.pbox figure{justify-self:stretch;max-width:none}}
+body:has(.pbox) header{color:var(--ink)}
 </style>"""
 
 
