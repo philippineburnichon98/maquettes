@@ -1,0 +1,602 @@
+{
+ "slug": "le-bacchus-9a6c86",
+ "title": "Restaurant Le Bacchus — Cuisine beaujolaise à Lancié",
+ "description": "Restaurant Le Bacchus, 641 route du Beaujolais à Lancié : menu du jour en semaine, menu beaujolais, grenouilles fraîches et tête de veau le jeudi midi.",
+ "brand": "Le Bacchus",
+ "tagline": "Restaurant · Lancié, Beaujolais",
+ "monogram": "B",
+ "phead": "box",
+ "theme": {
+  "paper": "#f6f0e7",
+  "paper2": "#ece1d2",
+  "ink": "#271a1c",
+  "muted": "#6b5c5a",
+  "accent": "#7b1f3a",
+  "accent2": "#5f172d",
+  "gold": "#b08d4a",
+  "heroem": "#f1c3b5",
+  "serif": "\"Libre Baskerville\",Georgia,serif",
+  "sans": "\"Lato\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap",
+  "look": "classic",
+  "logo_accent": false
+ },
+ "hero": {
+  "img": "https://static.wixstatic.com/media/bb868e_c66a604e78694b959ed67ea88c7e2c13%7Emv2_d_4548_3162_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/bb868e_c66a604e78694b959ed67ea88c7e2c13%7Emv2_d_4548_3162_s_4_2.jpg",
+  "eyebrow": "Restaurant · Lancié, Beaujolais",
+  "title": "Bienvenue<br>au <em>Bacchus</em>",
+  "lead": "Terrine de campagne, œufs en meurette, saucisson au beaujolais et grenouilles fraîches, au 641 route du Beaujolais.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
+  ],
+  "cta2": [
+   "04 74 69 82 16",
+   "tel:+33474698216"
+  ]
+ },
+ "figures": [
+  [
+   "14,50 €",
+   "menu du jour en semaine"
+  ],
+  [
+   "Jeudi",
+   "midi : tête de veau"
+  ],
+  [
+   "29 €",
+   "les grenouilles fraîches"
+  ],
+  [
+   "50",
+   "personnes en groupe"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue",
+   "title": "Une table du Beaujolais, <em class=\"it\">midi et soir</em>",
+   "img": "https://static.wixstatic.com/media/bb868e_067a05db27204ea0b1f79e81315b6411~mv2_d_4608_3456_s_4_2.jpg/v1/fill/w_265,h_782,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bb868e_067a05db27204ea0b1f79e81315b6411~mv2_d_4608_3456_s_4_2.jpg",
+   "alt": "Le Bacchus à Lancié",
+   "paras": [
+    "Au 641 route du Beaujolais, à Lancié, Le Bacchus sert une cuisine du Beaujolais : terrine de campagne, œufs en meurette, saucisson au beaujolais, andouillette au vin blanc et grenouilles fraîches persillées.",
+    "Le midi en semaine, le menu du jour s'accompagne d'un quart de beaujolais rouge et d'un café. Le jeudi midi, c'est le menu tête de veau.",
+    "Le bar est ouvert de 9h à 15h et de 17h30 à 22h ; le déjeuner est servi de 12h à 14h30 et le dîner de 19h à 20h30."
+   ]
+  },
+  {
+   "kind": "features",
+   "dark": true,
+   "id": "pratique",
+   "eyebrow": "Pratique",
+   "title": "Facile d'accès, <em class=\"it\">à deux pas de l'autoroute</em>",
+   "lead": "Tout ce qu'il faut pour un déjeuner sans souci, en famille ou en groupe.",
+   "items": [
+    [
+     "Autoroute à moins de 10 mn",
+     "Une halte simple sur la route du Beaujolais."
+    ],
+    [
+     "Parking",
+     "Stationnement sur place."
+    ],
+    [
+     "Terrasse",
+     "Pour profiter des beaux jours."
+    ],
+    [
+     "Chaise haute pour bébé",
+     "Les familles sont les bienvenues."
+    ],
+    [
+     "Groupes jusqu'à 50 pers.",
+     "Accueil de groupes : appelez-nous au 04 74 69 82 16."
+    ],
+    [
+     "Plats à emporter",
+     "Fabriqués sur place, remis dans des boîtes à usage unique."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "À table",
+   "title": "La carte <em class=\"it\">et les menus</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/bb868e_713b359e99044dbe8d1de3eebbcccdf3~mv2_d_4032_1960_s_2.jpg/v1/fill/w_663,h_323,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bcchus_napp%C3%A9_1.jpg",
+     "kicker": "La carte",
+     "title": "Entrées et plats",
+     "paras": [
+      "Salade beaujolaise, onglet de veau aux girolles, entrecôte garnie, filet de loup, grenouilles fraîches…"
+     ],
+     "link": [
+      "Voir la carte",
+      "carte/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b2c0a7_c5cb2e86c98f4e00af3eb2517e3f6908.jpg/v1/fill/w_471,h_408,al_c,q_80,enc_avif,quality_auto/b2c0a7_c5cb2e86c98f4e00af3eb2517e3f6908.jpg",
+     "kicker": "Les menus",
+     "title": "Menus, formules et spécialités",
+     "paras": [
+      "Menu beaujolais, menu grenouilles, formule entrecôte et, le jeudi midi, le menu tête de veau."
+     ],
+     "link": [
+      "Voir les menus",
+      "les-menus/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/bb868e_ec892accf30a408786d554aa52b83358~mv2.jpg/v1/fill/w_404,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bb868e_ec892accf30a408786d554aa52b83358~mv2.jpg",
+     "kicker": "Contact et accès",
+     "title": "641 route du Beaujolais",
+     "paras": [
+      "69220 Lancié · 04 74 69 82 16 · rest.lebacchus@orange.fr"
+     ],
+     "link": [
+      "Nous trouver",
+      "contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Le Bacchus <em class=\"it\">en photos</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/bb868e_155e6455a6a449208d6257b057907c8c~mv2_d_5312_2988_s_4_2.jpg/v1/crop/x_1335,y_0,w_2416,h_2353/fill/w_418,h_408,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bb868e_155e6455a6a449208d6257b057907c8c~mv2_d_5312_2988_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/bb868e_155e6455a6a449208d6257b057907c8c~mv2_d_5312_2988_s_4_2.jpg/v1/crop/x_1335,y_0,w_2416,h_2353/fill/w_418,h_408,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bb868e_155e6455a6a449208d6257b057907c8c~mv2_d_5312_2988_s_4_2.jpg",
+     "alt": "Le Bacchus"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b2c0a7_92ab2c73fc4540adb51239e8b2440f70.jpg/v1/fill/w_418,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b2c0a7_92ab2c73fc4540adb51239e8b2440f70.jpg",
+     "full": "https://static.wixstatic.com/media/b2c0a7_92ab2c73fc4540adb51239e8b2440f70.jpg/v1/fill/w_418,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b2c0a7_92ab2c73fc4540adb51239e8b2440f70.jpg",
+     "alt": "Le Bacchus"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b2c0a7_22e2906af08a4d428569c1a8013d3807.jpg/v1/crop/x_0,y_189,w_344,h_282/fill/w_414,h_339,al_c,lg_1,q_80,enc_avif,quality_auto/b2c0a7_22e2906af08a4d428569c1a8013d3807.jpg",
+     "full": "https://static.wixstatic.com/media/b2c0a7_22e2906af08a4d428569c1a8013d3807.jpg/v1/crop/x_0,y_189,w_344,h_282/fill/w_414,h_339,al_c,lg_1,q_80,enc_avif,quality_auto/b2c0a7_22e2906af08a4d428569c1a8013d3807.jpg",
+     "alt": "Le Bacchus"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/bb868e_f55baa27b4da4ac19315c202e9815108~mv2.jpg/v1/crop/x_132,y_0,w_750,h_1047/fill/w_673,h_939,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1622799361403.jpg",
+     "full": "https://static.wixstatic.com/media/bb868e_f55baa27b4da4ac19315c202e9815108~mv2.jpg/v1/crop/x_132,y_0,w_750,h_1047/fill/w_673,h_939,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1622799361403.jpg",
+     "alt": "Évènements au Bacchus"
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/bb868e_c66a604e78694b959ed67ea88c7e2c13%7Emv2_d_4548_3162_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/bb868e_c66a604e78694b959ed67ea88c7e2c13%7Emv2_d_4548_3162_s_4_2.jpg",
+   "eyebrow": "Déjeuner 12h – 14h30 · Dîner 19h – 20h30",
+   "title": "Une table vous attend<br><em>route du Beaujolais</em>",
+   "cta": [
+    "Réserver une table",
+    "#reserver"
+   ]
+  },
+  {
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservation",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Déjeuner de 12h à 14h30, dîner de 19h à 20h30. Choisissez votre jour et votre créneau : le restaurant vous confirme la réservation.",
+   "hours": [
+    "12:00",
+    "12:15",
+    "12:30",
+    "12:45",
+    "13:00",
+    "13:15",
+    "13:30",
+    "13:45",
+    "14:00",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30"
+   ],
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "email": "rest.lebacchus@orange.fr",
+   "tel": "+33474698216",
+   "phone": "04 74 69 82 16",
+   "brand": "Le Bacchus",
+   "max": 50,
+   "note": "Groupes jusqu'à 50 personnes : appelez-nous directement."
+  },
+  {
+   "kind": "visit",
+   "eyebrow": "Horaires",
+   "title": "Venez <em class=\"it\">nous voir</em>",
+   "text": "À Lancié, sur la route du Beaujolais, à moins de 10 minutes de l'autoroute.",
+   "rows": [
+    [
+     "Adresse",
+     "641 route du Beaujolais<br>69220 Lancié"
+    ],
+    [
+     "Bar",
+     "9h – 15h et 17h30 – 22h"
+    ],
+    [
+     "Déjeuner",
+     "12h – 14h30"
+    ],
+    [
+     "Dîner",
+     "19h – 20h30"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474698216\">04 74 69 82 16</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:rest.lebacchus@orange.fr\">rest.lebacchus@orange.fr</a>"
+    ],
+    [
+     "Facebook",
+     "<a href=\"https://www.facebook.com/lebacchus69/\" target=\"_blank\" rel=\"noopener\">Le Bacchus</a>"
+    ]
+   ],
+   "cta": [
+    "Réserver une table",
+    "#reserver"
+   ],
+   "map_q": "641 route du Beaujolais, 69220 Lancié"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "carte",
+   "label": "La carte",
+   "title": "La carte",
+   "eyebrow": "Entrées, plats et plats à emporter",
+   "lead": "Les classiques du Beaujolais, et les grenouilles fraîches.",
+   "img": "https://static.wixstatic.com/media/bb868e_713b359e99044dbe8d1de3eebbcccdf3~mv2_d_4032_1960_s_2.jpg/v1/fill/w_663,h_323,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bcchus_napp%C3%A9_1.jpg",
+   "sections": [
+    {
+     "kind": "menu",
+     "id": "la-carte",
+     "eyebrow": "La carte",
+     "title": "À la <em class=\"it\">carte</em>",
+     "lead": "Entrées et plats, servis au déjeuner comme au dîner.",
+     "sections": [
+      {
+       "title": "Les entrées",
+       "items": [
+        [
+         "Terrine de campagne",
+         "7,50 €"
+        ],
+        [
+         "Œufs en meurette",
+         "8,50 €"
+        ],
+        [
+         "Salade beaujolaise",
+         "8,50 €"
+        ],
+        [
+         "Salade beaujolaise XL",
+         "12,00 €"
+        ]
+       ]
+      },
+      {
+       "title": "Les plats",
+       "items": [
+        [
+         "Saucisson au beaujolais",
+         "13,00 €"
+        ],
+        [
+         "Andouillette au vin blanc",
+         "13,00 €"
+        ],
+        [
+         "Gratin d'andouillette",
+         "15,00 €"
+        ],
+        [
+         "Filet de loup",
+         "15,00 €",
+         "À l'huile d'olive vierge"
+        ],
+        [
+         "Onglet de veau aux girolles",
+         "16,00 €"
+        ],
+        [
+         "Entrecôte garnie",
+         "22,00 €"
+        ],
+        [
+         "Grenouilles fraîches",
+         "29,00 €"
+        ]
+       ]
+      }
+     ],
+     "aside": {
+      "eyebrow": "Le midi en semaine",
+      "title": "Menu du jour",
+      "big": "dès 11,00 €",
+      "text": "Le midi en semaine, jours ouvrables.",
+      "courses": [
+       [
+        "Entrée",
+        "Entrée du jour"
+       ],
+       [
+        "Plat",
+        "Plat chaud du jour"
+       ],
+       [
+        "Dessert",
+        "Fromage ou dessert du jour"
+       ]
+      ],
+      "items": [
+       [
+        "Entrée + plat ou plat + dessert du jour",
+        "11,00 €"
+       ],
+       [
+        "Entrée, plat chaud, fromage ou dessert du jour, ¼ beaujolais rouge, café",
+        "14,50 €"
+       ],
+       [
+        "Entrée, plat chaud, fromage, dessert, ¼ de beaujolais rouge, café",
+        "15,00 €"
+       ]
+      ],
+      "cta": [
+       "Réserver une table",
+       "#reserver"
+      ]
+     }
+    },
+    {
+     "kind": "menu",
+     "id": "a-emporter",
+     "eyebrow": "À emporter",
+     "title": "Plats <em class=\"it\">à emporter</em>",
+     "lead": "Nos plats à emporter sont fabriqués sur place, dans le respect des règles d'hygiène et des gestes barrières.",
+     "sections": [
+      {
+       "title": "Plats à emporter",
+       "items": [
+        [
+         "Rougail de saucisses",
+         "7,50 €"
+        ]
+       ]
+      }
+     ],
+     "note": "Les plats vous sont remis dans des boîtes à usage unique. Réservations au 04 74 69 82 16."
+    }
+   ]
+  },
+  {
+   "slug": "les-menus",
+   "label": "Menus et formules",
+   "title": "Menus et formules",
+   "eyebrow": "Menus, formules et spécialités",
+   "lead": "Menu beaujolais, menu grenouilles et, le jeudi midi, la tête de veau.",
+   "img": "https://static.wixstatic.com/media/b2c0a7_c5cb2e86c98f4e00af3eb2517e3f6908.jpg/v1/fill/w_471,h_408,al_c,q_80,enc_avif,quality_auto/b2c0a7_c5cb2e86c98f4e00af3eb2517e3f6908.jpg",
+   "sections": [
+    {
+     "kind": "menu",
+     "id": "menus",
+     "eyebrow": "Les menus",
+     "title": "Nos <em class=\"it\">menus</em>",
+     "lead": "Entrée, plat, fromage ou dessert : les menus du Bacchus.",
+     "sections": [
+      {
+       "title": "Les menus",
+       "items": [
+        [
+         "Menu beaujolais",
+         "22,00 €",
+         "Terrine de campagne ou œufs en meurette · Saucisson au beaujolais ou andouillette au vin blanc"
+        ],
+        [
+         "Menu grenouilles",
+         "38,00 €",
+         "Entrée au choix · Grenouilles fraîches persillées et leurs légumes · Fromage ou dessert"
+        ],
+        [
+         "Menu",
+         "28,50 €",
+         "Entrée au choix · Onglet de veau aux girolles ou filet de loup à l'huile d'olive vierge · Fromage ou dessert au choix"
+        ]
+       ]
+      },
+      {
+       "title": "Les formules",
+       "items": [
+        [
+         "Formule entrecôte",
+         "24,50 €",
+         "Entrecôte, salade, pommes de terre, fromage ou dessert"
+        ],
+        [
+         "Formule grenouilles",
+         "32,00 €",
+         "Grenouilles persillées, assiette de garniture, fromage ou dessert"
+        ],
+        [
+         "Formule gratin d'andouillette",
+         "18,00 €",
+         "Gratin d'andouillette, garniture, fromage ou dessert du jour"
+        ]
+       ]
+      },
+      {
+       "title": "Les spécialités",
+       "items": [
+        [
+         "Menu tête de veau, tous les jeudis midi",
+         "16,50 €",
+         "Terrine maison · Tête de veau · Fromage · Dessert"
+        ],
+        [
+         "Menu du jour, tous les midis du lundi au vendredi",
+         "14,50 €",
+         "Entrée, plat chaud, fromage ou dessert, vin, café"
+        ],
+        [
+         "Spécialité grenouilles fraîches",
+         "",
+         "À la carte, en formule ou en menu"
+        ]
+       ]
+      }
+     ],
+     "aside": {
+      "eyebrow": "Tous les jeudis midi",
+      "title": "Menu tête de veau",
+      "big": "16,50 €",
+      "text": "La spécialité du jeudi midi :",
+      "courses": [
+       [
+        "Entrée",
+        "Terrine maison"
+       ],
+       [
+        "Plat",
+        "Tête de veau"
+       ],
+       [
+        "Dessert",
+        "Fromage et dessert"
+       ]
+      ],
+      "cta": [
+       "Réserver une table",
+       "#reserver"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact et accès",
+   "title": "Contact et accès",
+   "eyebrow": "641 route du Beaujolais, Lancié",
+   "lead": "Autoroute à moins de 10 mn, parking, terrasse.",
+   "img": "https://static.wixstatic.com/media/bb868e_ec892accf30a408786d554aa52b83358~mv2.jpg/v1/fill/w_404,h_346,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bb868e_ec892accf30a408786d554aa52b83358~mv2.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Venez <em class=\"it\">nous voir</em>",
+     "text": "Autoroute à moins de 10 mn · Parking · Toilettes · Terrasse · Chaise haute pour bébé · Accueil de groupes jusqu'à 50 pers.",
+     "rows": [
+      [
+       "Adresse",
+       "641 route du Beaujolais<br>69220 Lancié"
+      ],
+      [
+       "Bar",
+       "9h – 15h et 17h30 – 22h"
+      ],
+      [
+       "Déjeuner",
+       "12h – 14h30"
+      ],
+      [
+       "Dîner",
+       "19h – 20h30"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474698216\">04 74 69 82 16</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:rest.lebacchus@orange.fr\">rest.lebacchus@orange.fr</a>"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/lebacchus69/\" target=\"_blank\" rel=\"noopener\">Le Bacchus</a>"
+      ]
+     ],
+     "cta": [
+      "Réserver une table",
+      "#reserver"
+     ],
+     "map_q": "641 route du Beaujolais, 69220 Lancié"
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Écrire au restaurant",
+     "title": "Une question, <em class=\"it\">un groupe ?</em>",
+     "lead": "Laissez-nous un message, nous vous répondons rapidement.",
+     "email": "rest.lebacchus@orange.fr",
+     "subject": "Message depuis le site du Bacchus",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "home_label": "Accueil",
+ "nav_extra": [
+  [
+   "reserver",
+   "Réserver"
+  ]
+ ],
+ "footer": {
+  "about": "Restaurant à Lancié, sur la route du Beaujolais : menu du jour, menu beaujolais, grenouilles fraîches et tête de veau le jeudi midi.",
+  "contact": [
+   "<a href=\"tel:+33474698216\">04 74 69 82 16</a>",
+   "<a href=\"mailto:rest.lebacchus@orange.fr\">rest.lebacchus@orange.fr</a>",
+   "641 route du Beaujolais, 69220 Lancié"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
