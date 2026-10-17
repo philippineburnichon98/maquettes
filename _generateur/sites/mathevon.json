@@ -1,0 +1,914 @@
+{
+ "slug": "mathevon-c8e289",
+ "title": "Chauffage Plomberie Mathevon — Chauffagiste plombier RGE à Longes (Rhône)",
+ "description": "Chauffage Plomberie Mathevon (CPM), artisan chauffagiste et plombier à Longes depuis 2002 : chauffage toutes énergies (bois, granulés, gaz, fuel, plancher chauffant, pompe à chaleur), sanitaire, entretien et dépannage. RGE Qualibois, Qualigaz, QualiPAC.",
+ "brand": "Chauffage Plomberie Mathevon",
+ "monogram": "CPM",
+ "tagline": "Chauffage · Plomberie · Longes",
+ "theme": {
+  "look": "split",
+  "paper": "#f6f3ee",
+  "paper2": "#ebe4d9",
+  "ink": "#1d2a33",
+  "muted": "#5b646b",
+  "accent": "#c2502a",
+  "accent2": "#9a3d1f",
+  "gold": "#c8963e",
+  "heroem": "#ffc9a3",
+  "serif": "\"Bitter\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "phead": "box",
+ "nav": [
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "qui-sommes-nous",
+   "Qui sommes-nous ?"
+  ],
+  [
+   "album",
+   "Album photos"
+  ],
+  [
+   "livredor",
+   "Livre d'or"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "nav_extra": [
+  [
+   "livredor",
+   "Livre d'or",
+   3
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/images/P1040107.jpg",
+  "eyebrow": "Chauffagiste plombier RGE · Longes, Rhône",
+  "title": "Chauffage Plomberie Mathevon <em>à votre service</em>",
+  "lead": "Installation d'équipements thermiques et sanitaires pour les professionnels et les particuliers, depuis 2002.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "04 72 24 93 33",
+   "tel:+33472249333"
+  ]
+ },
+ "figures": [
+  [
+   "2002",
+   "création de l'entreprise"
+  ],
+  [
+   "RGE",
+   "professionnel qualifié"
+  ],
+  [
+   "3",
+   "qualifications : Qualibois, Qualigaz, QualiPAC"
+  ],
+  [
+   "Toutes",
+   "énergies de chauffage"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "L'entreprise",
+   "title": "Le chauffage et la plomberie, <em class=\"it\">de A à Z</em>",
+   "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P10401071.jpg?v=1",
+   "alt": "Chauffage Plomberie Mathevon, Longes",
+   "paras": [
+    "CHAUFFAGE PLOMBERIE MATHEVON est née en 2002 de la volonté de son créateur, Frédéric MATHEVON, de mettre au service des professionnels et des particuliers son expertise en matière d'installation d'équipements thermiques et sanitaires.",
+    "CHAUFFAGE PLOMBERIE MATHEVON assure l'intégralité des travaux de chauffage et plomberie, du neuf à la rénovation, de l'installation à l'entretien."
+   ],
+   "sign": "Frédéric Mathevon"
+  },
+  {
+   "kind": "features",
+   "id": "prestations",
+   "dark": true,
+   "eyebrow": "Prestations",
+   "title": "L'intégralité des travaux <em class=\"it\">de chauffage et plomberie</em>",
+   "lead": "Pour les projets individuels et collectifs, en travaux neufs comme en rénovation.",
+   "items": [
+    [
+     "Chauffage toutes énergies",
+     "Installation de chauffage : bois, granulés, gaz, fuel, plancher chauffant, pompe à chaleur…"
+    ],
+    [
+     "Installation sanitaire",
+     "Salles de bains, douches à l'italienne, douches PMR, WC suspendus, chauffe-eau."
+    ],
+    [
+     "Entretien, dépannage",
+     "L'entretien de vos équipements et le dépannage de votre installation."
+    ],
+    [
+     "Conseil et étude",
+     "Conseil, étude et accompagnement pour les projets individuels et collectifs, travaux neufs et rénovation."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "energies",
+   "eyebrow": "Album photos",
+   "title": "Nos réalisations <em class=\"it\">par énergie</em>",
+   "lead": "Quelques-unes de nos installations, à retrouver dans l'album photos.",
+   "items": [
+    {
+     "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/poele-gran-bois.jpg?v=2",
+     "kicker": "Bois",
+     "title": "Poêles et chaudières bois",
+     "paras": [
+      "Poêles à granulés, chaudières bois bûches, granulés et bois déchiqueté (HS France, HERZ, Harman)."
+     ],
+     "link": [
+      "Voir les photos",
+      "album/#chauffage-bois-buches"
+     ]
+    },
+    {
+     "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/mathevon-pac2.jpg?v=2",
+     "kicker": "Pompe à chaleur",
+     "title": "Pompes à chaleur",
+     "paras": [
+      "Pompes à chaleur Viessmann Vitocal et Atlantic Alfea Excellia, régulation sur réseau existant."
+     ],
+     "link": [
+      "Voir les photos",
+      "album/#pompe-a-chaleur"
+     ]
+    },
+    {
+     "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-gaz-condensation-viessmann.jpg?v=1",
+     "kicker": "Gaz et fuel",
+     "title": "Chaudières gaz et fuel",
+     "paras": [
+      "Chaudières gaz à condensation Viessmann et Frisquet, chaudières fuel basse température Viessmann Vitola."
+     ],
+     "link": [
+      "Voir les photos",
+      "album/#chauffage-gaz"
+     ]
+    },
+    {
+     "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-615.jpg?v=1",
+     "kicker": "Plancher chauffant",
+     "title": "Plancher chauffant",
+     "paras": [
+      "Boucles de plancher chauffant, tube BAO sur dalles à plots, collecteurs."
+     ],
+     "link": [
+      "Voir les photos",
+      "album/#planche-chauffant"
+     ]
+    },
+    {
+     "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/PICT0184.jpg?v=1",
+     "kicker": "Solaire",
+     "title": "Chauffe-eau solaire",
+     "paras": [
+      "Chauffe-eau solaires individuels (CESI) et capteurs Vitosol Viessmann, plans ou à tubes sous vide."
+     ],
+     "link": [
+      "Voir les photos",
+      "album/#chauffe-eau-solaire"
+     ]
+    },
+    {
+     "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/salle-de-bains.jpg?v=1",
+     "kicker": "Sanitaire",
+     "title": "Salles de bains",
+     "paras": [
+      "Douches à l'italienne, douches PMR, baignoire balnéo, meubles vasques, WC suspendus."
+     ],
+     "link": [
+      "Voir les photos",
+      "album/#sanitaire"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "qualifications",
+   "eyebrow": "Professionnel qualifié RGE",
+   "title": "Installateur Qualibois, <em class=\"it\">Qualigaz et QualiPAC</em>",
+   "paras": [
+    "Frédéric Mathevon, artisan à Longes depuis 2002, est un professionnel qualifié RGE : installateur Qualibois, installateur Qualigaz, installateur QualiPAC.",
+    "Avant de vous engager, le service public vous informe gratuitement pour préparer et sécuriser votre projet : <a href=\"https://www.france-renov.gouv.fr\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">www.france-renov.gouv.fr</a>"
+   ],
+   "logos": [
+    [
+     "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/qualibois-rge.png?v=1",
+     "Qualibois RGE"
+    ],
+    [
+     "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/qualipac-rge.png?v=1",
+     "QualiPAC RGE"
+    ]
+   ]
+  },
+  {
+   "kind": "reviews",
+   "id": "livredor",
+   "eyebrow": "Livre d'or",
+   "title": "Ils nous ont <em class=\"it\">écrit</em>",
+   "items": [
+    {
+     "name": "POUDEVIGNE",
+     "date": "19/01/2018",
+     "work": "Livre d'or du site",
+     "text": "Excellent professionnel. je le recommande."
+    },
+    {
+     "name": "phil",
+     "date": "02/07/2013",
+     "work": "Livre d'or du site",
+     "text": "Merci ! Nous vous remercions pour votre dépannage rapide avec une connaissance certaine et un savoir relationnel !! Nous n'hésiterons pas à faire appel à vous une prochaine fois !!"
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-4.jpg?v=1",
+   "eyebrow": "Un projet de chauffage ou de salle de bains ?",
+   "title": "Parlons de <em>votre projet</em>",
+   "cta": [
+    "Demander un devis",
+    "contact/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "qui-sommes-nous",
+   "label": "Qui sommes-nous ?",
+   "title": "Qui sommes-nous ?",
+   "eyebrow": "Artisan à Longes depuis 2002",
+   "lead": "Frédéric Mathevon, professionnel qualifié RGE.",
+   "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P10401071.jpg?v=1",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "equipe",
+     "eyebrow": "Qui sommes-nous ?",
+     "title": "Frédéric Mathevon, <em class=\"it\">artisan à Longes depuis 2002</em>",
+     "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/frederic-sylviane.jpg?v=1",
+     "alt": "Frédéric et Sylviane",
+     "paras": [
+      "CHAUFFAGE PLOMBERIE MATHEVON est née en 2002 de la volonté de son créateur, Frédéric MATHEVON, de mettre au service des professionnels et des particuliers son expertise en matière d'installation d'équipements thermiques et sanitaires.",
+      "Professionnel qualifié RGE : installateur Qualibois, installateur Qualigaz, installateur QualiPAC."
+     ],
+     "sign": "Frédéric et Sylviane",
+     "logos": [
+      [
+       "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/qualibois-rge.png?v=1",
+       "Qualibois RGE"
+      ],
+      [
+       "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/qualipac-rge.png?v=1",
+       "QualiPAC RGE"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "qualif",
+     "eyebrow": "Qualifications",
+     "title": "Professionnel <em class=\"it\">qualifié RGE</em>",
+     "items": [
+      {
+       "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/qualibois-rge.png?v=1",
+       "contain": true,
+       "kicker": "Bois",
+       "title": "Installateur Qualibois",
+       "paras": [
+        "Poêles à granulés, chaudières bois bûches, granulés et bois déchiqueté."
+       ]
+      },
+      {
+       "kicker": "Gaz",
+       "title": "Installateur Qualigaz",
+       "paras": [
+        "Chaudières gaz à condensation Viessmann et Frisquet : voir l'album photos."
+       ]
+      },
+      {
+       "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/qualipac-rge.png?v=1",
+       "contain": true,
+       "kicker": "Pompe à chaleur",
+       "title": "Installateur QualiPAC",
+       "paras": [
+        "Pompes à chaleur Viessmann et Atlantic : voir l'album photos."
+       ]
+      }
+     ],
+     "note": "Avant de vous engager, le service public vous informe gratuitement pour préparer et sécuriser votre projet : <a href=\"https://www.france-renov.gouv.fr\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">www.france-renov.gouv.fr</a>"
+    }
+   ]
+  },
+  {
+   "slug": "album",
+   "label": "Album photos",
+   "title": "Album photos",
+   "eyebrow": "Nos réalisations",
+   "lead": "Chauffage bois, granulés, gaz, fuel, pompes à chaleur, plancher chauffant, solaire et sanitaire.",
+   "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-bois-dechiquetes-hertz.jpg?v=1",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "rubriques",
+     "tight": false,
+     "eyebrow": "Album photos",
+     "title": "Nos réalisations <em class=\"it\">en images</em>",
+     "chips": [
+      "Poêle granulés",
+      "Chauffage bois bûches",
+      "Chauffage bois granulés",
+      "Chauffage bois déchiquetés",
+      "Plancher chauffant",
+      "Chauffage fuel",
+      "Chauffage gaz",
+      "Pompe à chaleur",
+      "Chauffe-eau solaire",
+      "Sanitaire"
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "poele-granules",
+     "carousel": true,
+     "eyebrow": "Poêle granulés",
+     "title": "Poêles à <em class=\"it\">granulés</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/poele-le-xxv.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/poele-le-xxv.jpg?v=2",
+       "alt": "Poêle Le XXV",
+       "caption": "Poêle Le XXV"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/poele-l-allure.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/poele-l-allure.jpg?v=2",
+       "alt": "Poêle l'Allure",
+       "caption": "Poêle l'Allure"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/poele-gran-bois.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/poele-gran-bois.jpg?v=2",
+       "alt": "Poêle Granulés de bois Harman l'Accentra",
+       "caption": "Poêle Granulés de bois Harman l'Accentra"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/cogra.gif?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/cogra.gif?v=2",
+       "alt": "Notre Partenaire",
+       "caption": "Notre Partenaire"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/cogra-harman-1-jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/cogra-harman-1-jpg?v=2",
+       "alt": "Marque",
+       "caption": "Marque"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chauffage-bois-buches",
+     "carousel": true,
+     "eyebrow": "Chauffage bois bûches",
+     "title": "Chaudières <em class=\"it\">bois bûches</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/unite-chauffe-hs-france-drakkar-et-ballons-tampons.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/unite-chauffe-hs-france-drakkar-et-ballons-tampons.jpg?v=1",
+       "alt": "Unité chauffe HS France Drakkar et ballons tampons",
+       "caption": "Unité chauffe HS France Drakkar et ballons tampons"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-bois-buches-drakar-hs-france.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-bois-buches-drakar-hs-france.jpg?v=1",
+       "alt": "Chaudière bois bûches Drakkar HS France",
+       "caption": "Chaudière bois bûches Drakkar HS France"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/chavas-1.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/chavas-1.jpg?v=1",
+       "alt": "Chaudière bois bûches Bonus 30 HS France",
+       "caption": "Chaudière bois bûches Bonus 30 HS France"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/chavas-2.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/chavas-2.jpg?v=1",
+       "alt": "Chaudière bois bûches Bonus 30 HS France avec ballon hydro-accumulateur d'énergie",
+       "caption": "Chaudière bois bûches Bonus 30 HS France avec ballon hydro-accumulateur d'énergie"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-363.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-363.jpg?v=1",
+       "alt": "Chaudière bois bûches Solo Plus MK II HS France",
+       "caption": "Chaudière bois bûches Solo Plus MK II HS France"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chauffage-bois-granules",
+     "carousel": true,
+     "eyebrow": "Chauffage bois granulés",
+     "title": "Chaudières <em class=\"it\">granulés de bois</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-granule-scanpellet-hs-france.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-granule-scanpellet-hs-france.jpg?v=1",
+       "alt": "Chaudière granulé Scanpellet HS France",
+       "caption": "Chaudière granulé Scanpellet HS France"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/silo-textile-granule-de-bois.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/silo-textile-granule-de-bois.jpg?v=1",
+       "alt": "Silo textile granulé de bois",
+       "caption": "Silo textile granulé de bois"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-4.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-4.jpg?v=1",
+       "alt": "Chaudière granulés de bois HERZ Pelletstar BioControl",
+       "caption": "Chaudière granulés de bois HERZ Pelletstar BioControl"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-6.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-6.jpg?v=1",
+       "alt": "Chaudière granulés de bois HERZ Pelletstar BioControl avec ballon",
+       "caption": "Chaudière granulés de bois HERZ Pelletstar BioControl avec ballon"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-3.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-3.jpg?v=1",
+       "alt": "Vis d'extraction granulés de bois",
+       "caption": "Vis d'extraction granulés de bois"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chauffage-bois-dechiquetes",
+     "carousel": true,
+     "eyebrow": "Chauffage bois déchiquetés",
+     "title": "Chaudières <em class=\"it\">bois déchiqueté</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-bois-dechiquetes-hertz.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-bois-dechiquetes-hertz.jpg?v=1",
+       "alt": "Chaudière bois déchiquetés HERZ",
+       "caption": "Chaudière bois déchiquetés HERZ"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/bois-dechiquete-011.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/bois-dechiquete-011.jpg?v=1",
+       "alt": "Silo de chaudière bois déchiqueté Multi Heat HS France",
+       "caption": "Silo de chaudière bois déchiqueté Multi Heat HS France"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-518.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-518.jpg?v=1",
+       "alt": "Vis de remplissage silo bois déchiquetés HERZ",
+       "caption": "Vis de remplissage silo bois déchiquetés HERZ"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-516.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-516.jpg?v=1",
+       "alt": "Chaudière bois déchiquetés HERZ Firematic Biocontrol",
+       "caption": "Chaudière bois déchiquetés HERZ Firematic Biocontrol"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-514.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-514.jpg?v=1",
+       "alt": "Plateau désileur de silo bois déchiqueté de chaudière HERZ",
+       "caption": "Plateau désileur de silo bois déchiqueté de chaudière HERZ"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-513.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-513.jpg?v=1",
+       "alt": "Vis de remplissage silo bois déchiquetés HERZ",
+       "caption": "Vis de remplissage silo bois déchiquetés HERZ"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-512.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-512.jpg?v=1",
+       "alt": "Vis de remplissage silo bois déchiquetés HERZ",
+       "caption": "Vis de remplissage silo bois déchiquetés HERZ"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-511.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-511.jpg?v=1",
+       "alt": "Vis de remplissage silo bois déchiquetés HERZ",
+       "caption": "Vis de remplissage silo bois déchiquetés HERZ"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-510.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-510.jpg?v=1",
+       "alt": "Vis de remplissage silo bois déchiquetés HERZ",
+       "caption": "Vis de remplissage silo bois déchiquetés HERZ"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-387.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-387.jpg?v=1",
+       "alt": "Chaudière automatique multi-combustibles Multi-Heat HS France",
+       "caption": "Chaudière automatique multi-combustibles Multi-Heat HS France"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-382.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-382.jpg?v=1",
+       "alt": "Couplage chaudière Multi-Heat avec chaudière fuel Baltic HS France",
+       "caption": "Couplage chaudière Multi-Heat avec chaudière fuel Baltic HS France"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/bois-dechiquete-012.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/bois-dechiquete-012.jpg?v=1",
+       "alt": "Foyer chaudière multi-combustibles Multi-Heat HS France",
+       "caption": "Foyer chaudière multi-combustibles Multi-Heat HS France"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-519.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-519.jpg?v=1",
+       "alt": "Moteur vis remplissage silo bois déchiquetés HERZ",
+       "caption": "Moteur vis remplissage silo bois déchiquetés HERZ"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "planche-chauffant",
+     "carousel": true,
+     "eyebrow": "Plancher chauffant",
+     "title": "Plancher <em class=\"it\">chauffant</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-615.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-615.jpg?v=1",
+       "alt": "Boucles plancher chauffant, tube BAO, dalles à plots",
+       "caption": "Boucles plancher chauffant, tube BAO, dalles à plots"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-616.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-616.jpg?v=1",
+       "alt": "Boucles plancher chauffant, tube BAO, dalles à plots",
+       "caption": "Boucles plancher chauffant, tube BAO, dalles à plots"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/collecteur-chauffage-plancher-chauffant.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/collecteur-chauffage-plancher-chauffant.jpg?v=1",
+       "alt": "Collecteur chauffage plancher chauffant",
+       "caption": "Collecteur chauffage plancher chauffant"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-617.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/photos-617.jpg?v=1",
+       "alt": "Collecteur plancher chauffant, tube BAO, dalles à plots",
+       "caption": "Collecteur plancher chauffant, tube BAO, dalles à plots"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/Launier-08--621.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/Launier-08--621.jpg?v=1",
+       "alt": "Boucles plancher chauffant, tube BAO, dalles à plots",
+       "caption": "Boucles plancher chauffant, tube BAO, dalles à plots"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chauffage-fuel",
+     "carousel": true,
+     "eyebrow": "Chauffage fuel",
+     "title": "Chaudières <em class=\"it\">fuel</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/mathevon-f-03-06.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/mathevon-f-03-06.jpg?v=1",
+       "alt": "Chaudière fuel basse température Vitola 200 Viessmann",
+       "caption": "Chaudière fuel basse température Vitola 200 Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-004.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-004.jpg?v=1",
+       "alt": "Chaudière fuel basse température Vitola 200 Viessmann",
+       "caption": "Chaudière fuel basse température Vitola 200 Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-032.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-032.jpg?v=1",
+       "alt": "Chaudière fuel basse température Vitola 222 Viessmann",
+       "caption": "Chaudière fuel basse température Vitola 222 Viessmann"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chauffage-gaz",
+     "carousel": true,
+     "eyebrow": "Chauffage gaz",
+     "title": "Chaudières <em class=\"it\">gaz</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-gaz-condensation-viessmann.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-gaz-condensation-viessmann.jpg?v=1",
+       "alt": "Chaudière gaz condensation Viessmann",
+       "caption": "Chaudière gaz condensation Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-gaz-condensation-frisquet.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/chaudiere-gaz-condensation-frisquet.jpg?v=1",
+       "alt": "Chaudière gaz condensation Frisquet",
+       "caption": "Chaudière gaz condensation Frisquet"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/castro-2-06.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/castro-2-06.jpg?v=1",
+       "alt": "Chaudière murale gaz Viessmann & chauffe-eau solaire individuel",
+       "caption": "Chaudière murale gaz Viessmann & chauffe-eau solaire individuel"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/crespy-andre1.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/crespy-andre1.jpg?v=1",
+       "alt": "Chaudière gaz condensation au sol Viessmann",
+       "caption": "Chaudière gaz condensation au sol Viessmann"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "pompe-a-chaleur",
+     "carousel": true,
+     "eyebrow": "Pompe à chaleur",
+     "title": "Pompes <em class=\"it\">à chaleur</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/faucouit-jf-7.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/faucouit-jf-7.jpg?v=2",
+       "alt": "Pompe à chaleur Alfea Excellia Atlantic",
+       "caption": "Pompe à chaleur Alfea Excellia Atlantic"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/faucouit-jf-13.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/faucouit-jf-13.jpg?v=2",
+       "alt": "Régulation pompe à chaleur Atlantic sur réseau existant",
+       "caption": "Régulation pompe à chaleur Atlantic sur réseau existant"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/mathevon-pac2.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/mathevon-pac2.jpg?v=2",
+       "alt": "Pompe à chaleur Vitocal 200 S Viessmann",
+       "caption": "Pompe à chaleur Vitocal 200 S Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/mathevon-appart1.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/mathevon-appart1.jpg?v=2",
+       "alt": "Pompe à chaleur Vitocal 100 Viessmann",
+       "caption": "Pompe à chaleur Vitocal 100 Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/pompe-a-chaleur-unite-interieur-atlantic.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/pompe-a-chaleur-unite-interieur-atlantic.jpg?v=1",
+       "alt": "Pompe à chaleur unité intérieure Atlantic",
+       "caption": "Pompe à chaleur unité intérieure Atlantic"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chauffe-eau-solaire",
+     "carousel": true,
+     "eyebrow": "Chauffe-eau solaire",
+     "title": "Chauffe-eau <em class=\"it\">solaire</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/PICT0183.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/PICT0183.jpg?v=1",
+       "alt": "Chauffe-eau solaire individuel (CESI) Viessmann",
+       "caption": "Chauffe-eau solaire individuel (CESI) Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/PICT0184.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/PICT0184.jpg?v=1",
+       "alt": "Capteur solaire plan Vitosol 200-F Viessmann",
+       "caption": "Capteur solaire plan Vitosol 200-F Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/PICT0188.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/PICT0188.jpg?v=1",
+       "alt": "Chauffe-eau solaire individuel (CESI) Viessmann",
+       "caption": "Chauffe-eau solaire individuel (CESI) Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-038.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-038.jpg?v=1",
+       "alt": "Capteur solaire à tubes sous vide Vitosol 200-T Viessmann",
+       "caption": "Capteur solaire à tubes sous vide Vitosol 200-T Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-039.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/travail-039.jpg?v=1",
+       "alt": "Chauffe-eau solaire individuel (CESI) Viessmann",
+       "caption": "Chauffe-eau solaire individuel (CESI) Viessmann"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/mathevon.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/mathevon.jpg?v=2",
+       "alt": "Capteur solaire plan Vitosol 200 F Viessmann",
+       "caption": "Capteur solaire plan Vitosol 200 F Viessmann"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "sanitaire",
+     "carousel": true,
+     "eyebrow": "Sanitaire",
+     "title": "Salles de bains <em class=\"it\">et sanitaire</em>",
+     "photos": [
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/ensemble-douche-pmr.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/ensemble-douche-pmr.jpg?v=1",
+       "alt": "Ensemble douche PMR",
+       "caption": "Ensemble douche PMR"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/douche-avec-receveur-extra-plat.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/douche-avec-receveur-extra-plat.jpg?v=1",
+       "alt": "Douche avec receveur extra plat",
+       "caption": "Douche avec receveur extra plat"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/douche-avec-siege-escamotable.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/douche-avec-siege-escamotable.jpg?v=1",
+       "alt": "Douche avec siège escamotable",
+       "caption": "Douche avec siège escamotable"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/salle-de-bains.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/salle-de-bains.jpg?v=1",
+       "alt": "Salle de bains",
+       "caption": "Salle de bains"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/p1060935-2-jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/p1060935-2-jpg?v=1",
+       "alt": "Meuble vasque, radiateur sèche-serviette installé en claustra",
+       "caption": "Meuble vasque, radiateur sèche-serviette installé en claustra"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/p1060921.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/p1060921.jpg?v=2",
+       "alt": "Mise en place porte de douche repliable vitrage granité",
+       "caption": "Mise en place porte de douche repliable vitrage granité"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010883.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010883.jpg?v=1",
+       "alt": "Espace douche receveur à l'italienne",
+       "caption": "Espace douche receveur à l'italienne"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010880.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010880.jpg?v=1",
+       "alt": "Installation chauffe-eau électrique mural sur pied 150 litres",
+       "caption": "Installation chauffe-eau électrique mural sur pied 150 litres"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/cabine-de-douche-kinedo-kinemagic-serenite-.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/cabine-de-douche-kinedo-kinemagic-serenite-.jpg?v=1",
+       "alt": "Cabine de douche Kinedo Kinemagic Sérénité",
+       "caption": "Cabine de douche Kinedo Kinemagic Sérénité"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/p1060911.jpg?v=2",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/p1060911.jpg?v=2",
+       "alt": "Meuble vasque & baignoire balnéo Saphir",
+       "caption": "Meuble vasque & baignoire balnéo Saphir"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/wc-suspendu.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/wc-suspendu.jpg?v=1",
+       "alt": "WC suspendu",
+       "caption": "WC suspendu"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010858.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010858.jpg?v=1",
+       "alt": "Meuble et évier de cuisine",
+       "caption": "Meuble et évier de cuisine"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010845.jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/P1010845.jpg?v=1",
+       "alt": "Espace douche receveur à l'italienne & meuble vasque",
+       "caption": "Espace douche receveur à l'italienne & meuble vasque"
+      },
+      {
+       "thumb": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/meuble-vasque-1-jpg?v=1",
+       "full": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/meuble-vasque-1-jpg?v=1",
+       "alt": "Meuble vasque",
+       "caption": "Meuble vasque"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis et renseignements",
+   "lead": "75 chemin du Plantier, 69420 Longes · 04 72 24 93 33.",
+   "img": "https://chauffage-plomberie-mathevon.e-monsite.com/medias/album/images/seignol-4.jpg?v=1",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Demander un devis",
+     "title": "Votre projet <em class=\"it\">de chauffage ou de plomberie</em>",
+     "lead": "Décrivez votre projet ou votre besoin de dépannage : nous revenons vers vous.",
+     "email": "contact@cpmathevon.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33472249333\" style=\"border-bottom:1px solid var(--gold)\">04 72 24 93 33</a>",
+      "E-mail : <a href=\"mailto:contact@cpmathevon.fr\" style=\"border-bottom:1px solid var(--gold)\">contact@cpmathevon.fr</a>"
+     ],
+     "fields": [
+      {
+       "label": "Votre nom",
+       "required": true
+      },
+      {
+       "label": "Votre e-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Sujet de votre message",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Coordonnées",
+     "title": "Chauffage Plomberie Mathevon, <em class=\"it\">Longes</em>",
+     "text": "Chauffagiste plombier à Longes (Rhône), pour les professionnels et les particuliers.",
+     "rows": [
+      [
+       "Adresse",
+       "75 chemin du Plantier<br>69420 Longes"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33472249333\">04 72 24 93 33</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@cpmathevon.fr\">contact@cpmathevon.fr</a>"
+      ]
+     ],
+     "cta": [
+      "Appeler",
+      "tel:+33472249333"
+     ],
+     "map_q": "75 chemin du Plantier, 69420 Longes"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Chauffage Plomberie Mathevon (CPM), artisan chauffagiste et plombier à Longes depuis 2002 : chauffage toutes énergies, sanitaire, entretien et dépannage, travaux neufs et rénovation.",
+  "contact": [
+   "<a href=\"tel:+33472249333\">04 72 24 93 33</a>",
+   "<a href=\"mailto:contact@cpmathevon.fr\">contact@cpmathevon.fr</a>",
+   "75 chemin du Plantier, 69420 Longes"
+  ],
+  "legal": "Professionnel qualifié RGE · Qualibois · Qualigaz · QualiPAC · SIRET 443 504 642 00028"
+ }
+}
