@@ -568,6 +568,18 @@ FORM_CSS = """<style>
 @media(max-width:760px){.cform,.cform form{grid-template-columns:minmax(0,1fr)}}
 </style>"""
 
+CHECK_CSS = """<style>
+.cform .ckg{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px 18px}.cform .ckg legend{font-size:.85rem;color:var(--muted);margin-bottom:8px;padding:0}
+.cform label.ck{flex-direction:row;align-items:center;gap:8px;color:var(--ink);font-size:.9rem}.cform label.ck input{width:18px;height:18px;padding:0;margin:0;flex:none;accent-color:var(--accent)}.cform label.ck.full{align-items:flex-start;font-size:.85rem;color:var(--muted)}.cform label.ck.full input{margin-top:2px}
+</style>"""
+
+CHECK_JS = r"""<script>document.querySelectorAll('.cform form').forEach(F=>{if(!F.querySelector('[data-n]'))return;F.onsubmit=ev=>{ev.preventDefault();
+const L=[...F.querySelectorAll('[name]')].map(x=>{const l=x.closest('label');const t=l?l.firstChild.textContent.trim():x.name;return t+' : '+(x.value||'').trim()});
+const G={};F.querySelectorAll('[data-n]').forEach(c=>{if(c.checked)(G[c.dataset.n]=G[c.dataset.n]||[]).push(c.value)});
+Object.keys(G).forEach(k=>L.push(k+' : '+G[k].join(', ')));
+location.href='mailto:'+F.dataset.to+'?subject='+encodeURIComponent(F.dataset.subject)+'&body='+encodeURIComponent('Bonjour,\n\n'+L.join('\n')+'\n');
+const o=F.querySelector('.ok');if(o)o.hidden=false}})</script>"""
+
 FORM_JS = r"""<script>document.querySelectorAll('.cform form').forEach(F=>F.onsubmit=ev=>{ev.preventDefault();
 const L=[...F.querySelectorAll('[name]')].map(x=>{const l=x.closest('label');const t=l?l.firstChild.textContent.trim():x.name;return t+' : '+(x.value||'').trim()}).join('\n');
 location.href='mailto:'+F.dataset.to+'?subject='+encodeURIComponent(F.dataset.subject)+'&body='+encodeURIComponent('Bonjour,\n\n'+L+'\n');
@@ -613,6 +625,15 @@ def section_form(f):
         n = attr(x.get("name", x["label"]))
         if x.get("type") == "textarea":
             inp = f'<textarea name="{n}" rows="{x.get("rows", 4)}"{req}></textarea>'
+        elif x.get("type") == "checks":
+            # Groupe de cases à cocher (choix multiples) : pas d'attribut name, lu par CHECK_JS.
+            boxes = "".join(f'<label class="ck"><input type="checkbox" data-n="{attr(x["label"])}" value="{attr(o)}"><span>{e(o)}</span></label>' for o in x["options"])
+            fields.append(f'<fieldset class="full ckg"><legend>{lab}</legend>{boxes}</fieldset>')
+            continue
+        elif x.get("type") == "check":
+            # Case unique (consentement, conditions) : obligatoire si "required".
+            fields.append(f'<label class="ck full"><input type="checkbox" data-n="{attr(x.get("name", "Accord"))}" value="oui"{req}><span>{x["label"]}</span></label>')
+            continue
         elif x.get("type") == "select":
             inp = f'<select name="{n}"{req}>' + "".join(f"<option>{e(o)}</option>" for o in x["options"]) + "</select>"
         else:
@@ -623,7 +644,7 @@ def section_form(f):
 <span class="eyebrow">{e(f["eyebrow"])}</span><h2 style="margin:14px 0 16px">{f["title"]}</h2><p style="color:var(--muted)">{e(f.get("lead", ""))}</p>{side}</div>
 <form data-to="{attr(f["email"])}" data-subject="{attr(f.get("subject", "Demande depuis le site"))}">{"".join(fields)}
 <div class="full"><button class="btn solid" type="submit">{e(f.get("submit", "Envoyer"))}</button></div><p class="ok" hidden>Merci, votre messagerie va s'ouvrir pour envoyer la demande.</p></form>
-</div></div></section>''' + FORM_CSS + FORM_JS
+</div></div></section>''' + FORM_CSS + FORM_JS + (CHECK_CSS + CHECK_JS if any(x.get("type") in ("checks", "check") for x in f["fields"]) else "")
 
 
 ANALYTICS_JS = r"""<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}

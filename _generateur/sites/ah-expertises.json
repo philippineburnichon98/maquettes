@@ -1,0 +1,932 @@
+{
+ "slug": "ah-expertises-312fcf",
+ "title": "Alpes Habitat Expertises — Diagnostics immobiliers à Grenoble et en Isère",
+ "description": "Alpes Habitat Expertises, diagnostics immobiliers obligatoires pour la vente et la location à Grenoble et en Isère : amiante, Carrez, Boutin, DPE, électricité, gaz, plomb, termites. Adhérent FNAIM depuis 2004.",
+ "brand": "Alpes Habitat Expertises",
+ "tagline": "Diagnostics immobiliers · Grenoble",
+ "logo": {
+  "src": "https://www.ahexpertises.fr/images/Logo-RVB-Alpes-Habitat-Expertises-3.png",
+  "height": 54,
+  "bg": "#ffffff"
+ },
+ "phead": "plain",
+ "theme": {
+  "look": "center",
+  "paper": "#f5f7f8",
+  "paper2": "#e6ecef",
+  "ink": "#17242c",
+  "muted": "#56636b",
+  "accent": "#1f6f8b",
+  "accent2": "#17566c",
+  "gold": "#7fa8b6",
+  "heroem": "#bfe0ea",
+  "serif": "\"Libre Franklin\",system-ui,sans-serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "actualite",
+   "Actualités"
+  ],
+  [
+   "diagnostics",
+   "Diagnostics"
+  ],
+  [
+   "obligations",
+   "Obligations"
+  ],
+  [
+   "contact",
+   "Contact / Devis"
+  ]
+ ],
+ "nav_extra": [
+  [
+   "espace",
+   "Espace client",
+   5
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "eyebrow": "Diagnostics immobiliers à Grenoble et en Isère",
+  "title": "Une expertise <em>de qualité</em>",
+  "lead": "Pour une vente en toute sérénité : Alpes Habitat Expertises réalise depuis plus de 15 ans les diagnostics immobiliers obligatoires pour la vente ou la location de votre logement.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "04 76 41 95 24",
+   "tel:+33476419524"
+  ]
+ },
+ "figures": [
+  [
+   "15 ans",
+   "et plus de diagnostics immobiliers"
+  ],
+  [
+   "2004",
+   "adhérent de la FNAIM"
+  ],
+  [
+   "8",
+   "diagnostics obligatoires"
+  ],
+  [
+   "ERP",
+   "offert"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Diagnostics immobiliers",
+   "title": "Vos diagnostics obligatoires <em class=\"it\">pour vendre ou louer</em>",
+   "paras": [
+    "Alpes Habitat Expertises intervient à Grenoble et dans son agglomération pour réaliser les diagnostics immobiliers obligatoires lors de la vente ou de la location d'un logement.",
+    "Depuis plus de 15 ans, nos experts réalisent l'amiante, la loi Carrez, la loi Boutin, le DPE, les diagnostics électrique, gaz et plomb et l'état parasitaire."
+   ],
+   "logos": [
+    [
+     "https://www.ahexpertises.fr/images/parts/gf.png",
+     "gf38"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/minela.png",
+     "Minela"
+    ]
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "dark": true,
+   "eyebrow": "Nos engagements",
+   "title": "Cinq engagements <em class=\"it\">pour votre dossier</em>",
+   "items": [
+    [
+     "L'état des risques et pollution offert",
+     "L'E.R.P est offert."
+    ],
+    [
+     "Propagation état parasitaire gratuit",
+     ""
+    ],
+    [
+     "Pas de frais kilométriques supplémentaires",
+     ""
+    ],
+    [
+     "Suivi personnalisé de votre dossier",
+     ""
+    ],
+    [
+     "Espace client créé",
+     "Vos dossiers dans votre espace client en ligne."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "diagnostics",
+   "eyebrow": "Les diagnostics",
+   "title": "Tout savoir sur <em class=\"it\">les diagnostics immobiliers</em>",
+   "lead": "Chaque diagnostic en bref. <a href=\"diagnostics/\" style=\"border-bottom:1px solid var(--gold)\">Voir la page Diagnostics</a>",
+   "items": [
+    {
+     "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Amiante.png",
+     "contain": true,
+     "kicker": "Diagnostic",
+     "title": "Amiante",
+     "paras": [
+      "Un constat qui indique la présence ou l'absence de matériaux et produits contenant de l'amiante, leur localisation et leur état de conservation.",
+      "Pour les immeubles bâtis dont le permis de construire a été délivré avant le 1er juillet 1997, au plus tard à la date de toute promesse de vente."
+     ],
+     "link": [
+      "Demander un devis",
+      "contact/"
+     ]
+    },
+    {
+     "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Carrez.png",
+     "contain": true,
+     "kicker": "Diagnostic",
+     "title": "Loi Carrez",
+     "paras": [
+      "La superficie privative d'un lot de copropriété, mentionnée dans tous les documents relatifs à la vente.",
+      "Planchers des locaux clos et couverts, hors parties de moins de 1,80 m sous plafond, murs, cloisons, marches et cages d'escalier."
+     ],
+     "link": [
+      "Demander un devis",
+      "contact/"
+     ]
+    },
+    {
+     "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Boutin.png",
+     "contain": true,
+     "kicker": "Diagnostic",
+     "title": "Loi Boutin",
+     "paras": [
+      "La loi n° 2009-323 du 25 mars 2009, dite loi Boutin, encadre aussi le recours à la caution d'un tiers pour les locations nues.",
+      "Un bailleur qui a souscrit une assurance garantissant les obligations locatives ne peut pas demander de caution, sauf exceptions."
+     ],
+     "link": [
+      "Demander un devis",
+      "contact/"
+     ]
+    },
+    {
+     "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_DPE.png",
+     "contain": true,
+     "kicker": "Diagnostic",
+     "title": "D.P.E",
+     "paras": [
+      "Le diagnostic de performance énergétique évalue la consommation d'énergie d'un logement et ses émissions de gaz à effet de serre, avec une double étiquette.",
+      "Obligatoire pour les ventes depuis le 1er novembre 2006 et pour les locations depuis le 1er juillet 2007, il comporte des recommandations pour réduire la consommation."
+     ],
+     "link": [
+      "Demander un devis",
+      "contact/"
+     ]
+    }
+   ],
+   "note": "<a href=\"diagnostics/\">Voir les 8 diagnostics</a>"
+  },
+  {
+   "kind": "story",
+   "id": "fnaim",
+   "eyebrow": "FNAIM 38",
+   "title": "Adhérent de la FNAIM <em class=\"it\">depuis 2004</em>",
+   "paras": [
+    "La chambre des diagnostiqueurs immobiliers regroupe des professionnels qui partagent des valeurs de professionnalisme, d'éthique, de formation et de transparence sous le label FNAIM, gage de qualité et de sécurité de service auprès des clients.",
+    "Alpes Habitat Expertises possède l'ensemble des certifications AFNOR obligatoires pour les diagnostics immobiliers. La certification évalue les compétences requises pour l'activité, à partir d'un référentiel métier validé par des experts, et elle est délivrée après un audit réalisé par un organisme impartial."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "confiance",
+   "eyebrow": "Ils nous font confiance",
+   "title": "Agences, bailleurs <em class=\"it\">et collectivités</em>",
+   "paras": [
+    "Agences immobilières, bailleurs sociaux et collectivités de l'agglomération grenobloise nous confient leurs diagnostics."
+   ],
+   "logos": [
+    [
+     "https://www.ahexpertises.fr/images/parts/nexity.png",
+     "Nexity"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/arthur.png",
+     "Arthur Loyd"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/gix.png",
+     "Gix Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/comptoir.png",
+     "Comptoir"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/immo-square.png",
+     "Immo Square"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/square-habitat.png",
+     "Square Habitat"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/fonciere-sud-isere.png",
+     "Foncière Sud Isère"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/grenoble-alpes-metropole.png",
+     "Grenoble Alpes Métropole"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/grenoble-habitat.png",
+     "Grenoble Habitat"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/hapi-immobilier.png",
+     "Hapi Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/ville-de-grenoble.png",
+     "Ville de Grenoble"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/agence-des-dauphins.png",
+     "Agence des Dauphins"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/bonjour-immobilier.png",
+     "Bonjour Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/immobilier-du-bonheur.png",
+     "Immobilier du Bonheur"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/neodia.png",
+     "Neodia"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/visioimmo.png",
+     "Visioimmo"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/yves-lorinquer.png",
+     "Yves Lorinquer"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/4-immobilier.png",
+     "4% Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/capital-immobilier.png",
+     "Capital Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/iad-france.png",
+     "IAD France"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/andreolety-immobilier.png",
+     "Andréolety Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/arch-immo.png",
+     "Arch'immo"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/fonciere-etoile.png",
+     "Foncière Étoile"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/le-connetable.png",
+     "Le Connétable"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/moncenis-immobilier.png",
+     "Groupe Moncenis Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/resid-immo.png",
+     "Résid'Immo"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/trefle-immobilier.png",
+     "Trèfle Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/fontaine-immobilier.png",
+     "Fontaine Immobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/i-mmobilier.png",
+     "I-mmobilier"
+    ],
+    [
+     "https://www.ahexpertises.fr/images/parts/sud-est-immo.png",
+     "Sud Est Immobilier"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "espace",
+   "eyebrow": "Espace client",
+   "title": "Vos rapports <em class=\"it\">en ligne</em>",
+   "items": [
+    {
+     "img": "https://www.ahexpertises.fr/images/Logo-ABR-Alpes-Habitat-Expertises.png",
+     "contain": true,
+     "title": "Espace client",
+     "paras": [
+      "Retrouvez vos dossiers et vos rapports de diagnostics dans votre espace client."
+     ],
+     "link": [
+      "Accéder à mon espace",
+      "https://monespace.ahexpertises.fr"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Nous contacter",
+   "title": "Alpes Habitat Expertises, <em class=\"it\">Échirolles</em>",
+   "text": "Diagnostics immobiliers à Grenoble, dans son agglomération et en Isère.",
+   "rows": [
+    [
+     "Adresse",
+     "1 place du Verseau<br>38130 Échirolles"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33476419524\">04 76 41 95 24</a>"
+    ],
+    [
+     "Mobile",
+     "<a href=\"tel:+33684138894\">06 84 13 88 94</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:ahexpertises@ahexpertises.fr\">ahexpertises@ahexpertises.fr</a>"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "contact/"
+   ],
+   "map_q": "1 Place du Verseau, 38130 Echirolles"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "actualite",
+   "label": "Actualités",
+   "title": "Actualités",
+   "eyebrow": "Lois et conseils",
+   "lead": "Réglementation et conseils pour vendre ou louer votre bien.",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "actualites",
+     "eyebrow": "Actualités",
+     "title": "Lois et <em class=\"it\">conseils</em>",
+     "lead": "Les actualités d'Alpes Habitat Expertises : réglementation et conseils pour vendre ou louer.",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Les diagnostics immobiliers obligatoires pour la vente",
+       "cat": "Loi",
+       "date": "5 mai 2021",
+       "desc": "Le diagnostic amiante et les autres diagnostics à fournir pour vendre.",
+       "url": "https://www.ahexpertises.fr/actualite/loi/les-diagnostics-immobiliers-obligatoires-pour-la-vente"
+      },
+      {
+       "title": "À quoi ressemblera le futur rapport de DPE ?",
+       "cat": "Conseils",
+       "date": "22 février 2021",
+       "desc": "Plus coloré, plus facile à lire et totalement relooké.",
+       "url": "https://www.ahexpertises.fr/actualite/conseils/a-quoi-ressemblera-le-futur-rapport-de-dpe-"
+      },
+      {
+       "title": "Diagnostic de performance énergétique : ce qui change en 2021",
+       "cat": "Conseils",
+       "date": "3 février 2021",
+       "desc": "Lors de la mise en vente ou en location d'un bien immobilier, le DPE…",
+       "url": "https://www.ahexpertises.fr/actualite/conseils/diagnostic-de-performance-energetique-ce-qui-change-en-2021"
+      },
+      {
+       "title": "Litige sur un diagnostic immobilier : qui est responsable ?",
+       "cat": "Conseils",
+       "date": "20 janvier 2021",
+       "desc": "Vous serez protégé en cas de diagnostic immobilier défectueux.",
+       "url": "https://www.ahexpertises.fr/actualite/conseils/litige-sur-un-diagnostic-immobilier-qui-est-responsable-"
+      },
+      {
+       "title": "Comment choisir votre diagnostiqueur immobilier ?",
+       "cat": "Conseils",
+       "date": "17 décembre 2020",
+       "desc": "Certifications, assurance, indépendance, prix, fédérations, temps passé sur place : les critères à vérifier.",
+       "url": "https://www.ahexpertises.fr/actualite/conseils/comment-choisir-votre-diagnostiqueur-immobilier-",
+       "page": "comment-choisir-votre-diagnostiqueur-immobilier"
+      },
+      {
+       "title": "Comment bien utiliser un thermostat ?",
+       "cat": "Conseils",
+       "date": "9 décembre 2020",
+       "desc": "Positionner son thermostat.",
+       "url": "https://www.ahexpertises.fr/actualite/conseils/comment-bien-utiliser-un-thermostat-"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualite/comment-choisir-votre-diagnostiqueur-immobilier",
+   "hidden": true,
+   "label": "Comment choisir votre diagnostiqueur immobilier ?",
+   "title": "Comment choisir votre diagnostiqueur immobilier ?",
+   "eyebrow": "Conseils",
+   "lead": "Certifications, assurance, indépendance, prix : les critères essentiels.",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Conseils",
+     "date": "17 décembre 2020",
+     "chapo": "Vous souhaitez vendre ou louer votre bien ? Vous devrez faire réaliser des diagnostics immobiliers. Pour trouver un professionnel fiable et compétent, voici les critères essentiels à vérifier.",
+     "keys": "Vérifiez que votre diagnostiqueur possède toutes les certifications obligatoires, qu'il est couvert par une assurance responsabilité civile, qu'il est indépendant, que son prix reste cohérent, qu'il appartient à une fédération qui impose une déontologie et qu'il prend le temps nécessaire pour examiner le logement.",
+     "body": [
+      {
+       "h2": "Les certifications"
+      },
+      {
+       "p": "Les diagnostiqueurs doivent détenir une certification pour chaque diagnostic concerné : amiante, plomb, termites, performance énergétique (DPE), gaz et électricité. Ces certifications doivent provenir d'un organisme certificateur agréé par le COFRAC et rester valides. L'État a fixé leur durée de validité à 5 ans : vérifiez les certifications et leur date de validité."
+      },
+      {
+       "h2": "L'assurance responsabilité civile"
+      },
+      {
+       "p": "La loi oblige les diagnostiqueurs à souscrire une assurance responsabilité civile professionnelle, car leurs responsabilités peuvent avoir de lourdes conséquences. C'est le diagnostiqueur lui-même qui doit être assuré, et non uniquement son entreprise."
+      },
+      {
+       "h2": "L'indépendance"
+      },
+      {
+       "p": "Le diagnostiqueur doit être impartial et n'avoir aucun intérêt à fausser son diagnostic. Un diagnostiqueur rémunéré par une entreprise de travaux pourrait par exemple être tenté de signaler des défauts inutiles."
+      },
+      {
+       "h2": "Le prix"
+      },
+      {
+       "p": "Les diagnostiqueurs fixent librement leurs tarifs. Le prix dépend notamment :"
+      },
+      {
+       "ul": [
+        "du nombre de diagnostics à réaliser ;",
+        "de la surface et du nombre de pièces du logement ;",
+        "du temps estimé sur place."
+       ]
+      },
+      {
+       "p": "Le tarif reflète aussi des coûts fixes (matériel, certifications, locaux), ce qui explique les écarts entre professionnels. Méfiez-vous des offres trop attractives : la sécurité des occupants et la fiabilité des diagnostics sont prioritaires."
+      },
+      {
+       "h2": "Les fédérations : FIDI et FNAIM"
+      },
+      {
+       "p": "Il est recommandé de choisir un diagnostiqueur membre d'une fédération comme la FNAIM ou la FIDI. Leurs adhérents s'engagent à respecter des règles de déontologie, notamment la transparence et la fiabilité. En cas de litige, la fédération peut servir de médiateur."
+      },
+      {
+       "h2": "Le temps passé sur place"
+      },
+      {
+       "p": "Une prestation trop courte peut être un signe de manque de sérieux. La durée varie selon l'ancienneté du bien, sa superficie et son nombre de pièces, l'expérience du diagnostiqueur et le nombre de diagnostics à réaliser. En général, un diagnostic dure entre 30 minutes et environ 1h30."
+      },
+      {
+       "h2": "En conclusion"
+      },
+      {
+       "p": "Si vous peinez à trouver un diagnostiqueur, votre agence immobilière ou votre notaire peuvent vous conseiller."
+      }
+     ],
+     "source": "Article publié sur <a href=\"https://www.ahexpertises.fr/actualite/conseils/comment-choisir-votre-diagnostiqueur-immobilier-\" target=\"_blank\" rel=\"noopener\">ahexpertises.fr</a> : il serait repris à la même adresse pour préserver son référencement.",
+     "back": [
+      "← Toutes les actualités",
+      "../"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics",
+   "label": "Diagnostics",
+   "title": "Les diagnostics",
+   "eyebrow": "Diagnostics immobiliers Alpes Habitat Expertises",
+   "lead": "Alpes Habitat Expertises vous accompagne pour la réalisation de vos différents diagnostics immobiliers obligatoires.",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "liste",
+     "eyebrow": "Les diagnostics",
+     "title": "Tout savoir sur <em class=\"it\">les diagnostics immobiliers</em>",
+     "lead": "Amiante, Boutin, loi Carrez, DPE, électrique, gaz, parasitaire, plomb : <a href=\"../obligations/\" style=\"border-bottom:1px solid var(--gold)\">vos obligations</a> selon que vous vendez ou louez.",
+     "items": [
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Amiante.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "Amiante",
+       "paras": [
+        "Un constat qui indique la présence ou l'absence de matériaux et produits contenant de l'amiante, leur localisation et leur état de conservation.",
+        "Pour les immeubles bâtis dont le permis de construire a été délivré avant le 1er juillet 1997, au plus tard à la date de toute promesse de vente."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      },
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Carrez.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "Loi Carrez",
+       "paras": [
+        "La superficie privative d'un lot de copropriété, mentionnée dans tous les documents relatifs à la vente.",
+        "Planchers des locaux clos et couverts, hors parties de moins de 1,80 m sous plafond, murs, cloisons, marches et cages d'escalier."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      },
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Boutin.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "Loi Boutin",
+       "paras": [
+        "La loi n° 2009-323 du 25 mars 2009, dite loi Boutin, encadre aussi le recours à la caution d'un tiers pour les locations nues.",
+        "Un bailleur qui a souscrit une assurance garantissant les obligations locatives ne peut pas demander de caution, sauf exceptions."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      },
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_DPE.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "D.P.E",
+       "paras": [
+        "Le diagnostic de performance énergétique évalue la consommation d'énergie d'un logement et ses émissions de gaz à effet de serre, avec une double étiquette.",
+        "Obligatoire pour les ventes depuis le 1er novembre 2006 et pour les locations depuis le 1er juillet 2007, il comporte des recommandations pour réduire la consommation."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      },
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Elec.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "Diagnostic électrique",
+       "paras": [
+        "Il vérifie la sécurité de l'installation intérieure : disjoncteur général, protection différentielle, surintensités, liaison équipotentielle, matériels à risque.",
+        "Obligatoire pour la vente d'un bien dont l'installation a plus de quinze ans ; valable trois ans."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      },
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Gaz.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "Diagnostic gaz",
+       "paras": [
+        "Il vérifie les installations intérieures de gaz naturel, de GPL ou d'air propané de quinze ans ou plus.",
+        "Obligatoire lors de la vente d'un logement, réalisé moins d'un an avant la signature par un expert certifié."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      },
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Parasite.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "État parasitaire",
+       "paras": [
+        "Il permet de savoir si un bien est infesté par les termites.",
+        "Obligatoire pour la vente d'un immeuble bâti situé dans une zone délimitée par arrêté préfectoral ou municipal ; il doit dater de moins de six mois."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      },
+      {
+       "img": "https://www.ahexpertises.fr/images/diags/icons/encadre_Pb.png",
+       "contain": true,
+       "kicker": "Diagnostic",
+       "title": "Diagnostic plomb",
+       "paras": [
+        "Le diagnostic plomb fait partie des diagnostics obligatoires, à la vente comme à la location."
+       ],
+       "link": [
+        "Demander un devis",
+        "contact/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Nous contacter",
+     "title": "Alpes Habitat Expertises, <em class=\"it\">Échirolles</em>",
+     "text": "Diagnostics immobiliers à Grenoble, dans son agglomération et en Isère.",
+     "rows": [
+      [
+       "Adresse",
+       "1 place du Verseau<br>38130 Échirolles"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33476419524\">04 76 41 95 24</a>"
+      ],
+      [
+       "Mobile",
+       "<a href=\"tel:+33684138894\">06 84 13 88 94</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:ahexpertises@ahexpertises.fr\">ahexpertises@ahexpertises.fr</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "contact/"
+     ],
+     "map_q": "1 Place du Verseau, 38130 Echirolles"
+    }
+   ]
+  },
+  {
+   "slug": "obligations",
+   "label": "Obligations",
+   "title": "Vos obligations",
+   "eyebrow": "Vente ou location",
+   "lead": "Les diagnostics obligatoires selon que vous vendez ou louez votre bien.",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "obligations",
+     "eyebrow": "Obligations",
+     "title": "Vendeur <em class=\"it\">ou bailleur</em>",
+     "items": [
+      {
+       "kicker": "Le propriétaire vendeur",
+       "title": "Vos obligations à la vente d'un bien immobilier",
+       "list": [
+        "Loi Carrez",
+        "Amiante",
+        "Termites",
+        "Diagnostic de performance énergétique (D.P.E.)",
+        "Électricité",
+        "Gaz",
+        "Plomb",
+        "Plan d'exposition au bruit (P.E.B.)",
+        "État des risques et pollutions (E.R.P.)"
+       ],
+       "link": [
+        "Demander un devis",
+        "../contact/"
+       ]
+      },
+      {
+       "kicker": "Le propriétaire bailleur",
+       "title": "Vos obligations à la location d'un bien immobilier",
+       "list": [
+        "Loi Boutin",
+        "Amiante",
+        "Diagnostic de performance énergétique (D.P.E.)",
+        "Électricité",
+        "Gaz",
+        "Plomb",
+        "Plan d'exposition au bruit (P.E.B.)",
+        "État des risques et pollutions (E.R.P.)"
+       ],
+       "link": [
+        "Demander un devis",
+        "../contact/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Nous contacter",
+     "title": "Alpes Habitat Expertises, <em class=\"it\">Échirolles</em>",
+     "text": "Diagnostics immobiliers à Grenoble, dans son agglomération et en Isère.",
+     "rows": [
+      [
+       "Adresse",
+       "1 place du Verseau<br>38130 Échirolles"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33476419524\">04 76 41 95 24</a>"
+      ],
+      [
+       "Mobile",
+       "<a href=\"tel:+33684138894\">06 84 13 88 94</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:ahexpertises@ahexpertises.fr\">ahexpertises@ahexpertises.fr</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "contact/"
+     ],
+     "map_q": "1 Place du Verseau, 38130 Echirolles"
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact / Devis",
+   "title": "Contact / Devis",
+   "eyebrow": "Nous contacter",
+   "lead": "Une question, un devis : nous vous recontacterons très prochainement.",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Demande de devis",
+     "title": "Votre devis <em class=\"it\">de diagnostics</em>",
+     "lead": "Indiquez votre bien et les diagnostics souhaités : nous vous recontacterons très prochainement.",
+     "side": [
+      "Tél. : <a href=\"tel:+33476419524\" style=\"border-bottom:1px solid var(--gold)\">04 76 41 95 24</a>",
+      "Mobile : <a href=\"tel:+33684138894\" style=\"border-bottom:1px solid var(--gold)\">06 84 13 88 94</a>",
+      "E-mail : <a href=\"mailto:ahexpertises@ahexpertises.fr\" style=\"border-bottom:1px solid var(--gold)\">ahexpertises@ahexpertises.fr</a>",
+      "Rétractation : <a href=\"https://www.ahexpertises.fr/droit-retractation\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">conditions, délai et modalités</a>"
+     ],
+     "email": "ahexpertises@ahexpertises.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Adresse, ville et code postal"
+      },
+      {
+       "label": "Type de bien",
+       "type": "select",
+       "options": [
+        "Appartement",
+        "Maison"
+       ]
+      },
+      {
+       "label": "Nombre de pièces",
+       "type": "number"
+      },
+      {
+       "label": "Diagnostic(s) souhaité(s)",
+       "type": "checks",
+       "options": [
+        "Loi Carrez",
+        "Loi Boutin",
+        "Amiante",
+        "D.P.E",
+        "Termites",
+        "Électrique",
+        "Plomb",
+        "Gaz",
+        "E.R.P (offert)"
+       ]
+      },
+      {
+       "label": "Informations complémentaires",
+       "type": "textarea"
+      },
+      {
+       "label": "J'ai pris connaissance des <a href=\"https://www.ahexpertises.fr/conditions-generales-vente\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration:underline\">conditions générales de vente</a> et de mon droit de rétractation (article L221-18 du Code de la consommation).",
+       "type": "check",
+       "name": "CGV et rétractation",
+       "required": true
+      },
+      {
+       "label": "Je sais que je peux m'inscrire gratuitement sur la liste d'opposition au démarchage téléphonique Bloctel (article L223-1 du Code de la consommation).",
+       "type": "check",
+       "name": "Bloctel"
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Contact",
+     "title": "Un message, <em class=\"it\">une question</em>",
+     "lead": "",
+     "email": "ahexpertises@ahexpertises.fr",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Nous contacter",
+     "title": "Alpes Habitat Expertises, <em class=\"it\">Échirolles</em>",
+     "text": "Diagnostics immobiliers à Grenoble, dans son agglomération et en Isère.",
+     "rows": [
+      [
+       "Adresse",
+       "1 place du Verseau<br>38130 Échirolles"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33476419524\">04 76 41 95 24</a>"
+      ],
+      [
+       "Mobile",
+       "<a href=\"tel:+33684138894\">06 84 13 88 94</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:ahexpertises@ahexpertises.fr\">ahexpertises@ahexpertises.fr</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "contact/"
+     ],
+     "map_q": "1 Place du Verseau, 38130 Echirolles"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Alpes Habitat Expertises (SL Diagnostic), diagnostics immobiliers obligatoires pour la vente et la location à Grenoble et en Isère. Adhérent FNAIM depuis 2004.",
+  "contact": [
+   "<a href=\"tel:+33476419524\">04 76 41 95 24</a>",
+   "<a href=\"tel:+33684138894\">06 84 13 88 94</a>",
+   "<a href=\"mailto:ahexpertises@ahexpertises.fr\">ahexpertises@ahexpertises.fr</a>",
+   "1 place du Verseau, 38130 Échirolles"
+  ],
+  "legal": "EURL au capital de 2 000 € · RCS Grenoble 500 615 505 · Membre de la FNAIM · Médiateur : ANM Consommation",
+  "legal_url": "https://www.ahexpertises.fr/mentions-legales"
+ }
+}
