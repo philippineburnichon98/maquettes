@@ -1,0 +1,857 @@
+{
+ "slug": "benaissa-peinture-d0dfb6",
+ "title": "Benaissa Peinture — Artisan peintre à Chambéry, Aix-les-Bains, Annecy",
+ "description": "Benaissa Peinture, entreprise individuelle créée en 1993 : peinture intérieure et extérieure, vernis et lasures, plâtrerie, revêtements, home staging à Chambéry, Aix-les-Bains et Annecy. Plus de 35 ans d'expérience.",
+ "brand": "Benaissa Peinture",
+ "tagline": "Artisan peintre · Chambéry",
+ "logo": {
+  "src": "https://v-images.cdnsw.com/Logo/ev1cv/logo-benaissapeinture.png?s=YqFDknU=&webp_compatible=1",
+  "height": 54,
+  "bg": "#ffffff"
+ },
+ "phead": "box",
+ "theme": {
+  "look": "split",
+  "paper": "#f6f5f2",
+  "paper2": "#e9e6df",
+  "ink": "#1d2329",
+  "muted": "#5d646b",
+  "accent": "#2f6f9f",
+  "accent2": "#245780",
+  "gold": "#d39b2a",
+  "heroem": "#ffd9a0",
+  "serif": "\"DM Serif Display\",Georgia,serif",
+  "sans": "\"Nunito Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+ },
+ "nav": [
+  [
+   "entreprise",
+   "L'entreprise"
+  ],
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "realisations",
+   "Réalisations"
+  ],
+  [
+   "contact",
+   "Contact / Devis"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://v-images.cdnsw.com/SliderH1920/ev4ja/1080-525-Loft3-Copy-.JPG?s=YqFEmnc=&webp_compatible=1",
+  "eyebrow": "Artisan peintre · Chambéry, Aix-les-Bains, Annecy",
+  "title": "Benaissa <em>Peinture</em>",
+  "lead": "La peinture dans le bassin chambérien, en neuf comme en rénovation, pour les particuliers, agences immobilières, syndics, établissements publics, entreprises et restaurateurs.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "06 08 22 07 41",
+   "tel:+33608220741"
+  ]
+ },
+ "figures": [
+  [
+   "1993",
+   "création de l'entreprise"
+  ],
+  [
+   "35 ans",
+   "d'expérience dans le bâtiment"
+  ],
+  [
+   "48 h",
+   "pour une réponse à votre demande"
+  ],
+  [
+   "1",
+   "interlocuteur unique"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "L'entreprise",
+   "title": "Un artisan peintre <em class=\"it\">de confiance</em>",
+   "img": "https://v-images.cdnsw.com/SliderH1920/evbd8/w-1172-879-exterieur2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+   "alt": "Peinture extérieure",
+   "paras": [
+    "Adjib Benaissa, artisan peintre, exerce dans le bâtiment depuis plus de 35 ans. Il intervient dans le bassin chambérien et les environs (Aix-les-Bains, Annecy) pour la rénovation de bâtiments, la décoration de vos murs, les travaux de plâtrerie et de peinture, et la pose de papiers peints et de revêtements de sols et muraux."
+   ],
+   "sign": "Adjib Benaissa",
+   "logos": [
+    [
+     "https://v-images.cdnsw.com/Logo/ev2ch/Logo-l-artisanat-premiere.jpg?s=YqFClHg=&webp_compatible=1",
+     "L'artisanat, première entreprise de France"
+    ],
+    [
+     "https://v-images.cdnsw.com/Logo/ev2ci/logo-artisan-A.png?s=YqFDkXA=&webp_compatible=1",
+     "Artisan"
+    ]
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "prestations",
+   "dark": true,
+   "eyebrow": "Prestations",
+   "title": "Murs, sols, plafonds <em class=\"it\">et façades</em>",
+   "lead": "Votre projet réalisé au mieux et à moindre coût, avec des conseils pour choisir vos revêtements.",
+   "items": [
+    [
+     "Travaux et peinture en intérieur",
+     "Murs, sols et plafonds : peintures classiques et à effet, papiers peints, pièces humides, faux plafonds, plâtrerie, cloisons et isolation.",
+     "https://v-images.cdnsw.com/Icones/ev1s6/002-peinture-au-rouleau.png?s=YqFIkw==&webp_compatible=1"
+    ],
+    [
+     "Peinture extérieure",
+     "Façades, boiseries, isolation thermique par l'extérieur, sols extérieurs et garages, portails et grilles (antirouille), mobilier de jardin et cabanons.",
+     "https://v-images.cdnsw.com/Icones/ev1sm/018-nettoyage.png?s=YqFIkw==&webp_compatible=1"
+    ],
+    [
+     "Vernis et lasures",
+     "Portes et fenêtres, poutres et plafonds apparents, lambris, terrasses et façades en bois, bardage, ponçage et traitement des parquets.",
+     "https://v-images.cdnsw.com/Icones/ev1s6/002-peinture-au-rouleau.png?s=YqFIkw==&webp_compatible=1"
+    ],
+    [
+     "Home staging",
+     "Valorisation immobilière : embellissement, rénovation légère, décoration et mise en valeur d'un bien avant la vente ou la location.",
+     "https://v-images.cdnsw.com/Icones/ev1t4/Maison-euros.png?s=YqFIkQ==&webp_compatible=1"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "engagements",
+   "eyebrow": "Nos atouts",
+   "title": "Qualité des réalisations <em class=\"it\">et respect des engagements</em>",
+   "items": [
+    {
+     "img": "https://v-images.cdnsw.com/SliderH1920/evbdd/w-1920-1440-Belle-maison-4-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "title": "Nos engagements",
+     "list": [
+      "Devis rapide",
+      "Respect des engagements et des délais",
+      "Forte réactivité pour la remise en état après un sinistre, un incendie ou un dégât des eaux",
+      "Nettoyage après travaux",
+      "Travail soigné jusque dans le détail des finitions"
+     ]
+    },
+    {
+     "img": "https://v-images.cdnsw.com/SliderH1920/ev4l4/1920-1440-Sejour-application-peinture-satin-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "title": "Mais aussi…",
+     "list": [
+      "Partenariats avec d'autres entreprises du bâtiment (plomberie, électricité, carrelage…) pour un seul interlocuteur",
+      "Missions de consultant",
+      "Home staging",
+      "Produits à faible émission, écologiques et naturels"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Notre devise",
+   "text": "Un client satisfait est notre plus belle récompense.",
+   "sub": "Benaissa Peinture"
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Réalisations",
+   "title": "Quelques <em class=\"it\">réalisations</em>",
+   "lead": "Cliquez sur une photo pour l'agrandir.",
+   "carousel": true,
+   "photos": [
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gt/H-900-1200-Loft6-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1gt/H-900-1200-Loft6-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Loft",
+     "caption": "Loft"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gx/H-900-1200-Loft10-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1gx/H-900-1200-Loft10-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Loft",
+     "caption": "Loft"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gw/H-900-1200-Loft9-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1gw/H-900-1200-Loft9-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Loft",
+     "caption": "Loft"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gu/H-900-1200-Loft7-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1gu/H-900-1200-Loft7-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Loft",
+     "caption": "Loft"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1h1/H-900-1200-Peinture-micro-poreuse-abris-de-piscine-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1h1/H-900-1200-Peinture-micro-poreuse-abris-de-piscine-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Peinture micro-poreuse, abri de piscine",
+     "caption": "Peinture micro-poreuse, abri de piscine"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1h2/H-900-1200-Peinture-micro-poreuse-abris-de-piscine2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1h2/H-900-1200-Peinture-micro-poreuse-abris-de-piscine2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Peinture micro-poreuse, abri de piscine",
+     "caption": "Peinture micro-poreuse, abri de piscine"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gb/H-900-1200-Facade-Lazur-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1gb/H-900-1200-Facade-Lazur-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Façade lasurée",
+     "caption": "Façade lasurée"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g6/H-900-1200-Escalier-et-duplex-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1g6/H-900-1200-Escalier-et-duplex-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Escalier et duplex",
+     "caption": "Escalier et duplex"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g9/H-900-1200-Escalier-et-duplex4-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1g9/H-900-1200-Escalier-et-duplex4-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Escalier et duplex",
+     "caption": "Escalier et duplex"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1fy/H-900-1200-Couloir-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1fy/H-900-1200-Couloir-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Couloir",
+     "caption": "Couloir"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g0/H-900-1200-Escalier-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1g0/H-900-1200-Escalier-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Escalier",
+     "caption": "Escalier"
+    },
+    {
+     "thumb": "https://v-images.cdnsw.com/GalerieV/ev1ga/H-900-1200-escalier2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "full": "https://v-images.cdnsw.com/GalerieV/ev1ga/H-900-1200-escalier2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Escalier",
+     "caption": "Escalier"
+    }
+   ],
+   "cta": [
+    "Voir toutes les réalisations",
+    "realisations/"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://v-images.cdnsw.com/Autre-image/ev1du/1920-849-Panorama_Chambery_et_Belledonnes_enneigees_-2018-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+   "eyebrow": "Chambéry · Aix-les-Bains · Annecy",
+   "title": "Un projet de <em>peinture ?</em>",
+   "cta": [
+    "Demander un devis gratuit",
+    "contact/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Contact",
+   "title": "Benaissa Peinture, <em class=\"it\">Chambéry</em>",
+   "text": "Chambéry et ses environs, Aix-les-Bains et Annecy.",
+   "rows": [
+    [
+     "Adresse",
+     "21 square Louis Aragon<br>73000 Chambéry"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33608220741\">06 08 22 07 41</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:peinture73000@gmail.com\">peinture73000@gmail.com</a>"
+    ],
+    [
+     "Devis",
+     "Gratuit, après une visite sur place"
+    ]
+   ],
+   "cta": [
+    "Appeler",
+    "tel:+33608220741"
+   ],
+   "map_q": "21 Square Louis Aragon, 73000 Chambéry"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "entreprise",
+   "label": "L'entreprise",
+   "title": "L'entreprise",
+   "eyebrow": "Entreprise individuelle créée en 1993",
+   "lead": "Adjib Benaissa, artisan peintre dans le bâtiment depuis plus de 35 ans.",
+   "img": "https://v-images.cdnsw.com/SliderH1920/ev4ja/1080-525-Loft3-Copy-.JPG?s=YqFEmnc=&webp_compatible=1",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "artisan",
+     "eyebrow": "L'entreprise",
+     "title": "Benaissa Peinture, <em class=\"it\">depuis 1993</em>",
+     "img": "https://v-images.cdnsw.com/Logo/ev1t8/Logo-Titre-2.jpeg?s=YqFFkXU=&webp_compatible=1",
+     "alt": "Benaissa Peinture",
+     "paras": [
+      "Adjib Benaissa, artisan peintre de confiance, exerce dans le bâtiment depuis plus de 35 ans. Il intervient dans le bassin chambérien et les environs (Aix-les-Bains, Annecy) pour la rénovation de bâtiments, la décoration des murs de votre logement, les travaux de plâtrerie et de peinture, ainsi que la pose de papiers peints et de revêtements de sols et muraux.",
+      "Un métier de précision, qui demande de la finesse pour atteindre l'excellence recherchée."
+     ],
+     "sign": "Adjib Benaissa",
+     "logos": [
+      [
+       "https://v-images.cdnsw.com/Logo/ev2ch/Logo-l-artisanat-premiere.jpg?s=YqFClHg=&webp_compatible=1",
+       "L'artisanat, première entreprise de France"
+      ],
+      [
+       "https://v-images.cdnsw.com/Logo/ev2ci/logo-artisan-A.png?s=YqFDkXA=&webp_compatible=1",
+       "Artisan"
+      ],
+      [
+       "https://v-images.cdnsw.com/Logo/ev1t7/Logo-anime-GIF-2.gif?s=YqFFkXU=&webp_compatible=1",
+       "Benaissa Peinture"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "atouts",
+     "eyebrow": "Qualité et engagements",
+     "title": "Ce qui fait <em class=\"it\">notre réputation</em>",
+     "items": [
+      {
+       "img": "https://v-images.cdnsw.com/SliderH1920/evbdd/w-1920-1440-Belle-maison-4-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "title": "Nos engagements",
+       "list": [
+        "Devis rapide",
+        "Respect des engagements et des délais",
+        "Forte réactivité pour la remise en état d'un logement ou d'un local professionnel après un sinistre, un incendie ou un dégât des eaux",
+        "Nettoyage après travaux",
+        "Travail soigné jusque dans le détail des finitions"
+       ]
+      },
+      {
+       "img": "https://v-images.cdnsw.com/SliderH1920/evbd8/w-1172-879-exterieur2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "title": "Mais aussi…",
+       "list": [
+        "Partenariats avec d'autres entreprises du bâtiment (plomberie, électricité, carrelage…) pour n'avoir qu'un seul interlocuteur",
+        "Missions de consultant",
+        "Home staging : valorisation immobilière avant la vente d'un bien",
+        "Produits à faible émission de particules, écologiques et naturels"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "quote",
+     "eyebrow": "Notre devise",
+     "text": "Un client satisfait est notre plus belle récompense.",
+     "sub": "Benaissa Peinture"
+    }
+   ]
+  },
+  {
+   "slug": "prestations",
+   "label": "Prestations",
+   "title": "Prestations",
+   "eyebrow": "Votre conseiller pour les murs, sols et façades",
+   "lead": "Votre projet réalisé au mieux et à moindre coût.",
+   "img": "https://v-images.cdnsw.com/SliderH1920/ev2id/loft14.jpg?s=YqFFkXU=&webp_compatible=1",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "domaines",
+     "eyebrow": "Prestations",
+     "title": "Quatre <em class=\"it\">savoir-faire</em>",
+     "items": [
+      [
+       "Travaux et peinture en intérieur",
+       "Murs, sols et plafonds : peintures classiques et à effet, papiers peints, pièces humides, faux plafonds, plâtrerie, cloisons et isolation.",
+       "https://v-images.cdnsw.com/Icones/ev1s6/002-peinture-au-rouleau.png?s=YqFIkw==&webp_compatible=1"
+      ],
+      [
+       "Peinture extérieure",
+       "Façades, boiseries, isolation thermique par l'extérieur, sols extérieurs et garages, portails et grilles (antirouille), mobilier de jardin et cabanons.",
+       "https://v-images.cdnsw.com/Icones/ev1sm/018-nettoyage.png?s=YqFIkw==&webp_compatible=1"
+      ],
+      [
+       "Vernis et lasures",
+       "Portes et fenêtres, poutres et plafonds apparents, lambris, terrasses et façades en bois, bardage, ponçage et traitement des parquets.",
+       "https://v-images.cdnsw.com/Icones/ev1s6/002-peinture-au-rouleau.png?s=YqFIkw==&webp_compatible=1"
+      ],
+      [
+       "Home staging",
+       "Valorisation immobilière : embellissement, rénovation légère, décoration et mise en valeur d'un bien avant la vente ou la location.",
+       "https://v-images.cdnsw.com/Icones/ev1t4/Maison-euros.png?s=YqFIkQ==&webp_compatible=1"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "interieur",
+     "eyebrow": "Travaux et peinture en intérieur",
+     "title": "Le cœur <em class=\"it\">de notre métier</em>",
+     "lead": "Pour vos murs, sols et plafonds, Benaissa Peinture redonne du charme à vos intérieurs.",
+     "items": [
+      {
+       "title": "Pour habiller vos murs",
+       "list": [
+        "Peintures classiques : mates, veloutées, satinées ou brillantes",
+        "Peintures à effet nacré, pailleté ou sablé",
+        "Peinture cirée",
+        "Peinture pour pièces humides",
+        "Papiers peints et tous types de revêtements muraux",
+        "Peinture haute température pour radiateurs"
+       ]
+      },
+      {
+       "title": "Pour vos plafonds",
+       "list": [
+        "Faux plafonds",
+        "Plafonds tendus en toile",
+        "Pose de lambris",
+        "Habillage de poutres"
+       ]
+      },
+      {
+       "title": "Pour vos sols",
+       "list": [
+        "Peinture de sol",
+        "Peintures techniques, comme les peintures antidérapantes",
+        "Ponçage et remise à neuf de parquets"
+       ]
+      },
+      {
+       "title": "Plâtrerie et cloisons",
+       "list": [
+        "Remise en état des murs",
+        "Enduits classiques, à effets et traditionnels à la chaux",
+        "Pose de carreaux de plâtre",
+        "Pose de cloisons et de plaques de plâtre type BA13",
+        "Isolation des murs"
+       ]
+      },
+      {
+       "title": "Produits à faible émission de COV",
+       "paras": [
+        "Des produits peu émetteurs de composés organiques volatils, pour préserver la qualité de l'air intérieur. Les déchets sont gérés selon les normes écologiques en vigueur."
+       ]
+      },
+      {
+       "title": "Interlocuteur unique",
+       "paras": [
+        "Nous travaillons avec d'autres professionnels du bâtiment (plombiers, électriciens, carreleurs) et coordonnons le chantier."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "exterieur",
+     "eyebrow": "Peinture à l'extérieur",
+     "title": "Façades <em class=\"it\">et dépendances</em>",
+     "lead": "L'entretien et le traitement de vos façades extérieures et de vos dépendances.",
+     "img": "https://v-images.cdnsw.com/SliderH1920/evbd8/w-1172-879-exterieur2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+     "items": [
+      {
+       "title": "Boiseries extérieures",
+       "list": [
+        "Peinture des portes et fenêtres",
+        "Peinture des portails en bois",
+        "Traitement des terrasses et escaliers"
+       ]
+      },
+      {
+       "title": "Façades",
+       "list": [
+        "Façades peintes",
+        "Isolation thermique par l'extérieur",
+        "Peinture anti-tag"
+       ]
+      },
+      {
+       "title": "Garages et dépendances",
+       "list": [
+        "Peinture de garages",
+        "Traitement d'abris de jardin et de hangars",
+        "Traitement des abords de piscine et des locaux techniques"
+       ]
+      },
+      {
+       "title": "Sols et éléments d'extérieur",
+       "list": [
+        "Peintures de sols et revêtements spécifiques",
+        "Peinture antirouille pour grilles et portails",
+        "Peintures multi-matériaux pour mobilier de jardin"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "vernis",
+     "eyebrow": "Vernis et lasures",
+     "title": "Le bois, <em class=\"it\">éclatant et chaleureux</em>",
+     "lead": "Le bois est un matériau important dans la région : nous le traitons pour qu'il conserve son éclat le plus longtemps possible, avec des vernis et lasures à faible émission de COV.",
+     "items": [
+      {
+       "title": "Constructions bois",
+       "list": [
+        "Chalets et maisons en bois",
+        "Bardages et façades bois",
+        "Hangars, garages et abris de jardin en bois",
+        "Portes, fenêtres, terrasses, escaliers et pergolas en bois"
+       ]
+      },
+      {
+       "title": "Menuiseries et boiseries intérieures",
+       "list": [
+        "Portes et fenêtres",
+        "Lambris sur plafonds et murs",
+        "Poutres apparentes"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "home-staging",
+     "eyebrow": "Home staging",
+     "title": "Valoriser <em class=\"it\">votre bien</em>",
+     "lead": "Valoriser un bien immobilier grâce à une rénovation légère et une décoration adaptée.",
+     "items": [
+      {
+       "img": "https://v-images.cdnsw.com/Icones/euz9e/cabine.png?s=YqFIkQ==&webp_compatible=1",
+       "contain": true,
+       "title": "Conseil en rénovation",
+       "paras": [
+        "Mettre en valeur le potentiel de votre bien : une rénovation essentielle peut suffire à être efficace et économique."
+       ]
+      },
+      {
+       "title": "Décoration",
+       "paras": [
+        "Quelques éléments bien choisis peuvent faire la différence : nous vous guidons vers les tendances actuelles du marché immobilier."
+       ]
+      },
+      {
+       "title": "Vente ou location",
+       "paras": [
+        "Un service de remise en valeur des biens, pour la vente comme pour la location."
+       ]
+      },
+      {
+       "title": "Agencement",
+       "paras": [
+        "Modifier l'agencement d'un bien peut en augmenter la valeur : quelques travaux suffisent parfois."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "realisations",
+   "label": "Réalisations",
+   "title": "Réalisations",
+   "eyebrow": "Quelques réalisations",
+   "lead": "Lofts, escaliers, halls d'immeuble, parquets, façades lasurées.",
+   "img": "https://v-images.cdnsw.com/SliderH1920/ev2id/loft14.jpg?s=YqFFkXU=&webp_compatible=1",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "Réalisations",
+     "title": "Nos <em class=\"it\">chantiers</em>",
+     "lead": "Cliquez sur une photo pour l'agrandir.",
+     "photos": [
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gt/H-900-1200-Loft6-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gt/H-900-1200-Loft6-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Loft",
+       "caption": "Loft"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gx/H-900-1200-Loft10-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gx/H-900-1200-Loft10-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Loft",
+       "caption": "Loft"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gw/H-900-1200-Loft9-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gw/H-900-1200-Loft9-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Loft",
+       "caption": "Loft"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gu/H-900-1200-Loft7-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gu/H-900-1200-Loft7-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Loft",
+       "caption": "Loft"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1h1/H-900-1200-Peinture-micro-poreuse-abris-de-piscine-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1h1/H-900-1200-Peinture-micro-poreuse-abris-de-piscine-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Peinture micro-poreuse, abri de piscine",
+       "caption": "Peinture micro-poreuse, abri de piscine"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1h2/H-900-1200-Peinture-micro-poreuse-abris-de-piscine2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1h2/H-900-1200-Peinture-micro-poreuse-abris-de-piscine2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Peinture micro-poreuse, abri de piscine",
+       "caption": "Peinture micro-poreuse, abri de piscine"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gb/H-900-1200-Facade-Lazur-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gb/H-900-1200-Facade-Lazur-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Façade lasurée",
+       "caption": "Façade lasurée"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g6/H-900-1200-Escalier-et-duplex-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1g6/H-900-1200-Escalier-et-duplex-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Escalier et duplex",
+       "caption": "Escalier et duplex"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g9/H-900-1200-Escalier-et-duplex4-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1g9/H-900-1200-Escalier-et-duplex4-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Escalier et duplex",
+       "caption": "Escalier et duplex"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1fy/H-900-1200-Couloir-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1fy/H-900-1200-Couloir-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Couloir",
+       "caption": "Couloir"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g0/H-900-1200-Escalier-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1g0/H-900-1200-Escalier-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Escalier",
+       "caption": "Escalier"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1ga/H-900-1200-escalier2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1ga/H-900-1200-escalier2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Escalier",
+       "caption": "Escalier"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/evbd5/Verticale-IMG_4737.jpg?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/evbd5/Verticale-IMG_4737.jpg?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Réalisation",
+       "caption": "Réalisation"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1fx/H-900-1200-Coin-cheminee-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1fx/H-900-1200-Coin-cheminee-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Coin cheminée",
+       "caption": "Coin cheminée"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g1/H-900-1200-Escalier-coli-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1g1/H-900-1200-Escalier-coli-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Escalier",
+       "caption": "Escalier"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1g3/H-900-1200-escalier-coli-apres2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1g3/H-900-1200-escalier-coli-apres2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Escalier, après",
+       "caption": "Escalier, après"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gf/H-900-1200-Hall-avec-pilliers5-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gf/H-900-1200-Hall-avec-pilliers5-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Hall avec piliers",
+       "caption": "Hall avec piliers"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1ge/H-900-1200-Hall-avec-pilliers4-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1ge/H-900-1200-Hall-avec-pilliers4-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Hall avec piliers",
+       "caption": "Hall avec piliers"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gq/H-900-1200-IMG-3656-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gq/H-900-1200-IMG-3656-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Réalisation",
+       "caption": "Réalisation"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1gj/H-900-1200-IMG_0284-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1gj/H-900-1200-IMG_0284-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Réalisation",
+       "caption": "Réalisation"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/ev2id/loft14.jpg?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/ev2id/loft14.jpg?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Peintures et revêtements muraux d'un loft",
+       "caption": "Peintures et revêtements muraux d'un loft"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/ev4l4/1920-1440-Sejour-application-peinture-satin-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/ev4l4/1920-1440-Sejour-application-peinture-satin-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Séjour, application d'une peinture satin",
+       "caption": "Séjour, application d'une peinture satin"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/ev4jh/1920-1440-Appart-sous-pente2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/ev4jh/1920-1440-Appart-sous-pente2-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Appartement sous pente",
+       "caption": "Appartement sous pente"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/evbda/w-1920-1440-Belle-maison-1-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/evbda/w-1920-1440-Belle-maison-1-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Application d'une peinture brillante",
+       "caption": "Application d'une peinture brillante"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/ev4l3/1920-1440-Remise-a-neuf-Parquet-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/ev4l3/1920-1440-Remise-a-neuf-Parquet-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Ponçage et traitement du parquet",
+       "caption": "Ponçage et traitement du parquet"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/ev4k9/1920-1440-Hall-avec-pilliers-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/ev4k9/1920-1440-Hall-avec-pilliers-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Peinture des murs, piliers, cage d'escaliers et hall d'entrée",
+       "caption": "Peinture des murs, piliers, cage d'escaliers et hall d'entrée"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/GalerieV/ev1fu/H-900-1200-Chambre-d-enfants-peinture-aspect-velours-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/GalerieV/ev1fu/H-900-1200-Chambre-d-enfants-peinture-aspect-velours-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Chambre d'enfant, peinture velours",
+       "caption": "Chambre d'enfant, peinture velours"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/ev4k8/1920-1440-Facade-Lazur-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/ev4k8/1920-1440-Facade-Lazur-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Façade lasurée",
+       "caption": "Façade lasurée"
+      },
+      {
+       "thumb": "https://v-images.cdnsw.com/SliderH1920/ev4l0/1920-1440-Petite-Maison-carre-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "full": "https://v-images.cdnsw.com/SliderH1920/ev4l0/1920-1440-Petite-Maison-carre-Copy-.JPG?s=YqFFkXU=&webp_compatible=1",
+       "alt": "Petite maison",
+       "caption": "Petite maison"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact / Devis",
+   "title": "Contact / Devis",
+   "eyebrow": "Devis gratuit",
+   "lead": "Devis gratuit après une visite sur place.",
+   "img": "https://v-images.cdnsw.com/Autre-image/ev1du/1920-849-Panorama_Chambery_et_Belledonnes_enneigees_-2018-Copy-.jpg?s=YqFFkXU=&webp_compatible=1",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contact / Devis",
+     "title": "Votre devis <em class=\"it\">gratuit</em>",
+     "lead": "Pour que je puisse vous établir un devis gratuit, je viendrai faire une visite sur place.",
+     "side": [
+      "Tél. : <a href=\"tel:+33608220741\" style=\"border-bottom:1px solid var(--gold)\">06 08 22 07 41</a>",
+      "E-mail : <a href=\"mailto:peinture73000@gmail.com\" style=\"border-bottom:1px solid var(--gold)\">peinture73000@gmail.com</a>"
+     ],
+     "email": "peinture73000@gmail.com",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email"
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Type de travaux",
+       "type": "select",
+       "options": [
+        "Peinture intérieure",
+        "Peinture extérieure",
+        "Vernis et lasures",
+        "Home staging",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Votre projet",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Contact",
+     "title": "Benaissa Peinture, <em class=\"it\">Chambéry</em>",
+     "text": "Chambéry et ses environs, Aix-les-Bains et Annecy.",
+     "rows": [
+      [
+       "Adresse",
+       "21 square Louis Aragon<br>73000 Chambéry"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33608220741\">06 08 22 07 41</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:peinture73000@gmail.com\">peinture73000@gmail.com</a>"
+      ],
+      [
+       "Devis",
+       "Gratuit, après une visite sur place"
+      ]
+     ],
+     "cta": [
+      "Appeler",
+      "tel:+33608220741"
+     ],
+     "map_q": "21 Square Louis Aragon, 73000 Chambéry"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Benaissa Peinture, entreprise individuelle créée en 1993 : peinture intérieure et extérieure, vernis et lasures, plâtrerie, home staging à Chambéry, Aix-les-Bains et Annecy.",
+  "contact": [
+   "<a href=\"tel:+33608220741\">06 08 22 07 41</a>",
+   "<a href=\"mailto:peinture73000@gmail.com\">peinture73000@gmail.com</a>",
+   "21 square Louis Aragon, 73000 Chambéry"
+  ],
+  "legal": "Entreprise individuelle · Artisan peintre"
+ }
+}
