@@ -1,5 +1,5 @@
 nom,type,ville,site_actuel,email,slug_maquette,statut,date
-Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,"relance prete (domainedelafolie@sfr.fr introuvable, relance a contact@ seul)",2026-10-09
+Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,"relance envoyee (17 oct., a contact@ seul)",2026-10-09
 Bouchon des Cordeliers,restaurant,Lyon 2e,http://www.bouchondescordeliers.com/,contact@bouchondescordeliers.com,bouchon-des-cordeliers-4f9a2c,relance prete,2026-10-09
 Domaine Bernard Jomain,domaine,Charentay (Brouilly),https://www.domainebernardjomain.com/,jomainb@wanadoo.fr,domaine-bernard-jomain-2d7c93,relance prete,2026-10-09
 Le Bouchon des Artistes,restaurant,Lyon 3e,https://www.le-bouchon-des-artistes.fr/,lebouchondesartistes@orange.fr,bouchon-des-artistes-b81e57,envoye,2026-10-09
@@ -142,3 +142,38 @@ AV Expertise (Andreani-Vetter Expertise),diagnostiqueur,Villefranche-sur-Saône,
 Salichon et Associés,notaire,Lyon 6e,https://salichonetassocies.notaires.fr/,,,"ecarte (site recent 2023, pas d'e-mail)",2026-10-17
 Paul & Associés,notaire,Lyon 9e,https://www.paul-et-associes.notaires.fr/notaires-a-lyon/,,,"ecarte (site recent, pas d'e-mail)",2026-10-17
 Maître Louis Cheret,notaire,Villefranche-sur-Saône,https://www.notaire-louis-cheret-villefranchesursaone.fr/,louis.cheret@notaires.fr,louis-cheret-notaire-632c28,brouillon pret,2026-10-17
+Domaine André Desmures,domaine,Chiroubles,http://www.andre-desmures.com,descop@orange.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
+Domaine Christophe Savoye,domaine,Chiroubles,http://www.vins-chiroubles.com,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
+Domaine Matray,domaine,Juliénas,https://domainematray.fr/,domaine.matray@wanadoo.fr,,"ecarte (site recent : 2026 visible, agenda 2026)",2026-10-18
+Domaine Bergeron,domaine,Émeringes,https://www.domaine-bergeron-viticulteurs.fr/,bergeron.pierre@wanadoo.fr,,ecarte (site recent : 2026 visible),2026-10-18
+Domaine Trémeaux père et fils,domaine,Mercurey,https://www.domainetremeaux.fr/domaine/,domaine.tremeaux@wanadoo.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
+Domaine Duvernay P et F,domaine,Mercurey,https://www.domaine-duvernay-mercurey.com/,domaine.duvernay@orange.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
+Domaine Anne et Thierry Dureault,domaine,Mercurey,https://www.dureault.fr/,at.dureault@gmail.com,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
+Domaine de la Luolle,domaine,Mercurey,https://www.domainedelaluolle.fr/,domaine@laluolle.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
+Domaine de la Monette,domaine,Mercurey,https://www.domainedelamonette.fr/,,,"ecarte (site recent et entretenu, pas d'e-mail)",2026-10-18
+Domaine Jeanne & François Raquillet,domaine,Mercurey,https://www.domaine-raquillet.com/,contact@domaine-raquillet.com,,ecarte (site recent : 2026 visible),2026-10-18
+Domaine Jérôme Chezeaux,domaine,Premeaux-Prissey,https://domaine-jerome-chezeaux.jimdosite.com/,,,"ecarte (e-mail masque, non lisible)",2026-10-18
+Domaine Bouhey & Fils,domaine,Villers-la-Faye (Côte-d'Or),https://vinbourgogne-bouheyjcetfils.jimdofree.com/,domaine-bouhey@orange.fr,domaine-bouhey-c19051,brouillon pret,2026-10-18
+La Grange,restaurant,Chambéry,https://www.restaurantlagrange.com/,,,ecarte (site recent : 2026 visible),2026-10-18
+La Grenouille,restaurant,Villars-les-Dombes,https://www.restaurant-la-grenouille.com/,,,ecarte (site recent : 2026 visible),2026-10-18
+Restaurant Le Saint Jean,restaurant,Saint-Jean-de-Thurigneux,https://www.restaurantlesaintjean.org/,,,ecarte (pas d'e-mail public),2026-10-18
+Restaurant des Dombes,restaurant,Saint-André-le-Bouchoux,https://www.restaurantdesdombes.com/,restaurantdesdombes@orange.fr,,ecarte (site modifie en 2026),2026-10-18
+La Yaute,restaurant,Annecy,https://www.la-yaute-restaurant-annecy.fr/,,,ecarte (site recent : 2026 visible),2026-10-18
+Savoie Elec,artisan (électricien),Chamonix / Massingy,https://www.savoie-elec.fr/,savoie.elec@yahoo.com,,ecarte (site recent : Webflow 2025),2026-10-18
+MD Elec,artisan (électricien),Gilly-sur-Isère,https://electricien-savoie-73.fr/,contact@md-elec.com,,ecarte (site recent : WordPress 2024),2026-10-18
+Monnet Decor,artisan (peintre),Grenoble,https://monnetdecor.wixsite.com/monsite,monnet.decor@gmail.com,,ecarte (site recent : Wix 2023),2026-10-18
+Peintre Chambéry,artisan (peintre),Chambéry,http://www.peintre-chambery.com/,,,ecarte (lecture impossible : robots.txt),2026-10-18
+SARL Boudour,artisan (peintre),Grenoble,https://www.sarlboudour.fr/,a.boudour.btp@gmail.com,,"ecarte (site recent et correct, Futur Digital)",2026-10-18
+Aurélien Giroud,artisan (peintre),Chambéry,https://renovation-chambery73.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-18
+Benaissa Peinture (Adjib Benaissa),artisan (peintre),Chambéry,https://www.benaissapeinture.fr/,peinture73000@gmail.com,benaissa-peinture-d0dfb6,brouillon pret,2026-10-18
+JYS Toiture,artisan (couvreur),Irigny,https://www.artisan-couvreur-jys-toiture.com/,,,ecarte (pas d'e-mail public),2026-10-18
+Clavey 2 Bois,artisan (menuisier),Lyon,https://clavey2bois.com/,,,ecarte (lecture impossible : erreur serveur),2026-10-18
+Jean d'Harcourt ébéniste,artisan (menuisier ébéniste),Rivolet,https://jeandharcourt-ebeniste.fr/,jean@jeandharcourt-ebeniste.fr,,"ecarte (site soigné d'agence 2018, pas assez date ; piste de reserve)",2026-10-18
+RZ Électricité,artisan (électricien),Lyon,http://rz-electricite-lyon.com/electricien-lyon/,,,ecarte (lecture impossible : redirection en boucle),2026-10-18
+Greffet Romain Plomberie-Chauffage,artisan (plombier chauffagiste),Saint-Pierre-la-Palud,https://www.plomberie-chauffage-greffet.com/,plomberie.greffet@gmail.com,,ecarte (site recent : Wix 2025),2026-10-18
+Pose & Vous,artisan (rénovation),Voiron,https://www.pose-et-vous-renovation.fr/electricite.php,,,ecarte (lecture impossible : robots.txt),2026-10-18
+Mont Blanc Diagnostics,diagnostiqueur,Grenoble,https://www.montblancdiagnostics.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-18
+Alpes Habitat Expertises (Sylvain Léo),diagnostiqueur,Échirolles (Grenoble),https://www.ahexpertises.fr/,ahexpertises@ahexpertises.fr,ah-expertises-312fcf,brouillon pret,2026-10-18
+Marine Mathiaud,avocat,Grenoble,http://www.mathiaud-avocat-grenoble.fr/,,,ecarte (lecture impossible : redirection en boucle),2026-10-18
+JBV Avocats,avocat,Grenoble,https://www.jbv-avocats.fr/,cabinet@jbv-avocats.fr,,"ecarte (non retenu ce passage : un seul avocat par lot ; Wix 2020, piste de reserve)",2026-10-18
+Maître Mélanie Grimonet,avocat,Annecy,https://grimonet-avocat.fr/,contact@grimonet-avocat.fr,grimonet-avocat-bc4c31,brouillon pret,2026-10-18
