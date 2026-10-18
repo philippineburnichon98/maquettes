@@ -1,0 +1,719 @@
+{
+ "slug": "grimonet-avocat-bc4c31",
+ "title": "Avocat Annecy, Haute-Savoie — Maître Mélanie Grimonet",
+ "description": "Maître Mélanie Grimonet, avocate au Barreau d'Annecy, face au Palais de Justice : préjudice corporel, droit de la construction, droit immobilier, droit de la famille et divorce, droit pénal et routier, droit civil, droit social, enchères immobilières, droit collaboratif.",
+ "brand": "Maître Mélanie Grimonet",
+ "tagline": "Avocate au Barreau d'Annecy",
+ "logo": {
+  "src": "https://grimonet-avocat.fr/images/logo-mg-new2.png",
+  "height": 56,
+  "bg": "#ffffff"
+ },
+ "phead": "box",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f7f6f3",
+  "paper2": "#ebe8e1",
+  "ink": "#1b2230",
+  "muted": "#5c6270",
+  "accent": "#243b5e",
+  "accent2": "#1a2c47",
+  "gold": "#a88b5a",
+  "heroem": "#e3cfa6",
+  "serif": "\"Playfair Display\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "presentation",
+   "Présentation"
+  ],
+  [
+   "domaines",
+   "Domaines"
+  ],
+  [
+   "honoraires",
+   "Honoraires"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://grimonet-avocat.fr/images/revolutionslider/slider1.jpg",
+  "eyebrow": "Avocate au Barreau d'Annecy · Haute-Savoie",
+  "title": "Comprendre, accompagner, <em>défendre</em>",
+  "lead": "Le cabinet de Maître Mélanie Grimonet, en face du Palais de Justice d'Annecy, informe, conseille et défend particuliers et professionnels.",
+  "cta1": [
+   "Prendre contact",
+   "contact/"
+  ],
+  "cta2": [
+   "04 50 45 13 44",
+   "tel:+33450451344"
+  ]
+ },
+ "figures": [
+  [
+   "2008",
+   "prestation de serment"
+  ],
+  [
+   "9",
+   "domaines d'intervention"
+  ],
+  [
+   "5",
+   "juridictions où elle plaide régulièrement"
+  ],
+  [
+   "74",
+   "toute la Haute-Savoie"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Le cabinet",
+   "title": "Maître <em class=\"it\">Mélanie Grimonet</em>",
+   "img": "https://grimonet-avocat.fr/images/profession/profile-pic.jpg",
+   "alt": "Maître Mélanie Grimonet",
+   "paras": [
+    "Le cabinet se situe face au Palais de Justice d'Annecy. Maître Grimonet informe, conseille et défend ses clients, et les représente devant la plupart des juridictions du ressort de la cour d'appel de Chambéry.",
+    "Le cabinet intervient dans toute la Haute-Savoie et en région Rhône-Alpes, et peut se déplacer sur tout le territoire national. Maître Grimonet plaide régulièrement à Annecy, Chambéry, Albertville, Thonon-les-Bains et Bonneville."
+   ],
+   "logos": [
+    [
+     "https://grimonet-avocat.fr/images/revolutionslider/logo_presentation.png",
+     "Maître Mélanie Grimonet"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "eyebrow": "Domaines d'intervention",
+   "title": "Neuf domaines <em class=\"it\">d'intervention</em>",
+   "lead": "<a href=\"domaines/\" style=\"border-bottom:1px solid var(--gold)\">Voir tous les domaines</a>",
+   "items": [
+    {
+     "kicker": "Domaine",
+     "title": "Préjudice corporel",
+     "paras": [
+      "Victime d'un accident de la route ou de la vie (accident domestique, brûlure, chute), d'une agression ou d'un accident médical : le cabinet vous accompagne pour obtenir la réparation intégrale de votre préjudice."
+     ],
+     "link": [
+      "En savoir plus",
+      "domaines/"
+     ]
+    },
+    {
+     "kicker": "Domaine",
+     "title": "Droit de la construction",
+     "paras": [
+      "Litiges avec un promoteur, un constructeur de maison individuelle, un entrepreneur ou un artisan : malfaçons, non-conformités, retards, abandon de chantier."
+     ],
+     "link": [
+      "En savoir plus",
+      "domaines/"
+     ]
+    },
+    {
+     "kicker": "Domaine",
+     "title": "Droit immobilier",
+     "paras": [
+      "Litiges locatifs (loyers impayés, expulsions, logements insalubres) et litiges de copropriété (recouvrement de charges, contestation de travaux votés en assemblée générale)."
+     ],
+     "link": [
+      "En savoir plus",
+      "domaines/"
+     ]
+    },
+    {
+     "kicker": "Domaine",
+     "title": "Droit de la famille & divorce",
+     "paras": [
+      "Des moments heureux de la vie de couple aux épreuves comme la séparation, le divorce, le décès et les successions, le cabinet vous accompagne dans l'évolution de votre situation personnelle."
+     ],
+     "link": [
+      "En savoir plus",
+      "domaines/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "valeurs",
+   "dark": true,
+   "eyebrow": "Notre approche",
+   "title": "Comprendre, étudier, <em class=\"it\">défendre, suivre</em>",
+   "items": [
+    [
+     "Confiance",
+     "Le secret professionnel et la déontologie de l'avocat."
+    ],
+    [
+     "Personnalisation",
+     "Un suivi personnalisé de chaque dossier."
+    ],
+    [
+     "Conseil",
+     "Une information transparente sur les conditions financières."
+    ],
+    [
+     "Contrôle",
+     "Un accompagnement à chaque étape."
+    ],
+    [
+     "Réactivité",
+     "Une réponse rapide à vos questions."
+    ],
+    [
+     "Service",
+     "Une information régulière sur l'avancée de votre dossier."
+    ]
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://grimonet-avocat.fr/images/revolutionslider/slider2.jpg",
+   "eyebrow": "Annecy · Haute-Savoie",
+   "title": "Exposez-nous <em>votre situation</em>",
+   "cta": [
+    "Contacter le cabinet",
+    "contact/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Le cabinet",
+   "title": "Face au Palais de Justice <em class=\"it\">d'Annecy</em>",
+   "text": "Rendez-vous au cabinet, du lundi au vendredi.",
+   "rows": [
+    [
+     "Adresse",
+     "19 rue de la Paix<br>74000 Annecy"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33450451344\">04 50 45 13 44</a><br><a href=\"tel:+33764312055\">07 64 31 20 55</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@grimonet-avocat.fr\">contact@grimonet-avocat.fr</a>"
+    ],
+    [
+     "Horaires",
+     "Du lundi au vendredi, 9h-12h et 14h-18h"
+    ]
+   ],
+   "cta": [
+    "Appeler le cabinet",
+    "tel:+33450451344"
+   ],
+   "map_q": "19 rue de la Paix, 74000 Annecy"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "presentation",
+   "label": "Présentation",
+   "title": "Présentation",
+   "eyebrow": "Avocate au Barreau d'Annecy",
+   "lead": "Comprendre, accompagner, défendre.",
+   "img": "https://grimonet-avocat.fr/images/profession/profile-pic-2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "maitre",
+     "eyebrow": "Présentation",
+     "title": "Un suivi personnalisé <em class=\"it\">et transparent</em>",
+     "img": "https://grimonet-avocat.fr/images/profession/profile-pic-2.jpg",
+     "alt": "Maître Mélanie Grimonet",
+     "paras": [
+      "Le cabinet, situé en face du Palais de Justice d'Annecy, conseille et défend particuliers et professionnels, devant la plupart des juridictions du ressort de la cour d'appel de Chambéry, sur toute la Haute-Savoie, en Rhône-Alpes et, si besoin, sur le territoire national.",
+      "Chaque client bénéficie d'un suivi personnalisé et transparent, avec une information à chaque étape de son dossier."
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "parcours",
+     "eyebrow": "Parcours",
+     "title": "Le parcours <em class=\"it\">de Maître Grimonet</em>",
+     "lead": "Titulaire d'un Master en droit des affaires appliqué aux industries de la santé.",
+     "items": [
+      {
+       "when": "2008",
+       "who": "Prestation de serment",
+       "text": "Master en droit des affaires appliqué aux industries de la santé."
+      },
+      {
+       "when": "2009-2010",
+       "who": "Enseignement",
+       "text": "Chargée de travaux dirigés en droit civil et en droit de la famille à l'université Jean Monnet de Saint-Étienne."
+      },
+      {
+       "when": "2010-2011",
+       "who": "Cabinets lyonnais",
+       "text": "Collaboratrice dans des cabinets lyonnais, dont Ducrot DPA, où elle acquiert une expérience en droit de la construction."
+      },
+      {
+       "when": "2011-2016",
+       "who": "Barreau d'Annecy",
+       "text": "Intégration au Barreau d'Annecy, puis collaboration au sein d'un cabinet d'avocats pénalistes."
+      },
+      {
+       "when": "2016-2018",
+       "who": "Vailly & Becker",
+       "text": "Collaboratrice libérale en droit de la construction, immobilier, des assurances, préjudice corporel, pénal et famille."
+      },
+      {
+       "when": "Depuis 2019",
+       "who": "Perrissin Merotto Favre",
+       "text": "Avocate collaboratrice libérale, dans les mêmes domaines."
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "acces",
+     "eyebrow": "Accès rapides",
+     "title": "Votre situation, <em class=\"it\">en un clic</em>",
+     "items": [
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/2fa67f482133f1c934235b73c2a03954_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Protéger un proche",
+       "paras": [
+        "Régimes de protection : sauvegarde de justice, curatelle, tutelle, habilitation familiale."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      },
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/39eee751af30032eeece2f48de2de4ba_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Louer un appartement",
+       "paras": [
+        "Baux, loyers impayés, résiliation du bail, expulsion."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      },
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/36fdb1a35cd2f54f95cf2119fb5bc7ed_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Acheter un appartement",
+       "paras": [
+        "Copropriété, construction, enchères immobilières."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      },
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/c99e3db826c0f4cc2688a36ce3b60e1a_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Réparer un préjudice",
+       "paras": [
+        "Accidents de la route ou de la vie, agressions, accidents médicaux."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      },
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/ccb4e23c8aa216f1e96d31ab209c036b_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Choisir un régime",
+       "paras": [
+        "Mariage, concubinage et PACS."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      },
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/6f43b5263fbba79c5962514b85d34738_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Droit de la consommation",
+       "paras": [
+        "Différends contractuels, achats en ligne, démarchage."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      },
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/19f9cefdfb07230a68581d617885a3af_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Divorcer sans juge",
+       "paras": [
+        "Divorce par consentement mutuel, droit collaboratif."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      },
+      {
+       "img": "https://grimonet-avocat.fr/media/k2/items/cache/8b6e33345ac8d5ffd9cf0d107a7d9e9d_XL.jpg",
+       "kicker": "Accès rapide",
+       "title": "Embaucher",
+       "paras": [
+        "De l'embauche à la rupture du contrat de travail."
+       ],
+       "link": [
+        "Voir les domaines",
+        "../domaines/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "domaines",
+   "label": "Domaines",
+   "title": "Domaines d'intervention",
+   "eyebrow": "Avocat Haute-Savoie · Annecy",
+   "lead": "Préjudice corporel, construction, immobilier, famille, pénal, civil, social, enchères immobilières et droit collaboratif.",
+   "img": "https://grimonet-avocat.fr/images/revolutionslider/slider3.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "liste",
+     "eyebrow": "Domaines",
+     "title": "Neuf domaines <em class=\"it\">d'intervention</em>",
+     "items": [
+      {
+       "kicker": "Domaine",
+       "title": "Préjudice corporel",
+       "paras": [
+        "Victime d'un accident de la route ou de la vie (accident domestique, brûlure, chute), d'une agression ou d'un accident médical : le cabinet vous accompagne pour obtenir la réparation intégrale de votre préjudice.",
+        "Les victimes se retrouvent souvent démunies face à la complexité des procédures : l'avocat intervient de la constatation des blessures par les professionnels de santé jusqu'à l'obtention d'un rapport médical, amiable ou judiciaire."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/prejudice-corporel-annecy"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Droit de la construction",
+       "paras": [
+        "Litiges avec un promoteur, un constructeur de maison individuelle, un entrepreneur ou un artisan : malfaçons, non-conformités, retards, abandon de chantier."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/droit-construction-annecy"
+       ],
+       "list": [
+        "Garantie de parfait achèvement (un an), pour lever les réserves",
+        "Garantie biennale de bon fonctionnement (deux ans)",
+        "Garantie décennale (dix ans), pour les désordres touchant la solidité ou la destination de l'ouvrage",
+        "Assurance dommages-ouvrage, expertises, démarches amiables et judiciaires"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Droit immobilier",
+       "paras": [
+        "Litiges locatifs (loyers impayés, expulsions, logements insalubres) et litiges de copropriété (recouvrement de charges, contestation de travaux votés en assemblée générale)."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/droit-immobilier-annecy"
+       ],
+       "list": [
+        "Gestion locative : recouvrement des loyers, résiliation du bail, expulsion",
+        "Copropriété : syndic, travaux, règlement, décisions d'assemblée générale",
+        "Baux d'habitation et baux commerciaux",
+        "Litiges de voisinage"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Droit de la famille & divorce",
+       "paras": [
+        "Des moments heureux de la vie de couple aux épreuves comme la séparation, le divorce, le décès et les successions, le cabinet vous accompagne dans l'évolution de votre situation personnelle."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/droit-famille-divorce-annecy"
+       ],
+       "list": [
+        "Changement de nom ou de prénom ; régimes de protection (sauvegarde de justice, curatelle, tutelle, habilitation familiale)",
+        "Mariage, concubinage et PACS",
+        "Séparation et divorce ; prestation compensatoire",
+        "Filiation, autorité parentale, adoption",
+        "Contentieux après divorce : pension alimentaire, droit de visite et d'hébergement",
+        "Droits des grands-parents ; succession et partage"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Droit pénal & droit routier",
+       "paras": [
+        "Auteurs comme victimes d'infractions : conduite en état d'ivresse, violences, vols, escroqueries. Assistance en garde à vue, en audition libre, en comparution sur reconnaissance préalable de culpabilité (CRPC), devant l'ensemble des juridictions pénales, y compris le tribunal pour enfants, et devant le juge d'application des peines."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/droit-penal-routier-annecy"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Droit civil",
+       "paras": [
+        "Atteinte à votre propriété, troubles de voisinage, différend contractuel, recouvrement de créances : un désaccord avec le vendeur d'un véhicule, un bien acheté sur Internet qui ne fonctionne pas, une installation photovoltaïque acceptée à la suite d'un démarchage.",
+        "Mise en jeu des responsabilités contractuelle, délictuelle et médicale."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/droit-civil-annecy"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Droit social",
+       "paras": [
+        "Salariés et employeurs confrontés à un litige lié au travail : heures supplémentaires non payées, licenciement, proposition de rupture conventionnelle, abandon de poste. Un accompagnement de l'embauche à la rupture du contrat de travail."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/droit-social-annecy"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Enchères immobilières",
+       "paras": [
+        "Vous souhaitez acquérir un bien immobilier aux enchères : Maître Grimonet vous assiste lors des audiences d'adjudication et porte les enchères en votre nom devant le tribunal d'Annecy."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/encheres-immobilieres-annecy"
+       ]
+      },
+      {
+       "kicker": "Domaine",
+       "title": "Droit collaboratif",
+       "paras": [
+        "Un mode alternatif de règlement des conflits, qui permet de régler un différend sans abîmer la relation entre les parties et d'éviter la voie judiciaire.",
+        "Les parties et leurs avocats, formés à cette méthode, signent une charte collaborative : ils s'engagent à ne pas saisir un juge, à la transparence et à la bonne foi. Les négociations restent confidentielles ; en cas d'accord, le juge l'homologue."
+       ],
+       "link": [
+        "Voir la page d'origine",
+        "https://grimonet-avocat.fr/index.php/avocat-74/droit-collaboratif-annecy"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Envoyer un message",
+     "title": "Exposez-nous <em class=\"it\">votre situation</em>",
+     "lead": "Les conditions financières vous sont présentées dès le premier rendez-vous.",
+     "side": [
+      "Tél. : <a href=\"tel:+33450451344\" style=\"border-bottom:1px solid var(--gold)\">04 50 45 13 44</a> · <a href=\"tel:+33764312055\" style=\"border-bottom:1px solid var(--gold)\">07 64 31 20 55</a>",
+      "E-mail : <a href=\"mailto:contact@grimonet-avocat.fr\" style=\"border-bottom:1px solid var(--gold)\">contact@grimonet-avocat.fr</a>",
+      "Du lundi au vendredi, 9h-12h et 14h-18h"
+     ],
+     "email": "contact@grimonet-avocat.fr",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honoraires",
+   "label": "Honoraires",
+   "title": "Honoraires",
+   "eyebrow": "Convention d'honoraires",
+   "lead": "Vous êtes informé des conditions financières d'intervention du cabinet dès le premier rendez-vous.",
+   "img": "https://grimonet-avocat.fr/images/revolutionslider/slider2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "honoraires",
+     "eyebrow": "Honoraires",
+     "title": "Des conditions <em class=\"it\">claires et écrites</em>",
+     "lead": "Conformément à l'article 10 de la loi du 31 décembre 1971, les conditions financières sont systématiquement retranscrites dans une convention d'honoraires écrite, adaptée à votre situation.",
+     "items": [
+      {
+       "kicker": "Mode de fixation",
+       "title": "Au forfait",
+       "paras": [
+        "Pour les dossiers dont les diligences sont prévisibles, l'honoraire est fixé à une somme globale et forfaitaire pour toute la procédure (hors frais d'huissier et dépens)."
+       ]
+      },
+      {
+       "kicker": "Mode de fixation",
+       "title": "Au taux horaire",
+       "paras": [
+        "Le cabinet facture le temps effectivement consacré au dossier, selon le taux fixé dans la convention. Une provision à valoir sur les frais et honoraires est demandée avant les premières diligences ; d'autres provisions peuvent être demandées selon l'évolution du dossier."
+       ]
+      },
+      {
+       "kicker": "Mode de fixation",
+       "title": "Honoraire de résultat",
+       "paras": [
+        "Un honoraire complémentaire peut être convenu, en principe un pourcentage de l'économie réalisée ou des sommes obtenues pour le client."
+       ]
+      },
+      {
+       "kicker": "Critères",
+       "title": "Des honoraires libres",
+       "paras": [
+        "Les honoraires sont fixés selon les usages et l'article 11.2 du règlement intérieur national : temps passé, recherches, difficulté et importance de l'affaire, frais du cabinet, notoriété et expérience de l'avocat, résultat obtenu, situation de fortune du client."
+       ]
+      },
+      {
+       "kicker": "Aide",
+       "title": "Aide juridictionnelle",
+       "paras": [
+        "Selon la nature du dossier, Maître Grimonet peut accepter d'intervenir au titre de l'aide juridictionnelle lorsque le client ne dispose pas des ressources suffisantes."
+       ]
+      },
+      {
+       "kicker": "Assurance",
+       "title": "Protection juridique",
+       "paras": [
+        "Vérifiez vos contrats (habitation, automobile, bancaire…) : ils peuvent prendre en charge une partie des honoraires. Le contrat d'assurance protection juridique permet de choisir librement son avocat."
+       ]
+      },
+      {
+       "kicker": "Remboursement",
+       "title": "Article 700",
+       "paras": [
+        "Le juge peut condamner la partie perdante à rembourser tout ou partie des frais et honoraires, au titre des frais irrépétibles (article 700 du Code de procédure civile)."
+       ]
+      },
+      {
+       "kicker": "Contestation",
+       "title": "Bâtonnier et médiateur",
+       "paras": [
+        "En cas de contestation, le Bâtonnier de l'Ordre des Avocats du Barreau d'Annecy peut être saisi, ainsi que le Médiateur de la consommation de la profession d'avocat, après une réclamation écrite adressée au cabinet."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Conseil juridique à Annecy",
+   "lead": "Du lundi au vendredi, 9h-12h et 14h-18h.",
+   "img": "https://grimonet-avocat.fr/images/revolutionslider/slider1.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Envoyer un message",
+     "title": "Exposez-nous <em class=\"it\">votre situation</em>",
+     "lead": "Les conditions financières vous sont présentées dès le premier rendez-vous.",
+     "side": [
+      "Tél. : <a href=\"tel:+33450451344\" style=\"border-bottom:1px solid var(--gold)\">04 50 45 13 44</a> · <a href=\"tel:+33764312055\" style=\"border-bottom:1px solid var(--gold)\">07 64 31 20 55</a>",
+      "E-mail : <a href=\"mailto:contact@grimonet-avocat.fr\" style=\"border-bottom:1px solid var(--gold)\">contact@grimonet-avocat.fr</a>",
+      "Du lundi au vendredi, 9h-12h et 14h-18h"
+     ],
+     "email": "contact@grimonet-avocat.fr",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Le cabinet",
+     "title": "Face au Palais de Justice <em class=\"it\">d'Annecy</em>",
+     "text": "Rendez-vous au cabinet, du lundi au vendredi.",
+     "rows": [
+      [
+       "Adresse",
+       "19 rue de la Paix<br>74000 Annecy"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33450451344\">04 50 45 13 44</a><br><a href=\"tel:+33764312055\">07 64 31 20 55</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@grimonet-avocat.fr\">contact@grimonet-avocat.fr</a>"
+      ],
+      [
+       "Horaires",
+       "Du lundi au vendredi, 9h-12h et 14h-18h"
+      ]
+     ],
+     "cta": [
+      "Appeler le cabinet",
+      "tel:+33450451344"
+     ],
+     "map_q": "19 rue de la Paix, 74000 Annecy"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Maître Mélanie Grimonet, avocate au Barreau d'Annecy, face au Palais de Justice d'Annecy. Conseil et défense des particuliers et des professionnels en Haute-Savoie.",
+  "contact": [
+   "<a href=\"tel:+33450451344\">04 50 45 13 44</a>",
+   "<a href=\"tel:+33764312055\">07 64 31 20 55</a>",
+   "<a href=\"mailto:contact@grimonet-avocat.fr\">contact@grimonet-avocat.fr</a>",
+   "19 rue de la Paix, 74000 Annecy"
+  ],
+  "legal": "Avocate au Barreau d'Annecy · SIREN 510 494 826 · Médiateur de la consommation de la profession d'avocat",
+  "legal_url": "https://grimonet-avocat.fr/index.php/avocatannecy"
+ }
+}
