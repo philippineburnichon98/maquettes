@@ -1,0 +1,370 @@
+{
+ "slug": "morgon-mathon-9ce48a",
+ "title": "Domaine Roche Saint-Jean — Ludovic Mathon, vigneron à Villié-Morgon",
+ "description": "Domaine Roche Saint-Jean, créé en 1878 : Ludovic Mathon cultive 15 hectares à Villié-Morgon (Rhône). Morgon, Les Grands-Cras, Côte du Py, Premium et Le Naturel.",
+ "brand": "Domaine Roche Saint-Jean",
+ "tagline": "Ludovic Mathon · Villié-Morgon",
+ "agegate": true,
+ "logo": {
+  "src": "https://morgon-mathon.fr/wp-content/uploads/2018/03/logomobile-2.png",
+  "height": 54,
+  "bg": "#f7f2ea"
+ },
+ "theme": {
+  "look": "editorial",
+  "paper": "#f7f2ea",
+  "paper2": "#eee5d8",
+  "ink": "#1f1716",
+  "muted": "#6a5c57",
+  "accent": "#7a1f2e",
+  "accent2": "#5f1723",
+  "gold": "#b08a55",
+  "heroem": "#f0d2b4",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Jost\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap"
+ },
+ "nav": [["domaine", "Domaine"], ["terroirs", "Terroirs"], ["vins", "Vins"], ["partenaires", "Partenaires"], ["contact", "Contact"], ["commander", "Commander"]],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://morgon-mathon.fr/wp-content/uploads/2018/05/fut.jpg",
+  "eyebrow": "Domaine Roche Saint-Jean · Villié-Morgon (Rhône)",
+  "title": "Les Morgon de <em>Ludovic Mathon</em>",
+  "lead": "Une production à majorité de rouges, issue de terroirs et de coteaux exceptionnels, et un savoir-faire transmis depuis six générations.",
+  "cta1": ["Nos vins", "nos-vins/"],
+  "cta2": ["Commander nos vins", "commander-nos-vins/"]
+ },
+ "figures": [
+  ["1878", "création du domaine"],
+  ["15 ha", "de propriété familiale"],
+  ["6", "générations de savoir-faire"],
+  ["5", "cuvées de Morgon"]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "accueil-domaine",
+   "eyebrow": "Le domaine",
+   "title": "Venez découvrir <em class=\"it\">le Domaine Roche Saint-Jean</em>",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2020/11/20201101_185909-002.jpg",
+   "alt": "Domaine Morgon Mathon",
+   "paras": [
+    "Ludovic Mathon est viticulteur à Villié-Morgon. Sa production dans le Rhône est à majorité de rouges, issue de terroirs et de coteaux exceptionnels, préservés par six générations de savoir-faire.",
+    "Découvrez sa passion, ses caves et ses vins de Morgon."
+   ],
+   "sign": "Ludovic Mathon"
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "Bienvenue",
+   "title": "Le domaine, ses terroirs, <em class=\"it\">ses vins</em>",
+   "items": [
+    {
+     "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/cuve-1.jpg",
+     "alt": "Cuverie",
+     "title": "Le domaine",
+     "paras": ["Découvrez le Domaine Roche Saint-Jean à Villié-Morgon (69)."],
+     "link": ["Voir +", "le-domaine/"]
+    },
+    {
+     "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/IMG_6627.jpg",
+     "alt": "Vignes du domaine",
+     "title": "Les terroirs",
+     "paras": ["Nos pratiques et notre façon de travailler nos terroirs."],
+     "link": ["Voir +", "les-terroirs/"]
+    },
+    {
+     "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/vin.jpg",
+     "alt": "Vin",
+     "title": "Nos vins",
+     "paras": ["Toute la gamme de nos vins, Morgon et Bourgogne."],
+     "link": ["Voir +", "nos-vins/"]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Au fil <em class=\"it\">des saisons</em>",
+   "photos": [
+    {"thumb": "https://morgon-mathon.fr/wp-content/uploads/2018/05/jeunepousse.jpg", "full": "https://morgon-mathon.fr/wp-content/uploads/2018/05/jeunepousse.jpg", "alt": "Jeune pousse de vigne"},
+    {"thumb": "https://morgon-mathon.fr/wp-content/uploads/2018/05/diplome.jpg", "full": "https://morgon-mathon.fr/wp-content/uploads/2018/05/diplome.jpg", "alt": "Diplôme"},
+    {"thumb": "https://morgon-mathon.fr/wp-content/uploads/2018/05/photo-12-1.jpg", "full": "https://morgon-mathon.fr/wp-content/uploads/2018/05/photo-12-1.jpg", "alt": "Le domaine"},
+    {"thumb": "https://morgon-mathon.fr/wp-content/uploads/2018/05/fut.jpg", "full": "https://morgon-mathon.fr/wp-content/uploads/2018/05/fut.jpg", "alt": "Fût"}
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/IMG_6751-340x227.jpg",
+   "eyebrow": "Nos partenaires",
+   "title": "Explorez les environs et dégustez nos produits régionaux",
+   "cta": ["Nos partenaires", "partenaires/"]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Une question, une commande ?",
+   "text": "Vous souhaitez des renseignements ou faire une commande de vin ? Contactez-nous.",
+   "sub": "(+33) 4 74 04 26 95 · earl.mathon@wanadoo.fr"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "le-domaine",
+   "label": "Domaine",
+   "title": "Le domaine",
+   "eyebrow": "Domaine Roche Saint-Jean · depuis 1878",
+   "lead": "Une propriété familiale de 15 hectares à Villié-Morgon.",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2020/11/20201101_185909-002.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "domaine",
+     "eyebrow": "Le domaine",
+     "title": "Six générations <em class=\"it\">de vignerons</em>",
+     "img": "https://morgon-mathon.fr/wp-content/uploads/2016/05/20201101_184321-002.jpg",
+     "alt": "Ludovic Mathon",
+     "paras": [
+      "Le Domaine Roche Saint-Jean a été créé en 1878. Actuellement, c'est Ludovic Mathon qui est à la tête de la propriété familiale de 15 hectares.",
+      "Depuis toutes ces années, nous avons gardé les mêmes exigences de qualité. C'est dans notre cuverie fonctionnelle, dotée d'équipements modernes et performants, qu'on élabore nos vins, dans la continuité du patrimoine du domaine.",
+      "C'est un savoir-faire depuis six générations, autour de leurs grands terroirs. Ludovic cultive ses vignes en lutte raisonnée, dans le respect de l'environnement."
+     ],
+     "sign": "Ludovic Mathon"
+    },
+    {
+     "kind": "gallery",
+     "id": "cuverie",
+     "eyebrow": "La cuverie",
+     "title": "Au <em class=\"it\">domaine</em>",
+     "photos": [
+      {"thumb": "https://morgon-mathon.fr/wp-content/uploads/2020/11/20201101_185909-002.jpg", "full": "https://morgon-mathon.fr/wp-content/uploads/2020/11/20201101_185909-002.jpg", "alt": "Domaine Morgon Mathon"},
+      {"thumb": "https://morgon-mathon.fr/wp-content/uploads/2017/07/cuve-1.jpg", "full": "https://morgon-mathon.fr/wp-content/uploads/2017/07/cuve-1.jpg", "alt": "Cuve"},
+      {"thumb": "https://morgon-mathon.fr/wp-content/uploads/2018/05/photo-12-1.jpg", "full": "https://morgon-mathon.fr/wp-content/uploads/2018/05/photo-12-1.jpg", "alt": "Le domaine"}
+     ],
+     "cta": ["Vous souhaitez visiter notre domaine ? Contactez-nous", "../contact/"]
+    }
+   ]
+  },
+  {
+   "slug": "les-terroirs",
+   "label": "Terroirs",
+   "title": "Les terroirs",
+   "eyebrow": "Morgon · Les Grands-Cras · Côte du Py",
+   "lead": "Enherbement naturel maîtrisé et respect de la vie du sol.",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/IMG_6627.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "terroirs",
+     "eyebrow": "Nos pratiques",
+     "title": "Le sol, <em class=\"it\">un être vivant</em>",
+     "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/IMG_6627.jpg",
+     "alt": "Vignes",
+     "paras": [
+      "Nous pratiquons l'enherbement naturel maîtrisé par tonte : il régule la vigueur de la vigne et préserve la matière organique.",
+      "L'herbe coupée et les feuilles restent au sol pour nourrir la vie microbienne."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "climats",
+     "eyebrow": "Nos climats",
+     "title": "Trois terroirs <em class=\"it\">de Morgon</em>",
+     "items": [
+      {
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/vigne-1-340x227.jpg",
+       "alt": "Vignes de Morgon",
+       "title": "Morgon",
+       "paras": ["Des vignes exposées sud et sud-est, sur des sols sableux reposant sur du grès argileux rouge et du schiste."]
+      },
+      {
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/vigne2-1-340x227.jpg",
+       "alt": "Les Grands-Cras",
+       "title": "Les Grands-Cras",
+       "paras": ["Le climat le plus au sud de l'appellation, sur argile et schiste."]
+      },
+      {
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/IMG_6751-340x227.jpg",
+       "alt": "Côte du Py",
+       "title": "Côte du Py",
+       "paras": ["Exposition plein sud, sur les pentes d'un ancien volcan : schiste décomposé et pierre bleue."]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nos-vins",
+   "label": "Vins",
+   "title": "Nos vins",
+   "eyebrow": "Morgon et Bourgogne",
+   "lead": "Cinq cuvées de Morgon, du fruité Tradition au Premium élevé en fût.",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/vin.jpg",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "vins",
+     "eyebrow": "La gamme",
+     "title": "Nos <em class=\"it\">cuvées</em>",
+     "lead": "Pour un bag-in-box ou un magnum, contactez-nous.",
+     "items": [
+      {
+       "name": "Morgon Tradition",
+       "tag": "Morgon",
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2016/05/EARL-Mathon_BasseDef_Morgon-183x300.png",
+       "color": "#7a1f2e",
+       "desc": "Vinification en macération semi-carbonique associée à la fermentation alcoolique. Un rouge à boire jeune, aux arômes de fruits frais et aux tanins naturels.",
+       "link": ["Commander", "../commander-nos-vins/"]
+      },
+      {
+       "name": "Morgon Les Grands-Cras",
+       "tag": "Morgon · climat",
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2016/05/EARL-Mathon_Morgon-Les-Grands-Cras-183x300.png",
+       "color": "#6a1a28",
+       "desc": "Issu du climat Les Grands-Cras, un terroir majeur de l'appellation. Macération de 10 à 15 jours selon les années. Robe intense, nez puissant de fruits mûrs avec une pointe d'épices.",
+       "link": ["Commander", "../commander-nos-vins/"]
+      },
+      {
+       "name": "Morgon Côte du Py",
+       "tag": "Morgon · climat",
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2016/05/EARL-Mathon_Morgon-Côte-du-Py-183x300.png",
+       "color": "#5c1622",
+       "desc": "Issu du climat de la Côte du Py, sur les coteaux. Extraction aromatique aux notes de noyau de cerise, tanins soyeux et longue finale.",
+       "link": ["Commander", "../commander-nos-vins/"]
+      },
+      {
+       "name": "Morgon Premium",
+       "tag": "Vieilles vignes · fût de chêne",
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2016/05/EARL-Mathon_BasseDef_Morgon-Prémium-183x300.png",
+       "color": "#4a121c",
+       "desc": "Une sélection de vignes du domaine de plus de 80 ans, travaillées en grande partie à la main. Élevage de 14 mois en fûts de chêne. Un vin puissant, au nez de fruits cuits et à la longue finale.",
+       "link": ["Commander", "../commander-nos-vins/"]
+      },
+      {
+       "name": "Morgon Le Naturel",
+       "tag": "Morgon",
+       "img": "https://morgon-mathon.fr/wp-content/uploads/2016/05/EARL-Mathon_Le-Naturel_-002-183x300.png",
+       "color": "#82303b",
+       "desc": "Sélectionné pour son terroir, sur un sol travaillé sans désherbant. Vendanges manuelles et vinification soignée, avec le moins d'intrants possible.",
+       "link": ["Commander", "../commander-nos-vins/"]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "partenaires",
+   "label": "Partenaires",
+   "title": "Nos partenaires",
+   "eyebrow": "Explorez les environs",
+   "lead": "Explorez les environs et dégustez nos produits régionaux.",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/IMG_6751-340x227.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "partenaires",
+     "eyebrow": "Partenaires",
+     "title": "Produits du terroir, <em class=\"it\">domaines amis, visites</em>",
+     "items": [
+      {
+       "kicker": "Produits du terroir",
+       "title": "Fromages et charcuteries",
+       "list": [
+        "<a href=\"http://www.bienvenue-a-la-ferme.com/rhone-alpes/rhone/cenves/ferme/gaec-de-la-grange-paisseaud/402587\" target=\"_blank\" rel=\"noopener\">La Grange Paisseaud</a>, Cenves (69) : fromages fermiers",
+        "Grandjean, Crèches-sur-Saône (71) : fromages régionaux",
+        "Comte frères, Décines (69) : charcuterie régionale",
+        "<a href=\"http://www.chillet.fr/\" target=\"_blank\" rel=\"noopener\">Maison Chillet</a>, Saint-Symphorien-sur-Coise (69) : charcuterie régionale"
+       ]
+      },
+      {
+       "kicker": "Domaines partenaires",
+       "title": "Des vignerons amis",
+       "list": [
+        "<a href=\"http://www.domaine-millot.com/\" target=\"_blank\" rel=\"noopener\">Domaine Millot</a>, Meursault (21)",
+        "<a href=\"https://www.domaine-larbussele.com/\" target=\"_blank\" rel=\"noopener\">Domaine de l'Arbussèle</a>, Faugères (34)",
+        "<a href=\"https://laloyane.com/\" target=\"_blank\" rel=\"noopener\">Domaine La Lôyane</a>, Rochefort-du-Gard (30)"
+       ]
+      },
+      {
+       "kicker": "Visites et loisirs",
+       "title": "Autour du domaine",
+       "list": [
+        "<a href=\"http://www.hameauduvin.com/\" target=\"_blank\" rel=\"noopener\">Musée de la vigne et du vin</a>, Romanèche-Thorins (71)",
+        "Table d'orientation du Fût, Avenas (69) : l'un des plus beaux points de vue de France",
+        "Sentiers pédestres et circuits VTT (<a href=\"http://www.ffrandonnee.fr/\" target=\"_blank\" rel=\"noopener\">FFRandonnée</a>, <a href=\"http://www.rhonetourisme.com/\" target=\"_blank\" rel=\"noopener\">Rhône Tourisme</a>)",
+        "<a href=\"http://www.golfgouverneur.fr/\" target=\"_blank\" rel=\"noopener\">Golf du Gouverneur et de la Bresse</a>",
+        "Tennis au Domaine Roche Saint-Jean"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Domaine Roche Saint-Jean",
+   "lead": "Une visite, un renseignement, une commande : contactez Ludovic Mathon.",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2018/05/fut.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "Venez nous voir <em class=\"it\">à Villié-Morgon</em>",
+     "text": "Vous souhaitez visiter notre domaine ? Appelez-nous ou écrivez-nous.",
+     "rows": [
+      ["Adresse", "Domaine Roche Saint-Jean<br>304 chemin de Maisons Neuves<br>Lieu-dit Bellevue, 69910 Villié-Morgon"],
+      ["Téléphone", "<a href=\"tel:+33474042695\">(+33) 4 74 04 26 95</a>"],
+      ["E-mail", "<a href=\"mailto:earl.mathon@wanadoo.fr\">earl.mathon@wanadoo.fr</a>"],
+      ["Facebook", "<a href=\"https://www.facebook.com/ludovic.mathon.54\" target=\"_blank\" rel=\"noopener\">Ludovic Mathon</a>"]
+     ],
+     "cta": ["Appeler le domaine", "tel:+33474042695"],
+     "map_q": "304 chemin de Maisons Neuves, 69910 Villié-Morgon"
+    }
+   ]
+  },
+  {
+   "slug": "commander-nos-vins",
+   "label": "Commander",
+   "title": "Commander nos vins",
+   "eyebrow": "Commande",
+   "lead": "Remplissez le formulaire pour nous adresser votre commande.",
+   "img": "https://morgon-mathon.fr/wp-content/uploads/2017/07/verre-1.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "commander",
+     "eyebrow": "Commande",
+     "title": "Votre <em class=\"it\">commande</em>",
+     "lead": "Indiquez la cuvée et le nombre de bouteilles (ou de bag-in-box) : le domaine revient vers vous.",
+     "email": "earl.mathon@wanadoo.fr",
+     "subject": "Commande de vin depuis le site",
+     "side": ["Par téléphone : <a href=\"tel:+33474042695\">(+33) 4 74 04 26 95</a>", "<a href=\"mailto:earl.mathon@wanadoo.fr\">earl.mathon@wanadoo.fr</a>"],
+     "fields": [
+      {"label": "Votre nom", "required": true},
+      {"label": "Votre e-mail", "type": "email", "required": true},
+      {"label": "Votre adresse postale", "required": true, "full": true},
+      {"label": "Votre téléphone", "type": "tel", "required": true},
+      {"label": "Commande de vin", "type": "select", "options": ["Morgon", "Morgon Les Grands Cras", "Morgon Côte du Py", "Morgon Premium", "Morgon Le Naturel"]},
+      {"label": "Votre demande / nombre de bouteilles (bag-in-box)", "type": "textarea"}
+     ],
+     "submit": "Envoyer ma commande"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Domaine Roche Saint-Jean : Ludovic Mathon, vigneron à Villié-Morgon. Morgon, Les Grands-Cras, Côte du Py.",
+  "contact": [
+   "<a href=\"tel:+33474042695\">(+33) 4 74 04 26 95</a>",
+   "<a href=\"mailto:earl.mathon@wanadoo.fr\">earl.mathon@wanadoo.fr</a>",
+   "304 chemin de Maisons Neuves, 69910 Villié-Morgon"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://morgon-mathon.fr/mentions-legales/"
+ }
+}
