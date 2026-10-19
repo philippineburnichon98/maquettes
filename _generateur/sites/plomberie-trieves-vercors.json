@@ -1,0 +1,362 @@
+{
+ "slug": "plomberie-trieves-vercors-3603a9",
+ "title": "Plomberie Chauffage Trièves Vercors — Michel Poujois, plombier chauffagiste à Monestier-de-Clermont",
+ "description": "Michel Poujois, plombier chauffagiste à Monestier-de-Clermont : création et réfection de salles de bains, plomberie, chauffage, dépannage. Intervention Sud Isère et bassin grenoblois. Devis gratuits.",
+ "brand": "Plomberie Chauffage Trièves Vercors",
+ "tagline": "Plombier chauffagiste · Monestier-de-Clermont",
+ "logo": {
+  "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=451x10000:format=jpg/path/s457e047e1386fd14/image/iad22523f9b88dfd0/version/1669811159/image.jpg",
+  "height": 56,
+  "bg": "#ffffff"
+ },
+ "theme": {
+  "look": "split",
+  "paper": "#f5f7f8",
+  "paper2": "#e6ecef",
+  "ink": "#1b2a33",
+  "muted": "#5a6a73",
+  "accent": "#1f6f9a",
+  "accent2": "#185a7d",
+  "gold": "#e08a2e",
+  "heroem": "#ffd2a1",
+  "serif": "\"Bitter\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+ },
+ "nav": [
+  [
+   "realisations",
+   "Nos réalisations"
+  ],
+  [
+   "equipements",
+   "Équipements proposés"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/backgroundarea/i32750534fbdc5780/version/1492250994/image.jpg",
+  "eyebrow": "Plombier chauffagiste · Monestier-de-Clermont",
+  "title": "Un seul artisan <em>pour votre projet</em>",
+  "lead": "Michel Poujois, spécialiste de la réfection de salle de bain. Plombier chauffagiste : création et réfection de salles de bains. Intervention Sud Isère / bassin grenoblois.",
+  "cta1": [
+   "Demander un devis",
+   "mailto:michel.poujois@wanadoo.fr?subject=Demande%20de%20devis"
+  ],
+  "cta2": [
+   "06 89 54 15 90",
+   "tel:+33689541590"
+  ]
+ },
+ "figures": [
+  [
+   "25 ans",
+   "d'expérience"
+  ],
+  [
+   "1",
+   "seul artisan pour votre projet"
+  ],
+  [
+   "0 €",
+   "le devis, toujours gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "salle-de-bain",
+   "eyebrow": "Spécialiste de la salle de bain",
+   "title": "25 ans d'expérience, <em class=\"it\">spécialiste de la salle de bain</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=447x1024:format=jpg/path/s457e047e1386fd14/image/i5e3fcfa3cac33373/version/1492252440/image.jpg",
+   "alt": "Salle de bain réalisée",
+   "paras": [
+    "Faïence, carrelage, plomberie : tous travaux, en neuf comme en rénovation.",
+    "Vous avez des projets de rénovation de votre salle de bain ? Vous souhaitez faire évoluer votre installation de plomberie ? Vous envisagez une rénovation de votre installation de chauffage ? Vous avez besoin de l'aide d'un professionnel pour résoudre une panne de votre installation ?",
+    "Contactez-nous au <a href=\"tel:+33689541590\" style=\"border-bottom:1px solid var(--gold)\">06 89 54 15 90</a>. Nos devis sont gratuits."
+   ],
+   "sign": "Michel Poujois"
+  },
+  {
+   "kind": "features",
+   "id": "installation",
+   "dark": true,
+   "eyebrow": "Installation",
+   "title": "Chauffage et eau chaude, <em class=\"it\">toutes énergies</em>",
+   "lead": "Pour tous vos travaux de plomberie et de chauffage, en rénovation ou en installation neuve.",
+   "items": [
+    [
+     "Bois",
+     "Installation de chauffage au bois."
+    ],
+    [
+     "Granulés",
+     "Installation de chauffage aux granulés."
+    ],
+    [
+     "Solaire sanitaire et chauffage",
+     "Le soleil pour l'eau chaude sanitaire et le chauffage."
+    ],
+    [
+     "Pompe à chaleur",
+     "Installation de pompes à chaleur."
+    ],
+    [
+     "Chauffe-eau",
+     "Pose et remplacement de chauffe-eau."
+    ],
+    [
+     "Étude thermique personnalisée",
+     "Une étude adaptée à votre logement."
+    ]
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "installations",
+   "eyebrow": "Plomberie et chauffage",
+   "title": "Rénovation, installation neuve <em class=\"it\">et dépannage</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/if9f0d462ca891a0c/version/1492252773/image.jpg",
+   "alt": "Installation de chauffage",
+   "paras": [
+    "Pour tous vos travaux de plomberie et de chauffage, en rénovation ou en installation neuve, et pour le dépannage de votre installation.",
+    "Les matériaux de liaison utilisés en priorité sont le multicouches et le cuivre."
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "apercu",
+   "eyebrow": "Nos réalisations",
+   "title": "Quelques exemples <em class=\"it\">de nos réalisations</em>",
+   "photos": [
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=485x10000:format=jpg/path/s457e047e1386fd14/image/ib94a35b98c5a5cbe/version/1492249679/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/ib94a35b98c5a5cbe/version/1492249679/image.jpg",
+     "alt": "Réalisation"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=485x10000:format=jpg/path/s457e047e1386fd14/image/i37354ea65ceec42a/version/1492249721/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i37354ea65ceec42a/version/1492249721/image.jpg",
+     "alt": "Réalisation"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=485x10000:format=jpg/path/s457e047e1386fd14/image/i82afa8291af2296b/version/1492249316/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i82afa8291af2296b/version/1492249316/image.jpg",
+     "alt": "Réalisation"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/s457e047e1386fd14/image/i18d00739d1606ba1/version/1370526958/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i18d00739d1606ba1/version/1370526958/image.jpg",
+     "alt": "Réalisation"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/s457e047e1386fd14/image/ibdeac49887342560/version/1325867490/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/ibdeac49887342560/version/1325867490/image.jpg",
+     "alt": "Réalisation"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/iec2d9d023bca14f9/version/1325867574/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/iec2d9d023bca14f9/version/1325867574/image.jpg",
+     "alt": "Réalisation"
+    }
+   ],
+   "cta": [
+    "Voir toutes les réalisations",
+    "#realisations"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/backgroundarea/i811f15ef89a0e51a/version/1492250992/image.jpg",
+   "eyebrow": "Devis gratuit",
+   "title": "Un projet de salle de bain <em class=\"it\">ou de chauffage ?</em>",
+   "cta": [
+    "Nous contacter",
+    "#contact"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "nos-realisations",
+   "label": "Nos réalisations",
+   "title": "Nos réalisations",
+   "eyebrow": "Salles de bains, plomberie, chauffage",
+   "lead": "Quelques exemples de nos réalisations.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/backgroundarea/i811f15ef89a0e51a/version/1492250992/image.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "realisations",
+     "eyebrow": "Nos réalisations",
+     "title": "Quelques exemples <em class=\"it\">de nos réalisations</em>",
+     "lead": "Cliquez sur une photo pour l'agrandir.",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=485x10000:format=jpg/path/s457e047e1386fd14/image/ib94a35b98c5a5cbe/version/1492249679/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/ib94a35b98c5a5cbe/version/1492249679/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=485x10000:format=jpg/path/s457e047e1386fd14/image/i37354ea65ceec42a/version/1492249721/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i37354ea65ceec42a/version/1492249721/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=485x10000:format=jpg/path/s457e047e1386fd14/image/i82afa8291af2296b/version/1492249316/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i82afa8291af2296b/version/1492249316/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/s457e047e1386fd14/image/i18d00739d1606ba1/version/1370526958/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i18d00739d1606ba1/version/1370526958/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/s457e047e1386fd14/image/ibdeac49887342560/version/1325867490/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/ibdeac49887342560/version/1325867490/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/iec2d9d023bca14f9/version/1325867574/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/iec2d9d023bca14f9/version/1325867574/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i4d24fc1f9a5f54bc/version/1325867373/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i4d24fc1f9a5f54bc/version/1325867373/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/s457e047e1386fd14/image/i41991e813410498b/version/1325867628/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i41991e813410498b/version/1325867628/image.jpg",
+       "alt": "Réalisation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=298x10000:format=jpg/path/s457e047e1386fd14/image/i02d0ab2399babb76/version/1429261853/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i02d0ab2399babb76/version/1429261853/image.jpg",
+       "alt": "Réalisation"
+      }
+     ],
+     "cta": [
+      "Demander un devis",
+      "mailto:michel.poujois@wanadoo.fr?subject=Demande%20de%20devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "equipements-proposes",
+   "label": "Équipements proposés",
+   "title": "Équipements proposés",
+   "eyebrow": "Les types de matériels proposés",
+   "lead": "Les matériaux de liaison utilisés en priorité sont le multicouches et le cuivre.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/backgroundarea/i811f15ef89a0e51a/version/1492250992/image.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "equipements",
+     "eyebrow": "Les types de matériels proposés",
+     "title": "Multicouches <em class=\"it\">et cuivre</em>",
+     "lead": "Les matériaux de liaison utilisés en priorité sont le multicouches et le cuivre.",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i248ca568edf2ced9/version/1325868105/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i248ca568edf2ced9/version/1325868105/image.jpg",
+       "alt": "Matériel proposé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/s457e047e1386fd14/image/i2d04d0446087e62a/version/1325867747/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i2d04d0446087e62a/version/1325867747/image.jpg",
+       "alt": "Matériel proposé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/iecca940a4d8b585b/version/1325867770/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/iecca940a4d8b585b/version/1325867770/image.jpg",
+       "alt": "Matériel proposé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i83dae6518c051a40/version/1325867785/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i83dae6518c051a40/version/1325867785/image.jpg",
+       "alt": "Matériel proposé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/ib5be0b5f524d6d9c/version/1325867803/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/ib5be0b5f524d6d9c/version/1325867803/image.jpg",
+       "alt": "Matériel proposé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/idbfef7af6e20b312/version/1325867819/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/idbfef7af6e20b312/version/1325867819/image.jpg",
+       "alt": "Matériel proposé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=300x10000:format=jpg/path/s457e047e1386fd14/image/i417b92d58c5f6074/version/1325867870/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/image/i417b92d58c5f6074/version/1325867870/image.jpg",
+       "alt": "Matériel proposé"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Contactez-nous",
+   "lead": "Nos devis sont gratuits.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s457e047e1386fd14/backgroundarea/i811f15ef89a0e51a/version/1492250992/image.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contactez-nous",
+     "title": "Monestier-de-Clermont, <em class=\"it\">Sud Isère</em>",
+     "text": "Intervention Sud Isère / bassin grenoblois, Vercors et Trièves. Nos devis sont gratuits.",
+     "rows": [
+      [
+       "Artisan",
+       "Michel Poujois"
+      ],
+      [
+       "Adresse",
+       "38650 Monestier-de-Clermont"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33689541590\">06 89 54 15 90</a><br><a href=\"tel:+33476343122\">04 76 34 31 22</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:michel.poujois@wanadoo.fr\">michel.poujois@wanadoo.fr</a>"
+      ],
+      [
+       "Zone",
+       "Sud Isère · bassin grenoblois · Vercors · Trièves"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "mailto:michel.poujois@wanadoo.fr?subject=Demande%20de%20devis"
+     ],
+     "map_q": "Monestier-de-Clermont 38650"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Michel Poujois, plombier chauffagiste à Monestier-de-Clermont : création et réfection de salles de bains, plomberie, chauffage, dépannage. Sud Isère et bassin grenoblois.",
+  "contact": [
+   "<a href=\"tel:+33689541590\">06 89 54 15 90</a>",
+   "<a href=\"tel:+33476343122\">04 76 34 31 22</a>",
+   "<a href=\"mailto:michel.poujois@wanadoo.fr\">michel.poujois@wanadoo.fr</a>",
+   "38650 Monestier-de-Clermont"
+  ],
+  "legal": "Artisan plombier chauffagiste · Devis gratuits",
+  "legal_url": "https://plomberie-trieves-vercors.jimdofree.com/about/"
+ }
+}
