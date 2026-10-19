@@ -17,12 +17,12 @@ Domaine Les Roches Bleues,domaine,Odenas (Brouilly),https://domainelesrochesbleu
 ARGOS Diagnostic,diagnostiqueur,Lyon 7e,https://www.argos-diagnostic.fr/,contact@argosdiag.fr,argos-diagnostic-adb84d,envoye,2026-10-09
 Bains et Cie,artisan (salle de bain),,https://bainsetcie.wixsite.com/monsite,bainsetcie@yahoo.com,bains-et-cie-f10f6d,brouillon pret,2026-10-09
 Entreprise Brun,artisan (plâtrier-peintre),Lyon,https://www.artisan-platrier-peintre.com/,entreprise.brun@gmail.com,entreprise-brun-d7aca1,refus,2026-10-09
-Cabinet Giabicani,avocat,Chambéry,https://www.avocats-giabicani.com/,contact@avocats-giabicani.com,giabicani-d8d892,envoye,2026-10-09
-Girod-Roux Menuiserie,artisan (menuisier),,https://www.girod-roux-menuiserie.fr/,fgrmenuiserie@gmail.com ; fredgrx@gmail.com,girod-roux-menuiserie-870921,envoye,2026-10-09
+Cabinet Giabicani,avocat,Chambéry,https://www.avocats-giabicani.com/,contact@avocats-giabicani.com,giabicani-d8d892,relance prete,2026-10-09
+Girod-Roux Menuiserie,artisan (menuisier),,https://www.girod-roux-menuiserie.fr/,fgrmenuiserie@gmail.com ; fredgrx@gmail.com,girod-roux-menuiserie-870921,relance prete,2026-10-09
 Étude Odin-Blondot,notaire,Lyon 6e,https://www.notaires-lyon6.fr/,odin-blondot@69109.notaires.fr,odin-blondot-c1e13c,envoye,2026-10-09
 Domaine Lionel Despres,domaine,Fleurie,https://www.lionel-despres.com/,contact@lionel-despres.com,lionel-despres-f3408f,brouillon pret,2026-10-10
 Laurent Gayon,artisan (plombier chauffagiste),Chaponnay,https://laurentgayon.wixsite.com/plomberiechauffage,laurentgayon@orange.fr,laurent-gayon-b57a4b,ecarte (site fait en 2026),2026-10-10
-Entreprise Jamet (Jérôme Jamet),artisan (carreleur mosaïste),Lyon 5e,https://jeromejamet.wixsite.com/jamet-carreleur-lyon,jeromejamet@yahoo.fr,jamet-carreleur-c16c16,envoye,2026-10-10
+Entreprise Jamet (Jérôme Jamet),artisan (carreleur mosaïste),Lyon 5e,https://jeromejamet.wixsite.com/jamet-carreleur-lyon,jeromejamet@yahoo.fr,jamet-carreleur-c16c16,relance prete,2026-10-10
 Rénov Habitat (Mike Nakache),artisan (peintre plâtrier),Lyon 9e,https://peintredelyon.wixsite.com/monsite-1,peintre.de.lyon@gmail.com,renov-habitat-00b444,envoye,2026-10-10
 C3LEX (Me Caroline Cerveau-Colliard),avocat,Lyon 3e,https://www.c3lex.fr/,contact@c3lex.fr,c3lex-avocat-2318ec,envoye,2026-10-10
 Domaine A.,domaine,Beaujeu,https://vinsdomainea.fr/,contact@vinsdomainea.fr,,"ecarte (site WordPress adapte au mobile, pas assez date)",2026-10-10
@@ -116,7 +116,7 @@ Office Brac de la Perrière,notaire,Lyon (Montchat),https://bracdelaperriere-lyo
 SCP Daoulas Lebosse-Faye Girardeau Chavignier,notaire,La Rochelle,http://www.ldl-larochelle.notaires.fr/,,,ecarte (lecture impossible : boucle de redirection),2026-10-11
 Office ABM,notaire,Toulouse,https://office-abm.notaires.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-11
 Defalque-Cahon & Allegre,notaire,Aix-en-Provence,https://www.defalque-allegre.notaires.fr/,,,"ecarte (site recent, pas d'e-mail)",2026-10-11
-Safaryan Avocat (Maître Lilit Safaryan),avocat (droit du travail),Lyon,https://www.safaryan-avocat.com/,avocat@cabinet-safaryan.com,safaryan-avocat-9211ac,envoye,2026-10-12
+Safaryan Avocat (Maître Lilit Safaryan),avocat (droit du travail),Lyon,https://www.safaryan-avocat.com/,avocat@cabinet-safaryan.com,safaryan-avocat-9211ac,relance prete,2026-10-12
 Domaine des Vieilles Caves,domaine,Chénas,https://www.domaine-des-vieilles-caves.com/,jerome.janodet@orange.fr,,ecarte (site recent : 2026 visible),2026-10-17
 Domaine Franck Besson,domaine,Chénas,http://domainefranckbesson.fr/index.html,domainebesson@wanadoo.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-17
 Domaine des Grands Rouvres,domaine,Chénas,https://domaine-des-grands-rouvres.jimdosite.com,guillaumedurdilly@yahoo.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-17
@@ -177,3 +177,43 @@ Alpes Habitat Expertises (Sylvain Léo),diagnostiqueur,Échirolles (Grenoble),ht
 Marine Mathiaud,avocat,Grenoble,http://www.mathiaud-avocat-grenoble.fr/,,,ecarte (lecture impossible : redirection en boucle),2026-10-18
 JBV Avocats,avocat,Grenoble,https://www.jbv-avocats.fr/,cabinet@jbv-avocats.fr,,"ecarte (non retenu ce passage : un seul avocat par lot ; Wix 2020, piste de reserve)",2026-10-18
 Maître Mélanie Grimonet,avocat,Annecy,https://grimonet-avocat.fr/,contact@grimonet-avocat.fr,grimonet-avocat-bc4c31,brouillon pret,2026-10-18
+Domaine Roche Saint-Jean (Ludovic Mathon),domaine,Villié-Morgon,https://morgon-mathon.fr/,earl.mathon@wanadoo.fr,morgon-mathon-9ce48a,brouillon pret,2026-10-19
+Domaine Crêt des Garanches (Sylvie Dufaitre-Genin),domaine,Odenas (Brouilly),https://cretdesgaranches.fr/,sylvie.dufaitre-genin@wanadoo.fr,,"ecarte (site GravCMS correct, aucun e-mail sur le site ; piste de reserve)",2026-10-19
+Domaine Baron de l'Écluse (Jean-François Pégaz),domaine,Saint-Lager (Côte de Brouilly),https://barondelecluse.com/,baron.delecluse2@orange.fr,,ecarte (site modifie en 2026 : image envoyee en 2026/02),2026-10-19
+Domaine du Sancillon,domaine,Odenas,,,,ecarte (ni site ni e-mail sur la fiche),2026-10-19
+Domaine Gaget,domaine,Villié-Morgon,,domainegaget@orange.fr,,ecarte (pas de site),2026-10-19
+Ramoneur Savoyard,restaurant,Annecy,https://ramoneur-savoyard-annecy.fr/,ramosav@hotmail.fr,,ecarte (lecture impossible : autorisation de lecture non accordée),2026-10-19
+Brasserie la Bourgogne,restaurant,Dijon,https://brasserielabourgogne.com/,,,"ecarte (pas d'e-mail public ; WordPress Elementor 2022, modifie en 2026)",2026-10-19
+Café du Rhône,restaurant,Lyon 3e,https://www.cafedurhone.com/,contact@cafedurhone.com,,"ecarte (site Wix récent à son nom, carte à jour : pas assez daté ; piste de reserve)",2026-10-19
+Café des Fédérations,restaurant,Lyon 1er,https://www.restaurant-cafedesfederations-lyon.fr/,lesfedeslyon@lesfedeslyon.com,,ecarte (site recent : 2026 visible),2026-10-19
+La Maison des Beaujolais,restaurant,Belleville-en-Beaujolais,https://lamaisondesbeaujolais.fr/,contact@lamaisondesbeaujolais.fr,,ecarte (site recent : 2026 visible),2026-10-19
+Le Bouchon des Berges,restaurant,Lyon,https://www.lebouchondesberges.fr/,,,ecarte (pas d'e-mail public),2026-10-19
+Brasserie Savoyarde,restaurant,Annecy,https://brasserie-savoyarde.fr/,,,ecarte (site recent : 2026 visible),2026-10-19
+Le Sporting (Jean-François et Angèle Perret),restaurant,Chambéry,https://www.lesporting-chambery.com/,lesporting@orange.fr,le-sporting-chambery-4ae083,brouillon pret,2026-10-19
+CLERE (Florent Carrière),artisan (plombier chauffagiste),Saint-Just (Ain),https://clere.jimdofree.com/,,,"ecarte (pas d'e-mail lisible, formulaire seul ; site 2020, piste de reserve)",2026-10-19
+A.O.P.C,artisan (plombier chauffagiste),,https://a-o-p-c-energies.jimdofree.com/,,,"ecarte (ni e-mail ni telephone, adresse factice)",2026-10-19
+Favalier Électricité,artisan (électricien),,https://favalierelectricite.e-monsite.com/,,,ecarte (lecture impossible : erreur de recuperation),2026-10-19
+Plomberie Chauffage Trièves Vercors (Michel Poujois),artisan (plombier chauffagiste),Monestier-de-Clermont (Grenoble),https://plomberie-trieves-vercors.jimdofree.com/,michel.poujois@wanadoo.fr,plomberie-trieves-vercors-3603a9,brouillon pret,2026-10-19
+Artisan Louis Strack (Ets Artisanal Louis Strack),artisan (couvreur zingueur charpentier),Aix-en-Provence,https://artisan-strack.wixsite.com/couvreur-toiture-13,etslstrack@gmail.com,artisan-strack-e08329,brouillon pret,2026-10-19
+Le Temps des Cigales,artisan (ébéniste),Cap-Saint-Ignace (Québec),https://www.letempsdescigales.com/,,,"ecarte (hors zone, Canada ; 2026 visible)",2026-10-19
+ALLDIAG 38,diagnostiqueur,Isère,http://www.diagnostics-immobiliers-alldiag38.com/accueil.html,,,ecarte (lecture impossible : robots.txt),2026-10-19
+Diag Ocean 17,diagnostiqueur,Saint-Xandre (La Rochelle),https://www.diagocean17.com/,contact@diagocean17.com,,ecarte (site recent : 2026 visible),2026-10-19
+Diagnostic Rochelais,diagnostiqueur,La Rochelle,https://www.diagnosticrochelais.fr/,info@diagnosticrochelais.fr,,"ecarte (site recent, WordPress Elementor modifie en 2026)",2026-10-19
+Expert'im (Expert Im),diagnostiqueur,La Rochelle,https://www.expert-im-rochelle.fr/,expertimlarochelle@wanadoo.fr,expert-im-7e12d3,brouillon pret,2026-10-19
+Haut Béarn Diagnostics (Mondot Diagnostics),diagnostiqueur,Herrère (Pau),https://www.hautbearndiagnostics.fr/,mondot.diagnostics@gmail.com,,ecarte (site recent : 2026 visible),2026-10-19
+CE-DI,diagnostiqueur,Annecy,https://www.ce-di.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-19
+Adiplus Diagnostic,diagnostiqueur,Pau,https://www.adiplus-diagnostic.com/,,,ecarte (lecture impossible : robots.txt),2026-10-19
+VGM Diagnostics Immobiliers,diagnostiqueur,Béarn,https://www.vgmdiagimmo.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-19
+Office Notarial du Château (Mongellaz / Thomas),notaire,Chambéry,https://mongellaz-chambery.notaires.fr/etude.htm,,,"ecarte (site recent : 2026 visible, actualites du 16/10/2026)",2026-10-19
+Notaires de la Visitation,notaire,Rennes,https://www.visitation.notaires.fr/?p=25,,,ecarte (hors zone ; site recent : 2026 visible),2026-10-19
+Notaires du Promenoir,notaire,Villefranche-sur-Saône,https://www.notairesdupromenoir.notaires.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-19
+Christine Belmont Notaire,notaire,Crémieu (38),https://belmont-cremieu.notaires.fr/en/about-us--Christine-BELMONTNotaire-a-Cremieu.html,,,"ecarte (mini-site standard notaires.fr, contenu illisible, pas d'e-mail)",2026-10-19
+Étude Laurent Brustier,notaire,Toulouse,https://etude-brustier-toulouse.notaires.fr/en/about-us-Notaire-a-TOULOUSE-Maitre-Laurent-BRUSTIER.html,,,"ecarte (mini-site standard notaires.fr, pas d'e-mail)",2026-10-19
+SELARL Notaires Condrieu,notaire,Condrieu,http://www.notairescondrieu.fr,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-19
+Chaine Notaires Associés,notaire,Lyon,https://www.chaine-notaires.com/,,,ecarte (lecture impossible : robots.txt),2026-10-19
+SPE SAS Jouffroy & Fileas,notaire,Dijon,http://www.jouffroy-fileas.com,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-19
+Perraud & Associés Notaires,notaire,Lyon 3e,https://www.perraud-notaires-associes.com/votre-notaire-a-lyon/,perraud.lyon@notaires.fr ; perraud.associes@notaires.fr,,"ecarte (site recent : 2026 visible, actualites 2026)",2026-10-19
+Office notarial de la Cassine (Pachoud Tenoux),notaire,Chambéry,https://www.notaires-chambery.com/,,,"ecarte (site WordPress d'agence 2023, pas d'e-mail)",2026-10-19
+Office Notarial de l'Europe,notaire,Lyon 3e,https://officenotarialdeleurope.com/en/home/,,,"ecarte (site mis a jour nov. 2025, 2026 dans les fichiers, pas d'e-mail)",2026-10-19
+Notaire & Patrimoine (Me Luce Noblet),notaire,Grenoble,https://www.notaire-et-patrimoine.fr/,accueil.38165@notaires.fr ; accueil.38028@notaires.fr,,ecarte (site recent : cree en 2026),2026-10-19
+Ariane Notaires,notaire,Grenoble,https://ariane-notaires.fr/etude-notariale/,office@ariane.notaires.fr,,"ecarte (site WordPress d'agence 2022, pas assez date)",2026-10-19
