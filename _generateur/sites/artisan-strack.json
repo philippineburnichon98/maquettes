@@ -1,0 +1,623 @@
+{
+ "slug": "artisan-strack-e08329",
+ "title": "Artisan Louis Strack — Couvreur, zingueur et charpentier à Aix-en-Provence et Marseille",
+ "description": "Ets Artisanal Louis Strack, artisan couvreur, zingueur et charpentier depuis 3 générations : couverture, zinguerie, charpente, démoussage, traitements hydrofuges, étanchéité des toits terrasses et isolation des combles dans les Bouches-du-Rhône.",
+ "brand": "Artisan Louis Strack",
+ "tagline": "Couvreur · Zingueur · Charpentier",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/b66211_5fc4f1d5445c4ff3b5c60ddecc315da9.png",
+  "height": 56,
+  "bg": "#ffffff"
+ },
+ "phead": "box",
+ "theme": {
+  "look": "framed",
+  "paper": "#f7f4ef",
+  "paper2": "#ece6dc",
+  "ink": "#24272b",
+  "muted": "#5f6368",
+  "accent": "#b0502b",
+  "accent2": "#8f3f20",
+  "gold": "#c9a46a",
+  "heroem": "#f3c9a8",
+  "serif": "\"Bitter\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+ },
+ "nav": [
+  [
+   "couverture",
+   "Couverture"
+  ],
+  [
+   "contact",
+   "Devis"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/2eb1a4_1e1af9e39d724728ad8a8aaa3869ed68.jpg",
+  "eyebrow": "Artisan en toiture depuis 3 générations",
+  "title": "Couvreur, zingueur <em>& charpentier</em>",
+  "lead": "Travaux neufs et rénovation de toiture dans les Bouches-du-Rhône : Marseille, Aix-en-Provence, Vitrolles, Gardanne, Marignane, Martigues, Istres, Salon-de-Provence, Pertuis…",
+  "cta1": [
+   "Demander un devis",
+   "devis/"
+  ],
+  "cta2": [
+   "06 17 59 00 85",
+   "tel:+33617590085"
+  ]
+ },
+ "figures": [
+  [
+   "3",
+   "générations de couvreurs"
+  ],
+  [
+   "24 h",
+   "pour répondre à votre demande de devis"
+  ],
+  [
+   "10 ans",
+   "de garantie sur les travaux"
+  ],
+  [
+   "0 €",
+   "pour le devis et la visite de diagnostic"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "Ets Artisanal Louis Strack",
+   "title": "Un métier <em class=\"it\">de famille</em>",
+   "img": "https://static.wixstatic.com/media/2eb1a4_dedfc3ca2cdc428aa28b809a8807d7a5.jpg",
+   "alt": "Toiture par l'artisan Louis Strack",
+   "paras": [
+    "Nous assurons les travaux neufs de construction et de réparation des bâtiments sur l'ensemble de la toiture : charpente, zinguerie, couverture et isolation des combles.",
+    "Notre longue expérience du patrimoine bâti nous permet d'être qualifiés en tant que couvreur tuilier. Nous réalisons avec efficacité la restauration de toitures anciennes et même de monuments historiques (dômes, clochers…).",
+    "Couvreur est pour nous un « métier de famille », transmis de père en fils depuis plusieurs générations. Notre rôle d'artisan toiturier : garantir la solidité et l'imperméabilité de votre toiture."
+   ],
+   "sign": "Louis Strack",
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/b66211_bc79d2a5823444bd84e2f1e8a367c0d4.png",
+     "Artisan couvreur zingueur et charpentier"
+    ],
+    [
+     "https://static.wixstatic.com/media/b66211_08a71e9c120b493796c1589b925b2283.png",
+     "Artisan couvreur zingueur et charpentier"
+    ],
+    [
+     "https://static.wixstatic.com/media/2eb1a4_12de591693674fb88a8a8488cde1f295.png",
+     "Entreprise de toiture sur les Pages Jaunes La Poste"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Nos travaux",
+   "title": "Toute la toiture, <em class=\"it\">de la charpente aux tuiles</em>",
+   "lead": "Expertise, étude et devis gratuits, intervention efficace et rapide, travaux garantis 10 ans.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/b66211_c116bec0a0654e0f89e69c7ab1f1ba20.jpg",
+     "alt": "Couverture de toiture",
+     "title": "Couverture & zinguerie",
+     "paras": [
+      "Travaux neufs et rénovation, réfection et réparation des couvertures en tuiles et des zingueries de toiture."
+     ],
+     "link": [
+      "Couverture",
+      "couverture/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b66211_e440538e767b47d09e714b63bbbb01c8.jpg",
+     "alt": "Charpente de toit",
+     "title": "Charpente",
+     "paras": [
+      "Travaux neufs et rénovation, réfection et réparation des charpentes de toits, écran sous-toiture, pose de Velux®."
+     ],
+     "link": [
+      "Charpente",
+      "charpente/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b66211_cb68f16b30ba4505bf3ffb00815b7ed7.jpg",
+     "alt": "Isolation et étanchéité",
+     "title": "Isolation & étanchéité",
+     "paras": [
+      "Isolation des combles et étanchéité des toits terrasses, en travaux neufs comme en rénovation."
+     ],
+     "link": [
+      "Isolation",
+      "isolation/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "atouts",
+   "dark": true,
+   "eyebrow": "Pourquoi nous confier votre toit",
+   "title": "Le juste prix <em class=\"it\">pour vos travaux</em>",
+   "lead": "Nous établissons avec justesse le coût de vos travaux de toiture et fixons le prix juste.",
+   "items": [
+    [
+     "Devis gratuit",
+     "Un devis avec de bons tarifs, sans engagement, avec une réponse sous 24 h."
+    ],
+    [
+     "Diagnostic offert",
+     "Vérification et diagnostic gratuits de vos toits dans les Bouches-du-Rhône."
+    ],
+    [
+     "Monuments historiques",
+     "Restauration de toitures anciennes, de dômes et de clochers."
+    ],
+    [
+     "Garantie 10 ans",
+     "Une intervention efficace et rapide, des travaux garantis 10 ans."
+    ]
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/b66211_d3ab7d2f1c5a434389f462610e65e4c9.jpg",
+   "eyebrow": "Fuite, tuile déplacée, gouttière abîmée ?",
+   "title": "Demandez votre <em>visite de diagnostic offerte</em>",
+   "cta": [
+    "Demander un devis",
+    "devis/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Ets Louis <em class=\"it\">Strack</em>",
+   "text": "Zones couvertes : Marseille, Aix-en-Provence, Vitrolles, Gardanne, Marignane, Martigues, Istres, Salon-de-Provence, Pertuis, Miramas, Aubagne…",
+   "rows": [
+    [
+     "Adresses",
+     "1175 Montée d'Avignon<br>13090 Aix-en-Provence<br><br>Chemin du Pas de la Fosse<br>13820 Ensuès-la-Redonne"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33617590085\">06 17 59 00 85</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:etslstrack@gmail.com\">etslstrack@gmail.com</a>"
+    ],
+    [
+     "Devis",
+     "Gratuit, réponse sous 24 h, visite de diagnostic offerte"
+    ]
+   ],
+   "cta": [
+    "Appeler pour un devis gratuit",
+    "tel:+33617590085"
+   ],
+   "map_q": "1175 Montée d'Avignon, 13090 Aix-en-Provence"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "couverture",
+   "label": "Couverture",
+   "title": "Couverture",
+   "h1": "Couverture",
+   "eyebrow": "Pose en travaux neufs, réfection des couvertures",
+   "lead": "Tuiles, ardoise, zinc, tôle, bitume, bois : pose et rénovation de tous types et styles de couvertures de toit.",
+   "img": "https://static.wixstatic.com/media/b66211_95cd225e4c704cc9bf5d316b97d25e57.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "pose",
+     "eyebrow": "Pose et réfection",
+     "title": "Pose et réfection <em class=\"it\">de la couverture</em>",
+     "img": "https://static.wixstatic.com/media/b66211_d3ab7d2f1c5a434389f462610e65e4c9.jpg",
+     "alt": "Couverture de toiture à Aix-en-Provence",
+     "paras": [
+      "En tant que couvreur professionnel du bâtiment, nous réalisons pour nos clients la pose de la couverture de toitures. Selon vos demandes et nos recommandations, nous posons des matériaux divers : tuiles, ardoise, zinc, tôle, bitume ou bois (liteaux et voliges).",
+      "Notre premier rôle est de vous aider à choisir la couverture qui convient le mieux. Votre décision doit tenir compte du coût d'exécution, du prix des fournitures et d'autres facteurs, notamment votre situation géographique.",
+      "Nous assurons aussi toutes les réfections de toitures pour refaire, rénover ou modifier votre couverture. Nos devis prennent en compte le juste prix des matériaux et un tarif étudié pour la main-d'œuvre."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "fuite",
+     "eyebrow": "Intervention « fuite de toiture »",
+     "title": "Localiser <em class=\"it\">l'origine des fuites</em>",
+     "img": "https://static.wixstatic.com/media/b66211_e4bd8f005b6f49ae8d3dcb28c7ab9e6b.jpg",
+     "alt": "Intervention fuite de toiture",
+     "paras": [
+      "Ardoises naturelles ou fibrociment, tuiles en terre cuite ou en béton : toutes les toitures subissent les effets du temps et sont sujettes aux fuites et infiltrations dues à la pluie ou à la neige.",
+      "Dès que vous constatez un problème d'étanchéité ou de sécurité (tuile décollée ou déplacée), demandez une intervention : cela évite des soucis plus graves, comme une chute de tuile ou des dégâts liés à l'humidité, qui peuvent vite atteindre l'intérieur du bâtiment.",
+      "Couvreur, zingueur et charpentier, nous savons localiser efficacement l'origine des fuites. Nos compétences complémentaires sont un plus, nos tarifs sont raisonnables, nos visites de diagnostic et nos devis sont gratuits."
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/b66211_95cd225e4c704cc9bf5d316b97d25e57.jpg",
+     "eyebrow": "Devis gratuit · réponse sous 24 h",
+     "title": "Une estimation <em>sans engagement</em>",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zinguerie",
+   "label": "Zinguerie",
+   "title": "Zinguerie",
+   "h1": "Zinguerie",
+   "eyebrow": "Réalisation, pose et rénovation",
+   "lead": "Chéneaux, gouttières, descentes de toit, couvertures en joint debout et en zinc, réfection des cheminées.",
+   "img": "https://static.wixstatic.com/media/b66211_1d69a54c8b6641f38aae27b36063c4ad.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "travaux-zinguerie",
+     "eyebrow": "Travaux spécialisés",
+     "title": "Zinguerie : réalisation, pose <em class=\"it\">& rénovation</em>",
+     "lead": "La zinguerie, c'est l'art de confectionner et de poser les éléments métalliques de couverture. Nous y sommes experts par notre formation professionnelle et notre longue expérience.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/b66211_1d69a54c8b6641f38aae27b36063c4ad.jpg",
+       "alt": "Réalisation de zinguerie",
+       "title": "Réalisation et pose de la zinguerie",
+       "paras": [
+        "Nous maîtrisons la conception de tous types et styles de zinguerie et intervenons sur toutes vos poses : chéneaux, gouttières, descentes de toit…"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/b66211_3b495989e6e44cb6b6097e3210d50c2a.jpg",
+       "alt": "Pose de zinguerie",
+       "title": "Couvertures en joint debout",
+       "paras": [
+        "Particulièrement adapté aux régions montagneuses ou très exposées au vent, à la pluie et à la neige, le joint debout offre une parfaite étanchéité et convient à tous les types de toitures."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/2eb1a4_21ef6dd8e64744a6b60138a906a370fc.jpg",
+       "alt": "Couverture en zinc",
+       "title": "Couvertures en zinc",
+       "paras": [
+        "Conception et pose de couvertures en zinc : un travail entre art et métier qui demande un grand savoir-faire. Le zinc s'adapte à la majorité des bâtiments."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/2eb1a4_32c1de210e86436ab000e8b767ec2bf4.jpg",
+       "alt": "Réfection de cheminée",
+       "title": "Réfection des cheminées",
+       "paras": [
+        "Réhabiliter une vieille cheminée ou rafraîchir un habillage : tubage du conduit de fumée si besoin, pose d'un chapeau, d'une mitre ou d'un aspirateur de fumées. Devis gratuit détaillé avant intervention."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "renovation-zinguerie",
+     "eyebrow": "Rénovation et réparation",
+     "title": "Un professionnel qualifié <em class=\"it\">pour votre zinguerie</em>",
+     "paras": [
+      "Nous savons rénover et réparer tous types et styles de zinguerie, en identifiant rapidement les problèmes à résoudre.",
+      "Demandez-nous une étude en travaux neufs ou en rénovation : le déplacement et le devis sont gratuits. Nos devis prennent en compte le juste prix des matériaux et un tarif étudié pour la main-d'œuvre."
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/b66211_3b495989e6e44cb6b6097e3210d50c2a.jpg",
+     "eyebrow": "Devis gratuit · réponse sous 24 h",
+     "title": "Une estimation <em>sans engagement</em>",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "charpente",
+   "label": "Charpente",
+   "title": "Charpente",
+   "h1": "Charpente",
+   "eyebrow": "Confection, pose et traitement",
+   "lead": "Charpentes traditionnelles ou fermettes, traitement des bois, écran de protection sous-toiture, pose de Velux®.",
+   "img": "https://static.wixstatic.com/media/b66211_fb36e0747da449b1afd8fad4e5e74037.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "travaux-charpente",
+     "eyebrow": "Nos travaux de charpente",
+     "title": "Confection, pose <em class=\"it\">et traitements</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/b66211_fb36e0747da449b1afd8fad4e5e74037.jpg",
+       "alt": "Charpente de toit",
+       "title": "Charpente traditionnelle ou fermettes",
+       "paras": [
+        "La charpente traditionnelle permet d'aménager les combles mais coûte plus cher ; la charpente industrielle en fermettes est plus économique mais ne permet pas d'utiliser les combles. Le lamellé-collé convient aux grandes toitures ou aux toitures courbes."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/b66211_507cde4ede814b20876d31b7ee2c4964.jpg",
+       "alt": "Charpente de toit",
+       "title": "Bois, béton ou métal",
+       "paras": [
+        "Chaque matériau a ses avantages et ses contraintes de coût, de poids et de durabilité : nous vous aidons à choisir."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/b66211_6e40ea9979544ffe9c58956960b7bb4b.jpg",
+       "alt": "Traitement des charpentes",
+       "title": "Traitement des charpentes",
+       "paras": [
+        "Un traitement est recommandé au moins tous les 10 ans contre les insectes xylophages et les champignons : brossage, remplacement des bois abîmés, pulvérisation en surface ou injection en profondeur dans les cas sévères."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/b66211_07f7b2a9186e4a0e9eb0ff2e13f5292c.jpg",
+       "alt": "Pose d'écran sous toiture",
+       "title": "Écran de protection sous-toiture",
+       "paras": [
+        "Pose d'écrans sous-toiture : rôle de la membrane et choix parmi les principaux types d'écrans."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/b66211_eb51d73fd2414af0930255de075c7524.jpg",
+       "alt": "Pose de fenêtre de toit Velux",
+       "title": "Pose de Velux®",
+       "paras": [
+        "Étude du site, préparation de l'ouverture, renfort de la structure et étanchéité. Une fenêtre de toit peut nécessiter un permis de construire ou une déclaration préalable en mairie."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/b66211_507cde4ede814b20876d31b7ee2c4964.jpg",
+     "eyebrow": "Devis gratuit · réponse sous 24 h",
+     "title": "Une estimation <em>sans engagement</em>",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "entretien",
+   "label": "Entretien",
+   "title": "Entretien des toitures",
+   "h1": "Entretien des toitures",
+   "eyebrow": "Traitement hydrofuge, nettoyage haute pression, démoussage",
+   "lead": "Entretien et réparation de toutes les toitures, par un couvreur de métier depuis plusieurs générations.",
+   "img": "https://static.wixstatic.com/media/b66211_1f5d4a6497fe48438dc801bf590cc46d.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "hydrofuge",
+     "eyebrow": "Traitement hydrofuge des couvertures",
+     "title": "Prolonger <em class=\"it\">l'imperméabilité</em> de vos tuiles",
+     "img": "https://static.wixstatic.com/media/b66211_1f5d4a6497fe48438dc801bf590cc46d.jpg",
+     "alt": "Traitement hydrofuge des toitures",
+     "paras": [
+      "Rénover sa toiture doit être fait avec soin pour prolonger réellement la durée de vie du bâtiment. Le remplacement total de la couverture est parfois nécessaire, mais nous étudions toutes les solutions selon l'état du toit et votre budget.",
+      "Le traitement hydrofuge est souvent la solution, mais seulement dans certains cas : en cas d'infiltration, il faut d'abord traiter la cause (tuiles cassées, déplacées ou desserrées, joints abîmés, mauvaise évacuation de l'eau).",
+      "Appliqué sur une surface parfaitement propre, après nettoyage et démoussage si besoin, il prolonge d'au moins 10 ans les qualités d'imperméabilité de votre couverture."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "demoussage",
+     "eyebrow": "Nettoyage haute pression et démoussage",
+     "title": "Des tuiles propres, <em class=\"it\">un toit protégé</em>",
+     "img": "https://static.wixstatic.com/media/b66211_ea481a2436874cef8686614f2908e853.jpg",
+     "alt": "Nettoyage haute pression et démoussage des toitures",
+     "paras": [
+      "Avec le temps, la saleté, l'humidité, les mousses et les lichens rendent les tuiles poreuses et fragiles, jusqu'aux fissures et aux fuites.",
+      "Le nettoyage haute pression est délicat sur un toit en tuiles et doit être confié à des professionnels expérimentés. Seul, il n'a qu'un effet ponctuel : nous proposons en complément un traitement anti-mousse, qui retire taches et végétaux et freine leur réapparition. Un démoussage annuel est conseillé.",
+      "Les produits anti-mousse ne se valent pas tous et ne conviennent pas à tous les supports : faites appel à un spécialiste pour une application adaptée et durable. Diagnostic et devis gratuits."
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos-entretien",
+     "eyebrow": "En images",
+     "title": "Démoussage <em class=\"it\">des tuiles</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/2eb1a4_e3e753920f7d4b48bac294e84ed2301c.jpg",
+       "full": "https://static.wixstatic.com/media/2eb1a4_e3e753920f7d4b48bac294e84ed2301c.jpg",
+       "alt": "Démoussage des tuiles des toitures",
+       "caption": "Démoussage des tuiles"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b66211_ea481a2436874cef8686614f2908e853.jpg",
+       "full": "https://static.wixstatic.com/media/b66211_ea481a2436874cef8686614f2908e853.jpg",
+       "alt": "Nettoyage haute pression",
+       "caption": "Nettoyage haute pression"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b66211_1f5d4a6497fe48438dc801bf590cc46d.jpg",
+       "full": "https://static.wixstatic.com/media/b66211_1f5d4a6497fe48438dc801bf590cc46d.jpg",
+       "alt": "Traitement hydrofuge",
+       "caption": "Traitement hydrofuge"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/2eb1a4_e3e753920f7d4b48bac294e84ed2301c.jpg",
+     "eyebrow": "Devis gratuit · réponse sous 24 h",
+     "title": "Une estimation <em>sans engagement</em>",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "isolation",
+   "label": "Isolation",
+   "title": "Isolation et étanchéité",
+   "h1": "Isolation & étanchéité",
+   "eyebrow": "Isolation des combles, étanchéité des toits terrasses",
+   "lead": "Confort thermique et acoustique, protection contre les infiltrations.",
+   "img": "https://static.wixstatic.com/media/b66211_9f73127d88624994a257043f652b92f2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "isolation-combles",
+     "eyebrow": "Isolation des combles",
+     "title": "Moins de pertes <em class=\"it\">par le toit</em>",
+     "img": "https://static.wixstatic.com/media/b66211_9f73127d88624994a257043f652b92f2.jpg",
+     "alt": "Isolation des combles",
+     "paras": [
+      "Le toit représente une grande part des pertes de chaleur d'une maison. L'isolation des combles améliore le confort thermique et acoustique.",
+      "Nous vous proposons un devis gratuit qui tient compte du matériau isolant, de la méthode de pose et du prix."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "etancheite",
+     "eyebrow": "Étanchéité des toits terrasses",
+     "title": "Empêcher l'eau <em class=\"it\">de pénétrer</em>",
+     "img": "https://static.wixstatic.com/media/b66211_9dac98692eb44f09b004f8f68a94726a.jpg",
+     "alt": "Étanchéité des toits terrasses",
+     "paras": [
+      "L'étanchéité de la toiture terrasse est indispensable pour éviter que l'eau ne pénètre : dégâts des eaux, moisissures, humidité. Un contrôle régulier des toits plats est recommandé tous les quelques ans.",
+      "Visite de diagnostic offerte dans les Bouches-du-Rhône ; vous pouvez aussi envoyer vos photos par e-mail pour une estimation."
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/b66211_9dac98692eb44f09b004f8f68a94726a.jpg",
+     "eyebrow": "Devis gratuit · réponse sous 24 h",
+     "title": "Une estimation <em>sans engagement</em>",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "devis",
+   "label": "Contact & Devis",
+   "title": "Contact & devis",
+   "h1": "Contact & devis",
+   "eyebrow": "Devis gratuit · réponse sous 24 h",
+   "lead": "Estimation de vos travaux sans engagement et visite de diagnostic offerte dans les Bouches-du-Rhône.",
+   "img": "https://static.wixstatic.com/media/b66211_c1eb527baa094c3a9983eb329b3bdcb4.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contact & questions",
+     "title": "Obtenez un devis <em class=\"it\">gratuit</em>",
+     "lead": "Devis avec de bons prix, sans engagement : réponse sous 24 h.",
+     "side": [
+      "Tél. : <a href=\"tel:+33617590085\" style=\"border-bottom:1px solid var(--gold)\">06 17 59 00 85</a>",
+      "Envoyez vos photos à <a href=\"mailto:etslstrack@gmail.com\" style=\"border-bottom:1px solid var(--gold)\">etslstrack@gmail.com</a>",
+      "Visite de diagnostic offerte dans les Bouches-du-Rhône."
+     ],
+     "email": "etslstrack@gmail.com",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Travaux",
+       "type": "select",
+       "options": [
+        "Couverture",
+        "Zinguerie",
+        "Charpente",
+        "Démoussage / traitement hydrofuge",
+        "Étanchéité toit terrasse",
+        "Isolation des combles",
+        "Fuite de toiture",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Votre message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Ets Louis <em class=\"it\">Strack</em>",
+     "text": "Zones couvertes : Marseille, Aix-en-Provence, Vitrolles, Gardanne, Marignane, Martigues, Istres, Salon-de-Provence, Pertuis, Miramas, Aubagne…",
+     "rows": [
+      [
+       "Adresses",
+       "1175 Montée d'Avignon<br>13090 Aix-en-Provence<br><br>Chemin du Pas de la Fosse<br>13820 Ensuès-la-Redonne"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33617590085\">06 17 59 00 85</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:etslstrack@gmail.com\">etslstrack@gmail.com</a>"
+      ],
+      [
+       "Devis",
+       "Gratuit, réponse sous 24 h, visite de diagnostic offerte"
+      ]
+     ],
+     "cta": [
+      "Appeler pour un devis gratuit",
+      "tel:+33617590085"
+     ],
+     "map_q": "1175 Montée d'Avignon, 13090 Aix-en-Provence"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Ets Artisanal Louis Strack : couvreur, zingueur et charpentier depuis 3 générations, travaux neufs et rénovation de toiture dans les Bouches-du-Rhône.",
+  "contact": [
+   "<a href=\"tel:+33617590085\">06 17 59 00 85</a>",
+   "<a href=\"mailto:etslstrack@gmail.com\">etslstrack@gmail.com</a>",
+   "1175 Montée d'Avignon, 13090 Aix-en-Provence",
+   "Chemin du Pas de la Fosse, 13820 Ensuès-la-Redonne"
+  ],
+  "legal": "SIRET 492 865 407 · RM 130 · Travaux garantis 10 ans"
+ }
+}
