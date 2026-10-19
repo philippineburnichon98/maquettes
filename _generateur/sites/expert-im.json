@@ -1,0 +1,1077 @@
+{
+ "slug": "expert-im-7e12d3",
+ "title": "Expert'im — Diagnostics immobiliers à La Rochelle (17)",
+ "description": "Expert'im, cabinet de diagnostics immobiliers à La Rochelle depuis 2001 : DPE, gaz, électricité, termites, amiante, plomb, surface habitable, Carrez, ERP, DTG. Vente, location, mise en copropriété, avant travaux, en Charente-Maritime.",
+ "brand": "Expert'im",
+ "tagline": "Diagnostics immobiliers · La Rochelle",
+ "logo": {
+  "src": "https://le-de.cdn-website.com/e08b295790634412bd393f5a5e45d7dd/dms3rep/multi/opt/expertim-517w.jpg",
+  "height": 52,
+  "bg": "#ffffff"
+ },
+ "phead": "plain",
+ "theme": {
+  "look": "center",
+  "paper": "#f5f7f8",
+  "paper2": "#e6ecef",
+  "ink": "#14283a",
+  "muted": "#56636e",
+  "accent": "#1f5f8b",
+  "accent2": "#174a6d",
+  "gold": "#e0a43a",
+  "heroem": "#9fd3f0",
+  "serif": "\"Outfit\",system-ui,sans-serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Source+Sans+3:wght@400;600&display=swap"
+ },
+ "nav": [
+  [
+   "diagnostics",
+   "Diagnostics"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "eyebrow": "Un savoir-faire reconnu depuis 20 ans",
+  "title": "Expert'im, <em>diagnostics immobiliers</em> à La Rochelle",
+  "lead": "Une équipe certifiée et à l'écoute de vos besoins en Charente-Maritime : vente, location, mise en copropriété, avant travaux.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "05 46 51 87 99",
+   "tel:+33546518799"
+  ]
+ },
+ "figures": [
+  [
+   "2001",
+   "création du cabinet"
+  ],
+  [
+   "2",
+   "diagnostiqueurs certifiés"
+  ],
+  [
+   "48 h",
+   "pour intervenir"
+  ],
+  [
+   "17",
+   "toute la Charente-Maritime"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Un savoir-faire reconnu depuis 20 ans",
+   "title": "Vente, location, mise en copropriété : <em class=\"it\">faites appel à un diagnostiqueur immobilier</em>",
+   "paras": [
+    "Basé à La Rochelle, le cabinet Expert'im réalise depuis 2001 les diagnostics immobiliers de biens d'habitation et de locaux professionnels, pour une vente, une location ou une mise en copropriété.",
+    "Nos équipes certifiées se déplacent dans toute la Charente-Maritime, pour les biens d'habitation, industriels, agricoles et commerciaux."
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "diagnostics",
+   "eyebrow": "Les diagnostics immobiliers réalisés par notre cabinet",
+   "title": "Tous vos diagnostics, <em class=\"it\">un seul cabinet</em>",
+   "lead": "Les diagnostics immobiliers informent l'acquéreur ou le locataire de l'état général du bien. Notre équipe les réalise tous.",
+   "items": [
+    {
+     "kicker": "Diagnostic",
+     "title": "Bilans énergétiques (DPE)",
+     "paras": [
+      "Consommation d'énergie et émissions de gaz à effet de serre du logement, étiquettes énergie et climat de A à G. Validité : 10 ans."
+     ],
+     "link": [
+      "En savoir plus",
+      "dpe/"
+     ]
+    },
+    {
+     "kicker": "Diagnostic",
+     "title": "Gaz / Électricité",
+     "paras": [
+      "État des installations de plus de 15 ans, pour la sécurité des occupants. Validité : 3 ans pour une vente, 6 ans pour une location."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-electrique-gaz/"
+     ]
+    },
+    {
+     "kicker": "Diagnostic",
+     "title": "Termites",
+     "paras": [
+      "Recherche d'insectes xylophages dans les zones délimitées par arrêté préfectoral. Validité : 6 mois."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-termite/"
+     ]
+    },
+    {
+     "kicker": "Diagnostic",
+     "title": "Amiante / Plomb",
+     "paras": [
+      "Repérage amiante (permis de construire antérieur au 1er juillet 1997) et constat de risque d'exposition au plomb (logements construits avant 1949)."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-amiante/"
+     ]
+    },
+    {
+     "kicker": "Diagnostic",
+     "title": "Surface habitable / Mesurage Carrez",
+     "paras": [
+      "Surface habitable (loi Boutin) pour une vente ou une location, surface loi Carrez pour les lots en copropriété de plus de 8 m²."
+     ],
+     "link": [
+      "En savoir plus",
+      "surface-habitable/"
+     ]
+    },
+    {
+     "kicker": "Diagnostic",
+     "title": "ERP – État des risques polluants",
+     "paras": [
+      "Risques naturels, technologiques, miniers, pollution des sols et radon. Document de moins de 6 mois."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-erp/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "atouts",
+   "dark": true,
+   "eyebrow": "Un accompagnement personnalisé par des professionnels",
+   "title": "Faites appel au savoir-faire d'Expert'im <em class=\"it\">pour vos transactions immobilières</em>",
+   "items": [
+    [
+     "Des conseils adaptés à votre projet",
+     "Un dossier de diagnostic technique établi selon votre situation (vente, location, mise en copropriété) et le type de bien."
+    ],
+    [
+     "Une équipe certifiée à votre service",
+     "Deux diagnostiqueurs immobiliers certifiés, membres de la chambre des experts FNAIM."
+    ],
+    [
+     "Des interventions rapides",
+     "Une intervention dans les meilleurs délais, sous 48 h, et un devis gratuit."
+    ],
+    [
+     "Un savoir-faire reconnu",
+     "Plus de 20 ans d'expérience à La Rochelle, depuis 2001."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "projets",
+   "eyebrow": "Votre projet",
+   "title": "Un dossier complet <em class=\"it\">selon votre situation</em>",
+   "items": [
+    {
+     "kicker": "Vente",
+     "title": "Diagnostics avant vente",
+     "paras": [
+      "Le dossier de diagnostic technique (DDT) doit être annexé au compromis ou à la promesse de vente."
+     ],
+     "link": [
+      "Les diagnostics obligatoires",
+      "vente/"
+     ]
+    },
+    {
+     "kicker": "Location",
+     "title": "Diagnostics avant location",
+     "paras": [
+      "Location vide ou meublée : le DDT est annexé au bail et remis au locataire à la signature."
+     ],
+     "link": [
+      "Les diagnostics obligatoires",
+      "diagnostic-immobilier-location/"
+     ]
+    },
+    {
+     "kicker": "Copropriété",
+     "title": "Mise en copropriété",
+     "paras": [
+      "Diagnostic technique global (DTG) des immeubles de plus de 10 ans mis en copropriété."
+     ],
+     "link": [
+      "Le DTG",
+      "mise-copropriete/"
+     ]
+    },
+    {
+     "kicker": "Travaux",
+     "title": "Avant travaux / avant démolition",
+     "paras": [
+      "Repérage de l'amiante, du plomb et des termites avant une rénovation, une réhabilitation ou une démolition."
+     ],
+     "link": [
+      "Les diagnostics avant travaux",
+      "diagnostic-avant-travaux/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "consommateur",
+   "eyebrow": "Information",
+   "title": "Mentions et informations <em class=\"it\">sur la protection du consommateur</em>",
+   "items": [
+    {
+     "title": "Médiation de la consommation",
+     "paras": [
+      "En cas de litige non résolu après une réclamation auprès de notre service client, vous pouvez recourir gratuitement à un médiateur de la consommation : Association Nationale des Médiateurs (ANM), <a href=\"https://www.anm-conso.com/\" target=\"_blank\" rel=\"noopener\">www.anm-conso.com</a>.",
+      "Plateforme européenne de règlement en ligne des litiges : <a href=\"https://ec.europa.eu/consumers/odr/\" target=\"_blank\" rel=\"noopener\">ec.europa.eu/consumers/odr</a>."
+     ]
+    },
+    {
+     "title": "Démarchage téléphonique",
+     "paras": [
+      "Vous pouvez vous inscrire gratuitement sur la liste d'opposition au démarchage téléphonique : <a href=\"http://www.bloctel.gouv.fr/\" target=\"_blank\" rel=\"noopener\">www.bloctel.gouv.fr</a>."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "home-5",
+   "eyebrow": "Faites-nous confiance !",
+   "title": "Concrétisez <em class=\"it\">votre projet !</em>",
+   "lead": "Une question, une demande de devis ? Nos experts sont à votre écoute.",
+   "note": "<a class=\"btn solid\" href=\"contact/\">Demander un devis</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "apropos",
+   "label": "À propos",
+   "title": "Une équipe de diagnostiqueurs immobiliers à La Rochelle",
+   "eyebrow": "Expert'im depuis 2001",
+   "lead": "Une entreprise réactive et reconnue depuis plus de 20 ans.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "entreprise",
+     "eyebrow": "Une intervention réalisée dans les meilleurs délais",
+     "title": "Des experts certifiés <em class=\"it\">pour les diagnostics de vos biens</em>",
+     "paras": [
+      "Créé en 2001, le cabinet Expert'im vous accueille à La Rochelle, en Charente-Maritime. Nous réalisons les diagnostics immobiliers de logements et de locaux professionnels lors d'une vente, d'une location ou d'une mise en copropriété.",
+      "Cabinet indépendant, Expert'im réunit deux diagnostiqueurs immobiliers certifiés, membres de la chambre des experts FNAIM, gage de la qualité technique de nos interventions. Nous intervenons sur les biens d'habitation, industriels, agricoles et commerciaux."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "missions",
+     "eyebrow": "Un accompagnement personnalisé pour toutes vos transactions immobilières",
+     "title": "Maisons, appartements, locaux professionnels, <em class=\"it\">copropriétés</em>",
+     "lead": "Nos diagnostiqueurs interviennent dans toute la Charente-Maritime pour :",
+     "items": [
+      {
+       "list": [
+        "Termites",
+        "Amiante (DTA, avant travaux, avant démolition)",
+        "Gaz, plomb et électricité"
+       ]
+      },
+      {
+       "list": [
+        "Bilans énergétiques pour tous types de bâtiments",
+        "Diagnostic technique global (DTG) pour les mises en copropriété",
+        "État des risques polluants (ERP)"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "expertise",
+     "dark": true,
+     "eyebrow": "Une équipe certifiée à l'écoute de vos besoins",
+     "title": "Une expertise immobilière concrète <em class=\"it\">à La Rochelle</em>",
+     "items": [
+      [
+       "Savoir-faire",
+       "Plus de 20 ans d'expérience et deux diagnostiqueurs certifiés."
+      ],
+      [
+       "Devis gratuit",
+       "Contactez-nous pour une question ou une demande de devis."
+      ],
+      [
+       "Intervention dans les 48 h",
+       "Un déplacement dans les meilleurs délais dans toute la Charente-Maritime."
+      ],
+      [
+       "Cabinet indépendant",
+       "Membres de la chambre des experts FNAIM."
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "apropos-3",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Un projet <em class=\"it\">immobilier ?</em>",
+     "lead": "Faites appel à nos diagnostiqueurs pour votre vente, votre location ou votre mise en copropriété.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Demander un devis</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ]
+  },
+  {
+   "slug": "dossier-diagnostic-immobilier",
+   "label": "Diagnostics",
+   "title": "Votre dossier de diagnostic technique",
+   "eyebrow": "Diagnostics immobiliers",
+   "lead": "Des professionnels expérimentés à votre service sur l'ensemble de la Charente-Maritime.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "ddt",
+     "eyebrow": "Bénéficiez de notre expertise et de nos conseils",
+     "title": "Un DDT pour informer <em class=\"it\">propriétaires ou locataires</em>",
+     "paras": [
+      "Une vente, une location ou une mise en copropriété impose de faire réaliser des diagnostics pour informer le locataire ou l'acquéreur de l'état général du bien.",
+      "Spécialiste du diagnostic immobilier à La Rochelle, Expert'im vous aide à constituer votre dossier de diagnostic technique, qui rassemble les diagnostics obligatoires avant une vente ou une location. Nos experts se déplacent pour tous types de biens : locaux commerciaux, maisons, appartements, immeubles.",
+      "<b>Des experts à votre écoute pour vous aider à monter votre dossier de diagnostic technique.</b>"
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "diagnostics",
+     "eyebrow": "Location ou vente immobilière",
+     "title": "Un DDT complet <em class=\"it\">selon votre situation</em>",
+     "lead": "Le dossier doit être annexé au compromis, à l'acte de vente ou au contrat de location. Les diagnostics qui le composent ont des durées de validité différentes ; nous l'adaptons à votre projet (vente, location, mise en copropriété) et au type de bien.",
+     "items": [
+      {
+       "kicker": "Diagnostic",
+       "title": "Bilans énergétiques (DPE)",
+       "paras": [
+        "Consommation d'énergie et émissions de gaz à effet de serre du logement, étiquettes énergie et climat de A à G. Validité : 10 ans."
+       ],
+       "link": [
+        "En savoir plus",
+        "../dpe/"
+       ]
+      },
+      {
+       "kicker": "Diagnostic",
+       "title": "Gaz / Électricité",
+       "paras": [
+        "État des installations de plus de 15 ans, pour la sécurité des occupants. Validité : 3 ans pour une vente, 6 ans pour une location."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-electrique-gaz/"
+       ]
+      },
+      {
+       "kicker": "Diagnostic",
+       "title": "Termites",
+       "paras": [
+        "Recherche d'insectes xylophages dans les zones délimitées par arrêté préfectoral. Validité : 6 mois."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-termite/"
+       ]
+      },
+      {
+       "kicker": "Diagnostic",
+       "title": "Amiante / Plomb",
+       "paras": [
+        "Repérage amiante (permis de construire antérieur au 1er juillet 1997) et constat de risque d'exposition au plomb (logements construits avant 1949)."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-amiante/"
+       ]
+      },
+      {
+       "kicker": "Diagnostic",
+       "title": "Surface habitable / Mesurage Carrez",
+       "paras": [
+        "Surface habitable (loi Boutin) pour une vente ou une location, surface loi Carrez pour les lots en copropriété de plus de 8 m²."
+       ],
+       "link": [
+        "En savoir plus",
+        "../surface-habitable/"
+       ]
+      },
+      {
+       "kicker": "Diagnostic",
+       "title": "ERP – État des risques polluants",
+       "paras": [
+        "Risques naturels, technologiques, miniers, pollution des sols et radon. Document de moins de 6 mois."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-erp/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "liens",
+     "eyebrow": "Liens utiles",
+     "title": "Pour aller <em class=\"it\">plus loin</em>",
+     "tight": false,
+     "note": "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Légifrance</a> · <a href=\"https://www.ecologie.gouv.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Ministère de l'Écologie</a> · <a href=\"https://www.promotelec.com/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Promotelec</a> · <a href=\"https://prim.net/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Les Risques Majeurs</a> · <a href=\"https://www.expert-cnei.com/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Compagnie Nationale des Experts Immobiliers</a> · <a href=\"https://www.ctba.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">FCBA</a> · <a href=\"https://www.ademe.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">ADEME</a> · <a href=\"https://www.anil.org/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">ANIL</a> · <a href=\"https://www.anah.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">ANAH</a> · <a href=\"https://www.notaires.fr/fr\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Notaires de France</a> · <a href=\"https://www.ffbatiment.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Fédération Française du Bâtiment</a> · <a href=\"http://www.lacnl.com/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Confédération Nationale du Logement</a> · <a href=\"https://www.portailimmo.net/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Portail Immo</a> · <a href=\"https://www.journal-officiel.gouv.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Journal Officiel</a>"
+    },
+    {
+     "kind": "blocks",
+     "id": "dossier-diagnostic-immobilier-3",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Je contacte <em class=\"it\">un expert !</em>",
+     "lead": "Prenez rendez-vous : nous constituons votre dossier de diagnostic technique.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Je contacte un expert</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ]
+  },
+  {
+   "slug": "dpe",
+   "label": "Bilans énergétiques",
+   "title": "Votre diagnostic de performance énergétique (DPE)",
+   "eyebrow": "Bilans énergétiques",
+   "lead": "Un expert certifié à votre disposition en Charente-Maritime.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "dpe-1",
+     "eyebrow": "Faites appel à un diagnostiqueur immobilier certifié",
+     "title": "DPE : évaluer la consommation <em class=\"it\">énergétique de votre bien</em>",
+     "paras": [
+      "Le DPE est obligatoire pour tous les logements mis en vente ou en location. Il indique la consommation d'énergie du bien et son taux d'émission de gaz à effet de serre.",
+      "Il fait partie du dossier de diagnostic technique (DDT), annexé au contrat de location, au compromis ou à l'acte de vente. <b>Sa validité est de 10 ans.</b> Notre équipe réalise aussi l'ensemble des autres diagnostics nécessaires à votre projet de vente ou de location."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "dpe-2",
+     "eyebrow": "Obligatoire pour toute vente ou location",
+     "title": "Deux étiquettes, <em class=\"it\">de A à G</em>",
+     "lead": "Le DPE informe le futur acquéreur ou locataire de la consommation du logement. S'il n'est pas transmis, des poursuites peuvent être engagées. Nos diagnostiqueurs se déplacent pour tous types de biens : locaux commerciaux, maisons individuelles, appartements.",
+     "items": [
+      [
+       "Étiquette énergie",
+       "La consommation énergétique annuelle du logement, de A (faible) à G (importante)."
+      ],
+      [
+       "Étiquette climat",
+       "L'impact de cette consommation sur les émissions de gaz à effet de serre, de A (faible) à G (importante)."
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "dpe-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "J'ai besoin <em class=\"it\">d'un diagnostic</em>",
+     "lead": "Faites évaluer la consommation d'énergie de votre bien.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">J'ai besoin d'un diagnostic</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ],
+   "hidden": true
+  },
+  {
+   "slug": "diagnostic-electrique-gaz",
+   "label": "Gaz / Électricité",
+   "title": "Votre diagnostic électrique et gaz",
+   "eyebrow": "Gaz / Électricité",
+   "lead": "Un diagnostic pour assurer la sécurité de votre logement.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "eg-1",
+     "eyebrow": "Un diagnostiqueur immobilier certifié à votre service",
+     "title": "Faites évaluer l'état de vos installations <em class=\"it\">de gaz et d'électricité</em>",
+     "paras": [
+      "Vous souhaitez vendre ou louer un logement ? Les installations de plus de 15 ans doivent faire l'objet d'un diagnostic électricité et gaz avant la vente ou la mise en location.",
+      "Nos experts se déplacent pour vérifier vos installations et assurer la protection des futurs acquéreurs ou locataires. Nous réalisons aussi les bilans énergétiques (DPE), les diagnostics termites, amiante et plomb. Devis gratuit."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "eg-2",
+     "eyebrow": "Contre les accidents domestiques",
+     "title": "Obligatoire pour la vente <em class=\"it\">ou la location d'un bien</em>",
+     "lead": "Nos experts repèrent les défauts susceptibles de provoquer des accidents domestiques. Le diagnostic fait partie du DDT, annexé au bail, au compromis ou à l'acte de vente.",
+     "items": [
+      {
+       "title": "Diagnostic électrique",
+       "paras": [
+        "Obligatoire pour les installations électriques de plus de 15 ans. Il évalue l'état de l'installation et les risques pour la sécurité des personnes."
+       ],
+       "list": [
+        "Validité : 6 ans pour une location",
+        "Validité : 3 ans pour une vente"
+       ]
+      },
+      {
+       "title": "Diagnostic gaz",
+       "paras": [
+        "Obligatoire pour les logements dont l'installation de gaz a plus de 15 ans. Il évalue les risques pour les personnes et les biens."
+       ],
+       "list": [
+        "Validité : 6 ans pour une location",
+        "Validité : 3 ans pour une vente"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "diagnostic-electrique-gaz-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Contactez <em class=\"it\">un expert</em>",
+     "lead": "Une intervention rapide pour sécuriser votre vente ou votre location.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Contactez un expert</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ],
+   "hidden": true
+  },
+  {
+   "slug": "diagnostic-termite",
+   "label": "Termites",
+   "title": "Votre diagnostic termites",
+   "eyebrow": "Termites",
+   "lead": "Assurez-vous de l'absence d'insectes xylophages au sein de votre bien.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "t-1",
+     "eyebrow": "Un diagnostiqueur certifié à votre service",
+     "title": "Repérer la présence <em class=\"it\">de parasites du bois</em>",
+     "paras": [
+      "Le diagnostic termites est exigé avant la vente d'un bien, mais aussi avant des travaux de rénovation, de réhabilitation ou de démolition. Il est obligatoire dans les zones déclarées infestées ou susceptibles de l'être par arrêté préfectoral.",
+      "Les termites, insectes xylophages, rongent le bois de l'intérieur et peuvent détruire rapidement charpentes et boiseries. Nous intervenons dans les zones concernées pour limiter leur prolifération et protéger votre patrimoine."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "t-2",
+     "eyebrow": "Vérifiez la présence de termites pour vendre votre bien",
+     "title": "Obligatoire <em class=\"it\">en cas de vente</em>",
+     "items": [
+      {
+       "title": "Ce que contient le diagnostic",
+       "paras": [
+        "Pour un bien situé en zone à risque, il indique la présence ou non de termites dans le logement et dans un rayon de 10 mètres. Le vendeur le remet à l'acquéreur à la signature du compromis ou de l'acte de vente."
+       ]
+      },
+      {
+       "title": "Comment il est réalisé",
+       "paras": [
+        "Examen visuel et sondages non destructifs des éléments susceptibles d'être touchés : huisseries, plinthes, planchers, charpentes, abords."
+       ],
+       "list": [
+        "Durée de validité : 6 mois",
+        "En cas de présence de termites : déclaration en mairie et travaux d'éradication"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "diagnostic-termite-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Un diagnostic <em class=\"it\">termites ?</em>",
+     "lead": "Contactez-nous pour faire contrôler votre bien.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Nous contacter</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ],
+   "hidden": true
+  },
+  {
+   "slug": "diagnostic-amiante",
+   "label": "Amiante / Plomb",
+   "title": "Votre diagnostic amiante et plomb",
+   "eyebrow": "Amiante / Plomb",
+   "lead": "Un repérage pour révéler la présence ou l'absence d'amiante et de plomb.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "a-1",
+     "eyebrow": "Faites confiance à un diagnostiqueur certifié",
+     "title": "Vérifier la présence de matériaux <em class=\"it\">ou produits dangereux</em>",
+     "paras": [
+      "Rénovation, démolition, vente ou location : les matériaux contenant de l'amiante ou du plomb doivent être repérés par un diagnostiqueur certifié. Pour une vente ou une location, ces diagnostics figurent dans le DDT annexé au bail, à l'acte ou au compromis.",
+      "L'exposition au plomb et à l'amiante est un danger majeur pour les occupants et les travailleurs. Nous réalisons aussi les DPE, diagnostics gaz et électricité, termites, surface habitable et état des risques."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "a-2",
+     "eyebrow": "Préservez la santé des personnes",
+     "title": "Faites appel à <em class=\"it\">des professionnels certifiés</em>",
+     "items": [
+      {
+       "title": "Diagnostic amiante",
+       "paras": [
+        "Examen des matériaux et produits de construction, pour tous les logements dont le permis de construire est antérieur au 1er juillet 1997. En cas de présence d'amiante, des travaux de désamiantage seront nécessaires."
+       ],
+       "list": [
+        "Absence d'amiante : validité illimitée",
+        "Présence d'amiante : validité de 3 ans"
+       ]
+      },
+      {
+       "title": "Diagnostic plomb (CREP)",
+       "paras": [
+        "Le constat de risque d'exposition au plomb mesure la concentration en plomb des revêtements intérieurs et extérieurs des logements construits avant 1949. En cas de présence de plomb, le propriétaire doit réaliser les travaux pour supprimer le risque d'exposition."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "diagnostic-amiante-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Un repérage <em class=\"it\">amiante ou plomb ?</em>",
+     "lead": "Contactez nos diagnostiqueurs certifiés.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Nous contacter</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ],
+   "hidden": true
+  },
+  {
+   "slug": "surface-habitable",
+   "label": "Surface habitable",
+   "title": "Surface habitable ou surface loi Carrez",
+   "eyebrow": "Surface habitable / Mesurage Carrez",
+   "lead": "Nous vous accompagnons dans vos projets de ventes ou de locations immobilières.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "s-1",
+     "eyebrow": "Un projet de location ou de vente immobilière ?",
+     "title": "Le mesurage de la surface <em class=\"it\">de votre bien</em>",
+     "paras": [
+      "Une vente, une location ou une mise en copropriété peut exiger de connaître la surface du logement : selon le projet, la réglementation impose la surface habitable ou la surface loi Carrez.",
+      "Le cabinet Expert'im réalise ce mesurage ainsi que les bilans énergétiques, diagnostics gaz et électricité, termites, amiante et plomb, et ERP."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "s-2",
+     "eyebrow": "Deux solutions pour mesurer la surface d'un logement",
+     "title": "Surface habitable et surface loi Carrez : <em class=\"it\">quelles différences ?</em>",
+     "items": [
+      {
+       "title": "Surface habitable (loi Boutin)",
+       "paras": [
+        "Calculée lors d'une vente ou d'une location ; elle doit figurer dans le contrat d'une location vide (non obligatoire en meublé ou en saisonnier). Elle prend en compte les pièces de vie : salon, cuisine, salle de bains, chambre, bureau, combles."
+       ],
+       "list": [
+        "Exclus : cave, garage, balcon, véranda, combles non aménagés, terrasse"
+       ]
+      },
+      {
+       "title": "Surface loi Carrez",
+       "paras": [
+        "Elle concerne les lots en copropriété de plus de 8 m² (appartements, locaux commerciaux, maisons en copropriété) et doit être mentionnée lors de leur vente. Elle mesure les parties privatives : la surface des planchers des locaux clos et couverts."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "surface-habitable-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "J'ai besoin <em class=\"it\">d'un mesurage</em>",
+     "lead": "Faites appel à un expert pour le calcul de la surface de votre logement.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">J'ai besoin d'un mesurage</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ],
+   "hidden": true
+  },
+  {
+   "slug": "diagnostic-erp",
+   "label": "ERP",
+   "title": "Diagnostic ERP – État des risques polluants",
+   "eyebrow": "ERP",
+   "lead": "Évaluez les risques polluants auxquels votre logement est exposé.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "e-1",
+     "eyebrow": "Un diagnostiqueur immobilier certifié à votre service",
+     "title": "Faites réaliser un ERP <em class=\"it\">par un expert</em>",
+     "paras": [
+      "L'ERP (anciennement ERNMT), ou état des risques et pollutions, informe le locataire ou l'acquéreur des risques auxquels le bien est exposé : naturels, technologiques, miniers, sismiques.",
+      "Pour toute vente ou location d'un bien situé dans une zone concernée, il doit figurer dans le dossier de diagnostic technique annexé au bail, à l'acte ou à la promesse de vente. Nous intervenons rapidement, avec un devis gratuit et détaillé selon votre projet."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "e-2",
+     "eyebrow": "Un rapport sur l'ensemble des risques auxquels un bien est exposé",
+     "title": "Risques naturels <em class=\"it\">et technologiques</em>",
+     "lead": "Zones inondables, zones à risque d'incendie, terrains exposés aux glissements ou aux effondrements : l'ERP est obligatoire pour un bien mis en vente ou en location (vide ou meublée) dans une commune visée par un arrêté préfectoral.",
+     "items": [
+      {
+       "title": "Risques étudiés",
+       "list": [
+        "Risques naturels : inondations, mouvements de terrain, sécheresse",
+        "Risques technologiques",
+        "Risques miniers : effondrements",
+        "Pollution des sols",
+        "Pollution au radon"
+       ]
+      },
+      {
+       "title": "Validité",
+       "paras": [
+        "Pour une vente comme pour une location, l'ERP doit dater de moins de 6 mois au moment où il est annexé au bail, à l'acte ou à la promesse de vente."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "diagnostic-erp-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Faites appel <em class=\"it\">à notre expertise !</em>",
+     "lead": "Contactez un diagnostiqueur.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Nous contacter</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ],
+   "hidden": true
+  },
+  {
+   "slug": "vente",
+   "label": "Vente",
+   "title": "Diagnostics obligatoires pour la vente d'un bien",
+   "eyebrow": "Vente",
+   "lead": "Faites appel à notre expertise pour un diagnostic immobilier en cas de vente !",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "v-1",
+     "eyebrow": "Vendez votre bien en toute sérénité !",
+     "title": "Le diagnostic immobilier <em class=\"it\">avant la vente de votre logement</em>",
+     "paras": [
+      "Selon qu'il s'agit d'une maison individuelle ou d'un logement en copropriété, certains diagnostics doivent être remis à l'acquéreur pour l'informer de l'état du bien.",
+      "Expert'im prend en charge tous les diagnostics nécessaires avant la vente, dans toute la Charente-Maritime et pour tous types de biens, ainsi qu'avant travaux, démolition, location ou mise en copropriété. Nos experts répondent à vos questions et établissent des devis gratuits."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "v-2",
+     "eyebrow": "Un dossier pour informer le futur propriétaire",
+     "title": "Les diagnostics obligatoires <em class=\"it\">avant une vente</em>",
+     "lead": "Le vendeur fournit à l'acquéreur un dossier de diagnostic technique (DDT), obligatoirement annexé au compromis ou à la promesse de vente. Un DDT incomplet peut entraîner l'annulation de la vente.",
+     "items": [
+      {
+       "title": "Appartement ou maison individuelle",
+       "list": [
+        "Diagnostic de performance énergétique (DPE)",
+        "Diagnostic termites",
+        "Diagnostic gaz et électricité",
+        "Diagnostic plomb (CREP)"
+       ]
+      },
+      {
+       "title": " ",
+       "list": [
+        "Diagnostic amiante",
+        "Mesurage Carrez",
+        "État des risques polluants (ERP)"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "vente-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Besoin d'un expert <em class=\"it\">avant vente ?</em>",
+     "lead": "Des professionnels à l'écoute de vos besoins.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">J'en ai besoin !</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-immobilier-location",
+   "label": "Location",
+   "title": "Diagnostics obligatoires pour une location",
+   "eyebrow": "Location",
+   "lead": "Un projet de mise en location d'un logement d'habitation ? Faites appel à notre expertise.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "l-1",
+     "eyebrow": "Louez votre bien en toute sérénité !",
+     "title": "Le diagnostic immobilier <em class=\"it\">avant la location de votre bien</em>",
+     "paras": [
+      "Vous souhaitez louer un appartement ou une maison ? En location vide comme en meublé, le bailleur doit fournir des diagnostics pour informer le locataire de l'état du logement.",
+      "Le cabinet Expert'im réalise à La Rochelle et en Charente-Maritime tous les diagnostics nécessaires avant la location d'un bien d'habitation, ainsi que pour une vente, une mise en copropriété ou des travaux. Renseignements et devis gratuits."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "l-2",
+     "eyebrow": "Sécurisez votre location et protégez les occupants",
+     "title": "Les diagnostics obligatoires <em class=\"it\">pour une location meublée ou vide</em>",
+     "lead": "Le dossier de diagnostic technique (DDT) est annexé au bail et remis au locataire à la signature ou au renouvellement du contrat.",
+     "items": [
+      {
+       "list": [
+        "Diagnostic de performance énergétique (DPE)",
+        "État de l'installation d'électricité et de gaz",
+        "Constat de risque d'exposition au plomb (CREP)"
+       ]
+      },
+      {
+       "list": [
+        "État d'amiante",
+        "Surface habitable",
+        "État des risques polluants (ERP)"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "diagnostic-immobilier-location-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Besoin d'un expert <em class=\"it\">avant location ?</em>",
+     "lead": "Des professionnels à l'écoute de vos besoins.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Contactez Expert'im</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ]
+  },
+  {
+   "slug": "mise-copropriete",
+   "label": "Copropriété",
+   "title": "Mise en copropriété : votre diagnostic technique global",
+   "eyebrow": "Mise en copropriété",
+   "lead": "Des experts en diagnostics immobiliers à votre service !",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "c-1",
+     "eyebrow": "Confiez vos besoins à un cabinet expérimenté",
+     "title": "Des experts pour votre bien <em class=\"it\">en copropriété</em>",
+     "paras": [
+      "Les parties communes de toute copropriété doivent faire l'objet de diagnostics pour informer acquéreurs, occupants ou locataires. Basé à La Rochelle, Expert'im réalise le diagnostic technique global (DTG) préalable à une mise en copropriété.",
+      "Nos experts interviennent dans toute la Charente-Maritime, dans les meilleurs délais, avec un devis gratuit."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "c-2",
+     "eyebrow": "Un DTG réalisé par un professionnel expérimenté",
+     "title": "Immeuble en copropriété : <em class=\"it\">le diagnostic technique global</em>",
+     "lead": "Le DTG recense l'état du bien et les travaux à prévoir. Il est obligatoire pour tout immeuble de plus de 10 ans mis en copropriété ou faisant l'objet d'une procédure d'insalubrité.",
+     "items": [
+      {
+       "title": "Le DTG comporte",
+       "list": [
+        "Une analyse de l'état des parties et équipements communs",
+        "Une analyse des améliorations possibles",
+        "Un diagnostic de performance énergétique de l'immeuble",
+        "Une liste des travaux par ordre d'importance, avec l'évaluation de leur coût"
+       ]
+      },
+      {
+       "title": "Ce qu'il apporte",
+       "paras": [
+        "Il peut améliorer le confort des occupants, par des travaux de rénovation énergétique ou d'accessibilité PMR, et valoriser le bien."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "mise-copropriete-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Une question, <em class=\"it\">un renseignement ?</em>",
+     "lead": "Nos experts sont à votre écoute pour tout conseil ou devis.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">J'ai besoin de conseils</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-avant-travaux",
+   "label": "Avant travaux",
+   "title": "Diagnostics avant travaux ou avant démolition",
+   "eyebrow": "Avant travaux / avant démolition",
+   "lead": "Un projet de rénovation, de réhabilitation ou de démolition ? Faites appel à notre expertise.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "w-1",
+     "eyebrow": "Un diagnostiqueur certifié pour vos diagnostics avant travaux ou démolition",
+     "title": "Des obligations réglementaires <em class=\"it\">pour protéger occupants et salariés</em>",
+     "paras": [
+      "Avant une rénovation ou une démolition, des diagnostics doivent être réalisés afin de s'assurer de l'absence de termites, d'amiante ou de plomb. Nous intervenons aussi pour les ventes, locations et mises en copropriété, avec un devis gratuit et un déplacement dans les meilleurs délais.",
+      "<b>Les diagnostiqueurs immobiliers d'Expert'im se tiennent à votre service pour concrétiser votre projet.</b>"
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "w-2",
+     "eyebrow": "Logements, locaux commerciaux, bâtiments industriels",
+     "title": "Les diagnostics obligatoires <em class=\"it\">avant travaux ou démolition</em>",
+     "lead": "Les diagnostics requis dépendent de la nature du bien et de sa date de construction.",
+     "items": [
+      {
+       "title": "Termites",
+       "paras": [
+        "Repérage de l'état parasitaire, obligatoire dans les zones délimitées par arrêté préfectoral."
+       ],
+       "link": [
+        "Le diagnostic termites",
+        "../diagnostic-termite/"
+       ]
+      },
+      {
+       "title": "Amiante",
+       "paras": [
+        "Pour les bâtiments dont le permis de construire est antérieur au 1er juillet 1997."
+       ],
+       "link": [
+        "Le diagnostic amiante",
+        "../diagnostic-amiante/"
+       ]
+      },
+      {
+       "title": "Plomb",
+       "paras": [
+        "Si le permis de construire date d'avant le 1er janvier 1949."
+       ],
+       "link": [
+        "Le diagnostic plomb",
+        "../diagnostic-amiante/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "diagnostic-avant-travaux-2",
+     "eyebrow": "Faites-nous confiance !",
+     "title": "Confiez-nous <em class=\"it\">l'expertise de vos biens</em>",
+     "lead": "Prenez contact avec nos experts !",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Nous contacter</a> &nbsp; <a class=\"btn\" href=\"tel:+33546518799\">05 46 51 87 99</a>"
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contactez le cabinet Expert'im",
+   "eyebrow": "Contact / Devis",
+   "lead": "Une équipe expérimentée à votre écoute pour le diagnostic de vos biens immobiliers.",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contactez-nous",
+     "title": "Une question, <em class=\"it\">un devis ?</em>",
+     "lead": "Basés à La Rochelle, nous intervenons dans toute la Charente-Maritime : logements, biens industriels, agricoles et commerciaux, pour une vente, une location, une mise en copropriété ou avant travaux.",
+     "side": [
+      "<a href=\"tel:+33546518799\" style=\"border-bottom:1px solid var(--gold)\">05 46 51 87 99</a> · <a href=\"tel:+33663069188\" style=\"border-bottom:1px solid var(--gold)\">06 63 06 91 88</a>",
+      "<a href=\"mailto:expertimlarochelle@wanadoo.fr\" style=\"border-bottom:1px solid var(--gold)\">expertimlarochelle@wanadoo.fr</a>",
+      "Vos données ne servent qu'à vous recontacter ; elles sont transmises à Expert'im et à ses sous-traitants et conservées le temps de nos échanges puis pendant la durée de prescription légale. Vous pouvez exercer vos droits par courrier ou par e-mail."
+     ],
+     "email": "expertimlarochelle@wanadoo.fr",
+     "subject": "Demande depuis le site Expert'im",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      },
+      {
+       "type": "check",
+       "name": "Accord",
+       "label": "En cochant cette case, j'accepte les conditions particulières ci-contre",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Le cabinet",
+     "title": "Nous <em class=\"it\">trouver</em>",
+     "text": "Depuis 2001 à La Rochelle, en Charente-Maritime.",
+     "rows": [
+      [
+       "Adresse",
+       "47 rue Villeneuve<br>17000 La Rochelle"
+      ],
+      [
+       "Horaires",
+       "Du lundi au vendredi<br>9h – 19h<br>Fermé le week-end"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33546518799\">05 46 51 87 99</a><br><a href=\"tel:+33663069188\">06 63 06 91 88</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:expertimlarochelle@wanadoo.fr\">expertimlarochelle@wanadoo.fr</a>"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://facebook.com/ExpertIm-220892944753832/\" target=\"_blank\" rel=\"noopener\">Expert'Im</a>"
+      ]
+     ],
+     "cta": [
+      "Appeler le cabinet",
+      "tel:+33546518799"
+     ],
+     "map_q": "47 rue Villeneuve, 17000 La Rochelle"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Expert'im, cabinet indépendant de diagnostics immobiliers à La Rochelle depuis 2001 : deux diagnostiqueurs certifiés, membres de la chambre des experts FNAIM, dans toute la Charente-Maritime.",
+  "contact": [
+   "<a href=\"tel:+33546518799\">05 46 51 87 99</a>",
+   "<a href=\"tel:+33663069188\">06 63 06 91 88</a>",
+   "<a href=\"mailto:expertimlarochelle@wanadoo.fr\">expertimlarochelle@wanadoo.fr</a>",
+   "47 rue Villeneuve, 17000 La Rochelle",
+   "Du lundi au vendredi, 9h – 19h"
+  ],
+  "legal": "SARL Expert Im au capital de 3 000 € · RCS La Rochelle 751 526 013 · Médiateur : ANM",
+  "legal_url": "https://www.expert-im-rochelle.fr/mentionslegales"
+ }
+}
