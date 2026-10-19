@@ -1,0 +1,612 @@
+{
+ "slug": "le-sporting-chambery-4ae083",
+ "title": "Le Sporting — Restaurant traditionnel et spécialités savoyardes à Chambéry",
+ "description": "Restaurant Le Sporting, 88 rue Croix d'Or à Chambéry : cuisine traditionnelle et spécialités savoyardes (fondue, raclette, tartiflette, diots), 2 salles, 2 terrasses, ouvert 7 jours sur 7.",
+ "brand": "Le Sporting",
+ "tagline": "Restaurant · Chambéry",
+ "monogram": "LS",
+ "theme": {
+  "look": "classic",
+  "paper": "#f7f2ea",
+  "paper2": "#ece3d4",
+  "ink": "#2a1f1a",
+  "muted": "#6e6259",
+  "accent": "#a3262a",
+  "accent2": "#85191e",
+  "gold": "#c9a15a",
+  "heroem": "#f3d7a6",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "menus",
+   "Menus & carte"
+  ],
+  [
+   "specialites",
+   "Spécialités"
+  ],
+  [
+   "contact",
+   "Contact & accès"
+  ]
+ ],
+ "home_label": "Accueil",
+ "nav_extra": [
+  [
+   "reserver",
+   "Réserver"
+  ]
+ ],
+ "hero": {
+  "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_2568592.JPG?t=1487157828",
+  "eyebrow": "Restaurant traditionnel · Chambéry",
+  "title": "Le <em>Sporting</em>",
+  "lead": "Spécialités savoyardes rue Croix d'Or : 2 salles, 2 terrasses, ouvert 7 jours sur 7.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
+  ],
+  "cta2": [
+   "04 79 33 17 43",
+   "tel:+33479331743"
+  ]
+ },
+ "figures": [
+  [
+   "1950",
+   "le restaurant existe depuis"
+  ],
+  [
+   "7/7",
+   "ouvert tous les jours"
+  ],
+  [
+   "2",
+   "salles"
+  ],
+  [
+   "2",
+   "terrasses"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "restaurant",
+   "eyebrow": "Bienvenue",
+   "title": "Le restaurant Le Sporting <em class=\"it\">vous souhaite la bienvenue</em>",
+   "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_2568595.JPG?t=1549276635",
+   "alt": "Le restaurant Le Sporting",
+   "paras": [
+    "Une cuisine savoyarde préparée avec des produits régionaux frais, et des cuisiniers que vous pouvez voir à l'œuvre.",
+    "Cuisine traditionnelle ou plus moderne, spécialités savoyardes : notre carte, nos produits de saison et nos vins achetés directement auprès des viticulteurs de la Combe de Savoie devraient ravir les palais les plus exigeants.",
+    "À Chambéry, toute l'équipe est à votre service pour que petits et grands passent un bon moment au restaurant."
+   ],
+   "sign": "Jean-François et Angèle Perret"
+  },
+  {
+   "kind": "features",
+   "id": "maison",
+   "dark": true,
+   "eyebrow": "La maison",
+   "title": "Savoie, <em class=\"it\">terroir et convivialité</em>",
+   "lead": "Restaurant traditionnel aux spécialités savoyardes, 2 salles et 2 terrasses.",
+   "items": [
+    [
+     "Spécialités savoyardes",
+     "Fondue, raclette au lait cru, tartiflette, croziflette, boîte chaude, diots au vin rouge et polenta."
+    ],
+    [
+     "Vins de la Combe de Savoie",
+     "Achetés directement auprès des viticulteurs."
+    ],
+    [
+     "Plat du jour et ardoise du marché",
+     "Poisson ou viande, selon les produits du moment : renseignez-vous par téléphone."
+    ],
+    [
+     "Grands groupes",
+     "Des formules variées, adaptées à tous les budgets (nous consulter)."
+    ]
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841632.JPG?t=1749749843",
+   "eyebrow": "Les spécialités du Sporting",
+   "title": "Fondue, raclette, <em>boîte chaude</em>…",
+   "cta": [
+    "Voir les spécialités",
+    "specialites/"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Salles, terrasses <em class=\"it\">et assiettes</em>",
+   "photos": [
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215297.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215297.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215298.jpg",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215298.jpg",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215299.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215299.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215300.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215300.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215301.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215301.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215302.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215302.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215303.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215303.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215304.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215304.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215305.jpg",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215305.jpg",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215306.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215306.JPG",
+     "alt": "Le Sporting, Chambéry"
+    },
+    {
+     "full": "https://www.lesporting-chambery.com/s/cc_images/cache_14215307.JPG",
+     "thumb": "https://www.lesporting-chambery.com/s/cc_images/thumb_14215307.JPG",
+     "alt": "Le Sporting, Chambéry"
+    }
+   ]
+  },
+  {
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservation",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Ouvert 7 jours sur 7, midi et soir. Choisissez votre jour et votre créneau : le restaurant vous confirme la réservation.",
+   "hours": [
+    "12:00",
+    "12:15",
+    "12:30",
+    "12:45",
+    "13:00",
+    "13:15",
+    "13:30",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30"
+   ],
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "closed": [
+    "2026-12-25",
+    "2026-12-31"
+   ],
+   "email": "lesporting@orange.fr",
+   "tel": "+33479331743",
+   "phone": "04 79 33 17 43",
+   "brand": "Le Sporting",
+   "max": 40,
+   "note": "Pour un groupe, appelez-nous : réponse sous 24 heures."
+  },
+  {
+   "kind": "visit",
+   "id": "venir",
+   "eyebrow": "Nous trouver",
+   "title": "Au cœur <em class=\"it\">de Chambéry</em>",
+   "text": "Rue Croix d'Or, dans le centre historique.",
+   "rows": [
+    [
+     "Adresse",
+     "88 rue Croix d'Or<br>73000 Chambéry"
+    ],
+    [
+     "Horaires",
+     "Ouvert 7 jours sur 7<br>12h – 13h45 · 19h – 21h45"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33479331743\">04 79 33 17 43</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lesporting@orange.fr\">lesporting@orange.fr</a>"
+    ]
+   ],
+   "cta": [
+    "Réserver une table",
+    "#reserver"
+   ],
+   "map_q": "88 rue Croix d'Or, 73000 Chambéry"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "menus",
+   "label": "Menus & carte",
+   "title": "Menus & carte",
+   "eyebrow": "Cuisine traditionnelle et savoyarde",
+   "lead": "Les menus du terroir et la carte du Sporting.",
+   "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841644.JPG?t=1749751499",
+   "sections": [
+    {
+     "kind": "menu",
+     "id": "carte",
+     "eyebrow": "La carte",
+     "title": "À table <em class=\"it\">!</em>",
+     "lead": "Demandez aussi le plat du jour et les propositions de l'ardoise du marché, qui changent selon les produits.",
+     "sections": [
+      {
+       "title": "Entrées",
+       "items": [
+        [
+         "Assiette de charcuteries",
+         "12,80 €"
+        ],
+        [
+         "Terrine maison à l'ail des ours",
+         "13,10 €"
+        ],
+        [
+         "6 escargots de Bourgogne maison",
+         "13,10 €"
+        ],
+        [
+         "Salade savoyarde",
+         "14,30 €"
+        ],
+        [
+         "Salade au chèvre chaud et lardons",
+         "14,80 €"
+        ],
+        [
+         "Salade Sporting",
+         "14,80 €"
+        ],
+        [
+         "Salade Périgourdine",
+         "19,50 €"
+        ],
+        [
+         "Foie gras de canard maison",
+         "21,00 €"
+        ]
+       ]
+      },
+      {
+       "title": "Viandes",
+       "items": [
+        [
+         "Bavette poêlée à l'échalote",
+         "22,00 €",
+         "Suppléments sauce amoureuse 3,00 €, poivre vert 4,00 €, morilles 6,50 €"
+        ],
+        [
+         "Andouillette AAAAA à la dijonnaise",
+         "22,50 €"
+        ],
+        [
+         "Burger savoyard",
+         "20,50 €",
+         "Salade, tomate, oignon"
+        ],
+        [
+         "Diots de Savoie au vin rouge",
+         "20,50 €",
+         "Polenta"
+        ],
+        [
+         "Fricassée de joues de porc à l'Apremont",
+         "21,50 €"
+        ],
+        [
+         "Les 12 escargots de Bourgogne maison",
+         "22,00 €",
+         "Gratin"
+        ]
+       ]
+      },
+      {
+       "title": "Poissons",
+       "items": [
+        [
+         "Quenelle de brochet sauce Nantua",
+         "20,50 €",
+         "Comptez 20 minutes"
+        ],
+        [
+         "Filet de truite rose à la grenobloise",
+         "21,00 €"
+        ],
+        [
+         "Filet de truite rose aux amandes",
+         "22,00 €"
+        ],
+        [
+         "Gambas poêlées au Calvados",
+         "24,00 €",
+         "Non décortiquées"
+        ]
+       ]
+      },
+      {
+       "title": "Grandes salades",
+       "items": [
+        [
+         "Salade savoyarde",
+         "17,50 €"
+        ],
+        [
+         "Salade au chèvre chaud et lardons",
+         "18,50 €"
+        ],
+        [
+         "Salade Sporting",
+         "18,50 €"
+        ],
+        [
+         "Salade Périgourdine",
+         "24,50 €"
+        ]
+       ]
+      },
+      {
+       "title": "Végétarien",
+       "items": [
+        [
+         "Lasagnes de légumes maison",
+         "18,00 €"
+        ]
+       ]
+      }
+     ],
+     "aside": {
+      "eyebrow": "Le menu",
+      "title": "Menu Terroir",
+      "big": "34 €",
+      "text": "Entrée, plat et dessert au choix :",
+      "courses": [
+       [
+        "Entrée",
+        "Assiette de charcuteries, salade savoyarde ou terrine à l'ail des ours"
+       ],
+       [
+        "Plat",
+        "Diots au vin rouge, polenta, légumes ; filet de truite à la grenobloise ou fricassée de joues de porc à l'Apremont"
+       ],
+       [
+        "Dessert",
+        "Un dessert au choix (« M » sur la carte)"
+       ]
+      ],
+      "items": [
+       [
+        "Petit Menu Terroir (plat + dessert)",
+        "27,50 €"
+       ],
+       [
+        "Menu « petit moustique » (moins de 12 ans)",
+        "12,00 €"
+       ]
+      ],
+      "cta": [
+       "Réserver une table",
+       "../#reserver"
+      ]
+     },
+     "note": "Menu « petit moustique » : steak haché façon bouchère de charolais, jambon blanc (frites ou gratin) ou mini tartiflette ou croziflette (salade), puis une boule de glace avec chantilly."
+    }
+   ]
+  },
+  {
+   "slug": "specialites",
+   "label": "Spécialités",
+   "title": "Les spécialités du Sporting",
+   "eyebrow": "Spécialités savoyardes",
+   "lead": "Fondues, raclette au lait cru, tartiflette, boîte chaude et grands classiques.",
+   "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841631.JPG?t=1749749830",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "specialites-liste",
+     "eyebrow": "À la carte",
+     "title": "Les spécialités <em class=\"it\">du Sporting</em>",
+     "items": [
+      {
+       "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841631.JPG?t=1749749830",
+       "kicker": "28,00 € par personne",
+       "title": "Raclette de Savoie au lait cru",
+       "paras": [
+        "Raclette traditionnelle à la meule, servie à volonté avec charcuterie, salade, pommes de terre et variantes. Minimum 2 personnes."
+       ]
+      },
+      {
+       "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841632.JPG?t=1749749843",
+       "kicker": "21,00 € · 26,00 € avec charcuterie",
+       "title": "Fondue savoyarde",
+       "paras": [
+        "Fondue aux 3 fromages, servie avec une salade. Minimum 2 personnes."
+       ]
+      },
+      {
+       "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841640.png?t=1749751490",
+       "kicker": "20,00 €",
+       "title": "Tartiflette ou croziflette",
+       "paras": [
+        "Au reblochon, avec une salade mêlée."
+       ]
+      },
+      {
+       "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841644.JPG?t=1749751499",
+       "kicker": "27,00 €",
+       "title": "Boîte chaude",
+       "paras": [
+        "Au Moelleux du Revard, avec charcuterie, salade, variantes et pommes de terre."
+       ]
+      },
+      {
+       "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841645.png?t=1749751509",
+       "kicker": "34,50 € par personne",
+       "title": "Fondue bourguignonne",
+       "paras": [
+        "Viande de bœuf taillée dans la bavette (300 g par personne), sauces maison et frites. Minimum 2 personnes, non servie en terrasse. Supplément viande (250 g) : 13,50 €."
+       ]
+      },
+      {
+       "kicker": "31,00 €",
+       "title": "Steak tartare",
+       "paras": [
+        "Bavette de bœuf coupée au couteau et préparée à table, 300 g."
+       ]
+      },
+      {
+       "kicker": "27,00 €",
+       "title": "Double burger savoyard"
+      },
+      {
+       "kicker": "26,00 €",
+       "title": "L'assiette paysanne",
+       "paras": [
+        "Charcuterie, terrine, fromages et frites maison."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact & accès",
+   "title": "Contact & accès",
+   "eyebrow": "Nos coordonnées",
+   "lead": "Pour une réponse rapide, privilégiez le téléphone.",
+   "img": "https://www.lesporting-chambery.com/s/cc_images/teaserbox_16841640.png?t=1749751490",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "img": "https://www.lesporting-chambery.com/s/img/emotionheader.gif",
+     "eyebrow": "Pour nous trouver",
+     "title": "88 rue <em class=\"it\">Croix d'Or</em>",
+     "text": "Pour une réponse sous 24 heures, privilégiez le téléphone ; sinon, écrivez-nous.",
+     "rows": [
+      [
+       "Adresse",
+       "88 rue Croix d'Or<br>73000 Chambéry"
+      ],
+      [
+       "Horaires",
+       "Ouvert 7 jours sur 7<br>12h – 13h45 · 19h – 21h45"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33479331743\">04 79 33 17 43</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:lesporting@orange.fr\">lesporting@orange.fr</a>"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/Le-Sporting-121077151291524/\" target=\"_blank\" rel=\"noopener\">Le Sporting</a>"
+      ]
+     ],
+     "cta": [
+      "Réserver une table",
+      "../#reserver"
+     ],
+     "map_q": "88 rue Croix d'Or, 73000 Chambéry"
+    },
+    {
+     "kind": "blocks",
+     "id": "groupes",
+     "eyebrow": "Groupes",
+     "title": "Grands groupes <em class=\"it\">(nous consulter)</em>",
+     "lead": "Nous accueillons les grands groupes, avec des formules variées adaptées à tous les budgets. Appelez-nous pour en parler."
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Formulaire de contact",
+     "title": "Écrivez-<em class=\"it\">nous</em>",
+     "lead": "Les champs marqués d'un astérisque sont obligatoires.",
+     "email": "lesporting@orange.fr",
+     "subject": "Message depuis le site du Sporting",
+     "side": [
+      "Téléphone : <a href=\"tel:+33479331743\" style=\"border-bottom:1px solid var(--gold)\">04 79 33 17 43</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Adresse e-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Restaurant traditionnel aux spécialités savoyardes, depuis 1950 rue Croix d'Or à Chambéry. 2 salles, 2 terrasses, ouvert 7 jours sur 7.",
+  "contact": [
+   "<a href=\"tel:+33479331743\">04 79 33 17 43</a>",
+   "<a href=\"mailto:lesporting@orange.fr\">lesporting@orange.fr</a>",
+   "88 rue Croix d'Or, 73000 Chambéry"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://www.lesporting-chambery.com/mentions-légales/"
+ }
+}
