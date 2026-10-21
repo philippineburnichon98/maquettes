@@ -1,44 +1,61 @@
-# Modèle de mail de prospection Fyce (validé par Philippine, nouvelle version du 21 oct. 2026)
+# Modèle de mail de prospection Fyce (validé par Philippine le 21 oct. 2026)
 
-POURQUOI CE CHANGEMENT : l'ancien mail (« Pardonnez-moi ce contact un peu direct… juste pour voir ») n'a obtenu qu'une seule réponse, un refus (« je reçois deux à trois propositions par jour »). Philippine veut un mail plus percutant, où le lecteur a TOUTES les infos tout de suite, y compris le prix, volontairement bas.
+HISTORIQUE : l'ancien mail (« Pardonnez-moi ce contact un peu direct… juste pour voir ») n'a eu qu'une réponse, un refus. Une version avec liste à puces, prix dans l'objet et « répondez oui ou non » a été jugée « pas personnelle, un peu désespérée, trop IA ». Version retenue : un mail court, humain, avec UN détail précis qui prouve qu'on a regardé leur site, le lien, puis le prix et le délai dans une phrase normale.
 
-Objet : Une idée pour le site de/du <NOM> (290 €, en ligne en 7 jours)
-(Garder le début « Une idée pour le site » : la recherche des relances s'appuie dessus.)
+## Modèle (artisans, restaurants, domaines, diagnostiqueurs)
 
-Bonjour <Monsieur X | Madame X | Maître X | Bonjour,>,
+Objet : Une idée pour le site de/du <NOM>
+(Rien d'autre dans l'objet : pas de prix. Garder ce début, la recherche des relances s'appuie dessus.)
 
-Je suis Philippine, je crée des sites pour <les restaurants | les domaines viticoles | les artisans | les professionnels de l'immobilier | les études notariales | les cabinets d'avocats>. J'ai refait le vôtre, il est déjà en ligne en version d'essai :
+Bonjour <Monsieur X | Madame X | Céline, bonjour Nicolas | Bonjour,>,
+
+Je m'appelle Philippine, je fais des sites pour des <artisans | restaurants | domaines viticoles | professionnels de l'immobilier>. <1 ou 2 phrases : un détail précis et flatteur tiré de leur site, puis le problème vérifié du site actuel.> Je vous ai donc préparé une nouvelle version, <avec vos photos et vos textes | avec votre carte, vos photos et la réservation en ligne | avec vos cuvées…> :
 https://maquettes.philippine-burnichon.workers.dev/<slug>/
 
-<UNE phrase : ce qu'on y trouve de concret (carte, cuvées, prestations, formulaire de devis, réservation…) + le problème vérifié du site actuel qu'elle règle (adresse Wix/Jimdo gratuite → « le site serait à votre nom » ; actualités arrêtées en 2020 ; page en construction ; pas de réservation…).>
+Si elle vous plaît, je la mets en ligne à votre nom en une semaine, pour 290 €, puis 19 € par mois pour le nom de domaine, l'hébergement et la maintenance. Et si vous voulez changer quelque chose avant, on ajuste ensemble.
 
-S'il vous plaît, je le mets en ligne pour vous :
-- 290 € une seule fois, puis 19 € par mois
-- nom de domaine et hébergement compris
-- en ligne sous 7 jours
-- modifications illimitées avant la mise en ligne
-
-Répondez simplement « oui » et je m'occupe de tout. Si ça ne vous intéresse pas, un « non » me suffit : je ne vous recontacterai pas.
+Dites-moi ce que vous en pensez.
 
 Bien cordialement<, et bons chantiers (artisans)>,
 
-RÈGLES :
-- Le lien de la maquette arrive dès le 2e paragraphe, l'offre (prix, inclus, délai) est en liste, la réponse demandée est un simple « oui » ou « non ».
-- Moins de 120 mots hors ligne de vérification. Pas de signature (Philippine ajoute la sienne).
-- Tout en haut : « [À retirer avant envoi] Site actuel : <URL> » (paragraphe rouge #b00020 dans htmlBody). Fournir body ET htmlBody avec un vrai lien <a href>.
-- Chaque reproche fait au site actuel reste VRAI et vérifié (jamais « pas adapté au téléphone » sans vérification à 390 px). Pas de bandeau publicitaire Wix comme argument.
-- Si la maquette contient un article de blog d'exemple : préciser que tous les articles seraient repris à la même adresse pour garder la place sur Google.
-- Domaines : aucune allusion aux vendanges.
-- Notaires et avocats : « Maître », vouvoiement soigné, ton sobre : « J'ai préparé une nouvelle version du site de votre office/cabinet, consultable dès à présent », « Si elle vous convient, je la mets en ligne », « Une simple réponse suffit. Si cela ne vous intéresse pas, dites-le-moi et je ne vous importunerai pas davantage. »
-- Hors région lyonnaise, ne pas dire « lyonnais ».
+Exemple validé :
+> Bonjour Monsieur Strack,
+> Je m'appelle Philippine, je fais des sites pour des artisans. Trois générations de couvreurs, des dômes et des clochers restaurés : votre métier mérite mieux qu'une adresse Wix gratuite. Je vous ai donc préparé une nouvelle version, avec vos photos et vos textes :
+> https://maquettes.philippine-burnichon.workers.dev/artisan-strack-e08329/
+> Si elle vous plaît, je la mets en ligne à votre nom en une semaine, pour 290 €, puis 19 € par mois pour le nom de domaine, l'hébergement et la maintenance. Et si vous voulez changer quelque chose avant, on ajuste ensemble.
+> Dites-moi ce que vous en pensez.
+> Bien cordialement, et bons chantiers,
 
-# Relance (J+7, dans le même fil, seulement sans réponse)
+## Variante notaires et avocats (ton sobre, « Maître »)
 
-Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | chantiers | rendez-vous | dossiers | livraisons>. Votre nouveau site est toujours en ligne en version d'essai : 290 €, puis 19 € par mois, en ligne sous 7 jours. Un « oui » ou un « non » en réponse me suffit.
+Bonjour Maître X, (ou « Maîtres, »)
+
+Je m'appelle Philippine, je réalise des sites pour des <études notariales | cabinets d'avocats>. En parcourant le vôtre, j'ai remarqué <fait vérifié, ex. qu'une page « en cours de construction » figurait encore au plan du site>. Je me suis permis de préparer une nouvelle version, qui reprend vos contenus et <présente chacun de vos domaines> :
+<lien>
+
+Si elle vous convient, je peux la mettre en ligne en une semaine, pour 290 €, puis 19 € par mois pour le nom de domaine, l'hébergement et la maintenance.
+
+Je reste à votre disposition si vous souhaitez en parler.
 
 Bien cordialement,
 
-(Pas de signature ici non plus. Les relances préparées avant le 21 oct. avec l'ancien texte restent valables.)
+## Règles
+
+- PAS de liste à puces, pas de prix dans l'objet, pas de « répondez oui ou non », pas de « je ne vous recontacterai pas », pas de « Pardonnez-moi ce contact un peu direct », pas de « coup de jeune ». Phrases simples, naturelles, comme écrites à la main.
+- Le détail flatteur est précis et propre au prospect (un plat, une cuvée, une date de création, un label, une réalisation) : c'est lui qui rend le mail personnel.
+- Chaque reproche fait au site actuel est VRAI et vérifié (jamais « pas adapté au téléphone » sans vérification à 390 px). Pas d'argument du bandeau publicitaire Wix ; pour un Wix/Jimdo gratuit : « mérite mieux qu'une adresse Wix gratuite ».
+- Si la maquette contient un article de blog d'exemple, ajouter après le lien : « Tous vos articles seraient repris à la même adresse, pour garder votre place sur Google. »
+- Domaines : aucune allusion aux vendanges. Hors région lyonnaise, ne pas dire « lyonnais ».
+- Moins de 120 mots hors ligne de vérification. Pas de signature (Philippine ajoute la sienne).
+- Tout en haut : « [À retirer avant envoi] Site actuel : <URL> » (paragraphe rouge #b00020 dans htmlBody), puis une ligne vide. Fournir body ET htmlBody avec un vrai lien <a href>.
+
+# Relance (J+7, dans le même fil, seulement sans réponse)
+
+Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | chantiers | rendez-vous | dossiers | livraisons>. La nouvelle version de votre site est toujours en ligne si vous voulez y jeter un œil. Je serais ravie d'avoir votre avis, même en deux mots.
+
+Bien cordialement,
+
+(Pas de signature ici non plus.)
 
 # Par métier
 
