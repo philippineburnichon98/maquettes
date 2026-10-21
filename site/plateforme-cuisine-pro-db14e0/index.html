@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Maquettes V2 · Plateforme de contenu cuisine professionnelle · Fyce</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+body{background:var(--paper2)}
+.intro{background:var(--blue);color:#fff;padding:64px 0 128px;position:relative;overflow:hidden}
+.intro::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border:40px solid rgba(255,255,255,.06)}
+.intro h1{font-size:clamp(2rem,4.5vw,3.2rem);margin:16px 0 16px;max-width:880px}.intro p{color:#d4def8;max-width:720px;font-size:1.06rem}
+.intro .over{color:#fff}
+.chg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:28px;max-width:1000px}
+.chg div{background:rgba(255,255,255,.1);padding:14px 16px;font-size:.92rem;color:#e6ecfc;border-left:3px solid var(--red)}
+.chg b{display:block;color:#fff;margin-bottom:2px}
+.gab{margin-top:-80px;position:relative}
+.cardp{background:#fff;padding:clamp(20px,3vw,34px);box-shadow:0 30px 60px -40px rgba(0,30,90,.5);margin-bottom:26px}
+.cardp .hd{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.cardp h2{font-size:1.55rem;margin-top:8px}.cardp .hd p{margin:6px 0 0;color:var(--muted);max-width:660px}
+.devices{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:26px;align-items:start}
+.desk{overflow:hidden;border:1px solid var(--line);background:#fff}
+.desk .chrome{height:32px;background:#eef1f6;display:flex;align-items:center;gap:6px;padding:0 12px;border-bottom:1px solid var(--line)}.desk .chrome i{width:10px;height:10px;border-radius:50%;background:#d3d9e3}
+.desk .vp{position:relative;height:540px;overflow:hidden}.desk iframe{position:absolute;top:0;left:0;width:1440px;height:1080px;border:0;transform-origin:0 0}
+.phone{width:300px;border-radius:38px;padding:12px;background:#10172a;box-shadow:0 30px 50px -30px rgba(0,0,0,.6)}
+.phone .vp{position:relative;height:600px;border-radius:28px;overflow:hidden;background:#fff}.phone iframe{position:absolute;top:0;left:0;width:390px;height:836px;border:0;transform:scale(.7179);transform-origin:0 0}
+.lbl{font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 22px}
+.tabs button{border:1px solid var(--line);background:#fff;padding:10px 16px;font-weight:700;font-size:.9rem;color:var(--ink2);border-radius:var(--r)}
+.tabs button[aria-selected=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.pane{display:none}.pane.on{display:block}
+.cta{background:#10172a;color:#fff;padding:clamp(28px,5vw,52px);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;margin:28px 0 80px}
+.cta h2{font-size:clamp(1.5rem,3vw,2rem)}.cta p{color:#aab3c5;margin:8px 0 0}
+@media(max-width:960px){.devices{grid-template-columns:minmax(0,1fr)}.desk{display:none}.phone{margin:0 auto}.chg{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<div class="intro"><div class="wrap">
+  <span class="over">Maquettes · version 2</span>
+  <h1>Plateforme de contenu d'aide à la décision pour le Synetam</h1>
+  <p>Les 5 maquettes du cahier des charges, retravaillées après notre échange du 15 octobre : thématiques et parcours définitifs, aucune mise en avant de produit, encart « À intégrer dans votre cahier des charges » et couleurs inspirées de la charte Synetam. Le nom et les textes restent des exemples.</p>
+  <div class="chg">
+    <div><b>5 thématiques, 2 parcours</b>Durabilité, Performance, Conformité, Origine, Matériaux ; « qualité » et « prix ».</div>
+    <div><b>Parcours dans la page</b>Fil d'Ariane, Précédent / Suivant, grille de critères à télécharger en fin de parcours.</div>
+    <div><b>Neutre vis-à-vis des marques</b>Plus de fiche produit ni de profils : des contenus, et un tag secteur public.</div>
+  </div>
+</div></div>
+
+<div class="wrap gab">
+  <div class="cardp">
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-t="0">1 · Accueil</button>
+      <button role="tab" aria-selected="false" data-t="1">2 · Thématique</button>
+      <button role="tab" aria-selected="false" data-t="2">3 · Parcours</button>
+      <button role="tab" aria-selected="false" data-t="3">4 · Contenu</button>
+      <button role="tab" aria-selected="false" data-t="4">5 · À propos</button>
+    </div>
+
+    <div class="pane on" data-p="0" data-src="accueil/">
+      <div class="hd"><div><span class="over">Maquette 1</span><h2>Page d'accueil</h2><p>Recherche en avant, trois portes d'entrée, accès direct aux 5 thématiques, mise en avant des parcours, pop-up d'inscription à la newsletter (nom, e-mail, organisation).</p></div><a class="btn pri" href="accueil/" target="_blank">Ouvrir en plein écran ↗</a></div>
+    </div>
+    <div class="pane" data-p="1" data-src="thematique/">
+      <div class="hd"><div><span class="over">Maquette 2</span><h2>Page thématique (modèle)</h2><p>Exemple « Matériaux » : contenus classés par pertinence et non par date, filtre secteur public, parcours liés, autres thématiques. Déclinable en 5 thématiques depuis WordPress.</p></div><a class="btn pri" href="thematique/" target="_blank">Ouvrir en plein écran ↗</a></div>
+    </div>
+    <div class="pane" data-p="2" data-src="parcours/">
+      <div class="hd"><div><span class="over">Maquette 3</span><h2>Page parcours (modèle)</h2><p>« Je recherche une qualité » : les contenus défilent dans la page, avec fil d'Ariane (étape 2 sur 5), Précédent / Suivant, et une grille de critères standardisée à télécharger en fin de parcours. Essayez-le.</p></div><a class="btn pri" href="parcours/" target="_blank">Essayer le parcours ↗</a></div>
+    </div>
+    <div class="pane" data-p="3" data-src="contenu/">
+      <div class="hd"><div><span class="over">Maquette 4</span><h2>Page contenu (modèle)</h2><p>Titre, sous-titre, sections, photo, tableau, vidéo, encart « À intégrer dans votre cahier des charges » à copier en un clic, rattachement au parcours et suggestions de contenus.</p></div><a class="btn pri" href="contenu/" target="_blank">Ouvrir en plein écran ↗</a></div>
+    </div>
+    <div class="pane" data-p="4" data-src="a-propos/">
+      <div class="hd"><div><span class="over">Maquette 5</span><h2>Page À propos</h2><p>Une page simple qui remet la plateforme dans son contexte : portée par le Synetam, indépendante des marques, accessible à tous.</p></div><a class="btn pri" href="a-propos/" target="_blank">Ouvrir en plein écran ↗</a></div>
+    </div>
+
+    <div class="devices"><div><p class="lbl">Ordinateur</p><div class="desk"><div class="chrome"><i></i><i></i><i></i></div><div class="vp"><iframe id="fd" src="accueil/" title="Aperçu ordinateur" tabindex="-1"></iframe></div></div></div>
+    <div><p class="lbl">Mobile</p><div class="phone"><div class="vp"><iframe id="fm" src="accueil/" title="Aperçu mobile" tabindex="-1"></iframe></div></div></div></div>
+  </div>
+
+  <div class="cta"><div><h2>Échangeons sur ces maquettes</h2><p>Philippine Burnichon · Fyce · webdesign et intégration WordPress</p></div><a class="btn wh" href="https://calendly.com/philippine-brn/fyce" target="_blank" rel="noopener">Réserver un créneau</a></div>
+</div>
+<script>
+function fit(){document.querySelectorAll('.desk .vp').forEach(v=>{v.querySelector('iframe').style.transform='scale('+(v.clientWidth/1440)+')'})}addEventListener('resize',fit);fit();
+(function(){const T=[...document.querySelectorAll('.tabs button')],P=[...document.querySelectorAll('.pane')],fd=document.getElementById('fd'),fm=document.getElementById('fm');
+T.forEach(t=>t.onclick=()=>{T.forEach(x=>x.setAttribute('aria-selected',x===t));P.forEach((p,i)=>p.classList.toggle('on',i==t.dataset.t));const s=P[t.dataset.t].dataset.src;fd.src=s;fm.src=s;fit()})})();
+</script>
+<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
+var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
+</body>
+</html>
