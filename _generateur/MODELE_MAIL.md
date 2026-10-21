@@ -1,51 +1,49 @@
-# Modèle de mail de prospection Fyce (validé par Philippine)
+# Modèle de mail de prospection Fyce (validé par Philippine, nouvelle version du 21 oct. 2026)
 
-Objet : Une idée pour le site de/du <NOM>
+POURQUOI CE CHANGEMENT : l'ancien mail (« Pardonnez-moi ce contact un peu direct… juste pour voir ») n'a obtenu qu'une seule réponse, un refus (« je reçois deux à trois propositions par jour »). Philippine veut un mail plus percutant, où le lecteur a TOUTES les infos tout de suite, y compris le prix, volontairement bas.
 
-Bonjour <Prénom(s) si connus>,
+Objet : Une idée pour le site de/du <NOM> (290 €, en ligne en 7 jours)
+(Garder le début « Une idée pour le site » : la recherche des relances s'appuie dessus.)
 
-Pardonnez-moi ce contact un peu direct : je suis Philippine, je crée des sites pour <les restaurants lyonnais | les domaines du Beaujolais et de Bourgogne | les artisans de la région lyonnaise | les professionnels de l'immobilier | les études notariales | les cabinets d'avocats>, et je repère ceux qui mériteraient un petit coup de jeune.
+Bonjour <Monsieur X | Madame X | Maître X | Bonjour,>,
 
-<Phrase complète et flatteuse avec 2-3 détails précis sur eux, ex. « Votre domaine a une histoire rare : … » / « Votre bouchon a tout pour plaire : … »>. <Une phrase complète sur ce qui coince sur le site actuel, dite avec tact, ex. « Pourtant, les actualités de votre site s'arrêtent en 2020. »>
-
-RÈGLES (validées par Philippine le 9 oct. 2026) :
-- Ne plus utiliser « Le vôtre m'a donné envie de m'y essayer : … ». Des phrases simples et naturelles, jamais de liste sans verbe.
-- Chaque reproche doit être VRAI et vérifié sur le site (jamais « un bouton qui ne mène nulle part » si un module ou une page existe). En cas de doute, garder seulement un fait sûr (date de la dernière actualité, site non adapté au téléphone…).
-- Après le lien de la maquette, on peut préciser ce qu'elle apporte (« avec votre carte d'automne et un module de réservation en ligne »).
-
-RÈGLES AJOUTÉES (Philippine, 12 oct. 2026) :
-- Tout en haut de chaque brouillon, une ligne de vérification : « [À retirer avant envoi] Site actuel : <URL du site d'origine> » (en rouge dans htmlBody). Philippine la supprime avant l'envoi. L'URL est aussi dans la colonne site_actuel de prospects.csv.
-- Ne plus utiliser l'argument du bandeau publicitaire Wix. Pour un site Wix/Jimdo gratuit, dire plutôt : adresse gratuite plutôt qu'à son nom, moins facile à trouver et à retenir, services et téléphone peu visibles.
-- Un constat daté (« actualités arrêtées en 2020 ») doit être suivi de sa conséquence (« une mise à jour donnerait une image plus vivante… »).
-- Pas de détail géographique inutile (ex. deux communes voisines) : seulement ce qui sert l'argument.
-- Site déjà soigné : le reconnaître (« Votre site actuel est déjà soigné : j'ai imaginé une version plus actuelle et plus vivante… »).
-- Si la maquette contient un exemple d'article de blog, le mentionner et préciser que tous les articles seraient repris à la même adresse pour préserver le référencement naturel.
-
-Alors j'ai pris les devants et préparé une maquette, juste pour voir<. phrase optionnelle sur un outil existant conservé, ex. module TheFork> :
+Je suis Philippine, je crée des sites pour <les restaurants | les domaines viticoles | les artisans | les professionnels de l'immobilier | les études notariales | les cabinets d'avocats>. J'ai refait le vôtre, il est déjà en ligne en version d'essai :
 https://maquettes.philippine-burnichon.workers.dev/<slug>/
 
-Ça vous parlerait ? Je serais ravie d'avoir votre retour. Et si ce n'est pas le bon moment, dites-le-moi simplement, je ne vous embêterai pas davantage.
-(Notaires et avocats : « Cela vous parlerait-il ? Je serais ravie d'avoir votre retour. Et si ce n'est pas le bon moment, dites-le-moi simplement, je ne vous importunerai pas davantage. »)
+<UNE phrase : ce qu'on y trouve de concret (carte, cuvées, prestations, formulaire de devis, réservation…) + le problème vérifié du site actuel qu'elle règle (adresse Wix/Jimdo gratuite → « le site serait à votre nom » ; actualités arrêtées en 2020 ; page en construction ; pas de réservation…).>
+
+S'il vous plaît, je le mets en ligne pour vous :
+- 290 € une seule fois, puis 19 € par mois
+- nom de domaine et hébergement compris
+- en ligne sous 7 jours
+- modifications illimitées avant la mise en ligne
+
+Répondez simplement « oui » et je m'occupe de tout. Si ça ne vous intéresse pas, un « non » me suffit : je ne vous recontacterai pas.
 
 Bien cordialement<, et bons chantiers (artisans)>,
-(Domaines : JAMAIS de formule sur les vendanges. En Bourgogne et Beaujolais elles se terminent en septembre ; Philippine l'a signalé le 9 oct. 2026. Pas d'allusion à la saison si elle n'est pas certaine.)
 
-(PAS de signature : le mail s'arrête à la formule de politesse. Philippine ajoute elle-même sa signature Gmail avant d'envoyer. Fournir à la fois body (texte) et htmlBody avec un vrai lien <a href> vers la maquette.)
-
-Règles : moins de 120 mots (hors signature), texte brut, un seul lien, pas de prix, pas de proposition d'appel ni de visite.
+RÈGLES :
+- Le lien de la maquette arrive dès le 2e paragraphe, l'offre (prix, inclus, délai) est en liste, la réponse demandée est un simple « oui » ou « non ».
+- Moins de 120 mots hors ligne de vérification. Pas de signature (Philippine ajoute la sienne).
+- Tout en haut : « [À retirer avant envoi] Site actuel : <URL> » (paragraphe rouge #b00020 dans htmlBody). Fournir body ET htmlBody avec un vrai lien <a href>.
+- Chaque reproche fait au site actuel reste VRAI et vérifié (jamais « pas adapté au téléphone » sans vérification à 390 px). Pas de bandeau publicitaire Wix comme argument.
+- Si la maquette contient un article de blog d'exemple : préciser que tous les articles seraient repris à la même adresse pour garder la place sur Google.
+- Domaines : aucune allusion aux vendanges.
+- Notaires et avocats : « Maître », vouvoiement soigné, ton sobre : « J'ai préparé une nouvelle version du site de votre office/cabinet, consultable dès à présent », « Si elle vous convient, je la mets en ligne », « Une simple réponse suffit. Si cela ne vous intéresse pas, dites-le-moi et je ne vous importunerai pas davantage. »
+- Hors région lyonnaise, ne pas dire « lyonnais ».
 
 # Relance (J+7, dans le même fil, seulement sans réponse)
 
-Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | chantiers | rendez-vous | dossiers | (domaines) deux livraisons>. La maquette reste en ligne si vous voulez y jeter un œil. Je serais ravie d'avoir votre avis, même en deux mots.
+Bonjour, je me permets de revenir vers vous au cas où mon message serait passé entre deux <services | chantiers | rendez-vous | dossiers | livraisons>. Votre nouveau site est toujours en ligne en version d'essai : 290 €, puis 19 € par mois, en ligne sous 7 jours. Un « oui » ou un « non » en réponse me suffit.
 
 Bien cordialement,
 
-(Pas de signature ici non plus.)
+(Pas de signature ici non plus. Les relances préparées avant le 21 oct. avec l'ancien texte restent valables.)
 
 # Par métier
 
 - Restaurants : « entre deux services ». Envoi 15h–17h.
-- Domaines : aucune allusion aux vendanges (finies en septembre). Envoi mardi–jeudi 9h–10h.
+- Domaines : aucune allusion aux vendanges. Envoi mardi–jeudi 9h–10h.
 - Artisans (plombier, électricien, peintre…) : « entre deux chantiers », « bons chantiers ». Envoi 7h30–8h30 ou 18h–19h.
 - Diagnostiqueurs immobiliers : « entre deux rendez-vous ». Envoi 8h–9h.
-- Notaires, avocats : vouvoiement soigné (« Maître »), ton sobre, pas de « coup de jeune » familier : « un site plus moderne et plus lisible ». Envoi mardi–jeudi 8h30–9h30.
+- Notaires, avocats : vouvoiement soigné (« Maître »), ton sobre. Envoi mardi–jeudi 8h30–9h30.
