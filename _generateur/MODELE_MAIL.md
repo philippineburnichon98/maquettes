@@ -4,8 +4,8 @@ HISTORIQUE : l'ancien mail (« Pardonnez-moi ce contact un peu direct… juste p
 
 ## Modèle (artisans, restaurants, domaines, diagnostiqueurs)
 
-Objet : Une idée pour le site de/du <NOM>
-(Rien d'autre dans l'objet : pas de prix. Garder ce début, la recherche des relances s'appuie dessus.)
+Objet : Aperçu nouveau site <NOM>
+(Exemples validés : « Aperçu nouveau site Artisan Louis Strack », « Aperçu nouveau site Le Sporting », « Aperçu nouveau site Maître Cheret ». Rien d'autre dans l'objet : pas de prix. Les mails envoyés avant le 21 oct. 2026 avaient pour objet « Une idée pour le site … » : la recherche des relances doit couvrir les deux.)
 
 Bonjour <Monsieur X | Madame X | Céline, bonjour Nicolas | Bonjour,>,
 
