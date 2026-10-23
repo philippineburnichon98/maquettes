@@ -33,9 +33,9 @@ header.haslogo{background:color-mix(in srgb,var(--paper) 95%,transparent);backdr
 .links{display:flex;gap:32px;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
 .links a{position:relative;padding:6px 0;white-space:nowrap}.logo{flex-shrink:0;margin-right:24px}@media(max-width:1280px){.links{gap:20px;font-size:.7rem;letter-spacing:.1em}}.links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:currentColor;transition:width .3s}.links a:hover::after{width:100%}
 .burger{display:none;background:none;border:0;color:inherit;cursor:pointer;width:32px;height:32px}.burger span{display:block;height:1px;background:currentColor;margin:7px 0}
-@media(max-width:860px){.links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(-130%);transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+@media(max-width:860px){.links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(calc(-100% - 180px));transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
 .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.open .links{transform:none}header.open{background:var(--paper);color:var(--ink)}.burger{display:block}}
-@media(min-width:861px) and (max-width:1180px){header.many .links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(-130%);transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+@media(min-width:861px) and (max-width:1180px){header.many .links{position:fixed;inset:80px 0 auto;flex-direction:column;gap:0;background:var(--paper);color:var(--ink);padding:8px 24px 24px;transform:translateY(calc(-100% - 180px));transition:transform .4s;box-shadow:0 10px 30px rgba(0,0,0,.08)}
 header.many .links a{padding:16px 0;border-bottom:1px solid var(--line)}header.many.open .links{transform:none}header.many.open{background:var(--paper);color:var(--ink)}header.many .burger{display:block}}
 .hero{position:relative;min-height:100svh;display:grid;place-items:end start;color:#fff;overflow:hidden;background:#222 center/cover}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.2) 30%,rgba(0,0,0,.55) 60%,rgba(0,0,0,.82) 100%)}
@@ -94,6 +94,7 @@ section{padding:clamp(56px,7vw,92px) 0}
 .labels{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:26px}.labels img{height:64px;width:auto;background:#fff;padding:6px;border-radius:4px}
 .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
 .team img{width:140px;height:140px;border-radius:50%;object-fit:cover;margin:0 auto 14px;background:var(--paper-2)}
+.team img+.av{display:none}.team .av{width:140px;height:140px;border-radius:50%;margin:0 auto 14px;display:grid;place-items:center;background:color-mix(in srgb,var(--accent) 18%,var(--paper-2));color:var(--accent-2);font-family:var(--serif);font-size:2.6rem;letter-spacing:.04em}
 .team b{display:block;font-family:var(--serif);font-size:1.3rem;font-weight:500}.team span{color:var(--muted);font-size:.9rem}
 .resa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(26px,5vw,60px);background:#fff;border:1px solid var(--line);padding:clamp(24px,4vw,52px)}
 .rform{display:grid;grid-template-columns:1fr 1fr;gap:14px}.rform .full{grid-column:1/-1}
@@ -234,6 +235,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .menu aside dl.courses dt{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.75;margin-bottom:4px}.menu aside dl.courses dd{font-size:.95rem;line-height:1.45}
 .pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
 </style>
+
 
 </head>
 <body class="look-editorial" data-logo="https://static.wixstatic.com/media/efdae5_329d60cbf2f34ed7855d7d910f4ce153~mv2.jpg">
