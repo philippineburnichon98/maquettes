@@ -66,7 +66,7 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Dès que « 2026 » apparaît quelque part sur le site (copyright, actualité, mention « mis à jour »), le prospect est écarté : site trop récent.
 - Écarter aussi les sites déjà bien faits (responsive, propres, récents) : pas de reproche crédible, mauvaise cible.
 - Ne jamais affirmer « pas adapté au téléphone » sans l'avoir vérifié.
-- Logo du pied de page : jamais blanc sur blanc ; vérifier qu'il reste visible.
+- Logo du pied de page : jamais blanc sur blanc ; vérifier qu'il reste visible. Logo blanc (ou très clair) : mettre `"bg"` à une couleur foncée de la charte dans `logo` (ex. `"#1a1b1d"`) ; l’en-tête passe alors sur ce fond avec le texte en blanc, et le pied de page aussi.
 - Photos d'en-tête de petite taille (souvent Wix) : ne pas les étirer plein écran, elles deviennent floues. Mettre `"phead": "box"` dans le JSON (ou `"head": "box"` sur une page) : la photo s'affiche dans un cadre net à côté du titre. `img_pos` pour régler le cadrage (ex. "center top").
 - Photos d'en-tête laides ou de mauvaise qualité (clipart, bords brûlés, personnage coupé) : ne pas les mettre du tout. `"phead": "plain"` donne un en-tête sobre (titre, filet doré, grand monogramme en filigrane). Ne jamais mettre une photo de banque d'images sans l'avoir vue.
 - Photos génériques autorisées quand il en manque (demande de Philippine, 12 oct. 2026) : Pexels, après avoir vérifié la description de la photo sur sa page (titre et texte alternatif). Adresse : https://images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?auto=compress&cs=tinysrgb&w=1920. Les vraies photos du client restent prioritaires.
