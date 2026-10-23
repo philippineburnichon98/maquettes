@@ -615,6 +615,23 @@ def section_reviews(r):
 <div class="revs rv">{cards}</div></div></section>''' + REV_CSS
 
 
+TOP_CSS = """<style>
+header .topbar{height:32px;overflow:hidden;font-size:.74rem;letter-spacing:.06em;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);transition:height .3s,border-color .3s}
+header .topbar .wrap{display:flex;justify-content:flex-end;align-items:center;gap:22px;height:100%;white-space:nowrap}header .topbar a:hover{text-decoration:underline}
+header.scrolled .topbar{height:0;border-color:transparent}
+@media(max-width:860px){header.hastop:not(.scrolled) .links{inset:112px 0 auto}header .topbar .wrap{justify-content:center}}
+@media(min-width:861px) and (max-width:1180px){header.hastop.many:not(.scrolled) .links{inset:112px 0 auto}}
+.look-framed:has(header.hastop) .hero{margin-top:116px}
+footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.25);color:#fff;transition:background .2s}footer .social a:hover{background:rgba(255,255,255,.12)}footer .social svg{width:17px;height:17px;fill:currentColor}
+</style>"""
+
+SOCIAL_ICONS = {
+    "linkedin": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>',
+    "facebook": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg>',
+    "instagram": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>',
+}
+
+
 def section_form(f):
     """Formulaire de contact ou de devis reprenant les champs du site d'origine (envoi par e-mail au prospect)."""
     fields = []
@@ -935,7 +952,7 @@ const close=()=>{{A.hidden=true;try{{sessionStorage.setItem('ann','1')}}catch(e)
 if(!seen)setTimeout(()=>A.hidden=false,1200);A.querySelector('.x').onclick=close;A.onclick=e=>{{if(e.target===A)close()}};
 A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventListener('keydown',e=>{{if(e.key==='Escape'&&!A.hidden)close()}});}})();</script>'''
     lg = d.get("logo")
-    _c = (["haslogo"] if lg else []) + (["many"] if len(d.get("nav", [])) > 6 else [])
+    _c = (["haslogo"] if lg else []) + (["many"] if len(d.get("nav", [])) > 6 else []) + (["hastop"] if d.get("topbar") else [])
     hcls = f' class="{" ".join(_c)}"' if _c else ""
     if lg and lg.get("bg"):
         _bg = lg["bg"].lstrip("#")
@@ -969,18 +986,19 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <link href="{attr(t["fonts"])}" rel="stylesheet">
 <style>{css}</style>
 {LOOK_CSS}
+{TOP_CSS if (d.get("topbar") or f.get("social")) else ""}
 {('<style>' + d['extra_css'] + '</style>') if d.get('extra_css') else ''}
 </head>
 <body class="look-{pick_look(d)}"{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
 {agegate_html(d)}
-<header{hcls}><div class="wrap nav">{hlogo}
+<header{hcls}>{('<div class="topbar"><div class="wrap">' + "".join(f"<span>{x}</span>" for x in d["topbar"]) + '</div></div>') if d.get("topbar") else ""}<div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 {_pagehead(page, d) if page else HOME_HERO}
 {f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else ""}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
-<p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p></div>
+<p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p>{('<div class="social">' + "".join(f'<a href="{attr(u)}" target="_blank" rel="noopener" aria-label="{attr(n.capitalize())}" title="{attr(n.capitalize())}">{SOCIAL_ICONS.get(n.lower(), e(n))}</a>' for n, u in f["social"]) + '</div>') if f.get("social") else ""}</div>
 <div><h4>Explorer</h4><ul>{fnav}</ul></div><div><h4>Contact</h4><ul>{fcontact}</ul></div></div>
 <div class="bottom"><span>© {e(d["brand"])} · {('<a href="' + attr(f['legal_url']) + '" target="_blank" rel="noopener" style="text-decoration:underline">Mentions légales</a>') if f.get('legal_url') else 'Mentions légales'} · Confidentialité</span>{legal}</div></div></footer>
 {lbhtml}{annhtml}<div class="fyce" role="note"><span><b>Proposition de maquette</b> réalisée par <a href="{FYCE["site"]}" target="_blank" rel="noopener">{FYCE["brand"]}</a> · {FYCE["name"]} · <a href="tel:{FYCE["tel"]}">{FYCE["phone"]}</a></span>
