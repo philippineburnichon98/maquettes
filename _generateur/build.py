@@ -673,6 +673,154 @@ def section_form(f):
 </div></div></section>''' + FORM_CSS + FORM_JS + (CHECK_CSS + CHECK_JS if any(x.get("type") in ("checks", "check") for x in f["fields"]) else "")
 
 
+PAY_ICONS = {
+    "cb": ('Carte bancaire', '<svg viewBox="0 0 32 22" aria-hidden="true"><rect x="1" y="1" width="30" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="1" y="5.5" width="30" height="3.4" fill="currentColor"/><rect x="5" y="13" width="7" height="4" rx="1" fill="currentColor" opacity=".55"/><path d="M16 15h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".55"/></svg>'),
+    "cheque": ('Chèque', '<svg viewBox="0 0 32 22" aria-hidden="true"><rect x="1" y="1" width="30" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 7h14M5 11h9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".55"/><path d="M15 16c2-3 3 1 4.5-.6s1.6-1.8 3 .2 2.5-.4 4.5-.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>'),
+    "virement": ('Virement', '<svg viewBox="0 0 32 22" aria-hidden="true"><path d="M3 8h22l-4-4M29 14H7l4 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>'),
+    "especes": ('Espèces', '<svg viewBox="0 0 32 22" aria-hidden="true"><rect x="1" y="3" width="30" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="11" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>'),
+}
+
+
+def pay_badges(keys):
+    """Petites pastilles nettes des moyens de paiement (icônes vectorielles, jamais d'image floue)."""
+    return '<ul class="paybadges">' + "".join(f'<li>{PAY_ICONS[k][1]}<span>{e(PAY_ICONS[k][0])}</span></li>' for k in keys) + '</ul>'
+
+
+ORDER_CSS = """<style>
+.paybadges{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0}
+.paybadges li{display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 9px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:.8rem;color:var(--ink);line-height:1}
+.paybadges svg{width:26px;height:18px;color:var(--accent);flex:none}
+.order{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:clamp(22px,4vw,48px);align-items:start}
+.order .ol,.order .co{background:#fff;border:1px solid var(--line);padding:clamp(18px,3vw,34px);min-width:0}
+.order h3{font-size:1.35rem;margin:0 0 6px}.order .og{margin-top:22px}.order h3+.og{margin-top:14px}
+.order .og>span{display:block;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.order .row{display:grid;grid-template-columns:30px minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px 8px 12px 4px;border-bottom:1px solid var(--line);transition:background .25s}
+.order .row .bt{width:30px;height:64px;display:grid;place-items:center}.order .row .bt img{max-height:64px;width:auto;object-fit:contain}
+.order .row .bt svg{height:52px;width:auto}
+.order .row b{display:block;font-weight:500;font-size:.98rem;line-height:1.3}.order .row b small{color:var(--muted);font-weight:400}.order .row>div>small{display:block;color:var(--muted);font-size:.8rem}
+.order .row .pr{display:block;font-size:.82rem;color:var(--accent);margin-top:2px}
+.order .qty{display:flex;align-items:center;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--paper)}
+.order .qty button{width:36px;height:38px;border:0;background:none;font-size:1.15rem;color:var(--accent);cursor:pointer;font-family:var(--sans)}
+.order .qty button:hover{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.order .qty input{width:40px;height:38px;border:0;background:none;text-align:center;font:inherit;font-weight:500;color:var(--ink);-moz-appearance:textfield;appearance:textfield;padding:0}
+.order .qty input::-webkit-inner-spin-button,.order .qty input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.order .row.on{background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.order .rules{margin:18px 0 0;padding:0;list-style:none;font-size:.85rem;color:var(--muted)}.order .rules li{padding-left:16px;position:relative;margin-top:4px}.order .rules li::before{content:"";position:absolute;left:0;top:.75em;width:7px;height:1px;background:var(--gold)}
+.order .sum{grid-row:span 2;position:sticky;top:96px;background:var(--ink);color:#fff;padding:clamp(20px,3vw,32px);min-width:0}
+.order .sum .eyebrow{color:var(--gold)}.order .sum h3{color:#fff;margin:10px 0 14px}
+.order .sum dl{margin:0}.order .sum dl div{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid rgba(255,255,255,.14);font-size:.92rem}
+.order .sum dl div.tot{font-size:1.05rem;font-weight:500}.order .sum dd{margin:0;text-align:right}
+.order .sum .lines{font-size:.85rem;opacity:.85;margin:0 0 10px}.order .sum .lines p{display:flex;justify-content:space-between;gap:8px;padding:2px 0}
+.order .bar{height:6px;border-radius:9px;background:rgba(255,255,255,.15);overflow:hidden;margin:12px 0 10px}.order .bar i{display:block;height:100%;width:0;background:var(--gold);transition:width .3s}
+.order .hint{font-size:.86rem;opacity:.9}.order .hint.ok{color:var(--gold);opacity:1}
+.order .sum .pn{font-size:.8rem;opacity:.7;margin-top:10px}
+.order .sum .paybadges{margin-top:18px}.order .sum .paybadges li{background:transparent;border-color:rgba(255,255,255,.25);color:#fff}.order .sum .paybadges svg{color:var(--gold)}
+.order .sum .tel{font-size:.82rem;opacity:.8;margin-top:16px}.order .sum .tel a{border-bottom:1px solid var(--gold)}
+.order .co form{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;margin-top:16px}.order .co .full{grid-column:1/-1}
+.order .co label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;color:var(--muted)}
+.order .co input,.order .co select,.order .co textarea{font:inherit;color:var(--ink);padding:11px 12px;border:1px solid var(--line);background:var(--paper);width:100%;min-width:0}
+.order .co fieldset{border:0;padding:0;margin:0;display:grid;gap:10px;min-width:0}.order .co legend{font-size:.85rem;color:var(--muted);margin-bottom:8px;padding:0}
+.order .co label.pm{flex-direction:row;align-items:flex-start;gap:12px;padding:12px 14px;border:1px solid var(--line);background:var(--paper);cursor:pointer;color:var(--ink)}
+.order .co label.pm:has(input:checked){border-color:var(--accent);background:color-mix(in srgb,var(--accent) 5%,var(--paper))}
+.order .co label.pm input{width:18px;height:18px;padding:0;margin:2px 0 0;flex:none;accent-color:var(--accent)}
+.order .co .pm svg{width:30px;height:21px;color:var(--accent);flex:none;margin-top:0}.order .co .pm span{display:flex;flex-direction:column;font-size:.92rem;gap:2px}.order .co .pm b{font-weight:500}.order .co .pm small{color:var(--muted);font-size:.8rem;line-height:1.45}
+.order .co .err,.order .co .ok{color:var(--accent);font-weight:500;font-size:.9rem}
+.order .co .submit{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+@media(max-width:900px){.order{grid-template-columns:minmax(0,1fr)}.order .sum{position:static;grid-row:auto}}
+@media(max-width:560px){.order .co form{grid-template-columns:minmax(0,1fr)}.order .row{grid-template-columns:22px minmax(0,1fr) auto;gap:10px;padding:10px 2px}.order .row .bt{width:22px;height:54px}.order .row .bt img{max-height:54px}.order .row .bt svg{height:44px}.order .row b{font-size:.92rem}.order .qty button{width:32px;height:36px}.order .qty input{width:30px;height:36px}.order .co .submit .btn{width:100%;justify-content:center}}
+</style>"""
+
+ORDER_JS = r"""<script>document.querySelectorAll('.order').forEach(O=>{const C=JSON.parse(O.dataset.cfg),R=[...O.querySelectorAll('.row')],F=O.querySelector('form'),
+fmt=v=>v.toLocaleString('fr-FR',{style:'currency',currency:'EUR'}),Q=O.querySelector('.sum'),err=O.querySelector('.co .err');
+const state=()=>R.map(r=>({n:r.dataset.name,p:parseFloat(r.dataset.price)||0,q:Math.max(0,parseInt(r.querySelector('input').value,10)||0)}));
+const upd=()=>{const S=state(),n=S.reduce((a,x)=>a+x.q,0),t=S.reduce((a,x)=>a+x.q*x.p,0);
+R.forEach((r,i)=>r.classList.toggle('on',S[i].q>0));
+Q.querySelector('.lines').innerHTML=S.filter(x=>x.q).map(x=>'<p><span>'+x.q+' × '+x.n+'</span>'+(x.p?'<span>'+fmt(x.q*x.p)+'</span>':'')+'</p>').join('');
+Q.querySelector('.nb').textContent=n+' bouteille'+(n>1?'s':'');if(C.priced)Q.querySelector('.tt').textContent=fmt(t);
+let h,ok=false;const B=k=>k+' bouteille'+(k>1?'s':'');if(!n)h='Choisissez vos vins'+(C.min>1?' : '+C.min+' bouteilles minimum'+(C.step>1?', puis par '+C.step:''):'')+'.';
+else if(n<C.min)h='Encore '+(C.min-n)+' bouteille'+(C.min-n>1?'s':'')+' pour atteindre le minimum de '+C.min+'.';
+else if(n%C.step){const k=C.step-n%C.step;h='Ajoutez '+k+' bouteille'+(k>1?'s':'')+' pour compléter le carton (par '+C.step+').'}
+else{ok=true;h=C.step>1?'✓ Commande complète : '+n/C.step+' carton'+(n/C.step>1?'s':'')+' de '+C.step+'.':'✓ '+B(n)+' dans votre commande.'}
+const hh=Q.querySelector('.hint');hh.textContent=h;hh.classList.toggle('ok',ok);
+Q.querySelector('.bar i').style.width=(ok?100:n<C.min?n/C.min*100:(n%C.step)/C.step*100)+'%';O.dataset.ok=ok?'1':'';if(ok)err.hidden=true};
+R.forEach(r=>{const i=r.querySelector('input');r.querySelector('.mn').onclick=()=>{i.value=Math.max(0,(parseInt(i.value,10)||0)-1);upd()};
+r.querySelector('.pl').onclick=()=>{i.value=(parseInt(i.value,10)||0)+1;upd()};i.oninput=upd;i.onfocus=()=>i.select()});
+F.onsubmit=ev=>{ev.preventDefault();if(!O.dataset.ok){err.hidden=false;err.textContent=Q.querySelector('.hint').textContent;O.querySelector('.ol').scrollIntoView({behavior:'smooth'});return}
+const bad=[...F.querySelectorAll('[required]')].find(x=>!x.value.trim()||!x.checkValidity());if(bad){err.hidden=false;err.textContent='Merci de compléter : '+bad.closest('label').firstChild.textContent.replace('*','').trim()+'.';bad.focus();return}
+err.hidden=true;const S=state().filter(x=>x.q),n=S.reduce((a,x)=>a+x.q,0),t=S.reduce((a,x)=>a+x.q*x.p,0);
+const L=['Bonjour,','','Je souhaite commander :',...S.map(x=>'- '+x.q+' × '+x.n+(x.p?' ('+fmt(x.q*x.p)+')':'')),'','Total : '+n+' bouteilles'+(C.priced?' — '+fmt(t)+' TTC':''),''];
+F.querySelectorAll('[name]').forEach(x=>{if(x.type==='radio'&&!x.checked)return;const l=x.closest('label');
+const k=x.type==='radio'?x.closest('fieldset').querySelector('legend').textContent.trim():l.firstChild.textContent.replace('*','').trim();
+const v=x.type==='radio'?l.querySelector('b').textContent:(x.value||'').trim();if(v)L.push(k+' : '+v)});
+location.href='mailto:'+C.to+'?subject='+encodeURIComponent(C.subject)+'&body='+encodeURIComponent(L.join('\n')+'\n');O.querySelector('.co .ok').hidden=false};upd()})</script>"""
+
+ORDER_FIELDS = [{"label": "Nom", "required": True, "ac": "family-name"}, {"label": "Prénom", "required": True, "ac": "given-name"},
+                {"label": "Adresse e-mail", "type": "email", "required": True, "ac": "email"}, {"label": "Téléphone", "type": "tel", "ac": "tel"},
+                {"label": "Adresse", "required": True, "full": True, "ac": "street-address"}, {"label": "Code postal", "required": True, "ac": "postal-code"},
+                {"label": "Ville", "required": True, "ac": "address-level2"}, {"label": "Pays", "required": True, "value": "France", "ac": "country-name", "full": True},
+                {"label": "Un message pour le domaine (facultatif)", "type": "textarea", "full": True}]
+
+
+def _bottle(color):
+    return (f'<svg viewBox="0 0 20 60" aria-hidden="true"><path d="M8 2h4v14c0 3 5 5 5 11v29a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V27c0-6 5-8 5-11z" fill="{attr(color)}"/>'
+            '<rect x="3" y="34" width="14" height="12" fill="#fff" opacity=".85"/></svg>')
+
+
+def section_order(o):
+    """Bon de commande (vins, produits) : quantité par ligne, minimum et multiples (cartons), récapitulatif, coordonnées
+    et mode de paiement ; la commande part par e-mail au prospect. Prix facultatifs : jamais inventés."""
+    priced = any(x.get("price") for g in o["groups"] for x in g["items"])
+    groups = []
+    for g in o["groups"]:
+        rows = []
+        for x in g["items"]:
+            name = x["name"] + (f' {x["vintage"]}' if x.get("vintage") else "")
+            vis = f'<img src="{attr(x["img"])}" alt="" loading="lazy" referrerpolicy="no-referrer">' if x.get("img") else _bottle(x.get("color", g.get("color", "#6d1a2a")))
+            pr = f'<span class="pr">{("%.2f" % x["price"]).replace(".", ",")} € la bouteille</span>' if x.get("price") else ""
+            sub = f'<small>{e(x["sub"])}</small>' if x.get("sub") else ""
+            vin = f' <small>{e(x["vintage"])}</small>' if x.get("vintage") else ""
+            rows.append(f'<div class="row" data-name="{attr(name)}" data-price="{x.get("price", 0)}"><div class="bt">{vis}</div><div><b>{e(x["name"])}{vin}</b>{sub}{pr}</div>'
+                        f'<div class="qty"><button type="button" class="mn" aria-label="Une bouteille de moins : {attr(name)}">&minus;</button><input type="number" min="0" inputmode="numeric" value="0" aria-label="Quantité : {attr(name)}"><button type="button" class="pl" aria-label="Une bouteille de plus : {attr(name)}">+</button></div></div>')
+        groups.append(f'<div class="og"><span>{e(g["title"])}</span>{"".join(rows)}</div>')
+    rules = ('<ul class="rules">' + "".join(f"<li>{r}</li>" for r in o["rules"]) + "</ul>") if o.get("rules") else ""
+    fields = []
+    for x in o.get("fields", ORDER_FIELDS):
+        req = " required" if x.get("required") else ""
+        cls = ' class="full"' if x.get("full") or x.get("type") == "textarea" else ""
+        ac = f' autocomplete="{x["ac"]}"' if x.get("ac") else ""
+        lab = e(x["label"]) + (" *" if x.get("required") else "")
+        if x.get("type") == "textarea":
+            inp = f'<textarea name="{attr(x["label"])}" rows="3"{req}></textarea>'
+        elif x.get("type") == "select":
+            inp = f'<select name="{attr(x["label"])}"{req}>' + "".join(f"<option>{e(v)}</option>" for v in x["options"]) + "</select>"
+        else:
+            inp = f'<input name="{attr(x["label"])}" type="{x.get("type", "text")}" value="{attr(x.get("value", ""))}"{ac}{req}>'
+        fields.append(f"<label{cls}>{lab}{inp}</label>")
+    pays = o.get("payments", [])
+    pm = ""
+    if pays:
+        opts = "".join(f'<label class="pm"><input type="radio" name="Paiement" value="{attr(k)}"{" checked" if i == 0 else ""}>{PAY_ICONS[k][1]}<span><b>{e(lab)}</b><small>{e(txt)}</small></span></label>'
+                       for i, (k, lab, txt) in enumerate(pays))
+        pm = f'<fieldset class="full"><legend>Règlement</legend>{opts}</fieldset>'
+    cfg = {"to": o["email"], "subject": o.get("subject", "Commande depuis le site"), "min": o.get("min", 1), "step": o.get("step", 1), "priced": priced}
+    tot = '<div class="tot"><dt>Total TTC</dt><dd class="tt">0,00 €</dd></div>' if priced else ""
+    tel = f'<p class="tel">Une question sur une commande ? <a href="tel:{attr(o["tel"])}">{e(o["phone"])}</a></p>' if o.get("tel") else ""
+    lead = f'<p>{o["lead"]}</p>' if o.get("lead") else ""
+    pnote = f'<p class="pn">{o["price_note"]}</p>' if o.get("price_note") else ""
+    flead = f'<p style="color:var(--muted);font-size:.9rem">{o["form_lead"]}</p>' if o.get("form_lead") else ""
+    return f'''<section id="{o.get("id", "commande")}"><div class="wrap">{_headimg(o)}<div class="head rv"><span class="eyebrow">{e(o["eyebrow"])}</span><h2>{o["title"]}</h2>{lead}</div>
+<div class="order rv" data-cfg="{attr(json.dumps(cfg, ensure_ascii=False))}">
+<div class="ol"><h3>{e(o.get("list_title", "Vos vins"))}</h3>{"".join(groups)}{rules}</div>
+<aside class="sum" aria-live="polite"><span class="eyebrow">{e(o.get("sum_eyebrow", "Récapitulatif"))}</span><h3>Votre commande</h3><div class="lines"></div>
+<dl><div><dt>Nombre de bouteilles</dt><dd class="nb">0 bouteille</dd></div>{tot}</dl><div class="bar"><i></i></div><p class="hint"></p>{pnote}
+{pay_badges([p[0] for p in pays]) if pays else ""}{tel}</aside>
+<div class="co"><h3>{e(o.get("form_title", "Vos coordonnées"))}</h3>{flead}
+<form novalidate>{"".join(fields)}{pm}<p class="full" style="font-size:.8rem;color:var(--muted)">* Champs requis</p>
+<div class="full submit"><button class="btn solid" type="submit">{e(o.get("submit", "Envoyer ma commande"))}</button><p class="err" hidden></p></div>
+<p class="full ok" hidden>{e(o.get("ok", "Merci, votre messagerie va s'ouvrir pour envoyer la commande."))}</p></form></div>
+</div></div></section>''' + ORDER_CSS + ORDER_JS
+
+
 ANALYTICS_JS = r"""<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
 var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>"""
 
@@ -940,7 +1088,7 @@ def build(d, page=None, prefix="", idmap=None):
             nstory += 1
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
-                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "article": section_article, "form": section_form, "reviews": section_reviews}[kind](blk))
+                       "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "article": section_article, "form": section_form, "reviews": section_reviews, "order": section_order}[kind](blk))
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="{attr(hr)}">{e(l)}</a></li>' for hr, l, cur in navitems)

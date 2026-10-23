@@ -1384,111 +1384,103 @@
    "img": "https://www.domaine-de-la-ronze.com/photos/visuel06.jpg",
    "sections": [
     {
-     "kind": "menu",
-     "id": "boutique",
-     "eyebrow": "Boutique en ligne",
+     "kind": "order",
+     "id": "commande",
+     "eyebrow": "Bon de commande",
      "title": "Nos vins <em class=\"it\">livrés chez vous</em>",
-     "lead": "Les vins proposés à la commande sur la boutique du domaine, avec livraison à domicile. Pensez à grouper vos commandes en famille ou entre amis.",
-     "sections": [
+     "lead": "Choisissez vos bouteilles, indiquez vos coordonnées : le domaine vous contacte pour valider votre commande. Pensez à grouper vos commandes en famille ou entre amis.",
+     "email": "contact@domaine-de-la-ronze.com",
+     "subject": "Commande de vins depuis le site",
+     "min": 12,
+     "step": 6,
+     "tel": "+33474692006",
+     "phone": "04 74 69 20 06",
+     "groups": [
       {
        "title": "Rouges",
        "items": [
-        [
-         "Régnié Marie Vernay",
-         "2023"
-        ],
-        [
-         "Régnié Perle de la Ronze",
-         "2023"
-        ],
-        [
-         "Morgon",
-         "2024"
-        ],
-        [
-         "Régnié Fût de Chêne Authentique la Ronze",
-         "2023"
-        ],
-        [
-         "Côte de Brouilly Expression Jean Braillon",
-         "2023"
-        ],
-        [
-         "Régnié Réginus L'Origine",
-         "2022"
-        ]
+        {
+         "name": "Régnié Marie Vernay",
+         "vintage": "2023",
+         "img": "https://www.domaine-de-la-ronze.com/photos/203x600/regine-marie-vernay-1.jpg"
+        },
+        {
+         "name": "Régnié Perle de la Ronze",
+         "vintage": "2023",
+         "sub": "Vieilles vignes",
+         "img": "https://www.domaine-de-la-ronze.com/photos/203x600/regine-perle-de-la-ronze-1.jpg"
+        },
+        {
+         "name": "Morgon",
+         "vintage": "2024",
+         "img": "https://www.domaine-de-la-ronze.com/photos/203x600/morgon-1.jpg"
+        },
+        {
+         "name": "Régnié Fût de Chêne Authentique la Ronze",
+         "vintage": "2023",
+         "img": "https://www.domaine-de-la-ronze.com/photos/203x600/regine-grande-selection-1.jpg"
+        },
+        {
+         "name": "Côte de Brouilly Expression Jean Braillon",
+         "vintage": "2023",
+         "img": "https://www.domaine-de-la-ronze.com/photos/203x600/cote-de-brouilly-expression-jean-braillon-1.jpg"
+        },
+        {
+         "name": "Régnié Réginus L'Origine",
+         "vintage": "2022",
+         "color": "#6d1a2a"
+        }
        ]
       },
       {
        "title": "Rosé",
        "items": [
-        [
-         "Beaujolais-Villages Rosé Amour d'un Soir",
-         ""
-        ]
+        {
+         "name": "Beaujolais-Villages Rosé Amour d'un Soir",
+         "img": "https://www.domaine-de-la-ronze.com/photos/203x600/beaujolais-village-rose-2.jpg"
+        }
        ]
       },
       {
        "title": "Blancs",
        "items": [
-        [
-         "IGP Sauvignon Blanc",
-         ""
-        ],
-        [
-         "Beaujolais-Villages Blanc La Friche",
-         "2023"
-        ],
-        [
-         "Beaujolais-Villages Blanc Pierre D'Aigle",
-         "2022"
-        ]
+        {
+         "name": "IGP Sauvignon Blanc",
+         "color": "#d9b85c"
+        },
+        {
+         "name": "Beaujolais-Villages Blanc La Friche",
+         "vintage": "2023",
+         "color": "#d9b85c"
+        },
+        {
+         "name": "Beaujolais-Villages Blanc Pierre D'Aigle",
+         "vintage": "2022",
+         "color": "#d9b85c"
+        }
        ]
       }
      ],
-     "note": "Commande par 12 bouteilles minimum, puis par multiples de 6 (cartons complets). Livraison en France métropolitaine (hors Corse et îles). Les prix sont affichés sur la boutique du domaine.",
-     "aside": {
-      "eyebrow": "Paiement sécurisé",
-      "title": "Passer commande",
-      "big": "",
-      "text": "Paiement par carte bancaire en ligne ou par chèque à l'ordre du Domaine de la Ronze.",
-      "items": [
-       [
-        "Minimum",
-        "12 bouteilles"
-       ],
-       [
-        "Ensuite",
-        "par 6 bouteilles"
-       ]
+     "rules": [
+      "Le nombre de bouteilles doit être supérieur ou égal à 12.",
+      "Il doit également correspondre à un multiple de 6 pour que les cartons soient complets.",
+      "Tarifs valables uniquement en France métropolitaine (hors Corse et îles)."
+     ],
+     "price_note": "Les données saisies nous permettront de vous contacter pour valider votre commande.",
+     "payments": [
+      [
+       "cb",
+       "Carte bancaire",
+       "Paiement en ligne sécurisé."
       ],
-      "cta": [
-       "Commander en ligne",
-       "https://www.domaine-de-la-ronze.com/commande-bouteille-vins.php"
+      [
+       "cheque",
+       "Chèque",
+       "Imprimez le mail de confirmation et envoyez-le avec votre chèque à l'ordre de DOMAINE DE LA RONZE."
       ]
-     }
-    },
-    {
-     "kind": "blocks",
-     "id": "paiement",
-     "tight": true,
-     "eyebrow": "Moyens de paiement",
-     "title": "Commande <em class=\"it\">en toute sécurité</em>",
-     "items": [
-      {
-       "img": "https://www.domaine-de-la-ronze.com/gifs/logo_paiement.jpg",
-       "contain": true,
-       "alt": "Moyens de paiement acceptés",
-       "title": "Carte bancaire ou chèque",
-       "paras": [
-        "Une question sur une commande ? Appelez le domaine au <a href=\"tel:+33474692006\">04 74 69 20 06</a>."
-       ],
-       "link": [
-        "Ouvrir la boutique",
-        "https://www.domaine-de-la-ronze.com/commande-bouteille-vins.php"
-       ]
-      }
-     ]
+     ],
+     "form_lead": "Lorsque vous validerez le formulaire, vous recevrez un mail à l'adresse renseignée.",
+     "submit": "Envoyer ma commande"
     }
    ]
   },
