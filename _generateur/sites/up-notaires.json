@@ -232,17 +232,16 @@
     {
      "name": "Me Delphine GONÇALVES",
      "role": "Notaire associée, ancienne maître de conférences à l'Université Jean Moulin Lyon 3 · professionnels, particuliers et collectivités : immobilier, famille, gestion de patrimoine",
-     "img": "https://www.upnotaire.fr/public/img/big/9A0A8208jpg_5ed64a22336ee.jpg"
+     "img": "https://www.upnotaire.fr/public/img/big/9A0A8208jpg_5ed64a22336ee.jpg",
+     "pos": "50% 0"
     },
     {
      "name": "Me Olivier DUCHENE",
-     "role": "Notaire, spécialisé en immobilier complexe et institutionnel, pour les particuliers et les professionnels",
-     "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
+     "role": "Notaire, spécialisé en immobilier complexe et institutionnel, pour les particuliers et les professionnels"
     },
     {
      "name": "Me Anne BAUNARD",
-     "role": "Notaire, responsable du Pôle Famille · successions, divorces, séparations, donations, transmission de patrimoine",
-     "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
+     "role": "Notaire, responsable du Pôle Famille · successions, divorces, séparations, donations, transmission de patrimoine"
     }
    ]
   },
@@ -942,37 +941,40 @@
       {
        "name": "Me Fabrice VAZ",
        "role": "Notaire associé depuis 2002 · droit immobilier, droit de la famille, gestion de patrimoine · Diplôme supérieur du notariat (Lyon 3), DU de gestion de patrimoine (Clermont Auvergne)",
-       "img": "https://www.upnotaire.fr/public/img/big/9A0A8220jpg_5ed64b3c176bc.jpg"
+       "img": "https://www.upnotaire.fr/public/img/big/9A0A8220jpg_5ed64b3c176bc.jpg",
+       "pos": "50% 0"
       },
       {
        "name": "Me Delphine GONÇALVES",
        "role": "Notaire associée, ancienne maître de conférences à l'Université Jean Moulin Lyon 3 · professionnels, particuliers et collectivités : immobilier, famille, gestion de patrimoine",
-       "img": "https://www.upnotaire.fr/public/img/big/9A0A8208jpg_5ed64a22336ee.jpg"
+       "img": "https://www.upnotaire.fr/public/img/big/9A0A8208jpg_5ed64a22336ee.jpg",
+       "pos": "50% 0"
       },
       {
        "name": "Me Vardouhie HAKOBYAN",
        "role": "Notaire associée, responsable d'un pôle immobilier généraliste et international · droit des sociétés et international · arménien et russe",
-       "img": "https://www.upnotaire.fr/public/img/big/IMG1965jpg_5ed7b502512d4.jpg"
+       "img": "https://www.upnotaire.fr/public/img/big/IMG1965jpg_5ed7b502512d4.jpg",
+       "pos": "50% 0"
       },
       {
        "name": "Me Anne BAUNARD",
-       "role": "Notaire, responsable du Pôle Famille · successions, divorces, séparations, donations, transmission de patrimoine",
-       "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
+       "role": "Notaire, responsable du Pôle Famille · successions, divorces, séparations, donations, transmission de patrimoine"
       },
       {
        "name": "Me Olivier DUCHENE",
-       "role": "Notaire, spécialisé en immobilier complexe et institutionnel, pour les particuliers et les professionnels",
-       "img": "https://www.upnotaire.fr/templates/notaire/img/default.jpg"
+       "role": "Notaire, spécialisé en immobilier complexe et institutionnel, pour les particuliers et les professionnels"
       },
       {
        "name": "Me Guillaume MICOLAU",
        "role": "Responsable du pôle « Clientèle Internationale »",
-       "img": "https://www.upnotaire.fr/public/img/big/portraitGuilllaumeMICOLAUjpg_5f730174ef8d8.jpg"
+       "img": "https://www.upnotaire.fr/public/img/big/portraitGuilllaumeMICOLAUjpg_5f730174ef8d8.jpg",
+       "pos": "50% 0"
       },
       {
        "name": "Mme Magalie COMBES",
        "role": "Responsable de la comptabilité et des ressources humaines du groupe",
-       "img": "https://www.upnotaire.fr/public/img/big/IMG1975jpeg_5ed90dd7aafac.jpeg"
+       "img": "https://www.upnotaire.fr/public/img/big/IMG1975jpeg_5ed90dd7aafac.jpeg",
+       "pos": "50% 0"
       }
      ]
     }

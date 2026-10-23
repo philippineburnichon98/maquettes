@@ -105,6 +105,7 @@ section{padding:clamp(56px,7vw,92px) 0}
 .labels{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:26px}.labels img{height:64px;width:auto;background:#fff;padding:6px;border-radius:4px}
 .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px;text-align:center}
 .team img{width:140px;height:140px;border-radius:50%%;object-fit:cover;margin:0 auto 14px;background:var(--paper-2)}
+.team img+.av{display:none}.team .av{width:140px;height:140px;border-radius:50%%;margin:0 auto 14px;display:grid;place-items:center;background:color-mix(in srgb,var(--accent) 18%%,var(--paper-2));color:var(--accent-2);font-family:var(--serif);font-size:2.6rem;letter-spacing:.04em}
 .team b{display:block;font-family:var(--serif);font-size:1.3rem;font-weight:500}.team span{color:var(--muted);font-size:.9rem}
 .resa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(26px,5vw,60px);background:#fff;border:1px solid var(--line);padding:clamp(24px,4vw,52px)}
 .rform{display:grid;grid-template-columns:1fr 1fr;gap:14px}.rform .full{grid-column:1/-1}
@@ -302,7 +303,14 @@ def section_booking(b):
 
 
 def section_team(t):
-    ppl = "".join(f'<figure><img src="{attr(p["img"])}" alt="{attr(p["name"])}" loading="lazy" referrerpolicy="no-referrer"><figcaption><b>{e(p["name"])}</b><span>{e(p["role"])}</span></figcaption></figure>' for p in t["people"])
+    def face(p):   # sans photo (ou photo par défaut du site) : avatar aux initiales ; "pos" recadre le portrait
+        ini = e(initials(re.sub(r"^(Me|Maître|Mme|M\.|Mlle|Dr)\s+", "", p["name"])))
+        if not p.get("img") or re.search(r"/default\.(jpe?g|png)$", p["img"]):
+            return f'<span class="av" aria-hidden="true">{ini}</span>'
+        pos = f' style="object-position:{attr(p["pos"])}"' if p.get("pos") else ""
+        return (f'<img src="{attr(p["img"])}" alt="{attr(p["name"])}"{pos} loading="lazy" referrerpolicy="no-referrer" '
+                f'onerror="this.remove()"><span class="av" aria-hidden="true">{ini}</span>')
+    ppl = "".join(f'<figure>{face(p)}<figcaption><b>{e(p["name"])}</b><span>{e(p["role"])}</span></figcaption></figure>' for p in t["people"])
     note = f'<p class="note">{e(t["note"])}</p>' if t.get("note") else ""
     big = f'<img class="teamhero" src="{attr(t["img"])}" alt="{attr(t.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">' if t.get("img") else ""
     return f'''<section id="{t.get("id", "equipe")}"><div class="wrap">{big}<div class="head rv"><span class="eyebrow">{e(t["eyebrow"])}</span>
