@@ -51,6 +51,11 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 ## Modèle de vrai site avec blog modifiable
 - Dossier `modele-site-blog/` : point de départ d'un site client avec blog géré par le client (Pages CMS + Cloudflare). Mode d'emploi : `modele-site-blog/GUIDE.md`, guide client : `GUIDE-CLIENT.md`. Démo (côté visiteur) : site/modele-blog-demo-7e2b1c/.
 
+## Bon de commande de vins (demande de Philippine, 23 oct. 2026)
+- Section `order` de build.py : liste des vins par groupes (`groups` : [{title, items: [{name, vintage, sub, price, img, color}]}]), quantités +/−, récapitulatif (nombre de bouteilles, total si `price` renseigné), règles `min` / `step` (ex. 12 minimum puis par 6 = cartons complets), coordonnées (`fields`, sinon nom, prénom, e-mail, téléphone, adresse, CP, ville, pays), `payments` ([["cb"|"cheque"|"virement"|"especes", libellé, texte]]) ; la commande part par e-mail (`email`). Prix jamais inventés : sans prix, pas de total en euros.
+- Moyens de paiement : jamais l'image du site d'origine (souvent floue), mais les petites icônes vectorielles de `pay_badges`.
+- Exemples : domaine-de-la-ronze.json (page boutique), domaine-hirsch.json (section commander).
+
 ## Maquettes déjà envoyées : NE PLUS LES MODIFIER (règle de Philippine, 11 oct. 2026)
 - Dès qu'un prospect a le statut « envoye » (ou suivant) dans prospects.csv, sa maquette est figée : le prospect l'a peut-être déjà vue. Ne régénère pas son JSON, ne touche pas à son dossier site/.
 - Quand on régénère toutes les maquettes (`build.py sites/*.json`), exclure celles des prospects envoyés.
