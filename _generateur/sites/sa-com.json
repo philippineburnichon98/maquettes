@@ -1,0 +1,371 @@
+{
+ "slug": "sa-com-aa6eef",
+ "title": "SA COM — Électricité & télécom à Lyon 4e",
+ "description": "SA COM, électricité générale et télécom à Lyon : dépannage d'urgence 24h/24, réparation et rénovation, installation électrique courant fort et courant faible, diagnostic et mise en conformité. Devis gratuit.",
+ "brand": "SA COM",
+ "tagline": "Électricité & Télécom · Lyon",
+ "monogram": "SA",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f5f2",
+  "paper2": "#eae7e0",
+  "ink": "#1b1d21",
+  "muted": "#5d6067",
+  "accent": "#d2601a",
+  "accent2": "#a94c13",
+  "gold": "#d2601a",
+  "heroem": "#ffb27a",
+  "serif": "\"Space Grotesk\",system-ui,sans-serif",
+  "sans": "\"IBM Plex Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
+ },
+ "topbar": [
+  "Dépannage d'urgence 24h/24",
+  "<a href=\"tel:+33652212316\">06 52 21 23 16</a>"
+ ],
+ "nav": [
+  [
+   "expertises",
+   "Expertises"
+  ],
+  [
+   "realisations",
+   "Réalisations"
+  ],
+  [
+   "tarifs",
+   "Tarifs et devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/ea71bb_73737d19d7c549a2b8ecd89f419038d8~mv2_d_7360_4912_s_4_2.jpg",
+  "eyebrow": "Électricité & Télécom · Lyon",
+  "title": "Pour tous vos travaux <em>en électricité et télécom</em>",
+  "lead": "Faites appel à un technicien compétent proche de chez vous.",
+  "cta1": [
+   "Devis gratuit",
+   "contact/"
+  ],
+  "cta2": [
+   "06 52 21 23 16",
+   "tel:+33652212316"
+  ]
+ },
+ "figures": [
+  [
+   "24h/24",
+   "dépannage d'urgence"
+  ],
+  [
+   "4",
+   "domaines d'expertise"
+  ],
+  [
+   "Lyon 4e",
+   "place Camille-Flammarion"
+  ],
+  [
+   "0 €",
+   "le devis"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "expertises",
+   "eyebrow": "Expertises",
+   "title": "Électricité générale <em class=\"it\">à Lyon</em>",
+   "img": "https://static.wixstatic.com/media/ea71bb_9b54ccc5da784febac7237367f8a0b14~mv2_d_5600_3738_s_4_2.jpg",
+   "alt": "Travaux d'électricité SA COM",
+   "paras": [
+    "SA COM est spécialisée dans l'électricité générale à Lyon et vous propose des solutions optimisées.",
+    "Fort de plusieurs années d'expérience, notre technicien travaille selon les normes en vigueur, avec soin et dans le respect de la sécurité."
+   ],
+   "sign": "Électricité & Télécom"
+  },
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "dark": true,
+   "eyebrow": "Nos domaines",
+   "title": "Du dépannage <em class=\"it\">à la mise en conformité</em>",
+   "items": [
+    {
+     "kicker": "24h/24",
+     "title": "Dépannage d'urgence",
+     "list": [
+      "Recherche de panne",
+      "Tableau électrique",
+      "Interrupteurs, prises, éclairage",
+      "Mise en sécurité, remise en service"
+     ]
+    },
+    {
+     "kicker": "Réparation",
+     "title": "Réparation & rénovation",
+     "list": [
+      "Remplacement de tableau, mise aux normes",
+      "Éclairage, prises, interrupteurs",
+      "Chauffage électrique, sèche-serviettes",
+      "Caméras de surveillance, interphone, vidéophone"
+     ]
+    },
+    {
+     "kicker": "Installation",
+     "title": "Installation électrique",
+     "list": [
+      "Courant fort et courant faible",
+      "Mise en conformité, mise à la terre",
+      "Tirage de câbles, pose d'appareillages",
+      "Téléphonie, internet, réseau informatique",
+      "Alarme incendie, vidéosurveillance"
+     ]
+    },
+    {
+     "kicker": "Diagnostic",
+     "title": "Diagnostic & mise en conformité",
+     "list": [
+      "Remplacement de tableau, mise aux normes",
+      "Changement d'appareillages",
+      "Communication, réseau et sécurité"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Réalisations",
+   "title": "Tout type de travaux <em class=\"it\">électriques</em>",
+   "lead": "SA COM intervient sur tout type de travaux électriques : tableau électrique, câblage électrique, informatique, téléphone et télévision, courant fort et faible, installation d'équipements.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_035c6a0d3bd745e99b9f0e4cab3dd8d2~mv2_d_2732_3417_s_4_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_035c6a0d3bd745e99b9f0e4cab3dd8d2~mv2_d_2732_3417_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_035c6a0d3bd745e99b9f0e4cab3dd8d2~mv2_d_2732_3417_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_035c6a0d3bd745e99b9f0e4cab3dd8d2~mv2_d_2732_3417_s_4_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_57262d35c80e4492838554cdafbda84c~mv2_d_3425_2332_s_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_57262d35c80e4492838554cdafbda84c~mv2_d_3425_2332_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_57262d35c80e4492838554cdafbda84c~mv2_d_3425_2332_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_57262d35c80e4492838554cdafbda84c~mv2_d_3425_2332_s_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_8d5ca01f2e7b4264946f4a4718443143~mv2_d_3070_2049_s_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_8d5ca01f2e7b4264946f4a4718443143~mv2_d_3070_2049_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_8d5ca01f2e7b4264946f4a4718443143~mv2_d_3070_2049_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_8d5ca01f2e7b4264946f4a4718443143~mv2_d_3070_2049_s_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_aeb81486824343299d1d1ffaa1b78e25~mv2_d_2825_2764_s_4_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_aeb81486824343299d1d1ffaa1b78e25~mv2_d_2825_2764_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_aeb81486824343299d1d1ffaa1b78e25~mv2_d_2825_2764_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_aeb81486824343299d1d1ffaa1b78e25~mv2_d_2825_2764_s_4_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_9d74298f90c54dbc8b2d0dba4cba15b0~mv2_d_1871_1784_s_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_9d74298f90c54dbc8b2d0dba4cba15b0~mv2_d_1871_1784_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_9d74298f90c54dbc8b2d0dba4cba15b0~mv2_d_1871_1784_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_9d74298f90c54dbc8b2d0dba4cba15b0~mv2_d_1871_1784_s_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_ff6e32a2c24245f7a536b8412243be1e~mv2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_ff6e32a2c24245f7a536b8412243be1e~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_ff6e32a2c24245f7a536b8412243be1e~mv2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_bd0a8ae10bf04f71a93720b321ccc4e7~mv2_d_4365_2498_s_4_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_bd0a8ae10bf04f71a93720b321ccc4e7~mv2_d_4365_2498_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_bd0a8ae10bf04f71a93720b321ccc4e7~mv2_d_4365_2498_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_bd0a8ae10bf04f71a93720b321ccc4e7~mv2_d_4365_2498_s_4_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_376efb85438847a8ac5fde0d3adb2e7e~mv2_d_2492_1664_s_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_376efb85438847a8ac5fde0d3adb2e7e~mv2_d_2492_1664_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_376efb85438847a8ac5fde0d3adb2e7e~mv2_d_2492_1664_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_376efb85438847a8ac5fde0d3adb2e7e~mv2_d_2492_1664_s_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_67b99ec2f94c49b394a7aeeb49871048~mv2_d_4415_2818_s_4_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_67b99ec2f94c49b394a7aeeb49871048~mv2_d_4415_2818_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_67b99ec2f94c49b394a7aeeb49871048~mv2_d_4415_2818_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_67b99ec2f94c49b394a7aeeb49871048~mv2_d_4415_2818_s_4_2.jpg",
+     "alt": "Réalisation SA COM"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ea71bb_ff8ccb85016048fb8bf3fe5fe1c29982~mv2_d_5263_3522_s_4_2.jpg/v1/fill/w_600,h_600,al_c,q_85/ea71bb_ff8ccb85016048fb8bf3fe5fe1c29982~mv2_d_5263_3522_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/ea71bb_ff8ccb85016048fb8bf3fe5fe1c29982~mv2_d_5263_3522_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_ff8ccb85016048fb8bf3fe5fe1c29982~mv2_d_5263_3522_s_4_2.jpg",
+     "alt": "Réalisation SA COM"
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/ea71bb_ff8ccb85016048fb8bf3fe5fe1c29982~mv2_d_5263_3522_s_4_2.jpg",
+   "eyebrow": "Devis gratuit",
+   "title": "Un technicien compétent <em class=\"it\">proche de chez vous</em>",
+   "cta": [
+    "Tarifs et devis",
+    "tarifs-et-devis/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "tarifs-et-devis",
+   "label": "Tarifs et devis",
+   "title": "Tarifs & devis",
+   "eyebrow": "Tarifs",
+   "lead": "Pour chaque intervention, un devis personnalisé.",
+   "img": "https://static.wixstatic.com/media/ea71bb_9b54ccc5da784febac7237367f8a0b14~mv2_d_5600_3738_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "tarifs",
+     "eyebrow": "Tarifs",
+     "title": "Nos tarifs <em class=\"it\">à partir de</em>",
+     "lead": "Tarifs indicatifs : chaque intervention fait l'objet d'un devis personnalisé.",
+     "items": [
+      {
+       "name": "Dépannage urgence",
+       "desc": "Dépannage électrique, recherche de panne électrique.",
+       "price": "110 €",
+       "fmt": "À partir de"
+      },
+      {
+       "name": "Réparation & rénovation",
+       "desc": "Réparation de tableau électrique, de prise électrique, de luminaire.",
+       "price": "90 €",
+       "fmt": "À partir de"
+      },
+      {
+       "name": "Installation électrique",
+       "desc": "Installation électrique, installation de tableau électrique, installation de prise électrique.",
+       "price": "90 €",
+       "fmt": "À partir de"
+      },
+      {
+       "name": "Diagnostic & mise en conformité",
+       "desc": "Contrôle et diagnostic, remise aux normes.",
+       "price": "150 €",
+       "fmt": "À partir de"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/ea71bb_67b99ec2f94c49b394a7aeeb49871048~mv2_d_4415_2818_s_4_2.jpg",
+     "eyebrow": "Devis personnalisé",
+     "title": "Demandez votre <em class=\"it\">devis gratuit</em>",
+     "cta": [
+      "Devis personnalisé",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contactez-nous",
+   "eyebrow": "Contact",
+   "lead": "Pour nous contacter, remplissez le formulaire ou appelez-nous directement.",
+   "img": "https://static.wixstatic.com/media/ea71bb_73737d19d7c549a2b8ecd89f419038d8~mv2_d_7360_4912_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Votre demande, <em class=\"it\">votre devis</em>",
+     "lead": "Nous traitons votre demande dans les plus brefs délais.",
+     "email": "Sacom1@outlook.fr",
+     "subject": "Demande de devis depuis le site SA COM",
+     "side": [
+      "<a href=\"tel:+33652212316\" style=\"border-bottom:1px solid var(--gold)\">06 52 21 23 16</a>",
+      "Dépannage d'urgence 24h/24."
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet",
+       "type": "select",
+       "options": [
+        "Dépannage urgence",
+        "Réparation & rénovation",
+        "Installation électrique",
+        "Diagnostic & mise en conformité",
+        "Autre demande"
+       ]
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "Place Camille-Flammarion, <em class=\"it\">Lyon 4e</em>",
+     "text": "Électricité générale et télécom à Lyon. Dépannage d'urgence 24h/24.",
+     "rows": [
+      [
+       "Adresse",
+       "5, place Camille-Flammarion<br>69004 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33652212316\">06 52 21 23 16</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:Sacom1@outlook.fr\">Sacom1@outlook.fr</a>"
+      ],
+      [
+       "Disponibilité",
+       "24h/24, 7j/7"
+      ]
+     ],
+     "cta": [
+      "Appeler",
+      "tel:+33652212316"
+     ],
+     "map_q": "5 place Camille Flammarion 69004 Lyon"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "SA COM, électricité générale et télécom à Lyon : dépannage d'urgence, réparation et rénovation, installation électrique, diagnostic et mise en conformité.",
+  "contact": [
+   "<a href=\"tel:+33652212316\">06 52 21 23 16</a>",
+   "<a href=\"mailto:Sacom1@outlook.fr\">Sacom1@outlook.fr</a>",
+   "5, place Camille-Flammarion, 69004 Lyon"
+  ],
+  "legal": "Électricité & télécom · Devis gratuit"
+ },
+ "nav_extra": [
+  [
+   "expertises",
+   "Expertises",
+   1
+  ],
+  [
+   "realisations",
+   "Réalisations",
+   2
+  ]
+ ]
+}
