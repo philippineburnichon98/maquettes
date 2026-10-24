@@ -1,0 +1,621 @@
+{
+ "slug": "diag79-4f3f69",
+ "title": "Diag 79 — Diagnostics immobiliers à Niort et en Deux-Sèvres",
+ "description": "Diag 79, diagnostics immobiliers obligatoires pour la vente et la location à Niort et dans les Deux-Sèvres : DPE, amiante, plomb (CREP), termites, gaz, électricité, ERP. Entreprise affiliée à la FIDI. Devis gratuit.",
+ "brand": "Diag 79",
+ "tagline": "Diagnostics immobiliers · Niort",
+ "logo": {
+  "src": "https://diag79.com/wp-content/uploads/2018/08/logo-diag-79-seul-sans-tel-test-150x150.png",
+  "height": 58,
+  "bg": "#ffffff"
+ },
+ "theme": {
+  "look": "center",
+  "paper": "#f5f7f6",
+  "paper2": "#e5ece9",
+  "ink": "#17242a",
+  "muted": "#56656b",
+  "accent": "#0f6e78",
+  "accent2": "#0b5760",
+  "gold": "#d07a1c",
+  "heroem": "#ffc47a",
+  "serif": "\"Manrope\",system-ui,sans-serif",
+  "sans": "\"Manrope\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+ },
+ "topbar": [
+  "Lundi – vendredi, 8h – 18h",
+  "<a href=\"tel:+33549091699\">05 49 09 16 99</a>",
+  "<a href=\"tel:+33781662525\">07 81 66 25 25</a>"
+ ],
+ "nav": [
+  [
+   "diagnostics",
+   "Diagnostics immobiliers"
+  ],
+  [
+   "vente",
+   "Vendre"
+  ],
+  [
+   "location",
+   "Louer"
+  ],
+  [
+   "devis",
+   "Demander un devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Diag 79",
+ "hero": {
+  "img": "https://diag79.com/wp-content/uploads/2018/08/Image-slider-accueil-3.png",
+  "eyebrow": "Diagnostics immobiliers · Niort et Deux-Sèvres",
+  "title": "Vos diagnostics immobiliers <em>à Niort et dans le 79</em>",
+  "lead": "Vente ou location : Diag 79 vous propose une expertise de diagnostics immobiliers obligatoires. Intervention à Niort et sa région, devis gratuit.",
+  "cta1": [
+   "Demander un devis",
+   "demander-un-devis/"
+  ],
+  "cta2": [
+   "05 49 09 16 99",
+   "tel:+33549091699"
+  ]
+ },
+ "figures": [
+  [
+   "7",
+   "diagnostics vente"
+  ],
+  [
+   "5",
+   "diagnostics location"
+  ],
+  [
+   "FIDI",
+   "entreprise affiliée"
+  ],
+  [
+   "0 €",
+   "le devis"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "savoir-faire",
+   "eyebrow": "Notre savoir-faire",
+   "title": "Sécuriser la vente, <em class=\"it\">informer le locataire</em>",
+   "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-commercial.jpg",
+   "alt": "Diagnostics immobiliers Diag 79",
+   "paras": [
+    "Dans le cadre d'une vente immobilière, le dossier de diagnostics permet au propriétaire de sécuriser la transaction en informant les futurs acquéreurs.",
+    "Lors de la mise en location d'un bien, il est également nécessaire de réaliser un certain nombre de diagnostics, qui informent le locataire sur l'état du bien.",
+    "Diag 79 est une entreprise affiliée à la Fédération Interprofessionnelle des Diagnostiqueurs Immobilier (FIDI) et vous propose un expert qualifié et certifié pour accompagner votre projet."
+   ],
+   "logos": [
+    [
+     "https://diag79.com/wp-content/uploads/2018/08/logo-fidi-2.png",
+     "FIDI"
+    ],
+    [
+     "https://diag79.com/wp-content/uploads/2018/08/LogoBV2.png",
+     "Certification"
+    ],
+    [
+     "https://diag79.com/wp-content/uploads/2018/08/Logo-MMA-2017.png",
+     "MMA"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Nos diagnostics",
+   "title": "Les diagnostics <em class=\"it\">que nous réalisons</em>",
+   "items": [
+    {
+     "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-commercial.jpg",
+     "kicker": "DPE",
+     "title": "Diagnostic de performance énergétique",
+     "link": [
+      "En savoir plus",
+      "diagnostics-immobiliers/#dpe"
+     ]
+    },
+    {
+     "img": "https://diag79.com/wp-content/uploads/2017/06/decapage-peinture-plomb.jpg",
+     "kicker": "Plomb et amiante",
+     "title": "Diagnostic plomb et amiante",
+     "link": [
+      "En savoir plus",
+      "diagnostics-immobiliers/#plomb"
+     ]
+    },
+    {
+     "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-8.jpg",
+     "kicker": "Électricité et gaz",
+     "title": "État des installations électriques et de gaz",
+     "link": [
+      "En savoir plus",
+      "diagnostics-immobiliers/#electricite"
+     ]
+    },
+    {
+     "img": "https://diag79.com/wp-content/uploads/2017/06/erp-ok.jpg",
+     "kicker": "Termites et ERP",
+     "title": "Termites, état des risques et pollutions",
+     "link": [
+      "En savoir plus",
+      "diagnostics-immobiliers/#erp"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "reviews",
+   "id": "avis",
+   "eyebrow": "Témoignages",
+   "title": "Ils nous ont <em class=\"it\">fait confiance</em>",
+   "source": [
+    "Témoignages publiés sur diag79.com",
+    "https://diag79.com/"
+   ],
+   "items": [
+    {
+     "name": "Mr Migaud",
+     "text": "Bon service, contact professionnel"
+    },
+    {
+     "name": "Maud G",
+     "text": "Réactif, professionnel et agréable"
+    },
+    {
+     "name": "Eve D",
+     "text": "Je vous remercie pour votre rapidité et réactivité, […]"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "actualites",
+   "eyebrow": "Actualités",
+   "title": "Les nouvelles <em class=\"it\">de Diag 79</em>",
+   "items": [
+    {
+     "img": "https://diag79.com/wp-content/uploads/2017/06/erp-ok.jpg",
+     "kicker": "2 août 2018",
+     "title": "ESRIS devient ERP",
+     "paras": [
+      "Après 6 mois d'existence, ESRIS devient ERP : on vous dit tout."
+     ]
+    },
+    {
+     "img": "https://diag79.com/wp-content/uploads/2017/06/logo-diag-79-seul-sans-tel.png",
+     "contain": true,
+     "kicker": "Août 2018",
+     "title": "Nouveau site internet Diag79.com",
+     "paras": [
+      "Informer, vous donner les actualités sur les diagnostics immobiliers, les nouveautés, les obligations des vendeurs et des bailleurs."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://diag79.com/wp-content/uploads/2018/08/Image-slider-accueil-3.png",
+   "eyebrow": "Intervention Niort et sa région",
+   "title": "Devis gratuit, <em class=\"it\">réponse rapide</em>",
+   "cta": [
+    "Demander un devis",
+    "demander-un-devis/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "diagnostics-immobiliers",
+   "label": "Diagnostics immobiliers",
+   "title": "Nos diagnostics immobiliers",
+   "eyebrow": "Vente et location",
+   "lead": "Diag 79 vous propose un panel de diagnostics immobiliers pour la vente ou la location. Un diagnostic immobilier permet d'informer l'acquéreur ou le locataire de l'état de « santé » du bien.",
+   "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-commercial.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "diagnostics",
+     "eyebrow": "Obligations",
+     "title": "Un diagnostic technique <em class=\"it\">obligatoire</em>",
+     "lead": "La loi oblige le vendeur ou le bailleur d'un bien immobilier à réaliser un diagnostic technique immobilier. Selon l'âge, la situation et l'usage du bien, tout ou partie des diagnostics est à réaliser.",
+     "items": [
+      {
+       "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-commercial.jpg",
+       "kicker": "DPE",
+       "title": "<span id=\"dpe\"></span>Performance énergétique (DPE)",
+       "paras": [
+        "Le diagnostic de performance énergétique donne un aperçu de la performance énergétique d'un logement. Ce document vise à informer l'acquéreur ou le locataire sur le bien qu'il projette d'acheter ou de louer."
+       ],
+       "list": [
+        "Concerne : tous les logements occupés 4 mois par an et munis d'un système de chauffage",
+        "Validité : 10 ans pour la vente et la location"
+       ]
+      },
+      {
+       "img": "https://diag79.com/wp-content/uploads/2017/06/erp-ok.jpg",
+       "kicker": "ERP",
+       "title": "<span id=\"erp\"></span>État des risques et pollutions",
+       "paras": [
+        "Information de l'acquéreur ou du locataire sur la situation du bien immobilier, bâti ou non bâti. Obligatoire depuis le 1er juin 2006."
+       ],
+       "list": [
+        "Concerne : logements situés en zone à risque définie par la préfecture",
+        "Validité : 6 mois pour la vente ou la location"
+       ]
+      },
+      {
+       "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-commercial.jpg",
+       "kicker": "Électricité",
+       "title": "<span id=\"electricite\"></span>Diagnostic électricité",
+       "paras": [
+        "Ce diagnostic a pour but d'informer l'acquéreur sur les risques liés à l'état et à l'utilisation de l'installation électrique."
+       ],
+       "list": [
+        "Concerne : installations de plus de 15 ans",
+        "Validité : 3 ans pour la vente, 6 ans pour la location"
+       ]
+      },
+      {
+       "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-8.jpg",
+       "kicker": "Gaz",
+       "title": "<span id=\"gaz\"></span>Diagnostic gaz",
+       "paras": [
+        "Le contrôle de l'installation intérieure fixe de gaz a pour but de renseigner l'acquéreur ou le locataire sur les risques liés à son état et à son utilisation."
+       ],
+       "list": [
+        "Concerne : installations fixes de plus de 15 ans",
+        "Validité : 3 ans pour la vente, 6 ans pour la location"
+       ]
+      },
+      {
+       "img": "https://diag79.com/wp-content/uploads/2017/06/decapage-peinture-plomb.jpg",
+       "kicker": "Plomb",
+       "title": "<span id=\"plomb\"></span>Plomb (CREP)",
+       "paras": [
+        "Le constat des risques d'exposition au plomb ne concerne que le plomb dans les peintures, le but étant de lutter contre le saturnisme. Le CREP doit être produit pour la promesse de vente et pour les contrats de location."
+       ],
+       "list": [
+        "Concerne : logements construits avant le 01/01/1949",
+        "Validité vente : 1 an, ou illimitée si absence de plomb"
+       ]
+      },
+      {
+       "kicker": "Termites",
+       "title": "<span id=\"termites\"></span>Termites",
+       "paras": [
+        "L'état relatif à la présence de termites consiste en la recherche de termites dans le bâti, dans un rayon de 10 mètres. Les logements concernés sont ceux situés dans les zones déclarées par arrêté préfectoral comme infestées ou susceptibles de l'être à court terme."
+       ],
+       "list": [
+        "Concerne : immeubles situés en zones définies par la préfecture",
+        "Validité : 6 mois"
+       ]
+      },
+      {
+       "img": "https://diag79.com/wp-content/uploads/2018/08/amiante-logo.png",
+       "contain": true,
+       "kicker": "Amiante",
+       "title": "<span id=\"amiante\"></span>Amiante",
+       "paras": [
+        "Le diagnostic amiante vise à faire état de la présence ou de l'absence d'amiante. Depuis le 1er janvier 1997, l'utilisation de l'amiante est interdite en France."
+       ],
+       "list": [
+        "Concerne : constructions dont le permis de construire a été délivré avant le 01/07/1997",
+        "Validité : 3 ans, ou illimitée si absence d'amiante"
+       ]
+      }
+     ],
+     "chips": [
+      "Loi Carrez",
+      "Loi Boutin"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vendre",
+   "label": "Vendre",
+   "title": "Les diagnostics obligatoires pour la vente",
+   "eyebrow": "Vendre",
+   "lead": "Diag 79 vous propose une expertise de diagnostics immobiliers obligatoires pour la vente d'un bien immobilier.",
+   "img": "https://diag79.com/wp-content/uploads/2018/08/Image-slider-accueil-3.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "vente",
+     "eyebrow": "Vente d'un bien immobilier",
+     "title": "Le dossier de diagnostics <em class=\"it\">pour vendre</em>",
+     "lead": "Selon l'âge, la situation et l'usage du bien : termites, DPE, amiante, plomb (CREP), ERP, gaz, électricité.",
+     "items": [
+      [
+       "DPE",
+       "Estimation de la consommation d'énergie du logement. Validité 10 ans."
+      ],
+      [
+       "Amiante",
+       "Biens dont le permis de construire a été délivré avant le 1er juillet 1997."
+      ],
+      [
+       "Plomb (CREP)",
+       "Risque d'exposition au plomb, limité au plomb dans les peintures. Logements d'avant 1949."
+      ],
+      [
+       "Termites et ERP",
+       "Recherche de termites dans le bâti ; information sur les risques naturels et technologiques."
+      ],
+      [
+       "Gaz",
+       "Contrôle de l'installation intérieure fixe de gaz de plus de 15 ans."
+      ],
+      [
+       "Électricité",
+       "Risques liés à l'état et à l'utilisation de l'installation électrique de plus de 15 ans."
+      ]
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-commercial.jpg",
+     "eyebrow": "Devis gratuit",
+     "title": "Vous vendez ? <em class=\"it\">Demandez votre devis</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "louer",
+   "label": "Louer",
+   "title": "Les diagnostics obligatoires pour la location",
+   "eyebrow": "Louer",
+   "lead": "Diag 79 vous propose une offre de diagnostics immobiliers obligatoires pour la location.",
+   "img": "https://diag79.com/wp-content/uploads/2017/06/erp-ok.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "location",
+     "eyebrow": "Location d'un bien immobilier",
+     "title": "Le dossier de diagnostics <em class=\"it\">pour louer</em>",
+     "lead": "Pour les locations, le diagnostic amiante n'est pas à joindre au bail, mais doit être fourni à toute entreprise réalisant des travaux dans le bien ou à la demande du locataire.",
+     "items": [
+      [
+       "DPE",
+       "Aperçu de la performance énergétique du logement. Validité 10 ans."
+      ],
+      [
+       "Plomb (CREP)",
+       "À produire pour les contrats de location des logements construits avant 1949."
+      ],
+      [
+       "ERP",
+       "État des risques et pollutions. Validité 6 mois."
+      ],
+      [
+       "Gaz",
+       "Installation intérieure fixe de gaz de plus de 15 ans. Validité 6 ans en location."
+      ],
+      [
+       "Électricité",
+       "Installation électrique de plus de 15 ans. Validité 6 ans en location."
+      ]
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://diag79.com/wp-content/uploads/2017/06/img-service-8.jpg",
+     "eyebrow": "Devis gratuit",
+     "title": "Vous louez ? <em class=\"it\">Demandez votre devis</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "demander-un-devis",
+   "label": "Demander un devis",
+   "title": "Demander un devis gratuitement",
+   "eyebrow": "Devis gratuit",
+   "lead": "Intervention à Niort et sa région. Offre parrainage : 5 % de réduction sur votre diagnostic DPE.",
+   "img": "https://diag79.com/wp-content/uploads/2017/06/coupon-bg-257x261.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Demander un devis",
+     "title": "Votre devis <em class=\"it\">gratuit</em>",
+     "lead": "Quelques informations sur votre bien suffisent pour établir votre devis.",
+     "email": "contact@diag79.com",
+     "subject": "Demande de devis depuis le site Diag 79",
+     "side": [
+      "<b>Offre parrainage</b> : 5 % de réduction sur votre diagnostic DPE.",
+      "<b>Parrainage client</b> : valable pour un diagnostic électricité.",
+      "<a href=\"tel:+33549091699\" style=\"border-bottom:1px solid var(--gold)\">05 49 09 16 99</a> · <a href=\"tel:+33781662525\" style=\"border-bottom:1px solid var(--gold)\">07 81 66 25 25</a>"
+     ],
+     "fields": [
+      {
+       "label": "Vous souhaitez",
+       "type": "select",
+       "options": [
+        "Vendre",
+        "Louer"
+       ],
+       "required": true
+      },
+      {
+       "label": "Type de bien",
+       "type": "select",
+       "options": [
+        "Maison",
+        "Appartement",
+        "Local commercial",
+        "Local industriel"
+       ],
+       "required": true
+      },
+      {
+       "label": "Votre surface habitable"
+      },
+      {
+       "label": "Année de construction",
+       "required": true
+      },
+      {
+       "label": "Installation électrique",
+       "type": "select",
+       "options": [
+        "Moins de 15 ans",
+        "Plus de 15 ans"
+       ],
+       "required": true
+      },
+      {
+       "label": "Installation gaz",
+       "type": "select",
+       "options": [
+        "Moins de 15 ans",
+        "Plus de 15 ans"
+       ],
+       "required": true
+      },
+      {
+       "label": "Votre nom",
+       "required": true
+      },
+      {
+       "label": "Code postal",
+       "required": true
+      },
+      {
+       "label": "Votre adresse de messagerie",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Votre téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Objet",
+       "full": true
+      },
+      {
+       "label": "Votre message",
+       "type": "textarea"
+      }
+     ],
+     "submit": "Demander mon devis"
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Nous situer",
+   "lead": "Si vous avez des questions, des demandes d'informations complémentaires ou toute autre démarche, merci d'utiliser le formulaire ci-dessous.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Une demande d'informations ?",
+     "title": "Écrivez-<em class=\"it\">nous</em>",
+     "lead": "Pour toutes les demandes de devis personnalisé, utilisez plutôt la page Demander un devis.",
+     "email": "contact@diag79.com",
+     "subject": "Demande d'informations depuis le site Diag 79",
+     "fields": [
+      {
+       "label": "Prénom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Email",
+       "type": "email"
+      },
+      {
+       "label": "Message",
+       "type": "textarea"
+      },
+      {
+       "label": "En cochant cette case, je suis en accord avec la politique de confidentialité du site",
+       "type": "check",
+       "name": "Confidentialité",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer message"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous situer",
+     "title": "6 rue du Grand Champ, <em class=\"it\">Niort</em>",
+     "text": "Intervention à Niort et dans les Deux-Sèvres.",
+     "rows": [
+      [
+       "Adresse",
+       "6 rue du Grand Champ<br>79000 Niort"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33549091699\">05 49 09 16 99</a><br><a href=\"tel:+33781662525\">07 81 66 25 25</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@diag79.com\">contact@diag79.com</a>"
+      ],
+      [
+       "Horaires",
+       "Lundi – vendredi, 8h – 18h"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "demander-un-devis/"
+     ],
+     "map_q": "6 Rue du Grand Champ 79000 Niort"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Diag 79, diagnostics immobiliers pour la vente et la location à Niort et dans les Deux-Sèvres. Entreprise affiliée à la FIDI.",
+  "contact": [
+   "<a href=\"tel:+33549091699\">05 49 09 16 99</a>",
+   "<a href=\"tel:+33781662525\">07 81 66 25 25</a>",
+   "<a href=\"mailto:contact@diag79.com\">contact@diag79.com</a>",
+   "6 rue du Grand Champ, 79000 Niort"
+  ],
+  "legal": "Diagnostiqueurs certifiés · Membre de la FIDI",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/diag79/"
+   ]
+  ]
+ }
+}
