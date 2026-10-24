@@ -1,0 +1,318 @@
+{
+ "slug": "alpes-fourrier-electricite-337f9f",
+ "title": "Alpes Fourrier Électricité — David Fourrier, artisan électricien à Grenoble",
+ "description": "David Fourrier, artisan électricien à Grenoble : électricité générale, rénovation, dépannage urgent, chauffage électrique, alarmes, VMC. Du lundi au dimanche de 8h à 23h, avec ou sans rendez-vous. Devis gratuit.",
+ "brand": "Alpes Fourrier Électricité",
+ "tagline": "Artisan électricien · Grenoble",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/41d000_177d8f66ee3bfc09bea7f331e4a98295.png",
+  "height": 52,
+  "bg": "#ffffff"
+ },
+ "theme": {
+  "look": "split",
+  "paper": "#f4f6f9",
+  "paper2": "#e3e9f1",
+  "ink": "#141c2b",
+  "muted": "#566173",
+  "accent": "#1f5fae",
+  "accent2": "#174a88",
+  "gold": "#c48a00",
+  "heroem": "#ffd23f",
+  "serif": "\"Archivo\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Du lundi au dimanche, 8h – 23h",
+  "<a href=\"tel:+33676114664\">06 76 11 46 64</a>"
+ ],
+ "nav": [
+  [
+   "services",
+   "Services"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/0308c9_be4d85dbf38344b4b16d5d29a75bad6f.jpg",
+  "eyebrow": "Artisan électricien · Grenoble",
+  "title": "Prix raisonnable, <em>travail soigné</em>",
+  "lead": "Notre entreprise vous assure les meilleurs services d'électricité ! Du lundi au dimanche de 8h à 23h, avec ou sans rendez-vous.",
+  "cta1": [
+   "Devis gratuit : 06 76 11 46 64",
+   "tel:+33676114664"
+  ],
+  "cta2": [
+   "Nos services",
+   "services/"
+  ]
+ },
+ "figures": [
+  [
+   "7j/7",
+   "du lundi au dimanche"
+  ],
+  [
+   "8h–23h",
+   "avec ou sans rendez-vous"
+  ],
+  [
+   "9",
+   "services en électricité"
+  ],
+  [
+   "0 €",
+   "le devis"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "artisan",
+   "eyebrow": "Votre artisan électricien",
+   "title": "David Fourrier, <em class=\"it\">artisan électricien</em>",
+   "img": "https://static.wixstatic.com/media/0308c9_be4d85dbf38344b4b16d5d29a75bad6f.jpg",
+   "alt": "David Fourrier, artisan électricien",
+   "paras": [
+    "Notre entreprise vous assure les meilleurs services d'électricité !",
+    "Du lundi au dimanche de 8h à 23h, avec ou sans rendez-vous.",
+    "Appelez-nous au <a href=\"tel:+33676114664\" style=\"border-bottom:1px solid var(--gold)\">06 76 11 46 64</a> pour un devis gratuit."
+   ],
+   "sign": "David Fourrier · 101 rue Général Mangin, 38100 Grenoble"
+  },
+  {
+   "kind": "features",
+   "id": "prestations",
+   "dark": true,
+   "eyebrow": "Nos services",
+   "title": "Électricité générale, <em class=\"it\">du dépannage à la rénovation</em>",
+   "lead": "Prix raisonnable, travail soigné.",
+   "items": [
+    [
+     "Électricité générale",
+     "Tous vos travaux d'électricité."
+    ],
+    [
+     "Rénovation",
+     "Rénovation électrique."
+    ],
+    [
+     "Dépannages urgents",
+     "Dépannage en électricité, coupure, panne de disjoncteur."
+    ],
+    [
+     "Chauffage électrique",
+     "Chauffage électrique et plancher chauffant."
+    ],
+    [
+     "Alarmes vol / incendie",
+     "Alarme, interphone."
+    ],
+    [
+     "VMC, ventilations",
+     "VMC, système de ventilation."
+    ]
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/f95d80875a47a67459b5d8af3fda3cbb.png",
+   "eyebrow": "Devis gratuit",
+   "title": "Un dépannage, un projet ? <em class=\"it\">Appelez-nous</em>",
+   "cta": [
+    "06 76 11 46 64",
+    "tel:+33676114664"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "services",
+   "label": "Services",
+   "title": "Services artisan électricien",
+   "eyebrow": "Nos services",
+   "lead": "Si vous avez besoin d'un dépannage électrique en urgence ? Si vous avez une coupure d'électricité ? S'il y a une panne de disjoncteur ? N'hésitez pas à nous joindre.",
+   "img": "https://static.wixstatic.com/media/0308c9_969a75bdc73a49dc949f58548d06b36b.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "urgence",
+     "eyebrow": "Dépannage",
+     "title": "Une urgence ? <em class=\"it\">N'hésitez pas à nous joindre</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_88f3fa7d240a409c918ab27797182712.png",
+       "contain": true,
+       "title": "Dépannage électrique en urgence",
+       "paras": [
+        "Si vous avez besoin d'un dépannage électrique en urgence ?"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_3d277e6ae10e4d85838cd3e81c47fa38.png",
+       "contain": true,
+       "title": "Coupure d'électricité",
+       "paras": [
+        "Si vous avez une coupure d'électricité ?"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_0f5ced5253074f1ea149a2e7781bd578.png",
+       "contain": true,
+       "title": "Panne de disjoncteur",
+       "paras": [
+        "S'il y a une panne de disjoncteur ? N'hésitez pas à nous joindre au <a href=\"tel:+33676114664\">06 76 11 46 64</a>."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "liste",
+     "dark": true,
+     "eyebrow": "Services artisan électricien",
+     "title": "Tous nos <em class=\"it\">services</em>",
+     "lead": "Du lundi au dimanche de 8h à 23h, avec ou sans rendez-vous.",
+     "chips": [
+      "Câblage électrique",
+      "Plancher chauffant",
+      "Maintenance",
+      "Mise en conformité"
+     ],
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_3a1cea48a7304eddb7515d8bebb2dc36.png",
+       "contain": true,
+       "title": "Dépannage en électricité"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_203379aec07c4719936e5e9a24f64ec4.png",
+       "contain": true,
+       "title": "Alarme, interphone"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_6d1f80d00173429b9f067fb068a5e960.png",
+       "contain": true,
+       "title": "VMC – système de ventilation"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_b22f27402c714a9b96438189f70b6a8c.png",
+       "contain": true,
+       "title": "Rénovation électrique"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/0308c9_51cf2783bda94b9693b9f3fc980b327f.png",
+       "contain": true,
+       "title": "Climatisations"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/f95d80875a47a67459b5d8af3fda3cbb.png",
+     "eyebrow": "Devis gratuit",
+     "title": "Prix raisonnable, <em class=\"it\">travail soigné</em>",
+     "cta": [
+      "Nous contacter",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contactez-nous",
+   "eyebrow": "Contact",
+   "lead": "Appelez-nous au 06 76 11 46 64 pour un devis gratuit.",
+   "img": "https://static.wixstatic.com/media/0308c9_be4d85dbf38344b4b16d5d29a75bad6f.jpg",
+   "head": "box",
+   "img_pos": "center top",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contactez-nous",
+     "title": "Une question, <em class=\"it\">un devis ?</em>",
+     "lead": "Votre message part directement à David Fourrier.",
+     "email": "david.fourrier@hotmail.fr",
+     "subject": "Demande depuis le site Alpes Fourrier Électricité",
+     "side": [
+      "<a href=\"tel:+33676114664\" style=\"border-bottom:1px solid var(--gold)\">06 76 11 46 64</a>",
+      "Du lundi au dimanche de 8h à 23h, avec ou sans rendez-vous."
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Objet",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "101 rue Général Mangin, <em class=\"it\">Grenoble</em>",
+     "text": "Du lundi au dimanche de 8h à 23h, avec ou sans rendez-vous.",
+     "rows": [
+      [
+       "Artisan",
+       "David Fourrier"
+      ],
+      [
+       "Adresse",
+       "101 rue Général Mangin<br>38100 Grenoble"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33676114664\">06 76 11 46 64</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:david.fourrier@hotmail.fr\">david.fourrier@hotmail.fr</a>"
+      ],
+      [
+       "Horaires",
+       "Du lundi au dimanche, 8h – 23h"
+      ]
+     ],
+     "cta": [
+      "Appeler",
+      "tel:+33676114664"
+     ],
+     "map_q": "101 rue Général Mangin 38100 Grenoble"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "David Fourrier, artisan électricien à Grenoble : électricité générale, rénovation, dépannages urgents, chauffage électrique, alarmes, VMC. Prix raisonnable, travail soigné.",
+  "contact": [
+   "<a href=\"tel:+33676114664\">06 76 11 46 64</a>",
+   "<a href=\"mailto:david.fourrier@hotmail.fr\">david.fourrier@hotmail.fr</a>",
+   "101 rue Général Mangin, 38100 Grenoble"
+  ],
+  "legal": "Artisan électricien · Devis gratuit"
+ }
+}
