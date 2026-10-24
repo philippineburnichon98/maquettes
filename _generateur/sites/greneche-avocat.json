@@ -1,0 +1,191 @@
+{
+ "slug": "greneche-avocat-6d6651",
+ "title": "Maître Christelle Greneche — Avocat au barreau de Chambéry, Aix-les-Bains",
+ "description": "Maître Christelle Greneche, avocat au barreau de Chambéry, cabinet à Aix-les-Bains : droit civil, droit pénal, droit de la famille. Aide juridictionnelle acceptée.",
+ "brand": "Maître Christelle Greneche",
+ "tagline": "Avocat au barreau de Chambéry",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/5cff31_350be9cb9ea84225915eccd903a72c94~mv2.png",
+  "height": 46,
+  "bg": "#ffffff",
+  "with_name": true
+ },
+ "theme": {
+  "look": "classic",
+  "paper": "#f6f4f1",
+  "paper2": "#e9e5df",
+  "ink": "#1d2230",
+  "muted": "#5b6070",
+  "accent": "#2c3e66",
+  "accent2": "#213052",
+  "gold": "#9a7b4f",
+  "heroem": "#e4cfa8",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@300;400;600&display=swap"
+ },
+ "nav": [
+  [
+   "cabinet",
+   "Cabinet"
+  ],
+  [
+   "competences",
+   "Compétences"
+  ],
+  [
+   "honoraires",
+   "Honoraires"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/5cff31_dbb7339779d0420aa5e753a7fceca2da~mv2.jpg",
+  "eyebrow": "Cabinet d'avocat · Aix-les-Bains",
+  "title": "Maître Christelle Greneche, <em>avocat au barreau de Chambéry</em>",
+  "lead": "Droit civil, droit pénal, droit de la famille. Le cabinet intervient devant toutes les juridictions de France.",
+  "cta1": [
+   "Prendre rendez-vous",
+   "#contact"
+  ],
+  "cta2": [
+   "Domaines d'intervention",
+   "#competences"
+  ]
+ },
+ "figures": [
+  [
+   "1999",
+   "prestation de serment"
+  ],
+  [
+   "20 ans",
+   "d'expérience"
+  ],
+  [
+   "3",
+   "domaines d'intervention"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Le cabinet",
+   "title": "Cabinet d'avocat <em class=\"it\">à Aix-les-Bains</em>",
+   "img": "https://static.wixstatic.com/media/5cff31_4d0b7ea70ac04763b1d81e0fa7cac0bc~mv2.jpg",
+   "alt": "Maître Christelle Greneche",
+   "paras": [
+    "J'ai prêté serment en 1999. J'exerce la profession d'avocat au barreau de Chambéry, mais je peux intervenir devant toutes les juridictions de France.",
+    "Après plus de 20 ans d'expérience, je saurai vous conseiller au mieux de vos intérêts.",
+    "Je suis à l'écoute de mes clients, réactive, disponible et rigoureuse."
+   ],
+   "sign": "Maître Christelle Greneche"
+  },
+  {
+   "kind": "blocks",
+   "id": "competences",
+   "eyebrow": "Domaines d'intervention",
+   "title": "Droit civil, pénal <em class=\"it\">et de la famille</em>",
+   "img": "https://static.wixstatic.com/media/5cff31_44483a03fa90402ca39d645104b7fb19~mv2.jpg",
+   "items": [
+    {
+     "kicker": "Droit civil",
+     "title": "Droit civil",
+     "list": [
+      "Responsabilité civile",
+      "Contrat",
+      "Baux d'habitation"
+     ]
+    },
+    {
+     "kicker": "Droit pénal",
+     "title": "Droit pénal",
+     "list": [
+      "Assistance des victimes",
+      "Indemnisation des préjudices",
+      "Constitution de partie civile",
+      "Tribunal de police",
+      "Tribunal correctionnel",
+      "Comparution sur reconnaissance préalable de culpabilité (CRPC)",
+      "Médiation et composition pénale"
+     ]
+    },
+    {
+     "kicker": "Droit de la famille",
+     "title": "Droit de la famille",
+     "list": [
+      "Divorces",
+      "Garde d'enfants",
+      "Pensions alimentaires",
+      "Autorité parentale",
+      "Filiation",
+      "Contestation de paternité",
+      "Adoption",
+      "Tutelles",
+      "Succession",
+      "PACS – concubinage",
+      "Assistance éducative",
+      "Liquidation des régimes patrimoniaux"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "honoraires",
+   "eyebrow": "Honoraires",
+   "title": "Une convention <em class=\"it\">pour chaque dossier</em>",
+   "paras": [
+    "Les honoraires du cabinet sont fixés en fonction de la nature de l'affaire et de la difficulté du dossier.",
+    "Lors du premier rendez-vous, le montant des honoraires est abordé et une convention d'honoraires sera régularisée pour chaque dossier avec le cabinet.",
+    "La première consultation est payante. Si une procédure est engagée, une première provision sera à régler, englobant le rendez-vous.",
+    "Le cabinet accepte de travailler à l'aide juridictionnelle."
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Accès et infos pratiques",
+   "title": "38 allée Collombert, <em class=\"it\">Aix-les-Bains</em>",
+   "text": "Maître Christelle Greneche, avocat au barreau de Chambéry.",
+   "img": "https://static.wixstatic.com/media/5cff31_c8b4fc7c0ff6450cb78ffb9ecd1de49c~mv2.png",
+   "rows": [
+    [
+     "Adresse",
+     "38 allée Collombert<br>73100 Aix-les-Bains"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33610698798\">06 10 69 87 98</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:cgreneche@gmail.com\">cgreneche@gmail.com</a>"
+    ],
+    [
+     "Barreau",
+     "<a href=\"http://www.barreau-chambery.fr/\" target=\"_blank\" rel=\"noopener\">Barreau de Chambéry</a>"
+    ]
+   ],
+   "cta": [
+    "Écrire au cabinet",
+    "mailto:cgreneche@gmail.com"
+   ],
+   "map_q": "38 allée Collombert 73100 Aix-les-Bains"
+  }
+ ],
+ "footer": {
+  "about": "Maître Christelle Greneche, avocat au barreau de Chambéry. Cabinet à Aix-les-Bains : droit civil, droit pénal, droit de la famille.",
+  "contact": [
+   "<a href=\"tel:+33610698798\">06 10 69 87 98</a>",
+   "<a href=\"mailto:cgreneche@gmail.com\">cgreneche@gmail.com</a>",
+   "38 allée Collombert, 73100 Aix-les-Bains"
+  ],
+  "legal": "Avocat au barreau de Chambéry"
+ },
+ "extra_css": "@media(max-width:600px){header .logo{font-size:1.02rem!important;min-width:0}header .logo img{height:34px!important}header .burger{flex:none}}"
+}

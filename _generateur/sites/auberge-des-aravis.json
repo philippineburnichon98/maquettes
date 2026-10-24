@@ -792,5 +792,6 @@
    "364 route d'Annecy, 74210 Marlens"
   ],
   "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
- }
+ },
+ "extra_css": "@media(max-width:600px){header .logo{font-size:1.02rem!important;min-width:0}header .logo img{height:34px!important}header .burger{flex:none}}"
 }
