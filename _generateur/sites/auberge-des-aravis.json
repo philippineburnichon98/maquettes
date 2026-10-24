@@ -1,0 +1,796 @@
+{
+ "slug": "auberge-des-aravis-9b202b",
+ "title": "Auberge des Aravis — restaurant et chambres à Marlens, entre Annecy et Ugine",
+ "description": "Auberge des Aravis à Marlens (Haute-Savoie) : cuisine française et traditionnelle à base de produits frais et locaux, spécialités savoyardes, chambres d'une à quatre personnes en nuitée ou en pension, au départ de la voie verte.",
+ "brand": "Auberge des Aravis",
+ "tagline": "Restaurant · Chambres · Marlens",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/3c6444_c9cf846c20ba4b8997c821752618aee3.png",
+  "height": 56,
+  "bg": "#ffffff",
+  "with_name": true
+ },
+ "theme": {
+  "look": "framed",
+  "paper": "#f7f4ee",
+  "paper2": "#ebe5d9",
+  "ink": "#22261f",
+  "muted": "#5f6458",
+  "accent": "#2f5d46",
+  "accent2": "#244a37",
+  "gold": "#a8742f",
+  "heroem": "#f3d29b",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Nunito Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+ },
+ "topbar": [
+  "Lun–ven 7h–21h15 · dim. 9h–13h15",
+  "<a href=\"tel:+33450327942\">04 50 32 79 42</a>"
+ ],
+ "nav": [
+  [
+   "carte",
+   "Restaurant"
+  ],
+  [
+   "cave",
+   "La Cave"
+  ],
+  [
+   "chambres",
+   "Chambres"
+  ],
+  [
+   "activites",
+   "Activités"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/3c6444_7ad0b68ccdf446cd998073a95955ab97.png",
+  "eyebrow": "Auberge · Marlens, Haute-Savoie",
+  "title": "Bienvenue <em>à l'Auberge des Aravis</em>",
+  "lead": "Nous sommes heureux de vous accueillir dans notre auberge : pour une nuit ou plus, seul, en famille ou en groupe, et à table pour une cuisine française et traditionnelle.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
+  ],
+  "cta2": [
+   "Nos chambres",
+   "chambres/"
+  ]
+ },
+ "figures": [
+  [
+   "13,40 €",
+   "le menu du jour"
+  ],
+  [
+   "8",
+   "chambres de 1 à 4 personnes"
+  ],
+  [
+   "dès 22 €",
+   "la nuitée"
+  ],
+  [
+   "5 m",
+   "de la voie verte"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue !",
+   "title": "Une auberge <em class=\"it\">pour une nuit ou plus</em>",
+   "img": "https://static.wixstatic.com/media/3c6444_7ad0b68ccdf446cd998073a95955ab97.png",
+   "alt": "L'Auberge des Aravis à Marlens",
+   "paras": [
+    "Nous sommes heureux de vous accueillir dans notre auberge.",
+    "Nul doute que vous trouverez la bonne formule : que vous souhaitiez séjourner chez nous pour une nuit ou plus, seul, en famille ou en groupe, nos chambres sauront répondre à votre besoin.",
+    "Notre cuisine saura également apaiser votre appétit et satisfaire vos papilles."
+   ],
+   "sign": "WIFI dans toutes les chambres et le restaurant"
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "L'auberge",
+   "title": "Table, cave <em class=\"it\">et chambres</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/3c6444_bd1ba4eb6a404557aeadefc245ef4014.png",
+     "kicker": "Restaurant",
+     "title": "Cuisine française et traditionnelle",
+     "paras": [
+      "À base de produits frais et locaux. Plat du jour à 8,80 € en semaine, spécialités savoyardes sur commande."
+     ],
+     "link": [
+      "La carte",
+      "restaurant/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/3c6444_e42ee7522dae4be998bcc150d1d66e59.jpg",
+     "kicker": "La Cave",
+     "title": "Vins de Savoie et d'ailleurs",
+     "paras": [
+      "Apremont, Abymes, Roussette… Quelle que soit la couleur, vous trouverez votre bonheur."
+     ],
+     "link": [
+      "La cave",
+      "la-cave/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/3c6444_9fdeff362866487caf37cff74b88596b.jpg",
+     "kicker": "Chambres",
+     "title": "En nuitée ou en pension",
+     "paras": [
+      "Plusieurs chambres d'une à quatre personnes, nuitée dès 22 €, demi-pension dès 38 €."
+     ],
+     "link": [
+      "Les chambres",
+      "chambres/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/3c6444_2f4ac37ca1fc40c69b8a15b345f7a7c0.jpg",
+   "eyebrow": "Au pied des Aravis",
+   "title": "Ski, parapente, voie verte <em class=\"it\">et randonnées</em>",
+   "cta": [
+    "Les activités",
+    "activites/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "restaurant",
+   "label": "Restaurant",
+   "title": "Le restaurant",
+   "eyebrow": "Cuisine française et traditionnelle",
+   "lead": "Nous proposons une cuisine française et traditionnelle à base de produits frais et locaux.",
+   "img": "https://static.wixstatic.com/media/3c6444_bd1ba4eb6a404557aeadefc245ef4014.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "menu",
+     "id": "carte",
+     "eyebrow": "La carte",
+     "title": "Notre <em class=\"it\">carte</em>",
+     "lead": "Le week-end (du vendredi soir au dimanche midi), la carte ci-dessous est proposée.",
+     "sections": [
+      {
+       "title": "Entrées",
+       "items": [
+        [
+         "Salade chèvre chaud et miel",
+         "4,10 € ou 7,20 €"
+        ],
+        [
+         "Salade lardons et noix",
+         "4,10 € ou 7,20 €"
+        ],
+        [
+         "Salade savoyarde",
+         "4,10 € ou 7,20 €"
+        ],
+        [
+         "Assiette de 6 gambas",
+         "15,50 €"
+        ],
+        [
+         "Assiette de 12 escargots",
+         "15,50 €"
+        ]
+       ]
+      },
+      {
+       "title": "Plats",
+       "items": [
+        [
+         "Bavette",
+         "12,90 €",
+         "avec garniture"
+        ],
+        [
+         "Entrecôte",
+         "15,50 €",
+         "avec garniture"
+        ],
+        [
+         "Saumon sauce oseille",
+         "12,90 €",
+         "avec garniture"
+        ],
+        [
+         "Gambas 12 pièces",
+         "28,80 €"
+        ],
+        [
+         "Escalope savoyarde",
+         "16,50 €"
+        ]
+       ]
+      },
+      {
+       "title": "Sur commande (min. 2 personnes)",
+       "items": [
+        [
+         "Fondue savoyarde",
+         "16,50 € / pers.",
+         "charcuterie et salade verte"
+        ],
+        [
+         "Tartiflette",
+         "16,50 € / pers.",
+         "charcuterie et salade verte"
+        ],
+        [
+         "Raclette",
+         "16,50 € / pers.",
+         "charcuterie et salade verte"
+        ],
+        [
+         "Reblochonnade",
+         "16,50 € / pers.",
+         "charcuterie et salade verte"
+        ],
+        [
+         "Pierrade",
+         "20,60 € / pers.",
+         "charcuterie et salade verte"
+        ],
+        [
+         "Fondue bourguignonne",
+         "21,60 € / pers.",
+         "300 grammes par personne, sauce maison"
+        ],
+        [
+         "Cuisses de grenouille + frites",
+         "17,50 € / pers."
+        ],
+        [
+         "Lasagnes + salade",
+         "12,40 € / pers."
+        ],
+        [
+         "Parmigiana",
+         "15,50 € / pers."
+        ]
+       ]
+      },
+      {
+       "title": "Desserts",
+       "items": [
+        [
+         "Crème caramel",
+         "4,10 €"
+        ],
+        [
+         "Crème brûlée",
+         "4,10 €"
+        ],
+        [
+         "Tiramisu",
+         "4,10 €"
+        ],
+        [
+         "Mousse au chocolat",
+         "4,10 €"
+        ],
+        [
+         "Tarte du jour",
+         "4,10 €"
+        ],
+        [
+         "Glace 2 boules",
+         "3,10 €",
+         "supplément chantilly + 0,50 €"
+        ]
+       ]
+      }
+     ],
+     "aside": {
+      "eyebrow": "En semaine",
+      "title": "Menu du jour",
+      "big": "13,40 €",
+      "text": "Menu unique en semaine.",
+      "items": [
+       [
+        "Plat du jour",
+        "8,80 €"
+       ],
+       [
+        "Plat du jour + dessert",
+        "11,90 €"
+       ],
+       [
+        "Week-end : salade au choix + bavette + dessert",
+        "16,50 €"
+       ],
+       [
+        "Week-end : salade au choix + entrecôte + dessert",
+        "20,50 €"
+       ]
+      ],
+      "cta": [
+       "Réserver une table",
+       "#reserver"
+      ]
+     }
+    },
+    {
+     "kind": "resaform",
+     "id": "reserver",
+     "eyebrow": "Réservations",
+     "title": "Réservez <em class=\"it\">votre table</em>",
+     "lead": "Choisissez votre jour et votre créneau : l'auberge vous confirme la réservation.",
+     "tel": "+33450327942",
+     "phone": "04 50 32 79 42",
+     "note": "De 7h à 21h15 du lundi au vendredi, de 9h à 13h15 le dimanche. Ouvert le samedi uniquement en saison.",
+     "email": "auberge-desaravis@orange.fr",
+     "brand": "L'Auberge des Aravis",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "hours": [
+      "12:00",
+      "12:30",
+      "13:00",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "la-cave",
+   "label": "La Cave",
+   "title": "La Cave",
+   "eyebrow": "Notre sélection de vins",
+   "lead": "Notre sélection de vins vous propose des vins du pays de Savoie ainsi que des vins d'ailleurs… Quelle que soit la couleur, vous trouverez votre bonheur.",
+   "img": "https://static.wixstatic.com/media/3c6444_e42ee7522dae4be998bcc150d1d66e59.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "cave",
+     "eyebrow": "La Cave",
+     "title": "Vins de Savoie <em class=\"it\">et d'ailleurs</em>",
+     "items": [
+      {
+       "name": "Apremont",
+       "price": "17,00 €",
+       "fmt": "La bouteille",
+       "color": "#e9d98a",
+       "app": "Vin de Savoie"
+      },
+      {
+       "name": "Les Abymes",
+       "price": "15,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_e42ee7522dae4be998bcc150d1d66e59.jpg",
+       "app": "Vin de Savoie"
+      },
+      {
+       "name": "Gamay",
+       "price": "19,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_30bd22a5331844ebb17fd58d9c328770.jpg",
+       "app": "Vin de Savoie"
+      },
+      {
+       "name": "Roussette",
+       "price": "25,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_ee9329efa0f74a70a5c6169704e7a04a.jpg",
+       "app": "Vin de Savoie"
+      },
+      {
+       "name": "Larmes du Père",
+       "price": "37,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_e2cd5dbb5d6d4a9eb042ddeb12a75a30.jpg",
+       "app": "Saint-Joseph"
+      },
+      {
+       "name": "Place de l'Horloge",
+       "price": "13,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_61625fa1bda6477094db99c29f12990a.jpg",
+       "app": "Vaucluse"
+      },
+      {
+       "name": "Réserve des Armoiries",
+       "price": "16,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_99e7ee57fd70408088eeb7003373b6b4.jpg",
+       "app": "Côtes-du-Rhône"
+      },
+      {
+       "name": "Château Millet Gros Manseng",
+       "price": "17,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_03a933280cb440ae8f803878285ff6b8.jpg",
+       "app": "Gascogne"
+      },
+      {
+       "name": "Château Millet",
+       "price": "17,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_485815b3bbdc425b92c09df3337d75c5.jpg",
+       "app": "Gascogne"
+      },
+      {
+       "name": "Esprit de Rose",
+       "price": "16,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_956eab16a3354d03af318d4bc438fc72.jpg",
+       "app": "Méditerranée"
+      },
+      {
+       "name": "Listel",
+       "price": "16,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_c3a5af60cccb4e00adaba6e3fd8c165d.jpg",
+       "app": "Méditerranée"
+      },
+      {
+       "name": "Champagne Veuve Renard",
+       "price": "37,00 €",
+       "fmt": "La bouteille",
+       "img": "https://static.wixstatic.com/media/3c6444_99bc8241e04045b18c93efa192c6aabc.jpg",
+       "app": "Champagne"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "chambres",
+   "label": "Chambres",
+   "title": "Nos chambres",
+   "eyebrow": "En nuitée ou en pension",
+   "lead": "En nuitée ou en pension, notre auberge vous propose plusieurs chambres d'une à quatre personnes. WIFI dans toutes les chambres et le restaurant.",
+   "img": "https://static.wixstatic.com/media/3c6444_9fdeff362866487caf37cff74b88596b.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "chambres",
+     "eyebrow": "Tarifs",
+     "title": "Nuitée dès 22 €, <em class=\"it\">pension complète dès 52 €</em>",
+     "lead": "Nuitée à partir de 22,00 € · demi-pension à partir de 38,00 € · pension complète à partir de 52,00 €.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_dd14add421a245a6bb6ce40cc123c457.png",
+       "kicker": "Chambre 1",
+       "title": "Deux lits simples",
+       "list": [
+        "Douche et lavabo",
+        "WC sur le palier"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_433ff70b24a540708d294d5f11ca8995.jpg",
+       "kicker": "Chambre 2",
+       "title": "Un lit double",
+       "list": [
+        "Salle de bain privative"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_aac371f4204d4be2ae6f684b4627b9ef.jpg",
+       "kicker": "Chambre 4",
+       "title": "Un lit double et un lit simple",
+       "list": [
+        "Salle de bain privative"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_7f2586c273994250b67e27de2a103c42.jpg",
+       "kicker": "Chambre 5",
+       "title": "Quatre lits simples",
+       "list": [
+        "Lavabo",
+        "Douche et WC sur le palier"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_09e0fe0af1624c308f4539f4121580e1.jpg",
+       "kicker": "Chambre 6",
+       "title": "Un lit simple",
+       "list": [
+        "Lavabo",
+        "Douche et WC sur le palier",
+        "Supplément TV : 1 € par jour"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_975b9de1b64d416793df7f8be3461e7e.jpg",
+       "kicker": "Chambre 7",
+       "title": "Deux lits simples",
+       "list": [
+        "Lavabo",
+        "Douche et WC sur le palier",
+        "Supplément TV : 1 € par jour"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_1f7b8c518b5240a0bf2b0adf991434a5.jpg",
+       "kicker": "Chambre 8",
+       "title": "Trois lits simples",
+       "list": [
+        "Lavabo",
+        "Douche et WC sur le palier",
+        "Supplément TV : 1 € par jour"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_c0857047d6f649bea9ae940657a9df33.png",
+       "kicker": "Chambre 9",
+       "title": "Deux lits simples",
+       "list": [
+        "Lavabo",
+        "Douche et WC sur le palier",
+        "Supplément TV : 1 € par jour"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "reserver-chambre",
+     "eyebrow": "Réservation",
+     "title": "Réserver <em class=\"it\">une chambre</em>",
+     "lead": "Indiquez vos dates et la chambre souhaitée : l'auberge vous répond rapidement.",
+     "email": "auberge-desaravis@orange.fr",
+     "subject": "Demande de réservation de chambre",
+     "side": [
+      "<a href=\"tel:+33450327942\" style=\"border-bottom:1px solid var(--gold)\">04 50 32 79 42</a> · <a href=\"tel:+33642116146\" style=\"border-bottom:1px solid var(--gold)\">06 42 11 61 46</a>"
+     ],
+     "fields": [
+      {
+       "label": "Chambre",
+       "type": "select",
+       "options": [
+        "Chambre 1 – deux lits simples",
+        "Chambre 2 – un lit double",
+        "Chambre 4 – un lit double et un lit simple",
+        "Chambre 5 – quatre lits simples",
+        "Chambre 6 – un lit simple",
+        "Chambre 7 – deux lits simples",
+        "Chambre 8 – trois lits simples",
+        "Chambre 9 – deux lits simples"
+       ]
+      },
+      {
+       "label": "Formule",
+       "type": "select",
+       "options": [
+        "Nuitée",
+        "Demi-pension",
+        "Pension complète"
+       ]
+      },
+      {
+       "label": "Arrivée",
+       "type": "date",
+       "required": true
+      },
+      {
+       "label": "Départ",
+       "type": "date",
+       "required": true
+      },
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea"
+      }
+     ],
+     "submit": "Envoyer la demande"
+    }
+   ]
+  },
+  {
+   "slug": "activites",
+   "label": "Activités",
+   "title": "Activités",
+   "eyebrow": "Autour de l'auberge",
+   "lead": "Un grand nombre de possibilités s'offrent à vous pour occuper vos journées.",
+   "img": "https://static.wixstatic.com/media/3c6444_6315ecad30f8436f9e0d050be1e2dfc9.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "activites",
+     "eyebrow": "Activités",
+     "title": "Été comme hiver, <em class=\"it\">au pied des Aravis</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_6315ecad30f8436f9e0d050be1e2dfc9.jpg",
+       "kicker": "Ski",
+       "title": "Les stations de ski",
+       "paras": [
+        "De 8 à 20 km environ : La Sambuy, Bisanne 1500, La Clusaz, le Semnoz et plusieurs stations de l'Espace Diamant."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_cb423f553bd0472eac24424e36df3002.png",
+       "kicker": "Parapente",
+       "title": "Vols en biplace",
+       "paras": [
+        "Un vol en parapente vous laissera un inoubliable souvenir."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_76cf0177640e4f9d9a9f80703517f5cf.jpg",
+       "kicker": "Voie verte",
+       "title": "À 5 m de l'auberge",
+       "paras": [
+        "Parcours facile d'environ 35 km, partagé entre cyclistes et piétons. Location de vélos à Faverges."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/3c6444_29d886c09c4844cb89b7e39096f59e75.png",
+       "kicker": "Pêche",
+       "title": "Le lac de Marlens",
+       "paras": [
+        "Pêche au lac de Marlens avec l'association locale, et club de pêche à la mouche."
+       ]
+      },
+      {
+       "kicker": "Randonnée",
+       "title": "Au départ de l'auberge",
+       "paras": [
+        "Des itinéraires partent à proximité de l'auberge, dont le Rocher de Marlens."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "partenaires",
+     "eyebrow": "Partenaires",
+     "title": "Nos <em class=\"it\">partenaires</em>",
+     "paras": [
+      "Trail de Faverges, location de vélos et de skis à Faverges, parc d'activité de Saint-Jorioz."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/3c6444_af6e15aec98e4cf99be7d29cfe4ffbdd.png",
+       "Trail de Faverges"
+      ],
+      [
+       "https://static.wixstatic.com/media/3c6444_eb511ce5563143d29e83de3b69e8830f.jpg",
+       "Location de vélo / ski à Faverges"
+      ],
+      [
+       "https://static.wixstatic.com/media/3c6444_8d14dc4ff2a44799ad4c602025c7bf9e.jpg",
+       "Parc d'activité de Saint-Jorioz"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Réservations",
+   "lead": "Fixe : 04 50 32 79 42 · Mobile : 06 42 11 61 46 · auberge-desaravis@orange.fr",
+   "img": "https://static.wixstatic.com/media/3c6444_7ad0b68ccdf446cd998073a95955ab97.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Marlens <em class=\"it\">et l'auberge</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/3c6444_2f4ac37ca1fc40c69b8a15b345f7a7c0.jpg",
+       "full": "https://static.wixstatic.com/media/3c6444_2f4ac37ca1fc40c69b8a15b345f7a7c0.jpg",
+       "alt": "Marlens depuis le col du Fer"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3c6444_7ad0b68ccdf446cd998073a95955ab97.png",
+       "full": "https://static.wixstatic.com/media/3c6444_7ad0b68ccdf446cd998073a95955ab97.png",
+       "alt": "L'Auberge des Aravis"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3c6444_d0f2697f160d4acc80ec087e16f07aa5.png",
+       "full": "https://static.wixstatic.com/media/3c6444_d0f2697f160d4acc80ec087e16f07aa5.png",
+       "alt": "Paysage"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3c6444_bd1ba4eb6a404557aeadefc245ef4014.png",
+       "full": "https://static.wixstatic.com/media/3c6444_bd1ba4eb6a404557aeadefc245ef4014.png",
+       "alt": "L'auberge"
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "364 route d'Annecy, <em class=\"it\">Marlens</em>",
+     "text": "Merci à l'ADISES Active pour son soutien financier et son accompagnement dans la réalisation de notre projet de reprise d'activité.",
+     "rows": [
+      [
+       "Adresse",
+       "364 route d'Annecy (22 route d'Ombre)<br>74210 Marlens"
+      ],
+      [
+       "Fixe",
+       "<a href=\"tel:+33450327942\">04 50 32 79 42</a>"
+      ],
+      [
+       "Mobile",
+       "<a href=\"tel:+33642116146\">06 42 11 61 46</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:auberge-desaravis@orange.fr\">auberge-desaravis@orange.fr</a>"
+      ],
+      [
+       "Horaires",
+       "Lundi – vendredi : 7h – 21h15<br>Dimanche : 9h – 13h15<br>Samedi : uniquement en saison"
+      ],
+      [
+       "GPS",
+       "Longitude +6.342539 · Latitude +45.763408"
+      ]
+     ],
+     "cta": [
+      "Nous écrire",
+      "mailto:auberge-desaravis@orange.fr"
+     ],
+     "map_q": "364 route d'Annecy 74210 Marlens"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Auberge des Aravis à Marlens, entre Annecy, Faverges et Ugine : cuisine française et traditionnelle, chambres en nuitée ou en pension, WIFI dans toutes les chambres et le restaurant.",
+  "contact": [
+   "<a href=\"tel:+33450327942\">04 50 32 79 42</a>",
+   "<a href=\"tel:+33642116146\">06 42 11 61 46</a>",
+   "<a href=\"mailto:auberge-desaravis@orange.fr\">auberge-desaravis@orange.fr</a>",
+   "364 route d'Annecy, 74210 Marlens"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
