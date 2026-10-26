@@ -1,0 +1,1182 @@
+{
+ "slug": "luc-vaganay-2a61b6",
+ "title": "Atelier Luc Vaganay — Ébéniste restaurateur de meubles anciens, Lyon 6e",
+ "description": "Atelier Luc Vaganay, 105 rue Vendôme à Lyon 6e : restauration de meubles anciens, de mobilier XVIIe et XVIIIe, vernis au tampon, chantiers de restauration du patrimoine et expertise de sinistres. Entreprise du Patrimoine Vivant, Maître Artisan.",
+ "brand": "Atelier Luc Vaganay",
+ "tagline": "Ébéniste · Restaurateur de meubles anciens",
+ "theme": {
+  "paper": "#f7f3ec",
+  "paper2": "#ece3d4",
+  "ink": "#2a211b",
+  "muted": "#6b5f55",
+  "accent": "#8a5a2b",
+  "accent2": "#6e4520",
+  "gold": "#b8925a",
+  "heroem": "#e9c99a",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Jost\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap",
+  "look": "center"
+ },
+ "logo": {
+  "src": "https://lucvaganay.fr/wp-content/uploads/2018/03/logo-mobile2.jpg",
+  "height": 52
+ },
+ "topbar": [
+  "Lun–ven 7h30–18h30 · sam. sur RDV",
+  "<a href=\"tel:+33478523663\">04 78 52 36 63</a>"
+ ],
+ "hero": {
+  "img": "https://lucvaganay.fr/wp-content/uploads/2017/10/home.jpg",
+  "eyebrow": "Ébéniste restaurateur · Lyon 6e · Depuis 1985",
+  "title": "Notre métier, <em>nos savoir-faire</em>",
+  "lead": "L'atelier Luc Vaganay restaure les meubles anciens, le mobilier des XVIIe et XVIIIe siècles et les boiseries des monuments historiques, dans son atelier du 105 rue Vendôme.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "Voir nos restaurations",
+   "restauration-mobilier/"
+  ]
+ },
+ "figures": [
+  [
+   "1985",
+   "reprise de l'atelier"
+  ],
+  [
+   "10 000 h",
+   "au Palais de Justice"
+  ],
+  [
+   "EPV",
+   "Entreprise du Patrimoine Vivant"
+  ],
+  [
+   "2010",
+   "Maître Artisan"
+  ]
+ ],
+ "home_label": "Accueil",
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "mobilier-accueil",
+   "eyebrow": "Restauration de mobilier",
+   "title": "Restauration <em class=\"it\">de mobilier</em>",
+   "lead": "Marqueterie, meubles massifs, bois de sièges, finition vernis au tampon...",
+   "items": [
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9813-2.jpg",
+     "alt": "Commode de Delaittre",
+     "title": "Commode de Delaittre",
+     "link": [
+      "Découvrir",
+      "restauration-mobilier/#mobilier"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9863.jpg",
+     "alt": "Table en marqueterie",
+     "title": "Table en marqueterie"
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-026.jpg",
+     "alt": "Commode de Delorme",
+     "title": "Commode de Delorme",
+     "link": [
+      "Découvrir",
+      "restauration-mobilier/#mobilier"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_2408.jpg",
+     "alt": "Cabinet italien",
+     "title": "Cabinet italien",
+     "link": [
+      "Découvrir",
+      "restauration-mobilier/#mobilier"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-032-1.jpg",
+     "alt": "Commode de Topino",
+     "title": "Commode de Topino",
+     "link": [
+      "Découvrir",
+      "restauration-mobilier/#mobilier"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/CONFERENCE-048.jpg",
+     "alt": "Table en Ecailles",
+     "title": "Table en Ecailles",
+     "link": [
+      "Découvrir",
+      "restauration-mobilier/#avant-apres"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "patrimoine-accueil",
+   "eyebrow": "Restauration du patrimoine",
+   "title": "Restauration <em class=\"it\">du patrimoine</em>",
+   "lead": "L'atelier Luc Vaganay intervient sur des travaux de restauration très complexes.",
+   "items": [
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/20150518_141932-e1557000578684.jpg",
+     "alt": "Cartels de Vaux-le-Vicomte",
+     "title": "Cartels de Vaux-le-Vicomte",
+     "link": [
+      "Découvrir",
+      "restauration-patrimoine/#chantiers"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6947.jpg",
+     "alt": "Porte de la chapelle de l'Hôtel-Dieu",
+     "title": "Porte de la chapelle de l'Hôtel-Dieu",
+     "link": [
+      "Découvrir",
+      "restauration-patrimoine/#chantiers"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6278.jpg",
+     "alt": "Eglise d'Offlanges",
+     "title": "Eglise d'Offlanges",
+     "link": [
+      "Découvrir",
+      "restauration-patrimoine/#chantiers"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6939-1.jpg",
+     "alt": "Meuble Apothicaire",
+     "title": "Meuble Apothicaire",
+     "link": [
+      "Découvrir",
+      "restauration-patrimoine/#chantiers"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2017/12/IMG_4186.jpeg",
+     "alt": "Réfectoire de l'Hôtel-Dieu",
+     "title": "Réfectoire de l'Hôtel-Dieu",
+     "link": [
+      "Découvrir",
+      "restauration-patrimoine/#chantiers"
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-002.jpg",
+     "alt": "Château de Bagnols",
+     "title": "Château de Bagnols",
+     "link": [
+      "Découvrir",
+      "restauration-patrimoine/#chantiers"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "atelier-accueil",
+   "eyebrow": "L'atelier",
+   "title": "Un atelier avec plus <em class=\"it\">de 37 ans d'expérience</em>",
+   "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/palais-de-justice-309-1.jpg",
+   "alt": "Palais de Justice de Lyon, mobilier restauré par l'atelier",
+   "paras": [
+    "Pour tout conseil ou demande, les ébénistes de l'atelier Luc Vaganay sont heureux de vous accueillir dans leur atelier de Lyon 6ème.",
+    "<a href=\"latelier/\" style=\"border-bottom:1px solid var(--gold)\">Pour en apprendre plus sur l'atelier cliquez ici.</a>"
+   ],
+   "logos": [
+    [
+     "https://lucvaganay.fr/wp-content/uploads/2017/11/EPV.png",
+     "Entreprise du Patrimoine Vivant"
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "apercu",
+   "eyebrow": "À l'atelier",
+   "title": "Quelques <em class=\"it\">pièces restaurées</em>",
+   "carousel": true,
+   "photos": [
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/23-1.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/23-1.jpg",
+     "alt": "Retables de l'église d'Offlanges, pendant la restauration",
+     "caption": "Retables de l'église d'Offlanges, pendant la restauration"
+    },
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_4038-1.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_4038-1.jpg",
+     "alt": "Retable majeur de l'église d'Offlanges",
+     "caption": "Retable majeur de l'église d'Offlanges"
+    },
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-009-1.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-009-1.jpg",
+     "alt": "Commode Louis XVI de Topino, pendant la restauration",
+     "caption": "Commode Louis XVI de Topino, pendant la restauration"
+    },
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_1695-2.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_1695-2.jpg",
+     "alt": "Cabinet italien, pendant la restauration",
+     "caption": "Cabinet italien, pendant la restauration"
+    },
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/Palais-de-Justice-258-1.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/Palais-de-Justice-258-1.jpg",
+     "alt": "Mobilier du Palais de Justice de Lyon",
+     "caption": "Mobilier du Palais de Justice de Lyon"
+    },
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-022-1.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-022-1.jpg",
+     "alt": "Commode Louis XVI de Delorme, pendant la restauration",
+     "caption": "Commode Louis XVI de Delorme, pendant la restauration"
+    },
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/Palais-de-justice-1.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/Palais-de-justice-1.jpg",
+     "alt": "Palais de Justice de Lyon",
+     "caption": "Palais de Justice de Lyon"
+    },
+    {
+     "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/M-O-F-069-2.jpg",
+     "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/M-O-F-069-2.jpg",
+     "alt": "Atelier Luc Vaganay",
+     "caption": "Atelier Luc Vaganay"
+    }
+   ],
+   "cta": [
+    "Tous nos chantiers du patrimoine",
+    "restauration-patrimoine/"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "sinistres",
+   "eyebrow": "Expertise de sinistres",
+   "title": "Expertise <em class=\"it\">de sinistres</em>",
+   "lead": "Nous travaillons avec les assurances pour établir des expertises de sinistres: incendie, inondation, accident. Vous pouvez nous contacter en cas de sinistre au <a href=\"tel:+33478523663\">04 78 52 36 63</a>.",
+   "items": [
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2017/10/commode-louis-xv-rongee.jpg",
+     "kicker": "Avant",
+     "alt": "Commode Louis XV rongée",
+     "paras": [
+      "Exemple d'une commode dont les pieds ont été rongés par un chien."
+     ]
+    },
+    {
+     "img": "https://lucvaganay.fr/wp-content/uploads/2017/12/commode-louis-xv-rongee-apres.jpg",
+     "kicker": "Après",
+     "alt": "Commode Louis XV après restauration",
+     "paras": [
+      "La commode après restauration."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "eyebrow": "Atelier Luc Vaganay · Lyon 6e",
+   "title": "Un meuble à restaurer ? <em class=\"it\">Parlons-en.</em>",
+   "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/BANDEAU3.jpg",
+   "cta": [
+    "Demander un devis",
+    "contact/#devis"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact-accueil",
+   "eyebrow": "Nous contacter",
+   "title": "105 rue Vendôme, <em class=\"it\">Lyon 6e</em>",
+   "text": "Atelier Luc Vaganay, 105 Rue Vendôme, 69006 Lyon, France.",
+   "rows": [
+    [
+     "Atelier",
+     "<a href=\"tel:+33478523663\">04 78 52 36 63</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:atelier@lucvaganay.fr\">atelier@lucvaganay.fr</a><br><a href=\"mailto:lucvaganay@yahoo.fr\">lucvaganay@yahoo.fr</a>"
+    ],
+    [
+     "Horaires",
+     "Du lundi au vendredi : 7h30 – 12h00 / 13h30 – 18h30<br>Samedi : sur rendez-vous<br>Dimanche : fermé"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "contact/#devis"
+   ],
+   "map_q": "105 rue Vendôme, 69006 Lyon"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "latelier",
+   "label": "L'atelier",
+   "title": "L'atelier",
+   "h1": "L'atelier Luc Vaganay <em>au 105 rue Vendôme</em>",
+   "eyebrow": "Ébénistes restaurateurs à Lyon 6",
+   "lead": "Depuis 1985, Luc Vaganay et son équipe sont spécialisés dans la restauration du patrimoine. L'Atelier d'ébénisterie intervient aussi sur tout type de mobilier, même les plus récents.",
+   "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/banner-bois.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "qui-sommes-nous",
+     "eyebrow": "Qui sommes nous ?",
+     "title": "L'atelier <em class=\"it\">Luc Vaganay</em>",
+     "img": "https://lucvaganay.fr/wp-content/uploads/2017/10/home.jpg",
+     "alt": "Atelier Luc Vaganay",
+     "paras": [
+      "Après trois ans d'école aux ateliers d'apprentissage Boisard, Luc Vaganay en sort en 1981 avec un CAP d'ébéniste-marqueteur. Durant quatre années celui-ci travaille chez différents ébénistes-antiquaires de Lyon, et reprend la succession de l'un d'entre eux en juillet 1985 à l'âge de 23 ans avec deux salariés.",
+      "L'entreprise travaille pour une clientèle de particuliers, mais aussi musées, bâtiments publics et mobilier classé Monument historique. Au delà d'une clientèle régionale (Rhône-Alpes), l'atelier travaille dans toute la France et pour une clientèle fidèle en Suisse et au Royaume-Uni.",
+      "Depuis 2008 l'Atelier Luc Vaganay travaille aussi sur des grands chantiers de restauration de Patrimoine."
+     ],
+     "sign": "Luc Vaganay",
+     "logos": [
+      [
+       "https://lucvaganay.fr/wp-content/uploads/2017/11/EPV.png",
+       "Entreprise du Patrimoine Vivant"
+      ]
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "parcours",
+     "eyebrow": "Distinctions",
+     "title": "Un savoir-faire <em class=\"it\">reconnu</em>",
+     "lead": "Labelisé Entreprise du Patrimoine Vivant pour la promotion du savoir faire Français. Finaliste au concours Rayonnement des Savoir-Faire.",
+     "items": [
+      {
+       "when": "1981",
+       "who": "CAP ébéniste-marqueteur",
+       "text": "Trois ans d'école aux ateliers d'apprentissage Boisard."
+      },
+      {
+       "when": "1985",
+       "who": "Reprise de l'atelier",
+       "text": "En juillet 1985, à l'âge de 23 ans, avec deux salariés."
+      },
+      {
+       "when": "2006",
+       "who": "Prix de la dynamique artisanale",
+       "text": "Décerné par la Banque Populaire."
+      },
+      {
+       "when": "2007",
+       "who": "Un des meilleurs ouvriers de France",
+       "text": "Participation au concours."
+      },
+      {
+       "when": "2008",
+       "who": "Artisan d'Art",
+       "text": "Reconnu Artisan d'Art par la chambre des Métiers."
+      },
+      {
+       "when": "2010",
+       "who": "Maître Artisan",
+       "text": "Maître Artisan depuis 2010."
+      }
+     ]
+    },
+    {
+     "kind": "quote",
+     "eyebrow": "Notre philosophie",
+     "text": "Nous savons faire la part des choses entre la valeur vénale et la valeur sentimentale de votre mobilier.",
+     "sub": "Atelier Luc Vaganay"
+    },
+    {
+     "kind": "blocks",
+     "id": "expertise-sinistre",
+     "eyebrow": "Expertise sinistre",
+     "title": "Avec les <em class=\"it\">experts d'assurance</em>",
+     "lead": "L'atelier Luc Vaganay travaille en collaboration avec les experts d'assurance afin d'établir des devis de sinistres : incendies, dégats des eaux, explosions. Exemple d'une commode Louis XV dont les pieds ont été rongés par un chien.",
+     "items": [
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2017/10/commode-louis-xv-rongee.jpg",
+       "kicker": "Avant",
+       "alt": "Commode Louis XV avant restauration"
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/commode-louis-xv-rongee-detail.jpg",
+       "kicker": "Dégâts",
+       "alt": "Pied rongé par un chien",
+       "paras": [
+        "Dégats, rognée par un chien."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/commode-louis-xv-rongee-detail-2.jpg",
+       "kicker": "Autre détail",
+       "alt": "Autre détail des dégâts"
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2017/12/commode-louis-xv-rongee-apres.jpg",
+       "kicker": "Après",
+       "alt": "Commode Louis XV après restauration"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "restauration-mobilier",
+   "label": "Restauration mobilier",
+   "title": "Restauration de mobilier",
+   "h1": "Restauration de mobilier <em>pour les particuliers</em>",
+   "eyebrow": "Meubles anciens",
+   "lead": "L'atelier Luc VAGANAY intervient depuis plus de 33 ans sur le mobilier de clients particuliers : marqueterie, meubles massifs, bois de sièges, finition vernis au tampon...",
+   "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9813-2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "mobilier",
+     "eyebrow": "Exemples de restauration",
+     "title": "L'atelier est spécialisé dans la <em class=\"it\">restauration de meubles anciens</em>",
+     "items": [
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-026.jpg",
+       "alt": "Commode Louis XVI de Delorme après restauration",
+       "kicker": "Louis XVI",
+       "title": "Commode Louis XVI de Delorme",
+       "paras": [
+        "Restauration d'une Commode de style Louis XVI de l'ébéniste français Adrien Delorme."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-032.jpg",
+       "alt": "Commode Louis XVI de Topino après restauration",
+       "kicker": "Louis XVI",
+       "title": "Commode Louis XVI de Topino",
+       "paras": [
+        "Restauration d'une commode de style Louis XVI de l'ébéniste français Charles Topino."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_2407-1.jpg",
+       "alt": "Cabinet italien après restauration",
+       "kicker": "Louis XIII",
+       "title": "Cabinet italien",
+       "paras": [
+        "Restauration d'un cabinet d'époque Louis XIII italien en ébène et marqueté d'os.",
+        "La restauration de ce cabinet a nécessité environ 150 heures de travail : recollage de la structure, des différents filets et éléments en os et en ébène."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_7536.jpg",
+       "alt": "Commode de Hache après restauration",
+       "kicker": "Vernis au tampon",
+       "title": "Commode de Hache",
+       "paras": [
+        "Restauration d'une commode de Hache, ébéniste Grenoblois. Revernissage au tampon."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9813-2.jpg",
+       "alt": "Commode estampillée de Laittre après restauration",
+       "kicker": "Marqueterie et bronzes",
+       "title": "Commode estampillée de Laittre",
+       "paras": [
+        "Restauration de la commode en atelier : démontage et nettoyage des bronzes dorés, décollage de la marqueterie."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "avant-apres",
+     "eyebrow": "Avant · pendant · après",
+     "title": "Les étapes <em class=\"it\">de la restauration</em>",
+     "photos": [
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-006.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-006.jpg",
+       "alt": "Commode de Delorme, avant la restauration",
+       "caption": "Commode de Delorme, avant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-015.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-015.jpg",
+       "alt": "Commode de Delorme, pendant la restauration",
+       "caption": "Commode de Delorme, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-019.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-019.jpg",
+       "alt": "Commode de Delorme, pendant la restauration",
+       "caption": "Commode de Delorme, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-024.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-DELORME-024.jpg",
+       "alt": "Commode de Delorme, pendant la restauration",
+       "caption": "Commode de Delorme, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-001.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-001.jpg",
+       "alt": "Commode de Topino, avant la restauration",
+       "caption": "Commode de Topino, avant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-012-2.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-012-2.jpg",
+       "alt": "Commode de Topino, pendant la restauration",
+       "caption": "Commode de Topino, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-027.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/COMMODE-LOUIS-XVI-DE-TOPINO-027.jpg",
+       "alt": "Commode de Topino, pendant la restauration",
+       "caption": "Commode de Topino, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_1336-2-1.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_1336-2-1.jpg",
+       "alt": "Cabinet italien, avant la restauration",
+       "caption": "Cabinet italien, avant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_1617.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_1617.jpg",
+       "alt": "Cabinet italien, pendant la restauration",
+       "caption": "Cabinet italien, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_2414-1.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_2414-1.jpg",
+       "alt": "Cabinet italien, après la restauration",
+       "caption": "Cabinet italien, après la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_7347-1.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_7347-1.jpg",
+       "alt": "Commode de Hache, avant la restauration",
+       "caption": "Commode de Hache, avant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_7538.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_7538.jpg",
+       "alt": "Commode de Hache, après la restauration",
+       "caption": "Commode de Hache, après la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9682-2.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9682-2.jpg",
+       "alt": "Commode de Laittre, avant la restauration",
+       "caption": "Commode de Laittre, avant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9736-2.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9736-2.jpg",
+       "alt": "Commode de Laittre, pendant la restauration",
+       "caption": "Commode de Laittre, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9805-2.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_9805-2.jpg",
+       "alt": "Commode de Laittre, après la restauration",
+       "caption": "Commode de Laittre, après la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/001-1.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/001-1.jpg",
+       "alt": "Atelier Luc Vaganay",
+       "caption": "Atelier Luc Vaganay"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/ATELIER-CAROUSEL-077-1.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/ATELIER-CAROUSEL-077-1.jpg",
+       "alt": "Atelier Luc Vaganay",
+       "caption": "Atelier Luc Vaganay"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/ATELIER-CAROUSEL-037.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/ATELIER-CAROUSEL-037.jpg",
+       "alt": "Atelier Luc Vaganay",
+       "caption": "Atelier Luc Vaganay"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2017/10/ecaille-tortue-0001.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2017/10/ecaille-tortue-0001.jpg",
+       "alt": "Table Tortue, Atelier Luc Vaganay",
+       "caption": "Table Tortue, Atelier Luc Vaganay"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "restauration-patrimoine",
+   "label": "Restauration patrimoine",
+   "title": "Restauration du patrimoine",
+   "h1": "Les chantiers de <em>restauration du patrimoine</em>",
+   "eyebrow": "Monuments historiques",
+   "lead": "L'atelier Luc Vaganay intervient sur des travaux de restauration très complexes, donnant lieu à des travaux d'une durée de 500 heures et plus sur certaines pièces d'exception.",
+   "img": "https://lucvaganay.fr/wp-content/themes/yootheme/cache/palais-de-justice-0002-e918d716.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "chantiers",
+     "eyebrow": "Nos chantiers",
+     "title": "Dix chantiers <em class=\"it\">d'exception</em>",
+     "items": [
+      {
+       "img": "https://lucvaganay.fr/wp-content/themes/yootheme/cache/chateau-de-Ripaille-c11062b2.jpg",
+       "alt": "Château de Ripaille",
+       "kicker": "Thonon les Bains",
+       "title": "Château de Ripaille",
+       "paras": [
+        "Chateau des Ducs de Savoie.",
+        "Restauration du Mobilier, boiserie, une fenêtre à mécanisme : 1200h de travail sur 4 mois. La restauration d'une seule fenêtre a nécessité 200h de travail."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-002.jpg",
+       "alt": "Château de Bagnols",
+       "kicker": "Beaujolais",
+       "title": "Château de Bagnols",
+       "paras": [
+        "Hotel-Restaurant-Spa dans le Beaujolais.",
+        "Chantier récurrent sur 10 ans d'entretien et de restauration du Mobilier."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/refect.jpg",
+       "alt": "Réfectoire de l'Hôtel-Dieu",
+       "kicker": "Lyon",
+       "title": "Réfectoire de l'Hôtel-Dieu",
+       "paras": [
+        "Réfection du réfectoire de l'hotel Dieu à Lyon ainsi que des colonnes en bois d'une des salles de l'Hotel-Dieu.",
+        "Chantier in situ : 1500h de travail."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_3684.jpg",
+       "alt": "Chapelles de l'Hôtel-Dieu",
+       "kicker": "Lyon",
+       "title": "Chapelles de l'Hôtel-Dieu",
+       "paras": [
+        "Une des trois chapelles Baroques de Lyon : restauration de la Chapelle Notre Dame de Pitié et de la chapelle du Transept Sud. Restauration des boiseries."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6947.jpg",
+       "alt": "Porte de la chapelle de l'Hôtel-Dieu",
+       "kicker": "Lyon",
+       "title": "Porte de la chapelle de l'Hôtel-Dieu",
+       "paras": [
+        "Restauration de la porte monumentale en noyer de la chapelle.",
+        "Chantier in situ : 300h de travail."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6939.jpg",
+       "alt": "Meuble d'Apothicaire de l'Hôtel-Dieu",
+       "kicker": "Lyon",
+       "title": "Meuble d'Apothicaire de l'Hôtel-Dieu",
+       "paras": [
+        "Restauration du meuble d'apothicaire mesurant 24m de long et 4m de haut.",
+        "Chantier in situ : 1900 h de travail."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/themes/yootheme/cache/palais-de-justice-0002-e918d716.jpg",
+       "alt": "Palais de Justice",
+       "kicker": "Lyon",
+       "title": "Palais de Justice",
+       "paras": [
+        "Réfection du Mobilier Classé Monument Historique du Palais de Justice de Lyon.",
+        "Chantier de 2008 à 2012 totalisant 10.000h de travail et près de 500 meubles restaurés."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC01235-1.jpg",
+       "alt": "Cartels et Pendules de Vaux-le-Vicomte",
+       "kicker": "Maincy",
+       "title": "Cartels et Pendules de Vaux-le-Vicomte",
+       "paras": [
+        "L'atelier a restauré 8 Cartels et Pendules du Chateau de Vaux-le-Vicomte : restauration de la marqueterie, effectuée dans l'atelier de la rue Vendôme à Lyon."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/themes/yootheme/cache/Atelier-Luc-Vaganay-Valence-1-bc45ffa0.jpg",
+       "alt": "Salons d'apparat de l'Hôtel de Ville de Valence",
+       "kicker": "Valence",
+       "title": "Salons d'apparat de l'Hôtel de Ville de Valence",
+       "paras": [
+        "Restauration du mobilier et ses boiseries Art Nouveau."
+       ]
+      },
+      {
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6278.jpg",
+       "alt": "Église d'Offlanges",
+       "kicker": "Jura",
+       "title": "Église d'Offlanges",
+       "paras": [
+        "Restauration du retable majeur et de deux retables mineurs.",
+        "3000 heures de travail ont été nécessaires à la restauration de l'ensemble."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos-chantiers",
+     "eyebrow": "En images",
+     "title": "Sur <em class=\"it\">les chantiers</em>",
+     "photos": [
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-011.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-011.jpg",
+       "alt": "Château de Bagnols, Salon Rouge",
+       "caption": "Château de Bagnols, Salon Rouge"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-010.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-010.jpg",
+       "alt": "Château de Bagnols, chambre lit baldaquin",
+       "caption": "Château de Bagnols, chambre lit baldaquin"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-001.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHATEAU-DE-BAGNOLS-001.jpg",
+       "alt": "Château de Bagnols, coin salon et boiseries",
+       "caption": "Château de Bagnols, coin salon et boiseries"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC00861.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC00861.jpg",
+       "alt": "Réfectoire de l'Hôtel-Dieu, pendant la restauration",
+       "caption": "Réfectoire de l'Hôtel-Dieu, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/Hotel-Dieu-19.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/Hotel-Dieu-19.jpg",
+       "alt": "Réfectoire de l'Hôtel-Dieu, détail de la restauration",
+       "caption": "Réfectoire de l'Hôtel-Dieu, détail de la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHAPELLE-HOTEL-DIEU-02.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/CHAPELLE-HOTEL-DIEU-02.jpg",
+       "alt": "Chapelle de l'Hôtel-Dieu, vue des travaux",
+       "caption": "Chapelle de l'Hôtel-Dieu, vue des travaux"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2017/11/CHAPELLE-HOTEL-DIEU-017.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2017/11/CHAPELLE-HOTEL-DIEU-017.jpg",
+       "alt": "Détail, chapelle Notre Dame de Pitié",
+       "caption": "Détail, chapelle Notre Dame de Pitié"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_3017.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_3017.jpg",
+       "alt": "Boiserie, chapelle du Transept Sud",
+       "caption": "Boiserie, chapelle du Transept Sud"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_5623.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_5623.jpg",
+       "alt": "Porte de la chapelle de l'Hôtel-Dieu, avant la restauration",
+       "caption": "Porte de la chapelle de l'Hôtel-Dieu, avant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/12.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/12.jpg",
+       "alt": "Porte de la chapelle de l'Hôtel-Dieu, pendant la restauration",
+       "caption": "Porte de la chapelle de l'Hôtel-Dieu, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/hotel_dieu-22_15-Copie.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/hotel_dieu-22_15-Copie.jpg",
+       "alt": "Porte de la chapelle, après 300 heures de restauration",
+       "caption": "Porte de la chapelle, après 300 heures de restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6177.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6177.jpg",
+       "alt": "Meuble d'apothicaire, avant la restauration",
+       "caption": "Meuble d'apothicaire, avant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6629.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6629.jpg",
+       "alt": "Meuble d'apothicaire, pendant la restauration",
+       "caption": "Meuble d'apothicaire, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_7033-1.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_7033-1.jpg",
+       "alt": "Meuble d'apothicaire, après la restauration",
+       "caption": "Meuble d'apothicaire, après la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/PALAIS-DE-JUSTICE-005.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/PALAIS-DE-JUSTICE-005.jpg",
+       "alt": "Mobilier du Palais de Justice de Lyon",
+       "caption": "Mobilier du Palais de Justice de Lyon"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/Palais-de-Justice-267.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/Palais-de-Justice-267.jpg",
+       "alt": "Mobilier du Palais de Justice de Lyon",
+       "caption": "Mobilier du Palais de Justice de Lyon"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/palais-de-justice-320.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/palais-de-justice-320.jpg",
+       "alt": "Mobilier du Palais de Justice de Lyon",
+       "caption": "Mobilier du Palais de Justice de Lyon"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC01184.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC01184.jpg",
+       "alt": "Cartel de la Chambre du Roi, Vaux-le-Vicomte",
+       "caption": "Cartel de la Chambre du Roi, Vaux-le-Vicomte"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC01138.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC01138.jpg",
+       "alt": "Pendule du Cabinet La Fontaine, après la restauration",
+       "caption": "Pendule du Cabinet La Fontaine, après la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC01309.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/DSC01309.jpg",
+       "alt": "Cartel Louis XV, restauration finalisée",
+       "caption": "Cartel Louis XV, restauration finalisée"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/5-2.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/5-2.jpg",
+       "alt": "Salons d'apparat de l'Hôtel de Ville de Valence",
+       "caption": "Salons d'apparat de l'Hôtel de Ville de Valence"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/17-2.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/17-2.jpg",
+       "alt": "Valence, pendant la restauration",
+       "caption": "Valence, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_3478.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_3478.jpg",
+       "alt": "Retable majeur d'Offlanges, pendant la restauration",
+       "caption": "Retable majeur d'Offlanges, pendant la restauration"
+      },
+      {
+       "thumb": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6254.jpg",
+       "full": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6254.jpg",
+       "alt": "Retables mineurs d'Offlanges, après la restauration",
+       "caption": "Retables mineurs d'Offlanges, après la restauration"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "presse",
+     "eyebrow": "Presse et vidéos",
+     "title": "On parle de nos chantiers <em class=\"it\">dans la presse</em>",
+     "items": [
+      {
+       "kicker": "Le Progrès",
+       "title": "Le Progrès, avril 2016",
+       "link": [
+        "Lire l'article",
+        "http://www.leprogres.fr/lyon/2016/04/03/la-chapelle-de-l-hotel-dieu-sert-d-ecrin-aux-metiers-d-art-ce-dimanche-encore"
+       ]
+      },
+      {
+       "kicker": "Lyon Plus",
+       "title": "Lyon Plus, avril 2017",
+       "link": [
+        "Lire l'article",
+        "http://www.lyonplus.com/actualite/2017/03/24/il-redonne-vie-aux-boiseries-des-monuments-historiques-de-lyon"
+       ]
+      },
+      {
+       "kicker": "Lyon Plus",
+       "title": "Les Pendules de Vaux le Vicomte",
+       "link": [
+        "Lire l'article",
+        "http://www.lyonplus.com/actualite/2017/06/12/les-pendules-de-vaux-le-vicomte-a-l-heure-lyonnaise"
+       ]
+      },
+      {
+       "kicker": "PDF",
+       "title": "Article du 17/11/2017",
+       "link": [
+        "Ouvrir le PDF",
+        "https://lucvaganay.fr/wp-content/uploads/2017/12/ARTICLE-VAUX-LE-VICOMTE.pdf"
+       ]
+      },
+      {
+       "kicker": "Vidéo",
+       "title": "Vidéo de la restauration du réfectoire de l'Hôtel-Dieu",
+       "link": [
+        "Voir la vidéo",
+        "https://youtu.be/JZWCICo7Ni0"
+       ]
+      },
+      {
+       "kicker": "YouTube",
+       "title": "La chaîne Youtube de Luc Vaganay",
+       "link": [
+        "Voir les vidéos",
+        "https://www.youtube.com/channel/UCylawhTQQDdI-5hglAnZpHg/videos"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites",
+   "label": "Actualités",
+   "title": "Actualités",
+   "h1": "Les <em>actualités</em> de l'atelier",
+   "eyebrow": "Chantiers et presse",
+   "lead": "Les chantiers de l'atelier et les articles de presse qui en parlent.",
+   "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/BANDEAU3.jpg",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "blog",
+     "eyebrow": "Actualités",
+     "title": "Chantiers <em class=\"it\">et presse</em>",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Hôtel-Dieu : la nouvelle vie de l'Apothicairerie",
+       "cat": "Presse",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/IMG_6939-1.jpg",
+       "url": "https://lucvaganay.fr/hotel-dieu-la-nouvelle-vie-de-lapothicairerie/",
+       "desc": "Le meuble d'apothicaire de l'Hôtel-Dieu, restauré in situ par l'atelier.",
+       "date": "20 juin 2022"
+      },
+      {
+       "title": "“Restaurer des meubles c'est côtoyer l'histoire”. Interview de Luc Vaganay, restaurateur de meubles.",
+       "cat": "Presse",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2017/12/cartel-roi-6.jpg",
+       "url": "https://lucvaganay.fr/restaurer-des-meubles-cest-cotoyer-lhistoire-interview-de-luc-vaganay-restaurateur-de-meubles/",
+       "desc": "Interview de Luc Vaganay, restaurateur de meubles."
+      },
+      {
+       "title": "Hotel-dieu – Restauration Meuble d'Apothicaire",
+       "cat": "Chantiers",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2019/05/News-Hotel-dieu-1.jpg",
+       "url": "https://lucvaganay.fr/hotel-dieu-restauration-meuble-dapothicaire/",
+       "desc": "Restauration du meuble d'apothicaire de l'Hôtel-Dieu de Lyon."
+      },
+      {
+       "title": "Porte Mediévale de Lissieu",
+       "cat": "Chantiers",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2019/04/b75b4a8c-8057-4cc3-aed9-7be8651d1f74.jpg",
+       "url": "https://lucvaganay.fr/porte-medievale-de-lissieu/",
+       "desc": "La porte médiévale de Lissieu nous est ouverte ! Appel d'offres gagné par l'atelier.",
+       "date": "4 avril 2019",
+       "page": "porte-medievale-de-lissieu"
+      },
+      {
+       "title": "Chateau de Ripaille",
+       "cat": "Chantiers",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/Chateau-Ripaille.jpg",
+       "url": "https://lucvaganay.fr/chateau-de-ripaille/",
+       "desc": "Restauration du mobilier, des boiseries et d'une fenêtre à mécanisme du château des Ducs de Savoie."
+      },
+      {
+       "title": "L'artisanat – Les trophées de l'artisanat",
+       "cat": "Presse",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2018/07/Article-Progr%C3%A8s-mai-2018.jpg",
+       "url": "https://lucvaganay.fr/lartisanat-les-trophes-de-lartisanat/",
+       "desc": "Article du Progrès, mai 2018."
+      },
+      {
+       "title": "Luc Vaganay a restauré le mobilier et les boiseries du Palais de Justice de Lyon – Le progrès",
+       "cat": "Presse",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2018/07/Luc-Vaganay-Article-progr%C3%A8s-mai-2018.jpg",
+       "url": "https://lucvaganay.fr/luc-vaganay-a-restaure-le-mobilier-et-les-boiseries-du-palais-de-justice-de-lyon-le-progres/",
+       "desc": "Article du Progrès sur le chantier du Palais de Justice de Lyon."
+      },
+      {
+       "title": "Ces sociétés lyonnaises qui redonnent vie au patrimoine",
+       "cat": "Presse",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2018/07/ARTICLE-PROGRES-mars-2018.jpg",
+       "url": "https://lucvaganay.fr/ces-societes-lyonnaises-qui-redonnent-vie-au-patrimoine/",
+       "desc": "Article du Progrès, mars 2018."
+      },
+      {
+       "title": "Les pendules de Vaux-le Vicomte à l'heure Lyonnaise",
+       "cat": "Chantiers",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/Vaux-le-vicomte-Luc-Vaganay-2.jpg",
+       "url": "https://lucvaganay.fr/les-pendules-de-vaux-le-vicomte-a-lheure-lyonnaise/",
+       "desc": "Huit cartels et pendules du château restaurés à l'atelier de la rue Vendôme."
+      },
+      {
+       "title": "Article de presse sur les pendules de Vaux-le Vicomte",
+       "cat": "Presse",
+       "img": "https://lucvaganay.fr/wp-content/uploads/2018/07/Lyon-plus-juin-2017.jpg",
+       "url": "https://lucvaganay.fr/article-de-presse-sur-les-pendules-de-vaux-le-vicomte/",
+       "desc": "Article de Lyon Plus, juin 2017."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites/porte-medievale-de-lissieu",
+   "hidden": true,
+   "title": "Porte Mediévale de Lissieu",
+   "h1": "Porte Mediévale de Lissieu",
+   "eyebrow": "Actualités",
+   "img": "https://lucvaganay.fr/wp-content/uploads/2017/11/BANDEAU3.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Chantiers",
+     "date": "4 avril 2019",
+     "img": "https://lucvaganay.fr/wp-content/uploads/2019/04/b75b4a8c-8057-4cc3-aed9-7be8651d1f74.jpg",
+     "chapo": "La porte médiévale de Lissieu nous est ouverte !",
+     "body": [
+      {
+       "p": "Appel d'offres gagné par l'atelier."
+      },
+      {
+       "p": "Démarrage des travaux en juillet !"
+      }
+     ],
+     "back": [
+      "← Toutes les actualités",
+      "../"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "Contactez <em>l'atelier</em>",
+   "eyebrow": "105 rue Vendôme · Lyon 6e",
+   "lead": "Atelier : 04 78 52 36 63. Du lundi au vendredi, 7h30 – 12h00 et 13h30 – 18h30 ; le samedi sur rendez-vous.",
+   "img": "https://lucvaganay.fr/wp-content/uploads/2022/06/palais-de-justice-309-1.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Un meuble à restaurer ?",
+     "title": "Demander <em class=\"it\">un devis</em>",
+     "lead": "Décrivez votre meuble ou votre projet : l'atelier vous recontacte.",
+     "email": "atelier@lucvaganay.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer la demande",
+     "side": [
+      "Atelier : <a href=\"tel:+33478523663\">04 78 52 36 63</a>",
+      "E-mail : <a href=\"mailto:atelier@lucvaganay.fr\">atelier@lucvaganay.fr</a>",
+      "En cas de sinistre, contactez-nous au <a href=\"tel:+33478523663\">04 78 52 36 63</a>."
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Type de demande",
+       "type": "select",
+       "options": [
+        "Restauration de mobilier",
+        "Restauration du patrimoine",
+        "Expertise de sinistre",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Votre meuble, votre projet",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Venir à l'atelier",
+     "title": "105 rue Vendôme, <em class=\"it\">69006 Lyon</em>",
+     "text": "Atelier Luc Vaganay, 105 Rue Vendôme, 69006 Lyon, France.",
+     "rows": [
+      [
+       "Atelier",
+       "<a href=\"tel:+33478523663\">04 78 52 36 63</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:atelier@lucvaganay.fr\">atelier@lucvaganay.fr</a><br><a href=\"mailto:lucvaganay@yahoo.fr\">lucvaganay@yahoo.fr</a>"
+      ],
+      [
+       "Lundi – vendredi",
+       "7h30 – 12h00 / 13h30 – 18h30"
+      ],
+      [
+       "Samedi",
+       "Sur rendez-vous"
+      ],
+      [
+       "Dimanche",
+       "Fermé"
+      ]
+     ],
+     "cta": [
+      "Appeler l'atelier",
+      "tel:+33478523663"
+     ],
+     "map_q": "105 rue Vendôme, 69006 Lyon"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Atelier Luc Vaganay, ébéniste restaurateur de meubles anciens à Lyon 6e depuis 1985. Restauration de mobilier, restauration du patrimoine, expertise de sinistres.",
+  "contact": [
+   "<a href=\"tel:+33478523663\">04 78 52 36 63</a>",
+   "<a href=\"mailto:atelier@lucvaganay.fr\">atelier@lucvaganay.fr</a>",
+   "<a href=\"mailto:lucvaganay@yahoo.fr\">lucvaganay@yahoo.fr</a>",
+   "105 rue Vendôme, 69006 Lyon"
+  ],
+  "legal": "SARL Atelier Luc Vaganay · SIRET 452 768 435 00011 · Entreprise du Patrimoine Vivant · Maître Artisan, Artisan d'Art (Chambre des Métiers).",
+  "legal_url": "https://lucvaganay.fr/mentions-legales/",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Luc-Vaganay-SARL-1914204455470623/"
+   ],
+   [
+    "linkedin",
+    "https://www.linkedin.com/company/luc-vaganay-sarl"
+   ]
+  ]
+ }
+}
