@@ -1,5 +1,5 @@
 nom,type,ville,site_actuel,email,slug_maquette,statut,date
-Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,"relance envoyee (17 oct., a contact@ seul)",2026-10-09
+Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,sans suite (relance du 17 oct. sans reponse),2026-10-09
 Bouchon des Cordeliers,restaurant,Lyon 2e,http://www.bouchondescordeliers.com/,contact@bouchondescordeliers.com,bouchon-des-cordeliers-4f9a2c,relance prete,2026-10-09
 Domaine Bernard Jomain,domaine,Charentay (Brouilly),https://www.domainebernardjomain.com/,jomainb@wanadoo.fr,domaine-bernard-jomain-2d7c93,relance prete,2026-10-09
 Le Bouchon des Artistes,restaurant,Lyon 3e,https://www.le-bouchon-des-artistes.fr/,lebouchondesartistes@orange.fr,bouchon-des-artistes-b81e57,relance prete,2026-10-09
@@ -249,3 +249,42 @@ Artisan Couvreur B (Ets Brun Façadiers),artisan (couvreur),,https://etsbrunfaca
 SA COM,artisan (électricien),Lyon 4e,https://christsabone.wixsite.com/sa-com,Sacom1@outlook.fr,sa-com-aa6eef,brouillon pret,2026-10-24
 Maître Christelle Greneche,avocat,Aix-les-Bains,https://www.maitregrenecheavocat.com/,cgreneche@gmail.com,greneche-avocat-6d6651,brouillon pret,2026-10-24
 Fallion-Dubreuil Avocats,avocat,Bonneville,https://www.fallion-dubreuil-avocat-bonneville.fr/,,,ecarte (site recent : 2026 visible ; pas d'e-mail),2026-10-24
+Domaine dit Barron (Gilles Aujogues),domaine,Cercié,http://www.domaine-dit-barron.fr,gilles.aujogues@wanadoo.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-26
+Domaine Le Fagolet (Paul et Valérie Girard),domaine,Vaux-en-Beaujolais,http://www.le-fagolet.com,contact@le-fagolet.com,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-26
+Domaine JP Rivière,domaine,Lachassagne,https://domainejpriviere.com/,contact@domainejpriviere.com,,ecarte (site recent : 2026 visible),2026-10-26
+Domaine Philippe & Sylvain Ravier,domaine,Myans (Savoie),https://vinsravier.fr/,contact@vinsravier.fr,,ecarte (site recent : 2026 visible),2026-10-26
+Domaine Mortet (Jean Mortet),domaine,Beaujolais (Moulin-à-Vent),http://jean.mortet.free.fr/vin.html,,,ecarte (lecture impossible : erreur client),2026-10-26
+Domaine Guy Voluet & Fils,domaine,Juliénas,https://domaineguyvoluet.wixsite.com/site,domaine.guyvoluet@free.fr,domaine-guy-voluet-c3cf44,brouillon pret,2026-10-26
+Chez Paul,restaurant,Lyon 1er,https://www.bouchonchezpaul.fr/,restaurantchezpaul@voila.fr,,"ecarte (site recent : WordPress 2025, modifie en 2026 ; pas d'e-mail sur le site ; ancien chezpaul.fr : lecture impossible, autorisation de lecture expiree)",2026-10-26
+Chez Francis,restaurant,Brive-la-Gaillarde,https://www.chezfrancis.fr/,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-26
+Auberge Le Rabelais,restaurant,Lyon 5e,https://www.auberge-rabelais.fr/,aubergerabelais@gmail.com,,"ecarte (site d'agence 2022, pas assez date)",2026-10-26
+Le P'tit Bouchon,restaurant,Clermont (60),https://leptitbouchon.wixsite.com/leptitbouchon,,,"ecarte (hors zone, pas d'e-mail, Wix 2025)",2026-10-26
+Bouchon de l'Opéra,restaurant,Lyon 1er,https://le-bouchon-de-l-opera.eatbu.com/,bouchon.de.l.opera@orange.fr,,ecarte (site recent : 2026 visible),2026-10-26
+Le Chouette,restaurant (snack),Toulouse,https://lechouettet.wixsite.com/toulouse,lechouette.t@gmail.com,,"ecarte (snack-café, pas un restaurant traditionnel ; Wix 2023)",2026-10-26
+Le Musée,restaurant,Lyon 2e,https://www.bouchonlemusee.fr/,,,ecarte (site recent : 2026 visible ; pas d'e-mail),2026-10-26
+Hôtel-restaurant Le Saint Clément,restaurant (hôtel-restaurant),Saint-Clément-sur-Valsonne,https://www.le-saint-clement.com/,contact@le-saint-clement.com,,"ecarte (site d'agence SAMM entretenu, responsive, refait recemment)",2026-10-26
+Le Tilia (André Chouvin),restaurant (gastronomique),Joux,https://www.letilia.com/,contact@letilia.com,,"ecarte (site recent : 2026 visible, menu fete des meres du 31 mai 2026)",2026-10-26
+Installation Florio,artisan (plombier recherche de fuite),Corbas,https://edicto.wixsite.com/iflflorio,,,ecarte (pas d'e-mail public),2026-10-26
+Qualitherm,artisan (plombier chauffagiste),La Bassée (59),https://qualithermchauffag.wixsite.com/plomberie,,,"ecarte (hors zone, pas d'e-mail)",2026-10-26
+Drozier,artisan (plombier),,http://drozier.free.fr/,,,ecarte (lecture impossible : erreur client),2026-10-26
+2BPC,artisan (plombier chauffagiste),Gers / Haute-Garonne,https://2bpcplomberie.wixsite.com/2bpc,,,"ecarte (pas d'e-mail public, pas d'adresse)",2026-10-26
+Will'P Plomberie,artisan (plombier),Lyon / Grenoble,https://willp-plomberie.wixsite.com/willp,,,ecarte (pas d'e-mail public),2026-10-26
+ALBI Nicolas,artisan (plombier chauffagiste),Saint-Julien (Dijon),https://plomberiechauffage21.wixsite.com/website,albi.nicolas81@gmail.com,albi-plomberie-chauffage-6f7e41,brouillon pret,2026-10-26
+La Menuiserie Chenavard,artisan (menuisier ébéniste),Villefranche-sur-Saône,https://www.menuisiervillefranche.com/ebeniste.php,,,ecarte (lecture impossible : erreur client),2026-10-26
+L'Atelier des Chênes,artisan (menuisier ébéniste),Villefranche-sur-Saône,https://atelier-des-chenes.fr/,,,"ecarte (pas d'e-mail public ; site Geolid, formulaire seul)",2026-10-26
+La Manufacture Française du Bois (MFDB),artisan (menuisier agenceur),Villefranche-sur-Saône,https://www.mfdb.fr/,,,ecarte (pas d'e-mail public ; site WordPress 2023),2026-10-26
+Atelier Pierre Créative (APC),artisan (tailleur de pierre maçon),Champdor (01),https://www.atelier-pierre-creative.fr/,apc-01@orange.fr,,ecarte (hors zone : Ain/Bugey ; site Futur Digital),2026-10-26
+Delouche Frédéric (Taille de pierre et maçonnerie),artisan (tailleur de pierre maçon),Les Rosiers-sur-Loire (Angers),https://www.tailledepierre-delouche49.fr/,,,ecarte (site recent : 2026 visible),2026-10-26
+Entreprise Taillant (Damien Groleau),artisan (tailleur de pierre maçon),Terranjou (Angers),https://www.entreprise-taillant.com/,damiengroleau@ymail.com,,ecarte (site recent : 2026 visible),2026-10-26
+Thierry Becker (ébéniste tapissier),artisan (ébéniste tapissier),Soucieu-en-Jarrest,https://www.ebeniste-a-lyon.fr/,,,"ecarte (pas d'e-mail public : ni mailto ni formulaire ; Jimdo date, tel. 04 37 57 31 68 / 06 12 87 95 95 : piste de reserve)",2026-10-26
+Atelier Luc Vaganay (SARL Luc Vaganay),artisan (ébéniste restaurateur),Lyon 6e,https://lucvaganay.fr/,atelier@lucvaganay.fr ; lucvaganay@yahoo.fr,luc-vaganay-2a61b6,brouillon pret,2026-10-26
+Diag des Monts (Christophe Nayrand),diagnostiqueur,Haute-Rivoire (Monts du Lyonnais),https://www.diagdesmonts.fr/,,,"ecarte (site recent : Arobiz, societe vers 2024 ; e-mail illisible sur le site)",2026-10-26
+Diag Certif 21,diagnostiqueur,Quetigny (Dijon),https://www.diagcertif21.fr/,mmezerai@diagcertif21.fr,,ecarte (site recent : 2026 visible),2026-10-26
+Rhône Alpes Diag,diagnostiqueur,Saint-Laurent-de-Mure,https://www.rhonealpesdiag.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-26
+Bâtiments Et Expertises,diagnostiqueur,Vienne (38),https://batimentsetexpertises.site-solocal.com/,,,ecarte (pas d'e-mail public),2026-10-26
+CDI56 (Jean Pierre Pronzac),diagnostiqueur,Vannes,https://www.cdi56.com/,cdi.morbihan@gmail.com,,ecarte (site recent : 2026 visible),2026-10-26
+Diagnostic Immobilier Pays Basque,diagnostiqueur,Pays Basque (Bayonne),https://www.diagnostic-immobilier-paysbasque.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-26
+Abeximmo,diagnostiqueur,Lyon,https://www.abeximmo.fr/,,,ecarte (lecture impossible : erreur client),2026-10-26
+Diagnostic Précision Rhône,diagnostiqueur,Lyon 3e,https://www.diagprecision-rhone.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-26
+"Archers Notaires (Sauvigné, Liogier, Devaux-Meillerand)",notaire,Lyon 2e,https://www.archersnotaires.fr/,,,"ecarte (site Squarespace recent et entretenu, pas d'e-mail public)",2026-10-26
+Office Roosevelt – Bronnert – Dutel & Associés,notaire,Lyon 6e,https://www.notaires-roosevelt.com/,scp.bronnert@notaires.fr,office-roosevelt-b0a554,brouillon pret,2026-10-26
