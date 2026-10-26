@@ -1,0 +1,570 @@
+{
+ "slug": "albi-plomberie-chauffage-6f7e41",
+ "title": "ALBI Nicolas — Plombier chauffagiste en Côte-d'Or, Dijon et Saint-Julien",
+ "description": "ALBI Nicolas, plombier chauffagiste à Saint-Julien (21490), artisan de père en fils depuis plus de 20 ans : plomberie, chauffage, entretien de chaudières gaz et fioul, dépannage. Toute la Côte-d'Or, 24 h/24 et 7 j/7. Devis gratuit.",
+ "brand": "ALBI Nicolas",
+ "tagline": "Plombier chauffagiste · Côte-d'Or",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/147bad_cfbf3c00d5614451b7a717fc6ad1adde~mv2.png",
+  "height": 52,
+  "with_name": true
+ },
+ "theme": {
+  "look": "split",
+  "paper": "#f5f7f9",
+  "paper2": "#e4ebf0",
+  "ink": "#16232e",
+  "muted": "#566673",
+  "accent": "#1d6fa5",
+  "accent2": "#175b88",
+  "gold": "#e2782d",
+  "heroem": "#ffc59a",
+  "serif": "\"Archivo\",system-ui,sans-serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+ },
+ "phead": "box",
+ "topbar": [
+  "Disponible 24 h/24 et 7 j/7",
+  "<a href=\"tel:+33695965420\">06 95 96 54 20</a>"
+ ],
+ "nav": [
+  [
+   "a-propos",
+   "À propos"
+  ],
+  [
+   "plomberie",
+   "Plomberie"
+  ],
+  [
+   "chauffage",
+   "Chauffage"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/147bad_a247fc2e2e9b4e19971556ca57489cf3~mv2_d_1932_2576_s_2.jpeg",
+  "eyebrow": "Plombier chauffagiste · Côte-d'Or",
+  "title": "ALBI Nicolas, <em>à votre service depuis plus de 20 ans</em>",
+  "lead": "Plomberie – Chauffage – Entretien – Installation. Je me déplace sur tout le département de la Côte d'Or.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 95 96 54 20",
+   "tel:+33695965420"
+  ]
+ },
+ "figures": [
+  [
+   "20 ans",
+   "de père en fils"
+  ],
+  [
+   "24 h/24",
+   "et 7 j/7"
+  ],
+  [
+   "21",
+   "toute la Côte-d'Or"
+  ],
+  [
+   "0 €",
+   "le devis, sur demande"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue",
+   "title": "Artisan de père en fils, <em class=\"it\">plomberie et chauffage</em>",
+   "img": "https://static.wixstatic.com/media/147bad_34650f94e6cb45d29522af65598372dc~mv2_d_1932_2576_s_2.jpeg",
+   "alt": "ALBI Nicolas, plombier chauffagiste",
+   "paras": [
+    "Artisan de père en fils depuis plus de 20 ans, je vous propose mes services dans le domaine de la plomberie et du chauffage :",
+    "Entretien de chaudière gaz et fioul.",
+    "Dépannage et Installation gaz, plomberie, chauffage et sanitaire."
+   ],
+   "sign": "ALBI Nicolas"
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "dark": true,
+   "eyebrow": "Mes engagements",
+   "title": "Garanties <em class=\"it\">et disponibilité</em>",
+   "lead": "A votre service depuis plus de 20 ans.",
+   "items": [
+    [
+     "Toute la Côte-d'Or",
+     "Je me déplace sur tout le département de la Côte d'Or.",
+     "https://static.wixstatic.com/media/147bad_ee1160ef37ab410aa0a1279a7bb7685a~mv2.png"
+    ],
+    [
+     "24 h/24, 7 j/7",
+     "Je suis disponible 24 h/24 et 7 j/7.",
+     "https://static.wixstatic.com/media/147bad_c0294d80da154126a369ed9130d967b6~mv2_d_2036_2036_s_2.png"
+    ],
+    [
+     "Devis gratuit",
+     "Devis gratuit sur demande.",
+     "https://static.wixstatic.com/media/147bad_8e67b7f3aed849c7b58abb92b599294b~mv2.jpg"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Mes services",
+   "title": "Plomberie <em class=\"it\">et chauffage</em>",
+   "lead": "Installation, rénovation, entretien et dépannage.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg",
+     "alt": "Lave-mains et WC",
+     "kicker": "Plomberie",
+     "title": "Installation, rénovation, dépannage",
+     "list": [
+      "Recherche de panne sur plomberie",
+      "Dépannage WC – Sanibroyeur",
+      "Réparation de fuite d’eau (acier, cuivres, PVC, tuyaux)",
+      "Remplacement de robinets et mitigeurs"
+     ],
+     "link": [
+      "Voir la plomberie",
+      "plomberie/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/147bad_7717c472c92c42ca90395e4f0f2bc9b4~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/147bad_7717c472c92c42ca90395e4f0f2bc9b4~mv2.jpg",
+     "alt": "Chaudière à condensation",
+     "kicker": "Chauffage",
+     "title": "Entretien, maintenance, installation",
+     "list": [
+      "Entretien de chaudières murales et sols (gaz ou fioul).",
+      "Contrôle d’étanchéité gaz pour les chaudières gaz.",
+      "Installation et mise en service des chaudières à condensation et à basse température gaz et fioul."
+     ],
+     "link": [
+      "Voir le chauffage",
+      "chauffage/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Sur le <em class=\"it\">terrain</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_700,h_700,al_c,q_85/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg",
+     "full": "https://static.wixstatic.com/media/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg",
+     "alt": "ALBI Nicolas, plomberie chauffage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/147bad_6e1a0b859eff49d0bc72db094759d08d~mv2.jpeg/v1/fill/w_700,h_700,al_c,q_85/147bad_6e1a0b859eff49d0bc72db094759d08d~mv2.jpeg",
+     "full": "https://static.wixstatic.com/media/147bad_6e1a0b859eff49d0bc72db094759d08d~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/147bad_6e1a0b859eff49d0bc72db094759d08d~mv2.jpeg",
+     "alt": "ALBI Nicolas, plombier chauffagiste"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/147bad_917b54796f214aadbbf07721196f1e91~mv2.jpg/v1/fill/w_700,h_700,al_c,q_85/147bad_917b54796f214aadbbf07721196f1e91~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/147bad_917b54796f214aadbbf07721196f1e91~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/147bad_917b54796f214aadbbf07721196f1e91~mv2.jpg",
+     "alt": "Chaudière à condensation"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg/v1/fill/w_700,h_700,al_c,q_85/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg",
+     "alt": "Lave-mains et WC"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/147bad_33dcde79fc6a4138a433f051229f5fba~mv2.jpg/v1/fill/w_700,h_700,al_c,q_85/147bad_33dcde79fc6a4138a433f051229f5fba~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/147bad_33dcde79fc6a4138a433f051229f5fba~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/147bad_33dcde79fc6a4138a433f051229f5fba~mv2.jpg",
+     "alt": "Vanne thermostatique"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/22da903611924c41a0a1be1d3da3d857.jpg/v1/fill/w_700,h_700,al_c,q_85/22da903611924c41a0a1be1d3da3d857.jpg",
+     "full": "https://static.wixstatic.com/media/22da903611924c41a0a1be1d3da3d857.jpg/v1/fit/w_1600,h_1600,al_c,q_85/22da903611924c41a0a1be1d3da3d857.jpg",
+     "alt": "Dépannage plomberie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/ac2bf8dfc44d42ab8fa77c379a4e47d0.jpg/v1/fill/w_700,h_700,al_c,q_85/ac2bf8dfc44d42ab8fa77c379a4e47d0.jpg",
+     "full": "https://static.wixstatic.com/media/ac2bf8dfc44d42ab8fa77c379a4e47d0.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ac2bf8dfc44d42ab8fa77c379a4e47d0.jpg",
+     "alt": "Outillage du plombier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/2c239b3714724b7287ff66dbbdb41ca9.jpg/v1/fill/w_700,h_700,al_c,q_85/2c239b3714724b7287ff66dbbdb41ca9.jpg",
+     "full": "https://static.wixstatic.com/media/2c239b3714724b7287ff66dbbdb41ca9.jpg/v1/fit/w_1600,h_1600,al_c,q_85/2c239b3714724b7287ff66dbbdb41ca9.jpg",
+     "alt": "Plombier au travail"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/5c3635744576443f81df346edb7cc3e1.jpg/v1/fill/w_700,h_700,al_c,q_85/5c3635744576443f81df346edb7cc3e1.jpg",
+     "full": "https://static.wixstatic.com/media/5c3635744576443f81df346edb7cc3e1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/5c3635744576443f81df346edb7cc3e1.jpg",
+     "alt": "Tuyauterie"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/18bb2675743241fe8f3884418af647b2.jpg/v1/fill/w_700,h_700,al_c,q_85/18bb2675743241fe8f3884418af647b2.jpg",
+     "full": "https://static.wixstatic.com/media/18bb2675743241fe8f3884418af647b2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/18bb2675743241fe8f3884418af647b2.jpg",
+     "alt": "Raccords de tuyauterie"
+    }
+   ]
+  },
+  {
+   "kind": "reviews",
+   "id": "temoignages",
+   "eyebrow": "Témoignages",
+   "title": "Mes avis <em class=\"it\">clients</em>",
+   "items": [
+    {
+     "name": "Avis client",
+     "work": "Témoignage",
+     "text": "Globalement très satisfaite de l'intervention de Monsieur ALBI. Plombier réactif, travail soigné et coût correct."
+    },
+    {
+     "name": "Avis client",
+     "work": "Témoignage",
+     "text": "Bravo, continuez ainsi ! Je suis très satisfait de l'intervention !"
+    },
+    {
+     "name": "Avis client",
+     "work": "Témoignage",
+     "text": "Plombier très professionnelle qui propose un délai d'intervention raisonnable. Je le recommande."
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg",
+   "eyebrow": "Devis gratuit sur demande",
+   "title": "Vous avez un problème de plomberie ? <em class=\"it\">Contactez-moi dès aujourd'hui.</em>",
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos de moi",
+   "eyebrow": "Artisan de père en fils",
+   "lead": "A votre service depuis plus de 20 ans, sur tout le département de la Côte d'Or.",
+   "img": "https://static.wixstatic.com/media/147bad_34650f94e6cb45d29522af65598372dc~mv2_d_1932_2576_s_2.jpeg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "a-propos-de-moi",
+     "eyebrow": "À propos de moi",
+     "title": "Plus de 20 ans <em class=\"it\">de père en fils</em>",
+     "img": "https://static.wixstatic.com/media/147bad_a247fc2e2e9b4e19971556ca57489cf3~mv2_d_1932_2576_s_2.jpeg",
+     "alt": "ALBI Nicolas, plombier chauffagiste",
+     "paras": [
+      "Artisan de père en fils depuis plus de 20 ans, je vous propose mes services dans le domaine de la plomberie et du chauffage :",
+      "Entretien de chaudière gaz et fioul.",
+      "Dépannage et Installation gaz, plomberie, chauffage et sanitaire."
+     ],
+     "sign": "ALBI Nicolas"
+    },
+    {
+     "kind": "features",
+     "id": "garanties",
+     "dark": true,
+     "eyebrow": "Mes engagements",
+     "title": "Garanties <em class=\"it\">et disponibilité</em>",
+     "lead": "A votre service depuis plus de 20 ans.",
+     "items": [
+      [
+       "Toute la Côte-d'Or",
+       "Je me déplace sur tout le département de la Côte d'Or.",
+       "https://static.wixstatic.com/media/147bad_ee1160ef37ab410aa0a1279a7bb7685a~mv2.png"
+      ],
+      [
+       "24 h/24, 7 j/7",
+       "Je suis disponible 24 h/24 et 7 j/7.",
+       "https://static.wixstatic.com/media/147bad_c0294d80da154126a369ed9130d967b6~mv2_d_2036_2036_s_2.png"
+      ],
+      [
+       "Devis gratuit",
+       "Devis gratuit sur demande.",
+       "https://static.wixstatic.com/media/147bad_8e67b7f3aed849c7b58abb92b599294b~mv2.jpg"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "partenaires",
+     "eyebrow": "Mes partenaires",
+     "title": "Des fournisseurs <em class=\"it\">reconnus</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/147bad_367a8eb826624307be7dca929af829bd~mv2.png",
+       "contain": true,
+       "alt": "Viessmann",
+       "title": "Viessmann",
+       "paras": [
+        "Spécialiste dans la construction et la vente de chaudières et de chauffage central."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/147bad_e085c2e1ef5842ae94d511865697290e~mv2.png",
+       "contain": true,
+       "alt": "Pagot Savoie",
+       "title": "Pagot Savoie",
+       "paras": [
+        "Distributeur d'équipements sanitaires et de matériaux de construction."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/147bad_1e2e54fbaf8b4636bf4844793a9cc09c~mv2.jpg",
+       "contain": true,
+       "alt": "Aubade",
+       "title": "Aubade",
+       "paras": [
+        "Fournisseur de produits pour l'aménagement des salles de bains."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/147bad_6af19932871c49d48c8e6e57a37ec6a1~mv2.jpg",
+       "contain": true,
+       "alt": "Cedeo",
+       "title": "Cedeo",
+       "paras": [
+        "Négociant et distributeur de produits de sanitaires, plomberie et chauffage."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg",
+     "eyebrow": "Devis gratuit sur demande",
+     "title": "Vous avez un problème de plomberie ? <em class=\"it\">Contactez-moi dès aujourd'hui.</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "plomberie",
+   "label": "Plomberie",
+   "title": "Plombier",
+   "eyebrow": "Plomberie",
+   "lead": "Installation, rénovation et dépannage : sanitaires, tuyauterie, gaz.",
+   "img": "https://static.wixstatic.com/media/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "plombier",
+     "eyebrow": "Plomberie",
+     "title": "Mes services <em class=\"it\">en plomberie</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/147bad_917b54796f214aadbbf07721196f1e91~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/147bad_917b54796f214aadbbf07721196f1e91~mv2.jpg",
+       "alt": "Chaudière à condensation",
+       "kicker": "Plomberie",
+       "title": "Installation / Rénovation",
+       "list": [
+        "Recherche de panne sur plomberie",
+        "Dépannage WC – Sanibroyeur",
+        "Réparation de fuite d’eau (acier, cuivres, PVC, tuyaux)",
+        "Remplacement de robinets et mitigeurs",
+        "Réparation de ballon d’eau chaude",
+        "Débouchage de tuyauterie"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/147bad_c0d87245dba346c292a6b5e8ff63a2dc~mv2.jpg",
+       "alt": "Lave-mains et WC",
+       "kicker": "Plomberie",
+       "title": "Dépannage",
+       "list": [
+        "Pose d'appareils sanitaires (WC, baignoires, receveurs, parois, meubles vasques, éviers, sèches serviette, robinetteries, adoucisseurs d'eau, compteurs)",
+        "Mise en place de tuyauterie encastrée ou apparente (alimentations d’eau ou d’évacuation d’eaux usées).",
+        "Installation ou modification de tuyaux de gaz et vous informe des normes en vigueur afin d’établir un certificat de conformité."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg",
+     "eyebrow": "Devis gratuit sur demande",
+     "title": "Vous avez un problème de plomberie ? <em class=\"it\">Contactez-moi dès aujourd'hui.</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "chauffage",
+   "label": "Chauffage",
+   "title": "Chauffage",
+   "eyebrow": "Chaudières gaz et fioul",
+   "lead": "Entretien, maintenance, dépannage et installation de chauffage.",
+   "img": "https://static.wixstatic.com/media/147bad_7717c472c92c42ca90395e4f0f2bc9b4~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "chauffagiste",
+     "eyebrow": "Chauffage",
+     "title": "Entretien <em class=\"it\">et installation</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/147bad_7717c472c92c42ca90395e4f0f2bc9b4~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/147bad_7717c472c92c42ca90395e4f0f2bc9b4~mv2.jpg",
+       "alt": "Chaudière à condensation",
+       "kicker": "Chauffage",
+       "title": "Entretien / Maintenance",
+       "list": [
+        "Entretien de chaudières murales et sols (gaz ou fioul).",
+        "Nettoyage de chaudière et mise en place des différents points de contrôle.",
+        "Analyse de monoxyde de carbone obligatoire et qui doit être inférieur à 10 ppm et mentionnée sur l’attestation.",
+        "Contrôle d’étanchéité gaz pour les chaudières gaz.",
+        "Dépannage de chaudières, diagnostique et remplacement des pièces nécessaires."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/147bad_33dcde79fc6a4138a433f051229f5fba~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/147bad_33dcde79fc6a4138a433f051229f5fba~mv2.jpg",
+       "alt": "Vanne thermostatique",
+       "kicker": "Chauffage",
+       "title": "Installation",
+       "list": [
+        "Installation et mise en service des chaudières à condensation et à basse température gaz et fioul.",
+        "Qu'elles soient sur cheminée ou à ventouse, au sol ou murale.",
+        "Pose ou remplacement des radiateurs classiques ou à basse température. Installation de chauffage central, plancher chauffant et radiateurs."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/147bad_8190717a02e847d8a16fc8a4e76368a2~mv2_d_3024_4032_s_4_2.jpg",
+     "eyebrow": "Devis gratuit sur demande",
+     "title": "Entretien de chaudière, <em class=\"it\">dépannage, installation</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Me contacter",
+   "eyebrow": "Nous contacter",
+   "lead": "Devis gratuit sur demande. Je me déplace sur tout le département de la Côte d'Or.",
+   "img": "https://static.wixstatic.com/media/147bad_6e1a0b859eff49d0bc72db094759d08d~mv2.jpeg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Demander un devis",
+     "title": "Votre demande, <em class=\"it\">votre devis gratuit</em>",
+     "lead": "Décrivez votre besoin : je vous recontacte pour établir votre devis.",
+     "email": "albi.nicolas81@gmail.com",
+     "subject": "Demande de devis depuis le site ALBI Nicolas",
+     "side": [
+      "<a href=\"tel:+33695965420\" style=\"border-bottom:1px solid var(--gold)\">06 95 96 54 20</a>",
+      "Disponible 24 h/24 et 7 j/7."
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Commune"
+      },
+      {
+       "label": "Votre demande",
+       "type": "select",
+       "options": [
+        "Plomberie",
+        "Chauffage",
+        "Entretien de chaudière",
+        "Dépannage",
+        "Autre demande"
+       ]
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer ma demande"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Me trouver",
+     "title": "Saint-Julien, <em class=\"it\">Côte-d'Or</em>",
+     "text": "Je me déplace sur tout le département de la Côte d'Or.",
+     "rows": [
+      [
+       "Artisan",
+       "ALBI Nicolas"
+      ],
+      [
+       "Adresse",
+       "1 rue des Pommiers<br>21490 Saint-Julien"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33695965420\">06 95 96 54 20</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:albi.nicolas81@gmail.com\">albi.nicolas81@gmail.com</a>"
+      ],
+      [
+       "Zone",
+       "Dijon et toute la Côte-d'Or"
+      ],
+      [
+       "Disponibilité",
+       "24 h/24 et 7 j/7"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ],
+     "map_q": "1 rue des Pommiers 21490 Saint-Julien"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "ALBI Nicolas, plombier chauffagiste à Saint-Julien (21490), artisan de père en fils depuis plus de 20 ans. Plomberie, chauffage, entretien de chaudières gaz et fioul, dépannage dans toute la Côte-d'Or.",
+  "contact": [
+   "<a href=\"tel:+33695965420\">06 95 96 54 20</a>",
+   "<a href=\"mailto:albi.nicolas81@gmail.com\">albi.nicolas81@gmail.com</a>",
+   "1 rue des Pommiers, 21490 Saint-Julien"
+  ],
+  "legal": "Plombier chauffagiste · N° SIRET : 80450862000015 · Code APE : 4322B · N° TVA intracommunautaire : 02804508620",
+  "legal_url": "https://plomberiechauffage21.wixsite.com/website"
+ }
+}
