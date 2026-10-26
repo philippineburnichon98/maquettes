@@ -1,0 +1,763 @@
+{
+ "slug": "domaine-guy-voluet-c3cf44",
+ "title": "Domaine Guy Voluet & Fils, vignerons à Juliénas : Juliénas, Moulin-à-Vent, Saint-Véran",
+ "description": "Vigneron de père en fils depuis quatre générations au pied de la Côte de Bessay, à Juliénas : Juliénas, Moulin-à-Vent et Saint-Véran. Dégustation au caveau, Les Chers, 69840 Juliénas.",
+ "brand": "Domaine Guy Voluet & Fils",
+ "tagline": "Vignerons à Juliénas",
+ "agegate": true,
+ "theme": {
+  "look": "editorial",
+  "paper": "#f7f3ee",
+  "paper2": "#efe6da",
+  "ink": "#22171a",
+  "muted": "#6b5e60",
+  "accent": "#7b1e30",
+  "accent2": "#5f1724",
+  "gold": "#b08d4f",
+  "heroem": "#f3d3a6",
+  "serif": "\"Newsreader\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/ed50fa_2fe72f5fe90b452188e557ad978205ed~mv2.jpg",
+  "height": 58,
+  "bg": "#ffffff"
+ },
+ "topbar": [
+  "<a href=\"tel:+33474044567\">04 74 04 45 67</a>",
+  "<a href=\"tel:+33683669772\">06 83 66 97 72</a>"
+ ],
+ "nav": [
+  [
+   "domaine",
+   "Le domaine"
+  ],
+  [
+   "vins",
+   "Nos vins"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/ed50fa_b738836957e84086bba60ee42ff360d6~mv2.jpg",
+  "eyebrow": "Juliénas · Moulin-à-Vent · Saint-Véran",
+  "title": "Bienvenue au Domaine<br>Guy Voluet <em>& Fils</em>",
+  "lead": "Vigneron de père en fils depuis quatre générations, au pied de la Côte de Bessay : le vignoble surplombe le village de Juliénas.",
+  "cta1": [
+   "Découvrir nos vins",
+   "nos-vins/"
+  ],
+  "cta2": [
+   "06 83 66 97 72",
+   "tel:+33683669772"
+  ]
+ },
+ "figures": [
+  [
+   "4",
+   "générations de vignerons"
+  ],
+  [
+   "15 ha",
+   "de vignes"
+  ],
+  [
+   "3",
+   "appellations : Juliénas, Moulin-à-Vent, Saint-Véran"
+  ],
+  [
+   "80 ans",
+   "et plus : les vieilles vignes des Chers"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Bienvenue",
+   "title": "Le cru le plus au nord <em class=\"it\">du Rhône</em>",
+   "img": "https://static.wixstatic.com/media/799dfeebbb2d4f87ad31e6c6ac03b9ca.jpg",
+   "alt": "Verre de vin rouge",
+   "paras": [
+    "Le Domaine Voluet est présent dans la région du Beaujolais depuis de nombreuses années, vigneron de père en fils depuis quatre générations.",
+    "Nous sommes situés au pied de la Côte de Bessay, le vignoble surplombe le village de Juliénas.",
+    "Juliénas est le cru du Beaujolais le plus au nord du département du Rhône."
+   ],
+   "sign": "Guy Voluet & Fils"
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "Le domaine",
+   "title": "Aux confins du Beaujolais <em class=\"it\">et du Mâconnais</em>",
+   "lead": "Quinze hectares, trois appellations : Saint-Véran, Juliénas et Moulin-à-Vent.",
+   "items": [
+    {
+     "kicker": "Nos vins",
+     "title": "Dix cuvées, du rosé au Saint-Véran",
+     "img": "https://static.wixstatic.com/media/ed50fa_4fd72946443a4acf896f5da87154bffb~mv2.png",
+     "contain": true,
+     "alt": "Juliénas Cuvée Les Chers",
+     "paras": [
+      "Six Juliénas, dont la cuvée Les Chers issue de vignes de plus de 80 ans, un Moulin-à-Vent, deux Saint-Véran et un rosé de gamay."
+     ],
+     "link": [
+      "Voir les vins et les tarifs",
+      "nos-vins/"
+     ]
+    },
+    {
+     "kicker": "Qui sommes-nous ?",
+     "title": "Guy Voluet et ses deux fils",
+     "paras": [
+      "Mettre un point d'honneur et toute son énergie à respecter la tradition viticole pour produire des vins de qualité."
+     ],
+     "link": [
+      "Apprendre à nous connaître",
+      "a-propos/"
+     ]
+    },
+    {
+     "kicker": "Actualités",
+     "title": "Salons, livraisons, vie du vignoble",
+     "img": "https://static.wixstatic.com/media/b4f49cc3986f49468f89cfe6f2624f3b.jpg",
+     "alt": "Verres à vin suspendus",
+     "paras": [
+      "Participation aux salons viticoles, suivi du processus de création du vin."
+     ],
+     "link": [
+      "Les actualités du domaine",
+      "actualites/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/ed50fa_50ac03216fc748b1a4e05c05156f9013~mv2.jpg",
+   "eyebrow": "Venez nous rencontrer",
+   "title": "Une dégustation<br><em>au caveau</em>",
+   "cta": [
+    "Prévenir de votre passage",
+    "contact/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Venez nous rencontrer",
+   "title": "Au caveau, <em class=\"it\">aux Chers</em>",
+   "text": "Nous pouvons vous accueillir dans notre caveau pour une dégustation, merci de nous informer de votre passage par mail ou par téléphone.",
+   "rows": [
+    [
+     "Adresse",
+     "Les Chers<br>69840 Juliénas"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474044567\">04 74 04 45 67</a><br><a href=\"tel:+33683669772\">06 83 66 97 72</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:domaine.guyvoluet@free.fr\">domaine.guyvoluet@free.fr</a>"
+    ]
+   ],
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33683669772"
+   ],
+   "map_q": "Les Chers, 69840 Juliénas"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "Qui sommes-nous ?",
+   "title": "Qui sommes-nous ?",
+   "eyebrow": "Apprenez à nous connaître",
+   "lead": "Présents dans le Beaujolais depuis quatre générations.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "famille",
+     "eyebrow": "La famille",
+     "title": "Guy Voluet <em class=\"it\">et ses deux fils</em>",
+     "img": "https://static.wixstatic.com/media/ed50fa_b738836957e84086bba60ee42ff360d6~mv2.jpg",
+     "alt": "Le domaine Guy Voluet à Juliénas",
+     "paras": [
+      "Présents dans le Beaujolais depuis quatre générations, Guy Voluet et ses 2 fils, Julien, en BTS Viticulture et œnologie, et Fabrice, diplômé d'un DNO, mettent un point d'honneur et toute leur énergie à respecter la tradition viticole pour produire des vins de qualité.",
+      "Au fil des années, le Domaine a évolué pour s'étendre maintenant sur 15 hectares, il est situé aux confins du Beaujolais et du Mâconnais et produit les appellations Saint-Véran, Juliénas et Moulin-à-Vent.",
+      "Guy Voluet, qui a appris le métier dès son enfance auprès de son père, aime à son tour transmettre sa passion, particulièrement lors de l'élaboration du vin, au moment de la vinification."
+     ]
+    },
+    {
+     "kind": "quote",
+     "eyebrow": "Notre métier",
+     "text": "« La naissance d'un vin et son évolution au cours des premiers mois est quelque chose de nouveau chaque année. Chaque millésime a sa spécificité. »",
+     "sub": "Guy Voluet"
+    },
+    {
+     "kind": "features",
+     "id": "valeurs",
+     "eyebrow": "Notre façon de faire",
+     "title": "Des vins harmonieux <em class=\"it\">et chaleureux</em>",
+     "lead": "Produire des vins harmonieux et chaleureux, respectueux du terroir, est une priorité pour le domaine afin de pouvoir proposer des vins de qualité année après année.",
+     "items": [
+      [
+       "La tradition viticole",
+       "Un métier appris dès l'enfance et transmis de père en fils depuis quatre générations."
+      ],
+      [
+       "Foires et salons",
+       "Guy Voluet et son épouse se déplacent régulièrement à travers la France pour participer à des foires et salons des vins."
+      ],
+      [
+       "Un lien direct",
+       "Présenter les vins, expliquer son métier, rencontrer et discuter avec leur clientèle est une habitude que le domaine familial aime entretenir pour garder un lien direct entre les vignes et les amateurs de vins."
+      ],
+      [
+       "Dégustations à domicile",
+       "Des dégustations à domicile sont également organisées dans toute la France pour faire découvrir leurs produits et partager un moment convivial."
+      ]
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/ed50fa_50ac03216fc748b1a4e05c05156f9013~mv2.jpg",
+     "eyebrow": "Contactez-nous pour plus d'informations",
+     "title": "Une dégustation<br><em>chez vous ou au caveau</em>",
+     "cta": [
+      "Nous contacter",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nos-vins",
+   "label": "Nos vins",
+   "title": "Les vins du domaine",
+   "eyebrow": "À vos découvertes",
+   "lead": "Juliénas, Moulin-à-Vent, Saint-Véran et rosé de gamay : dix cuvées, avec leurs tarifs.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "vins",
+     "eyebrow": "Les vins du domaine",
+     "title": "À vos <em class=\"it\">découvertes</em>",
+     "lead": "Chaque cuvée avec ses accords. Prix à la bouteille.",
+     "tabs": [
+      [
+       "rouge",
+       "Rouges"
+      ],
+      [
+       "blanc",
+       "Blancs"
+      ],
+      [
+       "rose",
+       "Rosé"
+      ]
+     ],
+     "items": [
+      {
+       "cat": "rouge",
+       "color": "#7b1e30",
+       "tag": "Cru du Beaujolais",
+       "name": "Juliénas Cuvée Tradition",
+       "app": "Juliénas",
+       "img": "https://static.wixstatic.com/media/ed50fa_b97a12a9342847a8af4b97ed23df358e~mv2.png",
+       "desc": "Vin nerveux à la robe rubis profond. Vous découvrirez des arômes très subtils de pivoine et de violette. Très gouleyant, il s'apprécie avec les entrées, les assiettes de charcuterie.",
+       "sheet": [
+        [
+         "Robe",
+         "Rubis profond"
+        ],
+        [
+         "Arômes",
+         "Pivoine, violette"
+        ],
+        [
+         "Accords",
+         "Entrées, charcuterie"
+        ]
+       ],
+       "price": "9,00 €"
+      },
+      {
+       "cat": "rouge",
+       "color": "#6f1a2b",
+       "tag": "Cru du Beaujolais · Climat",
+       "name": "Juliénas Cuvée Les Capitans",
+       "app": "Climat Les Capitans",
+       "img": "https://static.wixstatic.com/media/ed50fa_e64014163cb64c98811b50061822fcd4~mv2.png",
+       "desc": "Le climat Les Capitans est un des 4 climats situés sur l'appellation Juliénas. Il se caractérise par une structure tannique due à son terroir particulier. Il accompagne avec délice les viandes blanches ou volailles grillées.",
+       "sheet": [
+        [
+         "Structure",
+         "Tannique"
+        ],
+        [
+         "Accords",
+         "Viandes blanches, volailles grillées"
+        ]
+       ],
+       "price": "10,50 €"
+      },
+      {
+       "cat": "rouge",
+       "color": "#5e1e3a",
+       "tag": "Cru du Beaujolais",
+       "name": "Juliénas Cuvée Les Fouillouses",
+       "app": "Coteau des Fouillouses",
+       "img": "https://static.wixstatic.com/media/ed50fa_5fe20d5125434d37af7103686791b7b3~mv2.png",
+       "desc": "Cette cuvée est issue de vignes situées sur le coteau des Fouillouses. Robe violine aux reflets carmin, ce vin est riche et savoureux, il accompagnera parfaitement des viandes grillées ou coq au vin.",
+       "sheet": [
+        [
+         "Robe",
+         "Violine aux reflets carmin"
+        ],
+        [
+         "Accords",
+         "Viandes grillées, coq au vin"
+        ]
+       ],
+       "price": "10,50 €"
+      },
+      {
+       "cat": "rouge",
+       "color": "#5a1424",
+       "tag": "Cru du Beaujolais · Vieilles vignes",
+       "badge": "Fleuron du domaine",
+       "name": "Juliénas Cuvée Les Chers",
+       "app": "Vignes de plus de 80 ans",
+       "img": "https://static.wixstatic.com/media/ed50fa_4fd72946443a4acf896f5da87154bffb~mv2.png",
+       "desc": "Fleuron de notre production, elle est issue des vignes bordant le chai de production : ces vieilles vignes, de plus de 80 ans d'âge, apportent à ce vin une robe cerise avec des arômes de fruits noirs et des notes empyreumatiques. Sa structure riche et tannique convient parfaitement pour accompagner les viandes en sauce, les gibiers, et également le fromage.",
+       "sheet": [
+        [
+         "Vignes",
+         "Plus de 80 ans"
+        ],
+        [
+         "Robe",
+         "Cerise"
+        ],
+        [
+         "Arômes",
+         "Fruits noirs, notes empyreumatiques"
+        ],
+        [
+         "Accords",
+         "Viandes en sauce, gibiers, fromage"
+        ]
+       ],
+       "price": "12,00 €"
+      },
+      {
+       "cat": "rouge",
+       "color": "#4b1220",
+       "tag": "Cru du Beaujolais · Élevé en fût",
+       "name": "Juliénas Cuvée Les Chers Fût de Chêne",
+       "app": "12 mois en fût de chêne",
+       "img": "https://static.wixstatic.com/media/ed50fa_b88f9a50afed420f9038b13fa53981ac~mv2.png",
+       "desc": "Cette cuvée, issue de la cuvée Les Chers, est élevée 12 mois en fût de chêne. Un assemblage de fûts de plusieurs vins dévoile des arômes légèrement vanillés tout en gardant le fruité et la structure des vins issus des vieilles vignes. Ce vin accompagne parfaitement les viandes rouges et le fromage.",
+       "sheet": [
+        [
+         "Élevage",
+         "12 mois en fût de chêne"
+        ],
+        [
+         "Arômes",
+         "Légèrement vanillés, fruités"
+        ],
+        [
+         "Accords",
+         "Viandes rouges, fromage"
+        ]
+       ],
+       "price": "12,50 €"
+      },
+      {
+       "cat": "rouge",
+       "color": "#661829",
+       "tag": "Cru du Beaujolais",
+       "name": "Juliénas Cuvée Ancestrale",
+       "app": "Selon les traditions ancestrales",
+       "img": "https://static.wixstatic.com/media/ed50fa_8b300ac09f4e4e4d92da4b4471b89739~mv2.png",
+       "desc": "Cette cuvée, en la mémoire de nos ancêtres, est élaborée selon les traditions ancestrales. Elle reflète des éclats carmin, a une belle longueur en bouche. Charpenté et structuré, ce vin accompagne les gibiers et fromages.",
+       "sheet": [
+        [
+         "Robe",
+         "Éclats carmin"
+        ],
+        [
+         "Bouche",
+         "Charpentée, belle longueur"
+        ],
+        [
+         "Accords",
+         "Gibiers, fromages"
+        ]
+       ],
+       "price": "16,50 €"
+      },
+      {
+       "cat": "rouge",
+       "color": "#721c2e",
+       "tag": "Cru du Beaujolais",
+       "name": "Moulin-à-Vent",
+       "app": "Moulin-à-Vent",
+       "img": "https://static.wixstatic.com/media/ed50fa_84847723c7e44f809c8c725574769211~mv2.png",
+       "desc": "Issu du terroir Moulin-à-Vent, ce vin d'une couleur carmin révèle des arômes de fruits mûrs, poivrés. Il accompagne les viandes rouges, gibiers et fromages.",
+       "sheet": [
+        [
+         "Robe",
+         "Carmin"
+        ],
+        [
+         "Arômes",
+         "Fruits mûrs, poivrés"
+        ],
+        [
+         "Accords",
+         "Viandes rouges, gibiers, fromages"
+        ]
+       ],
+       "price": "12,00 €"
+      },
+      {
+       "cat": "blanc",
+       "color": "#d3b65a",
+       "tag": "Mâconnais",
+       "name": "Saint-Véran",
+       "app": "Blanc",
+       "img": "https://static.wixstatic.com/media/ed50fa_c5d385ec580e4014a66137f58509b15d~mv2.png",
+       "desc": "Au sud de la Bourgogne, au cœur du Mâconnais, le Saint-Véran, vin blanc à la robe vert-or, est rond, tendre et fruité. Jeune, il développe des arômes de fruits à chair blanche (pêche, poire), évoluant vers les fleurs blanches (acacia) puis jaunes (chèvrefeuille, genêt). Il se déguste en apéritif, avec des poissons, émincé de volaille ou andouillettes.",
+       "sheet": [
+        [
+         "Robe",
+         "Vert-or"
+        ],
+        [
+         "Arômes",
+         "Pêche, poire, acacia, chèvrefeuille"
+        ],
+        [
+         "Accords",
+         "Apéritif, poissons, volaille, andouillettes"
+        ]
+       ],
+       "price": "14,10 €"
+      },
+      {
+       "cat": "blanc",
+       "color": "#c9a84a",
+       "tag": "Mâconnais",
+       "name": "Saint-Véran Cuvée Prestige",
+       "app": "Blanc",
+       "img": "https://static.wixstatic.com/media/ed50fa_a23523945b6a45ff8b2db97b1c93e7b4~mv2.png",
+       "desc": "Au sud de la Bourgogne, sur les coteaux du Mâconnais bordant les grands terroirs, cette cuvée de Saint-Véran à la couleur or dégage des arômes de fruits à chair blanche et, en vieillissant, des arômes de noisette, amande grillée et miel. Il accompagne à merveille des poissons fins, ris de veau ou des fromages jurassiens.",
+       "sheet": [
+        [
+         "Robe",
+         "Or"
+        ],
+        [
+         "Arômes",
+         "Fruits blancs, puis noisette, amande grillée, miel"
+        ],
+        [
+         "Accords",
+         "Poissons fins, ris de veau, fromages jurassiens"
+        ]
+       ],
+       "price": "16,10 €"
+      },
+      {
+       "cat": "rose",
+       "color": "#d9798a",
+       "tag": "Rosé",
+       "name": "Rosé Gamay",
+       "app": "Gamay",
+       "img": "https://static.wixstatic.com/media/ed50fa_6dcc1b5c8bb54d94b18ca0f40df75de2~mv2.png",
+       "desc": "D'une couleur rosée soutenue, aux parfums très développés, il se déguste à l'apéritif ou accompagnera à merveille les grillades.",
+       "sheet": [
+        [
+         "Cépage",
+         "Gamay"
+        ],
+        [
+         "Accords",
+         "Apéritif, grillades"
+        ]
+       ],
+       "price": "7,50 €"
+      }
+     ],
+     "note": "Tarifs à la bouteille, repris du site actuel du domaine."
+    },
+    {
+     "kind": "order",
+     "id": "commander",
+     "eyebrow": "Commander",
+     "title": "Préparez <em class=\"it\">votre commande</em>",
+     "lead": "Choisissez vos vins et vos quantités : votre demande nous parvient par e-mail et nous vous recontactons pour le retrait au caveau ou la livraison.",
+     "email": "domaine.guyvoluet@free.fr",
+     "subject": "Commande de vins depuis le site",
+     "tel": "+33683669772",
+     "phone": "06 83 66 97 72",
+     "groups": [
+      {
+       "title": "Juliénas",
+       "items": [
+        {
+         "name": "Juliénas Cuvée Tradition",
+         "price": 9.0,
+         "img": "https://static.wixstatic.com/media/ed50fa_b97a12a9342847a8af4b97ed23df358e~mv2.png"
+        },
+        {
+         "name": "Juliénas Cuvée Les Capitans",
+         "price": 10.5,
+         "img": "https://static.wixstatic.com/media/ed50fa_e64014163cb64c98811b50061822fcd4~mv2.png"
+        },
+        {
+         "name": "Juliénas Cuvée Les Fouillouses",
+         "price": 10.5,
+         "img": "https://static.wixstatic.com/media/ed50fa_5fe20d5125434d37af7103686791b7b3~mv2.png"
+        },
+        {
+         "name": "Juliénas Cuvée Les Chers",
+         "price": 12.0,
+         "sub": "Vieilles vignes",
+         "img": "https://static.wixstatic.com/media/ed50fa_4fd72946443a4acf896f5da87154bffb~mv2.png"
+        },
+        {
+         "name": "Juliénas Cuvée Les Chers Fût de Chêne",
+         "price": 12.5,
+         "sub": "12 mois en fût",
+         "img": "https://static.wixstatic.com/media/ed50fa_b88f9a50afed420f9038b13fa53981ac~mv2.png"
+        },
+        {
+         "name": "Juliénas Cuvée Ancestrale",
+         "price": 16.5,
+         "img": "https://static.wixstatic.com/media/ed50fa_8b300ac09f4e4e4d92da4b4471b89739~mv2.png"
+        }
+       ]
+      },
+      {
+       "title": "Moulin-à-Vent",
+       "items": [
+        {
+         "name": "Moulin-à-Vent",
+         "price": 12.0,
+         "img": "https://static.wixstatic.com/media/ed50fa_84847723c7e44f809c8c725574769211~mv2.png"
+        }
+       ]
+      },
+      {
+       "title": "Saint-Véran",
+       "items": [
+        {
+         "name": "Saint-Véran",
+         "price": 14.1,
+         "img": "https://static.wixstatic.com/media/ed50fa_c5d385ec580e4014a66137f58509b15d~mv2.png"
+        },
+        {
+         "name": "Saint-Véran Cuvée Prestige",
+         "price": 16.1,
+         "img": "https://static.wixstatic.com/media/ed50fa_a23523945b6a45ff8b2db97b1c93e7b4~mv2.png"
+        }
+       ]
+      },
+      {
+       "title": "Rosé",
+       "items": [
+        {
+         "name": "Rosé Gamay",
+         "price": 7.5,
+         "img": "https://static.wixstatic.com/media/ed50fa_6dcc1b5c8bb54d94b18ca0f40df75de2~mv2.png"
+        }
+       ]
+      }
+     ],
+     "rules": [
+      "Retrait au caveau, Les Chers à Juliénas : merci de nous informer de votre passage par mail ou par téléphone.",
+      "Fixe : <a href=\"tel:+33474044567\">04 74 04 45 67</a> · Portable : <a href=\"tel:+33683669772\">06 83 66 97 72</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true,
+       "ac": "family-name"
+      },
+      {
+       "label": "Prénom",
+       "ac": "given-name"
+      },
+      {
+       "label": "Adresse e-mail",
+       "type": "email",
+       "required": true,
+       "ac": "email"
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true,
+       "ac": "tel"
+      },
+      {
+       "label": "Retrait ou livraison",
+       "type": "select",
+       "options": [
+        "Retrait au caveau",
+        "Livraison"
+       ],
+       "full": true
+      },
+      {
+       "label": "Adresse de livraison (si livraison)",
+       "type": "textarea",
+       "full": true
+      },
+      {
+       "label": "Un message pour le domaine (facultatif)",
+       "type": "textarea",
+       "full": true
+      }
+     ],
+     "submit": "Envoyer ma commande"
+    }
+   ]
+  },
+  {
+   "slug": "actualites",
+   "label": "Actualités",
+   "title": "Les actualités du vignoble",
+   "eyebrow": "Actualités du domaine",
+   "lead": "Participation aux salons viticoles, suivi du processus de création du vin.",
+   "img": "https://static.wixstatic.com/media/b4f49cc3986f49468f89cfe6f2624f3b.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "actus",
+     "eyebrow": "Actualités",
+     "title": "Les actualités <em class=\"it\">du vignoble</em>",
+     "lead": "Salons des vins, livraisons, vie du domaine.",
+     "posts": [
+      {
+       "cat": "Vie du domaine",
+       "date": "30/10/2020",
+       "title": "Crise sanitaire 2020",
+       "desc": "À la place des salons des vins, annulés pendant le confinement, nous organisons des livraisons sous forme de drive ou livraison à domicile selon votre choix.",
+       "img": "https://static.wixstatic.com/media/b4f49cc3986f49468f89cfe6f2624f3b.jpg",
+       "url": "https://domaineguyvoluet.wixsite.com/site/actualites"
+      }
+     ],
+     "all": [
+      "Voir les actualités sur le site actuel",
+      "https://domaineguyvoluet.wixsite.com/site/actualites"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Venez nous rencontrer",
+   "lead": "N'hésitez pas à nous contacter par téléphone ou e-mail, ou encore à venir nous rencontrer.",
+   "img": "https://static.wixstatic.com/media/ed50fa_50ac03216fc748b1a4e05c05156f9013~mv2.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "venir",
+     "eyebrow": "Le caveau",
+     "title": "Domaine Guy Voluet, <em class=\"it\">Les Chers</em>",
+     "text": "Nous pouvons vous accueillir dans notre caveau pour une dégustation, merci de nous informer de votre passage par mail ou par téléphone.",
+     "rows": [
+      [
+       "Adresse",
+       "Les Chers<br>69840 Juliénas"
+      ],
+      [
+       "Fixe",
+       "<a href=\"tel:+33474044567\">04 74 04 45 67</a>"
+      ],
+      [
+       "Portable",
+       "<a href=\"tel:+33683669772\">06 83 66 97 72</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:domaine.guyvoluet@free.fr\">domaine.guyvoluet@free.fr</a>"
+      ]
+     ],
+     "cta": [
+      "Nous écrire",
+      "mailto:domaine.guyvoluet@free.fr"
+     ],
+     "map_q": "Les Chers, 69840 Juliénas"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Nous écrire",
+     "title": "Un message <em class=\"it\">pour le domaine</em>",
+     "lead": "Une question, une visite au caveau, une dégustation à domicile : écrivez-nous, nous vous répondons rapidement.",
+     "email": "domaine.guyvoluet@free.fr",
+     "subject": "Message depuis le site",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Guy Voluet et ses fils, vignerons de père en fils depuis quatre générations au pied de la Côte de Bessay, à Juliénas : Juliénas, Moulin-à-Vent et Saint-Véran.",
+  "contact": [
+   "<a href=\"tel:+33474044567\">04 74 04 45 67</a>",
+   "<a href=\"tel:+33683669772\">06 83 66 97 72</a>",
+   "<a href=\"mailto:domaine.guyvoluet@free.fr\">domaine.guyvoluet@free.fr</a>",
+   "Les Chers, 69840 Juliénas"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Domaine-Guy-Voluet-107896030913690/"
+   ]
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
