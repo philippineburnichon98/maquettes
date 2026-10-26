@@ -1,0 +1,949 @@
+{
+ "slug": "office-roosevelt-b0a554",
+ "title": "Office Roosevelt – Bronnert – Dutel & Associés, notaires à Lyon 6e",
+ "description": "Office notarial Roosevelt – Bronnert – Dutel & Associés, 24 cours Franklin Roosevelt, Lyon 6e : droit immobilier, droit des affaires, droit de la famille, institutionnels et banques.",
+ "brand": "Office Roosevelt",
+ "tagline": "Bronnert – Dutel & Associés, notaires à Lyon 6e",
+ "theme": {
+  "look": "editorial",
+  "logo_accent": false,
+  "paper": "#f5f4f0",
+  "paper2": "#e9e7e1",
+  "ink": "#1b2433",
+  "muted": "#5b6270",
+  "accent": "#2a3f5f",
+  "accent2": "#1f2f48",
+  "gold": "#a48a5c",
+  "heroem": "#e3d3b4",
+  "serif": "\"EB Garamond\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/logo_menu_principal_500_blanc.png",
+  "height": 48,
+  "bg": "#1b2433"
+ },
+ "topbar": [
+  "<a href=\"tel:+33472838080\">04 72 83 80 80</a>",
+  "Du lundi au vendredi, 8h30-12h / 14h-18h"
+ ],
+ "hero": {
+  "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-1.jpeg",
+  "eyebrow": "Office notarial · 24 cours Franklin Roosevelt, Lyon 6e",
+  "title": "Office Roosevelt, <em>Bronnert – Dutel & Associés</em>",
+  "lead": "L'Office notarial est situé dans le 6e arrondissement de Lyon, à proximité du Parc de la Tête d'Or, cours Franklin Roosevelt, dans le prolongement du cours Vitton.",
+  "cta1": [
+   "Nous contacter",
+   "nous-contacter/"
+  ],
+  "cta2": [
+   "Nos domaines d'intervention",
+   "expertise/"
+  ]
+ },
+ "figures": [
+  [
+   "1669",
+   "premier titulaire connu de l'étude"
+  ],
+  [
+   "1924",
+   "installation au 24 cours Franklin Roosevelt"
+  ],
+  [
+   "Foch",
+   "métro ligne A, à 50 mètres"
+  ],
+  [
+   "8h30-18h",
+   "du lundi au vendredi"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Présentation",
+   "title": "Bienvenue <em class=\"it\">à l'office Roosevelt</em>",
+   "paras": [
+    "L'OFFICE ROOSEVELT est structuré autour de trois Notaires Associés et d'une vingtaine de collaborateurs, pour la majorité d'entre eux titulaires du Diplôme d'aptitude aux fonctions de Notaire ou du Diplôme Supérieur de Notariat.",
+    "Dans un contexte juridique et fiscal complexe, l'OFFICE ROOSEVELT accompagne sa clientèle dans les domaines du droit de la famille, du droit immobilier et du droit des sociétés.",
+    "L'OFFICE est doté d'un service spécialisé en droit des affaires et en droit des sociétés ainsi que d'un service spécialisé en droit du Crédit pour satisfaire les besoins des clients institutionnels et des banques."
+   ],
+   "sign": "L'office notarial détient les minutes de Mes STAGNARA, GOUJON, BERTOYE, LAVIROTTE.",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-11.jpeg",
+   "alt": "L'office Roosevelt"
+  },
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "eyebrow": "Expertise",
+   "title": "Nos domaines <em class=\"it\">d'intervention</em>",
+   "lead": "L'étude Roosevelt fournit des services de conseil aux particuliers et aux entreprises.",
+   "items": [
+    {
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/droit-immobilier.jpg",
+     "alt": "Droit immobilier",
+     "kicker": "Expertise",
+     "title": "Droit immobilier",
+     "paras": [
+      "Achat et vente d'un bien immobilier, prêt, bail, règlement de copropriété…"
+     ],
+     "link": [
+      "En savoir plus",
+      "expertise/#droit-immobilier"
+     ]
+    },
+    {
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/droit-affaires.jpg",
+     "alt": "Droit des affaires",
+     "kicker": "Expertise",
+     "title": "Droit des affaires",
+     "paras": [
+      "Cession de fonds de commerce, constitution de société, transmission de parts, suivi juridique de sociétés…"
+     ],
+     "link": [
+      "En savoir plus",
+      "expertise/#droit-des-affaires"
+     ]
+    },
+    {
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/droit-famille.jpg",
+     "alt": "Droit de la famille",
+     "kicker": "Expertise",
+     "title": "Droit de la famille",
+     "paras": [
+      "Contrat de mariage, succession, donation, divorce, pacs, partage, mandat de protection future, testament…"
+     ],
+     "link": [
+      "En savoir plus",
+      "expertise/#droit-de-la-famille"
+     ]
+    },
+    {
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_4.jpg",
+     "alt": "Institutionnels et banques",
+     "kicker": "Expertise",
+     "title": "Institutionnels et banques",
+     "paras": [
+      "Prêts bancaires, prise de garanties mobilières (nantissement) ou immobilières (hypothèque, privilège)."
+     ],
+     "link": [
+      "En savoir plus",
+      "expertise/#institutionnels-et-banques"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "team",
+   "id": "equipe",
+   "eyebrow": "L'équipe",
+   "title": "Les notaires <em class=\"it\">associés</em>",
+   "lead": "Trois Notaires Associés et une vingtaine de collaborateurs.",
+   "people": [
+    {
+     "name": "Maître Olivier BRONNERT",
+     "role": "Notaire associé",
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/M-Olivier-Bronnert.jpg",
+     "pos": "50% 20%"
+    },
+    {
+     "name": "Maître Grégory DUTEL",
+     "role": "Notaire associé",
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/M-Gregory-Dutel.jpg",
+     "pos": "50% 20%"
+    }
+   ],
+   "note": "Découvrir toute l'équipe : page « Associés & collaborateurs »."
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Nos services en ligne",
+   "title": "Pas le temps de passer <em class=\"it\">chez votre notaire ?</em>",
+   "lead": "Vous disposez d'une tablette ou d'un ordinateur doté d'une caméra et d'un micro ? Simple, en toute confidentialité, grâce au lien internet sécurisé qui vous est communiqué, vous pouvez, de chez vous, dialoguer avec lui.",
+   "items": [
+    {
+     "kicker": "Simulez, évaluez",
+     "title": "Évaluer vos frais d'achat",
+     "link": [
+      "En savoir plus",
+      "https://www.immobilier.notaires.fr/fr/frais-de-notaire"
+     ]
+    },
+    {
+     "kicker": "Simulez, évaluez",
+     "title": "Calculer vos remboursements de prêt",
+     "link": [
+      "En savoir plus",
+      "https://www.anil.org/outils-de-calcul/echeancier-dun-pret/"
+     ]
+    },
+    {
+     "kicker": "Simulez, évaluez",
+     "title": "Calculer vos plus-values immobilières",
+     "link": [
+      "En savoir plus",
+      "https://www.notaires.fr/fr/immobilier-fiscalit%C3%A9/fiscalit%C3%A9-et-gestion-du-patrimoine/les-plus-values-immobili%C3%A8res"
+     ]
+    }
+   ],
+   "note": "<a href=\"services-numeriques/\" style=\"border-bottom:1px solid var(--gold)\">Découvrir tous les services à votre disposition</a>"
+  },
+  {
+   "kind": "blocks",
+   "id": "actualites-recentes",
+   "eyebrow": "Infos & actus",
+   "title": "Actualités <em class=\"it\">récentes</em>",
+   "items": [
+    {
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/RMC_radio-brunet-notaires-vendredi_actu-rectangle_notaires.jpg",
+     "kicker": "Divers",
+     "title": "Un notaire vous répond en direct sur RMC !",
+     "paras": [
+      "Chaque vendredi à 12h45, les notaires de France vous conseillent dans l'émission Radio Brunet."
+     ],
+     "link": [
+      "Lire l'article",
+      "https://www.notaires-roosevelt.com/un-notaire-vous-repond-en-direct-sur-rmc/"
+     ]
+    },
+    {
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/guide-transmission-reprise-entreprise-actualite-notaires-555pix.jpg",
+     "kicker": "Divers",
+     "title": "Guide pratique de la transmission reprise d'entreprise",
+     "paras": [
+      "Les aspects techniques et pratiques d'une opération de transmission-reprise, pour les cédants et les repreneurs."
+     ],
+     "link": [
+      "Lire l'article",
+      "https://www.notaires-roosevelt.com/guide-pratique-de-la-transmission-reprise-dentreprise/"
+     ]
+    },
+    {
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/conseil-du-coin_actu-rectangle_notairesfr_1.jpg",
+     "kicker": "Divers",
+     "title": "Conseil du coin : rencontrez un notaire au café !",
+     "paras": [
+      "Tous les 1er samedi du mois, les notaires du Conseil du Coin vous offrent des conseils juridiques dans plusieurs cafés en France."
+     ],
+     "link": [
+      "Lire l'article",
+      "actualites/conseil-du-coin-rencontrez-un-notaire-au-cafe/"
+     ]
+    }
+   ],
+   "note": "<a href=\"actualites/\" style=\"border-bottom:1px solid var(--gold)\">Toutes les actualités</a>"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Vous avez des questions ?",
+   "title": "Contactez-nous, <em class=\"it\">24 cours Franklin Roosevelt</em>",
+   "text": "L'étude est ouverte du lundi au vendredi de 8h30 à 12h et de 14h à 18h.",
+   "rows": [
+    [
+     "Adresse",
+     "24 cours Franklin Roosevelt<br>69453 Lyon Cedex 06"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33472838080\">04 72 83 80 80</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:scp.bronnert@notaires.fr\">scp.bronnert@notaires.fr</a>"
+    ],
+    [
+     "Accès",
+     "Métro ligne A, Foch (50 mètres)"
+    ]
+   ],
+   "cta": [
+    "Nous contacter",
+    "mailto:scp.bronnert@notaires.fr?subject=Demande%20de%20rendez-vous"
+   ],
+   "map_q": "24 Cours Franklin Roosevelt, 69006 Lyon"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "historique",
+   "label": "Historique",
+   "title": "L'histoire de l'étude",
+   "h1": "L'histoire <em>de l'étude</em>",
+   "eyebrow": "Depuis 1669",
+   "lead": "Tous les successeurs sont connus depuis 1669, de Maître Pierre PERRICHON à l'OFFICE ROOSEVELT – BRONNERT – DUTEL & ASSOCIÉS.",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-11.jpeg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "premier-signalement",
+     "eyebrow": "Premier signalement de l'étude",
+     "title": "Maître Pierre PERRICHON, <em class=\"it\">notaire à Lyon de 1669 à 1696</em>",
+     "paras": [
+      "Le premier titulaire connu de l'étude est Maître Pierre PERRICHON, notaire à LYON de 1669 à 1696.",
+      "Louis XIV était roi de France, la ville de Lyon, seconde ville du royaume, comptait moins de 90.000 habitants."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "rive-gauche",
+     "eyebrow": "Passage sur la rive gauche",
+     "title": "Le premier notaire <em class=\"it\">du quartier des Brotteaux</em>",
+     "paras": [
+      "Tous les successeurs sont connus depuis 1669, avec notamment Maître Etienne REGIPAS, ayant exercé de 1841 à 1845, qui osa franchir le Rhône en 1844 pour passer sur la rive gauche, en devenant notaire à LA GUILLOTIERE, alors commune indépendante de 41.000 habitants où le gouvernement avait décidé de créer deux offices notariaux. Maître REGIPAS répondit à l'appel. Son étude sera transférée et il devint le premier notaire du quartier des Brotteaux.",
+      "Cet « exil » ne fut que de courte durée : dès 1852 cette commune était rattachée à la ville de LYON. L'étude n'a pas quitté le 6e arrondissement depuis.",
+      "Installée primitivement place Louis XVI, devenue depuis la place du Maréchal Lyautey, puis au 4 Cours Morand, devenu après la dernière guerre le Cours Franklin Roosevelt, l'étude s'installe en 1924, avec Maître Alphonse LAVIROTTE, frère du constructeur automobile bien connu et dont une rue à LYON porte le nom, dans ses locaux actuels au 24 Cours Franklin Roosevelt.",
+      "La famille LAVIROTTE a fourni 4 générations de titulaires, depuis Alexandre en 1857 jusqu'à Jacques décédé en 1976 : 119 ans dans la même famille, et des familles de clients qui ont la même fidélité de nos jours encore."
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-1.jpeg",
+     "alt": "L'étude, 24 cours Franklin Roosevelt"
+    },
+    {
+     "kind": "story",
+     "id": "notaires-associes",
+     "eyebrow": "Les notaires associés",
+     "title": "Trois notaires <em class=\"it\">associés</em>",
+     "paras": [
+      "L'étude est alors reprise sous forme de société civile professionnelle par deux associés, Guy BERTOYE et Jean-Paul GOUJON, rapidement rejoints par Pierre BRONNERT en 1980.",
+      "C'est aussi l'époque où le métro arrive dans le quartier : la station Foch se trouve quasiment au pied de l'étude, facilitant l'accès pour nos clients.",
+      "L'accroissement de l'activité et la nécessité de mieux servir nos clients implique un nombre de notaires plus important au sein de l'étude. Depuis cette date, ce sont trois notaires associés qui apportent leur savoir-faire et leur dévouement à leurs clients."
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-21.jpeg",
+     "alt": "L'office Roosevelt"
+    },
+    {
+     "kind": "story",
+     "id": "nouveau-depart",
+     "eyebrow": "Un nouveau départ",
+     "title": "OFFICE ROOSEVELT – <em class=\"it\">BRONNERT – DUTEL & ASSOCIÉS</em>",
+     "paras": [
+      "C'est lorsque Maître Pierre BRONNERT fait valoir ses droits à la retraite qu'une nouvelle forme sociale est choisie par les associés qui sont alors Olivier BRONNERT, Louis BOURBON et Grégory DUTEL : la SELARL OFFICE ROOSEVELT – BRONNERT – BOURBON – DUTEL est créée.",
+      "En 2022 la structure évolue et devient, pour poursuivre son développement, OFFICE ROOSEVELT – BRONNERT – DUTEL & ASSOCIÉS, au service de ses clients avec l'aide d'une vingtaine de collaborateurs dont une majorité sont diplômés notaires."
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "titulaires",
+     "eyebrow": "Les titulaires",
+     "title": "De 1669 <em class=\"it\">à aujourd'hui</em>",
+     "items": [
+      {
+       "when": "1669",
+       "who": "Pierre PERRICHON",
+       "text": "Premier titulaire connu de l'étude."
+      },
+      {
+       "when": "1697",
+       "who": "Guillaume HEURTAUT père",
+       "text": ""
+      },
+      {
+       "when": "1720",
+       "who": "Jean Baptiste Antoine HEURTAUT fils",
+       "text": ""
+      },
+      {
+       "when": "1767",
+       "who": "Jacques BOUTELOUPT",
+       "text": ""
+      },
+      {
+       "when": "1787",
+       "who": "Jacques CHAZAL père",
+       "text": ""
+      },
+      {
+       "when": "1824",
+       "who": "Pierre Marie CHAZAL fils",
+       "text": ""
+      },
+      {
+       "when": "1841",
+       "who": "Etienne REGIPAS",
+       "text": "Exerce à LA GUILLOTIERE de 1844 à 1845."
+      },
+      {
+       "when": "1845",
+       "who": "Antoine BOIRON",
+       "text": "Exerce à LA GUILLOTIERE du 13 mai 1845 au 24 mars 1852. À cette date la commune de LA GUILLOTIERE est réunie à la ville de LYON."
+      },
+      {
+       "when": "1853",
+       "who": "Grégoire Paul SOUCHON",
+       "text": ""
+      },
+      {
+       "when": "1857",
+       "who": "Alexandre LAVIROTTE",
+       "text": ""
+      },
+      {
+       "when": "1897",
+       "who": "Alphonse LAVIROTTE",
+       "text": ""
+      },
+      {
+       "when": "1928",
+       "who": "Pierre LAVIROTTE",
+       "text": ""
+      },
+      {
+       "when": "1961",
+       "who": "Pierre MARTIN",
+       "text": ""
+      },
+      {
+       "when": "1963",
+       "who": "Jacques LAVIROTTE",
+       "text": ""
+      },
+      {
+       "when": "1976",
+       "who": "Guy BERTOYE",
+       "text": "Administrateur de l'étude de feu Me Jacques LAVIROTTE."
+      },
+      {
+       "when": "1980",
+       "who": "Société Guy BERTOYE et Jean-Paul GOUJON",
+       "text": "Puis Société Guy BERTOYE, Jean-Paul GOUJON et Pierre BRONNERT."
+      },
+      {
+       "when": "1988",
+       "who": "Société Jean-Paul GOUJON et Pierre BRONNERT",
+       "text": ""
+      },
+      {
+       "when": "1991",
+       "who": "Société Jean-Paul GOUJON, Pierre BRONNERT et Pierre STAGNARA",
+       "text": ""
+      },
+      {
+       "when": "1993",
+       "who": "Société Jean-Paul GOUJON, Pierre BRONNERT, Pierre STAGNARA et Jérôme SALANSON",
+       "text": ""
+      },
+      {
+       "when": "1998",
+       "who": "Société Jean-Paul GOUJON, Pierre BRONNERT et Pierre STAGNARA",
+       "text": ""
+      },
+      {
+       "when": "2003",
+       "who": "Société Pierre BRONNERT, Pierre STAGNARA et Louis BOURBON",
+       "text": ""
+      },
+      {
+       "when": "2011",
+       "who": "Société Pierre BRONNERT, Louis BOURBON et Grégory DUTEL",
+       "text": ""
+      },
+      {
+       "when": "2018",
+       "who": "OFFICE ROOSEVELT BRONNERT – BOURBON – DUTEL",
+       "text": ""
+      },
+      {
+       "when": "2022",
+       "who": "OFFICE ROOSEVELT – BRONNERT – DUTEL & ASSOCIÉS",
+       "text": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "associes-collaborateurs",
+   "label": "Associés",
+   "title": "Associés & collaborateurs",
+   "h1": "Associés <em>& collaborateurs</em>",
+   "eyebrow": "L'étude",
+   "lead": "Trois Notaires Associés et une vingtaine de collaborateurs, pour la majorité d'entre eux titulaires du Diplôme d'aptitude aux fonctions de Notaire ou du Diplôme Supérieur de Notariat.",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-21.jpeg",
+   "sections": [
+    {
+     "kind": "team",
+     "id": "associes",
+     "eyebrow": "Les notaires associés",
+     "title": "Associés <em class=\"it\">& collaborateurs</em>",
+     "people": [
+      {
+       "name": "Maître Olivier BRONNERT",
+       "role": "Notaire associé",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/M-Olivier-Bronnert-400x400.jpg",
+       "pos": "50% 20%"
+      },
+      {
+       "name": "Maître Grégory DUTEL",
+       "role": "Notaire associé",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/M-Gregory-Dutel-400x400.jpg",
+       "pos": "50% 20%"
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "olivier-bronnert",
+     "eyebrow": "Notaire associé",
+     "title": "Maître <em class=\"it\">Olivier BRONNERT</em>",
+     "paras": [
+      "Maître Olivier BRONNERT est titulaire du diplôme de Magistère Juriste d'Affaires (Major de promotion), du diplôme de Juriste Conseil d'Entreprise (DJCE) et du DESS de Droit des Affaires et Fiscalité de l'Université Jean Moulin Lyon 3. Il a ensuite obtenu le DESS de Droit Notarial et le Diplôme Supérieur de Notariat (DSN).",
+      "En 2009, il obtient avec Maître Grégory DUTEL le diplôme universitaire de gestion de patrimoine de l'Université de Clermont-Ferrand. La même année, l'ARNU lui décerne son prix pour le meilleur parcours DSN, pour ses travaux sur la garantie d'actif et de passif dans les cessions de titres.",
+      "Il a collaboré près de dix ans avec son père, Maître Pierre BRONNERT, son prédécesseur à l'office. Il est plus particulièrement actif dans le domaine du conseil patrimonial, du droit des affaires et de l'immobilier d'entreprise.",
+      "Maître Olivier BRONNERT est également chargé d'enseignement au Centre de Formation Professionnelle Notariale de LYON, au Diplôme supérieur de Notariat de l'Université Jean Moulin LYON 3 et au centre de formation de la profession bancaire. Il a enseigné le droit des affaires français à l'Université du Caire (Égypte) et à l'Université d'Erevan (Arménie)."
+     ],
+     "sign": "En dehors du droit : alpinisme et ski de randonnée.",
+     "logos": [
+      [
+       "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudes.png",
+       "Formation"
+      ],
+      [
+       "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/balance.png",
+       "Domaines"
+      ]
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/M-Olivier-Bronnert.jpg",
+     "alt": "Maître Olivier Bronnert"
+    },
+    {
+     "kind": "story",
+     "id": "gregory-dutel",
+     "eyebrow": "Notaire associé",
+     "title": "Maître <em class=\"it\">Grégory DUTEL</em>",
+     "paras": [
+      "Maître Grégory DUTEL a débuté ses études supérieures à la Faculté de Médecine Lyon Sud où il obtient, après avoir passé le concours de l'Internat, un poste d'interne en Chirurgie.",
+      "Suite à une réorientation professionnelle, il obtient le DESS de Droit Notarial (Université Paris I - La Sorbonne) puis le Diplôme Supérieur de Notariat (Université Lyon III). Il complète son parcours en obtenant en 2009 le diplôme universitaire de gestion de patrimoine de l'Université de Clermont-Ferrand.",
+      "Après avoir collaboré une dizaine d'années avec Maître Pierre BRONNERT, il succède en 2011 à Maître Pierre STAGNARA. Il est particulièrement actif dans le domaine du conseil patrimonial et intervient également dans le secteur du droit immobilier et du droit de la famille."
+     ],
+     "logos": [
+      [
+       "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudes.png",
+       "Formation"
+      ]
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/M-Gregory-Dutel.jpg",
+     "alt": "Maître Grégory Dutel"
+    }
+   ]
+  },
+  {
+   "slug": "expertise",
+   "label": "Expertise",
+   "title": "Expertise",
+   "h1": "Nos domaines <em>d'intervention</em>",
+   "eyebrow": "Expertise",
+   "lead": "Droit immobilier, droit des affaires, droit de la famille, institutionnels et banques.",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/banniere_expertise.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "droit-immobilier",
+     "eyebrow": "Droit immobilier",
+     "title": "Droit <em class=\"it\">immobilier</em>",
+     "paras": [
+      "L'office Roosevelt accompagne sa clientèle privée ou professionnelle dans tous les domaines du droit immobilier : rédaction d'avant-contrat, contrat de vente, mise en place de règlement de copropriété.",
+      "L'office apporte également son expertise aux opérateurs institutionnels et aux promoteurs immobiliers, pour leurs programmes de construction et les ventes en l'état futur d'achèvement."
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/droit-immobilier.jpg",
+     "alt": "Droit immobilier"
+    },
+    {
+     "kind": "story",
+     "id": "droit-des-affaires",
+     "eyebrow": "Droit des affaires",
+     "title": "Droit <em class=\"it\">des affaires</em>",
+     "paras": [
+      "L'office Roosevelt dispose d'un service spécialisé en droit des affaires permettant à la clientèle de bénéficier d'un large service allant de la constitution d'une société civile (SCI) ou commerciale (SAS, SARL, SNC…), à la rédaction des actes de la vie des sociétés (assemblée générale, approbation des comptes annuels, augmentation de capital social…), jusqu'à la transmission à titre gratuit ou onéreux de la société (Pacte Dutreil, cession de parts sociales).",
+      "Notre office propose également la rédaction et le conseil en matière de droit commercial général, et notamment les cessions de fonds de commerce, établissement de baux commerciaux ou de cession de droit au bail.",
+      "L'office assure également le secrétariat juridique des sociétés civiles ou commerciales (tenue des registres, de la comptabilité actions…)."
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/droit-affaires.jpg",
+     "alt": "Droit des affaires"
+    },
+    {
+     "kind": "story",
+     "id": "droit-de-la-famille",
+     "eyebrow": "Droit de la famille",
+     "title": "Droit de la famille <em class=\"it\">et conseil patrimonial</em>",
+     "paras": [
+      "L'office Roosevelt est spécialisé dans le droit de la famille et le conseil patrimonial. Cette matière est au cœur de l'activité du Notaire : suivi des successions, transmission anticipée du patrimoine (donation, donation-partage), conseil en matière de dispositions testamentaires.",
+      "L'étude dispose notamment d'une solide expertise en matière de transmission d'entreprises familiales : donation-partage avec soulte, apport-cession, engagements de conservation de titres sociaux, mandat à effet posthume.",
+      "L'évolution du droit de la famille et les dernières réformes en la matière permettent de proposer de nouveaux outils, comme la donation-partage transgénérationnelle et le mandat de protection future."
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/01/droit-famille.jpg",
+     "alt": "Droit de la famille"
+    },
+    {
+     "kind": "story",
+     "id": "institutionnels-et-banques",
+     "eyebrow": "Institutionnels et banques",
+     "title": "Institutionnels <em class=\"it\">et banques</em>",
+     "paras": [
+      "L'office Roosevelt dispose d'un service consacré aux clients institutionnels et notamment aux banques, qu'il conseille à travers son expertise en matière de prêts bancaires et de prise de garanties mobilières (nantissement) ou immobilières (hypothèque, privilège)."
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_4.jpg",
+     "alt": "Institutionnels et banques"
+    },
+    {
+     "kind": "gallery",
+     "id": "mise-en-lumiere",
+     "eyebrow": "Mise en lumière",
+     "title": "L'office <em class=\"it\">Roosevelt</em>",
+     "photos": [
+      {
+       "full": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-1.jpeg",
+       "thumb": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-1.jpeg",
+       "alt": "L'office Roosevelt"
+      },
+      {
+       "full": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_1-e1550586002584.jpg",
+       "thumb": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_1-e1550586002584.jpg",
+       "alt": "Mise en lumière"
+      },
+      {
+       "full": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-11.jpeg",
+       "thumb": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-11.jpeg",
+       "alt": "L'office Roosevelt"
+      },
+      {
+       "full": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_2.jpg",
+       "thumb": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_2.jpg",
+       "alt": "Mise en lumière"
+      },
+      {
+       "full": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_3.jpg",
+       "thumb": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_3.jpg",
+       "alt": "Mise en lumière"
+      },
+      {
+       "full": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-21.jpeg",
+       "thumb": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-21.jpeg",
+       "alt": "L'office Roosevelt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites",
+   "label": "Actualités",
+   "title": "Infos & actus",
+   "h1": "Infos <em>& actus</em>",
+   "eyebrow": "Actualités",
+   "lead": "Les actualités de l'office et des notaires de France.",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/g39.jpg",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "articles",
+     "eyebrow": "Actualités",
+     "title": "Toutes <em class=\"it\">les actualités</em>",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Un notaire vous répond en direct sur RMC !",
+       "cat": "Divers",
+       "date": "1er février 2019",
+       "desc": "Chaque vendredi à 12h45, les notaires de France vous conseillent dans l'émission Radio Brunet. Un notaire interviendra en direct sur RMC et répondra à la question de la semaine.",
+       "url": "https://www.notaires-roosevelt.com/un-notaire-vous-repond-en-direct-sur-rmc/",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/RMC_radio-brunet-notaires-vendredi_actu-rectangle_notaires.jpg"
+      },
+      {
+       "title": "Salon des Maires et des Collectivités Locales 2018",
+       "cat": "Divers",
+       "date": "12 novembre 2018",
+       "desc": "Les notaires vous donnent rendez-vous le 20 novembre au Salon des Maires et des Collectivités Locales, à Paris : consultations juridiques et mini-conférences.",
+       "url": "https://www.notaires-roosevelt.com/salon-des-maires-et-des-collectivites-locales-2018/",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/salon-des-maires.jpg"
+      },
+      {
+       "title": "Guide pratique de la transmission reprise d'entreprise",
+       "cat": "Divers",
+       "date": "12 novembre 2018",
+       "desc": "Les fiches pratiques du Réseau Transmettre / Reprendre sur les aspects techniques et pratiques d'une opération de transmission-reprise.",
+       "url": "https://www.notaires-roosevelt.com/guide-pratique-de-la-transmission-reprise-dentreprise/",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/guide-transmission-reprise-entreprise-actualite-notaires-555pix.jpg"
+      },
+      {
+       "title": "FB Live Expatriation : quel régime matrimonial ? comment protéger son conjoint ?",
+       "cat": "Droit de la famille",
+       "date": "12 novembre 2018",
+       "desc": "Les notaires de France vous répondent en direct sur Facebook sur le couple, le patrimoine et la transmission des expatriés.",
+       "url": "https://www.notaires-roosevelt.com/fb-live-expatriation-quel-regime-matrimonial-comment-proteger-son-conjoint/",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/fb-live-notaires-femmexpat-actualite-notaires-555pix.jpg"
+      },
+      {
+       "title": "Assises du logement : quel logement pour le XXIème siècle ?",
+       "cat": "Droit immobilier",
+       "date": "12 novembre 2018",
+       "desc": "Les notaires de France participent aux Assises du logement, « une journée de mobilisation, de réflexions, de partage d'expériences et de débats ».",
+       "url": "https://www.notaires-roosevelt.com/assises-du-logement-quel-logement-pour-le-xxieme-siecle/",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/assises-logement-2018-actualite-notaires-555pix.jpg"
+      },
+      {
+       "title": "Fiscalité 2019 : Ce qui pourrait changer",
+       "cat": "Fiscalité",
+       "date": "12 novembre 2018",
+       "desc": "Impôts, travail, allocations… l'année 2019 sera riche en nouveautés.",
+       "url": "https://www.notaires-roosevelt.com/fiscalite-2019-ce-qui-pourrait-changer/",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/Lettre-Conseils-des-notaires-actu-555pix-novembre-2018.jpg"
+      },
+      {
+       "title": "Conseil du coin : rencontrez un notaire au café !",
+       "cat": "Divers",
+       "date": "12 novembre 2018",
+       "desc": "Tous les 1er samedi du mois, les notaires du Conseil du Coin vous offrent des conseils juridiques dans plusieurs cafés en France.",
+       "url": "https://www.notaires-roosevelt.com/conseil-du-coin-rencontrez-un-notaire-au-cafe/",
+       "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/conseil-du-coin_actu-rectangle_notairesfr_1.jpg",
+       "page": "conseil-du-coin-rencontrez-un-notaire-au-cafe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites/conseil-du-coin-rencontrez-un-notaire-au-cafe",
+   "hidden": true,
+   "title": "Conseil du coin : rencontrez un notaire au café !",
+   "h1": "Conseil du coin : <em>rencontrez un notaire au café !</em>",
+   "eyebrow": "Actualités",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/conseil-du-coin_actu-rectangle_notairesfr_1.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Divers",
+     "date": "12 novembre 2018",
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/11/conseil-du-coin_actu-rectangle_notairesfr_1.jpg",
+     "chapo": "Tous les 1er samedi du mois, les notaires du Conseil du Coin vous offrent des conseils juridiques dans plusieurs cafés en France.",
+     "body": [
+      {
+       "p": "Pour promouvoir l'accès au droit pour tous et partout en France, les notaires du Conseil du coin vous prodiguent, chaque mois, des consultations juridiques dans des cafés ou d'autres lieux ouverts au public."
+      },
+      {
+       "p": "Consultez la liste des cafés du Conseil du Coin du 1er décembre 2018 sur le site du Conseil du Coin."
+      }
+     ],
+     "source": "Liens : <a href=\"https://conseilducoin.fr/evenements/\" target=\"_blank\" rel=\"noopener\">liste des cafés du Conseil du Coin</a> · <a href=\"https://www.facebook.com/conseilducoin\" target=\"_blank\" rel=\"noopener\">Conseil du Coin sur Facebook</a> · <a href=\"https://twitter.com/conseilducoin\" target=\"_blank\" rel=\"noopener\">#conseilducoin</a> · <a href=\"https://www.notaires.fr/fr/mediatheque/podcast-notariat\" target=\"_blank\" rel=\"noopener\">Écouter les podcasts du Conseil du Coin</a>",
+     "back": [
+      "← Toutes les actualités",
+      "../"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "services-numeriques",
+   "label": "Services",
+   "title": "Les services numériques",
+   "h1": "Les services <em>numériques</em>",
+   "eyebrow": "Infos & actus",
+   "lead": "Entretien en visioconférence, signature d'actes authentiques électroniques, outils de simulation et liens utiles.",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "visioconference",
+     "eyebrow": "Pas le temps de passer chez votre notaire ?",
+     "title": "Un entretien <em class=\"it\">en visioconférence</em>",
+     "paras": [
+      "Vous disposez d'une tablette ou d'un ordinateur doté d'une caméra et d'un micro ? Vous avez alors l'équipement nécessaire pour réaliser un entretien en visioconférence avec votre notaire.",
+      "Simple, en toute confidentialité, grâce au lien internet sécurisé qui vous est communiqué, vous pouvez, de chez vous, dialoguer avec lui."
+     ],
+     "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2018/08/page_expertise_3.jpg",
+     "alt": "Services numériques"
+    },
+    {
+     "kind": "blocks",
+     "id": "outils",
+     "eyebrow": "Simulez, évaluez, calculez, vérifiez",
+     "title": "Directement <em class=\"it\">en ligne</em>",
+     "items": [
+      {
+       "title": "Évaluer vos frais d'achat",
+       "link": [
+        "En savoir plus",
+        "https://www.immobilier.notaires.fr/fr/frais-de-notaire"
+       ]
+      },
+      {
+       "title": "Calculer vos remboursements de prêt",
+       "link": [
+        "En savoir plus",
+        "https://www.anil.org/outils-de-calcul/echeancier-dun-pret/"
+       ]
+      },
+      {
+       "title": "Vérifier vos capacités d'emprunt",
+       "link": [
+        "En savoir plus",
+        "https://www.anil.org/outils-de-calcul/simulation-dun-investissement-immobilier/"
+       ]
+      },
+      {
+       "title": "Calculer vos plus-values immobilières",
+       "link": [
+        "En savoir plus",
+        "https://www.notaires.fr/fr/immobilier-fiscalit%C3%A9/fiscalit%C3%A9-et-gestion-du-patrimoine/les-plus-values-immobili%C3%A8res"
+       ]
+      },
+      {
+       "title": "Acheter une maison",
+       "link": [
+        "En savoir plus",
+        "https://notaviz.notaires.fr/services/acheter"
+       ]
+      },
+      {
+       "title": "Se séparer, divorcer",
+       "link": [
+        "En savoir plus",
+        "https://www.notaires.fr/fr/couple-famille/divorce/les-diff%C3%A9rentes-proc%C3%A9dures-de-divorce"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "labels",
+     "eyebrow": "Labels, certifications et réseaux",
+     "title": "Signature <em class=\"it\">à distance</em>",
+     "paras": [
+      "L'étude propose la signature d'actes authentiques électroniques et dispose d'une salle équipée pour organiser des signatures en visioconférence (système LifeSize Video). <a href=\"https://visio.notaires.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Visio notaires</a>",
+      "Office ayant désigné un Délégué à la Protection des Données."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "liens-utiles",
+     "eyebrow": "Liens",
+     "title": "Liens <em class=\"it\">utiles</em>",
+     "items": [
+      {
+       "title": "Calcul des frais de mutation - Acquisition immobilière",
+       "link": [
+        "paris.notaires.fr",
+        "https://www.paris.notaires.fr/outil/immobilier/calcul-de-frais-dachat"
+       ]
+      },
+      {
+       "title": "Portail des risques majeurs - Ministère du développement durable",
+       "link": [
+        "prim.net",
+        "https://www.prim.net/"
+       ]
+      },
+      {
+       "title": "Immobilier des Notaires de France - Site officiel",
+       "link": [
+        "immobilier.notaires.fr",
+        "https://www.immobilier.notaires.fr/"
+       ]
+      },
+      {
+       "title": "Notaires de France - Conseil supérieur du notariat",
+       "link": [
+        "notaires.fr",
+        "https://www.notaires.fr/"
+       ]
+      },
+      {
+       "title": "Prêt à Taux Zéro (PTZ)",
+       "link": [
+        "service-public.fr",
+        "https://www.service-public.fr/particuliers/vosdroits/F10871"
+       ]
+      },
+      {
+       "title": "Cadastre - Service de consultation du plan cadastral",
+       "link": [
+        "cadastre.gouv.fr",
+        "https://www.cadastre.gouv.fr/"
+       ]
+      },
+      {
+       "title": "Legifrance - le service public de la diffusion du droit",
+       "link": [
+        "legifrance.gouv.fr",
+        "https://www.legifrance.gouv.fr/"
+       ]
+      },
+      {
+       "title": "Démarches administratives - Service Public",
+       "link": [
+        "service-public.fr",
+        "https://www.service-public.fr/formulaires/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nous-contacter",
+   "label": "Contact",
+   "title": "Nous contacter",
+   "h1": "Nous <em>contacter</em>",
+   "eyebrow": "Office notarial",
+   "lead": "24 cours Franklin Roosevelt, 69453 Lyon Cedex 06 · 04 72 83 80 80",
+   "img": "https://www.notaires-roosevelt.com/wp-content/uploads/2019/02/etudeRooseveltBBD-edmphoto-1.jpeg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "acces",
+     "eyebrow": "OFFICE ROOSEVELT – BRONNERT – DUTEL ET ASSOCIÉS",
+     "title": "Horaires <em class=\"it\">et accès</em>",
+     "text": "L'étude est ouverte du lundi au vendredi de 8h30 à 12h et de 14h à 18h.",
+     "rows": [
+      [
+       "Adresse",
+       "24 cours Franklin Roosevelt<br>69453 Lyon Cedex 06"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33472838080\">04 72 83 80 80</a>"
+      ],
+      [
+       "Standard",
+       "Le standard téléphonique vous accueille de 9h30 à 12h et de 14h à 18h."
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:scp.bronnert@notaires.fr\">scp.bronnert@notaires.fr</a>"
+      ],
+      [
+       "Métro",
+       "Ligne A - Foch (50 mètres)"
+      ],
+      [
+       "Stationnement",
+       "Stationnement payant devant l'Office Roosevelt. Parking MORAND à proximité (sous la place Maréchal Lyautey)."
+      ]
+     ],
+     "cta": [
+      "Écrire à l'office",
+      "mailto:scp.bronnert@notaires.fr?subject=Demande%20de%20rendez-vous"
+     ],
+     "map_q": "24 Cours Franklin Roosevelt, 69006 Lyon"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "L'étude Roosevelt fournit des services de conseil aux particuliers et aux entreprises. Notaires, officiers publics, membres de la Chambre des notaires du Rhône.",
+  "contact": [
+   "<a href=\"tel:+33472838080\">04 72 83 80 80</a>",
+   "<a href=\"mailto:scp.bronnert@notaires.fr\">scp.bronnert@notaires.fr</a>",
+   "24 cours Franklin Roosevelt, 69453 Lyon Cedex 06",
+   "Du lundi au vendredi, 8h30-12h / 14h-18h"
+  ],
+  "legal": "SELARL OFFICE ROOSEVELT – BRONNERT – DUTEL & ASSOCIÉS, capital 120 000 €, RCS Lyon 838 295 020. Chambre des notaires du Rhône. Médiation : Médiateur du notariat, mediateur-notariat.notaires.fr.",
+  "legal_url": "https://www.notaires-roosevelt.com/mentions-legales/"
+ },
+ "extra_css": "#titulaires .tl{row-gap:34px}#titulaires .tl h3{font-size:1.05rem}#domaines .blocks{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}"
+}
