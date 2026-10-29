@@ -37,6 +37,7 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Une maquette sans logo ou sans les photos du site d'origine est inacceptable.
 - Avant de pousser : relever, page par page, TOUTES les images du site d'origine (logo, bandeau d'en-tête de chaque page, photos de personnes, de produits/réalisations, des lieux, logos de labels) et vérifier que chacune est dans le JSON (pour Wix, comparer l'identifiant média ; pour Jimdo, l'identifiant `i…`).
 - Les sections classiques acceptent une grande photo d'en-tête facultative `img` (cards, menu, gallery, blocks, visit, team) : y mettre le bandeau de la page d'origine correspondante.
+- Galerie : `thumb` doit être une image d'au moins 600 px de large. build.py remplace automatiquement les miniatures trop petites (Jimdo Creator `thumb_…`, Wix floutée ou < 600 px) par l'image `full`.
 - Pied de page : `footer.legal_url` = page Mentions légales du site d'origine. Carte en PDF : `pdf` dans la section menu. Descriptions des plats : 3e élément de chaque ligne de menu.
 - Seules exceptions : logo du concepteur du site, icônes génériques (téléphone, e-mail, réseaux sociaux), images de banque sans rapport.
 
