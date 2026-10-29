@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#13233a">
+<meta name="robots" content="noindex, nofollow">
+<title>Terrain · maquette</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout : application mobile plein écran ; sur ordinateur, présentée dans un cadre de téléphone centré */
+:root{
+  --page:#dfe4ea; --bg:#f4f6f8; --card:#ffffff; --ink:#13233a; --muted:#5d6b7c; --line:#e1e6ec;
+  --brand:#13233a; --accent:#0e7c6b; --accent-soft:#e0f2ee; --warn:#a65d00; --warn-soft:#fdf0dc;
+  --hot:#b4372b; --hot-soft:#fbe6e3; --chip:#eef1f5;
+  --f:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --m:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --page:#0b1119; --bg:#111a25; --card:#18232f; --ink:#e7edf3; --muted:#9aa8b7; --line:#273342;
+  --brand:#0c1621; --accent:#4cc3ad; --accent-soft:#16332e; --warn:#e8b15e; --warn-soft:#33281a;
+  --hot:#ef8a7f; --hot-soft:#3a201d; --chip:#223040; color-scheme:dark;}}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--page);font-family:var(--f);color:var(--ink);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+button,input,textarea,select{font:inherit;color:inherit}
+.stage{min-height:100%;display:flex;align-items:center;justify-content:center;gap:48px;padding:24px}
+.aside{max-width:300px;display:grid;gap:12px}
+.aside h1{margin:0;font-size:1.6rem;line-height:1.15}
+.aside p{margin:0;color:var(--muted)}
+.aside .tag{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--accent)}
+.phone{width:390px;height:800px;max-height:calc(100vh - 48px);border-radius:44px;background:var(--bg);overflow:hidden;position:relative;box-shadow:0 0 0 10px #0d1520,0 30px 60px rgba(10,20,35,.35);display:flex;flex-direction:column}
+@media (max-width:760px){
+  .stage{padding:0;display:block;height:100%}
+  .aside{display:none}
+  .phone{width:100%;height:100%;max-height:none;border-radius:0;box-shadow:none}
+}
+.top{background:var(--brand);color:#fff;padding:calc(env(safe-area-inset-top,0px) + 14px) 18px 14px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+.top .back{background:none;border:0;color:#fff;font-size:1.3rem;padding:0 6px 0 0;cursor:pointer;line-height:1}
+.top .title{font-weight:600;font-size:1.05rem;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top .who{font-size:.78rem;opacity:.75;text-align:right;line-height:1.2}
+.avatar{width:34px;height:34px;border-radius:50%;background:#2b4466;display:grid;place-items:center;font-weight:700;font-size:.8rem;color:#fff;flex-shrink:0}
+.demo{font-size:.68rem;background:var(--warn-soft);color:var(--warn);text-align:center;padding:4px;font-weight:600;letter-spacing:.03em;flex-shrink:0}
+main{flex:1;overflow-y:auto;padding:16px 16px 24px;display:flex;flex-direction:column;gap:18px}
+.screen[hidden]{display:none!important}
+.screen{display:flex;flex-direction:column;gap:18px}
+h2{margin:0;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;display:flex;justify-content:space-between;align-items:baseline}
+h2 .count{font-family:var(--m);letter-spacing:0;color:var(--ink)}
+.hello{font-size:1.35rem;font-weight:700;line-height:1.2}
+.hello small{display:block;font-size:.9rem;font-weight:400;color:var(--muted);margin-top:2px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{background:var(--card);border-radius:14px;padding:10px 12px;border:1px solid var(--line)}
+.stat b{display:block;font-family:var(--m);font-size:1.25rem}
+.stat span{font-size:.74rem;color:var(--muted)}
+.list{display:flex;flex-direction:column;gap:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:13px 14px;display:flex;gap:12px;align-items:center;text-align:left;width:100%;cursor:pointer}
+.card:active{transform:scale(.99)}
+.card .time{font-family:var(--m);font-size:.85rem;width:44px;flex-shrink:0;color:var(--muted)}
+.card .body{flex:1;min-width:0}
+.card .t,.card .s{display:block}
+.card .t{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .s{font-size:.84rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .go{color:var(--muted);font-size:1.1rem}
+.pill{font-size:.7rem;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.pill.ok{background:var(--accent-soft);color:var(--accent)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.pill.hot{background:var(--hot-soft);color:var(--hot)}
+.card.done{opacity:.6}
+.ia-banner{background:linear-gradient(135deg,var(--accent),#0b5e6e);color:#fff;border-radius:18px;padding:16px;display:grid;gap:8px;border:0;text-align:left;cursor:pointer;width:100%}
+.ia-banner b{font-size:1rem}
+.ia-banner span{font-size:.86rem;opacity:.9}
+.ia-banner em{font-style:normal;font-weight:700;font-size:.8rem;background:rgba(255,255,255,.18);justify-self:start;padding:5px 10px;border-radius:999px}
+.field{display:grid;gap:6px}
+.field label,.lbl{font-size:.8rem;color:var(--muted);font-weight:600}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.box .t{font-weight:600}
+.box .s{font-size:.84rem;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 13px;font-size:.88rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip.lv1[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.chip.lv3[aria-pressed="true"]{background:var(--hot);border-color:var(--hot);color:#fff}
+textarea,input[type=text],input[type=date],select{width:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-size:16px}
+textarea{min-height:96px;resize:vertical}
+.money{display:flex;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 14px}
+.money input{border:0;padding:10px 0;font-family:var(--m);font-size:1.5rem;background:transparent;width:100%;min-width:0}
+.money span{font-family:var(--m);font-size:1.2rem;color:var(--muted)}
+.hint{font-size:.8rem;color:var(--muted)}
+.mic{display:flex;align-items:center;gap:10px;border:1px dashed var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:14px;padding:11px 14px;font-weight:600;cursor:pointer;width:100%}
+.mic.rec{border-style:solid;animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.6}}
+@media (prefers-reduced-motion:reduce){.mic.rec{animation:none}}
+.toggle{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.switch{width:46px;height:28px;border-radius:999px;background:var(--line);border:0;position:relative;cursor:pointer;flex-shrink:0}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:left .15s}
+.switch[aria-checked="true"]{background:var(--accent)}
+.switch[aria-checked="true"]::after{left:21px}
+.primary{background:var(--accent);color:#fff;border:0;border-radius:16px;padding:15px;font-weight:700;font-size:1rem;cursor:pointer;width:100%}
+.secondary{background:var(--chip);color:var(--ink);border:0;border-radius:12px;padding:9px 12px;font-weight:600;font-size:.85rem;cursor:pointer}
+.buyer{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:grid;gap:8px}
+.buyer .row{display:flex;align-items:center;gap:10px}
+.buyer .name{font-weight:700;flex:1;min-width:0}
+.score{font-family:var(--m);font-size:.82rem;font-weight:500;padding:3px 8px;border-radius:8px;background:var(--accent-soft);color:var(--accent)}
+.why{font-size:.88rem}
+.crit{font-size:.78rem;color:var(--muted)}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.msg{background:var(--chip);border-radius:14px;padding:12px 14px;font-size:.9rem;white-space:pre-line}
+nav{display:grid;grid-template-columns:repeat(4,1fr);background:var(--card);border-top:1px solid var(--line);padding:6px 6px calc(env(safe-area-inset-bottom,0px) + 8px);flex-shrink:0}
+nav button{background:none;border:0;display:grid;justify-items:center;gap:2px;font-size:.7rem;color:var(--muted);padding:6px 0;cursor:pointer}
+nav button svg{width:22px;height:22px}
+nav button[aria-current="page"]{color:var(--accent);font-weight:700}
+.toast{position:absolute;left:16px;right:16px;bottom:88px;background:var(--ink);color:var(--bg);border-radius:14px;padding:12px 14px;font-size:.88rem;display:flex;gap:10px;align-items:flex-start;opacity:0;transform:translateY(10px);transition:.2s;pointer-events:none}
+.toast.show{opacity:1;transform:none}
+.toast b{display:block}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="aside">
+    <span class="tag">Maquette · Fyce</span>
+    <h1>Terrain, l'appli des négociateurs</h1>
+    <p>Les gestes du quotidien sur le téléphone, enregistrés directement dans Transactium : la journée, le compte rendu de visite, l'offre, et les acquéreurs à appeler suggérés par l'IA.</p>
+    <p>Données fictives. Rien n'est envoyé : chaque bouton montre ce qui se passerait.</p>
+    <p>Sur téléphone, ouvrez cette page et ajoutez-la à l'écran d'accueil.</p>
+  </div>
+
+  <div class="phone" id="app">
+    <div class="top">
+      <button class="back" id="back" hidden aria-label="Retour">‹</button>
+      <div class="avatar" id="av">MD</div>
+      <div class="title" id="title">Ma journée</div>
+      <div class="who">Agence Lyon<br>jeu. 5 nov.</div>
+    </div>
+    <div class="demo">MAQUETTE · DONNÉES FICTIVES</div>
+    <main id="main">
+
+      <!-- JOURNÉE -->
+      <section class="screen" id="s-jour">
+        <div class="hello">Bonjour Martin<small>3 rendez-vous aujourd'hui, 2 acquéreurs à rappeler</small></div>
+        <div class="stats">
+          <div class="stat"><b>14</b><span>biens actifs</span></div>
+          <div class="stat"><b id="st-vis">6</b><span>visites ce mois</span></div>
+          <div class="stat"><b id="st-off">1</b><span>offre en cours</span></div>
+        </div>
+        <button class="ia-banner" data-go="ia">
+          <b>Nouveau bien : Le Comptoir des Halles</b>
+          <span>L'IA a trouvé 5 acquéreurs qui pourraient être intéressés, dont 2 hors de leur recherche exacte.</span>
+          <em>Voir les 5 acquéreurs →</em>
+        </button>
+        <div class="list">
+          <h2>Agenda <span class="count">3</span></h2>
+          <button class="card" data-visit="v1" id="c-v1"><span class="time">10:00</span><span class="body"><span class="t">Visite · Café de la Place</span><span class="s">Pierre Damien · Lyon 2e</span></span><span class="pill warn" id="p-v1">Compte rendu</span></button>
+          <button class="card" data-visit="v2" id="c-v2"><span class="time">14:30</span><span class="body"><span class="t">Visite · Le Comptoir des Halles</span><span class="s">Sophie Marchal · Lyon 3e</span></span><span class="go">›</span></button>
+          <button class="card" data-go="mandat"><span class="time">17:00</span><span class="body"><span class="t">RDV vendeur · Boulangerie Saint-Jean</span><span class="s">Renouvellement du mandat</span></span><span class="go">›</span></button>
+        </div>
+        <div class="list">
+          <h2>Mandats qui expirent <span class="count">3</span></h2>
+          <button class="card" data-go="mandat"><span class="body"><span class="t">Boulangerie Saint-Jean</span><span class="s">Mandat simple · Villeurbanne</span></span><span class="pill hot">12 nov.</span></button>
+          <button class="card" data-go="mandat"><span class="body"><span class="t">Droit au bail rue de Brest</span><span class="s">Mandat simple · Lyon 2e</span></span><span class="pill warn">18 nov.</span></button>
+          <button class="card" data-go="mandat"><span class="body"><span class="t">Le Comptoir des Halles</span><span class="s">Exclusif · Lyon 3e</span></span><span class="pill warn">27 nov.</span></button>
+        </div>
+        <div class="list">
+          <h2>À rappeler <span class="count">2</span></h2>
+          <button class="card" data-call="Julie Ferrand"><span class="body"><span class="t">Julie Ferrand</span><span class="s">Sans nouvelles depuis 21 jours · café, Lyon 1–2</span></span><span class="pill warn">Appeler</span></button>
+          <button class="card" data-call="Karim Benali"><span class="body"><span class="t">Karim Benali</span><span class="s">A demandé le bilan du Bar des Sports</span></span><span class="pill warn">Appeler</span></button>
+        </div>
+      </section>
+
+      <!-- COMPTE RENDU DE VISITE -->
+      <section class="screen" id="s-visite" hidden>
+        <div class="box"><div class="t" id="v-bien">Café de la Place</div><div class="s" id="v-sub">Bar-brasserie · Lyon 2e · 55 000 €</div></div>
+        <div class="box"><div class="t" id="v-acq">Pierre Damien</div><div class="s" id="v-acqsub">Acquéreur A · bar, brasserie · Lyon 2e–3e · apport 30 000 €</div></div>
+        <div class="field"><span class="lbl">Son avis</span>
+          <div class="chips" data-single="avis">
+            <button class="chip lv1" aria-pressed="false">Très intéressé</button>
+            <button class="chip" aria-pressed="false">À réfléchir</button>
+            <button class="chip lv3" aria-pressed="false">Pas intéressé</button>
+          </div>
+        </div>
+        <div class="field"><span class="lbl">Ce qui a plu ou freiné</span>
+          <div class="chips" data-multi="pts">
+            <button class="chip" aria-pressed="false">Emplacement</button>
+            <button class="chip" aria-pressed="false">Terrasse</button>
+            <button class="chip" aria-pressed="false">Prix</button>
+            <button class="chip" aria-pressed="false">Loyer</button>
+            <button class="chip" aria-pressed="false">Travaux</button>
+            <button class="chip" aria-pressed="false">Extraction</button>
+            <button class="chip" aria-pressed="false">Chiffre d'affaires</button>
+          </div>
+        </div>
+        <div class="field"><label for="v-note">Note</label>
+          <button class="mic" id="mic" type="button">🎙 <span id="mic-l">Dicter la note</span></button>
+          <textarea id="v-note" placeholder="Ou tapez ici…"></textarea>
+        </div>
+        <div class="box toggle"><div><div class="t">Faire signer le bon de visite</div><div class="s">Envoyé par SMS à l'acquéreur</div></div><button class="switch" role="switch" aria-checked="true" id="sw-bdv" aria-label="Faire signer le bon de visite"></button></div>
+        <button class="primary" id="save-visite">Enregistrer dans Transactium</button>
+        <button class="secondary" data-go="offre" style="justify-self:center">Il fait une offre →</button>
+      </section>
+
+      <!-- OFFRE -->
+      <section class="screen" id="s-offre" hidden>
+        <div class="box"><div class="t">Café de la Place</div><div class="s">Prix affiché 55 000 € · net vendeur 50 000 €</div></div>
+        <div class="box"><div class="t">Pierre Damien</div><div class="s">Acquéreur A · apport 30 000 €</div></div>
+        <div class="field"><label for="o-mt">Montant de l'offre</label>
+          <div class="money"><input id="o-mt" type="text" inputmode="numeric" value="50 000"><span>€</span></div>
+          <span class="hint" id="o-hint">−9 % par rapport au prix affiché · commission 5 000 € HT</span>
+        </div>
+        <div class="field"><span class="lbl">Conditions suspensives</span>
+          <div class="chips" data-multi="cs">
+            <button class="chip" aria-pressed="true">Obtention du prêt</button>
+            <button class="chip" aria-pressed="false">Transfert de licence IV</button>
+            <button class="chip" aria-pressed="true">Accord du bailleur</button>
+            <button class="chip" aria-pressed="false">Cession du bail</button>
+          </div>
+        </div>
+        <div class="field"><label for="o-date">Valable jusqu'au</label><input id="o-date" type="date" value="2026-11-12"></div>
+        <div class="box toggle"><div><div class="t">Prévenir le vendeur</div><div class="s">Message prêt à envoyer à Eric Durand</div></div><button class="switch" role="switch" aria-checked="true" id="sw-vend" aria-label="Prévenir le vendeur"></button></div>
+        <button class="primary" id="save-offre">Enregistrer l'offre dans Transactium</button>
+      </section>
+
+      <!-- IA -->
+      <section class="screen" id="s-ia" hidden>
+        <div class="field"><label for="ia-bien">Bien</label>
+          <select id="ia-bien">
+            <option value="halles">Le Comptoir des Halles · restaurant · 185 000 €</option>
+            <option value="cafe">Café de la Place · bar-brasserie · 55 000 €</option>
+            <option value="boul">Boulangerie Saint-Jean · 240 000 €</option>
+          </select>
+        </div>
+        <p class="hint" style="margin:0">Acquéreurs classés par l'IA à partir de leur recherche dans Transactium, de leur historique de visites et des biens proches. Vous choisissez qui appeler.</p>
+        <div class="list" id="ia-list"></div>
+      </section>
+
+      <!-- MANDAT -->
+      <section class="screen" id="s-mandat" hidden>
+        <div class="box"><div class="t">Boulangerie Saint-Jean</div><div class="s">Mandat simple n° 2024-118 · expire le 12 novembre</div></div>
+        <div class="stats">
+          <div class="stat"><b>11</b><span>visites</span></div>
+          <div class="stat"><b>0</b><span>offre</span></div>
+          <div class="stat"><b>38</b><span>alertes envoyées</span></div>
+        </div>
+        <div class="field"><span class="lbl">Message de relance préparé par l'IA</span>
+          <div class="msg" id="m-msg">Bonjour Monsieur Morel,
+
+Votre mandat pour la Boulangerie Saint-Jean arrive à échéance le 12 novembre. Depuis le début, 11 acquéreurs ont visité et 38 recherches correspondantes ont reçu l'annonce. Deux d'entre eux, avec un apport solide, attendent les derniers bilans.
+
+Je vous propose de renouveler pour 6 mois et de passer en exclusivité, ce qui me permettrait de mettre l'affaire en avant. Pouvons-nous en parler à 17 h ?
+
+Martin Dupont</div>
+        </div>
+        <div class="actions"><button class="secondary" id="copy">Copier</button><button class="secondary" data-toast="Message envoyé par SMS|(maquette : rien n'est réellement envoyé)">Envoyer par SMS</button><button class="secondary" data-toast="Renouvellement préparé|Mandat à faire signer électroniquement depuis Transactium">Préparer le renouvellement</button></div>
+      </section>
+    </main>
+
+    <nav aria-label="Navigation">
+      <button data-go="jour" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>Journée</button>
+      <button data-go="visite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h16M6 16l9.5-9.5a2.1 2.1 0 0 1 3 3L9 19H6z"/></svg>Visite</button>
+      <button data-go="offre"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>Offre</button>
+      <button data-go="ia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.2 5.3L20 10l-5.8 1.7L12 17l-2.2-5.3L4 10l5.8-1.7z"/><path d="M19 17l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>Suggestions</button>
+    </nav>
+    <div class="toast" id="toast" role="status"><span>✓</span><div><b id="t1"></b><span id="t2"></span></div></div>
+  </div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const titles={jour:"Ma journée",visite:"Compte rendu de visite",offre:"Nouvelle offre",ia:"Acquéreurs à appeler",mandat:"Renouveler le mandat"};
+let current="jour";
+function go(id){
+  current=id;
+  $$(".screen").forEach(s=>s.hidden=s.id!=="s-"+id);
+  $("#title").textContent=titles[id];
+  $("#back").hidden=id==="jour"; $("#av").hidden=id!=="jour";
+  $$("nav button").forEach(b=>{if(b.dataset.go===id)b.setAttribute("aria-current","page");else b.removeAttribute("aria-current")});
+  $("#main").scrollTop=0;
+  if(id==="ia") renderIA();
+}
+let tt;
+function toast(a,b){$("#t1").textContent=a;$("#t2").textContent=b||"";$("#toast").classList.add("show");clearTimeout(tt);tt=setTimeout(()=>$("#toast").classList.remove("show"),2600)}
+document.addEventListener("click",e=>{
+  const g=e.target.closest("[data-go]"); if(g){go(g.dataset.go);return}
+  const v=e.target.closest("[data-visit]"); if(v){openVisit(v.dataset.visit);return}
+  const c=e.target.closest("[data-call]"); if(c){toast("Appel de "+c.dataset.call,"Sur le téléphone, l'appel part directement");return}
+  const t=e.target.closest("[data-toast]"); if(t){const[a,b]=t.dataset.toast.split("|");toast(a,b);return}
+  const ch=e.target.closest(".chip"); if(ch){
+    const grp=ch.parentElement;
+    if(grp.dataset.single){grp.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===ch))}
+    else ch.setAttribute("aria-pressed",ch.getAttribute("aria-pressed")!=="true");
+    return}
+  const sw=e.target.closest(".switch"); if(sw){sw.setAttribute("aria-checked",sw.getAttribute("aria-checked")!=="true")}
+});
+$("#back").onclick=()=>go("jour");
+
+const visits={
+  v1:{bien:"Café de la Place",sub:"Bar-brasserie · Lyon 2e · 55 000 €",acq:"Pierre Damien",acqsub:"Acquéreur A · bar, brasserie · Lyon 2e–3e · apport 30 000 €",note:"Très bonne impression de l'emplacement et de la terrasse. Il trouve le loyer un peu élevé et veut voir les trois derniers bilans. Prêt à faire une offre autour de 50 000 € si le bailleur accepte la cession."},
+  v2:{bien:"Le Comptoir des Halles",sub:"Restaurant 40 couverts · Lyon 3e · 185 000 €",acq:"Sophie Marchal",acqsub:"Acquéreur A · restaurant · Lyon · apport 60 000 €",note:"Cuisine récente, salle à rafraîchir. Elle veut revenir avec son associé la semaine prochaine. Point de vigilance : extraction à vérifier avec le bailleur."}
+};
+let vcur="v1";
+function openVisit(id){
+  vcur=id; const v=visits[id];
+  $("#v-bien").textContent=v.bien;$("#v-sub").textContent=v.sub;$("#v-acq").textContent=v.acq;$("#v-acqsub").textContent=v.acqsub;
+  $("#v-note").value="";$$("#s-visite .chip").forEach(c=>c.setAttribute("aria-pressed","false"));
+  go("visite");
+}
+$("#mic").onclick=()=>{
+  const m=$("#mic"); if(m.classList.contains("rec"))return;
+  m.classList.add("rec");$("#mic-l").textContent="J'écoute…";
+  const txt=visits[vcur].note; $("#v-note").value=""; let i=0;
+  const iv=setInterval(()=>{i+=3;$("#v-note").value=txt.slice(0,i);if(i>=txt.length){clearInterval(iv);m.classList.remove("rec");$("#mic-l").textContent="Dicter la note"}},18);
+};
+$("#save-visite").onclick=()=>{
+  const card=$("#c-"+vcur); if(card){card.classList.add("done");const p=card.querySelector(".pill,.go");if(p){p.className="pill ok";p.textContent="Fait"}}
+  $("#st-vis").textContent=+$("#st-vis").textContent+1;
+  toast("Visite enregistrée dans Transactium",$("#sw-bdv").getAttribute("aria-checked")==="true"?"Bon de visite n° 2026-0412 envoyé à signer":"Bon de visite n° 2026-0412 créé");
+  setTimeout(()=>go("jour"),900);
+};
+$("#o-mt").addEventListener("input",e=>{
+  const n=parseInt(e.target.value.replace(/\D/g,""))||0;
+  e.target.value=n.toLocaleString("fr-FR").replace(/\u202f/g," ");
+  const pct=Math.round((n-55000)/55000*100);
+  $("#o-hint").textContent=(pct>0?"+":pct<0?"−":"")+Math.abs(pct)+" % par rapport au prix affiché";
+});
+$("#save-offre").onclick=()=>{
+  $("#st-off").textContent=+$("#st-off").textContent+1;
+  toast("Offre de "+$("#o-mt").value+" € enregistrée","Transaction créée dans Transactium"+($("#sw-vend").getAttribute("aria-checked")==="true"?" · vendeur prévenu":""));
+  setTimeout(()=>go("jour"),900);
+};
+$("#copy").onclick=()=>{
+  const t=$("#m-msg").textContent;
+  try{navigator.clipboard.writeText(t).then(()=>toast("Message copié"),()=>toast("Copie impossible ici","Sélectionnez le texte à la main"))}catch(e){toast("Copie impossible ici")}
+};
+
+const IA={
+  halles:[
+    {n:"Sophie Marchal",c:"A",s:94,w:"Cherche un restaurant à Lyon avec apport de 60 000 €. Visite prévue aujourd'hui.",k:"Restaurant · Lyon · 150–200 k€"},
+    {n:"Lucas Perrin",c:"B",s:88,w:"Recherche une brasserie à Lyon 7e, mais a visité deux restaurants du 3e en septembre.",k:"Brasserie · Lyon 7e · 100–150 k€ · hors zone"},
+    {n:"Amandine Roche",c:"A",s:81,w:"Restauratrice, revend son affaire à Annecy et cherche plus grand à Lyon.",k:"Restaurant 40+ couverts · Lyon, Villeurbanne"},
+    {n:"Hugo Lefèvre",c:"B",s:72,w:"Budget un peu court (160 000 €), mais apport élevé et prêt accordé.",k:"Restaurant, traiteur · Lyon 3e–6e"},
+    {n:"Claire Vidal",c:"C",s:64,w:"Cherchait un salon de thé ; a demandé en août des restaurants avec cuisine équipée.",k:"Salon de thé · Lyon · hors activité"}],
+  cafe:[
+    {n:"Pierre Damien",c:"A",s:96,w:"Correspond sur tout : bar-brasserie, Lyon 2e–3e, budget et apport.",k:"Bar, brasserie · Lyon 2e–3e · 50–80 k€"},
+    {n:"Julie Ferrand",c:"B",s:85,w:"Cherche un café dans le 1er ou le 2e. Sans nouvelles depuis 21 jours : bonne occasion de la relancer.",k:"Café, salon de thé · Lyon 1–2 · 40–70 k€"},
+    {n:"Karim Benali",c:"B",s:77,w:"Veut une licence IV dans le Rhône ; la terrasse correspond à ce qu'il a aimé au Bar des Sports.",k:"Bar-tabac, licence IV · Rhône · 80 k€"},
+    {n:"Lucas Perrin",c:"B",s:70,w:"Brasserie plus grande recherchée, mais budget compatible.",k:"Brasserie · Lyon 7e · 100–150 k€"},
+    {n:"Thomas Girard",c:"C",s:58,w:"Tous commerces, premier achat. À sonder.",k:"Tous commerces · Villeurbanne"}],
+  boul:[
+    {n:"Nadia Roussel",c:"A",s:93,w:"Boulangère, cherche à Lyon Est avec 250 000 € de budget.",k:"Boulangerie · Lyon Est, Villeurbanne · 250 k€"},
+    {n:"Thomas Girard",c:"C",s:68,w:"Tous commerces à Villeurbanne ; budget à confirmer.",k:"Tous commerces · Villeurbanne"},
+    {n:"Hugo Lefèvre",c:"B",s:61,w:"Traiteur, a demandé des biens avec laboratoire.",k:"Restaurant, traiteur · Lyon 3e–6e"},
+    {n:"Amandine Roche",c:"A",s:55,w:"Restauratrice, ouverte à une activité de bouche avec fournil.",k:"Restaurant 40+ couverts · Lyon"},
+    {n:"Karim Benali",c:"B",s:42,w:"Peu probable, à garder en réserve.",k:"Bar-tabac · Rhône"}]
+};
+function renderIA(){
+  const L=IA[$("#ia-bien").value];
+  $("#ia-list").innerHTML=L.map(b=>`<div class="buyer"><div class="row"><span class="name">${b.n}</span><span class="pill ${b.c==="A"?"ok":"warn"}">${b.c}</span><span class="score">${b.s}</span></div><div class="why">${b.w}</div><div class="crit">${b.k}</div><div class="actions"><button class="secondary" data-call="${b.n}">Appeler</button><button class="secondary" data-toast="Fiche envoyée à ${b.n}|Par e-mail, avec votre signature">Envoyer la fiche</button><button class="secondary" data-toast="Visite à planifier|Ajoutée à votre agenda Transactium">Proposer une visite</button></div></div>`).join("");
+}
+$("#ia-bien").onchange=renderIA;
+</script>
+<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
+var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
+</body>
+</html>
