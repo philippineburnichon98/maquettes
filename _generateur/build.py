@@ -431,8 +431,23 @@ if(!matchMedia('(prefers-reduced-motion:reduce)').matches){let t=setInterval(()=
 W.addEventListener('mouseenter',stop);W.addEventListener('mouseleave',start);W.addEventListener('focusin',stop);T.addEventListener('touchstart',stop,{passive:true})}})</script>"""
 
 
+def _vignette(p):
+    """Vignette de galerie assez nette : les miniatures basse résolution du site d'origine
+    (Jimdo Creator thumb_, Wix floutée ou trop petite) sont remplacées par une version plus grande."""
+    t, full = p.get("thumb") or p["full"], p["full"]
+    if "/cc_images/thumb_" in t:
+        return full
+    if "wixstatic.com" in t:
+        if "blur_" in t:
+            return full
+        m = re.search(r"/w_(\d+),h_(\d+)", t)
+        if m and int(m.group(1)) < 600:
+            return full
+    return t
+
+
 def section_gallery(g):
-    btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(p["thumb"])}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">'
+    btns = "".join(f'<button data-full="{attr(p["full"])}" aria-label="Agrandir"><img src="{attr(_vignette(p))}" alt="{attr(p.get("alt", ""))}" loading="lazy" referrerpolicy="no-referrer">'
                    + (f'<figcaption>{e(p["caption"])}</figcaption>' if p.get("caption") else "") + '</button>'
                    for p in g["photos"])
     lead = f'<p>{e(g["lead"])}</p>' if g.get("lead") else ""
