@@ -1,0 +1,230 @@
+{
+ "slug": "boisseau-avocat-1596d5",
+ "title": "Cabinet Ludivine Boisseau — Avocat au Barreau de Lyon, droit du travail et droit de la sécurité sociale",
+ "description": "Ludivine Boisseau, avocate au Barreau de Lyon : droit du travail et droit de la sécurité sociale (URSSAF, accidents du travail et maladies professionnelles), conseil et contentieux. Formations.",
+ "brand": "Cabinet Ludivine Boisseau",
+ "tagline": "Avocat au Barreau de Lyon",
+ "monogram": "LB",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f7f6f3",
+  "paper2": "#ebe8e1",
+  "ink": "#1c2230",
+  "muted": "#5d6371",
+  "accent": "#24365a",
+  "accent2": "#1a2843",
+  "gold": "#a8875a",
+  "heroem": "#e7d3b0",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "domaines",
+   "Domaines d'intervention"
+  ],
+  [
+   "vision",
+   "Notre vision"
+  ],
+  [
+   "avocat",
+   "Avocat"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/3de98e_851263938d6f40dab80dd7e0f5092579~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_85/img.jpg",
+  "eyebrow": "Avocat au Barreau de Lyon",
+  "title": "Cabinet d'avocat <em>Ludivine Boisseau</em>",
+  "lead": "Droit du travail et droit de la sécurité sociale. Conseil et contentieux.",
+  "cta1": [
+   "Contacter le cabinet",
+   "#contact"
+  ],
+  "cta2": [
+   "04 26 78 72 80",
+   "tel:+33426787280"
+  ]
+ },
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "eyebrow": "Domaines d'intervention",
+   "title": "Nos domaines <em class=\"it\">d'intervention</em>",
+   "items": [
+    {
+     "kicker": "Conseil et contentieux · relations individuelles et collectives",
+     "title": "Droit du travail",
+     "list": [
+      "Conseils, défense et assistance devant le Conseil de prud'hommes et la Cour d'appel",
+      "Procédures disciplinaires, licenciement",
+      "Négociation en matière de rupture conventionnelle ou de transaction",
+      "Rédaction et analyse de contrats de travail (CDI, CDD…)",
+      "Heures supplémentaires",
+      "Audit social",
+      "Conseil en matière de temps et de conditions de travail, sécurité ou hygiène, harcèlement",
+      "Élections du personnel",
+      "Accords collectifs"
+     ]
+    },
+    {
+     "kicker": "Conseil et contentieux · URSSAF, accident du travail / maladie professionnelle",
+     "title": "Droit de la sécurité sociale",
+     "list": [
+      "Assistance en phase amiable (contrôle URSSAF, réponse à lettre d'observations, saisine de la Commission de recours amiable)",
+      "Assistance en contestation ou reconnaissance AT/MP",
+      "Assistance et représentation devant le Pôle social et la Cour d'appel",
+      "Audit de sécurité sociale",
+      "Conseil en sécurisation URSSAF et en matière d'hygiène et de sécurité",
+      "Formation"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "formation",
+   "eyebrow": "Spécialités",
+   "title": "La <em class=\"it\">formation</em>",
+   "img": "https://static.wixstatic.com/media/3de98e_45f7278070e5407eb780d2114f48411b~mv2.jpg/v1/fit/w_640,h_640,al_c,q_85/img.jpg",
+   "alt": "Lyon, Saint-Jean et Fourvière",
+   "paras": [
+    "Auprès des équipes dirigeantes, des managers, mais aussi des CSE.",
+    "À destination des avocats, dans le cadre de la formation professionnelle continue.",
+    "Le cabinet intervient régulièrement en école d'avocats (Lyon, Bordeaux, Toulouse…) et auprès de l'École nationale supérieure de sécurité sociale (EN3S).",
+    "<small>Organisme de formation : déclaration d'activité enregistrée sous le n° 84691855569 auprès du préfet de la région Auvergne-Rhône-Alpes.</small>"
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "vision",
+   "eyebrow": "Notre vision",
+   "title": "Conseil <em class=\"it\">et contentieux</em>",
+   "paras": [
+    "Le cabinet intervient principalement en droit du travail et droit de la sécurité sociale (URSSAF et CPAM).",
+    "Nous intervenons tant pour des prestations de conseil (consultations juridiques, audit, accompagnement…) que pour des prestations contentieuses (Conseil de prud'hommes, Pôle social du Tribunal judiciaire, Cour d'appel), en passant par la prise en charge des démarches et formalités afférentes à chaque dossier.",
+    "En confiant un dossier au cabinet, vous bénéficiez d'une confidentialité totale dans le traitement de votre dossier et des garanties qu'offre la profession d'avocat.",
+    "Nous avons à cœur d'offrir à nos clients une relation basée sur la confiance, la transparence et la disponibilité. Le client est informé à chaque étape de la procédure et aucune décision n'est prise sans son aval préalable, notamment quant à la politique d'honoraires."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "avocat",
+   "eyebrow": "Avocat",
+   "title": "Ludivine <em class=\"it\">Boisseau</em>",
+   "img": "https://static.wixstatic.com/media/3de98e_10862ee6bc8b4deca9deadd7ca10a3a9~mv2.jpg/v1/fit/w_900,h_1100,al_c,q_85/img.jpg",
+   "alt": "Ludivine Boisseau, avocate",
+   "paras": [
+    "Avocate au Barreau de Lyon ayant prêté serment le 13 décembre 2013, Ludivine Boisseau a ouvert son propre cabinet après six ans et demi de collaboration dans un cabinet de droit social.",
+    "Cette expérience lui a permis d'acquérir une solide pratique du conseil et du contentieux URSSAF. Elle attache une importance capitale à la pluridisciplinarité, appréhendée avant la collaboration grâce à des stages en droit des affaires : cela lui permet d'offrir à ses clients un service prenant en compte toutes les dimensions du problème.",
+    "L'accès au droit et la transparence sont au cœur de son action. Elle apprécie particulièrement de dispenser des formations, être formé permettant une meilleure sécurisation des pratiques.",
+    "Ludivine Boisseau est également co-présidente de l'UJA (Union des jeunes avocats) de Lyon."
+   ],
+   "sign": "Avocat au Barreau de Lyon · Toque 535"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "Cabinet <em class=\"it\">Ludivine Boisseau</em>",
+   "img": "https://static.wixstatic.com/media/11062b_3527d4e3e5634e9b8e672b4fcc07f5cf~mv2.jpg/v1/fill/w_900,h_520,al_c,q_85/img.jpg",
+   "alt": "Immeubles haussmanniens",
+   "rows": [
+    [
+     "Adresse",
+     "9, cours de la Liberté, 69003 Lyon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33426787280\">04 26 78 72 80</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:ludivine.boisseau@bgr-avocats.com\">ludivine.boisseau@bgr-avocats.com</a>"
+    ],
+    [
+     "Barreau",
+     "Barreau de Lyon, toque 535"
+    ]
+   ],
+   "map_q": "9 Cours de la Liberté, 69003 Lyon",
+   "cta": [
+    "Écrire au cabinet",
+    "#message"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "message",
+   "eyebrow": "Contact",
+   "title": "Vous pouvez également <em class=\"it\">nous écrire</em>",
+   "lead": "Les données transmises via ce formulaire sont utilisées uniquement pour répondre à votre demande et conservées pour une durée limitée à 3 mois.",
+   "email": "ludivine.boisseau@bgr-avocats.com",
+   "subject": "Demande depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "mentions",
+   "eyebrow": "Mentions légales · RGPD",
+   "title": "Informations <em class=\"it\">légales</em>",
+   "items": [
+    {
+     "title": "Éditeur",
+     "paras": [
+      "Cabinet Ludivine Boisseau avocat, profession réglementée, notamment par le Règlement intérieur national de la profession d'avocat (RIN). SIRET : 799 749 791 00056.",
+      "Directeur de la publication : Ludivine Boisseau, ludivine.boisseau@gmail.com, 04 28 29 32 48."
+     ]
+    },
+    {
+     "title": "Données personnelles",
+     "paras": [
+      "Le cabinet, responsable de traitement, peut collecter des données personnelles pour la gestion du formulaire de contact et la mesure de fréquentation du site.",
+      "Vous disposez d'un droit d'accès, de rectification, d'interrogation, de limitation, de portabilité et d'effacement : par e-mail à ludivine.boisseau@gmail.com ou par courrier au 20, boulevard Eugène-Deruelle, 69432 Lyon Cedex 03 (objet « Droits RGPD », avec copie d'une pièce d'identité). Réclamation possible auprès de la CNIL : www.cnil.fr."
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Cabinet Ludivine Boisseau, avocat au Barreau de Lyon : droit du travail et droit de la sécurité sociale, conseil, contentieux et formation.",
+  "contact": [
+   "<a href=\"tel:+33426787280\">04 26 78 72 80</a>",
+   "<a href=\"mailto:ludivine.boisseau@bgr-avocats.com\">ludivine.boisseau@bgr-avocats.com</a>",
+   "9, cours de la Liberté, 69003 Lyon"
+  ],
+  "social": [
+   [
+    "linkedin",
+    "https://fr.linkedin.com/in/ludivine-boisseau-927b97191"
+   ]
+  ],
+  "legal": "Avocat au Barreau de Lyon · Toque 535 · SIRET 799 749 791 00056"
+ }
+}
