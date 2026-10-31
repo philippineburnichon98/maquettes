@@ -1,0 +1,628 @@
+{
+ "slug": "b-art-paints-8f0a0c",
+ "title": "B-Art' Paints — Plâtrerie, peinture, décoration, revêtements · Fleurieux-sur-l'Arbresle (Rhône)",
+ "description": "B-Art' Paints, entreprise de rénovation intérieure créée en 2016 par Kevin Bearth à Fleurieux-sur-l'Arbresle : plâtrerie, peinture intérieure et extérieure, enduits décoratifs, revêtements de sols souples. Devis gratuit.",
+ "brand": "B-Art' Paints",
+ "tagline": "Plâtrerie · Peinture · Décoration",
+ "monogram": "BA",
+ "theme": {
+  "look": "split",
+  "paper": "#f7f5f1",
+  "paper2": "#ebe6dd",
+  "ink": "#22262a",
+  "muted": "#5f6368",
+  "accent": "#2f6f73",
+  "accent2": "#235458",
+  "gold": "#c8a46a",
+  "heroem": "#f3d7a6",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33658988430\">06 58 98 84 30</a>",
+  "<a href=\"mailto:b-art-paints@outlook.fr\">b-art-paints@outlook.fr</a>"
+ ],
+ "nav": [
+  [
+   "valeurs",
+   "Nos valeurs"
+  ],
+  [
+   "devis",
+   "Demande de devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "nav_extra": [
+  [
+   "devis",
+   "Demande de devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/d8eb7d_604f2097e0e8447cbd3dd14d4fc3a172~mv2_d_2884_2448_s_4_2.jpeg/v1/fill/w_1920,h_1300,al_c,q_85/img.jpg",
+  "eyebrow": "Rénovation intérieure · Ouest lyonnais",
+  "title": "Plâtrerie, peinture, <em>décoration, revêtements</em>",
+  "lead": "De réno en déco : B-Art' Paints vous accompagne du début à la fin de vos projets, pour les particuliers comme pour les professionnels.",
+  "cta1": [
+   "Demander un devis gratuit",
+   "#devis"
+  ],
+  "cta2": [
+   "06 58 98 84 30",
+   "tel:+33658988430"
+  ]
+ },
+ "figures": [
+  [
+   "2016",
+   "création de l'entreprise"
+  ],
+  [
+   "6",
+   "chantiers en images"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ],
+  [
+   "69",
+   "Rhône"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "qui",
+   "eyebrow": "Qui sommes-nous ?",
+   "title": "Une société spécialisée <em class=\"it\">dans la rénovation intérieure</em>",
+   "img": "https://static.wixstatic.com/media/d8eb7d_369226e6253548f0831319dc704e467c~mv2_d_4500_3375_s_4_2.jpeg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "B-Art' Paints, rénovation intérieure",
+   "paras": [
+    "Créée en 2016 par Kevin Bearth, B-Art' Paints est une société spécialisée dans la rénovation intérieure, plus précisément dans le domaine de la plâtrerie, la peinture intérieure et extérieure, les produits et enduits décoratifs, les revêtements de sols souples et bien d'autres encore.",
+    "Elle tient son siège dans l'ouest lyonnais, dans la commune de Fleurieux-sur-l'Arbresle, dans le Rhône."
+   ],
+   "sign": "Kevin Bearth"
+  },
+  {
+   "kind": "features",
+   "id": "valeurs",
+   "dark": true,
+   "eyebrow": "Nos valeurs",
+   "title": "Un résultat <em class=\"it\">à la hauteur de vos attentes</em>",
+   "lead": "Quand vous faites appel à nos services, vous pouvez être sûr que le résultat répondra à vos attentes et à vos besoins. Nous vous accompagnons du début à la fin de vos projets.",
+   "items": [
+    [
+     "Devis gratuits",
+     "Rapides, clairs et détaillés."
+    ],
+    [
+     "Travaux haut de gamme",
+     "Plâtrerie, peinture, décoration et revêtements."
+    ],
+    [
+     "Matériaux professionnels",
+     "De gamme professionnelle et écologique (NF Environnement, écolabels, HQE…)."
+    ],
+    [
+     "Intérieur et extérieur",
+     "Rénovation intérieure et extérieure."
+    ],
+    [
+     "Particuliers et professionnels",
+     "Pour votre maison, votre appartement ou vos locaux."
+    ],
+    [
+     "Dans les délais",
+     "Chantiers livrés en temps et en heure."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Galerie / Réalisations",
+   "title": "Nos réalisations <em class=\"it\">en images</em>",
+   "lead": "Parquet, salon, cuisine, chambre, salles de bains : quelques chantiers de B-Art' Paints.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/d8eb7d_3e54f854643c413cb1c147071a0bc5ab~mv2_d_1242_2208_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d8eb7d_3e54f854643c413cb1c147071a0bc5ab~mv2_d_1242_2208_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Réalisation B-Art' Paints"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d8eb7d_e1a7bf5dd1b54116a555ebccc2ffdcd1~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d8eb7d_e1a7bf5dd1b54116a555ebccc2ffdcd1~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Réalisation B-Art' Paints"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d8eb7d_f14ee90f680a401492eb724c6bc05e22~mv2_d_2711_2448_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d8eb7d_f14ee90f680a401492eb724c6bc05e22~mv2_d_2711_2448_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Réalisation B-Art' Paints"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d8eb7d_300b70f8dfb14c1cbcfe12e24cd5af6a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d8eb7d_300b70f8dfb14c1cbcfe12e24cd5af6a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Réalisation B-Art' Paints"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d8eb7d_6e98de553e5a401dafc70f8717c12195~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d8eb7d_6e98de553e5a401dafc70f8717c12195~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Réalisation B-Art' Paints"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d8eb7d_37619a90e91b4dca96d82d7e6fedf209~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d8eb7d_37619a90e91b4dca96d82d7e6fedf209~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Réalisation B-Art' Paints"
+    }
+   ],
+   "cta": [
+    "Voir toutes les réalisations",
+    "#parquet"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Demande de devis",
+   "title": "Votre projet, <em class=\"it\">votre devis gratuit</em>",
+   "lead": "Devis gratuits, rapides, clairs et détaillés. Décrivez-nous votre projet de rénovation, nous revenons vers vous.",
+   "side": [
+    "<a href=\"tel:+33658988430\" style=\"border-bottom:1px solid var(--gold)\">06 58 98 84 30</a>",
+    "<a href=\"mailto:b-art-paints@outlook.fr\">b-art-paints@outlook.fr</a>"
+   ],
+   "email": "b-art-paints@outlook.fr",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer ma demande",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Votre projet",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "B-Art' Paints, <em class=\"it\">dans l'ouest lyonnais</em>",
+   "text": "Particuliers et professionnels, rénovation intérieure et extérieure.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33658988430\">06 58 98 84 30</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:b-art-paints@outlook.fr\">b-art-paints@outlook.fr</a>"
+    ],
+    [
+     "Adresse",
+     "110 Rue Gabriel Combaudon, 69210 Fleurieux-sur-l'Arbresle"
+    ],
+    [
+     "Avis",
+     "<a href=\"https://maps.google.com/?cid=305109819633447396\" target=\"_blank\" rel=\"noopener\">Nos avis Google</a>"
+    ]
+   ],
+   "map_q": "110 Rue Gabriel Combaudon, 69210 Fleurieux-sur-l'Arbresle",
+   "cta": [
+    "Appeler B-Art' Paints",
+    "tel:+33658988430"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "gallerie",
+   "label": "Galerie / Réalisations",
+   "title": "Galerie / Réalisations",
+   "eyebrow": "B-Art' Paints",
+   "lead": "Nos réalisations en image.",
+   "img": "https://static.wixstatic.com/media/d8eb7d_392ce35907094d388b11b86fc3c0ad11~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "parquet",
+     "eyebrow": "Réalisation",
+     "title": "Rénovation <em class=\"it\">d'un parquet</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_853e44c96c794eaea50fc9b06c4e3ee2~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_853e44c96c794eaea50fc9b06c4e3ee2~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un parquet"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_3e54f854643c413cb1c147071a0bc5ab~mv2_d_1242_2208_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_3e54f854643c413cb1c147071a0bc5ab~mv2_d_1242_2208_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un parquet"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_12cd2cf9256745d4955615a3334bc8b6~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_12cd2cf9256745d4955615a3334bc8b6~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un parquet"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_ebd459eb43ec4fd697ec5f4fb1b78076~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_ebd459eb43ec4fd697ec5f4fb1b78076~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un parquet"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_c2fa10248abc46d9bbe9af7554eb7e76~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_c2fa10248abc46d9bbe9af7554eb7e76~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un parquet"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_86b672bccaa54c9f83e957696e4e5eae~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_86b672bccaa54c9f83e957696e4e5eae~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un parquet"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_e59b9ab7eff74235993bc5d9dec4a25d~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_e59b9ab7eff74235993bc5d9dec4a25d~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un parquet"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "salon",
+     "eyebrow": "Réalisation",
+     "title": "Rénovation <em class=\"it\">d'un salon</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_392ce35907094d388b11b86fc3c0ad11~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_392ce35907094d388b11b86fc3c0ad11~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_37306962aa0640dcb812f4622f9b12a5~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_37306962aa0640dcb812f4622f9b12a5~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_629d988f62c7429c8267d91c5668e36a~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_629d988f62c7429c8267d91c5668e36a~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_0adfe173996d46afb9109934a23a62b8~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_0adfe173996d46afb9109934a23a62b8~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_00c7ec10274a4a4ab41e5be75cc79170~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_00c7ec10274a4a4ab41e5be75cc79170~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_025af0f478a94d8e8d2b080b63e74759~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_025af0f478a94d8e8d2b080b63e74759~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_674d53cf081c49b5bdfcede2ed824671~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_674d53cf081c49b5bdfcede2ed824671~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_cd80a8ea8c544f29b28bb6d9e1d7ef90~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_cd80a8ea8c544f29b28bb6d9e1d7ef90~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_ad7b1ad7acf440b1b4b8a55ddfae2e2c~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_ad7b1ad7acf440b1b4b8a55ddfae2e2c~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_0441852e596c4876910171cd989a01c5~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_0441852e596c4876910171cd989a01c5~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_b7ff10b0f0384d979f56063582ea7520~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_b7ff10b0f0384d979f56063582ea7520~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'un salon"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "cuisine",
+     "eyebrow": "Réalisation",
+     "title": "Rénovation <em class=\"it\">d'une cuisine</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_677db8250fd540a5a2f8ec6d9c61b56d~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_677db8250fd540a5a2f8ec6d9c61b56d~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_e582748ded02431a95f94b2bf1a39152~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_e582748ded02431a95f94b2bf1a39152~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_0c5c2a3ef5454df9867700642a0ae303~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_0c5c2a3ef5454df9867700642a0ae303~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_da1a772d8cf640a39ed10766e4ad6b42~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_da1a772d8cf640a39ed10766e4ad6b42~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_a88dae378a1d4580b08e930569a2314f~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_a88dae378a1d4580b08e930569a2314f~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_2174bac1f5744686a091541f3803be58~mv2_d_3755_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_2174bac1f5744686a091541f3803be58~mv2_d_3755_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_986ece2aefb54b319db4d5936862d17b~mv2_d_3898_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_986ece2aefb54b319db4d5936862d17b~mv2_d_3898_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_80d62059c4cf494aaf7029f74807a0fd~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_80d62059c4cf494aaf7029f74807a0fd~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_f8ffb902a9754358a846144151949ff9~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_f8ffb902a9754358a846144151949ff9~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_2630e8e7bb9541758629865f5872690e~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_2630e8e7bb9541758629865f5872690e~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une cuisine"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chambre",
+     "eyebrow": "Réalisation",
+     "title": "Rénovation <em class=\"it\">d'une chambre</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_f14ee90f680a401492eb724c6bc05e22~mv2_d_2711_2448_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_f14ee90f680a401492eb724c6bc05e22~mv2_d_2711_2448_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une chambre"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_aa46a13d89f649cabd4745523d2774f0~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_aa46a13d89f649cabd4745523d2774f0~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une chambre"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_bee9068e818d4a3182e4084bf8224c07~mv2_d_2629_2448_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_bee9068e818d4a3182e4084bf8224c07~mv2_d_2629_2448_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une chambre"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_733e87f5eb0d46609f86972a4b684900~mv2_d_2933_2448_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_733e87f5eb0d46609f86972a4b684900~mv2_d_2933_2448_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une chambre"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "salle-de-bains",
+     "eyebrow": "Réalisation",
+     "title": "Rénovation <em class=\"it\">d'une salle de bains</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_b96fed3ef0264d19bf93729b6e63656a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_b96fed3ef0264d19bf93729b6e63656a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_0c61abb0ea2d47c7bed58fcce76e2fe1~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_0c61abb0ea2d47c7bed58fcce76e2fe1~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_b0b137e15c404ac7933bf14540e7da88~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_b0b137e15c404ac7933bf14540e7da88~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_af9f423a167b44debb093ede1f714939~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_af9f423a167b44debb093ede1f714939~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_6a92e4e255c24365b33380b518342e77~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_6a92e4e255c24365b33380b518342e77~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_d279aa151ec94543889a5f53ecc38af2~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_d279aa151ec94543889a5f53ecc38af2~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_3200794dc118475fb6fd00af86ae4670~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_3200794dc118475fb6fd00af86ae4670~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_32c89434383a421fac0c6e22b5bac0da~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_32c89434383a421fac0c6e22b5bac0da~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_300b70f8dfb14c1cbcfe12e24cd5af6a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_300b70f8dfb14c1cbcfe12e24cd5af6a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_a9b6267139114c0982411553a66a4c8a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_a9b6267139114c0982411553a66a4c8a~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_acc09ae97870457baf1d5165423f8b79~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_acc09ae97870457baf1d5165423f8b79~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_0ff940bc88f94b7a8cfc708d27eb7016~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_0ff940bc88f94b7a8cfc708d27eb7016~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bains"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "salle-de-bain-2",
+     "eyebrow": "Réalisation",
+     "title": "Rénovation <em class=\"it\">d'une salle de bain</em> (2)",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_1694befdc2ab48998abc7eb2b90a69da~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_1694befdc2ab48998abc7eb2b90a69da~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_6e98de553e5a401dafc70f8717c12195~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_6e98de553e5a401dafc70f8717c12195~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_83fe3b3b9e8841fd99acb1fd01729033~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_83fe3b3b9e8841fd99acb1fd01729033~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_ee237cdfb41d4e5aa150b4fa8682b640~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_ee237cdfb41d4e5aa150b4fa8682b640~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_6e7d01aeab2f475da0f105d7e63333dc~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_6e7d01aeab2f475da0f105d7e63333dc~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_aac3603ced064068b402ef9aef3d0fbc~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_aac3603ced064068b402ef9aef3d0fbc~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_b111c51ea3d0454ba699dfd9eecd7f1d~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_b111c51ea3d0454ba699dfd9eecd7f1d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_2634ff9a1c444cab9b3332eab5ded380~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_2634ff9a1c444cab9b3332eab5ded380~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_b94662dd9b98495688050fe1817b2d60~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_b94662dd9b98495688050fe1817b2d60~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_718cae44f2bc4e2e97385ec634dcd0c5~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_718cae44f2bc4e2e97385ec634dcd0c5~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_f7245520bfc84bd6ac87a945e3ca1fb0~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_f7245520bfc84bd6ac87a945e3ca1fb0~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/d8eb7d_fa7aed613b104faaa9ecb5ceae67812a~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/d8eb7d_fa7aed613b104faaa9ecb5ceae67812a~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Rénovation d'une salle de bain"
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "devis-g",
+     "eyebrow": "Demande de devis",
+     "title": "Votre projet, <em class=\"it\">votre devis gratuit</em>",
+     "lead": "Devis gratuits, rapides, clairs et détaillés. Décrivez-nous votre projet de rénovation, nous revenons vers vous.",
+     "side": [
+      "<a href=\"tel:+33658988430\" style=\"border-bottom:1px solid var(--gold)\">06 58 98 84 30</a>",
+      "<a href=\"mailto:b-art-paints@outlook.fr\">b-art-paints@outlook.fr</a>"
+     ],
+     "email": "b-art-paints@outlook.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer ma demande",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Votre projet",
+       "type": "textarea",
+       "rows": 5
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "B-Art' Paints, plâtrerie, peinture, décoration et revêtements à Fleurieux-sur-l'Arbresle, dans l'ouest lyonnais, depuis 2016.",
+  "contact": [
+   "<a href=\"tel:+33658988430\">06 58 98 84 30</a>",
+   "<a href=\"mailto:b-art-paints@outlook.fr\">b-art-paints@outlook.fr</a>",
+   "110 Rue Gabriel Combaudon, 69210 Fleurieux-sur-l'Arbresle"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/BArtPaints/"
+   ]
+  ],
+  "legal": "Plâtrerie · Peinture · Décoration · Revêtements"
+ }
+}
