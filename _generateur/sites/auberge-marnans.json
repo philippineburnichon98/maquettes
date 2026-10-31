@@ -1,0 +1,223 @@
+{
+ "slug": "auberge-marnans-bd3d11",
+ "title": "Une auberge à Marnans — Restaurant bistronomique et bar, Marnans (Isère)",
+ "description": "Une auberge à Marnans, restaurant de cuisine bistronomique traditionnelle et bar, place du Prieuré à Marnans : cuisine locale et colorée de Carole, plat du jour à midi en semaine, à la carte le soir et le week-end. Ouvert 7 jours sur 7.",
+ "brand": "Une auberge à Marnans",
+ "tagline": "Restaurant · Bar",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/0f8fd5_547c918fe3df4db5865fb559f5bc6148~mv2.png/v1/fit/w_720,h_222,al_c,q_85/img.png",
+  "height": 46
+ },
+ "theme": {
+  "look": "classic",
+  "paper": "#f8f4ec",
+  "paper2": "#efe6d6",
+  "ink": "#2a2420",
+  "muted": "#6b6158",
+  "accent": "#a4492b",
+  "accent2": "#843a22",
+  "gold": "#c79a4b",
+  "heroem": "#f6d39a",
+  "serif": "\"Playfair Display\",Georgia,serif",
+  "sans": "\"Lato\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33956305817\">09 56 30 58 17</a>",
+  "Ouvert 7 jours sur 7, midi et soir"
+ ],
+ "nav": [
+  [
+   "auberge",
+   "L'auberge"
+  ],
+  [
+   "formules",
+   "À table"
+  ],
+  [
+   "reserver",
+   "Réserver"
+  ],
+  [
+   "contact",
+   "Accès"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/0f8fd5_89f53f12571a4e19b5b4d436789a451c~mv2.jpg/v1/fill/w_1920,h_1000,al_c,q_85/img.jpg",
+  "eyebrow": "Restaurant · Bar · Marnans",
+  "title": "Une cuisine <em>locale et colorée</em>",
+  "lead": "Carole vous partage ses inspirations culinaires, place du Prieuré, au cœur de Marnans.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
+  ],
+  "cta2": [
+   "09 56 30 58 17",
+   "tel:+33956305817"
+  ]
+ },
+ "figures": [
+  [
+   "7j/7",
+   "midi et soir"
+  ],
+  [
+   "Midi",
+   "plat du jour en semaine"
+  ],
+  [
+   "Soir",
+   "à la carte"
+  ],
+  [
+   "Bar",
+   "et restaurant"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "auberge",
+   "eyebrow": "L'auberge",
+   "title": "Restaurant de cuisine <em class=\"it\">bistronomique traditionnelle</em>",
+   "img": "https://static.wixstatic.com/media/0f8fd5_e78db1f5490643ad83a8aa3b2e38430a~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Une auberge à Marnans",
+   "paras": [
+    "Avec une cuisine locale et colorée, Carole vous partage ses inspirations culinaires.",
+    "Restaurant et bar, place du Prieuré, à Marnans."
+   ],
+   "sign": "Carole",
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/0f8fd5_e33b375acc834245badb65176b561605~mv2.png/v1/fit/w_200,h_200,al_c,q_85/img.png",
+     "Terres de Berlioz"
+    ],
+    [
+     "https://static.wixstatic.com/media/0f8fd5_38306ad2fc10437db0ad65e57f04e50d~mv2.jpeg/v1/fit/w_400,h_200,al_c,q_85/img.jpg",
+     "Isère Tourisme"
+    ]
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "formules",
+   "dark": true,
+   "eyebrow": "À table",
+   "title": "Midi, soir <em class=\"it\">et week-end</em>",
+   "lead": "Ouverture du lundi au dimanche, midi et soir. Fermeture le mercredi midi en juillet et août.",
+   "items": [
+    [
+     "Plat du jour",
+     "À midi, en semaine."
+    ],
+    [
+     "À la carte le soir",
+     "Tous les soirs de la semaine."
+    ],
+    [
+     "À la carte le week-end",
+     "Le samedi et le dimanche, midi et soir."
+    ],
+    [
+     "Le bar",
+     "Restaurant et bar, au cœur du village."
+    ]
+   ]
+  },
+  {
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservation",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Ouvert du lundi au dimanche, midi et soir. Choisissez votre jour et votre créneau : l'auberge vous confirme la réservation.",
+   "hours": [
+    "12:00",
+    "12:15",
+    "12:30",
+    "12:45",
+    "13:00",
+    "13:15",
+    "13:30",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00"
+   ],
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "email": "uneaubergeamarnans@gmail.com",
+   "tel": "+33956305817",
+   "phone": "09 56 30 58 17",
+   "brand": "Une auberge à Marnans",
+   "max": 30,
+   "note": "En juillet et août, l'auberge est fermée le mercredi midi."
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Accès",
+   "title": "Place <em class=\"it\">du Prieuré</em>",
+   "text": "Retrouvez-nous aussi sur Terres de Berlioz, Isère Tourisme et TripAdvisor.",
+   "rows": [
+    [
+     "Adresse",
+     "2 place du Prieuré, 38980 Marnans"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33956305817\">09 56 30 58 17</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:uneaubergeamarnans@gmail.com\">uneaubergeamarnans@gmail.com</a>"
+    ],
+    [
+     "Horaires",
+     "Du lundi au dimanche, midi et soir<br>Fermé le mercredi midi en juillet et août"
+    ],
+    [
+     "Sur le web",
+     "<a href=\"https://terres-de-berlioz.com/restaurants/F6999125_une-auberge-a-marnans-marnans/\" target=\"_blank\" rel=\"noopener\">Terres de Berlioz</a> · <a href=\"https://www.tripadvisor.fr/Restaurant_Review-g2205492-d27979667-Reviews-Une_Auberge_A_Marnans-Marnans_Isere_Auvergne_Rhone_Alpes.html\" target=\"_blank\" rel=\"noopener\">TripAdvisor</a>"
+    ]
+   ],
+   "map_q": "2 Place du Prieuré, 38980 Marnans",
+   "cta": [
+    "Appeler l'auberge",
+    "tel:+33956305817"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Une auberge à Marnans, restaurant de cuisine bistronomique traditionnelle et bar, place du Prieuré.",
+  "contact": [
+   "<a href=\"tel:+33956305817\">09 56 30 58 17</a>",
+   "<a href=\"mailto:uneaubergeamarnans@gmail.com\">uneaubergeamarnans@gmail.com</a>",
+   "2 place du Prieuré, 38980 Marnans"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/profile.php?id=61560840284782"
+   ],
+   [
+    "instagram",
+    "https://www.instagram.com/uneaubergeamarnans/"
+   ]
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
