@@ -1,0 +1,222 @@
+{
+ "slug": "la-plaque-lyonnaise-f4c590",
+ "title": "La Plaque Lyonnaise — Plâtrier, plaquiste et peintre à Lyon",
+ "description": "La Plaque Lyonnaise, entrepreneur en plâtre qualifié à Lyon : installation de plaques de plâtre et bandes à joints, peinture. Premier rendez-vous et devis gratuits.",
+ "brand": "La Plaque Lyonnaise",
+ "tagline": "Plâtrerie · Plaques · Peinture",
+ "monogram": "PL",
+ "theme": {
+  "look": "center",
+  "paper": "#f6f6f4",
+  "paper2": "#e8e8e4",
+  "ink": "#1d2329",
+  "muted": "#5c636a",
+  "accent": "#1f5f8b",
+  "accent2": "#174a6c",
+  "gold": "#c9a227",
+  "heroem": "#ffd98a",
+  "serif": "\"Archivo\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33663820247\">06 63 82 02 47</a>",
+  "<a href=\"mailto:laplaquelyonnaise@gmail.com\">laplaquelyonnaise@gmail.com</a>"
+ ],
+ "nav": [
+  [
+   "a-propos",
+   "À propos"
+  ],
+  [
+   "services",
+   "Services"
+  ],
+  [
+   "projets",
+   "Projets"
+  ],
+  [
+   "devis",
+   "Devis"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/387a16_ddd25e6995814ef0ac3419838537e837~mv2.jpeg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+  "eyebrow": "Plâtrier · Plaquiste · Peintre à Lyon",
+  "title": "Un entrepreneur en plâtre <em>qualifié</em>",
+  "lead": "Que ce soit de grands projets ou des petites réparations, je fais tout, et aux tarifs les plus compétitifs.",
+  "cta1": [
+   "Obtenir un devis gratuit",
+   "#devis"
+  ],
+  "cta2": [
+   "06 63 82 02 47",
+   "tel:+33663820247"
+  ]
+ },
+ "figures": [
+  [
+   "15 ans",
+   "dans le métier"
+  ],
+  [
+   "2021",
+   "à mon compte"
+  ],
+  [
+   "1er",
+   "rendez-vous gratuit"
+  ],
+  [
+   "Lyon",
+   "et alentours"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "a-propos",
+   "eyebrow": "À propos de moi",
+   "title": "L'excellence <em class=\"it\">sinon rien</em>",
+   "img": "https://static.wixstatic.com/media/387a16_c3cdc499d2f145609359d84c24c8de5e~mv2.jpeg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "La Plaque Lyonnaise, chantier",
+   "paras": [
+    "Je travaille à mon compte depuis 2021, après 15 ans dans ce métier : plâtrier, plaquiste et peintre, avec une expérience étendue.",
+    "Peu importe pourquoi vous m'embauchez, je m'engage à donner 100 %."
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Mes services",
+   "title": "De grands projets <em class=\"it\">aux petites réparations</em>",
+   "lead": "Appelez-moi, le premier rendez-vous est gratuit !",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/387a16_da7f0f4bcf0c40d993a838abd4198b45~mv2.jpeg/v1/fill/w_900,h_650,al_c,q_85/img.jpg",
+     "kicker": "Efficace. Fiable. Un service d'exception",
+     "title": "Installation de plaques de plâtre et bandes à joints",
+     "paras": [
+      "Ma spécialité, à un prix très compétitif, sans compromis sur la finition. Contactez-moi pour en savoir plus."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/387a16_35012ade1a6840879ac70bdb02f4349e~mv2.jpeg/v1/fill/w_900,h_650,al_c,q_85/img.jpg",
+     "kicker": "Attention aux détails garantie",
+     "title": "Peintre",
+     "paras": [
+      "La peinture et d'autres services, à des tarifs compétitifs."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "projets",
+   "eyebrow": "Projets",
+   "title": "Derniers <em class=\"it\">projets</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/387a16_ddd25e6995814ef0ac3419838537e837~mv2.jpeg/v1/fill/w_1100,h_620,al_c,q_85/img.jpg",
+     "kicker": "Villefontaine",
+     "title": "Boutique Vapstore à Villefontaine",
+     "paras": [
+      "Un travail complexe de plâtre. Je fournis des résultats de qualité, dans les délais et le budget imposés."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/387a16_11436e99bd3a4dc3a29fa93dfbdf2b6f~mv2.jpeg/v1/fill/w_1100,h_620,al_c,q_85/img.jpg",
+     "kicker": "Annecy",
+     "title": "Chantier à Annecy",
+     "paras": [
+      "Au cours de ce projet, j'ai été très strict sur le choix des matériaux et l'empreinte carbone. Mon client souhaitait un résultat durable sur le plan économique et environnemental."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Obtenir un devis",
+   "title": "Des tarifs justes, <em class=\"it\">un service de qualité</em>",
+   "lead": "N'hésitez pas à me contacter pour des conseils et un devis gratuit.",
+   "side": [
+    "<a href=\"tel:+33663820247\" style=\"border-bottom:1px solid var(--gold)\">06 63 82 02 47</a>",
+    "<a href=\"mailto:laplaquelyonnaise@gmail.com\">laplaquelyonnaise@gmail.com</a>"
+   ],
+   "email": "laplaquelyonnaise@gmail.com",
+   "subject": "Demande de devis depuis le site",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Objet",
+     "full": true
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "La Plaque Lyonnaise, <em class=\"it\">à Lyon</em>",
+   "img": "https://static.wixstatic.com/media/387a16_f2702b50781645ed84e4106adfe18d95~mv2.jpeg/v1/fill/w_900,h_500,al_c,q_85/img.jpg",
+   "alt": "La Plaque Lyonnaise",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33663820247\">06 63 82 02 47</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:laplaquelyonnaise@gmail.com\">laplaquelyonnaise@gmail.com</a>"
+    ],
+    [
+     "Adresse",
+     "Lyon, France"
+    ]
+   ],
+   "cta": [
+    "Appeler",
+    "tel:+33663820247"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "La Plaque Lyonnaise, plâtrier, plaquiste et peintre à Lyon. Plaques de plâtre, bandes à joints, peinture.",
+  "contact": [
+   "<a href=\"tel:+33663820247\">06 63 82 02 47</a>",
+   "<a href=\"mailto:laplaquelyonnaise@gmail.com\">laplaquelyonnaise@gmail.com</a>",
+   "Lyon, France",
+   "<a href=\"https://t.snapchat.com/75xuiaEb\" target=\"_blank\" rel=\"noopener\">Snapchat</a>"
+  ],
+  "social": [
+   [
+    "instagram",
+    "https://instagram.com/la_plaque_lyonnaise"
+   ],
+   [
+    "facebook",
+    "https://www.facebook.com/profile.php?id=100084001591838"
+   ]
+  ],
+  "legal": "Plâtrerie · Plaques de plâtre · Peinture"
+ }
+}
