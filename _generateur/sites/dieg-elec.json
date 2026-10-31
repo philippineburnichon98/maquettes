@@ -1,0 +1,395 @@
+{
+ "slug": "dieg-elec-45454f",
+ "title": "DIEG'ELEC — Électricien à Capens : installation, rénovation, bornes de recharge, dépannage 7/7",
+ "description": "SARL DIEG'ELEC, électricien à Capens (31) : installation dans le neuf, rénovation, mise aux normes, bornes de recharge pour véhicules électriques, domotique, dépannage 7/7. De Toulouse Ouest et Muret à Saint-Gaudens, Tarbes, Auch, Foix, Nailloux. Devis gratuit.",
+ "brand": "DIEG'ELEC",
+ "tagline": "Électricien · Capens",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/daff34_69f3104a2b5a438e81cb211f71e07374~mv2.jpg/v1/fit/w_400,h_200,al_c,q_85/img.jpg",
+  "height": 52
+ },
+ "theme": {
+  "look": "framed",
+  "paper": "#f5f6f8",
+  "paper2": "#e6e9ef",
+  "ink": "#151b26",
+  "muted": "#596172",
+  "accent": "#1d4f91",
+  "accent2": "#163d70",
+  "gold": "#f2b705",
+  "heroem": "#ffd34d",
+  "serif": "\"Sora\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33608786656\">06 08 78 66 56</a>",
+  "<a href=\"mailto:diegelec31@gmail.com\">diegelec31@gmail.com</a>",
+  "Dépannage 7/7"
+ ],
+ "nav": [
+  [
+   "solutions",
+   "Solutions"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/daff34_4f21aa443aac4b2cac74517fe5f5ab1d~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_85/img.jpg",
+  "eyebrow": "Électricien · Particuliers et PME",
+  "title": "De vraies <em>solutions</em>",
+  "lead": "Neuf, rénovation, mise aux normes, bornes de recharge pour véhicules électriques et dépannage 7/7, entre Muret, Saint-Gaudens, Tarbes, Auch et Foix.",
+  "cta1": [
+   "Obtenir un devis gratuit",
+   "devis/"
+  ],
+  "cta2": [
+   "06 08 78 66 56",
+   "tel:+33608786656"
+  ]
+ },
+ "figures": [
+  [
+   "7/7",
+   "dépannage"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ],
+  [
+   "IRVE",
+   "bornes de recharge"
+  ],
+  [
+   "31",
+   "Capens"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "solutions",
+   "eyebrow": "DIEG'ELEC",
+   "title": "De vraies <em class=\"it\">solutions</em>",
+   "img": "https://static.wixstatic.com/media/daff34_579a1121687f41d990f422c462f20def~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Chantier DIEG'ELEC",
+   "paras": [
+    "En tant qu'entrepreneur professionnel, je propose mes services à mes clients particuliers et PME entre Muret et Saint-Gaudens, Tarbes, et d'Auch à Foix.",
+    "Vous avez un projet ou une idée en tête que vous souhaitez concrétiser ? DIEG'ELEC est là pour vous y aider. Contactez-nous, et découvrons ce que nous pouvons faire pour vous. Le devis est gratuit."
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/daff34_1f0afe4ab18b4e13a82beb8c64371ba9~mv2.png/v1/fit/w_400,h_250,al_c,q_85/img.png",
+     "Qualifelec"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "eyebrow": "Nos domaines",
+   "title": "Votre artisan électricien <em class=\"it\">à votre écoute</em>",
+   "lead": "Lors de la mise en place d'une borne de recharge pour un véhicule électrique, d'une construction ou de la rénovation d'un espace existant, l'installation électrique fait partie des éléments les plus importants. Pour des raisons de sécurité, confiez vos travaux électriques à un professionnel.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/daff34_c441e2491a4445c097d2de423b085a7d~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/img.jpg",
+     "title": "Installation et rénovation",
+     "paras": [
+      "Le choix des équipements, le respect des normes en vigueur, le raccordement des câbles aux tableaux : des connaissances qui ne s'improvisent pas."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/daff34_a28f617fb6af4b2ebef5a8c6f1571808~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/img.jpg",
+     "title": "Bornes de recharge (IRVE)",
+     "paras": [
+      "Installateur de bornes de recharge pour véhicules électriques, pour les particuliers et les PME."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/daff34_f6a97196d36c4b5ca9bb8c3ebc48df95~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/img.jpg",
+     "title": "Dépannage électrique",
+     "paras": [
+      "Intervention rapide et dépannage 7j/7."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/daff34_b8f63a37febc4c2582d700662f327c91~mv2.jpg/v1/fill/w_800,h_600,al_c,q_85/img.jpg",
+     "title": "Domotique",
+     "paras": [
+      "Gestion de l'habitation avec un smartphone, éclairage, prises."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "confiance",
+   "eyebrow": "Sécurité et confort",
+   "title": "Faites confiance <em class=\"it\">au savoir-faire</em>",
+   "img": "https://static.wixstatic.com/media/daff34_583ca8cbcf63460788404e22f1717530~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Tableau électrique, dépannage électrique",
+   "paras": [
+    "Pour votre sécurité, mais également pour le confort de votre foyer, faites confiance au savoir-faire et aux compétences de la société DIEG'ELEC."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "alarmes",
+   "eyebrow": "Alarmes sans fil",
+   "title": "Alarmes <em class=\"it\">sans fil</em> et domotique",
+   "paras": [
+    "Les marques que nous installons :"
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/daff34_649bd4cf8bd340239358300f56cb2a1d~mv2.jpg/v1/fit/w_400,h_250,al_c,q_85/img.jpg",
+     "Hager Witty"
+    ],
+    [
+     "https://static.wixstatic.com/media/daff34_75a7c6851d084085b6c351ef5e390b0b~mv2.png/v1/fit/w_400,h_250,al_c,q_85/img.png",
+     "Delta Dore"
+    ],
+    [
+     "https://static.wixstatic.com/media/daff34_a73ef855ce69450ab6d6ce8761ed753d~mv2.png/v1/fit/w_400,h_250,al_c,q_85/img.png",
+     "Somfy"
+    ],
+    [
+     "https://static.wixstatic.com/media/daff34_46085399332342c58d879f0586382a31~mv2.png/v1/fit/w_400,h_250,al_c,q_85/img.png",
+     "Schneider Electric"
+    ]
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "services",
+   "label": "Services",
+   "title": "Nos services",
+   "eyebrow": "DIEG'ELEC",
+   "lead": "La qualité, le prix et le service : nous sommes fiers de nous y tenir jour après jour.",
+   "img": "https://static.wixstatic.com/media/daff34_2d43e32cc04b43b0917b8fc072d41919~mv2.jpg/v1/fit/w_1200,h_900,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "services-l",
+     "eyebrow": "Nos services",
+     "title": "Trois critères : <em class=\"it\">qualité, prix, service</em>",
+     "lead": "DIEG'ELEC vous propose d'excellents services et nous veillons à répondre à tous vos besoins. Installation dans le neuf, rénovation de maisons, appartements, bureaux, installation de bornes de recharge pour véhicules électriques et dépannages 7/7.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/daff34_2d43e32cc04b43b0917b8fc072d41919~mv2.jpg/v1/fill/w_700,h_740,al_c,q_85/img.jpg",
+       "kicker": "Un service à vos besoins",
+       "title": "Installer"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/daff34_027d073e635a4a859beca20dba358ba2~mv2.jpg/v1/fill/w_700,h_740,al_c,q_85/img.jpg",
+       "kicker": "Satisfaction garantie",
+       "title": "Rénover",
+       "paras": [
+        "Rénovation de tableau électrique, éclairage, mise aux normes électriques."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/daff34_a28f617fb6af4b2ebef5a8c6f1571808~mv2.jpg/v1/fill/w_700,h_740,al_c,q_85/img.jpg",
+       "kicker": "Un savoir-faire",
+       "title": "Recharge pour véhicules électriques"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/12dfec54c92d4869b1d17ffb39e85310.jpg/v1/fill/w_700,h_740,al_c,q_85/img.jpg",
+       "kicker": "À votre service",
+       "title": "Dépanner 7/7",
+       "paras": [
+        "Dépannage de tableaux électriques, éclairage, prises."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zone-d-intervention",
+   "label": "Zone d'intervention",
+   "title": "Zone d'intervention",
+   "eyebrow": "DIEG'ELEC",
+   "lead": "De Toulouse Ouest et Muret jusqu'à Saint-Gaudens et Tarbes, et d'Auch à Foix.",
+   "img": "https://static.wixstatic.com/media/daff34_82a3fde514d747078290c6ab0db15013~mv2.jpg/v1/fit/w_1200,h_900,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "zone",
+     "eyebrow": "Secteur",
+     "title": "Nous intervenons <em class=\"it\">dans votre secteur</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/daff34_82a3fde514d747078290c6ab0db15013~mv2.jpg/v1/fit/w_1400,h_700,al_c,q_85/img.jpg",
+       "contain": true,
+       "alt": "Secteur d'intervention"
+      }
+     ],
+     "chips": [
+      "Toulouse Ouest",
+      "Muret",
+      "Saint-Sulpice-sur-Lèze",
+      "Longages",
+      "Boussens",
+      "Saint-Gaudens",
+      "Tarbes",
+      "Samatan",
+      "Auch",
+      "Foix",
+      "Nailloux"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "devis",
+   "label": "Obtenir un devis",
+   "title": "Obtenir un devis",
+   "eyebrow": "Devis gratuit",
+   "lead": "Électricien à votre écoute, pour des travaux correspondant à vos besoins, à un prix raisonnable.",
+   "img": "https://static.wixstatic.com/media/daff34_29d1424832044d78b9a28167eb9ae001~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Obtenir un devis",
+     "title": "Obtenir un devis <em class=\"it\">gratuitement</em>",
+     "lead": "Merci de donner un maximum d'informations pour vous servir au mieux. Nous pourrons alors échanger ensemble pour trouver la meilleure solution.",
+     "side": [
+      "<a href=\"tel:+33608786656\" style=\"border-bottom:1px solid var(--gold)\">06 08 78 66 56</a>",
+      "<a href=\"mailto:diegelec31@gmail.com\">diegelec31@gmail.com</a>",
+      "31410 Capens"
+     ],
+     "email": "diegelec31@gmail.com",
+     "subject": "Demande de devis depuis le site",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Adresse"
+      },
+      {
+       "label": "Objet",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "DIEG'ELEC",
+   "lead": "Renseignements personnalisés pour un premier contact.",
+   "img": "https://static.wixstatic.com/media/daff34_4f21aa443aac4b2cac74517fe5f5ab1d~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Contact",
+     "title": "Où sommes-<em class=\"it\">nous ?</em>",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33608786656\">06 08 78 66 56</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:diegelec31@gmail.com\">diegelec31@gmail.com</a>"
+      ],
+      [
+       "Adresse",
+       "31410 Capens"
+      ],
+      [
+       "SIRET",
+       "980 519 474 00012"
+      ]
+     ],
+     "map_q": "31410 Capens",
+     "cta": [
+      "Appeler DIEG'ELEC",
+      "tel:+33608786656"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "devis-c",
+     "eyebrow": "Obtenir un devis",
+     "title": "Obtenir un devis <em class=\"it\">gratuitement</em>",
+     "lead": "Merci de donner un maximum d'informations pour vous servir au mieux. Nous pourrons alors échanger ensemble pour trouver la meilleure solution.",
+     "side": [
+      "<a href=\"tel:+33608786656\" style=\"border-bottom:1px solid var(--gold)\">06 08 78 66 56</a>",
+      "<a href=\"mailto:diegelec31@gmail.com\">diegelec31@gmail.com</a>",
+      "31410 Capens"
+     ],
+     "email": "diegelec31@gmail.com",
+     "subject": "Demande de devis depuis le site",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Adresse"
+      },
+      {
+       "label": "Objet",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "SARL DIEG'ELEC, électricien à Capens : neuf, rénovation, mise aux normes, bornes de recharge, domotique, dépannage 7/7.",
+  "contact": [
+   "<a href=\"tel:+33608786656\">06 08 78 66 56</a>",
+   "<a href=\"mailto:diegelec31@gmail.com\">diegelec31@gmail.com</a>",
+   "31410 Capens"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/DIEGELEC"
+   ]
+  ],
+  "legal": "SARL DIEG'ELEC · SIRET 980 519 474 00012"
+ }
+}
