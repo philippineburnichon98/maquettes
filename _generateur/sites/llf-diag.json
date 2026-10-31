@@ -1,0 +1,474 @@
+{
+ "slug": "llf-diag-0ad89b",
+ "title": "LLF DIAG — Diagnostic immobilier à Marseille et dans les Bouches-du-Rhône",
+ "description": "LLF DIAG réalise vos diagnostics immobiliers obligatoires pour la vente ou la location : DPE, amiante, plomb, électricité, gaz, termites, Loi Carrez, Loi Boutin, ERP. Intervention express, rapport en 24 h, Marseille et Bouches-du-Rhône.",
+ "brand": "LLF DIAG",
+ "tagline": "Diagnostic immobilier",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/5d0e6d_f3111e1ab3e245819a5fbc4df919390f~mv2.png/v1/fit/w_320,h_200,al_c,q_85/img.png",
+  "height": 48
+ },
+ "theme": {
+  "look": "editorial",
+  "paper": "#f7f7f5",
+  "paper2": "#eceae4",
+  "ink": "#17212b",
+  "muted": "#5a6470",
+  "accent": "#0f6e8c",
+  "accent2": "#0b566e",
+  "gold": "#e0a43a",
+  "heroem": "#ffd28a",
+  "serif": "\"Manrope\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33629633168\">06 29 63 31 68</a>",
+  "<a href=\"mailto:llf.diag@gmail.com\">llf.diag@gmail.com</a>",
+  "8h30 – 20h · 7j/7"
+ ],
+ "nav": [
+  [
+   "bienvenue",
+   "Bienvenue"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/5d0e6d_60e88a1b4beb4f89916d578e2c46b636~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_85/img.jpg",
+  "eyebrow": "Diagnostic immobilier · Bouches-du-Rhône",
+  "title": "Vos diagnostics immobiliers, <em>rapport en 24 h</em>",
+  "lead": "Pour la vente ou la location de vos appartements, maisons ou commerces, à Marseille et dans les Bouches-du-Rhône.",
+  "cta1": [
+   "Prendre rendez-vous",
+   "contact/"
+  ],
+  "cta2": [
+   "06 29 63 31 68",
+   "tel:+33629633168"
+  ]
+ },
+ "figures": [
+  [
+   "24 h",
+   "pour votre rapport"
+  ],
+  [
+   "6j/7",
+   "SAV à votre disposition"
+  ],
+  [
+   "7j/7",
+   "de 8h30 à 20h"
+  ],
+  [
+   "25 €",
+   "l'ERP / ENSA"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue sur notre site",
+   "title": "Vos diagnostics <em class=\"it\">obligatoires</em>",
+   "img": "https://static.wixstatic.com/media/11062b_f6bec34858fa456ab712aa4018880375~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "LLF DIAG, diagnostic immobilier",
+   "paras": [
+    "LLF DIAG réalise vos diagnostics immobiliers obligatoires pour la vente ou la location de vos appartements, maisons ou commerces.",
+    "Une date d'intervention express, votre rapport en 24 h, un SAV à votre disposition 6 jours sur 7."
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "diagnostics",
+   "dark": true,
+   "eyebrow": "Les diagnostics",
+   "title": "Tous vos diagnostics <em class=\"it\">en une visite</em>",
+   "lead": "Gaz, amiante, plomb, électricité, ERP / ERNMT (état des risques et pollutions), DPE, termites, Loi Carrez, Loi Boutin.",
+   "items": [
+    [
+     "Accompagnement et conseils",
+     "Obtenez votre prix en quelques minutes."
+    ],
+    [
+     "Un expert certifié",
+     "Profitez de notre disponibilité de 8h30 à 20h00, 7 jours sur 7."
+    ],
+    [
+     "Rapport en 24 h",
+     "Une date d'intervention express et votre rapport sous 24 heures."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "zone",
+   "eyebrow": "Zone d'intervention",
+   "title": "Marseille <em class=\"it\">et les Bouches-du-Rhône</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/5d0e6d_5d4f12fac57b476a9db1a0947914c28c~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+     "title": "Les Bouches-du-Rhône",
+     "paras": [
+      "Nous intervenons sur l'ensemble des Bouches-du-Rhône."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5d0e6d_60e88a1b4beb4f89916d578e2c46b636~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+     "title": "Marseille",
+     "paras": [
+      "Intervention sur Marseille : logements, maisons individuelles et commerces."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5d0e6d_9046c1d7c8b64671a87a9c3914e954d0~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+     "title": "Les immeubles anciens",
+     "paras": [
+      "Une grande connaissance de la particularité des immeubles anciens."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "LLF DIAG",
+   "title": "En <em class=\"it\">images</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/5d0e6d_e3a9dae7938e4d3ca747cbd31d2de74b~mv2.png/v1/fit/w_800,h_800,al_c,q_85/img.png",
+     "full": "https://static.wixstatic.com/media/5d0e6d_e3a9dae7938e4d3ca747cbd31d2de74b~mv2.png/v1/fit/w_1800,h_1800,al_c,q_85/img.png",
+     "alt": "LLF DIAG, diagnostic immobilier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/5d0e6d_da93c14ac8d845808088e0bff890a6a9~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/5d0e6d_da93c14ac8d845808088e0bff890a6a9~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "LLF DIAG, diagnostic immobilier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/5d0e6d_131023fa308943999984e797b7279c40~mv2.png/v1/fit/w_800,h_800,al_c,q_85/img.png",
+     "full": "https://static.wixstatic.com/media/5d0e6d_131023fa308943999984e797b7279c40~mv2.png/v1/fit/w_1800,h_1800,al_c,q_85/img.png",
+     "alt": "LLF DIAG, diagnostic immobilier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/8bb438_1821368fde7d4eb1afed09b1fdb53532~mv2_d_3000_1946_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/8bb438_1821368fde7d4eb1afed09b1fdb53532~mv2_d_3000_1946_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "LLF DIAG, diagnostic immobilier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/5d0e6d_c32c41f71a8d4658afa5bf7a8f83d33b~mv2.webp/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/5d0e6d_c32c41f71a8d4658afa5bf7a8f83d33b~mv2.webp/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "LLF DIAG, diagnostic immobilier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/5d0e6d_7b130fe9975c4364aa2a65218ee58fc4~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/5d0e6d_7b130fe9975c4364aa2a65218ee58fc4~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "LLF DIAG, diagnostic immobilier"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "services-a",
+   "eyebrow": "Nos services",
+   "title": "Durées <em class=\"it\">et tarifs</em>",
+   "lead": "Tarif selon le type du bien. Prenez rendez-vous par téléphone ou par e-mail.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/5d0e6d_c32c41f71a8d4658afa5bf7a8f83d33b~mv2.webp/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+     "kicker": "2 h · selon le type du bien",
+     "title": "Diagnostic immobilier",
+     "paras": [
+      "Diagnostics vente et location."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5d0e6d_4c42e26af963440c8274943dcd3f448d~mv2.png/v1/fill/w_900,h_600,al_c,q_85/img.png",
+     "kicker": "1 h · selon le type du bien",
+     "title": "DPE",
+     "paras": [
+      "Diagnostic de performance énergétique."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5d0e6d_a1b45e5551894fbbbb7169d58cd166ea~mv2.png/v1/fill/w_900,h_600,al_c,q_85/img.png",
+     "kicker": "1 h · selon le type du bien",
+     "title": "Diagnostic amiante",
+     "paras": [
+      "Amiante vente, D.A.P.P."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5d0e6d_ab654255f4534af2a07b248f616fc718~mv2.png/v1/fill/w_900,h_600,al_c,q_85/img.png",
+     "kicker": "15 min · 25 €",
+     "title": "ERP / ENSA",
+     "paras": [
+      "État des risques et pollutions."
+     ]
+    }
+   ],
+   "note": "<a href=\"services/\" style=\"border-bottom:1px solid var(--gold)\">Voir tous les services</a>"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contactez-nous",
+   "title": "Prendre <em class=\"it\">rendez-vous</em>",
+   "img": "https://static.wixstatic.com/media/11062b_4ff4e8758f9b420794b9d985a802d9f0~mv2.jpg/v1/fill/w_900,h_520,al_c,q_85/img.jpg",
+   "alt": "Diagnostic immobilier",
+   "text": "Disponibles de 8h30 à 20h00, 7 jours sur 7.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33629633168\">06 29 63 31 68</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:llf.diag@gmail.com\">llf.diag@gmail.com</a>"
+    ],
+    [
+     "Adresse",
+     "88 avenue de Mazargues, Marseille"
+    ],
+    [
+     "Zone",
+     "Marseille et les Bouches-du-Rhône"
+    ]
+   ],
+   "map_q": "88 Avenue de Mazargues, 13008 Marseille",
+   "cta": [
+    "Appeler LLF DIAG",
+    "tel:+33629633168"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos",
+   "eyebrow": "LLF DIAG",
+   "lead": "Qu'est-ce que le diagnostic immobilier ?",
+   "img": "https://static.wixstatic.com/media/5d0e6d_9046c1d7c8b64671a87a9c3914e954d0~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "diagnostic",
+     "eyebrow": "LLF DIAG",
+     "title": "Qu'est-ce que <em class=\"it\">le diagnostic immobilier ?</em>",
+     "img": "https://static.wixstatic.com/media/5d0e6d_da93c14ac8d845808088e0bff890a6a9~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Diagnostic immobilier",
+     "paras": [
+      "Le diagnostic immobilier est un état à établir avant la mise en vente d'un bâtiment d'habitation.",
+      "Il porte obligatoirement sur l'état physique et fonctionnel du bien, la nature et la qualité des matériaux, la performance énergétique, la sécurité incendie, les estimations de la valeur financière et les rénovations à effectuer.",
+      "Les frais sont à la charge du propriétaire. Le dossier est annexé aux actes et promesses de vente."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "acheter",
+   "label": "Acheter",
+   "title": "Acheter",
+   "eyebrow": "LLF DIAG",
+   "lead": "Les différents aspects traités lors d'un diagnostic immobilier.",
+   "img": "https://static.wixstatic.com/media/5d0e6d_7b130fe9975c4364aa2a65218ee58fc4~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "aspects",
+     "eyebrow": "Acheter",
+     "title": "Les aspects traités <em class=\"it\">lors d'un diagnostic</em>",
+     "lead": "Le contenu du diagnostic dépend de la date de construction et de l'emplacement du bien. Diagnostics obligatoires : DPE, état des risques naturels et technologiques (ERNT), gaz, électricité, plomb, termites, amiante.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/a712adecd5974906827e4e960b8d3052.jpg/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+       "title": "Immeubles en copropriétés ou monopropriétés"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/47984d8b72893e02859e3d00c4a37341.jpg/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+       "title": "Immeubles anciens avant 1949"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_aab6ab1d3e6646a989a26297428ed281~mv2.jpeg/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+       "title": "Maisons individuelles en monopropriétés ou en copropriétés"
+      }
+     ],
+     "note": "Source : <a href=\"http://www.diagnostiqueurs-de-france.fr\" target=\"_blank\" rel=\"noopener\">diagnostiqueurs-de-france.fr</a> · Prendre un rendez-vous : <a href=\"tel:+33629633168\">06 29 63 31 68</a>"
+    }
+   ]
+  },
+  {
+   "slug": "services",
+   "label": "Réservation en ligne",
+   "title": "Nos services",
+   "eyebrow": "Réservation",
+   "lead": "Durées et tarifs : selon le type du bien.",
+   "img": "https://static.wixstatic.com/media/11062b_f6bec34858fa456ab712aa4018880375~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "services-l",
+     "eyebrow": "Nos services",
+     "title": "Choisissez <em class=\"it\">votre diagnostic</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/5d0e6d_c32c41f71a8d4658afa5bf7a8f83d33b~mv2.webp/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+       "kicker": "2 h · selon le type du bien",
+       "title": "Diagnostic immobilier",
+       "paras": [
+        "Diagnostics vente et location."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/5d0e6d_4c42e26af963440c8274943dcd3f448d~mv2.png/v1/fill/w_900,h_600,al_c,q_85/img.png",
+       "kicker": "1 h · selon le type du bien",
+       "title": "DPE",
+       "paras": [
+        "Diagnostic de performance énergétique."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/5d0e6d_a1b45e5551894fbbbb7169d58cd166ea~mv2.png/v1/fill/w_900,h_600,al_c,q_85/img.png",
+       "kicker": "1 h · selon le type du bien",
+       "title": "Diagnostic amiante",
+       "paras": [
+        "Amiante vente, D.A.P.P."
+       ]
+      },
+      {
+       "kicker": "1 h · selon le type du bien",
+       "title": "Loi Carrez"
+      },
+      {
+       "kicker": "1 h · selon le type du bien",
+       "title": "Loi Boutin"
+      },
+      {
+       "kicker": "1 h · selon le type du bien",
+       "title": "Diagnostic termites"
+      },
+      {
+       "kicker": "1 h · selon le type du bien",
+       "title": "Diagnostic électricité"
+      },
+      {
+       "kicker": "1 h · selon le type du bien",
+       "title": "Diagnostic gaz"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/5d0e6d_ab654255f4534af2a07b248f616fc718~mv2.png/v1/fill/w_900,h_600,al_c,q_85/img.png",
+       "kicker": "15 min · 25 €",
+       "title": "ERP / ENSA",
+       "paras": [
+        "État des risques et pollutions."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/5d0e6d_7b130fe9975c4364aa2a65218ee58fc4~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85/img.jpg",
+       "kicker": "En agence ou en centre de formation",
+       "title": "Formation des agents immobiliers",
+       "paras": [
+        "Déclinaison et explication des différents diagnostics obligatoires."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "rdv",
+     "eyebrow": "Contactez-nous",
+     "title": "Prendre <em class=\"it\">rendez-vous</em>",
+     "img": "https://static.wixstatic.com/media/5d0e6d_df7d4f0545504d54a8045b547a3a3b10~mv2.jpg/v1/fill/w_900,h_520,al_c,q_85/img.jpg",
+     "alt": "Carte de visite LLF DIAG",
+     "text": "Disponibles de 8h30 à 20h00, 7 jours sur 7.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33629633168\">06 29 63 31 68</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:llf.diag@gmail.com\">llf.diag@gmail.com</a>"
+      ],
+      [
+       "Adresse",
+       "88 avenue de Mazargues, Marseille"
+      ],
+      [
+       "Zone",
+       "Marseille et les Bouches-du-Rhône"
+      ]
+     ],
+     "map_q": "88 Avenue de Mazargues, 13008 Marseille",
+     "cta": [
+      "Appeler LLF DIAG",
+      "tel:+33629633168"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Nous contacter",
+   "title": "Contactez-nous",
+   "eyebrow": "LLF DIAG",
+   "lead": "88 avenue de Mazargues, Marseille.",
+   "img": "https://static.wixstatic.com/media/5d0e6d_5d4f12fac57b476a9db1a0947914c28c~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contactez-nous",
+     "title": "Prendre <em class=\"it\">rendez-vous</em>",
+     "img": "https://static.wixstatic.com/media/5d0e6d_df7d4f0545504d54a8045b547a3a3b10~mv2.jpg/v1/fill/w_900,h_520,al_c,q_85/img.jpg",
+     "alt": "Carte de visite LLF DIAG",
+     "text": "Disponibles de 8h30 à 20h00, 7 jours sur 7.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33629633168\">06 29 63 31 68</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:llf.diag@gmail.com\">llf.diag@gmail.com</a>"
+      ],
+      [
+       "Adresse",
+       "88 avenue de Mazargues, Marseille"
+      ],
+      [
+       "Zone",
+       "Marseille et les Bouches-du-Rhône"
+      ]
+     ],
+     "map_q": "88 Avenue de Mazargues, 13008 Marseille",
+     "cta": [
+      "Appeler LLF DIAG",
+      "tel:+33629633168"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "LLF DIAG, diagnostics immobiliers obligatoires pour la vente et la location à Marseille et dans les Bouches-du-Rhône.",
+  "contact": [
+   "<a href=\"tel:+33629633168\">06 29 63 31 68</a>",
+   "<a href=\"mailto:llf.diag@gmail.com\">llf.diag@gmail.com</a>",
+   "88 avenue de Mazargues, Marseille"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/profile.php?id=100083390856719"
+   ],
+   [
+    "instagram",
+    "https://www.instagram.com/llfdiag/"
+   ]
+  ],
+  "legal": "Diagnostic immobilier · Vente et location"
+ }
+}
