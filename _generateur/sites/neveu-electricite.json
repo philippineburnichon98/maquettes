@@ -1,0 +1,346 @@
+{
+ "slug": "neveu-electricite-ccc17b",
+ "title": "Électricité Philippe Neveu — Électricien à Craponne, à votre service à Lyon depuis 2010",
+ "description": "Électricité Philippe Neveu, professionnel de la rénovation à Craponne (69290) : mise en sécurité, rapport Consuel pour professionnels et particuliers, pose d'éclairages.",
+ "brand": "Électricité Philippe Neveu",
+ "tagline": "Professionnel de la rénovation",
+ "monogram": "PN",
+ "theme": {
+  "look": "split",
+  "paper": "#f4f6f8",
+  "paper2": "#e3e8ee",
+  "ink": "#121a24",
+  "muted": "#56616e",
+  "accent": "#0f5c8c",
+  "accent2": "#0b466b",
+  "gold": "#f2b31b",
+  "heroem": "#ffd25e",
+  "serif": "\"Outfit\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33629368346\">06 29 36 83 46</a>",
+  "<a href=\"mailto:pneveu@sfr.fr\">pneveu@sfr.fr</a>"
+ ],
+ "nav": [
+  [
+   "bienvenue",
+   "Bienvenue"
+  ],
+  [
+   "services",
+   "Mes services"
+  ],
+  [
+   "realisations",
+   "Réalisations"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/7aceeea3e50a47fcb4fa7f219a2a0fe0.jpg/v1/fill/w_1920,h_1100,al_c,q_85/img.jpg",
+  "eyebrow": "Électricien à Craponne · Lyon",
+  "title": "Professionnel <em>de la rénovation</em>",
+  "lead": "Fiabilité. Efficacité. Transparence.",
+  "cta1": [
+   "Demander un devis",
+   "#contact"
+  ],
+  "cta2": [
+   "06 29 36 83 46",
+   "tel:+33629368346"
+  ]
+ },
+ "figures": [
+  [
+   "2010",
+   "à votre service à Lyon depuis"
+  ],
+  [
+   "25",
+   "photos de chantiers"
+  ],
+  [
+   "Pros",
+   "et particuliers"
+  ],
+  [
+   "Lyon",
+   "Craponne (69290)"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue",
+   "title": "En savoir plus <em class=\"it\">sur nos services</em>",
+   "img": "https://static.wixstatic.com/media/d01166_a1369bd38fe7477e899f55129b55155e~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "Électricité Philippe Neveu, chantier",
+   "paras": [
+    "Découvrez en quoi nous pouvons vous aider.",
+    "ÉLECTRICITÉ PHILIPPE NEVEU est à votre service à Lyon depuis 2010 et met à votre disposition son expérience et ses compétences pour réparer et programmer beaucoup d'installations diverses selon vos besoins et vos envies."
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Mes services",
+   "title": "Mise en sécurité <em class=\"it\">et éclairage</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/425014d58197494bb47a0738af2c5a8e.jpg/v1/fill/w_900,h_650,al_c,q_85/img.jpg",
+     "kicker": "Professionnels et particuliers",
+     "title": "Mise en sécurité",
+     "paras": [
+      "Rapport Consuel professionnels et particuliers."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/70418d9c570a4f13b659f3cfe0c13264.jpg/v1/fill/w_900,h_650,al_c,q_85/img.jpg",
+     "kicker": "Professionnel et ponctuel",
+     "title": "Pose d'éclairages",
+     "paras": [
+      "Professionnel et ponctuel."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "dark": true,
+   "eyebrow": "Notre façon de travailler",
+   "title": "Fiabilité. Efficacité. <em class=\"it\">Transparence.</em>",
+   "items": [
+    [
+     "Fiabilité",
+     "Une expérience au service de vos installations depuis 2010."
+    ],
+    [
+     "Efficacité",
+     "Réparer et programmer beaucoup d'installations diverses, selon vos besoins et vos envies."
+    ],
+    [
+     "Transparence",
+     "Pour les professionnels comme pour les particuliers."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Réalisations",
+   "title": "Nos chantiers <em class=\"it\">en images</em>",
+   "lead": "Quelques installations réalisées par Électricité Philippe Neveu.",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_4669d657676945fcab59b55765c22378~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_4669d657676945fcab59b55765c22378~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_5cc75ad8b4374fc4a55bf02ca7d1a898~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_5cc75ad8b4374fc4a55bf02ca7d1a898~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_4c8327214c9a41be8d65379133c1efbf~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_4c8327214c9a41be8d65379133c1efbf~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_a8010fa9657540a8989600dce9474369~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_a8010fa9657540a8989600dce9474369~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_aeace9739aa440889358f8839a15d31e~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_aeace9739aa440889358f8839a15d31e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_ce95af468581415796f50cd6c3730cd4~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_ce95af468581415796f50cd6c3730cd4~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_1fe2382847994dfa9afeb15a60ab19d0~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_1fe2382847994dfa9afeb15a60ab19d0~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_d9b5dfe50ad04ef18a8c7a9f39303d98~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_d9b5dfe50ad04ef18a8c7a9f39303d98~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_720f00ee2ba64e5fb2c761dfdf02e428~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_720f00ee2ba64e5fb2c761dfdf02e428~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_f85679215b774864b1124225c51846d4~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_f85679215b774864b1124225c51846d4~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_e25ad34c80234f68921eccfdbd5ae96d~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_e25ad34c80234f68921eccfdbd5ae96d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_69c379a22637493b90c1af758308a40b~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_69c379a22637493b90c1af758308a40b~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_c607f30df39d406fbf71cef1ad97b009~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_c607f30df39d406fbf71cef1ad97b009~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_5f5fccd060144564bfcda15179f6f57d~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_5f5fccd060144564bfcda15179f6f57d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_bafd070023974b3ea3c531367949ff96~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_bafd070023974b3ea3c531367949ff96~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_1b8ca3d114e840e8a8ea70734ded7ebf~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_1b8ca3d114e840e8a8ea70734ded7ebf~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_b2bdc452fb9249c2b989661f1e453a5f~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_b2bdc452fb9249c2b989661f1e453a5f~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_1f482c700b6b499a8e54c2b1ab9ae993~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_1f482c700b6b499a8e54c2b1ab9ae993~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_d9e57b978e6c47f789571fb9af34c4a9~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_d9e57b978e6c47f789571fb9af34c4a9~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_91b68d838a224183b6d60df736eb6612~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_91b68d838a224183b6d60df736eb6612~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_ffa09bb9dd5e4b738a2b0eb2ad7904f8~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_ffa09bb9dd5e4b738a2b0eb2ad7904f8~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_9a7968eda29a404db47fcdf2bd26796c~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_9a7968eda29a404db47fcdf2bd26796c~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_55cdc13b2150490ebe99f67d42cc3a37~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_55cdc13b2150490ebe99f67d42cc3a37~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_62fa069971be4f91b7c74d67b422fa0a~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_62fa069971be4f91b7c74d67b422fa0a~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/d01166_d348d6cb2130459f96ff6b415d99a8ce~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/d01166_d348d6cb2130459f96ff6b415d99a8ce~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+     "alt": "Chantier d'Électricité Philippe Neveu"
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "contact",
+   "eyebrow": "Contactez-nous !",
+   "title": "Un projet, <em class=\"it\">une mise en sécurité ?</em>",
+   "lead": "Décrivez votre besoin : mise en sécurité, rapport Consuel, éclairage…",
+   "side": [
+    "<a href=\"tel:+33629368346\">06 29 36 83 46</a>",
+    "<a href=\"mailto:pneveu@sfr.fr\">pneveu@sfr.fr</a>",
+    "Craponne, 69290 France"
+   ],
+   "email": "pneveu@sfr.fr",
+   "subject": "Demande de devis depuis le site",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Objet",
+     "full": true
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Coordonnées",
+   "title": "Électricité Philippe Neveu, <em class=\"it\">à Craponne</em>",
+   "img": "https://static.wixstatic.com/media/d01166_4669d657676945fcab59b55765c22378~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Électricité Philippe Neveu",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33629368346\">06 29 36 83 46</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:pneveu@sfr.fr\">pneveu@sfr.fr</a>"
+    ],
+    [
+     "Adresse",
+     "Craponne, 69290 France"
+    ],
+    [
+     "Secteur",
+     "Lyon"
+    ]
+   ],
+   "cta": [
+    "Appeler",
+    "tel:+33629368346"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Électricité Philippe Neveu, professionnel de la rénovation à Craponne : mise en sécurité, rapport Consuel, pose d'éclairages.",
+  "contact": [
+   "<a href=\"tel:+33629368346\">06 29 36 83 46</a>",
+   "<a href=\"mailto:pneveu@sfr.fr\">pneveu@sfr.fr</a>",
+   "Craponne, 69290 France"
+  ],
+  "legal": "Électricité Philippe Neveu · Électricien à Craponne (69290)"
+ }
+}
