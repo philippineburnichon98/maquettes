@@ -1,0 +1,684 @@
+{
+ "slug": "celine-courmont-2e8147",
+ "title": "Céline Courmont — Peintre en bâtiment et en décors à Beaujeu (Beaujolais)",
+ "description": "Céline Courmont, peintre en bâtiment et peintre décoratrice à Beaujeu : peintures et enduits naturels faits maison, décors peints, patines, dorure, papiers-peints.",
+ "brand": "Céline Courmont",
+ "tagline": "Peintre en bâtiment et en décors",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/1ff647_4121f65ca0334a3aba83cd7900d205a4~mv2.png/v1/fit/w_700,h_700,al_c,q_85/img.jpg",
+  "height": 52
+ },
+ "theme": {
+  "look": "editorial",
+  "paper": "#f8f4ee",
+  "paper2": "#eee6da",
+  "ink": "#2b2420",
+  "muted": "#6f645b",
+  "accent": "#a5552f",
+  "accent2": "#843f20",
+  "gold": "#b89b5e",
+  "heroem": "#f2d2b6",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Karla\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300&family=Karla:wght@300;400;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33695042220\">06 95 04 22 20</a>",
+  "<a href=\"mailto:celinecourmont@yahoo.fr\">celinecourmont@yahoo.fr</a>"
+ ],
+ "nav_extra": [
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/1ff647_6def88c6a0a5435e93a5fa67fd192b35~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Beaujeu · Beaujolais · Depuis 2006",
+  "title": "Décoration, conseil, <em>couleur, naturel</em>",
+  "lead": "Peintre en bâtiment et en décors : je fabrique mes peintures et enduits naturels, de la préparation à la finition.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "Mes réalisations",
+   "peinture-en-btiment/"
+  ]
+ },
+ "figures": [
+  [
+   "2006",
+   "peintre en bâtiment depuis"
+  ],
+  [
+   "2017",
+   "création de l'entreprise"
+  ],
+  [
+   "2",
+   "diplômes Institut Art et Métier"
+  ],
+  [
+   "8",
+   "compétences"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Peintre décoratrice",
+   "title": "Peintures et enduits <em class=\"it\">naturels</em>",
+   "img": "https://static.wixstatic.com/media/1ff647_723cd47be41649ddaf56c7e08b4dbbdb~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Céline Courmont, peintre décoratrice",
+   "paras": [
+    "Je vous propose mes peintures et enduits naturels pour votre confort de vie.",
+    "Je vous propose des services de grande qualité, de la préparation à la finition."
+   ],
+   "sign": "Céline Courmont",
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/1ff647_cb257c058d7a419992a81cd5018e7258~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Céline Courmont"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "rubriques",
+   "eyebrow": "Découvrir",
+   "title": "Mon travail <em class=\"it\">en images</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/1ff647_c661fe392ed045f0ab8c4b70dec1c9e4.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "title": "L'entreprise et ses compétences",
+     "paras": [
+      "Mon parcours, mes diplômes et mes huit savoir-faire."
+     ],
+     "link": [
+      "Découvrir",
+      "presentation/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/1ff647_3578e0e5fa374c15b48d1004e9eaef95~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "title": "Peintures & enduits naturels",
+     "paras": [
+      "Argile, craie, chaux, lait, farine, riz, colle de peau, pigments, eau…"
+     ],
+     "link": [
+      "Pourquoi le naturel ?",
+      "peinture-enduits-naturels/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/1ff647_a5d9dd585ae4433f9638f9fa3175b940~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "title": "Peinture en bâtiment",
+     "paras": [
+      "Nouvelle ambiance, nouvelles couleurs. Et le béton ciré."
+     ],
+     "link": [
+      "Les chantiers",
+      "peinture-en-btiment/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/1ff647_bcffe34e8df543f1bddf57f451b6f564~mv2_d_3000_4000_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "title": "Décors peints",
+     "paras": [
+      "Trompe-l'œil, imitations de matière, dorure."
+     ],
+     "link": [
+      "Les décors",
+      "trompe-loeil/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/1ff647_77ec35d00c4c453cbf32a11fdd788285~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "title": "Peinture de staff",
+     "paras": [
+      "De la préparation des fonds à la finition."
+     ],
+     "link": [
+      "Me contacter",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "email": "celinecourmont@yahoo.fr",
+   "subject": "Demande de devis depuis le site de Céline Courmont",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Commune du chantier"
+    },
+    {
+     "label": "Votre projet",
+     "type": "textarea",
+     "required": true
+    }
+   ],
+   "id": "devis",
+   "eyebrow": "Demander un devis",
+   "title": "Parlons <em class=\"it\">de votre projet</em>",
+   "lead": "Peinture, enduits, décors, papiers-peints : décrivez votre projet, je vous recontacte.",
+   "submit": "Envoyer"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Je suis à l'écoute <em class=\"it\">de vos projets</em>",
+   "text": "N'hésitez plus à me contacter !",
+   "img": "https://static.wixstatic.com/media/1ff647_a2838272330c4ec5b0aea69e1835513c~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "rows": [
+    [
+     "Mobile",
+     "<a href=\"tel:+33695042220\">06 95 04 22 20</a>"
+    ],
+    [
+     "Courriel",
+     "<a href=\"mailto:celinecourmont@yahoo.fr\">celinecourmont@yahoo.fr</a>"
+    ],
+    [
+     "Adresse",
+     "152, rue Philippe Burnot<br>69430 Beaujeu"
+    ],
+    [
+     "Zone",
+     "De Mâcon au nord de Lyon, de Roanne à Bourg-en-Bresse"
+    ]
+   ],
+   "map_q": "152 rue Philippe Burnot 69430 Beaujeu",
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "presentation",
+   "label": "L'entreprise",
+   "title": "L'entreprise et ses compétences",
+   "h1": "L'entreprise <em>et ses compétences</em>",
+   "eyebrow": "Mon entreprise",
+   "lead": "Peintre en bâtiment depuis 2006, à mon compte depuis 2017.",
+   "img": "https://static.wixstatic.com/media/1ff647_6def88c6a0a5435e93a5fa67fd192b35~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "entreprise",
+     "eyebrow": "Mon entreprise",
+     "title": "Peintre en bâtiment <em class=\"it\">depuis 2006</em>",
+     "img": "https://static.wixstatic.com/media/1ff647_723cd47be41649ddaf56c7e08b4dbbdb~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Céline Courmont",
+     "paras": [
+      "Je suis peintre en bâtiment depuis 2006. J'ai voyagé durant 9 ans, notamment avec une année vécue à l'étranger, pour me former et apprendre mon métier.",
+      "Après l'obtention de mon diplôme de peintre-décoratrice, je décide de me mettre à mon compte et crée mon entreprise en 2017.",
+      "Je vous propose des services de grande qualité, de la préparation à la finition. J'apporte un grand soin dans mon travail mais aussi vis-à-vis de la protection de votre habitat, m'engageant à réduire au maximum la gêne occasionnée par les travaux et les poussières en suspension.",
+      "Ma zone d'activité principale s'étend de Mâcon au nord de Lyon et de Roanne à Bourg-en-Bresse. Bien sûr, je suis dans la capacité de répondre à des chantiers plus éloignés."
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "parcours",
+     "eyebrow": "Parcours",
+     "title": "Diplômes <em class=\"it\">et étapes</em>",
+     "lead": "CV et attestations disponibles sur demande.",
+     "items": [
+      {
+       "when": "2006",
+       "who": "Peintre en bâtiment",
+       "text": "Neuf années de voyage et de formation, dont une année à l'étranger."
+      },
+      {
+       "when": "Juillet 2008",
+       "who": "CAP",
+       "text": "Obtention du CAP Peintre – applicateur de revêtements."
+      },
+      {
+       "when": "Février 2015",
+       "who": "Institut Art et Métier (Paris)",
+       "text": "Diplômée peintre décoratrice en panoramiques."
+      },
+      {
+       "when": "Juillet 2015",
+       "who": "Institut Art et Métier (Paris)",
+       "text": "Diplômée peintre décoratrice en matiérage."
+      },
+      {
+       "when": "2017",
+       "who": "Création de l'entreprise",
+       "text": "Installation à mon compte, à Beaujeu."
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "competences",
+     "eyebrow": "Mes compétences",
+     "title": "Huit <em class=\"it\">savoir-faire</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_a04ea1bd8eaf48edb88d25f13814d4c4~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Peintures naturelles",
+       "paras": [
+        "Fabrication et pose de peintures composées de produits naturels. Pour tous ceux qui prennent soin de leur santé et de leur intérieur."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_2e3f2b5eb15349ba97b3db67a45e3192~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Papiers-peints",
+       "paras": [
+        "Pose de papiers-peints écologiques (ou non) à la colle à la farine. Pour tous ceux qui aiment les motifs, qu'ils soient classiques, traditionnels ou tendance."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_d8dc7374d4544b70aa15a8c9334a5e92~mv2_d_6000_4000_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Décors",
+       "paras": [
+        "Création et restauration de décors. Pour tous ceux qui veulent de l'originalité dans leur vie, ou ceux qui ont chez eux un patrimoine riche de sens."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_e982e5c489de4c708f69a37c80c7bda3~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Enduits décoratifs naturels",
+       "paras": [
+        "Fabrication et pose d'enduits décoratifs composés de produits naturels. Pour tous ceux qui aiment la décoration en épaisseur, en finesse ou en rusticité."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_87ba838178304ab491291ae67423446b~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Parements",
+       "paras": [
+        "Pose de parements en pierre reconstituée (imitations pierres, briques…) de fabrication française. Pour tous ceux qui sont amoureux de la matière brute et de la maçonnerie."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_d778ea9fa225496ba0459aaa6c70340e~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Sols souples",
+       "paras": [
+        "Pose de sols souples, écologiques ou non. Pour tous ceux qui veulent du changement pour leurs petits pieds !"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_2b06f60738cd401880cccb7c4adcff68~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Patines et imitations",
+       "paras": [
+        "Fabrication et pose de patines et de peintures composées de produits naturels. Pour vieillir ou tromper l'œil par des imitations de matière."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_5a5498bb92d545b39ede76dc4cab74e3~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/img.jpg",
+       "title": "Peintures industrielles",
+       "paras": [
+        "Pose de peintures industrielles de qualité allemande. Pour tous ceux qui ont du mal à imaginer une décoration sans pétrochimie et COV (Composés Organiques Volatils)."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Je suis à l'écoute <em class=\"it\">de vos projets</em>",
+     "text": "N'hésitez plus à me contacter !",
+     "img": "https://static.wixstatic.com/media/1ff647_a2838272330c4ec5b0aea69e1835513c~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "rows": [
+      [
+       "Mobile",
+       "<a href=\"tel:+33695042220\">06 95 04 22 20</a>"
+      ],
+      [
+       "Courriel",
+       "<a href=\"mailto:celinecourmont@yahoo.fr\">celinecourmont@yahoo.fr</a>"
+      ],
+      [
+       "Adresse",
+       "152, rue Philippe Burnot<br>69430 Beaujeu"
+      ],
+      [
+       "Zone",
+       "De Mâcon au nord de Lyon, de Roanne à Bourg-en-Bresse"
+      ]
+     ],
+     "map_q": "152 rue Philippe Burnot 69430 Beaujeu",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "peinture-enduits-naturels",
+   "label": "Peintures naturelles",
+   "title": "Peintures & enduits naturels",
+   "h1": "Peintures & enduits <em>naturels</em>",
+   "eyebrow": "Faits maison",
+   "lead": "Sans résine ni produits issus de la pétrochimie.",
+   "img": "https://static.wixstatic.com/media/1ff647_c293c487d62d4fda8f3c3879547389d5~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "naturel",
+     "eyebrow": "Naturel ? Comment ça ?",
+     "title": "Des peintures <em class=\"it\">faites maison</em>",
+     "img": "https://static.wixstatic.com/media/1ff647_1b0f31259e1744d192e022d23c5ac63c~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Ocre",
+     "paras": [
+      "Sensibilisée aux questions de l'environnement et à l'impact des produits sur notre santé, je me suis naturellement (c'est le cas de le dire !) tournée vers la fabrication de mes peintures et enduits.",
+      "Ainsi, mes peintures et enduits faits maison ne contiennent aucune résine et produits issus de la pétrochimie. Autant que possible, je me fournis chez des producteurs locaux ou français.",
+      "Pour qu'un produit manufacturé soit dit « naturel », il faut que celui-ci soit composé de 95 % de produits naturels.",
+      "Argile, craie, chaux, lait, farine, riz, colle de peau, pigments, eau… sont autant de matières premières dont je me sers pour la préparation de mes enduits et peintures."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "pourquoi",
+     "eyebrow": "Pourquoi des peintures naturelles ?",
+     "title": "Retrouvons <em class=\"it\">des intérieurs sains !</em>",
+     "img": "https://static.wixstatic.com/media/1ff647_638fee6e32394203af84e9800c1e66da~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Peinture naturelle",
+     "paras": [
+      "Nous savons que notre environnement a une importance fondamentale sur notre vie (qualité et confort notamment).",
+      "Pendant des années, nous avons cru que la chimie réglerait tous les problèmes (agriculture, bâtiment…) alors que des méthodes naturelles, éprouvées par des générations, existaient et ont été perdues car l'industrie a permis une facilité… Or ces pratiques n'ont, loin s'en faut, pas épargné notre environnement. Et notamment nos intérieurs, où l'air est souvent plus pollué que l'air extérieur.",
+      "Je me suis donc lancée dans la (re)découverte des peintures – et des enduits – utilisés par l'humanité depuis toujours. Peinture à l'argile, peinture à la craie, béton égyptien, lasure à la bière, peinture à l'œuf, enduit à la terre… Les recettes sont innombrables."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "rendu",
+     "dark": true,
+     "eyebrow": "Un rendu incomparable",
+     "title": "Un vrai <em class=\"it\">savoir-faire</em>",
+     "items": [
+      [
+       "Le geste",
+       "Le travail des peintures et des enduits naturels nécessite un vrai savoir-faire en comparaison d'une peinture industrielle. Oublié le rouleau, ici on recherche un coup de brosse harmonieux."
+      ],
+      [
+       "La profondeur",
+       "Des teintes moins agressives, et ainsi retrouver une vraie profondeur et un charme oublié."
+      ],
+      [
+       "L'odeur",
+       "Fini aussi les odeurs puissantes de peinture : ce sera désormais une odeur de chaux ou de lait qui embaumera l'air du chantier."
+      ],
+      [
+       "Et les déchets ?",
+       "À l'inverse des peintures industrielles, les peintures naturelles ne nécessitent pas un recyclage compliqué : on peut en effet les évacuer directement dans les toilettes ou même les mettre au compost !"
+      ]
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Matières <em class=\"it\">naturelles</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_c293c487d62d4fda8f3c3879547389d5~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_c293c487d62d4fda8f3c3879547389d5~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Peintures et enduits naturels"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_1b0f31259e1744d192e022d23c5ac63c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_1b0f31259e1744d192e022d23c5ac63c~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Peintures et enduits naturels"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_638fee6e32394203af84e9800c1e66da~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_638fee6e32394203af84e9800c1e66da~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Peintures et enduits naturels"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_b2cc4028da99482fac6ce261a45ba438~mv2_d_2576_1445_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_b2cc4028da99482fac6ce261a45ba438~mv2_d_2576_1445_s_2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Peintures et enduits naturels"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "peinture-en-btiment",
+   "label": "Peinture en bâtiment",
+   "title": "Peinture en bâtiment",
+   "h1": "Peinture <em>en bâtiment</em>",
+   "eyebrow": "Chantiers réalisés",
+   "lead": "Nouvelle ambiance, nouvelles couleurs. De la préparation des fonds à la finition.",
+   "img": "https://static.wixstatic.com/media/1ff647_85ee04cfc9f345a990bb47fa158126ca~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "batiment",
+     "eyebrow": "Peinture en bâtiment",
+     "title": "Nouvelle ambiance, <em class=\"it\">nouvelles couleurs</em>",
+     "lead": "Peinture naturelle, industrielle ou à effets, enduit décoratif ou papier-peint… Nous trouverons ensemble ce qui vous correspond le mieux.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_85ee04cfc9f345a990bb47fa158126ca~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+       "title": "Papier peint"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_23e1cdf333a64c44b7fd8c3163c2ea90~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+       "title": "Chaux ferrée"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_f0f42f18c20a4ac6a4c5020f4844280a~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+       "title": "Peinture à la craie"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_ee3a8149f2034cc5b4173c9ca0f8f616~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+       "title": "Peinture industrielle satinée"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_f343d1d6a73642fba547a1c2aed25a23~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+       "title": "Peinture à la craie"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_ad23dc6cb3ab40b08d2bf33348e40289~mv2_d_4217_3514_s_4_2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+       "title": "Béton ciré"
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "email": "celinecourmont@yahoo.fr",
+     "subject": "Demande de devis depuis le site de Céline Courmont",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Commune du chantier"
+      },
+      {
+       "label": "Votre projet",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "id": "devis",
+     "eyebrow": "Demander un devis",
+     "title": "Parlons <em class=\"it\">de votre projet</em>",
+     "lead": "Peinture, enduits, décors, papiers-peints : décrivez votre projet, je vous recontacte.",
+     "submit": "Envoyer"
+    }
+   ]
+  },
+  {
+   "slug": "trompe-loeil",
+   "label": "Décors peints",
+   "title": "Décors peints, imitations et dorure",
+   "h1": "Décors <em>peints</em>",
+   "eyebrow": "Chantiers réalisés",
+   "lead": "Embellir votre quotidien est mon plaisir.",
+   "img": "https://static.wixstatic.com/media/1ff647_164d292e918c43a39fb08b4bef7c9512~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "decors",
+     "eyebrow": "Les décors peints",
+     "title": "Tout ce que vous pouvez imaginer, <em class=\"it\">je peux le peindre</em>",
+     "img": "https://static.wixstatic.com/media/1ff647_28ca1bf284bc4475bcf6363e92cade38~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Décor peint",
+     "paras": [
+      "Une ambiance, une envie, le décor peint permet une évasion vers un lieu, connu ou non, un souvenir, un moment historique, une histoire, une chanson…",
+      "Embellir votre quotidien est mon plaisir."
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "galerie-decors",
+     "eyebrow": "Décors peints",
+     "title": "Trompe-l'œil <em class=\"it\">et décors</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_164d292e918c43a39fb08b4bef7c9512~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_164d292e918c43a39fb08b4bef7c9512~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_28ca1bf284bc4475bcf6363e92cade38~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_28ca1bf284bc4475bcf6363e92cade38~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_db14bd50bab9432ab52e3488a0ae0249~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_db14bd50bab9432ab52e3488a0ae0249~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_911df74739294e07a22d2e4ab65ed953.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_911df74739294e07a22d2e4ab65ed953.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_1e61dc7458934ba2a92b9878936f6e1a.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_1e61dc7458934ba2a92b9878936f6e1a.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_6f38187dfec846a49965d0dcf003c7d9.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_6f38187dfec846a49965d0dcf003c7d9.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_255a3e0368ed4ea6af6a1ee73b6014e3.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_255a3e0368ed4ea6af6a1ee73b6014e3.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/1ff647_6b4840a107e94a5b9603d004730fe3b5.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/1ff647_6b4840a107e94a5b9603d004730fe3b5.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Décor peint par Céline Courmont"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "imitations",
+     "eyebrow": "Imitation de matière et dorure",
+     "title": "Faux bois, faux marbre, <em class=\"it\">fausse pierre, dorure</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_764269e2a58144bea3764824b6b3f336~mv2_d_3480_2176_s_2.png/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "title": "Faux bois"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_33118ff4969648b284815cea31fcffd8~mv2_d_3480_2176_s_2.png/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "title": "Faux marbre"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_cc559a2f768e414fa7444339128213c1~mv2_d_3480_2176_s_2.png/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "title": "Fausse pierre"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1ff647_33331cfde9a54590ad8a7ec6d786c686~mv2_d_6325_3514_s_4_2.png/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "title": "Dorure",
+       "paras": [
+        "Dorure à la feuille d'or ou de cuivre."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "email": "celinecourmont@yahoo.fr",
+     "subject": "Demande de devis depuis le site de Céline Courmont",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Commune du chantier"
+      },
+      {
+       "label": "Votre projet",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "id": "devis",
+     "eyebrow": "Demander un devis",
+     "title": "Parlons <em class=\"it\">de votre projet</em>",
+     "lead": "Peinture, enduits, décors, papiers-peints : décrivez votre projet, je vous recontacte.",
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Céline Courmont, peintre en bâtiment et en décors à Beaujeu. Peintures et enduits naturels, de Mâcon au nord de Lyon et de Roanne à Bourg-en-Bresse.",
+  "contact": [
+   "<a href=\"tel:+33695042220\">06 95 04 22 20</a>",
+   "<a href=\"mailto:celinecourmont@yahoo.fr\">celinecourmont@yahoo.fr</a>",
+   "152, rue Philippe Burnot, 69430 Beaujeu"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/peinturecourmont"
+   ]
+  ]
+ }
+}
