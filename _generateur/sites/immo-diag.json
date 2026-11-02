@@ -1,0 +1,1089 @@
+{
+ "slug": "immo-diag-2960be",
+ "title": "IMMO'DIAG — Diagnostic immobilier dans les Landes (Soustons, Dax, Capbreton)",
+ "description": "IMMO'DIAG, diagnostiqueur immobilier à Soustons : DPE, amiante, plomb, termites, gaz, électricité, Carrez, Boutin, ERNMT. Certifié QUALIXPERT, adhérent FIDI.",
+ "brand": "IMMO'DIAG",
+ "tagline": "Diagnostic immobilier · Landes",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/529298_393a9221a8c34bf4bae96cf55344b770~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+  "height": 46
+ },
+ "theme": {
+  "look": "split",
+  "paper": "#f4f7f6",
+  "paper2": "#e3ebe9",
+  "ink": "#122624",
+  "muted": "#53625f",
+  "accent": "#16726a",
+  "accent2": "#0f5751",
+  "gold": "#e3a33b",
+  "heroem": "#ffd48a",
+  "serif": "\"Manrope\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33769686734\">07 69 68 67 34</a>",
+  "<a href=\"mailto:contact@immodiag.pro\">contact@immodiag.pro</a>",
+  "Du lundi au samedi, 9h – 20h"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/529298_ab026261fb0041e08688e4f993ccb2a6~mv2_d_4928_3264_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+  "eyebrow": "Diagnostic immobilier · Landes · Vente et location",
+  "title": "Un diagnostiqueur sérieux, <em>réactif, disponible</em>",
+  "lead": "DPE, termites, gaz, électricité, amiante, plomb, loi Carrez, loi Boutin, ERNMT : vos diagnostics immobiliers dans les meilleurs délais.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "07 69 68 67 34",
+   "tel:+33769686734"
+  ]
+ },
+ "figures": [
+  [
+   "2017",
+   "création d'IMMO'DIAG"
+  ],
+  [
+   "10",
+   "diagnostics réalisés"
+  ],
+  [
+   "6",
+   "certifications QUALIXPERT"
+  ],
+  [
+   "9h–20h",
+   "du lundi au samedi"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "societe",
+   "eyebrow": "Notre société",
+   "title": "Vos diagnostics <em class=\"it\">dans les Landes</em>",
+   "img": "https://static.wixstatic.com/media/529298_11a8a714608848b4a62e11d06b9c8028~mv2_d_5184_3456_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "IMMO'DIAG",
+   "paras": [
+    "IMMO'DIAG, société de diagnostic immobilier localisée dans le département des Landes (Nouvelle-Aquitaine).",
+    "Nous proposons de réaliser vos diagnostics immobiliers dans les meilleurs délais et à des tarifs compétitifs. Nous sommes à votre écoute pour répondre à vos questions et vos besoins concernant la réalisation de vos diagnostics.",
+    "Disponibles du lundi au samedi, nous vous répondons de 9h00 à 20h00."
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/529298_645081f8bb5843cbbbeadbf1ab1b9546~mv2_d_2480_1669_s_2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "QUALIXPERT"
+    ],
+    [
+     "https://static.wixstatic.com/media/529298_ecc21349c0e94fd0be1e437cd0edf942~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "FIDI"
+    ],
+    [
+     "https://static.wixstatic.com/media/529298_9aab577504184860bf7bc9f755640ee9~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "XLandes"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "diagnostics",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "title": "DPE, termites, gaz, électricité, <em class=\"it\">amiante, plomb…</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/529298_77afea3862da40db94e6bf871230ae57~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "DPE",
+     "paras": [
+      "Diagnostic de performance énergétique"
+     ],
+     "link": [
+      "En savoir plus",
+      "dpe/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_7243e56695eb4b21b054ced08be70b97~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "Termites",
+     "paras": [
+      "L'état relatif à la présence de termites"
+     ],
+     "link": [
+      "En savoir plus",
+      "termites/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_8088c2020b314b1ca0742265e52f7c67~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "Amiante",
+     "paras": [
+      "L'état mentionnant la présence ou l'absence de MPCA"
+     ],
+     "link": [
+      "En savoir plus",
+      "amiante/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_c78ea311d0e54f73a2779ba48067a4f1~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "Plomb",
+     "paras": [
+      "Le constat de risque d'exposition au plomb"
+     ],
+     "link": [
+      "En savoir plus",
+      "plomb/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_24caa51f88c14e0987169f0aa2f7189c~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "ERNMT",
+     "paras": [
+      "L'état des risques naturels, miniers et technologiques"
+     ],
+     "link": [
+      "En savoir plus",
+      "ernmt/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_7778954667af46288b6be5e84763e9f6~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "Électricité",
+     "paras": [
+      "L'état de l'installation intérieure d'électricité"
+     ],
+     "link": [
+      "En savoir plus",
+      "electricite/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_089935d592ef4a87b84de00d4d62243f~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "Gaz",
+     "paras": [
+      "L'état de l'installation intérieure de gaz"
+     ],
+     "link": [
+      "En savoir plus",
+      "gaz/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_74b6fdaebf254eef9ad577b2687a3a87~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "title": "Loi Carrez",
+     "paras": [
+      "Diagnostic loi Carrez"
+     ],
+     "link": [
+      "En savoir plus",
+      "carrez/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "situations",
+   "eyebrow": "Quels diagnostics ? Quelles situations ?",
+   "title": "Pour la vente <em class=\"it\">et pour la location</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/529298_45d0dc47181449c5bd3b7cc167f23852~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "contain": true,
+     "title": "Pour la vente"
+    },
+    {
+     "img": "https://static.wixstatic.com/media/529298_3dad34b82c3d4ed6938af8643daace06~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "contain": true,
+     "title": "Pour la location"
+    }
+   ],
+   "note": "* Sous réserve que l'installation électrique et/ou gaz soit installée depuis plus de 15 ans. ** Sous réserve que le bâtiment soit dans une zone couverte par arrêté préfectoral. *** Sous réserve que le bien objet de la vente soit collectif."
+  },
+  {
+   "kind": "blocks",
+   "id": "actus",
+   "eyebrow": "Infos et actus",
+   "title": "Nos <em class=\"it\">informations</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/529298_79895d9cd4c34410a470f26cf3f8ce3f~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "kicker": "2 oct. 2017 · Lionel Maugain (60 Millions de consommateurs)",
+     "title": "Radon : trois mille morts par an dans l'indifférence",
+     "paras": [
+      "L'impact de ce gaz radioactif sur la santé des Français vient d'être revu à la hausse."
+     ],
+     "link": [
+      "Lire l'article",
+      "https://immodiag.wixsite.com/immodiag/single-post/2017/10/02/radon-trois-mille-morts-par-an-dans-l-e2-80-99indiff-c3-a9rence"
+     ]
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "services",
+   "label": "Services",
+   "title": "Nos services",
+   "h1": "Nos <em>services</em>",
+   "eyebrow": "Diagnostics immobiliers",
+   "lead": "Nous répondons à toutes vos questions dans les meilleurs délais.",
+   "img": "https://static.wixstatic.com/media/529298_c8381ce0e7a94ad09ceaada2fc64081d.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "liste",
+     "eyebrow": "Dix diagnostics",
+     "title": "Vente, location, <em class=\"it\">copropriété</em>",
+     "items": [
+      [
+       "DDT : Dossier de Diagnostic Technique",
+       "Le Dossier de Diagnostic Technique immobilier ou le DDT est un dossier regroupant plusieurs diagnostics immobiliers en fonction de l'année de construction, de la situation (vente ou location), la situation géographique du bien…",
+       "https://static.wixstatic.com/media/529298_09577faf9c80406587a118625b4e1cb8~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "DPE : Diagnostic de performance énergétique",
+       "DPE signifie Diagnostic de Performance Énergétique. Il s'agit d'une étude de la consommation en énergie et de l'émission de gaz à effet de serre d'un bâtiment ou partie de bâtiment.",
+       "https://static.wixstatic.com/media/529298_612a966a6cc044c7af18518caa2fec5d~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "Termites : L'état relatif à la présence de termites",
+       "L'état relatif à la présence de termites consiste à contrôler la présence ou non de termites dans un logement. Cette expertise identifie le type de termites en cause, les indices d'infestations des autres agents de dégradation biologique du bois et les parties concernées par les dégâts.",
+       "https://static.wixstatic.com/media/529298_9e2444d94cc2498099508de996502e45~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "Amiante : L'état mentionnant la présence ou l'absence de MPCA",
+       "L'amiante a été utilisée dans de très nombreux matériaux et produits du bâtiment en raison de ses propriétés uniques. Cependant l'exposition à la fibre d'amiante est extrêmement dangereuse. Elle est considérée comme la première cause de mortalité professionnelle et deuxième dans les maladies professionnelles.",
+       "https://static.wixstatic.com/media/529298_c39519295a374547a67c321e5d36f98f~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "Plomb : Le constat de risque d'exposition au plomb",
+       "Le CREP, Constat de Risque d'Exposition au Plomb, a été mis en place par les pouvoirs publics pour sensibiliser et protéger la population vulnérable sur le risque d'exposition des peintures contenant du plomb.",
+       "https://static.wixstatic.com/media/529298_5fa04384847e408c98122cdaf8961d18~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "ERNMT : L'état des risques naturels, miniers et technologiques",
+       "L'ERNMT, l'État des Risques Naturels, Miniers et Technologiques, permet d'informer les acquéreurs ou locataires sur les risques naturels, miniers ou technologiques d'une parcelle ou d'un bien immobilier.",
+       "https://static.wixstatic.com/media/529298_314a170c50304a3f93da761efb80ba1d~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ]
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "liste2",
+     "eyebrow": "Et aussi",
+     "title": "Installations <em class=\"it\">et surfaces</em>",
+     "items": [
+      [
+       "Électricité : L'état de l'installation intérieure d'électricité",
+       "Le diagnostic électrique ou l'état de l'installation intérieure d'électricité permet d'évaluer les risques pouvant porter atteinte à la sécurité des personnes.",
+       "https://static.wixstatic.com/media/529298_32b14dafd1054547b6c6de90669a9c20~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "Gaz : L'état de l'installation intérieure de gaz",
+       "Le diagnostic gaz ou l'état de l'installation intérieure de gaz permet d'évaluer les risques pouvant porter atteinte à la sécurité des personnes.",
+       "https://static.wixstatic.com/media/529298_314c9af756654950ad193a6fcddcb118~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "Loi Carrez : Diagnostic loi Carrez",
+       "La loi Carrez a été mise en place pour protéger les acquéreurs de biens immobiliers en copropriété contre les erreurs de mesurage des parties privatives.",
+       "https://static.wixstatic.com/media/529298_8830e427d8f34b08a7b0f29994e33191~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ],
+      [
+       "Loi Boutin : Diagnostic loi Boutin",
+       "La loi Boutin a été mise en place pour protéger les locataires et lutter contre les exclusions. La loi Boutin stipule que « le contrat de location précise la surface habitable de la chose louée ».",
+       "https://static.wixstatic.com/media/529298_713aeb829b2a4a28acd26006a4d84e09~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "fiches",
+     "eyebrow": "En savoir plus",
+     "title": "Le détail <em class=\"it\">de chaque diagnostic</em>",
+     "items": [
+      {
+       "title": "DDT",
+       "paras": [
+        "Dossier de Diagnostic Technique"
+       ],
+       "link": [
+        "En savoir plus",
+        "../ddt/"
+       ]
+      },
+      {
+       "title": "DPE",
+       "paras": [
+        "Diagnostic de performance énergétique"
+       ],
+       "link": [
+        "En savoir plus",
+        "../dpe/"
+       ]
+      },
+      {
+       "title": "Termites",
+       "paras": [
+        "L'état relatif à la présence de termites"
+       ],
+       "link": [
+        "En savoir plus",
+        "../termites/"
+       ]
+      },
+      {
+       "title": "Amiante",
+       "paras": [
+        "L'état mentionnant la présence ou l'absence de MPCA"
+       ],
+       "link": [
+        "En savoir plus",
+        "../amiante/"
+       ]
+      },
+      {
+       "title": "Plomb",
+       "paras": [
+        "Le constat de risque d'exposition au plomb"
+       ],
+       "link": [
+        "En savoir plus",
+        "../plomb/"
+       ]
+      },
+      {
+       "title": "ERNMT",
+       "paras": [
+        "L'état des risques naturels, miniers et technologiques"
+       ],
+       "link": [
+        "En savoir plus",
+        "../ernmt/"
+       ]
+      },
+      {
+       "title": "Électricité",
+       "paras": [
+        "L'état de l'installation intérieure d'électricité"
+       ],
+       "link": [
+        "En savoir plus",
+        "../electricite/"
+       ]
+      },
+      {
+       "title": "Gaz",
+       "paras": [
+        "L'état de l'installation intérieure de gaz"
+       ],
+       "link": [
+        "En savoir plus",
+        "../gaz/"
+       ]
+      },
+      {
+       "title": "Loi Carrez",
+       "paras": [
+        "Diagnostic loi Carrez"
+       ],
+       "link": [
+        "En savoir plus",
+        "../carrez/"
+       ]
+      },
+      {
+       "title": "Loi Boutin",
+       "paras": [
+        "Diagnostic loi Boutin"
+       ],
+       "link": [
+        "En savoir plus",
+        "../boutin/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos",
+   "h1": "À <em>propos</em>",
+   "eyebrow": "Diagnostiqueur immobilier",
+   "lead": "Sébastien Loustau, IMMO'DIAG.",
+   "img": "https://static.wixstatic.com/media/529298_2ddb54e574c54bd3ba7af61fde62f580~mv2_d_3008_2000_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "societe",
+     "eyebrow": "La société",
+     "title": "Créée en avril 2017 <em class=\"it\">dans les Landes</em>",
+     "img": "https://static.wixstatic.com/media/529298_2ddb54e574c54bd3ba7af61fde62f580~mv2_d_3008_2000_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "paras": [
+      "IMMO'DIAG a été créée en avril 2017, afin d'apporter une expertise immobilière sérieuse, fiable et réactive au marché des Landes.",
+      "Soucieuse d'apporter compétences, indépendance et responsabilité, elle est également adhérente de la Fédération Interprofessionnelle du Diagnostic Immobilier.",
+      "Originaire des Landes, le choix d'une implantation dans le Sud-Ouest s'est présenté comme une évidence pour le gérant. La société souhaite apporter proximité, confiance, disponibilité et sérieux à ses clients et ses collaborateurs.",
+      "La société a obtenu ses certifications dans les domaines du plomb, amiante, DPE, gaz, électricité, termites auprès de l'organisme certificateur QUALIXPERT en fin d'année 2016."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/529298_645081f8bb5843cbbbeadbf1ab1b9546~mv2_d_2480_1669_s_2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "QUALIXPERT"
+      ],
+      [
+       "https://static.wixstatic.com/media/529298_ecc21349c0e94fd0be1e437cd0edf942~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "FIDI"
+      ],
+      [
+       "https://static.wixstatic.com/media/529298_9aab577504184860bf7bc9f755640ee9~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "XLandes"
+      ]
+     ]
+    },
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "Le diagnostiqueur",
+     "title": "Sébastien <em class=\"it\">Loustau</em>",
+     "lead": "Après plusieurs mois de formation au sein de l'organisme ODI Formation à Bordeaux, j'ai obtenu mes certifications en DPE, électricité, gaz, termites, amiante, plomb auprès du centre de certification QUALIXPERT.",
+     "people": [
+      {
+       "name": "Sébastien Loustau",
+       "role": "Diagnostiqueur immobilier, gérant",
+       "img": "https://static.wixstatic.com/media/529298_5621ce75a6ff45d88a46283282b93d77~mv2_d_2342_3682_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "pos": "50% 15%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Devis & contact",
+   "title": "Demande de devis et contact",
+   "h1": "Demande <em>de devis</em>",
+   "eyebrow": "Contact",
+   "lead": "Nous répondons à toutes vos questions dans les meilleurs délais.",
+   "img": "https://static.wixstatic.com/media/529298_0f51bd9a8d40451392856951af2843ae~mv2_d_3008_2000_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Demande de devis",
+     "title": "Votre devis <em class=\"it\">de diagnostics</em>",
+     "lead": "Indiquez le bien et la situation : nous revenons vers vous rapidement.",
+     "email": "contact@immodiag.pro",
+     "subject": "Demande de devis depuis le site IMMO'DIAG",
+     "side": [
+      "<a href=\"tel:+33769686734\">07 69 68 67 34</a>",
+      "<a href=\"mailto:contact@immodiag.pro\">contact@immodiag.pro</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Adresse du bien",
+       "full": true
+      },
+      {
+       "label": "Situation",
+       "type": "select",
+       "options": [
+        "Vente",
+        "Location"
+       ]
+      },
+      {
+       "label": "Diagnostics souhaités",
+       "type": "checks",
+       "options": [
+        "DDT",
+        "DPE",
+        "Termites",
+        "Amiante",
+        "Plomb",
+        "ERNMT",
+        "Électricité",
+        "Gaz",
+        "Loi Carrez",
+        "Loi Boutin"
+       ]
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Coordonnées",
+     "title": "IMMO'DIAG <em class=\"it\">à Soustons</em>",
+     "img": "https://static.wixstatic.com/media/529298_271f7f95773d451592d591e89b84879a~mv2_d_5472_3648_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "rows": [
+      [
+       "Siège social",
+       "4 lotissement Clos du Mora<br>40140 Soustons"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33769686734\">07 69 68 67 34</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@immodiag.pro\">contact@immodiag.pro</a>"
+      ],
+      [
+       "Disponibilité",
+       "Du lundi au samedi, de 9h00 à 20h00"
+      ]
+     ],
+     "map_q": "4 lotissement Clos du Mora 40140 Soustons",
+     "cta": [
+      "Appeler",
+      "tel:+33769686734"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ddt",
+   "hidden": true,
+   "title": "DDT : Dossier de Diagnostic Technique",
+   "h1": "DDT <em>· Dossier de Diagnostic Technique</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Le Dossier de Diagnostic Technique immobilier ou le DDT est un dossier regroupant plusieurs diagnostics immobiliers en fonction de l'année de construction, de la situation (vente ou location), la situation géographique du bien…",
+   "img": "https://static.wixstatic.com/media/529298_deab723e558147a39f033ab6f16ab667~mv2_d_2309_1299_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "DDT",
+     "title": "Dossier de Diagnostic Technique",
+     "items": [
+      {
+       "title": "Pourquoi un DDT ?",
+       "paras": [
+        "Vous avez décidé de vendre ? D'acheter ? Ou bien de louer un bien immobilier ? Savez-vous que chaque propriétaire a pour obligations réglementaires de fournir un ensemble de diagnostics, aussi appelés « constats » ou « états », aux futurs acquéreurs ou preneurs ?",
+        "L'objectif de ces documents vise à améliorer la transparence de la transaction entre les deux parties. Ces documents sont obligatoires et regroupés dans un seul et même dossier communément appelé le « Dossier de Diagnostics Techniques » ou encore le « DDT »."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_68c426cf1bf54cc1a5d1a8a608b3b56b~mv2_d_4724_5906_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Dans le cadre d'une vente",
+       "paras": [
+        "Sous conditions, le DDT sera composé :"
+       ],
+       "list": [
+        "Le diagnostic de performance énergétique, appelé aussi le « DPE ».",
+        "Le constat de risque d'exposition au plomb, appelé aussi le « CREP ».",
+        "L'état mentionnant la présence ou l'absence de matériaux/produits contenant de l'amiante.",
+        "L'état relatif à la présence de termites.",
+        "L'état de l'installation intérieure de gaz.",
+        "L'état de l'installation intérieure d'électricité.",
+        "L'état de l'installation d'assainissement non collectif.",
+        "L'état des risques naturels, miniers et technologiques.",
+        "Le diagnostic loi Carrez."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_eae2dab11c4d412faf2a5884c4018086~mv2_d_3168_4752_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Dans le cadre d'une location",
+       "paras": [
+        "Sous conditions, le DDT sera composé :"
+       ],
+       "list": [
+        "Le DPE.",
+        "Le CREP.",
+        "L'état des risques naturels, miniers et technologiques.",
+        "Le diagnostic loi Boutin.",
+        "L'état de l'installation intérieure de gaz.",
+        "L'état de l'installation intérieure d'électricité."
+       ]
+      },
+      {
+       "title": "À retenir",
+       "paras": [
+        "En l'absence de ces diagnostics en cours de validité à la signature de l'acte de vente, le propriétaire ne pourra s'exonérer de la garantie des vices cachés correspondante. Il sera alors responsable en cas de découverte de vice(s). Dans certains cas, l'acquéreur sera en droit de demander au juge la résolution du contrat de vente ou une baisse du prix d'achat."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "dpe",
+   "hidden": true,
+   "title": "DPE : Diagnostic de performance énergétique",
+   "h1": "DPE <em>· Diagnostic de performance énergétique</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "DPE signifie Diagnostic de Performance Énergétique. Il s'agit d'une étude de la consommation en énergie et de l'émission de gaz à effet de serre d'un bâtiment ou partie de bâtiment.",
+   "img": "https://static.wixstatic.com/media/529298_18caeaf5eefc427fa87613809a80e669~mv2_d_1920_1281_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "DPE",
+     "title": "Diagnostic de performance énergétique",
+     "items": [
+      {
+       "title": "Deux étiquettes",
+       "paras": [
+        "Du DPE découlent deux étiquettes : l'étiquette énergie, qui correspond à la consommation primaire d'énergie du bâtiment, et l'étiquette climat, qui correspond à l'émission de gaz à effet de serre."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_4033b20957d84fb694b72b25fd6a136a~mv2.jpeg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Le saviez-vous ?",
+       "paras": [
+        "Depuis le 1er janvier 2011, toute annonce immobilière de vente et de location doit faire figurer le classement énergétique du logement issu du DPE. Cette obligation est valable pour les particuliers comme pour les professionnels."
+       ]
+      },
+      {
+       "title": "Obligations légales",
+       "paras": [
+        "Dans le cadre d'une vente, le DPE doit être réalisé avant la publication de l'annonce immobilière. La classe énergétique du bâtiment ou partie de bâtiment mis à la vente doit obligatoirement apparaître sur l'annonce. Le DPE sera ensuite mis à disposition des potentiels acquéreurs puis annexé à la promesse de vente ou compromis de vente.",
+        "Dans le cadre d'une location, le DPE doit être réalisé dans les mêmes conditions d'obligations que la vente. Il sera ensuite mis à disposition des futurs locataires puis sera annexé au contrat de location.",
+        "Dans le cadre d'un achat en VEFA (vente en état futur d'achèvement), appelée aussi vente sur plan, le promoteur devra fournir le DPE au plus tard à la remise des clés.",
+        "Lors d'une construction neuve ou sous certaines conditions de travaux d'agrandissement, le maître d'ouvrage remettra au propriétaire le DPE, et cela au plus tard à l'achèvement des travaux.",
+        "Dernier cas, mais n'ayant pas un cadre d'obligations légales : pour bénéficier d'un crédit d'impôt, vous pouvez réaliser un DPE pour connaître l'état énergétique de votre logement."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "termites",
+   "hidden": true,
+   "title": "Termites : L'état relatif à la présence de termites",
+   "h1": "Termites <em>· L'état relatif à la présence de termites</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "L'état relatif à la présence de termites consiste à contrôler la présence ou non de termites dans un logement. Cette expertise identifie le type de termites en cause, les indices d'infestations des autres agents de dégradation biologique du bois et les parties concernées par les dégâts.",
+   "img": "https://static.wixstatic.com/media/529298_d5854afad92144b0bad35a379acda3d6~mv2_d_3648_2736_s_4_2.jpeg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Termites",
+     "title": "L'état relatif à la présence de termites",
+     "items": [
+      {
+       "title": "Obligations légales",
+       "paras": [
+        "Le diagnostic est obligatoire lors d'une vente dans les zones couvertes par un arrêté préfectoral, dont les Landes."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_8e2103f54969454cb7bbc5b17a260907~mv2_d_1600_1200_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "Examen visuel et sondage mécanique des parties visibles et accessibles, inspection extérieure sur 10 m autour du bâtiment, repérage des autres agents de dégradation biologique du bois."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_baa63bba26854a8f93ae4ca97eacb919~mv2_d_4962_3508_s_4_2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Les espèces",
+       "paras": [
+        "Kalotermitidae (termites de bois sec) et Rhinotermitidae (Reticulitermes, le genre le plus répandu en France, avec des colonies jusqu'à 200 000 individus)."
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "L'état relatif à la présence de termites est valable pour une durée de 6 mois."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "amiante",
+   "hidden": true,
+   "title": "Amiante : L'état mentionnant la présence ou l'absence de MPCA",
+   "h1": "Amiante <em>· L'état mentionnant la présence ou l'absence de MPCA</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "L'amiante a été utilisée dans de très nombreux matériaux et produits du bâtiment en raison de ses propriétés uniques. Cependant l'exposition à la fibre d'amiante est extrêmement dangereuse. Elle est considérée comme la première cause de mortalité professionnelle et deuxième dans les maladies professionnelles.",
+   "img": "https://static.wixstatic.com/media/529298_6012fffe269a4232af5f71d6554628a9~mv2_d_2463_1642_s_2.jpeg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Amiante",
+     "title": "L'état mentionnant la présence ou l'absence de MPCA",
+     "items": [
+      {
+       "title": "Les obligations légales pour la vente",
+       "paras": [
+        "En cas de vente d'un bâtiment d'habitation individuel dont le permis de construire a été délivré avant le 1er juillet 1997, un état mentionnant la présence ou l'absence de matériaux ou produits contenant de l'amiante doit obligatoirement être réalisé au plus tard à l'acte de vente notarié.",
+        "Pour les propriétaires d'un logement collectif : un Dossier Amiante Parties Privatives (DAPP) a dû être réalisé avant le 31 décembre 1999. Un Dossier Technique Amiante (DTA) a dû être réalisé avant le 31 décembre 2005."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_eea63d12a8874129b9cde0d18f0a33e3~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Vous n'avez pas fait réaliser le DTA ou DAPP ?",
+       "paras": [
+        "En l'absence de DAPP et/ou DTA, il doit être réalisé dans les meilleurs délais. N'hésitez pas à nous contacter, nous pouvons intervenir rapidement."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_2d7f8e9dec0846f8a930f003ec2b435b~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "L'opérateur réalisera un repérage des matériaux et produits contenant de l'amiante dans l'ensemble du bâtiment. En cas de doute sur la nature du ou des matériaux ou produits, l'opérateur devra réaliser un ou plusieurs prélèvements."
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "Réglementairement, il n'y a pas de durée de validité. Depuis le 1er janvier 2013, la réglementation a évolué concernant les modalités de repérage de l'amiante."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "plomb",
+   "hidden": true,
+   "title": "Plomb : Le constat de risque d'exposition au plomb",
+   "h1": "Plomb <em>· Le constat de risque d'exposition au plomb</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Le CREP, Constat de Risque d'Exposition au Plomb, a été mis en place par les pouvoirs publics pour sensibiliser et protéger la population vulnérable sur le risque d'exposition des peintures contenant du plomb.",
+   "img": "https://static.wixstatic.com/media/529298_c0523158d3a34afdbf087d5fa413e3c8~mv2_d_2048_1536_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Plomb",
+     "title": "Le constat de risque d'exposition au plomb",
+     "items": [
+      {
+       "title": "Pourquoi ?",
+       "paras": [
+        "Lorsque ces peintures se dégradent, elles génèrent des poussières et des pellicules de plomb qui peuvent s'avérer extrêmement dangereuses pour les femmes enceintes ou les enfants (risque de saturnisme). L'interdiction d'utilisation des peintures au plomb en France date de 1948. Le constat de risque d'exposition au plomb concerne donc les bâtiments à usage d'habitation construits avant le 1er janvier 1949."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_c3026e2780d74b0d80d572f7f5d14b5f~mv2_d_1313_1920_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Les obligations légales",
+       "paras": [
+        "Dans le cadre d'une vente : les propriétaires désirant vendre un bâtiment collectif ou individuel construit avant le 1er janvier 1949 doivent fournir, pour les parties privatives à usage d'habitation, un constat de risque d'exposition au plomb (CREP) avant la signature de l'acte de vente notarié.",
+        "Dans le cadre d'une location : les propriétaires désirant louer un bâtiment collectif ou individuel construit avant le 1er janvier 1949 doivent annexer au contrat de location, depuis le 12 août 2008, un constat de risque d'exposition au plomb (CREP). En son absence, le bailleur peut voir sa responsabilité pénale engagée.",
+        "Hors cadre d'une vente ou d'une location : concernant les parties communes, un CREP a dû être réalisé avant le 12 août 2008. Pour le consulter, il faut se rapprocher du syndic de copropriété."
+       ]
+      },
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "L'opérateur réalisera un repérage et un mesurage des revêtements et substrats contenant du plomb dans le logement. En cas de nécessité, l'opérateur pourra réaliser un ou plusieurs prélèvements qui feront l'objet d'une analyse en laboratoire. L'opérateur devra identifier les situations à risque de saturnisme infantile en localisant et décrivant l'état de conservation des revêtements et des substrats contenant du plomb. Il devra également identifier les situations à risque de dégradation du bâti."
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "En présence de plomb à des concentrations supérieures au seuil réglementaire (fixé par arrêté), le CREP est valable pour une durée d'un an dans le cadre d'une vente et de six ans dans le cadre d'une location."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "ernmt",
+   "hidden": true,
+   "title": "ERNMT : L'état des risques naturels, miniers et technologiques",
+   "h1": "ERNMT <em>· L'état des risques naturels, miniers et technologiques</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "L'ERNMT, l'État des Risques Naturels, Miniers et Technologiques, permet d'informer les acquéreurs ou locataires sur les risques naturels, miniers ou technologiques d'une parcelle ou d'un bien immobilier.",
+   "img": "https://static.wixstatic.com/media/529298_bfbbb8d2eaf24559bd44ad0ab959796c~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "ERNMT",
+     "title": "L'état des risques naturels, miniers et technologiques",
+     "items": [
+      {
+       "title": "Les risques",
+       "paras": [
+        "Les risques naturels concernent les risques d'inondation, d'incendie de forêt, avalanche, éruption volcanique, mouvement de terrain, séisme, tempête, cyclone, canicule, grand froid, tsunami.",
+        "Les risques technologiques concernent les accidents industriels, accidents nucléaires, ruptures de barrage, transports de matières dangereuses."
+       ]
+      },
+      {
+       "title": "Les obligations légales",
+       "paras": [
+        "Depuis le 1er juin 2006, les bâtiments ou terrains se situant dans une zone couverte par un plan de prévention des risques naturels ou technologiques doivent faire l'objet d'un état des risques naturels, miniers et technologiques. Ce diagnostic doit être annexé au plus tard à l'acte de vente notarié ou au contrat de location."
+       ]
+      },
+      {
+       "title": "Le contenu",
+       "paras": [
+        "L'ERNMT mentionne des risques naturels prévisibles, prescrits ou approuvés, ainsi que des risques technologiques et des zones de sismicité définies par décret auxquels est exposé le bien. Il est accompagné des documents cartographiques permettant de localiser l'immeuble vis-à-vis des risques encourus."
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "L'ERNMT doit être réalisé moins de six mois avant la signature de l'acte de vente notarié ou de la signature du contrat de location.",
+        "Le saviez-vous ? En l'absence de ce diagnostic, l'acquéreur est en droit d'annuler la vente ou de réclamer une diminution de prix. Le preneur est lui en droit d'annuler la location."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "electricite",
+   "hidden": true,
+   "title": "Électricité : L'état de l'installation intérieure d'électricité",
+   "h1": "Électricité <em>· L'état de l'installation intérieure d'électricité</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Le diagnostic électrique ou l'état de l'installation intérieure d'électricité permet d'évaluer les risques pouvant porter atteinte à la sécurité des personnes.",
+   "img": "https://static.wixstatic.com/media/529298_5908e58ca03648bfbb8ff1fe32dfbfb0~mv2_d_1920_1277_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Électricité",
+     "title": "L'état de l'installation intérieure d'électricité",
+     "items": [
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "Le diagnostic est encadré par la norme NF P 16-600 et porte sur le contrôle des éléments suivants :"
+       ],
+       "list": [
+        "L'appareil général de commande et de protection.",
+        "Les dispositifs de protection différentielle.",
+        "La section des câbles.",
+        "La mise à la terre.",
+        "La présence de dispositifs de protection contre les surintensités.",
+        "La ou les liaison(s) équipotentielle(s).",
+        "Le matériel électrique (prises, interrupteurs…).",
+        "La protection de l'ensemble des conducteurs."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_f2cad560a1a64b388ce5034e9d8589de~mv2_d_1920_1277_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Les obligations légales",
+       "paras": [
+        "Dans le cadre d'une vente ou d'une location : si l'installation intérieure d'électricité a été réalisée depuis plus de 15 ans, le vendeur doit fournir lors de la promesse de vente un « état de l'installation intérieure d'électricité ». Seule l'installation électrique des parties privatives ainsi que leurs dépendances sont concernées. En l'absence de ce diagnostic, le vendeur ne pourra pas s'exonérer de la garantie des vices cachés."
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "Le diagnostic électrique est valable 3 ans pour la vente et 6 ans pour la location."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "gaz",
+   "hidden": true,
+   "title": "Gaz : L'état de l'installation intérieure de gaz",
+   "h1": "Gaz <em>· L'état de l'installation intérieure de gaz</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Le diagnostic gaz ou l'état de l'installation intérieure de gaz permet d'évaluer les risques pouvant porter atteinte à la sécurité des personnes.",
+   "img": "https://static.wixstatic.com/media/529298_90210993e62a4a0493c6a417e2d0afaa~mv2_d_4208_2711_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Gaz",
+     "title": "L'état de l'installation intérieure de gaz",
+     "items": [
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "Encadré par la norme NF P 45-500, il porte sur le contrôle des éléments suivants :"
+       ],
+       "list": [
+        "La tuyauterie fixe.",
+        "Le raccordement en gaz des appareils.",
+        "La ventilation des locaux.",
+        "La combustion."
+       ],
+       "img": "https://static.wixstatic.com/media/529298_a2dcffe7a24b457e94362d7830efe177~mv2_d_1920_1280_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "contain": true
+      },
+      {
+       "title": "Les obligations légales",
+       "paras": [
+        "Dans le cadre d'une vente ou d'une location : si l'installation intérieure de gaz a été réalisée depuis plus de 15 ans, le vendeur doit fournir lors de la promesse de vente un « état de l'installation intérieure de gaz ». Seule l'installation de gaz des parties privatives ainsi que leurs dépendances sont concernées. En l'absence de ce diagnostic, le vendeur ne pourra pas s'exonérer de la garantie des vices cachés."
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "Le diagnostic gaz est valable pour une durée de 3 ans dans le cadre d'une vente et 6 ans pour une location."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "carrez",
+   "hidden": true,
+   "title": "Loi Carrez : Diagnostic loi Carrez",
+   "h1": "Loi Carrez <em>· Diagnostic loi Carrez</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "La loi Carrez a été mise en place pour protéger les acquéreurs de biens immobiliers en copropriété contre les erreurs de mesurage des parties privatives.",
+   "img": "https://static.wixstatic.com/media/529298_ab026261fb0041e08688e4f993ccb2a6~mv2_d_4928_3264_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Loi Carrez",
+     "title": "Diagnostic loi Carrez",
+     "items": [
+      {
+       "title": "Les obligations légales",
+       "paras": [
+        "Dès lors qu'un bien immobilier n'est pas inférieur à 8 m², qu'il est situé dans un immeuble bâti en copropriété et qu'il est soumis à la vente, un mesurage loi Carrez de la surface privative doit obligatoirement être réalisé. Cette obligation concerne les appartements, les locaux d'activités et les maisons en copropriété horizontale."
+       ]
+      },
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "Le diagnostic loi Carrez est calculé en prenant la superficie des parties privatives closes et couvertes dont la hauteur sous plafond est supérieure à 1,80 m, après déduction des surfaces occupées par les cloisons, murs, cages d'escaliers, marches, embrasures de portes et de fenêtres, gaines techniques, conduits. Les lots ou fractions de lots d'une superficie inférieure à 8 m², les caves, les garages, les emplacements de stationnement ne sont pas pris en compte."
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "Le diagnostic loi Carrez est valable tant qu'aucuns travaux ne sont réalisés dans le logement."
+       ]
+      },
+      {
+       "title": "Le saviez-vous ?",
+       "paras": [
+        "La loi prévoit la nullité du contrat de vente en l'absence de mention de superficie, ainsi qu'une diminution du prix si la surface est inférieure de plus de 5 % à celle exprimée dans l'acte de vente notarié. La loi ne donne aucune obligation quant à la réalisation du calcul de surface par un professionnel : il est donc tout à fait possible pour le propriétaire de réaliser lui-même ses mesurages. Toutefois, en cas de litige, le propriétaire engagera sa propre responsabilité et la loi s'avère être très sévère en cas d'erreur. Les difficultés de mesurage et les sanctions prévues par la loi démontrent qu'il vaut mieux faire appel à un professionnel qualifié qui engagera sa propre assurance professionnelle en cas de litige."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  },
+  {
+   "slug": "boutin",
+   "hidden": true,
+   "title": "Loi Boutin : Diagnostic loi Boutin",
+   "h1": "Loi Boutin <em>· Diagnostic loi Boutin</em>",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "La loi Boutin a été mise en place pour protéger les locataires et lutter contre les exclusions. La loi Boutin stipule que « le contrat de location précise la surface habitable de la chose louée ».",
+   "img": "https://static.wixstatic.com/media/529298_ef75cf49f17c4ca89d9f0eaebd89d308~mv2_d_6000_4000_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Loi Boutin",
+     "title": "Diagnostic loi Boutin",
+     "items": [
+      {
+       "title": "Carrez ou Boutin ?",
+       "paras": [
+        "Contrairement à la loi Carrez qui encadre le calcul de surface pour une vente en copropriété, la loi Boutin encadre le calcul de la surface habitable pour la location et pour tous les immeubles bâtis."
+       ]
+      },
+      {
+       "title": "Les obligations légales",
+       "paras": [
+        "Dès lors qu'un immeuble bâti est soumis à la location, un mesurage au regard de la loi Boutin correspondant à la surface habitable doit obligatoirement être réalisé et mentionné dans le contrat de location."
+       ]
+      },
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "Le diagnostic loi Boutin est calculé en prenant la surface de plancher construite dont la hauteur sous plafond est supérieure à 1,80 m, après déduction des surfaces occupées par les cloisons, murs, cages d'escaliers, marches, embrasures de portes et de fenêtres, gaines. Ne sont pas pris en compte dans le calcul de la superficie les combles non aménagés, caves, sous-sols, remises, garages, terrasses, loggias, balcons, séchoirs extérieurs, vérandas…"
+       ]
+      },
+      {
+       "title": "Validité légale",
+       "paras": [
+        "Le diagnostic loi Boutin est valable tant qu'aucuns travaux ne sont réalisés dans le logement."
+       ]
+      },
+      {
+       "title": "Le saviez-vous ?",
+       "paras": [
+        "La loi prévoit la nullité du contrat de bail en l'absence de mention de superficie, ainsi qu'une révision du prix du loyer si la surface habitable s'avère différente de celle inscrite dans le contrat de location. Les difficultés de mesurage et les sanctions prévues par la loi démontrent qu'il vaut mieux faire appel à un professionnel qualifié qui engagera son assurance professionnelle en cas de litige."
+       ]
+      }
+     ],
+     "note": "<a href=\"../services/\" style=\"border-bottom:1px solid var(--gold)\">Tous nos diagnostics</a> · <a href=\"../contact/\" style=\"border-bottom:1px solid var(--gold)\">Demander un devis</a>"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "EURL IMMO'DIAG, diagnostic immobilier dans les Landes. SIRET 828 495 762 00019.",
+  "contact": [
+   "<a href=\"tel:+33769686734\">07 69 68 67 34</a>",
+   "<a href=\"mailto:contact@immodiag.pro\">contact@immodiag.pro</a>",
+   "4 lotissement Clos du Mora, 40140 Soustons"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/ImmoDiag40/"
+   ]
+  ],
+  "legal": "Certifications QUALIXPERT (plomb, amiante, DPE, gaz, électricité, termites) · Adhérent FIDI"
+ }
+}
