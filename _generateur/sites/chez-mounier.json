@@ -1,0 +1,279 @@
+{
+ "slug": "chez-mounier-de40dc",
+ "title": "Chez Mounier — Bouchon lyonnais depuis 1985, 3 rue des Marronniers, Lyon 2e",
+ "description": "Restaurant Chez Mounier, créé en 1985 à Lyon 2e : cuisine lyonnaise traditionnelle et familiale, faite maison. Salade lyonnaise, tablier de sapeur, quenelles, tarte aux pralines.",
+ "brand": "Chez Mounier",
+ "tagline": "Restaurant lyonnais depuis 1985",
+ "monogram": "CM",
+ "theme": {
+  "look": "classic",
+  "paper": "#f6efe4",
+  "paper2": "#eadfcd",
+  "ink": "#2a1a14",
+  "muted": "#6e5b50",
+  "accent": "#9c2a22",
+  "accent2": "#7a1f19",
+  "gold": "#c79a4b",
+  "heroem": "#f3d39a",
+  "serif": "\"Playfair Display\",Georgia,serif",
+  "sans": "\"Lato\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33478377926\">04 78 37 79 26</a>",
+  "Mardi – samedi, midi et soir"
+ ],
+ "nav": [
+  [
+   "maison",
+   "La maison"
+  ],
+  [
+   "specialites",
+   "Nos spécialités"
+  ],
+  [
+   "reserver",
+   "Réservation"
+  ],
+  [
+   "infos",
+   "Infos pratiques"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://cdn.website.dish.co/media/b6/67/1109089/CHEZ-MOUNIER-o-2.jpg",
+  "eyebrow": "Bouchon · Lyon 2e · Depuis 1985",
+  "title": "Bienvenue <em>chez Mounier</em>",
+  "lead": "Une cuisine traditionnelle et familiale, faite maison, même la pâte à tarte.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
+  ],
+  "cta2": [
+   "04 78 37 79 26",
+   "tel:+33478377926"
+  ]
+ },
+ "figures": [
+  [
+   "1985",
+   "création du restaurant"
+  ],
+  [
+   "100 %",
+   "fait maison, même la pâte à tarte"
+  ],
+  [
+   "5",
+   "jours d'ouverture par semaine"
+  ],
+  [
+   "2e",
+   "arrondissement, rue des Marronniers"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "maison",
+   "eyebrow": "Notre établissement",
+   "title": "Une maison lyonnaise <em class=\"it\">depuis 1985</em>",
+   "img": "https://cdn.website.dish.co/media/b6/67/1109089/CHEZ-MOUNIER-o-2.jpg",
+   "alt": "Notre salade lyonnaise",
+   "paras": [
+    "Le restaurant Chez Mounier a été créé en 1985. Notre carte fut établie à cette date par M. Mounier, fondateur de Chez les Gones en 1983 aux Halles de Paul Bocuse.",
+    "Mme Mounier, mère, vous a accueillis pendant de nombreuses années, partageant notre savoir-faire, nos spécialités et son accueil, comme nos mères lyonnaises savaient le faire.",
+    "Nous avons choisi d'élaborer une cuisine traditionnelle et familiale, faite maison (même la pâte à tarte)…"
+   ],
+   "sign": "Nous vous souhaitons une excellente soirée."
+  },
+  {
+   "kind": "menu",
+   "id": "specialites",
+   "eyebrow": "Nos spécialités",
+   "title": "Les classiques <em class=\"it\">de la maison</em>",
+   "lead": "Salade lyonnaise, saucisson, œuf vigneronne, tablier de sapeur, andouillette ficelle, tête de veau, quenelles, tarte aux pralines, St Marcellin de la Mère Richard et autres sont et restent nos spécialités.",
+   "sections": [
+    {
+     "title": "Pour commencer",
+     "items": [
+      [
+       "Salade lyonnaise",
+       ""
+      ],
+      [
+       "Saucisson",
+       ""
+      ],
+      [
+       "Œuf vigneronne",
+       ""
+      ]
+     ]
+    },
+    {
+     "title": "Les plats",
+     "items": [
+      [
+       "Tablier de sapeur",
+       ""
+      ],
+      [
+       "Andouillette ficelle",
+       ""
+      ],
+      [
+       "Tête de veau",
+       ""
+      ],
+      [
+       "Quenelles",
+       ""
+      ]
+     ]
+    },
+    {
+     "title": "Pour finir",
+     "items": [
+      [
+       "St Marcellin de la Mère Richard",
+       ""
+      ],
+      [
+       "Tarte aux pralines",
+       "",
+       "Faite maison, jusqu'à la pâte."
+      ]
+     ]
+    }
+   ],
+   "aside": {
+    "eyebrow": "À la cave",
+    "title": "Les vins",
+    "big": "Beaujolais",
+    "text": "Avec nos spécialités, nous vous proposons les beaujolais de nos petits producteurs et nos autres vins de nos régions.",
+    "cta": [
+     "Réserver une table",
+     "#reserver"
+    ]
+   },
+   "note": "Carte complète et prix au restaurant."
+  },
+  {
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservation",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Ouvert du mardi au samedi, midi et soir. Choisissez votre jour et votre créneau : la maison vous confirme la réservation.",
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "hours": [
+    "12:00",
+    "12:15",
+    "12:30",
+    "12:45",
+    "13:00",
+    "13:15",
+    "13:30",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30"
+   ],
+   "email": "Chezmounier@orange.fr",
+   "tel": "+33478377926",
+   "phone": "04 78 37 79 26",
+   "brand": "Chez Mounier",
+   "max": 20,
+   "note": "Fermé le dimanche et le lundi. Vous pouvez aussi réserver par téléphone au 04 78 37 79 26."
+  },
+  {
+   "kind": "features",
+   "id": "infos",
+   "dark": true,
+   "eyebrow": "Infos pratiques",
+   "title": "Bien vous <em class=\"it\">accueillir</em>",
+   "items": [
+    [
+     "Accessibilité",
+     "Un accès pour les personnes à mobilité réduite est une évidence pour nous."
+    ],
+    [
+     "Vos animaux",
+     "Vos animaux sont aussi les bienvenus !"
+    ],
+    [
+     "Paiement",
+     "Nous acceptons les tickets restaurant, les chèques, les espèces et les cartes bancaires (Visa, MasterCard, Maestro, sans contact)."
+    ],
+    [
+     "Confort",
+     "Climatisation, terrasse et Wi-Fi gratuit."
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "3 rue des Marronniers, <em class=\"it\">Lyon 2e</em>",
+   "text": "Entre Bellecour et le Rhône.",
+   "rows": [
+    [
+     "Adresse",
+     "3 rue des Marronniers<br>69002 Lyon"
+    ],
+    [
+     "Horaires",
+     "Mardi – vendredi : 12h – 14h15 et 19h – 22h15<br>Samedi : 12h – 14h30 et 19h – 22h15<br>Fermé dimanche et lundi"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33478377926\">04 78 37 79 26</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:Chezmounier@orange.fr\">Chezmounier@orange.fr</a>"
+    ]
+   ],
+   "map_q": "Chez Mounier 3 rue des Marronniers 69002 Lyon",
+   "cta": [
+    "Réserver une table",
+    "#reserver"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Restaurant Chez Mounier, cuisine lyonnaise traditionnelle et familiale depuis 1985.",
+  "contact": [
+   "<a href=\"tel:+33478377926\">04 78 37 79 26</a>",
+   "<a href=\"mailto:Chezmounier@orange.fr\">Chezmounier@orange.fr</a>",
+   "3 rue des Marronniers, 69002 Lyon"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/pages/category/French-Restaurant/Chez-Mounier-139510226117702/"
+   ]
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://chez-mounier-restaurant-lyon.eatbu.com/?lang=fr#imprint"
+ }
+}
