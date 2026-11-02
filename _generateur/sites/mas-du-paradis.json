@@ -1,0 +1,816 @@
+{
+ "slug": "mas-du-paradis-9dc460",
+ "title": "Le Mas du Paradis — Alban Pivat, vigneron à Chavanay (Saint-Joseph, Condrieu, Côte-Rôtie)",
+ "description": "Le Mas du Paradis, petit domaine viticole de 8 hectares à Chavanay créé en 2013 par Alban Pivat : Saint-Joseph, Crozes-Hermitage, Côte-Rôtie, Saint-Péray, Condrieu. Prestations viticoles.",
+ "brand": "Le Mas du Paradis",
+ "tagline": "Alban Pivat · Chavanay",
+ "agegate": true,
+ "logo": {
+  "src": "https://static.wixstatic.com/media/5a4d38_f8888cb8b61b4838be92f4d9012669dc~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+  "height": 58,
+  "with_name": true
+ },
+ "theme": {
+  "look": "framed",
+  "paper": "#f7f2ea",
+  "paper2": "#ece3d4",
+  "ink": "#24161a",
+  "muted": "#6b5a55",
+  "accent": "#7a2232",
+  "accent2": "#5e1825",
+  "gold": "#b8914a",
+  "heroem": "#f0d9a8",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Jost\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33677062003\">06 77 06 20 03</a>",
+  "<a href=\"mailto:lemasduparadis.pivat@gmail.com\">lemasduparadis.pivat@gmail.com</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/5a4d38_2a046803005246968f55352305a678a4~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Domaine viticole · Chavanay · Depuis 2013",
+  "title": "Bienvenue au domaine <em>Le Mas du Paradis</em>",
+  "lead": "Saint-Joseph, Crozes-Hermitage, Côte-Rôtie, Saint-Péray et Condrieu : les grandes appellations de la Vallée du Rhône, sur 8 hectares.",
+  "cta1": [
+   "Découvrir nos vins",
+   "nos-vins/"
+  ],
+  "cta2": [
+   "Passer commande",
+   "commande/"
+  ]
+ },
+ "figures": [
+  [
+   "2013",
+   "création du domaine"
+  ],
+  [
+   "8 ha",
+   "à Chavanay et alentours"
+  ],
+  [
+   "5",
+   "grandes appellations"
+  ],
+  [
+   "10",
+   "cuvées"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Le domaine",
+   "title": "Depuis 2013, <em class=\"it\">à Chavanay</em>",
+   "img": "https://static.wixstatic.com/media/5a4d38_7fd27e6965d6433891a58ba111280159~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "Le Mas du Paradis",
+   "paras": [
+    "Le Mas du Paradis est un petit domaine viticole de Chavanay qui possède 8 hectares situés sur la commune et ses alentours.",
+    "Alban Pivat est passionné du vin et de ses vignes, il construit son domaine en 2013. Il produit des grandes appellations de la Vallée du Rhône comme le Saint-Joseph, Crozes-Hermitage, Côte-Rôtie, Saint-Péray et Condrieu."
+   ],
+   "sign": "Le partage, la convivialité et la simplicité sont le fil conducteur du domaine."
+  },
+  {
+   "kind": "story",
+   "id": "vigneron",
+   "eyebrow": "Le vigneron",
+   "title": "Alban Pivat, <em class=\"it\">passionné du vin et de ses vignes</em>",
+   "img": "https://static.wixstatic.com/media/5a4d38_0bdd2d5f7ae2477086157bd2d12137d3~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+   "alt": "Alban Pivat",
+   "paras": [
+    "Du Gamay de vieilles vignes de Bessey au Condrieu « Le Petit Prince » élevé en amphore, dix cuvées aux noms qui jouent sur les mots : « Mots d'Amour », « Ma Mie », « Mon 20 Éternel »…"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "Découvrir",
+   "title": "Le Mas du Paradis <em class=\"it\">en quatre rubriques</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/5a4d38_fa70c7ef75834125bfa547e6f9fb3da1~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "kicker": "Nos vins",
+     "title": "Dix cuvées et deux coffrets",
+     "paras": [
+      "Rouges et blancs de la Vallée du Rhône, de la Syrah au Condrieu."
+     ],
+     "link": [
+      "Voir nos vins",
+      "nos-vins/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5a4d38_6588c5a429564a4c826a974c1d0a6ffe~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "kicker": "Nos activités",
+     "title": "Dégustations et soirées",
+     "paras": [
+      "Dégustation, visite du domaine, soirées pour les entreprises et les associations."
+     ],
+     "link": [
+      "Nos activités",
+      "activites/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5a4d38_aad5ec5e9b5f4bf79aff91f7a2657d5b~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "kicker": "Nos prestations",
+     "title": "Travaux de la vigne",
+     "paras": [
+      "De la plantation aux vendanges en passant par la taille."
+     ],
+     "link": [
+      "Nos prestations",
+      "prestations/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/5a4d38_355b1fe6a2d04b218e3fecd383e09532~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "kicker": "Commande",
+     "title": "Commander, retirer au caveau",
+     "paras": [
+      "À l'unité ou par carton de 6, réglé au caveau au retrait."
+     ],
+     "link": [
+      "Passer commande",
+      "commande/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous rendre visite",
+   "title": "Le caveau <em class=\"it\">à Chavanay</em>",
+   "text": "Dégustation, visite du domaine et retrait des commandes au caveau.",
+   "rows": [
+    [
+     "Adresse",
+     "179 RD 1086 – La Grande Gorge<br>42410 Chavanay"
+    ],
+    [
+     "Horaires",
+     "Lundi – vendredi : 9h – 17h<br>Samedi : sur rendez-vous<br>Dimanche : fermé"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33677062003\">06 77 06 20 03</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lemasduparadis.pivat@gmail.com\">lemasduparadis.pivat@gmail.com</a>"
+    ]
+   ],
+   "map_q": "179 RD 1086 La Grande Gorge 42410 Chavanay",
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33677062003"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "nos-vins",
+   "label": "Nos vins",
+   "title": "Nos vins",
+   "h1": "Nos <em>vins</em>",
+   "eyebrow": "Vallée du Rhône",
+   "lead": "Dix cuvées en rouge et en blanc, et deux coffrets découverte.",
+   "img": "https://static.wixstatic.com/media/5a4d38_54bb5091cd244dbca1f243aa2bded83e~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "cuvees",
+     "eyebrow": "Les cuvées",
+     "title": "Rouges, blancs <em class=\"it\">et coffrets</em>",
+     "lead": "Chaque cuvée a sa fiche technique à télécharger.",
+     "tabs": [
+      [
+       "rouge",
+       "Rouges"
+      ],
+      [
+       "blanc",
+       "Blancs"
+      ],
+      [
+       "coffret",
+       "Coffrets"
+      ]
+     ],
+     "items": [
+      {
+       "name": "Crozes-Hermitage « Mon Désir »",
+       "app": "Crozes-Hermitage · 2024",
+       "tag": "Rouge",
+       "cat": "rouge",
+       "color": "#6d1a2a",
+       "desc": "Élégant et racé, des notes de fruit rouge, groseille, cassis et la présence d'élevage donnent un nez délicat et boisé. Une belle fraîcheur minérale donne de la longueur et de la finesse à la bouche.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_4f1fbe85eeb040e4b31caec3d2abb474.pdf"
+       ]
+      },
+      {
+       "name": "Syrah « Mon 20 Éternel »",
+       "app": "Syrah · 2023",
+       "tag": "Rouge",
+       "cat": "rouge",
+       "color": "#5a1426",
+       "desc": "La Syrah est un cépage avec des nuances de noir, de poivré et une structure précise. Un vin coloré, aromatique et délicat, malgré son caractère charpenté. Les vins de cette gamme sont tanniques mais peu acides.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_628a6b4a1bc043e5ab5458e36ea42b85.pdf"
+       ]
+      },
+      {
+       "name": "Saint-Joseph rouge « Mots d'Amour »",
+       "app": "Saint-Joseph rouge · 2024",
+       "tag": "Rouge",
+       "cat": "rouge",
+       "color": "#6d1a2a",
+       "desc": "Gourmand et structuré, notre Saint-Joseph a des caractéristiques propres à son appellation. La souplesse de ses tanins laisse ressortir un goût de fruits noirs, ainsi que de subtiles notes séveuses de réglisse et de cacao. Il accompagnera parfaitement vos recettes hivernales.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_751dfb8a339847fda35462f5c0f37389.pdf"
+       ]
+      },
+      {
+       "name": "Gamay « Mon chef n'oublie pas le gamay »",
+       "app": "Gamay · 2024",
+       "tag": "Rouge",
+       "cat": "rouge",
+       "color": "#8a2338",
+       "desc": "Cépage quelque peu disparu de notre région, notre gamay est issu de vieilles vignes sur la commune de Bessey. Une nouveauté 2024 qui ajoute à notre gamme un rouge léger à partager entre amis autour de planches apéritives.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_ba5d330dabae4d8abcd0c5767bc49f15.pdf"
+       ]
+      },
+      {
+       "name": "Côte-Rôtie « Ma Mie »",
+       "app": "Côte-Rôtie · 2024",
+       "tag": "Rouge",
+       "cat": "rouge",
+       "color": "#4a1020",
+       "desc": "Le terroir de la côte brune apporte les nutriments essentiels au bon développement du fruit. Notre Côte-Rôtie vous apportera fraîcheur et délicatesse sur une légère note de mûres. Les tanins soyeux offrent ainsi un équilibre harmonieux à ce vin d'exception.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_3376027ddb1d4efd9cc7faf8f0455ff9.pdf"
+       ]
+      },
+      {
+       "name": "Marsanne « L'or de Mars »",
+       "app": "Marsanne · 2025",
+       "tag": "Blanc",
+       "cat": "blanc",
+       "color": "#d9b44a",
+       "desc": "La marsanne est une nouveauté 2024 au Mas du Paradis. Planté depuis peu, ce cépage originaire de la Drôme se développe très bien sur nos parcelles et nous offre un vin vif avec une grande fraîcheur.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_24cb5260f1a74567b1a299c1b0db9638.pdf"
+       ]
+      },
+      {
+       "name": "Viognier « Mots d'Hier »",
+       "app": "Viognier · 2025",
+       "tag": "Blanc",
+       "cat": "blanc",
+       "color": "#d6b85a",
+       "desc": "Le Viognier est réputé pour son nez particulièrement expressif, le vin se distingue également par des nuances de miel, ajoutant une touche gourmande à l'ensemble.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_9dc40f35e9fc4bd5b5313ea8a157dee9.pdf"
+       ]
+      },
+      {
+       "name": "Saint-Joseph blanc « Le Chat Blanc »",
+       "app": "Saint-Joseph blanc · 2025",
+       "tag": "Blanc",
+       "cat": "blanc",
+       "color": "#cfae4c",
+       "desc": "Notre vin Saint-Joseph est équilibré. Il sent les fruits frais, mélangés à des notes de fruits secs grillés et une touche minérale. En bouche, il est frais au début, puis devient rond et savoureux, avec des saveurs délicates qui enveloppent le palais. La finale est longue et laisse une bonne impression en bouche.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_09e8a15bcb7447e4b2dfff21bca24fa8.pdf"
+       ]
+      },
+      {
+       "name": "Saint-Péray « Les 3 rangs »",
+       "app": "Saint-Péray · 2025",
+       "tag": "Blanc",
+       "cat": "blanc",
+       "color": "#d9bc62",
+       "desc": "Lors de la dégustation de notre Saint-Péray, vous pourrez découvrir des arômes d'abricot séché, de miel et de pêche blanche. Ces notes contribuent à son caractère unique et à son élégance.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_51d9d38f4de64317975f77959b60e2b4.pdf"
+       ]
+      },
+      {
+       "name": "Condrieu « Le Petit Prince »",
+       "app": "Condrieu · 2025",
+       "tag": "Blanc",
+       "cat": "blanc",
+       "color": "#e0bf55",
+       "desc": "Notre Condrieu se distingue par son nez particulièrement expressif, en bouche l'amphore apporte une vivacité et un côté moins gras que notre Condrieu élevé en fût de chêne. Le viognier, qui est le cépage principal, donne des notes de miel qui rendent le vin encore plus délicieux. En bouche, le vin est doux et juteux, et la finale a une petite touche acidulée qui le rend frais et agréable.",
+       "link": [
+        "Fiche technique (PDF)",
+        "https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_7713ff4c9e18456cb1db3a21b18dbdb4.pdf"
+       ]
+      },
+      {
+       "name": "Coffret Découverte vallée du Rhône Rouge",
+       "tag": "Coffret",
+       "cat": "coffret",
+       "color": "#6d1a2a",
+       "desc": "Notre coffret Découverte vallée du Rhône rouge est un assortiment de trois bouteilles du cépage Syrah typique de notre région. Vous y trouverez notre Syrah « Mon 20 Éternel », le Saint-Joseph « Mots d'Amour » et notre Côte-Rôtie « Ma Mie »."
+      },
+      {
+       "name": "Coffret Découverte vallée du Rhône Blanc",
+       "tag": "Coffret",
+       "cat": "coffret",
+       "color": "#d9b44a",
+       "desc": "Notre coffret découverte vallée du Rhône blanc est un assortiment de trois vins propres à notre région. Une bouteille de notre Condrieu « Le Petit Prince », une bouteille de notre Saint-Joseph « Le Chat Blanc » et une bouteille de notre nouvelle cuvée de Marsanne « L'or de Mars »."
+      }
+     ],
+     "note": "Prix et disponibilités : nous consulter au 06 77 06 20 03."
+    },
+    {
+     "kind": "gallery",
+     "id": "bouteilles",
+     "eyebrow": "En images",
+     "title": "Nos bouteilles <em class=\"it\">et le domaine</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_fa70c7ef75834125bfa547e6f9fb3da1~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_fa70c7ef75834125bfa547e6f9fb3da1~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_54bb5091cd244dbca1f243aa2bded83e~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_54bb5091cd244dbca1f243aa2bded83e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_af0b6334ce0f40549d23a94a7fb2df1c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_af0b6334ce0f40549d23a94a7fb2df1c~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_98b91251021042b9a3f093e033473dfe~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_98b91251021042b9a3f093e033473dfe~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_08ba31a07c3942218b3600feaa5825ee~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_08ba31a07c3942218b3600feaa5825ee~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_ed1ad5a046e8414d9394418ed00c965e~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_ed1ad5a046e8414d9394418ed00c965e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_355b1fe6a2d04b218e3fecd383e09532~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_355b1fe6a2d04b218e3fecd383e09532~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_9f4b86e09b4d4139ae3e6bc8995c21b5~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_9f4b86e09b4d4139ae3e6bc8995c21b5~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_e3b80fa2ba8a47ce84c0769072c74ed5~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_e3b80fa2ba8a47ce84c0769072c74ed5~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_790bf0aa76584d0a943392a73ddadf46~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_790bf0aa76584d0a943392a73ddadf46~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_27e40a4fda554f54873b86d382d607d0~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_27e40a4fda554f54873b86d382d607d0~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_f7f96ba93f824392bb187116091c901f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_f7f96ba93f824392bb187116091c901f~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, nos vins"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "brochure",
+     "eyebrow": "À télécharger",
+     "title": "Le fruit <em class=\"it\">de notre travail</em>",
+     "lead": "<a href=\"https://2413c029-62e4-4b65-ba16-d096fcd475e5.filesusr.com/ugd/5a4d38_f2294e01c2fe4e8cbe3be54cba725192.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Télécharger la brochure du domaine (PDF)</a>"
+    }
+   ]
+  },
+  {
+   "slug": "activites",
+   "label": "Nos activités",
+   "title": "Nos activités",
+   "h1": "Nos <em>activités</em>",
+   "eyebrow": "Au domaine",
+   "lead": "Suivez nos actualités aussi sur Facebook et Instagram.",
+   "img": "https://static.wixstatic.com/media/5a4d38_46dafcc2a0eb4ad7a225d4565897adbe~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "activites",
+     "eyebrow": "Réservez votre moment",
+     "title": "Dégustations, visites <em class=\"it\">et soirées</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/5a4d38_624fffbc66a241aca0b3fbc34284c252~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Dégustation",
+       "paras": [
+        "Dégustation de la gamme des vins."
+       ],
+       "link": [
+        "Réserver",
+        "../contact/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/5a4d38_6588c5a429564a4c826a974c1d0a6ffe~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Soirée pour les entreprises",
+       "paras": [
+        "Repas + dégustation."
+       ],
+       "link": [
+        "Réserver",
+        "../contact/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/5a4d38_b0cd27e29ab1459f911b3c48c60ce8fd~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Soirée pour les associations",
+       "paras": [
+        "Repas + dégustation."
+       ],
+       "link": [
+        "Réserver",
+        "../contact/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/5a4d38_2dd00465f23845a9b82ebc0298275c8f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Visite du Domaine",
+       "paras": [
+        "Visite pour découvrir l'élaboration du vin."
+       ],
+       "link": [
+        "Réserver",
+        "../contact/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "actualites",
+     "eyebrow": "Actualités",
+     "title": "Dégustation <em class=\"it\">au Mas du Paradis</em>",
+     "img": "https://static.wixstatic.com/media/5a4d38_a8a4f44b41d548c092403820af1aa43e~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "alt": "Affiche du Mas du Paradis",
+     "paras": [
+      "Retrouvez nos rendez-vous au domaine et suivez nos actualités sur Facebook et Instagram."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "prestations",
+   "label": "Nos prestations",
+   "title": "Nos prestations viticoles",
+   "h1": "Nos <em>prestations</em>",
+   "eyebrow": "Prestataire viticole",
+   "lead": "Tous les travaux de la vigne, de la plantation aux vendanges.",
+   "img": "https://static.wixstatic.com/media/5a4d38_36c8819b52204917a80a743bc51b6b1e~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "travaux",
+     "eyebrow": "Nos prestations",
+     "title": "Tous les travaux <em class=\"it\">de la vigne</em>",
+     "img": "https://static.wixstatic.com/media/5a4d38_01eca9f1b41846e097ca2dbec662e916~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "alt": "Travaux de la vigne",
+     "paras": [
+      "Nous réalisons tous les travaux de la vigne ainsi que l'entretien de ses alentours qui parfois peuvent se détériorer, de la plantation aux vendanges en passant par la taille.",
+      "Nos équipes ont chacune leurs spécialités et mettent leur savoir-faire en commun lors de la grosse saison des vendanges."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "detail",
+     "dark": true,
+     "eyebrow": "Le détail",
+     "title": "Des coteaux <em class=\"it\">aux plateaux</em>",
+     "items": [
+      [
+       "Entretien et aménagement",
+       "Débroussaillage, défrichage, murs en pierres sèches pour terrasses, chaillets, éradication de la mauvaise herbe par désherbage manuel ou chimique, fichage : mise en place ou substitution d'échalas, engrais, poudrage."
+      ],
+      [
+       "Entretien du sol",
+       "Entretien du sol sur les coteaux ou les plateaux, utilisation d'un tracteur, distribution d'engrais, fauche et débroussaillage."
+      ],
+      [
+       "Travaux de la vigne",
+       "Arrachage de ceps, pré-taille, taille, taille non mutilante, pliage baguettes, plantation nouvelle et de remplacement, ébourgeonnage, relevage, attachage, épillonnage, effeuillage, éclaircissage, vendange."
+      ]
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "chantiers",
+     "eyebrow": "Sur le terrain",
+     "title": "Nos équipes <em class=\"it\">à l'ouvrage</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_aad5ec5e9b5f4bf79aff91f7a2657d5b~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_aad5ec5e9b5f4bf79aff91f7a2657d5b~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_36c8819b52204917a80a743bc51b6b1e~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_36c8819b52204917a80a743bc51b6b1e~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_01eca9f1b41846e097ca2dbec662e916~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_01eca9f1b41846e097ca2dbec662e916~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_4aaa3110d8f9451ab5c93aad9ddc985f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_4aaa3110d8f9451ab5c93aad9ddc985f~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_4e33d86c9c654c36b43e8d15c8027a7d~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_4e33d86c9c654c36b43e8d15c8027a7d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_0dd6430d79a64547a885e28d82334a3a~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_0dd6430d79a64547a885e28d82334a3a~mv2.jpeg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_ee3dead161a840e688237c55435bba3d~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_ee3dead161a840e688237c55435bba3d~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_da48702ff5ec44069f3e9938fb0db51f~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_da48702ff5ec44069f3e9938fb0db51f~mv2.jpeg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_7881b0671adb4636861ae3ba20514c3b~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_7881b0671adb4636861ae3ba20514c3b~mv2.jpeg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_d44d2560f3034d96905498e645271405~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_d44d2560f3034d96905498e645271405~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_bdf0dd0c009f470cb0ae41671e232be9~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_bdf0dd0c009f470cb0ae41671e232be9~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_9553110be21e4d1db255dfeb70598b23~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_9553110be21e4d1db255dfeb70598b23~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_4ab968fc521f45fa8cc93df19a5235f6~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_4ab968fc521f45fa8cc93df19a5235f6~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_06f02a769e2a42f592a5e0f9c2a3cacf~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_06f02a769e2a42f592a5e0f9c2a3cacf~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_119e786b92a8466aa140c59d999fc0cc~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_119e786b92a8466aa140c59d999fc0cc~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_7991ddc11fcb4c15b29b77e5e7a16e38~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_7991ddc11fcb4c15b29b77e5e7a16e38~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/5a4d38_3ae529c6e8d647a6b8f5b3bb2f0b4b25~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/5a4d38_3ae529c6e8d647a6b8f5b3bb2f0b4b25~mv2.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Le Mas du Paradis, travaux de la vigne"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "commande",
+   "label": "Commande",
+   "title": "Commande",
+   "h1": "Passer <em>commande</em>",
+   "eyebrow": "Particuliers",
+   "lead": "Retrait et règlement au caveau du Mas du Paradis.",
+   "img": "https://static.wixstatic.com/media/5a4d38_355b1fe6a2d04b218e3fecd383e09532~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "order",
+     "id": "commander",
+     "eyebrow": "Bon de commande",
+     "title": "Votre commande <em class=\"it\">au caveau</em>",
+     "lead": "Indiquez les quantités souhaitées à l'unité ou par carton de 6. Une fois que votre commande sera prête, vous recevrez un courriel avec votre facture.",
+     "groups": [
+      {
+       "title": "Rouges",
+       "color": "#6d1a2a",
+       "items": [
+        {
+         "name": "Crozes-Hermitage « Mon Désir »",
+         "vintage": "2024"
+        },
+        {
+         "name": "Syrah « Mon 20 Éternel »",
+         "vintage": "2023"
+        },
+        {
+         "name": "Saint-Joseph rouge « Mots d'Amour »",
+         "vintage": "2024"
+        },
+        {
+         "name": "Gamay « Mon chef n'oublie pas le gamay »",
+         "vintage": "2024"
+        },
+        {
+         "name": "Côte-Rôtie « Ma Mie »",
+         "vintage": "2024"
+        }
+       ]
+      },
+      {
+       "title": "Blancs",
+       "color": "#d9b44a",
+       "items": [
+        {
+         "name": "Marsanne « L'or de Mars »",
+         "vintage": "2025"
+        },
+        {
+         "name": "Viognier « Mots d'Hier »",
+         "vintage": "2025"
+        },
+        {
+         "name": "Saint-Joseph blanc « Le Chat Blanc »",
+         "vintage": "2025"
+        },
+        {
+         "name": "Saint-Péray « Les 3 rangs »",
+         "vintage": "2025"
+        },
+        {
+         "name": "Condrieu « Le Petit Prince »",
+         "vintage": "2025"
+        }
+       ]
+      }
+     ],
+     "rules": [
+      "Votre commande sera réglée au Caveau du Mas du Paradis dès que vous viendrez la récupérer.",
+      "Commande à l'unité ou par carton de 6."
+     ],
+     "price_note": "Prix communiqués avec la facture.",
+     "email": "commercial.lemasduparadis@gmail.com",
+     "phone": "07 81 52 05 29",
+     "tel": "+33781520529",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true,
+       "ac": "name"
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true,
+       "ac": "email"
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true,
+       "ac": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea"
+      }
+     ],
+     "subject": "Commande depuis le site du Mas du Paradis"
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "Nous <em>contacter</em>",
+   "eyebrow": "Chavanay",
+   "lead": "179 RD 1086 – La Grande Gorge, 42410 Chavanay · 06 77 06 20 03",
+   "img": "https://static.wixstatic.com/media/5a4d38_2a046803005246968f55352305a678a4~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous rendre visite",
+     "title": "Le caveau <em class=\"it\">à Chavanay</em>",
+     "text": "Dégustation, visite du domaine et retrait des commandes au caveau.",
+     "rows": [
+      [
+       "Adresse",
+       "179 RD 1086 – La Grande Gorge<br>42410 Chavanay"
+      ],
+      [
+       "Horaires",
+       "Lundi – vendredi : 9h – 17h<br>Samedi : sur rendez-vous<br>Dimanche : fermé"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33677062003\">06 77 06 20 03</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:lemasduparadis.pivat@gmail.com\">lemasduparadis.pivat@gmail.com</a>"
+      ]
+     ],
+     "map_q": "179 RD 1086 La Grande Gorge 42410 Chavanay",
+     "cta": [
+      "Appeler le domaine",
+      "tel:+33677062003"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Écrivez-nous",
+     "title": "Une question, <em class=\"it\">une réservation ?</em>",
+     "lead": "Dégustation, visite, soirée ou prestation : laissez-nous un message.",
+     "email": "lemasduparadis.pivat@gmail.com",
+     "subject": "Message depuis le site du Mas du Paradis",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Petit domaine viticole de 8 hectares à Chavanay, créé en 2013 par Alban Pivat. Vins de la Vallée du Rhône et prestations viticoles.",
+  "contact": [
+   "<a href=\"tel:+33677062003\">06 77 06 20 03</a>",
+   "<a href=\"mailto:lemasduparadis.pivat@gmail.com\">lemasduparadis.pivat@gmail.com</a>",
+   "179 RD 1086 – 42410 Chavanay"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://lemasduparadispivat.wixsite.com/lemasduparadis-pivat/mention-l%C3%A9gal"
+ }
+}
