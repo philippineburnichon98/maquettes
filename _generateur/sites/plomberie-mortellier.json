@@ -1,0 +1,257 @@
+{
+ "slug": "plomberie-mortellier-dd0386",
+ "title": "Plomberie Mortellier — Artisan plombier chauffagiste à Messimy-sur-Saône (Ain, Rhône, Saône-et-Loire)",
+ "description": "Plomberie Mortellier, artisan plombier chauffagiste à Messimy-sur-Saône : dépannage, chauffage et climatisation, traitement de l'eau, plomberie. Agréé Frisquet et Talassa, PG Gaz.",
+ "brand": "Plomberie Mortellier",
+ "tagline": "Artisan plombier chauffagiste",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/b6557a_19f6631aa66940358a83f569e7813af1~mv2.png/v1/fit/w_500,h_500,al_c,q_85/img.jpg",
+  "height": 52,
+  "with_name": true
+ },
+ "theme": {
+  "look": "center",
+  "paper": "#f3f6f9",
+  "paper2": "#e2e9f0",
+  "ink": "#10202e",
+  "muted": "#566573",
+  "accent": "#1c5d99",
+  "accent2": "#154878",
+  "gold": "#e0782b",
+  "heroem": "#ffc58f",
+  "serif": "\"Barlow\",system-ui,sans-serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@300;400;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33765620727\">Tél : 07 65 62 07 27</a>",
+  "<a href=\"mailto:plomberie.mortellier@gmail.com\">plomberie.mortellier@gmail.com</a>"
+ ],
+ "nav": [
+  [
+   "services",
+   "Nos services"
+  ],
+  [
+   "identite",
+   "Notre identité"
+  ],
+  [
+   "devis",
+   "Devis gratuit"
+  ],
+  [
+   "contact",
+   "Nous contacter"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/11062b_7bb9944945af4723ad2aefa5caed46a4f000.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Intervention rapide · Ain · Rhône · Saône-et-Loire",
+  "title": "Artisan plombier <em>chauffagiste</em>",
+  "lead": "Dépannage, chauffage et climatisation, traitement de l'eau, plomberie : Plomberie Mortellier, à Messimy-sur-Saône.",
+  "cta1": [
+   "Devis gratuit",
+   "#devis"
+  ],
+  "cta2": [
+   "07 65 62 07 27",
+   "tel:+33765620727"
+  ]
+ },
+ "figures": [
+  [
+   "15 ans",
+   "d'expérience de plombier chauffagiste"
+  ],
+  [
+   "2022",
+   "création de l'entreprise"
+  ],
+  [
+   "3",
+   "départements couverts"
+  ],
+  [
+   "4",
+   "domaines d'intervention"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Services",
+   "title": "Nos <em class=\"it\">services</em>",
+   "items": [
+    {
+     "kicker": "Urgence",
+     "title": "Dépannage",
+     "list": [
+      "Recherche et réparation de fuite d'eau et de gaz.",
+      "Débouchage de canalisation."
+     ]
+    },
+    {
+     "kicker": "Confort",
+     "title": "Chauffage, climatisation",
+     "list": [
+      "Remplacement de chaudière à gaz.",
+      "Réseau de chauffage individuel.",
+      "Remplacement et installation VMC.",
+      "Installation climatisation."
+     ]
+    },
+    {
+     "kicker": "Eau",
+     "title": "Traitements de l'eau",
+     "list": [
+      "Installation adoucisseurs.",
+      "Installation filtre et fontaine à eau pour eau de boisson."
+     ]
+    },
+    {
+     "kicker": "Installation",
+     "title": "Plomberie",
+     "list": [
+      "Installation et remplacement d'appareillage sanitaire.",
+      "Réseau de gaz individuel.",
+      "Réseau d'eau sanitaire individuel.",
+      "Réseau d'évacuation individuel."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "identite",
+   "eyebrow": "À propos",
+   "title": "Notre identité, <em class=\"it\">nos engagements</em>",
+   "img": "https://static.wixstatic.com/media/11062b_a6e7ba2b1f1c4edc89a4ddb9b6ae395a~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "Lavabos de salle de bain",
+   "paras": [
+    "L'entreprise Plomberie Mortellier est implantée à Messimy-sur-Saône dans le département de l'Ain (01). Après 15 ans d'expérience en tant que plombier chauffagiste et l'obtention d'un CAP Installateur Sanitaire, Nolan Mortellier lance son entreprise en janvier 2022.",
+    "Pour garantir un travail précis et une mise à jour constante des nouvelles normes et produits, Nolan Mortellier adhère à différents organismes et suit des formations tout au long de l'année avec différents partenaires."
+   ],
+   "sign": "Agréé Frisquet · PG Gaz 2025 · Agréé Talassa",
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/b6557a_3abb915c23454d639302cc73ab26bef3~mv2.webp/v1/fit/w_300,h_300,al_c,q_85/img.jpg",
+     "Agréé Frisquet"
+    ],
+    [
+     "https://static.wixstatic.com/media/b6557a_0a802cf57d854a8f804c2bc753a17a80~mv2.png/v1/fit/w_300,h_300,al_c,q_85/img.jpg",
+     "PG Gaz 2025"
+    ],
+    [
+     "https://static.wixstatic.com/media/b6557a_8ee030e628494902aab539d13bc70463~mv2.png/v1/fit/w_300,h_300,al_c,q_85/img.jpg",
+     "Agréé Talassa"
+    ]
+   ]
+  },
+  {
+   "kind": "form",
+   "email": "plomberie.mortellier@gmail.com",
+   "subject": "Demande de devis depuis le site Plomberie Mortellier",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Commune",
+     "type": "text"
+    },
+    {
+     "label": "Votre besoin",
+     "type": "select",
+     "options": [
+      "Dépannage",
+      "Chauffage / climatisation",
+      "Traitement de l'eau",
+      "Plomberie",
+      "Autre"
+     ]
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "required": true
+    }
+   ],
+   "id": "devis",
+   "eyebrow": "Devis gratuit",
+   "title": "Confier <em class=\"it\">un travail</em>",
+   "lead": "Décrivez votre besoin : Nolan Mortellier vous rappelle pour établir votre devis gratuit.",
+   "side": [
+    "<b>Appelez-nous</b><br><a href=\"tel:+33765620727\">07 65 62 07 27</a>",
+    "<b>Écrivez-nous</b><br><a href=\"mailto:plomberie.mortellier@gmail.com\">plomberie.mortellier@gmail.com</a>"
+   ],
+   "submit": "Demander mon devis"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous contacter",
+   "title": "Zones <em class=\"it\">couvertes</em>",
+   "text": "Intervention dans l'Ain, la Saône-et-Loire et le Rhône, depuis Messimy-sur-Saône.",
+   "rows": [
+    [
+     "Zones couvertes",
+     "Ain (01) · Saône-et-Loire (71) · Rhône (69)"
+    ],
+    [
+     "Siège",
+     "Messimy-sur-Saône (01480)"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33765620727\">07 65 62 07 27</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:plomberie.mortellier@gmail.com\">plomberie.mortellier@gmail.com</a>"
+    ]
+   ],
+   "map_q": "Messimy-sur-Saône 01480",
+   "cta": [
+    "Appeler",
+    "tel:+33765620727"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "EIRL Mortellier Nolan, artisan plombier chauffagiste à Messimy-sur-Saône. SIREN 910 587 591.",
+  "contact": [
+   "<a href=\"tel:+33765620727\">07 65 62 07 27</a>",
+   "<a href=\"mailto:plomberie.mortellier@gmail.com\">plomberie.mortellier@gmail.com</a>",
+   "01480 Messimy-sur-Saône"
+  ],
+  "social": [
+   [
+    "linkedin",
+    "https://www.linkedin.com/in/nolan-mortellier-842652104/"
+   ],
+   [
+    "facebook",
+    "https://www.facebook.com/profile.php?id=61557159147924"
+   ],
+   [
+    "instagram",
+    "https://www.instagram.com/plomberie_mortellier/"
+   ]
+  ],
+  "legal": "Agréé Frisquet · PG Gaz 2025 · Agréé Talassa",
+  "legal_url": "https://plomberiemortellie.wixsite.com/plomberie-mortellier/mentions-l%C3%A9gales"
+ }
+}
