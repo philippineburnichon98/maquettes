@@ -1,0 +1,297 @@
+{
+ "slug": "ainay-notaires-dcc37b",
+ "title": "Ainay Notaires — Étude notariale à Lyon Ampère depuis 1976",
+ "description": "Ainay Notaires, Me Sandrine Celle et Me Olivier Garel-Galais : étude notariale à Lyon 2e, place Ampère, entre Bellecour et Carnot. Famille, patrimoine, immobilier, entreprise, international.",
+ "brand": "Ainay Notaires",
+ "tagline": "Étude notariale à Lyon Ampère",
+ "logo": {
+  "src": "https://ainay-notaires.fr/wp-content/uploads/2019/01/Logo-PNG.png",
+  "height": 50,
+  "with_name": true
+ },
+ "theme": {
+  "look": "editorial",
+  "paper": "#f5f4f1",
+  "paper2": "#e7e5df",
+  "ink": "#1b2230",
+  "muted": "#5c6270",
+  "accent": "#28406b",
+  "accent2": "#1d3052",
+  "gold": "#a88b5c",
+  "heroem": "#d9c7a4",
+  "serif": "\"Libre Baskerville\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33478380410\">04 78 38 04 10</a>",
+  "Du lundi au vendredi, 9h – 12h et 14h – 18h"
+ ],
+ "nav": [
+  [
+   "etude",
+   "L'étude"
+  ],
+  [
+   "notaires",
+   "Les notaires"
+  ],
+  [
+   "domaines",
+   "Domaines d'intervention"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://ainay-notaires.fr/wp-content/uploads/2019/01/FOND-D-ECRAN-ACL-1600x1200-classic-768x576.jpg",
+  "eyebrow": "Étude notariale · Lyon 2e · Depuis 1976",
+  "title": "Étude notariale <em>à Lyon Ampère</em>",
+  "lead": "Place Ampère, entre la place Bellecour et la place Carnot, au cœur du quartier d'Ainay et tout proche du quartier Confluence.",
+  "cta1": [
+   "Contacter l'étude",
+   "#contact"
+  ],
+  "cta2": [
+   "Nos domaines d'intervention",
+   "#domaines"
+  ]
+ },
+ "figures": [
+  [
+   "1976",
+   "création de l'office"
+  ],
+  [
+   "2",
+   "notaires associés"
+  ],
+  [
+   "6",
+   "domaines d'intervention"
+  ],
+  [
+   "Lyon 2e",
+   "place Ampère"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "etude",
+   "eyebrow": "L'étude",
+   "title": "Depuis 1976, <em class=\"it\">au cœur d'Ainay</em>",
+   "img": "https://ainay-notaires.fr/wp-content/uploads/2019/01/FOND-D-ECRAN-ACL-1600x1200-classic-768x576.jpg",
+   "alt": "L'étude, place Ampère",
+   "paras": [
+    "Créé en 1976 par Maître Jean-François Cognat, repris en 2016 par Maître Sandrine Celle et rejoint en 2018 par Maître Olivier Garel-Galais, l'office est idéalement situé place Ampère, entre la place Bellecour et la place Carnot, au cœur du quartier d'Ainay et tout proche du nouveau quartier Confluence."
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "ensemble",
+   "eyebrow": "Avec vous, à chaque étape importante de votre vie",
+   "title": "Travaillons <em class=\"it\">ensemble</em>",
+   "img": "https://ainay-notaires.fr/wp-content/uploads/2019/01/shutterstock_166218749_BC1-1024x663.jpg",
+   "alt": "",
+   "paras": [
+    "Petite structure au cœur de la ville, une équipe disponible, joignable et dynamique est à votre écoute et vous accompagne dans tous vos projets personnels et professionnels.",
+    "Grâce à l'implication des collaborateurs et à l'organisation de l'étude, le client est au centre de chacune de nos actions."
+   ]
+  },
+  {
+   "kind": "team",
+   "id": "notaires",
+   "eyebrow": "Les notaires",
+   "title": "Une étude <em class=\"it\">transmise</em>",
+   "people": [
+    {
+     "name": "Me Sandrine Celle",
+     "role": "Notaire, a repris l'office en 2016"
+    },
+    {
+     "name": "Me Olivier Garel-Galais",
+     "role": "Notaire, a rejoint l'office en 2018"
+    },
+    {
+     "name": "Me Jean-François Cognat",
+     "role": "Fondateur de l'office en 1976"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "eyebrow": "Nos domaines d'intervention",
+   "title": "Particuliers, entreprises <em class=\"it\">et collectivités</em>",
+   "items": [
+    {
+     "title": "Droit de la famille",
+     "list": [
+      "Choix du régime matrimonial et contrat de mariage",
+      "PACS",
+      "Changement de régime matrimonial",
+      "Divorce",
+      "Protection du conjoint",
+      "Donations et testaments",
+      "Successions",
+      "Conventions de quasi-usufruit"
+     ]
+    },
+    {
+     "title": "Patrimoine",
+     "list": [
+      "Audit et organisation du patrimoine",
+      "Transmission – Pacte Dutreil",
+      "Optimisation fiscale",
+      "Accompagnement fiscal (impôt sur le revenu, IFI)",
+      "SCI patrimoniales"
+     ]
+    },
+    {
+     "title": "État, collectivités locales",
+     "list": [
+      "Propriété des collectivités locales",
+      "Partenariat public / privé",
+      "Financements publics",
+      "Délégations de service public"
+     ]
+    },
+    {
+     "title": "Immobilier",
+     "list": [
+      "Achats / ventes simples ou complexes, construction",
+      "Investissement immobilier : VEFA, dispositif Pinel",
+      "Sociétés immobilières",
+      "Urbanisme commercial",
+      "Audit des contrats de location",
+      "Gestion locative et immobilière"
+     ]
+    },
+    {
+     "title": "Entreprise",
+     "list": [
+      "Choix de la forme juridique",
+      "Rédaction de statuts et pactes d'associés",
+      "Secrétariat juridique",
+      "Fusions-acquisitions, LBO",
+      "Cession de fonds de commerce ou de clientèle",
+      "Baux commerciaux",
+      "Fiscalité"
+     ]
+    },
+    {
+     "title": "International",
+     "list": [
+      "Successions et mariage à l'international",
+      "Délocalisation",
+      "Trust",
+      "Diversification patrimoniale"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "expertise",
+   "eyebrow": "Notre expertise",
+   "title": "Proximité, réactivité <em class=\"it\">et efficacité</em>",
+   "lead": "Notre expertise au travers d'une gestion personnalisée des dossiers garantissant à chacune et chacun proximité, réactivité et efficacité.",
+   "items": [
+    {
+     "img": "https://ainay-notaires.fr/wp-content/uploads/2019/01/photo-entree3-300x200.jpg",
+     "alt": "Entrée de l'étude",
+     "title": "Des locaux connectés",
+     "paras": [
+      "Dotés de la signature électronique, nous vous recevons dans des locaux fonctionnels, modernes et connectés."
+     ]
+    },
+    {
+     "img": "https://ainay-notaires.fr/wp-content/uploads/2019/01/photo-entree2-300x200.jpg",
+     "alt": "Entrée de l'étude",
+     "title": "Au cœur d'Ainay",
+     "paras": [
+      "Immeuble Central Ampère, 18 rue Bourgelat : parkings Bellecour et Perrache, métro Bellecour et Ampère, gare et tram Perrache."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "ecrire",
+   "eyebrow": "Contactez-nous",
+   "title": "Écrire <em class=\"it\">à l'étude</em>",
+   "lead": "Votre message est transmis à l'étude, qui revient vers vous.",
+   "email": "office.celle@notaires.fr",
+   "subject": "Message depuis le site Ainay Notaires",
+   "fields": [
+    {
+     "label": "Votre nom",
+     "required": true
+    },
+    {
+     "label": "Votre adresse de messagerie",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Objet",
+     "full": true
+    },
+    {
+     "label": "Votre message",
+     "type": "textarea"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "18 rue Bourgelat, <em class=\"it\">Lyon 2e</em>",
+   "text": "Immeuble Central Ampère.",
+   "rows": [
+    [
+     "Adresse",
+     "18 rue Bourgelat, Immeuble Central Ampère<br>69002 Lyon"
+    ],
+    [
+     "Horaires",
+     "Du lundi au vendredi<br>de 9h à 12h et de 14h à 18h"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33478380410\">04 78 38 04 10</a>"
+    ],
+    [
+     "Fax",
+     "04 78 42 48 44"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:office.celle@notaires.fr\">office.celle@notaires.fr</a>"
+    ],
+    [
+     "Accès",
+     "Parkings Bellecour et Perrache · Gare de Perrache · Métro Bellecour et Ampère · Tram Perrache"
+    ]
+   ],
+   "map_q": "18 rue Bourgelat 69002 Lyon",
+   "cta": [
+    "Appeler l'étude",
+    "tel:+33478380410"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Ainay Notaires, étude notariale à Lyon 2e depuis 1976. Me Sandrine Celle, Me Olivier Garel-Galais.",
+  "contact": [
+   "<a href=\"tel:+33478380410\">04 78 38 04 10</a>",
+   "<a href=\"mailto:office.celle@notaires.fr\">office.celle@notaires.fr</a>",
+   "18 rue Bourgelat, 69002 Lyon"
+  ],
+  "legal": "Notaires, officiers publics"
+ }
+}
