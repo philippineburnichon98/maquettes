@@ -1,0 +1,2112 @@
+{
+ "slug": "c2m-expertises-fc580d",
+ "title": "C2M Expertises — Diagnostics immobiliers dans le Rhône (Montagny, Givors, Brignais, Mornant)",
+ "description": "C2M Expertises, Bruno Perez, diagnostiqueur immobilier à Montagny (69) : DPE, amiante, plomb, électricité, gaz, termites, Carrez, ERP. Devis gratuit, 7 jours sur 7.",
+ "brand": "C2M Expertises",
+ "tagline": "Diagnostics immobiliers · Rhône",
+ "logo": {
+  "src": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/logo_C2M.png",
+  "height": 46
+ },
+ "theme": {
+  "look": "split",
+  "paper": "#f5f7f9",
+  "paper2": "#e4ebf1",
+  "ink": "#13212f",
+  "muted": "#566573",
+  "accent": "#1c5d8f",
+  "accent2": "#144770",
+  "gold": "#e2a72e",
+  "heroem": "#ffd27a",
+  "serif": "\"Outfit\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33661425899\">06 61 42 58 99</a>",
+  "<a href=\"mailto:c2mexpertise@gmail.com\">c2mexpertise@gmail.com</a>",
+  "<a href=\"tel:+33426652004\">04 26 65 20 04</a>",
+  "7 jours sur 7"
+ ],
+ "extra_css": "@media(max-width:640px){header .topbar span:nth-child(n+3){display:none}}",
+ "hero": {
+  "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+  "eyebrow": "Diagnostics immobiliers · Rhône · Givors, Montagny, Brignais",
+  "title": "Vos diagnostics immobiliers, <em>7 jours sur 7</em>",
+  "lead": "Avant vente, avant location, avant travaux : DPE, amiante, plomb, électricité, gaz, termites, Carrez… à Montagny, Givors, Brignais, Mornant, Saint-Symphorien-sur-Coise et Vaugneray.",
+  "cta1": [
+   "Demander un devis",
+   "devis/"
+  ],
+  "cta2": [
+   "06 61 42 58 99",
+   "tel:+33661425899"
+  ]
+ },
+ "figures": [
+  [
+   "7 j/7",
+   "à votre service"
+  ],
+  [
+   "15",
+   "prestations de diagnostic"
+  ],
+  [
+   "109",
+   "communes, déplacement compris"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "presentation",
+   "eyebrow": "Demande de devis",
+   "title": "Avant vente, avant location, <em class=\"it\">avant travaux</em>",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/devis-gratuit.jpg",
+   "alt": "Demande de devis gratuit",
+   "paras": [
+    "Demandez le prix de vos diagnostics immobiliers avant vente, avant location ou avant travaux, sur les communes de Montagny, Givors, Brignais, Mornant, Saint-Symphorien-sur-Coise et Vaugneray.",
+    "Bruno Perez vous répond 7 jours sur 7 au <a href=\"tel:+33661425899\">06 61 42 58 99</a>, ou par e-mail à <a href=\"mailto:c2mexpertise@gmail.com\">c2mexpertise@gmail.com</a>."
+   ],
+   "sign": "Bruno Perez, C2M Expertises",
+   "logos": [
+    [
+     "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/logo_veritas.gif",
+     "Certification Bureau Veritas"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "diagnostics",
+   "eyebrow": "Nos diagnostics",
+   "title": "DPE, amiante, plomb, <em class=\"it\">électricité, gaz…</em>",
+   "items": [
+    {
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+     "alt": "Diagnostic de performance énergétique",
+     "title": "Diagnostic de performance énergétique",
+     "paras": [
+      "Le DPE informe sur la quantité d'énergie consommée ou estimée d'un logement ou d'un local."
+     ],
+     "link": [
+      "En savoir plus",
+      "dpe/"
+     ]
+    },
+    {
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-toit.jpg",
+     "alt": "Diagnostic amiante",
+     "title": "Diagnostic amiante",
+     "paras": [
+      "Diagnostic amiante avant vente, avant travaux, avant démolition, dossier technique amiante (DTA)."
+     ],
+     "link": [
+      "En savoir plus",
+      "amiante/"
+     ]
+    },
+    {
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-peinture.jpg",
+     "alt": "Diagnostic plomb",
+     "title": "Diagnostic plomb",
+     "paras": [
+      "Constat de risque d'exposition au plomb (CREP), avant vente et avant location."
+     ],
+     "link": [
+      "En savoir plus",
+      "plomb/"
+     ]
+    },
+    {
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-disjoncteur.jpg",
+     "alt": "Diagnostic électricité",
+     "title": "Diagnostic électricité",
+     "paras": [
+      "L'état de l'installation intérieure d'électricité, couramment appelé diagnostic électrique."
+     ],
+     "link": [
+      "En savoir plus",
+      "electricite/"
+     ]
+    },
+    {
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-compteur.jpg",
+     "alt": "Diagnostic gaz",
+     "title": "Diagnostic gaz",
+     "paras": [
+      "L'état de l'installation intérieure de gaz, avant vente et avant location."
+     ],
+     "link": [
+      "En savoir plus",
+      "gaz/"
+     ]
+    },
+    {
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite-degat.jpg",
+     "alt": "Diagnostic termites",
+     "title": "Diagnostic termites",
+     "paras": [
+      "L'état relatif à la présence de termites, pour les biens situés dans une zone délimitée par arrêté préfectoral."
+     ],
+     "link": [
+      "En savoir plus",
+      "termites/"
+     ]
+    }
+   ],
+   "chips": [
+    "Loi Carrez",
+    "État des risques et pollutions",
+    "Les parasitaires",
+    "Contrôle Technique de l'Habitat",
+    "Étude thermique, BBC, maison passive",
+    "Contrôles de bâtiment",
+    "Radon",
+    "Mise en copropriété d'un immeuble",
+    "Diagnostic de Performance Internet"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+   "eyebrow": "Obligations et validité",
+   "title": "Quels diagnostics pour votre bien ?",
+   "cta": [
+    "Voir la réglementation",
+    "obligations/"
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "zone",
+   "eyebrow": "Rhône",
+   "title": "Givors, Mornant, Brignais, <em class=\"it\">Vaugneray…</em>",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/carte_givors.png",
+   "alt": "Périmètre d'intervention",
+   "paras": [
+    "Nous intervenons principalement sur Vaugneray, Mornant, Charly, Montagny, Givors, Saint-Martin-en-Haut, Chassagny, Duerne, La Chapelle-sur-Coise, Brignais, Chaponost, Brindas et Francheville.",
+    "Plus de cent communes du Rhône et des alentours bénéficient d'un tarif « déplacement compris » : <a href=\"devis/#communes\">voir la liste</a>."
+   ]
+  },
+  {
+   "kind": "blog",
+   "id": "actus",
+   "eyebrow": "Actualités",
+   "title": "Le diagnostic immobilier <em class=\"it\">en clair</em>",
+   "step": 3,
+   "posts": [
+    {
+     "title": "La durée de validité des DPE sera réduite à compter du 1er juillet 2021",
+     "cat": "DPE",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-news/news_39/images.jpg",
+     "desc": "Pour préparer la transition vers les nouveaux DPE, un décret raccourcit la validité des DPE réalisés avant le 1er juillet 2021.",
+     "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-RHONE-39.html"
+    },
+    {
+     "title": "DPE Locaux commerciaux",
+     "cat": "DPE",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-controle.jpg",
+     "desc": "Le diagnostic de performance énergétique est désormais obligatoire à la signature d'un bail commercial (loi Grenelle 2).",
+     "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-40.html"
+    },
+    {
+     "title": "DPE : Affichage obligatoire",
+     "cat": "DPE",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-news-com/news_39/loupedpe%281%29.jpg",
+     "desc": "Depuis le 1er janvier 2011, toutes les annonces immobilières doivent faire figurer la performance énergétique du bien.",
+     "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-39.html"
+    }
+   ],
+   "lead": "Les dernières évolutions de la réglementation.",
+   "note": "<a href=\"actualites/\">Toutes nos actualités</a>"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "diagnostics",
+   "label": "Diagnostics",
+   "title": "Nos diagnostics immobiliers",
+   "h1": "Nos <em>diagnostics</em>",
+   "eyebrow": "Vente · location · travaux · démolition",
+   "lead": "Quinze prestations, du DPE à la mise en copropriété, dans le Rhône et ses alentours.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "obligatoires",
+     "eyebrow": "Diagnostics obligatoires",
+     "title": "Avant vente <em class=\"it\">et avant location</em>",
+     "items": [
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+       "alt": "Diagnostic de performance énergétique",
+       "title": "Diagnostic de performance énergétique",
+       "paras": [
+        "Le DPE informe sur la quantité d'énergie consommée ou estimée d'un logement ou d'un local."
+       ],
+       "link": [
+        "En savoir plus",
+        "../dpe/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-toit.jpg",
+       "alt": "Diagnostic amiante",
+       "title": "Diagnostic amiante",
+       "paras": [
+        "Diagnostic amiante avant vente, avant travaux, avant démolition, dossier technique amiante (DTA)."
+       ],
+       "link": [
+        "En savoir plus",
+        "../amiante/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-peinture.jpg",
+       "alt": "Diagnostic plomb",
+       "title": "Diagnostic plomb",
+       "paras": [
+        "Constat de risque d'exposition au plomb (CREP), avant vente et avant location."
+       ],
+       "link": [
+        "En savoir plus",
+        "../plomb/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-disjoncteur.jpg",
+       "alt": "Diagnostic électricité",
+       "title": "Diagnostic électricité",
+       "paras": [
+        "L'état de l'installation intérieure d'électricité, couramment appelé diagnostic électrique."
+       ],
+       "link": [
+        "En savoir plus",
+        "../electricite/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-compteur.jpg",
+       "alt": "Diagnostic gaz",
+       "title": "Diagnostic gaz",
+       "paras": [
+        "L'état de l'installation intérieure de gaz, avant vente et avant location."
+       ],
+       "link": [
+        "En savoir plus",
+        "../gaz/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite-degat.jpg",
+       "alt": "Diagnostic termites",
+       "title": "Diagnostic termites",
+       "paras": [
+        "L'état relatif à la présence de termites, pour les biens situés dans une zone délimitée par arrêté préfectoral."
+       ],
+       "link": [
+        "En savoir plus",
+        "../termites/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/metrage_Carrez.jpg",
+       "alt": "Loi Carrez",
+       "title": "Loi Carrez",
+       "paras": [
+        "En cas de vente d'un lot de copropriété, le mesurage Carrez informe l'acquéreur de la superficie du lot."
+       ],
+       "link": [
+        "En savoir plus",
+        "../carrez/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/carte_givors.png",
+       "alt": "État des risques et pollutions",
+       "title": "État des risques et pollutions",
+       "paras": [
+        "ERP : informer l'acquéreur ou le locataire des risques naturels, miniers et technologiques et des sinistres passés."
+       ],
+       "link": [
+        "En savoir plus",
+        "../erp/"
+       ],
+       "contain": true
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "expertises",
+     "eyebrow": "Contrôles et expertises",
+     "title": "Bâti, énergie <em class=\"it\">et copropriété</em>",
+     "items": [
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/capricorne_larve_attaque.JPG",
+       "alt": "Les parasitaires",
+       "title": "Les parasitaires",
+       "paras": [
+        "Charpente saine ou à traiter ? Surveillance régulière ou diagnostic ponctuel de l'état parasitaire."
+       ],
+       "link": [
+        "En savoir plus",
+        "../parasitaires/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+       "alt": "Contrôle Technique de l'Habitat",
+       "title": "Contrôle Technique de l'Habitat",
+       "paras": [
+        "Comment connaître l'état réel d'une maison lorsque l'on cherche à acheter ?"
+       ],
+       "link": [
+        "En savoir plus",
+        "../controle-technique-habitat/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-consommation.jpg",
+       "alt": "Étude thermique, BBC, maison passive",
+       "title": "Étude thermique, BBC, maison passive",
+       "paras": [
+        "Audits ADEME et calculs PHPP pour les maisons passives."
+       ],
+       "link": [
+        "En savoir plus",
+        "../etude-thermique/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-controle.jpg",
+       "alt": "Contrôles de bâtiment",
+       "title": "Contrôles de bâtiment",
+       "paras": [
+        "Conseil en économie d'énergie, thermographie, accessibilité, décence."
+       ],
+       "link": [
+        "En savoir plus",
+        "../controles-batiment/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+       "alt": "Radon",
+       "title": "Radon",
+       "paras": [
+        "Un gaz radioactif naturel, inodore et incolore : dépistage dans les établissements recevant du public et les locaux de travail."
+       ],
+       "link": [
+        "En savoir plus",
+        "../radon/"
+       ]
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_31/copropriete.png",
+       "alt": "Mise en copropriété d'un immeuble",
+       "title": "Mise en copropriété d'un immeuble",
+       "paras": [
+        "État descriptif de division, règlement de copropriété et diagnostics : un interlocuteur unique."
+       ],
+       "link": [
+        "En savoir plus",
+        "../copropriete/"
+       ],
+       "contain": true
+      },
+      {
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/Etiquette-internet.jpg",
+       "alt": "Diagnostic de Performance Internet",
+       "title": "Diagnostic de Performance Internet",
+       "paras": [
+        "Nous réalisons gratuitement votre diagnostic Internet, en même temps que les diagnostics obligatoires."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-internet/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit",
+     "title": "Un bien à vendre, à louer ou à rénover ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "obligations",
+   "label": "Réglementation",
+   "title": "Obligations réglementaires et validité",
+   "h1": "Obligations <em>et validité</em>",
+   "eyebrow": "Réglementation",
+   "lead": "Les diagnostics à annexer aux actes de vente et de location, et leur durée de validité.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/validite_carrez.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "obligations-reglementaires",
+     "eyebrow": "Obligations réglementaires",
+     "title": "Ce que la loi <em class=\"it\">impose</em>",
+     "lead": "Depuis plusieurs années, la loi impose d'annexer certains diagnostics aux actes de vente et de location, pour protéger la santé et la sécurité des occupants. Ils sont réalisés par un professionnel compétent, indépendant, impartial et assuré, et doivent être valides à la date de l'acte.",
+     "items": [
+      {
+       "title": "Vente",
+       "list": [
+        "Plomb (CREP) : logement construit avant 1949",
+        "Amiante : permis de construire antérieur au 1er juillet 1997",
+        "Termites : selon la zone géographique",
+        "Gaz et électricité : installation de plus de 15 ans",
+        "État des risques et pollutions : communes concernées",
+        "DPE : tous les biens",
+        "Loi Carrez : lots de copropriété"
+       ]
+      },
+      {
+       "title": "Location",
+       "list": [
+        "Plomb (CREP) : logement construit avant 1949",
+        "Gaz et électricité : installation de plus de 15 ans",
+        "État des risques et pollutions : communes concernées",
+        "DPE",
+        "Surface habitable (loi Boutin)"
+       ]
+      },
+      {
+       "title": "Parties communes",
+       "list": [
+        "Amiante : permis antérieur au 1er juillet 1997",
+        "Plomb (CREP) : immeuble construit avant 1949"
+       ]
+      },
+      {
+       "title": "Locaux professionnels",
+       "list": [
+        "Amiante : permis antérieur au 1er juillet 1997",
+        "DPE",
+        "État des risques et pollutions selon la commune"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "validite",
+     "eyebrow": "Validité des diagnostics",
+     "title": "Combien de temps <em class=\"it\">sont-ils valables ?</em>",
+     "items": [
+      {
+       "title": "Vente",
+       "list": [
+        "Amiante : illimitée en l'absence d'amiante (documents établis depuis le 1er janvier 2013)",
+        "Gaz et électricité : 3 ans",
+        "Loi Carrez : illimitée, sauf travaux modifiant la surface",
+        "DPE : 10 ans",
+        "Plomb : 1 an, illimitée en l'absence de plomb",
+        "Termites : 6 mois",
+        "État des risques et pollutions : 6 mois"
+       ]
+      },
+      {
+       "title": "Location",
+       "list": [
+        "Gaz et électricité : 6 ans",
+        "DPE : 10 ans",
+        "Plomb : 6 ans, illimitée en l'absence de plomb",
+        "État des risques et pollutions : 6 mois",
+        "Loi Boutin : illimitée, sauf travaux modifiant la surface"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "textes",
+     "eyebrow": "Textes légaux",
+     "title": "Les textes <em class=\"it\">de référence</em>",
+     "items": [
+      {
+       "title": "Amiante",
+       "link": [
+        "Consulter les textes",
+        "https://www.c2m-expertise-diagnostics-immobiliers.fr/textes-legaux-AMIANTE.html"
+       ]
+      },
+      {
+       "title": "Électricité",
+       "link": [
+        "Consulter les textes",
+        "https://www.c2m-expertise-diagnostics-immobiliers.fr/textes-legaux-ELECTRICITE.html"
+       ]
+      },
+      {
+       "title": "Ensemble des diagnostics",
+       "link": [
+        "Consulter les textes",
+        "https://www.c2m-expertise-diagnostics-immobiliers.fr/textes-legaux-ENSEMBLE-DES-DIAGNOSTICS.html"
+       ]
+      },
+      {
+       "title": "Gaz",
+       "link": [
+        "Consulter les textes",
+        "https://www.c2m-expertise-diagnostics-immobiliers.fr/textes-legaux-GAZ.html"
+       ]
+      },
+      {
+       "title": "Performances énergétiques",
+       "link": [
+        "Consulter les textes",
+        "https://www.c2m-expertise-diagnostics-immobiliers.fr/textes-legaux-PERFORMANCES-ENERGETIQUES.html"
+       ]
+      },
+      {
+       "title": "Plomb",
+       "link": [
+        "Consulter les textes",
+        "https://www.c2m-expertise-diagnostics-immobiliers.fr/textes-legaux-PLOMB.html"
+       ]
+      },
+      {
+       "title": "Termites",
+       "link": [
+        "Consulter les textes",
+        "https://www.c2m-expertise-diagnostics-immobiliers.fr/textes-legaux-TERMITES.html"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites",
+   "label": "Actualités",
+   "title": "Actualités du diagnostic immobilier",
+   "h1": "Nos <em>actualités</em>",
+   "eyebrow": "Actualités",
+   "lead": "Les évolutions de la réglementation, expliquées simplement.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-news-com/news_39/loupedpe%281%29.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "blog",
+     "eyebrow": "Actualités",
+     "title": "Le diagnostic immobilier <em class=\"it\">en clair</em>",
+     "lead": "Les articles publiés sur notre site.",
+     "step": 6,
+     "posts": [
+      {
+       "title": "La durée de validité des DPE sera réduite à compter du 1er juillet 2021",
+       "cat": "DPE",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-news/news_39/images.jpg",
+       "desc": "Pour préparer la transition vers les nouveaux DPE, un décret raccourcit la validité des DPE réalisés avant le 1er juillet 2021.",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-RHONE-39.html"
+      },
+      {
+       "title": "DPE Locaux commerciaux",
+       "cat": "DPE",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-controle.jpg",
+       "desc": "Le diagnostic de performance énergétique est désormais obligatoire à la signature d'un bail commercial (loi Grenelle 2).",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-40.html"
+      },
+      {
+       "title": "DPE : Affichage obligatoire",
+       "cat": "DPE",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-news-com/news_39/loupedpe%281%29.jpg",
+       "desc": "Depuis le 1er janvier 2011, toutes les annonces immobilières doivent faire figurer la performance énergétique du bien.",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-39.html"
+      },
+      {
+       "title": "Loi Boutin : attestation de superficie (bail locatif)",
+       "cat": "Surfaces",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/metrage-maison.jpg",
+       "desc": "Depuis 2009, la surface habitable doit figurer dans le contrat de location : surfaces exclues et différences avec la loi Carrez.",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-38.html"
+      },
+      {
+       "title": "Crédit Impôt sur le Diagnostic Energétique",
+       "cat": "DPE",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-news-com/news_39/dpe-consommation.jpg",
+       "desc": "Un DPE réalisé en dehors des cas où la loi l'impose peut ouvrir droit à un crédit d'impôt.",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-37.html"
+      },
+      {
+       "title": "Plomb Avant Location",
+       "cat": "Plomb",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-peinture.jpg",
+       "desc": "Le bailleur annexe un constat de risque d'exposition au plomb à tout nouveau bail d'un logement construit avant 1949.",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-32.html"
+      },
+      {
+       "title": "Diagnostic électricité - Diagnostic électrique",
+       "cat": "Électricité",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-disjoncteur.jpg",
+       "desc": "Obligatoire à la vente depuis le 1er janvier 2009 : il évalue les risques pour la sécurité des personnes et reste valable trois ans.",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-28.html"
+      },
+      {
+       "title": "Diagnostic Plomb avant location",
+       "cat": "Plomb",
+       "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-mur.jpg",
+       "desc": "Un constat sans revêtement plombé au-delà du seuil peut être joint à chaque nouveau bail sans nouvelle expertise.",
+       "url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/actualites-diagnostic-immobilier-22.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "devis",
+   "label": "Devis & contact",
+   "title": "Demande de devis gratuit",
+   "h1": "Demande <em>de devis</em>",
+   "eyebrow": "Devis gratuit · 7 jours sur 7",
+   "lead": "Diagnostics avant vente, avant location et avant travaux : décrivez votre bien, nous vous répondons rapidement.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/devis-gratuit.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis-form",
+     "eyebrow": "Demande de devis gratuit",
+     "title": "Votre devis <em class=\"it\">de diagnostics</em>",
+     "lead": "Vos coordonnées, puis celles du bien. Protection des données personnelles : conformément à la loi n° 78-17 du 6 janvier 1978, dite « Informatique et libertés ».",
+     "email": "c2mexpertise@gmail.com",
+     "subject": "Demande de devis depuis le site C2M Expertises",
+     "submit": "Envoyer la demande",
+     "side": [
+      "<b>Bruno Perez</b>",
+      "<a href=\"tel:+33661425899\">06 61 42 58 99</a> · <a href=\"tel:+33426652004\">04 26 65 20 04</a>",
+      "<a href=\"mailto:c2mexpertise@gmail.com\">c2mexpertise@gmail.com</a>",
+      "8 route du Batard, 69700 Montagny"
+     ],
+     "fields": [
+      {
+       "label": "Nom et prénom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true,
+       "full": true
+      },
+      {
+       "label": "Adresse du bien",
+       "full": true
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Type de bien",
+       "type": "select",
+       "options": [
+        "Maison",
+        "Appartement",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Bien destiné à",
+       "type": "select",
+       "options": [
+        "Vente",
+        "Location",
+        "Démolition"
+       ]
+      },
+      {
+       "label": "Nombre de pièces",
+       "type": "select",
+       "options": [
+        "sélectionnez un nombre",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+       ]
+      },
+      {
+       "label": "Dépendances",
+       "type": "checks",
+       "options": [
+        "Cave",
+        "Garage"
+       ]
+      },
+      {
+       "label": "Type de chauffage",
+       "type": "select",
+       "options": [
+        "Individuel",
+        "Collectif"
+       ]
+      },
+      {
+       "label": "Eau chaude sanitaire",
+       "type": "select",
+       "options": [
+        "Individuelle",
+        "Collective"
+       ]
+      },
+      {
+       "label": "Installation de gaz",
+       "type": "select",
+       "options": [
+        "Oui",
+        "Non"
+       ]
+      },
+      {
+       "label": "Type d'installation de gaz",
+       "type": "checks",
+       "options": [
+        "Cuisson",
+        "Chaudière",
+        "Radiateur"
+       ]
+      },
+      {
+       "label": "Surface (m²)"
+      },
+      {
+       "label": "Année de construction"
+      },
+      {
+       "label": "Commentaires",
+       "type": "textarea"
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "contact",
+     "eyebrow": "Contactez C2M",
+     "title": "Une question ? <em class=\"it\">Écrivez-nous</em>",
+     "lead": "Envoyez-moi un message pour de plus amples renseignements.",
+     "email": "c2mexpertise@gmail.com",
+     "subject": "Message depuis le site C2M Expertises",
+     "submit": "Envoyer le mail",
+     "fields": [
+      {
+       "label": "Nom Prénom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Sujet"
+      },
+      {
+       "label": "Description",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Coordonnées",
+     "title": "C2M Expertises <em class=\"it\">à Montagny</em>",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/carte_givors.png",
+     "rows": [
+      [
+       "Contact",
+       "Bruno Perez"
+      ],
+      [
+       "Adresse",
+       "8 route du Batard<br>69700 Montagny"
+      ],
+      [
+       "Mobile",
+       "<a href=\"tel:+33661425899\">06 61 42 58 99</a>"
+      ],
+      [
+       "Fixe",
+       "<a href=\"tel:+33426652004\">04 26 65 20 04</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:c2mexpertise@gmail.com\">c2mexpertise@gmail.com</a>"
+      ],
+      [
+       "Disponibilité",
+       "7 jours sur 7"
+      ]
+     ],
+     "map_q": "8 route du Batard 69700 Montagny",
+     "cta": [
+      "Appeler",
+      "tel:+33661425899"
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "communes",
+     "eyebrow": "Communes d'intervention",
+     "title": "Tarif <em class=\"it\">« déplacement compris »</em>",
+     "lead": "Rhône, Loire et Isère voisines : les communes où nous intervenons sans frais de déplacement.",
+     "chips": [
+      "Ampuis",
+      "Aveize",
+      "Brignais",
+      "Brindas",
+      "Chagnon",
+      "Chaponnay",
+      "Chaponost",
+      "Charly",
+      "Chassagny",
+      "Chasse-sur-Rhône",
+      "Chasselay",
+      "Chaussan",
+      "Chazelles-sur-Lyon",
+      "Chevrières",
+      "Chuzelles",
+      "Coise",
+      "Communay",
+      "Condrieu",
+      "Corbas",
+      "Courzieu",
+      "Craponne",
+      "Duerne",
+      "Échalas",
+      "Estrablin",
+      "Farnay",
+      "Feyzin",
+      "Francheville",
+      "Givors",
+      "Grammond",
+      "Grézieu-la-Varenne",
+      "Grézieu-le-Marché",
+      "Grigny",
+      "Haute-Rivoire",
+      "Irigny",
+      "Jardin",
+      "L'Horme",
+      "La Chapelle-sur-Coise",
+      "La Chapelle-Villars",
+      "La Mulatière",
+      "Larajasse",
+      "Les Haies",
+      "Longes",
+      "Lorette",
+      "Luzinay",
+      "Marcy-l'Étoile",
+      "Marennes",
+      "Millery",
+      "Montagny",
+      "Montromant",
+      "Mornant",
+      "Orliénas",
+      "Oullins",
+      "Pavezin",
+      "Pierre-Bénite",
+      "Pomeys",
+      "Pont-Évêque",
+      "Reventin-Vaugris",
+      "Rive-de-Gier",
+      "Riverie",
+      "Rontalon",
+      "Saint-Andéol-le-Château",
+      "Saint-André-la-Côte",
+      "Saint-Appolinaire",
+      "Saint-Chamond",
+      "Saint-Christo-en-Jarez",
+      "Saint-Cyr-sur-le-Rhône",
+      "Saint-Denis-sur-Coise",
+      "Saint-Didier-sous-Riverie",
+      "Saint-Galmier",
+      "Saint-Genis-l'Argentière",
+      "Saint-Genis-Laval",
+      "Saint-Jean-de-Touslas",
+      "Saint-Joseph",
+      "Saint-Just-Chaleyssin",
+      "Saint-Laurent-d'Agny",
+      "Saint-Laurent-de-Chamousset",
+      "Saint-Laurent-de-Vaux",
+      "Saint-Martin-en-Haut",
+      "Saint-Martin-la-Plaine",
+      "Saint-Maurice-sur-Dargoire",
+      "Saint-Michel-sur-Rhône",
+      "Saint-Paul-en-Jarez",
+      "Saint-Prim",
+      "Saint-Romain-en-Gal",
+      "Saint-Romain-en-Gier",
+      "Saint-Sorlin",
+      "Saint-Symphorien-d'Ozon",
+      "Saint-Symphorien-sur-Coise",
+      "Sainte-Colombe",
+      "Sainte-Foy-l'Argentière",
+      "Sainte-Foy-lès-Lyon",
+      "Sérézin-du-Rhône",
+      "Serpaize",
+      "Seyssuel",
+      "Simandres",
+      "Solaize",
+      "Soucieu-en-Jarrest",
+      "Souzy",
+      "Taluyers",
+      "Ternay",
+      "Thurins",
+      "Trèves",
+      "Valfleury",
+      "Vaugneray",
+      "Vernaison",
+      "Vienne",
+      "Villette-de-Vienne",
+      "Vourles",
+      "Yzeron"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "amiante",
+   "hidden": true,
+   "title": "Diagnostic amiante",
+   "h1": "Diagnostic amiante",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Diagnostic amiante avant vente, avant travaux, avant démolition, dossier technique amiante (DTA).",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-toit.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Diagnostic amiante",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Points de vigilance",
+       "paras": [
+        "L'expert chargé du repérage porte une attention particulière aux dalles de sol, aux faux plafonds, à l'isolation des tuyauteries, aux enduits projetés intérieurs et aux autres matériaux de construction ou de second œuvre. Plus de 3 000 matériaux contenant de l'amiante sont recensés à ce jour."
+       ]
+      },
+      {
+       "title": "Avant vente",
+       "paras": [
+        "Un état mentionnant la présence ou l'absence d'amiante (listes A et B) doit être annexé à la promesse de vente ou, à défaut, à l'acte authentique, pour les immeubles dont le permis de construire a été délivré avant le 1er juillet 1997.",
+        "Il est réalisé par un opérateur certifié. Sans ce diagnostic, aucune clause d'exonération de la garantie des vices cachés ne peut être stipulée."
+       ]
+      },
+      {
+       "title": "Parties privatives (DAPP)",
+       "paras": [
+        "Un document recensant les produits de la liste A (flocages, calorifuges, faux plafonds) est tenu à la disposition des occupants des locaux privatifs loués. Même champ : permis de construire antérieur au 1er juillet 1997."
+       ]
+      },
+      {
+       "title": "Avant travaux",
+       "paras": [
+        "Avant des travaux de rénovation, de réhabilitation, de perçage, de démolition partielle ou de dépose dans un bâtiment antérieur au 1er juillet 1997 : recherche et localisation des matériaux amiantés dans la zone des travaux (norme NF X 46-020), avec prélèvements si nécessaire."
+       ]
+      },
+      {
+       "title": "Avant démolition",
+       "paras": [
+        "Après l'évacuation du bâtiment et l'enlèvement du mobilier : recherche visuelle exhaustive (liste C), sondages destructifs ou démontages si besoin, pour attester de la présence ou de l'absence d'amiante dans chaque ouvrage ou composant."
+       ]
+      },
+      {
+       "title": "Dossier technique amiante (DTA)",
+       "paras": [
+        "Les immeubles publics ou privés dont le permis a été délivré avant le 1er juillet 1997, à l'exception des maisons individuelles, doivent faire l'objet d'un DTA."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Diagnostic amiante",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-bac.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-bac.jpg",
+       "alt": "Amiante : bac à fleurs",
+       "caption": "Amiante : bac à fleurs"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-mur.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-mur.jpg",
+       "alt": "Amiante : colle carrelage",
+       "caption": "Amiante : colle carrelage"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-toit.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-toit.jpg",
+       "alt": "Amiante : toit",
+       "caption": "Amiante : toit"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-tuyau.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_1/amiante-tuyau.jpg",
+       "alt": "Amiante : fourreaux en traversée de mur",
+       "caption": "Amiante : fourreaux en traversée de mur"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "electricite",
+   "hidden": true,
+   "title": "Diagnostic électricité",
+   "h1": "Diagnostic électricité",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "L'état de l'installation intérieure d'électricité, couramment appelé diagnostic électrique.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-disjoncteur.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Diagnostic électricité",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Vente et location",
+       "paras": [
+        "En vente, il est obligatoire depuis le 1er janvier 2009 pour les logements dont une partie de l'installation a plus de 15 ans.",
+        "En location, il est exigible pour les baux signés à partir du 1er juillet 2017 si le permis de construire est antérieur au 1er janvier 1975, et à partir du 1er juillet 2018 pour les autres logements (maisons individuelles hors copropriété).",
+        "Validité : 3 ans en vente, 6 ans en location."
+       ]
+      },
+      {
+       "title": "Le cadre",
+       "paras": [
+        "Réalisé par une personne dont les compétences sont certifiées par un organisme accrédité par le COFRAC, selon le fascicule FD C16-600 (93 points de contrôle). En copropriété, il ne porte que sur le lot privatif."
+       ]
+      },
+      {
+       "title": "Les points de contrôle",
+       "paras": [
+        "Le diagnostiqueur vérifie la présence des dispositifs de sécurité :"
+       ],
+       "list": [
+        "Appareil général de commande et de protection",
+        "Dispositif de protection différentielle",
+        "Protection contre les surintensités adaptée à la section des conducteurs",
+        "Liaison équipotentielle et locaux avec baignoire ou douche",
+        "Matériels vétustes, inadaptés ou présentant des risques de contacts directs",
+        "Conducteurs non protégés mécaniquement"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Diagnostic électricité",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-disjoncteur.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-disjoncteur.jpg",
+       "alt": "Disjoncteur électrique",
+       "caption": "Disjoncteur électrique"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-fusible.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-fusible.jpg",
+       "alt": "Fusible",
+       "caption": "Fusible"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-interrupteur.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-interrupteur.jpg",
+       "alt": "Interrupteur",
+       "caption": "Interrupteur"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-prise.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_2/electricite-prise.jpg",
+       "alt": "Prise de courant",
+       "caption": "Prise de courant"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "carrez",
+   "hidden": true,
+   "title": "Loi Carrez",
+   "h1": "Loi Carrez",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "En cas de vente d'un lot de copropriété, le mesurage Carrez informe l'acquéreur de la superficie du lot.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/metrage_Carrez.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Loi Carrez",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "L'obligation",
+       "paras": [
+        "Tout avant-contrat ou contrat de vente d'un lot de copropriété doit mentionner la superficie de la partie privative du lot."
+       ]
+      },
+      {
+       "title": "Le risque",
+       "paras": [
+        "Si la surface réelle est inférieure de plus de 5 % à celle mentionnée dans l'acte, l'acquéreur peut demander une diminution du prix proportionnelle, voire l'annulation de la vente."
+       ]
+      },
+      {
+       "title": "Pourquoi un professionnel ?",
+       "paras": [
+        "La loi n'impose pas de professionnel. Mais les enjeux sont importants : le professionnel connaît la réglementation et les méthodes de calcul, et il est couvert par une assurance responsabilité civile professionnelle."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Loi Carrez",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/mesurage_disto.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/mesurage_disto.jpg",
+       "alt": "Mesurage par outil laser",
+       "caption": "Mesurage par outil laser"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/metrage_Carrez.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/metrage_Carrez.jpg",
+       "alt": "Métrage Carrez",
+       "caption": "Métrage Carrez"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/metrage-maison.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/metrage-maison.jpg",
+       "alt": "Métrage d'une maison",
+       "caption": "Métrage d'une maison"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/validite_carrez.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_3/validite_carrez.jpg",
+       "alt": "Surfaces prises en compte",
+       "caption": "Surfaces prises en compte"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "plomb",
+   "hidden": true,
+   "title": "Diagnostic plomb",
+   "h1": "Diagnostic plomb",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Constat de risque d'exposition au plomb (CREP), avant vente et avant location.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-peinture.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Diagnostic plomb",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Vente et location",
+       "paras": [
+        "Pour un logement construit avant le 1er janvier 1949, un CREP est requis à la vente et à la location. En vente, il est valable un an s'il révèle du plomb, sans limite de durée sinon ; en location, six ans."
+       ]
+      },
+      {
+       "title": "En cas de location",
+       "paras": [
+        "Depuis le 12 août 2008, le CREP est annexé à tout nouveau bail et doit dater de moins de six ans à la signature. Son absence peut engager la responsabilité pénale du bailleur."
+       ]
+      },
+      {
+       "title": "Parties communes",
+       "paras": [
+        "Les parties communes des immeubles collectifs d'habitation construits avant 1949 devaient faire l'objet d'un CREP au plus tard le 12 août 2008 (article L1334-8 du Code de la santé publique)."
+       ]
+      },
+      {
+       "title": "Le constat",
+       "paras": [
+        "Réalisé par une personne certifiée par un organisme accrédité par le COFRAC : repérage des revêtements, mesure de leur concentration en plomb, évaluation de leur état, relevé des facteurs de dégradation du bâti. Une notice d'information sur les effets du plomb sur la santé est jointe."
+       ]
+      },
+      {
+       "title": "Revêtements dégradés",
+       "paras": [
+        "Le propriétaire informe les occupants et réalise sans délai les travaux nécessaires. Si le diagnostiqueur relève des facteurs de dégradation du bâti, il transmet le constat au préfet."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Diagnostic plomb",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-escalier.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-escalier.jpg",
+       "alt": "Escalier : plomb",
+       "caption": "Escalier : plomb"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-mur.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-mur.jpg",
+       "alt": "Plomb dans un mur",
+       "caption": "Plomb dans un mur"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-peinture.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-peinture.jpg",
+       "alt": "Plomb dans la peinture",
+       "caption": "Plomb dans la peinture"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-plafond.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_4/plomb-plafond.jpg",
+       "alt": "Plafond : plomb",
+       "caption": "Plafond : plomb"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "erp",
+   "hidden": true,
+   "title": "État des risques et pollutions",
+   "h1": "État des risques et pollutions",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "ERP : informer l'acquéreur ou le locataire des risques naturels, miniers et technologiques et des sinistres passés.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/carte_givors.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "État des risques et pollutions",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "L'obligation",
+       "paras": [
+        "Depuis juin 2006, le vendeur fournit un état des risques si le bien est situé dans une zone couverte par un plan de prévention ou dans une zone de sismicité, et informe l'acquéreur des sinistres indemnisés au titre des catastrophes naturelles."
+       ]
+      },
+      {
+       "title": "Le contenu",
+       "paras": [
+        "L'état, établi selon un modèle réglementaire à partir des documents disponibles en mairie ou en préfecture, indique les risques connus et joint des extraits cartographiques permettant de situer le bien."
+       ]
+      },
+      {
+       "title": "La validité",
+       "paras": [
+        "Il doit dater de moins de six mois avant la promesse de vente ou l'acte. En cas de manquement, l'acquéreur peut demander au juge l'annulation du contrat ou une diminution du prix."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "gaz",
+   "hidden": true,
+   "title": "Diagnostic gaz",
+   "h1": "Diagnostic gaz",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "L'état de l'installation intérieure de gaz, avant vente et avant location.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-compteur.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Diagnostic gaz",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Avant vente (validité 3 ans)",
+       "paras": [
+        "Le vendeur d'un logement dont l'installation de gaz a plus de 15 ans joint à la promesse de vente, ou à défaut à l'acte authentique, un état de cette installation daté de moins de trois ans."
+       ]
+      },
+      {
+       "title": "Avant location (validité 6 ans)",
+       "paras": [
+        "Obligatoire pour les baux signés depuis le 1er juillet 2017 si le permis de construire est antérieur au 1er janvier 1975, et depuis le 1er janvier 2018 pour les autres logements."
+       ]
+      },
+      {
+       "title": "Ce qui est contrôlé",
+       "paras": [
+        "L'état des appareils fixes de chauffage et de production d'eau chaude, des tuyauteries fixes de gaz, et l'aménagement des locaux où fonctionnent les appareils. En copropriété, seules les parties privatives du lot sont concernées."
+       ]
+      },
+      {
+       "title": "En cas d'absence",
+       "paras": [
+        "La vente reste valable, mais aucune clause d'exonération de la garantie des vices cachés ne peut être stipulée : l'acquéreur peut demander la résolution ou une diminution du prix."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Diagnostic gaz",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-bombonne.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-bombonne.jpg",
+       "alt": "Bonbonne de gaz",
+       "caption": "Bonbonne de gaz"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-compteur.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-compteur.jpg",
+       "alt": "Compteur de gaz",
+       "caption": "Compteur de gaz"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-cuisson.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-cuisson.jpg",
+       "alt": "Cuisson au gaz",
+       "caption": "Cuisson au gaz"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-tuyau.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_6/gaz-tuyau.jpg",
+       "alt": "Tuyau de gaz",
+       "caption": "Tuyau de gaz"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "termites",
+   "hidden": true,
+   "title": "Diagnostic termites",
+   "h1": "Diagnostic termites",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "L'état relatif à la présence de termites, pour les biens situés dans une zone délimitée par arrêté préfectoral.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite-degat.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Diagnostic termites",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "L'obligation",
+       "paras": [
+        "En cas de vente d'un bâtiment situé dans une zone délimitée par arrêté préfectoral, le vendeur joint un état relatif à la présence de termites de moins de six mois à la promesse de vente ou, à défaut, à l'acte authentique."
+       ]
+      },
+      {
+       "title": "Le rapport",
+       "paras": [
+        "Il identifie le bien, indique les parties visitées ou non, et précise les éléments infestés ou non. En copropriété, il porte sur les parties privatives. Il est réalisé par une personne certifiée."
+       ]
+      },
+      {
+       "title": "En cas d'absence",
+       "paras": [
+        "Aucune clause d'exonération de la garantie des vices cachés ne peut être stipulée : l'acquéreur peut demander l'annulation de la vente ou une diminution du prix."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Diagnostic termites",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite-colonie.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite-colonie.jpg",
+       "alt": "Colonie de termites",
+       "caption": "Colonie de termites"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite-degat.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite-degat.jpg",
+       "alt": "Dégâts causés par les termites",
+       "caption": "Dégâts causés par les termites"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termite.jpg",
+       "alt": "Termite",
+       "caption": "Termite"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termites-plafond.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_7/termites-plafond.jpg",
+       "alt": "Plafond bois : termites",
+       "caption": "Plafond bois : termites"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "dpe",
+   "hidden": true,
+   "title": "Diagnostic de performance énergétique",
+   "h1": "Diagnostic de performance énergétique",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Le DPE informe sur la quantité d'énergie consommée ou estimée d'un logement ou d'un local.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Diagnostic de performance énergétique",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Qui est habilité ?",
+       "paras": [
+        "Le DPE est obligatoirement réalisé par un professionnel certifié (articles L.271-4 à L.271-6 du Code de la construction et de l'habitation)."
+       ]
+      },
+      {
+       "title": "L'objectif",
+       "paras": [
+        "Informer sur la quantité d'énergie consommée ou estimée, et donner des conseils pour améliorer la performance énergétique du bien."
+       ]
+      },
+      {
+       "title": "Les étiquettes",
+       "paras": [
+        "Une estimation chiffrée en euros, une étiquette énergie et une étiquette climat (émissions de gaz à effet de serre). Les logements sont classés de A à G."
+       ]
+      },
+      {
+       "title": "Est-il obligatoire ?",
+       "paras": [
+        "Oui, depuis juillet 2007. Depuis le 1er janvier 2011, les annonces de vente ou de location doivent indiquer la performance énergétique du bien."
+       ]
+      },
+      {
+       "title": "Qui est concerné ?",
+       "paras": [
+        "En vente : tous les bâtiments ou parties de bâtiments, sauf exceptions (locaux agricoles ou artisanaux, lieux de culte, monuments historiques). En location : logements, bureaux, commerces et locaux professionnels."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Diagnostic de performance énergétique",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dep-estimation-emission.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dep-estimation-emission.jpg",
+       "alt": "DPE : estimation des émissions",
+       "caption": "DPE : estimation des émissions"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-consommation.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-consommation.jpg",
+       "alt": "DPE : consommation",
+       "caption": "DPE : consommation"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-controle.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-controle.jpg",
+       "alt": "DPE : contrôle",
+       "caption": "DPE : contrôle"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+       "alt": "DPE : maison",
+       "caption": "DPE : maison"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "parasitaires",
+   "hidden": true,
+   "title": "Les parasitaires",
+   "h1": "Les parasitaires",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Charpente saine ou à traiter ? Surveillance régulière ou diagnostic ponctuel de l'état parasitaire.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/capricorne_larve_attaque.JPG",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Les parasitaires",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Pour qui ?",
+       "paras": [
+        "Vous achetez, rénovez ou transformez une maison et vous vous demandez si la charpente est saine, à traiter ou à refaire ? Vous montez rarement dans les combles et souhaitez protéger votre patrimoine ?"
+       ]
+      },
+      {
+       "title": "Un avis neutre",
+       "paras": [
+        "Le repérage est indépendant des entreprises de traitement curatif : vous obtenez un avis neutre et n'engagez que les travaux réellement nécessaires."
+       ]
+      },
+      {
+       "title": "Les insectes xylophages",
+       "paras": [
+        "Ils se nourrissent de la cellulose du bois. Leurs larves peuvent rester de un à trois ans dans le bois ; celles du capricorne peuvent consommer jusqu'à 10 mm de bois par jour."
+       ]
+      },
+      {
+       "title": "Les champignons",
+       "paras": [
+        "Pourriture cubique (la mérule par exemple) ou pourriture fibreuse : leur présence révèle un problème d'humidité à corriger avant tout traitement."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Les parasitaires",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/capricorne_femelle.JPG",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/capricorne_femelle.JPG",
+       "alt": "Capricorne femelle",
+       "caption": "Capricorne femelle"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/capricorne_larve_attaque.JPG",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/capricorne_larve_attaque.JPG",
+       "alt": "Larve de capricorne",
+       "caption": "Larve de capricorne"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/grossevrillette.JPG",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/grossevrillette.JPG",
+       "alt": "Grosse vrillette",
+       "caption": "Grosse vrillette"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/vrillettes_degat_attaque-bois.JPG",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_9/vrillettes_degat_attaque-bois.JPG",
+       "alt": "Dégâts causés par la vrillette",
+       "caption": "Dégâts causés par la vrillette"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "controle-technique-habitat",
+   "hidden": true,
+   "title": "Contrôle Technique de l'Habitat",
+   "h1": "Contrôle Technique de l'Habitat",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Comment connaître l'état réel d'une maison lorsque l'on cherche à acheter ?",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-maison.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Contrôle Technique de l'Habitat",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Le principe",
+       "paras": [
+        "Sur le modèle du contrôle technique automobile, un expert examine le bien et établit un rapport de plus de 300 points (CTH-Logiscan), couvert par une responsabilité civile professionnelle : de quoi rassurer l'acheteur comme le banquier."
+       ]
+      },
+      {
+       "title": "En pratique",
+       "paras": [
+        "L'intervention dure entre 2 et 5 heures et le rapport est remis sous 48 heures. Il peut ensuite être téléchargé sur logiscan.fr pour être transmis à des tiers."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "etude-thermique",
+   "hidden": true,
+   "title": "Étude thermique, BBC, maison passive",
+   "h1": "Étude thermique, BBC, maison passive",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Audits ADEME et calculs PHPP pour les maisons passives.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-consommation.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Étude thermique, BBC, maison passive",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Nos outils",
+       "paras": [
+        "C2M réalise des audits ADEME et utilise le logiciel PHPP pour les maisons passives, en partenariat avec le réseau « infos maisons passives France » et OZE objectif 0 énergie."
+       ]
+      },
+      {
+       "title": "Quelques explications",
+       "paras": [
+        "BBC, RT 2012, passif, Effinergie : des sigles souvent mal compris. Nous les comparons : seuils de besoin de chauffage, d'étanchéité à l'air et de consommation maximale, selon la zone climatique et l'altitude."
+       ]
+      },
+      {
+       "title": "Les règles de conception",
+       "paras": [
+        "Forme compacte, ponts thermiques limités, bonne étanchéité à l'air, apports solaires passifs, ventilation et eau chaude optimisées, confort d'été."
+       ]
+      },
+      {
+       "title": "Les équipements",
+       "paras": [
+        "VMC double flux, choix du mode de chauffage, production d'eau chaude sanitaire (chauffe-eau solaire, instantané au gaz…)."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "controles-batiment",
+   "hidden": true,
+   "title": "Contrôles de bâtiment",
+   "h1": "Contrôles de bâtiment",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Conseil en économie d'énergie, thermographie, accessibilité, décence.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_8/dpe-controle.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Contrôles de bâtiment",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Conseil en économie d'énergie",
+       "paras": [
+        "Accompagnement pour réduire la consommation énergétique, information sur les éco-prêts et le label Expert Rénovation Énergétique Promotelec."
+       ]
+      },
+      {
+       "title": "Déperditions thermiques",
+       "paras": [
+        "Mesure des pertes de chaleur du bâtiment par thermographie infrarouge."
+       ]
+      },
+      {
+       "title": "Diagnostic d'accessibilité",
+       "paras": [
+        "Contrôle de l'accessibilité du bâtiment aux personnes handicapées."
+       ]
+      },
+      {
+       "title": "Décence et performance technique",
+       "paras": [
+        "État descriptif attestant de la conformité du logement à ces critères, selon les dispositifs fiscaux (Scellier, De Robien…)."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "radon",
+   "hidden": true,
+   "title": "Radon",
+   "h1": "Radon",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Un gaz radioactif naturel, inodore et incolore : dépistage dans les établissements recevant du public et les locaux de travail.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Radon",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Le radon",
+       "paras": [
+        "Présent partout, à des niveaux variables selon le lieu et la saison, il représente la moitié de la radioactivité naturelle. Seuils réglementaires : 400 Bq/m³ (précaution) et 1 000 Bq/m³ (alerte) ; l'OMS recommande 100 Bq/m³."
+       ]
+      },
+      {
+       "title": "La mesure",
+       "paras": [
+        "Les dépistages se font entre le 15 septembre et le 30 avril, sur environ deux mois."
+       ]
+      },
+      {
+       "title": "Établissements recevant du public",
+       "paras": [
+        "Dépistage obligatoire dans quatre catégories (enseignement, sanitaire et social, thermal, pénitentiaire), valable 10 ans si la ventilation et l'étanchéité du bâtiment ne changent pas."
+       ]
+      },
+      {
+       "title": "Locaux de travail",
+       "paras": [
+        "Depuis août 2008, dépistage obligatoire pour certaines activités exercées au moins une heure par jour en lieux souterrains. Valable 5 ans."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "copropriete",
+   "hidden": true,
+   "title": "Mise en copropriété d'un immeuble",
+   "h1": "Mise en copropriété d'un immeuble",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "État descriptif de division, règlement de copropriété et diagnostics : un interlocuteur unique.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_31/copropriete.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Mise en copropriété d'un immeuble",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "L'état descriptif de division",
+       "paras": [
+        "Aussi appelé calcul des tantièmes : il identifie chaque lot, ses parties communes et privatives, la répartition des charges et le mode de calcul des millièmes. Il est joint au règlement de copropriété, que nous pouvons aussi rédiger."
+       ]
+      },
+      {
+       "title": "Pas réservé aux géomètres",
+       "paras": [
+        "Contrairement aux idées reçues, un diagnostiqueur peut réaliser cette mission dès lors qu'il est assuré pour cette activité."
+       ]
+      },
+      {
+       "title": "Un interlocuteur unique",
+       "paras": [
+        "État descriptif de division, diagnostic technique immobilier (DTI) pour les immeubles de plus de 15 ans, amiante et plomb des parties communes, diagnostics obligatoires pour la vente de chaque lot."
+       ]
+      },
+      {
+       "title": "Nos engagements",
+       "paras": [
+        "Des délais d'intervention courts, des rapports fiables et lisibles, des tarifs inférieurs de 20 à 30 % à la moyenne pour une qualité de travail équivalente."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-internet",
+   "hidden": true,
+   "title": "Diagnostic de Performance Internet",
+   "h1": "Diagnostic de Performance Internet",
+   "eyebrow": "Diagnostic immobilier",
+   "lead": "Nous réalisons gratuitement votre diagnostic Internet, en même temps que les diagnostics obligatoires.",
+   "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/Etiquette-internet.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "detail",
+     "eyebrow": "Diagnostic de Performance Internet",
+     "title": "Ce qu'il faut <em class=\"it\">savoir</em>",
+     "items": [
+      {
+       "title": "Méthodologie",
+       "paras": [
+        "Examen visuel des équipements de raccordement, puis interrogation des fournisseurs d'accès pour tester la ligne et les services disponibles. Le rapport fournit les données techniques de la ligne."
+       ]
+      },
+      {
+       "title": "L'étiquette Internet",
+       "paras": [
+        "Une note de A à G, sur le modèle des étiquettes énergie : de A (meilleure performance) à G (aucune installation)."
+       ]
+      },
+      {
+       "title": "Pourquoi ce diagnostic ?",
+       "paras": [
+        "Internet est devenu un service essentiel, au même titre que l'eau ou l'électricité : acheteurs et locataires veulent savoir ce que vaut la connexion."
+       ]
+      },
+      {
+       "title": "Qui le réalise ?",
+       "paras": [
+        "Un diagnostiqueur certifié pour les diagnostics obligatoires ; le rapport est remis avec le dossier de diagnostic technique."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Diagnostic de Performance Internet",
+     "photos": [
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/etiquette-immeuble-internet.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/etiquette-immeuble-internet.jpg",
+       "alt": "Étiquette Internet de l'immeuble",
+       "caption": "Étiquette Internet de l'immeuble"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/internet-branchement.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/internet-branchement.jpg",
+       "alt": "Branchement Internet",
+       "caption": "Branchement Internet"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/Etiquette-internet.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/Etiquette-internet.jpg",
+       "alt": "Étiquette Internet : débit",
+       "caption": "Étiquette Internet : débit"
+      },
+      {
+       "full": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/internet-serveur.jpg",
+       "thumb": "https://www.c2m-expertise-diagnostics-immobiliers.fr/img-diag/diag_34/internet-serveur.jpg",
+       "alt": "Serveur Internet",
+       "caption": "Serveur Internet"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.c2m-expertise-diagnostics-immobiliers.fr/images/Givors.jpg",
+     "eyebrow": "Devis gratuit · 7 jours sur 7",
+     "title": "Besoin de ce diagnostic ?",
+     "cta": [
+      "Demander un devis",
+      "../devis/"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "C2M Expertises, diagnostics immobiliers dans le Rhône. Bruno Perez, 8 route du Batard, 69700 Montagny. N° TVA intracommunautaire FR64417716032.",
+  "contact": [
+   "<a href=\"tel:+33661425899\">06 61 42 58 99</a>",
+   "<a href=\"tel:+33426652004\">04 26 65 20 04</a>",
+   "<a href=\"mailto:c2mexpertise@gmail.com\">c2mexpertise@gmail.com</a>",
+   "8 route du Batard, 69700 Montagny"
+  ],
+  "legal_url": "https://www.c2m-expertise-diagnostics-immobiliers.fr/reglementation-mentions-legales.php",
+  "legal": "Certification Bureau Veritas"
+ }
+}
