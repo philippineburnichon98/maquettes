@@ -1,0 +1,523 @@
+{
+ "slug": "nicod-charpente-98089d",
+ "title": "Nicod Charpente Couverture Zinguerie — Charpentier couvreur à Sainte-Euphémie (Ain), région lyonnaise",
+ "description": "Entreprise familiale Nicod, charpente, couverture, zinguerie et échafaudage depuis 1983 dans la région lyonnaise : recherche de fuite, entretien de toiture, pose de Velux, ossature bois. Devis gratuit.",
+ "brand": "Nicod Charpente Couverture",
+ "tagline": "Charpente · Couverture · Zinguerie · Échafaudage",
+ "monogram": "N",
+ "phead": "box",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f2ec",
+  "paper2": "#ebe3d7",
+  "ink": "#1f1c19",
+  "muted": "#625a51",
+  "accent": "#9a5a2c",
+  "accent2": "#7a4420",
+  "gold": "#c79a5b",
+  "heroem": "#f2c993",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33660224218\">Tél : 06 60 22 42 18</a>",
+  "<a href=\"mailto:nicod.morgan@hotmail.fr\">nicod.morgan@hotmail.fr</a>"
+ ],
+ "nav": [
+  [
+   "services",
+   "Services"
+  ],
+  [
+   "photos",
+   "Photos"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/c92d51_c5dc76fbd9db43b3b0b51f1a97b94a8e~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "De père en fils depuis 1983 · région lyonnaise",
+  "title": "Charpente, couverture <em>& zinguerie</em>",
+  "lead": "Travaux neufs et rénovation, pour les particuliers et les professionnels : l'entreprise familiale Nicod, à Sainte-Euphémie.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "06 60 22 42 18",
+   "tel:+33660224218"
+  ]
+ },
+ "figures": [
+  [
+   "1983",
+   "création de l'entreprise par Claude-Bernard Nicod"
+  ],
+  [
+   "48 h",
+   "pour intervenir : fuite, entretien de toiture"
+  ],
+  [
+   "Père en fils",
+   "une entreprise familiale"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "Bienvenue",
+   "title": "Charpentiers <em class=\"it\">de père en fils</em>",
+   "img": "https://static.wixstatic.com/media/c92d51_b43432790d7644f08c39097d39473b9c~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "Chantier de charpente et couverture Nicod",
+   "paras": [
+    "Voilà maintenant plus de 35 ans que les Nicod exercent le métier de charpentier de père en fils. L'entreprise a été créée en 1983 par M. Claude-Bernard Nicod dans la région lyonnaise afin de répondre à vos attentes.",
+    "L'entreprise Nicod met à votre disposition tout son savoir-faire, ses compétences et son expérience pour tous les travaux de charpente, couverture et zinguerie, aussi bien dans le neuf que dans la rénovation, pour les particuliers comme pour les professionnels."
+   ],
+   "sign": "Morgan Nicod"
+  },
+  {
+   "kind": "features",
+   "id": "interventions",
+   "dark": true,
+   "eyebrow": "Nos interventions",
+   "title": "Du toit <em class=\"it\">à l'ossature</em>",
+   "lead": "Spécialisée dans la toiture, mais aussi dans l'ossature bois.",
+   "items": [
+    [
+     "Recherche de fuite",
+     "Entretien et nettoyage de toiture, intervention en 48 h."
+    ],
+    [
+     "Échafaudage",
+     "Location et montage d'échafaudage."
+    ],
+    [
+     "Pose de Velux",
+     "Fenêtres de toit, en neuf comme en rénovation."
+    ],
+    [
+     "Ossature bois",
+     "Maison ossature bois et isolation."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Réalisations",
+   "title": "Quelques <em class=\"it\">chantiers</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/c92d51_c5dc76fbd9db43b3b0b51f1a97b94a8e~mv2_d_4128_2322_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/c92d51_c5dc76fbd9db43b3b0b51f1a97b94a8e~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/c92d51_671c62a4989140b3a8c212d77dcfd1f5~mv2_d_4128_2322_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/c92d51_671c62a4989140b3a8c212d77dcfd1f5~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/c92d51_fcfa5de8a6ea46e18df0fbef52df0a68~mv2_d_4128_2322_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/c92d51_fcfa5de8a6ea46e18df0fbef52df0a68~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/c92d51_35eb1c15e7714b798af9d3fc4d1b9559~mv2_d_2322_4128_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/c92d51_35eb1c15e7714b798af9d3fc4d1b9559~mv2_d_2322_4128_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/c92d51_2825546740d84c3f93ce24fe11aab6af~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/c92d51_2825546740d84c3f93ce24fe11aab6af~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/c92d51_efa41bec6bd743e08710216b68d4c2c3.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "full": "https://static.wixstatic.com/media/c92d51_efa41bec6bd743e08710216b68d4c2c3.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+    }
+   ],
+   "cta": [
+    "Voir toutes les photos",
+    "photos/"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/c92d51_2825546740d84c3f93ce24fe11aab6af~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "eyebrow": "Un projet ?",
+   "title": "Une restauration de toiture, un projet d'agrandissement <em>ou autre ?</em>",
+   "cta": [
+    "Appelez sans hésiter le 06 60 22 42 18",
+    "tel:+33660224218"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "Région <em class=\"it\">lyonnaise</em>",
+   "text": "L'entreprise Nicod intervient dans la région lyonnaise depuis Sainte-Euphémie, dans l'Ain.",
+   "rows": [
+    [
+     "Adresse",
+     "780 rue du Bady, 01600 Sainte-Euphémie"
+    ],
+    [
+     "Zone",
+     "Région lyonnaise"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33660224218\">06 60 22 42 18</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:nicod.morgan@hotmail.fr\">nicod.morgan@hotmail.fr</a>"
+    ],
+    [
+     "Contact",
+     "Morgan Nicod"
+    ]
+   ],
+   "map_q": "780 rue du Bady 01600 Sainte-Euphémie",
+   "cta": [
+    "Appeler le 06 60 22 42 18",
+    "tel:+33660224218"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "services",
+   "label": "Services",
+   "title": "Services",
+   "h1": "Nos services",
+   "eyebrow": "L'entreprise Nicod est à votre service",
+   "lead": "Charpente, couverture, zinguerie et ossature bois, dans le neuf comme dans la rénovation.",
+   "img": "https://static.wixstatic.com/media/c92d51_b12483072f714006a92cc722a77e2d6a.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "services",
+     "eyebrow": "Services",
+     "title": "Ce que nous <em class=\"it\">faisons pour vous</em>",
+     "items": [
+      {
+       "kicker": "01",
+       "title": "Étude de projet",
+       "paras": [
+        "Étude de votre projet, devis gratuit."
+       ]
+      },
+      {
+       "kicker": "02",
+       "title": "Recherche de fuite",
+       "paras": [
+        "Recherche de fuite, intervention en 48 h."
+       ]
+      },
+      {
+       "kicker": "03",
+       "title": "Dépannage, réparation",
+       "paras": [
+        "Dépannage et réparation de toiture."
+       ]
+      },
+      {
+       "kicker": "04",
+       "title": "Restauration de toiture",
+       "paras": [
+        "Restauration, entretien et nettoyage de toiture."
+       ]
+      },
+      {
+       "kicker": "05",
+       "title": "Toiture neuve",
+       "paras": [
+        "Charpente, couverture et zinguerie dans le neuf."
+       ]
+      },
+      {
+       "kicker": "06",
+       "title": "Maison ossature bois",
+       "paras": [
+        "Spécialisée dans la toiture mais aussi dans l'ossature bois."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "specialites",
+     "eyebrow": "Spécialités",
+     "title": "La toiture, <em class=\"it\">et l'ossature bois</em>",
+     "img": "https://static.wixstatic.com/media/c92d51_4b26158361984a32932c4cfebbe65e96.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "alt": "Chantier Nicod Charpente Couverture",
+     "paras": [
+      "Recherche de fuite, entretien et nettoyage de toiture, avec une intervention en 48 h.",
+      "Location et montage d'échafaudage, pose de Velux.",
+      "Spécialisée dans la toiture mais aussi dans l'ossature bois, l'entreprise Nicod sera ravie de vous aider."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "partenaires",
+     "eyebrow": "Partenaire",
+     "title": "Nos <em class=\"it\">partenaires</em>",
+     "items": [
+      {
+       "title": "Perron David",
+       "kicker": "Pisciniste",
+       "paras": [
+        "<a href=\"mailto:technipiscine69@orange.fr\">technipiscine69@orange.fr</a>",
+        "<a href=\"tel:+33648218495\">06 48 21 84 95</a>"
+       ]
+      },
+      {
+       "title": "Lallemand Structure",
+       "kicker": "Fabricant",
+       "paras": [
+        "Fabricant de murs, poutres et planchers bois.",
+        "Is-en-Bassigny (52140)"
+       ]
+      },
+      {
+       "title": "NES Travaux",
+       "kicker": "La Centrale Travaux",
+       "paras": [
+        "Hettange-Grande (57330)"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/c92d51_fcfa5de8a6ea46e18df0fbef52df0a68~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis gratuit",
+     "title": "Parlons de <em>votre toiture</em>",
+     "cta": [
+      "Demander un devis",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "photos",
+   "label": "Photos",
+   "title": "Photos",
+   "h1": "Photos",
+   "eyebrow": "Nos réalisations",
+   "lead": "Charpente, couverture, zinguerie : quelques chantiers de l'entreprise Nicod.",
+   "img": "https://static.wixstatic.com/media/c92d51_671c62a4989140b3a8c212d77dcfd1f5~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "Galerie",
+     "title": "Nos <em class=\"it\">chantiers</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_efa41bec6bd743e08710216b68d4c2c3.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_efa41bec6bd743e08710216b68d4c2c3.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_b12483072f714006a92cc722a77e2d6a.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_b12483072f714006a92cc722a77e2d6a.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_a42916bad8064f5f9b0c8c8afe4aaf01.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_a42916bad8064f5f9b0c8c8afe4aaf01.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_25cada260d8d472eb32f6d73e252d9fb.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_25cada260d8d472eb32f6d73e252d9fb.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_efd97033e8c04466839d49cbd9709ee1.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_efd97033e8c04466839d49cbd9709ee1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_09a9c7ef17704fbd8dffdc48c6451b94.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_09a9c7ef17704fbd8dffdc48c6451b94.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_44d2136555d049878170e9e604447fd2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_44d2136555d049878170e9e604447fd2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_c5dc76fbd9db43b3b0b51f1a97b94a8e~mv2_d_4128_2322_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_c5dc76fbd9db43b3b0b51f1a97b94a8e~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_671c62a4989140b3a8c212d77dcfd1f5~mv2_d_4128_2322_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_671c62a4989140b3a8c212d77dcfd1f5~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_fcfa5de8a6ea46e18df0fbef52df0a68~mv2_d_4128_2322_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_fcfa5de8a6ea46e18df0fbef52df0a68~mv2_d_4128_2322_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_35eb1c15e7714b798af9d3fc4d1b9559~mv2_d_2322_4128_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_35eb1c15e7714b798af9d3fc4d1b9559~mv2_d_2322_4128_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_2825546740d84c3f93ce24fe11aab6af~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_2825546740d84c3f93ce24fe11aab6af~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_b43432790d7644f08c39097d39473b9c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_b43432790d7644f08c39097d39473b9c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_4b26158361984a32932c4cfebbe65e96.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_4b26158361984a32932c4cfebbe65e96.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/c92d51_46511a74b4754267afd8714682a6dd60~mv2_d_1242_2208_s_2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/c92d51_46511a74b4754267afd8714682a6dd60~mv2_d_1242_2208_s_2.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "alt": "Chantier de l'entreprise Nicod, charpente et couverture"
+      }
+     ],
+     "cta": [
+      "Demander un devis",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "Contact & devis",
+   "eyebrow": "Devis gratuit",
+   "lead": "Décrivez votre projet : Morgan Nicod vous recontacte pour étudier vos travaux.",
+   "img": "https://static.wixstatic.com/media/c92d51_09a9c7ef17704fbd8dffdc48c6451b94.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "email": "nicod.morgan@hotmail.fr",
+     "subject": "Demande de devis depuis le site Nicod Charpente Couverture",
+     "eyebrow": "Demander un devis",
+     "title": "Votre <em class=\"it\">projet</em>",
+     "lead": "Étude de projet et devis gratuits.",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Adresse du chantier"
+      },
+      {
+       "label": "Objet",
+       "type": "select",
+       "options": [
+        "Recherche de fuite",
+        "Dépannage, réparation",
+        "Restauration de toiture",
+        "Toiture neuve",
+        "Maison ossature bois",
+        "Échafaudage",
+        "Pose de Velux",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "side": [
+      "<b>Appelez</b><br><a href=\"tel:+33660224218\">06 60 22 42 18</a>",
+      "<b>Écrivez</b><br><a href=\"mailto:nicod.morgan@hotmail.fr\">nicod.morgan@hotmail.fr</a>",
+      "<b>Adresse</b><br>780 rue du Bady<br>01600 Sainte-Euphémie"
+     ],
+     "submit": "Demander mon devis"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "Région <em class=\"it\">lyonnaise</em>",
+     "text": "L'entreprise Nicod intervient dans la région lyonnaise depuis Sainte-Euphémie, dans l'Ain.",
+     "rows": [
+      [
+       "Adresse",
+       "780 rue du Bady, 01600 Sainte-Euphémie"
+      ],
+      [
+       "Zone",
+       "Région lyonnaise"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33660224218\">06 60 22 42 18</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:nicod.morgan@hotmail.fr\">nicod.morgan@hotmail.fr</a>"
+      ],
+      [
+       "Contact",
+       "Morgan Nicod"
+      ]
+     ],
+     "map_q": "780 rue du Bady 01600 Sainte-Euphémie",
+     "cta": [
+      "Appeler le 06 60 22 42 18",
+      "tel:+33660224218"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Nicod, entreprise familiale de charpente, couverture, zinguerie et échafaudage créée en 1983 dans la région lyonnaise. Neuf et rénovation.",
+  "contact": [
+   "<a href=\"tel:+33660224218\">06 60 22 42 18</a>",
+   "<a href=\"mailto:nicod.morgan@hotmail.fr\">nicod.morgan@hotmail.fr</a>",
+   "780 rue du Bady, 01600 Sainte-Euphémie"
+  ],
+  "legal": "NICOD Morgan · SIRET 800 513 632 00011"
+ }
+}
