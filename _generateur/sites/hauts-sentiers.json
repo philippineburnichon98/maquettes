@@ -1,0 +1,705 @@
+{
+ "slug": "hauts-sentiers-996dd9",
+ "title": "Domaine des Hauts Sentiers — Vignoble Roux, vignerons indépendants aux Ulmes (Saumur)",
+ "description": "Domaine des Hauts Sentiers, exploitation viticole familiale depuis 4 générations aux Ulmes, entre Doué-la-Fontaine et Saumur : Saumur rouge et blanc, rosés, Crémant de Loire. Martine & Abel Roux.",
+ "brand": "Domaine des Hauts Sentiers",
+ "tagline": "Vignoble Roux · Les Ulmes",
+ "agegate": true,
+ "logo": {
+  "src": "https://static.wixstatic.com/media/b5bf0e_e6d788a27f714214bea48ed502ac598a.png/v1/fit/w_500,h_500,al_c,q_85/img.png",
+  "height": 56,
+  "with_name": true
+ },
+ "theme": {
+  "look": "framed",
+  "paper": "#f8f4ec",
+  "paper2": "#eee5d4",
+  "ink": "#26201c",
+  "muted": "#6c6259",
+  "accent": "#7a2236",
+  "accent2": "#5c1828",
+  "gold": "#b4934f",
+  "heroem": "#f1ddb0",
+  "serif": "\"Lora\",Georgia,serif",
+  "sans": "\"Karla\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Karla:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33241383468\">02 41 38 34 68</a>",
+  "<a href=\"tel:+33633162675\">06 33 16 26 75</a>",
+  "<a href=\"mailto:scea.rouxfils@wanadoo.fr\">scea.rouxfils@wanadoo.fr</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/b5bf0e_a0d50e75a4fe4f3faf761a990f8e6111.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Vignerons indépendants · AOC Saumur",
+  "title": "Bienvenue au Domaine<br><em>des Hauts Sentiers</em>",
+  "lead": "Une exploitation viticole familiale depuis 4 générations, au cœur de l'appellation Saumur, entre Doué-la-Fontaine et Saumur.",
+  "cta1": [
+   "Découvrir nos vins",
+   "nosvins/"
+  ],
+  "cta2": [
+   "02 41 38 34 68",
+   "tel:+33241383468"
+  ]
+ },
+ "figures": [
+  [
+   "4",
+   "générations de vignerons"
+  ],
+  [
+   "6",
+   "cépages plantés"
+  ],
+  [
+   "19",
+   "vins et un jus de raisin"
+  ],
+  [
+   "AOC",
+   "Saumur, sur le tuffeau"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Bienvenue",
+   "title": "Martine & Abel Roux, <em class=\"it\">vignerons indépendants</em>",
+   "img": "https://static.wixstatic.com/media/b5bf0e_bc3de0f5285c4f7a9ebc1e96001b615d.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "Domaine des Hauts Sentiers",
+   "paras": [
+    "Le domaine des Hauts Sentiers est une exploitation viticole familiale depuis 4 générations, exploitée aujourd'hui par Martine & Abel Roux.",
+    "Nous nous situons au cœur de l'appellation SAUMUR, entre Doué-la-Fontaine et Saumur.",
+    "Nous sommes vignerons indépendants, cultivons nos vignes, élaborons nos vins et les commercialisons avec passion."
+   ],
+   "sign": "Abel & Martine Roux"
+  },
+  {
+   "kind": "blocks",
+   "id": "vins",
+   "eyebrow": "Nos vins",
+   "title": "Du Saumur rouge <em class=\"it\">aux fines bulles</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/b5bf0e_d92a0a50de6e4248959879e43eeca7d0.png/v1/fit/w_700,h_700,al_c,q_85/img.png",
+     "kicker": "Vins rouges",
+     "title": "Saumur « La Maligny », Cuvée Jocelin…",
+     "paras": [
+      "Cabernet Franc de vieilles vignes, élevage en barrique."
+     ],
+     "link": [
+      "Voir les rouges",
+      "nosvins/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b5bf0e_6824d13a77bf43ce8c67915d9cee39ef.png/v1/fit/w_700,h_700,al_c,q_85/img.png",
+     "kicker": "Vins rosés",
+     "title": "Cabernet d'Anjou, Rosé de Loire…",
+     "paras": [
+      "Rosés secs et tendres, en bouteille ou en Cubi."
+     ],
+     "link": [
+      "Voir les rosés",
+      "nosvins/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b5bf0e_95edfb0c38304a81a40afc6ce95a73eb.png/v1/fit/w_700,h_700,al_c,q_85/img.png",
+     "kicker": "Vins blancs",
+     "title": "Saumur blanc, Sauvignon, Cuvée Pauline…",
+     "paras": [
+      "Du sec au demi-sec, sur les terres de tuffeau."
+     ],
+     "link": [
+      "Voir les blancs",
+      "nosvins/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b5bf0e_f502ee625e3749e0a2515e6e2d4f2386.png/v1/fit/w_700,h_700,al_c,q_85/img.png",
+     "kicker": "Méthodes traditionnelles",
+     "title": "Saumur brut, Crémant de Loire…",
+     "paras": [
+      "Fines bulles blanches, rosées et même rouges."
+     ],
+     "link": [
+      "Voir les bulles",
+      "nosvins/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "actualites",
+   "eyebrow": "Actualités",
+   "title": "Portes ouvertes <em class=\"it\">au domaine</em>",
+   "img": "https://static.wixstatic.com/media/b5bf0e_1a9e6521cc764d9b9e2e5b509f89c5b7.png/v1/fit/w_800,h_800,al_c,q_85/img.png",
+   "alt": "Portes ouvertes au Domaine des Hauts Sentiers",
+   "paras": [
+    "Le domaine organise des portes ouvertes pour faire découvrir ses vins.",
+    "Venez nombreux au domaine ! Pour connaître la prochaine date, appelez-nous au <a href=\"tel:+33241383468\">02 41 38 34 68</a>."
+   ],
+   "sign": "Abel & Martine Roux"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous rendre visite",
+   "title": "Le domaine <em class=\"it\">aux Ulmes</em>",
+   "text": "Entre Doué-la-Fontaine et Saumur. Vente directe à la propriété : appelez-nous avant de passer.",
+   "rows": [
+    [
+     "Adresse",
+     "23 rue des Moulins<br>49700 Les Ulmes"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33241383468\">02 41 38 34 68</a>"
+    ],
+    [
+     "Portable",
+     "<a href=\"tel:+33633162675\">06 33 16 26 75</a>"
+    ],
+    [
+     "Fax",
+     "02 41 67 83 29"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:scea.rouxfils@wanadoo.fr\">scea.rouxfils@wanadoo.fr</a>"
+    ]
+   ],
+   "map_q": "23 rue des Moulins 49700 Les Ulmes",
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33241383468"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "levignoble",
+   "label": "Le vignoble",
+   "title": "Le vignoble",
+   "h1": "Le <em>vignoble</em>",
+   "eyebrow": "AOC Saumur",
+   "lead": "Des vignes plantées sur les terres blanches de craie appelées tuffeaux, d'où sont creusées nos caves.",
+   "img": "https://static.wixstatic.com/media/b5bf0e_a6c65f73c2f9423fb15a236c7107c3c0.png/v1/fit/w_1400,h_1400,al_c,q_85/img.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "cepages",
+     "eyebrow": "Le vignoble est classé AOC Saumur",
+     "title": "Six cépages <em class=\"it\">plantés</em>",
+     "lead": "Le vignoble est classé AOC Saumur, planté sur des terres blanches de craies appelées tuffeaux d'où sont creusées nos caves.",
+     "items": [
+      [
+       "Chenin",
+       "Cépage blanc"
+      ],
+      [
+       "Sauvignon",
+       "Cépage blanc"
+      ],
+      [
+       "Chardonnay",
+       "Cépage blanc"
+      ],
+      [
+       "Cabernet franc",
+       "Cépage rouge"
+      ],
+      [
+       "Cabernet Sauvignon",
+       "Cépage rouge"
+      ],
+      [
+       "Pinot noir",
+       "Cépage rouge"
+      ]
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "Galerie photos",
+     "title": "Le domaine <em class=\"it\">en images</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/b5bf0e_a0d50e75a4fe4f3faf761a990f8e6111.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/b5bf0e_a0d50e75a4fe4f3faf761a990f8e6111.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Domaine des Hauts Sentiers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5bf0e_bc3de0f5285c4f7a9ebc1e96001b615d.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/b5bf0e_bc3de0f5285c4f7a9ebc1e96001b615d.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Domaine des Hauts Sentiers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5bf0e_1485cd9dbd1c49bdab34e8889d5b8aca.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "full": "https://static.wixstatic.com/media/b5bf0e_1485cd9dbd1c49bdab34e8889d5b8aca.jpg/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+       "alt": "Domaine des Hauts Sentiers"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/b5bf0e_1485cd9dbd1c49bdab34e8889d5b8aca.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Vignerons indépendants",
+     "title": "De la vigne <em>à la bouteille</em>",
+     "cta": [
+      "Découvrir nos vins",
+      "../nosvins/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nosvins",
+   "label": "Nos vins",
+   "title": "Nos vins",
+   "h1": "Nos <em>vins</em>",
+   "eyebrow": "Saumur · Anjou · Crémant de Loire",
+   "lead": "Rouges, rosés, blancs et méthodes traditionnelles : en bouteille 75 cl, en Cubi et en BIB.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "cuvees",
+     "eyebrow": "Les cuvées",
+     "title": "Rouges, rosés, blancs <em class=\"it\">et bulles</em>",
+     "lead": "Tarifs et disponibilités : contactez le domaine au 02 41 38 34 68.",
+     "tabs": [
+      [
+       "rouge",
+       "Rouges"
+      ],
+      [
+       "rose",
+       "Rosés"
+      ],
+      [
+       "blanc",
+       "Blancs"
+      ],
+      [
+       "bulles",
+       "Méthodes traditionnelles"
+      ]
+     ],
+     "items": [
+      {
+       "name": "Vin de Pays Rouge",
+       "cat": "rouge",
+       "color": "#6d1a2a",
+       "tag": "Rouge",
+       "app": "Vin de Pays",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ]
+       ]
+      },
+      {
+       "name": "Thénières 2012",
+       "cat": "rouge",
+       "color": "#6d1a2a",
+       "tag": "Rouge",
+       "app": "Rouge · 2012",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ]
+      },
+      {
+       "name": "Cuvée Jocelin",
+       "cat": "rouge",
+       "color": "#5a1426",
+       "tag": "Rouge",
+       "app": "Cabernet Franc · vieilles vignes",
+       "desc": "Issue de vieilles vignes de Cabernet Franc, après une longue macération, cette cuvée donne un vin structuré, souple aux arômes de fruits rouges, noirs avec une grande longueur en bouche.",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ],
+        [
+         "Millésime 2012",
+         "Bouteille 75 cl"
+        ],
+        [
+         "Élevage",
+         "Élevé en barrique 12 mois (2012)"
+        ]
+       ]
+      },
+      {
+       "name": "Saumur Rouge « La Maligny » 2012",
+       "cat": "rouge",
+       "color": "#6d1a2a",
+       "tag": "Rouge",
+       "app": "AOC Saumur · 2012",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_a7dfdc6144e14fd3a50fa38a8cefc03e.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Cabernet d'Anjou",
+       "cat": "rose",
+       "color": "#c96a78",
+       "tag": "Rosé",
+       "app": "Cabernet d'Anjou · 2013",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ],
+        [
+         "Millésime 2013",
+         "Bouteille 75 cl"
+        ]
+       ]
+      },
+      {
+       "name": "Vin de Pays Rosé",
+       "cat": "rose",
+       "color": "#d98a8f",
+       "tag": "Rosé",
+       "app": "Vin de Pays",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ]
+       ]
+      },
+      {
+       "name": "Rosée des Moulins (sec)",
+       "cat": "rose",
+       "color": "#d98a8f",
+       "tag": "Rosé",
+       "app": "Rosé sec",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ]
+       ]
+      },
+      {
+       "name": "Rosé de Loire (sec) 2013",
+       "cat": "rose",
+       "color": "#d98a8f",
+       "tag": "Rosé",
+       "app": "Rosé de Loire · 2013",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_b6d460ca91d04dba90352bd7da4490fb.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Saumur Blanc (sec)",
+       "cat": "blanc",
+       "color": "#e3d38a",
+       "tag": "Blanc",
+       "app": "AOC Saumur · 2012",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ],
+        [
+         "Millésime 2012",
+         "Bouteille 75 cl"
+        ]
+       ]
+      },
+      {
+       "name": "Sauvignon Blanc",
+       "cat": "blanc",
+       "color": "#e3d38a",
+       "tag": "Blanc",
+       "app": "Sauvignon · 2012",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ],
+        [
+         "Millésime 2012",
+         "Bouteille 75 cl"
+        ]
+       ]
+      },
+      {
+       "name": "Vin de Pays Blanc",
+       "cat": "blanc",
+       "color": "#e3d38a",
+       "tag": "Blanc",
+       "app": "Vin de Pays",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ]
+       ]
+      },
+      {
+       "name": "Anjou Blanc (demi-sec)",
+       "cat": "blanc",
+       "color": "#e3d38a",
+       "tag": "Blanc",
+       "app": "Anjou · 2012",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ],
+        [
+         "Millésime 2012",
+         "Bouteille 75 cl"
+        ]
+       ]
+      },
+      {
+       "name": "Chardonnay",
+       "cat": "blanc",
+       "color": "#e3d38a",
+       "tag": "Blanc",
+       "app": "Chardonnay",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ]
+       ]
+      },
+      {
+       "name": "Cuvée Pauline",
+       "cat": "blanc",
+       "color": "#d9c46e",
+       "tag": "Blanc",
+       "app": "Blanc · 2011",
+       "desc": "Cuvée limitée, disponible en mai.",
+       "sheet": [
+        [
+         "Disponible en",
+         "Cubi et BIB"
+        ],
+        [
+         "Millésime 2011",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_7bd83a30a2cb4d78a14d0acb3ad56657.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Saumur Brut ou Demi-sec",
+       "cat": "bulles",
+       "color": "#c9b26a",
+       "tag": "Méthode traditionnelle",
+       "app": "AOC Saumur · méthode traditionnelle",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_e2c50be478ca4ad59ec2e01638c770a1.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Cuvée de la Vigne aux Moines",
+       "cat": "bulles",
+       "color": "#7a2232",
+       "tag": "Méthode traditionnelle",
+       "app": "Méthode Rouge",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_ab996454a3fa4de7b2b1de61b9556b04.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Crémant de Loire Blanc",
+       "cat": "bulles",
+       "color": "#c9b26a",
+       "tag": "Méthode traditionnelle",
+       "app": "Crémant de Loire · Chardonnay",
+       "desc": "Vin brut nature, pur Chardonnay, fin et fruité. Sans ajout de liqueur d'expédition.",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_e5ad2c0fa12c4974b6b1aa0d6ef0a00d.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Saumur Rosé Brut",
+       "cat": "bulles",
+       "color": "#d98a8f",
+       "tag": "Méthode traditionnelle",
+       "app": "AOC Saumur · rosé brut",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_bf452104722d414795d96d5cf1234dcd.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Crémant de Loire Rosé",
+       "cat": "bulles",
+       "color": "#d98a8f",
+       "tag": "Méthode traditionnelle",
+       "app": "Crémant de Loire · rosé",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_ded18fa2dc5f44ec9c303a2b500d7f33.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      },
+      {
+       "name": "Jus de Raisin",
+       "cat": "bulles",
+       "color": "#8a3a5a",
+       "tag": "Jus de raisin",
+       "app": "Sans alcool",
+       "desc": "",
+       "sheet": [
+        [
+         "Disponible en",
+         "Bouteille 75 cl"
+        ]
+       ],
+       "img": "https://static.wixstatic.com/media/b5bf0e_0c96a0c6081444e5b5bf2a074229ab3f.png/v1/fit/w_700,h_700,al_c,q_85/img.png"
+      }
+     ],
+     "note": "Vente directe à la propriété, 23 rue des Moulins aux Ulmes."
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact / Accès",
+   "title": "Contact / Accès",
+   "h1": "Contact <em>& accès</em>",
+   "eyebrow": "Les Ulmes · Maine-et-Loire",
+   "lead": "Une question, une commande, une visite au domaine : appelez-nous ou écrivez-nous.",
+   "img": "https://static.wixstatic.com/media/b5bf0e_fe1ecd7906a0404b9c2a7aa0663e01f5.png/v1/fit/w_1400,h_1400,al_c,q_85/img.png",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "venir",
+     "eyebrow": "Accès",
+     "title": "Vignoble Roux, <em class=\"it\">Domaine des Hauts Sentiers</em>",
+     "text": "Au cœur de l'appellation Saumur, entre Doué-la-Fontaine et Saumur.",
+     "rows": [
+      [
+       "Adresse",
+       "23 rue des Moulins<br>49700 Les Ulmes"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33241383468\">02 41 38 34 68</a>"
+      ],
+      [
+       "Portable",
+       "<a href=\"tel:+33633162675\">06 33 16 26 75</a>"
+      ],
+      [
+       "Fax",
+       "02 41 67 83 29"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:scea.rouxfils@wanadoo.fr\">scea.rouxfils@wanadoo.fr</a>"
+      ]
+     ],
+     "map_q": "23 rue des Moulins 49700 Les Ulmes",
+     "cta": [
+      "Appeler le domaine",
+      "tel:+33241383468"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Nous écrire",
+     "title": "Un message <em class=\"it\">pour le domaine</em>",
+     "lead": "Nous vous répondons rapidement.",
+     "email": "scea.rouxfils@wanadoo.fr",
+     "subject": "Message depuis le site",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Le domaine des Hauts Sentiers, exploitation viticole familiale depuis 4 générations au cœur de l'appellation Saumur. Martine & Abel Roux, vignerons indépendants.",
+  "contact": [
+   "<a href=\"tel:+33241383468\">02 41 38 34 68</a>",
+   "<a href=\"tel:+33633162675\">06 33 16 26 75</a>",
+   "<a href=\"mailto:scea.rouxfils@wanadoo.fr\">scea.rouxfils@wanadoo.fr</a>",
+   "23 rue des Moulins, 49700 Les Ulmes"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
