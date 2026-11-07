@@ -1,0 +1,905 @@
+{
+ "slug": "francou-avocat-d38a6e",
+ "title": "Cabinet de Maître Francou, avocat au barreau de Villefranche-sur-Saône",
+ "description": "Maître Jean-Paul Francou, docteur en droit, avocat au barreau de Villefranche-sur-Saône : droit civil, de la famille, de la construction, droit pénal et droit administratif, en particulier droit de l'urbanisme.",
+ "brand": "Cabinet de Maître Francou",
+ "tagline": "Avocat au barreau de Villefranche-sur-Saône",
+ "monogram": "JF",
+ "theme": {
+  "look": "editorial",
+  "logo_accent": false,
+  "paper": "#f6f4ef",
+  "paper2": "#e9e5dc",
+  "ink": "#1a2230",
+  "muted": "#5b6270",
+  "accent": "#1f3a5c",
+  "accent2": "#152a45",
+  "gold": "#a98a58",
+  "heroem": "#e6d3ae",
+  "serif": "\"EB Garamond\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/3663d8_d21d9991ced3468c9f14be6d9a47197f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+  "height": 46,
+  "with_name": true
+ },
+ "phead": "box",
+ "topbar": [
+  "<a href=\"tel:+33474623714\">04 74 62 37 14</a>",
+  "<a href=\"mailto:francou.avocat@yahoo.fr\">francou.avocat@yahoo.fr</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/3663d8_efe6814085724507aa681ba7d6de64eb.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+  "eyebrow": "Avocat au barreau de Villefranche-sur-Saône",
+  "title": "Cabinet de Maître Francou, <em>avocat</em>",
+  "lead": "Un cabinet d'avocat accueillant, disponible et à votre écoute.",
+  "cta1": [
+   "Contacter votre avocat",
+   "votre-avocat/#ecrire"
+  ],
+  "cta2": [
+   "04 74 62 37 14",
+   "tel:+33474623714"
+  ]
+ },
+ "figures": [
+  [
+   "1997",
+   "prestation de serment"
+  ],
+  [
+   "Docteur",
+   "en droit public"
+  ],
+  [
+   "5",
+   "domaines d'intervention"
+  ],
+  [
+   "9h30–16h",
+   "accueil téléphonique"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "img": "https://static.wixstatic.com/media/3663d8_35867457d9d041168d80e0e44134329a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "Maître Jean-Paul Francou",
+   "eyebrow": "Le cabinet",
+   "title": "Maître Jean-Paul <em class=\"it\">Francou</em>",
+   "paras": [
+    "Docteur en droit, avocat au barreau de Villefranche-sur-Saône.",
+    "Ancien attaché d'enseignement à l'Université Jean Moulin Lyon III. Ancien élève de l'École du Commissariat de la Marine.",
+    "Généraliste, Maître Francou exerce dans les domaines du droit civil, de la famille, de la construction, du droit pénal et du droit administratif, en particulier du droit de l'urbanisme.",
+    "Ce site vous permettra d'obtenir les coordonnées de votre avocat et de le consulter au cabinet ou en ligne."
+   ],
+   "sign": "Maître Jean-Paul Francou"
+  },
+  {
+   "kind": "blocks",
+   "id": "domaines",
+   "eyebrow": "Domaines d'intervention",
+   "title": "Ce que <em class=\"it\">traite le cabinet</em>",
+   "lead": "Conseil, consultations juridiques et représentation devant les juridictions.",
+   "items": [
+    {
+     "kicker": "Droit administratif",
+     "title": "Urbanisme",
+     "paras": [
+      "Conseils préalables au dépôt des permis de construire, élaboration des PLU, recours du pétitionnaire ou des tiers."
+     ],
+     "link": [
+      "Droit de l'urbanisme",
+      "urbanisme/"
+     ]
+    },
+    {
+     "kicker": "Juridictions pénales",
+     "title": "Droit pénal",
+     "paras": [
+      "Du tribunal de police jusqu'à la cour d'assises, pour les prévenus comme pour les victimes."
+     ],
+     "link": [
+      "Droit pénal",
+      "penal/"
+     ]
+    },
+    {
+     "kicker": "Personnes et famille",
+     "title": "Droit de la famille",
+     "paras": [
+      "Divorce par consentement mutuel ou devant le juge, séparation, situation des enfants."
+     ],
+     "link": [
+      "Droit de la famille",
+      "divorce/"
+     ]
+    },
+    {
+     "kicker": "Droit civil",
+     "title": "Droit de la construction",
+     "paras": [
+      "Notamment pour les litiges entre le constructeur et ses clients."
+     ],
+     "link": [
+      "Expertise du cabinet",
+      "votre-avocat/#expertise"
+     ]
+    },
+    {
+     "kicker": "Droit public",
+     "title": "Droit public et fiscal",
+     "paras": [
+      "Contestations en matière de droit des fonctionnaires, contestation du montant ou de l'assiette des taxes locales."
+     ],
+     "link": [
+      "Expertise du cabinet",
+      "votre-avocat/#expertise"
+     ]
+    },
+    {
+     "kicker": "Votre affaire",
+     "title": "Se défendre",
+     "paras": [
+      "Banque, voisinage, mandat de protection future, plan local d'urbanisme : des situations courantes et ce que dit le droit."
+     ],
+     "link": [
+      "Lire les articles",
+      "se-defendre/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Le mot de votre avocat",
+   "text": "Ce n'est pas le droit qui est compliqué, mais la vie elle-même.",
+   "sub": "Maître Jean-Paul Francou"
+  },
+  {
+   "kind": "story",
+   "id": "role",
+   "img": "https://static.wixstatic.com/media/3663d8_dcda7ea50418456c831b5b9a1cb65c43~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Votre avocat",
+   "title": "Résoudre les problèmes <em class=\"it\">d'une vie</em>",
+   "paras": [
+    "Malgré un constant souci des pouvoirs publics de « simplifier » le droit et les procédures, il n'est pas facile de savoir comment réagir face aux problèmes juridiques qui se posent inévitablement au cours d'une vie (mariage, décès, accident, infraction…).",
+    "C'est tout simplement que ce n'est pas le droit qui est compliqué, mais la vie elle-même. À vouloir tout simplifier, on se heurte un jour à la réalité.",
+    "Votre avocat est là pour vous aider à résoudre des problèmes qu'il a l'habitude de traiter régulièrement."
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "img": "https://static.wixstatic.com/media/3663d8_77f718ee38d74f54b86d1dfff37440b1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Contactez-nous",
+   "title": "Le cabinet, <em class=\"it\">à Villefranche-sur-Saône</em>",
+   "text": "Le cabinet vous répond de 9h30 à 12h et de 14h à 16h. Un répondeur est à votre disposition quand votre avocat est en audience.",
+   "rows": [
+    [
+     "Adresse",
+     "158, rue Paul Bert, 69400 Villefranche-sur-Saône"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474623714\">04 74 62 37 14</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:francou.avocat@yahoo.fr\">francou.avocat@yahoo.fr</a>"
+    ],
+    [
+     "Accueil téléphonique",
+     "9h30–12h et 14h–16h"
+    ]
+   ],
+   "cta": [
+    "Écrire à votre avocat",
+    "votre-avocat/#ecrire"
+   ],
+   "map_q": "158 rue Paul Bert, 69400 Villefranche-sur-Saône"
+  }
+ ],
+ "footer": {
+  "about": "Maître Jean-Paul Francou, docteur en droit, avocat au barreau de Villefranche-sur-Saône depuis 1997 : droit civil, famille, construction, droit pénal, droit administratif et urbanisme.",
+  "contact": [
+   "<a href=\"tel:+33474623714\">04 74 62 37 14</a>",
+   "<a href=\"mailto:francou.avocat@yahoo.fr\">francou.avocat@yahoo.fr</a>",
+   "158, rue Paul Bert, 69400 Villefranche-sur-Saône",
+   "Accueil téléphonique : 9h30–12h et 14h–16h"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Cabinet-Francou-Avocat-1033733393370174/info?tab=page_info"
+   ]
+  ],
+  "legal": "Avocat au barreau de Villefranche-sur-Saône (Palais de Justice, 250 boulevard Gambetta, 69400 Villefranche-sur-Saône) · Prestation de serment en 1997 · Médiation de la consommation : Jérôme Herce, médiateur, mediateur@mediateur-consommation-avocat.fr",
+  "legal_url": "https://jeanpaulfrancou.wixsite.com/avocatfrancou/blank-pyslc"
+ },
+ "pages": [
+  {
+   "slug": "urbanisme",
+   "label": "Urbanisme",
+   "title": "Droit de l'urbanisme",
+   "h1": "Droit <em>de l'urbanisme</em>",
+   "eyebrow": "Domaines d'intervention",
+   "lead": "Permis de construire, plans locaux d'urbanisme, recours du pétitionnaire ou des tiers.",
+   "img": "https://static.wixstatic.com/media/d58718c0d58245569ccf565dfe8bda7c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "urbanisme-texte",
+     "eyebrow": "Urbanisme",
+     "title": "Conseil <em class=\"it\">et recours</em>",
+     "paras": [
+      "En matière d'urbanisme, Maître FRANCOU donne régulièrement des conseils préalables au dépôt des permis de construire.",
+      "Il intervient aussi à propos de l'élaboration des PLU (conseils sur les remarques à formuler au commissaire enquêteur), ou dans le cadre de recours du pétitionnaire ou des tiers.",
+      "La législation sur l'urbanisme est particulièrement compliquée et parfois absurde. On peut s'en convaincre en contemplant les paysages saccagés par des règles qui prétendent les protéger (urbanisation très dense et sans cohérence, à côté de grands espaces déserts).",
+      "En tout état de cause, il convient de surveiller les évolutions de la législation (des Plans Locaux d'Urbanisme notamment), car en matière d'urbanisme, la propriété privée, pourtant garantie par nos normes constitutionnelles, passe loin derrière des considérations obscures d'origine technocratique.",
+      "<a href=\"../se-defendre/contester-un-plu/\" style=\"border-bottom:1px solid var(--gold)\">Lire : contester un plan local d'urbanisme</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "penal",
+   "label": "Pénal",
+   "title": "Droit pénal",
+   "h1": "Droit <em>pénal</em>",
+   "eyebrow": "Domaines d'intervention",
+   "lead": "Du tribunal de police jusqu'à la cour d'assises.",
+   "img": "https://static.wixstatic.com/media/d58718c0d58245569ccf565dfe8bda7c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "penal-texte",
+     "eyebrow": "Juridictions pénales",
+     "title": "Préparer <em class=\"it\">l'audience</em>",
+     "paras": [
+      "Depuis de nombreuses années, Maître FRANCOU intervient devant les juridictions pénales, depuis le tribunal de police jusqu'à la cour d'assises.",
+      "Si l'on vous reproche une infraction, aussi banale semble-t-elle, il faut préparer l'audience sérieusement : il y a des réflexes qu'on n'improvise pas sans une longue pratique et sans connaître la procédure, surtout dans les contentieux spéciaux, comme le pénal de l'urbanisme (constructions illégales, irrégulières, sans autorisation…).",
+      "Si vous êtes une victime, vous ne serez pas indemnisée si vous vous présentez en dernière minute à l'audience, surtout pour le préjudice corporel.",
+      "Votre enfant est cité devant le tribunal pour enfants ? La chose n'est pas à prendre à la légère car vous êtes civilement responsable de ses actes.",
+      "Si vous êtes cité en correctionnelle ou même aux assises, il ne faut pas croire que vous serez condamné de manière inéluctable."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "divorce",
+   "label": "Droit de la famille",
+   "title": "Droit de la famille",
+   "h1": "Droit <em>de la famille</em>",
+   "eyebrow": "Divorce par consentement ou pas ?",
+   "lead": "Une procédure qui permet de ne pas passer par le juge.",
+   "img": "https://static.wixstatic.com/media/d58718c0d58245569ccf565dfe8bda7c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "divorce-intro",
+     "eyebrow": "Divorce par consentement mutuel",
+     "title": "Divorce par consentement <em class=\"it\">ou pas ?</em>",
+     "paras": [
+      "Entrée en application le 1er janvier 2017, la loi de modernisation de la justice du 21e siècle a simplifié le divorce par consentement mutuel. Elle nécessite la présence de deux avocats et d'un notaire si des biens immobiliers sont à liquider.",
+      "Il convient de comprendre que le divorce par consentement mutuel implique le règlement de la situation patrimoniale des époux, c'est-à-dire la liquidation de la communauté.",
+      "Ce n'est pas une formalité rapide et sans conséquence : elle a des implications humaines importantes, notamment sur les enfants éventuels.",
+      "Pour ces raisons, il convient de faire appel à des avocats qui fournissent une prestation de qualité, un vrai conseil et non pas des conventions préfabriquées que l'on trouve sur le Web."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "en-pratique",
+     "eyebrow": "En pratique",
+     "title": "L'article 229 <em class=\"it\">du code civil</em>",
+     "items": [
+      {
+       "kicker": "Article 229-1",
+       "title": "La convention",
+       "paras": [
+        "Lorsque les époux s'entendent sur la rupture du mariage et ses effets, ils constatent, assistés chacun par un avocat, leur accord dans une convention prenant la forme d'un acte sous signature privée contresigné par leurs avocats et établi dans les conditions prévues à l'article 1374.",
+        "Cette convention est déposée au rang des minutes d'un notaire, qui contrôle le respect des exigences formelles prévues aux 1° à 6° de l'article 229-3. Il s'assure également que le projet de convention n'a pas été signé avant l'expiration du délai de réflexion prévu à l'article 229-4.",
+        "Ce dépôt donne ses effets à la convention en lui conférant date certaine et force exécutoire."
+       ]
+      },
+      {
+       "kicker": "Exclusions",
+       "title": "Cas d'exclusion du divorce par consentement mutuel sous signature privée",
+       "paras": [
+        "Il ne sera pas possible d'avoir recours au divorce par consentement mutuel par acte sous signature privée contresigné par avocats dans les cas suivants :"
+       ],
+       "list": [
+        "Le mineur, informé par ses parents de son droit à être entendu par le juge, demande son audition par ce dernier ;",
+        "L'un des époux est placé sous l'un des régimes de protection tels que la sauvegarde de justice, la curatelle, la tutelle, le mandat de protection future ou l'habilitation familiale ;",
+        "La situation patrimoniale des époux n'est pas réglée ou ne peut être liquidée dans un avenir proche.",
+        "Autre cas d'exclusion : le couple possède un ou plusieurs biens qu'il ne pourra pas vendre rapidement. Dans ce cas, il est plus judicieux de procéder en formant une requête conjointe pour un divorce sur demande acceptée devant le juge. En effet, le consentement mutuel suppose une situation patrimoniale entièrement réglée préalablement."
+       ]
+      },
+      {
+       "kicker": "Contenu",
+       "title": "Contenu de la convention de divorce",
+       "paras": [
+        "La convention de divorce devra expressément comporter les renseignements suivants :"
+       ],
+       "list": [
+        "Éléments d'état civil relatifs aux époux, date et lieu de mariage, ainsi que les mêmes indications, le cas échéant, pour chacun des enfants ;",
+        "Éléments d'identification des avocats chargés d'assister les époux ainsi que le barreau auquel ils sont inscrits ;",
+        "La mention de l'accord des époux sur la rupture du mariage et sur ses effets dans les termes énoncés par la convention et sur la date de ses effets au plan patrimonial ;",
+        "Les modalités du règlement complet des effets du divorce, notamment s'il y a lieu au versement d'une prestation compensatoire ;",
+        "L'état liquidatif du régime matrimonial, qui sera dressé en la forme authentique devant notaire lorsque la liquidation porte sur des biens soumis à publicité foncière, ou la déclaration qu'il n'y a pas lieu à liquidation ;",
+        "La mention que le mineur a été informé par ses parents de son droit à être entendu par le juge dans les conditions prévues à l'article 388-1 du Code civil et qu'il ne souhaite pas faire usage de cette faculté."
+       ]
+      },
+      {
+       "kicker": "Quinze jours",
+       "title": "Délai de réflexion des époux",
+       "paras": [
+        "Chacun des époux reçoit, par lettre recommandée avec demande d'avis de réception, de l'avocat qui l'assiste, un projet de convention qui ne peut être signé, à peine de nullité, avant l'expiration d'un délai de réflexion d'une durée de quinze jours à compter de sa réception."
+       ]
+      },
+      {
+       "kicker": "Notaire",
+       "title": "Contrôle du notaire",
+       "paras": [
+        "Le notaire contrôlera que la convention régularisée entre les époux comporte les informations susmentionnées. Il s'assurera également du respect du délai de réflexion ouvert à chacun des époux.",
+        "Le dépôt de la convention au rang des minutes du notaire donnera ses effets à la convention en lui conférant date certaine et force exécutoire."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "quote",
+     "eyebrow": "Et comme toujours",
+     "text": "Et comme toujours et avant tout, si on peut se réconcilier, cela reste la meilleure des solutions !",
+     "sub": "Demandez à votre avocat, qui vous fera un devis adapté à votre situation."
+    }
+   ]
+  },
+  {
+   "slug": "se-defendre",
+   "label": "Se défendre",
+   "title": "Se défendre",
+   "h1": "Se <em>défendre</em>",
+   "eyebrow": "Votre affaire",
+   "lead": "Des situations de la vie courante, et ce que dit le droit.",
+   "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "articles",
+     "eyebrow": "Se défendre",
+     "title": "Votre affaire, <em class=\"it\">pas à pas</em>",
+     "lead": "Banque, voisinage, protection d'un parent âgé, plan local d'urbanisme : les articles du cabinet.",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Votre banquier doit vous garantir en cas d'utilisation frauduleuse de votre compte",
+       "cat": "Banque",
+       "desc": "Une petite histoire vraie : paiement non autorisé, remboursement immédiat et article L133-18 du code monétaire et financier.",
+       "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "page": "paiement-non-autorise"
+      },
+      {
+       "title": "Un problème de voisinage ? Garder son sang-froid",
+       "cat": "Votre affaire",
+       "desc": "Règles de bon voisinage, agressions sonores, tapage nocturne et réglementations municipales.",
+       "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "page": "probleme-de-voisinage"
+      },
+      {
+       "title": "Protéger un parent âgé ? Le mandat de protection future",
+       "cat": "Votre affaire",
+       "desc": "Qui peut le donner, sur quoi il porte, comment il est établi, quand il prend effet et quand il prend fin.",
+       "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "page": "mandat-de-protection-future"
+      },
+      {
+       "title": "Contester un plan local d'urbanisme",
+       "cat": "Urbanisme",
+       "desc": "Suivre la révision du PLU, intervenir à l'enquête publique, respecter le délai de deux mois et saisir le tribunal administratif.",
+       "img": "https://static.wixstatic.com/media/d58718c0d58245569ccf565dfe8bda7c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "page": "contester-un-plu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "se-defendre/paiement-non-autorise",
+   "hidden": true,
+   "title": "Votre banquier doit vous garantir en cas d'utilisation frauduleuse de votre compte",
+   "h1": "Votre banquier doit vous garantir en cas d'utilisation frauduleuse de votre compte",
+   "eyebrow": "Se défendre · Banque",
+   "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Banque",
+     "date": "Une petite histoire vraie",
+     "chapo": "En cas d'opération de paiement non autorisée, la banque doit rembourser immédiatement son client : elle n'a pas à lui vendre une assurance pour une obligation que la loi lui impose déjà.",
+     "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "keys": "Article L133-18 du code monétaire et financier : en cas d'opération de paiement non autorisée signalée par l'utilisateur, le prestataire de services de paiement rembourse immédiatement le montant de l'opération et rétablit le compte débité dans l'état où il se serait trouvé si l'opération n'avait pas eu lieu.",
+     "body": [
+      {
+       "h2": "Une petite histoire vraie…"
+      },
+      {
+       "p": "Madame Odette est une dame très digne… elle a 75 ans et les porte bien. En outre, c'est une dame moderne : elle commande ses vêtements sur le site du Blancbaudet ou de la Noireporte, ceci dit pour ne pas faire de publicité."
+      },
+      {
+       "p": "Évidemment, cela présente le risque de se faire pirater, mais cela a l'avantage de lui éviter de courir les magasins… elle n'a plus l'âge."
+      },
+      {
+       "p": "Mais elle est assez sédentaire… elle n'est donc pas allée récemment à Saint-Gapour (Chine) et est restée chez elle le mois dernier à Villefranche-sur-Saône, à moins que ce ne soit Villefranche-sur-Mer ou Villefranche-de-Rouergue."
+      },
+      {
+       "p": "Quelle mauvaise surprise… on vient de lui retirer 508 euros sur son compte, et par carte bleue, pour le paiement d'une chambre d'hôtel de charme dans la ville de Chine susdite."
+      },
+      {
+       "p": "Elle court donc voir son conseiller de la Banque Nationale du Beaujolais pour dire qu'elle souhaite être remboursée."
+      },
+      {
+       "p": "« Chèeeere Madame, lui répond Monsieur Radin, le conseiller… vous n'êtes pas assurée… » Et le charmant banquier de lui expliquer comment, grâce à un contrat sécurbank à 30 euros par mois, elle pourra être systématiquement remboursée."
+      },
+      {
+       "p": "Elle répond qu'elle va réfléchir… et court chez son avocat (je ne vous dirai pas son nom, bien entendu, pour éviter toute publicité…)."
+      },
+      {
+       "h2": "Ce que lui répond son avocat"
+      },
+      {
+       "p": "« Chère Madame, lui dit son avocat, votre banquier est doublement malhonnête :"
+      },
+      {
+       "ul": [
+        [
+         "D'abord,",
+         "il doit immédiatement vous rembourser en vertu de l'article L133-18 du code monétaire et financier : « En cas d'opération de paiement non autorisée signalée par l'utilisateur dans les conditions prévues à l'article L. 133-24, le prestataire de services de paiement du payeur rembourse immédiatement au payeur le montant de l'opération non autorisée et, le cas échéant, rétablit le compte débité dans l'état où il se serait trouvé si l'opération de paiement non autorisée n'avait pas eu lieu. »"
+        ],
+        [
+         "Ensuite,",
+         "il n'a pas à vous proposer un contrat d'assurance pour une obligation qui lui incombe du fait de la loi… »"
+        ]
+       ]
+      },
+      {
+       "p": "« Je vais lui écrire une petite lettre pour lui expliquer la chose. »"
+      },
+      {
+       "p": "Madame Odette fut remboursée sous quinzaine. La Banque Nationale du Beaujolais continue à refuser de rembourser ses clients et à vendre des contrats d'assurance bidons à ceux qui n'ont pas le réflexe de se défendre."
+      },
+      {
+       "p": "Votre avocat"
+      },
+      {
+       "h2": "Voir à ce sujet"
+      },
+      {
+       "ul": [
+        "L'arrêt de la Cour d'appel d'Aix-en-Provence du 15 décembre 2016 (RG 14/12661), qui condamne la banque à rembourser son client pour un virement non autorisé.",
+        "L'arrêt de la Cour de cassation (chambre commerciale) du 18 janvier 2017 (req. 15-18.224), qui condamne la banque à rembourser son client victime d'une fraude lors d'un paiement par internet.",
+        "L'arrêt de la Cour de cassation (chambre commerciale) du 31 mai 2016 (req. 14-29.906), qui confirme le rejet d'une demande de remboursement lorsque le titulaire du compte a commis de nombreuses négligences."
+       ]
+      }
+     ],
+     "back": [
+      "← Tous les articles « Se défendre »",
+      "../"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "se-defendre/probleme-de-voisinage",
+   "hidden": true,
+   "title": "Un problème de voisinage ? Garder son sang-froid",
+   "h1": "Un problème de voisinage ? <em>Garder son sang-froid</em>",
+   "eyebrow": "Se défendre · Votre affaire",
+   "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Votre affaire",
+     "chapo": "Nous sommes dans une civilisation où tout est permis… mais peut-on vivre sans un minimum de civisme ? Non, certainement pas !",
+     "body": [
+      {
+       "h2": "Les règles de bon voisinage"
+      },
+      {
+       "p": "Il existe des règles de bon voisinage qui permettent de vivre en harmonie :"
+      },
+      {
+       "ul": [
+        "éviter de faire du bruit à des heures tardives ;",
+        "limiter les nuisances liées aux appareils ménagers en les munissant de silencieux…"
+       ]
+      },
+      {
+       "p": "Il arrive néanmoins que des problèmes de voisinage gâchent la vie."
+      },
+      {
+       "h2": "Ce que prévoit la loi"
+      },
+      {
+       "p": "Des règles existent pour prévenir les agressions sonores : l'article 222-16 du code pénal réprime (un an de prison et 15 000 euros d'amende) les agressions sonores délibérées (et les appels téléphoniques malveillants)."
+      },
+      {
+       "p": "De même, les tapages nocturnes sont sanctionnés par l'article R.623-2 du code pénal."
+      },
+      {
+       "p": "Rappelons enfin que les tondeuses à gazon et autres outils de jardin motorisés font l'objet, en général, de réglementations municipales particulières qui en interdisent souvent l'usage le samedi et le dimanche après-midi."
+      }
+     ],
+     "back": [
+      "← Tous les articles « Se défendre »",
+      "../"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "se-defendre/mandat-de-protection-future",
+   "hidden": true,
+   "title": "Protéger un parent âgé ? Le mandat de protection future",
+   "h1": "Protéger un parent âgé ? <em>Le mandat de protection future</em>",
+   "eyebrow": "Se défendre · Votre affaire",
+   "img": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Votre affaire",
+     "chapo": "Toute personne majeure peut désigner à l'avance une ou plusieurs personnes pour la représenter le jour où elle ne sera plus en état de pourvoir seule à ses intérêts.",
+     "body": [
+      {
+       "h2": "Qui ?"
+      },
+      {
+       "p": "Toute personne majeure (mandant) n'étant pas déjà protégée par décision judiciaire (sauvegarde, curatelle, tutelle) peut désigner à l'avance une ou plusieurs personnes (mandataire) pour la représenter."
+      },
+      {
+       "p": "Le jour où elle ne sera plus en état, physique ou mental, de pourvoir seule à ses intérêts, le mandataire pourra protéger ses intérêts personnels et patrimoniaux. Les parents peuvent aussi utiliser le mandat pour leur enfant souffrant de maladie ou de handicap."
+      },
+      {
+       "p": "Tant qu'elle est en état de le faire, la personne reste totalement capable juridiquement d'assurer la gestion de ses propres affaires. Si les capacités du mandant se dégradent, le mandataire prend le relais, mais il doit informer son mandant de toutes les mesures qu'il prend tant que ce dernier est en capacité de comprendre."
+      },
+      {
+       "p": "Toute personne physique peut être mandataire, mais on peut aussi choisir une personne morale (sur une liste consignée au tribunal d'instance)."
+      },
+      {
+       "h2": "Sur quoi porte le mandat, comment est-il donné ?"
+      },
+      {
+       "p": "Le mandat peut porter sur la personne, le patrimoine, l'un ou/et l'autre, éventuellement sur une partie du patrimoine."
+      },
+      {
+       "p": "Le mandat est un contrat libre. Il doit être daté et signé par le mandant et le mandataire et précise les questions qui peuvent se poser :"
+      },
+      {
+       "ul": [
+        "le logement ou l'hébergement de la personne protégée, ses loisirs et vacances et tout ce qui a trait au séjour de cette dernière ;",
+        "les relations personnelles avec les tiers, parents, amis… ;",
+        "les actes médicaux importants, avec avis décisoire ou consultatif du mandant."
+       ]
+      },
+      {
+       "h2": "Date d'effet ou de fin du mandat"
+      },
+      {
+       "p": "Lorsque la personne protégée n'est plus en état de gérer, le mandataire doit le faire constater par un médecin habilité par le procureur de la République (liste déposée au tribunal d'instance)."
+      },
+      {
+       "p": "Le mandat prend fin si la personne retrouve ses facultés, ou au décès de l'une ou l'autre des personnes concernées. Le juge des tutelles, saisi par toute personne intéressée, peut aussi décharger le mandataire."
+      },
+      {
+       "p": "Pour en savoir plus, pour rédiger le mandat… demandez à votre avocat."
+      }
+     ],
+     "back": [
+      "← Tous les articles « Se défendre »",
+      "../"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "se-defendre/contester-un-plu",
+   "hidden": true,
+   "title": "Contester un plan local d'urbanisme",
+   "h1": "Contester un <em>plan local d'urbanisme</em>",
+   "eyebrow": "Se défendre · Urbanisme",
+   "img": "https://static.wixstatic.com/media/d58718c0d58245569ccf565dfe8bda7c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Urbanisme",
+     "chapo": "Le plan local d'urbanisme (PLU), élaboré par la commune ou la communauté de communes, fixe les règles de constructibilité et d'usage de votre parcelle. Ses révisions peuvent avoir des conséquences importantes sur votre propriété.",
+     "img": "https://static.wixstatic.com/media/d58718c0d58245569ccf565dfe8bda7c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "keys": "Suivez les révisions du PLU, manifestez-vous par écrit auprès du commissaire enquêteur, et agissez dans les deux mois qui suivent l'approbation du PLU par le conseil municipal et la publicité de la délibération.",
+     "body": [
+      {
+       "h2": "Suivre l'évolution du PLU"
+      },
+      {
+       "p": "Le plan local d'urbanisme fait l'objet de révisions régulières, portées à la connaissance du public par des affichages, panneaux numériques, etc. Il vous faut donc suivre cette évolution, car elle peut avoir des conséquences importantes sur votre propriété."
+      },
+      {
+       "p": "Votre terrain peut faire l'objet d'un classement défavorable (c'est malheureusement la tendance actuelle), par exemple :"
+      },
+      {
+       "ul": [
+        "votre terrain en zone AU (zone à urbaniser) alors qu'il est manifestement déjà en zone urbaine (zone U) ;",
+        "votre terrain classé en zone agricole (zone A) alors qu'il est tellement près des maisons qu'il n'est pas exploitable ;",
+        "votre terrain classé en zone naturelle (zone N) alors que rien ne le justifie…"
+       ]
+      },
+      {
+       "p": "Les hypothèses sont multiples et plus la législation évolue, plus elle est restrictive, à la faveur des élucubrations écologiques qui rêvent probablement de voir les gens s'entasser dans des quartiers sur-densifiés."
+      },
+      {
+       "h2": "L'enquête publique"
+      },
+      {
+       "p": "Vous serez avertis par les affichages municipaux de l'enquête publique préalable à l'élaboration ou à la révision du PLU. Il faut vous manifester auprès du commissaire enquêteur et l'informer de vos souhaits, de préférence par écrit. Un avocat spécialisé en urbanisme vous sera utile dès ce stade."
+      },
+      {
+       "h2": "Le délai de deux mois"
+      },
+      {
+       "p": "Il faut suivre la procédure… qui peut être longue, et le meilleur moment pour contester le nouveau PLU, c'est dans les deux mois qui suivent son approbation par le conseil municipal et la publicité de la délibération du conseil municipal qui l'a approuvé."
+      },
+      {
+       "p": "Dès que vous en avez connaissance, il faut en demander copie au secrétariat de votre mairie (qui a obligation de vous la délivrer) et vous rendre chez votre avocat en pensant à prendre un extrait du document graphique (carte du zonage) et du règlement de la zone dans laquelle votre terrain est situé (A, N, AU…)."
+      },
+      {
+       "p": "Attention… ne formez pas vous-même un recours gracieux, car vous serez ensuite « enfermé » dans les seuls arguments que vous aurez avancés, alors que votre avocat aurait pu vous en fournir d'autres, peut-être plus efficaces."
+      },
+      {
+       "h2": "Demander le retrait d'une disposition illégale"
+      },
+      {
+       "p": "Il existe une autre possibilité pour contester un PLU : elle repose sur l'obligation faite à l'administration de retirer les dispositions illégales figurant dans le droit positif. Il faut demander à l'autorité publique le retrait de cette disposition, l'annulation de tout ou partie du PLU (par exemple le classement illégal de votre terrain en zone non constructible)."
+      },
+      {
+       "p": "En cas de refus ou de silence de l'autorité saisie durant deux mois, il faut former un recours devant le tribunal administratif."
+      },
+      {
+       "p": "Toute personne peut former elle-même un recours contre un plan local d'urbanisme, aussi bien un recours gracieux qu'un recours contentieux. Néanmoins, la réglementation est très complexe et son application jurisprudentielle en constante évolution : il est donc souhaitable de saisir un avocat compétent."
+      }
+     ],
+     "back": [
+      "← Tous les articles « Se défendre »",
+      "../"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "votre-avocat",
+   "label": "Votre avocat",
+   "title": "Votre avocat",
+   "h1": "Qui est <em>votre avocat</em> ?",
+   "eyebrow": "Votre avocat / contact",
+   "lead": "Maître Jean-Paul Francou, docteur en droit public, avocat au barreau de Villefranche-sur-Saône depuis 1997.",
+   "img": "https://static.wixstatic.com/media/3663d8_b39c2b978eeb4e72aa0d745df5499a21.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "parcours",
+     "img": "https://static.wixstatic.com/media/3663d8_d1a32512b7934af6b403a9e8b001463c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Maître Jean-Paul Francou",
+     "eyebrow": "Parcours",
+     "title": "Le parcours <em class=\"it\">de Maître Francou</em>",
+     "paras": [
+      "Maître Francou fait ses études à Lyon : au lycée Sainte-Marie puis à la faculté de droit Jean Moulin Lyon III, où il obtient un doctorat en droit public.",
+      "À l'issue de ses études de droit, il sera chargé de travaux dirigés en droit constitutionnel, droit administratif et droit international public.",
+      "Puis il intègre l'école des officiers du commissariat de la Marine en 1992. Il est actuellement officier supérieur de réserve.",
+      "Maître Francou est un passionné de voile et d'histoire militaire. Il écrit d'ailleurs un roman sur le sujet, « Ceux qui vont sur la mer », paru aux éditions Jacques André Éditeur et Grands Prix de la Sélyre en 2009, dans lequel il retrace la grandeur de la France sous l'Ancien Régime. Il pratique aussi l'aviation légère.",
+      "Mais c'est à la profession d'avocat qu'il se destine. Il prête serment en 1997 et s'inscrit au barreau de Villefranche-sur-Saône. Son cabinet est situé dans le centre-ville de Villefranche-sur-Saône, à proximité de la sous-préfecture.",
+      "Ancien chargé d'enseignement à la faculté de droit, Maître Francou est un pédagogue et sait expliquer clairement et simplement à ses clients le déroulement et les conséquences de la procédure judiciaire qu'ils souhaitent mener."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "expertise",
+     "eyebrow": "Expertise",
+     "title": "Conseil <em class=\"it\">et représentation</em>",
+     "lead": "Maître Francou conseille et représente ses clients lors des procédures dans différents domaines du droit :",
+     "items": [
+      {
+       "title": "Droit de la construction",
+       "paras": [
+        "Notamment pour les litiges entre le constructeur et ses clients."
+       ]
+      },
+      {
+       "title": "Droit de l'urbanisme",
+       "paras": [
+        "Notamment pour les refus et contestations de permis de construire."
+       ],
+       "link": [
+        "Droit de l'urbanisme",
+        "../urbanisme/"
+       ]
+      },
+      {
+       "title": "Droit public en général",
+       "paras": [
+        "Comme par exemple les contestations en matière de droit des fonctionnaires."
+       ]
+      },
+      {
+       "title": "Droit fiscal",
+       "paras": [
+        "Éventuellement pour la contestation du montant ou de l'assiette des taxes locales."
+       ]
+      },
+      {
+       "title": "Droit des personnes et de la famille",
+       "paras": [
+        "En droit des personnes et de la famille, Maître Francou n'est pas favorable à une séparation systématique. Un accompagnement par un conseiller conjugal sérieux peut éviter le pire, dans l'intérêt du couple ou des enfants, et des solutions alternatives au divorce, comme la séparation de corps, sont possibles.",
+        "Mais il existe des cas où la séparation est inéluctable, et Maître Francou vous aidera à trouver des solutions non conflictuelles (si possible), pour éviter les séquelles (autant que possible) qu'induit une séparation et surtout pour préserver les enfants. Ainsi le consentement mutuel (qui suppose une situation patrimoniale liquidée) peut permettre de garder la sérénité."
+       ],
+       "link": [
+        "Droit de la famille",
+        "../divorce/"
+       ]
+      },
+      {
+       "title": "Consultations et procédures",
+       "paras": [
+        "Les clients de Maître Francou peuvent bénéficier de consultations juridiques, à l'occasion desquelles Maître Francou leur dispense un avis objectif, clair et avisé sur leur situation juridique. Les consultations juridiques permettent aux clients d'anticiper d'éventuelles difficultés juridiques et de prendre leurs décisions en connaissance de cause.",
+        "Maître Francou assiste et défend également ses clients lorsque ceux-ci souhaitent engager une procédure judiciaire ou qu'une procédure judiciaire est engagée contre eux."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "img": "https://static.wixstatic.com/media/3663d8_7ea45ea6895c4c59a7cc5276fd263d07.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Maître Jean-Paul Francou",
+     "eyebrow": "Contactez-nous",
+     "title": "Coordonnées <em class=\"it\">du cabinet</em>",
+     "text": "Le cabinet vous répond de 9h30 à 12h et de 14h à 16h. Un répondeur est à votre disposition quand votre avocat est en audience.",
+     "rows": [
+      [
+       "Adresse",
+       "158, rue Paul Bert, 69400 Villefranche-sur-Saône"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474623714\">04 74 62 37 14</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:francou.avocat@yahoo.fr\">francou.avocat@yahoo.fr</a>"
+      ],
+      [
+       "Accueil téléphonique",
+       "9h30–12h et 14h–16h"
+      ]
+     ],
+     "cta": [
+      "Appeler le cabinet",
+      "tel:+33474623714"
+     ],
+     "map_q": "158 rue Paul Bert, 69400 Villefranche-sur-Saône"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Écrire au cabinet",
+     "title": "Contacter <em class=\"it\">votre avocat</em>",
+     "lead": "Contacter votre avocat ? Lui poser une question… rien de plus simple.",
+     "side": [
+      "<a href=\"mailto:francou.avocat@yahoo.fr\">francou.avocat@yahoo.fr</a>",
+      "<a href=\"tel:+33474623714\">04 74 62 37 14</a>"
+     ],
+     "email": "francou.avocat@yahoo.fr",
+     "subject": "Question depuis le site du cabinet",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Objet",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honoraires",
+   "label": "Honoraires",
+   "title": "Honoraires",
+   "h1": "Nos <em>honoraires</em>",
+   "eyebrow": "Pas de mauvaise surprise",
+   "lead": "Les honoraires sont fixés en fonction de critères objectifs.",
+   "img": "https://static.wixstatic.com/media/3663d8_f1cb6afde923420a91a53a9c55338f0e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "nos-honoraires",
+     "eyebrow": "Honoraires",
+     "title": "Consultation <em class=\"it\">et convention d'honoraires</em>",
+     "lead": "Pas de mauvaise surprise : les honoraires seront fixés en fonction de critères objectifs.",
+     "items": [
+      {
+       "kicker": "Consultation",
+       "title": "100 € HT, soit 120 € TTC",
+       "paras": [
+        "Une consultation pour vous conseiller et vous orienter dans les démarches à entreprendre vous sera facturée 100 € HT, soit 120 € TTC.",
+        "Cette consultation vous sera en général offerte s'il s'agit seulement de recueillir des documents pour une procédure simple (incident après divorce, consentement mutuel…) et si vous saisissez le cabinet pour cette procédure."
+       ]
+      },
+      {
+       "kicker": "Convention d'honoraires",
+       "title": "Forfait ou taux horaire de 200 € HT, soit 240 € TTC",
+       "paras": [
+        "Ensuite, une convention d'honoraires est établie, prévoyant de façon détaillée la mission confiée, les diligences à accomplir et les modalités de règlement des honoraires. En cas de désaccord, cette convention peut être soumise à un médiateur ou à l'arbitrage du bâtonnier.",
+        "Il peut être prévu un forfait, un calcul horaire (200 € HT, soit 240 € TTC) et éventuellement un honoraire de résultat."
+       ]
+      },
+      {
+       "kicker": "Règlement",
+       "title": "Provision et échelonnement",
+       "paras": [
+        "Ces honoraires sont payables suivant les diligences effectuées. Une provision vous sera demandée en début de procédure. Un échelonnement est possible.",
+        "Dans certaines procédures, tout ou partie des frais peuvent être mis à la charge de la partie adverse par le juge."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "aide",
+     "eyebrow": "Aide juridictionnelle et protection juridique",
+     "title": "Les autres <em class=\"it\">prises en charge</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Aide juridictionnelle",
+       "paras": [
+        "Le cabinet accepte l'aide juridictionnelle dans certains domaines (notamment droit administratif, affaires familiales), mais il vous revient de constituer le dossier après l'avoir téléchargé sur internet.",
+        "Une fois le dossier constitué, il conviendra de l'apporter à votre avocat pour qu'il mentionne son accord, puis de le déposer au bureau d'aide juridictionnelle compétent."
+       ],
+       "link": [
+        "Le formulaire sur service-public.fr",
+        "https://www.service-public.fr/particuliers/vosdroits/R1444"
+       ]
+      },
+      {
+       "title": "Protection juridique",
+       "paras": [
+        "Le cabinet ne souhaite pas être en contact avec votre assureur et ne lui transmettra aucun document. Si votre assureur prend en charge une partie des frais, il conviendra de vous faire rembourser par ce dernier.",
+        "Il convient de noter que les prises en charge des frais de procédure par les assureurs sont souvent dérisoires."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
