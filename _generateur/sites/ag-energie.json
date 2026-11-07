@@ -1,0 +1,1093 @@
+{
+ "slug": "ag-energie-7cf587",
+ "title": "AG'Energie — Climatisation, pompe à chaleur, électricité et plomberie à Grenoble (Isère)",
+ "description": "AG'Energie, Grenoble : climatisation réversible, pompes à chaleur, caves à vin, froid commercial, électricité, plomberie, contrats d'entretien et location. Dépannage d'urgence 24h/24 – 7j/7. Devis gratuit.",
+ "brand": "AG'Energie",
+ "tagline": "Génie climatique · Électricité · Plomberie",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/fef65d_a8bf592d1f2240369bf56e4fb9f8af22~mv2.png/v1/fit/w_600,h_600,al_c,q_85/img.png",
+  "height": 50
+ },
+ "theme": {
+  "look": "center",
+  "paper": "#f3f7fa",
+  "paper2": "#e1ebf2",
+  "ink": "#0f1f2c",
+  "muted": "#53626f",
+  "accent": "#1f6fb2",
+  "accent2": "#175789",
+  "gold": "#e5892c",
+  "heroem": "#ffcf8f",
+  "serif": "\"Outfit\",system-ui,sans-serif",
+  "sans": "\"Nunito Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+ },
+ "phead": "box",
+ "topbar": [
+  "Dépannage d'urgence 24h/24 – 7j/7",
+  "<a href=\"tel:+33476262898\">Tél : 04 76 26 28 98</a>"
+ ],
+ "nav": [
+  [
+   "services",
+   "Nos métiers"
+  ],
+  [
+   "devis",
+   "Devis"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/fef65d_a1be60dd0a8344e294ba006db7f0600a~mv2.jpeg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Grenoble · Isère · Auvergne-Rhône-Alpes · PACA",
+  "title": "Climatisation, électricité <em>et plomberie</em>",
+  "lead": "Installation, entretien et dépannage pour particuliers, professionnels et collectivités. 14 ans d'expérience, des installateurs diplômés et qualifiés.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "04 76 26 28 98",
+   "tel:+33476262898"
+  ]
+ },
+ "figures": [
+  [
+   "14 ans",
+   "d'expérience"
+  ],
+  [
+   "24h/24",
+   "dépannage d'urgence, 7j/7"
+  ],
+  [
+   "3",
+   "métiers : génie climatique, électricité, plomberie"
+  ],
+  [
+   "0 €",
+   "devis gratuit et détaillé"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Nos métiers",
+   "title": "Un seul interlocuteur <em class=\"it\">pour votre confort</em>",
+   "lead": "Nous mettons nos 14 ans d'expérience au service de nos clients, et tous nos installateurs sont diplômés et qualifiés.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/fef65d_c8bac74720d844b6b7f9824902b0d1aa~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Génie climatique",
+     "kicker": "Génie climatique",
+     "title": "Climatisation et pompe à chaleur",
+     "paras": [
+      "Différentes solutions de climatisation réversible et de pompe à chaleur : pose, entretien et dépannage. Caves à vin et froid commercial."
+     ],
+     "link": [
+      "En savoir +",
+      "genie-climatique/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/fef65d_abe2910944fd43509b0ad820efbd1662~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Électricité",
+     "kicker": "Électricité",
+     "title": "Installations électriques",
+     "paras": [
+      "AG'Energie est à vos côtés pour réaliser vos installations électriques, de chauffage et d'éclairage. Pour vos travaux neufs et de rénovation, AG'Energie vous propose ses conseils."
+     ],
+     "link": [
+      "En savoir +",
+      "electricite/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/fef65d_2eedf3a2f9c34d12b0bc3f122548d5ad~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Plomberie",
+     "kicker": "Plomberie",
+     "title": "Plomberie",
+     "paras": [
+      "Dépannage, mise aux normes et remise en étanchéité."
+     ],
+     "link": [
+      "En savoir +",
+      "electricite/#plomberie"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "L'entreprise",
+   "title": "Qualité, organisation <em class=\"it\">et passion du métier</em>",
+   "img": "https://static.wixstatic.com/media/fef65d_67c3e6bb6594445b88e335d55d5fced9~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "AG'Energie, climatisation",
+   "paras": [
+    "AG'Energie est une entreprise de génie climatique, d'électricité et de plomberie, active en Auvergne-Rhône-Alpes et en PACA. Elle s'adresse aux particuliers, aux professionnels et aux collectivités : installations, contrats d'entretien, dépannages, location de climatisation et de chauffage.",
+    "Des produits haut de gamme à prix compétitifs, des techniciens formés en continu, un suivi et des conseils personnalisés : notre priorité est la satisfaction de nos clients."
+   ],
+   "sign": "Guillaume Reynier-Baret, gérant"
+  },
+  {
+   "kind": "story",
+   "id": "marques",
+   "eyebrow": "Nos marques",
+   "title": "Du matériel <em class=\"it\">de grandes marques</em>",
+   "paras": [
+    "Daikin, Mitsubishi Electric, Toshiba, Panasonic, Samsung, LG, Airwell, Atlantic, Fujitsu, Poolex, Zodiac, Hayward, Astralpool, Schneider Electric, Hager, Legrand…"
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/fef65d_d3751c5195eb401fbe156a2dfb2ff6ac~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_0c067fdc1d214479be1712c0f61bb128~mv2.gif",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_d9e1d16e15c44024b2e8eaa3ab02e83d~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_0ecd968bef1749e79139561b8fdc2bad~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_b67c9b0b161f497e9faf753ad78442b6~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_f09651eb3ae44396bf5c44667414d655~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_179c2ce0498a4d38a3b68965670f0fff~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_7ff31bd029be4742b41962beb0513ff2~mv2_d_4096_1462_s_2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_a3ce8314ba7a4eb59b8d7a54b6b1b138~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_34394e8367b64ef0bac411c51fa40caf~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_d5c7b031d46146d3bbc51a57b7d67386~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_3b55e38b110a4685861f45be0e740856~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_b000468774a7444ea075982c391e838c~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ],
+    [
+     "https://static.wixstatic.com/media/fef65d_9e205518e79745029a6e67e0c6389fba~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Marque partenaire"
+    ]
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/fef65d_b74dfcef590040c986ae80cc9b8f6b0f~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "eyebrow": "Dépannage d'urgence assuré 24h/24 – 7j/7",
+   "title": "Une panne ? <em>Appelez le 04 76 26 28 98</em>",
+   "cta": [
+    "Appeler maintenant",
+    "tel:+33476262898"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "email": "contact@ag-energie38.com",
+   "subject": "Demande de devis depuis le site AG'Energie",
+   "eyebrow": "Devis gratuit et détaillé",
+   "title": "Demander <em class=\"it\">un devis</em>",
+   "lead": "Un ou plusieurs devis gratuits et détaillés : décrivez votre projet ou votre panne, AG'Energie vous recontacte et se déplace rapidement selon vos disponibilités.",
+   "side": [
+    "<b>Standard · dépannage 24h/24 – 7j/7</b><br><a href=\"tel:+33476262898\">04 76 26 28 98</a>",
+    "<b>Service technique</b><br><a href=\"tel:+33633847453\">06 33 84 74 53</a>",
+    "<b>Service commercial</b><br><a href=\"tel:+33612046502\">06 12 04 65 02</a>",
+    "<b>E-mail</b><br><a href=\"mailto:contact@ag-energie38.com\">contact@ag-energie38.com</a>"
+   ],
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Prénom"
+    },
+    {
+     "label": "Société"
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "Adresse"
+    },
+    {
+     "label": "Code postal"
+    },
+    {
+     "label": "Ville"
+    },
+    {
+     "label": "Votre demande",
+     "type": "select",
+     "full": true,
+     "options": [
+      "Climatisation",
+      "Pompe à chaleur",
+      "Cave à vin",
+      "Froid commercial",
+      "Électricité",
+      "Plomberie",
+      "Contrat d'entretien",
+      "Location climatisation / chauffage",
+      "Dépannage",
+      "Autre"
+     ]
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "required": true
+    }
+   ],
+   "submit": "Demander mon devis"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "Grenoble <em class=\"it\">et son agglomération</em>",
+   "text": "AG'Energie intervient à Grenoble, dans l'agglomération grenobloise et en Isère, en Auvergne-Rhône-Alpes et en PACA, et peut se déplacer dans d'autres régions selon le projet.",
+   "rows": [
+    [
+     "Adresse",
+     "62 rue Léon Jouhaux, 38100 Grenoble"
+    ],
+    [
+     "Standard",
+     "<a href=\"tel:+33476262898\">04 76 26 28 98</a>"
+    ],
+    [
+     "Service technique",
+     "<a href=\"tel:+33633847453\">06 33 84 74 53</a>"
+    ],
+    [
+     "Service commercial",
+     "<a href=\"tel:+33612046502\">06 12 04 65 02</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@ag-energie38.com\">contact@ag-energie38.com</a>"
+    ],
+    [
+     "Horaires",
+     "Lundi au jeudi : 8h – 19h<br>Vendredi : 8h – 18h<br>Samedi : 9h – 12h"
+    ],
+    [
+     "Urgences",
+     "Dépannage d'urgence assuré 24h/24 – 7j/7"
+    ]
+   ],
+   "map_q": "62 rue Léon Jouhaux 38100 Grenoble",
+   "cta": [
+    "Appeler le 04 76 26 28 98",
+    "tel:+33476262898"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos",
+   "eyebrow": "AG'Energie · Grenoble",
+   "lead": "14 ans d'expérience au service de nos clients, des installateurs diplômés et qualifiés, un suivi et des conseils personnalisés.",
+   "img": "https://static.wixstatic.com/media/fef65d_1db40d27efeb4bc1bc2598d02e383791~mv2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "qui",
+     "eyebrow": "Qui sommes-nous",
+     "title": "Génie climatique, électricité <em class=\"it\">et plomberie</em>",
+     "img": "https://static.wixstatic.com/media/fef65d_67c3e6bb6594445b88e335d55d5fced9~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+     "alt": "Climatisation",
+     "paras": [
+      "AG'Energie est une entreprise de génie climatique, d'électricité et de plomberie qui intervient en Auvergne-Rhône-Alpes et en PACA, et dans d'autres régions selon votre projet.",
+      "Particuliers, professionnels et collectivités : nous assurons les installations, les contrats d'entretien, les dépannages, ainsi que la location de climatisation et de chauffage.",
+      "Qualité des produits et des services, organisation, passion du métier : nous proposons des produits haut de gamme à prix compétitifs, nos techniciens sont formés en continu et notre priorité est la satisfaction de nos clients.",
+      "Un ou plusieurs devis gratuits et détaillés : nous nous déplaçons rapidement, selon vos disponibilités."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "certifications",
+     "eyebrow": "Nos certifications",
+     "title": "Des techniciens <em class=\"it\">certifiés et habilités</em>",
+     "items": [
+      [
+       "Manipulation des fluides frigorigènes",
+       "Nos collaborateurs possèdent l'attestation d'aptitude et de capacité à la manipulation des fluides frigorigènes, délivrée par des organismes agréés (réglementation en vigueur depuis le 1er janvier 2009).",
+       "https://static.wixstatic.com/media/fef65d_0d7175c47f554131ab1c0e0cb4e2f2fc~mv2.jpg/v1/fit/w_600,h_600,al_c,q_85/img.jpg"
+      ],
+      [
+       "Habilitations électriques",
+       "Nos techniciens possèdent les habilitations électriques nécessaires, selon la norme NF C18-510 « Prévention du risque électrique ».",
+       "https://static.wixstatic.com/media/fef65d_429f786097974344948f89b11db70702~mv2.png/v1/fit/w_600,h_600,al_c,q_85/img.jpg"
+      ],
+      [
+       "NF Environnement",
+       "La marque NF Environnement est une marque volontaire de certification délivrée par AFNOR Certification.",
+       "https://static.wixstatic.com/media/fef65d_52f6cc8646a24e28820840193c3ec190~mv2.png/v1/fit/w_600,h_600,al_c,q_85/img.jpg"
+      ]
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "protocole",
+     "eyebrow": "Protocole",
+     "title": "Un protocole d'action <em class=\"it\">rassurant</em>",
+     "items": [
+      {
+       "when": "1",
+       "who": "Diagnostic",
+       "text": "Le technicien expertise votre installation pour déterminer l'origine de la panne."
+      },
+      {
+       "when": "2",
+       "who": "Devis",
+       "text": "Il établit un devis détaillant le coût de la prestation et les matériaux utilisés. Les travaux commencent après votre acceptation."
+      },
+      {
+       "when": "3",
+       "who": "Intervention",
+       "text": "Sauf cas particuliers ou très complexes, il dispose du matériel nécessaire pour intervenir rapidement."
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos-apropos",
+     "eyebrow": "En images",
+     "title": "AG'Energie <em class=\"it\">au quotidien</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_28c4067f34294d9c8be6b20ee4fef84c~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_28c4067f34294d9c8be6b20ee4fef84c~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "AG'Energie Bien Être",
+       "caption": "AG'Energie Bien Être"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_1db40d27efeb4bc1bc2598d02e383791~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_1db40d27efeb4bc1bc2598d02e383791~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "AG Energie",
+       "caption": "AG Energie"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_67c3e6bb6594445b88e335d55d5fced9~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_67c3e6bb6594445b88e335d55d5fced9~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Climatisation",
+       "caption": "Climatisation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "genie-climatique",
+   "label": "Génie climatique",
+   "title": "Génie climatique",
+   "eyebrow": "Climatisation · Pompe à chaleur · Cave à vin · Froid commercial",
+   "lead": "Vente, pose, entretien, maintenance et dépannage : des solutions adaptées à votre logement, votre commerce ou vos locaux.",
+   "img": "https://static.wixstatic.com/media/fef65d_c8bac74720d844b6b7f9824902b0d1aa~mv2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "climatisation",
+     "eyebrow": "Climatisation",
+     "title": "Climatisation réversible : <em class=\"it\">pose, entretien et dépannage</em>",
+     "lead": "Installation en mono-split, multi-split ou gainable, devis et conseils gratuits. La climatisation réversible Inverter rafraîchit en été et chauffe en hiver avec un seul appareil ; elle ventile et déshumidifie votre logement, avec une température homogène et constante.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_bc8a39ef38da4ec68ee4187cf72b3b24~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "kicker": "Le plus courant",
+       "title": "Murale",
+       "paras": [
+        "Le système le plus utilisé et le meilleur rapport qualité/prix. Certains modèles sont conçus pour s'intégrer à votre décoration."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_eebf5cc382a24293a96c1b991850adb7~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "kicker": "Au ras du sol",
+       "title": "Console",
+       "paras": [
+        "Installée au sol ou en allège de fenêtre, elle diffuse l'air au ras du sol, idéal pour le chauffage. Pour ceux qui n'aiment pas le design des modèles muraux."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_233582f066d449cc974774b6043445fa~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "kicker": "Le plus discret",
+       "title": "Gainable",
+       "paras": [
+        "Intégrée au faux plafond ou dans les combles, l'air est diffusé par des grilles murales ou au plafond. Une seule unité peut traiter plusieurs pièces."
+       ]
+      }
+     ],
+     "chips": [
+      "Mono-split",
+      "Multi-split",
+      "Gainable",
+      "Inverter",
+      "R32",
+      "R410A",
+      "R407C"
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "pompe-a-chaleur",
+     "eyebrow": "Pompe à chaleur",
+     "title": "Air, eau, <em class=\"it\">air/eau</em>",
+     "img": "https://static.wixstatic.com/media/fef65d_ddb0b95d998f483da7c2b2428c3e89fa~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Pompe à chaleur",
+     "paras": [
+      "La pompe à chaleur prélève les calories de l'air ou de la terre et les transmet à votre système de chauffage ou de rafraîchissement, sans combustible fossile (pétrole, gaz). Elle peut aussi climatiser un logement ou un lieu de travail.",
+      "En construction comme en rénovation, elle peut être la source unique de chauffage et d'eau chaude sanitaire, ou l'appoint d'un système existant. Le chauffage est réversible.",
+      "<b>Air</b> : le plus populaire, facile à installer. <b>Eau</b> : maintient l'eau de votre piscine à bonne température dès février. <b>Air/eau</b> : la combinaison des deux technologies."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "cave-a-vin",
+     "eyebrow": "Cave à vin",
+     "title": "Votre cave <em class=\"it\">sur mesure</em>",
+     "lead": "Des climatiseurs dédiés aux caves à vin reproduisent les conditions de vieillissement du vin : température et hygrométrie contrôlées par des appareils conçus pour le secteur vinicole. Un petit local comme un vaste sous-sol peut devenir une cave.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_b5445eaaa5f04fe0a1dbcd4c84a74d44~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Mono-split basse température",
+       "paras": [
+        "Pour une cave à vin, un local de fleuriste…"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_dc250f6840a744369eebfba8ecca457c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Monobloc basse température",
+       "paras": [
+        "Solutions intégrées et encastrables, jusqu'aux modèles intégrés à la porte pour les petites caves."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_bfb79c64db8a49f59e290f44848f5676~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Accessoires",
+       "paras": [
+        "Filtres pour climatiseurs, humidificateurs, thermostats avec ou sans contrôle de l'hygrométrie."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "froid-commercial",
+     "eyebrow": "Froid commercial",
+     "title": "Vos projets de froid, <em class=\"it\">en neuf ou en rénovation</em>",
+     "img": "https://static.wixstatic.com/media/fef65d_b37ee2c1a99f40ed84bb74266534d790~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Froid commercial",
+     "paras": [
+      "Pour les petits commerces (bouchers, charcutiers, poissonniers, alimentation, fleuristes) et le froid industriel (hors ammoniac) : définition des besoins en froid, implantation des chambres froides, laboratoires et vitrines réfrigérées, traçabilité des températures, maintenance 24h/24 – 7j/7 et optimisation de l'énergie.",
+      "Chambres froides positives et négatives, standard ou sur mesure ; chambres de pousse ; meubles et vitrines réfrigérés (livraison, installation et mise en service garantie) ; armoires frigorifiques positives et négatives inox ; tours réfrigérées pour la pâtisserie et la boulangerie ; machines à glaçons professionnelles ; intervention sur circuit frigorifique, maintenance et dépannage."
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Nos <em class=\"it\">installations</em>",
+     "carousel": true,
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_a7e3b95545ed41318eb472ce3d348278~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_a7e3b95545ed41318eb472ce3d348278~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Climatisation réversible Inverter",
+       "caption": "Climatisation réversible Inverter"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_43c72a630baa4a3fbfe777cdc1362943~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_43c72a630baa4a3fbfe777cdc1362943~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Génie climatique, climatisation",
+       "caption": "Génie climatique, climatisation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_e88f866ef9cf422d9c27a650b0bacc35~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_e88f866ef9cf422d9c27a650b0bacc35~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Pompe à chaleur, froid commercial, cave à vin",
+       "caption": "Pompe à chaleur, froid commercial, cave à vin"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_a1be60dd0a8344e294ba006db7f0600a~mv2.jpeg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_a1be60dd0a8344e294ba006db7f0600a~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Climatisation",
+       "caption": "Climatisation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_100141c11cf24c65842fd98929b55ad4~mv2.gif",
+       "thumb": "https://static.wixstatic.com/media/fef65d_100141c11cf24c65842fd98929b55ad4~mv2.gif",
+       "alt": "Climatisation",
+       "caption": "Climatisation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_2bb8201e81cb44c7ba020b2466cd42f8~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_2bb8201e81cb44c7ba020b2466cd42f8~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Froid commercial",
+       "caption": "Froid commercial"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_0199ff16a45a41c7a2deb3bf113d4edf~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_0199ff16a45a41c7a2deb3bf113d4edf~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Froid commercial",
+       "caption": "Froid commercial"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_86d931e79a1e4e74937d7875ab3898c1~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_86d931e79a1e4e74937d7875ab3898c1~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Froid commercial",
+       "caption": "Froid commercial"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/fef65d_c8bac74720d844b6b7f9824902b0d1aa~mv2.png/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis et conseils gratuits",
+     "title": "Quelle solution <em>pour vous ?</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "electricite",
+   "label": "Électricité & plomberie",
+   "title": "Électricité et plomberie",
+   "eyebrow": "Installation · Rénovation · Dépannage",
+   "lead": "Locaux professionnels, établissements recevant du public, immeubles collectifs et maisons individuelles.",
+   "img": "https://static.wixstatic.com/media/fef65d_b74dfcef590040c986ae80cc9b8f6b0f~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "electricite",
+     "eyebrow": "Électricité",
+     "title": "Vos installations <em class=\"it\">électriques</em>",
+     "lead": "AG'Energie réalise vos installations électriques, de chauffage et d'éclairage, en neuf comme en rénovation.",
+     "items": [
+      {
+       "kicker": "Dépannage",
+       "title": "Pannes et remplacements",
+       "list": [
+        "Panne électrique (court-circuit, baisse de courant)",
+        "Remplacement de tableau électrique, serrure électrique, disjoncteur, fusible",
+        "Dépannage, maintenance et entretien des installations"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_94827a1196c84cfbb6c1dcfa1c9198e6~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+       "contain": true,
+       "kicker": "Éclairage",
+       "title": "Éclairage et LED",
+       "list": [
+        "Remplacement d'éclairage extérieur (borne, lampadaire)",
+        "Rénovation d'éclairage en LED : économies d'énergie et d'entretien"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_71af4bfd5187415c80d8bf220fc87aed~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+       "contain": true,
+       "kicker": "Relamping",
+       "title": "Relamping de sites",
+       "list": [
+        "Parkings, cages d'escalier, caves…"
+       ]
+      },
+      {
+       "kicker": "Sécurité",
+       "title": "Mises aux normes",
+       "list": [
+        "Logements privés",
+        "Après contrôle d'un bureau de contrôle",
+        "Mise en sécurité des installations dans les logements"
+       ]
+      },
+      {
+       "kicker": "Atelier",
+       "title": "Tableaux et câblage",
+       "list": [
+        "Tableaux électriques préparés et câblés en atelier",
+        "Câblage courant fort et courant faible"
+       ]
+      },
+      {
+       "kicker": "Confort",
+       "title": "Chauffage, portail, ventilation",
+       "list": [
+        "Installation de convecteurs (radiateurs électriques)",
+        "Motorisation de portails",
+        "VMC résidentielle hydroréglable et double flux"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "plomberie",
+     "eyebrow": "Plomberie",
+     "title": "Dépannage, mise aux normes, <em class=\"it\">étanchéité</em>",
+     "img": "https://static.wixstatic.com/media/fef65d_c669dfe0e6bb4f55bcab3f8d19bd3ae7~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "AG'Energie plomberie",
+     "paras": [
+      "Dépannage, mise aux normes et remise en étanchéité : une prestation de qualité, avec un suivi et des conseils personnalisés.",
+      "Dépannage d'urgence assuré 24h/24 – 7j/7 au 04 76 26 28 98."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/fef65d_d54e96f8ab974cbabb94b33f5d53c419~mv2_d_1378_1378_s_2.gif",
+       "Plomberie, dépannage d'urgence"
+      ]
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/fef65d_b74dfcef590040c986ae80cc9b8f6b0f~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis personnalisé",
+     "title": "Un projet électrique <em>ou de plomberie ?</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contrat-d-entretien",
+   "label": "Contrats d'entretien",
+   "title": "Contrats d'entretien",
+   "eyebrow": "Génie climatique · Électricité",
+   "lead": "Avez-vous pensé à nos contrats d'entretien ? Des contrats ou forfaits adaptés à vos matériels, avec des visites mensuelles, trimestrielles, semestrielles ou annuelles.",
+   "img": "https://static.wixstatic.com/media/fef65d_2bc067f9ff204954ad4e494a09655c38~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "contrats",
+     "eyebrow": "Nos contrats",
+     "title": "Des forfaits <em class=\"it\">personnalisés</em>",
+     "img": "https://static.wixstatic.com/media/fef65d_30694c9836ce457fa8f2a31912d20144~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Contrat d'entretien génie climatique",
+     "paras": [
+      "Les contrats sont annuels et se renouvellent automatiquement, sauf dénonciation par l'une ou l'autre des parties. AG'Energie vous contacte pour planifier les entretiens périodiques.",
+      "Un entretien annuel de votre climatisation ou de votre pompe à chaleur optimise son rendement, prévient la prolifération de bactéries dans l'air ambiant et prolonge sa durée de vie. Nous remettons aussi en service un appareil ancien, puis l'entretenons chaque année pour éviter la panne en pleine saison.",
+      "Contrôle périodique d'étanchéité réglementaire : circuits frigorifiques de moins de 30 kW, 1 fois par an ; de plus de 30 kW, 2 fois par an. Entretien du froid : chambres froides, vitrines réfrigérées, caves à vin."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "climatisation",
+     "eyebrow": "Entretien préventif climatisation",
+     "title": "La visite technique <em class=\"it\">comporte</em>",
+     "items": [
+      {
+       "kicker": "Contrôles",
+       "title": "Mesures et contrôles",
+       "list": [
+        "Contrôle général des unités intérieures et extérieures",
+        "Mesure des performances (températures de l'air en entrée et en sortie)",
+        "Vérification des fixations et des supports",
+        "Contrôle des pressions, du niveau de gaz et de l'étanchéité du circuit",
+        "Recherche de fuites de fluide frigorigène",
+        "Contrôle des températures d'aspiration et de refoulement",
+        "Contrôle de la qualité du fluide caloporteur"
+       ]
+      },
+      {
+       "kicker": "Nettoyage",
+       "title": "Nettoyage et hygiène",
+       "list": [
+        "Nettoyage des filtres et traitement bactéricide des unités intérieures",
+        "Dépoussiérage et nettoyage de la grille du groupe extérieur",
+        "Dépoussiérage et nettoyage de la grille du ou des splits intérieurs",
+        "Contrôle de l'évacuation des condensats, désinfection et nettoyage des bacs et siphons",
+        "Nettoyage et évacuation des résidus en fin de visite"
+       ]
+      },
+      {
+       "kicker": "Sécurité",
+       "title": "Vérifications et rapport",
+       "list": [
+        "Vérification des échangeurs (condenseur et évaporateur) et de la grille de condensation",
+        "Contrôle des connexions, raccordements électriques et organes de sécurité",
+        "Test du cycle froid et du cycle réversible",
+        "Vérification des pompes de relevage",
+        "Rapport de visite : travaux, réponses à vos questions, recommandations"
+       ]
+      }
+     ],
+     "note": "En cas de manque de gaz, un devis vous est soumis avant la remise en service, pour éviter tout risque de casse du compresseur. Installations non réalisées par AG'Energie : intervention possible après la fin de la garantie main-d'œuvre et de bon fonctionnement de deux ans."
+    },
+    {
+     "kind": "story",
+     "id": "electricite",
+     "eyebrow": "Contrat d'entretien électrique",
+     "title": "Relamping, BAES <em class=\"it\">et éclairage de secours</em>",
+     "img": "https://static.wixstatic.com/media/fef65d_b6e0bc3e85c54d7fab6bbf09caa14156~mv2.jpeg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Contrat d'entretien électrique",
+     "paras": [
+      "Contrats de maintenance d'éclairage, en particulier pour les parcs lumineux hétérogènes ou les budgets limités : contrat de dépannage avec visites programmées, ou interventions ponctuelles sur appel. 1, 2, 4 ou 12 visites par an, pour les particuliers, copropriétés, commerçants, entreprises et industriels.",
+      "Le contrat tient compte de l'état général, de la marque des appareillages, du taux d'utilisation, de la vétusté, du nombre d'éclairages et de BAES et du tableau général basse tension (TGBT). La visite préalable, obligatoire avant tout devis d'entretien, est gratuite."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "baes",
+     "eyebrow": "Maintenance électrique",
+     "tight": true,
+     "title": "Ce que comprend <em class=\"it\">l'entretien</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_54a715cb52474bfd89a269b027cebf4f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "kicker": "Contrat annuel",
+       "title": "Relamping",
+       "list": [
+        "Inventaire du parc d'éclairage",
+        "Remplacement et modernisation des sources par des LED",
+        "Nettoyage minutieux des appareils"
+       ],
+       "paras": [
+        "Meilleure lumière, factures d'énergie en baisse, durée de vie plus longue, moins de chaleur."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_a5893a37a22b4d82be5fd45bfcda6a34~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "kicker": "TGBT",
+       "title": "Maintenance des installations",
+       "list": [
+        "Contrôle et resserrage éventuel des protections du TGBT",
+        "Contrôle visuel des conducteurs",
+        "Contrôle des réglages des protections",
+        "Vérification des organes de commande mécaniques et des différentiels",
+        "Contrôle général de l'installation"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/fef65d_d84e1a1749fc4ad6bb1897b5a7bab9ab~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "kicker": "Réglementaire",
+       "title": "Éclairages de secours (BAES)",
+       "list": [
+        "Chaque mois : test de passage en mode secours, contrôle visuel de chaque BAES, mise au repos par télécommande, retour en veille",
+        "Chaque semestre : repérage et numérotation des blocs, test d'1 h, contrôle des batteries et de leur autonomie",
+        "Remplacement des lampes veilleuses, remplacement curatif des lampes défectueuses, mise à jour du registre de sécurité"
+       ]
+      }
+     ],
+     "note": "Hors réglages et remplacements de pièces liés à une utilisation anormale, à un accident ou à une catastrophe naturelle (sur devis)."
+    },
+    {
+     "kind": "gallery",
+     "id": "photos-entretien",
+     "eyebrow": "En images",
+     "title": "Entretien <em class=\"it\">et maintenance</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_58ff4a1efb4b485a8b50c80408d7bf43~mv2.png/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_58ff4a1efb4b485a8b50c80408d7bf43~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Contrat d'entretien électrique",
+       "caption": "Contrat d'entretien électrique"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "location",
+   "label": "Location",
+   "title": "Location",
+   "eyebrow": "Climatiseurs · Chauffage",
+   "lead": "Pour vos événements, vos chantiers ou vos locaux : location courte, moyenne ou longue durée.",
+   "img": "https://static.wixstatic.com/media/fef65d_714f22232575404bad4f4bd9d9775956~mv2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "location-materiel",
+     "eyebrow": "Location",
+     "title": "Climatisation et chauffage <em class=\"it\">à la location</em>",
+     "items": [
+      {
+       "kicker": "Location climatiseur",
+       "title": "Rafraîchir, le temps qu'il faut",
+       "paras": [
+        "Pour les particuliers et les professionnels : tentes d'événementiel, manifestations ponctuelles, location courte ou moyenne durée.",
+        "Location longue durée pour les professionnels : votre trésorerie est préservée, l'investissement devient une charge d'exploitation, et la location évolue en durée comme en matériel.",
+        "Un parc haut de gamme qui évite les coûts d'une installation fixe, pour les locaux industriels et tertiaires, au service du confort des personnes comme des machines."
+       ]
+      },
+      {
+       "kicker": "Location chauffage",
+       "title": "Chauffer, sans investir",
+       "paras": [
+        "Un parc permanent d'appareils haut de gamme, d'une puissance adaptée à vos besoins.",
+        "Tous nos matériels sont contrôlés avant et après location et certifiés conformes aux normes en vigueur, notamment pour les locaux recevant du public.",
+        "Plusieurs offres selon vos besoins et vos contraintes : demandez votre devis personnalisé."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "parc",
+     "eyebrow": "Notre parc",
+     "title": "Le matériel <em class=\"it\">proposé</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_be6fcd69c486412babd0f5a15fd747e4~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_be6fcd69c486412babd0f5a15fd747e4~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location climatisation",
+       "caption": "Location climatisation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_b004d9ffe14842129189c3f3b02080a4~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_b004d9ffe14842129189c3f3b02080a4~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location climatisation",
+       "caption": "Location climatisation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_aca0b8e09bd94777a6171656cad514fa~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_aca0b8e09bd94777a6171656cad514fa~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location climatisation",
+       "caption": "Location climatisation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_34ad3dadc89a432091d42cfa15a257b9~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_34ad3dadc89a432091d42cfa15a257b9~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location climatisation",
+       "caption": "Location climatisation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_e99e53dcc97b4ae1ac4f0bd72bb1fe99~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_e99e53dcc97b4ae1ac4f0bd72bb1fe99~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location chauffage",
+       "caption": "Location chauffage"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_dc8c881ee12d47689846e35596a8418e~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_dc8c881ee12d47689846e35596a8418e~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location chauffage",
+       "caption": "Location chauffage"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_edb3dd0403524900a0809306eefc3b6f~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_edb3dd0403524900a0809306eefc3b6f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location chauffage",
+       "caption": "Location chauffage"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fef65d_4b6ae3f93f754228826b38174e2fbf61~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/fef65d_4b6ae3f93f754228826b38174e2fbf61~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Location chauffage",
+       "caption": "Location chauffage"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/fef65d_714f22232575404bad4f4bd9d9775956~mv2.png/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis personnalisé",
+     "title": "Besoin d'un appareil <em>rapidement ?</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis gratuit · Dépannage 24h/24 – 7j/7",
+   "lead": "Appelez le 04 76 26 28 98 ou décrivez votre demande : nous vous recontactons rapidement.",
+   "img": "https://static.wixstatic.com/media/fef65d_1f669ae772f04d90a2f38b1febfa0132~mv2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "Vos interlocuteurs",
+     "title": "Une équipe <em class=\"it\">à votre écoute</em>",
+     "people": [
+      {
+       "name": "Guillaume Reynier-Baret",
+       "role": "Gérant · Service technique · 06 33 84 74 53"
+      },
+      {
+       "name": "Alexandra Moro",
+       "role": "Commerciale · Service commercial · 06 12 04 65 02"
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "devis-contact",
+     "email": "contact@ag-energie38.com",
+     "subject": "Demande de devis depuis le site AG'Energie",
+     "eyebrow": "Devis gratuit et détaillé",
+     "title": "Demander <em class=\"it\">un devis</em>",
+     "lead": "Un ou plusieurs devis gratuits et détaillés : décrivez votre projet ou votre panne, AG'Energie vous recontacte et se déplace rapidement selon vos disponibilités.",
+     "side": [
+      "<b>Standard · dépannage 24h/24 – 7j/7</b><br><a href=\"tel:+33476262898\">04 76 26 28 98</a>",
+      "<b>Service technique</b><br><a href=\"tel:+33633847453\">06 33 84 74 53</a>",
+      "<b>Service commercial</b><br><a href=\"tel:+33612046502\">06 12 04 65 02</a>",
+      "<b>E-mail</b><br><a href=\"mailto:contact@ag-energie38.com\">contact@ag-energie38.com</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Prénom"
+      },
+      {
+       "label": "Société"
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Adresse"
+      },
+      {
+       "label": "Code postal"
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Votre demande",
+       "type": "select",
+       "full": true,
+       "options": [
+        "Climatisation",
+        "Pompe à chaleur",
+        "Cave à vin",
+        "Froid commercial",
+        "Électricité",
+        "Plomberie",
+        "Contrat d'entretien",
+        "Location climatisation / chauffage",
+        "Dépannage",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Demander mon devis"
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "Grenoble <em class=\"it\">et son agglomération</em>",
+     "text": "AG'Energie intervient à Grenoble, dans l'agglomération grenobloise et en Isère, en Auvergne-Rhône-Alpes et en PACA, et peut se déplacer dans d'autres régions selon le projet.",
+     "rows": [
+      [
+       "Adresse",
+       "62 rue Léon Jouhaux, 38100 Grenoble"
+      ],
+      [
+       "Standard",
+       "<a href=\"tel:+33476262898\">04 76 26 28 98</a>"
+      ],
+      [
+       "Service technique",
+       "<a href=\"tel:+33633847453\">06 33 84 74 53</a>"
+      ],
+      [
+       "Service commercial",
+       "<a href=\"tel:+33612046502\">06 12 04 65 02</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@ag-energie38.com\">contact@ag-energie38.com</a>"
+      ],
+      [
+       "Horaires",
+       "Lundi au jeudi : 8h – 19h<br>Vendredi : 8h – 18h<br>Samedi : 9h – 12h"
+      ],
+      [
+       "Urgences",
+       "Dépannage d'urgence assuré 24h/24 – 7j/7"
+      ]
+     ],
+     "map_q": "62 rue Léon Jouhaux 38100 Grenoble",
+     "cta": [
+      "Appeler le 04 76 26 28 98",
+      "tel:+33476262898"
+     ],
+     "img": "https://static.wixstatic.com/media/fef65d_2023c0badba649629f797cad8d1a0628~mv2_d_3508_2481_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "AG'Energie Contact Grenoble Isère"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "AG'Energie : génie climatique, électricité et plomberie à Grenoble. Entreprise individuelle de Guillaume Reynier-Baret, créée en 2009. 62 rue Léon Jouhaux, 38100 Grenoble. SIRET 509 992 582 00023.",
+  "contact": [
+   "<a href=\"tel:+33476262898\">04 76 26 28 98</a> (standard, urgences 24h/24)",
+   "Technique : <a href=\"tel:+33633847453\">06 33 84 74 53</a>",
+   "Commercial : <a href=\"tel:+33612046502\">06 12 04 65 02</a>",
+   "<a href=\"mailto:contact@ag-energie38.com\">contact@ag-energie38.com</a>",
+   "62 rue Léon Jouhaux, 38100 Grenoble"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/AGEnergie/"
+   ]
+  ],
+  "legal": "Attestation de capacité fluides frigorigènes · Habilitations électriques NF C18-510"
+ }
+}
