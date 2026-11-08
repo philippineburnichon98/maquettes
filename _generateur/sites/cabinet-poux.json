@@ -1,0 +1,546 @@
+{
+ "slug": "cabinet-poux-0db988",
+ "title": "Cabinet POUX Diagnostics Immobiliers — amiante, plomb, DPE à Angers (49)",
+ "description": "Cabinet POUX Diagnostics Immobiliers, Bouchemaine (Angers, Maine-et-Loire) : amiante, plomb, DPE, termites, gaz, électricité, loi Carrez, surface habitable, état des risques. Vente et location.",
+ "brand": "Cabinet POUX",
+ "tagline": "Diagnostics immobiliers",
+ "monogram": "P",
+ "theme": {
+  "look": "center",
+  "paper": "#f5f6f8",
+  "paper2": "#e6eaef",
+  "ink": "#1a2330",
+  "muted": "#5b6675",
+  "accent": "#2f5272",
+  "accent2": "#233f59",
+  "gold": "#c49a52",
+  "heroem": "#f2d7a2",
+  "serif": "\"Figtree\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33241480881\">02 41 48 08 81</a>",
+  "<a href=\"tel:+33616980403\">06 16 98 04 03</a>",
+  "<a href=\"mailto:diagpoux@gmail.com\">diagpoux@gmail.com</a>"
+ ],
+ "extra_css": "@media(max-width:640px){header .topbar span:nth-child(3){display:none}}",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/41d000_934a5744a990ce6b2d8b6fd7dcc54ae7.jpg/v1/fill/w_1920,h_1280,al_c,q_85/41d000_934a5744a990ce6b2d8b6fd7dcc54ae7.jpg",
+  "eyebrow": "Vous vendez ? Vous louez ? · Angers (49)",
+  "title": "Nous réalisons <em>tous vos diagnostics</em>",
+  "lead": "Amiante, plomb, DPE, termites, gaz, électricité, loi Carrez, surface habitable et état des risques : les diagnostics obligatoires pour la vente ou la location de votre bien.",
+  "cta1": [
+   "Demander un devis",
+   "contact/#devis"
+  ],
+  "cta2": [
+   "02 41 48 08 81",
+   "tel:+33241480881"
+  ]
+ },
+ "figures": [
+  [
+   "8",
+   "diagnostics pour la vente"
+  ],
+  [
+   "3",
+   "diagnostics pour la location"
+  ],
+  [
+   "10 ans",
+   "de validité pour le DPE"
+  ],
+  [
+   "3 ans",
+   "pour le gaz et l'électricité"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "presentation",
+   "eyebrow": "Cabinet POUX Diagnostics Immobiliers",
+   "title": "Une équipe <em class=\"it\">motivée</em>",
+   "img": "https://static.wixstatic.com/media/41d000_9aae58f8cb39c0432380467cfa4e74eb.jpg/v1/fill/w_800,h_1000,al_c,q_85/41d000_9aae58f8cb39c0432380467cfa4e74eb.jpg",
+   "alt": "Cabinet POUX Diagnostics Immobiliers",
+   "paras": [
+    "Vous vendez ? Vous louez ? Nous réalisons tous vos diagnostics immobiliers : amiante, plomb, DPE, termites, gaz, électricité, loi Carrez, surface habitable (loi Boutin) et état des risques naturels et technologiques.",
+    "Le cabinet est installé au 24 rue du Clos de Bauvais, 49080 Bouchemaine, aux portes d'Angers. Joignez-nous au <a href=\"tel:+33241480881\">02 41 48 08 81</a> ou au <a href=\"tel:+33616980403\">06 16 98 04 03</a>, ou par e-mail à <a href=\"mailto:diagpoux@gmail.com\">diagpoux@gmail.com</a>."
+   ],
+   "sign": "Cabinet POUX, Bouchemaine"
+  },
+  {
+   "kind": "blocks",
+   "id": "diagnostics",
+   "eyebrow": "Les diagnostics obligatoires",
+   "title": "Selon que vous <em class=\"it\">vendez ou louez</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg/v1/fill/w_900,h_600,al_c,q_80/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg",
+     "alt": "Vous vendez votre bien",
+     "kicker": "Vente",
+     "title": "Vous VENDEZ votre bien",
+     "paras": [
+      "Les diagnostics à joindre à la promesse ou à l'acte de vente."
+     ],
+     "list": [
+      "Diagnostic amiante",
+      "Diagnostic plomb (CREP)",
+      "Diagnostic de performance énergétique (DPE)",
+      "Diagnostic termites",
+      "Diagnostic gaz",
+      "Diagnostic électricité",
+      "Loi Carrez",
+      "État des risques naturels et technologiques"
+     ],
+     "link": [
+      "Voir les diagnostics vente",
+      "vous-vendez-votre-bien/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg/v1/fill/w_900,h_600,al_c,q_80/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg",
+     "alt": "Vous louez votre bien",
+     "kicker": "Location",
+     "title": "Vous LOUEZ votre bien",
+     "paras": [
+      "Les diagnostics à annexer au bail de location."
+     ],
+     "list": [
+      "Diagnostic plomb (CREP)",
+      "Diagnostic de performance énergétique (DPE)",
+      "Surface habitable (loi Boutin)"
+     ],
+     "link": [
+      "Voir les diagnostics location",
+      "vous-louez-votre-bien/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/41d000_cdeb77ff8169b462a3cd9c93e09a0f7e.jpg/v1/fill/w_1920,h_1200,al_c,q_85/41d000_cdeb77ff8169b462a3cd9c93e09a0f7e.jpg",
+   "eyebrow": "Devis",
+   "title": "Demandez votre devis de diagnostics",
+   "cta": [
+    "Demander un devis",
+    "contact/#devis"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Cabinet POUX",
+   "title": "En <em class=\"it\">images</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/41d000_934a5744a990ce6b2d8b6fd7dcc54ae7.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_934a5744a990ce6b2d8b6fd7dcc54ae7.jpg",
+     "full": "https://static.wixstatic.com/media/41d000_934a5744a990ce6b2d8b6fd7dcc54ae7.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_934a5744a990ce6b2d8b6fd7dcc54ae7.jpg",
+     "alt": "Cabinet POUX Diagnostics Immobiliers"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/41d000_cdeb77ff8169b462a3cd9c93e09a0f7e.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_cdeb77ff8169b462a3cd9c93e09a0f7e.jpg",
+     "full": "https://static.wixstatic.com/media/41d000_cdeb77ff8169b462a3cd9c93e09a0f7e.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_cdeb77ff8169b462a3cd9c93e09a0f7e.jpg",
+     "alt": "Cabinet POUX Diagnostics Immobiliers"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/41d000_e0e98655747ae69cd47404c60887536b.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_e0e98655747ae69cd47404c60887536b.jpg",
+     "full": "https://static.wixstatic.com/media/41d000_e0e98655747ae69cd47404c60887536b.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_e0e98655747ae69cd47404c60887536b.jpg",
+     "alt": "Cabinet POUX Diagnostics Immobiliers"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg",
+     "full": "https://static.wixstatic.com/media/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg",
+     "alt": "Cabinet POUX Diagnostics Immobiliers"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/41d000_efce197486985faa906038200e15486b.png/v1/fit/w_900,h_900,al_c,q_85/41d000_efce197486985faa906038200e15486b.png",
+     "full": "https://static.wixstatic.com/media/41d000_efce197486985faa906038200e15486b.png/v1/fit/w_1800,h_1800,al_c,q_85/41d000_efce197486985faa906038200e15486b.png",
+     "alt": "Cabinet POUX Diagnostics Immobiliers"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/84770f_7ce1ddb86000aefa86f1a05553079857.jpg/v1/fit/w_900,h_900,al_c,q_85/84770f_7ce1ddb86000aefa86f1a05553079857.jpg",
+     "full": "https://static.wixstatic.com/media/84770f_7ce1ddb86000aefa86f1a05553079857.jpg/v1/fit/w_1800,h_1800,al_c,q_85/84770f_7ce1ddb86000aefa86f1a05553079857.jpg",
+     "alt": "Cabinet POUX Diagnostics Immobiliers"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Cabinet POUX",
+   "title": "Nous <em class=\"it\">contacter</em>",
+   "img": "https://static.wixstatic.com/media/ef73c8_defa5d04fa036f00e11c49d912955418.jpg/v1/fill/w_600,h_700,al_c,q_80/ef73c8_defa5d04fa036f00e11c49d912955418.jpg",
+   "alt": "Cabinet POUX Diagnostics Immobiliers",
+   "text": "Pour la vente ou la location de votre bien, appelez-nous ou écrivez-nous.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33241480881\">02 41 48 08 81</a>"
+    ],
+    [
+     "Mobile",
+     "<a href=\"tel:+33616980403\">06 16 98 04 03</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:diagpoux@gmail.com\">diagpoux@gmail.com</a>"
+    ],
+    [
+     "Adresse",
+     "24 rue du Clos de Bauvais, 49080 Bouchemaine"
+    ]
+   ],
+   "map_q": "24 rue du Clos de Bauvais, 49080 Bouchemaine",
+   "cta": [
+    "Appeler le cabinet",
+    "tel:+33241480881"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "vous-vendez-votre-bien",
+   "label": "Vous vendez",
+   "title": "Vous vendez votre bien",
+   "h1": "Vous <em>vendez</em> votre bien",
+   "eyebrow": "Diagnostics vente",
+   "lead": "Amiante, plomb, DPE, termites, gaz, électricité, loi Carrez et état des risques : ce que dit la réglementation, et la durée de validité de chaque diagnostic.",
+   "img": "https://static.wixstatic.com/media/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg/v1/fill/w_1000,h_750,al_c,q_80/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "vente",
+     "eyebrow": "Les diagnostics obligatoires",
+     "title": "Pour la vente <em class=\"it\">de votre bien</em>",
+     "items": [
+      {
+       "title": "Diagnostic amiante",
+       "kicker": "Validité permanente, sauf travaux ultérieurs",
+       "paras": [
+        "Obligatoire pour la vente d'un logement depuis le 1er septembre 2002, pour les immeubles bâtis dont le permis de construire a été délivré avant le 1er juillet 1997. Le constat est fourni au plus tard à la promesse de vente.",
+        "Recherche visuelle systématique, sans travaux destructifs, selon une liste réglementaire. En cas de doute, l'opérateur fait des prélèvements analysés par un laboratoire agréé ; il indique la localisation, l'état de conservation et les recommandations."
+       ]
+      },
+      {
+       "title": "Diagnostic plomb",
+       "kicker": "Illimité sans plomb · 1 an en cas de plomb",
+       "paras": [
+        "Il protège du saturnisme, notamment les jeunes enfants qui ingèrent des écailles de peinture. Depuis le 27 avril 2006, le CREP (Constat de Risque d'Exposition au Plomb) remplace l'ERAP.",
+        "Pour les logements construits avant le 1er janvier 1949, annexé à la promesse ou à l'acte authentique. Le technicien utilise un appareil à fluorescence X et classe chaque mesure en catégorie 0, 1, 2 ou 3 ; des revêtements dégradés doivent être traités avant la vente."
+       ]
+      },
+      {
+       "title": "Diagnostic DPE",
+       "kicker": "Validité 10 ans",
+       "paras": [
+        "Joint aux promesses et actes de vente depuis le 1er novembre 2006, il informe sur la consommation d'énergie (kWh/m²/an), le coût moyen annuel et les émissions de CO2, avec une étiquette de A (logement économe) à G (logement énergivore) et des conseils de travaux.",
+        "Chauffage individuel : méthode de calcul des consommations conventionnelles. Chauffage collectif : données du syndic des 3 dernières années. Constructions neuves : méthode réglementaire RT 2005."
+       ]
+      },
+      {
+       "title": "Diagnostic termites",
+       "kicker": "Validité 6 mois",
+       "paras": [
+        "Il protège acquéreurs et propriétaires contre les dégâts des termites et autres insectes xylophages dans les charpentes et structures bois, pour les biens situés dans une zone délimitée par arrêté préfectoral.",
+        "Examen visuel de tous les niveaux et de toutes les pièces, avec sondages sur les ouvrages bois. En cas de présence, le propriétaire doit faire une déclaration en mairie."
+       ],
+       "img": "https://static.wixstatic.com/media/44d68d1396ba8907613881d66aed9b17.wix_mp/v1/fill/w_800,h_600,al_c,q_85/44d68d1396ba8907613881d66aed9b17.wix_mp",
+       "alt": "Diagnostic termites"
+      },
+      {
+       "title": "Diagnostic gaz",
+       "kicker": "Validité 3 ans",
+       "paras": [
+        "Obligatoire pour tout compromis signé depuis le 1er novembre 2007, pour une installation intérieure de gaz de plus de quinze ans sans certificat de conformité de moins de 3 ans.",
+        "Contrôles visuels, essais et mesures, sans démontage : étanchéité, raccordements, ventilation, combustion. En cas de danger grave et immédiat, l'installation est condamnée partiellement ou totalement."
+       ],
+       "img": "https://static.wixstatic.com/media/0b0498ce8b6b270a629c1b99fe9386b7.wix_mp/v1/fill/w_800,h_600,al_c,q_85/0b0498ce8b6b270a629c1b99fe9386b7.wix_mp",
+       "alt": "Diagnostic gaz"
+      },
+      {
+       "title": "Diagnostic électricité",
+       "kicker": "Validité 3 ans",
+       "paras": [
+        "Pour les logements dont l'installation électrique date de plus de 15 ans : contrôles, essais et mesurages pour identifier les défauts pouvant compromettre la sécurité des personnes."
+       ],
+       "list": [
+        "Appareil général de commande et de protection",
+        "Fusibles, disjoncteurs et différentiels",
+        "Prise de terre et liaisons équipotentielles",
+        "Locaux avec baignoire ou douche",
+        "Matériels inadaptés ou vétustes, conducteurs non protégés"
+       ],
+       "img": "https://static.wixstatic.com/media/2eb21dbf9d7a427682517b21101bd8f3.wix_mp/v1/fill/w_800,h_600,al_c,q_85/2eb21dbf9d7a427682517b21101bd8f3.wix_mp",
+       "alt": "Diagnostic électricité"
+      },
+      {
+       "title": "Loi Carrez",
+       "kicker": "Lots de copropriété de 8 m² et plus",
+       "paras": [
+        "Elle informe l'acheteur de la superficie exacte du lot privatif d'un bien en copropriété : appartements, locaux commerciaux, chambres de service, maisons en copropriété. Mesurage au télémètre laser, après déduction des embrasures, gaines et cloisons.",
+        "Sont exclus les balcons, loggias, terrasses, caves, garages, places de parking, et les parties de moins de 1,80 m de hauteur. Il est vivement conseillé de faire appel à un professionnel assuré."
+       ]
+      },
+      {
+       "title": "État des risques naturels et technologiques",
+       "kicker": "Validité 6 mois",
+       "paras": [
+        "Tout vendeur doit informer l'acquéreur des risques naturels (mouvement de terrain, sécheresse, inondation) et technologiques, pour un bien situé dans une commune couverte par un plan de prévention des risques ou dans une zone de sismicité.",
+        "L'état comprend les extraits des textes de référence et les sinistres ayant donné lieu à un classement en catastrophe naturelle depuis 1982."
+       ],
+       "img": "https://static.wixstatic.com/media/fd9c62c8be2af60331fdec370ccffdd5.wix_mp/v1/fill/w_800,h_600,al_c,q_85/fd9c62c8be2af60331fdec370ccffdd5.wix_mp",
+       "alt": "État des risques naturels et technologiques"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos-vente",
+     "eyebrow": "Cabinet POUX",
+     "title": "En <em class=\"it\">images</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/41d000_e0e98655747ae69cd47404c60887536b.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_e0e98655747ae69cd47404c60887536b.jpg",
+       "full": "https://static.wixstatic.com/media/41d000_e0e98655747ae69cd47404c60887536b.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_e0e98655747ae69cd47404c60887536b.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg",
+       "full": "https://static.wixstatic.com/media/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/41d000_efce197486985faa906038200e15486b.png/v1/fit/w_900,h_900,al_c,q_85/41d000_efce197486985faa906038200e15486b.png",
+       "full": "https://static.wixstatic.com/media/41d000_efce197486985faa906038200e15486b.png/v1/fit/w_1800,h_1800,al_c,q_85/41d000_efce197486985faa906038200e15486b.png",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg/v1/fit/w_900,h_900,al_c,q_85/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg",
+       "full": "https://static.wixstatic.com/media/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg/v1/fit/w_1800,h_1800,al_c,q_85/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg/v1/fit/w_900,h_900,al_c,q_85/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg",
+       "full": "https://static.wixstatic.com/media/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg/v1/fit/w_1800,h_1800,al_c,q_85/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/596f0709b2839d1e643ac52ab417cae3.wix_mp/v1/fit/w_900,h_900,al_c,q_85/596f0709b2839d1e643ac52ab417cae3.wix_mp",
+       "full": "https://static.wixstatic.com/media/596f0709b2839d1e643ac52ab417cae3.wix_mp/v1/fit/w_1800,h_1800,al_c,q_85/596f0709b2839d1e643ac52ab417cae3.wix_mp",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg/v1/fill/w_1920,h_1200,al_c,q_85/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg",
+     "eyebrow": "Vous vendez ?",
+     "title": "Tous vos diagnostics en une demande",
+     "cta": [
+      "Demander un devis",
+      "../contact/#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vous-louez-votre-bien",
+   "label": "Vous louez",
+   "title": "Vous louez votre bien",
+   "h1": "Vous <em>louez</em> votre bien",
+   "eyebrow": "Diagnostics location",
+   "lead": "Plomb, DPE et surface habitable : les diagnostics à annexer au bail, et leur durée de validité.",
+   "img": "https://static.wixstatic.com/media/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg/v1/fill/w_1000,h_750,al_c,q_80/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "location",
+     "eyebrow": "Les diagnostics obligatoires",
+     "title": "Pour la location <em class=\"it\">de votre bien</em>",
+     "items": [
+      {
+       "title": "Le diagnostic plomb",
+       "kicker": "Indéterminée sans plomb · 6 ans en cas de plomb",
+       "paras": [
+        "Il protège les habitants d'un logement contre le saturnisme. Depuis le 27 avril 2006 (décret n° 2006-474 du 25 avril 2006), le CREP remplace l'ERAP.",
+        "À réaliser, s'il est absent ou échu, à chaque mise en location d'une maison ou d'un appartement construit avant le 1er janvier 1949, et à annexer au bail. Revêtements dégradés : le propriétaire doit faire les travaux avant la location."
+       ]
+      },
+      {
+       "title": "Le diagnostic DPE",
+       "kicker": "Validité 10 ans",
+       "paras": [
+        "Joint aux contrats de location à compter du 1er juillet 2007, il dresse le bilan énergétique du bien pour le futur locataire : consommation (kWh/m²/an), coût moyen annuel, émissions de CO2, étiquette de A (logement économe) à G (logement énergivore), et conseils pour économiser l'énergie.",
+        "En appartement en chauffage collectif, il s'appuie sur les données du syndic des 3 dernières années."
+       ]
+      },
+      {
+       "title": "Surface habitable (loi Boutin)",
+       "kicker": "Validité permanente, sauf travaux",
+       "paras": [
+        "Entré en vigueur en mars 2009, le mesurage loi Boutin mentionne la superficie habitable à la signature du bail, pour les logements vides loués en résidence principale (pas les meublés, résidences secondaires ou locations saisonnières).",
+        "Surface de plancher, déduction faite des murs, cloisons, escaliers, gaines et embrasures ; sont exclus combles non aménagés, caves, garages, vérandas, terrasses, balcons et parties de moins de 1,80 m. Un professionnel assuré est fortement recommandé."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos-location",
+     "eyebrow": "Cabinet POUX",
+     "title": "En <em class=\"it\">images</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/41d000_e0e98655747ae69cd47404c60887536b.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_e0e98655747ae69cd47404c60887536b.jpg",
+       "full": "https://static.wixstatic.com/media/41d000_e0e98655747ae69cd47404c60887536b.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_e0e98655747ae69cd47404c60887536b.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg/v1/fit/w_900,h_900,al_c,q_85/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg",
+       "full": "https://static.wixstatic.com/media/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg/v1/fit/w_1800,h_1800,al_c,q_85/41d000_a31ab4ea3086d9b665b0a10411b9de14.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/41d000_efce197486985faa906038200e15486b.png/v1/fit/w_900,h_900,al_c,q_85/41d000_efce197486985faa906038200e15486b.png",
+       "full": "https://static.wixstatic.com/media/41d000_efce197486985faa906038200e15486b.png/v1/fit/w_1800,h_1800,al_c,q_85/41d000_efce197486985faa906038200e15486b.png",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg/v1/fit/w_900,h_900,al_c,q_85/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg",
+       "full": "https://static.wixstatic.com/media/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg/v1/fit/w_1800,h_1800,al_c,q_85/84770f_3bf1caef9e5b46ef458b7334810dbffd.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg/v1/fit/w_900,h_900,al_c,q_85/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg",
+       "full": "https://static.wixstatic.com/media/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg/v1/fit/w_1800,h_1800,al_c,q_85/84770f_65ae20c283980ff2b00cc08eb66895ec.jpg",
+       "alt": "Cabinet POUX Diagnostics Immobiliers"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/41d000_e0e98655747ae69cd47404c60887536b.jpg/v1/fill/w_1920,h_1200,al_c,q_85/41d000_e0e98655747ae69cd47404c60887536b.jpg",
+     "eyebrow": "Vous louez ?",
+     "title": "Vos diagnostics avant la signature du bail",
+     "cta": [
+      "Demander un devis",
+      "../contact/#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact & devis",
+   "title": "Contact et devis",
+   "h1": "Contact <em>& devis</em>",
+   "eyebrow": "Cabinet POUX",
+   "lead": "Pour demander un devis, écrivez-nous à diagpoux@gmail.com ou utilisez le formulaire ci-dessous : nous vous recontacterons.",
+   "img": "https://static.wixstatic.com/media/84770f_7ce1ddb86000aefa86f1a05553079857.jpg/v1/fill/w_1000,h_750,al_c,q_80/84770f_7ce1ddb86000aefa86f1a05553079857.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis - Formulaire",
+     "title": "Demandez <em class=\"it\">votre devis</em>",
+     "lead": "Utilisez le formulaire ci-dessous, nous vous recontacterons.",
+     "email": "diagpoux@gmail.com",
+     "subject": "Demande de devis depuis le site Cabinet POUX",
+     "submit": "Envoyer",
+     "side": [
+      "<b>Cabinet POUX</b>",
+      "<a href=\"tel:+33241480881\">02 41 48 08 81</a> · <a href=\"tel:+33616980403\">06 16 98 04 03</a>",
+      "<a href=\"mailto:diagpoux@gmail.com\">diagpoux@gmail.com</a>",
+      "24 rue du Clos de Bauvais, 49080 Bouchemaine"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Votre projet",
+       "type": "select",
+       "options": [
+        "Vente",
+        "Location"
+       ]
+      },
+      {
+       "label": "Sujet",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Cabinet POUX",
+     "title": "Nous <em class=\"it\">contacter</em>",
+     "img": "https://static.wixstatic.com/media/ef73c8_defa5d04fa036f00e11c49d912955418.jpg/v1/fill/w_600,h_700,al_c,q_80/ef73c8_defa5d04fa036f00e11c49d912955418.jpg",
+     "alt": "Cabinet POUX Diagnostics Immobiliers",
+     "text": "Pour la vente ou la location de votre bien, appelez-nous ou écrivez-nous.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33241480881\">02 41 48 08 81</a>"
+      ],
+      [
+       "Mobile",
+       "<a href=\"tel:+33616980403\">06 16 98 04 03</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:diagpoux@gmail.com\">diagpoux@gmail.com</a>"
+      ],
+      [
+       "Adresse",
+       "24 rue du Clos de Bauvais, 49080 Bouchemaine"
+      ]
+     ],
+     "map_q": "24 rue du Clos de Bauvais, 49080 Bouchemaine",
+     "cta": [
+      "Appeler le cabinet",
+      "tel:+33241480881"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Cabinet POUX Diagnostics Immobiliers : amiante, plomb, DPE, termites, gaz, électricité, loi Carrez, surface habitable et état des risques, pour la vente ou la location. Bouchemaine, Angers (49).",
+  "contact": [
+   "<a href=\"tel:+33241480881\">02 41 48 08 81</a>",
+   "<a href=\"tel:+33616980403\">06 16 98 04 03</a>",
+   "<a href=\"mailto:diagpoux@gmail.com\">diagpoux@gmail.com</a>",
+   "24 rue du Clos de Bauvais, 49080 Bouchemaine"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/CabinetPoux"
+   ]
+  ]
+ }
+}
