@@ -1,0 +1,893 @@
+{
+ "slug": "patrick-clouzeau-dc360e",
+ "title": "Patrick Clouzeau — Menuisier d'agencement à Lyon",
+ "description": "Patrick Clouzeau, menuisier à Lyon (69009) : agencement sur mesure de combles, sous-escaliers, bibliothèques, dressings, placards, cuisines, salles de bain, bureaux ; portes et fenêtres ; travaux du bois. Devis et prise de cotes gratuits.",
+ "brand": "Patrick Clouzeau",
+ "tagline": "Menuisier à Lyon",
+ "theme": {
+  "look": "split",
+  "paper": "#f7f2ea",
+  "paper2": "#ece2d3",
+  "ink": "#2a211a",
+  "muted": "#6a5d51",
+  "accent": "#8a5a2b",
+  "accent2": "#6d4520",
+  "gold": "#c39a5c",
+  "heroem": "#8a5a2b",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Tél. : <a href=\"tel:+33660173878\">06 60 17 38 78</a>",
+  "<a href=\"mailto:patrick.menuisier@bbox.fr\">patrick.menuisier@bbox.fr</a>"
+ ],
+ "nav": [
+  [
+   "domaines",
+   "Domaines d'intervention"
+  ],
+  [
+   "parcours",
+   "Mon parcours"
+  ],
+  [
+   "services",
+   "Services"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/b5d44a_744682907c324494a9fbdf4296409158.jpg/v1/fit/w_1920,h_1330,al_c,q_85/b5d44a_744682907c324494a9fbdf4296409158.jpg",
+  "eyebrow": "Menuisier d'agencement · Lyon 9e",
+  "title": "Patrick Clouzeau, <em>menuisier à Lyon</em>",
+  "lead": "Je suis spécialisé en agencement intérieur de rénovation ou de neuf, en bois ou en matériaux modernes.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 60 17 38 78",
+   "tel:+33660173878"
+  ]
+ },
+ "figures": [
+  [
+   "2006",
+   "menuisier depuis"
+  ],
+  [
+   "Devis",
+   "et prise de cotes gratuits"
+  ],
+  [
+   "SAV",
+   "assuré"
+  ],
+  [
+   "Grand Lyon",
+   "et ouest lyonnais"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "features",
+   "id": "domaines",
+   "eyebrow": "Mes domaines d'intervention",
+   "title": "Agencement sur mesure, <em class=\"it\">portes et fenêtres</em>",
+   "lead": "Cuisine, salle de bain, dressing, placard, je me charge de la conception à la réalisation selon vos besoins.",
+   "items": [
+    [
+     "Agencement sur mesure",
+     "Pour combles, sous-escaliers, meubles sous pentes, bibliothèques, dressings, placards, cuisines, salles de bain, bureaux..."
+    ],
+    [
+     "Portes et fenêtres",
+     "Portes et fenêtres en neuf ou en rénovation."
+    ],
+    [
+     "Travaux du bois",
+     "Ainsi que tout travaux du bois."
+    ],
+    [
+     "Service clientèle",
+     "Devis et déplacement pour prise de cotes gratuits. SAV assuré si besoin."
+    ]
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "parcours",
+   "eyebrow": "Qui suis-je ?",
+   "title": "Mon <em class=\"it\">parcours</em>",
+   "img": "https://static.wixstatic.com/media/b5d44a_c8c0512cfb904e1e8da708fb16a8b921.jpg/v1/fill/w_900,h_1200,al_c,q_85/b5d44a_c8c0512cfb904e1e8da708fb16a8b921.jpg",
+   "alt": "Patrick Clouzeau, menuisier à Lyon",
+   "paras": [
+    "Ingénieur électromécanicien reconverti par amour du travail manuel, passionné par le bois et la construction depuis toujours, j'ai choisi en 2006 d'en faire mon métier.",
+    "Mes expériences commerciales, humaines et techniques et une bonne dose de créativité me permettent maintenant de satisfaire les attentes de mes clients."
+   ],
+   "sign": "Patrick Clouzeau"
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Services proposés",
+   "title": "De la prise de cotes <em class=\"it\">au SAV</em>",
+   "items": [
+    {
+     "kicker": "Zone",
+     "title": "Grand Lyon et ouest lyonnais",
+     "paras": [
+      "Interventions sur le Grand Lyon, l'ouest lyonnais et au-delà suivant la taille du chantier."
+     ]
+    },
+    {
+     "kicker": "Devis",
+     "title": "Déplacement et prise de cotes gratuits",
+     "paras": [
+      "Devis et déplacement pour prise de cotes gratuits."
+     ]
+    },
+    {
+     "kicker": "Projet",
+     "title": "Étude et conception",
+     "paras": [
+      "Étude et conception suivant vos besoins."
+     ]
+    },
+    {
+     "kicker": "Chantier",
+     "title": "Intervention sécurisée",
+     "paras": [
+      "Intervention sécurisée même en journée durant votre absence."
+     ]
+    },
+    {
+     "kicker": "Après",
+     "title": "SAV assuré",
+     "paras": [
+      "SAV assuré si besoin."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Menuisier à Lyon",
+   "title": "Quelques <em class=\"it\">réalisations</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/b5d44a_d144102387ae4051a75210356da9fed4.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_d144102387ae4051a75210356da9fed4.jpg",
+     "full": "https://static.wixstatic.com/media/b5d44a_d144102387ae4051a75210356da9fed4.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_d144102387ae4051a75210356da9fed4.jpg",
+     "alt": "Menuisier à Lyon"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg",
+     "full": "https://static.wixstatic.com/media/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg",
+     "alt": "Menuisier à Lyon"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b5d44a_70f2eb2df7194e3d8c4ed70014c84b43.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_70f2eb2df7194e3d8c4ed70014c84b43.jpg",
+     "full": "https://static.wixstatic.com/media/b5d44a_70f2eb2df7194e3d8c4ed70014c84b43.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_70f2eb2df7194e3d8c4ed70014c84b43.jpg",
+     "alt": "Menuisier à Lyon"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/1f3c0f_fb4bc9e627ee4dae80546c982b90d4d6.jpg/v1/fit/w_800,h_800,al_c,q_85/1f3c0f_fb4bc9e627ee4dae80546c982b90d4d6.jpg",
+     "full": "https://static.wixstatic.com/media/1f3c0f_fb4bc9e627ee4dae80546c982b90d4d6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/1f3c0f_fb4bc9e627ee4dae80546c982b90d4d6.jpg",
+     "alt": "Patrick Clouzeau, menuisier"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg",
+     "full": "https://static.wixstatic.com/media/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg",
+     "alt": "Patrick Clouzeau, menuisier"
+    }
+   ],
+   "cta": [
+    "Voir toute la photothèque",
+    "phototheque/"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/b5d44a_aea8819441c84d139096ad527029722c~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1920,h_1440,al_c,q_85/b5d44a_aea8819441c84d139096ad527029722c~mv2_d_2560_1920_s_2.jpg",
+   "eyebrow": "Vous avez un projet ?",
+   "title": "Contactez-moi par le formulaire <em class=\"it\">ou par téléphone</em>",
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "phototheque",
+   "label": "Photothèque",
+   "title": "Photothèque",
+   "eyebrow": "Cliquez sur l'image pour zoomer",
+   "lead": "Certaines des photos illustrant ce site proviennent de récentes poses d'aménagements pour ACR.",
+   "img": "https://static.wixstatic.com/media/503355318aee45d48e123159f98cc51a~mv2_d_1920_2560_s_2/v1/fit/w_1920,h_1920,al_c,q_85/503355318aee45d48e123159f98cc51a~mv2_d_1920_2560_s_2",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "agencements",
+     "eyebrow": "Photothèque",
+     "title": "Agencements <em class=\"it\">sur mesure</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_503355318aee45d48e123159f98cc51a~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_503355318aee45d48e123159f98cc51a~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_503355318aee45d48e123159f98cc51a~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_503355318aee45d48e123159f98cc51a~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_aea8819441c84d139096ad527029722c~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_aea8819441c84d139096ad527029722c~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_aea8819441c84d139096ad527029722c~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_aea8819441c84d139096ad527029722c~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_54582ea050ec4c01a4dc426342e81030~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_54582ea050ec4c01a4dc426342e81030~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_54582ea050ec4c01a4dc426342e81030~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_54582ea050ec4c01a4dc426342e81030~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_075aca69eaa64a0a9b89f3007c122b52~mv2_d_1862_2483_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_075aca69eaa64a0a9b89f3007c122b52~mv2_d_1862_2483_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_075aca69eaa64a0a9b89f3007c122b52~mv2_d_1862_2483_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_075aca69eaa64a0a9b89f3007c122b52~mv2_d_1862_2483_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_f78d564c5857412ebb33bc26ff43084c~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_f78d564c5857412ebb33bc26ff43084c~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_f78d564c5857412ebb33bc26ff43084c~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_f78d564c5857412ebb33bc26ff43084c~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_4c93e481407a45019729170683e0628f~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_4c93e481407a45019729170683e0628f~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_4c93e481407a45019729170683e0628f~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_4c93e481407a45019729170683e0628f~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_9fe59740723549c8bb2eac98671985a8~mv2_d_2400_1800_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_9fe59740723549c8bb2eac98671985a8~mv2_d_2400_1800_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_9fe59740723549c8bb2eac98671985a8~mv2_d_2400_1800_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_9fe59740723549c8bb2eac98671985a8~mv2_d_2400_1800_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_12fc62d25ef34e28b6716a02b5c042b4~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_12fc62d25ef34e28b6716a02b5c042b4~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_12fc62d25ef34e28b6716a02b5c042b4~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_12fc62d25ef34e28b6716a02b5c042b4~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_a6955d4f27204c79bf1cb7b742928be8~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_a6955d4f27204c79bf1cb7b742928be8~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_a6955d4f27204c79bf1cb7b742928be8~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_a6955d4f27204c79bf1cb7b742928be8~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_bd7c99e2a24140afbc23e406cb4bbc07~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_bd7c99e2a24140afbc23e406cb4bbc07~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_bd7c99e2a24140afbc23e406cb4bbc07~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_bd7c99e2a24140afbc23e406cb4bbc07~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_cab1d027a15045779e167eed1975746c~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_cab1d027a15045779e167eed1975746c~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_cab1d027a15045779e167eed1975746c~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_cab1d027a15045779e167eed1975746c~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_f32a9d61b8cf45a192f358287fc5209d~mv2_d_4387_2432_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_f32a9d61b8cf45a192f358287fc5209d~mv2_d_4387_2432_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_f32a9d61b8cf45a192f358287fc5209d~mv2_d_4387_2432_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_f32a9d61b8cf45a192f358287fc5209d~mv2_d_4387_2432_s_4_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_510733cca7eb48efa7c1f9fbb3226cd8~mv2_d_4798_2416_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_510733cca7eb48efa7c1f9fbb3226cd8~mv2_d_4798_2416_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_510733cca7eb48efa7c1f9fbb3226cd8~mv2_d_4798_2416_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_510733cca7eb48efa7c1f9fbb3226cd8~mv2_d_4798_2416_s_4_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_7bacb133944b4a11aae239c05bc25676~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_7bacb133944b4a11aae239c05bc25676~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_7bacb133944b4a11aae239c05bc25676~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_7bacb133944b4a11aae239c05bc25676~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_28f10e7a271e43baa513be70ed4a42b9~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_28f10e7a271e43baa513be70ed4a42b9~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_28f10e7a271e43baa513be70ed4a42b9~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_28f10e7a271e43baa513be70ed4a42b9~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_5a291f4052ad4875916328ff35a4c3fc~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_5a291f4052ad4875916328ff35a4c3fc~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_5a291f4052ad4875916328ff35a4c3fc~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_5a291f4052ad4875916328ff35a4c3fc~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_ddb42ce086374b99b2b333bb68566477~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_ddb42ce086374b99b2b333bb68566477~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_ddb42ce086374b99b2b333bb68566477~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_ddb42ce086374b99b2b333bb68566477~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_4ae8f82ef0f643a787d8c34b944ffeaf~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_4ae8f82ef0f643a787d8c34b944ffeaf~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_4ae8f82ef0f643a787d8c34b944ffeaf~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_4ae8f82ef0f643a787d8c34b944ffeaf~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_c597d5d0ce6e48f7bf9ca69fff195d09~mv2_d_1775_1775_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_c597d5d0ce6e48f7bf9ca69fff195d09~mv2_d_1775_1775_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_c597d5d0ce6e48f7bf9ca69fff195d09~mv2_d_1775_1775_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_c597d5d0ce6e48f7bf9ca69fff195d09~mv2_d_1775_1775_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_44f47693a4b04b08b5ddd03c22405564.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_44f47693a4b04b08b5ddd03c22405564.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_44f47693a4b04b08b5ddd03c22405564.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_44f47693a4b04b08b5ddd03c22405564.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_6096115bd8b04231b943e2b7a987b813.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_6096115bd8b04231b943e2b7a987b813.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_6096115bd8b04231b943e2b7a987b813.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_6096115bd8b04231b943e2b7a987b813.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_214445048876409093a266fc9e41826c.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_214445048876409093a266fc9e41826c.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_214445048876409093a266fc9e41826c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_214445048876409093a266fc9e41826c.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_fe170cbbab564bbabaf43236beed489d.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_fe170cbbab564bbabaf43236beed489d.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_fe170cbbab564bbabaf43236beed489d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_fe170cbbab564bbabaf43236beed489d.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_7b6d6e6ba3244b888291157cba74e340.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_7b6d6e6ba3244b888291157cba74e340.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_7b6d6e6ba3244b888291157cba74e340.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_7b6d6e6ba3244b888291157cba74e340.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_5da0b035353e43e89c958f34b260ec5f.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_5da0b035353e43e89c958f34b260ec5f.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_5da0b035353e43e89c958f34b260ec5f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_5da0b035353e43e89c958f34b260ec5f.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_55f5a51b26e74ae79300934a0656ece9.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_55f5a51b26e74ae79300934a0656ece9.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_55f5a51b26e74ae79300934a0656ece9.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_55f5a51b26e74ae79300934a0656ece9.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_c8c0512cfb904e1e8da708fb16a8b921.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_c8c0512cfb904e1e8da708fb16a8b921.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_c8c0512cfb904e1e8da708fb16a8b921.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_c8c0512cfb904e1e8da708fb16a8b921.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_6a82d807660b46fa9ff88ae4b530a3fa.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_6a82d807660b46fa9ff88ae4b530a3fa.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_6a82d807660b46fa9ff88ae4b530a3fa.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_6a82d807660b46fa9ff88ae4b530a3fa.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_24eb7c6d3f5e4463814b0b64aaaa60f9.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_24eb7c6d3f5e4463814b0b64aaaa60f9.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_24eb7c6d3f5e4463814b0b64aaaa60f9.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_24eb7c6d3f5e4463814b0b64aaaa60f9.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_8344879224a04ee7b2e69a232bd66a4e.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_8344879224a04ee7b2e69a232bd66a4e.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_8344879224a04ee7b2e69a232bd66a4e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_8344879224a04ee7b2e69a232bd66a4e.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_dd7c614e66de47b6987caa06b2d1901b.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_dd7c614e66de47b6987caa06b2d1901b.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_dd7c614e66de47b6987caa06b2d1901b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_dd7c614e66de47b6987caa06b2d1901b.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_8bd1741cc14745398802bf5adca64b92.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_8bd1741cc14745398802bf5adca64b92.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_8bd1741cc14745398802bf5adca64b92.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_8bd1741cc14745398802bf5adca64b92.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_6cbbdf61e8b448c3a0855e89a51810f6.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_6cbbdf61e8b448c3a0855e89a51810f6.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_6cbbdf61e8b448c3a0855e89a51810f6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_6cbbdf61e8b448c3a0855e89a51810f6.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_12d4cb0b4493481aad5e55fb8a716ea9.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_12d4cb0b4493481aad5e55fb8a716ea9.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_12d4cb0b4493481aad5e55fb8a716ea9.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_12d4cb0b4493481aad5e55fb8a716ea9.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_6a7f81e3f06b495ca1f5e0a41f460a04.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_6a7f81e3f06b495ca1f5e0a41f460a04.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_6a7f81e3f06b495ca1f5e0a41f460a04.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_6a7f81e3f06b495ca1f5e0a41f460a04.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_8de30b74ca47424abecff703076dfe0b.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_8de30b74ca47424abecff703076dfe0b.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_8de30b74ca47424abecff703076dfe0b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_8de30b74ca47424abecff703076dfe0b.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_cc5d026be99f463f9f4758994a579ac4.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_cc5d026be99f463f9f4758994a579ac4.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_cc5d026be99f463f9f4758994a579ac4.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_cc5d026be99f463f9f4758994a579ac4.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_c17d02e4e06145c6a52b7f7c2836d46d.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_c17d02e4e06145c6a52b7f7c2836d46d.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_c17d02e4e06145c6a52b7f7c2836d46d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_c17d02e4e06145c6a52b7f7c2836d46d.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_847486da62b1413084496d5d3479fa82.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_847486da62b1413084496d5d3479fa82.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_847486da62b1413084496d5d3479fa82.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_847486da62b1413084496d5d3479fa82.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_459337246d8243f981910767c417d605.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_459337246d8243f981910767c417d605.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_459337246d8243f981910767c417d605.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_459337246d8243f981910767c417d605.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_978f6534dc914a37b17efb8dc72083c2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_978f6534dc914a37b17efb8dc72083c2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_978f6534dc914a37b17efb8dc72083c2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_978f6534dc914a37b17efb8dc72083c2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_f451532e767743a1b3623c69cab15c80.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_f451532e767743a1b3623c69cab15c80.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_f451532e767743a1b3623c69cab15c80.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_f451532e767743a1b3623c69cab15c80.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_955285a58f6545df9a34ad6207fcef61.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_955285a58f6545df9a34ad6207fcef61.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_955285a58f6545df9a34ad6207fcef61.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_955285a58f6545df9a34ad6207fcef61.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "realisations",
+     "eyebrow": "Photothèque",
+     "title": "Poses <em class=\"it\">et chantiers</em>",
+     "lead": "Certaines des photos illustrant ce site proviennent de récentes poses d'aménagements pour ACR.",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_dbbdff347229479d8af2cd5d68155aea~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_dbbdff347229479d8af2cd5d68155aea~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_dbbdff347229479d8af2cd5d68155aea~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_dbbdff347229479d8af2cd5d68155aea~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_ce2ca5add9aa48829128a9f754f348f4~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_ce2ca5add9aa48829128a9f754f348f4~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_ce2ca5add9aa48829128a9f754f348f4~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_ce2ca5add9aa48829128a9f754f348f4~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_bae4b9cf9a414bcabe1ff99e61f42a90~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_bae4b9cf9a414bcabe1ff99e61f42a90~mv2_d_2448_3264_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_bae4b9cf9a414bcabe1ff99e61f42a90~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_bae4b9cf9a414bcabe1ff99e61f42a90~mv2_d_2448_3264_s_4_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_b5e5f595a6e24d05872e9eb8f6cac164~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_b5e5f595a6e24d05872e9eb8f6cac164~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_b5e5f595a6e24d05872e9eb8f6cac164~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_b5e5f595a6e24d05872e9eb8f6cac164~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_cbcd22f1d96f4229a0b9736ef8763e29~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_cbcd22f1d96f4229a0b9736ef8763e29~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_cbcd22f1d96f4229a0b9736ef8763e29~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_cbcd22f1d96f4229a0b9736ef8763e29~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_871d7833b1a8499db56fdc28bab35aac~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_871d7833b1a8499db56fdc28bab35aac~mv2_d_2448_3264_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_871d7833b1a8499db56fdc28bab35aac~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_871d7833b1a8499db56fdc28bab35aac~mv2_d_2448_3264_s_4_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_58a2aaeea3c54a899389c31b20f8ec2a~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_58a2aaeea3c54a899389c31b20f8ec2a~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_58a2aaeea3c54a899389c31b20f8ec2a~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_58a2aaeea3c54a899389c31b20f8ec2a~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_23d1fd8c9d0a4cd697a6f1e8babfe63a~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_23d1fd8c9d0a4cd697a6f1e8babfe63a~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_23d1fd8c9d0a4cd697a6f1e8babfe63a~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_23d1fd8c9d0a4cd697a6f1e8babfe63a~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_4243e5037a9f46c2a6f455893609c196~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_4243e5037a9f46c2a6f455893609c196~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_4243e5037a9f46c2a6f455893609c196~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_4243e5037a9f46c2a6f455893609c196~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_e229c99a033b4129a79468fdbb2d70be~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_e229c99a033b4129a79468fdbb2d70be~mv2_d_3264_2448_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_e229c99a033b4129a79468fdbb2d70be~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_e229c99a033b4129a79468fdbb2d70be~mv2_d_3264_2448_s_4_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_68024b7b2f004a7c87139c9c8d963211~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_68024b7b2f004a7c87139c9c8d963211~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_68024b7b2f004a7c87139c9c8d963211~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_68024b7b2f004a7c87139c9c8d963211~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_7b22abd0edc342d4aa98867fd3042c6e~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_7b22abd0edc342d4aa98867fd3042c6e~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_7b22abd0edc342d4aa98867fd3042c6e~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_7b22abd0edc342d4aa98867fd3042c6e~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_7e1c7ce62c694ebbaed492f4e7fb9661~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_7e1c7ce62c694ebbaed492f4e7fb9661~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_7e1c7ce62c694ebbaed492f4e7fb9661~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_7e1c7ce62c694ebbaed492f4e7fb9661~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_0bdc9d91aec84d8e82a3a4b4975c8e4e~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_0bdc9d91aec84d8e82a3a4b4975c8e4e~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_0bdc9d91aec84d8e82a3a4b4975c8e4e~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_0bdc9d91aec84d8e82a3a4b4975c8e4e~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_0c0b790202094d219a764b5a7ebf3eb2~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_0c0b790202094d219a764b5a7ebf3eb2~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_0c0b790202094d219a764b5a7ebf3eb2~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_0c0b790202094d219a764b5a7ebf3eb2~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_d6d358f1ed6848b78ccb175bd8caa015~mv2_d_1944_2592_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_d6d358f1ed6848b78ccb175bd8caa015~mv2_d_1944_2592_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_d6d358f1ed6848b78ccb175bd8caa015~mv2_d_1944_2592_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_d6d358f1ed6848b78ccb175bd8caa015~mv2_d_1944_2592_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_07ae139f93cb4c65a554f3b15fd437ff~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_07ae139f93cb4c65a554f3b15fd437ff~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_07ae139f93cb4c65a554f3b15fd437ff~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_07ae139f93cb4c65a554f3b15fd437ff~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_6dcd956e42f84bc795f16f048933284d~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_6dcd956e42f84bc795f16f048933284d~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_6dcd956e42f84bc795f16f048933284d~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_6dcd956e42f84bc795f16f048933284d~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_0b96b61ad4a2405c883e00a68850c257~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_0b96b61ad4a2405c883e00a68850c257~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_0b96b61ad4a2405c883e00a68850c257~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_0b96b61ad4a2405c883e00a68850c257~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_e6c7cade53884b7daa1792ee78531647~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_e6c7cade53884b7daa1792ee78531647~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_e6c7cade53884b7daa1792ee78531647~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_e6c7cade53884b7daa1792ee78531647~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_4dcf4d0fcb2b423d9515693fe53fc8a9~mv2_d_2592_1944_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_4dcf4d0fcb2b423d9515693fe53fc8a9~mv2_d_2592_1944_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_4dcf4d0fcb2b423d9515693fe53fc8a9~mv2_d_2592_1944_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_4dcf4d0fcb2b423d9515693fe53fc8a9~mv2_d_2592_1944_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_ebd0f4b2c1094459aeeebf3d51e7d8c2~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_ebd0f4b2c1094459aeeebf3d51e7d8c2~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_ebd0f4b2c1094459aeeebf3d51e7d8c2~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_ebd0f4b2c1094459aeeebf3d51e7d8c2~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_0a8ad5ff4792444cb5d6edc4b2d133b1~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_0a8ad5ff4792444cb5d6edc4b2d133b1~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_0a8ad5ff4792444cb5d6edc4b2d133b1~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_0a8ad5ff4792444cb5d6edc4b2d133b1~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_db3cec175343479fa24d3b3209bd756d~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_db3cec175343479fa24d3b3209bd756d~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_db3cec175343479fa24d3b3209bd756d~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_db3cec175343479fa24d3b3209bd756d~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_bf6acaa5bc934d78bf92917ddb7b8028~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_bf6acaa5bc934d78bf92917ddb7b8028~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_bf6acaa5bc934d78bf92917ddb7b8028~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_bf6acaa5bc934d78bf92917ddb7b8028~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_18842ae695d8439b808155e4d3a2f3bc~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_18842ae695d8439b808155e4d3a2f3bc~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_18842ae695d8439b808155e4d3a2f3bc~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_18842ae695d8439b808155e4d3a2f3bc~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_af4ada0febad41cc841cdb3e041f4c8c~mv2_d_1944_2592_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_af4ada0febad41cc841cdb3e041f4c8c~mv2_d_1944_2592_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_af4ada0febad41cc841cdb3e041f4c8c~mv2_d_1944_2592_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_af4ada0febad41cc841cdb3e041f4c8c~mv2_d_1944_2592_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_506d21fd7fb2476ea702f42308428e42~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_506d21fd7fb2476ea702f42308428e42~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_506d21fd7fb2476ea702f42308428e42~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_506d21fd7fb2476ea702f42308428e42~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_87ed9725d8ef4cfe97eba8b499338743~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_87ed9725d8ef4cfe97eba8b499338743~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_87ed9725d8ef4cfe97eba8b499338743~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_87ed9725d8ef4cfe97eba8b499338743~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_e7ad361a72ec4767a8b379eac0016ba6~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_e7ad361a72ec4767a8b379eac0016ba6~mv2_d_2448_3264_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_e7ad361a72ec4767a8b379eac0016ba6~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_e7ad361a72ec4767a8b379eac0016ba6~mv2_d_2448_3264_s_4_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_577aa242fd3240139ddb059b57c0972f~mv2_d_1920_2560_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_577aa242fd3240139ddb059b57c0972f~mv2_d_1920_2560_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_577aa242fd3240139ddb059b57c0972f~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_577aa242fd3240139ddb059b57c0972f~mv2_d_1920_2560_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_65d0da715d064caab6f03e3cd3ebde3d~mv2_d_1944_2592_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_65d0da715d064caab6f03e3cd3ebde3d~mv2_d_1944_2592_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_65d0da715d064caab6f03e3cd3ebde3d~mv2_d_1944_2592_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_65d0da715d064caab6f03e3cd3ebde3d~mv2_d_1944_2592_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_9b7c746dfa3944b6a48ba26a55ea62db~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_9b7c746dfa3944b6a48ba26a55ea62db~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_9b7c746dfa3944b6a48ba26a55ea62db~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_9b7c746dfa3944b6a48ba26a55ea62db~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_ec5f8f40acef47a2acb7a12822616299~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_ec5f8f40acef47a2acb7a12822616299~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_ec5f8f40acef47a2acb7a12822616299~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_ec5f8f40acef47a2acb7a12822616299~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_80a13c03af434d12aa7705e8ab1b3b1b.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_80a13c03af434d12aa7705e8ab1b3b1b.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_80a13c03af434d12aa7705e8ab1b3b1b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_80a13c03af434d12aa7705e8ab1b3b1b.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_061bc1acea9e44c6919a9ab08328b60c.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_061bc1acea9e44c6919a9ab08328b60c.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_061bc1acea9e44c6919a9ab08328b60c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_061bc1acea9e44c6919a9ab08328b60c.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_72b46816cdc948bb95b73d2acaf1c305.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_72b46816cdc948bb95b73d2acaf1c305.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_72b46816cdc948bb95b73d2acaf1c305.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_72b46816cdc948bb95b73d2acaf1c305.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_4f918faf8c944f4d856a1f4bc8c65cc4.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_4f918faf8c944f4d856a1f4bc8c65cc4.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_4f918faf8c944f4d856a1f4bc8c65cc4.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_4f918faf8c944f4d856a1f4bc8c65cc4.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_bd00006197ef4918a8ae2c37827e7381.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_bd00006197ef4918a8ae2c37827e7381.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_bd00006197ef4918a8ae2c37827e7381.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_bd00006197ef4918a8ae2c37827e7381.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_589b291e3a674916b8b90aa0cb0dc21b.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_589b291e3a674916b8b90aa0cb0dc21b.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_589b291e3a674916b8b90aa0cb0dc21b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_589b291e3a674916b8b90aa0cb0dc21b.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_516b157250904fff92a73c821d6d717e.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_516b157250904fff92a73c821d6d717e.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_516b157250904fff92a73c821d6d717e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_516b157250904fff92a73c821d6d717e.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_5929cff29da9403e9b3d1ae95ca435eb.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_5929cff29da9403e9b3d1ae95ca435eb.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_5929cff29da9403e9b3d1ae95ca435eb.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_5929cff29da9403e9b3d1ae95ca435eb.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_41f0473312c44618bc4301fba42d69ff.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_41f0473312c44618bc4301fba42d69ff.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_41f0473312c44618bc4301fba42d69ff.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_41f0473312c44618bc4301fba42d69ff.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_bd254e9b45e1485296e9203ce4c2e01f.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_bd254e9b45e1485296e9203ce4c2e01f.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_bd254e9b45e1485296e9203ce4c2e01f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_bd254e9b45e1485296e9203ce4c2e01f.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_19d4cfd509df4bdca320796adc47de32.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_19d4cfd509df4bdca320796adc47de32.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_19d4cfd509df4bdca320796adc47de32.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_19d4cfd509df4bdca320796adc47de32.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_3d4efd7b085e49baa754661a07877c57.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_3d4efd7b085e49baa754661a07877c57.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_3d4efd7b085e49baa754661a07877c57.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_3d4efd7b085e49baa754661a07877c57.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_3442e02526584c4ba452f6f769b9d62b.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_99b1194c3de84f5c982d1882614c38ab.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_99b1194c3de84f5c982d1882614c38ab.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_99b1194c3de84f5c982d1882614c38ab.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_99b1194c3de84f5c982d1882614c38ab.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_16a2e3b229d94a0d81d918676e8e6f4e.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_16a2e3b229d94a0d81d918676e8e6f4e.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_16a2e3b229d94a0d81d918676e8e6f4e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_16a2e3b229d94a0d81d918676e8e6f4e.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_72bf233ce0464c58bcede8990826f1c9.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_72bf233ce0464c58bcede8990826f1c9.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_72bf233ce0464c58bcede8990826f1c9.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_72bf233ce0464c58bcede8990826f1c9.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_399f421d384640f3a3271289d49c8835.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_399f421d384640f3a3271289d49c8835.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_399f421d384640f3a3271289d49c8835.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_399f421d384640f3a3271289d49c8835.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_7b048adc0f15431093bcd308c68730e6.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_7b048adc0f15431093bcd308c68730e6.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_7b048adc0f15431093bcd308c68730e6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_7b048adc0f15431093bcd308c68730e6.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_bd192464cc3f4c9c87059775988378cc.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_bd192464cc3f4c9c87059775988378cc.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_bd192464cc3f4c9c87059775988378cc.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_bd192464cc3f4c9c87059775988378cc.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_404c7b24b9c04b59818f6fad1690dd64~mv2_d_2560_1920_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_404c7b24b9c04b59818f6fad1690dd64~mv2_d_2560_1920_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_404c7b24b9c04b59818f6fad1690dd64~mv2_d_2560_1920_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_404c7b24b9c04b59818f6fad1690dd64~mv2_d_2560_1920_s_2.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_f7ff5fb30c3e4249a8167f572a4a777f.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_f7ff5fb30c3e4249a8167f572a4a777f.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_f7ff5fb30c3e4249a8167f572a4a777f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_f7ff5fb30c3e4249a8167f572a4a777f.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_2cd79924fc8a40ba9c6d62a130d7460c.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_2cd79924fc8a40ba9c6d62a130d7460c.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_2cd79924fc8a40ba9c6d62a130d7460c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_2cd79924fc8a40ba9c6d62a130d7460c.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_7a820d1ed00548dcae8bfc39223f93e9.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_7a820d1ed00548dcae8bfc39223f93e9.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_7a820d1ed00548dcae8bfc39223f93e9.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_7a820d1ed00548dcae8bfc39223f93e9.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_05b2f1b50b2d4ff8a709be4bfa2c228c.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_05b2f1b50b2d4ff8a709be4bfa2c228c.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_05b2f1b50b2d4ff8a709be4bfa2c228c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_05b2f1b50b2d4ff8a709be4bfa2c228c.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_9b1fb57e10574df1aa8c6f395ebcdc0b.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_9b1fb57e10574df1aa8c6f395ebcdc0b.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_9b1fb57e10574df1aa8c6f395ebcdc0b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_9b1fb57e10574df1aa8c6f395ebcdc0b.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_7a29b4b9ecb544eaa48ea14c89dda8a8.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_7a29b4b9ecb544eaa48ea14c89dda8a8.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_7a29b4b9ecb544eaa48ea14c89dda8a8.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_7a29b4b9ecb544eaa48ea14c89dda8a8.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_5e2068e7b88d483597d3f02dd349d738.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_5e2068e7b88d483597d3f02dd349d738.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_5e2068e7b88d483597d3f02dd349d738.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_5e2068e7b88d483597d3f02dd349d738.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_cc604f058fc14d168a04133381d82559.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_cc604f058fc14d168a04133381d82559.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_cc604f058fc14d168a04133381d82559.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_cc604f058fc14d168a04133381d82559.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_d01004f764574204a35eda97fe060cb7.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_d01004f764574204a35eda97fe060cb7.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_d01004f764574204a35eda97fe060cb7.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_d01004f764574204a35eda97fe060cb7.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_ef278752885442f088307ca3a61f3502.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_ef278752885442f088307ca3a61f3502.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_ef278752885442f088307ca3a61f3502.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_ef278752885442f088307ca3a61f3502.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_a0449c3dac2340dd80a320dec48ffccf.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_199be2d9d1c242ad87ffc7dceb85cc25.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_199be2d9d1c242ad87ffc7dceb85cc25.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_199be2d9d1c242ad87ffc7dceb85cc25.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_199be2d9d1c242ad87ffc7dceb85cc25.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5d44a_260598d05c094b48b8b63c1295a28518.jpg/v1/fit/w_800,h_800,al_c,q_85/b5d44a_260598d05c094b48b8b63c1295a28518.jpg",
+       "full": "https://static.wixstatic.com/media/b5d44a_260598d05c094b48b8b63c1295a28518.jpg/v1/fit/w_1600,h_1600,al_c,q_85/b5d44a_260598d05c094b48b8b63c1295a28518.jpg",
+       "alt": "Agencement sur mesure par Patrick Clouzeau, menuisier à Lyon"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "acr",
+     "tight": true,
+     "eyebrow": "Partenaire",
+     "title": "ACR <em class=\"it\">Déco Concept</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/b5d44a_199be2d9d1c242ad87ffc7dceb85cc25.jpg/v1/fill/w_800,h_600,al_c,q_85/b5d44a_199be2d9d1c242ad87ffc7dceb85cc25.jpg",
+       "title": "ACR",
+       "paras": [
+        "Certaines des photos illustrant ce site proviennent de récentes poses d'aménagements pour ACR."
+       ],
+       "link": [
+        "Découvrir ACR",
+        "http://acr-decoconcept.com/qui-sommes-nous/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/b5d44a_dbbdff347229479d8af2cd5d68155aea~mv2_d_1920_2560_s_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/b5d44a_dbbdff347229479d8af2cd5d68155aea~mv2_d_1920_2560_s_2.jpg",
+     "eyebrow": "Vous avez un projet ?",
+     "title": "Parlons de <em class=\"it\">votre agencement</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Vous avez un projet ?",
+   "lead": "Contactez-moi par le formulaire ci-dessous ou directement par téléphone.",
+   "img": "https://static.wixstatic.com/media/b5d44a_d144102387ae4051a75210356da9fed4.jpg/v1/fit/w_1600,h_1200,al_c,q_85/b5d44a_d144102387ae4051a75210356da9fed4.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contact",
+     "title": "Vous avez <em class=\"it\">un projet ?</em>",
+     "lead": "Laissez votre message pour être recontacté. Devis et déplacement pour prise de cotes gratuits.",
+     "email": "patrick.menuisier@bbox.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33660173878\">06 60 17 38 78</a>",
+      "E-mail : <a href=\"mailto:patrick.menuisier@bbox.fr\">patrick.menuisier@bbox.fr</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Coordonnées",
+     "title": "Patrick Clouzeau, <em class=\"it\">Lyon 9e</em>",
+     "text": "Interventions sur le Grand Lyon, l'ouest lyonnais et au-delà suivant la taille du chantier.",
+     "rows": [
+      [
+       "Adresse",
+       "16 rue du Mont d'Or<br>69009 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33660173878\">06 60 17 38 78</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:patrick.menuisier@bbox.fr\">patrick.menuisier@bbox.fr</a>"
+      ]
+     ],
+     "cta": [
+      "Appeler",
+      "tel:+33660173878"
+     ],
+     "map_q": "16 rue du Mont d'Or, 69009 Lyon"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Patrick Clouzeau, menuisier à Lyon : agencement sur mesure (combles, sous-escaliers, bibliothèques, dressings, placards, cuisines, salles de bain, bureaux), portes et fenêtres, travaux du bois.",
+  "contact": [
+   "<a href=\"tel:+33660173878\">06 60 17 38 78</a>",
+   "<a href=\"mailto:patrick.menuisier@bbox.fr\">patrick.menuisier@bbox.fr</a>",
+   "16 rue du Mont d'Or, 69009 Lyon"
+  ],
+  "legal": "Patrick Clouzeau · Nafa 4332A-A · CMA Rhône · Siren 428 786 222 · TVA FR65428786222"
+ }
+}
