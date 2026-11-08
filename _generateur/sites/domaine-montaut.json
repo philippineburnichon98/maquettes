@@ -1,0 +1,904 @@
+{
+ "slug": "domaine-montaut-a5ca57",
+ "title": "Domaine Montaut — Vins de Jurançon, vigneron indépendant à Monein",
+ "description": "Domaine Montaut, exploitation familiale à Monein (Pyrénées-Atlantiques) : Jurançon sec, moelleux et liquoreux. Bernadette, Fernand et Nicolas Montaut, vignerons indépendants à 25 km de Pau.",
+ "brand": "Domaine Montaut",
+ "tagline": "Vins AOC Jurançon · Monein",
+ "monogram": "DM",
+ "agegate": true,
+ "phead": "box",
+ "theme": {
+  "look": "editorial",
+  "paper": "#faf6ee",
+  "paper2": "#f1e7d3",
+  "ink": "#2a2219",
+  "muted": "#6d6253",
+  "accent": "#8a5a14",
+  "accent2": "#6b440c",
+  "gold": "#c9a24a",
+  "heroem": "#f3d58c",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33559213817\">05 59 21 38 17</a>",
+  "<a href=\"tel:+33680422188\">06 80 42 21 88</a>",
+  "<a href=\"mailto:domaine.montaut@gmail.com\">domaine.montaut@gmail.com</a>"
+ ],
+ "hero": {
+  "img": "https://www.jurancon-montaut.com/_frame/dscn1425.jpg",
+  "eyebrow": "Vigneron indépendant · AOC Jurançon · Monein",
+  "title": "Bienvenue au<br><em>Domaine Montaut</em>",
+  "lead": "Bienvenue sur notre site, nous vous invitons à découvrir ou redécouvrir notre passion de vigneron.",
+  "cta1": [
+   "Découvrir nos vins",
+   "nos-vins/"
+  ],
+  "cta2": [
+   "05 59 21 38 17",
+   "tel:+33559213817"
+  ]
+ },
+ "figures": [
+  [
+   "1877",
+   "domaine exploité depuis"
+  ],
+  [
+   "5 ha",
+   "de vignes"
+  ],
+  [
+   "25 km",
+   "de Pau"
+  ],
+  [
+   "4",
+   "cuvées à la boutique"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Une exploitation familiale",
+   "title": "Bernadette, Fernand <em class=\"it\">et Nicolas</em>",
+   "img": "https://www.jurancon-montaut.com/_media/img/small/la-famille-montaut.jpg",
+   "alt": "Nicolas Montaut, Fernand et Bernadette Montaut",
+   "paras": [
+    "Le Domaine Montaut est une exploitation familiale située à Monein (ou Monenh en béarnais), dans les Pyrénées-Atlantiques (64).",
+    "Bernadette, Fernand et leur fils Nicolas mettent tout en oeuvre pour produire des Vins de Jurançon de qualité et les faire découvrir aux amateurs et passionnés de produits de terroir.",
+    "Vigneron indépendant, la famille Montaut exploite un petit domaine de cinq hectares de vignes situé au coeur du Béarn à 25 kms de Pau."
+   ],
+   "sign": "Nous vous souhaitons une bonne visite."
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "Au fil du site",
+   "title": "Du chai <em class=\"it\">à votre table</em>",
+   "items": [
+    {
+     "img": "https://www.jurancon-montaut.com/_media/img/small/maison-bearnaise-montaut.jpg",
+     "alt": "Le corps de ferme béarnais",
+     "kicker": "Le Domaine",
+     "title": "Face à la chaîne des Pyrénées",
+     "paras": [
+      "Le corps de ferme d'architecture typiquement béarnaise jouxte le chai. Le vignoble entoure l'ensemble."
+     ],
+     "link": [
+      "Le Domaine",
+      "le-domaine/"
+     ]
+    },
+    {
+     "img": "https://www.jurancon-montaut.com/_media/img/small/grappe-de-gros-manseng.jpg",
+     "alt": "Grappe de Gros Manseng",
+     "kicker": "Le vignoble",
+     "title": "Gros Manseng et Petit Manseng",
+     "paras": [
+      "Les cépages typiques du Piémont Pyrénéen, sur des sols argilo-siliceux aux galets roulés."
+     ],
+     "link": [
+      "Le vignoble",
+      "le-vignoble/"
+     ]
+    },
+    {
+     "img": "https://www.jurancon-montaut.com/_media/img/large/montage-prestige.jpg",
+     "alt": "Jurançon Cuvée Prestige",
+     "kicker": "Nos vins",
+     "title": "Sec, moelleux et liquoreux",
+     "paras": [
+      "Peyre Blanque, Bitaillou, Cuvée Prestige et L'instinct."
+     ],
+     "link": [
+      "Nos vins",
+      "nos-vins/"
+     ]
+    },
+    {
+     "img": "https://www.jurancon-montaut.com/_media/img/small/chai-du-domaine-montaut-interieur.jpg",
+     "alt": "Le chai du Domaine Montaut",
+     "kicker": "Où nous rencontrer ?",
+     "title": "Au chai, sur les marchés, en salons",
+     "paras": [
+      "Nous vous accueillons toute l'année au Domaine."
+     ],
+     "link": [
+      "Nous rencontrer",
+      "salon-des-vins/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "La visite du chai",
+   "text": "« Vous pourrez alors constater que sérieux, bonne humeur et convivialité se côtoient. »",
+   "sub": "La famille Montaut"
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Le domaine en images",
+   "title": "Vignes, chai <em class=\"it\">et vendanges</em>",
+   "carousel": true,
+   "photos": [
+    {
+     "thumb": "https://www.jurancon-montaut.com/_frame/dscn1433.jpg",
+     "full": "https://www.jurancon-montaut.com/_frame/dscn1433.jpg",
+     "alt": "Domaine Montaut"
+    },
+    {
+     "thumb": "https://www.jurancon-montaut.com/_frame/dscn4306.jpg",
+     "full": "https://www.jurancon-montaut.com/_frame/dscn4306.jpg",
+     "alt": "Domaine Montaut"
+    },
+    {
+     "thumb": "https://www.jurancon-montaut.com/_frame/dscn3412.jpg",
+     "full": "https://www.jurancon-montaut.com/_frame/dscn3412.jpg",
+     "alt": "Domaine Montaut"
+    },
+    {
+     "thumb": "https://www.jurancon-montaut.com/_frame/sdc11125.jpg",
+     "full": "https://www.jurancon-montaut.com/_frame/sdc11125.jpg",
+     "alt": "Domaine Montaut"
+    },
+    {
+     "thumb": "https://www.jurancon-montaut.com/_media/img/small/vieille-sulfateuse.jpg",
+     "full": "https://www.jurancon-montaut.com/_media/img/small/vieille-sulfateuse.jpg",
+     "alt": "Tonneau dans les vignes"
+    },
+    {
+     "thumb": "https://www.jurancon-montaut.com/_media/img/small/grappe-de-petit-manseng.jpg",
+     "full": "https://www.jurancon-montaut.com/_media/img/small/grappe-de-petit-manseng.jpg",
+     "alt": "Grappe de Petit Manseng"
+    },
+    {
+     "thumb": "https://www.jurancon-montaut.com/_media/img/small/vendanges-en-jurancon.jpg",
+     "full": "https://www.jurancon-montaut.com/_media/img/small/vendanges-en-jurancon.jpg",
+     "alt": "Vendanges en Jurançon"
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://www.jurancon-montaut.com/_frame/sdc11125.jpg",
+   "eyebrow": "Boutique en ligne",
+   "title": "Nos Jurançon<br><em>livrés chez vous</em>",
+   "cta": [
+    "Voir nos vins",
+    "nos-vins/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Venir au Domaine",
+   "title": "Quartier Haut Ucha, <em class=\"it\">Monein</em>",
+   "text": "Si vous disposez d'un GPS vous pouvez rentrer l'adresse « Bachardou » à Monein.",
+   "rows": [
+    [
+     "Adresse",
+     "Quartier Haut Ucha, Chemin Montaut<br>64360 Monein"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33559213817\">05 59 21 38 17</a>"
+    ],
+    [
+     "Portable",
+     "<a href=\"tel:+33680422188\">06 80 42 21 88</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:domaine.montaut@gmail.com\">domaine.montaut@gmail.com</a>"
+    ]
+   ],
+   "map_q": "Chemin Montaut, 64360 Monein",
+   "cta": [
+    "Nous écrire",
+    "contact/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "le-domaine",
+   "label": "Le Domaine",
+   "title": "Le Domaine",
+   "h1": "Le Domaine <em>Montaut</em>",
+   "eyebrow": "Au coeur du Béarn",
+   "lead": "Notre exploitation viticole, nichée sur un plateau pittoresque face à la majestueuse chaîne des Pyrénées, surplombe un ensemble de côteaux aux collines verdoyantes et boisées.",
+   "img": "https://www.jurancon-montaut.com/_media/img/large/vignoble-avec-vue-sur-les-pyrenees-enneigees-montaut.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "domaine",
+     "eyebrow": "Le Domaine Montaut",
+     "title": "Face à la chaîne <em class=\"it\">des Pyrénées</em>",
+     "img": "https://www.jurancon-montaut.com/_media/img/small/maison-bearnaise-montaut.jpg",
+     "alt": "Corps de ferme béarnais du Domaine Montaut",
+     "paras": [
+      "Au coeur du Béarn, notre Domaine se situe à 30 minutes d'Oloron-Sainte-Marie, et à 40 minutes de Pau et Orthez. Nous sommes également à environ 1 heure/1heure 30 du Pays Basque, de Lourdes (65) et des stations de ski de La Pierre Saint Martin, Gourette, Artouste et Cauterets.",
+      "Le corps de ferme d'architecture typiquement béarnaise, avec ses murs en galets et son toit en ardoises jouxte le chai de construction récente. Le vignoble entoure l'ensemble."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "accueil-chai",
+     "eyebrow": "Visite du chai",
+     "title": "Accueillis comme <em class=\"it\">un hôte privilégié</em>",
+     "img": "https://www.jurancon-montaut.com/_media/img/small/chai-du-domaine-montaut-interieur.jpg",
+     "alt": "Intérieur du chai",
+     "paras": [
+      "La famille Montaut accueille, toute l'année, au chai, curieux, touristes et passionnés du terroir. Cela nous permet de faire partager ce cadre magnifique dans lequel nous sommes installés.",
+      "Lors de votre venue au Domaine, il vous sera proposé une visite de notre chai. Disposant d'un espace d'accueil et vente, la visite du chai permet avant tout de vous faire découvrir l'environnement viticole et notre passion du vin de Jurançon.",
+      "Vous pourrez alors constater que sérieux, bonne humeur et convivialité se côtoient. L'équipe du Domaine Montaut fera tout pour vous accueillir comme un hôte privilégié."
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "famille",
+     "eyebrow": "La Famille Montaut",
+     "title": "Une tradition <em class=\"it\">transmise</em>",
+     "lead": "C'est ensemble que la famille Montaut, aidée de son équipe, partage avec beaucoup de plaisirs sa passion et perpétue la tradition des Vins de Jurançon au Domaine Montaut.",
+     "imgs": [
+      "https://www.jurancon-montaut.com/_media/img/small/montaut-douil-rempli-de-petit-manseng.jpg",
+      "https://www.jurancon-montaut.com/_media/img/small/jurancon-monein.jpg"
+     ],
+     "items": [
+      {
+       "when": "1877",
+       "who": "Le Domaine",
+       "text": "Le Domaine est exploité depuis 1877."
+      },
+      {
+       "when": "1987",
+       "who": "Fernand",
+       "text": "Fernand reprend l'exploitation agricole familiale tenue depuis une quarantaine d'années par son frère René, restructure le vignoble et effectue de nouvelles plantations durant huit ans."
+      },
+      {
+       "when": "2000",
+       "who": "La vente en direct",
+       "text": "Adhérent à la cave coopérative de Gan jusqu'en 2000, il décide alors de vinifier et commercialiser en direct toute sa production."
+      },
+      {
+       "when": "2010",
+       "who": "Nicolas",
+       "text": "La passion est transmise à leur fils Nicolas, qui s'installe sur le domaine en 2010, après ses études de viticulture-oenologie."
+      }
+     ]
+    },
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "Vignerons indépendants",
+     "title": "Bernadette, Fernand <em class=\"it\">et Nicolas</em>",
+     "img": "https://www.jurancon-montaut.com/_media/img/small/la-famille-montaut.jpg",
+     "alt": "Nicolas, Fernand et Bernadette Montaut",
+     "lead": "Bernadette, toujours présente au côté de son mari, est une excellente ambassadrice du Jurançon.",
+     "people": [
+      {
+       "name": "Bernadette Montaut",
+       "role": "Ambassadrice du Jurançon"
+      },
+      {
+       "name": "Fernand Montaut",
+       "role": "A repris l'exploitation en 1987"
+      },
+      {
+       "name": "Nicolas Montaut",
+       "role": "Installé sur le domaine en 2010"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "le-vignoble",
+   "label": "Le vignoble",
+   "title": "Le vignoble",
+   "h1": "Le vignoble <em>du Jurançon</em>",
+   "eyebrow": "Appellation Jurançon",
+   "lead": "Le vignoble de l'appellation Jurançon, s'étend sur 40 kms de large au sud-ouest de Pau.",
+   "img": "https://www.jurancon-montaut.com/_media/img/small/vignoble-du-jurancon.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "appellation",
+     "eyebrow": "Le vignoble du Jurançon",
+     "title": "1350 hectares, <em class=\"it\">25 communes</em>",
+     "img": "https://www.jurancon-montaut.com/_media/img/large/grappe-de-gros-manseng.jpg",
+     "alt": "Grappe de Gros Manseng",
+     "paras": [
+      "Le vignoble de l'appellation Jurançon, s'étend sur 40 kms de large au sud-ouest de Pau. Sa surface représente 1350 ha réparti sur 25 communes.",
+      "L'appellation Jurançon est composée uniquement de vins blancs sec, moelleux ou liquoreux. L'appellation d'origine controlée (AOC) Jurançon a été reconnue en 1936 pour les moelleux et liquoreux. L'AOC Jurançon Sec est plus récente, datant de 1975."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "terroir",
+     "eyebrow": "Terroir et climat",
+     "title": "Des galets roulés <em class=\"it\">des Pyrénées</em>",
+     "img": "https://www.jurancon-montaut.com/_media/img/small/raisin-passerille.jpg",
+     "alt": "Raisin passerillé",
+     "paras": [
+      "Le Jurançon est un produit phare de notre terroir. Grâce à la typicité de nos sols, de notre climat et de nos cépages, notre région fait de nos vins de Jurançon des produits d'exception.",
+      "Plusieurs types de sols peuvent se rencontrer en Jurançon. Nous possédons sur notre Domaine des sols argilo-siliceux avec une présence importante de galets roulés provenant des Pyrénées. Ce terroir nous permet de produire des vins à la fois complexes et denses.",
+      "La région est sous l'influence de deux climats : un climat chaud et humide, celui des montagnes des Pyrénées, et un climat océanique avec l'Océan Atlantique qui permet d'avoir des temperatures relativement douces. La pluviométrie est assez importante avec des précipitations annuelles pouvant atteindre 1400 mm par an. Ce climat est très propice pour produire des vins blancs très aromatiques.",
+      "L'automne, le vent du sud (Foehn) permet de concentrer les raisins par passerillage (déshydratation naturelle)."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "cepages",
+     "eyebrow": "Nos cépages",
+     "title": "Les cépages <em class=\"it\">du Piémont Pyrénéen</em>",
+     "lead": "La croissance de ces cépages demande d'avoir un printemps précoce et une belle arrière saison pour que les raisins atteignent une maturité totale et optimale.",
+     "items": [
+      [
+       "Gros Manseng",
+       "Cépage typique du Piémont Pyrénéen."
+      ],
+      [
+       "Petit Manseng",
+       "Cépage typique du Piémont Pyrénéen."
+      ],
+      [
+       "Courbu",
+       "Variété ancienne que nous réintroduisons aujourd'hui."
+      ],
+      [
+       "Camaralet",
+       "Variété ancienne que nous réintroduisons aujourd'hui."
+      ],
+      [
+       "Lauzet",
+       "Variété ancienne que nous réintroduisons aujourd'hui."
+      ]
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "vendanges",
+     "eyebrow": "Vendanges manuelles",
+     "title": "Des tries <em class=\"it\">successives</em>",
+     "img": "https://www.jurancon-montaut.com/_media/img/small/vendanges-manuelles-en-jurancon.jpg",
+     "alt": "Vendanges manuelles en Jurançon",
+     "paras": [
+      "Les premières vendanges manuelles s'effectuent pour le Jurançon sec pendant les 15 premiers jours d'Octobre. Par la suite nous effectuons les vendanges du Jurançon moelleux puis liquoreux qui s'étalent jusqu'en novembre.",
+      "Pour obtenir des raisins très riches en sucre, ceux-ci sont ramassés à surmaturité après passerillage des grains. Afin de rechercher une qualité optimale, des tris sont effectués pour sélectionner les raisins les plus concentrés.",
+      "Les vendanges sont toujours un moment de partage et de convivialité avec toute l'équipe du Domaine Montaut."
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "Au fil des saisons",
+     "title": "La vigne <em class=\"it\">en images</em>",
+     "photos": [
+      {
+       "thumb": "https://www.jurancon-montaut.com/_media/img/small/grappe-de-raisin-en-formation.jpg",
+       "full": "https://www.jurancon-montaut.com/_media/img/small/grappe-de-raisin-en-formation.jpg",
+       "alt": "Grappe de raisin en formation au printemps"
+      },
+      {
+       "thumb": "https://www.jurancon-montaut.com/_media/img/small/vignoble-du-jurancon.jpg",
+       "full": "https://www.jurancon-montaut.com/_media/img/small/vignoble-du-jurancon.jpg",
+       "alt": "Le vignoble du Jurançon à Monein"
+      },
+      {
+       "thumb": "https://www.jurancon-montaut.com/_media/img/large/grappe-de-gros-manseng.jpg",
+       "full": "https://www.jurancon-montaut.com/_media/img/large/grappe-de-gros-manseng.jpg",
+       "alt": "Grappe de Gros Manseng"
+      },
+      {
+       "thumb": "https://www.jurancon-montaut.com/_media/img/small/raisin-passerille.jpg",
+       "full": "https://www.jurancon-montaut.com/_media/img/small/raisin-passerille.jpg",
+       "alt": "Raisin passerillé"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nos-vins",
+   "label": "Nos vins",
+   "title": "Nos vins",
+   "h1": "Nos <em>vins</em>",
+   "eyebrow": "AOC Jurançon · sec, moelleux et liquoreux",
+   "lead": "Des Vins de Jurançon de qualité, vendangés à la main sur nos cinq hectares de vignes à Monein.",
+   "img": "https://www.jurancon-montaut.com/_media/img/large/montage-prestige.jpg",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "cuvees",
+     "eyebrow": "Les cuvées",
+     "title": "Du Jurançon sec <em class=\"it\">au liquoreux</em>",
+     "lead": "Bouteilles de 75 cL, en vente au chai et sur notre boutique en ligne.",
+     "tabs": [
+      [
+       "sec",
+       "Secs"
+      ],
+      [
+       "moelleux",
+       "Moelleux et liquoreux"
+      ]
+     ],
+     "items": [
+      {
+       "name": "Peyre Blanque 2025",
+       "cat": "sec",
+       "color": "#e3d38a",
+       "tag": "Jurançon Sec · Bio",
+       "app": "AOC Jurançon Sec · Millésime 2025",
+       "badge": "Bio",
+       "desc": "Vin blanc sec.",
+       "img": "https://www.jurancon-montaut.com/_media/img/medium/bouteille-sec-jurancon-monein.jpg",
+       "sheet": [
+        [
+         "Cépages",
+         "75 % Gros Manseng - 25 % Petit Courbu"
+        ],
+        [
+         "Potentiel de garde",
+         "8 ans"
+        ],
+        [
+         "Bouteille",
+         "75 cL - 13 % vol"
+        ]
+       ],
+       "link": [
+        "Commander sur la boutique",
+        "https://www.jurancon-montaut.com/boutique-aoc-jurancon-sec-peyre-blanque-2025-bio.html"
+       ]
+      },
+      {
+       "name": "AOC Jurançon Sec",
+       "cat": "sec",
+       "color": "#e3d38a",
+       "tag": "Jurançon Sec",
+       "app": "100 % Gros Manseng",
+       "desc": "Cuvée issue à 100% du cépage Gros Manseng. Notre Jurançon Sec, vendangé à la main mi-octobre, est vinifié de façon traditionnelle, avec élevage sur lies fines. Alliant vivacité et fraîcheur, l'attaque en bouche est franche. Ce vin aux arômes fruités laisse une finale souple toute en équilibre et en souplesse.",
+       "img": "https://www.jurancon-montaut.com/_media/img/large/montage-sec.jpg",
+       "sheet": [
+        [
+         "Accords",
+         "Fruits de mer, poissons cuisinés, charcuterie, mais également raclettes, viandes blanches et plats épicés (de type paëlla par exemple)"
+        ],
+        [
+         "Service",
+         "A déguster frais"
+        ]
+       ]
+      },
+      {
+       "name": "Cuvée Bitaillou 2025",
+       "cat": "moelleux",
+       "color": "#dcc06a",
+       "tag": "Jurançon Moelleux · Bio",
+       "app": "AOC Jurançon Moelleux · Millésime 2025",
+       "badge": "Bio",
+       "desc": "Vin blanc moelleux.",
+       "img": "https://www.jurancon-montaut.com/_media/img/xlarge/dsc05543-3-2-2.jpg",
+       "sheet": [
+        [
+         "Cépage",
+         "100 % Gros Manseng"
+        ],
+        [
+         "Potentiel de garde",
+         "4 à 5 ans"
+        ],
+        [
+         "Bouteille",
+         "75 cL - 12,5 % vol"
+        ]
+       ],
+       "link": [
+        "Commander sur la boutique",
+        "https://www.jurancon-montaut.com/boutique-aoc-jurancon-moelleux-cuvee-bitaillou-2025-bio.html"
+       ]
+      },
+      {
+       "name": "Cuvée Prestige 2022",
+       "cat": "moelleux",
+       "color": "#c99a2e",
+       "tag": "Jurançon Moelleux · Bio",
+       "app": "AOC Jurançon · Millésime 2022",
+       "badge": "Bio",
+       "desc": "Notre Jurançon Cuvée Prestige est à 100% issue du cépage Petit Manseng. Le raisin est vendangé manuellement par tries successives au mois de novembre et récolté passerillé, c'est-à-dire à surmaturité. Cette cuvée, à la robe couleur or doré, d'une parfaite harmonie, développe puissance et concentration. Ce vin blanc moelleux - liquoreux séduit par sa petite nervosité en milieu de bouche et une finale très aromatique et fruitée.",
+       "img": "https://www.jurancon-montaut.com/_media/img/xlarge/bouteille-prestige.jpg",
+       "sheet": [
+        [
+         "Cépage",
+         "100 % Petit Manseng"
+        ],
+        [
+         "Potentiel de garde",
+         "10 à 15 ans"
+        ],
+        [
+         "Bouteille",
+         "75 cL - 13,5 % vol"
+        ],
+        [
+         "Accords",
+         "À l'apéritif et lors de vins d'honneur ; un foie gras et un fromage de roquefort, de chèvre, ou de brebis des Pyrénées"
+        ]
+       ],
+       "link": [
+        "Commander sur la boutique",
+        "https://www.jurancon-montaut.com/boutique-aoc-jurancon-moelleux-cuvee-prestige-2022-bio.html"
+       ]
+      },
+      {
+       "name": "Cuvée L'instinct 2019",
+       "cat": "moelleux",
+       "color": "#b7861f",
+       "tag": "Jurançon Moelleux",
+       "app": "AOC Jurançon Moelleux · Millésime 2019",
+       "desc": "Vin blanc moelleux, élevé en fûts.",
+       "img": "https://www.jurancon-montaut.com/_media/img/large/instinct.jpg",
+       "sheet": [
+        [
+         "Cépage",
+         "100 % Petit Manseng"
+        ],
+        [
+         "Potentiel de garde",
+         "10 à 15 ans"
+        ],
+        [
+         "Bouteille",
+         "75 cL - 13,5 % vol"
+        ]
+       ],
+       "link": [
+        "Commander sur la boutique",
+        "https://www.jurancon-montaut.com/boutique-aoc-jurancon-moelleux-cuvee-linstinct-2019.html"
+       ]
+      }
+     ],
+     "note": "Tarifs : sur la boutique en ligne du domaine ou par téléphone au 05 59 21 38 17."
+    },
+    {
+     "kind": "blocks",
+     "id": "commander",
+     "eyebrow": "Boutique",
+     "title": "Commander <em class=\"it\">nos vins</em>",
+     "lead": "Merci de bien vouloir faire des cartons multiples de 6 bouteilles (panachage possible).",
+     "items": [
+      {
+       "kicker": "Livraison",
+       "title": "En France métropolitaine",
+       "paras": [
+        "Livraison 12 € ttc pour 6, 12 ou 18 bouteilles, offerte à partir de 24 bouteilles.",
+        "Pour les autres destinations, contactez le Domaine."
+       ],
+       "link": [
+        "Commander sur la boutique en ligne",
+        "https://www.jurancon-montaut.com/boutique.html"
+       ]
+      },
+      {
+       "kicker": "Paiement",
+       "title": "Carte bancaire ou chèque",
+       "paras": [
+        "Le paiement de vos achats s'effectue en totalité à la commande par carte bancaire ou par chèque, à l'ordre de EARL Bachardou - Domaine Montaut."
+       ],
+       "link": [
+        "Conditions générales de vente",
+        "https://www.jurancon-montaut.com/conditions-generales-de-vente.html"
+       ]
+      },
+      {
+       "kicker": "Au chai",
+       "title": "Vente au Domaine",
+       "paras": [
+        "Nous vous accueillons toute l'année au Domaine. Dans la mesure du possible, prévenez-nous de votre venue : <a href=\"tel:+33559213817\">05 59 21 38 17</a>."
+       ],
+       "link": [
+        "Venir au Domaine",
+        "../contact/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "salon-des-vins",
+   "label": "Nous rencontrer",
+   "title": "Où nous rencontrer ?",
+   "h1": "Où nous <em>rencontrer ?</em>",
+   "eyebrow": "Au chai, sur les marchés, en salons",
+   "lead": "N'hésitez pas à nous contacter pour connaître le lieu de vente le plus près de chez vous ainsi que les dates.",
+   "img": "https://www.jurancon-montaut.com/_media/img/small/chai-du-domaine-montaut-interieur.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "rencontrer",
+     "eyebrow": "Salons",
+     "title": "Au chai <em class=\"it\">ou près de chez vous</em>",
+     "items": [
+      {
+       "img": "https://www.jurancon-montaut.com/_media/img/small/maison-bearnaise-montaut.jpg",
+       "alt": "Le Domaine Montaut",
+       "kicker": "Au chai",
+       "title": "Toute l'année au Domaine",
+       "paras": [
+        "Nous vous accueillons toute l'année au Domaine. Vous pourrez ainsi découvrir notre chai et nos vignes.",
+        "Dans la mesure du possible, prévenez-nous de votre venue afin de vous assurez que nous sommes présents et disponibles pour vous accueillir."
+       ],
+       "link": [
+        "Venir au Domaine",
+        "../contact/"
+       ]
+      },
+      {
+       "img": "https://www.jurancon-montaut.com/_media/img/small/vendanges-en-jurancon.jpg",
+       "alt": "Vendanges en Jurançon",
+       "kicker": "En vacances dans le Sud-Ouest",
+       "title": "Les marchés de producteurs",
+       "paras": [
+        "Nous sommes présents toute la période estivale sur les marchés de producteurs de la Côte Basque et des Hautes-Pyrénées."
+       ]
+      },
+      {
+       "img": "https://www.jurancon-montaut.com/_media/img/small/grappe-de-petit-manseng.jpg",
+       "alt": "Grappe de Petit Manseng",
+       "kicker": "Près de chez vous",
+       "title": "Salons et foires aux Vins",
+       "paras": [
+        "Durant l'année, nous vous retrouvons dans les régions de France à travers les salons et foires aux Vins auxquels nous participons."
+       ],
+       "list": [
+        "Foire aux Vins de Saint Amand Montrond",
+        "Foire aux Vins et aux Miels de Jaunay Marigny, salle des sports",
+        "Portes Ouvertes au Domaine de La Noiraie à Benais (Vins de Bourgueil et Saint Nicolas de Bourgueil)"
+       ]
+      }
+     ],
+     "note": "N'hésitez pas à nous contacter pour connaître le lieu de vente le plus près de chez vous ainsi que les dates : <a href=\"tel:+33559213817\">05 59 21 38 17</a> · <a href=\"mailto:domaine.montaut@gmail.com\">domaine.montaut@gmail.com</a>"
+    }
+   ]
+  },
+  {
+   "slug": "nos-amis-vignerons",
+   "label": "Nos amis vignerons",
+   "title": "Nos amis vignerons",
+   "h1": "Nos amis <em>vignerons</em>",
+   "eyebrow": "Partenaires et liens utiles",
+   "lead": "Des vignerons de Bourgueil, de Cahors, du Beaujolais et du Muscadet, et les adresses utiles du Jurançon.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "amis",
+     "eyebrow": "Nos amis vignerons",
+     "title": "De la Loire <em class=\"it\">au Beaujolais</em>",
+     "items": [
+      {
+       "kicker": "Vins de Bourgueil et Saint-Nicolas de Bourgueil",
+       "title": "Domaine de La Noiraie",
+       "paras": [
+        "Pascale, Michel, Jean-Paul et Vincent Delanoue",
+        "19 Rue du Fort Hudeau - L'Ereau, 37140 Benais",
+        "<a href=\"tel:+33247973040\">02 47 97 30 40</a>"
+       ],
+       "link": [
+        "domaine-de-la-noiraie.viabloga.com",
+        "http://domaine-de-la-noiraie.viabloga.com"
+       ]
+      },
+      {
+       "img": "https://www.jurancon-montaut.com/_media/img/thumb/logo-jouves.jpg",
+       "alt": "Mas del Périé, vin de Cahors",
+       "contain": true,
+       "kicker": "Vins de Cahors",
+       "title": "Mas del Périé",
+       "paras": [
+        "Fabien Jouves",
+        "Le Bourg, 46090 Trespoux-Rassiels",
+        "<a href=\"tel:+33565301807\">05 65 30 18 07</a>"
+       ],
+       "link": [
+        "www.masdelperie.com",
+        "https://masdelperie.com"
+       ]
+      },
+      {
+       "kicker": "Vins du Beaujolais",
+       "title": "Domaine Saint Cyr",
+       "paras": [
+        "Famille Saint Cyr",
+        "Les Perelles, 69480 Anse",
+        "<a href=\"tel:+33474602369\">04 74 60 23 69</a>"
+       ],
+       "link": [
+        "www.beaujolais-saintcyr.com",
+        "http://www.beaujolais-saintcyr.com"
+       ]
+      },
+      {
+       "kicker": "Vins de Muscadet",
+       "title": "Domaine de La Chevrue",
+       "paras": [
+        "Michel et Yannick Leblé",
+        "12 rue de la Chevrue, 44120 Vertou",
+        "<a href=\"tel:+33240061632\">02 40 06 16 32</a>"
+       ],
+       "link": [
+        "www.muscadet-la-chevrue.fr",
+        "https://www.muscadet-la-chevrue.fr/"
+       ]
+      },
+      {
+       "kicker": "Jurançon",
+       "title": "Les Vignerons du Jurançon",
+       "paras": [
+        "Le site des vignerons de l'appellation."
+       ],
+       "link": [
+        "www.vins-jurancon.fr",
+        "http://www.vins-jurancon.fr"
+       ]
+      },
+      {
+       "img": "https://www.jurancon-montaut.com/_media/img/thumb/telechargement.jpg",
+       "alt": "Office de Tourisme Coeur de Béarn",
+       "contain": true,
+       "kicker": "Tourisme",
+       "title": "Office de Tourisme Coeur de Béarn",
+       "paras": [
+        "Pour préparer votre séjour à Monein et en Béarn."
+       ],
+       "link": [
+        "www.coeurdebearn.com",
+        "http://www.coeurdebearn.com"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact et accès",
+   "h1": "Venir <em>au Domaine</em>",
+   "eyebrow": "Monein · Pyrénées-Atlantiques",
+   "lead": "Pour nous rendre visite, voici un petit plan qui peut vous aider à trouver votre chemin.",
+   "img": "https://www.jurancon-montaut.com/_media/img/small/maison-bearnaise-montaut.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "venir",
+     "eyebrow": "Comment venir au Domaine Montaut",
+     "title": "Domaine Montaut, <em class=\"it\">Monein</em>",
+     "text": "Vous pouvez également suivre les panneaux de la route des vins indiquant le Domaine Montaut depuis Monein, que vous veniez de Pau, d'Oloron-Sainte-Marie ou d'ailleurs. Si vous disposez d'un GPS vous pouvez rentrer l'adresse « Bachardou » à Monein.",
+     "rows": [
+      [
+       "Adresse",
+       "Quartier Haut Ucha, Chemin Montaut<br>64360 Monein"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33559213817\">05 59 21 38 17</a>"
+      ],
+      [
+       "Portable",
+       "<a href=\"tel:+33680422188\">06 80 42 21 88</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:domaine.montaut@gmail.com\">domaine.montaut@gmail.com</a>"
+      ]
+     ],
+     "map_q": "Chemin Montaut, 64360 Monein",
+     "cta": [
+      "Appeler le domaine",
+      "tel:+33559213817"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Contact",
+     "title": "Nous <em class=\"it\">écrire</em>",
+     "lead": "Une question, une commande, une visite au chai : écrivez-nous.",
+     "email": "domaine.montaut@gmail.com",
+     "subject": "Message depuis le site du Domaine Montaut",
+     "side": [
+      "<b>Téléphone</b><br><a href=\"tel:+33559213817\">05 59 21 38 17</a>",
+      "<b>Portable</b><br><a href=\"tel:+33680422188\">06 80 42 21 88</a>",
+      "<b>E-mail</b><br><a href=\"mailto:domaine.montaut@gmail.com\">domaine.montaut@gmail.com</a>"
+     ],
+     "fields": [
+      {
+       "label": "Civilité",
+       "type": "select",
+       "options": [
+        "Madame",
+        "Monsieur",
+        "Mademoiselle"
+       ]
+      },
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Prénom"
+      },
+      {
+       "label": "Adresse",
+       "full": true
+      },
+      {
+       "label": "Code Postal"
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Pays"
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Le Domaine Montaut, exploitation familiale à Monein, au coeur du Béarn. Bernadette, Fernand et Nicolas Montaut, vignerons indépendants, Vins de Jurançon.",
+  "contact": [
+   "<a href=\"tel:+33559213817\">05 59 21 38 17</a>",
+   "<a href=\"tel:+33680422188\">06 80 42 21 88</a>",
+   "<a href=\"mailto:domaine.montaut@gmail.com\">domaine.montaut@gmail.com</a>",
+   "Quartier Haut Ucha, Chemin Montaut, 64360 Monein"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://www.jurancon-montaut.com/mentions-legales.html"
+ }
+}
