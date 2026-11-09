@@ -1,0 +1,213 @@
+{
+ "slug": "sdc-solution-de-chauffage-b55766",
+ "title": "SDC Solution De Chauffage — Plombier-chauffagiste à Theys (Isère)",
+ "description": "SDC Solution De Chauffage, Sylvain Dalban-Canassy, plombier-chauffagiste à Theys (Isère) : installation, dépannage et entretien en plomberie, chauffage toutes énergies, climatisation, ventilation, pompe à chaleur, solaire thermique et VMC double flux.",
+ "brand": "SDC Solution De Chauffage",
+ "tagline": "Plombier-chauffagiste · Theys",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/451e13_afe6186b038f9c524cc8235d1597025e.png/v1/fill/w_441,h_196,al_c,lg_1,q_85/451e13_afe6186b038f9c524cc8235d1597025e.png",
+  "height": 52
+ },
+ "theme": {
+  "look": "split",
+  "paper": "#f6f4f1",
+  "paper2": "#ebe5de",
+  "ink": "#1d2329",
+  "muted": "#5b6168",
+  "accent": "#c4462b",
+  "accent2": "#9a3420",
+  "gold": "#e39a3b",
+  "heroem": "#ffc58a",
+  "serif": "\"Outfit\",system-ui,sans-serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+ },
+ "topbar": [
+  "Installation, dépannage et entretien",
+  "<a href=\"tel:+33676970631\">Tél. 06 76 97 06 31</a>"
+ ],
+ "nav": [
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "installation",
+   "Installation"
+  ],
+  [
+   "entretien",
+   "Entretien"
+  ],
+  [
+   "photos",
+   "Photos"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/451e13_08b648f116e04eb0b5b4d349841b7a21.jpg",
+  "eyebrow": "Plombier-chauffagiste · Theys · Isère",
+  "title": "Votre spécialiste <em>plombier-chauffagiste</em>",
+  "lead": "Installation, dépannage et entretien : plomberie, chauffage toutes énergies, climatisation et ventilation. Sylvain Dalban-Canassy, à Theys.",
+  "cta1": [
+   "Demander un devis",
+   "mailto:sdchauffage@ymail.com?subject=Demande%20de%20devis"
+  ],
+  "cta2": [
+   "06 76 97 06 31",
+   "tel:+33676970631"
+  ]
+ },
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Prestations",
+   "title": "Installation, dépannage <em class=\"it\">et entretien</em>",
+   "lead": "Un seul interlocuteur pour votre plomberie, votre chauffage et le confort de votre maison.",
+   "items": [
+    {
+     "kicker": "01",
+     "title": "Installation",
+     "list": [
+      "Plomberie",
+      "Carrelage salle de bain",
+      "Chauffage toutes énergies",
+      "Climatisation",
+      "Ventilation"
+     ],
+     "link": [
+      "Demander un devis",
+      "#contact"
+     ]
+    },
+    {
+     "kicker": "02",
+     "title": "Dépannage",
+     "list": [
+      "Plomberie",
+      "Chauffage toutes énergies",
+      "Climatisation",
+      "Ventilation"
+     ],
+     "link": [
+      "Appeler le 06 76 97 06 31",
+      "tel:+33676970631"
+     ]
+    },
+    {
+     "kicker": "03",
+     "title": "Entretien",
+     "list": [
+      "Pompe à chaleur",
+      "Climatisation",
+      "Solaire thermique",
+      "VMC double flux"
+     ],
+     "link": [
+      "Demander un devis",
+      "#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "installation",
+   "eyebrow": "SDC · Solution De Chauffage",
+   "title": "Du chauffage <em class=\"it\">toutes énergies</em>",
+   "img": "https://static.wixstatic.com/media/451e13_01289a98974146d496537dbc0eda4cbc.jpg",
+   "alt": "SDC Solution De Chauffage, plombier-chauffagiste à Theys",
+   "paras": [
+    "Plomberie, chauffage toutes énergies, climatisation et ventilation : SDC installe vos équipements, et refait aussi le carrelage de votre salle de bain.",
+    "En cas de panne de plomberie, de chauffage, de climatisation ou de ventilation, appelez directement Sylvain Dalban-Canassy au 06 76 97 06 31."
+   ],
+   "sign": "Sylvain Dalban-Canassy"
+  },
+  {
+   "kind": "story",
+   "id": "entretien",
+   "eyebrow": "Entretien",
+   "title": "Des équipements <em class=\"it\">suivis dans la durée</em>",
+   "img": "https://static.wixstatic.com/media/451e13_18336af2fc484dcf8ee184df4efd621e.jpg",
+   "alt": "Entretien pompe à chaleur et solaire thermique",
+   "paras": [
+    "SDC assure l'entretien de vos pompes à chaleur, de votre climatisation, de vos installations de solaire thermique et de votre VMC double flux."
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "SDC <em class=\"it\">Solution De Chauffage</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/451e13_08b648f116e04eb0b5b4d349841b7a21.jpg",
+     "full": "https://static.wixstatic.com/media/451e13_08b648f116e04eb0b5b4d349841b7a21.jpg",
+     "alt": "SDC Solution De Chauffage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/451e13_01289a98974146d496537dbc0eda4cbc.jpg",
+     "full": "https://static.wixstatic.com/media/451e13_01289a98974146d496537dbc0eda4cbc.jpg",
+     "alt": "SDC Solution De Chauffage"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/451e13_18336af2fc484dcf8ee184df4efd621e.jpg",
+     "full": "https://static.wixstatic.com/media/451e13_18336af2fc484dcf8ee184df4efd621e.jpg",
+     "alt": "SDC Solution De Chauffage"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Appelez-moi <em class=\"it\">au 06 76 97 06 31</em>",
+   "text": "Installation, dépannage et entretien. Pour un devis, appelez ou écrivez à Sylvain Dalban-Canassy.",
+   "rows": [
+    [
+     "Entreprise",
+     "S D C - Solution De Chauffage<br>Sylvain Dalban-Canassy"
+    ],
+    [
+     "Adresse",
+     "Malbuisson<br>38570 Theys"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33676970631\">06 76 97 06 31</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:sdchauffage@ymail.com\">sdchauffage@ymail.com</a>"
+    ],
+    [
+     "Qualit'EnR",
+     "<a href=\"http://www.qualit-enr.org/solution-de-chauffage\" target=\"_blank\" rel=\"noopener\">Fiche de l'entreprise</a>"
+    ],
+    [
+     "SIRET",
+     "790 022 347 RM 38"
+    ]
+   ],
+   "cta": [
+    "Demander un devis par e-mail",
+    "mailto:sdchauffage@ymail.com?subject=Demande%20de%20devis"
+   ],
+   "map_q": "Malbuisson, 38570 Theys"
+  }
+ ],
+ "footer": {
+  "about": "SDC Solution De Chauffage, Sylvain Dalban-Canassy, plombier-chauffagiste à Theys (Isère) : installation, dépannage et entretien.",
+  "contact": [
+   "<a href=\"tel:+33676970631\">06 76 97 06 31</a>",
+   "<a href=\"mailto:sdchauffage@ymail.com\">sdchauffage@ymail.com</a>",
+   "Malbuisson, 38570 Theys"
+  ],
+  "legal": "S D C - Solution De Chauffage · Sylvain Dalban-Canassy · SIRET 790 022 347 RM 38."
+ }
+}
