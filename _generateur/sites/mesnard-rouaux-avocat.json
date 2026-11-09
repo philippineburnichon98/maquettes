@@ -1,0 +1,812 @@
+{
+ "slug": "mesnard-rouaux-avocat-0ea71c",
+ "title": "Maître Juliette Mesnard-Rouaux, avocate au barreau de Dijon",
+ "description": "Maître Juliette Mesnard-Rouaux exerce depuis 1995 comme avocate au barreau de Dijon : droit de la famille, des personnes et de leur patrimoine, tribunal pour enfants, droit civil, droit pénal et médiation. Cabinet au 10, boulevard Thiers, Dijon.",
+ "brand": "Maître Juliette Mesnard-Rouaux",
+ "tagline": "Avocate au barreau de Dijon",
+ "monogram": "JM",
+ "home_label": "Accueil",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f7f5f1",
+  "paper2": "#ebe6dd",
+  "ink": "#1d2230",
+  "muted": "#5d6270",
+  "accent": "#3d2f5b",
+  "accent2": "#2a2042",
+  "gold": "#a8895a",
+  "heroem": "#e8d7b4",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/95677f_9065d6cd839f4a49abc89a22c2953441~mv2_d_1240_1753_s_2.jpg/v1/crop/x_175,y_87,w_687,h_619/fill/w_240,h_216,al_c,q_85/logo%20original.jpg",
+  "height": 50,
+  "with_name": true
+ },
+ "phead": "box",
+ "topbar": [
+  "<a href=\"tel:+33380734732\">03 80 73 47 32</a>",
+  "<a href=\"mailto:jmesnardrouaux@orange.fr\">jmesnardrouaux@orange.fr</a>",
+  "10, boulevard Thiers · Dijon"
+ ],
+ "nav_extra": [
+  [
+   "honoraires",
+   "Honoraires"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/95677f_297193ba63984d9d98f39405e1a3f722~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+  "eyebrow": "Avocate au barreau de Dijon depuis 1995",
+  "title": "Maître Juliette <em>Mesnard-Rouaux</em>",
+  "lead": "Droit de la famille, des personnes et de leur patrimoine, tribunal pour enfants, droit civil, droit pénal et médiation, au 10, boulevard Thiers à Dijon.",
+  "cta1": [
+   "Contacter le cabinet",
+   "#ecrire"
+  ],
+  "cta2": [
+   "03 80 73 47 32",
+   "tel:+33380734732"
+  ]
+ },
+ "figures": [
+  [
+   "1995",
+   "prestation de serment"
+  ],
+  [
+   "2003",
+   "premières séances de médiation"
+  ],
+  [
+   "CMCO",
+   "médiatrice depuis 2012"
+  ],
+  [
+   "4",
+   "domaines d'intervention"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "votre-avocat",
+   "img": "https://static.wixstatic.com/media/1aa02a05ec744b64b92b209f90cfee2d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "Maître Juliette Mesnard-Rouaux",
+   "eyebrow": "Votre avocate",
+   "title": "Avocate au barreau <em class=\"it\">de Dijon</em>",
+   "paras": [
+    "Maître Juliette Mesnard-Rouaux a prêté serment en janvier 1995 et exerce depuis comme avocate au barreau de Dijon.",
+    "Titulaire d'un DESS de droit des affaires et fiscalité et du DJCE (promotion Nancy 1993), elle intervient en droit de la famille, des personnes et de leur patrimoine.",
+    "Médiatrice au Centre de Médiation de la Côte d'Or, elle se forme régulièrement, notamment en droit de la famille et en assistance éducative.",
+    "<a href=\"formation-continue/\" style=\"border-bottom:1px solid var(--gold)\">Sa formation continue</a> · <a href=\"http://www.barreau-dijon.avocat.fr/u/mesnard-rouaux\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Sa fiche au barreau de Dijon</a>"
+   ],
+   "sign": "Maître Juliette Mesnard-Rouaux",
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/95677f_8540d049ffd34d578488cc3823406746~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Barreau de Dijon"
+    ]
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "portrait",
+   "img": "https://static.wixstatic.com/media/95677f_b418d76ddbeb4859a82053841ece4e76~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Son engagement",
+   "title": "Vous écouter, <em class=\"it\">vous représenter</em>",
+   "paras": [
+    "Vous écouter.",
+    "Vous conseiller.",
+    "Vous accompagner.",
+    "Vous assister.",
+    "Vous représenter."
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/95677f_d3060936b3ff4ab48c53fcc60a9ffc40~mv2_d_1600_1600_s_2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Serment"
+    ]
+   ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Le serment de l'avocat",
+   "text": "Je jure, comme Avocat, d'exercer mes fonctions avec dignité, conscience, indépendance, probité et humanité.",
+   "sub": "Avocat au barreau de Dijon"
+  },
+  {
+   "kind": "blocks",
+   "id": "competences",
+   "img": "https://static.wixstatic.com/media/eaab725261f9470fbbf2e5674da93ca0.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Compétences",
+   "title": "Domaines <em class=\"it\">d'intervention</em>",
+   "lead": "Droit de la famille, des personnes et de leur patrimoine.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/95677f_3030352b24564a03a3c8585deb149589~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "contain": true,
+     "kicker": "Contentieux familial",
+     "title": "Juge aux affaires familiales",
+     "paras": [
+      "Divorce, séparation, autorité parentale, audition d'enfant, liquidation et partage du régime matrimonial."
+     ],
+     "link": [
+      "Juge aux affaires familiales",
+      "juge-des-affaires-familiales/"
+     ]
+    },
+    {
+     "kicker": "Mineurs",
+     "title": "Tribunal pour enfants",
+     "paras": [
+      "Assistance éducative et assistance des mineurs."
+     ],
+     "link": [
+      "Tribunal pour enfants",
+      "tribunal-pour-enfants/"
+     ]
+    },
+    {
+     "kicker": "Vie quotidienne",
+     "title": "Droit civil",
+     "paras": [
+      "Responsabilité civile, droit des contrats, contentieux du logement."
+     ],
+     "link": [
+      "Droit civil",
+      "droit-civil/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/95677f_70e4b3e9582844398f26124ca6456637~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "contain": true,
+     "kicker": "Victimes et prévenus",
+     "title": "Droit pénal",
+     "paras": [
+      "Aide aux victimes de violences conjugales et d'infractions, indemnisation du préjudice."
+     ],
+     "link": [
+      "Droit pénal",
+      "droit-penal/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "mediation",
+   "img": "https://static.wixstatic.com/media/fa97ca582faa49678946f6c0c5f0b9ec.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Médiation",
+   "title": "Médiatrice <em class=\"it\">au CMCO</em>",
+   "paras": [
+    "Maître Mesnard-Rouaux est médiatrice au Centre de Médiation de la Côte d'Or (CMCO) depuis 2012 et inscrite auprès des cours d'appel de Dijon et de Besançon.",
+    "Le CMCO est une association qui regroupe des avocats médiateurs.",
+    "Elle propose des séances de médiation depuis 2003, sous deux formes : la médiation conventionnelle, sur contact direct, et la médiation judiciaire, sur désignation par les juridictions.",
+    "<a href=\"http://www.cmco-mediation.com/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Le CMCO</a> · <a href=\"https://cnma.avocat.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Centre National de Médiation des Avocats</a>"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "honoraires",
+   "img": "https://static.wixstatic.com/media/0a2c32bae6e845c5ae037236b25fa5dc.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Honoraires",
+   "title": "Les honoraires <em class=\"it\">du cabinet</em>",
+   "lead": "Une convention d'honoraires est régularisée par écrit entre l'avocate et son client pour chaque procédure.",
+   "items": [
+    {
+     "kicker": "Temps passé",
+     "title": "Taux horaire",
+     "paras": [
+      "Le taux horaire varie de 150 à 180 € hors taxes, soit 180 à 216 € TTC.",
+      "L'avocat reverse la TVA au Trésor public tous les mois."
+     ]
+    },
+    {
+     "kicker": "Diligences prévisibles",
+     "title": "Forfait",
+     "paras": [
+      "La facturation peut être forfaitaire lorsque les diligences sont raisonnablement prévisibles : procédures amiables, homologations d'accord, contributions alimentaires, divorces par consentement mutuel."
+     ]
+    },
+    {
+     "kicker": "Selon le dossier",
+     "title": "Honoraire de résultat",
+     "paras": [
+      "Un honoraire de résultat peut être prévu en fonction des avantages et du résultat obtenus."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "aide",
+   "img": "https://static.wixstatic.com/media/fe99e8636f024a91a6d0ebdaade46a9c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Aide juridictionnelle et frais",
+   "title": "Les autres <em class=\"it\">frais</em>",
+   "paras": [
+    "Selon la situation du client, il pourra lui être proposé de solliciter le bénéfice de l'aide juridictionnelle.",
+    "Les débours et émoluments sont payés directement par le client au prestataire (huissier, expert, notaire).",
+    "<a href=\"https://www.service-public.fr/particuliers/vosdroits/F18074\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">L'aide juridictionnelle sur service-public.fr</a>"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "liens-pratiques",
+   "img": "https://static.wixstatic.com/media/1d4c57a128494063263ab6f729596843.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Liens pratiques",
+   "title": "Adresses <em class=\"it\">et documents utiles</em>",
+   "items": [
+    {
+     "kicker": "Contacts",
+     "title": "Adresses",
+     "list": [
+      "Cour d'appel : 8, rue Amiral Roussin, 21000 Dijon, tél. 03 80 44 61 00",
+      "Hôtel de Police : 2, place Suquet, tél. 03 80 44 55 00",
+      "Cité judiciaire : 13, boulevard Georges Clemenceau",
+      "<a href=\"https://lannuaire.service-public.fr/bourgogne-franche-comte/cote-d-or/tgi-21231-01\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Tribunal judiciaire</a>",
+      "<a href=\"juge-des-affaires-familiales/\" style=\"border-bottom:1px solid var(--gold)\">Juge aux affaires familiales</a>",
+      "<a href=\"tribunal-pour-enfants/\" style=\"border-bottom:1px solid var(--gold)\">Tribunal pour enfants</a>"
+     ]
+    },
+    {
+     "kicker": "Vous cherchez des informations sur…",
+     "title": "Informations",
+     "list": [
+      "<a href=\"https://eservices.dijon.fr/Pages/EtatCivil/demande-d-acte.aspx\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Demandes d'actes d'état civil</a>",
+      "<a href=\"https://www.demarches.interieur.gouv.fr/particuliers/comment-obtenir-copie-jugement\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Obtenir un ancien jugement</a>",
+      "<a href=\"https://www.insee.fr/fr/information/1300608\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Revalorisation des pensions alimentaires (Insee)</a>",
+      "<a href=\"https://www.service-public.fr/particuliers/vosdroits/F18074\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">L'aide juridictionnelle</a>",
+      "<a href=\"http://www.cmco-mediation.com/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Le CMCO</a>",
+      "<a href=\"http://www.solidaritefemmes.org/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Urgence : Solidarité Femmes</a>",
+      "<a href=\"http://solidaritefemmes21.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Solidarité Femmes Dijon</a>"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b20aec57875f4296846e56393a3a39cf.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "kicker": "Formulaires",
+     "title": "Documents pratiques",
+     "list": [
+      "<a href=\"https://www.service-public.fr/particuliers/vosdroits/R18759\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Consultation du dossier d'assistance éducative</a>",
+      "<a href=\"https://www.formulaires.modernisation.gouv.fr/gf/cerfa_11808.do\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Copie d'une décision civile, sociale ou commerciale</a>",
+      "<a href=\"https://www.formulaires.modernisation.gouv.fr/gf/cerfa_12823.do\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Copie d'une décision pénale</a>",
+      "<a href=\"https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_65e500e9f7764ed583bca5fe0f76bc81.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Audition d'un mineur devant le juge (PDF)</a>",
+      "<a href=\"droit-penal/\" style=\"border-bottom:1px solid var(--gold)\">Saisir la CIVI ou le SARVI</a>",
+      "<a href=\"https://www.service-public.fr/particuliers/vosdroits/R1259\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Calcul de la revalorisation d'une pension alimentaire</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blog",
+   "id": "publications",
+   "eyebrow": "Publications",
+   "title": "Articles <em class=\"it\">de presse</em>",
+   "lead": "Articles parus dans Le Bien Public (édition Dijon ville).",
+   "step": 6,
+   "posts": [
+    {
+     "title": "Les accords en droit de la famille",
+     "cat": "Droit de la famille",
+     "date": "Le Bien Public, mai 2014",
+     "desc": "Article paru dans Le Bien Public, édition Dijon ville.",
+     "img": "https://static.wixstatic.com/media/0e4c455cbea78fe4f2ef6fe7a1653a9c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "url": "https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_82720fa67d6e4da3a2311c0763669931.pdf"
+    },
+    {
+     "title": "Zoom sur les comptes bancaires joints en cas de séparation",
+     "cat": "Patrimoine",
+     "date": "Le Bien Public, juillet 2014",
+     "desc": "Article paru dans Le Bien Public, édition Dijon ville.",
+     "img": "https://static.wixstatic.com/media/3a5e496ebe9a4365bcf53923eb3f37b5.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "url": "https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_64848f8f6231478f94043cf9e9886fda.pdf"
+    },
+    {
+     "title": "Jouissance du domicile conjugal en cas de divorce",
+     "cat": "Droit de la famille",
+     "date": "Le Bien Public, août 2014",
+     "desc": "Article paru dans Le Bien Public, édition Dijon ville.",
+     "img": "https://static.wixstatic.com/media/2d6f9097ccb0419d938e530452a2622a.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "url": "https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_d3b292e511e648448a8df673fa69a988.pdf"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "img": "https://static.wixstatic.com/media/3ba835cb88bfe700b333b0bfb003eb36.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "alt": "",
+   "eyebrow": "Contact",
+   "title": "Le cabinet, <em class=\"it\">boulevard Thiers</em>",
+   "text": "Cabinet de Maître Juliette Mesnard-Rouaux, 10, boulevard Thiers à Dijon : par téléphone, SMS, e-mail ou via le formulaire.",
+   "rows": [
+    [
+     "Adresse",
+     "10, boulevard Thiers, 21000 Dijon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33380734732\">03 80 73 47 32</a>"
+    ],
+    [
+     "SMS",
+     "<a href=\"tel:+33633297675\">06 33 29 76 75</a>"
+    ],
+    [
+     "Fax",
+     "03 80 45 82 33"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:jmesnardrouaux@orange.fr\">jmesnardrouaux@orange.fr</a>"
+    ],
+    [
+     "Barreau",
+     "<a href=\"http://www.barreau-dijon.avocat.fr/u/mesnard-rouaux\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Barreau de Dijon</a>"
+    ]
+   ],
+   "cta": [
+    "Écrire au cabinet",
+    "#ecrire"
+   ],
+   "map_q": "10 boulevard Thiers, 21000 Dijon"
+  },
+  {
+   "kind": "form",
+   "id": "ecrire",
+   "eyebrow": "Écrire au cabinet",
+   "title": "Votre <em class=\"it\">message</em>",
+   "lead": "Présentez brièvement votre situation et indiquez vos coordonnées.",
+   "side": [
+    "<b>Téléphone</b><br><a href=\"tel:+33380734732\">03 80 73 47 32</a>",
+    "<b>SMS</b><br><a href=\"tel:+33633297675\">06 33 29 76 75</a>",
+    "<b>E-mail</b><br><a href=\"mailto:jmesnardrouaux@orange.fr\">jmesnardrouaux@orange.fr</a>"
+   ],
+   "email": "jmesnardrouaux@orange.fr",
+   "subject": "Message depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Objet"
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5,
+     "required": true
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Maître Juliette Mesnard-Rouaux, avocate au barreau de Dijon depuis 1995 : droit de la famille, des personnes et de leur patrimoine, tribunal pour enfants, droit civil, droit pénal. Médiatrice au CMCO.",
+  "contact": [
+   "<a href=\"tel:+33380734732\">03 80 73 47 32</a>",
+   "SMS : <a href=\"tel:+33633297675\">06 33 29 76 75</a>",
+   "<a href=\"mailto:jmesnardrouaux@orange.fr\">jmesnardrouaux@orange.fr</a>",
+   "10, boulevard Thiers, 21000 Dijon",
+   "Fax : 03 80 45 82 33"
+  ],
+  "legal": "Avocate au barreau de Dijon · Prestation de serment en janvier 1995 · Médiatrice au Centre de Médiation de la Côte d'Or (CMCO)"
+ },
+ "pages": [
+  {
+   "slug": "formation-continue",
+   "label": "Formation continue",
+   "hidden": true,
+   "title": "Formation continue",
+   "h1": "Formation <em>continue</em>",
+   "eyebrow": "Votre avocate",
+   "lead": "Une loi de 2004 impose aux avocats au moins 20 heures de formation par an.",
+   "img": "https://static.wixstatic.com/media/e546e4fda51547a287b459c10d25937b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "formation",
+     "eyebrow": "Formation continue",
+     "title": "Mettre à jour <em class=\"it\">ses connaissances</em>",
+     "paras": [
+      "La loi du 11 février 2004 impose aux avocats de suivre au moins 20 heures de formation par an, pour mettre à jour et approfondir leurs connaissances professionnelles.",
+      "Maître Mesnard-Rouaux s'y engage particulièrement en droit de la famille et du patrimoine, et assure une veille juridique en assistance éducative et en aide aux victimes."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "colloques",
+     "eyebrow": "Colloques et formations",
+     "title": "Quelques <em class=\"it\">rendez-vous</em>",
+     "tight": true,
+     "items": [
+      {
+       "kicker": "Erage",
+       "title": "Formations Erage",
+       "link": [
+        "Les formations Erage",
+        "https://www.erage.eu/formation-continue/les-avocats-et-la-formation/"
+       ]
+      },
+      {
+       "kicker": "Conseil national des barreaux",
+       "title": "États généraux du droit de la famille",
+       "link": [
+        "Le programme (PDF)",
+        "https://www.cnb.avocat.fr/sites/default/files/programme_egdfp_2018_vf.pdf.pdf"
+       ]
+      },
+      {
+       "kicker": "Solidarité Femmes 21",
+       "title": "Colloque violences conjugales",
+       "link": [
+        "Le programme (PDF)",
+        "http://solidaritefemmes21.fr/wp-content/uploads/2015/09/Colloque-2015-web2.pdf"
+       ]
+      },
+      {
+       "kicker": "Dijon, 29 et 30 novembre 2013",
+       "title": "Assises nationales des avocats d'enfants",
+       "link": [
+        "L'annonce",
+        "http://forum-famille.dalloz.fr/2013/10/25/assises-nationales-des-avocats-denfants-a-dijon-les-29-et-30-novembre-2013-venez-nombreux/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "juge-des-affaires-familiales",
+   "label": "Affaires familiales",
+   "title": "Juge aux affaires familiales",
+   "h1": "Juge aux <em>affaires familiales</em>",
+   "eyebrow": "Compétences",
+   "lead": "Le juge aux affaires familiales traite l'ensemble du contentieux familial : divorce, parentalité, patrimoine.",
+   "img": "https://static.wixstatic.com/media/233567a7bafe4b85b663e740679eb5a3.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "jaf",
+     "img": "https://static.wixstatic.com/media/7f14bd5b24c941fe82b08f34c1a84764.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Marteau de juge",
+     "eyebrow": "Le contentieux familial",
+     "title": "Préparer <em class=\"it\">le dossier</em>",
+     "paras": [
+      "L'avocat instaure une relation de confiance, anticipe les difficultés et choisit le cadre juridique adapté à la séparation, qu'il s'agisse d'une rupture de concubinage ou d'un divorce.",
+      "Les parties sont encouragées à trouver un accord, éventuellement avec une médiation familiale menée en parallèle. Les accords peuvent être homologués par le juge.",
+      "En cas de désaccord, le juge tranche. L'avocat expose la situation et formule des propositions dans l'intérêt de la famille et des enfants.",
+      "L'avocat peut aussi assister le mineur, à sa demande, dans les procédures qui le concernent. <a href=\"https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_65e500e9f7764ed583bca5fe0f76bc81.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Formulaire de demande (PDF)</a>"
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "domaines-jaf",
+     "eyebrow": "Domaines couverts",
+     "title": "Devant le juge <em class=\"it\">aux affaires familiales</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Divorce et séparation de corps",
+       "link": [
+        "Sur service-public.fr",
+        "https://www.service-public.fr/particuliers/vosdroits/N159"
+       ]
+      },
+      {
+       "title": "Autorité parentale et droit de visite",
+       "paras": [
+        "Modification de l'autorité parentale, droit de visite."
+       ],
+       "link": [
+        "Sur service-public.fr",
+        "https://www.service-public.fr/particuliers/vosdroits/F10479"
+       ]
+      },
+      {
+       "title": "Contribution alimentaire",
+       "paras": [
+        "Contribution alimentaire et aliments pour majeurs."
+       ],
+       "link": [
+        "Document (PDF)",
+        "https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_9ecdc64f37014990bee4a1c8bc36b0c7.pdf"
+       ]
+      },
+      {
+       "title": "Filiation",
+       "paras": [
+        "Action en contestation ou en reconnaissance de paternité."
+       ],
+       "link": [
+        "Sur service-public.fr",
+        "https://www.service-public.fr/particuliers/vosdroits/F940"
+       ]
+      },
+      {
+       "title": "Adoption",
+       "link": [
+        "Sur service-public.fr",
+        "https://www.service-public.fr/particuliers/vosdroits/N133"
+       ]
+      },
+      {
+       "title": "Régime matrimonial",
+       "paras": [
+        "Liquidation et partage du régime matrimonial."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "mediation-familiale",
+     "eyebrow": "Médiation",
+     "title": "À tout stade <em class=\"it\">de la procédure</em>",
+     "paras": [
+      "La médiation peut être ordonnée ou demandée à tout stade de la procédure (articles 131-1 et suivants, <a href=\"https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006117227&cidTexte=LEGITEXT000006070716\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">sur Légifrance</a>).",
+      "Maître Mesnard-Rouaux est médiatrice au sein du CMCO et du Centre National de Médiation des Avocats.",
+      "<a href=\"https://www.bienpublic.com/edition-dijon-ville/2014/05/07/les-accords-en-droit-de-la-famille\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Les accords en droit de la famille (Le Bien Public)</a> · <a href=\"http://www.cmco-mediation.com/acocats-CMCO.php\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Le CMCO</a> · <a href=\"https://cnma.avocat.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Le CNMA</a>"
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/3ba835cb88bfe700b333b0bfb003eb36.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "eyebrow": "Contact",
+     "title": "Contacter <em class=\"it\">le cabinet</em>",
+     "cta": [
+      "Écrire à Maître Mesnard-Rouaux",
+      "#ecrire"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tribunal-pour-enfants",
+   "label": "Enfants",
+   "title": "Tribunal pour enfants",
+   "h1": "Tribunal <em>pour enfants</em>",
+   "eyebrow": "Compétences",
+   "lead": "Le juge des enfants est une juridiction spécialisée qui traite les litiges concernant les mineurs.",
+   "img": "https://static.wixstatic.com/media/79e6ff0b4fa14818b14a29f9eca3dccc.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "tpe",
+     "img": "https://static.wixstatic.com/media/c5592548d3382d904e712f41993d8674.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Dessin d'enfants",
+     "eyebrow": "Volet pénal",
+     "title": "Le mineur <em class=\"it\">et la justice</em>",
+     "paras": [
+      "Le juge des enfants intervient lorsqu'un mineur a commis une infraction. L'assistance d'un avocat est alors obligatoire : il est choisi par le jeune ou sa famille, ou désigné par le Bâtonnier.",
+      "Le mineur peut être jugé en chambre du conseil par le juge seul, ou renvoyé devant le tribunal pour enfants.",
+      "Les sanctions ont une visée éducative (remise à parent, admonestation, réparation pénale). Une peine de prison reste possible, limitée à la moitié de celle prévue pour un majeur."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "assistance-educative",
+     "eyebrow": "Volet civil",
+     "title": "L'assistance <em class=\"it\">éducative</em>",
+     "paras": [
+      "Le juge des enfants peut ouvrir une assistance éducative lorsque la santé, la sécurité ou la moralité du mineur est en danger.",
+      "L'avocat défend les parents ou le mineur pendant les mesures : mesure judiciaire d'investigation éducative (MJIE), action éducative en milieu ouvert (AEMO), placement à domicile ou chez un tiers, organisation des droits de visite. Il a accès au dossier judiciaire pour préparer la défense.",
+      "Maître Mesnard-Rouaux intervient en assistance éducative et assiste également les mineurs devant le juge aux affaires familiales, sur demande écrite.",
+      "<a href=\"http://www.justice.gouv.fr/justice-penale-11330/les-decisions-judiciaires-pour-les-mineurs-12123/les-mesures-dinvestigation-21091.html\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Les mesures d'investigation (MJIE)</a> · <a href=\"http://www.justice.gouv.fr/justice-des-mineurs-10042/presentation-10043/les-decisions-judiciaires-civiles-18656.html\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Les décisions civiles (AEMO)</a>"
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "colloques-enfants",
+     "eyebrow": "Colloques",
+     "title": "Interventions <em class=\"it\">de Maître Mesnard-Rouaux</em>",
+     "tight": true,
+     "items": [
+      {
+       "kicker": "2002",
+       "title": "La communication des dossiers judiciaires",
+       "link": [
+        "Lire (PDF)",
+        "https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_eb5b7f164d4b4e4cb3c4931be84d4f82.pdf"
+       ]
+      },
+      {
+       "kicker": "2003",
+       "title": "Les écrits professionnels en assistance éducative",
+       "link": [
+        "Lire (PDF)",
+        "https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_b88fbdb6b7cb43c3ba7a4e713f0c9717.pdf"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/3ba835cb88bfe700b333b0bfb003eb36.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "eyebrow": "Contact",
+     "title": "Contacter <em class=\"it\">le cabinet</em>",
+     "cta": [
+      "Écrire à Maître Mesnard-Rouaux",
+      "#ecrire"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-civil",
+   "label": "Droit civil",
+   "title": "Droit civil",
+   "h1": "Droit <em>civil</em>",
+   "eyebrow": "Compétences",
+   "lead": "Logement, troubles du voisinage, contrats et responsabilité civile : le contentieux de la vie quotidienne.",
+   "img": "https://static.wixstatic.com/media/d2432fc4f3844ccd8adf5b0269d295eb.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "img_pos": "center top",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "civil",
+     "img": "https://static.wixstatic.com/media/b3a4967ff3214a43b9ca98e1b3b8777b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Table des juges",
+     "eyebrow": "Droit civil",
+     "title": "Conseiller <em class=\"it\">et assister</em>",
+     "paras": [
+      "Généraliste formée au droit des affaires, Maître Mesnard-Rouaux conseille sur l'opportunité d'engager une procédure et assiste ses clients dans les poursuites. Les solutions amiables sont privilégiées lorsque c'est possible.",
+      "L'avocat intervient en conseil en amont, pour éviter le procès, ou en défense devant toute juridiction."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "domaines-civil",
+     "eyebrow": "Domaines couverts",
+     "title": "Les litiges <em class=\"it\">du quotidien</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Le logement",
+       "paras": [
+        "Contrats de location, impayés, expulsions, achats et prêts immobiliers, voies de recouvrement."
+       ]
+      },
+      {
+       "title": "Les contrats de la vie courante",
+       "paras": [
+        "Achat, vente, défaut de paiement, mise en œuvre d'une garantie."
+       ]
+      },
+      {
+       "title": "La responsabilité civile",
+       "paras": [
+        "Accident, faute ou négligence professionnelle, avec une aide au recouvrement de l'indemnisation."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "juridictions",
+     "eyebrow": "Juridictions",
+     "title": "Devant <em class=\"it\">quel juge ?</em>",
+     "paras": [
+      "Litiges inférieurs à 5 000 € ou certains contentieux (par exemple la protection des majeurs) : juge des contentieux de la protection.",
+      "Litiges d'un montant indéterminé ou supérieur à 5 000 € : tribunal judiciaire ou tribunal de proximité.",
+      "En cas d'urgence, une expertise peut être demandée au président du tribunal judiciaire statuant en référé.",
+      "<a href=\"https://www.service-public.fr/particuliers/vosdroits/F20851\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Saisir le tribunal judiciaire (service-public.fr)</a>"
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/3ba835cb88bfe700b333b0bfb003eb36.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "eyebrow": "Contact",
+     "title": "Contacter <em class=\"it\">le cabinet</em>",
+     "cta": [
+      "Écrire à Maître Mesnard-Rouaux",
+      "#ecrire"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-penal",
+   "label": "Droit pénal",
+   "title": "Droit pénal",
+   "h1": "Droit <em>pénal</em>",
+   "eyebrow": "Compétences",
+   "lead": "Défense devant les juridictions pénales et aide aux victimes, en particulier de violences conjugales.",
+   "img": "https://static.wixstatic.com/media/e6bfc3ec5e0945a597db5b89463a6e97.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "penal",
+     "img": "https://static.wixstatic.com/media/95677f_2edb9c7048a94b1ea97d4a0fc79732e7~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Caricature",
+     "eyebrow": "Droit pénal",
+     "title": "Devant toute <em class=\"it\">juridiction pénale</em>",
+     "paras": [
+      "Maître Mesnard-Rouaux défend ses clients en droit pénal, notamment dans les affaires de violences conjugales, et aide les victimes à faire valoir leurs droits.",
+      "Elle intervient devant le délégué du procureur, le tribunal de police, en comparution immédiate, en CRPC, devant le juge d'instruction, le tribunal correctionnel et la cour d'assises."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "violences",
+     "eyebrow": "Violences conjugales",
+     "title": "Agir <em class=\"it\">tôt</em>",
+     "tight": true,
+     "items": [
+      {
+       "kicker": "Formation",
+       "title": "Délinquance intrafamiliale",
+       "paras": [
+        "Formée à la délinquance intrafamiliale, Maître Mesnard-Rouaux oriente les victimes vers les réseaux d'aide et sensibilise aussi les auteurs à la gravité de leurs actes. En cas d'urgence, une ordonnance de protection peut être demandée."
+       ],
+       "list": [
+        "<a href=\"http://www.solidaritefemmes.org/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Solidarité Femmes</a>",
+        "<a href=\"http://www.solidaritefemmes.org/upload/fnsf-avocates-violences-2014.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Annuaire des avocats Solidarité Femmes (PDF)</a>",
+        "<a href=\"https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_7bc06562c23e448b828b616cd369b35b.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Politique pénale d'aide aux victimes (PDF)</a>",
+        "<a href=\"http://www.maisondesadolescents21.fr/\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Adosphère, maison des adolescents</a>",
+        "<a href=\"https://www.service-public.fr/particuliers/vosdroits/F12544\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Violences conjugales (service-public.fr)</a>",
+        "<a href=\"https://www.service-public.fr/particuliers/vosdroits/R42412\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">L'ordonnance de protection</a>"
+       ]
+      },
+      {
+       "kicker": "Plainte",
+       "title": "Aide au dépôt de plainte",
+       "paras": [
+        "La suite donnée à la plainte relève du procureur, mais la police ou la gendarmerie ne peuvent pas refuser de la recevoir. En cas de refus, la victime peut écrire directement au procureur de la République.",
+        "En cas de classement sans suite, la victime peut saisir le juge par citation directe ou par plainte avec constitution de partie civile auprès du doyen des juges d'instruction."
+       ],
+       "list": [
+        "<a href=\"https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_e4bcd54018a3468c9d0745336e16fa63.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Violences conjugales : comment déposer plainte (PDF)</a>",
+        "<a href=\"https://www.service-public.fr/particuliers/vosdroits/F20798\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">La plainte avec constitution de partie civile</a>"
+       ]
+      },
+      {
+       "kicker": "Indemnisation",
+       "title": "Réparation du préjudice",
+       "paras": [
+        "Accompagnement pour la réparation de l'ensemble du préjudice (perte de logement, loyers impayés, perte d'emploi, difficultés bancaires) et aide au recouvrement des dommages et intérêts auprès de la CIVI ou du SARVI."
+       ],
+       "list": [
+        "<a href=\"https://lannuaire.service-public.fr/bourgogne-franche-comte/cote-d-or/civi-21231-01\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">La CIVI de Côte-d'Or</a>",
+        "<a href=\"https://www.fondsdegarantie.fr/wp-content/uploads/2017/06/FG-DEMANDE-AIDE-RECOUVREMENT-2011_FG-DEMANDE_AIDE_RECOUVREMENT.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Demande d'aide au recouvrement SARVI (PDF)</a>",
+        "<a href=\"https://870d90db-eafd-43f8-aee3-eae2af0c89fc.filesusr.com/ugd/95677f_64848f8f6231478f94043cf9e9886fda.pdf\" target=\"_blank\" rel=\"noopener\" style=\"border-bottom:1px solid var(--gold)\">Difficultés bancaires (PDF)</a>"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/3ba835cb88bfe700b333b0bfb003eb36.png/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "eyebrow": "Contact",
+     "title": "Contacter <em class=\"it\">le cabinet</em>",
+     "cta": [
+      "Écrire à Maître Mesnard-Rouaux",
+      "#ecrire"
+     ]
+    }
+   ]
+  }
+ ]
+}
