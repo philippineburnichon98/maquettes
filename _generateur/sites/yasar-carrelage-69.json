@@ -1,0 +1,580 @@
+{
+ "slug": "yasar-carrelage-69-c52a31",
+ "title": "Yasar Carrelage 69 — Carreleur à Caluire-et-Cuire (Lyon, Rhône)",
+ "description": "Yasar Carrelage 69, carreleur à Caluire-et-Cuire : pose de tous types de carrelages, faïences, pierres, dalles, douches à l'italienne et carreaux de ciment, pour particuliers et professionnels, en neuf et en rénovation. Devis rapide et gratuit.",
+ "brand": "Yasar Carrelage 69",
+ "tagline": "Carrelage · revêtements sol et mur",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/3a9c4f_e4b931fda23e453ea4a94f47eff5cfd4~mv2.png/v1/crop/x_249,y_283,w_647,h_977/fill/w_270,h_408,al_c,q_85/lightX%203_PNG.png",
+  "height": 58,
+  "with_name": true
+ },
+ "theme": {
+  "look": "center",
+  "paper": "#f5f3ef",
+  "paper2": "#e7e3dc",
+  "ink": "#1b2226",
+  "muted": "#5a6166",
+  "accent": "#1f5f7a",
+  "accent2": "#174a5f",
+  "gold": "#c8a165",
+  "heroem": "#bfe3f0",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Devis rapide &amp; gratuit",
+  "<a href=\"tel:+33664162409\">Tél. 06 64 16 24 09</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [
+  [
+   "revetements",
+   "Revêtements"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/3a9c4f_866fca0fffe6476f86bab27e30f0a7b6~mv2_d_1241_1241_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_866fca0fffe6476f86bab27e30f0a7b6~mv2_d_1241_1241_s_2.jpg",
+  "eyebrow": "Carreleur · Caluire-et-Cuire · Auvergne-Rhône-Alpes",
+  "title": "Carrelage, faïence et pierre, <em>sol et mur</em>",
+  "lead": "Professionnels & particuliers, neuf & rénovation : Yasar Carrelage 69 pose tous types de carrelages, faïences, pierres, dalles, douches à l'italienne et carreaux de ciment.",
+  "cta1": [
+   "Demandez un devis",
+   "mailto:yasar.carrelage@gmail.com?subject=demande%20de%20devis"
+  ],
+  "cta2": [
+   "06 64 16 24 09",
+   "tel:+33664162409"
+  ]
+ },
+ "figures": [
+  [
+   "2015",
+   "création de l'entreprise"
+  ],
+  [
+   "5",
+   "professionnels dans l'équipe"
+  ],
+  [
+   "13 ans",
+   "d'expérience à la création"
+  ],
+  [
+   "Devis",
+   "rapide & gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "revetements",
+   "eyebrow": "Revêtements sol et mur",
+   "title": "Tous types <em class=\"it\">de poses</em>",
+   "lead": "Pour les professionnels comme pour les particuliers, en neuf comme en rénovation.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/3a9c4f_58e914a5a442426ab3f18f0fc67242c0~mv2_d_1241_1241_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_58e914a5a442426ab3f18f0fc67242c0~mv2_d_1241_1241_s_2.jpg",
+     "alt": "Carreaux hexagonaux",
+     "kicker": "Carrelage",
+     "title": "Carrelages et carreaux de ciment",
+     "paras": [
+      "Carreaux hexagonaux, damier, imitation marbre ou parquet, grands formats 60x120 : pose droite, décalée, en diagonale, en chevron ou en module."
+     ],
+     "link": [
+      "Nos réalisations",
+      "our-products/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/3a9c4f_61f0363e496c4ee88d76c366fd87a1fb~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_61f0363e496c4ee88d76c366fd87a1fb~mv2.jpg",
+     "alt": "Salle de bain",
+     "kicker": "Salle de bain",
+     "title": "Faïence et douche à l'italienne",
+     "paras": [
+      "Faïence en relief ou effet 3D, mosaïque, douche à l'italienne, baignoire, hammam."
+     ],
+     "link": [
+      "Nos réalisations",
+      "our-products/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/3a9c4f_25acad97f3c143559fcf06efd7eed9cb~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_25acad97f3c143559fcf06efd7eed9cb~mv2.jpg",
+     "alt": "Plage de piscine",
+     "kicker": "Extérieur",
+     "title": "Pierres, dalles et piscines",
+     "paras": [
+      "Pierre de parement, dalles, plages de piscine, mosaïque de piscine, pataugeoire, escaliers et chape lisse."
+     ],
+     "link": [
+      "Nos réalisations",
+      "our-products/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "devis-rapide",
+   "eyebrow": "Devis rapide & gratuit",
+   "title": "N'hésitez pas <em class=\"it\">à nous contacter</em>",
+   "img": "https://static.wixstatic.com/media/3a9c4f_62463833d4bb43d48162278f2e68b31d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_62463833d4bb43d48162278f2e68b31d~mv2.jpg",
+   "alt": "SMS 06 64 16 24 09 #yasarcarrelage69",
+   "paras": [
+    "Demandez votre devis par e-mail, par téléphone ou par SMS au 06 64 16 24 09.",
+    "Facilités de paiement : paiement en plusieurs fois."
+   ],
+   "sign": "Yasar Carrelage 69"
+  },
+  {
+   "kind": "gallery",
+   "id": "realisations",
+   "eyebrow": "Nos dernières réalisations",
+   "title": "Quelques <em class=\"it\">chantiers</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg",
+     "alt": "Yasar Carrelage 69 : imitation marbre",
+     "caption": "Imitation marbre"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg",
+     "alt": "Yasar Carrelage 69 : baignoire hexagone",
+     "caption": "Baignoire hexagone"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg",
+     "alt": "Yasar Carrelage 69 : imitation parquet & hexagone",
+     "caption": "Imitation parquet & hexagone"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg",
+     "alt": "Yasar Carrelage 69 : hamam",
+     "caption": "Hamam"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg",
+     "full": "https://static.wixstatic.com/media/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg",
+     "alt": "Yasar Carrelage 69 : mosaïque piscine",
+     "caption": "Mosaïque piscine"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg",
+     "alt": "Yasar Carrelage 69 : faïence relief",
+     "caption": "Faïence relief"
+    }
+   ],
+   "cta": [
+    "Voir toutes nos réalisations",
+    "our-products/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Contact",
+   "title": "Yasar Carrelage 69, <em class=\"it\">Caluire-et-Cuire</em>",
+   "text": "Rénovation et pose de carrelage et de revêtements en région Auvergne-Rhône-Alpes.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33664162409\">06 64 16 24 09</a><br><a href=\"tel:+33761263160\">07 61 26 31 60</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:yasar.carrelage@gmail.com\">yasar.carrelage@gmail.com</a>"
+    ]
+   ],
+   "cta": [
+    "Nous contacter",
+    "contact/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "our-products",
+   "label": "Nos réalisations",
+   "title": "Nos réalisations",
+   "eyebrow": "Types de revêtements et poses",
+   "lead": "Carrelage, faïence, mosaïque, pierre, dalles : une sélection de nos chantiers.",
+   "img": "https://static.wixstatic.com/media/3a9c4f_c87a5943091f4adb9e5ec7b004903981~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_c87a5943091f4adb9e5ec7b004903981~mv2.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "poses",
+     "eyebrow": "Types de revêtements et poses",
+     "title": "Nos <em class=\"it\">réalisations</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_8c60302a17f34938b19697e09e8f69cf~mv2_d_1242_1242_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : imitation marbre",
+       "caption": "Imitation marbre"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_3f88d37b238c4410b57c1dd7f6713f01~mv2_d_1242_1242_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : baignoire hexagone",
+       "caption": "Baignoire hexagone"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_c43f7777c70a44d78cb96b06cedef6c7~mv2_d_1242_1552_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : imitation parquet & hexagone",
+       "caption": "Imitation parquet & hexagone"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : hamam",
+       "caption": "Hamam"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_5f59bb2173394302a9e430eb52cd99c3~mv2_d_1242_1242_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : mosaïque piscine",
+       "caption": "Mosaïque piscine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_4340a8b1e2c4438dbfbe80432537090c~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : faïence relief",
+       "caption": "Faïence relief"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_866fca0fffe6476f86bab27e30f0a7b6~mv2_d_1241_1241_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_866fca0fffe6476f86bab27e30f0a7b6~mv2_d_1241_1241_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_866fca0fffe6476f86bab27e30f0a7b6~mv2_d_1241_1241_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_866fca0fffe6476f86bab27e30f0a7b6~mv2_d_1241_1241_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : salle de bain",
+       "caption": "Salle de bain"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_c3190b0c824b4829a4e4fb15dc0982ce~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_c3190b0c824b4829a4e4fb15dc0982ce~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_c3190b0c824b4829a4e4fb15dc0982ce~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_c3190b0c824b4829a4e4fb15dc0982ce~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : damier",
+       "caption": "Damier"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_25acad97f3c143559fcf06efd7eed9cb~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_25acad97f3c143559fcf06efd7eed9cb~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_25acad97f3c143559fcf06efd7eed9cb~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_25acad97f3c143559fcf06efd7eed9cb~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : plage de piscine",
+       "caption": "Plage de piscine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_dfa2aa60745d4fc4a641c685d817ebb4~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_dfa2aa60745d4fc4a641c685d817ebb4~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_dfa2aa60745d4fc4a641c685d817ebb4~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_dfa2aa60745d4fc4a641c685d817ebb4~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : escalier",
+       "caption": "Escalier"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_bca149eb0042459b94f440dec8f46a0c~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_bca149eb0042459b94f440dec8f46a0c~mv2_d_4032_3024_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_bca149eb0042459b94f440dec8f46a0c~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_bca149eb0042459b94f440dec8f46a0c~mv2_d_4032_3024_s_4_2.jpg",
+       "alt": "Yasar Carrelage 69 : pataugeoire",
+       "caption": "Pataugeoire"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_07a41d4bfb90483888b77bd2a167e764~mv2_d_1242_1650_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_07a41d4bfb90483888b77bd2a167e764~mv2_d_1242_1650_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_07a41d4bfb90483888b77bd2a167e764~mv2_d_1242_1650_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_07a41d4bfb90483888b77bd2a167e764~mv2_d_1242_1650_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : faïence effet 3D",
+       "caption": "Faïence effet 3D"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_8f69db61abf54220a31375f8cf73e1a3~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_8f69db61abf54220a31375f8cf73e1a3~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_8f69db61abf54220a31375f8cf73e1a3~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_8f69db61abf54220a31375f8cf73e1a3~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : baignoire",
+       "caption": "Baignoire"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_15f093cb02934bceafde89a653573ceb~mv2_d_1242_2208_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_15f093cb02934bceafde89a653573ceb~mv2_d_1242_2208_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_15f093cb02934bceafde89a653573ceb~mv2_d_1242_2208_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_15f093cb02934bceafde89a653573ceb~mv2_d_1242_2208_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : plage de piscine",
+       "caption": "Plage de piscine"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_97eda541b1c644bdad3fceaedf7eeb7e~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_97eda541b1c644bdad3fceaedf7eeb7e~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_97eda541b1c644bdad3fceaedf7eeb7e~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_97eda541b1c644bdad3fceaedf7eeb7e~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : douche & WC",
+       "caption": "Douche & WC"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_58e914a5a442426ab3f18f0fc67242c0~mv2_d_1241_1241_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_58e914a5a442426ab3f18f0fc67242c0~mv2_d_1241_1241_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_58e914a5a442426ab3f18f0fc67242c0~mv2_d_1241_1241_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_58e914a5a442426ab3f18f0fc67242c0~mv2_d_1241_1241_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : carreaux hexagonaux",
+       "caption": "Carreaux hexagonaux"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_61f0363e496c4ee88d76c366fd87a1fb~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_61f0363e496c4ee88d76c366fd87a1fb~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_61f0363e496c4ee88d76c366fd87a1fb~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_61f0363e496c4ee88d76c366fd87a1fb~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : en relief",
+       "caption": "En relief"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_cb738cd1a2f4467f86cecd2f8a5d1b0c~mv2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_cb738cd1a2f4467f86cecd2f8a5d1b0c~mv2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_cb738cd1a2f4467f86cecd2f8a5d1b0c~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_cb738cd1a2f4467f86cecd2f8a5d1b0c~mv2.jpeg",
+       "alt": "Yasar Carrelage 69 : pose diagonale damier 60x60",
+       "caption": "Pose diagonale damier 60x60"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_c87a5943091f4adb9e5ec7b004903981~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_c87a5943091f4adb9e5ec7b004903981~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_c87a5943091f4adb9e5ec7b004903981~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_c87a5943091f4adb9e5ec7b004903981~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : douche à l'italienne",
+       "caption": "Douche à l'italienne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_824bf84e91da4f51b422ac64179c9a5a~mv2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_824bf84e91da4f51b422ac64179c9a5a~mv2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_824bf84e91da4f51b422ac64179c9a5a~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_824bf84e91da4f51b422ac64179c9a5a~mv2.jpeg",
+       "alt": "Yasar Carrelage 69 : pierre de parement",
+       "caption": "Pierre de parement"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_53e5bce4e90746539f49da9472d5d162~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_53e5bce4e90746539f49da9472d5d162~mv2_d_3264_2448_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_53e5bce4e90746539f49da9472d5d162~mv2_d_3264_2448_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_53e5bce4e90746539f49da9472d5d162~mv2_d_3264_2448_s_4_2.jpg",
+       "alt": "Yasar Carrelage 69 : pose en module",
+       "caption": "Pose en module"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_e3830f7b56c2466986629340357b5dd7~mv2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_e3830f7b56c2466986629340357b5dd7~mv2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_e3830f7b56c2466986629340357b5dd7~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_e3830f7b56c2466986629340357b5dd7~mv2.jpeg",
+       "alt": "Yasar Carrelage 69 : douche italienne",
+       "caption": "Douche italienne"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_9a4b6fa4616545b7986c747d4863e14f~mv2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_9a4b6fa4616545b7986c747d4863e14f~mv2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_9a4b6fa4616545b7986c747d4863e14f~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_9a4b6fa4616545b7986c747d4863e14f~mv2.jpeg",
+       "alt": "Yasar Carrelage 69 : mosaïque",
+       "caption": "Mosaïque"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_b7c214e09dab4ecaab2cb35c8cc1af6a~mv2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_b7c214e09dab4ecaab2cb35c8cc1af6a~mv2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_b7c214e09dab4ecaab2cb35c8cc1af6a~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_b7c214e09dab4ecaab2cb35c8cc1af6a~mv2.jpeg",
+       "alt": "Yasar Carrelage 69 : pose droite 60x120",
+       "caption": "Pose droite 60x120"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_20998cdbd7f64e39a43983c07a82f52d~mv2_d_2592_1944_s_2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_20998cdbd7f64e39a43983c07a82f52d~mv2_d_2592_1944_s_2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_20998cdbd7f64e39a43983c07a82f52d~mv2_d_2592_1944_s_2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_20998cdbd7f64e39a43983c07a82f52d~mv2_d_2592_1944_s_2.jpeg",
+       "alt": "Yasar Carrelage 69 : pose décalée 30x60",
+       "caption": "Pose décalée 30x60"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_98a47ce860eb49d7b40e5c9d24591246~mv2_d_1500_1500_s_2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_98a47ce860eb49d7b40e5c9d24591246~mv2_d_1500_1500_s_2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_98a47ce860eb49d7b40e5c9d24591246~mv2_d_1500_1500_s_2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_98a47ce860eb49d7b40e5c9d24591246~mv2_d_1500_1500_s_2.jpeg",
+       "alt": "Yasar Carrelage 69 : imitation parquet 20x120",
+       "caption": "Imitation parquet 20x120"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_f419e0f80d77436bac1bb3ca1be84f61~mv2_d_1536_2048_s_2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_f419e0f80d77436bac1bb3ca1be84f61~mv2_d_1536_2048_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_f419e0f80d77436bac1bb3ca1be84f61~mv2_d_1536_2048_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_f419e0f80d77436bac1bb3ca1be84f61~mv2_d_1536_2048_s_2.jpg",
+       "alt": "Yasar Carrelage 69 : pose chevron 60x20",
+       "caption": "Pose chevron 60x20"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_a05163dba0504f2894741ba75d8f0e25~mv2.jpg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_a05163dba0504f2894741ba75d8f0e25~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_a05163dba0504f2894741ba75d8f0e25~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_a05163dba0504f2894741ba75d8f0e25~mv2.jpg",
+       "alt": "Yasar Carrelage 69 : autres",
+       "caption": "Autres"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_7cc9533cea704933b2dac038b2e0d258~mv2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_7cc9533cea704933b2dac038b2e0d258~mv2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_7cc9533cea704933b2dac038b2e0d258~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_7cc9533cea704933b2dac038b2e0d258~mv2.jpeg",
+       "alt": "Yasar Carrelage 69 : chape lisse",
+       "caption": "Chape lisse"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/3a9c4f_e57e38c2275d450e8b35318a404f972b~mv2.jpeg/v1/fit/w_800,h_800,al_c,q_85/3a9c4f_e57e38c2275d450e8b35318a404f972b~mv2.jpeg",
+       "full": "https://static.wixstatic.com/media/3a9c4f_e57e38c2275d450e8b35318a404f972b~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_e57e38c2275d450e8b35318a404f972b~mv2.jpeg",
+       "alt": "Yasar Carrelage 69 : escalier",
+       "caption": "Escalier"
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "marques",
+     "eyebrow": "Marques",
+     "title": "Des fournisseurs <em class=\"it\">reconnus</em>",
+     "paras": [
+      "Yasar Carrelage 69 prend soin de ne collaborer qu'avec des fournisseurs reconnus proposant des matériaux de qualité : Marazzi, Plattard, Decoceram, Bosch, Dépôt Service."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/3a9c4f_21f0516b4c8b4ff081b58f45989e909f~mv2.png/v1/fit/w_400,h_400,al_c,q_85/3a9c4f_21f0516b4c8b4ff081b58f45989e909f~mv2.png",
+       "Marazzi"
+      ],
+      [
+       "https://static.wixstatic.com/media/3a9c4f_50dd17ff60b7484fb6a9528142c791da~mv2.jpeg/v1/fit/w_400,h_400,al_c,q_85/3a9c4f_50dd17ff60b7484fb6a9528142c791da~mv2.jpeg",
+       "Plattard"
+      ],
+      [
+       "https://static.wixstatic.com/media/3a9c4f_624248b9897647939e4369cb288e6e2d~mv2.jpeg/v1/fit/w_400,h_400,al_c,q_85/3a9c4f_624248b9897647939e4369cb288e6e2d~mv2.jpeg",
+       "Decoceram"
+      ],
+      [
+       "https://static.wixstatic.com/media/3a9c4f_1c81b20ec8044dfaa815ffd36bc7e33e~mv2.png/v1/fit/w_400,h_400,al_c,q_85/3a9c4f_1c81b20ec8044dfaa815ffd36bc7e33e~mv2.png",
+       "Bosch"
+      ],
+      [
+       "https://static.wixstatic.com/media/3a9c4f_02cee29aebb447118967066e4ca0396d~mv2.png/v1/fit/w_400,h_400,al_c,q_85/3a9c4f_02cee29aebb447118967066e4ca0396d~mv2.png",
+       "Dépôt Service"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "about-us",
+   "label": "À propos",
+   "title": "À propos",
+   "eyebrow": "Depuis 2015",
+   "lead": "Rénovation et pose de carrelage et de revêtements en région Auvergne-Rhône-Alpes.",
+   "img": "https://static.wixstatic.com/media/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_a5727a2aea6c46a49ed040a67aa11de7~mv2_d_1242_1242_s_2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "entreprise",
+     "eyebrow": "L'entreprise",
+     "title": "Une équipe <em class=\"it\">de cinq professionnels</em>",
+     "img": "https://static.wixstatic.com/media/3a9c4f_e4b931fda23e453ea4a94f47eff5cfd4~mv2.png/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_e4b931fda23e453ea4a94f47eff5cfd4~mv2.png",
+     "alt": "Yasar Carrelage 69",
+     "paras": [
+      "Yasar Carrelage 69 est une entreprise active dans le domaine de la rénovation et de la pose de carrelage et de revêtements en région Auvergne-Rhône-Alpes.",
+      "Créée en 2015 par Yasar Ertugrul et Yilmaz Kenan, elle met leurs 13 ans d'expérience au service d'une clientèle de plus en plus exigeante, avec des matériaux et des techniques innovants. Elle vous conseille sur la pose, l'entretien et votre budget.",
+      "Grâce à son équipe composée de cinq professionnels, Yasar Carrelage 69 est à même de vous proposer un travail de qualité réalisé avec soin dans les délais impartis, pour les particuliers, les entreprises, les cabinets d'architecture, les gérances et les collectivités."
+     ]
+    },
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "Les fondateurs",
+     "title": "Yasar Ertugrul <em class=\"it\">et Yilmaz Kenan</em>",
+     "people": [
+      {
+       "name": "Yasar Ertugrul",
+       "role": "Gérant, cofondateur",
+       "img": "https://static.wixstatic.com/media/3a9c4f_551c76accc3c4ba58d26e0a26e361151~mv2_d_1242_1552_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_551c76accc3c4ba58d26e0a26e361151~mv2_d_1242_1552_s_2.jpg",
+       "pos": "50% 20%"
+      },
+      {
+       "name": "Yilmaz Kenan",
+       "role": "Chargé d'affaires, cofondateur",
+       "img": "https://static.wixstatic.com/media/3a9c4f_8ddaf10b3a2a47d3adcfe99e36245c5d~mv2_d_1242_2208_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_8ddaf10b3a2a47d3adcfe99e36245c5d~mv2_d_1242_2208_s_2.jpg",
+       "pos": "50% 35%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis rapide & gratuit",
+   "lead": "23 avenue de Poumeyrol, bât. C, 69300 Caluire-et-Cuire.",
+   "img": "https://static.wixstatic.com/media/3a9c4f_7a5569a2e36c4502b26c0adc60b7b80f~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/3a9c4f_7a5569a2e36c4502b26c0adc60b7b80f~mv2.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis rapide & gratuit",
+     "title": "Demandez <em class=\"it\">un devis</em>",
+     "lead": "N'hésitez pas à nous contacter : décrivez votre projet de carrelage ou de revêtement.",
+     "email": "yasar.carrelage@gmail.com",
+     "subject": "demande de devis",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33664162409\">06 64 16 24 09</a>",
+      "ou <a href=\"tel:+33761263160\">07 61 26 31 60</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Coordonnées",
+     "title": "Yasar Carrelage 69",
+     "text": "Rénovation et pose de carrelage et de revêtements en région Auvergne-Rhône-Alpes.",
+     "rows": [
+      [
+       "Gérant",
+       "M. Yasar Ertugrul"
+      ],
+      [
+       "Chargé d'affaires",
+       "Yilmaz Kenan"
+      ],
+      [
+       "Adresse",
+       "23 avenue de Poumeyrol, bât. C<br>69300 Caluire-et-Cuire"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33664162409\">06 64 16 24 09</a><br><a href=\"tel:+33761263160\">07 61 26 31 60</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:yasar.carrelage@gmail.com\">yasar.carrelage@gmail.com</a>"
+      ],
+      [
+       "Réseaux",
+       "<a href=\"https://www.facebook.com/Yasarcarrelage/\" target=\"_blank\" rel=\"noopener\">Facebook</a> · <a href=\"https://www.instagram.com/yasarcarrelage/?hl=fr\" target=\"_blank\" rel=\"noopener\">Instagram</a> · <a href=\"https://www.youtube.com/watch?v=aBff4k2EpiQ\" target=\"_blank\" rel=\"noopener\">YouTube</a> · <a href=\"https://twitter.com/ERESKA03\" target=\"_blank\" rel=\"noopener\">Twitter</a>"
+      ]
+     ],
+     "cta": [
+      "Demandez un devis",
+      "mailto:yasar.carrelage@gmail.com?subject=demande%20de%20devis"
+     ],
+     "map_q": "23 avenue de Poumeyrol, 69300 Caluire-et-Cuire"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Yasar Carrelage 69 : rénovation et pose de carrelage, faïence, pierre et revêtements sol et mur, pour professionnels et particuliers, en neuf et en rénovation.",
+  "contact": [
+   "<a href=\"tel:+33664162409\">06 64 16 24 09</a>",
+   "<a href=\"tel:+33761263160\">07 61 26 31 60</a>",
+   "<a href=\"mailto:yasar.carrelage@gmail.com\">yasar.carrelage@gmail.com</a>",
+   "23 av. de Poumeyrol, 69300 Caluire-et-Cuire"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Yasarcarrelage/"
+   ],
+   [
+    "instagram",
+    "https://www.instagram.com/yasarcarrelage/?hl=fr"
+   ]
+  ],
+  "legal": "Yasar Carrelage 69 · gérant : M. Yasar Ertugrul · Caluire-et-Cuire."
+ }
+}
