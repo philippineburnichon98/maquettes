@@ -1,0 +1,668 @@
+{
+ "slug": "domaine-bazaillacq-13efd7",
+ "title": "Domaine Bazaillacq — Vins de Jurançon, vignerons à Jurançon près de Pau",
+ "description": "Domaine Bazaillacq, petit domaine familial des coteaux de Jurançon, à 12 km de Pau : Jurançon sec, Jurançon moelleux et cuvée spéciale d'Aïze, en vente uniquement à la cave.",
+ "brand": "Domaine Bazaillacq",
+ "tagline": "Vins de Jurançon",
+ "monogram": "DB",
+ "agegate": true,
+ "theme": {
+  "look": "editorial",
+  "paper": "#f8f4ec",
+  "paper2": "#efe6d4",
+  "ink": "#2a251d",
+  "muted": "#6c6253",
+  "accent": "#a0701c",
+  "accent2": "#7a5212",
+  "gold": "#c49a45",
+  "heroem": "#f1d48e",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Karla\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=Karla:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33620880545\">06 20 88 05 45</a>",
+  "<a href=\"mailto:jean-luc.bazaillacq@wanadoo.fr\">jean-luc.bazaillacq@wanadoo.fr</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/8a75a4_d5f84e84e575461faf47bbf14aeb0150~mv2.jpg",
+  "eyebrow": "Vins de Jurançon · 6e génération · Jurançon",
+  "title": "Domaine<br><em>Bazaillacq</em>",
+  "lead": "Au fil des générations, au rythme des saisons, à l'ombre de la tradition, comme un trait d'union : partager notre passion.",
+  "cta1": [
+   "Découvrir nos vins",
+   "nos-produits/"
+  ],
+  "cta2": [
+   "Nous rendre visite",
+   "contact/"
+  ]
+ },
+ "figures": [
+  [
+   "6<sup style=\"font-size:.5em\">e</sup>",
+   "génération de vignerons"
+  ],
+  [
+   "4 ha",
+   "de vignes"
+  ],
+  [
+   "150 ans",
+   "pour nos plus vieux ceps"
+  ],
+  [
+   "2400 L",
+   "nos foudres de chêne"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue au Domaine",
+   "title": "Partager <em class=\"it\">notre passion</em>",
+   "img": "https://static.wixstatic.com/media/8a75a4_ea646403d10641cb9af2bae11e916b2a~mv2.jpg",
+   "alt": "Domaine Bazaillacq",
+   "paras": [
+    "Au fil des générations,<br>Au rythme des saisons,<br>À l'ombre de la tradition,<br>Comme un trait d'union,<br>Partager notre passion."
+   ],
+   "sign": "Christine et Jean-Luc Bazaillacq"
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "Au fil du site",
+   "title": "De la vigne <em class=\"it\">à notre cave</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/b5f0f2_a1a5d61730944ba0b4429c76cc04a3b6~mv2.jpg",
+     "kicker": "Le Domaine",
+     "title": "Face aux Pyrénées",
+     "paras": [
+      "4 hectares de petit manseng et de gros manseng sur des pentes raides, à 12 km au sud-ouest de Pau."
+     ],
+     "link": [
+      "Le Domaine",
+      "le-domaine/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b5f0f2_7523447efcbd457bb7f6512196ceb75a~mv2.jpg/v1/crop/x_152,y_0,w_264,h_960/fill/w_264,h_960,al_c,q_90/cuvee-speciale-d-aize.jpg",
+     "contain": true,
+     "kicker": "Nos produits",
+     "title": "Sec, moelleux et d'Aïze",
+     "paras": [
+      "Jurançon sec, Jurançon moelleux et la cuvée spéciale d'Aïze."
+     ],
+     "link": [
+      "Nos produits",
+      "nos-produits/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/b5f0f2_fa5003c8b2954fb58581fef4d8f04df9~mv2.jpg",
+     "kicker": "À découvrir",
+     "title": "Un lieu de surprises",
+     "paras": [
+      "Réceptions, journée portes ouvertes, accueil des camping-cars, élevage laitier."
+     ],
+     "link": [
+      "À découvrir",
+      "a-decouvrir/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Notre identité",
+   "text": "« Notre identité, c'est la proximité avec nos clients. »",
+   "sub": "Partager, écouter, comprendre dans une relation où la passion est notre fil conducteur."
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/8a75a4_31b3c2b0bd40467b9efe0934ff9cfcc1~mv2.jpg",
+   "eyebrow": "Route des vins de Jurançon",
+   "title": "Portes ouvertes<br><em>le deuxième dimanche de décembre</em>",
+   "cta": [
+    "En savoir plus",
+    "a-decouvrir/#evenements"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "venir",
+   "eyebrow": "Venir au Domaine",
+   "title": "Chemin de Saint-Faust, <em class=\"it\">Jurançon</em>",
+   "text": "Christine et Jean-Luc Bazaillacq vous accueillent au Domaine.",
+   "rows": [
+    [
+     "Adresse",
+     "437 chemin de Saint-Faust<br>64110 Jurançon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33620880545\">06 20 88 05 45</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:jean-luc.bazaillacq@wanadoo.fr\">jean-luc.bazaillacq@wanadoo.fr</a>"
+    ]
+   ],
+   "map_q": "437 chemin de Saint-Faust, 64110 Jurançon",
+   "cta": [
+    "Nous contacter",
+    "contact/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "notre-histoire",
+   "label": "Notre histoire",
+   "title": "Notre histoire",
+   "h1": "Notre <em>histoire</em>",
+   "eyebrow": "Six générations de vignerons",
+   "lead": "La sixième génération de vignerons de notre petit domaine vous racontera l'histoire du Domaine Bazaillacq.",
+   "img": "https://static.wixstatic.com/media/8a75a4_ea646403d10641cb9af2bae11e916b2a~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "histoire",
+     "eyebrow": "Notre histoire",
+     "title": "Authentique, <em class=\"it\">confidentiel</em>",
+     "img": "https://static.wixstatic.com/media/8a75a4_b5c997b9a0a14b6fb3b84a8c8936f745~mv2.jpg",
+     "alt": "Domaine Bazaillacq",
+     "paras": [
+      "La sixième génération de vignerons de notre petit domaine vous racontera l'histoire du Domaine Bazaillacq.",
+      "Authentique, confidentiel, respectueux de notre patrimoine, le terroir.",
+      "Dans un cadre chaleureux, venez découvrir en toute simplicité nos Jurançons, introuvables ailleurs que dans notre cave.",
+      "Notre identité, c'est la proximité avec nos clients.",
+      "Partager, écouter, comprendre dans une relation où la passion est notre fil conducteur.",
+      "Le Jurançon Bazaillacq vous surprendra pour son caractère, et vous délivrera ses secrets."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "le-domaine",
+   "label": "Le Domaine",
+   "title": "Le Domaine",
+   "h1": "Le <em>Domaine</em>",
+   "eyebrow": "La vigne · Le chai · La cave",
+   "lead": "Petit domaine au cœur des coteaux de Jurançon, situé à 12 kilomètres au sud-ouest de Pau.",
+   "img": "https://static.wixstatic.com/media/8a75a4_b776f623ad8041959b1d57dcdccbd538~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "la-vigne",
+     "eyebrow": "La vigne",
+     "title": "Petit et gros <em class=\"it\">manseng</em>",
+     "img": "https://static.wixstatic.com/media/b5f0f2_a1a5d61730944ba0b4429c76cc04a3b6~mv2.jpg",
+     "alt": "Les vignes du Domaine Bazaillacq",
+     "paras": [
+      "Petit domaine au cœur des coteaux de Jurançon, situé à 12 kilomètres au sud-ouest de Pau, le Domaine Bazaillacq cultive 4 hectares dont 3 hectares en petit manseng et 1 hectare de gros manseng.",
+      "Ces deux cépages s'accrochent sur des pentes raides, tournant le dos aux vents du nord et regardant le chaud soleil du sud.",
+      "Certains ceps de vignes, vieux de 150 ans, profitent d'une vue imprenable sur les Pyrénées."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "le-chai",
+     "eyebrow": "Le chai",
+     "title": "Foudres <em class=\"it\">de chêne</em>",
+     "img": "https://static.wixstatic.com/media/b5f0f2_e3883d3064b246bb9a1196369c1d89f5~mv2.jpg",
+     "alt": "Le chai et ses foudres de chêne",
+     "paras": [
+      "La passion du bois à l'état brut envahit aussi bien le chai que notre salle de dégustation.",
+      "Ici les cuves en inox laissent place à des tonneaux de chênes de 2400 litres, foudres de chênes qui assurent depuis plusieurs générations le vieillissement de nos Jurançons."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "la-cave",
+     "eyebrow": "La cave",
+     "title": "Une pièce unique <em class=\"it\">et conviviale</em>",
+     "img": "https://static.wixstatic.com/media/b5f0f2_ea2778f4fcd942729297cb5d46ee3b47~mv2.jpg",
+     "alt": "La cave du Domaine Bazaillacq",
+     "paras": [
+      "Une ancienne étable à vaches magnifiée par le bois issu de la tempête de 1999, véritable cadeau de la nature : des murs de bouteilles illuminés font de notre cave une pièce unique et conviviale…",
+      "Notre cave communique avec une salle de réception dont l'ambiance est réchauffée par une cheminée typique.",
+      "En extérieur retrouvez pour des moments de convivialité notre auvent tout en bois, dont la charpente est maintenue par de véritables troncs d'arbres."
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "vignes-photos",
+     "eyebrow": "Le Domaine en images",
+     "title": "Vignes, <em class=\"it\">chai et cave</em>",
+     "carousel": true,
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_5d2432577fbb4f55801b45780e7b15e8~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_5d2432577fbb4f55801b45780e7b15e8~mv2.jpg",
+       "alt": "Les vignes"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_a1a5d61730944ba0b4429c76cc04a3b6~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_a1a5d61730944ba0b4429c76cc04a3b6~mv2.jpg",
+       "alt": "Les vignes face aux Pyrénées"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_e3883d3064b246bb9a1196369c1d89f5~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_e3883d3064b246bb9a1196369c1d89f5~mv2.jpg",
+       "alt": "Le chai"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_ea2778f4fcd942729297cb5d46ee3b47~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_ea2778f4fcd942729297cb5d46ee3b47~mv2.jpg",
+       "alt": "La cave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nos-produits",
+   "label": "Nos produits",
+   "title": "Nos produits",
+   "h1": "Nos <em>produits</em>",
+   "eyebrow": "Jurançon sec · moelleux · d'Aïze",
+   "lead": "Nos Jurançons sont introuvables ailleurs que dans notre cave.",
+   "img": "https://static.wixstatic.com/media/b5f0f2_e31827f84bf54f2696e10dd4e40b6758~mv2.jpg",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "cuvees",
+     "eyebrow": "Nos produits",
+     "title": "Trois Jurançon <em class=\"it\">de caractère</em>",
+     "lead": "Nos Jurançons sont introuvables ailleurs que dans notre cave : venez les découvrir au Domaine.",
+     "tabs": [
+      [
+       "sec",
+       "Sec"
+      ],
+      [
+       "moelleux",
+       "Moelleux"
+      ]
+     ],
+     "items": [
+      {
+       "name": "Jurançon sec",
+       "cat": "sec",
+       "color": "#e6d68f",
+       "tag": "AOC Jurançon Sec",
+       "app": "Équilibré et aromatique",
+       "desc": "Un jurançon sec, équilibré et aromatique, allie avec bonheur, souplesse climatique et rigueur pyrénéenne.",
+       "img": "https://static.wixstatic.com/media/b5f0f2_8f07d842d4ed47b5a0f510f9cf7872e0~mv2.jpg/v1/crop/x_3,y_0,w_94,h_344/fill/w_94,h_344,al_c,q_90/jurancon-sec.jpg",
+       "sheet": [
+        [
+         "Accords",
+         "Huîtres, crustacés, poissons, charcuteries…"
+        ]
+       ],
+       "price": "8 €"
+      },
+      {
+       "name": "Jurançon moelleux",
+       "cat": "moelleux",
+       "color": "#d9a640",
+       "tag": "AOC Jurançon",
+       "app": "Élevé en fût de chêne",
+       "desc": "Ce vin élevé en fût de chêne, produit presque exclusivement par le petit manseng, est ici, par tradition, récolté très tardivement (par tris successifs). Jurançon authentique aux saveurs particulières, fruit d'une conduite de la vigne soignée et vigoureuse. Issu de grains passerillés, ce vin puissant et généreux est apprécié en apéritif.",
+       "img": "https://static.wixstatic.com/media/8a75a4_97fcd3b6ada24eefa9504f786e5001f9~mv2.jpg/v1/crop/x_76,y_47,w_196,h_778/fill/w_196,h_778,al_c,q_90/jurancon-moelleux.jpg",
+       "sheet": [
+        [
+         "Cépage",
+         "Petit manseng (presque exclusivement)"
+        ],
+        [
+         "Vendanges",
+         "Très tardives, par tris successifs"
+        ],
+        [
+         "Accords",
+         "Inégalable avec le foie gras, il accompagne aussi très bien les fromages et desserts."
+        ]
+       ],
+       "price": "11 €"
+      },
+      {
+       "name": "Cuvée spéciale d'Aïze",
+       "cat": "moelleux",
+       "color": "#b9822a",
+       "tag": "AOC Jurançon",
+       "app": "Vignes de plus de 150 ans",
+       "badge": "Nouveau",
+       "desc": "D'Aïze c'est avant tout le nom de notre maison, mais c'est aussi la traduction du béarnais « A l'Aise », signe d'une convivialité inestimable à nos yeux. Nouveau venu dans notre gamme, récolté sur des vignes de plus de 150 ans, cette cuvée spéciale composée à 100% de petit manseng nous offre ce véritable nectar. C'est un vin d'exception, d'évènements, de connaisseurs, une orgie d'arômes et de matières.",
+       "img": "https://static.wixstatic.com/media/b5f0f2_7523447efcbd457bb7f6512196ceb75a~mv2.jpg/v1/crop/x_152,y_0,w_264,h_960/fill/w_264,h_960,al_c,q_90/cuvee-speciale-d-aize.jpg",
+       "sheet": [
+        [
+         "Cépage",
+         "100 % petit manseng"
+        ],
+        [
+         "Vendanges",
+         "Fin novembre - début décembre"
+        ],
+        [
+         "Élevage",
+         "En barrique, 24 mois minimum"
+        ],
+        [
+         "Accords",
+         "Avec un foie gras ou du roquefort, une belle surprise vous attend."
+        ]
+       ],
+       "price": "18 €"
+      }
+     ],
+     "note": "Tarifs du Domaine. Vente à la cave, 437 chemin de Saint-Faust à Jurançon."
+    },
+    {
+     "kind": "gallery",
+     "id": "tarifs",
+     "eyebrow": "Tarifs",
+     "title": "À la cave, <em class=\"it\">en toute simplicité</em>",
+     "lead": "Jurançon Sec 8 € · Jurançon Moelleux 11 € · Cuvée spéciale d'Aïze 18 €",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_e31827f84bf54f2696e10dd4e40b6758~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_e31827f84bf54f2696e10dd4e40b6758~mv2.jpg",
+       "alt": "Jurançon sec"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_068e602311fc467882baf50c5da3f8a0~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_068e602311fc467882baf50c5da3f8a0~mv2.jpg",
+       "alt": "Jurançon moelleux"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_7523447efcbd457bb7f6512196ceb75a~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_7523447efcbd457bb7f6512196ceb75a~mv2.jpg",
+       "alt": "Cuvée spéciale d'Aïze"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "a-decouvrir",
+   "label": "À découvrir",
+   "title": "À découvrir",
+   "h1": "À <em>découvrir</em>",
+   "eyebrow": "Évènements · Camping-cars · Élevage laitier",
+   "lead": "Le Domaine Bazaillacq, un lieu de surprises…",
+   "img": "https://static.wixstatic.com/media/8a75a4_b5c997b9a0a14b6fb3b84a8c8936f745~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "evenements",
+     "eyebrow": "Évènements",
+     "title": "Mariages, anniversaires, <em class=\"it\">réceptions</em>",
+     "img": "https://static.wixstatic.com/media/b5f0f2_fa5003c8b2954fb58581fef4d8f04df9~mv2.jpg",
+     "alt": "Évènement au Domaine Bazaillacq",
+     "paras": [
+      "Venez déguster nos vins, en toute simplicité et chaleureusement, nous vous ferons découvrir un endroit typique capable de répondre à vos désirs les plus fous…",
+      "Mariages, anniversaires, repas et réceptions de toutes sortes sont possibles !",
+      "Bien entendu, ne ratez pas notre journée portes ouvertes à l'occasion de la route des vins de Jurançon, le deuxième dimanche de décembre, avec au programme convivialité, bandas, repas, stands de produits locaux.",
+      "Toute l'année le Domaine Bazaillacq assure la vente de yaourts fermiers au lait entier, sans conservateurs, sans OGM ni huile de palme, sans colorants et aux arômes naturels tout droit venus de la Sarl Lait Délices &amp; Cow (Madiran 65)."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "zone-de-camping",
+     "eyebrow": "Zone de camping",
+     "title": "Accueil <em class=\"it\">camping-cars</em>",
+     "img": "https://static.wixstatic.com/media/b5f0f2_2cbbabbe70a54e5cad4c3ea417b917b4~mv2.jpg",
+     "alt": "Accueil des camping-cars au Domaine",
+     "paras": [
+      "Depuis quelques années, le Domaine Bazaillacq réalise l'accueil des camping-cars pour une ou plusieurs nuits, en partenariat avec France Passion.",
+      "En prime, une possibilité de dégustation et de visite de notre Domaine vous est offerte.",
+      "Pour les gourmands n'hésitez pas à acheter les yaourts Lait Délices &amp; Cow pour votre petit déjeuner.",
+      "Venez donc passer une nuit conviviale dans nos vignes et profiter de magnifiques levers et couchers de soleil sur les hauteurs béarnaises !"
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "elevage-laitier",
+     "eyebrow": "Élevage laitier",
+     "title": "Une autre <em class=\"it\">passion</em>",
+     "img": "https://static.wixstatic.com/media/b5f0f2_46eefbc1148c49cba325d1751dff1d05~mv2.jpg",
+     "alt": "L'élevage laitier du Gaec Les Vignes Rousses",
+     "paras": [
+      "Une autre passion anime les journées de la famille Bazaillacq : un élevage laitier.",
+      "C'est avec plaisir que nous vous accueillerons au Gaec Les Vignes Rousses pour vous faire découvrir cette autre facette de notre vie."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "galerie",
+   "label": "Galerie",
+   "title": "Galerie",
+   "h1": "<em>Galerie</em>",
+   "eyebrow": "Le Domaine en images",
+   "lead": "Vignes, vendanges, chai, cave et moments de convivialité au Domaine Bazaillacq.",
+   "img": "https://static.wixstatic.com/media/8a75a4_31b3c2b0bd40467b9efe0934ff9cfcc1~mv2.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "galerie-photos",
+     "eyebrow": "Galerie",
+     "title": "Le Domaine <em class=\"it\">en images</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_a28aea4e022e49228612dd3fb1c3ee33~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_a28aea4e022e49228612dd3fb1c3ee33~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_a1a5d61730944ba0b4429c76cc04a3b6~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_a1a5d61730944ba0b4429c76cc04a3b6~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_cc1e753432764b88a4359d2d93feddfc~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_cc1e753432764b88a4359d2d93feddfc~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_fa5003c8b2954fb58581fef4d8f04df9~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_fa5003c8b2954fb58581fef4d8f04df9~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_e911c72728754d53b285eda53c5df42e~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_e911c72728754d53b285eda53c5df42e~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/8a75a4_31b3c2b0bd40467b9efe0934ff9cfcc1~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/8a75a4_31b3c2b0bd40467b9efe0934ff9cfcc1~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/8a75a4_64b9d1c981354f2b9fbf50d62dcb8646~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/8a75a4_64b9d1c981354f2b9fbf50d62dcb8646~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/8a75a4_1d404a451cd94b8ab1916cab3a25a9ab~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/8a75a4_1d404a451cd94b8ab1916cab3a25a9ab~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/8a75a4_b5c997b9a0a14b6fb3b84a8c8936f745~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/8a75a4_b5c997b9a0a14b6fb3b84a8c8936f745~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_46a25846f9bf4a988bea5f4f53d8be28~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_46a25846f9bf4a988bea5f4f53d8be28~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_bf7edf87256145a6b6c94e8034fce8e6~mv2_d_2448_3264_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_bf7edf87256145a6b6c94e8034fce8e6~mv2_d_2448_3264_s_4_2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_8abf63749eac405bb2da4b3852c9bd8c~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_8abf63749eac405bb2da4b3852c9bd8c~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_2b0d870c51fa4fdf8dee31bbb0d58700~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_2b0d870c51fa4fdf8dee31bbb0d58700~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_5d2432577fbb4f55801b45780e7b15e8~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_5d2432577fbb4f55801b45780e7b15e8~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_a9773c1bcc37467ba9608a23f38707f2~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_a9773c1bcc37467ba9608a23f38707f2~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_db6c0d4aca4140e7ba88ea8d769cdd2a~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_db6c0d4aca4140e7ba88ea8d769cdd2a~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_a1308351d858418e93d6190660d323fa~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_a1308351d858418e93d6190660d323fa~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_b80681ba08ce4c3bb08e018a9eb4ab5e~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_b80681ba08ce4c3bb08e018a9eb4ab5e~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_898f8f1f710c440eafd0c8e3562c3bee~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_898f8f1f710c440eafd0c8e3562c3bee~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_d186743e27894d8181f19fb6969bcb55~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_d186743e27894d8181f19fb6969bcb55~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_8e9f4d697827443fb1ae24502497e08b~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_8e9f4d697827443fb1ae24502497e08b~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_a341660174274a7a8be34ebec188286d~mv2_d_2448_3264_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_a341660174274a7a8be34ebec188286d~mv2_d_2448_3264_s_4_2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/b5f0f2_4c676e79adc34647b3ef42a2161b3dd0~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/b5f0f2_4c676e79adc34647b3ef42a2161b3dd0~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/8a75a4_ea646403d10641cb9af2bae11e916b2a~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/8a75a4_ea646403d10641cb9af2bae11e916b2a~mv2.jpg",
+       "alt": "Domaine Bazaillacq"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "<em>Contactez</em>-nous",
+   "eyebrow": "Christine et Jean-Luc Bazaillacq",
+   "lead": "437 chemin de Saint-Faust, 64110 Jurançon.",
+   "img": "https://static.wixstatic.com/media/8a75a4_8778d9f598eb4a969ad4cef02e2fe3d6~mv2_d_2048_1536_s_2.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Domaine <em class=\"it\">Bazaillacq</em>",
+     "text": "Christine et Jean-Luc Bazaillacq",
+     "rows": [
+      [
+       "Adresse",
+       "437 chemin de Saint-Faust<br>64110 Jurançon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33620880545\">06 20 88 05 45</a><br><a href=\"tel:+33616863539\">06 16 86 35 39</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:jean-luc.bazaillacq@wanadoo.fr\">jean-luc.bazaillacq@wanadoo.fr</a>"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/Domaine-Bazaillacq-172794406503549/\" target=\"_blank\" rel=\"noopener\">Domaine Bazaillacq</a>"
+      ]
+     ],
+     "map_q": "437 chemin de Saint-Faust, 64110 Jurançon",
+     "cta": [
+      "Écrire au Domaine",
+      "mailto:jean-luc.bazaillacq@wanadoo.fr"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Contactez-nous",
+     "title": "Une question, <em class=\"it\">une visite ?</em>",
+     "lead": "Votre message part directement au Domaine.",
+     "email": "jean-luc.bazaillacq@wanadoo.fr",
+     "subject": "Message depuis le site du Domaine Bazaillacq",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Domaine Bazaillacq, petit domaine familial au cœur des coteaux de Jurançon, à 12 km au sud-ouest de Pau. Christine et Jean-Luc Bazaillacq.",
+  "contact": [
+   "<a href=\"tel:+33620880545\">06 20 88 05 45</a>",
+   "<a href=\"tel:+33616863539\">06 16 86 35 39</a>",
+   "<a href=\"mailto:jean-luc.bazaillacq@wanadoo.fr\">jean-luc.bazaillacq@wanadoo.fr</a>",
+   "437 chemin de Saint-Faust, 64110 Jurançon"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Domaine-Bazaillacq-172794406503549/"
+   ]
+  ]
+ }
+}
