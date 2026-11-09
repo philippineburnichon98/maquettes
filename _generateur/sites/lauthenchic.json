@@ -1,0 +1,466 @@
+{
+ "slug": "lauthenchic-b8a8e0",
+ "title": "L'Authenchic — Restaurant traditionnel aux Minimes, Toulouse",
+ "description": "L'Authenchic, restaurant traditionnel aux Minimes à Toulouse : cuisine française entièrement faite maison, carte de saison, viandes certifiées Halal, formules du midi et anniversaires.",
+ "brand": "L'Authenchic",
+ "tagline": "Restaurant traditionnel · Toulouse",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/a1a174_0a3bb3d42ccf4189a9530467f3822957~mv2.png",
+  "height": 40,
+  "bg": "#1d1a17"
+ },
+ "theme": {
+  "look": "framed",
+  "paper": "#f6f1ea",
+  "paper2": "#ece3d6",
+  "ink": "#1d1a17",
+  "muted": "#6a5f55",
+  "accent": "#9c3b24",
+  "accent2": "#7a2b18",
+  "gold": "#c39a52",
+  "heroem": "#f0c79a",
+  "serif": "\"DM Serif Display\",Georgia,serif",
+  "sans": "\"Outfit\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap"
+ },
+ "nav": [
+  [
+   "a-propos",
+   "À propos"
+  ],
+  [
+   "carte",
+   "Notre carte"
+  ],
+  [
+   "formules",
+   "Formules"
+  ],
+  [
+   "photos",
+   "Photos"
+  ],
+  [
+   "reserver",
+   "Réservations"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "topbar": [
+  "<a href=\"tel:+33561477628\">05 61 47 76 28</a>",
+  "<a href=\"mailto:lauthenchic@gmail.com\">lauthenchic@gmail.com</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/a1a174_2f901b95ae2a4006bc77292642d7322e~mv2.jpg",
+  "eyebrow": "Restaurant traditionnel · Les Minimes · Toulouse",
+  "title": "Le retour de la cuisine <em>traditionnelle</em>",
+  "lead": "Une cuisine gourmande, à prix doux. Des moments conviviaux, un service rapide.",
+  "cta1": [
+   "Réserver une table",
+   "#reserver"
+  ],
+  "cta2": [
+   "Voir la carte",
+   "#carte"
+  ]
+ },
+ "figures": [
+  [
+   "2",
+   "salles conviviales"
+  ],
+  [
+   "100 %",
+   "fait maison"
+  ],
+  [
+   "17 €",
+   "le menu complet du midi"
+  ],
+  [
+   "10+",
+   "convives : formule anniversaire"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "a-propos",
+   "eyebrow": "Une adresse aux Minimes",
+   "title": "Deux salles conviviales <em class=\"it\">et chaleureuses</em>",
+   "img": "https://static.wixstatic.com/media/a1a174_bc1547398f16410996d41c902fa06856~mv2.jpg",
+   "alt": "L'Authenchic, restaurant traditionnel à Toulouse",
+   "paras": [
+    "L'Authenchic vous propose des plats traditionnels français cuisinés avec des produits frais et de qualité.",
+    "Nous proposons une cuisine faite « maison » dans son intégralité avec une carte qui varie au fil des saisons.",
+    "Toutes nos viandes sont certifiées Halal et également Charolaise pour nos viandes bovines.",
+    "Nous proposons des formules adaptées pour les groupes et anniversaires."
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/a1a174_bb91fe6a1eef40af912ff5726753e920~mv2.png",
+     "L'Authenchic"
+    ]
+   ]
+  },
+  {
+   "kind": "menu",
+   "id": "carte",
+   "eyebrow": "La carte · L'Authenchic Restaurant Toulouse",
+   "title": "Notre <em class=\"it\">carte</em>",
+   "lead": "Tout est fait maison, jusqu'au pain de nos burgers. La carte varie au fil des saisons.",
+   "img": "https://static.wixstatic.com/media/a1a174_b7612230597244d69715fe97a3da9a99~mv2.jpg",
+   "sections": [
+    {
+     "title": "Menu Chic · Entrée au choix",
+     "items": [
+      [
+       "Croustillant du jour",
+       ""
+      ],
+      [
+       "Salade César",
+       ""
+      ],
+      [
+       "Salade de chèvre chaud au miel",
+       ""
+      ]
+     ]
+    },
+    {
+     "title": "Menu Chic · Plat au choix",
+     "items": [
+      [
+       "Entrecôte 250 g",
+       "",
+       "Frites « maison » & salade"
+      ],
+      [
+       "Magret de canard",
+       "",
+       "Frites « maison » & salade"
+      ],
+      [
+       "Suggestion du Chef",
+       ""
+      ]
+     ]
+    },
+    {
+     "title": "Desserts « maison » au choix",
+     "items": [
+      [
+       "Dessert « maison » au choix",
+       "7 €"
+      ],
+      [
+       "Cheesecake à la fraise",
+       ""
+      ],
+      [
+       "Fondant au chocolat & chantilly « maison »",
+       ""
+      ],
+      [
+       "Banofee revisité",
+       ""
+      ],
+      [
+       "Crème catalane au caramel beurre salé",
+       ""
+      ],
+      [
+       "Mousse au chocolat",
+       ""
+      ],
+      [
+       "Tiramisu du jour",
+       ""
+      ],
+      [
+       "Dessert du jour",
+       ""
+      ]
+     ]
+    },
+    {
+     "title": "À la carte · Votre choix",
+     "items": [
+      [
+       "Salade César",
+       "12,50 €"
+      ],
+      [
+       "Plateau de foie gras",
+       "14,00 €"
+      ],
+      [
+       "Grande salade Gerçoise",
+       "14,50 €"
+      ],
+      [
+       "Souris d'agneau",
+       "16,00 €",
+       "Purée « maison »"
+      ],
+      [
+       "Dos de cabillaud",
+       "16,00 €",
+       "Légumes du jour"
+      ],
+      [
+       "Entrecôte 380 g",
+       "18,00 €",
+       "Frites « maison » et salade"
+      ]
+     ]
+    },
+    {
+     "title": "Les burgers · pain burger fait maison",
+     "items": [
+      [
+       "Le Black Burger",
+       "15,00 €",
+       "Poulet pané, sauce miel moutarde et frites « maison »"
+      ],
+      [
+       "L'ATC Burger",
+       "15,00 €",
+       "Pur bœuf, sauce boursin et frites « maison »"
+      ],
+      [
+       "L'EPI Burger",
+       "15,00 €",
+       "Kefta, sauce secrète et frites « maison »"
+      ],
+      [
+       "Le Fischic Burger",
+       "15,00 €",
+       "Poisson pané, sauce citronnée et frites « maison »"
+      ]
+     ]
+    }
+   ],
+   "aside": {
+    "eyebrow": "Formules du midi",
+    "title": "Du lundi au vendredi",
+    "big": "17 €",
+    "text": "Entrée, plat, dessert, 1/4 de vin + café (uniquement le midi).",
+    "courses": [
+     [
+      "Entrée",
+      "Croustillant du jour, salade César ou chèvre chaud au miel"
+     ],
+     [
+      "Plat",
+      "Entrecôte, magret de canard ou suggestion du Chef"
+     ],
+     [
+      "Dessert",
+      "Dessert « maison » au choix"
+     ]
+    ],
+    "items": [
+     [
+      "Entrée du jour ou plat du jour",
+      "14,50 €"
+     ],
+     [
+      "Entrée, plat, dessert, 1/4 de vin + café",
+      "17 €"
+     ]
+    ],
+    "cta": [
+     "Réserver",
+     "#reserver"
+    ]
+   }
+  },
+  {
+   "kind": "blocks",
+   "id": "formules",
+   "eyebrow": "Formules anniversaires",
+   "title": "À partir <em class=\"it\">de 10 personnes</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/a1a174_bd387f69f9424aa2bdae85de87ac7ec4~mv2.jpg",
+     "kicker": "Anniversaires & groupes",
+     "title": "33 € / personne",
+     "paras": [
+      "2 entrées au choix + 2 plats au choix + 1 gâteau d'anniversaire pâtissier.",
+      "35 € avec boisson."
+     ],
+     "link": [
+      "Réserver pour un groupe",
+      "#reserver"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/a1a174_ebfce03e5098414eb06d2c34690ad434~mv2.jpg",
+     "kicker": "Le midi",
+     "title": "Formules à prix doux",
+     "paras": [
+      "Entrée du jour ou plat du jour : 14,50 €.",
+      "Entrée, plat, dessert, 1/4 de vin + café : 17 €."
+     ],
+     "link": [
+      "Voir la carte",
+      "#carte"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "L'Authenchic en images",
+   "title": "Bon <em class=\"it\">appétit !</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_ebfce03e5098414eb06d2c34690ad434~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_ebfce03e5098414eb06d2c34690ad434~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_bd387f69f9424aa2bdae85de87ac7ec4~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_bd387f69f9424aa2bdae85de87ac7ec4~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_4cac1e4a641749758537e529e699af95~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_4cac1e4a641749758537e529e699af95~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_89bc097a8dca4ae38804919aeed48070~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_89bc097a8dca4ae38804919aeed48070~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_c203ca8fb43645bb9fb13925d2e5c13c~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_c203ca8fb43645bb9fb13925d2e5c13c~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_02f9b4ef746541a094e88c16cf0c7be1~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_02f9b4ef746541a094e88c16cf0c7be1~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_a21877f7411745f0a7cd56563b445f33~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_a21877f7411745f0a7cd56563b445f33~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/a1a174_b7612230597244d69715fe97a3da9a99~mv2.jpg",
+     "full": "https://static.wixstatic.com/media/a1a174_b7612230597244d69715fe97a3da9a99~mv2.jpg",
+     "alt": "L'Authenchic, Toulouse"
+    }
+   ]
+  },
+  {
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservations",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Le midi du lundi au vendredi, de 11h30 à 15h00 ; le soir les jeudi, vendredi et samedi, de 19h30 à 23h00.",
+   "tel": "+33561477628",
+   "phone": "05 61 47 76 28",
+   "note": "Groupes et anniversaires à partir de 10 personnes : précisez-le dans votre message.",
+   "email": "lauthenchic@gmail.com",
+   "brand": "L'Authenchic",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "hours": [
+    "11:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "13:30",
+    "14:00",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00",
+    "21:30"
+   ],
+   "services": [
+    [
+     "Midi (lundi au vendredi)",
+     [
+      "11:30",
+      "12:00",
+      "12:30",
+      "13:00",
+      "13:30",
+      "14:00"
+     ]
+    ],
+    [
+     "Soir (jeudi, vendredi, samedi)",
+     [
+      "19:30",
+      "20:00",
+      "20:30",
+      "21:00",
+      "21:30"
+     ]
+    ]
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "19 avenue <em class=\"it\">Emmanuel Maignan</em>",
+   "text": "L'Authenchic Restaurant, aux Minimes, 31200 Toulouse.",
+   "img": "https://static.wixstatic.com/media/a1a174_4cac1e4a641749758537e529e699af95~mv2.jpg",
+   "rows": [
+    [
+     "Adresse",
+     "19 Av. Emmanuel Maignan<br>31200 Toulouse"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33561477628\">05 61 47 76 28</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lauthenchic@gmail.com\">lauthenchic@gmail.com</a>"
+    ],
+    [
+     "Midi",
+     "Du lundi au vendredi, de 11h30 à 15h00"
+    ],
+    [
+     "Soir",
+     "Jeudi, vendredi, samedi, de 19h30 à 23h00"
+    ]
+   ],
+   "map_q": "19 Avenue Emmanuel Maignan, 31200 Toulouse",
+   "cta": [
+    "Appeler le restaurant",
+    "tel:+33561477628"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "L'Authenchic, restaurant traditionnel aux Minimes à Toulouse. Cuisine française faite maison, produits frais et de qualité.",
+  "contact": [
+   "<a href=\"tel:+33561477628\">05 61 47 76 28</a>",
+   "<a href=\"mailto:lauthenchic@gmail.com\">lauthenchic@gmail.com</a>",
+   "19 Av. Emmanuel Maignan, 31200 Toulouse"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
