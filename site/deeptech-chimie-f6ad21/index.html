@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Proposition de maquettes · Sites deep tech et chimie · Fyce</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+body{background:var(--paper)}
+.intro{background:var(--ink);color:#fff;padding:70px 0 130px;position:relative;overflow:hidden}
+.intro h1{font-size:clamp(2rem,4.6vw,3.3rem);margin:18px 0 16px;max-width:900px}.intro p{color:#b9c1d8;max-width:720px;font-size:1.06rem;margin:0}
+.intro .tag{color:var(--teal)}
+.gab{margin-top:-84px;position:relative}
+.cardp{background:#fff;border-radius:20px;padding:clamp(20px,3vw,34px);box-shadow:0 30px 60px -40px rgba(10,16,32,.5);margin-bottom:28px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.tabs button{border:1px solid var(--line);background:#fff;padding:10px 18px;border-radius:999px;font-weight:600;color:var(--text)}
+.tabs button[aria-selected=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+.pane{display:none}.pane.on{display:block}
+.pane .hd{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.pane h2{font-size:1.6rem;margin-top:8px}.pane .hd p{margin:6px 0 0;color:var(--muted);max-width:660px}
+.devices{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:26px;align-items:start}
+.desk{border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff}
+.desk .chrome{height:32px;background:#eef0f6;display:flex;align-items:center;gap:6px;padding:0 12px;border-bottom:1px solid var(--line)}.desk .chrome i{width:10px;height:10px;border-radius:50%;background:#d3d8e4}
+.desk .vp{position:relative;height:560px;overflow:hidden}.desk iframe{position:absolute;top:0;left:0;width:1440px;height:1120px;border:0;transform-origin:0 0}
+.phone{width:300px;border-radius:38px;padding:12px;background:#0a1020;box-shadow:0 30px 50px -30px rgba(0,0,0,.6)}
+.phone .vp{position:relative;height:600px;border-radius:28px;overflow:hidden;background:#fff}.phone iframe{position:absolute;top:0;left:0;width:390px;height:836px;border:0;transform:scale(.7179);transform-origin:0 0}
+.lbl{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.approach{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:40px 0}
+.ap{background:#fff;border-radius:16px;padding:24px;border:1px solid var(--line)}.ap h3{font-size:1.1rem;margin:14px 0 8px}.ap p{color:var(--muted);font-size:.93rem;margin:0}
+.ap .n{font-family:var(--mono);font-size:.8rem;color:var(--teal2)}
+.ctab{background:var(--ink);color:#fff;border-radius:20px;padding:clamp(28px,5vw,48px);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;margin:0 0 80px}
+.ctab h2{font-size:clamp(1.5rem,3vw,2rem)}.ctab p{color:#a3abc5;margin:8px 0 0}
+@media(max-width:960px){.devices{grid-template-columns:minmax(0,1fr)}.desk{display:none}.phone{margin:0 auto}.approach{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<div class="intro"><div class="wrap">
+<span class="tag">Proposition · Fyce</span>
+<h1>Des sites qui rendent la deep tech lisible et crédible</h1>
+<p>Deux maquettes réalisées pour illustrer l'approche : une page d'accueil et une page technologie, pour une entreprise fictive de chimie verte. Le nom, les textes et les chiffres sont des exemples : chaque site suivra l'identité et le contenu de vos entreprises.</p>
+</div></div>
+<div class="wrap gab">
+<div class="cardp">
+<div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-t="0">1 · Accueil</button><button role="tab" aria-selected="false" data-t="1">2 · Technologie</button></div>
+<div class="pane on" data-src="accueil/"><div class="hd"><div><span class="tag">Maquette 1</span><h2>Page d'accueil</h2><p>Réseau moléculaire animé, chiffres clés de maturité (TRL, pilote, brevets), schéma énergétique animé, étapes de la technologie, applications par industrie, publications et appel à l'action pour industriels et investisseurs.</p></div><a class="btn pri" href="accueil/" target="_blank">Ouvrir en plein écran ↗</a></div></div>
+<div class="pane" data-src="technologie/"><div class="hd"><div><span class="tag">Maquette 2</span><h2>Page technologie</h2><p>Une page qui vulgarise sans simplifier : schéma de principe du procédé, comparatif avec le procédé classique, propriété intellectuelle et questions fréquentes des industriels.</p></div><a class="btn pri" href="technologie/" target="_blank">Ouvrir en plein écran ↗</a></div></div>
+<div class="devices"><div><p class="lbl">Ordinateur</p><div class="desk"><div class="chrome"><i></i><i></i><i></i></div><div class="vp"><iframe id="fd" src="accueil/" title="Aperçu ordinateur" tabindex="-1"></iframe></div></div></div>
+<div><p class="lbl">Mobile</p><div class="phone"><div class="vp"><iframe id="fm" src="accueil/" title="Aperçu mobile" tabindex="-1"></iframe></div></div></div></div>
+</div>
+<div class="approach">
+<div class="ap"><span class="n">01</span><h3>Crédibilité scientifique</h3><p>Schémas, données et vocabulaire justes : le site parle aux ingénieurs comme aux investisseurs.</p></div>
+<div class="ap"><span class="n">02</span><h3>Pédagogie</h3><p>Rendre une innovation complexe compréhensible en quelques secondes, sans la dénaturer.</p></div>
+<div class="ap"><span class="n">03</span><h3>Identité propre</h3><p>Visuels générés en code (molécules, réseaux, schémas) plutôt que des photos de banque d'images génériques.</p></div>
+</div>
+<div class="ctab"><div><h2>Échangeons sur vos projets</h2><p>Philippine Burnichon · Fyce · webdesign et création de sites</p></div><a class="btn pri" href="https://calendly.com/philippine-brn/fyce" target="_blank" rel="noopener">Réserver un créneau</a></div>
+</div>
+<script>
+function fit(){document.querySelectorAll('.desk .vp').forEach(v=>{v.querySelector('iframe').style.transform='scale('+(v.clientWidth/1440)+')'})}addEventListener('resize',fit);fit();
+(function(){const T=[...document.querySelectorAll('.tabs button')],P=[...document.querySelectorAll('.pane')],fd=document.getElementById('fd'),fm=document.getElementById('fm');
+T.forEach(t=>t.onclick=()=>{T.forEach(x=>x.setAttribute('aria-selected',x===t));P.forEach((p,i)=>p.classList.toggle('on',i==t.dataset.t));const s=P[t.dataset.t].dataset.src;fd.src=s;fm.src=s;fit()})})();
+</script>
+<script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
+var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
+</body>
+</html>

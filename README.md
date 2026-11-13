@@ -82,3 +82,5 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Carte PDF : ne pas l'afficher dans la page (pas de `pdf_embed`), seulement un lien que le visiteur ouvre s'il clique (demande de Philippine, 13 oct. 2026).
 - Maquettes de candidature (ex. reperes-cuisine-pro-b28c6e) : une fois le lien envoyé, NE PLUS LES MODIFIER (règle de Philippine, 15 oct. 2026), comme pour les maquettes de prospects envoyées.
 - Synetam / Camille Delpino : V1 figée = reperes-cuisine-pro-b28c6e ; V2 (après call du 15 oct. et CDC du 21 oct.) = plateforme-cuisine-pro-db14e0 (ENVOYÉE le 22 oct. 2026, NE PLUS MODIFIER), accueil + parcours seulement en ligne avant signature du devis (les 5 pages sont générées par un script hors repo). Une nouvelle version = un nouveau slug.
+
+- Malt 13 nov. 2026 (sites deep tech / chimie) : deeptech-chimie-f6ad21, entreprise fictive Moléa (accueil + technologie), générée par un script hors repo. Figée dès l'envoi de la candidature.
