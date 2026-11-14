@@ -1,0 +1,552 @@
+{
+ "slug": "harmonie-peinture-75ecdb",
+ "title": "Harmonie Peinture — Plâtrerie, peinture et isolation à Chavanay (Loire, Rhône-Alpes)",
+ "description": "Harmonie Peinture, Nicolas Bonnet, entreprise de plâtrerie-peinture à Chavanay (Loire 42) depuis 1999 : isolation, plâtrerie, peinture, aménagement, rénovation, cloisons, plafonds tendus, revêtements muraux. Entreprise certifiée QUALIBAT + RGE. Devis gratuit.",
+ "brand": "Harmonie Peinture",
+ "tagline": "Plâtrerie · Peinture · Isolation",
+ "monogram": "HP",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f4ef",
+  "paper2": "#e9e5dc",
+  "ink": "#1f2523",
+  "muted": "#5d6461",
+  "accent": "#2f5d62",
+  "accent2": "#23474b",
+  "gold": "#c39a5b",
+  "heroem": "#f1d9a8",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Entreprise certifiée QUALIBAT + RGE · Devis gratuit",
+  "Bureau <a href=\"tel:+33474870550\">04 74 87 05 50</a>",
+  "Mobile <a href=\"tel:+33612212758\">06 12 21 27 58</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [
+  [
+   "prestations",
+   "Prestations"
+  ],
+  [
+   "coordonnees",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg",
+  "eyebrow": "Plâtrerie · Peinture · Isolation · Chavanay (Loire 42)",
+  "title": "Isolation, plâtrerie, peinture : <em>en harmonie</em> avec votre intérieur",
+  "lead": "Isolation, rénovation, plâtrerie, aménagement, peinture, revêtements muraux en Rhône-Alpes. Entreprise certifiée QUALIBAT + RGE, à votre service depuis 1999.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "06 12 21 27 58",
+   "tel:+33612212758"
+  ]
+ },
+ "figures": [
+  [
+   "1999",
+   "à votre service depuis"
+  ],
+  [
+   "30 ans",
+   "d'expérience"
+  ],
+  [
+   "4",
+   "ouvriers peintres et plaquiste"
+  ],
+  [
+   "RGE",
+   "QUALIBAT"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Nos prestations",
+   "title": "Rénovation, isolation, <em>aménagement…</em>",
+   "lead": "PLAFOND TENDU - CLOISON - ISOLATION - RENOVATION - DECORATION - POSE DE REVETEMENTS - INTERIEUR / EXTERIEUR",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/0c60f0_650ba9bf337042ddaacde9fdb10b4457.jpg/v1/fit/w_1000,h_1000,al_c,q_85/0c60f0_650ba9bf337042ddaacde9fdb10b4457.jpg",
+     "alt": "Peinture",
+     "title": "Peinture",
+     "paras": [
+      "Peinture décorative, peinture en extérieur et intérieur."
+     ],
+     "link": [
+      "Voir le catalogue",
+      "catalogue/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/0c60f0_b54f1959ed9742c39a4514acfc9860f5.jpg/v1/fit/w_1000,h_1000,al_c,q_85/0c60f0_b54f1959ed9742c39a4514acfc9860f5.jpg",
+     "alt": "Isolation",
+     "title": "Isolation",
+     "paras": [
+      "Isolation dont soufflage de ouate."
+     ],
+     "link": [
+      "Voir le catalogue",
+      "catalogue/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/0c60f0_843f3462f56f430dae2852720ac65038.jpg/v1/fit/w_1000,h_1000,al_c,q_85/0c60f0_843f3462f56f430dae2852720ac65038.jpg",
+     "alt": "Intérieur / Extérieur",
+     "title": "Intérieur / Extérieur",
+     "paras": [
+      "Neuf ou rénovation."
+     ],
+     "link": [
+      "Voir le catalogue",
+      "catalogue/"
+     ]
+    }
+   ],
+   "chips": [
+    "Plafond tendu",
+    "Cloison",
+    "Isolation",
+    "Rénovation",
+    "Décoration",
+    "Pose de revêtements",
+    "Intérieur / Extérieur"
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "Entreprise certifiée QUALIBAT + RGE",
+   "title": "Harmonie <em>Peinture</em>",
+   "img": "https://static.wixstatic.com/media/0c60f0_e032d3543fdc4a7bbcaf0c3df897c9b2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/0c60f0_e032d3543fdc4a7bbcaf0c3df897c9b2.jpg",
+   "alt": "Chantier réalisé en partenariat avec AC CONCEPT (3D Ingénierie)",
+   "paras": [
+    "HARMONIE PEINTURE est une entreprise de Plâtrerie-Peinture à votre service depuis 1999, située à Chavanay dans la Loire (Rhône-Alpes).",
+    "<em>Chantier réalisé en partenariat avec AC CONCEPT (3D Ingénierie).</em>",
+    "<a href=\"a-propos/\" style=\"border-bottom:1px solid var(--gold)\">Découvrir l'entreprise</a>"
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/0c60f0_65384f3b667c4993b42eb121c6fd7339.png/v1/fit/w_248,h_320,al_c,q_90/0c60f0_65384f3b667c4993b42eb121c6fd7339.png",
+     "Harmonie Peinture RGE QUALIBAT Chavanay 42"
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Réalisations",
+   "title": "Rénovation Harmonie Peinture",
+   "carousel": true,
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg",
+     "alt": "Rénovation Harmonie Peinture",
+     "caption": "Rénovation Harmonie Peinture"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg",
+     "thumb": "https://static.wixstatic.com/media/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg",
+     "alt": "Rénovation Harmonie Peinture Chavanay",
+     "caption": "Rénovation Harmonie Peinture Chavanay"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/0c60f0_e032d3543fdc4a7bbcaf0c3df897c9b2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_e032d3543fdc4a7bbcaf0c3df897c9b2.jpg",
+     "thumb": "https://static.wixstatic.com/media/0c60f0_e032d3543fdc4a7bbcaf0c3df897c9b2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_e032d3543fdc4a7bbcaf0c3df897c9b2.jpg",
+     "alt": "Chantier réalisé en partenariat avec AC CONCEPT (3D Ingénierie)",
+     "caption": "Chantier réalisé en partenariat avec AC CONCEPT (3D Ingénierie)"
+    }
+   ],
+   "cta": [
+    "Tout le catalogue",
+    "catalogue/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Coordonnées",
+   "title": "Harmonie Peinture, <em>Chavanay</em>",
+   "text": "Devis gratuit. Rendez-vous chez vous pour déterminer ensemble vos envies, selon votre budget.",
+   "rows": [
+    [
+     "Adresse",
+     "Port Vieux, 42410 Chavanay"
+    ],
+    [
+     "Bureau",
+     "<a href=\"tel:+33474870550\">04 74 87 05 50</a>"
+    ],
+    [
+     "Mobile",
+     "<a href=\"tel:+33612212758\">06 12 21 27 58</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:harmoniepeinture42@gmail.com\">harmoniepeinture42@gmail.com</a>"
+    ],
+    [
+     "Secrétariat",
+     "Du lundi au vendredi de 8h à 12h"
+    ],
+    [
+     "SIRET",
+     "424 220 804 00027"
+    ]
+   ],
+   "map_q": "Port Vieux, 42410 Chavanay",
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos",
+   "eyebrow": "Plâtrerie-Peinture depuis 1999",
+   "lead": "Isolation Rénovation Plâtrerie Aménagement Peinture Revêtements muraux Rhône-Alpes",
+   "img": "https://static.wixstatic.com/media/0c60f0_11dffafbc3f845a99eae6944e01cf869.jpg/v1/fit/w_1000,h_1000,al_c,q_85/0c60f0_11dffafbc3f845a99eae6944e01cf869.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "nicolas-bonnet",
+     "eyebrow": "Entreprise certifiée QUALIBAT + RGE",
+     "title": "Nicolas <em>Bonnet</em>",
+     "img": "https://static.wixstatic.com/media/0c60f0_e3e3bd8a29db4aada581359d7c7d88a1.jpg/v1/fit/w_1400,h_1400,al_c,q_85/0c60f0_e3e3bd8a29db4aada581359d7c7d88a1.jpg",
+     "alt": "Rénovation, aménagement, isolation, peinture, Harmonie Bonnet Rhône Alpes, Plaquiste",
+     "paras": [
+      "Nicolas BONNET, diplômé en Peinture Bâtiment et fort de ses trois décennies d'expérience dans le métier, met à profit son savoir-faire qualitatif.",
+      "HARMONIE PEINTURE est une entreprise de Plâtrerie-Peinture à votre service depuis 1999, située à Chavanay dans la Loire (Rhône-Alpes).",
+      "Selon vos demandes, notre équipe vous préconisera la solution adaptée à votre besoin tout en vous proposant une large gamme de produits de qualité.",
+      "Nicolas BONNET et ses collaborateurs, ce sont 4 ouvriers (peintres et plaquiste), une assistante."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/0c60f0_65384f3b667c4993b42eb121c6fd7339.png/v1/fit/w_248,h_320,al_c,q_90/0c60f0_65384f3b667c4993b42eb121c6fd7339.png",
+       "Harmonie Peinture RGE QUALIBAT Chavanay 42"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "travaux",
+     "eyebrow": "Devis gratuit",
+     "title": "HARMONIE PEINTURE réalise des <em>travaux de :</em>",
+     "lead": "Rendez-vous chez vous pour déterminer ensemble vos envies, selon votre budget.",
+     "items": [
+      {
+       "title": "Nos travaux",
+       "list": [
+        "Plâtrerie",
+        "Isolation dont soufflage de ouate",
+        "Peinture décorative",
+        "Faux plafonds, plafonds tendus",
+        "Neuf ou rénovation"
+       ]
+      },
+      {
+       "title": "Contactez nous !",
+       "list": [
+        "Cloisons, Plaques de plâtre",
+        "Peinture en extérieur et intérieur",
+        "Revêtement muraux",
+        "Aménagement de combles, de sous-sols"
+       ],
+       "link": [
+        "Demander un devis",
+        "../contact/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "catalogue",
+   "label": "Catalogue",
+   "title": "Catalogue",
+   "eyebrow": "Nos réalisations",
+   "lead": "Nos prestations : rénovation, isolation, aménagement...",
+   "img": "https://static.wixstatic.com/media/0c60f0_11dffafbc3f845a99eae6944e01cf869.jpg/v1/fit/w_1000,h_1000,al_c,q_85/0c60f0_11dffafbc3f845a99eae6944e01cf869.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "catalogue-photos",
+     "eyebrow": "Avant, pendant, après",
+     "title": "Rénovation, aménagement, <em>isolation, peinture</em>",
+     "lead": "PLAFOND TENDU - CLOISON - ISOLATION - RENOVATION - DECORATION - POSE DE REVETEMENTS - INTERIEUR / EXTERIEUR",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_0b37541b59f04923a1ec96889aa5ccb9~mv2_d_2592_1944_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_0b37541b59f04923a1ec96889aa5ccb9~mv2_d_2592_1944_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_0b37541b59f04923a1ec96889aa5ccb9~mv2_d_2592_1944_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_0b37541b59f04923a1ec96889aa5ccb9~mv2_d_2592_1944_s_2.jpg",
+       "alt": "Plafond",
+       "caption": "Plafond"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_253e0642fc96411c8d1c26b0b68960e8~mv2_d_4128_3096_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_253e0642fc96411c8d1c26b0b68960e8~mv2_d_4128_3096_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_253e0642fc96411c8d1c26b0b68960e8~mv2_d_4128_3096_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_253e0642fc96411c8d1c26b0b68960e8~mv2_d_4128_3096_s_4_2.jpg",
+       "alt": "Plafond",
+       "caption": "Plafond"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_064fa6f0fc6940148d57fa41db913bc2~mv2_d_2576_1932_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_064fa6f0fc6940148d57fa41db913bc2~mv2_d_2576_1932_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_064fa6f0fc6940148d57fa41db913bc2~mv2_d_2576_1932_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_064fa6f0fc6940148d57fa41db913bc2~mv2_d_2576_1932_s_2.jpg",
+       "alt": "Rénovation Harmonie Peinture",
+       "caption": "Rénovation Harmonie Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_678f271625ac442fbda2869c6ce1f050~mv2_d_1932_2576_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_678f271625ac442fbda2869c6ce1f050~mv2_d_1932_2576_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_678f271625ac442fbda2869c6ce1f050~mv2_d_1932_2576_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_678f271625ac442fbda2869c6ce1f050~mv2_d_1932_2576_s_2.jpg",
+       "alt": "Rénovation Harmonie Peinture",
+       "caption": "Rénovation Harmonie Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_8035717df1864af28e2d2642f974f21a~mv2_d_1932_2576_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_8035717df1864af28e2d2642f974f21a~mv2_d_1932_2576_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_8035717df1864af28e2d2642f974f21a~mv2_d_1932_2576_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_8035717df1864af28e2d2642f974f21a~mv2_d_1932_2576_s_2.jpg",
+       "alt": "Rénovation Harmonie Peinture",
+       "caption": "Rénovation Harmonie Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_cefac5c58499416ca3b0a48bdc8a66c6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_cefac5c58499416ca3b0a48bdc8a66c6.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_cefac5c58499416ca3b0a48bdc8a66c6.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_cefac5c58499416ca3b0a48bdc8a66c6.jpg",
+       "alt": "Rénovation Harmonie Peinture",
+       "caption": "Rénovation Harmonie Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_0d43c60be1ce4f67ae29b7a1b4c1fc80.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_0d43c60be1ce4f67ae29b7a1b4c1fc80.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_0d43c60be1ce4f67ae29b7a1b4c1fc80.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_0d43c60be1ce4f67ae29b7a1b4c1fc80.jpg",
+       "alt": "Aménagement combles",
+       "caption": "Aménagement combles"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_f77dd779fb644c5bad69584dca5c3a7d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_f77dd779fb644c5bad69584dca5c3a7d.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_f77dd779fb644c5bad69584dca5c3a7d.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_f77dd779fb644c5bad69584dca5c3a7d.jpg",
+       "alt": "Rénovation Harmonie Peinture",
+       "caption": "Rénovation Harmonie Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_bacd123217d44dfe94fd04fd142507c1~mv2_d_2592_1944_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_bacd123217d44dfe94fd04fd142507c1~mv2_d_2592_1944_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_bacd123217d44dfe94fd04fd142507c1~mv2_d_2592_1944_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_bacd123217d44dfe94fd04fd142507c1~mv2_d_2592_1944_s_2.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_f0d4093e79b94359b2d0239cc8ffd6ad~mv2_d_2576_1932_s_2.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_fd8daa70b5ec4e288502513accbb44d9~mv2_d_2576_1932_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_fd8daa70b5ec4e288502513accbb44d9~mv2_d_2576_1932_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_fd8daa70b5ec4e288502513accbb44d9~mv2_d_2576_1932_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_fd8daa70b5ec4e288502513accbb44d9~mv2_d_2576_1932_s_2.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_20f8447da18746e9b64243b98f3626cf.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_20f8447da18746e9b64243b98f3626cf.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_20f8447da18746e9b64243b98f3626cf.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_20f8447da18746e9b64243b98f3626cf.jpg",
+       "alt": "Avant",
+       "caption": "Avant"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_3a1a3986562143029d167667a336507f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_3a1a3986562143029d167667a336507f.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_3a1a3986562143029d167667a336507f.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_3a1a3986562143029d167667a336507f.jpg",
+       "alt": "Pendant",
+       "caption": "Pendant"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_32c762e97331453fb347a5e689d40aa2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_32c762e97331453fb347a5e689d40aa2.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_32c762e97331453fb347a5e689d40aa2.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_32c762e97331453fb347a5e689d40aa2.jpg",
+       "alt": "Création VALLA Cuisine",
+       "caption": "Création VALLA Cuisine"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_969e248adec6416aa162101c42f1e7fd.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_e0d03b6f71294e4692c2df8b338d10bb.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_e0d03b6f71294e4692c2df8b338d10bb.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_e0d03b6f71294e4692c2df8b338d10bb.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_e0d03b6f71294e4692c2df8b338d10bb.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_ae73fb37beba4cabbf8eb912f58705b8.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_ae73fb37beba4cabbf8eb912f58705b8.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_ae73fb37beba4cabbf8eb912f58705b8.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_ae73fb37beba4cabbf8eb912f58705b8.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_c519bb0b13214fd68e030d8aa5c78003.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_c519bb0b13214fd68e030d8aa5c78003.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_c519bb0b13214fd68e030d8aa5c78003.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_c519bb0b13214fd68e030d8aa5c78003.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_d6fb5a375cf1492ea67e947863e16d80.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_d6fb5a375cf1492ea67e947863e16d80.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_d6fb5a375cf1492ea67e947863e16d80.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_d6fb5a375cf1492ea67e947863e16d80.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_0c67b9685ed94ea2a8154ca8f9bcb3cb.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_0c67b9685ed94ea2a8154ca8f9bcb3cb.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_0c67b9685ed94ea2a8154ca8f9bcb3cb.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_0c67b9685ed94ea2a8154ca8f9bcb3cb.jpg",
+       "alt": "Rénovation",
+       "caption": "Rénovation"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_d49f58fda9a34f0da39ba2aa94bbfc07.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_d49f58fda9a34f0da39ba2aa94bbfc07.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_d49f58fda9a34f0da39ba2aa94bbfc07.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_d49f58fda9a34f0da39ba2aa94bbfc07.jpg",
+       "alt": "Boucherie : Avant",
+       "caption": "Boucherie : Avant"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_f600e931cb174fe29e282e08a8af062d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_f600e931cb174fe29e282e08a8af062d.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_f600e931cb174fe29e282e08a8af062d.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_f600e931cb174fe29e282e08a8af062d.jpg",
+       "alt": "Boucherie : Après",
+       "caption": "Boucherie : Après"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_843f3462f56f430dae2852720ac65038.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_843f3462f56f430dae2852720ac65038.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_843f3462f56f430dae2852720ac65038.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_843f3462f56f430dae2852720ac65038.jpg",
+       "alt": "Travaux extérieurs",
+       "caption": "Travaux extérieurs"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_b54f1959ed9742c39a4514acfc9860f5.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_b54f1959ed9742c39a4514acfc9860f5.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_b54f1959ed9742c39a4514acfc9860f5.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_b54f1959ed9742c39a4514acfc9860f5.jpg",
+       "alt": "Bureau : Avant",
+       "caption": "Bureau : Avant"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_1082870396964f17acc4f0c81348fcd1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_1082870396964f17acc4f0c81348fcd1.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_1082870396964f17acc4f0c81348fcd1.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_1082870396964f17acc4f0c81348fcd1.jpg",
+       "alt": "Aménagement Bureau",
+       "caption": "Aménagement Bureau"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/0c60f0_6c4ab78b1ea4403fb9d20f5fbabcb3f4.jpg/v1/fit/w_1600,h_1600,al_c,q_85/0c60f0_6c4ab78b1ea4403fb9d20f5fbabcb3f4.jpg",
+       "thumb": "https://static.wixstatic.com/media/0c60f0_6c4ab78b1ea4403fb9d20f5fbabcb3f4.jpg/v1/fit/w_900,h_900,al_c,q_85/0c60f0_6c4ab78b1ea4403fb9d20f5fbabcb3f4.jpg",
+       "alt": "Aménagement bureau",
+       "caption": "Aménagement bureau"
+      }
+     ],
+     "cta": [
+      "Demander un devis",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis gratuit",
+   "lead": "Secrétariat du lundi au vendredi de 8h à 12h.",
+   "img": "https://static.wixstatic.com/media/0c60f0_89551501fc3a4287914a9f82c8c7ae54.jpg/v1/fit/w_1000,h_1000,al_c,q_85/0c60f0_89551501fc3a4287914a9f82c8c7ae54.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Demander un <em>devis</em>",
+     "lead": "Rendez-vous chez vous pour déterminer ensemble vos envies, selon votre budget.",
+     "side": [
+      "Bureau : <a href=\"tel:+33474870550\">04 74 87 05 50</a><br>Mobile : <a href=\"tel:+33612212758\">06 12 21 27 58</a>",
+      "<a href=\"mailto:harmoniepeinture42@gmail.com\">harmoniepeinture42@gmail.com</a>",
+      "Port Vieux<br>42410 Chavanay"
+     ],
+     "email": "harmoniepeinture42@gmail.com",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Sujet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Coordonnées",
+     "title": "Harmonie Peinture, <em>Chavanay</em>",
+     "text": "Devis gratuit. Rendez-vous chez vous pour déterminer ensemble vos envies, selon votre budget.",
+     "rows": [
+      [
+       "Adresse",
+       "Port Vieux, 42410 Chavanay"
+      ],
+      [
+       "Bureau",
+       "<a href=\"tel:+33474870550\">04 74 87 05 50</a>"
+      ],
+      [
+       "Mobile",
+       "<a href=\"tel:+33612212758\">06 12 21 27 58</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:harmoniepeinture42@gmail.com\">harmoniepeinture42@gmail.com</a>"
+      ],
+      [
+       "Secrétariat",
+       "Du lundi au vendredi de 8h à 12h"
+      ],
+      [
+       "SIRET",
+       "424 220 804 00027"
+      ]
+     ],
+     "map_q": "Port Vieux, 42410 Chavanay",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "HARMONIE PEINTURE - Nicolas BONNET. Entreprise de Plâtrerie-Peinture à Chavanay (Loire, Rhône-Alpes) depuis 1999. Entreprise certifiée QUALIBAT + RGE.",
+  "contact": [
+   "<a href=\"tel:+33474870550\">04 74 87 05 50</a>",
+   "<a href=\"tel:+33612212758\">06 12 21 27 58</a>",
+   "<a href=\"mailto:harmoniepeinture42@gmail.com\">harmoniepeinture42@gmail.com</a>",
+   "Port Vieux, 42410 Chavanay"
+  ],
+  "legal": "HARMONIE PEINTURE · Nicolas BONNET · Port Vieux, 42410 Chavanay · SIRET 424 220 804 00027 · Entreprise certifiée QUALIBAT + RGE"
+ }
+}
