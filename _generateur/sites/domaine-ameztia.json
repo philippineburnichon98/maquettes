@@ -1,0 +1,232 @@
+{
+ "slug": "domaine-ameztia-793a69",
+ "title": "Domaine Ameztia — Vins d'Irouléguy, vignerons à Baigorri (Pays basque)",
+ "description": "Domaine Ameztia, ferme bas-navarraise du XVIIe siècle à Baigorri : Gexan et Eñaut Costera cultivent 8 hectares en AOC Irouléguy sur trois parcelles, Ameztia, Okoxtei et Arraune.",
+ "brand": "Domaine Ameztia",
+ "tagline": "AOC Irouléguy",
+ "monogram": "A",
+ "agegate": true,
+ "theme": {
+  "look": "framed",
+  "paper": "#f7f3ec",
+  "paper2": "#ece4d6",
+  "ink": "#231c1a",
+  "muted": "#6b605a",
+  "accent": "#8a1f2d",
+  "accent2": "#6a1622",
+  "gold": "#b08d4f",
+  "heroem": "#f2d3a8",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Jost\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://domaine-ameztia.com/wp-content/uploads/2018/06/DOMAINE-AMEZTIA-IROULEGUY-1.png",
+  "height": 56
+ },
+ "topbar": [
+  "Germieta · 64430 Baigorri",
+  "<a href=\"tel:+33673012758\">06 73 01 27 58</a>",
+  "<a href=\"tel:+33688593718\">06 88 59 37 18</a>",
+  "<a href=\"mailto:ameztia@orange.fr\">ameztia@orange.fr</a>"
+ ],
+ "nav": [
+  ["domaine", "Notre domaine"],
+  ["parcelles", "Nos parcelles"],
+  ["vignes", "Nos vignes"],
+  ["chai", "Le chai"],
+  ["vins", "Nos vins"],
+  ["contact", "Contact"]
+ ],
+ "hero": {
+  "img": "https://domaine-ameztia.com/wp-content/uploads/2018/06/AMEZTIA.jpg",
+  "eyebrow": "AOC Irouléguy · Baigorri · Pays basque",
+  "title": "Domaine<br><em>Ameztia</em>",
+  "lead": "Ameztia, « la chênaie » en basque, est une ferme bas-navarraise du XVIIe siècle qui a traversé les époques grâce à l'élevage et la culture de la vigne.",
+  "cta1": ["Découvrir nos vins", "#vins"],
+  "cta2": ["Visite et dégustation", "#contact"]
+ },
+ "figures": [
+  ["XVII<sup style=\"font-size:.5em\">e</sup>", "siècle, notre ferme familiale"],
+  ["2001", "premier millésime en AOC Irouléguy"],
+  ["8 ha", "de vignes"],
+  ["3", "parcelles, 3 terroirs"]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Notre domaine",
+   "title": "L'héritage <em class=\"it\">des bergers…</em>",
+   "img": "https://domaine-ameztia.com/wp-content/uploads/2018/06/AMEZTIA-VIGNERONS.jpg",
+   "alt": "Les vignerons du Domaine Ameztia",
+   "paras": [
+    "Ameztia, « la chênaie » en basque, est une ferme bas-navarraise du XVII<sup>e</sup> siècle qui a traversé les époques grâce à l'élevage et la culture de la vigne.",
+    "En 2001, le berger-vigneron Jean Louis Costera vinifie son premier millésime en AOC Irouléguy.",
+    "En 2013, il transmet « le flambeau » à son neveu Gexan épaulé par son frère Eñaut qui le rejoint deux ans plus tard.",
+    "Aujourd'hui le domaine s'étend sur 8 hectares et continue de nourrir une passion partagée en famille."
+   ],
+   "sign": "Gexan et Eñaut Costera · Mahastizainak - Vignerons"
+  },
+  {
+   "kind": "blocks",
+   "id": "parcelles",
+   "eyebrow": "Nos parcelles",
+   "title": "Ameztia, Okoxtei <em class=\"it\">et Arraune</em>",
+   "lead": "Trois parcelles exposées Sud/Sud-Ouest : l'ensoleillement permet au tannat d'arriver à une maturité optimale, amenant ainsi profondeur et structure à nos vins.",
+   "items": [
+    {
+     "img": "https://domaine-ameztia.com/wp-content/uploads/2019/03/VIGNE-AMEZTIA-1-1.jpg",
+     "alt": "La parcelle Ameztia",
+     "kicker": "La vigne mère…",
+     "title": "Ameztia",
+     "paras": [
+      "<b>Sol :</b> d'une superficie de 3 hectares, nos vieilles vignes s'y épanouissent sur un terroir argilo-limoneux à galets ronds ferrugineux.",
+      "<b>Exposition :</b> Sud/Sud-Ouest."
+     ]
+    },
+    {
+     "img": "https://domaine-ameztia.com/wp-content/uploads/2019/03/vigne-okoxtei.jpg",
+     "alt": "La parcelle Okoxtei en terrasses",
+     "kicker": "Les terrasses…",
+     "title": "Okoxtei",
+     "paras": [
+      "<b>Sol :</b> plantée entre 2004 et 2006, cette parcelle au profil montagnard nous offre deux types de sols. Du grès rouge micacé pour la fraîcheur et le fruité des vins rouges, et un dôme argilo-calcaire pour la structure et l'élégance des vins blancs.",
+      "<b>Exposition :</b> Sud/Sud-Ouest."
+     ]
+    },
+    {
+     "img": "https://domaine-ameztia.com/wp-content/uploads/2019/03/vigne-arraune-1.jpg",
+     "alt": "La parcelle Arraune",
+     "kicker": "La p'tite dernière…",
+     "title": "Arraune",
+     "paras": [
+      "<b>Sol :</b> plantée au printemps 2016, sur un terroir ophitique. Conduite avec autant de minutie et de doigté que les autres parcelles, elle exprimera tout son potentiel dans les futures cuvées du domaine.",
+      "<b>Exposition :</b> Sud/Sud-Ouest."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Le domaine en images",
+   "title": "Nos vignes <em class=\"it\">en terrasses</em>",
+   "photos": [
+    {"thumb": "https://domaine-ameztia.com/wp-content/uploads/2018/06/AMEZTIA-DOMAINE-VIN-IROULEGUY.jpg", "full": "https://domaine-ameztia.com/wp-content/uploads/2018/06/AMEZTIA-DOMAINE-VIN-IROULEGUY.jpg", "alt": "Le Domaine Ameztia, vins d'Irouléguy"},
+    {"thumb": "https://domaine-ameztia.com/wp-content/uploads/2019/03/VIGNE-AMEZTIA-2-1.jpg", "full": "https://domaine-ameztia.com/wp-content/uploads/2019/03/VIGNE-AMEZTIA-2-1.jpg", "alt": "La parcelle Ameztia", "caption": "Ameztia"},
+    {"thumb": "https://domaine-ameztia.com/wp-content/uploads/2019/03/okoxtei-2.jpg", "full": "https://domaine-ameztia.com/wp-content/uploads/2019/03/okoxtei-2.jpg", "alt": "La parcelle Okoxtei", "caption": "Okoxtei"},
+    {"thumb": "https://domaine-ameztia.com/wp-content/uploads/2019/03/okoxtei-vigne-1.jpg", "full": "https://domaine-ameztia.com/wp-content/uploads/2019/03/okoxtei-vigne-1.jpg", "alt": "Les vignes d'Okoxtei", "caption": "Okoxtei"}
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "vignes",
+   "eyebrow": "Nos vignes",
+   "title": "3 parcelles, <em class=\"it\">3 terroirs…</em>",
+   "img": "https://domaine-ameztia.com/wp-content/uploads/2019/03/VIGNE-AMEZTIA-3.jpg",
+   "alt": "Les vignes du Domaine Ameztia",
+   "paras": [
+    "Nous travaillons 8 hectares de vigne sur 3 parcelles distinctes. Chacune d'entre elles présente un terroir différent donnant sa personnalité aux vins du domaine.",
+    "Le travail sur la plante se fait à la main, de la taille aux vendanges en passant par l'ébourgeonnage, le palissage et l'effeuillage.",
+    "Après la floraison, de la vendange en vert est effectuée, principalement sur le Tannat et sur le Gros Manseng, afin de donner l'équilibre nécessaire à la plante pour une maturité optimale de nos raisins.",
+    "Une fois les vendanges terminées, les brebis de la ferme entretiennent nos parcelles et ainsi accompagnent la vigne dans son sommeil hivernal."
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "cepages",
+   "eyebrow": "Nos cépages",
+   "title": "Le tannat <em class=\"it\">et les manseng</em>",
+   "lead": "Le tannat, cépage emblématique du domaine, compose 75 à 90 % de nos vins rouges.",
+   "items": [
+    ["Le tannat", "Ce cépage donne couleur, profondeur, arômes de fruits rouges et noirs à nos vins. C'est un cépage de caractère, qui demande une attention particulière pour qu'il dévoile tout son potentiel."],
+    ["Cabernet franc et cabernet sauvignon", "Ces deux cépages apportent souplesse et longueur en bouche."],
+    ["Gros manseng", "Amène fraîcheur et notes d'agrumes."],
+    ["Petit manseng", "Amène amplitude et richesse aromatique."]
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://domaine-ameztia.com/wp-content/uploads/2019/03/AMEZTIA-NOTRE-DOMAINE-1.jpg",
+   "eyebrow": "Du lundi au samedi de 14h à 18h",
+   "title": "Visite et dégustation<br><em>en compagnie du vigneron</em>",
+   "cta": ["Nous rendre visite", "#contact"]
+  },
+  {
+   "kind": "story",
+   "id": "chai",
+   "eyebrow": "Le chai",
+   "title": "Élaboration <em class=\"it\">du vin…</em>",
+   "img": "https://domaine-ameztia.com/wp-content/uploads/2019/03/bariqques-ameztia.jpg",
+   "alt": "Barriques et foudres de chêne au chai du Domaine Ameztia",
+   "paras": [
+    "Après les vendanges manuelles du mois d'octobre, douceur et patience sont les maîtres mots dans la conduite de la vinification et de l'élevage.",
+    "Les raisins minutieusement triés tombent par gravité dans la cuve de vinification pour le rouge et dans le pressoir pneumatique pour les blancs.",
+    "La durée de cuvaison varie de 2 à 5 semaines selon le terroir, le millésime et la dégustation.",
+    "Après une macération pelliculaire et un léger débourbage à froid, nos blancs fermentent et sont élevés partiellement en foudres et cuve inox.",
+    "Une fois décuvés, 1/3 de nos rouges est élevé 18 mois en barriques et foudres de chêne français.",
+    "Lors de votre visite, vous apprécierez un équipement moderne superbement intégré à l'histoire de la ferme familiale du XVII<sup>e</sup> siècle."
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "chai-photos",
+   "eyebrow": "Au chai",
+   "title": "Du raisin <em class=\"it\">au vin</em>",
+   "photos": [
+    {"thumb": "https://domaine-ameztia.com/wp-content/uploads/2019/03/tri-vendanges.jpg", "full": "https://domaine-ameztia.com/wp-content/uploads/2019/03/tri-vendanges.jpg", "alt": "Le tri des vendanges", "caption": "Le tri des vendanges"},
+    {"thumb": "https://domaine-ameztia.com/wp-content/uploads/2019/03/CUVE-INOX-AMEZTIA.jpg", "full": "https://domaine-ameztia.com/wp-content/uploads/2019/03/CUVE-INOX-AMEZTIA.jpg", "alt": "Les cuves inox du chai", "caption": "Les cuves inox"},
+    {"thumb": "https://domaine-ameztia.com/wp-content/uploads/2019/03/ENAUT-COSTERA.jpg", "full": "https://domaine-ameztia.com/wp-content/uploads/2019/03/ENAUT-COSTERA.jpg", "alt": "Eñaut Costera au chai", "caption": "Eñaut Costera"}
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "vins",
+   "eyebrow": "Nos vins",
+   "title": "Le fruit de <em class=\"it\">notre travail…</em>",
+   "lead": "Rouges, blancs et rosé du Domaine Ameztia, à découvrir et à déguster au domaine en compagnie du vigneron.",
+   "tabs": [["rouge", "Rouges"], ["blanc", "Blancs"], ["rose", "Rosé"]],
+   "items": [
+    {"cat": "rouge", "color": "#6e1a26", "tag": "Rouge", "name": "Ameztia rouge", "img": "https://domaine-ameztia.com/wp-content/uploads/2018/12/AMEZTIA-ROUGE-5-550x1100.png"},
+    {"cat": "rouge", "color": "#6e1a26", "tag": "Rouge", "name": "Artzaina rouge", "img": "https://domaine-ameztia.com/wp-content/uploads/2018/12/ARTZAINA-ROUGE-550x1100.png"},
+    {"cat": "blanc", "color": "#d6bf74", "tag": "Blanc", "name": "Ameztia blanc", "img": "https://domaine-ameztia.com/wp-content/uploads/2018/12/AMEZTIA-BLANC-1-550x1100.png"},
+    {"cat": "blanc", "color": "#d6bf74", "tag": "Blanc", "name": "Artzaina blanc", "img": "https://domaine-ameztia.com/wp-content/uploads/2018/12/ARTZAINA-BLANC-1-550x1100.png"},
+    {"cat": "blanc", "color": "#c99a2e", "name": "Eztia", "img": "https://domaine-ameztia.com/wp-content/uploads/2018/12/EZTIA-550x1100.png"},
+    {"cat": "rose", "color": "#e29a9b", "tag": "Rosé", "name": "Ameztia rosé", "img": "https://domaine-ameztia.com/wp-content/uploads/2018/12/AMEZTIA-ROS%C3%89-550x1100.png"}
+   ],
+   "note": "Renseignements et tarifs au domaine : 06 73 01 27 58 · 06 88 59 37 18."
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Gexan et Eñaut Costera",
+   "text": "Nous vous invitons à découvrir Ameztia, ses vins et son histoire, à partager une passion en notre compagnie.",
+   "sub": "Mahastizainak - Vignerons"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Domaine Ameztia <em class=\"it\">Etxaldea</em>",
+   "text": "Visite et dégustation en compagnie du vigneron. Du lundi au samedi de 14h à 18h. Sur réservation pour les groupes.",
+   "rows": [
+    ["Adresse", "Domaine Ameztia Etxaldea<br>Quartier Germieta<br>64430 Baigorri"],
+    ["Visites", "Du lundi au samedi de 14h à 18h<br>Sur réservation pour les groupes"],
+    ["Téléphone", "<a href=\"tel:+33673012758\">06 73 01 27 58</a><br><a href=\"tel:+33688593718\">06 88 59 37 18</a>"],
+    ["E-mail", "<a href=\"mailto:ameztia@orange.fr\">ameztia@orange.fr</a>"]
+   ],
+   "map_q": "Domaine Ameztia, Germieta, 64430 Saint-Étienne-de-Baigorry",
+   "cta": ["Appeler le domaine", "tel:+33673012758"]
+  }
+ ],
+ "footer": {
+  "about": "Gexan et Eñaut Costera, vignerons à Baigorri : 8 hectares en AOC Irouléguy sur trois parcelles, Ameztia, Okoxtei et Arraune, autour d'une ferme bas-navarraise du XVIIe siècle.",
+  "contact": [
+   "<a href=\"tel:+33673012758\">06 73 01 27 58</a>",
+   "<a href=\"tel:+33688593718\">06 88 59 37 18</a>",
+   "<a href=\"mailto:ameztia@orange.fr\">ameztia@orange.fr</a>",
+   "Quartier Germieta, 64430 Baigorri"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
