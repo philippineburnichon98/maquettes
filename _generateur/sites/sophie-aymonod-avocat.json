@@ -1,0 +1,168 @@
+{
+ "slug": "sophie-aymonod-avocat-206c9f",
+ "title": "Maître Sophie Aymonod — Avocat au barreau d'Aix-en-Provence",
+ "description": "Cabinet de Maître Sophie Aymonod, avocat à Aix-en-Provence, 23 rue Thiers : droit de la famille (divorce, séparation, garde d'enfant), droit du travail, droit pénal et tout contentieux.",
+ "brand": "Maître Sophie Aymonod",
+ "tagline": "Avocat · Barreau d'Aix-en-Provence",
+ "logo": {
+  "src": "https://image.jimcdn.com/app/cms/image/transf/none/path/s62ffd6b57986b111/image/ie9975f4fdfe2647f/version/1505120140/image.png",
+  "height": 56
+ },
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f4f0",
+  "paper2": "#ebe6de",
+  "ink": "#1d2230",
+  "muted": "#5b6070",
+  "accent": "#6b2737",
+  "accent2": "#521c29",
+  "gold": "#b08d57",
+  "heroem": "#e9d3b6",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Source+Sans+3:wght@300;400;600&display=swap"
+ },
+ "home_label": "Accueil",
+ "nav": [
+  [
+   "cabinet",
+   "Le cabinet"
+  ],
+  [
+   "competences",
+   "Domaines de compétences"
+  ],
+  [
+   "infos",
+   "Informations pratiques"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s62ffd6b57986b111/backgroundarea/ic1af5b16b74d627a/version/1498282725/image.jpg",
+  "eyebrow": "Cabinet Sophie Aymonod · 23 rue Thiers · Aix-en-Provence",
+  "title": "Avocat au barreau <em>d'Aix-en-Provence</em>",
+  "lead": "Avocate depuis 1997, Maître Sophie Aymonod exerce auprès de la Cour d'appel d'Aix-en-Provence.",
+  "cta1": [
+   "Prendre contact",
+   "#contact"
+  ],
+  "cta2": [
+   "04 42 26 22 58",
+   "tel:+33442262258"
+  ]
+ },
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Le cabinet",
+   "title": "Proximité <em>et écoute</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s62ffd6b57986b111/image/ifcb07e2865684a32/version/1445971873/image.jpg",
+   "alt": "Cabinet Sophie Aymonod, Aix-en-Provence",
+   "paras": [
+    "Bienvenue sur le site du cabinet de Maître Sophie Aymonod.",
+    "Avocate depuis 1997, elle exerce auprès de la Cour d'appel d'Aix-en-Provence.",
+    "Elle privilégie la proximité et l'écoute."
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "competences",
+   "eyebrow": "Domaines de compétences",
+   "title": "Domaines <em>d'intervention</em>",
+   "lead": "Le cabinet intervient notamment en :",
+   "items": [
+    {
+     "title": "Droit de la famille",
+     "list": [
+      "Divorce",
+      "Séparation",
+      "Garde d'enfant"
+     ]
+    },
+    {
+     "title": "Droit du travail"
+    },
+    {
+     "title": "Droit pénal"
+    },
+    {
+     "title": "Tout contentieux"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "infos",
+   "eyebrow": "Informations pratiques",
+   "title": "Au cœur du centre historique <em>d'Aix-en-Provence</em>",
+   "text": "Le cabinet se situe dans le centre historique d'Aix-en-Provence. Les parkings CARNOT, BELLEGARDE et PASTEUR sont à quelques minutes à pied du cabinet.",
+   "rows": [
+    [
+     "Adresse",
+     "23 rue Thiers, 13100 Aix-en-Provence"
+    ],
+    [
+     "Parkings",
+     "Carnot, Bellegarde, Pasteur"
+    ]
+   ],
+   "map_q": "23 rue Thiers, 13100 Aix-en-Provence",
+   "cta": [
+    "Itinéraire",
+    "https://www.google.com/maps/search/?api=1&query=23+rue+Thiers+13100+Aix-en-Provence"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Prendre <em>contact</em>",
+   "lead": "Vous pouvez joindre le cabinet par téléphone ou par e-mail.",
+   "side": [
+    "Cabinet Sophie Aymonod<br>23 rue Thiers<br>13100 Aix-en-Provence",
+    "Tél. : <a href=\"tel:+33442262258\">04 42 26 22 58</a><br>Mobile : <a href=\"tel:+33781758530\">07 81 75 85 30</a>",
+    "<a href=\"mailto:sophieaymonod@yahoo.fr\">sophieaymonod@yahoo.fr</a>"
+   ],
+   "email": "sophieaymonod@yahoo.fr",
+   "subject": "Prise de contact depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Cabinet de Maître Sophie Aymonod, avocat au barreau d'Aix-en-Provence, 23 rue Thiers, 13100 Aix-en-Provence.",
+  "contact": [
+   "<a href=\"tel:+33442262258\">04 42 26 22 58</a>",
+   "<a href=\"tel:+33781758530\">07 81 75 85 30</a>",
+   "<a href=\"mailto:sophieaymonod@yahoo.fr\">sophieaymonod@yahoo.fr</a>",
+   "23 rue Thiers, 13100 Aix-en-Provence"
+  ],
+  "legal": "Maître Sophie Aymonod · Avocat au barreau d'Aix-en-Provence",
+  "legal_url": "https://avocat-sophieaymonod.jimdofree.com/about/"
+ }
+}
