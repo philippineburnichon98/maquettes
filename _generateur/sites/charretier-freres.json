@@ -1,0 +1,606 @@
+{
+ "slug": "charretier-freres-cfd235",
+ "title": "Charretier Frères — Plaquiste peintre à Chazelles-sur-Lyon (Loire), neuf et restauration, qualification RGE",
+ "description": "Charretier Frères, plaquiste peintre à Chazelles-sur-Lyon (42140) : placo plâtre, isolation BIOFIB TRIO chanvre, laine de bois, peinture décoration, papier peint, ravalement de façades. Neuf et restauration, qualification RGE. Devis gratuit.",
+ "brand": "Charretier Frères",
+ "tagline": "Plaquiste peintre · RGE",
+ "monogram": "CF",
+ "theme": {
+  "look": "split",
+  "paper": "#f5f2ec",
+  "paper2": "#e8e2d7",
+  "ink": "#22262a",
+  "muted": "#5f6366",
+  "accent": "#b0602e",
+  "accent2": "#8c4a22",
+  "gold": "#c9a46a",
+  "heroem": "#f3cfa7",
+  "serif": "\"Barlow Condensed\",Arial Narrow,sans-serif",
+  "sans": "\"Barlow\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Plaquiste peintre · Neuf et restauration · Qualification RGE",
+  "Devis : <a href=\"tel:+33608279792\">06 08 27 97 92</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [
+  [
+   "contact",
+   "Devis et contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/ea71bb_03d53836cbfc494c9bbe79b35d759d76~mv2_d_4502_2777_s_4_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/ea71bb_03d53836cbfc494c9bbe79b35d759d76~mv2_d_4502_2777_s_4_2.jpg",
+  "eyebrow": "Plaquiste peintre · Chazelles-sur-Lyon (Loire)",
+  "title": "Plaquiste peintre, <em>neuf et restauration</em>",
+  "lead": "Placo plâtre, isolation, peinture et décoration, ravalement de façades. Qualification RGE. Appelez-nous pour un devis.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 08 27 97 92",
+   "tel:+33608279792"
+  ]
+ },
+ "figures": [
+  [
+   "4",
+   "personnes dans l'équipe"
+  ],
+  [
+   "RGE",
+   "qualification"
+  ],
+  [
+   "Neuf",
+   "et restauration"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Nos services",
+   "title": "Travaux neuf et restauration, <em>plaquiste peinture</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/98e38f_9512df07598c4c47b999887ec409dda2~mv2_d_1944_2592_s_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_9512df07598c4c47b999887ec409dda2~mv2_d_1944_2592_s_2.jpg",
+     "alt": "Revêtement papier peint",
+     "title": "Revêtement papier peint",
+     "paras": [
+      "Pose de revêtements muraux intérieurs, en neuf comme en rénovation."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/98e38f_ef52dd77823b41039ef8344ab8cc2817~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_ef52dd77823b41039ef8344ab8cc2817~mv2.jpg",
+     "alt": "Placo plâtre",
+     "title": "Placo plâtre",
+     "paras": [
+      "Travaux de placos plâtre : cloisons, doublages et plafonds."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/98e38f_43436bb531ac43688555a4c5f83cb2d6~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_43436bb531ac43688555a4c5f83cb2d6~mv2.jpg",
+     "alt": "Isolation BIOFIB TRIO chanvre",
+     "title": "Isolation BIOFIB TRIO chanvre",
+     "paras": [
+      "Isolations laine de verre, BIOFIB TRIO à base de chanvre et laine de bois."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/98e38f_7d1772b23fba4f0cbc2900e4c829775c~mv2_d_3840_2560_s_4_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_7d1772b23fba4f0cbc2900e4c829775c~mv2_d_3840_2560_s_4_2.jpg",
+     "alt": "Peinture décoration",
+     "title": "Peinture décoration",
+     "paras": [
+      "Peintures intérieures, décoration et ravalement de façades."
+     ]
+    }
+   ],
+   "chips": [
+    "Placo plâtre",
+    "Isolation chanvre",
+    "Laine de bois",
+    "Peinture intérieure",
+    "Papier peint",
+    "Ravalement de façades"
+   ],
+   "note": "<a href=\"nos-services/\">Voir nos services</a>"
+  },
+  {
+   "kind": "features",
+   "id": "intervention",
+   "eyebrow": "Détails d'une intervention",
+   "title": "Du devis <em>au chantier</em>",
+   "items": [
+    [
+     "Nous vous envoyons un devis gratuit",
+     "Vous nous présentez votre projet, nous chiffrons les travaux."
+    ],
+    [
+     "Vous choisissez les dates du chantier",
+     "Le chantier se cale sur votre calendrier."
+    ],
+    [
+     "Nous intervenons",
+     "Plâtrerie, isolation, peinture : en neuf comme en restauration."
+    ],
+    [
+     "Nous garantissons notre qualité",
+     "Une entreprise qualifiée RGE."
+    ]
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "Notre entreprise",
+   "title": "Charretier <em>Frères</em>",
+   "img": "https://static.wixstatic.com/media/98e38f_b40a8654f3c84b5a8a0374b03f8117a3~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/98e38f_b40a8654f3c84b5a8a0374b03f8117a3~mv2.jpg",
+   "alt": "Peinture décoration",
+   "paras": [
+    "Nous réalisons des travaux de placos plâtre, isolations laine de verre, BIOFIB TRIO à base de chanvre, laine de bois, ravalement de façades, revêtements intérieurs et peintures intérieures.",
+    "Neuf et rénovation. Notre équipe : effectif 4 personnes.",
+    "<a href=\"notre-entreprise/\" style=\"border-bottom:1px solid var(--gold)\">Découvrir l'entreprise</a>"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "Nos réalisations",
+   "title": "Quelques <em>chantiers</em>",
+   "carousel": true,
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/98e38f_0e821596a8804dfcaa7b9fd043c8cc36~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/98e38f_0e821596a8804dfcaa7b9fd043c8cc36~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/98e38f_0e821596a8804dfcaa7b9fd043c8cc36~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/98e38f_0e821596a8804dfcaa7b9fd043c8cc36~mv2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/98e38f_073759156aa0443797883fab885b3752~mv2_d_1944_2592_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/98e38f_073759156aa0443797883fab885b3752~mv2_d_1944_2592_s_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/98e38f_073759156aa0443797883fab885b3752~mv2_d_1944_2592_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/98e38f_073759156aa0443797883fab885b3752~mv2_d_1944_2592_s_2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/ea71bb_02c91dfb6ce94d69bdd24c807e2e3ec7~mv2_d_1382_2011_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_02c91dfb6ce94d69bdd24c807e2e3ec7~mv2_d_1382_2011_s_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/ea71bb_02c91dfb6ce94d69bdd24c807e2e3ec7~mv2_d_1382_2011_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_02c91dfb6ce94d69bdd24c807e2e3ec7~mv2_d_1382_2011_s_2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/ea71bb_f6c2430c3bb54f7da8bd1e598c9a540f~mv2_d_1625_2355_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_f6c2430c3bb54f7da8bd1e598c9a540f~mv2_d_1625_2355_s_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/ea71bb_f6c2430c3bb54f7da8bd1e598c9a540f~mv2_d_1625_2355_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_f6c2430c3bb54f7da8bd1e598c9a540f~mv2_d_1625_2355_s_2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg",
+     "thumb": "https://static.wixstatic.com/media/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg",
+     "alt": "Réalisation Charretier Frères"
+    }
+   ],
+   "cta": [
+    "Toutes nos réalisations",
+    "nos-realisations/"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Devis gratuit",
+   "title": "Demander un <em>devis</em>",
+   "lead": "Décrivez votre projet : nous vous envoyons un devis gratuit.",
+   "side": [
+    "Tél : <a href=\"tel:+33608279792\">06 08 27 97 92</a>",
+    "<a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>",
+    "9 bis rue Vieille<br>42140 Chazelles-sur-Lyon"
+   ],
+   "email": "charretier.freres@orange.fr",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email"
+    },
+    {
+     "label": "Commune du chantier"
+    },
+    {
+     "label": "Travaux",
+     "type": "select",
+     "options": [
+      "Plâtrerie / placo",
+      "Isolation",
+      "Peinture et décoration",
+      "Papier peint",
+      "Ravalement de façade",
+      "Autre"
+     ]
+    },
+    {
+     "label": "Votre projet",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Devis et contact",
+   "title": "Charretier Frères, <em>Chazelles-sur-Lyon</em>",
+   "text": "Appelez-nous pour un devis : nous vous envoyons un devis gratuit, vous choisissez les dates du chantier.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33608279792\">06 08 27 97 92</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>"
+    ],
+    [
+     "Adresse",
+     "9 bis rue Vieille, 42140 Chazelles-sur-Lyon"
+    ],
+    [
+     "Facebook",
+     "<a href=\"https://www.facebook.com/william.charretier\" target=\"_blank\" rel=\"noopener\">William Charretier</a>"
+    ]
+   ],
+   "map_q": "9 bis rue Vieille, 42140 Chazelles-sur-Lyon",
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "nos-services",
+   "label": "Nos services",
+   "title": "Nos services",
+   "eyebrow": "Travaux neuf et restauration",
+   "lead": "Plaquiste, peinture : revêtement papier peint, placo plâtre, isolation BIOFIB TRIO chanvre, peinture décoration.",
+   "img": "https://static.wixstatic.com/media/98e38f_ef52dd77823b41039ef8344ab8cc2817~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/98e38f_ef52dd77823b41039ef8344ab8cc2817~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "prestations",
+     "eyebrow": "Nos services",
+     "title": "Ce que nous <em>réalisons</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/98e38f_9512df07598c4c47b999887ec409dda2~mv2_d_1944_2592_s_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_9512df07598c4c47b999887ec409dda2~mv2_d_1944_2592_s_2.jpg",
+       "alt": "Revêtement papier peint",
+       "title": "Revêtement papier peint",
+       "paras": [
+        "Pose de revêtements muraux intérieurs, en neuf comme en rénovation."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/98e38f_ef52dd77823b41039ef8344ab8cc2817~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_ef52dd77823b41039ef8344ab8cc2817~mv2.jpg",
+       "alt": "Placo plâtre",
+       "title": "Placo plâtre",
+       "paras": [
+        "Travaux de placos plâtre : cloisons, doublages et plafonds."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/98e38f_43436bb531ac43688555a4c5f83cb2d6~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_43436bb531ac43688555a4c5f83cb2d6~mv2.jpg",
+       "alt": "Isolation BIOFIB TRIO chanvre",
+       "title": "Isolation BIOFIB TRIO chanvre",
+       "paras": [
+        "Isolations laine de verre, BIOFIB TRIO à base de chanvre et laine de bois."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/98e38f_7d1772b23fba4f0cbc2900e4c829775c~mv2_d_3840_2560_s_4_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/98e38f_7d1772b23fba4f0cbc2900e4c829775c~mv2_d_3840_2560_s_4_2.jpg",
+       "alt": "Peinture décoration",
+       "title": "Peinture décoration",
+       "paras": [
+        "Peintures intérieures, décoration et ravalement de façades."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/ea71bb_8ea1f4cddf8c4b7c8d6f6740e66a7ad7~mv2_d_5746_3808_s_4_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/ea71bb_8ea1f4cddf8c4b7c8d6f6740e66a7ad7~mv2_d_5746_3808_s_4_2.jpg",
+     "eyebrow": "Nos réalisations",
+     "title": "Voir nos <em>chantiers</em>",
+     "cta": [
+      "Nos réalisations",
+      "../nos-realisations/"
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Devis et contact",
+     "title": "Charretier Frères, <em>Chazelles-sur-Lyon</em>",
+     "text": "Appelez-nous pour un devis : nous vous envoyons un devis gratuit, vous choisissez les dates du chantier.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33608279792\">06 08 27 97 92</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>"
+      ],
+      [
+       "Adresse",
+       "9 bis rue Vieille, 42140 Chazelles-sur-Lyon"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/william.charretier\" target=\"_blank\" rel=\"noopener\">William Charretier</a>"
+      ]
+     ],
+     "map_q": "9 bis rue Vieille, 42140 Chazelles-sur-Lyon",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "notre-entreprise",
+   "label": "Notre entreprise",
+   "title": "Notre entreprise",
+   "eyebrow": "Neuf et rénovation",
+   "lead": "Plaquiste peintre à Chazelles-sur-Lyon, qualification RGE.",
+   "img": "https://static.wixstatic.com/media/98e38f_b40a8654f3c84b5a8a0374b03f8117a3~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/98e38f_b40a8654f3c84b5a8a0374b03f8117a3~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "entreprise",
+     "eyebrow": "Notre entreprise",
+     "title": "Placo, isolation, <em>peinture</em>",
+     "img": "https://static.wixstatic.com/media/98e38f_073759156aa0443797883fab885b3752~mv2_d_1944_2592_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/98e38f_073759156aa0443797883fab885b3752~mv2_d_1944_2592_s_2.jpg",
+     "alt": "Chantier Charretier Frères",
+     "paras": [
+      "Nous réalisons des travaux de placos plâtre, isolations laine de verre, BIOFIB TRIO à base de chanvre, laine de bois, ravalement de façades, revêtements intérieurs et peintures intérieures.",
+      "Neuf et rénovation."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "equipe",
+     "eyebrow": "Notre équipe",
+     "title": "Effectif <em>4 personnes</em>",
+     "img": "https://static.wixstatic.com/media/ea71bb_02c91dfb6ce94d69bdd24c807e2e3ec7~mv2_d_1382_2011_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/ea71bb_02c91dfb6ce94d69bdd24c807e2e3ec7~mv2_d_1382_2011_s_2.jpg",
+     "alt": "Chantier Charretier Frères",
+     "paras": [
+      "Tél : <a href=\"tel:+33608279792\">06 08 27 97 92</a>",
+      "E-mail : <a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>",
+      "Adresse : 9 bis rue Vieille, 42140 Chazelles-sur-Lyon"
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Devis et contact",
+     "title": "Charretier Frères, <em>Chazelles-sur-Lyon</em>",
+     "text": "Appelez-nous pour un devis : nous vous envoyons un devis gratuit, vous choisissez les dates du chantier.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33608279792\">06 08 27 97 92</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>"
+      ],
+      [
+       "Adresse",
+       "9 bis rue Vieille, 42140 Chazelles-sur-Lyon"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/william.charretier\" target=\"_blank\" rel=\"noopener\">William Charretier</a>"
+      ]
+     ],
+     "map_q": "9 bis rue Vieille, 42140 Chazelles-sur-Lyon",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nos-realisations",
+   "label": "Nos réalisations",
+   "title": "Nos réalisations",
+   "eyebrow": "Neuf et restauration",
+   "lead": "Plâtrerie, isolation, peinture : quelques chantiers de l'entreprise.",
+   "img": "https://static.wixstatic.com/media/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "realisations",
+     "eyebrow": "Galerie",
+     "title": "Nos <em>réalisations</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_191319f8244b48ceb7ddde6f0179391b~mv2_d_3207_4811_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_5a4ac041a7634e22a49b8cd1bcc7ffaa~mv2_d_5446_3631_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_fe148f7db3e74eb8bb25c6ed1558826b~mv2_d_3119_4797_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_597221d0ffa54f6d932372b32cd1b58e~mv2_d_2866_3142_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_6eb6e9af9126419dadb6a1d123e75b47~mv2_d_5897_3669_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_6eb6e9af9126419dadb6a1d123e75b47~mv2_d_5897_3669_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_6eb6e9af9126419dadb6a1d123e75b47~mv2_d_5897_3669_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_6eb6e9af9126419dadb6a1d123e75b47~mv2_d_5897_3669_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_8ea1f4cddf8c4b7c8d6f6740e66a7ad7~mv2_d_5746_3808_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_8ea1f4cddf8c4b7c8d6f6740e66a7ad7~mv2_d_5746_3808_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_8ea1f4cddf8c4b7c8d6f6740e66a7ad7~mv2_d_5746_3808_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_8ea1f4cddf8c4b7c8d6f6740e66a7ad7~mv2_d_5746_3808_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_9b70f120236d4e9f93eb5fa5d5ae060c~mv2_d_4722_3571_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_9b70f120236d4e9f93eb5fa5d5ae060c~mv2_d_4722_3571_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_9b70f120236d4e9f93eb5fa5d5ae060c~mv2_d_4722_3571_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_9b70f120236d4e9f93eb5fa5d5ae060c~mv2_d_4722_3571_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_3831707f4c634ee3a05eee67f66557aa~mv2_d_4878_3248_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_3831707f4c634ee3a05eee67f66557aa~mv2_d_4878_3248_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_3831707f4c634ee3a05eee67f66557aa~mv2_d_4878_3248_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_3831707f4c634ee3a05eee67f66557aa~mv2_d_4878_3248_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_b93523ce13e14377ab62358055dbac8d~mv2_d_3926_4275_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_b93523ce13e14377ab62358055dbac8d~mv2_d_3926_4275_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_b93523ce13e14377ab62358055dbac8d~mv2_d_3926_4275_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_b93523ce13e14377ab62358055dbac8d~mv2_d_3926_4275_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/ea71bb_981d0b258f2648a48b050109c3446ecc~mv2_d_3745_2426_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/ea71bb_981d0b258f2648a48b050109c3446ecc~mv2_d_3745_2426_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/ea71bb_981d0b258f2648a48b050109c3446ecc~mv2_d_3745_2426_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/ea71bb_981d0b258f2648a48b050109c3446ecc~mv2_d_3745_2426_s_4_2.jpg",
+       "alt": "Réalisation Charretier Frères"
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Demander un <em>devis</em>",
+     "lead": "Décrivez votre projet : nous vous envoyons un devis gratuit.",
+     "side": [
+      "Tél : <a href=\"tel:+33608279792\">06 08 27 97 92</a>",
+      "<a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>",
+      "9 bis rue Vieille<br>42140 Chazelles-sur-Lyon"
+     ],
+     "email": "charretier.freres@orange.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email"
+      },
+      {
+       "label": "Commune du chantier"
+      },
+      {
+       "label": "Travaux",
+       "type": "select",
+       "options": [
+        "Plâtrerie / placo",
+        "Isolation",
+        "Peinture et décoration",
+        "Papier peint",
+        "Ravalement de façade",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Votre projet",
+       "type": "textarea",
+       "rows": 5
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Devis et contact",
+     "title": "Charretier Frères, <em>Chazelles-sur-Lyon</em>",
+     "text": "Appelez-nous pour un devis : nous vous envoyons un devis gratuit, vous choisissez les dates du chantier.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33608279792\">06 08 27 97 92</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>"
+      ],
+      [
+       "Adresse",
+       "9 bis rue Vieille, 42140 Chazelles-sur-Lyon"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/william.charretier\" target=\"_blank\" rel=\"noopener\">William Charretier</a>"
+      ]
+     ],
+     "map_q": "9 bis rue Vieille, 42140 Chazelles-sur-Lyon",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "CHARRETIER FRÈRES, plaquiste peintre à Chazelles-sur-Lyon (Loire). Neuf et restauration. Qualification RGE.",
+  "contact": [
+   "<a href=\"tel:+33608279792\">06 08 27 97 92</a>",
+   "<a href=\"mailto:charretier.freres@orange.fr\">charretier.freres@orange.fr</a>",
+   "9 bis rue Vieille, 42140 Chazelles-sur-Lyon"
+  ],
+  "legal": "Charretier Frères · 9 bis rue Vieille, 42140 Chazelles-sur-Lyon · Qualification RGE",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/william.charretier"
+   ]
+  ]
+ }
+}
