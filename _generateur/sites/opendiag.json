@@ -1,0 +1,473 @@
+{
+ "slug": "opendiag-4d9742",
+ "title": "OPENDIAG — Diagnostics immobiliers dans les Bouches-du-Rhône, diagnostiqueur indépendant depuis 2011",
+ "description": "OPENDIAG, Frédéric Raymond, diagnostiqueur immobilier indépendant certifié LCP et assuré GAN : tous les diagnostics obligatoires pour la vente et la location dans les Bouches-du-Rhône. Devis gratuit par SMS ou mail.",
+ "brand": "OPENDIAG",
+ "tagline": "Diagnostics immobiliers",
+ "monogram": "OD",
+ "theme": {
+  "look": "center",
+  "paper": "#f3f6f4",
+  "paper2": "#e2eae5",
+  "ink": "#18241f",
+  "muted": "#55625c",
+  "accent": "#13806b",
+  "accent2": "#0e6453",
+  "gold": "#e3a72f",
+  "heroem": "#bfeadf",
+  "serif": "\"Outfit\",system-ui,sans-serif",
+  "sans": "\"Nunito Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Nunito+Sans:wght@300;400;600&display=swap"
+ },
+ "topbar": [
+  "Diagnostiqueur certifié LCP · Assuré GAN",
+  "<a href=\"tel:+33610655549\">06 10 65 55 49</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [],
+ "hero": {
+  "img": "https://duyn491kcolsw.cloudfront.net/files/3q/3q6/3q6ie3.jpg?ph=c5a25773b6",
+  "eyebrow": "OPENDIAG · Diagnostics immobiliers · Bouches-du-Rhône",
+  "title": "Tous vos diagnostics, <em>au prix juste</em>",
+  "lead": "Diagnostiqueur immobilier indépendant depuis 2011 : tous vos diagnostics obligatoires pour la vente et la location de votre bien, sur le 13.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 10 65 55 49",
+   "tel:+33610655549"
+  ]
+ },
+ "figures": [
+  [
+   "2011",
+   "indépendant depuis"
+  ],
+  [
+   "LCP",
+   "certification"
+  ],
+  [
+   "GAN",
+   "assurance"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "vente",
+   "eyebrow": "Diagnostics obligatoires pour la vente",
+   "title": "Vous <em>vendez</em> une maison, un appartement, un garage",
+   "items": [
+    {
+     "kicker": "Construit après 1997",
+     "title": "Après 1997",
+     "list": [
+      "DPE",
+      "Loi Carrez (si copropriété)",
+      "Termites",
+      "Électricité",
+      "Gaz (si installation fixe)",
+      "ERP"
+     ]
+    },
+    {
+     "kicker": "Permis de construire avant 1997",
+     "title": "Avant 1997",
+     "list": [
+      "Les diagnostics ci-contre",
+      "+ Amiante"
+     ]
+    },
+    {
+     "kicker": "Permis de construire avant 1949",
+     "title": "Avant 1949",
+     "list": [
+      "Les diagnostics ci-contre",
+      "+ Amiante",
+      "+ Plomb"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "location",
+   "eyebrow": "Diagnostics obligatoires pour la location",
+   "title": "Vous <em>louez</em> votre bien",
+   "items": [
+    {
+     "kicker": "Construit après 1997",
+     "title": "Après 1997",
+     "list": [
+      "DPE",
+      "Loi Boutin",
+      "Électricité",
+      "Gaz (si installation fixe)",
+      "ERP"
+     ]
+    },
+    {
+     "kicker": "Permis de construire avant 1997",
+     "title": "Avant 1997",
+     "list": [
+      "Les diagnostics ci-contre",
+      "+ Amiante (DAPP)"
+     ]
+    },
+    {
+     "kicker": "Permis de construire avant 1949",
+     "title": "Avant 1949",
+     "list": [
+      "Les diagnostics ci-contre",
+      "+ Amiante (DAPP)",
+      "+ Plomb"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "tarifs",
+   "eyebrow": "Tarification",
+   "title": "Un devis gratuit, <em>par SMS ou par mail</em>",
+   "img": "https://c5a25773b6.cbaul-cdnwnd.com/425a4d7e628754de86fbebeb4584ddfa/200000000-f19a5f2941/DPE_Etiquette_Energie.jpg?ph=c5a25773b6",
+   "alt": "Étiquette énergie du DPE",
+   "paras": [
+    "Pour toute demande de devis gratuit : par SMS au 06 10 65 55 49 (appel non surtaxé), ou par mail à fredericraymond@yahoo.fr.",
+    "Pour vous donner rapidement un prix précis, indiquez la date de construction de la maison ou de l'appartement, s'il y a une installation de gaz fixe, et la surface approximative."
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Devis gratuit",
+   "title": "Demander un <em>devis</em>",
+   "lead": "Pour un prix rapide et précis, indiquez la date de construction du bien, s'il a une installation de gaz fixe, et sa surface approximative.",
+   "side": [
+    "Par SMS de préférence : <a href=\"tel:+33610655549\">06 10 65 55 49</a> (appel non surtaxé)",
+    "<a href=\"mailto:fredericraymond@yahoo.fr\">fredericraymond@yahoo.fr</a>",
+    "Du lundi au vendredi 9h00 – 18h00<br>Samedi 9h00 – 12h00"
+   ],
+   "email": "fredericraymond@yahoo.fr",
+   "subject": "Demande de devis diagnostics depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email"
+    },
+    {
+     "label": "Commune du bien"
+    },
+    {
+     "label": "Projet",
+     "type": "select",
+     "options": [
+      "Vente",
+      "Location"
+     ]
+    },
+    {
+     "label": "Type de bien",
+     "type": "select",
+     "options": [
+      "Maison",
+      "Appartement",
+      "Garage",
+      "Immeuble"
+     ]
+    },
+    {
+     "label": "Date de construction (approximative)"
+    },
+    {
+     "label": "Installation de gaz fixe",
+     "type": "select",
+     "options": [
+      "Oui",
+      "Non",
+      "Je ne sais pas"
+     ]
+    },
+    {
+     "label": "Surface approximative (m²)"
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 4
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "OPENDIAG, <em>Bouches-du-Rhône</em>",
+   "text": "Pour toutes demandes de devis gratuit : par SMS ou par mail, s'il vous plaît.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33610655549\">06 10 65 55 49</a> (appel non surtaxé)"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:fredericraymond@yahoo.fr\">fredericraymond@yahoo.fr</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:Opendiagdiagnosticsimmobiliers@gmail.com\">Opendiagdiagnosticsimmobiliers@gmail.com</a>"
+    ],
+    [
+     "Horaires",
+     "Lundi au vendredi 9h00 – 18h00 · Samedi 9h00 – 12h00"
+    ],
+    [
+     "Secteur",
+     "Bouches-du-Rhône (13)"
+    ],
+    [
+     "SIRET",
+     "753 123 702 00023"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos",
+   "eyebrow": "Rapidité et fiabilité",
+   "lead": "Tous vos diagnostics immobiliers obligatoires au prix juste depuis 2011.",
+   "img": "https://duyn491kcolsw.cloudfront.net/files/3q/3q6/3q6ie3.jpg?ph=c5a25773b6",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "expert",
+     "eyebrow": "Expert",
+     "title": "Frédéric <em>Raymond</em>",
+     "img": "https://c5a25773b6.cbaul-cdnwnd.com/425a4d7e628754de86fbebeb4584ddfa/200000000-f19a5f2941/DPE_Etiquette_Energie.jpg?ph=c5a25773b6",
+     "alt": "Étiquette énergie du DPE",
+     "paras": [
+      "Diagnostiqueur immobilier indépendant depuis 2011.",
+      "Certifié LCP et assuré GAN.",
+      "SIRET : 753 123 702 00023"
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "OPENDIAG, <em>Bouches-du-Rhône</em>",
+     "text": "Pour toutes demandes de devis gratuit : par SMS ou par mail, s'il vous plaît.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33610655549\">06 10 65 55 49</a> (appel non surtaxé)"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:fredericraymond@yahoo.fr\">fredericraymond@yahoo.fr</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:Opendiagdiagnosticsimmobiliers@gmail.com\">Opendiagdiagnosticsimmobiliers@gmail.com</a>"
+      ],
+      [
+       "Horaires",
+       "Lundi au vendredi 9h00 – 18h00 · Samedi 9h00 – 12h00"
+      ],
+      [
+       "Secteur",
+       "Bouches-du-Rhône (13)"
+      ],
+      [
+       "SIRET",
+       "753 123 702 00023"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "portfolio",
+   "label": "Portfolio",
+   "title": "Portfolio",
+   "eyebrow": "Diagnostics réalisés",
+   "lead": "Immeubles d'habitation et maisons.",
+   "img": "https://duyn491kcolsw.cloudfront.net/files/3j/3jw/3jwhrp.jpg?ph=c5a25773b6",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "biens",
+     "eyebrow": "Portfolio",
+     "title": "Immeubles <em>et maisons</em>",
+     "items": [
+      {
+       "img": "https://duyn491kcolsw.cloudfront.net/files/3j/3jw/3jwhrp.jpg?ph=c5a25773b6",
+       "alt": "Immeuble d'habitation",
+       "title": "Immeuble d'habitation"
+      },
+      {
+       "img": "https://duyn491kcolsw.cloudfront.net/files/29/292/2925zd.jpg?ph=c5a25773b6",
+       "alt": "Maison",
+       "title": "Maison"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "OPENDIAG Diagnostics Immobiliers",
+   "lead": "Low cost depuis 2011. Du lundi au vendredi 9h00 – 18h00, le samedi 9h00 – 12h00.",
+   "img": "https://duyn491kcolsw.cloudfront.net/files/3q/3q6/3q6ie3.jpg?ph=c5a25773b6",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Demander un <em>devis</em>",
+     "lead": "Pour un prix rapide et précis, indiquez la date de construction du bien, s'il a une installation de gaz fixe, et sa surface approximative.",
+     "side": [
+      "Par SMS de préférence : <a href=\"tel:+33610655549\">06 10 65 55 49</a> (appel non surtaxé)",
+      "<a href=\"mailto:fredericraymond@yahoo.fr\">fredericraymond@yahoo.fr</a>",
+      "Du lundi au vendredi 9h00 – 18h00<br>Samedi 9h00 – 12h00"
+     ],
+     "email": "fredericraymond@yahoo.fr",
+     "subject": "Demande de devis diagnostics depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email"
+      },
+      {
+       "label": "Commune du bien"
+      },
+      {
+       "label": "Projet",
+       "type": "select",
+       "options": [
+        "Vente",
+        "Location"
+       ]
+      },
+      {
+       "label": "Type de bien",
+       "type": "select",
+       "options": [
+        "Maison",
+        "Appartement",
+        "Garage",
+        "Immeuble"
+       ]
+      },
+      {
+       "label": "Date de construction (approximative)"
+      },
+      {
+       "label": "Installation de gaz fixe",
+       "type": "select",
+       "options": [
+        "Oui",
+        "Non",
+        "Je ne sais pas"
+       ]
+      },
+      {
+       "label": "Surface approximative (m²)"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 4
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "OPENDIAG, <em>Bouches-du-Rhône</em>",
+     "text": "Pour toutes demandes de devis gratuit : par SMS ou par mail, s'il vous plaît.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33610655549\">06 10 65 55 49</a> (appel non surtaxé)"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:fredericraymond@yahoo.fr\">fredericraymond@yahoo.fr</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:Opendiagdiagnosticsimmobiliers@gmail.com\">Opendiagdiagnosticsimmobiliers@gmail.com</a>"
+      ],
+      [
+       "Horaires",
+       "Lundi au vendredi 9h00 – 18h00 · Samedi 9h00 – 12h00"
+      ],
+      [
+       "Secteur",
+       "Bouches-du-Rhône (13)"
+      ],
+      [
+       "SIRET",
+       "753 123 702 00023"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "OPENDIAG Diagnostics Immobiliers, Frédéric Raymond, diagnostiqueur immobilier indépendant certifié LCP et assuré GAN, depuis 2011.",
+  "contact": [
+   "<a href=\"tel:+33610655549\">06 10 65 55 49</a>",
+   "<a href=\"mailto:fredericraymond@yahoo.fr\">fredericraymond@yahoo.fr</a>",
+   "Bouches-du-Rhône (13)"
+  ],
+  "legal": "OPENDIAG · Frédéric Raymond · SIRET 753 123 702 00023 · Diagnostiqueur certifié LCP, assuré GAN"
+ },
+ "extra_css": ".info td,.info dd,.info a{overflow-wrap:anywhere}"
+}
