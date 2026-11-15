@@ -1,0 +1,349 @@
+{
+ "slug": "aurelec-f69df4",
+ "title": "AURELEC — Électricité générale à Talence, Bordeaux et alentours",
+ "description": "AURELEC, Emmanuel Saulnier, électricien depuis 1999 à Talence : courant fort et faible, dépannage, rénovation, neuf, interphonie, contrôle d'accès, alarmes, automatismes de portail. Particuliers et professionnels. Devis gratuit.",
+ "brand": "AURELEC",
+ "tagline": "Électricité générale",
+ "logo": {
+  "src": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/ib5fb4fa84bb09a22/version/1527884340/image.png",
+  "height": 54
+ },
+ "theme": {
+  "look": "framed",
+  "paper": "#f4f6f8",
+  "paper2": "#e3e8ee",
+  "ink": "#17202b",
+  "muted": "#56606b",
+  "accent": "#1f5fa8",
+  "accent2": "#174a84",
+  "gold": "#f2b632",
+  "heroem": "#ffd877",
+  "serif": "\"Sora\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Électricien depuis 1999 · Talence, Bordeaux et alentours",
+  "<a href=\"tel:+33660674787\">06 60 67 47 87</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [],
+ "hero": {
+  "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/backgroundarea/if17779e5f783d2dc/version/1527200565/image.jpg",
+  "eyebrow": "AURELEC · Électricité générale · Talence",
+  "title": "Votre électricien <em>de confiance</em>",
+  "lead": "Professionnalisme, conseil et réactivité. Courant fort et courant faible : dépannage, rénovation et neuf.",
+  "cta1": [
+   "Demander un devis",
+   "contact/"
+  ],
+  "cta2": [
+   "06 60 67 47 87",
+   "tel:+33660674787"
+  ]
+ },
+ "figures": [
+  [
+   "1999",
+   "électricien depuis"
+  ],
+  [
+   "Fort",
+   "et faible courant"
+  ],
+  [
+   "NF C 15-100",
+   "norme Promotelec"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "aurelec",
+   "eyebrow": "Emmanuel Saulnier",
+   "title": "Votre électricien <em>de confiance</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i196c6cab4b287000/version/1527887568/image.jpg",
+   "alt": "AURELEC, électricité générale",
+   "paras": [
+    "Emmanuel Saulnier, électricien depuis 1999, réalise tous vos travaux d'électricité courant fort et courant faible : dépannage, rénovation et neuf.",
+    "Devis gratuits après visite de repérage. Assurance professionnelle."
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "garantie",
+   "eyebrow": "AURELEC, la garantie",
+   "title": "Un travail d'expert, <em>au juste prix</em>",
+   "items": [
+    [
+     "Travail d'expert",
+     "Professionnalisme, conseil et réactivité."
+    ],
+    [
+     "Juste prix",
+     "Devis gratuits après visite de repérage."
+    ],
+    [
+     "Délais courts",
+     "Dépannage, rénovation et neuf."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "expertise",
+   "eyebrow": "Expertise",
+   "title": "Particuliers <em>et professionnels</em>",
+   "items": [
+    {
+     "title": "Rénovation et neuf",
+     "list": [
+      "Recherche de pannes, dépannage",
+      "Installation",
+      "Pavillons, appartements",
+      "Locaux commerciaux, copropriétés"
+     ]
+    },
+    {
+     "title": "Courant faible",
+     "list": [
+      "Interphonie",
+      "Contrôle d'accès",
+      "Alarmes",
+      "Automatismes de portail"
+     ]
+    },
+    {
+     "title": "Développement durable",
+     "paras": [
+      "Des solutions pour réduire votre consommation : éclairage LED, chauffage électrique basse consommation."
+     ],
+     "list": [
+      "Norme Promotelec NF C 15-100"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "acces",
+   "eyebrow": "En savoir plus",
+   "title": "Réalisations, zone, <em>contact</em>",
+   "items": [
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i32eea9e214860c1e/version/1527886835/image.jpg",
+     "alt": "Réalisations",
+     "title": "Réalisations",
+     "link": [
+      "Voir",
+      "realisations/"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i6d61d1ae01f8c995/version/1527283220/image.png",
+     "alt": "Zone d'intervention",
+     "contain": true,
+     "title": "Zone d'intervention",
+     "link": [
+      "Voir",
+      "zone-d-intervention/"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i282e541b67da7635/version/1527283226/image.jpg",
+     "alt": "Contact",
+     "title": "Contact",
+     "link": [
+      "Nous écrire",
+      "contact/"
+     ]
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "realisations",
+   "label": "Réalisations",
+   "title": "Réalisations",
+   "eyebrow": "Ils nous font confiance",
+   "lead": "Particuliers, commerces, copropriétés et entreprises.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i32eea9e214860c1e/version/1527886835/image.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "references",
+     "eyebrow": "Réalisations",
+     "title": "Nous <em>remercions…</em>",
+     "lead": "…les particuliers qui nous font confiance, et les professionnels pour qui nous intervenons.",
+     "items": [
+      {
+       "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i32eea9e214860c1e/version/1527886835/image.jpg",
+       "alt": "Réalisations AURELEC",
+       "title": "Particuliers",
+       "paras": [
+        "Merci à nos clients particuliers pour leur confiance."
+       ],
+       "link": [
+        "Leurs avis sur PagesJaunes",
+        "https://www.pagesjaunes.fr/pros/50269349"
+       ]
+      },
+      {
+       "title": "Professionnels",
+       "list": [
+        "La Banque de Chine",
+        "Les boutiques Timberland",
+        "Des syndicats de copropriété",
+        "Des commerçants de proximité : boulangerie, pharmacie, coiffeur, restaurant"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "clients",
+     "eyebrow": "Références",
+     "title": "Quelques <em>clients</em>",
+     "photos": [
+      {
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i77c9f1cdb6fd6a60/version/1527888583/image.png",
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i77c9f1cdb6fd6a60/version/1527888583/image.png",
+       "alt": "Logo client"
+      },
+      {
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i7b204810e258491e/version/1527888586/image.png",
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i7b204810e258491e/version/1527888586/image.png",
+       "alt": "Logo client"
+      },
+      {
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/iddc788b103efc75b/version/1527888589/image.png",
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/iddc788b103efc75b/version/1527888589/image.png",
+       "alt": "Logo client"
+      },
+      {
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i9aa3bed2bb903f05/version/1527888592/image.png",
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i9aa3bed2bb903f05/version/1527888592/image.png",
+       "alt": "Logo client"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zone-d-intervention",
+   "label": "Zone d'intervention",
+   "title": "Zone d'intervention",
+   "eyebrow": "Bordeaux et alentours",
+   "lead": "Talence, Pessac, Gradignan, Villenave d'Ornon, Bègles, Léognan et villes limitrophes.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i978d0adc3bdb9d19/version/1527889168/image.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "zone",
+     "eyebrow": "Zone d'intervention",
+     "title": "Bordeaux <em>et sa métropole</em>",
+     "lead": "Nous intervenons dans les zones suivantes :",
+     "items": [
+      {
+       "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i978d0adc3bdb9d19/version/1527889168/image.jpg",
+       "alt": "Zone d'intervention AURELEC",
+       "contain": true,
+       "title": "Bordeaux et alentours",
+       "list": [
+        "Bordeaux",
+        "Talence, Pessac, Gradignan",
+        "Villenave d'Ornon, Bègles, Léognan…"
+       ]
+      },
+      {
+       "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i6d61d1ae01f8c995/version/1527283220/image.png",
+       "alt": "Zone d'intervention",
+       "contain": true,
+       "title": "Villes limitrophes",
+       "list": [
+        "Canejan, Cestas",
+        "Saint-Jean-d'Illac",
+        "Martignas-sur-Jalle…"
+       ],
+       "paras": [
+        "Nous étudions toutes demandes au-delà de ces frontières !"
+       ]
+      }
+     ],
+     "chips": [
+      "Talence",
+      "Villenave d'Ornon",
+      "Pessac",
+      "Bègles",
+      "Gradignan",
+      "Cestas"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis gratuit",
+   "lead": "Vous avez besoin d'un devis, d'un conseil, contactez-nous.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s4dd828bf2d581f03/image/i282e541b67da7635/version/1527283226/image.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Vous avez besoin d'un devis, <em>d'un conseil ?</em>",
+     "lead": "Contactez-nous : nous vous répondrons dans les meilleurs délais. Devis gratuit après visite de repérage.",
+     "side": [
+      "AURELEC · Emmanuel Saulnier",
+      "Tél : <a href=\"tel:+33660674787\">06 60 67 47 87</a>",
+      "<a href=\"mailto:aurelec.sarl@hotmail.fr\">aurelec.sarl@hotmail.fr</a>"
+     ],
+     "email": "aurelec.sarl@hotmail.fr",
+     "subject": "Demande depuis le site AURELEC",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "N° de téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "required": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "AURELEC, Emmanuel Saulnier, électricité générale à Talence, Villenave d'Ornon, Pessac, Bègles, Gradignan, Cestas.",
+  "contact": [
+   "<a href=\"tel:+33660674787\">06 60 67 47 87</a>",
+   "<a href=\"mailto:aurelec.sarl@hotmail.fr\">aurelec.sarl@hotmail.fr</a>",
+   "Talence (Gironde)"
+  ],
+  "legal": "Auto-entreprise enregistrée au Répertoire des Métiers sous le n° 838 058 402 RM 33 · Code APE 4321A",
+  "legal_url": "https://aurelec.jimdofree.com/about/"
+ }
+}
