@@ -1,0 +1,985 @@
+{
+ "slug": "caveau-xavier-barbe-7be447",
+ "title": "Caveau Xavier Barbe — Vins du Bugey, Cerdon AOC méthode ancestrale, Vieillard (Jujurieux, Ain)",
+ "description": "Caveau Xavier Barbe (ex-Vins Georges Martin), hameau de Vieillard à Jujurieux (Ain) : Bugey Cerdon AOC méthode ancestrale, Vieilles Vignes, Spéciale, Passion, des Metches, Cuvée Blanchère. Vente au caveau tous les jours.",
+ "brand": "Caveau Xavier Barbe",
+ "tagline": "Vins du Bugey · Cerdon AOC",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/84770f_0b13d8e5e77a4296a74c76cb9e7434ee.png",
+  "height": 58
+ },
+ "agegate": true,
+ "theme": {
+  "look": "classic",
+  "paper": "#f8f3f1",
+  "paper2": "#efe3df",
+  "ink": "#2a1e22",
+  "muted": "#6a5a5f",
+  "accent": "#a8325e",
+  "accent2": "#86264a",
+  "gold": "#c39b5a",
+  "heroem": "#f6c6d3",
+  "serif": "\"Playfair Display\",Georgia,serif",
+  "sans": "\"Lato\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+ },
+ "home_label": "Accueil",
+ "nav": [],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/de88f9_b9c492b9045647439a85e7e03f6f6167~mv2.jpg/v1/fit/w_2500,h_2500,al_c,q_85/de88f9_b9c492b9045647439a85e7e03f6f6167~mv2.jpg",
+  "eyebrow": "Vins du Bugey · Cerdon AOC · Vieillard (Ain)",
+  "title": "Bienvenue au caveau <em>Xavier Barbe</em>",
+  "lead": "Le Cerdon pétillant rosé, méthode ancestrale, fermentation spontanée en bouteille, 8 % vol. Vendanges manuelles, entre Lyon et Genève.",
+  "cta1": [
+   "Découvrir nos vins",
+   "nos-vins/"
+  ],
+  "cta2": [
+   "04 74 36 84 44",
+   "tel:+33474368444"
+  ]
+ },
+ "figures": [
+  [
+   "7 ha",
+   "de vignes"
+  ],
+  [
+   "8 %",
+   "vol., méthode ancestrale"
+  ],
+  [
+   "100 ans",
+   "vieilles vignes"
+  ],
+  [
+   "2013",
+   "reprise par Xavier Barbe"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Vins du Bugey · Cerdon AOC",
+   "title": "Le Cerdon, <em>méthode ancestrale</em>",
+   "img": "https://static.wixstatic.com/media/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg",
+   "alt": "Vignes du Caveau Xavier Barbe",
+   "paras": [
+    "Le domaine exploite 7 hectares et produit des vins AOC Vin du Bugey, dont le Cerdon pétillant rosé : méthode ancestrale, fermentation spontanée en bouteille, 8 % vol.",
+    "Vendanges manuelles. Le domaine est au hameau de Vieillard, sur la commune de Jujurieux (Ain), entre Lyon et Genève."
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/de88f9_79721d09c5ff4d35ad5d10835123ead9~mv2.gif",
+     "Caveau Xavier Barbe"
+    ],
+    [
+     "https://static.wixstatic.com/media/de88f9_261b27f9d40a4a41b523d75098bb1062~mv2.jpg/v1/fit/w_300,h_300,al_c,q_85/de88f9_261b27f9d40a4a41b523d75098bb1062~mv2.jpg",
+     "Vins du Bugey AOC"
+    ]
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "qui-suis-je",
+   "eyebrow": "Qui suis-je ?",
+   "title": "Xavier Barbe, <em>depuis 2013</em>",
+   "img": "https://static.wixstatic.com/media/de88f9_3fb4b6fc4c3e48a691028455c2962f23~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/de88f9_3fb4b6fc4c3e48a691028455c2962f23~mv2.jpg",
+   "alt": "Xavier Barbe",
+   "paras": [
+    "Georges et Laure Martin ont développé le domaine pendant une quarantaine d'années, sous le nom Vins Georges Martin.",
+    "À leur retraite, Xavier Barbe a repris le domaine en 2013."
+   ]
+  },
+  {
+   "kind": "cards",
+   "id": "cuvees",
+   "eyebrow": "Nos vins",
+   "title": "Nos <em>cuvées</em>",
+   "lead": "Bugey Cerdon AOC, méthode ancestrale : peu alcoolisé, environ 8°, levures indigènes, vendanges manuelles.",
+   "items": [
+    {
+     "name": "Cerdon « Vieilles Vignes »",
+     "app": "Bugey Cerdon AOC · Méthode ancestrale",
+     "desc": "20 % Poulsard, 80 % Gamay, vignes d'environ 100 ans. Arômes de fruits rouges.",
+     "price": "8,50 €",
+     "fmt": "Bouteille",
+     "img": "https://static.wixstatic.com/media/de88f9_d822e6b5ecba45faa384b80a8efb294b~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_d822e6b5ecba45faa384b80a8efb294b~mv2.jpg",
+     "medal": "Guide Hachette",
+     "color": "#d46a7e"
+    },
+    {
+     "name": "Cerdon « Spéciale »",
+     "app": "Bugey Cerdon AOC · Méthode ancestrale",
+     "desc": "100 % Gamay. Fruits rouges, frais en bouche.",
+     "price": "8,50 €",
+     "fmt": "Bouteille",
+     "img": "https://static.wixstatic.com/media/de88f9_c49a3c26cbb64d869340999ed39719ef~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_c49a3c26cbb64d869340999ed39719ef~mv2.jpg",
+     "medal": "Coup de cœur Guide Hachette 2014",
+     "color": "#d46a7e"
+    },
+    {
+     "name": "Cerdon « Passion »",
+     "app": "Bugey Cerdon AOC · Méthode ancestrale",
+     "desc": "Poulsard et Gamay, triple filtration. Arômes de fruit de la passion et d'agrumes.",
+     "color": "#d46a7e"
+    },
+    {
+     "name": "Cerdon « des Metches »",
+     "app": "Bugey Cerdon AOC · Méthode ancestrale",
+     "desc": "Presque exclusivement du Poulsard, note poivrée. Quantité très limitée.",
+     "color": "#c45470"
+    },
+    {
+     "name": "Cuvée Blanchère",
+     "app": "Vin pétillant",
+     "desc": "100 % Chardonnay. Arômes de poire, pêche, abricot. Exclusivité de Vieillard.",
+     "color": "#e3cf8a"
+    }
+   ],
+   "note": "Vente au caveau sans minimum. Livraison ou envoi par colis : minimum 12 bouteilles."
+  },
+  {
+   "kind": "blocks",
+   "id": "domaine",
+   "eyebrow": "Notre domaine",
+   "title": "La vigne, la cave, <em>le caveau</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg",
+     "title": "Nos vignes",
+     "paras": [
+      "Un travail entièrement manuel sur des coteaux escarpés, une viticulture traditionnelle et respectueuse de l'environnement."
+     ],
+     "link": [
+      "En lire plus",
+      "notre-domaine/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg",
+     "title": "Notre cave",
+     "paras": [
+      "Le raisin est pressé et fermente en cuve jusqu'à 6° d'alcool."
+     ],
+     "link": [
+      "En lire plus",
+      "notre-domaine/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/de88f9_6ad3dc39afb34717b71cce5662416d89~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/de88f9_6ad3dc39afb34717b71cce5662416d89~mv2.jpg",
+     "title": "Le caveau",
+     "paras": [
+      "Dégustez les différents Cerdon avant d'acheter vos cartons de 3, 6 ou 12 bouteilles."
+     ],
+     "link": [
+      "En lire plus",
+      "nous-rencontrer/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "actualites",
+   "eyebrow": "Actualités",
+   "title": "Les nouvelles <em>du caveau</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/de88f9_addd6b9c4b924e0c9e2cc6953873907b~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_addd6b9c4b924e0c9e2cc6953873907b~mv2.jpg",
+     "kicker": "Août 2016",
+     "title": "Nouveau site",
+     "paras": [
+      "Un site plus moderne, adapté aux smartphones."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/de88f9_2d11ab6f90bd4c8cbbbf3e595f06d812~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_2d11ab6f90bd4c8cbbbf3e595f06d812~mv2.jpg",
+     "kicker": "Août 2016",
+     "title": "Formulaire de commande en ligne",
+     "paras": [
+      "Pour vos cartons, contactez Xavier."
+     ],
+     "link": [
+      "Contact",
+      "contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "caveau",
+   "eyebrow": "Le caveau",
+   "title": "Hameau de Vieillard, <em>Jujurieux</em>",
+   "text": "Ouvert tous les jours de la semaine, week-ends et jours fériés compris. Prévenez-nous avant de passer, par téléphone ou par e-mail !",
+   "rows": [
+    [
+     "Adresse",
+     "Hameau de Vieillard, 01640 Jujurieux"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474368444\">04 74 36 84 44</a>"
+    ],
+    [
+     "Fax",
+     "04 74 36 97 52"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:barbe-xavier01@orange.fr\">barbe-xavier01@orange.fr</a>"
+    ],
+    [
+     "Accès",
+     "A42 : sortie Pont-d'Ain (itinéraire bleu) ou sortie Ambérieu-en-Bugey (itinéraire rouge)"
+    ]
+   ],
+   "map_q": "Vieillard, 01640 Jujurieux",
+   "cta": [
+    "Nous écrire",
+    "contact/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "le-bugey",
+   "label": "Le Bugey",
+   "title": "Le Bugey",
+   "eyebrow": "Le Bugey · Le Pays de Cerdon · Vieillard",
+   "lead": "Dans l'Ain, entre Lyon et Genève, à l'extrémité sud du massif du Jura.",
+   "img": "https://static.wixstatic.com/media/de88f9_af6188733cf74876a804a435e03f48c9~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_af6188733cf74876a804a435e03f48c9~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "bugey",
+     "eyebrow": "Le Bugey",
+     "title": "Bel <em>et Bugia</em>",
+     "img": "https://static.wixstatic.com/media/de88f9_af6188733cf74876a804a435e03f48c9~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/de88f9_af6188733cf74876a804a435e03f48c9~mv2.jpg",
+     "alt": "Le Bugey",
+     "paras": [
+      "L'Ain, en Auvergne-Rhône-Alpes, entre Lyon et Genève, se divise en quatre « pays » : la Dombes, le Pays de Gex et la Haute Chaîne du Jura, la Bresse, et le Bugey.",
+      "Selon la légende locale, Bel, petit-fils de Noé, et son épouse Bugia ont donné leur nom au lieu."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "terroir",
+     "eyebrow": "Le terroir",
+     "title": "Au sud <em>du Jura</em>",
+     "img": "https://static.wixstatic.com/media/de88f9_a892af93e14e4be8ba62dc5ae753f6a0~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/de88f9_a892af93e14e4be8ba62dc5ae753f6a0~mv2.jpg",
+     "alt": "Le terroir du Bugey",
+     "paras": [
+      "Extrémité sud du massif du Jura, collines, couleurs d'automne et d'hiver, cépages variés.",
+      "Le Cerdon, en AOVDQS depuis 1958, est passé en AOC en 2009."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "pays-de-cerdon",
+     "eyebrow": "Le Pays de Cerdon",
+     "title": "180 hectares, <em>dix communes</em>",
+     "img": "https://static.wixstatic.com/media/de88f9_c556d67cbe134f87ac164dbabd01cf12~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/de88f9_c556d67cbe134f87ac164dbabd01cf12~mv2.jpg",
+     "alt": "Le vignoble de Cerdon",
+     "paras": [
+      "Cerdon, Boyeux-Saint-Jérôme, Mérignat, Poncin, Saint-Alban, Saint-Jean-le-Vieux, L'Abergement-de-Varey, Saint-Martin-du-Mont, Rignat et Jujurieux, à laquelle est rattaché Vieillard.",
+      "Le Cerdon est un vin pétillant rosé peu alcoolisé, fruité, à la mousse fine, issu du Gamay et du Poulsard : le seul pétillant rosé produit naturellement en France par méthode ancestrale."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "vieillard",
+     "eyebrow": "Vieillard",
+     "title": "Un hameau <em>vigneron</em>",
+     "lead": "À 3 km du bourg de Jujurieux, dans un entonnoir naturel, au pied du Bugey : des maisons vigneronnes avec caves, balcons et escaliers.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/de88f9_0c71ed8dcb4747ad990fd4966f7e658f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_0c71ed8dcb4747ad990fd4966f7e658f~mv2.jpg",
+       "title": "Histoire",
+       "paras": [
+        "Occupé depuis l'époque romaine : lavoir et fontaine, four banal, chapelle."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/de88f9_9d8f3e9d008648b49f4fe1cdb172cfc8~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_9d8f3e9d008648b49f4fe1cdb172cfc8~mv2.jpg",
+       "title": "Vivre à Vieillard",
+       "paras": [
+        "Une viticulture ancienne et de grande qualité, un bon ensoleillement, de nombreux chemins de randonnée."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "notre-domaine",
+   "label": "Notre domaine",
+   "title": "Notre domaine",
+   "eyebrow": "Nos vignes · Notre cave · Le caveau",
+   "lead": "Un travail entièrement manuel, au fil des saisons.",
+   "img": "https://static.wixstatic.com/media/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "vignes",
+     "eyebrow": "Nos vignes",
+     "title": "Choisissez <em>votre saison</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/449845f8cd4a4994b52880ee3a385c25~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/449845f8cd4a4994b52880ee3a385c25~mv2.jpg",
+       "kicker": "Hiver",
+       "title": "Hiver",
+       "paras": [
+        "La taille, suppression partielle des rameaux, puis le liage des charpentes au fil de fer. En mars, la vigne « pleure »."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/8c63ece45db64e2aae7ba1e99d9d8fcc~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/8c63ece45db64e2aae7ba1e99d9d8fcc~mv2.jpg",
+       "kicker": "Printemps",
+       "title": "Printemps",
+       "paras": [
+        "Débourrement, ébrotage, traitements limités au strict nécessaire, désherbage des couloirs enherbés."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/51e691406ac0488fb2d220d809adeace~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/51e691406ac0488fb2d220d809adeace~mv2.jpg",
+       "kicker": "Été",
+       "title": "Été",
+       "paras": [
+        "Floraison dès juin, relevage, palissage, mouchage, puis véraison."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg",
+       "kicker": "Automne",
+       "title": "Automne",
+       "paras": [
+        "Vendanges manuelles en septembre, une dizaine de jours ; les couleurs or et vermillon, puis le repos de la vigne."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "cave",
+     "eyebrow": "Notre cave",
+     "title": "Du pressoir <em>au caveau</em>",
+     "items": [
+      {
+       "when": "Pressage",
+       "who": "Pressage et fermentation en cuve",
+       "text": "Le raisin est pressé, puis fermente en cuve jusqu'à 6°."
+      },
+      {
+       "when": "Bouteille",
+       "who": "Mise en bouteille et stockage en cave",
+       "text": "Le vin nouveau est mis en bouteille et stocké debout en caves climatisées à 12 °C, 5 à 6 mois, jusqu'à 8°."
+      },
+      {
+       "when": "Filtrage",
+       "who": "Filtrage et remise en bouteille",
+       "text": "Filtré à la coopérative, le vin est remis en bouteille, bouché, muselé et étiqueté, puis conservé au caveau."
+      }
+     ],
+     "imgs": [
+      "https://static.wixstatic.com/media/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg",
+      "https://static.wixstatic.com/media/de88f9_44ee47d05c90403e8bfae4eb34915931~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_44ee47d05c90403e8bfae4eb34915931~mv2.jpg",
+      "https://static.wixstatic.com/media/de88f9_4c062587d21b42ae839bd5ccda8d76bb~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_4c062587d21b42ae839bd5ccda8d76bb~mv2.jpg"
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "le-caveau",
+     "eyebrow": "Le caveau",
+     "title": "Prévenez-nous <em>avant de passer !</em>",
+     "img": "https://static.wixstatic.com/media/de88f9_6ad3dc39afb34717b71cce5662416d89~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/de88f9_6ad3dc39afb34717b71cce5662416d89~mv2.jpg",
+     "alt": "Le caveau",
+     "paras": [
+      "Passez déguster nos Cerdon avant de choisir un ou plusieurs cartons de 3, 6 ou 12 bouteilles.",
+      "Il y a en principe toujours quelqu'un pour vous accueillir, mais prévenez-nous de votre visite par téléphone (<a href=\"tel:+33474368444\">04 74 36 84 44</a>) ou par e-mail (<a href=\"mailto:barbe-xavier01@orange.fr\">barbe-xavier01@orange.fr</a>)."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/de88f9_e39e2b101c004377b0687d23c9a39357~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/de88f9_e39e2b101c004377b0687d23c9a39357~mv2.jpg",
+       "Notre cave"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nos-vins",
+   "label": "Nos vins",
+   "title": "Nos vins",
+   "eyebrow": "Bugey Cerdon AOC · Méthode ancestrale",
+   "lead": "Régulièrement cités dans le Guide Hachette des Vins.",
+   "img": "https://static.wixstatic.com/media/de88f9_b9c492b9045647439a85e7e03f6f6167~mv2.jpg/v1/fit/w_2500,h_2500,al_c,q_85/de88f9_b9c492b9045647439a85e7e03f6f6167~mv2.jpg",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "cuvees",
+     "eyebrow": "Nos cuvées",
+     "title": "Cerdon <em>et pétillant</em>",
+     "items": [
+      {
+       "name": "Cerdon « Vieilles Vignes »",
+       "app": "Bugey Cerdon AOC · Méthode ancestrale",
+       "desc": "20 % Poulsard, 80 % Gamay, vignes d'environ 100 ans. Arômes de fruits rouges.",
+       "price": "8,50 €",
+       "fmt": "Bouteille",
+       "img": "https://static.wixstatic.com/media/de88f9_d822e6b5ecba45faa384b80a8efb294b~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_d822e6b5ecba45faa384b80a8efb294b~mv2.jpg",
+       "medal": "Guide Hachette",
+       "color": "#d46a7e"
+      },
+      {
+       "name": "Cerdon « Spéciale »",
+       "app": "Bugey Cerdon AOC · Méthode ancestrale",
+       "desc": "100 % Gamay. Fruits rouges, frais en bouche.",
+       "price": "8,50 €",
+       "fmt": "Bouteille",
+       "img": "https://static.wixstatic.com/media/de88f9_c49a3c26cbb64d869340999ed39719ef~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_c49a3c26cbb64d869340999ed39719ef~mv2.jpg",
+       "medal": "Coup de cœur Guide Hachette 2014",
+       "color": "#d46a7e"
+      },
+      {
+       "name": "Cerdon « Passion »",
+       "app": "Bugey Cerdon AOC · Méthode ancestrale",
+       "desc": "Poulsard et Gamay, triple filtration. Arômes de fruit de la passion et d'agrumes.",
+       "color": "#d46a7e"
+      },
+      {
+       "name": "Cerdon « des Metches »",
+       "app": "Bugey Cerdon AOC · Méthode ancestrale",
+       "desc": "Presque exclusivement du Poulsard, note poivrée. Quantité très limitée.",
+       "color": "#c45470"
+      },
+      {
+       "name": "Cuvée Blanchère",
+       "app": "Vin pétillant",
+       "desc": "100 % Chardonnay. Arômes de poire, pêche, abricot. Exclusivité de Vieillard.",
+       "color": "#e3cf8a"
+      }
+     ],
+     "note": "Vente au caveau sans minimum. Livraison ou envoi par colis : minimum 12 bouteilles."
+    },
+    {
+     "kind": "story",
+     "id": "cepages",
+     "eyebrow": "Nos cépages",
+     "title": "Gamay <em>et Poulsard</em>",
+     "img": "https://static.wixstatic.com/media/de88f9_8584471311504f2c891440a381ef190f~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/de88f9_8584471311504f2c891440a381ef190f~mv2.jpg",
+     "alt": "Poulsard",
+     "paras": [
+      "Le Gamay : cépage rouge d'origine bourguignonne, du nom d'un village de Côte-d'Or, cité dès le XIVe siècle ; il compose tout le Beaujolais et a été introduit dans le Bugey dans les années 1940-1950.",
+      "Le Poulsard : cépage rouge typique du Jura, développé dès le XVe siècle ; il aime les sols marneux et argilo-marneux, craint le gel ; grosses grappes, baies juteuses violettes à noires."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/de88f9_10ca202344ed49cd81f9420736fe2840~mv2.jpg/v1/fit/w_400,h_400,al_c,q_85/de88f9_10ca202344ed49cd81f9420736fe2840~mv2.jpg",
+       "Gamay"
+      ]
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "vinification",
+     "eyebrow": "La vinification",
+     "title": "La méthode <em>ancestrale</em>",
+     "lead": "Une double fermentation, pour une effervescence naturelle.",
+     "items": [
+      {
+       "when": "1",
+       "who": "Vendange et pressurage",
+       "text": "Vendange manuelle, pressurage direct, courte macération pour la couleur rosée ; débourbage de 24 à 48 h."
+      },
+      {
+       "when": "2",
+       "who": "Première fermentation",
+       "text": "En cuve, entre 4 et 10 °C, jusqu'à 6 % vol. ; mise en bouteille et stockage debout en caves à 12 °C."
+      },
+      {
+       "when": "3",
+       "who": "Prise de mousse",
+       "text": "En bouteille, 5 à 6 mois, jusqu'à l'équilibre entre sucre, acidité et arômes, à 8 % vol."
+      },
+      {
+       "when": "4",
+       "who": "Dégorgement",
+       "text": "Les dépôts de levures sont retirés : vidage, filtrage, remise en bouteille ; bouchage, muselage, étiquetage, puis la cave."
+      }
+     ],
+     "imgs": [
+      "https://static.wixstatic.com/media/de88f9_3c4c61d68ab6429ba98d619c4129ccd6~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_3c4c61d68ab6429ba98d619c4129ccd6~mv2.jpg",
+      "https://static.wixstatic.com/media/de88f9_4af37b414c83414b918afcd376603053~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_4af37b414c83414b918afcd376603053~mv2.jpg",
+      "https://static.wixstatic.com/media/de88f9_653792f1bc504118a60b030ea012459c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_653792f1bc504118a60b030ea012459c~mv2.jpg",
+      "https://static.wixstatic.com/media/de88f9_fef9f3e755504286a473e287ade6210a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_fef9f3e755504286a473e287ade6210a~mv2.jpg"
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "references",
+     "eyebrow": "Nos références",
+     "title": "Guide Hachette <em>et Foire de Mâcon</em>",
+     "items": [
+      {
+       "kicker": "Guide Hachette 2016",
+       "title": "Vieilles Vignes 2014 ★",
+       "paras": [
+        "Domaine de 6,5 ha conduit par Xavier Barbe depuis 2013 ; environ 40 g/l de sucres résiduels."
+       ]
+      },
+      {
+       "kicker": "Guide Hachette 2015",
+       "title": "Cuvée Spéciale 2013 ★",
+       "paras": [
+        "Pur gamay, nez de fruits rouges."
+       ]
+      },
+      {
+       "kicker": "Guide Hachette 2014",
+       "title": "Cuvée Spéciale 2012 · Coup de cœur",
+       "paras": [
+        "Gamay seul."
+       ]
+      },
+      {
+       "kicker": "Guide Hachette 2013",
+       "title": "Vieilles Vignes 2011 ★★ · Spéciale 2011",
+       "paras": [
+        "70 % gamay, 30 % poulsard pour la première ; 100 % gamay pour la Spéciale (10 000 bouteilles)."
+       ]
+      },
+      {
+       "kicker": "Guide Hachette 2012",
+       "title": "Vieilles Vignes 2010",
+       "paras": [
+        "70 % gamay et poulsard, 2 ha de vieilles vignes ; un pétillant rosé saumoné."
+       ]
+      },
+      {
+       "kicker": "Guide Hachette 2010",
+       "title": "Vieilles Vignes 2008 · Coup de cœur",
+       "paras": [
+        "Première cuvée de Laure Martin, assemblage avec du poulsard."
+       ]
+      },
+      {
+       "kicker": "Foire de Mâcon",
+       "title": "Or, argent et bronze",
+       "paras": [
+        "Les vins de Georges Martin ont été médaillés d'or, d'argent et de bronze à la Foire de Mâcon."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "distinctions",
+     "eyebrow": "Distinctions",
+     "title": "Guide Hachette <em>et médailles</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_907bfca630e44402abb7d150e29a92da~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_907bfca630e44402abb7d150e29a92da~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_907bfca630e44402abb7d150e29a92da~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_907bfca630e44402abb7d150e29a92da~mv2.jpg",
+       "alt": "Distinction"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_ac390b2a69b34340834698351885829d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_ac390b2a69b34340834698351885829d~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_ac390b2a69b34340834698351885829d~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_ac390b2a69b34340834698351885829d~mv2.jpg",
+       "alt": "Distinction"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_9899576a87624449aba53a49843c8edf~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_9899576a87624449aba53a49843c8edf~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_9899576a87624449aba53a49843c8edf~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_9899576a87624449aba53a49843c8edf~mv2.jpg",
+       "alt": "Distinction"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_46b0af87abde4ba3b99fe18975362667~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_46b0af87abde4ba3b99fe18975362667~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_46b0af87abde4ba3b99fe18975362667~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_46b0af87abde4ba3b99fe18975362667~mv2.jpg",
+       "alt": "Distinction"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_d7e7e3bf99f34e5e8242a465cdbe8a0d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_d7e7e3bf99f34e5e8242a465cdbe8a0d~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_d7e7e3bf99f34e5e8242a465cdbe8a0d~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_d7e7e3bf99f34e5e8242a465cdbe8a0d~mv2.jpg",
+       "alt": "Distinction"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_a4a574d6370848c98700286bb30d7a4d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_a4a574d6370848c98700286bb30d7a4d~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_a4a574d6370848c98700286bb30d7a4d~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_a4a574d6370848c98700286bb30d7a4d~mv2.jpg",
+       "alt": "Distinction"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_e393b214233b421a9b911871cd82fe19~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_e393b214233b421a9b911871cd82fe19~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_e393b214233b421a9b911871cd82fe19~mv2.jpg/v1/fit/w_700,h_700,al_c,q_85/de88f9_e393b214233b421a9b911871cd82fe19~mv2.jpg",
+       "alt": "Distinction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nous-rencontrer",
+   "label": "Nous rencontrer",
+   "title": "Nous rencontrer",
+   "eyebrow": "Au caveau · Foires et salons · Animations",
+   "lead": "Ouvert tous les jours, week-ends et jours fériés compris : téléphonez avant de venir.",
+   "img": "https://static.wixstatic.com/media/de88f9_b2ad5d2b456f4566be40deb9d7585d1a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_b2ad5d2b456f4566be40deb9d7585d1a~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "goutez-voir",
+     "eyebrow": "Goûtez-voir !",
+     "title": "Le domaine <em>à la télévision</em>",
+     "img": "https://static.wixstatic.com/media/de88f9_073cdc3269a24a60bb75792fd98d65af~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/de88f9_073cdc3269a24a60bb75792fd98d65af~mv2.jpg",
+     "alt": "Goûtez voir, France 3 Rhône-Alpes",
+     "paras": [
+      "Au printemps 2011, Georges Martin a accueilli l'équipe d'Odile Mattei pour l'émission « Goûtez voir » de France 3 Rhône-Alpes, diffusée le 29 mai 2011."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/de88f9_0b853b63ae02444a9b6dacdf8bfd4a93~mv2.png/v1/fit/w_600,h_600,al_c,q_85/de88f9_0b853b63ae02444a9b6dacdf8bfd4a93~mv2.png",
+       "Goûtez voir"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "presse",
+     "eyebrow": "Presse",
+     "title": "Le Bugey <em>en AOC</em>",
+     "lead": "Les vins du Bugey, dont le cru Cerdon, ont obtenu l'AOC en 2009.",
+     "items": [
+      {
+       "title": "Un connaisseur détaille nos cuvées sur un forum de passionnés",
+       "link": [
+        "Lire (PDF)",
+        "https://fd745187-d71f-4ebc-a23e-25592c5a38fe.filesusr.com/ugd/de88f9_90f0000edb79475099e2eb066f42c323.pdf"
+       ]
+      },
+      {
+       "title": "Les Vignerons du Bugey fêtent leur reconnaissance en AOC",
+       "link": [
+        "Lire (PDF)",
+        "https://fd745187-d71f-4ebc-a23e-25592c5a38fe.filesusr.com/ugd/de88f9_6cb105f7b22141d3aabeb199e13278f5.pdf"
+       ]
+      },
+      {
+       "title": "AOC du Bugey : fierté et reconnaissance",
+       "link": [
+        "Lire (PDF)",
+        "https://fd745187-d71f-4ebc-a23e-25592c5a38fe.filesusr.com/ugd/de88f9_785fafaf151e4065b7be298b8b20692d.pdf"
+       ]
+      },
+      {
+       "title": "Vins du Bugey : l'INAO donne le feu vert à l'AOC",
+       "link": [
+        "Lire (PDF)",
+        "https://fd745187-d71f-4ebc-a23e-25592c5a38fe.filesusr.com/ugd/de88f9_6e4c52f121674d5cbaced35c5d470473.pdf"
+       ]
+      },
+      {
+       "title": "France 3 Rhône-Alpes",
+       "link": [
+        "Lire (PDF)",
+        "https://fd745187-d71f-4ebc-a23e-25592c5a38fe.filesusr.com/ugd/de88f9_90f7606d808f42b58ca84fb302a83f5e.pdf"
+       ]
+      },
+      {
+       "title": "Journal du Bugey, juin 2009",
+       "link": [
+        "Lire (PDF)",
+        "https://fd745187-d71f-4ebc-a23e-25592c5a38fe.filesusr.com/ugd/de88f9_50196ead92a34b349354f48fdafbe32f.pdf"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "animations",
+     "eyebrow": "Animations",
+     "title": "Groupes <em>jusqu'à 25 personnes</em>",
+     "img": "https://static.wixstatic.com/media/de88f9_775bfdf32650487d93b25b3d0b729df3~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/de88f9_775bfdf32650487d93b25b3d0b729df3~mv2.jpg",
+     "alt": "Groupe au caveau",
+     "paras": [
+      "Accueil de groupes jusqu'à 25 personnes au caveau, dégustation des vins, galettes sucrées et salées sur demande.",
+      "Venez aussi nous rencontrer sur les marchés, foires et salons !"
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "caveau",
+     "eyebrow": "Le caveau",
+     "title": "Hameau de Vieillard, <em>Jujurieux</em>",
+     "text": "Ouvert tous les jours de la semaine, week-ends et jours fériés compris. Prévenez-nous avant de passer, par téléphone ou par e-mail !",
+     "rows": [
+      [
+       "Adresse",
+       "Hameau de Vieillard, 01640 Jujurieux"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474368444\">04 74 36 84 44</a>"
+      ],
+      [
+       "Fax",
+       "04 74 36 97 52"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:barbe-xavier01@orange.fr\">barbe-xavier01@orange.fr</a>"
+      ],
+      [
+       "Accès",
+       "A42 : sortie Pont-d'Ain (itinéraire bleu) ou sortie Ambérieu-en-Bugey (itinéraire rouge)"
+      ]
+     ],
+     "map_q": "Vieillard, 01640 Jujurieux",
+     "cta": [
+      "Nous écrire",
+      "contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "commander",
+   "label": "Commander",
+   "title": "Commander",
+   "eyebrow": "Nos tarifs · Commande · Revendeurs",
+   "lead": "Au caveau sans minimum. Livraison par internet ou envoi par colis : minimum 12 bouteilles.",
+   "img": "https://static.wixstatic.com/media/de88f9_23eee795c512480793c3e09654921910~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_23eee795c512480793c3e09654921910~mv2.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "menu",
+     "id": "tarifs",
+     "eyebrow": "Nos tarifs",
+     "title": "Tarifs <em>au caveau</em>",
+     "sections": [
+      {
+       "title": "Bugey Cerdon AOC · Méthode ancestrale",
+       "items": [
+        [
+         "Cerdon Vieilles Vignes",
+         "8,50 €"
+        ],
+        [
+         "Cerdon Cuvée Spéciale",
+         "8,50 €"
+        ]
+       ]
+      }
+     ],
+     "aside": {
+      "eyebrow": "Commander",
+      "title": "Minimum 12 bouteilles",
+      "text": "Vous devez commander un minimum de 12 bouteilles pour une livraison ou un envoi par colis. Pour vos cartons, commandez directement par e-mail ou par téléphone.",
+      "items": []
+     }
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Nous contacter",
+     "title": "Merci de l'intérêt <em>que vous nous portez</em>",
+     "lead": "Pour une visite, une question ou une commande de cartons, écrivez-nous.",
+     "side": [
+      "Caveau Xavier Barbe<br>Hameau de Vieillard<br>01640 Jujurieux",
+      "Tél. : <a href=\"tel:+33474368444\">04 74 36 84 44</a><br>Fax : 04 74 36 97 52",
+      "<a href=\"mailto:barbe-xavier01@orange.fr\">barbe-xavier01@orange.fr</a>"
+     ],
+     "email": "barbe-xavier01@orange.fr",
+     "subject": "Message depuis le site du Caveau Xavier Barbe",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "required": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "galerie-photos",
+   "label": "Galerie photos",
+   "title": "Galeries photos",
+   "eyebrow": "Couleurs d'automne · Vendanges · Taille · Mise en bouteille",
+   "lead": "Vignes (août 2008), filtrage à la CUMA de Mérignat et vendanges (septembre 2008), taille (hiver 2009), vendanges (septembre 2011), mise en bouteille (octobre 2011), couleurs d'automne (automne 2015).",
+   "img": "https://static.wixstatic.com/media/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/45d6b302a4b3417eb48c487f4165aecf~mv2.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "galerie",
+     "eyebrow": "Le domaine en images",
+     "title": "Au fil <em>des saisons</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_449845f8cd4a4994b52880ee3a385c25~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_449845f8cd4a4994b52880ee3a385c25~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_449845f8cd4a4994b52880ee3a385c25~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_449845f8cd4a4994b52880ee3a385c25~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_8c63ece45db64e2aae7ba1e99d9d8fcc~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_8c63ece45db64e2aae7ba1e99d9d8fcc~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_8c63ece45db64e2aae7ba1e99d9d8fcc~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_8c63ece45db64e2aae7ba1e99d9d8fcc~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_51e691406ac0488fb2d220d809adeace~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_51e691406ac0488fb2d220d809adeace~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_51e691406ac0488fb2d220d809adeace~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_51e691406ac0488fb2d220d809adeace~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_45d6b302a4b3417eb48c487f4165aecf~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_45d6b302a4b3417eb48c487f4165aecf~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_45d6b302a4b3417eb48c487f4165aecf~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_45d6b302a4b3417eb48c487f4165aecf~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_07c2433cc375467296251b2d44608a25~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_44ee47d05c90403e8bfae4eb34915931~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_44ee47d05c90403e8bfae4eb34915931~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_44ee47d05c90403e8bfae4eb34915931~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_44ee47d05c90403e8bfae4eb34915931~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_b2ad5d2b456f4566be40deb9d7585d1a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_b2ad5d2b456f4566be40deb9d7585d1a~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_b2ad5d2b456f4566be40deb9d7585d1a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_b2ad5d2b456f4566be40deb9d7585d1a~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_fd44a65f1b7543bfb310a36e6d04c2a6~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_fd44a65f1b7543bfb310a36e6d04c2a6~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_fd44a65f1b7543bfb310a36e6d04c2a6~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_fd44a65f1b7543bfb310a36e6d04c2a6~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/de88f9_c556d67cbe134f87ac164dbabd01cf12~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_c556d67cbe134f87ac164dbabd01cf12~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/de88f9_c556d67cbe134f87ac164dbabd01cf12~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/de88f9_c556d67cbe134f87ac164dbabd01cf12~mv2.jpg",
+       "alt": "Caveau Xavier Barbe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Nous contacter",
+   "eyebrow": "Plan d'accès · Contact",
+   "lead": "Depuis l'A42 : sortie Pont-d'Ain ou sortie Ambérieu-en-Bugey.",
+   "img": "https://static.wixstatic.com/media/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/de88f9_280a00b8c0074ab595e8517349961aa6~mv2_d_5184_3456_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Nous contacter",
+     "title": "Merci de l'intérêt <em>que vous nous portez</em>",
+     "lead": "Pour une visite, une question ou une commande de cartons, écrivez-nous.",
+     "side": [
+      "Caveau Xavier Barbe<br>Hameau de Vieillard<br>01640 Jujurieux",
+      "Tél. : <a href=\"tel:+33474368444\">04 74 36 84 44</a><br>Fax : 04 74 36 97 52",
+      "<a href=\"mailto:barbe-xavier01@orange.fr\">barbe-xavier01@orange.fr</a>"
+     ],
+     "email": "barbe-xavier01@orange.fr",
+     "subject": "Message depuis le site du Caveau Xavier Barbe",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "caveau",
+     "eyebrow": "Le caveau",
+     "title": "Hameau de Vieillard, <em>Jujurieux</em>",
+     "text": "Ouvert tous les jours de la semaine, week-ends et jours fériés compris. Prévenez-nous avant de passer, par téléphone ou par e-mail !",
+     "rows": [
+      [
+       "Adresse",
+       "Hameau de Vieillard, 01640 Jujurieux"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474368444\">04 74 36 84 44</a>"
+      ],
+      [
+       "Fax",
+       "04 74 36 97 52"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:barbe-xavier01@orange.fr\">barbe-xavier01@orange.fr</a>"
+      ],
+      [
+       "Accès",
+       "A42 : sortie Pont-d'Ain (itinéraire bleu) ou sortie Ambérieu-en-Bugey (itinéraire rouge)"
+      ]
+     ],
+     "map_q": "Vieillard, 01640 Jujurieux",
+     "cta": [
+      "Nous écrire",
+      "contact/"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Caveau Xavier Barbe, ex-Vins Georges Martin. Vins du Bugey, Cerdon AOC méthode ancestrale, au hameau de Vieillard (Jujurieux, Ain).",
+  "contact": [
+   "<a href=\"tel:+33474368444\">04 74 36 84 44</a>",
+   "<a href=\"mailto:barbe-xavier01@orange.fr\">barbe-xavier01@orange.fr</a>",
+   "Hameau de Vieillard, 01640 Jujurieux"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé. Consommez avec modération."
+ }
+}
