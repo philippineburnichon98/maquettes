@@ -1,0 +1,1057 @@
+{
+ "slug": "lentillon-renove-toiture-f77ec3",
+ "title": "Lentillon Rénove Toiture — Couvreur zingueur secteur Vienne (38200) : couverture, zinguerie, habillage, démoussage",
+ "description": "Lentillon Rénove Toiture, couverture et zinguerie à Auberives-sur-Varèze, secteur Vienne (38200), Roussillon et sud de Lyon : zinguerie, habillage bandeau et sous-face PVC, réfection de toiture, démoussage. Devis rapide et gratuit, RDV sous 72h.",
+ "brand": "Lentillon Rénove Toiture",
+ "tagline": "Couverture · Zinguerie",
+ "theme": {
+  "look": "framed",
+  "paper": "#f3f4f3",
+  "paper2": "#e2e5e4",
+  "ink": "#1d2427",
+  "muted": "#5b6468",
+  "accent": "#a5442b",
+  "accent2": "#843521",
+  "gold": "#c7a26b",
+  "heroem": "#f0c3a7",
+  "serif": "\"Oswald\",Arial Narrow,sans-serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Source+Sans+3:wght@300;400;600&display=swap"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/954c80_991c4fdb99454094986e0f495aeec680~mv2.jpg/v1/fit/w_600,h_600,al_c,q_85/954c80_991c4fdb99454094986e0f495aeec680~mv2.jpg",
+  "height": 56,
+  "bg": "#ffffff"
+ },
+ "topbar": [
+  "Couverture – zinguerie · Secteur Vienne (38200), Roussillon, sud de Lyon",
+  "RDV devis sous 72h : <a href=\"tel:+33621892721\">06 21 89 27 21</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [],
+ "phead": "box",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/954c80_d633dfa5a99f460a900e41b507d5bf77.jpg/v1/fit/w_1920,h_1920,al_c,q_85/954c80_d633dfa5a99f460a900e41b507d5bf77.jpg",
+  "eyebrow": "Couvreur zingueur · Secteur Vienne (38200)",
+  "title": "Votre spécialiste de la <em>couverture - zinguerie</em>",
+  "lead": "Le savoir-faire à votre service : une vingtaine d'années d'expérience dans la rénovation et la création de toitures. Devis rapide et gratuit.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 21 89 27 21",
+   "tel:+33621892721"
+  ]
+ },
+ "figures": [
+  [
+   "20",
+   "ans d'expérience environ"
+  ],
+  [
+   "72h",
+   "pour un RDV devis"
+  ],
+  [
+   "20 km",
+   "autour de Vienne"
+  ],
+  [
+   "Gratuit",
+   "premier rendez-vous"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "savoir-faire",
+   "eyebrow": "Le savoir-faire à votre service",
+   "title": "Couvreur, <em>un métier qui ne s'improvise pas</em>",
+   "img": "https://static.wixstatic.com/media/954c80_ad8185c2e14b471f96b0f6cba54a5a8a~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_ad8185c2e14b471f96b0f6cba54a5a8a~mv2.jpg",
+   "alt": "Chantier Lentillon Rénove Toiture",
+   "paras": [
+    "Couvreur, ça ne s'improvise pas : Lentillon Rénove Toiture met une vingtaine d'années d'expérience au service de la rénovation et de la création de toitures.",
+    "Habillage bandeau et sous-face, réfection partielle ou complète de toiture, avancée de toit, ouverture de fenêtres de toit, chéneaux, descentes, noues, abergements de cheminée, recherche de fuite.",
+    "Le devis est gratuit et rapide, avec des échantillons pour choisir matériaux et coloris : un devis au plus juste."
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Nos prestations",
+   "title": "Couverture, zinguerie, <em>habillage, démoussage</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/954c80_92f7cb7706374d269bf36527624c51a6.jpg/v1/fit/w_1000,h_1000,al_c,q_85/954c80_92f7cb7706374d269bf36527624c51a6.jpg",
+     "alt": "Zinguerie",
+     "title": "Zinguerie",
+     "paras": [
+      "Chéneaux zinc / aluminium / cuivre ; descentes, noues, abergement, étanchéité ; caniveaux, bande de rive…"
+     ],
+     "link": [
+      "En savoir plus",
+      "zinguerie/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/954c80_f16f11a3afa74220948f6295bc436978.jpg/v1/fit/w_1000,h_1000,al_c,q_85/954c80_f16f11a3afa74220948f6295bc436978.jpg",
+     "alt": "Habillage bandeau et sous-face",
+     "title": "Habillage bandeau et sous-face",
+     "paras": [
+      "Bandeau PVC / frisette PVC : blanc - sable - bleu ardoise - teck - gris… etc."
+     ],
+     "link": [
+      "En savoir plus",
+      "habillage/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/954c80_26f7aee5cce147bf9899142704e11370.jpg/v1/fit/w_1000,h_1000,al_c,q_85/954c80_26f7aee5cce147bf9899142704e11370.jpg",
+     "alt": "Couverture",
+     "title": "Couverture",
+     "paras": [
+      "Vertuile / tuiles Sainte Foy / Oméga 10 et 13 / Delta 10 / rouge - paille - vieux toit - marron… écran sous-toiture / couverture zinc / bac acier…"
+     ],
+     "link": [
+      "En savoir plus",
+      "couverture/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/954c80_41d37d6fe1fb403da9b0df1f125ea4a4~mv2_d_3272_1696_s_2.png/v1/fit/w_1000,h_1000,al_c,q_85/954c80_41d37d6fe1fb403da9b0df1f125ea4a4~mv2_d_3272_1696_s_2.png",
+     "alt": "Démoussage toiture Lentillon Rénove Toiture",
+     "title": "Démoussage toiture",
+     "paras": [
+      "Traitement anti-mousse actif sur votre toiture…"
+     ],
+     "link": [
+      "En savoir plus",
+      "demoussage/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "chantiers",
+   "eyebrow": "Chantiers récents",
+   "title": "Sur le <em>terrain</em>",
+   "carousel": true,
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/954c80_3811876105954e7881a2dc1c5b28dcf5~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_3811876105954e7881a2dc1c5b28dcf5~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/954c80_3811876105954e7881a2dc1c5b28dcf5~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_3811876105954e7881a2dc1c5b28dcf5~mv2.jpg",
+     "alt": "Chantier Lentillon Rénove Toiture"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/954c80_ad8185c2e14b471f96b0f6cba54a5a8a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_ad8185c2e14b471f96b0f6cba54a5a8a~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/954c80_ad8185c2e14b471f96b0f6cba54a5a8a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_ad8185c2e14b471f96b0f6cba54a5a8a~mv2.jpg",
+     "alt": "Chantier Lentillon Rénove Toiture"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/954c80_3aed55a59fd44a76b1bdd420a22addef.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_3aed55a59fd44a76b1bdd420a22addef.jpg",
+     "thumb": "https://static.wixstatic.com/media/954c80_3aed55a59fd44a76b1bdd420a22addef.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_3aed55a59fd44a76b1bdd420a22addef.jpg",
+     "alt": "Lentillon Rénove Toiture"
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "demoussage-accueil",
+   "eyebrow": "Anti-mousse hydrofuge",
+   "title": "Démoussage de <em>votre toiture</em>",
+   "img": "https://static.wixstatic.com/media/954c80_9e9ce76629544f918539ac7b5f8d3302.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_9e9ce76629544f918539ac7b5f8d3302.jpg",
+   "alt": "Démoussage de toiture",
+   "paras": [
+    "Un traitement anti-mousse hydrofuge, pulvérisé sans rinçage, qui agit dans la durée au fil des intempéries.",
+    "Renseignements par téléphone : <a href=\"tel:+33621892721\">06 21 89 27 21</a>",
+    "<a href=\"demoussage/\" style=\"border-bottom:1px solid var(--gold)\">Le démoussage en détail</a>"
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "demoussage-photos",
+   "eyebrow": "Démoussage",
+   "title": "Traitements <em>réalisés</em>",
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/954c80_aae9a4a3f4f44b82b8268cef08537749.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_aae9a4a3f4f44b82b8268cef08537749.jpg",
+     "thumb": "https://static.wixstatic.com/media/954c80_aae9a4a3f4f44b82b8268cef08537749.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_aae9a4a3f4f44b82b8268cef08537749.jpg",
+     "alt": "Démoussage de toiture"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg",
+     "thumb": "https://static.wixstatic.com/media/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg",
+     "alt": "Chantier de toiture"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/954c80_9e9ce76629544f918539ac7b5f8d3302.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_9e9ce76629544f918539ac7b5f8d3302.jpg",
+     "thumb": "https://static.wixstatic.com/media/954c80_9e9ce76629544f918539ac7b5f8d3302.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_9e9ce76629544f918539ac7b5f8d3302.jpg",
+     "alt": "Démoussage de toiture"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Prise de contact",
+   "title": "Lentillon Rénove Toiture, <em>Auberives-sur-Varèze</em>",
+   "text": "Couverture – zinguerie. Secteur de Vienne (Isère, 38200) dans un rayon d'environ 20 km, secteur de Roussillon et sud de Lyon (Rhône) ; au-delà, à convenir.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33621892721\">06 21 89 27 21</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lentillon.renovetoiture@gmail.com\">lentillon.renovetoiture@gmail.com</a>"
+    ],
+    [
+     "Secteur",
+     "Vienne, Roussillon, sud de Lyon"
+    ],
+    [
+     "Devis",
+     "RDV devis sous 72h, premier rendez-vous gratuit"
+    ],
+    [
+     "Facebook",
+     "<a href=\"https://www.facebook.com/pages/Lentillon-R%C3%A9nove-Toiture/224343647649373\" target=\"_blank\" rel=\"noopener\">Lentillon Rénove Toiture</a>"
+    ]
+   ],
+   "map_q": "Auberives-sur-Varèze 38550",
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "zinguerie",
+   "label": "Zinguerie",
+   "title": "Zinguerie",
+   "eyebrow": "Du reclouage de bande de rive à la toiture zinc",
+   "lead": "Tous travaux de zinguerie : bande de rive, réfection de toiture zinc, chéneaux, abergements, étanchéité, descentes, toitures à joint debout et à tasseaux.",
+   "img": "https://static.wixstatic.com/media/954c80_2cd944a449e34c119869114cc8ddac90.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_2cd944a449e34c119869114cc8ddac90.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "alu-couleur",
+     "eyebrow": "Gouttières et descentes",
+     "title": "L'aluminium <em>en couleur</em>",
+     "img": "https://static.wixstatic.com/media/954c80_c2fef21decf24c96b63061ae61ba0abc.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_c2fef21decf24c96b63061ae61ba0abc.jpg",
+     "alt": "Panel couleur Lentillon Rénove Toiture",
+     "paras": [
+      "Gouttières et descentes en aluminium, proposées en de nombreux coloris, formes et dimensions, pour s'accorder à votre maison.",
+      "Zinguerie en cuivre et reprise de zinguerie (ciment de moraine et peinture à finition plastique, à la couleur de l'enduit)."
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "cuivre",
+     "eyebrow": "Réalisation de zinguerie en cuivre",
+     "title": "Zinguerie <em>cuivre</em> et reprises",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_8d35dc942ede4641bb8ee8b5915c026a.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_8d35dc942ede4641bb8ee8b5915c026a.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_8d35dc942ede4641bb8ee8b5915c026a.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_8d35dc942ede4641bb8ee8b5915c026a.jpg",
+       "alt": "Zinguerie en cuivre",
+       "caption": "Zinguerie en cuivre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_c0d5ab6807714f2da3df81f4396df0f1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_c0d5ab6807714f2da3df81f4396df0f1.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_c0d5ab6807714f2da3df81f4396df0f1.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_c0d5ab6807714f2da3df81f4396df0f1.jpg",
+       "alt": "Zinguerie en cuivre",
+       "caption": "Zinguerie en cuivre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_8fe766ec3e3a43aca845000ce08ada94.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_8fe766ec3e3a43aca845000ce08ada94.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_8fe766ec3e3a43aca845000ce08ada94.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_8fe766ec3e3a43aca845000ce08ada94.jpg",
+       "alt": "Zinguerie",
+       "caption": "Reprise de zinguerie"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_e011f17eb73c4da2a3a58bb1cd78b5d3.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_e011f17eb73c4da2a3a58bb1cd78b5d3.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_e011f17eb73c4da2a3a58bb1cd78b5d3.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_e011f17eb73c4da2a3a58bb1cd78b5d3.jpg",
+       "alt": "Zinguerie",
+       "caption": "Reprise de zinguerie"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "joint-debout",
+     "eyebrow": "Réalisation d'une toiture en joint debout",
+     "title": "Joint debout, <em>coloris quartz</em>",
+     "lead": "Caniveau incorporé dans la toiture, finition en bas de pente par bandeau zinc, création de puits de jour en haut de pente.",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_2cd944a449e34c119869114cc8ddac90.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_2cd944a449e34c119869114cc8ddac90.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_2cd944a449e34c119869114cc8ddac90.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_2cd944a449e34c119869114cc8ddac90.jpg",
+       "alt": "Toiture en joint debout",
+       "caption": "Joint debout coloris quartz, caniveau incorporé"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_0838366ae8104ee39dffcf6568f1fc6a.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_0838366ae8104ee39dffcf6568f1fc6a.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_0838366ae8104ee39dffcf6568f1fc6a.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_0838366ae8104ee39dffcf6568f1fc6a.jpg",
+       "alt": "Toiture en joint debout",
+       "caption": "Finition bas de pente par bandeau zinc"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_21578db7e3fc423388ae2975b5a8d9e4.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_21578db7e3fc423388ae2975b5a8d9e4.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_21578db7e3fc423388ae2975b5a8d9e4.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_21578db7e3fc423388ae2975b5a8d9e4.jpg",
+       "alt": "Toiture en joint debout"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_d0c3e4aa5516488083de868d3859cbc5.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_d0c3e4aa5516488083de868d3859cbc5.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_d0c3e4aa5516488083de868d3859cbc5.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_d0c3e4aa5516488083de868d3859cbc5.jpg",
+       "alt": "Puits de jour sur joint debout",
+       "caption": "Création de puits de jour, sur joint debout en haut de pente"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "zinc-tasseaux",
+     "eyebrow": "Réfection d'une toiture en zinc",
+     "title": "Zinc <em>à tasseaux</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_d855130fb92d48b3a6c3b22b5c48055b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_d855130fb92d48b3a6c3b22b5c48055b.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_d855130fb92d48b3a6c3b22b5c48055b.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_d855130fb92d48b3a6c3b22b5c48055b.jpg",
+       "alt": "Réfection de toiture en zinc",
+       "caption": "Avant"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_fde39852b6e248a78556f398083ed54d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_fde39852b6e248a78556f398083ed54d.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_fde39852b6e248a78556f398083ed54d.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_fde39852b6e248a78556f398083ed54d.jpg",
+       "alt": "Toiture zinc à tasseaux"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_a3d9d877741f4d7c968c7f922dc0c059.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_a3d9d877741f4d7c968c7f922dc0c059.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_a3d9d877741f4d7c968c7f922dc0c059.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_a3d9d877741f4d7c968c7f922dc0c059.jpg",
+       "alt": "Toiture zinc à tasseaux",
+       "caption": "En cours de finition"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_09f6500113154f64b27e7e896affb5b8.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_09f6500113154f64b27e7e896affb5b8.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_09f6500113154f64b27e7e896affb5b8.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_09f6500113154f64b27e7e896affb5b8.jpg",
+       "alt": "Toiture zinc à tasseaux",
+       "caption": "Après"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "zinguerie-galerie",
+     "eyebrow": "Galerie",
+     "title": "Chantiers de <em>zinguerie</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_ce3d5ef1b12d4e3c85610771ac583e99~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_ce3d5ef1b12d4e3c85610771ac583e99~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_ce3d5ef1b12d4e3c85610771ac583e99~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_ce3d5ef1b12d4e3c85610771ac583e99~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_c8ad272cbbe5431183df6ef86db8f21a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_c8ad272cbbe5431183df6ef86db8f21a~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_c8ad272cbbe5431183df6ef86db8f21a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_c8ad272cbbe5431183df6ef86db8f21a~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_b4cafcb375774c9f9f817c24c9ff575a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_b4cafcb375774c9f9f817c24c9ff575a~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_b4cafcb375774c9f9f817c24c9ff575a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_b4cafcb375774c9f9f817c24c9ff575a~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_80a864116b7045c6ba0ec8c814d3fd76~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_80a864116b7045c6ba0ec8c814d3fd76~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_80a864116b7045c6ba0ec8c814d3fd76~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_80a864116b7045c6ba0ec8c814d3fd76~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_b087dc5e13874a5a91439a11393a87cd~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_b087dc5e13874a5a91439a11393a87cd~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_b087dc5e13874a5a91439a11393a87cd~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_b087dc5e13874a5a91439a11393a87cd~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_ea01870c5a45428b8c53c9f6f9e32e71~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_ea01870c5a45428b8c53c9f6f9e32e71~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_ea01870c5a45428b8c53c9f6f9e32e71~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_ea01870c5a45428b8c53c9f6f9e32e71~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_12d506f63ebe417f978e70d5024aea22~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_12d506f63ebe417f978e70d5024aea22~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_12d506f63ebe417f978e70d5024aea22~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_12d506f63ebe417f978e70d5024aea22~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_37f4b3a074bd420c9b1d0e6f8170abf3~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_37f4b3a074bd420c9b1d0e6f8170abf3~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_37f4b3a074bd420c9b1d0e6f8170abf3~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_37f4b3a074bd420c9b1d0e6f8170abf3~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_9173501e52074381a904ce6d81fbddb7~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_9173501e52074381a904ce6d81fbddb7~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_9173501e52074381a904ce6d81fbddb7~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_9173501e52074381a904ce6d81fbddb7~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_00f845aae2ad459ea2ffe8ff8d3e5a36~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_00f845aae2ad459ea2ffe8ff8d3e5a36~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_00f845aae2ad459ea2ffe8ff8d3e5a36~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_00f845aae2ad459ea2ffe8ff8d3e5a36~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_cc3ea7feebf64a7fb7fac0089e3e4e09~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_cc3ea7feebf64a7fb7fac0089e3e4e09~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_cc3ea7feebf64a7fb7fac0089e3e4e09~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_cc3ea7feebf64a7fb7fac0089e3e4e09~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_d5a3660e037f4244bd36464ef9a47b21~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_d5a3660e037f4244bd36464ef9a47b21~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_d5a3660e037f4244bd36464ef9a47b21~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_d5a3660e037f4244bd36464ef9a47b21~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_dcbb3aadd86b4d9db871bac606cb5ab7~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_dcbb3aadd86b4d9db871bac606cb5ab7~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_dcbb3aadd86b4d9db871bac606cb5ab7~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_dcbb3aadd86b4d9db871bac606cb5ab7~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_1891e2e861ab43e48bc834f397402bb3~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_1891e2e861ab43e48bc834f397402bb3~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_1891e2e861ab43e48bc834f397402bb3~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_1891e2e861ab43e48bc834f397402bb3~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_2330719c06e74b2e8e4a4e8858d4da15~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_2330719c06e74b2e8e4a4e8858d4da15~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_2330719c06e74b2e8e4a4e8858d4da15~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_2330719c06e74b2e8e4a4e8858d4da15~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_3e2076af8e55434b8108265eea39b685~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_3e2076af8e55434b8108265eea39b685~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_3e2076af8e55434b8108265eea39b685~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_3e2076af8e55434b8108265eea39b685~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_6aee33193a2f4edea5562dcb170daad8~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_6aee33193a2f4edea5562dcb170daad8~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_6aee33193a2f4edea5562dcb170daad8~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_6aee33193a2f4edea5562dcb170daad8~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_a02432c917ee40d49b1a81c698a1a14c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_a02432c917ee40d49b1a81c698a1a14c~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_a02432c917ee40d49b1a81c698a1a14c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_a02432c917ee40d49b1a81c698a1a14c~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_32bb1ba0817a4d59a4e574094294934f~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_32bb1ba0817a4d59a4e574094294934f~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_32bb1ba0817a4d59a4e574094294934f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_32bb1ba0817a4d59a4e574094294934f~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_25840d78ac3243eb859360371fd8fb2b~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_25840d78ac3243eb859360371fd8fb2b~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_25840d78ac3243eb859360371fd8fb2b~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_25840d78ac3243eb859360371fd8fb2b~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_12feb4e5491148428f7662a77afd84a0~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_12feb4e5491148428f7662a77afd84a0~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_12feb4e5491148428f7662a77afd84a0~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_12feb4e5491148428f7662a77afd84a0~mv2.jpg",
+       "alt": "Chantier de zinguerie Lentillon Rénove Toiture"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "id": "devis-rdv",
+     "img": "https://static.wixstatic.com/media/954c80_21578db7e3fc423388ae2975b5a8d9e4.jpg/v1/fit/w_1920,h_1920,al_c,q_85/954c80_21578db7e3fc423388ae2975b5a8d9e4.jpg",
+     "eyebrow": "Devis rapide et gratuit, premier rendez-vous offert",
+     "title": "RDV devis <em>sous 72h</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "habillage",
+   "label": "Habillage",
+   "title": "Habillage bandeau et sous-face",
+   "eyebrow": "Habillage PVC",
+   "lead": "Fini la peinture des bandeaux et sous-faces en bois : un habillage dans un large choix de coloris. Contactez-nous pour voir les échantillons.",
+   "img": "https://static.wixstatic.com/media/954c80_d3a554a5b4f5467e8d2ce0312b743904~mv2_d_3096_4128_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_d3a554a5b4f5467e8d2ce0312b743904~mv2_d_3096_4128_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "pvc-cuivre",
+     "eyebrow": "Réalisation : habillage bandeau et sous-face PVC",
+     "title": "Et chéneaux alu <em>couleur cuivre</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_d3a554a5b4f5467e8d2ce0312b743904~mv2_d_3096_4128_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_d3a554a5b4f5467e8d2ce0312b743904~mv2_d_3096_4128_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_d3a554a5b4f5467e8d2ce0312b743904~mv2_d_3096_4128_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_d3a554a5b4f5467e8d2ce0312b743904~mv2_d_3096_4128_s_4_2.jpg",
+       "alt": "Habillage bandeau sous-face, zinguerie alu couleur cuivre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_65e8bc87f4ac4fcbb4b1b5f140f1665d~mv2_d_3096_4128_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_65e8bc87f4ac4fcbb4b1b5f140f1665d~mv2_d_3096_4128_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_65e8bc87f4ac4fcbb4b1b5f140f1665d~mv2_d_3096_4128_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_65e8bc87f4ac4fcbb4b1b5f140f1665d~mv2_d_3096_4128_s_4_2.jpg",
+       "alt": "Habillage bandeau sous-face, zinguerie alu couleur cuivre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_aa829eb03a2c46468fc8603adb892fbd~mv2_d_4128_3096_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_aa829eb03a2c46468fc8603adb892fbd~mv2_d_4128_3096_s_4_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_aa829eb03a2c46468fc8603adb892fbd~mv2_d_4128_3096_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_aa829eb03a2c46468fc8603adb892fbd~mv2_d_4128_3096_s_4_2.jpg",
+       "alt": "Habillage bandeau sous-face, zinguerie alu couleur cuivre"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "habillage-chantiers",
+     "eyebrow": "Avant, après",
+     "title": "Chantiers <em>d'habillage</em>",
+     "lead": "Ampuis, Chanas, Assieu, Saint-Maurice-l'Exil, Saint-Symphorien-d'Ozon, Roussillon, Estrablin, Les Côtes-d'Arey.",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_30d4df22447a43dba73606c8b7287abb.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_30d4df22447a43dba73606c8b7287abb.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_30d4df22447a43dba73606c8b7287abb.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_30d4df22447a43dba73606c8b7287abb.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Ampuis (69) 2017",
+       "caption": "Ampuis (69) 2017"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_2ae41f40f6054a8da61fa9798c3b55e4.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_2ae41f40f6054a8da61fa9798c3b55e4.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_2ae41f40f6054a8da61fa9798c3b55e4.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_2ae41f40f6054a8da61fa9798c3b55e4.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Ampuis (69) 2017",
+       "caption": "Ampuis (69) 2017"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_3a3db6346893456a9674912fed113dd8.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_3a3db6346893456a9674912fed113dd8.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_3a3db6346893456a9674912fed113dd8.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_3a3db6346893456a9674912fed113dd8.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Ampuis (69) 2017",
+       "caption": "Ampuis (69) 2017"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_b1d3d7a72e8e40048cbaec331ec95d78.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_b1d3d7a72e8e40048cbaec331ec95d78.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_b1d3d7a72e8e40048cbaec331ec95d78.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_b1d3d7a72e8e40048cbaec331ec95d78.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Chanas (38) 2015",
+       "caption": "Chanas (38) 2015"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_b180eeeae73845cebfdacd975ae28559.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_b180eeeae73845cebfdacd975ae28559.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_b180eeeae73845cebfdacd975ae28559.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_b180eeeae73845cebfdacd975ae28559.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Chanas (38) 2015",
+       "caption": "Chanas (38) 2015"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_a9dc63ebada4498abbcd4f383f1dbd28.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_a9dc63ebada4498abbcd4f383f1dbd28.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_a9dc63ebada4498abbcd4f383f1dbd28.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_a9dc63ebada4498abbcd4f383f1dbd28.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Chanas (38) 2015",
+       "caption": "Chanas (38) 2015"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_482b3d6844524f10b4a6c2c2a29163ed.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_482b3d6844524f10b4a6c2c2a29163ed.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_482b3d6844524f10b4a6c2c2a29163ed.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_482b3d6844524f10b4a6c2c2a29163ed.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Chanas (38) 2015",
+       "caption": "Chanas (38) 2015"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_560d40cea0504f5492b7874100c10f63.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_560d40cea0504f5492b7874100c10f63.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_560d40cea0504f5492b7874100c10f63.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_560d40cea0504f5492b7874100c10f63.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Chanas (38) 2015",
+       "caption": "Chanas (38) 2015"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_8f0898f62f714e9a8cc5bbe7f2eac4f5.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_8f0898f62f714e9a8cc5bbe7f2eac4f5.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_8f0898f62f714e9a8cc5bbe7f2eac4f5.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_8f0898f62f714e9a8cc5bbe7f2eac4f5.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Assieu (38) 2014",
+       "caption": "Assieu (38) 2014 · avant"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_94898c26f0144f139becd7a54e6d2b17.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_94898c26f0144f139becd7a54e6d2b17.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_94898c26f0144f139becd7a54e6d2b17.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_94898c26f0144f139becd7a54e6d2b17.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Assieu (38) 2014",
+       "caption": "Assieu (38) 2014 · après"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_63e64f96ec0143caab09fefff4ba03ed.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_63e64f96ec0143caab09fefff4ba03ed.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_63e64f96ec0143caab09fefff4ba03ed.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_63e64f96ec0143caab09fefff4ba03ed.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, St Maurice L'Exil (38) 2014",
+       "caption": "St Maurice L'Exil (38) 2014"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_6b102c3752f74738af8d5f716ccadec6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_6b102c3752f74738af8d5f716ccadec6.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_6b102c3752f74738af8d5f716ccadec6.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_6b102c3752f74738af8d5f716ccadec6.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, St Maurice L'Exil (38) 2014",
+       "caption": "St Maurice L'Exil (38) 2014"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_d636714b56c546498eb26df1123d598b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_d636714b56c546498eb26df1123d598b.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_d636714b56c546498eb26df1123d598b.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_d636714b56c546498eb26df1123d598b.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, St Symphorien d'Ozon (69) 2013",
+       "caption": "St Symphorien d'Ozon (69) 2013"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_8017e99436cf4030825ac24e593fe728.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_8017e99436cf4030825ac24e593fe728.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_8017e99436cf4030825ac24e593fe728.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_8017e99436cf4030825ac24e593fe728.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, St Symphorien d'Ozon (69) 2013",
+       "caption": "St Symphorien d'Ozon (69) 2013"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_498292c8e4e344289f84193169793a88.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_498292c8e4e344289f84193169793a88.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_498292c8e4e344289f84193169793a88.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_498292c8e4e344289f84193169793a88.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Roussillon (38) 2012",
+       "caption": "Roussillon (38) 2012"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_33e37056bf224833b746bc80d24a1fd1~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_33e37056bf224833b746bc80d24a1fd1~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_33e37056bf224833b746bc80d24a1fd1~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_33e37056bf224833b746bc80d24a1fd1~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Estrablin (38) 2022",
+       "caption": "Estrablin (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_8d9cd10b8c9544ebb6cc8de4ec0fef8b~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_8d9cd10b8c9544ebb6cc8de4ec0fef8b~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_8d9cd10b8c9544ebb6cc8de4ec0fef8b~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_8d9cd10b8c9544ebb6cc8de4ec0fef8b~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Estrablin (38) 2022",
+       "caption": "Estrablin (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_d63802c251b84a2b974182cd7bb35746~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_d63802c251b84a2b974182cd7bb35746~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_d63802c251b84a2b974182cd7bb35746~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_d63802c251b84a2b974182cd7bb35746~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Estrablin (38) 2022",
+       "caption": "Estrablin (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_3f4e928ee2c0449e9ddde322fe32f5a8~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_3f4e928ee2c0449e9ddde322fe32f5a8~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_3f4e928ee2c0449e9ddde322fe32f5a8~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_3f4e928ee2c0449e9ddde322fe32f5a8~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Estrablin (38) 2022",
+       "caption": "Estrablin (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_c2c8598ff2214b709c249d4e37a84af2~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_c2c8598ff2214b709c249d4e37a84af2~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_c2c8598ff2214b709c249d4e37a84af2~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_c2c8598ff2214b709c249d4e37a84af2~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Estrablin (38) 2022",
+       "caption": "Estrablin (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_3c869fa48c204284a5d2fc48f1d3577b~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_3c869fa48c204284a5d2fc48f1d3577b~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_3c869fa48c204284a5d2fc48f1d3577b~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_3c869fa48c204284a5d2fc48f1d3577b~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Estrablin (38) 2022",
+       "caption": "Estrablin (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_6c069f097845446391eac1ac43d31203~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_6c069f097845446391eac1ac43d31203~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_6c069f097845446391eac1ac43d31203~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_6c069f097845446391eac1ac43d31203~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2022",
+       "caption": "Les Côtes-d'Arey (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_60d706730d3c4511a0002c7463a539c8~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_60d706730d3c4511a0002c7463a539c8~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_60d706730d3c4511a0002c7463a539c8~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_60d706730d3c4511a0002c7463a539c8~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2022",
+       "caption": "Les Côtes-d'Arey (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_42a654853b2f498499417a031171906c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_42a654853b2f498499417a031171906c~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_42a654853b2f498499417a031171906c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_42a654853b2f498499417a031171906c~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2022",
+       "caption": "Les Côtes-d'Arey (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_1a9f2ac2981b4e838f6dbbbdd5f01954~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_1a9f2ac2981b4e838f6dbbbdd5f01954~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_1a9f2ac2981b4e838f6dbbbdd5f01954~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_1a9f2ac2981b4e838f6dbbbdd5f01954~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2022",
+       "caption": "Les Côtes-d'Arey (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_15f253b3b23848f08c453a2741496c02~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_15f253b3b23848f08c453a2741496c02~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_15f253b3b23848f08c453a2741496c02~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_15f253b3b23848f08c453a2741496c02~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2022",
+       "caption": "Les Côtes-d'Arey (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_81ca8930645945a785bc2e16ebc2a89c~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_81ca8930645945a785bc2e16ebc2a89c~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_81ca8930645945a785bc2e16ebc2a89c~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_81ca8930645945a785bc2e16ebc2a89c~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2023",
+       "caption": "Les Côtes-d'Arey (38) 2023"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_c7a587bf93fd419db68941fb59b6fa50~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_c7a587bf93fd419db68941fb59b6fa50~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_c7a587bf93fd419db68941fb59b6fa50~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_c7a587bf93fd419db68941fb59b6fa50~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2023",
+       "caption": "Les Côtes-d'Arey (38) 2023"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_16d8218c9cf94f86982c622c55f3d338~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_16d8218c9cf94f86982c622c55f3d338~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_16d8218c9cf94f86982c622c55f3d338~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_16d8218c9cf94f86982c622c55f3d338~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2023",
+       "caption": "Les Côtes-d'Arey (38) 2023"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_cc9b2d695f51425cba5e8fd6e917da85~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_cc9b2d695f51425cba5e8fd6e917da85~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_cc9b2d695f51425cba5e8fd6e917da85~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_cc9b2d695f51425cba5e8fd6e917da85~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2023",
+       "caption": "Les Côtes-d'Arey (38) 2023"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_6551ba40c91c44e09ee7989e097db39d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_6551ba40c91c44e09ee7989e097db39d~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_6551ba40c91c44e09ee7989e097db39d~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_6551ba40c91c44e09ee7989e097db39d~mv2.jpg",
+       "alt": "Habillage bandeau et sous-face PVC, Les Côtes-d'Arey (38) 2023",
+       "caption": "Les Côtes-d'Arey (38) 2023"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "id": "devis-rdv",
+     "img": "https://static.wixstatic.com/media/954c80_aa829eb03a2c46468fc8603adb892fbd~mv2_d_4128_3096_s_4_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/954c80_aa829eb03a2c46468fc8603adb892fbd~mv2_d_4128_3096_s_4_2.jpg",
+     "eyebrow": "Devis rapide et gratuit, premier rendez-vous offert",
+     "title": "RDV devis <em>sous 72h</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "couverture",
+   "label": "Couverture",
+   "title": "Couverture",
+   "eyebrow": "Un vrai professionnel diagnostique l'état de votre toiture !",
+   "lead": "Réfection partielle ou complète, démolition de cheminée, faîtage et arêtiers avec closoir ventilé autocollant. Un seul interlocuteur du 1er RDV à la réalisation du chantier.",
+   "img": "https://static.wixstatic.com/media/954c80_e8873ada901143c2bcb6427c5ee3eec6.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_e8873ada901143c2bcb6427c5ee3eec6.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "refection",
+     "eyebrow": "Réfection de toiture",
+     "title": "Réfection <em>de toiture</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_e8873ada901143c2bcb6427c5ee3eec6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_e8873ada901143c2bcb6427c5ee3eec6.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_e8873ada901143c2bcb6427c5ee3eec6.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_e8873ada901143c2bcb6427c5ee3eec6.jpg",
+       "alt": "Réfection toiture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_17f1140519ff482297c3b07692ee2fd1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_17f1140519ff482297c3b07692ee2fd1.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_17f1140519ff482297c3b07692ee2fd1.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_17f1140519ff482297c3b07692ee2fd1.jpg",
+       "alt": "Réfection toiture",
+       "caption": "Clonas-sur-Varèze (38) 2015"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "veranda",
+     "eyebrow": "Réalisation d'une avancée de toit avec fenêtres de toit sur véranda existante",
+     "title": "Avancée de toit <em>sur véranda</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_b4fb9f4825794b79abe8cc785eb912ab.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_b4fb9f4825794b79abe8cc785eb912ab.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_b4fb9f4825794b79abe8cc785eb912ab.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_b4fb9f4825794b79abe8cc785eb912ab.jpg",
+       "alt": "Avancée de toit avec fenêtres de toit sur véranda",
+       "caption": "Véranne (42) 2013"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_04c53d7259bc49e785c6164a540e7ba7.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_04c53d7259bc49e785c6164a540e7ba7.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_04c53d7259bc49e785c6164a540e7ba7.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_04c53d7259bc49e785c6164a540e7ba7.jpg",
+       "alt": "Avancée de toit avec fenêtres de toit sur véranda",
+       "caption": "Véranne (42) 2013"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_7ffc2f76abe84e39b0f77c1d9fa13db7.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_7ffc2f76abe84e39b0f77c1d9fa13db7.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_7ffc2f76abe84e39b0f77c1d9fa13db7.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_7ffc2f76abe84e39b0f77c1d9fa13db7.jpg",
+       "alt": "Avancée de toit avec fenêtres de toit sur véranda",
+       "caption": "Véranne (42) 2013"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_a8608b1c08764694bceab74431205f3f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_a8608b1c08764694bceab74431205f3f.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_a8608b1c08764694bceab74431205f3f.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_a8608b1c08764694bceab74431205f3f.jpg",
+       "alt": "Avancée de toit avec fenêtres de toit sur véranda",
+       "caption": "Véranne (42) 2013"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "garage",
+     "eyebrow": "Réfection complète d'une toiture avec habillage bandeau et frisette PVC blanc + création d'une avancée de garage",
+     "title": "Avant, pendant, <em>après</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_5a0683911ece4a3d821184eb776b8475.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_5a0683911ece4a3d821184eb776b8475.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_5a0683911ece4a3d821184eb776b8475.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_5a0683911ece4a3d821184eb776b8475.jpg",
+       "alt": "Réfection complète de toiture et avancée de garage",
+       "caption": "Avant les travaux"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_39705e25bdec40d3a38622638c623bc5.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_39705e25bdec40d3a38622638c623bc5.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_39705e25bdec40d3a38622638c623bc5.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_39705e25bdec40d3a38622638c623bc5.jpg",
+       "alt": "Réfection complète de toiture et avancée de garage",
+       "caption": "Avant les travaux"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_7baa31af5e824dde9ee17b89cf186b35.jpg",
+       "alt": "Réfection complète de toiture et avancée de garage",
+       "caption": "En cours…"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_26f7aee5cce147bf9899142704e11370.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_26f7aee5cce147bf9899142704e11370.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_26f7aee5cce147bf9899142704e11370.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_26f7aee5cce147bf9899142704e11370.jpg",
+       "alt": "Réfection complète de toiture et avancée de garage",
+       "caption": "En cours…"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_404da2e06f644b3e80b403662dc032b5.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_404da2e06f644b3e80b403662dc032b5.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_404da2e06f644b3e80b403662dc032b5.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_404da2e06f644b3e80b403662dc032b5.jpg",
+       "alt": "Réfection complète de toiture et avancée de garage",
+       "caption": "Fin des travaux"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_bfbf6f665785463784efbd074a63c805.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_bfbf6f665785463784efbd074a63c805.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_bfbf6f665785463784efbd074a63c805.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_bfbf6f665785463784efbd074a63c805.jpg",
+       "alt": "Réfection complète de toiture et avancée de garage",
+       "caption": "Fin des travaux"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "couverture-recents",
+     "eyebrow": "Chantiers récents",
+     "title": "Moidieu, <em>Andance</em>",
+     "lead": "Autres chantiers : Saint-Clair-du-Rhône (38) 2013.",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_86ac7be73b324e09b8e19045e34bcb2d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_86ac7be73b324e09b8e19045e34bcb2d~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_86ac7be73b324e09b8e19045e34bcb2d~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_86ac7be73b324e09b8e19045e34bcb2d~mv2.jpg",
+       "alt": "Chantier de couverture à Moidieu",
+       "caption": "Moidieu (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_ae077a281e4f4441a70fc340aa05b696~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_ae077a281e4f4441a70fc340aa05b696~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_ae077a281e4f4441a70fc340aa05b696~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_ae077a281e4f4441a70fc340aa05b696~mv2.jpg",
+       "alt": "Chantier de couverture à Moidieu",
+       "caption": "Moidieu (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_f0ee2f9129fb4d498e0ae57c5434472f~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_f0ee2f9129fb4d498e0ae57c5434472f~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_f0ee2f9129fb4d498e0ae57c5434472f~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_f0ee2f9129fb4d498e0ae57c5434472f~mv2.jpg",
+       "alt": "Chantier de couverture à Moidieu",
+       "caption": "Moidieu (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_5a71f480fa164adb835063e3dea6de66~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_5a71f480fa164adb835063e3dea6de66~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_5a71f480fa164adb835063e3dea6de66~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_5a71f480fa164adb835063e3dea6de66~mv2.jpg",
+       "alt": "Chantier de couverture à Moidieu",
+       "caption": "Moidieu (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_059b47e00fd94fe4888b0c57b6160cb7~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_059b47e00fd94fe4888b0c57b6160cb7~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_059b47e00fd94fe4888b0c57b6160cb7~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_059b47e00fd94fe4888b0c57b6160cb7~mv2.jpg",
+       "alt": "Chantier de couverture à Moidieu",
+       "caption": "Moidieu (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_290f0e27b2154a7787702405c63c133a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_290f0e27b2154a7787702405c63c133a~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_290f0e27b2154a7787702405c63c133a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_290f0e27b2154a7787702405c63c133a~mv2.jpg",
+       "alt": "Chantier de couverture à Moidieu",
+       "caption": "Moidieu (38) 2022"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_d7430683d4d24a8facb93ad77b344222~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_d7430683d4d24a8facb93ad77b344222~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_d7430683d4d24a8facb93ad77b344222~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_d7430683d4d24a8facb93ad77b344222~mv2.jpg",
+       "alt": "Chantier de couverture à Andance",
+       "caption": "Andance (07) 2023"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_5a57b6a1761a43aeaae359688c2b58aa~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_5a57b6a1761a43aeaae359688c2b58aa~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_5a57b6a1761a43aeaae359688c2b58aa~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_5a57b6a1761a43aeaae359688c2b58aa~mv2.jpg",
+       "alt": "Chantier de couverture à Andance",
+       "caption": "Andance (07) 2023"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "id": "devis-rdv",
+     "img": "https://static.wixstatic.com/media/954c80_17f1140519ff482297c3b07692ee2fd1.jpg/v1/fit/w_1920,h_1920,al_c,q_85/954c80_17f1140519ff482297c3b07692ee2fd1.jpg",
+     "eyebrow": "Devis rapide et gratuit, premier rendez-vous offert",
+     "title": "RDV devis <em>sous 72h</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "demoussage",
+   "label": "Démoussage",
+   "title": "Démoussage toiture",
+   "eyebrow": "Traitement curatif et préventif",
+   "lead": "Faites nettoyer votre toiture pour prolonger sa durée de vie : traitement anti-mousse curatif et préventif, sans rinçage, actif plusieurs mois après l'application.",
+   "img": "https://static.wixstatic.com/media/954c80_005ff594c6de4321981acffbe647eed6~mv2_d_4160_2336_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_005ff594c6de4321981acffbe647eed6~mv2_d_4160_2336_s_2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "traitement",
+     "eyebrow": "Démoussage",
+     "title": "Un traitement <em>qui agit dans la durée</em>",
+     "img": "https://static.wixstatic.com/media/954c80_41d37d6fe1fb403da9b0df1f125ea4a4~mv2_d_3272_1696_s_2.png/v1/fit/w_1400,h_1400,al_c,q_85/954c80_41d37d6fe1fb403da9b0df1f125ea4a4~mv2_d_3272_1696_s_2.png",
+     "alt": "Démoussage toiture Lentillon Rénove Toiture",
+     "paras": [
+      "Traitement anti-mousse curatif et préventif, sans rinçage, qui reste actif pendant des mois après l'application.",
+      "Le temps d'action dépend du type de tuile, de l'exposition et de la météo.",
+      "Renseignements par téléphone : <a href=\"tel:+33621892721\">06 21 89 27 21</a> ou par e-mail : <a href=\"mailto:lentillon.renovetoiture@gmail.com\">lentillon.renovetoiture@gmail.com</a>"
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "avant-apres",
+     "eyebrow": "Avant, après",
+     "title": "Le traitement <em>en images</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/954c80_7f25ac398e134669b22f57c7c82c3abd~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_7f25ac398e134669b22f57c7c82c3abd~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_7f25ac398e134669b22f57c7c82c3abd~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_7f25ac398e134669b22f57c7c82c3abd~mv2.jpg",
+       "alt": "Toiture avant le traitement",
+       "caption": "Avant le traitement"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_32772b9a08cb4b919d7271aec731dd79~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_32772b9a08cb4b919d7271aec731dd79~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_32772b9a08cb4b919d7271aec731dd79~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_32772b9a08cb4b919d7271aec731dd79~mv2.jpg",
+       "alt": "Toiture après le traitement",
+       "caption": "Après le traitement"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_005ff594c6de4321981acffbe647eed6~mv2_d_4160_2336_s_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_005ff594c6de4321981acffbe647eed6~mv2_d_4160_2336_s_2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_005ff594c6de4321981acffbe647eed6~mv2_d_4160_2336_s_2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_005ff594c6de4321981acffbe647eed6~mv2_d_4160_2336_s_2.jpg",
+       "alt": "Démoussage Lentillon Rénove Toiture",
+       "caption": "Zone à traiter / zone en cours de traitement"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_e1c3a773f2104eae837f6d96593cc520~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_e1c3a773f2104eae837f6d96593cc520~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_e1c3a773f2104eae837f6d96593cc520~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_e1c3a773f2104eae837f6d96593cc520~mv2.jpg",
+       "alt": "Démoussage de toiture",
+       "caption": "Toiture de droite traitée"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/954c80_82ccfb5b91244bfaadaeb54ead6b52f6~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/954c80_82ccfb5b91244bfaadaeb54ead6b52f6~mv2.jpg",
+       "thumb": "https://static.wixstatic.com/media/954c80_82ccfb5b91244bfaadaeb54ead6b52f6~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/954c80_82ccfb5b91244bfaadaeb54ead6b52f6~mv2.jpg",
+       "alt": "Démoussage de toiture",
+       "caption": "Zone en cours de traitement"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "id": "devis-rdv",
+     "img": "https://static.wixstatic.com/media/954c80_32772b9a08cb4b919d7271aec731dd79~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/954c80_32772b9a08cb4b919d7271aec731dd79~mv2.jpg",
+     "eyebrow": "Devis rapide et gratuit, premier rendez-vous offert",
+     "title": "RDV devis <em>sous 72h</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contactez-nous",
+   "title": "Contactez-nous",
+   "eyebrow": "Devis et renseignements",
+   "lead": "Pour toute demande de devis ou de renseignement, remplissez les champs ci-dessous. Vous serez contacté très rapidement.",
+   "img": "https://static.wixstatic.com/media/954c80_3aed55a59fd44a76b1bdd420a22addef.jpg/v1/fit/w_1400,h_1400,al_c,q_85/954c80_3aed55a59fd44a76b1bdd420a22addef.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis rapide et gratuit",
+     "title": "Demander un <em>devis</em>",
+     "lead": "RDV devis sous 72h. Le premier rendez-vous est gratuit, avec échantillons de matériaux et de coloris.",
+     "side": [
+      "Couverture - zinguerie",
+      "Tél : <a href=\"tel:+33621892721\">06 21 89 27 21</a>",
+      "<a href=\"mailto:lentillon.renovetoiture@gmail.com\">lentillon.renovetoiture@gmail.com</a>",
+      "Secteur Vienne (38200), Roussillon, sud de Lyon"
+     ],
+     "email": "lentillon.renovetoiture@gmail.com",
+     "subject": "demande d'information",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Prise de contact",
+     "title": "Lentillon Rénove Toiture, <em>Auberives-sur-Varèze</em>",
+     "text": "Couverture – zinguerie. Secteur de Vienne (Isère, 38200) dans un rayon d'environ 20 km, secteur de Roussillon et sud de Lyon (Rhône) ; au-delà, à convenir.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33621892721\">06 21 89 27 21</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:lentillon.renovetoiture@gmail.com\">lentillon.renovetoiture@gmail.com</a>"
+      ],
+      [
+       "Secteur",
+       "Vienne, Roussillon, sud de Lyon"
+      ],
+      [
+       "Devis",
+       "RDV devis sous 72h, premier rendez-vous gratuit"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/pages/Lentillon-R%C3%A9nove-Toiture/224343647649373\" target=\"_blank\" rel=\"noopener\">Lentillon Rénove Toiture</a>"
+      ],
+      [
+       "Lien utile",
+       "<a href=\"https://www.granulesaupoele.com/\" target=\"_blank\" rel=\"noopener\">granulesaupoele.com</a> : vente et livraison de granulés de bois, région de Lyon"
+      ]
+     ],
+     "map_q": "Auberives-sur-Varèze 38550",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "LENTILLON Rénove Toiture, couverture - zinguerie à Auberives-sur-Varèze (Isère). Secteur de Vienne (38200), Roussillon et sud de Lyon. Devis rapide et gratuit.",
+  "contact": [
+   "<a href=\"tel:+33621892721\">06 21 89 27 21</a>",
+   "<a href=\"mailto:lentillon.renovetoiture@gmail.com\">lentillon.renovetoiture@gmail.com</a>",
+   "Auberives-sur-Varèze (38)"
+  ],
+  "legal": "Lentillon Rénove Toiture · Couverture – zinguerie · Auberives-sur-Varèze (Isère)",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/pages/Lentillon-R%C3%A9nove-Toiture/224343647649373"
+   ]
+  ]
+ }
+}
