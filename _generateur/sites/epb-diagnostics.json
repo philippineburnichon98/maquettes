@@ -1,0 +1,1148 @@
+{
+ "slug": "epb-diagnostics-db10e6",
+ "title": "Cabinet d'expertises EPB — Diagnostics immobiliers, vente et location (Alexandre Ibanez)",
+ "description": "Cabinet d'expertises EPB, Alexandre Ibanez : diagnostics immobiliers pour la vente et la location (amiante, plomb, DPE, termites, gaz, électricité, assainissement, ERP, mesurage Carrez et Boutin, DTG, EDD). 20 ans d'expérience, diagnostics sous 24 h, déplacement sur tout le département.",
+ "brand": "Cabinet EPB",
+ "monogram": "EPB",
+ "tagline": "Diagnostics immobiliers",
+ "theme": {
+  "look": "center",
+  "paper": "#f4f7f8",
+  "paper2": "#e3ebee",
+  "ink": "#15242c",
+  "muted": "#56656d",
+  "accent": "#1f6f8b",
+  "accent2": "#185a71",
+  "gold": "#8cbf4f",
+  "heroem": "#bfe3a1",
+  "serif": "\"Lexend\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "logo": {
+  "src": "https://static.wixstatic.com/media/675427_47bbcc9dba4e4413b0cb1b3eb1918100~mv2.png/v1/fit/w_400,h_400,al_c,q_85/675427_47bbcc9dba4e4413b0cb1b3eb1918100~mv2.png",
+  "height": 52,
+  "with_name": true
+ },
+ "topbar": [
+  "Diagnostics immobiliers · vente et location",
+  "Portable : <a href=\"tel:+33614402234\">06 14 40 22 34</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [],
+ "nav_extra": [
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/675427_9099e8305e9a4059b92594f1f7d03b8c~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/675427_9099e8305e9a4059b92594f1f7d03b8c~mv2.jpg",
+  "eyebrow": "Cabinet d'expertises EPB · Alexandre Ibanez",
+  "title": "Diagnostics <em>immobiliers</em>",
+  "lead": "20 ans d'expérience pour répondre à vos besoins en diagnostics de vente et/ou de location.",
+  "cta1": [
+   "Prenez rendez-vous",
+   "#contact"
+  ],
+  "cta2": [
+   "06 14 40 22 34",
+   "tel:+33614402234"
+  ]
+ },
+ "figures": [
+  [
+   "20",
+   "ans d'expérience"
+  ],
+  [
+   "24 h",
+   "pour vos diagnostics après rendez-vous"
+  ],
+  [
+   "11",
+   "expertises"
+  ],
+  [
+   "1",
+   "seul interlocuteur"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "features",
+   "id": "engagements",
+   "eyebrow": "Nos engagements",
+   "title": "Des expertises sérieuses, <em>dans le respect des normes</em>",
+   "items": [
+    [
+     "Des expertises sérieuses",
+     "Dans le respect des normes."
+    ],
+    [
+     "Un seul interlocuteur",
+     "Du rendez-vous à la remise des rapports."
+    ],
+    [
+     "Vos diagnostics sous 24 h",
+     "Après rendez-vous."
+    ],
+    [
+     "Des tarifs clairs",
+     "Et concurrentiels."
+    ],
+    [
+     "Tout le département",
+     "Déplacement sur tout le département."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "expertises",
+   "eyebrow": "Nos expertises",
+   "title": "Les diagnostics <em>pour vendre ou louer</em>",
+   "items": [
+    {
+     "title": "Mesurage",
+     "paras": [
+      "Vente : Loi Carrez (tout lot en copropriété). Location : Loi Boutin (parties privatives)."
+     ]
+    },
+    {
+     "title": "Amiante",
+     "paras": [
+      "Vente ou Location : tout immeuble bâti dont le permis de construire est obtenu avant le 01/07/1997."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-reperage-amiante/"
+     ]
+    },
+    {
+     "title": "Dossier technique amiante (DTA)",
+     "paras": [
+      "IGH, ERP, parties communes d'immeubles collectifs, locaux professionnels, bureaux et bâtiments agricoles."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-reperage-amiante/"
+     ]
+    },
+    {
+     "title": "Plomb",
+     "paras": [
+      "Vente ou Location : logement dont le permis de construire a été délivré avant le 01/01/1949."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-plomb-dans-les-revetemen/"
+     ]
+    },
+    {
+     "title": "Performance énergétique DPE",
+     "paras": [
+      "Vente ou Location : habitations et immeubles tertiaires (ancien et neuf)."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-de-performances-energeti/"
+     ]
+    },
+    {
+     "title": "Termites",
+     "paras": [
+      "Vente : tout immeuble situé dans une zone à risque déterminée par arrêté préfectoral ou municipal."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-etat-parasitaire/"
+     ]
+    },
+    {
+     "title": "Mérule",
+     "paras": [
+      "Décret à paraître."
+     ]
+    },
+    {
+     "title": "Gaz",
+     "paras": [
+      "Vente et Location : installations de plus de 15 ans, parties privatives des locaux à usage d'habitation."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-de-gaz/"
+     ]
+    },
+    {
+     "title": "Électricité",
+     "paras": [
+      "Vente et Location : installations de plus de 15 ans, parties privatives des locaux à usage d'habitation."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-electricite/"
+     ]
+    },
+    {
+     "title": "Assainissement",
+     "paras": [
+      "Vente : locaux à usage d'habitation non raccordés."
+     ],
+     "link": [
+      "En savoir plus",
+      "diagnostic-assainissement/"
+     ]
+    },
+    {
+     "title": "État des risques naturels, miniers et technologiques",
+     "paras": [
+      "Vente et location : tout bien immobilier bâti ou non bâti situé dans le champ d'un plan de prévention des risques ou en zone sismique."
+     ],
+     "link": [
+      "En savoir plus",
+      "etat-des-risques-naturels/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "partenaires",
+   "eyebrow": "Certification et partenaires",
+   "title": "Le Cabinet <em>EPB</em>",
+   "img": "https://static.wixstatic.com/media/ea71bb_d00d18bcd07849f0946b210e1cee9ec5~mv2_d_2301_1536_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/ea71bb_d00d18bcd07849f0946b210e1cee9ec5~mv2_d_2301_1536_s_2.jpg",
+   "alt": "Le Cabinet EPB",
+   "paras": [
+    "Un cabinet de diagnostics créé il y a 20 ans, au service des propriétaires, des agences immobilières, des notaires et de tous ceux qui vendent ou louent un bien.",
+    "<a href=\"le-cabinet/\" style=\"border-bottom:1px solid var(--gold)\">Découvrir le cabinet</a>"
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/675427_255e814d612a4334bc7bb85800dd5ba5~mv2.jpg/v1/fit/w_600,h_600,al_c,q_85/675427_255e814d612a4334bc7bb85800dd5ba5~mv2.jpg",
+     "I.Cert"
+    ],
+    [
+     "https://static.wixstatic.com/media/675427_c8c5f5a0723749be872c150e31ab69ca~mv2.png/v1/fit/w_600,h_600,al_c,q_85/675427_c8c5f5a0723749be872c150e31ab69ca~mv2.png",
+     "ITGA"
+    ],
+    [
+     "https://static.wixstatic.com/media/675427_923ad903daff4ccaa0b4017b9b28df23~mv2.jpg/v1/fit/w_600,h_600,al_c,q_85/675427_923ad903daff4ccaa0b4017b9b28df23~mv2.jpg",
+     "Verlingue"
+    ]
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Cabinet EPB <em>Ibanez Alexandre</em>",
+   "lead": "Une question, un rendez-vous : écrivez-nous, nous vous répondons rapidement.",
+   "side": [
+    "E-mail : <a href=\"mailto:ntvs.secretariat@orange.fr\">ntvs.secretariat@orange.fr</a>",
+    "Portable : <a href=\"tel:+33614402234\">06 14 40 22 34</a>",
+    "Horaires d'ouverture : du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00"
+   ],
+   "email": "ntvs.secretariat@orange.fr",
+   "subject": "Demande depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Objet"
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Coordonnées",
+   "title": "Cabinet EPB, <em>Ibanez Alexandre</em>",
+   "text": "Déplacement sur tout le département.",
+   "rows": [
+    [
+     "E-mail",
+     "<a href=\"mailto:ntvs.secretariat@orange.fr\">ntvs.secretariat@orange.fr</a>"
+    ],
+    [
+     "Portable",
+     "<a href=\"tel:+33614402234\">06 14 40 22 34</a>"
+    ],
+    [
+     "Horaires",
+     "Du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00"
+    ],
+    [
+     "Zone",
+     "Déplacement sur tout le département"
+    ]
+   ],
+   "cta": [
+    "Demande de devis",
+    "tarifs/"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "le-cabinet",
+   "label": "Le Cabinet",
+   "title": "Le Cabinet",
+   "eyebrow": "Cabinet d'expertises EPB",
+   "lead": "Les diagnostics immobiliers obligatoires pour la vente et pour la location.",
+   "img": "https://static.wixstatic.com/media/ea71bb_d00d18bcd07849f0946b210e1cee9ec5~mv2_d_2301_1536_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/ea71bb_d00d18bcd07849f0946b210e1cee9ec5~mv2_d_2301_1536_s_2.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "cabinet",
+     "eyebrow": "Le Cabinet",
+     "title": "Les diagnostics <em>immobiliers</em>",
+     "img": "https://static.wixstatic.com/media/675427_9099e8305e9a4059b92594f1f7d03b8c~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/675427_9099e8305e9a4059b92594f1f7d03b8c~mv2.jpg",
+     "alt": "Cabinet EPB",
+     "paras": [
+      "Le cabinet a été créé il y a 20 ans.",
+      "Il intervient pour les propriétaires, les agences immobilières, les notaires et tous les autres clients, pour les diagnostics obligatoires à la vente et à la location."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/675427_255e814d612a4334bc7bb85800dd5ba5~mv2.jpg/v1/fit/w_600,h_600,al_c,q_85/675427_255e814d612a4334bc7bb85800dd5ba5~mv2.jpg",
+       "I.Cert"
+      ],
+      [
+       "https://static.wixstatic.com/media/675427_c8c5f5a0723749be872c150e31ab69ca~mv2.png/v1/fit/w_600,h_600,al_c,q_85/675427_c8c5f5a0723749be872c150e31ab69ca~mv2.png",
+       "ITGA"
+      ],
+      [
+       "https://static.wixstatic.com/media/675427_923ad903daff4ccaa0b4017b9b28df23~mv2.jpg/v1/fit/w_600,h_600,al_c,q_85/675427_923ad903daff4ccaa0b4017b9b28df23~mv2.jpg",
+       "Verlingue"
+      ]
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Cabinet EPB <em>Ibanez Alexandre</em>",
+     "lead": "Une question, un rendez-vous : écrivez-nous, nous vous répondons rapidement.",
+     "side": [
+      "E-mail : <a href=\"mailto:ntvs.secretariat@orange.fr\">ntvs.secretariat@orange.fr</a>",
+      "Portable : <a href=\"tel:+33614402234\">06 14 40 22 34</a>",
+      "Horaires d'ouverture : du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00"
+     ],
+     "email": "ntvs.secretariat@orange.fr",
+     "subject": "Demande depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostics-immobiliers",
+   "label": "Nos diagnostics immobiliers",
+   "title": "Nos diagnostics immobiliers",
+   "eyebrow": "Vente et location",
+   "lead": "Plomb, amiante, état parasitaire, gaz, électricité, assainissement, état des risques, DTG et EDD.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "liste",
+     "eyebrow": "Nos expertises",
+     "title": "Chaque diagnostic <em>en détail</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/675427_41e760d019c8422e9b3e801dd0e2ff3d~mv2_d_2628_2150_s_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/675427_41e760d019c8422e9b3e801dd0e2ff3d~mv2_d_2628_2150_s_2.jpg",
+       "alt": "Diagnostic plomb",
+       "title": "Diagnostic plomb dans les revêtements",
+       "paras": [
+        "CREP pour les logements construits avant 1949."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-plomb-dans-les-revetemen/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/675427_f9a381a39e654d0cb46809d3543e1819~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/675427_f9a381a39e654d0cb46809d3543e1819~mv2.jpg",
+       "alt": "Repérage amiante",
+       "title": "Diagnostic repérage amiante",
+       "paras": [
+        "DAPP, DTA, avant vente, avant travaux, avant démolition."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-reperage-amiante/"
+       ]
+      },
+      {
+       "title": "Diagnostic état parasitaire",
+       "paras": [
+        "État relatif à la présence de termites, dans les zones fixées par arrêté préfectoral."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-etat-parasitaire/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/675427_85840c6cf44e45b0b764483719e65e4a~mv2.jpg/v1/fit/w_600,h_600,al_c,q_85/675427_85840c6cf44e45b0b764483719e65e4a~mv2.jpg",
+       "alt": "Diagnostic gaz",
+       "title": "Diagnostic de gaz",
+       "paras": [
+        "Installations de gaz de plus de 15 ans."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-de-gaz/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/675427_6ac4d44a157740c590ebfd3433ded3fb~mv2_d_4000_4000_s_4_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/675427_6ac4d44a157740c590ebfd3433ded3fb~mv2_d_4000_4000_s_4_2.jpg",
+       "alt": "Diagnostic électricité",
+       "title": "Diagnostic électricité",
+       "paras": [
+        "Installations électriques de plus de 15 ans."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-electricite/"
+       ]
+      },
+      {
+       "title": "Diagnostic assainissement",
+       "paras": [
+        "Habitations non raccordées au réseau public de collecte des eaux usées."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-assainissement/"
+       ]
+      },
+      {
+       "title": "État des risques naturels",
+       "paras": [
+        "État des risques et pollutions, pour la vente ou la location."
+       ],
+       "link": [
+        "En savoir plus",
+        "../etat-des-risques-naturels/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/675427_f0f9122196fc4e1ea905c51907d949dd~mv2_d_3872_2592_s_4_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/675427_f0f9122196fc4e1ea905c51907d949dd~mv2_d_3872_2592_s_4_2.jpg",
+       "alt": "Diagnostic technique global",
+       "title": "Diagnostic technique global (DTG)",
+       "paras": [
+        "Mise en copropriété et copropriétés existantes."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-technique-global-dtg/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/675427_e84f76a7f232472aa9c088ab0a17b51a~mv2_d_4189_2783_s_4_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/675427_e84f76a7f232472aa9c088ab0a17b51a~mv2_d_4189_2783_s_4_2.jpg",
+       "alt": "État descriptif de division",
+       "title": "État descriptif de division (EDD)",
+       "paras": [
+        "Document technique obligatoire des copropriétés."
+       ],
+       "link": [
+        "En savoir plus",
+        "../etat-descriptif-de-division-edd/"
+       ]
+      },
+      {
+       "title": "Diagnostic de performance énergétique (DPE)",
+       "paras": [
+        "Étiquette énergie et étiquette climat, valable 10 ans."
+       ],
+       "link": [
+        "En savoir plus",
+        "../diagnostic-de-performances-energeti/"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tarifs",
+   "label": "Tarifs",
+   "title": "Tarifs",
+   "eyebrow": "Demande de devis de diagnostic",
+   "lead": "Vous recevrez votre devis sous 24 h.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Tarifs",
+     "title": "Demande de devis <em>de diagnostic</em>",
+     "lead": "Décrivez votre bien : vous recevrez votre devis sous 24 h.",
+     "side": [
+      "Portable : <a href=\"tel:+33614402234\">06 14 40 22 34</a>",
+      "E-mail : <a href=\"mailto:ntvs.secretariat@orange.fr\">ntvs.secretariat@orange.fr</a>",
+      "Horaires : Du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00"
+     ],
+     "email": "ntvs.secretariat@orange.fr",
+     "subject": "Demande de devis de diagnostic",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Prénom",
+       "required": true
+      },
+      {
+       "label": "Nom de famille",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Vente / Location",
+       "type": "select",
+       "options": [
+        "Vente",
+        "Location"
+       ]
+      },
+      {
+       "label": "Détail du logement",
+       "type": "select",
+       "options": [
+        "Studio",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+       ]
+      },
+      {
+       "label": "Type de bien",
+       "type": "select",
+       "options": [
+        "Appartement",
+        "Maison",
+        "Local commercial",
+        "Garage / Grange",
+        "Terrain avec abris"
+       ]
+      },
+      {
+       "label": "Année de construction",
+       "type": "select",
+       "options": [
+        "Avant 1949",
+        "1997 - 1949",
+        "2003 - 1998",
+        "2018 - 2004"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-plomb-dans-les-revetemen",
+   "label": "Plomb",
+   "hidden": true,
+   "title": "Diagnostic plomb dans les revêtements",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Pour les logements construits avant 1949.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "diagnostic",
+     "eyebrow": "Constat de risque d'exposition au plomb (CREP)",
+     "title": "Diagnostic plomb <em>dans les revêtements</em>",
+     "img": "https://static.wixstatic.com/media/675427_41e760d019c8422e9b3e801dd0e2ff3d~mv2_d_2628_2150_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/675427_41e760d019c8422e9b3e801dd0e2ff3d~mv2_d_2628_2150_s_2.jpg",
+     "alt": "Diagnostic plomb",
+     "paras": [
+      "Le CREP concerne les logements construits avant 1949. Au-delà du seuil de 1 mg/cm², le propriétaire doit réaliser des travaux.",
+      "Sans plomb, ou sous le seuil, le CREP est valable sans limite de durée. Le CREP initial est annexé à toute promesse de vente ou à l'acte de vente.",
+      "Sans CREP, l'acquéreur ou le locataire peut engager une action pour vice caché (<a href=\"https://www.service-public.fr/particuliers/vosdroits/F1783\" target=\"_blank\" rel=\"noopener\">service-public.fr</a>)."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Validité",
+       "paras": [
+        "Illimitée sans plomb ou sous le seuil"
+       ]
+      },
+      {
+       "title": "Textes",
+       "paras": [
+        "Articles L271-4 à L271-6 du CCH ; articles R1334-10 à 12 du CSP ; arrêté du 25/04/06 (parties communes) ; arrêté du 19 août 2011."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-reperage-amiante",
+   "label": "Amiante",
+   "hidden": true,
+   "title": "Repérage amiante",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Pour les biens dont le permis de construire est antérieur à juillet 1997.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "diagnostic",
+     "eyebrow": "DAPP, DTA, avant vente, avant travaux, avant démolition",
+     "title": "Repérage <em>amiante</em>",
+     "img": "https://static.wixstatic.com/media/675427_f9a381a39e654d0cb46809d3543e1819~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/675427_f9a381a39e654d0cb46809d3543e1819~mv2.jpg",
+     "alt": "Repérage amiante",
+     "paras": [
+      "Le repérage amiante est exigé à la vente pour les logements construits avant juillet 1997 (permis de construire délivré avant le 01/07/1997).",
+      "Les parties communes sont concernées depuis le 01/01/2006. La durée de validité dépend des résultats du repérage."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Validité",
+       "paras": [
+        "Selon les résultats"
+       ]
+      },
+      {
+       "title": "Textes",
+       "paras": [
+        "Articles L1334-12-1 à L1334-17 du CSP ; articles L271-4 à L271-6 du CCH ; R1334-14 ; arrêté du 21 décembre 2012."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-etat-parasitaire",
+   "label": "Termites",
+   "hidden": true,
+   "title": "Diagnostic état parasitaire",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Une pièce du dossier de diagnostic technique annexé à l'acte de vente.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "diagnostic",
+     "eyebrow": "État relatif à la présence de termites",
+     "title": "Diagnostic <em>état parasitaire</em>",
+     "items": [
+      {
+       "title": "Ce qu'il faut savoir",
+       "paras": [
+        "L'état relatif à la présence de termites fait partie du dossier de diagnostic technique annexé à l'acte de vente.",
+        "Il concerne les maisons individuelles et les parties privatives des lots de copropriété, dans les zones fixées par arrêté préfectoral.",
+        "Il identifie le bien, les parties visitées et les éléments infestés. Un traitement ne garantit pas l'éradication."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Validité",
+       "paras": [
+        "6 mois"
+       ]
+      },
+      {
+       "title": "Textes",
+       "paras": [
+        "Articles L133-1 à L133-6 du CCH ; L271-4 à L271-6 ; R133-1 à R133-8 ; arrêté du 29 mars 2007."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-de-gaz",
+   "label": "Gaz",
+   "hidden": true,
+   "title": "Diagnostic de gaz",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Pour les installations de gaz de plus de 15 ans.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "diagnostic",
+     "eyebrow": "Vente ou location",
+     "title": "Diagnostic <em>de gaz</em>",
+     "items": [
+      {
+       "title": "Ce qu'il faut savoir",
+       "paras": [
+        "Le diagnostic de l'installation intérieure de gaz est obligatoire pour toutes les installations de gaz qui ont plus de 15 ans ou dont le dernier certificat de conformité date de plus de 15 ans."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Textes",
+       "paras": [
+        "Article L134-6 du CCH ; ordonnance du 8.6.05, loi 2006-872, décret 2006-1147 ; arrêté du 6 avril 2007 ; norme XP-P 45500."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-electricite",
+   "label": "Électricité",
+   "hidden": true,
+   "title": "Diagnostic électricité",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Pour les installations électriques de plus de 15 ans.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "diagnostic",
+     "eyebrow": "Vente ou location",
+     "title": "Diagnostic <em>électricité</em>",
+     "img": "https://static.wixstatic.com/media/675427_acf9adf41021472e90d79dd781394d91~mv2_d_3840_2160_s_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/675427_acf9adf41021472e90d79dd781394d91~mv2_d_3840_2160_s_2.jpg",
+     "alt": "Diagnostic électricité",
+     "paras": [
+      "Le diagnostic vérifie la sécurité de l'installation électrique intérieure du logement.",
+      "Il est obligatoire pour les installations de plus de 15 ans et reste valable 6 ans à compter de sa date de réalisation."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Validité",
+       "paras": [
+        "6 ans"
+       ]
+      },
+      {
+       "title": "Textes",
+       "paras": [
+        "Articles L. 134-7, L. 271-4 à L271-6, R.134-10 à R.134-13 du CCH ; décret 2008-384 ; arrêté du 8 juillet 2008 ; norme FD C 16-600."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-assainissement",
+   "label": "Assainissement",
+   "hidden": true,
+   "title": "Diagnostic assainissement",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Pour les habitations non raccordées au réseau public.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "diagnostic",
+     "eyebrow": "Vente",
+     "title": "Diagnostic <em>assainissement</em>",
+     "items": [
+      {
+       "title": "Ce qu'il faut savoir",
+       "paras": [
+        "Le contrôle de l'installation d'assainissement non collectif permet d'informer l'acquéreur de la conformité ou non de l'installation avec la réglementation.",
+        "Il concerne les maisons et immeubles non raccordés au réseau public de collecte des eaux usées : réseau inexistant, ou raccordement techniquement pas réalisable.",
+        "Le vendeur prend rendez-vous auprès du SPANC (service public d'assainissement non collectif) de la commune, dont les coordonnées sont disponibles en mairie."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Validité",
+       "paras": [
+        "Moins de 3 ans à la signature de la promesse ou de l'acte de vente"
+       ]
+      },
+      {
+       "title": "Textes",
+       "paras": [
+        "Contrôle réalisé par le SPANC de la commune."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "etat-des-risques-naturels",
+   "label": "État des risques",
+   "hidden": true,
+   "title": "État des risques et pollutions",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Naturels, miniers et technologiques.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "diagnostic",
+     "eyebrow": "Vente ou location",
+     "title": "État des risques <em>et pollutions</em>",
+     "items": [
+      {
+       "title": "Ce qu'il faut savoir",
+       "paras": [
+        "Le vendeur ou le bailleur fournit cet état si le bien est situé dans le périmètre d'un plan de prévention des risques technologiques approuvé, dans une zone de risques naturels ou miniers résiduels couverte par un plan approuvé ou à l'étude, en zone sismique 2 à 5, ou en zone à potentiel radon de niveau 3.",
+        "Il concerne toute construction ou parcelle appartenant à un même propriétaire."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Validité",
+       "paras": [
+        "6 mois"
+       ]
+      },
+      {
+       "title": "Textes",
+       "paras": [
+        "Article L125-5 du code de l'environnement ; L271-4 à L271-6 du CCH ; R271-1 et R125-23 du code de l'environnement."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-technique-global-dtg",
+   "label": "DTG",
+   "hidden": true,
+   "title": "Diagnostic technique global",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Pour la mise en copropriété et pour les copropriétés existantes.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "diagnostic",
+     "eyebrow": "Copropriétés",
+     "title": "Diagnostic <em>technique global</em>",
+     "img": "https://static.wixstatic.com/media/675427_f0f9122196fc4e1ea905c51907d949dd~mv2_d_3872_2592_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/675427_f0f9122196fc4e1ea905c51907d949dd~mv2_d_3872_2592_s_4_2.jpg",
+     "alt": "Immeuble en copropriété",
+     "paras": [
+      "Pour la mise en copropriété d'un immeuble de plus de 10 ans.",
+      "Pour les copropriétés existantes : depuis le 1er janvier 2017, l'assemblée générale doit se prononcer sur la réalisation d'un DTG.",
+      "Il porte sur les parties communes et équipements, la situation du syndicat au regard de ses obligations, les améliorations possibles de la gestion, la performance énergétique (DPE ou audit) et une évaluation sommaire du coût des travaux des 10 prochaines années."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Textes",
+       "paras": [
+        "Code de la construction et de l'habitation."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "etat-descriptif-de-division-edd",
+   "label": "EDD",
+   "hidden": true,
+   "title": "État descriptif de division",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Document technique obligatoire des copropriétés.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "diagnostic",
+     "eyebrow": "Copropriétés",
+     "title": "État descriptif <em>de division</em>",
+     "img": "https://static.wixstatic.com/media/675427_e84f76a7f232472aa9c088ab0a17b51a~mv2_d_4189_2783_s_4_2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/675427_e84f76a7f232472aa9c088ab0a17b51a~mv2_d_4189_2783_s_4_2.jpg",
+     "alt": "Porte d'immeuble",
+     "paras": [
+      "L'état descriptif de division décrit l'immeuble (situation, référence cadastrale, contenance) et chacun des lots (numéro, désignation, quote-part des parties communes).",
+      "Il est en général annexé au règlement de copropriété."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Textes",
+       "paras": [
+        "Décret du 17.3.67, articles 2 et 3."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "diagnostic-de-performances-energeti",
+   "label": "DPE",
+   "hidden": true,
+   "title": "Diagnostic de performance énergétique",
+   "eyebrow": "Nos diagnostics immobiliers",
+   "lead": "Valable 10 ans.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "diagnostic",
+     "eyebrow": "DPE",
+     "title": "Diagnostic de performance <em>énergétique</em>",
+     "items": [
+      {
+       "title": "Ce qu'il faut savoir",
+       "paras": [
+        "Il doit être effectué à l'initiative du vendeur du logement ou du bailleur, dans tous les logements mis en vente ou en location, excepté ceux destinés à être occupés moins de 4 mois par an.",
+        "Étiquette énergie : de A (inférieure à 51 kilowattheures/m²) à G (supérieure à 450 kilowattheures/m²). Étiquette climat : de A (inférieure à 6 kilos d'équivalent carbone/m²) à G (supérieure à 80 kilos d'équivalent carbone/m²).",
+        "Il décrit le logement et ses équipements, les consommations et leur coût, les émissions de gaz à effet de serre, la part d'énergies renouvelables, le classement et des recommandations. Il est intégré au dossier de diagnostic technique remis à l'acquéreur ou au locataire."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "reglementation",
+     "eyebrow": "Réglementation",
+     "title": "Textes <em>de référence</em>",
+     "tight": true,
+     "items": [
+      {
+       "title": "Validité",
+       "paras": [
+        "10 ans"
+       ]
+      },
+      {
+       "title": "Textes",
+       "paras": [
+        "Articles L134-1 à L134-5 du CCH ; articles L271-4 à L271-6 du CCH ; arrêté du 8 février 2012 modifiant l'arrêté du 15 septembre 2006 et l'arrêté du 3 mai 2007."
+       ]
+      },
+      {
+       "title": "Source",
+       "paras": [
+        "<a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">legifrance.gouv.fr</a>"
+       ],
+       "link": [
+        "Prenez rendez-vous",
+        "#contact"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Cabinet d'expertises EPB, Ibanez Alexandre. Diagnostics immobiliers pour la vente et la location. Déplacement sur tout le département.",
+  "contact": [
+   "<a href=\"tel:+33614402234\">06 14 40 22 34</a>",
+   "<a href=\"mailto:ntvs.secretariat@orange.fr\">ntvs.secretariat@orange.fr</a>",
+   "Du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00"
+  ],
+  "legal": "Cabinet EPB · Ibanez Alexandre · Diagnostics immobiliers",
+  "social": [
+   [
+    "facebook",
+    "https://fb.me/alexandreibanez66"
+   ]
+  ]
+ }
+}
