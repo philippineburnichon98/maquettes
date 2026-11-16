@@ -1,0 +1,174 @@
+{
+ "slug": "dspc-plomberie-d51be0",
+ "title": "DSPC — Dépannage Sanitaire Plomberie Chauffage, artisan plombier en région toulousaine",
+ "description": "DSPC, Dépannage Sanitaire Plomberie Chauffage : artisan plombier en région toulousaine. Dépannage, installation, maintenance, réparation, remplacement, débouchage. Déplacement et devis gratuits la première fois.",
+ "brand": "DSPC",
+ "monogram": "DS",
+ "tagline": "Plomberie · Chauffage",
+ "theme": {
+  "look": "split",
+  "paper": "#f5f7fa",
+  "paper2": "#e4eaf1",
+  "ink": "#142233",
+  "muted": "#566476",
+  "accent": "#1c63b8",
+  "accent2": "#164f94",
+  "gold": "#e2893a",
+  "heroem": "#9cc7f5",
+  "serif": "\"Barlow Condensed\",Arial Narrow,sans-serif",
+  "sans": "\"Barlow\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Service de plomberie · Région toulousaine",
+  "Appelez : <a href=\"tel:+33677536726\">06 77 53 67 26</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [
+  [
+   "services",
+   "Services"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "eyebrow": "Artisan plombier · Région toulousaine",
+  "title": "Dépannage Sanitaire <em>Plomberie Chauffage</em>",
+  "lead": "Service de plomberie en région toulousaine. Déplacement et devis gratuits la première fois.",
+  "cta1": [
+   "Me contacter",
+   "#contact"
+  ],
+  "cta2": [
+   "06 77 53 67 26",
+   "tel:+33677536726"
+  ]
+ },
+ "figures": [
+  [
+   "6",
+   "services proposés"
+  ],
+  [
+   "1re",
+   "fois : déplacement et devis gratuits"
+  ],
+  [
+   "31",
+   "Toulouse et sa région"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Les services proposés",
+   "title": "Plomberie, sanitaire, <em>chauffage</em>",
+   "lead": "Déplacement et devis gratuit la première fois.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/722240_129d2fcc909e489f8ff5bb34c54b29a0~mv2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/722240_129d2fcc909e489f8ff5bb34c54b29a0~mv2.jpg",
+     "alt": "DSPC, artisan plombier",
+     "title": "Dépannage et installation",
+     "list": [
+      "Dépannage",
+      "Installation",
+      "Maintenance"
+     ]
+    },
+    {
+     "title": "Réparation et remplacement",
+     "list": [
+      "Réparation",
+      "Remplacement",
+      "Débouchage"
+     ],
+     "link": [
+      "Demander un rendez-vous",
+      "#contact"
+     ]
+    }
+   ],
+   "chips": [
+    "Dépannage",
+    "Installation",
+    "Maintenance",
+    "Réparation",
+    "Remplacement",
+    "Débouchage"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Une question, <em>un rendez-vous ?</em>",
+   "lead": "Vous avez une question, une demande de rendez-vous. N'hésitez pas à me contacter.",
+   "side": [
+    "Tél : <a href=\"tel:+33677536726\">06 77 53 67 26</a>",
+    "<a href=\"mailto:entreprise.dspc@gmail.com\">entreprise.dspc@gmail.com</a>",
+    "Région toulousaine"
+   ],
+   "email": "entreprise.dspc@gmail.com",
+   "subject": "Demande depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Coordonnées",
+   "title": "DSPC, <em>région toulousaine</em>",
+   "text": "Service de plomberie en région toulousaine. Déplacement et devis gratuits la première fois.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33677536726\">06 77 53 67 26</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:entreprise.dspc@gmail.com\">entreprise.dspc@gmail.com</a>"
+    ],
+    [
+     "Secteur",
+     "Toulouse et sa région"
+    ]
+   ],
+   "cta": [
+    "Appeler",
+    "tel:+33677536726"
+   ]
+  }
+ ],
+ "footer": {
+  "about": "DSPC - Dépannage Sanitaire Plomberie Chauffage. Artisan plombier, service de plomberie en région toulousaine.",
+  "contact": [
+   "<a href=\"tel:+33677536726\">06 77 53 67 26</a>",
+   "<a href=\"mailto:entreprise.dspc@gmail.com\">entreprise.dspc@gmail.com</a>",
+   "Région toulousaine"
+  ],
+  "legal": "DSPC - Dépannage Sanitaire Plomberie Chauffage · Artisan plombier · Région toulousaine"
+ }
+}
