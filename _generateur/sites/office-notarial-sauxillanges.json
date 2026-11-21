@@ -1,0 +1,833 @@
+{
+ "slug": "office-notarial-sauxillanges-d923d6",
+ "title": "Office notarial de Sauxillanges — Maître Laurence Gachon, notaire (Puy-de-Dôme)",
+ "description": "Office notarial de Sauxillanges, Maître Laurence Gachon, notaire associée : famille, immobilier, droit rural, sociétés, collectivités et associations, négociation immobilière. 10 rue d'Aucène, 63490 Sauxillanges.",
+ "brand": "Office notarial de Sauxillanges",
+ "tagline": "Maître Laurence Gachon, notaire",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/635ece_0f84e86064f8476f8812bdf4e978a137~mv2.png",
+  "height": 50,
+  "with_name": true
+ },
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f5f2",
+  "paper2": "#e7e6e0",
+  "ink": "#17202e",
+  "muted": "#5b6371",
+  "accent": "#1f3c68",
+  "accent2": "#172e50",
+  "gold": "#a98b57",
+  "heroem": "#c9d6ec",
+  "serif": "\"Libre Caslon Text\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "10 rue d'Aucène, 63490 Sauxillanges",
+  "<a href=\"tel:+33473717135\">04 73 71 71 35</a>"
+ ],
+ "nav_extra": [
+  [
+   "competences",
+   "Nos compétences",
+   1
+  ]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/635ece_a7c5df1800e84237887ed45b28e14762~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Office notarial · Sauxillanges · Puy-de-Dôme",
+  "title": "On Vous <em>Accompagne</em>",
+  "lead": "Dans l'ensemble de vos démarches : Maître Laurence Gachon et son équipe vous reçoivent dans des locaux de plain-pied, accessibles à tous, avec un parking privé gratuit.",
+  "cta1": [
+   "Nos compétences",
+   "#competences"
+  ],
+  "cta2": [
+   "04 73 71 71 35",
+   "tel:+33473717135"
+  ]
+ },
+ "figures": [
+  [
+   "2017",
+   "reprise de l'étude"
+  ],
+  [
+   "2020",
+   "nouveaux locaux"
+  ],
+  [
+   "5",
+   "domaines de compétence"
+  ],
+  [
+   "PMR",
+   "étude de plain-pied"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "etude",
+   "eyebrow": "L'histoire et la raison d'être de l'étude",
+   "title": "Une étude <em class=\"it\">à votre écoute</em>",
+   "img": "https://static.wixstatic.com/media/635ece_3dea085cda9346b6ae7ef8bd0fc66ffe~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Maître Laurence Gachon",
+   "paras": [
+    "Maître Laurence Gachon a repris l'étude en 2017. Quatre collaborateurs travaillent à ses côtés, sur place.",
+    "En 2020, l'étude s'est installée dans des locaux modernes, de plain-pied et accessibles aux personnes à mobilité réduite. Ses missions se sont élargies, avec une attention particulière portée à la relation de confiance.",
+    "Le notaire conseille, assure la sécurité juridique des actes qu'il reçoit et en garantit la conservation."
+   ],
+   "sign": "Maître Laurence Gachon, notaire associée"
+  },
+  {
+   "kind": "blocks",
+   "id": "competences",
+   "eyebrow": "Nos compétences",
+   "title": "Cinq domaines <em class=\"it\">d'intervention</em>",
+   "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/11062b_29dc83af79ea49ddb07b992486058075~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Droit de la famille",
+     "title": "Droit de la famille",
+     "list": [
+      "Célibataire - Vie de couple - Pacs",
+      "Mariage - Donation entre époux",
+      "Enfant - Adoption - PMA",
+      "Séparation & Divorce",
+      "…"
+     ],
+     "link": [
+      "Voir le détail",
+      "droit-de-la-famille/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/d89881ce831243de888953d5a80ed455.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Droit immobilier",
+     "title": "Droit immobilier",
+     "list": [
+      "Constitutions de servitudes",
+      "Prêts immobiliers",
+      "Licitation",
+      "Échange",
+      "…"
+     ],
+     "link": [
+      "Voir le détail",
+      "droit-immobilier/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/635ece_3c478ce7101b4ca0aa89dbae9167a309~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Droit rural",
+     "title": "Droit rural",
+     "list": [
+      "Les différents baux",
+      "Acquisitions et prêts agricoles",
+      "Installation des jeunes agriculteurs",
+      "Entreprises ou Sociétés",
+      "…"
+     ],
+     "link": [
+      "Voir le détail",
+      "droit-rural/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/11062b_5398b38a0a0046e391d64d01904c5e51~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Droit commercial et des sociétés",
+     "title": "Droit commercial et des sociétés",
+     "list": [
+      "Modification et dissolution",
+      "Fusion et cession",
+      "Constitution",
+      "Vie et suivi administratif",
+      "…"
+     ],
+     "link": [
+      "Voir le détail",
+      "droit-commercial/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/7fa6da7a44d5498d8b66f74b6d2a076b.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Collectivités publiques - Associations",
+     "title": "Collectivités publiques - Associations",
+     "list": [
+      "Donations",
+      "Statuts d'associations",
+      "Échanges",
+      "Baux",
+      "…"
+     ],
+     "link": [
+      "Voir le détail",
+      "collectivites-associations/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "team",
+   "id": "equipe",
+   "eyebrow": "Une équipe formée et disponible",
+   "title": "L'équipe <em class=\"it\">de l'étude</em>",
+   "img": "https://static.wixstatic.com/media/635ece_5d421b277273475895795788ec7741f4~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "alt": "L'équipe de l'étude",
+   "people": [
+    {
+     "name": "Maître Laurence Gachon",
+     "role": "Notaire associée"
+    },
+    {
+     "name": "Sophie Dietre",
+     "role": "Collaboratrice"
+    },
+    {
+     "name": "Noëmie Balichard",
+     "role": "Collaboratrice"
+    },
+    {
+     "name": "Sophie Juillard",
+     "role": "Collaboratrice"
+    },
+    {
+     "name": "Eric Bossaron",
+     "role": "Comptable"
+    },
+    {
+     "name": "Sarah Hennion",
+     "role": "Négociation immobilière"
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "locaux",
+   "eyebrow": "Des locaux et techniques adaptés",
+   "title": "Moderne, accessible, <em class=\"it\">connectée</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/635ece_8eca1651524f4e5cbd6b0f0efab3a152~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Salle de réunion",
+     "title": "Des locaux modernes",
+     "paras": [
+      "Bureaux individuels et salle de réunion."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/635ece_5e191c1bfa2a49c19452cd974a47a9ce~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Entrée de l'étude",
+     "title": "Accessible à tous",
+     "paras": [
+      "Étude de plain-pied, accessible aux personnes à mobilité réduite, avec parking privé gratuit."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/11062b_4338851926274145a7d02229ce6036df~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Visioconférence",
+     "title": "Visioconférence et signature électronique",
+     "paras": [
+      "La démarche zéro papier est encouragée."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/11062b_e8be87316ec146f4b28aaaf531586a34~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Négociation immobilière",
+     "kicker": "Nouveau",
+     "title": "Service immobilier, expertise et négociation",
+     "link": [
+      "Découvrir",
+      "negociation-immobiliere/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact & accès",
+   "title": "10 rue d'Aucène, <em class=\"it\">Sauxillanges</em>",
+   "text": "Étude de plain-pied, accessible aux personnes à mobilité réduite. Parking privé gratuit.",
+   "img": "https://static.wixstatic.com/media/635ece_54f55218aaf04894a5f05c19e0c498ec~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33473717135\">04 73 71 71 35</a>"
+    ],
+    [
+     "Accueil",
+     "<a href=\"mailto:contact.63068@ons.notaires.fr\">contact.63068@ons.notaires.fr</a>"
+    ],
+    [
+     "Immobilier",
+     "<a href=\"mailto:immobilier.63068@ons.notaires.fr\">immobilier.63068@ons.notaires.fr</a>"
+    ],
+    [
+     "Comptabilité",
+     "<a href=\"mailto:comptabilite.63068@ons.notaires.fr\">comptabilite.63068@ons.notaires.fr</a>"
+    ],
+    [
+     "Adresse",
+     "10 rue d'Aucène, 63490 Sauxillanges"
+    ],
+    [
+     "Horaires",
+     "Sur rendez-vous du lundi au vendredi, de 9h à 18h30 · Standard du mardi au vendredi, de 10h à 12h et de 14h à 18h"
+    ]
+   ],
+   "map_q": "10 rue d'Aucène, 63490 Sauxillanges",
+   "cta": [
+    "Appeler l'étude",
+    "tel:+33473717135"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "droit-de-la-famille",
+   "label": "Famille",
+   "title": "Droit de la famille",
+   "eyebrow": "Nos compétences",
+   "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+   "img": "https://static.wixstatic.com/media/11062b_29dc83af79ea49ddb07b992486058075~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "hidden": true,
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Droit de la famille",
+     "title": "Droit de la famille",
+     "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/11062b_29dc83af79ea49ddb07b992486058075~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Célibataire - Vie de couple - Pacs",
+       "title": "Célibataire - Vie de couple - Pacs"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_02621b7145a24e9291132ccb6a942fe2~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Mariage - Donation entre époux",
+       "title": "Mariage - Donation entre époux"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_aad371ad6c424aa498441441569f4925~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Enfant - Adoption - PMA",
+       "title": "Enfant - Adoption - PMA"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_77a662a0ad614db69c52328f6f50b8d0~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Séparation & Divorce",
+       "title": "Séparation & Divorce"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_d0150a0b6f944293a4d00dca7edb364a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Testament",
+       "title": "Testament"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/9d3b051e868142fda136a5101660a4d4.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Succession",
+       "title": "Succession"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_46ee973ca4d64da2a522f8fa92ee54b5~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Conseils patrimoniaux",
+       "title": "Conseils patrimoniaux"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_d990b421a0d74b039d90502826ec62f0~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Mandat de Protection Future (MPF)",
+       "title": "Mandat de Protection Future (MPF)"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "rendez-vous",
+     "tight": true,
+     "eyebrow": "Prendre rendez-vous",
+     "title": "L'étude <em class=\"it\">vous reçoit</em>",
+     "lead": "Sur rendez-vous du lundi au vendredi, de 9h à 18h30 · Standard du mardi au vendredi, de 10h à 12h et de 14h à 18h.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Contact & accès</a> &nbsp; <a class=\"btn\" href=\"tel:+33473717135\">04 73 71 71 35</a>"
+    }
+   ]
+  },
+  {
+   "slug": "droit-immobilier",
+   "label": "Immobilier",
+   "title": "Droit immobilier",
+   "eyebrow": "Nos compétences",
+   "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+   "img": "https://static.wixstatic.com/media/d89881ce831243de888953d5a80ed455.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "hidden": true,
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Droit immobilier",
+     "title": "Droit immobilier",
+     "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/d89881ce831243de888953d5a80ed455.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Constitutions de servitudes",
+       "title": "Constitutions de servitudes"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_b909db28fbd046f1a9f87d4e421a314b~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Prêts immobiliers",
+       "title": "Prêts immobiliers"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_e526ee1241284700b669b8575b973e4e~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Licitation",
+       "title": "Licitation"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_52cf1366c49a4bf193482fedb827b6c5~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Échange",
+       "title": "Échange"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_c05b5bb4f24e43b9a52fbca6c590f805~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Baux",
+       "title": "Baux"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_9161041f55f645468f0c8f7b7f27e967~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Évaluation / Expertise / Négociation",
+       "title": "Évaluation / Expertise / Négociation"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_4b8edd3bc77a435c87717e5bf2d506c1~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Achat / Vente",
+       "title": "Achat / Vente"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "rendez-vous",
+     "tight": true,
+     "eyebrow": "Prendre rendez-vous",
+     "title": "L'étude <em class=\"it\">vous reçoit</em>",
+     "lead": "Sur rendez-vous du lundi au vendredi, de 9h à 18h30 · Standard du mardi au vendredi, de 10h à 12h et de 14h à 18h.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Contact & accès</a> &nbsp; <a class=\"btn\" href=\"tel:+33473717135\">04 73 71 71 35</a>"
+    }
+   ]
+  },
+  {
+   "slug": "droit-rural",
+   "label": "Rural",
+   "title": "Droit rural",
+   "eyebrow": "Nos compétences",
+   "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+   "img": "https://static.wixstatic.com/media/635ece_3c478ce7101b4ca0aa89dbae9167a309~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "hidden": true,
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Droit rural",
+     "title": "Droit rural",
+     "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/635ece_3c478ce7101b4ca0aa89dbae9167a309~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Les différents baux",
+       "title": "Les différents baux"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_4ff601c77fe048dfbde971ec5f8d09ad~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Acquisitions et prêts agricoles",
+       "title": "Acquisitions et prêts agricoles"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_93d17172ffd14d4b96d14246d5103baf~mv2_d_5700_3804_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Installation des jeunes agriculteurs",
+       "title": "Installation des jeunes agriculteurs"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_82d03c64b1414ccdb3cbaf145d5e9031~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Entreprises ou Sociétés",
+       "title": "Entreprises ou Sociétés"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_47cfc9188a7d406284cdaed524a5befe~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Retraite, transmission et Pacte Dutreil",
+       "title": "Retraite, transmission et Pacte Dutreil"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/6512ef534eab4b53a897dc0c0c8446bc.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Droit forestier et création de groupements",
+       "title": "Droit forestier et création de groupements"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "rendez-vous",
+     "tight": true,
+     "eyebrow": "Prendre rendez-vous",
+     "title": "L'étude <em class=\"it\">vous reçoit</em>",
+     "lead": "Sur rendez-vous du lundi au vendredi, de 9h à 18h30 · Standard du mardi au vendredi, de 10h à 12h et de 14h à 18h.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Contact & accès</a> &nbsp; <a class=\"btn\" href=\"tel:+33473717135\">04 73 71 71 35</a>"
+    }
+   ]
+  },
+  {
+   "slug": "droit-commercial",
+   "label": "Sociétés",
+   "title": "Droit commercial et des sociétés",
+   "eyebrow": "Nos compétences",
+   "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+   "img": "https://static.wixstatic.com/media/11062b_5398b38a0a0046e391d64d01904c5e51~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "hidden": true,
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Droit commercial et des sociétés",
+     "title": "Droit commercial et des sociétés",
+     "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/11062b_5398b38a0a0046e391d64d01904c5e51~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Modification et dissolution",
+       "title": "Modification et dissolution"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/c1f59683d2b04df8e9d36e47d7e7e795.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Fusion et cession",
+       "title": "Fusion et cession"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_8892e230ebdc44baa5370fd00078a5f2~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Constitution",
+       "title": "Constitution"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_a08e2a290da745ce8181d333cfa32ee6~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Vie et suivi administratif",
+       "title": "Vie et suivi administratif"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_d3318dd21f604338bda270908a0d9d77~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Déclaration d'insaisissabilité",
+       "title": "Déclaration d'insaisissabilité"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_99627a9f9e7f4f5b9078719aa3e11471~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Entreprises ou sociétés",
+       "title": "Entreprises ou sociétés"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_192099ab9b11408e9bb374ee08b8e6ac~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Fonds de commerce",
+       "title": "Fonds de commerce"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "rendez-vous",
+     "tight": true,
+     "eyebrow": "Prendre rendez-vous",
+     "title": "L'étude <em class=\"it\">vous reçoit</em>",
+     "lead": "Sur rendez-vous du lundi au vendredi, de 9h à 18h30 · Standard du mardi au vendredi, de 10h à 12h et de 14h à 18h.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Contact & accès</a> &nbsp; <a class=\"btn\" href=\"tel:+33473717135\">04 73 71 71 35</a>"
+    }
+   ]
+  },
+  {
+   "slug": "collectivites-associations",
+   "label": "Collectivités",
+   "title": "Collectivités publiques - Associations",
+   "eyebrow": "Nos compétences",
+   "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+   "img": "https://static.wixstatic.com/media/7fa6da7a44d5498d8b66f74b6d2a076b.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "hidden": true,
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Collectivités publiques - Associations",
+     "title": "Collectivités publiques <em class=\"it\">– Associations</em>",
+     "lead": "Maître Gachon et son équipe sauront vous conseiller sur l'ensemble de ces sujets.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/7fa6da7a44d5498d8b66f74b6d2a076b.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Donations",
+       "title": "Donations"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_ddb09609a7b04f8f9a9c7cf1ee5d126c~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Statuts d'associations",
+       "title": "Statuts d'associations"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/dac36431e7984c7e861a31343c9821f1.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Échanges",
+       "title": "Échanges"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_33eea77e131642ac94bae5196a89d83d~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Baux",
+       "title": "Baux"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_a79e3e623232455db7dcdebac4da55f2~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Conseils",
+       "title": "Conseils"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_5e9bae97685d4a559d1f39c1a5a7f5ba~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Ventes",
+       "title": "Ventes"
+      },
+      {
+       "img": "https://static.wixstatic.com/media/11062b_d72f95aa1c5148f39e2fb6b5b1ddaae1~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Legs",
+       "title": "Legs"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "rendez-vous",
+     "tight": true,
+     "eyebrow": "Prendre rendez-vous",
+     "title": "L'étude <em class=\"it\">vous reçoit</em>",
+     "lead": "Sur rendez-vous du lundi au vendredi, de 9h à 18h30 · Standard du mardi au vendredi, de 10h à 12h et de 14h à 18h.",
+     "note": "<a class=\"btn solid\" href=\"../contact/\">Contact & accès</a> &nbsp; <a class=\"btn\" href=\"tel:+33473717135\">04 73 71 71 35</a>"
+    }
+   ]
+  },
+  {
+   "slug": "negociation-immobiliere",
+   "label": "Négociation immobilière",
+   "title": "Négociation immobilière",
+   "eyebrow": "Service immobilier, expertise et négociation",
+   "lead": "L'étude vous accompagne dans l'estimation et la vente de vos biens.",
+   "img": "https://static.wixstatic.com/media/11062b_e8be87316ec146f4b28aaaf531586a34~mv2.jpeg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "negociation",
+     "eyebrow": "Nouveau",
+     "title": "Estimer et vendre <em class=\"it\">avec votre notaire</em>",
+     "img": "https://static.wixstatic.com/media/11062b_e8be87316ec146f4b28aaaf531586a34~mv2.jpeg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Négociation immobilière",
+     "paras": [
+      "Le service immobilier de l'étude vous accompagne pour l'estimation et la vente de vos biens.",
+      "Votre interlocutrice : <b>Sarah Hennion</b>, <a href=\"mailto:immobilier.63068@ons.notaires.fr\">immobilier.63068@ons.notaires.fr</a>, <a href=\"tel:+33780594939\">07 80 59 49 39</a>.",
+      "Tarifs des émoluments de négociation : sur demande auprès de l'étude."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "annonces",
+     "tight": true,
+     "eyebrow": "Nos annonces",
+     "title": "Les biens <em class=\"it\">à vendre</em>",
+     "lead": "Retrouvez les biens proposés par l'étude sur immonot.",
+     "note": "<a class=\"btn solid\" href=\"https://www.immonot.com/annuaire-notaires-sauxillanges/0000013358/notaire-office-notarial-de-sauxillanges.html\" target=\"_blank\" rel=\"noopener\">Voir les annonces</a>"
+    }
+   ]
+  },
+  {
+   "slug": "informations-pratiques",
+   "label": "Informations pratiques",
+   "title": "Informations pratiques",
+   "eyebrow": "Honoraires · Liens utiles",
+   "lead": "Honoraires de l'étude et outils utiles pour préparer votre dossier.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "honoraires",
+     "eyebrow": "Honoraires",
+     "title": "Honoraires libres <em class=\"it\">applicables</em>",
+     "lead": "Convention d'honoraires : le tableau des honoraires libres applicables est consultable auprès de l'étude.",
+     "note": "<a class=\"btn\" href=\"https://laurencegachon70.wixsite.com/monsite/tarifs\" target=\"_blank\" rel=\"noopener\">Consulter le tableau des honoraires</a>"
+    },
+    {
+     "kind": "blocks",
+     "id": "liens-utiles",
+     "eyebrow": "Liens et informations utiles",
+     "title": "Simulateurs <em class=\"it\">et outils</em>",
+     "items": [
+      {
+       "title": "Simulateur des droits de succession",
+       "link": [
+        "service-public.fr",
+        "https://www.service-public.fr/simulateur/calcul/droits-succession#main"
+       ]
+      },
+      {
+       "title": "Simulateur de plus-value immobilière",
+       "link": [
+        "plus-values.notaires.fr",
+        "http://plus-values.notaires.fr/simulateur/index.xhtml"
+       ]
+      },
+      {
+       "title": "Cadastre",
+       "link": [
+        "cadastre.gouv.fr",
+        "https://www.cadastre.gouv.fr/scpc/accueil.do"
+       ]
+      },
+      {
+       "title": "Géoportail de l'urbanisme",
+       "link": [
+        "geoportail-urbanisme.gouv.fr",
+        "https://www.geoportail-urbanisme.gouv.fr/"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_de25dd85cbc54fd18f0b88f02cdc30aa~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "contain": true,
+       "alt": "Barème fiscal usufruit et nue-propriété",
+       "title": "Barème fiscal usufruit / nue-propriété",
+       "link": [
+        "service-public.fr",
+        "https://www.service-public.fr/simulateur/calcul/bareme-fiscal-usufruit/particuliers"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/635ece_5e4121fe41454da0b1169b04e9233642~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "contain": true,
+       "alt": "Taxation des contrats d'assurance-vie",
+       "title": "Recherche de contrats d'assurance-vie",
+       "link": [
+        "agira-vie.fr",
+        "https://www.agira-vie.fr/assurance-vie/"
+       ]
+      },
+      {
+       "title": "Calcul des frais d'achat",
+       "link": [
+        "notaires.fr",
+        "https://paris.notaires.fr/fr/outils-et-services/calcul-de-frais-d-achat"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact-acces",
+   "label": "Contact & accès",
+   "title": "Contact & accès",
+   "eyebrow": "Office notarial de Sauxillanges",
+   "lead": "Lundi au vendredi, de 9h à 18h30, sur rendez-vous.",
+   "img": "https://static.wixstatic.com/media/635ece_54f55218aaf04894a5f05c19e0c498ec~mv2.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact & accès",
+     "title": "10 rue d'Aucène, <em class=\"it\">Sauxillanges</em>",
+     "text": "Étude de plain-pied, accessible aux personnes à mobilité réduite. Parking privé gratuit.",
+     "img": "https://static.wixstatic.com/media/635ece_54f55218aaf04894a5f05c19e0c498ec~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33473717135\">04 73 71 71 35</a>"
+      ],
+      [
+       "Accueil",
+       "<a href=\"mailto:contact.63068@ons.notaires.fr\">contact.63068@ons.notaires.fr</a>"
+      ],
+      [
+       "Immobilier",
+       "<a href=\"mailto:immobilier.63068@ons.notaires.fr\">immobilier.63068@ons.notaires.fr</a>"
+      ],
+      [
+       "Comptabilité",
+       "<a href=\"mailto:comptabilite.63068@ons.notaires.fr\">comptabilite.63068@ons.notaires.fr</a>"
+      ],
+      [
+       "Adresse",
+       "10 rue d'Aucène, 63490 Sauxillanges"
+      ],
+      [
+       "Horaires",
+       "Sur rendez-vous du lundi au vendredi, de 9h à 18h30 · Standard du mardi au vendredi, de 10h à 12h et de 14h à 18h"
+      ]
+     ],
+     "map_q": "10 rue d'Aucène, 63490 Sauxillanges",
+     "cta": [
+      "Appeler l'étude",
+      "tel:+33473717135"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Nous écrire",
+     "title": "Une question, <em class=\"it\">un rendez-vous</em>",
+     "side": [
+      "Tél : <a href=\"tel:+33473717135\">04 73 71 71 35</a>",
+      "<a href=\"mailto:contact.63068@ons.notaires.fr\">contact.63068@ons.notaires.fr</a>",
+      "10 rue d'Aucène, 63490 Sauxillanges"
+     ],
+     "email": "contact.63068@ons.notaires.fr",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Prénom"
+      },
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Objet",
+       "full": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "SELAS Office notarial de Sauxillanges, Maître Laurence Gachon, notaire associée. RCS Clermont-Ferrand 830 493 821.",
+  "contact": [
+   "<a href=\"tel:+33473717135\">04 73 71 71 35</a>",
+   "<a href=\"mailto:contact.63068@ons.notaires.fr\">contact.63068@ons.notaires.fr</a>",
+   "10 rue d'Aucène, 63490 Sauxillanges",
+   "Sur rendez-vous, du lundi au vendredi, 9h – 18h30"
+  ],
+  "legal": "Notaire, officier public · Office notarial de Sauxillanges",
+  "legal_url": "https://laurencegachon70.wixsite.com/monsite/mentions-l%C3%A9gales"
+ }
+}
