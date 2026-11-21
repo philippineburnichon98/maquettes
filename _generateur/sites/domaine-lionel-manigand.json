@@ -1,0 +1,664 @@
+{
+ "slug": "domaine-lionel-manigand-ea5a8e",
+ "title": "Domaine Lionel Manigand — vigneron à Saint-Lager : Côte de Brouilly et Morgon",
+ "description": "Domaine Lionel Manigand, 848 montée de la Chapelle à Saint-Lager : trois générations de vignerons, Côte de Brouilly et Morgon, vendanges manuelles, label Haute Valeur Environnementale.",
+ "brand": "Domaine Lionel Manigand",
+ "monogram": "LM",
+ "tagline": "Vigneron à Saint-Lager",
+ "agegate": true,
+ "theme": {
+  "look": "editorial",
+  "paper": "#f7f2ec",
+  "paper2": "#ede3d7",
+  "ink": "#211618",
+  "muted": "#6d5f61",
+  "accent": "#6e1f2e",
+  "accent2": "#561724",
+  "gold": "#a8864d",
+  "heroem": "#efc9a5",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Mulish\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Mulish:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Côte de Brouilly · Morgon",
+  "<a href=\"tel:+33474668497\">04 74 66 84 97</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/4bb5c4_3b5f30ba92ab47d7abac911a6f7fdd54.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Côte de Brouilly · Morgon · Saint-Lager",
+  "title": "Des vins uniques, <em>subtils et généreux</em>",
+  "lead": "À 50 km au nord de Lyon, trois générations de savoir-faire au pied du Mont Brouilly.",
+  "cta1": [
+   "Découvrir nos vins",
+   "vins/"
+  ],
+  "cta2": [
+   "E-boutique",
+   "https://www.vins-du-beaujolais.com/domaine/manigand69220/"
+  ]
+ },
+ "figures": [
+  [
+   "3",
+   "générations de vignerons"
+  ],
+  [
+   "~10 ha",
+   "de vignes"
+  ],
+  [
+   "60 ans",
+   "l'âge moyen des vignes"
+  ],
+  [
+   "1854",
+   "la chapelle Notre-Dame aux Raisins"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Le Domaine",
+   "title": "Trois générations <em class=\"it\">de savoir-faire</em>",
+   "img": "https://static.wixstatic.com/media/4bb5c4_14072541a7f24547a8abdb76925b4031.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Lionel Manigand",
+   "paras": [
+    "Situé à 50 km au nord de Lyon, le domaine perpétue un savoir-faire transmis depuis trois générations, pour des vins uniques, subtils et généreux.",
+    "Venez visiter le domaine : merci de nous prévenir avant votre venue."
+   ],
+   "sign": "Lionel Manigand",
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/4bb5c4_dc54ea42a4334e22abd2a0455382fcf6~mv2.png",
+     "Haute Valeur Environnementale"
+    ],
+    [
+     "https://static.wixstatic.com/media/4bb5c4_e180477568f541aca0f0227d12b1c0c2~mv2.png",
+     "Avec le soutien régional"
+    ],
+    [
+     "https://static.wixstatic.com/media/4bb5c4_a518f2ce928b403a93d25d10e668f86c~mv2.png",
+     "Côte de Brouilly, Morgon, Moulin-à-Vent"
+    ],
+    [
+     "https://static.wixstatic.com/media/4bb5c4_57dbd78277584bd087f0464d387955c5~mv2.png",
+     "Domaine Lionel Manigand"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "appellations",
+   "eyebrow": "Nos appellations",
+   "title": "Côte de Brouilly <em class=\"it\">& Morgon</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/4bb5c4_548180a7207d4bec9dffb42b75d91175.jpg/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+     "alt": "Aurore beaujolaise",
+     "title": "Côte de Brouilly",
+     "paras": [
+      "L'appellation s'étend sur quatre communes : Cercié, Odenas, Quincié-en-Beaujolais et Saint-Lager, sur les pentes du Mont Brouilly (484 m), couronné par la chapelle Notre-Dame aux Raisins, construite en 1854.",
+      "Ses sols de « pierres bleues » sont d'origine volcanique."
+     ],
+     "link": [
+      "En savoir plus",
+      "a-propos/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/4bb5c4_4073e149931a4e73842dbe3658873af2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+     "alt": "Scène de vendanges",
+     "title": "Morgon",
+     "paras": [
+      "L'appellation est produite exclusivement sur la commune de Villié-Morgon, dont elle couvre 60 % du territoire, entre 220 et 520 m d'altitude.",
+      "Sur un sol de granit désagrégé, le « gore », naissent des vins aux arômes de fruits rouges."
+     ],
+     "link": [
+      "Nos vins",
+      "vins/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "images",
+   "eyebrow": "Le domaine en images",
+   "title": "Au fil <em class=\"it\">des saisons</em>",
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/4bb5c4_44d43fd995b84454a5c72e1072e76f9e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/4bb5c4_44d43fd995b84454a5c72e1072e76f9e.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Gamay noir à jus blanc",
+     "caption": "Gamay noir à jus blanc"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/4bb5c4_6471a7308d38497f86cc95cbf50a1edf.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/4bb5c4_6471a7308d38497f86cc95cbf50a1edf.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Tri manuel de la vendange",
+     "caption": "Tri manuel de la vendange"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/4bb5c4_3b5f30ba92ab47d7abac911a6f7fdd54.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/4bb5c4_3b5f30ba92ab47d7abac911a6f7fdd54.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Lever de soleil sur Saint-Lager",
+     "caption": "Lever de soleil sur Saint-Lager"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/4bb5c4_14072541a7f24547a8abdb76925b4031.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/4bb5c4_14072541a7f24547a8abdb76925b4031.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Lionel Manigand",
+     "caption": "Lionel Manigand"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/4bb5c4_548180a7207d4bec9dffb42b75d91175.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/4bb5c4_548180a7207d4bec9dffb42b75d91175.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Aurore beaujolaise",
+     "caption": "Aurore beaujolaise"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/4bb5c4_4073e149931a4e73842dbe3658873af2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/4bb5c4_4073e149931a4e73842dbe3658873af2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Scène de vendanges",
+     "caption": "Scène de vendanges"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/4bb5c4_90e9f6faafdf4bdeba92e9bf5fdc7441.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/4bb5c4_90e9f6faafdf4bdeba92e9bf5fdc7441.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Le domaine",
+     "caption": "Le domaine"
+    }
+   ],
+   "cta": [
+    "Toute la galerie",
+    "galerie/"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/4bb5c4_f70e830a65fe446185d9dfaaf9ec1964.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "eyebrow": "E-boutique",
+   "title": "Nos vins, <em class=\"it\">livrés chez vous</em>",
+   "cta": [
+    "Commander en ligne",
+    "https://www.vins-du-beaujolais.com/domaine/manigand69220/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Visites",
+   "title": "Venez nous <em class=\"it\">rendre visite</em>",
+   "text": "Venez visiter le domaine et déguster nos vins : merci de nous prévenir avant votre venue.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33474668497\">04 74 66 84 97</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lmanigand@hotmail.fr\">lmanigand@hotmail.fr</a>"
+    ],
+    [
+     "Adresse",
+     "848 montée de la Chapelle, 69220 Saint-Lager"
+    ],
+    [
+     "E-boutique",
+     "<a href=\"https://www.vins-du-beaujolais.com/domaine/manigand69220/\" target=\"_blank\" rel=\"noopener\">vins-du-beaujolais.com</a>"
+    ]
+   ],
+   "map_q": "848 montée de la Chapelle, 69220 Saint-Lager",
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33474668497"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos",
+   "eyebrow": "Déguster un vin est un plaisir, l'élaborer est une passion…",
+   "lead": "Une dizaine d'hectares de vignes d'environ 60 ans, sur un coteau exposé sud-sud-est.",
+   "img": "https://static.wixstatic.com/media/4bb5c4_a3f1784e92b6495b9245cd51ec1af6b1.jpg/v1/fit/w_1400,h_1400,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "exploitation",
+     "eyebrow": "L'exploitation",
+     "title": "C'est ainsi <em class=\"it\">que je travaille…</em>",
+     "img": "https://static.wixstatic.com/media/4bb5c4_1adf0e3a05594107831e8a33d9b116b6.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Les vignes du domaine",
+     "paras": [
+      "Le domaine compte une dizaine d'hectares de vignes âgées d'environ 60 ans, sur un coteau exposé sud-sud-est. Les vendanges sont manuelles et la mise en bouteille se fait entièrement au domaine.",
+      "En 2007, après des études de viticulture, Lionel Manigand succède à son père."
+     ],
+     "logos": [
+      [
+       "https://static.wixstatic.com/media/4bb5c4_dc54ea42a4334e22abd2a0455382fcf6~mv2.png",
+       "Haute Valeur Environnementale"
+      ]
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "vignoble",
+     "eyebrow": "Le vignoble",
+     "title": "Un seul cépage, <em class=\"it\">le gamay</em>",
+     "img": "https://static.wixstatic.com/media/4bb5c4_48dd24ab33db4dc3b1c8ce9c29adeb6b.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Jeune greffe prometteuse",
+     "paras": [
+      "Les dix crus du Beaujolais naissent d'un seul cépage, le gamay noir à jus blanc, présent ici depuis le XVIIe siècle. 70 % des 36 000 hectares de gamay plantés dans le monde le sont en Beaujolais."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "vinification",
+     "eyebrow": "La vinification",
+     "title": "Macération <em class=\"it\">semi-carbonique</em>",
+     "img": "https://static.wixstatic.com/media/4bb5c4_a3bc5b0ced874ee395e3ce0e06038244.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Au cuvage",
+     "paras": [
+      "Vinification en macération semi-carbonique : la fermentation intracellulaire, puis des cuvaisons de 8 à 12 jours. L'élevage se fait en cuves, en foudres et, pour certaines cuvées, en fûts de chêne."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "philosophie",
+   "label": "Notre philosophie",
+   "title": "Notre philosophie",
+   "eyebrow": "La conduite de la vigne",
+   "lead": "De la taille aux vendanges : le cycle de la vigne au domaine.",
+   "img": "https://static.wixstatic.com/media/4bb5c4_6f27b6404ad04942a2bb9952f97384ac.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "cycle",
+     "eyebrow": "Au fil de l'année",
+     "title": "La vigne, <em class=\"it\">étape par étape</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_8af30016b5894492be9c6bad1158be44.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "La taille",
+       "paras": [
+        "De mi-novembre à fin mars, taille en gobelet : 4 à 5 porteurs à 2 yeux."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_588eb51917ae4ba59c25f2360cd6aad0.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Le griffage",
+       "paras": [
+        "Le sol est griffé pour limiter l'usage des herbicides."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_8624b061ac1b40fbbbcab1d576a34f61.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Le broyage",
+       "paras": [
+        "Les sarments sont broyés."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_6ab9965fd9f04115b74c6365bad7264d.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Rebrochage et ébourgeonnage",
+       "paras": [
+        "Rebrochage, puis ébourgeonnage de la vigne."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_5c8e872389f94485af4213a90bda6469.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "La protection",
+       "paras": [
+        "Protection contre l'oïdium et le mildiou, avec un technicien : on ne traite que si c'est nécessaire."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_9b9a7929130e4f45a59dc63bd6909472.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Les vendanges",
+       "paras": [
+        "Les vendanges sont manuelles."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_48fdb09766ae46f887e16655f528e443.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Le relevage",
+       "paras": [
+        "Relevage de la végétation."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/4bb5c4_1adf0e3a05594107831e8a33d9b116b6.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "title": "Le rognage",
+       "paras": [
+        "Rognage de la vigne."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vins",
+   "label": "Nos vins",
+   "title": "Nos vins",
+   "eyebrow": "Vins / Wines",
+   "lead": "Coup de Foudre, Sous le Charme, Côte à Côte et Éclosion : nos cuvées de Côte de Brouilly et de Morgon.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "cuvees",
+     "eyebrow": "Vins / Wines",
+     "title": "Quatre cuvées, <em class=\"it\">une histoire de famille</em>",
+     "lead": "Le nom de nos cuvées est tiré de notre histoire : il a eu le coup de foudre, elle est tombée sous le charme, ils avancent dorénavant côte à côte… et Éclosion est dédiée à notre fille, Sharon.",
+     "items": [
+      {
+       "name": "Coup de Foudre",
+       "app": "Côte de Brouilly",
+       "img": "https://static.wixstatic.com/media/4bb5c4_06dfa2f11e88486ba1f75490e4d69480~mv2_d_1417_4134_s_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "color": "#6e1f2e",
+       "desc": "Élevé un an dans un foudre, grande cuve en bois héritée du grand-père : sans arôme boisé, l'oxygénation lente arrondit les tanins.",
+       "sheet": [
+        [
+         "Élevage",
+         "Un an en foudre"
+        ],
+        [
+         "Accords",
+         "Viandes grillées, fromages, desserts au chocolat"
+        ]
+       ],
+       "link": [
+        "Commander sur l'e-boutique",
+        "https://www.vins-du-beaujolais.com/domaine/manigand69220/"
+       ]
+      },
+      {
+       "name": "Sous le Charme",
+       "app": "Morgon · climat « Les Charmes »",
+       "img": "https://static.wixstatic.com/media/4bb5c4_46c016c0b5da4f36b06db3e1dda9aee5~mv2_d_1417_4134_s_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "color": "#5a1a29",
+       "desc": "Parcelle orientée sud-est à 400 m, sur arènes granitiques. Un vin très parfumé et rond, qui gagne avec les années.",
+       "sheet": [
+        [
+         "Terroir",
+         "Arènes granitiques, 400 m"
+        ],
+        [
+         "Accords",
+         "Terrines, gibiers, viandes en sauce, fromages affinés"
+        ]
+       ],
+       "link": [
+        "Commander sur l'e-boutique",
+        "https://www.vins-du-beaujolais.com/domaine/manigand69220/"
+       ]
+      },
+      {
+       "name": "Côte à Côte",
+       "app": "AOP Côte-de-Brouilly",
+       "img": "https://static.wixstatic.com/media/4bb5c4_39162c67eae04833a65465e4d18f837b~mv2_d_1417_4134_s_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "color": "#7a2335",
+       "desc": "Sur les sols de « pierre bleue de Brouilly » : arômes de fruits rouges et d'épices, robe intense.",
+       "sheet": [
+        [
+         "Terroir",
+         "Pierre bleue de Brouilly"
+        ],
+        [
+         "Accords",
+         "À l'apéritif, avec charcuteries et tapas"
+        ]
+       ],
+       "link": [
+        "Commander sur l'e-boutique",
+        "https://www.vins-du-beaujolais.com/domaine/manigand69220/"
+       ]
+      },
+      {
+       "name": "Éclosion",
+       "app": "Colline de Brouilly",
+       "img": "https://static.wixstatic.com/media/4bb5c4_88f20d0507a6455a9c10e5bde9c9d9a4~mv2_d_1417_4134_s_2.jpg/v1/fit/w_1000,h_1000,al_c,q_85/img.jpg",
+       "color": "#4d1622",
+       "desc": "Dédiée à notre fille Sharon. Vignes sur les sols volcaniques de la colline de Brouilly, élevage patient en différents fûts de chêne, puis assemblage : arômes légèrement toastés et épicés, fraîcheur et notes de réglisse en fin de bouche.",
+       "sheet": [
+        [
+         "Élevage",
+         "Différents fûts de chêne, assemblage"
+        ]
+       ],
+       "link": [
+        "Commander sur l'e-boutique",
+        "https://www.vins-du-beaujolais.com/domaine/manigand69220/"
+       ]
+      }
+     ],
+     "note": "Pour tous renseignements tarifaires : bouteilles 75 cl, magnums 150 cl, bag-in-box 5 l ou 10 l. Contactez-nous."
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/4bb5c4_f70e830a65fe446185d9dfaaf9ec1964.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "E-boutique",
+     "title": "Commandez <em class=\"it\">nos vins</em>",
+     "cta": [
+      "Aller sur l'e-boutique",
+      "https://www.vins-du-beaujolais.com/domaine/manigand69220/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "galerie",
+   "label": "Galerie",
+   "title": "Galerie",
+   "eyebrow": "Le domaine en images",
+   "lead": "Les vignes, les vendanges et le cuvage.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "galerie",
+     "eyebrow": "Galerie",
+     "title": "De la vigne <em class=\"it\">au cuvage</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_548180a7207d4bec9dffb42b75d91175.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_548180a7207d4bec9dffb42b75d91175.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_9b9a7929130e4f45a59dc63bd6909472.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_9b9a7929130e4f45a59dc63bd6909472.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Les cisaillages",
+       "caption": "Les cisaillages"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_9e551dbecdba4bcb94d4fb44f1166d9c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_9e551dbecdba4bcb94d4fb44f1166d9c.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_66237b1b619a47538e9553fe5419c2db.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_66237b1b619a47538e9553fe5419c2db.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_2341c85265ba4dcda752e1c22a33fde6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_2341c85265ba4dcda752e1c22a33fde6.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_1adf0e3a05594107831e8a33d9b116b6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_1adf0e3a05594107831e8a33d9b116b6.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_4073e149931a4e73842dbe3658873af2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_4073e149931a4e73842dbe3658873af2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_70e64c5c4dc448c785dbd292bb382f55.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_70e64c5c4dc448c785dbd292bb382f55.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Serpettes",
+       "caption": "Serpettes"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_caa5f6eeed5241b68bda149b6204a8fd.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_caa5f6eeed5241b68bda149b6204a8fd.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Arrivage de la vendange au cuvage",
+       "caption": "Arrivage de la vendange au cuvage"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_6471a7308d38497f86cc95cbf50a1edf.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_6471a7308d38497f86cc95cbf50a1edf.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_d4789f505bc94f4cb23a76ff060b7b85.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_d4789f505bc94f4cb23a76ff060b7b85.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Encuvage",
+       "caption": "Encuvage"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_d9417a3845af42c9b856c4ec93d16f2f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_d9417a3845af42c9b856c4ec93d16f2f.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Vendange égrappée",
+       "caption": "Vendange égrappée"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_a3bc5b0ced874ee395e3ce0e06038244.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_a3bc5b0ced874ee395e3ce0e06038244.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_f223d74a03204fe8b04ca1a52844916e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_f223d74a03204fe8b04ca1a52844916e.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_f33f7ef5b9d145be96309c57904b9715.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_f33f7ef5b9d145be96309c57904b9715.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_42bb577c1b094d60a676fda6823a7e02.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_42bb577c1b094d60a676fda6823a7e02.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Densités et températures",
+       "caption": "Densités et températures"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_48dd24ab33db4dc3b1c8ce9c29adeb6b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_48dd24ab33db4dc3b1c8ce9c29adeb6b.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/4bb5c4_a3f1784e92b6495b9245cd51ec1af6b1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/4bb5c4_a3f1784e92b6495b9245cd51ec1af6b1.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Domaine Lionel Manigand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Nous contacter",
+   "eyebrow": "Contact",
+   "lead": "Une question, un tarif, une visite : écrivez-nous ou appelez-nous.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Visites",
+     "title": "Venez nous <em class=\"it\">rendre visite</em>",
+     "text": "Venez visiter le domaine et déguster nos vins : merci de nous prévenir avant votre venue.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33474668497\">04 74 66 84 97</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:lmanigand@hotmail.fr\">lmanigand@hotmail.fr</a>"
+      ],
+      [
+       "Adresse",
+       "848 montée de la Chapelle, 69220 Saint-Lager"
+      ],
+      [
+       "E-boutique",
+       "<a href=\"https://www.vins-du-beaujolais.com/domaine/manigand69220/\" target=\"_blank\" rel=\"noopener\">vins-du-beaujolais.com</a>"
+      ]
+     ],
+     "map_q": "848 montée de la Chapelle, 69220 Saint-Lager",
+     "cta": [
+      "Appeler le domaine",
+      "tel:+33474668497"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Contact",
+     "title": "Écrivez-<em class=\"it\">nous</em>",
+     "lead": "Pour tous renseignements tarifaires : bouteilles 75 cl, magnums 150 cl, bag-in-box 5 l ou 10 l.",
+     "side": [
+      "Tél : <a href=\"tel:+33474668497\">04 74 66 84 97</a>",
+      "<a href=\"mailto:lmanigand@hotmail.fr\">lmanigand@hotmail.fr</a>",
+      "848 montée de la Chapelle, 69220 Saint-Lager"
+     ],
+     "email": "lmanigand@hotmail.fr",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Domaine Lionel Manigand, vigneron à Saint-Lager : Côte de Brouilly et Morgon, trois générations de savoir-faire. Avec le soutien régional.",
+  "contact": [
+   "<a href=\"tel:+33474668497\">04 74 66 84 97</a>",
+   "<a href=\"mailto:lmanigand@hotmail.fr\">lmanigand@hotmail.fr</a>",
+   "848 montée de la Chapelle, 69220 Saint-Lager",
+   "<a href=\"https://www.vins-du-beaujolais.com/domaine/manigand69220/\" target=\"_blank\" rel=\"noopener\">E-boutique</a>"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/domainelionelmanigand/"
+   ]
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
