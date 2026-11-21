@@ -1,0 +1,797 @@
+{
+ "slug": "terra-diag-d0bdca",
+ "title": "Terra Diag — diagnostics immobiliers à Agde (Hérault)",
+ "description": "Terra Diag, entreprise familiale de diagnostics immobiliers à Agde : DPE, amiante, plomb, termites, gaz, électricité, Carrez, Boutin, ERP. Rendez-vous du lundi au samedi, rapport sous 24h, devis gratuit.",
+ "brand": "Terra Diag",
+ "tagline": "Diagnostics immobiliers · Agde",
+ "logo": {
+  "src": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000138-d748bd748f/TERRA%20DIAG-5-3.png?ph=bf1b111c3d",
+  "height": 52
+ },
+ "theme": {
+  "look": "split",
+  "paper": "#f5f6f2",
+  "paper2": "#e5e9df",
+  "ink": "#1b2420",
+  "muted": "#5b6760",
+  "accent": "#2f6b4f",
+  "accent2": "#25553f",
+  "gold": "#c07a3e",
+  "heroem": "#bfe0cd",
+  "serif": "\"Sora\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Du lundi au samedi, 8h30 – 19h30 · Hérault",
+  "<a href=\"tel:+33434456453\">04 34 45 64 53</a>"
+ ],
+ "hero": {
+  "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000006-959979599a/12.jpg?ph=bf1b111c3d",
+  "eyebrow": "Diagnostics immobiliers · Agde · Hérault",
+  "title": "Vendre ou louer <em>en toute sérénité</em>",
+  "lead": "Terra Diag vous accompagne pour identifier et réaliser les diagnostics demandés par votre agent, votre notaire ou votre locataire.",
+  "cta1": [
+   "Obtenir son devis gratuitement",
+   "#devis"
+  ],
+  "cta2": [
+   "04 34 45 64 53",
+   "tel:+33434456453"
+  ]
+ },
+ "figures": [
+  [
+   "24h",
+   "rapport après paiement"
+  ],
+  [
+   "6 j/7",
+   "du lundi au samedi"
+  ],
+  [
+   "5×",
+   "paiement sans frais"
+  ],
+  [
+   "8",
+   "diagnostics réalisés"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "accompagnement",
+   "eyebrow": "Diagnostics immobiliers",
+   "title": "Des obligations légales, <em class=\"it\">un accompagnement</em>",
+   "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000036-acbc8acbca/TERRA%20DIAG-3.png?ph=bf1b111c3d",
+   "alt": "Terra Diag",
+   "paras": [
+    "Pour vendre ou louer un bien, le propriétaire doit respecter des obligations légales. Terra Diag vous accompagne pour identifier et réaliser les diagnostics demandés par l'agent, le notaire ou le locataire.",
+    "Ces diagnostics ont une valeur juridique : ils attestent de la <b>qualité</b> du bien."
+   ]
+  },
+  {
+   "kind": "timeline",
+   "id": "fonctionnement",
+   "eyebrow": "Comment ça fonctionne ?",
+   "title": "On vous explique <em class=\"it\">tout le processus</em>",
+   "items": [
+    {
+     "when": "1",
+     "who": "Contactez-nous",
+     "text": "Nos experts vous renseignent. Vous choisissez une heure de rendez-vous ensemble."
+    },
+    {
+     "when": "2",
+     "who": "Intervention",
+     "text": "Nos experts se chargent de réaliser les diagnostics immobiliers de votre bien."
+    },
+    {
+     "when": "3",
+     "who": "Rapport d'expertise",
+     "text": "Après réception du paiement, vous recevez votre rapport complet en moins de 24h00."
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "dark": true,
+   "eyebrow": "Nos engagements",
+   "title": "Basée à Agde, <em class=\"it\">dans tout l'Hérault</em>",
+   "lead": "Vos diagnostics immobiliers obligatoires, du lundi au samedi de 8h30 à 19h30, avec des tarifs parmi les moins chers du marché.",
+   "items": [
+    [
+     "Déplacement offert",
+     "Frais de déplacement gratuits sur le secteur."
+    ],
+    [
+     "Du lundi au samedi",
+     "Rendez-vous de 8h30 à 19h30."
+    ],
+    [
+     "Paiement facilité",
+     "Jusqu'à 5 fois sans frais."
+    ],
+    [
+     "Un service réactif",
+     "Pour tenir vos délais de signature."
+    ],
+    [
+     "Rapport sous 24h",
+     "Après réception du paiement."
+    ],
+    [
+     "Dépendances offertes",
+     "Sur les terrains de moins de 500 m²."
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "expertise",
+   "eyebrow": "Pourquoi Terra Diag",
+   "title": "Expérience, performance, <em class=\"it\">proximité</em>",
+   "items": [
+    {
+     "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000022-6d4046d407/14.png?ph=bf1b111c3d",
+     "title": "Expérience",
+     "paras": [
+      "L'équipe s'est formée aux diagnostics qui demandent une formation spécifique : termites, amiante, plomb, électricité, gaz, DPE, mesurages Carrez et Boutin."
+     ]
+    },
+    {
+     "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000024-e5d55e5d59/15.png?ph=bf1b111c3d",
+     "title": "La performance à Agde",
+     "paras": [
+      "Réactivité, qualité et un prix juste : nous vous accompagnons de la planification jusqu'à la transaction."
+     ]
+    },
+    {
+     "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000026-6b4d26b4d5/16.png?ph=bf1b111c3d",
+     "title": "Proximité",
+     "paras": [
+      "Situés à Agde, proches de chez vous, nous connaissons les exigences des notaires locaux."
+     ]
+    }
+   ],
+   "chips": [
+    "DPE",
+    "Plomb",
+    "Amiante",
+    "Gaz",
+    "Électricité",
+    "Carrez",
+    "Boutin",
+    "ERP",
+    "Termites"
+   ],
+   "note": "<a class=\"btn solid\" href=\"les-diagnostics/\">Les diagnostics</a>"
+  },
+  {
+   "kind": "banner",
+   "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000038-a9f49a9f4d/TERRA%20DIAG-4.png?ph=bf1b111c3d",
+   "eyebrow": "À Agde, choisissez Terra Diag",
+   "title": "Vos diagnostics <em class=\"it\">dans l'Hérault</em>",
+   "cta": [
+    "Obtenir son devis gratuitement",
+    "#devis"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Devis gratuit",
+   "title": "Obtenir son devis <em class=\"it\">gratuitement</em>",
+   "lead": "Devis gratuit par téléphone ou par e-mail.",
+   "side": [
+    "Tél : <a href=\"tel:+33434456453\">04 34 45 64 53</a>",
+    "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>",
+    "5 rue de la Digue, 34300 Agde",
+    "Du lundi au samedi, de 8h30 à 19h30"
+   ],
+   "email": "contact@terradiag.fr",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Soumettre",
+   "fields": [
+    {
+     "label": "Votre nom et prénom",
+     "required": true
+    },
+    {
+     "label": "Adresse e-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "N° de téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5,
+     "full": true
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Terra Diag",
+   "title": "5 rue de la Digue, <em class=\"it\">Agde</em>",
+   "text": "Entreprise familiale locale, implantée sur le secteur d'Agde, le Bassin de Thau, le biterrois et alentours.",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33434456453\">04 34 45 64 53</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>"
+    ],
+    [
+     "Adresse",
+     "5 rue de la Digue, 34300 Agde"
+    ],
+    [
+     "Rendez-vous",
+     "Du lundi au samedi, de 8h30 à 19h30"
+    ],
+    [
+     "Secteur",
+     "Agde, Bassin de Thau, biterrois et alentours"
+    ]
+   ],
+   "map_q": "5 rue de la Digue, 34300 Agde",
+   "cta": [
+    "Appeler Terra Diag",
+    "tel:+33434456453"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "les-diagnostics",
+   "label": "Les diagnostics",
+   "title": "Les diagnostics",
+   "h1": "Diagnostics obligatoires",
+   "eyebrow": "Selon l'année de construction du bien",
+   "lead": "ERP, termites, DPE, électricité, gaz, Carrez et Boutin, amiante, plomb : à quoi sert chaque diagnostic et combien de temps il est valable.",
+   "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000142-37beb37bef/TERRA%20DIAG.png?ph=bf1b111c3d",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "intro",
+     "eyebrow": "Diagnostics obligatoires",
+     "title": "En fonction de l'année <em class=\"it\">de construction</em>",
+     "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000116-30c4e30c51/20230307_121301.jpg?ph=bf1b111c3d",
+     "alt": "Intervention Terra Diag",
+     "paras": [
+      "Les diagnostics à réaliser dépendent de l'année de construction du bien, de sa situation et du type de transaction. Voici les huit diagnostics réalisés par Terra Diag dans l'Hérault."
+     ],
+     "logos": [
+      [
+       "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000096-3862e38630/Capture%20d%E2%80%99%C3%A9cran%202023-03-06%20142116.png?ph=bf1b111c3d",
+       "Diagnostics immobiliers"
+      ]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d0",
+     "tight": false,
+     "eyebrow": "Validité : 6 mois",
+     "title": "ERP — État des risques et pollutions",
+     "items": [
+      {
+       "paras": [
+        "Obligatoire à la vente et à la location depuis la loi du 30 juillet 2003 : tout propriétaire d'un bien situé en zone de sismicité ou dans un plan de prévention des risques doit en informer l'acheteur ou le locataire.",
+        "Il identifie les risques naturels, miniers et technologiques (inondation, séisme, érosion, bruit…), rattachés à la section cadastrale du bien. Depuis le 1er janvier 2023 : mention de Géorisques, présentation dès la première visite, risque d'érosion et information sur les travaux prescrits."
+       ]
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000112-0a7340a737/Capture%20d%E2%80%99%C3%A9cran%202023-03-06%20144339.png?ph=bf1b111c3d",
+       "alt": "ERP — État des risques et pollutions"
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000114-0020300205/Capture%20d%E2%80%99%C3%A9cran%202023-03-06%20144510.png?ph=bf1b111c3d",
+       "alt": "ERP — État des risques et pollutions"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d1",
+     "tight": true,
+     "eyebrow": "Validité : 6 mois à compter de sa réalisation",
+     "title": "Diagnostic termites",
+     "items": [
+      {
+       "paras": [
+        "Tous les logements mis en vente dans l'Hérault y sont soumis. Inspection visuelle, puis sondages au poinçon des éléments en bois, sans investigation destructive dans les doublages."
+       ]
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000126-ae31cae31e/20230307_123640%20%282%29.jpg?ph=bf1b111c3d",
+       "alt": "Diagnostic termites"
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000090-666a1666a4/Isolation%20.png?ph=bf1b111c3d",
+       "alt": "Diagnostic termites"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d2",
+     "tight": true,
+     "eyebrow": "Validité : 10 ans",
+     "title": "DPE — Diagnostic de performance énergétique",
+     "items": [
+      {
+       "paras": [
+        "Estimation de la consommation énergétique (kWh/m²/an) et des émissions de CO2 (kg/m²/an), notées de A à G, après une visite complète du logement.",
+        "Le DPE donne des recommandations de travaux et peut être exigé pour certaines aides."
+       ]
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000094-1fb3c1fb3f/electricit%C3%A9%202.png?ph=bf1b111c3d",
+       "alt": "DPE — Diagnostic de performance énergétique"
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000066-2566225665/TERRA%20DIAG-3-6.png?ph=bf1b111c3d",
+       "alt": "DPE — Diagnostic de performance énergétique"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d3",
+     "tight": true,
+     "eyebrow": "Validité : 3 ans pour la vente, 6 ans pour la location",
+     "title": "Diagnostic électrique",
+     "items": [
+      {
+       "paras": [
+        "Obligatoire pour les installations de plus de 15 ans : inspection visuelle, contrôle de la mise à la terre et de la liaison équipotentielle, mesures."
+       ]
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000102-5d4a15d4a4/gaz.png?ph=bf1b111c3d",
+       "alt": "Diagnostic électrique"
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000100-2156d2156f/Capture%20d%E2%80%99%C3%A9cran%202023-03-06%20142757.png?ph=bf1b111c3d",
+       "alt": "Diagnostic électrique"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d4",
+     "tight": true,
+     "eyebrow": "Validité : 3 ans pour la vente, 6 ans pour la location",
+     "title": "Diagnostic gaz",
+     "items": [
+      {
+       "paras": [
+        "Obligatoire pour les installations de plus de 15 ans : inspection des appareils, de l'étanchéité, de la ventilation, des pressions et des débits."
+       ]
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000120-295a4295a6/carez.png?ph=bf1b111c3d",
+       "alt": "Diagnostic gaz"
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000118-f132ef1331/Capture%20d%E2%80%99%C3%A9cran%202023-03-07%20121716.png?ph=bf1b111c3d",
+       "alt": "Diagnostic gaz"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d5",
+     "tight": true,
+     "eyebrow": "Validité : tant que le bien n'évolue pas (travaux)",
+     "title": "Mesurage Loi Carrez et Loi Boutin",
+     "items": [
+      {
+       "paras": [
+        "Loi Carrez pour la vente, uniquement en copropriété (hors ventes sur plan, terrains constructibles et maisons individuelles), surfaces de plus de 1,80 m de hauteur.",
+        "Loi Boutin pour la location, meublée ou vide, en copropriété ou non : la surface est mentionnée dans le bail."
+       ]
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000042-339da339dd/18.png?ph=bf1b111c3d",
+       "alt": "Mesurage Loi Carrez et Loi Boutin"
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000098-0b2600b262/Capture%20d%E2%80%99%C3%A9cran%202023-03-06%20142400.png?ph=bf1b111c3d",
+       "alt": "Mesurage Loi Carrez et Loi Boutin"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d6",
+     "tight": true,
+     "eyebrow": "Validité : 1 à 3 ans si amiante présente, illimitée si négatif",
+     "title": "Diagnostic amiante",
+     "items": [
+      {
+       "paras": [
+        "Obligatoire avant vente ou location si le permis de construire est antérieur au 1er juillet 1997 : flocages, toitures en fibrociment (comme dans les résidences du Cap d'Agde), revêtements, conduits, calorifugeages. Des prélèvements peuvent être faits pour analyse."
+       ]
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000128-102be102c1/20230307_132138.jpg?ph=bf1b111c3d",
+       "alt": "Diagnostic amiante"
+      },
+      {
+       "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000110-671db671dd/Capture%20d%E2%80%99%C3%A9cran%202023-03-06%20144218.png?ph=bf1b111c3d",
+       "alt": "Diagnostic amiante"
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "d7",
+     "tight": true,
+     "eyebrow": "Validité : 1 an si plomb constaté, illimitée en cas d'absence",
+     "title": "Diagnostic plomb (CREP)",
+     "items": [
+      {
+       "paras": [
+        "Uniquement pour les logements construits avant 1949 : mesure de la concentration en plomb dans les revêtements (seuil de 1 mg/cm²), classée en 3 catégories : non dégradé, état d'usage, dégradé."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "devis2",
+     "eyebrow": "Devis gratuit",
+     "title": "Obtenir son devis <em class=\"it\">gratuitement</em>",
+     "lead": "Devis gratuit par téléphone ou par e-mail.",
+     "side": [
+      "Tél : <a href=\"tel:+33434456453\">04 34 45 64 53</a>",
+      "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>",
+      "5 rue de la Digue, 34300 Agde",
+      "Du lundi au samedi, de 8h30 à 19h30"
+     ],
+     "email": "contact@terradiag.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Soumettre",
+     "fields": [
+      {
+       "label": "Votre nom et prénom",
+       "required": true
+      },
+      {
+       "label": "Adresse e-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "N° de téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "faq",
+   "label": "F.A.Q",
+   "title": "FAQ",
+   "eyebrow": "Questions fréquentes",
+   "lead": "Vente, location, validité, documents à fournir : les réponses à vos questions sur les diagnostics immobiliers.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "questions",
+     "eyebrow": "F.A.Q",
+     "title": "Vos questions, <em class=\"it\">nos réponses</em>",
+     "items": [
+      {
+       "title": "Pour qui les diagnostics immobiliers s'appliquent-t-ils ?",
+       "paras": [
+        "Ils sont obligatoires pour tout propriétaire qui met en vente ou en location un bien, habitable ou non. D'autres inspections peuvent être demandées lors de travaux ou de démolitions."
+       ]
+      },
+      {
+       "title": "À quoi servent les diagnostics immobiliers ?",
+       "paras": [
+        "Ils dressent, à un instant T, le bilan sanitaire, sécuritaire, environnemental et écologique du bien : CREP, amiante, termites, électricité et gaz, DPE, ERP, mesurage Boutin ou Carrez. Ils sont présentés à la signature du compromis chez le notaire, et annexés au bail."
+       ]
+      },
+      {
+       "title": "Je souhaite vendre mon bien : quels diagnostics sont obligatoires dans l'Hérault ?",
+       "paras": [
+        "Cela dépend de l'année de construction et de la copropriété. Pour un bien d'avant 1949 (centres historiques d'Agde, Vias, Marseillan…) : CREP, amiante avant-vente, termites, électricité, gaz, DPE, Carrez et ERP. Les résultats n'imposent pas de travaux."
+       ]
+      },
+      {
+       "title": "Je souhaite louer mon bien : quels diagnostics sont obligatoires dans l'Hérault ?",
+       "paras": [
+        "CREP, DAPP (amiante des parties privatives), électricité, gaz, DPE, mesurage Boutin et ERP. Le permis de louer s'applique à Béziers (depuis le 1er janvier 2018), Agde et Pézenas (depuis le 1er février 2019), Bessan, Florensac, Vias, Saint-Thibéry et Montagnac (depuis le 1er septembre 2021)."
+       ]
+      },
+      {
+       "title": "Puis-je réutiliser les diagnostics de mon achat ?",
+       "paras": [
+        "Leur validité est limitée : faites-la vérifier, et confirmer par votre notaire. Terra Diag vous propose un premier estimatif par téléphone, munissez-vous de l'ancien dossier."
+       ]
+      },
+      {
+       "title": "Mon DPE date d'avant la réforme : est-il encore valable ?",
+       "paras": [
+        "La réforme du DPE date du 1er juillet 2021 : les DPE réalisés avant le 1er janvier 2018 ne sont plus valables. Appelez-nous pour vérifier le vôtre."
+       ]
+      },
+      {
+       "title": "Quelles informations communiquer pour une intervention ?",
+       "paras": [
+        "Le type de bien, l'année de construction, la surface habitable, les tantièmes en copropriété, les factures de travaux d'amélioration énergétique, l'emplacement du tableau électrique et du compteur gaz."
+       ]
+      },
+      {
+       "title": "Combien de temps dure l'intervention ?",
+       "paras": [
+        "Entre 1 heure pour un petit appartement et 5 heures pour une maison ancienne."
+       ]
+      },
+      {
+       "title": "Dois-je être présent pendant les diagnostics ?",
+       "paras": [
+        "Non, si toutes les parties du bien sont accessibles."
+       ]
+      },
+      {
+       "title": "Quels documents fournir au technicien ?",
+       "paras": [
+        "Acte de propriété ou attestation de vente, permis de construire ou de rénovation, plan, anciens diagnostics, factures et historique des rénovations, contrats ou rapports d'entretien des conduits et du chauffage. Pour le neuf : la notice descriptive."
+       ]
+      },
+      {
+       "title": "Comment lire simplement les résultats ?",
+       "paras": [
+        "En page 2 du rapport, un tableau récapitulatif résume chaque diagnostic (plomb, amiante, termites, électricité, ERP, DPE, mesurage) en une phrase."
+       ]
+      },
+      {
+       "title": "Des anomalies électriques apparaissent : que faire ?",
+       "paras": [
+        "Il n'y a pas d'obligation de réparer si le bien n'est pas loué, mais la correction est recommandée. Pour louer, le bailleur doit mettre l'installation en conformité : faites intervenir un électricien qualifié et demandez plusieurs devis."
+       ]
+      },
+      {
+       "title": "Mes diagnostics termites et ERP ne sont plus valables pour la signature : que faire ?",
+       "paras": [
+        "Ils sont valables 6 mois. Demandez une mise à jour par e-mail à contact@terradiag.fr : numéro de dossier ou adresse, identité du propriétaire, date prévue de signature, lieu des clés et contact pour la contre-visite."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "question",
+     "eyebrow": "Devis gratuit",
+     "title": "Obtenir son devis <em class=\"it\">gratuitement</em>",
+     "lead": "Besoin de plus d'informations ? Écrivez-nous.",
+     "side": [
+      "Tél : <a href=\"tel:+33434456453\">04 34 45 64 53</a>",
+      "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>",
+      "5 rue de la Digue, 34300 Agde",
+      "Du lundi au samedi, de 8h30 à 19h30"
+     ],
+     "email": "contact@terradiag.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Soumettre",
+     "fields": [
+      {
+       "label": "Votre nom et prénom",
+       "required": true
+      },
+      {
+       "label": "Adresse e-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "N° de téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "temoignages-clients",
+   "label": "Témoignages",
+   "title": "Témoignages clients",
+   "eyebrow": "Ils nous ont fait confiance",
+   "lead": "Particuliers et agences immobilières parlent de Terra Diag.",
+   "img": "https://bf1b111c3d.cbaul-cdnwnd.com/fe6234a14d40b2b6f20b49eda04d0770/200000020-ba8ceba8d1/TERRA%20DIAG-2.png?ph=bf1b111c3d",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "reviews",
+     "id": "avis",
+     "eyebrow": "Témoignages clients",
+     "title": "Ils nous ont <em class=\"it\">fait confiance</em>",
+     "source": [
+      "Témoignages publiés sur terra-diag.webnode.fr",
+      "https://terra-diag.webnode.fr/temoignages-clients/"
+     ],
+     "items": [
+      {
+       "name": "Biliana Savova",
+       "work": "Cliente",
+       "text": "Je ne que des superlatifs concernant l'équipe de TerraDiag […] aussi bien Claire Sanchez - professionnelle, réactive et compétente […] que Théo - le technicien […] Vous n'avez pas à vous soucier de quoi que c'est soit, confier leur vos diagnostics- le travail sera fait !"
+      },
+      {
+       "name": "Beauty Live",
+       "work": "Cliente",
+       "text": "Mille merci pour votre gentillesse et votre réactivité ... […] vous m avez trouvé un créneau très rapidement […] grâce à vous la date de signature n'est pas reportée. Je recommande vivement votre société."
+      },
+      {
+       "name": "Jérémy GMC",
+       "work": "Agence immobilière",
+       "text": "Très belle équipe, performante et réactive. Je recommande à 100 % ces professionnels."
+      },
+      {
+       "name": "Josianne Chabry",
+       "work": "Cliente",
+       "text": "Une équipe aimable et dynamique. Théo est un professionnel sérieux et efficace. Je recommande cette entreprise."
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "avis-devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Obtenir son devis <em class=\"it\">gratuitement</em>",
+     "lead": "Devis gratuit par téléphone ou par e-mail.",
+     "side": [
+      "Tél : <a href=\"tel:+33434456453\">04 34 45 64 53</a>",
+      "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>",
+      "5 rue de la Digue, 34300 Agde",
+      "Du lundi au samedi, de 8h30 à 19h30"
+     ],
+     "email": "contact@terradiag.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Soumettre",
+     "fields": [
+      {
+       "label": "Votre nom et prénom",
+       "required": true
+      },
+      {
+       "label": "Adresse e-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "N° de téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Qui sommes-nous ?",
+   "lead": "Une entreprise familiale locale de diagnostics immobiliers, pour la vente et la location, réactive et proche de ses clients.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Terra Diag",
+     "title": "5 rue de la Digue, <em class=\"it\">Agde</em>",
+     "text": "Entreprise familiale locale, implantée sur le secteur d'Agde, le Bassin de Thau, le biterrois et alentours.",
+     "rows": [
+      [
+       "Téléphone",
+       "<a href=\"tel:+33434456453\">04 34 45 64 53</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>"
+      ],
+      [
+       "Adresse",
+       "5 rue de la Digue, 34300 Agde"
+      ],
+      [
+       "Rendez-vous",
+       "Du lundi au samedi, de 8h30 à 19h30"
+      ],
+      [
+       "Secteur",
+       "Agde, Bassin de Thau, biterrois et alentours"
+      ]
+     ],
+     "map_q": "5 rue de la Digue, 34300 Agde",
+     "cta": [
+      "Appeler Terra Diag",
+      "tel:+33434456453"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Devis gratuit",
+     "title": "Obtenir son devis <em class=\"it\">gratuitement</em>",
+     "lead": "Devis gratuit par téléphone ou par e-mail.",
+     "side": [
+      "Tél : <a href=\"tel:+33434456453\">04 34 45 64 53</a>",
+      "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>",
+      "5 rue de la Digue, 34300 Agde",
+      "Du lundi au samedi, de 8h30 à 19h30"
+     ],
+     "email": "contact@terradiag.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Soumettre",
+     "fields": [
+      {
+       "label": "Votre nom et prénom",
+       "required": true
+      },
+      {
+       "label": "Adresse e-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "N° de téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Terra Diag, entreprise familiale de diagnostics immobiliers à Agde : vente et location, dans tout l'Hérault.",
+  "contact": [
+   "<a href=\"tel:+33434456453\">04 34 45 64 53</a>",
+   "<a href=\"mailto:contact@terradiag.fr\">contact@terradiag.fr</a>",
+   "5 rue de la Digue, 34300 Agde",
+   "Lun – Sam · 8h30 – 19h30"
+  ],
+  "legal": "Diagnostics réalisés par des professionnels certifiés."
+ }
+}
