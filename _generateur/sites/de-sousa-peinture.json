@@ -240,6 +240,12 @@
    ]
   }
  ],
+ "nav_extra": [
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
  "pages": [
   {
    "slug": "services",
