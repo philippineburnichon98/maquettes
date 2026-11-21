@@ -1,0 +1,549 @@
+{
+ "slug": "le-rockefeller-7bd297",
+ "title": "Le Rockefeller — Restaurant brasserie, cuisine traditionnelle française, Lyon 3e",
+ "description": "Restaurant brasserie au 61 avenue Rockefeller, Lyon 3e : cuisine traditionnelle française, produits frais et de saison, plats et desserts faits maison. Déjeuner du lundi au vendredi, privatisation le soir et le week-end.",
+ "brand": "Le Rockefeller",
+ "monogram": "R",
+ "tagline": "Restaurant · Brasserie",
+ "theme": {
+  "look": "framed",
+  "paper": "#f6f1ea",
+  "paper2": "#ece3d6",
+  "ink": "#1d1a17",
+  "muted": "#6a625a",
+  "accent": "#9c2f22",
+  "accent2": "#7d241a",
+  "gold": "#b8893e",
+  "heroem": "#f1c99a",
+  "serif": "\"Playfair Display\",Georgia,serif",
+  "sans": "\"Karla\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Karla:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Déjeuner du lundi au vendredi · 11h45 – 14h15",
+  "Réservations : <a href=\"tel:+33478549536\">04 78 54 95 36</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/714873_dfbc13fe7dc747dea281e0930a7c8c7f.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Restaurant Brasserie · Lyon 3e",
+  "title": "Bienvenue au <em>Rockefeller</em>",
+  "lead": "Cuisine traditionnelle française, produits frais et de saison : tous nos plats et desserts sont faits maison.",
+  "cta1": [
+   "Voir le menu",
+   "menu/"
+  ],
+  "cta2": [
+   "04 78 54 95 36",
+   "tel:+33478549536"
+  ]
+ },
+ "figures": [
+  [
+   "100 %",
+   "plats et desserts faits maison"
+  ],
+  [
+   "Lun – Ven",
+   "service du déjeuner"
+  ],
+  [
+   "11h45",
+   "à 14h15"
+  ],
+  [
+   "Soirs",
+   "& week-ends : privatisation"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue !",
+   "title": "Une cuisine <em class=\"it\">faite maison</em>",
+   "img": "https://static.wixstatic.com/media/714873_cdef95d588d1407fab4e9d2268e2bb1f.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Le Rockefeller",
+   "paras": [
+    "Le Rockefeller vous propose une cuisine traditionnelle française, à base de produits frais et de saison. Tous nos plats et desserts sont « fait maison ».",
+    "Service au déjeuner du lundi au vendredi. Réservation conseillée.",
+    "Pour vos évènements, aussi bien privés que professionnels, le restaurant se privatise : apéritifs, cocktails dînatoires, dîners."
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "maison",
+   "eyebrow": "Le restaurant",
+   "title": "Ce qui vous attend <em class=\"it\">à table</em>",
+   "items": [
+    [
+     "Fait maison",
+     "Tous les plats et desserts sont préparés sur place."
+    ],
+    [
+     "Produits frais",
+     "Des produits frais et de saison, et un plat du jour débordant de fraîcheur."
+    ],
+    [
+     "Pour les gourmands",
+     "Café gourmand ou dessert du jour pour finir le repas."
+    ],
+    [
+     "Privatisation",
+     "Apéritifs, cocktails dînatoires et dîners, les soirs et le week-end."
+    ]
+   ]
+  },
+  {
+   "kind": "resaform",
+   "id": "reserver",
+   "eyebrow": "Réservation conseillée",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Service du déjeuner, du lundi au vendredi. Choisissez votre jour et votre créneau : le restaurant vous confirme la réservation.",
+   "tel": "+33478549536",
+   "phone": "04 78 54 95 36",
+   "note": "Du lundi au vendredi, de 11h45 à 14h15.",
+   "email": "lerockefeller.restaurant@gmail.com",
+   "brand": "Le Rockefeller",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "hours": [
+    "11:45",
+    "12:00",
+    "12:15",
+    "12:30",
+    "12:45",
+    "13:00",
+    "13:15",
+    "13:30"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/714873_7dc296a4ba5c40329a3bc5924cd23fac.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+   "eyebrow": "Privatisation · Événements",
+   "title": "Pot de thèse, mariage, <em class=\"it\">anniversaire…</em>",
+   "cta": [
+    "Privatiser le restaurant",
+    "privatisation-evenements/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "61 avenue Rockefeller, <em class=\"it\">Lyon 3e</em>",
+   "text": "Nous nous situons dans le 3ème arrondissement de Lyon, 61 avenue Rockefeller, quartier proche des hôpitaux.",
+   "img": "https://static.wixstatic.com/media/714873_44fcb19810b741e7ac293ba8615a3d64.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+   "rows": [
+    [
+     "Réservations",
+     "<a href=\"tel:+33478549536\">04 78 54 95 36</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:lerockefeller.restaurant@gmail.com\">lerockefeller.restaurant@gmail.com</a>"
+    ],
+    [
+     "Horaires",
+     "Du lundi au vendredi, de 11h45 à 14h15"
+    ],
+    [
+     "Adresse",
+     "61 avenue Rockefeller, 69003 Lyon"
+    ]
+   ],
+   "map_q": "61 avenue Rockefeller, 69003 Lyon",
+   "cta": [
+    "Appeler le restaurant",
+    "tel:+33478549536"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "restaurant",
+   "label": "Restaurant",
+   "title": "Le restaurant",
+   "eyebrow": "Cuisine traditionnelle française",
+   "lead": "Produits frais et de saison, plats et desserts faits maison. Service du déjeuner du lundi au vendredi.",
+   "img": "https://static.wixstatic.com/media/714873_221a65b3206241038fa977a29d21a63b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "le-restaurant",
+     "eyebrow": "Le restaurant",
+     "title": "Produits frais, <em class=\"it\">plat du jour</em>",
+     "img": "https://static.wixstatic.com/media/714873_d23a50362bde453885195417a4fb311c.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Le restaurant Le Rockefeller",
+     "paras": [
+      "Le Rockefeller vous propose une cuisine traditionnelle française, à base de produits frais et de saison. Tous nos plats et desserts sont « fait maison ».",
+      "Chaque jour, un plat du jour débordant de fraîcheur. Et pour les gourmands, un café gourmand ou le dessert du jour.",
+      "Service du déjeuner du lundi au vendredi. Réservation conseillée. Le restaurant se privatise aussi pour vos cocktails dînatoires, apéritifs et dîners."
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Le <em class=\"it\">Rockefeller</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/714873_dfbc13fe7dc747dea281e0930a7c8c7f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/714873_dfbc13fe7dc747dea281e0930a7c8c7f.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Le Rockefeller"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/714873_cdef95d588d1407fab4e9d2268e2bb1f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/714873_cdef95d588d1407fab4e9d2268e2bb1f.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Le Rockefeller"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/714873_221a65b3206241038fa977a29d21a63b.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/714873_221a65b3206241038fa977a29d21a63b.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Le Rockefeller"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/714873_d23a50362bde453885195417a4fb311c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/714873_d23a50362bde453885195417a4fb311c.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Le Rockefeller"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/714873_7dc296a4ba5c40329a3bc5924cd23fac.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/714873_7dc296a4ba5c40329a3bc5924cd23fac.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Le Rockefeller"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/714873_51cf53e5b2884286b1b3f0e483642afd.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/714873_51cf53e5b2884286b1b3f0e483642afd.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Le Rockefeller"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/714873_51cf53e5b2884286b1b3f0e483642afd.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Réservation conseillée",
+     "title": "Du lundi au vendredi, <em class=\"it\">11h45 – 14h15</em>",
+     "cta": [
+      "Réserver une table",
+      "../#reserver"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "menu",
+   "label": "Menu",
+   "title": "Le menu",
+   "eyebrow": "Entrées, plats, desserts",
+   "lead": "Découvrez nos entrées, nos plats et nos desserts pour les plus gourmands.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "menu",
+     "id": "carte",
+     "eyebrow": "Le menu",
+     "title": "Entrées, plats <em class=\"it\">et desserts</em>",
+     "lead": "Découvrez nos entrées, nos plats et nos desserts pour les plus gourmands.",
+     "sections": [
+      {
+       "title": "Les entrées",
+       "items": [
+        [
+         "Salade Bressane",
+         "12,50 €",
+         "Salade mesclun, émincé de poulet grillé, Bresse-bleu, tomates"
+        ],
+        [
+         "Foie gras de canard maison",
+         "15,50 €",
+         "Salade mesclun, chutney d'abricots, toast de pain de campagne"
+        ],
+        [
+         "Saumon Gravlax",
+         "12,50 €",
+         "Salade mesclun, sauce à l'aneth, toast de pain de campagne"
+        ],
+        [
+         "Cassolette de ravioles d'écrevisse maison",
+         "15,50 €",
+         "Crème de ciboulette et parmesan"
+        ]
+       ]
+      },
+      {
+       "title": "Les plats",
+       "items": [
+        [
+         "Assiette plancha du pêcheur",
+         "17,50 €",
+         "Dorade royale, gambas et saumon, riz vénéré à la crème de persil"
+        ],
+        [
+         "Foie de veau 180 g",
+         "18,50 €",
+         "Salade mesclun et pommes frites"
+        ],
+        [
+         "Pavé de bœuf 250 g du Limousin à la fleur de sel",
+         "20,50 €",
+         "Salade mesclun et pommes paillassons"
+        ],
+        [
+         "Suprême de volaille fermière Label Rouge, sauce morilles",
+         "18,50 €",
+         "Gratin de cardons"
+        ]
+       ]
+      },
+      {
+       "title": "Les fromages",
+       "items": [
+        [
+         "Assiette de fromages secs",
+         "5,80 €"
+        ],
+        [
+         "Fromage blanc faisselle",
+         "5,80 €",
+         "Coulis, crème ou miel"
+        ]
+       ]
+      },
+      {
+       "title": "Les desserts",
+       "items": [
+        [
+         "Dessert du moment",
+         "6,20 €"
+        ],
+        [
+         "Café gourmand",
+         "6,20 €"
+        ]
+       ]
+      }
+     ],
+     "aside": {
+      "eyebrow": "Les formules",
+      "title": "Le plat du jour",
+      "big": "11,50 €",
+      "text": "Un plat du jour débordant de fraîcheur.",
+      "items": [
+       [
+        "Plat du jour + dessert",
+        "17,70 €"
+       ],
+       [
+        "Menu enfant (plat enfant, dessert, sirop à l'eau)",
+        "9,00 €"
+       ]
+      ],
+      "cta": [
+       "Réserver",
+       "tel:+33478549536"
+      ]
+     },
+     "pdf": "https://7b85351d-d0e3-4976-b070-618c1192d9f4.filesusr.com/ugd/714873_aba2269340e64beb9d8a36bf7cb5514f.pdf"
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/714873_dfbc13fe7dc747dea281e0930a7c8c7f.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Réservation conseillée",
+     "title": "Une table <em class=\"it\">pour midi ?</em>",
+     "cta": [
+      "04 78 54 95 36",
+      "tel:+33478549536"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "privatisation-evenements",
+   "label": "Privatisation",
+   "title": "Privatisation & événements",
+   "eyebrow": "Les soirs & week-ends",
+   "lead": "Privatisez le Rockefeller pour vos évènements, exclusivement sur demande.",
+   "img": "https://static.wixstatic.com/media/714873_37283e20f3a44ec1b9104678fc921de7.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "evenements",
+     "eyebrow": "Privatisation",
+     "title": "Le Rockefeller <em class=\"it\">rien que pour vous</em>",
+     "lead": "Privatisez le restaurant pour vos évènements : les soirs et le week-end, exclusivement sur demande.",
+     "items": [
+      {
+       "title": "Vos évènements",
+       "list": [
+        "Pot de thèse",
+        "Mariage",
+        "Réunion",
+        "Anniversaire",
+        "Babyshower",
+        "Groupe"
+       ]
+      },
+      {
+       "title": "Nos formules",
+       "list": [
+        "Cocktails dînatoires",
+        "Dîners",
+        "Apéritifs"
+       ],
+       "paras": [
+        "L'équipe du Rockefeller mettra tout en œuvre pour la réussite de votre évènement."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "demande",
+     "eyebrow": "Votre demande",
+     "title": "Parlez-nous <em class=\"it\">de votre évènement</em>",
+     "lead": "Exclusivement sur demande : contactez-nous par téléphone ou par e-mail.",
+     "side": [
+      "Tél : <a href=\"tel:+33478549536\">04 78 54 95 36</a>",
+      "<a href=\"mailto:lerockefeller.restaurant@gmail.com\">lerockefeller.restaurant@gmail.com</a>",
+      "61 avenue Rockefeller, 69003 Lyon"
+     ],
+     "email": "lerockefeller.restaurant@gmail.com",
+     "subject": "Demande de privatisation",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Type d'évènement",
+       "type": "select",
+       "options": [
+        "Pot de thèse",
+        "Mariage",
+        "Réunion",
+        "Anniversaire",
+        "Babyshower",
+        "Groupe",
+        "Autre"
+       ]
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Restaurant Le Rockefeller",
+   "lead": "61 avenue Rockefeller, Lyon 3e, quartier proche des hôpitaux. Réservations par téléphone ou par e-mail.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "61 avenue Rockefeller, <em class=\"it\">Lyon 3e</em>",
+     "text": "Nous nous situons dans le 3ème arrondissement de Lyon, 61 avenue Rockefeller, quartier proche des hôpitaux.",
+     "img": "https://static.wixstatic.com/media/714873_44fcb19810b741e7ac293ba8615a3d64.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "rows": [
+      [
+       "Réservations",
+       "<a href=\"tel:+33478549536\">04 78 54 95 36</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:lerockefeller.restaurant@gmail.com\">lerockefeller.restaurant@gmail.com</a>"
+      ],
+      [
+       "Horaires",
+       "Du lundi au vendredi, de 11h45 à 14h15"
+      ],
+      [
+       "Adresse",
+       "61 avenue Rockefeller, 69003 Lyon"
+      ]
+     ],
+     "map_q": "61 avenue Rockefeller, 69003 Lyon",
+     "cta": [
+      "Appeler le restaurant",
+      "tel:+33478549536"
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "message",
+     "eyebrow": "Contact",
+     "title": "Un message, <em class=\"it\">une question</em>",
+     "side": [
+      "Tél : <a href=\"tel:+33478549536\">04 78 54 95 36</a>",
+      "<a href=\"mailto:lerockefeller.restaurant@gmail.com\">lerockefeller.restaurant@gmail.com</a>"
+     ],
+     "email": "lerockefeller.restaurant@gmail.com",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Restaurant brasserie au 61 avenue Rockefeller, Lyon 3e : cuisine traditionnelle française, faite maison. Déjeuner du lundi au vendredi.",
+  "contact": [
+   "<a href=\"tel:+33478549536\">04 78 54 95 36</a>",
+   "<a href=\"mailto:lerockefeller.restaurant@gmail.com\">lerockefeller.restaurant@gmail.com</a>",
+   "61 avenue Rockefeller, 69003 Lyon",
+   "Lun – Ven · 11h45 – 14h15"
+  ],
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Le-Rockefeller-979530878756047"
+   ]
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
