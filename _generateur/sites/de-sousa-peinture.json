@@ -1,0 +1,353 @@
+{
+ "slug": "de-sousa-peinture-be7ee4",
+ "title": "Entreprise De Sousa Jonathan — artisan peintre plâtrier dans la Loire (42)",
+ "description": "Entreprise De Sousa Jonathan, artisan peintre depuis 20 ans à L'Hôpital-le-Grand : peinture, rénovation d'intérieur, plâtrerie. Interventions dans toute la Loire, garantie décennale, devis sur demande.",
+ "brand": "De Sousa Jonathan",
+ "monogram": "DS",
+ "tagline": "Artisan peintre · Loire 42",
+ "theme": {
+  "look": "center",
+  "paper": "#f7f5f1",
+  "paper2": "#ebe6dd",
+  "ink": "#1f1c1a",
+  "muted": "#655e58",
+  "accent": "#c0562b",
+  "accent2": "#9e4421",
+  "gold": "#d4a24c",
+  "heroem": "#f4c39f",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Outfit\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Artisan peintre depuis 20 ans · Interventions dans toute la Loire 42",
+  "<a href=\"tel:+33684252423\">06 84 25 24 23</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/nsplsh_34366a7544347a59315841~mv2_d_2448_3264_s_4_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "Artisan peintre depuis 20 ans · Loire 42",
+  "title": "La peinture, <em>une passion</em>",
+  "lead": "Peintre en bâtiment et plâtrier : peinture, rénovation d'intérieur, plâtrerie et peinture de portail.",
+  "cta1": [
+   "Demander un devis",
+   "#contact"
+  ],
+  "cta2": [
+   "06 84 25 24 23",
+   "tel:+33684252423"
+  ]
+ },
+ "figures": [
+  [
+   "20 ans",
+   "d'expérience"
+  ],
+  [
+   "42",
+   "toute la Loire"
+  ],
+  [
+   "10 ans",
+   "garantie décennale"
+  ],
+  [
+   "3",
+   "métiers : peinture, rénovation, plâtrerie"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "expertise",
+   "eyebrow": "Notre expertise",
+   "title": "Peintre en bâtiment <em class=\"it\">et plâtrier</em>",
+   "img": "https://static.wixstatic.com/media/2c85d2_f6db120582d4455a91de4e4ebddcdb10~mv2.jpg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Chantier de peinture",
+   "paras": [
+    "Artisan peintre en bâtiment et plâtrier, Jonathan De Sousa réalise vos travaux de peinture, de rénovation d'intérieur et de plâtrerie, ainsi que la peinture de vos portails.",
+    "Qualité du travail, expérience et écoute : nous possédons une garantie décennale. Contactez-nous pour un devis."
+   ],
+   "logos": [
+    [
+     "https://static.wixstatic.com/media/2c85d2_99b021d199ce43338fcb5e7dfd0880b5~mv2.webp/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Garantie décennale"
+    ],
+    [
+     "https://static.wixstatic.com/media/2c85d2_5310bd2930a642b48f4655911e274f41~mv2.png/v1/fit/w_400,h_400,al_c,q_85/img.jpg",
+     "Devis"
+    ]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "services",
+   "eyebrow": "Nos services",
+   "title": "Du conseil <em class=\"it\">à la finition</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/2c85d2_e7346449c2b1486ea95c569fa52d68b3~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Peinture murs et plafonds",
+     "title": "Peinture murs et plafonds",
+     "link": [
+      "Peinture",
+      "services/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/11062b_f8d5530ee2c545b681041a9e70b71e22~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Conseil en couleurs",
+     "title": "Conseil en couleurs",
+     "link": [
+      "Rénovation d'intérieur",
+      "renovation-interieur/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/2c85d2_c695a909ce874f268053c7a3e14efbf5~mv2.png/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Création de nuances",
+     "title": "Création de nuances",
+     "link": [
+      "Plâtrerie",
+      "platrerie/"
+     ]
+    },
+    {
+     "title": "Revêtement et restauration",
+     "list": [
+      "Pose de papier peint",
+      "Peinture escaliers",
+      "Pose de bande à joint"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "projets",
+   "eyebrow": "Projets récents",
+   "title": "Nos <em class=\"it\">derniers chantiers</em>",
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/2c85d2_338d1d0253ee4d76abddf4f68fb40a6a~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/2c85d2_338d1d0253ee4d76abddf4f68fb40a6a~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Projet récent"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/2c85d2_0955a423ffe04d29811df4caf972b838~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/2c85d2_0955a423ffe04d29811df4caf972b838~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Projet récent"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/2c85d2_b5bb155bf3c64b33a3d3dd09f6b4f61d~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/2c85d2_b5bb155bf3c64b33a3d3dd09f6b4f61d~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Projet récent"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/2c85d2_a963fde8620d4624b144178b0a155ba4~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/2c85d2_a963fde8620d4624b144178b0a155ba4~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Projet récent"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/2c85d2_579403d0953f4f9ea51b885d6b938463~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/2c85d2_579403d0953f4f9ea51b885d6b938463~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Projet récent"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/2c85d2_8aa655084a5e44b1beefc1c9a57d4def~mv2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/2c85d2_8aa655084a5e44b1beefc1c9a57d4def~mv2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Projet récent"
+    }
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Des questions ? <em class=\"it\">Nous sommes ici pour y répondre</em>",
+   "lead": "Contactez-nous pour un devis : interventions dans toute la Loire.",
+   "side": [
+    "Tél : <a href=\"tel:+33684252423\">06 84 25 24 23</a>",
+    "<a href=\"mailto:desousajonathan42@orange.fr\">desousajonathan42@orange.fr</a>",
+    "128 rue du Canal Sud, 42210 L'Hôpital-le-Grand"
+   ],
+   "email": "desousajonathan42@orange.fr",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Travaux",
+     "type": "select",
+     "options": [
+      "Peinture",
+      "Rénovation d'intérieur",
+      "Plâtrerie",
+      "Autre"
+     ]
+    },
+    {
+     "label": "Message",
+     "type": "textarea",
+     "rows": 5,
+     "full": true
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Coordonnées",
+   "title": "Entreprise <em class=\"it\">De Sousa Jonathan</em>",
+   "text": "Artisan peintre depuis 20 ans, interventions dans toute la Loire (42).",
+   "rows": [
+    [
+     "Téléphone",
+     "<a href=\"tel:+33684252423\">06 84 25 24 23</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:desousajonathan42@orange.fr\">desousajonathan42@orange.fr</a>"
+    ],
+    [
+     "Adresse",
+     "128 rue du Canal Sud, 42210 L'Hôpital-le-Grand"
+    ],
+    [
+     "SIREN",
+     "528 018 823"
+    ],
+    [
+     "Assurance",
+     "Garantie décennale"
+    ]
+   ],
+   "map_q": "128 rue du Canal Sud, 42210 L'Hôpital-le-Grand",
+   "cta": [
+    "Appeler",
+    "tel:+33684252423"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "services",
+   "label": "Peinture",
+   "title": "Peinture",
+   "eyebrow": "Entreprise De Sousa Jonathan",
+   "lead": "Peinture intérieure, papier peint, portails et escaliers, avec des produits de qualité.",
+   "img": "https://static.wixstatic.com/media/2c85d2_167985a579fe42bda0d7bc4308e2b22d~mv2.png/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "services",
+     "eyebrow": "Peinture",
+     "title": "Peinture <em class=\"it\">intérieure et portails</em>",
+     "img": "https://static.wixstatic.com/media/2c85d2_73967aceabbb4f988a019363ee07a565~mv2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Peinture",
+     "paras": [
+      "Peinture intérieure, pose de papier peint ou peinture de votre portail : nous utilisons des produits de qualité, avec une grande exigence sur le résultat.",
+      "<b>Nos prestations :</b> Peinture intérieure · Peinture portails · Pose de papier peint · Peinture escaliers · Autres travaux de peinture"
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/2c85d2_338d1d0253ee4d76abddf4f68fb40a6a~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis sur demande",
+     "title": "Un projet ? <em class=\"it\">Contactez-nous</em>",
+     "cta": [
+      "Demander un devis",
+      "../#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renovation-interieur",
+   "label": "Rénovation d'intérieur",
+   "title": "Rénovation d'intérieur",
+   "eyebrow": "Entreprise De Sousa Jonathan",
+   "lead": "Peinture, papier peint et travaux de rénovation intérieure.",
+   "img": "https://static.wixstatic.com/media/2c85d2_4385fe53d1eb4cc8b5faf2f0b811b934~mv2.png/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "renovation-interieur",
+     "eyebrow": "Rénovation d'intérieur",
+     "title": "Rénover <em class=\"it\">votre intérieur</em>",
+     "img": "https://static.wixstatic.com/media/2c85d2_c26f94886041418b9ed550113d0df398~mv2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Rénovation d'intérieur",
+     "paras": [
+      "Pour la rénovation de votre intérieur, nous mettons nos moyens et notre savoir-faire au service d'un travail de qualité.",
+      "<b>Nos prestations :</b> Rénovation d'intérieur · Pose de papier peint · Peinture intérieure · Autres travaux de rénovation"
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/2c85d2_338d1d0253ee4d76abddf4f68fb40a6a~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis sur demande",
+     "title": "Un projet ? <em class=\"it\">Contactez-nous</em>",
+     "cta": [
+      "Demander un devis",
+      "../#contact"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "platrerie",
+   "label": "Plâtrerie",
+   "title": "Plâtrerie",
+   "eyebrow": "Entreprise De Sousa Jonathan",
+   "lead": "Travaux de plâtrerie et de rénovation, pose de bande à joint. Devis sur demande.",
+   "img": "https://static.wixstatic.com/media/2c85d2_e50c418a96bc4137bfa5d21ae4eb660a~mv2.png/v1/fit/w_1800,h_1800,al_c,q_85/img.jpg",
+   "head": "box",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "platrerie",
+     "eyebrow": "Plâtrerie",
+     "title": "Plâtrerie <em class=\"it\">et bandes à joint</em>",
+     "img": "https://static.wixstatic.com/media/2c85d2_65df279a9ccf4e4eaa547e227cf94dd4~mv2.png/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+     "alt": "Plâtrerie",
+     "paras": [
+      "Peintre plâtrier professionnel, nous réalisons vos travaux de plâtrerie et de rénovation avec des outils adaptés. Devis sur demande.",
+      "<b>Nos prestations :</b> Plâtrerie · Pose de bande à joint · Autres travaux de plâtrerie"
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/2c85d2_338d1d0253ee4d76abddf4f68fb40a6a~mv2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis sur demande",
+     "title": "Un projet ? <em class=\"it\">Contactez-nous</em>",
+     "cta": [
+      "Demander un devis",
+      "../#contact"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Entreprise De Sousa Jonathan, artisan peintre plâtrier depuis 20 ans : peinture, rénovation d'intérieur et plâtrerie dans toute la Loire.",
+  "contact": [
+   "<a href=\"tel:+33684252423\">06 84 25 24 23</a>",
+   "<a href=\"mailto:desousajonathan42@orange.fr\">desousajonathan42@orange.fr</a>",
+   "128 rue du Canal Sud, 42210 L'Hôpital-le-Grand"
+  ],
+  "legal": "SIREN 528 018 823 · Garantie décennale."
+ }
+}
