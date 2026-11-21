@@ -1,0 +1,682 @@
+{
+ "slug": "grosjean-fils-1b7156",
+ "title": "SARL Grosjean&Fils — artisan peintre à Tresserve (Savoie) depuis 1986",
+ "description": "SARL Grosjean&Fils, artisan peintre créé en 1986 à Tresserve (73) : peinture, papier peint, peinture décorative, ravalement de façade, revêtements de sol, toitures. Particuliers et entreprises, devis gratuit.",
+ "brand": "Grosjean&Fils",
+ "monogram": "GF",
+ "tagline": "Artisan peintre · depuis 1986",
+ "theme": {
+  "look": "split",
+  "paper": "#f6f4ef",
+  "paper2": "#e8e4da",
+  "ink": "#1c2329",
+  "muted": "#5e666d",
+  "accent": "#2f5d7c",
+  "accent2": "#244a63",
+  "gold": "#c28b3c",
+  "heroem": "#a9cbe3",
+  "serif": "\"DM Serif Display\",Georgia,serif",
+  "sans": "\"DM Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Artisan peintre depuis 1986 · Tresserve (73)",
+  "<a href=\"mailto:Grosjean.fils@hotmail.fr\">Grosjean.fils@hotmail.fr</a>"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/c8386c_cf20666d86de4bae8c6d8e030e02a2db.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+  "eyebrow": "SARL · Artisan peintre · Savoie",
+  "title": "Grosjean<em>&amp;Fils</em>",
+  "lead": "Depuis 1986, nous réalisons vos travaux de peinture, neuf et rénovation, intérieur et extérieur, pour les particuliers comme pour les entreprises.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "Nos réalisations",
+   "facade/"
+  ]
+ },
+ "figures": [
+  [
+   "1986",
+   "création de l'entreprise"
+  ],
+  [
+   "6",
+   "métiers de la peinture"
+  ],
+  [
+   "40",
+   "photos de chantiers"
+  ],
+  [
+   "10 ans",
+   "garantie décennale"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "L'entreprise",
+   "title": "Le soin <em class=\"it\">du travail bien fait</em>",
+   "img": "https://static.wixstatic.com/media/11062b_7c3dc72ea3ec42c59c907411f7b23ce4~mv2.jpeg/v1/fit/w_1200,h_1200,al_c,q_85/img.jpg",
+   "alt": "Grosjean&Fils, artisan peintre",
+   "paras": [
+    "Créée en 1986, la SARL Grosjean&Fils a son siège à Tresserve, en Savoie, et intervient aussi à Ruffieux et à Saint-Paul.",
+    "Nous travaillons pour les particuliers et les entreprises, dans le neuf comme en rénovation, à l'intérieur comme à l'extérieur. Nous étudions avec vous le choix de vos teintes et matériaux, avec une exigence de qualité et de propreté sur chaque chantier.",
+    "Garantie décennale et responsabilité civile à jour. Devis rapide et gratuit. Bonne visite !"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Nos prestations",
+   "title": "De la façade <em class=\"it\">au parquet</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/c8386c_8461859934ec489cb997ae9442e42547~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Façade enduit grésé",
+     "title": "Extérieur",
+     "list": [
+      "Ravalement de façade",
+      "Nettoyage, traitement &amp; peinture de toitures"
+     ],
+     "link": [
+      "Voir les façades",
+      "facade/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/c8386c_bd614ae274b1409dae66f17b9a3b30f7~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Restaurant du Golf",
+     "title": "Intérieur",
+     "list": [
+      "Peinture",
+      "Papier peint",
+      "Peinture décorative"
+     ],
+     "link": [
+      "Voir l'intérieur",
+      "interieur/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/c8386c_ecc7f175dad04ddd9d589bbcdac1da74~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Rénovation parquet",
+     "title": "Sols",
+     "list": [
+      "Pose de revêtement de sol",
+      "Rénovation de parquet"
+     ],
+     "link": [
+      "Voir les parquets",
+      "parquet/"
+     ]
+    }
+   ],
+   "chips": [
+    "Peinture",
+    "Papier peint",
+    "Peinture décorative",
+    "Ravalement de façade",
+    "Pose de revêtement sol",
+    "Nettoyage, traitement & peinture toitures"
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "eyebrow": "Nos engagements",
+   "title": "Particuliers <em class=\"it\">et entreprises</em>",
+   "items": [
+    [
+     "Depuis 1986",
+     "Une entreprise artisanale de peinture, à Tresserve."
+    ],
+    [
+     "Neuf et rénovation",
+     "Intérieur et extérieur."
+    ],
+    [
+     "Qualité et propreté",
+     "Une attention portée à chaque chantier."
+    ],
+    [
+     "Garanties",
+     "Décennale et responsabilité civile à jour."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "apercu",
+   "eyebrow": "Quelques chantiers",
+   "title": "Nos <em class=\"it\">réalisations</em>",
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/c8386c_76a5511f09ac49bcbb37cd9c96cd046a.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/c8386c_76a5511f09ac49bcbb37cd9c96cd046a.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Grosjean&Fils, chantier"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/c8386c_17752ed57cbc48da8ecac8bced2c9a33~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/c8386c_17752ed57cbc48da8ecac8bced2c9a33~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Façade, anciennement le château Pierre Lacour, Grésy-sur-Aix",
+     "caption": "Façade, anciennement le château Pierre Lacour, Grésy-sur-Aix"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/c8386c_793a673ff3114c62ba4e8e8faf2ec8f4~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/c8386c_793a673ff3114c62ba4e8e8faf2ec8f4~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Dune",
+     "caption": "Dune"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/c8386c_505e023d0969496ab60c5107fbe9aa23.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/c8386c_505e023d0969496ab60c5107fbe9aa23.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Chalet",
+     "caption": "Chalet"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/c8386c_b9e3b10bd5434bb38ac3f86059d69b0e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/c8386c_b9e3b10bd5434bb38ac3f86059d69b0e.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Plafond Swahili",
+     "caption": "Plafond Swahili"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/c8386c_5b01383a9a9f4c9486652e3098f63987~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/c8386c_5b01383a9a9f4c9486652e3098f63987~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Parquet lame LVT",
+     "caption": "Parquet lame LVT"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/c8386c_255ca0797ebc4721ad07430ff159c980.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "thumb": "https://static.wixstatic.com/media/c8386c_255ca0797ebc4721ad07430ff159c980.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "alt": "Cage d'escalier",
+     "caption": "Cage d'escalier"
+    }
+   ],
+   "cta": [
+    "Toutes les façades",
+    "facade/"
+   ]
+  },
+  {
+   "kind": "form",
+   "id": "devis",
+   "eyebrow": "Devis rapide et gratuit",
+   "title": "Demandez <em class=\"it\">votre devis</em>",
+   "lead": "Particuliers et entreprises, neuf et rénovation, intérieur et extérieur : décrivez votre projet.",
+   "side": [
+    "<a href=\"mailto:Grosjean.fils@hotmail.fr\">Grosjean.fils@hotmail.fr</a>",
+    "540 rue Pierre Favre, 73100 Tresserve",
+    "Tresserve · Ruffieux · Saint-Paul (73)"
+   ],
+   "email": "Grosjean.fils@hotmail.fr",
+   "subject": "Demande de devis depuis le site",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "label": "Nom",
+     "required": true
+    },
+    {
+     "label": "E-mail",
+     "type": "email",
+     "required": true
+    },
+    {
+     "label": "Téléphone",
+     "type": "tel"
+    },
+    {
+     "label": "Type de travaux",
+     "type": "select",
+     "options": [
+      "Peinture",
+      "Papier peint",
+      "Peinture décorative",
+      "Ravalement de façade",
+      "Pose de revêtement de sol",
+      "Nettoyage, traitement et peinture de toitures"
+     ]
+    },
+    {
+     "label": "Votre projet",
+     "type": "textarea",
+     "rows": 5,
+     "full": true
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "SARL <em class=\"it\">Grosjean&amp;Fils</em>",
+   "text": "Siège à Tresserve, interventions aussi à Ruffieux et Saint-Paul (73).",
+   "img": "https://static.wixstatic.com/media/c8386c_55876240130a4dbdbab2aa4151f5b6c7.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+   "rows": [
+    [
+     "E-mail",
+     "<a href=\"mailto:Grosjean.fils@hotmail.fr\">Grosjean.fils@hotmail.fr</a>"
+    ],
+    [
+     "Adresse",
+     "540 rue Pierre Favre, 73100 Tresserve"
+    ],
+    [
+     "Garanties",
+     "Garantie décennale et responsabilité civile à jour"
+    ]
+   ],
+   "map_q": "540 rue Pierre Favre, 73100 Tresserve",
+   "cta": [
+    "Écrire à l'entreprise",
+    "mailto:Grosjean.fils@hotmail.fr"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "facade",
+   "label": "Façade",
+   "title": "Façades",
+   "eyebrow": "Ravalement · Enduits · Toitures",
+   "lead": "Ravalement de façade, enduits, chalets, nettoyage, traitement et peinture de toitures.",
+   "img": "https://static.wixstatic.com/media/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "realisations",
+     "eyebrow": "Nos réalisations",
+     "title": "Ravalement <em class=\"it\">de façade</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_17752ed57cbc48da8ecac8bced2c9a33~mv2.jpeg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_17752ed57cbc48da8ecac8bced2c9a33~mv2.jpeg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade, anciennement le château Pierre Lacour, Grésy-sur-Aix",
+       "caption": "Façade, anciennement le château Pierre Lacour, Grésy-sur-Aix"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_1763b3f3bed641d8a136c9215116b5c6~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_1763b3f3bed641d8a136c9215116b5c6~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_7630d510483f4beb82e3aea8908972f3~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_7630d510483f4beb82e3aea8908972f3~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_a634b051af4e4890aef0e020ecac088a.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_a634b051af4e4890aef0e020ecac088a.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_7ca11f96a6374a08897e53f1db764124~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_7ca11f96a6374a08897e53f1db764124~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade",
+       "caption": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_8461859934ec489cb997ae9442e42547~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_8461859934ec489cb997ae9442e42547~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade enduit grésé",
+       "caption": "Façade enduit grésé"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_f70d2b8d19954fdcaaceb5b45bd98e80~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_f70d2b8d19954fdcaaceb5b45bd98e80~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_560ceae6f4104e02983706518ba26821~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_560ceae6f4104e02983706518ba26821~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_f5bca53d708d4906bae2fcd60eedb52d~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_f5bca53d708d4906bae2fcd60eedb52d~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_05ce8d4a91174fd8a45d43ba86fdd244~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_05ce8d4a91174fd8a45d43ba86fdd244~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_81d18443568b430996f63a48b53be0d0~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_81d18443568b430996f63a48b53be0d0~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_99623664ee5840c0a3cfc891ada6fb5c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_99623664ee5840c0a3cfc891ada6fb5c.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_a413974a76bf478e81c67f28395fab57.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_a413974a76bf478e81c67f28395fab57.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade et toit fibrociment",
+       "caption": "Façade et toit fibrociment"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_58fe99c1903041198423818c0b87986a.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_58fe99c1903041198423818c0b87986a.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_505e023d0969496ab60c5107fbe9aa23.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_505e023d0969496ab60c5107fbe9aa23.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Chalet",
+       "caption": "Chalet"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_ce4db598feed4f79b0d859cca1464e03.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_ce4db598feed4f79b0d859cca1464e03.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_6663a1184776474d9e2778dd697bd805.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_6663a1184776474d9e2778dd697bd805.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_d8e36648363941c288d5485e33e0f726.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_d8e36648363941c288d5485e33e0f726.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_883b1f1255af40478b6643e67d80c2a1.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_883b1f1255af40478b6643e67d80c2a1.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Chalet",
+       "caption": "Chalet"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_d9497b758c9a46e0bc7d9415121969b6.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_d9497b758c9a46e0bc7d9415121969b6.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Façade"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/c8386c_17752ed57cbc48da8ecac8bced2c9a33~mv2.jpeg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis rapide et gratuit",
+     "title": "Un projet ? <em class=\"it\">Parlons-en</em>",
+     "cta": [
+      "Demander un devis",
+      "../#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "interieur",
+   "label": "Intérieur",
+   "title": "Intérieur",
+   "eyebrow": "Peinture · Papier peint · Décoration",
+   "lead": "Peinture, papier peint et peinture décorative, pour les particuliers et les entreprises.",
+   "img": "https://static.wixstatic.com/media/11062b_2ccb88c1c6de4151b51879d6c90fca9df000.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "realisations",
+     "eyebrow": "Nos réalisations",
+     "title": "Peinture <em class=\"it\">intérieure</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_bd614ae274b1409dae66f17b9a3b30f7~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_bd614ae274b1409dae66f17b9a3b30f7~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Restaurant du Golf",
+       "caption": "Restaurant du Golf"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_793a673ff3114c62ba4e8e8faf2ec8f4~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_793a673ff3114c62ba4e8e8faf2ec8f4~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Dune",
+       "caption": "Dune"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_dbb1e333d4794fd68ac71ba28963fa8b~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_dbb1e333d4794fd68ac71ba28963fa8b~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Animamundi",
+       "caption": "Animamundi"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_a8e87a5a34d848a39d473248ad63754f~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_a8e87a5a34d848a39d473248ad63754f~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Labo",
+       "caption": "Labo"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_e237af0972534f1d88b4deef80b6a27b~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_e237af0972534f1d88b4deef80b6a27b~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Aixam, Grésy-sur-Aix",
+       "caption": "Aixam, Grésy-sur-Aix"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_255ca0797ebc4721ad07430ff159c980.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_255ca0797ebc4721ad07430ff159c980.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Cage d'escalier",
+       "caption": "Cage d'escalier"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_edd2fe5b5a07400ab2766ccd96eac754.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_edd2fe5b5a07400ab2766ccd96eac754.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Swahili",
+       "caption": "Swahili"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_1cd1294e66ef45a4afe7bd2b0ffd536d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_1cd1294e66ef45a4afe7bd2b0ffd536d.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Swahili",
+       "caption": "Swahili"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_e2012aef9195419db1c36002c03d465e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_e2012aef9195419db1c36002c03d465e.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture",
+       "caption": "Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_a4d496b3a0e94b1d99672eecb4ae77cc.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_a4d496b3a0e94b1d99672eecb4ae77cc.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture",
+       "caption": "Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_b9e3b10bd5434bb38ac3f86059d69b0e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_b9e3b10bd5434bb38ac3f86059d69b0e.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Plafond Swahili",
+       "caption": "Plafond Swahili"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_c2819d38d2de48bb88d6adda4bb7eb2c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_c2819d38d2de48bb88d6adda4bb7eb2c.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture",
+       "caption": "Peinture"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_5ffc5d1eff0445f6bec020555231969d.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_5ffc5d1eff0445f6bec020555231969d.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture intérieure"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_f6961297c40b4a42bbfec966fe188f56.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_f6961297c40b4a42bbfec966fe188f56.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture intérieure"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_c5a07a6a7ce74f308fe321bc8390de3e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_c5a07a6a7ce74f308fe321bc8390de3e.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture intérieure"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_734881c014914d29af7edd8db352da12.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_734881c014914d29af7edd8db352da12.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture intérieure"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_ec1fb576760f41f9b5ced8fdaaf338e3.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_ec1fb576760f41f9b5ced8fdaaf338e3.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Peinture intérieure"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/c8386c_bd614ae274b1409dae66f17b9a3b30f7~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis rapide et gratuit",
+     "title": "Un projet ? <em class=\"it\">Parlons-en</em>",
+     "cta": [
+      "Demander un devis",
+      "../#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "parquet",
+   "label": "Parquet",
+   "title": "Parquet & sols",
+   "eyebrow": "Rénovation · Pose",
+   "lead": "Rénovation de parquet et pose de revêtements de sol.",
+   "img": "https://static.wixstatic.com/media/11062b_aa1eeb25fbd3484dbde611d71d7c5747f000.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "realisations",
+     "eyebrow": "Nos réalisations",
+     "title": "Parquets <em class=\"it\">et sols</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_ecc7f175dad04ddd9d589bbcdac1da74~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_ecc7f175dad04ddd9d589bbcdac1da74~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Rénovation parquet",
+       "caption": "Rénovation parquet"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_5b01383a9a9f4c9486652e3098f63987~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_5b01383a9a9f4c9486652e3098f63987~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Parquet lame LVT",
+       "caption": "Parquet lame LVT"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/c8386c_cc499d576c2d4e1c9e0b7405245ed5e6~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "thumb": "https://static.wixstatic.com/media/c8386c_cc499d576c2d4e1c9e0b7405245ed5e6~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+       "alt": "Parquet lame LVT",
+       "caption": "Parquet lame LVT"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/c8386c_ecc7f175dad04ddd9d589bbcdac1da74~mv2_d_5120_2880_s_4_2.jpg/v1/fit/w_1920,h_1920,al_c,q_85/img.jpg",
+     "eyebrow": "Devis rapide et gratuit",
+     "title": "Un projet ? <em class=\"it\">Parlons-en</em>",
+     "cta": [
+      "Demander un devis",
+      "../#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis rapide et gratuit",
+   "lead": "540 rue Pierre Favre, 73100 Tresserve.",
+   "img": "https://static.wixstatic.com/media/11062b_64ae2a899006496dac01c2e81fac97f1f000.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis rapide et gratuit",
+     "title": "Demandez <em class=\"it\">votre devis</em>",
+     "lead": "Particuliers et entreprises, neuf et rénovation, intérieur et extérieur : décrivez votre projet.",
+     "side": [
+      "<a href=\"mailto:Grosjean.fils@hotmail.fr\">Grosjean.fils@hotmail.fr</a>",
+      "540 rue Pierre Favre, 73100 Tresserve",
+      "Tresserve · Ruffieux · Saint-Paul (73)"
+     ],
+     "email": "Grosjean.fils@hotmail.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Type de travaux",
+       "type": "select",
+       "options": [
+        "Peinture",
+        "Papier peint",
+        "Peinture décorative",
+        "Ravalement de façade",
+        "Pose de revêtement de sol",
+        "Nettoyage, traitement et peinture de toitures"
+       ]
+      },
+      {
+       "label": "Votre projet",
+       "type": "textarea",
+       "rows": 5,
+       "full": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "SARL <em class=\"it\">Grosjean&amp;Fils</em>",
+     "text": "Siège à Tresserve, interventions aussi à Ruffieux et Saint-Paul (73).",
+     "img": "https://static.wixstatic.com/media/c8386c_55876240130a4dbdbab2aa4151f5b6c7.jpg/v1/fit/w_900,h_900,al_c,q_85/img.jpg",
+     "rows": [
+      [
+       "E-mail",
+       "<a href=\"mailto:Grosjean.fils@hotmail.fr\">Grosjean.fils@hotmail.fr</a>"
+      ],
+      [
+       "Adresse",
+       "540 rue Pierre Favre, 73100 Tresserve"
+      ],
+      [
+       "Garanties",
+       "Garantie décennale et responsabilité civile à jour"
+      ]
+     ],
+     "map_q": "540 rue Pierre Favre, 73100 Tresserve",
+     "cta": [
+      "Écrire à l'entreprise",
+      "mailto:Grosjean.fils@hotmail.fr"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "SARL Grosjean&Fils, artisan peintre depuis 1986 à Tresserve (Savoie) : peinture, papier peint, décoration, façades, sols et toitures.",
+  "contact": [
+   "<a href=\"mailto:Grosjean.fils@hotmail.fr\">Grosjean.fils@hotmail.fr</a>",
+   "540 rue Pierre Favre, 73100 Tresserve",
+   "Tresserve · Ruffieux · Saint-Paul (73)"
+  ],
+  "legal": "Garantie décennale et responsabilité civile à jour."
+ }
+}
