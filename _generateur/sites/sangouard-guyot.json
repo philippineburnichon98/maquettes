@@ -1,0 +1,1007 @@
+{
+ "slug": "sangouard-guyot-7c3d4d",
+ "title": "Domaine Sangouard-Guyot, grands vins de Bourgogne à Vergisson : Pouilly-Fuissé, Mâcon, Saint-Véran",
+ "description": "Le Domaine Sangouard-Guyot cultive et élève à Vergisson des vins blancs de Bourgogne : Pouilly-Fuissé, Saint-Véran et Mâcon. Dégustation au domaine sur rendez-vous.",
+ "brand": "Domaine Sangouard-Guyot",
+ "tagline": "Grands vins de Bourgogne · Vergisson",
+ "agegate": true,
+ "phead": "box",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f8f5ee",
+  "paper2": "#efe8d9",
+  "ink": "#1f1b16",
+  "muted": "#6a6154",
+  "accent": "#8a6a2f",
+  "accent2": "#6c5223",
+  "gold": "#b8964f",
+  "heroem": "#f1dfae",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Lato\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Lato:wght@300;400;700&display=swap"
+ },
+ "logo": {
+  "src": "https://www.domaine-sangouard-guyot.com/images/domaine-sangouard-guyot-blanc_crc-195654673.png",
+  "height": 58,
+  "bg": "#1f1b16"
+ },
+ "topbar": [
+  "<a href=\"tel:+33385358945\">03 85 35 89 45</a>",
+  "<a href=\"mailto:domaine@sangouard-guyot.fr\">domaine@sangouard-guyot.fr</a>",
+  "83, rue du Repostère · 71960 Vergisson"
+ ],
+ "nav": [
+  [
+   "domaine",
+   "Le domaine"
+  ],
+  [
+   "vins",
+   "Les vins"
+  ],
+  [
+   "presse",
+   "Revue de presse"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://www.domaine-sangouard-guyot.com/images/fondacc_crc-4065581925.jpg",
+  "eyebrow": "Pouilly-Fuissé · Saint-Véran · Mâcon",
+  "title": "Grands vins de Bourgogne<br>à <em>Vergisson</em>",
+  "lead": "Entre les roches de Solutré et de Vergisson, une famille présente dans le vignoble du Pouilly-Fuissé depuis le XVIIIe siècle.",
+  "cta1": [
+   "Découvrir nos vins",
+   "vins/"
+  ],
+  "cta2": [
+   "03 85 35 89 45",
+   "tel:+33385358945"
+  ]
+ },
+ "figures": [
+  [
+   "XVIII<sup>e</sup>",
+   "siècle : la famille au Pouilly-Fuissé"
+  ],
+  [
+   "12 ha",
+   "de chardonnay"
+  ],
+  [
+   "32",
+   "parcelles"
+  ],
+  [
+   "8",
+   "cuvées"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Le domaine",
+   "title": "Sangouard <em class=\"it\">& Guyot</em>",
+   "img": "https://www.domaine-sangouard-guyot.com/images/bourgonvinculture-crop-u11618_crc-4001746130.jpg",
+   "alt": "Les vignes du domaine à Vergisson",
+   "paras": [
+    "Famille présente dans le vignoble du Pouilly-Fuissé depuis le XVIIIe siècle. En 1997, Pierre-Emmanuel Sangouard s'installe sur l'exploitation familiale, tenue alors par son grand-père.",
+    "En 2000, il reprend les vignobles du domaine Guyot, les parents de son épouse, et le domaine Sangouard-Guyot se forme : 12 hectares de chardonnay en Pouilly-Fuissé, Saint-Véran et Mâcon.",
+    "Nos vignes, orientées sud-sud-est, s'étendent entre les roches de Solutré et de Vergisson, classées « Grand Site de France »."
+   ],
+   "sign": "Catherine et Pierre-Emmanuel Sangouard"
+  },
+  {
+   "kind": "quote",
+   "eyebrow": "Hiver",
+   "text": "« Au milieu de l'hiver, j'ai découvert en moi un invincible été. »",
+   "sub": "Albert Camus"
+  },
+  {
+   "kind": "blocks",
+   "id": "appellations",
+   "eyebrow": "Les vins",
+   "title": "Trois appellations, <em class=\"it\">huit cuvées</em>",
+   "lead": "Des blancs de Bourgogne, tous en chardonnay, élevés sur lies en fûts ou en cuves thermo-régulées.",
+   "items": [
+    {
+     "kicker": "Mâcon",
+     "title": "Mâcon-Villages, Vergisson et Bussières",
+     "paras": [
+      "Clos de la Bressande, La Roche et Les Taupes : des vins frais, fruités et floraux."
+     ],
+     "link": [
+      "Voir les cuvées",
+      "vins/#vins"
+     ]
+    },
+    {
+     "kicker": "Saint-Véran",
+     "title": "Au Brûlé",
+     "paras": [
+      "Une parcelle de 0,80 ha à Leynes, élevée en fûts de 5 à 8 ans."
+     ],
+     "link": [
+      "Voir la cuvée",
+      "vins/#vins"
+     ]
+    },
+    {
+     "kicker": "Pouilly-Fuissé",
+     "title": "Authentique, Ancestral, Quintessence, Terroirs",
+     "paras": [
+      "Quatre expressions des terroirs de Vergisson, à attendre 3 à 5 ans et jusqu'à 10 ans."
+     ],
+     "link": [
+      "Voir les cuvées",
+      "vins/#vins"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "savoir-faire",
+   "eyebrow": "À la vigne et au chai",
+   "title": "En osmose <em class=\"it\">avec la nature</em>",
+   "lead": "« Adeptes de la tradition, nous mettons en pratique des méthodes en parfaite osmose avec la nature. »",
+   "items": [
+    [
+     "Viticulture raisonnée",
+     "Afin de préserver l'environnement, le vignoble est conduit en viticulture raisonnée."
+    ],
+    [
+     "Sols labourés",
+     "Toutes nos parcelles sont labourées, pour aérer les sols autour des racines."
+    ],
+    [
+     "Rognage haut",
+     "Les vignes sont rognées le plus haut possible et très près des grappes, pour favoriser la photosynthèse."
+    ],
+    [
+     "Vendanges manuelles",
+     "La cueillette du raisin est effectuée manuellement et à maturité optimale."
+    ],
+    [
+     "Élevage sur lies",
+     "Après un léger débourbage, fermentation en fûts ou en cuves thermo-régulées, puis 10 mois sur lies avec bâtonnages hebdomadaires."
+    ],
+    [
+     "Mise en bouteille au domaine",
+     "Les vins sont mis en bouteille à la propriété, en juillet."
+    ]
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://www.domaine-sangouard-guyot.com/images/vini1_crc-4016805413.jpg",
+   "eyebrow": "Revue de presse",
+   "title": "Récompenses, guides <em class=\"it\">et interviews</em>",
+   "cta": [
+    "Lire la revue de presse",
+    "presse/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous contacter",
+   "title": "Au domaine, <em class=\"it\">à Vergisson</em>",
+   "img": "https://www.domaine-sangouard-guyot.com/images/img_5260-crop-u11324_crc-4102279066.jpg",
+   "text": "Venez déguster nos vins à Vergisson. Pour un rendez-vous, appelez-nous ou écrivez-nous par e-mail.",
+   "rows": [
+    [
+     "Vignerons",
+     "Catherine et Pierre-Emmanuel Sangouard"
+    ],
+    [
+     "Adresse",
+     "83, rue du Repostère<br>71960 Vergisson"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33385358945\">03 85 35 89 45</a>"
+    ],
+    [
+     "Fax",
+     "03 85 35 89 73"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:domaine@sangouard-guyot.fr\">domaine@sangouard-guyot.fr</a>"
+    ],
+    [
+     "GPS",
+     "N 46.31240 · E 4.717161"
+    ]
+   ],
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33385358945"
+   ],
+   "map_q": "46.31240,4.717161"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "domaine",
+   "label": "Le domaine",
+   "title": "Le domaine",
+   "eyebrow": "Vergisson · depuis le XVIIIe siècle",
+   "h1": "Le <em>domaine</em>",
+   "lead": "Une famille présente dans le vignoble du Pouilly-Fuissé depuis le XVIIIe siècle.",
+   "img": "https://www.domaine-sangouard-guyot.com/images/bourgonvinculture-crop-u11618_crc-4001746130.jpg",
+   "sections": [
+    {
+     "kind": "quote",
+     "eyebrow": "Hiver",
+     "text": "« Au milieu de l'hiver, j'ai découvert en moi un invincible été. »",
+     "sub": "Albert Camus"
+    },
+    {
+     "kind": "story",
+     "id": "histoire-famille",
+     "eyebrow": "Notre histoire",
+     "title": "Deux familles, <em class=\"it\">un domaine</em>",
+     "img": "https://www.domaine-sangouard-guyot.com/images/papyrys_crc-4270277139.png",
+     "alt": "L'arbre généalogique de la famille",
+     "paras": [
+      "Famille présente dans le vignoble du Pouilly-Fuissé depuis le XVIIIe siècle.",
+      "En 1997, Pierre-Emmanuel Sangouard s'installe sur l'exploitation familiale, tenue alors par son grand-père.",
+      "En 2000, il reprend les vignobles du domaine Guyot, les parents de son épouse, et le domaine Sangouard-Guyot se forme."
+     ]
+    },
+    {
+     "kind": "timeline",
+     "id": "histoire",
+     "eyebrow": "La frise des générations",
+     "title": "Charlet, Lemonier, Delorme, <em class=\"it\">Guyot, Sangouard</em>",
+     "lead": "Deux lignées de vignerons de Vergisson, réunies en 2000.",
+     "imgs": [
+      "https://www.domaine-sangouard-guyot.com/images/plushist_crc-4140960067.png"
+     ],
+     "items": [
+      {
+       "when": "1850",
+       "who": "Jean-Marie Charlet",
+       "text": "Puis Benoît Charlet, son fils (1880)."
+      },
+      {
+       "when": "1855",
+       "who": "Claude-Antoine Delorme",
+       "text": "Puis Claude Guyot, son gendre (1890)."
+      },
+      {
+       "when": "1924",
+       "who": "Victor Lemonier",
+       "text": "Gendre ; puis Marcel Lemonier, son fils (1949)."
+      },
+      {
+       "when": "1965",
+       "who": "Colette & Daniel Guyot",
+       "text": "Vendanges 1965 : Daniel Guyot reprend l'exploitation familiale avec son épouse Colette."
+      },
+      {
+       "when": "1997",
+       "who": "Pierre-Emmanuel Sangouard",
+       "text": "Le petit-fils s'installe sur l'exploitation familiale, tenue alors par son grand-père."
+      },
+      {
+       "when": "2000",
+       "who": "Domaine Sangouard-Guyot",
+       "text": "Pierre-Emmanuel reprend les vignobles du domaine Guyot, les parents de son épouse Catherine."
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "terroir",
+     "eyebrow": "Le vignoble",
+     "title": "12 hectares <em class=\"it\">de chardonnay</em>",
+     "img": "https://www.domaine-sangouard-guyot.com/images/lettre_crc-3767694208.png",
+     "alt": "Les surfaces du domaine",
+     "paras": [
+      "Pouilly-Fuissé : 9,50 ha · Saint-Véran : 0,80 ha · Mâcon-Vergisson : 0,50 ha · Mâcon-Bussières : 0,20 ha · Mâcon-Villages : 1 ha.",
+      "Nos vignes, orientées sud-sud-est, s'étendent entre les roches de Solutré et de Vergisson, classées « Grand Site de France ». 32 parcelles au total, sur des sols argilo-calcaires.",
+      "Exploitant une superficie à taille humaine, nous pouvons ainsi nous permettre de travailler les vignes manuellement."
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "philosophie",
+     "eyebrow": "Notre philosophie",
+     "title": "La tradition, <em class=\"it\">en osmose avec la nature</em>",
+     "img": "https://www.domaine-sangouard-guyot.com/images/philo3_crc-412637304.jpg",
+     "alt": "Le travail de la vigne",
+     "paras": [
+      "« Adeptes de la tradition, nous mettons en pratique des méthodes en parfaite osmose avec la nature. »",
+      "Afin de préserver l'environnement, le vignoble est conduit en viticulture raisonnée. Toutes nos parcelles sont labourées, et les vignes sont rognées le plus haut possible et très près des grappes pour favoriser la photosynthèse."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "savoir-faire",
+     "eyebrow": "À la vigne et au chai",
+     "title": "En osmose <em class=\"it\">avec la nature</em>",
+     "lead": "« Adeptes de la tradition, nous mettons en pratique des méthodes en parfaite osmose avec la nature. »",
+     "items": [
+      [
+       "Viticulture raisonnée",
+       "Afin de préserver l'environnement, le vignoble est conduit en viticulture raisonnée."
+      ],
+      [
+       "Sols labourés",
+       "Toutes nos parcelles sont labourées, pour aérer les sols autour des racines."
+      ],
+      [
+       "Rognage haut",
+       "Les vignes sont rognées le plus haut possible et très près des grappes, pour favoriser la photosynthèse."
+      ],
+      [
+       "Vendanges manuelles",
+       "La cueillette du raisin est effectuée manuellement et à maturité optimale."
+      ],
+      [
+       "Élevage sur lies",
+       "Après un léger débourbage, fermentation en fûts ou en cuves thermo-régulées, puis 10 mois sur lies avec bâtonnages hebdomadaires."
+      ],
+      [
+       "Mise en bouteille au domaine",
+       "Les vins sont mis en bouteille à la propriété, en juillet."
+      ]
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "vinification",
+     "eyebrow": "Au chai",
+     "title": "Dix mois <em class=\"it\">sur lies</em>",
+     "img": "https://www.domaine-sangouard-guyot.com/images/vini1_crc-4016805413.jpg",
+     "alt": "La vinification au domaine",
+     "paras": [
+      "La cueillette du raisin est effectuée manuellement et à maturité optimale, suivie d'un pressurage lent et modéré.",
+      "Après un léger débourbage, les vins partent directement en fermentation dans les fûts (neufs, de 5 ans ou de 10 ans) ou les cuves thermo-régulées.",
+      "Les vins sont élevés sur lies pendant 10 mois avec des bâtonnages hebdomadaires pour apporter rondeur et opulence, puis mis en bouteille à la propriété en juillet."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vins",
+   "label": "Les vins",
+   "title": "Les vins",
+   "eyebrow": "Pouilly-Fuissé · Saint-Véran · Mâcon",
+   "h1": "Les <em>vins</em>",
+   "lead": "Huit cuvées de chardonnay, chacune avec sa fiche technique.",
+   "img": "https://www.domaine-sangouard-guyot.com/images/vini1_crc-4016805413.jpg",
+   "sections": [
+    {
+     "kind": "quote",
+     "eyebrow": "Printemps · paroles d'enfant",
+     "text": "« Le Printemps, c'est quand la neige fond et qu'elle repousse en gazon. »",
+     "sub": ""
+    },
+    {
+     "kind": "cards",
+     "id": "vins",
+     "eyebrow": "Les vins",
+     "title": "Huit cuvées, <em class=\"it\">un seul cépage</em>",
+     "lead": "Mâcon, Saint-Véran et Pouilly-Fuissé : des blancs de Bourgogne, tous en chardonnay, sur sols argilo-calcaires. Vendanges manuelles, pressurage pneumatique en grappes entières, mise en bouteille à la propriété.",
+     "tabs": [
+      [
+       "macon",
+       "Mâcon"
+      ],
+      [
+       "veran",
+       "Saint-Véran"
+      ],
+      [
+       "pf",
+       "Pouilly-Fuissé"
+      ]
+     ],
+     "items": [
+      {
+       "cat": "macon",
+       "color": "#e3cf86",
+       "tag": "Mâcon-Villages",
+       "name": "Clos de la Bressande",
+       "app": "Mâcon-Villages · Chardonnay",
+       "desc": "Nez de fleurs blanches (aubépine, acacia) et de pêche de vigne ; un vin frais et facile à boire : « le vin plaisir par excellence ! »",
+       "sheet": [
+        [
+         "Parcelle",
+         "1 ha à Hurigny, exposé sud / sud-est"
+        ],
+        [
+         "Vignes",
+         "30 ans"
+        ],
+        [
+         "Élevage",
+         "Cuves thermo-régulées, 10 mois"
+        ],
+        [
+         "Garde",
+         "À boire jeune, jusqu'à 3 ans"
+        ],
+        [
+         "Service",
+         "12 °C"
+        ],
+        [
+         "Accords",
+         "Apéritif, charcuterie, viandes blanches, poissons grillés"
+        ],
+        [
+         "Production",
+         "Environ 7 800 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/macon-villages-fr.pdf"
+       ]
+      },
+      {
+       "cat": "macon",
+       "color": "#ddc674",
+       "tag": "Mâcon-Vergisson",
+       "name": "La Roche",
+       "app": "Mâcon-Vergisson · Chardonnay",
+       "desc": "Nez généreux, fruité et floral, parfois légèrement muscaté ; bouche tendre et affable, aux arômes suaves de fruits exotiques.",
+       "sheet": [
+        [
+         "Parcelle",
+         "0,50 ha sur la roche de Vergisson, en lisière du Pouilly-Fuissé"
+        ],
+        [
+         "Vignes",
+         "25 ans"
+        ],
+        [
+         "Élevage",
+         "Fûts de chêne anciens, 10 mois"
+        ],
+        [
+         "Garde",
+         "Frais jeune, s'assouplit en 5 à 6 ans"
+        ],
+        [
+         "Service",
+         "12 – 13 °C"
+        ],
+        [
+         "Accords",
+         "Apéritif élaboré, salades complexes, escargots, poissons grillés, moules, fromages de chèvre"
+        ],
+        [
+         "Production",
+         "Environ 3 300 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/macon-vergisson-fr.pdf"
+       ]
+      },
+      {
+       "cat": "macon",
+       "color": "#d6bd64",
+       "tag": "Mâcon-Bussières",
+       "name": "Les Taupes",
+       "app": "Mâcon-Bussières · Chardonnay",
+       "desc": "Nez d'abord fruité, puis floral et surtout minéral ; un vin précis et ciselé, marqué par des fûts âgés.",
+       "sheet": [
+        [
+         "Parcelle",
+         "« Les Taupes », 0,17 ha à Bussières, en lisière du Pouilly-Fuissé"
+        ],
+        [
+         "Vignes",
+         "40 ans"
+        ],
+        [
+         "Élevage",
+         "Fûts de chêne anciens, 10 mois"
+        ],
+        [
+         "Garde",
+         "Frais jeune, s'assouplit en 5 à 6 ans"
+        ],
+        [
+         "Service",
+         "12 – 13 °C"
+        ],
+        [
+         "Accords",
+         "Apéritif élaboré, salades complexes, escargots, andouillettes"
+        ],
+        [
+         "Production",
+         "Environ 1 200 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/macon-bussieres-fr.pdf"
+       ]
+      },
+      {
+       "cat": "veran",
+       "color": "#d2b558",
+       "tag": "Saint-Véran",
+       "name": "Au Brûlé",
+       "app": "Saint-Véran · Chardonnay",
+       "desc": "Arômes complexes dominés par les agrumes, l'aubépine et l'églantine ; vivacité et fraîcheur en bouche, des notes d'amandes grillées avec l'âge.",
+       "sheet": [
+        [
+         "Parcelle",
+         "0,80 ha à Leynes, en altitude"
+        ],
+        [
+         "Vignes",
+         "25 ans"
+        ],
+        [
+         "Élevage",
+         "Fûts de 5 à 8 ans, sur lies fines, 12 mois"
+        ],
+        [
+         "Garde",
+         "Jeune à l'apéritif, ou 2 – 3 ans à table"
+        ],
+        [
+         "Service",
+         "12 – 13 °C"
+        ],
+        [
+         "Accords",
+         "Jambon persillé, poissons fumés, escargots, andouillettes, cuisses de grenouilles"
+        ],
+        [
+         "Production",
+         "Environ 5 900 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/saint-veran-fr.pdf"
+       ],
+       "medal": "Wine Enthusiast 2015 : 90 points"
+      },
+      {
+       "cat": "pf",
+       "color": "#cfae4c",
+       "tag": "Pouilly-Fuissé",
+       "name": "Authentique",
+       "app": "Pouilly-Fuissé · Chardonnay",
+       "desc": "Nez fin et élégant, aux parfums de fleurs blanches ; une bouche où s'exprime la minéralité : « finesse et distinction ».",
+       "sheet": [
+        [
+         "Parcelle",
+         "« La Roche », hauts coteaux de la roche de Vergisson"
+        ],
+        [
+         "Vignes",
+         "40 ans"
+        ],
+        [
+         "Élevage",
+         "Cuves thermo-régulées, 10 mois"
+        ],
+        [
+         "Garde",
+         "Attendre 3 – 5 ans, jusqu'à 10 ans"
+        ],
+        [
+         "Service",
+         "12 – 13 °C"
+        ],
+        [
+         "Accords",
+         "Crustacés nobles, poissons, viandes blanches en sauce crémée, foie gras cuit"
+        ],
+        [
+         "Production",
+         "Environ 6 000 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/pouilly-fuisse-authentique-fr.pdf"
+       ],
+       "medal": "Guide RVF 2016 : 15/20 · Vinous : 90/100"
+      },
+      {
+       "cat": "pf",
+       "color": "#c9a443",
+       "tag": "Pouilly-Fuissé",
+       "name": "Ancestral",
+       "app": "Pouilly-Fuissé · Chardonnay",
+       "desc": "Nez complexe de fruits exotiques, d'agrumes et de fleurs d'acacia ; bouche souple et moelleuse, subtilement miellée et vanillée.",
+       "sheet": [
+        [
+         "Parcelles",
+         "Ronchevat et En Carmentrant, à Vergisson"
+        ],
+        [
+         "Vignes",
+         "50 ans en moyenne"
+        ],
+        [
+         "Élevage",
+         "Fûts de chêne de 3 à 5 ans, sur lies fines, 10 mois"
+        ],
+        [
+         "Garde",
+         "Attendre 3 – 5 ans, jusqu'à 10 ans"
+        ],
+        [
+         "Service",
+         "12 – 13 °C"
+        ],
+        [
+         "Accords",
+         "Poissons et viandes blanches, crustacés nobles, foie gras cuit"
+        ],
+        [
+         "Production",
+         "Environ 7 000 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/pouilly-fuisse-ancestral-fr.pdf"
+       ],
+       "medal": "Wine Advocate 2015 : 90 pts · Wine Enthusiast 2016 : 90 pts · Vinous : 91/100"
+      },
+      {
+       "cat": "pf",
+       "color": "#c19a3a",
+       "tag": "Pouilly-Fuissé",
+       "name": "Quintessence",
+       "app": "Pouilly-Fuissé · Chardonnay",
+       "desc": "Nez minéral, notes d'agrumes et de fruits secs légèrement grillés ; une minéralité marquée par un sous-sol riche en fossiles, alliée aux notes toastées du bois.",
+       "sheet": [
+        [
+         "Parcelles",
+         "Le Clos des Croux et Pommard, flanc sud de la roche de Vergisson"
+        ],
+        [
+         "Vignes",
+         "45 ans en moyenne"
+        ],
+        [
+         "Élevage",
+         "Fûts de chêne de moins de 3 ans, sur lies fines, 12 mois"
+        ],
+        [
+         "Garde",
+         "Attendre 3 ans minimum, jusqu'à 10 ans"
+        ],
+        [
+         "Service",
+         "12 – 13 °C"
+        ],
+        [
+         "Accords",
+         "Crustacés nobles, poissons, viandes blanches en sauce crémée, foie gras cuit"
+        ],
+        [
+         "Production",
+         "Environ 8 200 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/pouilly-fuisse-quintessence-fr.pdf"
+       ],
+       "medal": "Wine Enthusiast 2016 : 92 pts · Vinous : 92/100"
+      },
+      {
+       "cat": "pf",
+       "color": "#b89032",
+       "tag": "Pouilly-Fuissé",
+       "name": "Terroirs",
+       "app": "Pouilly-Fuissé · Chardonnay",
+       "desc": "Nez d'abord fruité (agrumes), puis floral (verveine, tilleul) et minéral ; la vivacité de la cuve et la rondeur légèrement miellée des fûts.",
+       "sheet": [
+        [
+         "Lieux-dits",
+         "Terres du Perray, La Folle, En France, Le Repostère, Les Vignes Dessus"
+        ],
+        [
+         "Vignes",
+         "40 ans en moyenne"
+        ],
+        [
+         "Élevage",
+         "1/3 en cuves, 2/3 en fûts de 7 à 8 ans"
+        ],
+        [
+         "Garde",
+         "Attendre 3 – 5 ans, jusqu'à 10 ans"
+        ],
+        [
+         "Service",
+         "12 – 13 °C"
+        ],
+        [
+         "Accords",
+         "Poissons et viandes blanches (volaille, veau) en sauce crémée"
+        ],
+        [
+         "Production",
+         "Environ 20 600 bouteilles / an"
+        ]
+       ],
+       "link": [
+        "Fiche technique (PDF)",
+        "https://www.domaine-sangouard-guyot.com/assets/pouilly-fuisse-terroirs-fr.pdf"
+       ],
+       "medal": "Decanter Awards 2016 : médaille d'argent"
+      }
+     ],
+     "note": "Bouteilles de 75 cl, 13 % vol. Tarifs et disponibilités : nous contacter au 03 85 35 89 45."
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.domaine-sangouard-guyot.com/images/fondacc_crc-4065581925.jpg",
+     "eyebrow": "Dégustation au domaine",
+     "title": "Venez déguster <em class=\"it\">à Vergisson</em>",
+     "cta": [
+      "Prendre rendez-vous",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "presse",
+   "label": "Revue de presse",
+   "title": "Revue de presse",
+   "eyebrow": "Guides, concours et interviews",
+   "h1": "La revue <em>de presse</em>",
+   "lead": "Les récompenses du domaine année après année, et deux interviews en vidéo.",
+   "img": "https://www.domaine-sangouard-guyot.com/images/philo3_crc-412637304.jpg",
+   "sections": [
+    {
+     "kind": "quote",
+     "eyebrow": "Été · proverbe populaire",
+     "text": "« Été ensoleillé remplit cave et grenier. »",
+     "sub": ""
+    },
+    {
+     "kind": "blocks",
+     "id": "videos",
+     "eyebrow": "En vidéo",
+     "title": "Le domaine <em class=\"it\">en interview</em>",
+     "items": [
+      {
+       "kicker": "French Wines",
+       "title": "Interview French Wines",
+       "img": "https://img.youtube.com/vi/3OLQmFTha94/hqdefault.jpg",
+       "alt": "Interview French Wines",
+       "link": [
+        "Regarder la vidéo",
+        "https://www.youtube.com/watch?v=3OLQmFTha94"
+       ]
+      },
+      {
+       "kicker": "France 3",
+       "title": "Interview France 3 Bourgogne Franche-Comté",
+       "img": "https://img.youtube.com/vi/S0twEnWgFj8/hqdefault.jpg",
+       "alt": "Interview France 3 Bourgogne Franche-Comté",
+       "link": [
+        "Regarder la vidéo",
+        "https://www.youtube.com/watch?v=S0twEnWgFj8&t=15s"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "distinctions",
+     "eyebrow": "Distinctions",
+     "title": "Ce qu'en disent <em class=\"it\">les guides</em>",
+     "lead": "Notes et médailles relevées sur les fiches techniques des cuvées.",
+     "items": [
+      {
+       "kicker": "Pouilly-Fuissé Quintessence",
+       "title": "92 points",
+       "list": [
+        "Wine Enthusiast (2016) : 92 points",
+        "Vinous (décembre 2015) : 92/100"
+       ]
+      },
+      {
+       "kicker": "Pouilly-Fuissé Ancestral",
+       "title": "90 à 91 points",
+       "list": [
+        "Wine Advocate (2015) : 90 points",
+        "Wine Enthusiast (2016) : 90 points",
+        "Vinous (décembre 2015) : 91/100"
+       ]
+      },
+      {
+       "kicker": "Pouilly-Fuissé Authentique",
+       "title": "15/20 RVF",
+       "list": [
+        "Guide RVF 2016 : 15/20",
+        "Vinous (Stephen Tanzer) : 90/100"
+       ]
+      },
+      {
+       "kicker": "Pouilly-Fuissé Terroirs",
+       "title": "Médaille d'argent",
+       "list": [
+        "Decanter Awards 2016 : médaille d'argent"
+       ]
+      },
+      {
+       "kicker": "Saint-Véran Au Brûlé",
+       "title": "90 points",
+       "list": [
+        "Wine Enthusiast (2015) : 90 points"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "recompenses",
+     "eyebrow": "Archives",
+     "title": "Les récompenses <em class=\"it\">année par année</em>",
+     "lead": "La revue de presse complète, en PDF.",
+     "items": [
+      {
+       "kicker": "Récompenses 2018",
+       "title": "2018",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2018.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2017",
+       "title": "2017",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2017.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2016",
+       "title": "2016",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2016.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2015",
+       "title": "2015",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2015.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2014",
+       "title": "2014",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2014.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2013",
+       "title": "2013",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2013.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2012",
+       "title": "2012",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2012.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2011",
+       "title": "2011",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2011.pdf"
+       ]
+      },
+      {
+       "kicker": "Récompenses 2010",
+       "title": "2010",
+       "link": [
+        "Ouvrir le PDF",
+        "https://www.domaine-sangouard-guyot.com/assets/recompenses-2010.pdf"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Nous contacter",
+   "eyebrow": "Vergisson · Saône-et-Loire",
+   "h1": "Nous <em>contacter</em>",
+   "lead": "Venez déguster nos vins au domaine, sur rendez-vous.",
+   "img": "https://www.domaine-sangouard-guyot.com/images/img_5260-crop-u11324_crc-4102279066.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous contacter",
+     "title": "Au domaine, <em class=\"it\">à Vergisson</em>",
+     "img": "https://www.domaine-sangouard-guyot.com/images/plan_crc-4182242936.png",
+     "text": "Venez déguster nos vins à Vergisson. Pour un rendez-vous, appelez-nous ou écrivez-nous par e-mail.",
+     "rows": [
+      [
+       "Vignerons",
+       "Catherine et Pierre-Emmanuel Sangouard"
+      ],
+      [
+       "Adresse",
+       "83, rue du Repostère<br>71960 Vergisson"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33385358945\">03 85 35 89 45</a>"
+      ],
+      [
+       "Fax",
+       "03 85 35 89 73"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:domaine@sangouard-guyot.fr\">domaine@sangouard-guyot.fr</a>"
+      ],
+      [
+       "GPS",
+       "N 46.31240 · E 4.717161"
+      ]
+     ],
+     "cta": [
+      "Appeler le domaine",
+      "tel:+33385358945"
+     ],
+     "map_q": "46.31240,4.717161",
+     "alt": "Plan d'accès au domaine"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Domaine Sangouard-Guyot, grands vins de Bourgogne à Vergisson : Pouilly-Fuissé, Saint-Véran et Mâcon.",
+  "contact": [
+   "<a href=\"tel:+33385358945\">03 85 35 89 45</a>",
+   "<a href=\"mailto:domaine@sangouard-guyot.fr\">domaine@sangouard-guyot.fr</a>",
+   "83, rue du Repostère, 71960 Vergisson"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/pages/domaine-SANGOUARD-GUYOT/168678303200120"
+   ]
+  ]
+ }
+}
