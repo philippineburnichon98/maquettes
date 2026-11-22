@@ -1,0 +1,446 @@
+{
+ "slug": "alix-avocat-352ede",
+ "title": "Maître Caroline Alix, avocat au Barreau de Vannes",
+ "description": "Caroline Alix, avocat généraliste au Barreau de Vannes depuis 2005, en structure individuelle : pour vous conseiller, vous accompagner, vous défendre. Cabinet au 7 bis rue Pasteur, Vannes.",
+ "brand": "Maître Caroline Alix",
+ "tagline": "Avocat au Barreau de Vannes",
+ "monogram": "CA",
+ "home_label": "Accueil",
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f4ef",
+  "paper2": "#e9e5dc",
+  "ink": "#1b2433",
+  "muted": "#5b6371",
+  "accent": "#2a4466",
+  "accent2": "#1c3150",
+  "gold": "#a88b5c",
+  "heroem": "#e6d6b5",
+  "serif": "\"EB Garamond\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "phead": "box",
+ "topbar": [
+  "<a href=\"tel:+33297470860\">02 97 47 08 60</a>",
+  "<a href=\"mailto:alix.caroline@9business.fr\">alix.caroline@9business.fr</a>",
+  "7 bis rue Pasteur · Vannes"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/fe4952_a93ea8c3a5844590b86da3dc96a6fa5e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+  "eyebrow": "Avocat au Barreau de Vannes",
+  "title": "Caroline <em>Alix</em>",
+  "lead": "Pour vous conseiller, vous accompagner, vous défendre.",
+  "cta1": [
+   "Contacter le cabinet",
+   "contact/"
+  ],
+  "cta2": [
+   "02 97 47 08 60",
+   "tel:+33297470860"
+  ]
+ },
+ "figures": [
+  [
+   "2001",
+   "avocat généraliste (Cour d'Appel de Paris)"
+  ],
+  [
+   "2005",
+   "au Barreau de Vannes"
+  ],
+  [
+   "2004",
+   "D.U. de Criminologie"
+  ],
+  [
+   "2011",
+   "D.U. de Médiateur"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "img": "https://static.wixstatic.com/media/fe4952_0ad91ac4edd15308124e00d7b14c84c1.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png",
+   "alt": "",
+   "eyebrow": "Le cabinet",
+   "title": "Avocat au Barreau <em class=\"it\">de Vannes</em>",
+   "paras": [
+    "Caroline Alix, avocat au Barreau de Vannes, pour vous conseiller, vous accompagner, vous défendre.",
+    "Avocat généraliste depuis 2001 (Cour d'Appel de Paris) et depuis 2005 au Barreau de Vannes en structure individuelle.",
+    "<a href=\"votre-interlocuteur/\" style=\"border-bottom:1px solid var(--gold)\">Votre interlocuteur</a>"
+   ],
+   "sign": "Maître Caroline Alix"
+  },
+  {
+   "kind": "blocks",
+   "id": "rubriques",
+   "eyebrow": "Le cabinet en bref",
+   "title": "Trois rubriques <em class=\"it\">pour commencer</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/fe4952_1691c93b6fb3b8d89a36eccef864deea.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "kicker": "Parcours",
+     "title": "Votre interlocuteur",
+     "paras": [
+      "Avocat généraliste depuis 2001, au Barreau de Vannes depuis 2005, en structure individuelle."
+     ],
+     "link": [
+      "Votre interlocuteur",
+      "votre-interlocuteur/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/fe4952_b404ad470ec4f63545478550d02115df.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png",
+     "kicker": "Convention",
+     "title": "Honoraires",
+     "paras": [
+      "Chaque dossier donne lieu à l'établissement d'une convention d'honoraires."
+     ],
+     "link": [
+      "Les honoraires",
+      "honoraires/"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/051057_c710e8bce3b74a53b9666f001e132c59.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "kicker": "Compétences",
+     "title": "Domaines d'activité",
+     "paras": [
+      "Droit civil, droit pénal et médiation."
+     ],
+     "link": [
+      "Domaines d'activité",
+      "domaine-dactivite/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Le <em class=\"it\">cabinet</em>",
+   "photos": [
+    {
+     "full": "https://static.wixstatic.com/media/fe4952_a93ea8c3a5844590b86da3dc96a6fa5e.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/fe4952_e72358d02514425da37fb7515f66d91c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg"
+    },
+    {
+     "full": "https://static.wixstatic.com/media/fe4952_8a2fd1a90c784d3b95e4cbb8d81763f9.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg"
+    }
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Coordonnées",
+   "title": "Le cabinet, <em class=\"it\">rue Pasteur</em>",
+   "text": "Cabinet de Maître Caroline Alix, 7 bis rue Pasteur à Vannes : par téléphone, par e-mail ou via le formulaire de contact.",
+   "rows": [
+    [
+     "Adresse",
+     "7 bis rue Pasteur, 56000 Vannes"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33297470860\">02 97 47 08 60</a>"
+    ],
+    [
+     "Fax",
+     "02 97 47 95 70"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:alix.caroline@9business.fr\">alix.caroline@9business.fr</a>"
+    ],
+    [
+     "Barreau",
+     "Barreau de Vannes"
+    ]
+   ],
+   "cta": [
+    "Écrire au cabinet",
+    "contact/#ecrire"
+   ],
+   "map_q": "7 bis rue Pasteur, 56000 Vannes"
+  }
+ ],
+ "footer": {
+  "about": "Maître Caroline Alix, avocat généraliste au Barreau de Vannes depuis 2005, en structure individuelle : pour vous conseiller, vous accompagner, vous défendre.",
+  "contact": [
+   "<a href=\"tel:+33297470860\">02 97 47 08 60</a>",
+   "Fax : 02 97 47 95 70",
+   "<a href=\"mailto:alix.caroline@9business.fr\">alix.caroline@9business.fr</a>",
+   "7 bis rue Pasteur, 56000 Vannes"
+  ],
+  "legal": "Avocat au Barreau de Vannes · Structure individuelle"
+ },
+ "pages": [
+  {
+   "slug": "votre-interlocuteur",
+   "label": "Votre interlocuteur",
+   "title": "Votre interlocuteur",
+   "h1": "Votre <em>interlocuteur</em>",
+   "eyebrow": "Caroline Alix",
+   "lead": "Avocat généraliste depuis 2001 et depuis 2005 au Barreau de Vannes, en structure individuelle.",
+   "img": "https://static.wixstatic.com/media/fe4952_aadb24c3004fe3c743ef77931d852a06.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "parcours",
+     "img": "https://static.wixstatic.com/media/fe4952_1691c93b6fb3b8d89a36eccef864deea.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "alt": "Maître Caroline Alix",
+     "eyebrow": "Parcours",
+     "title": "Avocat <em class=\"it\">généraliste</em>",
+     "paras": [
+      "Avocat Généraliste depuis 2001 (Cour d'Appel de Paris) et depuis 2005 au Barreau de Vannes en structure individuelle.",
+      "Titulaire d'un D.E.S.S. Contentieux Judiciaire Privé de l'Université de Rennes.",
+      "Titulaire d'un D.U. de Criminologie en 2004.",
+      "Titulaire d'un D.U. de Médiateur en 2011."
+     ],
+     "sign": "Maître Caroline Alix"
+    },
+    {
+     "kind": "blocks",
+     "id": "etapes",
+     "eyebrow": "Repères",
+     "title": "Formation <em class=\"it\">et exercice</em>",
+     "items": [
+      {
+       "kicker": "Université de Rennes",
+       "title": "D.E.S.S. Contentieux Judiciaire Privé"
+      },
+      {
+       "kicker": "2001",
+       "title": "Avocat généraliste",
+       "paras": [
+        "Cour d'Appel de Paris."
+       ]
+      },
+      {
+       "kicker": "2004",
+       "title": "D.U. de Criminologie"
+      },
+      {
+       "kicker": "2005",
+       "title": "Barreau de Vannes",
+       "paras": [
+        "Exercice en structure individuelle."
+       ]
+      },
+      {
+       "kicker": "2011",
+       "title": "D.U. de Médiateur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honoraires",
+   "label": "Honoraires",
+   "title": "Honoraires",
+   "h1": "Honoraires <em>hors taxes</em>",
+   "eyebrow": "Convention d'honoraires",
+   "lead": "Chaque dossier donne lieu à l'établissement d'une convention d'honoraires.",
+   "img": "https://static.wixstatic.com/media/fe4952_b404ad470ec4f63545478550d02115df.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "convention",
+     "img": "https://static.wixstatic.com/media/fe4952_0ad91ac4edd15308124e00d7b14c84c1.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png",
+     "alt": "",
+     "eyebrow": "Convention d'honoraires",
+     "title": "Un contrat <em class=\"it\">fixé à l'avance</em>",
+     "paras": [
+      "Chaque dossier donne lieu à l'établissement d'une convention d'honoraires, véritable contrat fixant à l'avance les modalités et le coût de notre intervention."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "formules",
+     "eyebrow": "Honoraires hors taxes",
+     "title": "Trois formules <em class=\"it\">d'honoraires</em>",
+     "lead": "Trois formules d'honoraires sont possibles :",
+     "items": [
+      [
+       "L'honoraire forfaitaire",
+       "Réservé aux procédures usuelles.",
+       "https://static.wixstatic.com/media/fe4952_7f733da524460f16cbbe96413ca3e975.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png"
+      ],
+      [
+       "La rémunération au temps passé",
+       "Sur la base d'un taux horaire fixe.",
+       "https://static.wixstatic.com/media/fe4952_7f733da524460f16cbbe96413ca3e975.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png"
+      ],
+      [
+       "L'honoraire de résultat",
+       "En complément d'un honoraire fixe et défini en fonction du gain obtenu ou de la perte évitée.",
+       "https://static.wixstatic.com/media/fe4952_7f733da524460f16cbbe96413ca3e975.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "domaine-dactivite",
+   "label": "Domaines d'activité",
+   "title": "Domaines d'activité",
+   "h1": "Domaines <em>d'activité</em>",
+   "eyebrow": "Compétences",
+   "lead": "Avocat généraliste : pour vous conseiller, vous accompagner, vous défendre.",
+   "img": "https://static.wixstatic.com/media/fe4952_0ad91ac4edd15308124e00d7b14c84c1.png/v1/fit/w_1600,h_1600,al_c,q_85/img.png",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Compétences",
+     "title": "Domaines <em class=\"it\">d'intervention</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/051057_c710e8bce3b74a53b9666f001e132c59.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "kicker": "Conseil et contentieux",
+       "title": "Droit civil",
+       "paras": [
+        "Avocat généraliste, titulaire d'un D.E.S.S. Contentieux Judiciaire Privé de l'Université de Rennes."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/051057_ff08692bc0cd442397543bd7028ff84f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "kicker": "Défense",
+       "title": "Droit pénal",
+       "paras": [
+        "Titulaire d'un D.U. de Criminologie (2004)."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/051057_ee07a901a0664f93bc23764e8aa11ea0.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "kicker": "Accord amiable",
+       "title": "Médiation",
+       "paras": [
+        "Titulaire d'un D.U. de Médiateur (2011)."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/fe4952_e72358d02514425da37fb7515f66d91c.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+     "eyebrow": "Un premier échange",
+     "title": "Exposer <em>votre situation</em>",
+     "cta": [
+      "Contacter le cabinet",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "Contact",
+   "eyebrow": "Caroline Alix, avocat",
+   "lead": "7 bis rue Pasteur, 56000 Vannes.",
+   "img": "https://static.wixstatic.com/media/fe4952_2d2b61cacf7961f0360f506e96155520.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Coordonnées",
+     "title": "Le cabinet, <em class=\"it\">rue Pasteur</em>",
+     "text": "Cabinet de Maître Caroline Alix, 7 bis rue Pasteur à Vannes : par téléphone, par e-mail ou via le formulaire de contact.",
+     "rows": [
+      [
+       "Adresse",
+       "7 bis rue Pasteur, 56000 Vannes"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33297470860\">02 97 47 08 60</a>"
+      ],
+      [
+       "Fax",
+       "02 97 47 95 70"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:alix.caroline@9business.fr\">alix.caroline@9business.fr</a>"
+      ],
+      [
+       "Barreau",
+       "Barreau de Vannes"
+      ]
+     ],
+     "cta": [
+      "Écrire au cabinet",
+      "#ecrire"
+     ],
+     "map_q": "7 bis rue Pasteur, 56000 Vannes"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Formulaire de contact",
+     "title": "Votre <em class=\"it\">message</em>",
+     "lead": "Présentez brièvement votre demande et indiquez vos coordonnées.",
+     "side": [
+      "<b>Téléphone</b><br><a href=\"tel:+33297470860\">02 97 47 08 60</a>",
+      "<b>Fax</b><br>02 97 47 95 70",
+      "<b>E-mail</b><br><a href=\"mailto:alix.caroline@9business.fr\">alix.caroline@9business.fr</a>"
+     ],
+     "email": "alix.caroline@9business.fr",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "Le cabinet",
+     "title": "Avant <em class=\"it\">de plaider</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/fe4952_2d2b61cacf7961f0360f506e96155520.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "caption": "Avant de plaider"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fe4952_c2558fb8ac6d1595da96849590855836.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/fe4952_1cfc3331fa0d7157e891a5efb930b898.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg",
+       "caption": "Salle d'attente"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
