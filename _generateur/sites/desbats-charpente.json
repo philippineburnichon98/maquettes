@@ -1,0 +1,1389 @@
+{
+ "slug": "desbats-charpente-58ab65",
+ "title": "Christian Desbats, charpentier-couvreur à Oloron-Sainte-Marie (64)",
+ "description": "Christian Desbats, charpentier-couvreur depuis 1975 : charpente, ossature bois, couverture zinguerie, combles, bardages, terrasses et escaliers, autour de Pau, Oloron-Sainte-Marie et en vallée d'Aspe.",
+ "brand": "Christian Desbats",
+ "tagline": "Charpentier-couvreur",
+ "monogram": "CD",
+ "theme": {
+  "look": "center",
+  "paper": "#f5f1ea",
+  "paper2": "#e9e1d4",
+  "ink": "#22262a",
+  "muted": "#5d5f60",
+  "accent": "#8b5a2b",
+  "accent2": "#6d4420",
+  "gold": "#c39a5c",
+  "heroem": "#f0cf9c",
+  "serif": "\"Zilla Slab\",Georgia,serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33633773629\">Tél : 06 33 77 36 29</a>",
+  "<a href=\"mailto:desbats.christian@orange.fr\">desbats.christian@orange.fr</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [],
+ "hero": {
+  "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/backgroundarea/i232b93cdd41a3869/version/1456940700/image.jpg",
+  "eyebrow": "Charpentier-couvreur depuis 1975 · Oloron-Sainte-Marie (64)",
+  "title": "Charpente, couverture <em>et ossature bois</em>",
+  "lead": "Une entreprise à votre service : construction neuve ou rénovation, du simple dépannage au gros chantier, autour de Pau, Oloron-Sainte-Marie et en vallée d'Aspe.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 33 77 36 29",
+   "tel:+33633773629"
+  ]
+ },
+ "figures": [
+  [
+   "1975",
+   "charpentier-couvreur depuis"
+  ],
+  [
+   "48 h",
+   "pour intervenir rapidement"
+  ],
+  [
+   "PEFC",
+   "bois certifié, scieries locales"
+  ],
+  [
+   "RT2012",
+   "constructions conformes"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "presentation",
+   "eyebrow": "Présentation",
+   "title": "Concevoir, fabriquer <em class=\"it\">et mettre en œuvre</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i271adc04ba5cb526/version/1476037998/image.jpg",
+   "alt": "Mise sur épure d'une ferme",
+   "paras": [
+    "Je pratique le métier de charpentier-couvreur depuis 1975 : d'abord apprenti, puis salarié de diverses entreprises, puis professeur en construction bois.",
+    "Auto-entrepreneur depuis quelques années, je réalise des chantiers neufs ou de rénovation dans la région de Pau, d'Oloron-Sainte-Marie et de la vallée d'Aspe : construction en ossature bois, charpente, couverture, bardage et habillage de terrasse.",
+    "Un métier qui permet de concevoir, de fabriquer et de mettre en œuvre son ouvrage."
+   ],
+   "sign": "Christian Desbats"
+  },
+  {
+   "kind": "blocks",
+   "id": "prestations",
+   "eyebrow": "Prestations",
+   "title": "Neuf <em class=\"it\">ou rénovation</em>",
+   "lead": "Une grande polyvalence, du simple dépannage au gros chantier, avec des interventions rapides sous 48 h. Également : travaux sur cordes.",
+   "items": [
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i2786fa802bfcdf74/version/1476037990/image.jpg",
+     "alt": "Charpente",
+     "title": "Charpente",
+     "paras": [
+      "Fabrication et pose de charpentes traditionnelles, pose de fermettes, rénovation de charpente."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "charpente/"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i87f60f5adc9624e5/version/1476037998/image.jpg",
+     "alt": "Bâtiments ossature bois",
+     "title": "Bâtiments ossature bois",
+     "paras": [
+      "Locaux artisanaux, habitations et extensions en ossature bois, conformes à la RT2012."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "batiments-ossatures-bois/"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i8804c65e1dfba5f3/version/1476037925/image.jpg",
+     "alt": "Couverture et zinguerie",
+     "title": "Couverture et zinguerie",
+     "paras": [
+      "Ardoise, tuile ou bac acier, gouttières, entourages de cheminée, fenêtres de toit et lucarnes."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "couverture-zinguerie/"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i443d824516324fe0/version/1476037990/image.jpg",
+     "alt": "Combles",
+     "title": "Combles",
+     "paras": [
+      "Aménagement et modification de combles, renforcement de charpente, habillage intérieur, isolation traditionnelle ou écologique."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "combles/"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i0f0843d2f0fed8af/version/1476037985/image.jpg",
+     "alt": "Bardage et isolation",
+     "title": "Bardage et isolation",
+     "paras": [
+      "Bardages bois ou composite, avec ou sans isolation extérieure, contre les intempéries et pour l'isolation thermique et acoustique."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "#bardages"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i8ae75bccf51e8a49/version/1476037990/image.jpg",
+     "alt": "Terrasses et planchers",
+     "title": "Terrasses et planchers",
+     "paras": [
+      "Terrasses extérieures en bois ou composite, pose de planchers intérieurs."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "#terrasses"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id9991bca7c41c56c/version/1515953033/image.jpg",
+     "alt": "Escaliers",
+     "title": "Escaliers",
+     "paras": [
+      "Escaliers sur mesure, droits ou balancés, à deux limons ou à limon central, en neuf ou en rénovation."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "escaliers/"
+     ]
+    },
+    {
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i229d0ef257854045/version/1476035348/image.jpg",
+     "alt": "Aide à l'auto-construction",
+     "title": "Aide à l'auto-construction",
+     "paras": [
+      "Accompagnement des particuliers qui construisent eux-mêmes, de l'étude technique et financière à la réalisation."
+     ],
+     "link": [
+      "Voir les réalisations",
+      "#auto-construction"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "auto-construction-accueil",
+   "eyebrow": "Aide à l'auto-construction",
+   "title": "Construire <em class=\"it\">avec vous</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i229d0ef257854045/version/1476035348/image.jpg",
+   "alt": "Construction d'un atelier : plancher et murs ossature bois",
+   "paras": [
+    "J'accompagne les particuliers qui construisent eux-mêmes, de l'étude technique et financière jusqu'à la réalisation.",
+    "Mutualiser les compétences et le temps de travail permet un bon ajustement des prix."
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "dark": true,
+   "eyebrow": "Le bois",
+   "title": "Un matériau sain, <em class=\"it\">écologique et durable</em>",
+   "items": [
+    [
+     "Matériaux de qualité",
+     "Des matériaux conformes aux normes actuelles."
+    ],
+    [
+     "Un bois sain",
+     "Le bois est un régulateur thermique et hygrométrique, et il se recycle."
+    ],
+    [
+     "Bois certifié PEFC",
+     "Un bois certifié, acheté auprès des scieries locales."
+    ],
+    [
+     "RT2012",
+     "Une construction respectant la RT2012 réduit vos factures et les émissions de CO2."
+    ]
+   ]
+  },
+  {
+   "kind": "gallery",
+   "id": "photos",
+   "eyebrow": "En images",
+   "title": "Quelques <em class=\"it\">réalisations</em>",
+   "photos": [
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5cf1e98ed84651e4/version/1476035348/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5cf1e98ed84651e4/version/1476035348/image.jpg",
+     "alt": "Construction d'un atelier ossature bois, couverture bac acier",
+     "caption": "Construction d'un atelier ossature bois, couverture bac acier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i229d0ef257854045/version/1476035348/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i229d0ef257854045/version/1476035348/image.jpg",
+     "alt": "Construction d'un atelier : plancher et murs ossature bois",
+     "caption": "Construction d'un atelier : plancher et murs ossature bois"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i0d5afd2d188a19ad/version/1476035348/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i0d5afd2d188a19ad/version/1476035348/image.jpg",
+     "alt": "Construction d'un atelier",
+     "caption": "Construction d'un atelier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i9f10dc40608030af/version/1476037974/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i9f10dc40608030af/version/1476037974/image.jpg",
+     "alt": "Couverture ardoise : jonction neuf et existant",
+     "caption": "Couverture ardoise : jonction neuf et existant"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i215de9cae4e6b602/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i215de9cae4e6b602/version/1476037998/image.jpg",
+     "alt": "Couverture ardoise : jonction neuf et existant",
+     "caption": "Couverture ardoise : jonction neuf et existant"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i902ba670627ebda2/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i902ba670627ebda2/version/1476037998/image.jpg",
+     "alt": "Pose de lambris",
+     "caption": "Pose de lambris"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i87f60f5adc9624e5/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i87f60f5adc9624e5/version/1476037998/image.jpg",
+     "alt": "Construction d'une maison en ossature bois (RT2012)",
+     "caption": "Construction d'une maison en ossature bois (RT2012)"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie693299d330fe10a/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie693299d330fe10a/version/1476037998/image.jpg",
+     "alt": "Construction d'une extension : ossature bois sur maçonnerie",
+     "caption": "Construction d'une extension : ossature bois sur maçonnerie"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i18389596e3159e09/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i18389596e3159e09/version/1476037998/image.jpg",
+     "alt": "Extension : ossature bois sur maçonnerie et plancher bois",
+     "caption": "Extension : ossature bois sur maçonnerie et plancher bois"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5f60fd56056961bf/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5f60fd56056961bf/version/1476037998/image.jpg",
+     "alt": "Construction d'une extension : ossature bois sur maçonnerie",
+     "caption": "Construction d'une extension : ossature bois sur maçonnerie"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i271adc04ba5cb526/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i271adc04ba5cb526/version/1476037998/image.jpg",
+     "alt": "Mise sur épure d'une ferme",
+     "caption": "Mise sur épure d'une ferme"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/iabecbc44ab128ca6/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/iabecbc44ab128ca6/version/1476037998/image.jpg",
+     "alt": "Construction d'un atelier : ossature bois",
+     "caption": "Construction d'un atelier : ossature bois"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i22f13b46d68e1864/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i22f13b46d68e1864/version/1476037998/image.jpg",
+     "alt": "Construction d'un atelier : ossature bois",
+     "caption": "Construction d'un atelier : ossature bois"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i02bd68d9a03683bd/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i02bd68d9a03683bd/version/1476037998/image.jpg",
+     "alt": "Charpente et couverture en panneau sandwich (bac acier + isolant)",
+     "caption": "Charpente et couverture en panneau sandwich (bac acier + isolant)"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/iacdd93a24862448c/version/1476037998/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/iacdd93a24862448c/version/1476037998/image.jpg",
+     "alt": "Couverture bac acier",
+     "caption": "Couverture bac acier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i46d1ebfb37a6821c/version/1476037994/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i46d1ebfb37a6821c/version/1476037994/image.jpg",
+     "alt": "Construction d'un abri pour le bois de chauffage",
+     "caption": "Construction d'un abri pour le bois de chauffage"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i69814146a5ce680f/version/1476037994/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i69814146a5ce680f/version/1476037994/image.jpg",
+     "alt": "Réalisation d'un garage double",
+     "caption": "Réalisation d'un garage double"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i400349a02c9de623/version/1476037994/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i400349a02c9de623/version/1476037994/image.jpg",
+     "alt": "Pose d'une fenêtre de toit sur une couverture ardoise",
+     "caption": "Pose d'une fenêtre de toit sur une couverture ardoise"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4401882a0fc5ff69/version/1476037994/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4401882a0fc5ff69/version/1476037994/image.jpg",
+     "alt": "Pose d'une fenêtre de toit sur une couverture ardoise",
+     "caption": "Pose d'une fenêtre de toit sur une couverture ardoise"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i3bb1367925cb825c/version/1476037994/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i3bb1367925cb825c/version/1476037994/image.jpg",
+     "alt": "Pose d'une fenêtre de toit sur une couverture ardoise",
+     "caption": "Pose d'une fenêtre de toit sur une couverture ardoise"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ifc036ea1f0d181f0/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ifc036ea1f0d181f0/version/1476037990/image.jpg",
+     "alt": "Modification d'une ancienne charpente pour l'aménagement des combles",
+     "caption": "Modification d'une ancienne charpente pour l'aménagement des combles"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i443d824516324fe0/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i443d824516324fe0/version/1476037990/image.jpg",
+     "alt": "Modification d'une ancienne charpente pour l'aménagement des combles",
+     "caption": "Modification d'une ancienne charpente pour l'aménagement des combles"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i083afc48ae8b820f/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i083afc48ae8b820f/version/1476037990/image.jpg",
+     "alt": "Solivage pour un plancher intermédiaire dans les combles",
+     "caption": "Solivage pour un plancher intermédiaire dans les combles"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5c78a9ecae6c804c/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5c78a9ecae6c804c/version/1476037990/image.jpg",
+     "alt": "Sas d'entrée : ossature bois, bardage bois et couverture ardoise",
+     "caption": "Sas d'entrée : ossature bois, bardage bois et couverture ardoise"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i97337fc4939c68f2/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i97337fc4939c68f2/version/1476037990/image.jpg",
+     "alt": "Sas d'entrée : ossature bois, bardage bois et couverture ardoise",
+     "caption": "Sas d'entrée : ossature bois, bardage bois et couverture ardoise"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i7cd2d30d07f67d00/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i7cd2d30d07f67d00/version/1476037990/image.jpg",
+     "alt": "Sas d'entrée : ossature bois, bardage bois et couverture ardoise",
+     "caption": "Sas d'entrée : ossature bois, bardage bois et couverture ardoise"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i8ae75bccf51e8a49/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i8ae75bccf51e8a49/version/1476037990/image.jpg",
+     "alt": "Extension d'habitation : bardage en châtaignier et terrasse",
+     "caption": "Extension d'habitation : bardage en châtaignier et terrasse"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie006ba8466a2bed8/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie006ba8466a2bed8/version/1476037990/image.jpg",
+     "alt": "Extension d'habitation : bardage en châtaignier et terrasse",
+     "caption": "Extension d'habitation : bardage en châtaignier et terrasse"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i2786fa802bfcdf74/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i2786fa802bfcdf74/version/1476037990/image.jpg",
+     "alt": "Détail d'une charpente",
+     "caption": "Détail d'une charpente"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i88501fe02e5a70ce/version/1476037990/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i88501fe02e5a70ce/version/1476037990/image.jpg",
+     "alt": "Sas d'entrée : détail de l'ossature bois",
+     "caption": "Sas d'entrée : détail de l'ossature bois"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib61e193e3ff0d07a/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib61e193e3ff0d07a/version/1476037985/image.jpg",
+     "alt": "Sas d'entrée : détail de l'ossature bois",
+     "caption": "Sas d'entrée : détail de l'ossature bois"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/icea7719db98bcfa5/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/icea7719db98bcfa5/version/1476037985/image.jpg",
+     "alt": "Sas d'entrée : détail de l'ossature bois",
+     "caption": "Sas d'entrée : détail de l'ossature bois"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i0f0843d2f0fed8af/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i0f0843d2f0fed8af/version/1476037985/image.jpg",
+     "alt": "Sas d'entrée : bardage extérieur en clin",
+     "caption": "Sas d'entrée : bardage extérieur en clin"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ifc8b87ad5861db49/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ifc8b87ad5861db49/version/1476037985/image.jpg",
+     "alt": "Sas d'entrée : bardage extérieur en clin",
+     "caption": "Sas d'entrée : bardage extérieur en clin"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/id16fbe88dd005fe4/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/id16fbe88dd005fe4/version/1476037985/image.jpg",
+     "alt": "Sas d'entrée : bardage en clin, détail des coupes d'angles",
+     "caption": "Sas d'entrée : bardage en clin, détail des coupes d'angles"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i233f1421f1c2ec74/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i233f1421f1c2ec74/version/1476037985/image.jpg",
+     "alt": "Sas d'entrée : bardage intérieur en volige",
+     "caption": "Sas d'entrée : bardage intérieur en volige"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4ce778f11b71eae3/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4ce778f11b71eae3/version/1476037985/image.jpg",
+     "alt": "Réhabilitation d'un porche ancien",
+     "caption": "Réhabilitation d'un porche ancien"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i7510b2debbcf85cb/version/1476037985/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i7510b2debbcf85cb/version/1476037985/image.jpg",
+     "alt": "Réhabilitation d'un porche ancien",
+     "caption": "Réhabilitation d'un porche ancien"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i033f4129d2410a63/version/1476037986/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i033f4129d2410a63/version/1476037986/image.jpg",
+     "alt": "Réhabilitation d'un porche ancien",
+     "caption": "Réhabilitation d'un porche ancien"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i24ecff337d807975/version/1476037986/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i24ecff337d807975/version/1476037986/image.jpg",
+     "alt": "Réhabilitation d'un porche ancien",
+     "caption": "Réhabilitation d'un porche ancien"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i2bebb9b9752654b0/version/1476037925/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i2bebb9b9752654b0/version/1476037925/image.jpg",
+     "alt": "Coyau sur charpente traditionnelle",
+     "caption": "Coyau sur charpente traditionnelle"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i8804c65e1dfba5f3/version/1476037925/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i8804c65e1dfba5f3/version/1476037925/image.jpg",
+     "alt": "Finition des faîtages en ardoise",
+     "caption": "Finition des faîtages en ardoise"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ifb3a6bd447abf407/version/1515953033/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ifb3a6bd447abf407/version/1515953033/image.jpg",
+     "alt": "Balustrade à l'atelier",
+     "caption": "Balustrade à l'atelier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i95f70677808b101f/version/1515953033/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i95f70677808b101f/version/1515953033/image.jpg",
+     "alt": "Escalier droit à l'atelier",
+     "caption": "Escalier droit à l'atelier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i43784b69a6d7cd35/version/1515952827/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i43784b69a6d7cd35/version/1515952827/image.jpg",
+     "alt": "Escalier droit entre deux paliers",
+     "caption": "Escalier droit entre deux paliers"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ib235e8657e0c9f51/version/1515952827/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ib235e8657e0c9f51/version/1515952827/image.jpg",
+     "alt": "Escalier droit et palier",
+     "caption": "Escalier droit et palier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/icb839cee84e9eb49/version/1515952827/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/icb839cee84e9eb49/version/1515952827/image.jpg",
+     "alt": "Escalier droit et palier",
+     "caption": "Escalier droit et palier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i18d86ebd68d0786f/version/1515953033/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i18d86ebd68d0786f/version/1515953033/image.jpg",
+     "alt": "Escalier balancé",
+     "caption": "Escalier balancé"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i55b8fe1d28f4e609/version/1515953033/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i55b8fe1d28f4e609/version/1515953033/image.jpg",
+     "alt": "Escalier balancé et palier",
+     "caption": "Escalier balancé et palier"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/iecab807533807846/version/1515953033/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/iecab807533807846/version/1515953033/image.jpg",
+     "alt": "Escalier à limon central, montage sur site",
+     "caption": "Escalier à limon central, montage sur site"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id9991bca7c41c56c/version/1515953033/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id9991bca7c41c56c/version/1515953033/image.jpg",
+     "alt": "Escalier à limon central et balustres fer rond finition vieilli",
+     "caption": "Escalier à limon central et balustres fer rond finition vieilli"
+    },
+    {
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i77fa8d19093f595c/version/1515953072/image.jpg",
+     "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i77fa8d19093f595c/version/1515953072/image.jpg",
+     "alt": "Escalier à limon central",
+     "caption": "Escalier à limon central"
+    }
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ],
+   "carousel": true
+  },
+  {
+   "kind": "banner",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i8804c65e1dfba5f3/version/1476037925/image.jpg",
+   "eyebrow": "Pau · Oloron-Sainte-Marie · Vallée d'Aspe",
+   "title": "Un projet de charpente <em>ou de couverture ?</em>",
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Christian Desbats, <em class=\"it\">Oloron-Sainte-Marie</em>",
+   "text": "Chantiers neufs ou rénovation dans la région de Pau, Oloron-Sainte-Marie et la vallée d'Aspe.",
+   "rows": [
+    [
+     "Adresse",
+     "4 impasse des Barats<br>64400 Oloron-Sainte-Marie"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33633773629\">06 33 77 36 29</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:desbats.christian@orange.fr\">desbats.christian@orange.fr</a>"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ],
+   "map_q": "4 impasse des Barats, 64400 Oloron-Sainte-Marie"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "charpente",
+   "label": "Charpente",
+   "title": "Charpente",
+   "eyebrow": "Charpente traditionnelle · Fermettes · Rénovation",
+   "lead": "Fabrication et pose de charpentes traditionnelles, pose de fermettes et rénovation de charpente : une solution conçue selon vos besoins.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i4f4ee32ddeaeb0eb/version/1476036646/image.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "auto-construction",
+     "eyebrow": "Aide à l'auto-construction",
+     "title": "La charpente et la couverture <em class=\"it\">d'une maison</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i4f4ee32ddeaeb0eb/version/1476036646/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i4f4ee32ddeaeb0eb/version/1476036646/image.jpg",
+       "alt": "Aide à l'auto-construction : charpente et couverture d'une maison",
+       "caption": "Aide à l'auto-construction : charpente et couverture d'une maison"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i5ffec83886871b2f/version/1476036646/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i5ffec83886871b2f/version/1476036646/image.jpg",
+       "alt": "Charpente traditionnelle",
+       "caption": "Charpente traditionnelle"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i8a8faf3c931d062b/version/1476036793/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i8a8faf3c931d062b/version/1476036793/image.jpg",
+       "alt": "Charpente traditionnelle",
+       "caption": "Charpente traditionnelle"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i1bc1535c8bf479b0/version/1476036793/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i1bc1535c8bf479b0/version/1476036793/image.jpg",
+       "alt": "Couverture en ardoise",
+       "caption": "Couverture en ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i64f0e6c2566e684c/version/1476036793/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i64f0e6c2566e684c/version/1476036793/image.jpg",
+       "alt": "Charpente traditionnelle, couverture en ardoise",
+       "caption": "Charpente traditionnelle, couverture en ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i53fe1ee255fbfd01/version/1476036793/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i53fe1ee255fbfd01/version/1476036793/image.jpg",
+       "alt": "Charpente traditionnelle, couverture en ardoise",
+       "caption": "Charpente traditionnelle, couverture en ardoise"
+      }
+     ],
+     "lead": "Réalisation de la charpente et de la couverture d'une maison en aide à l'auto-construction. Charpente traditionnelle, couverture en ardoise."
+    },
+    {
+     "kind": "gallery",
+     "id": "atelier-bidos",
+     "eyebrow": "Construction d'un atelier à Bidos",
+     "title": "Fermes en moisé <em class=\"it\">boulonnées</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4d9a595c8347b23b/version/1456677280/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4d9a595c8347b23b/version/1456677280/image.jpg",
+       "alt": "Atelier à Bidos : fermes en moisé boulonnées",
+       "caption": "Atelier à Bidos : fermes en moisé boulonnées"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i05ff10a6dd253908/version/1456677280/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i05ff10a6dd253908/version/1456677280/image.jpg",
+       "alt": "Atelier à Bidos : murs en ossature bois avec bardage",
+       "caption": "Atelier à Bidos : murs en ossature bois avec bardage"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5c5070e62567fbed/version/1456677280/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i5c5070e62567fbed/version/1456677280/image.jpg",
+       "alt": "Atelier à Bidos : couverture en bac acier",
+       "caption": "Atelier à Bidos : couverture en bac acier"
+      }
+     ],
+     "lead": "Fermes en moisé boulonnées, murs en ossature bois avec bardage, couverture en bac acier. 160 m²."
+    },
+    {
+     "kind": "gallery",
+     "id": "charpente-ancienne",
+     "eyebrow": "Charpente ancienne",
+     "title": "Des combles <em class=\"it\">aménageables</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i64ff0ef3a010b444/version/1456677724/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i64ff0ef3a010b444/version/1456677724/image.jpg",
+       "alt": "Modification d'une charpente ancienne : suppression de l'entrait bas",
+       "caption": "Modification d'une charpente ancienne : suppression de l'entrait bas"
+      }
+     ],
+     "lead": "Modification d'une charpente ancienne avec suppression de l'entrait bas, pour créer des combles aménageables."
+    },
+    {
+     "kind": "gallery",
+     "id": "porche",
+     "eyebrow": "Réhabilitation",
+     "title": "Un porche <em class=\"it\">béarnais</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/if1ac4593512cd48a/version/1447420183/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/if1ac4593512cd48a/version/1447420183/image.jpg",
+       "alt": "Réhabilitation d'un porche béarnais",
+       "caption": "Réhabilitation d'un porche béarnais"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i48f82b7b5230bef0/version/1447420183/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i48f82b7b5230bef0/version/1447420183/image.jpg",
+       "alt": "Réhabilitation d'un porche béarnais : charpente",
+       "caption": "Réhabilitation d'un porche béarnais : charpente"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i386593ccb3bef58f/version/1447420183/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i386593ccb3bef58f/version/1447420183/image.jpg",
+       "alt": "Réhabilitation d'un porche béarnais : charpente",
+       "caption": "Réhabilitation d'un porche béarnais : charpente"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i3ddf96d9e7b99fdd/version/1447420183/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg:rotate=-270/path/s300077807adb88ed/image/i3ddf96d9e7b99fdd/version/1447420183/image.jpg",
+       "alt": "Réhabilitation d'un porche béarnais : couverture",
+       "caption": "Réhabilitation d'un porche béarnais : couverture"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i902bf55936f04291/version/1447420183/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i902bf55936f04291/version/1447420183/image.jpg",
+       "alt": "Réhabilitation d'un porche béarnais",
+       "caption": "Réhabilitation d'un porche béarnais"
+      }
+     ],
+     "lead": "Réhabilitation d'un porche béarnais : charpente et couverture."
+    },
+    {
+     "kind": "banner",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i2786fa802bfcdf74/version/1476037990/image.jpg",
+     "eyebrow": "Charpente, couverture, ossature bois",
+     "title": "Concevoir, fabriquer <em>et mettre en œuvre</em>",
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "batiments-ossatures-bois",
+   "label": "Ossature bois",
+   "title": "Bâtiments ossature bois",
+   "eyebrow": "Locaux artisanaux · Habitations · Extensions",
+   "lead": "Constructions de locaux artisanaux et d'habitations, et extensions en ossature bois, conformes à la RT2012.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i7cb7264f1fd2d968/version/1476034295/image.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "atelier-60",
+     "eyebrow": "Aide à l'auto-construction",
+     "title": "Construction <em class=\"it\">d'un atelier</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i7cb7264f1fd2d968/version/1476034295/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i7cb7264f1fd2d968/version/1476034295/image.jpg",
+       "alt": "Construction d'un atelier",
+       "caption": "Construction d'un atelier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id4abf27d1bccf3a7/version/1476034477/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id4abf27d1bccf3a7/version/1476034477/image.jpg",
+       "alt": "Construction d'un atelier : plancher et murs en ossature bois",
+       "caption": "Construction d'un atelier : plancher et murs en ossature bois"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i401105c7c41e8597/version/1476034477/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i401105c7c41e8597/version/1476034477/image.jpg",
+       "alt": "Construction d'un atelier",
+       "caption": "Construction d'un atelier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id862bf54a435fd2d/version/1476034477/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id862bf54a435fd2d/version/1476034477/image.jpg",
+       "alt": "Construction d'un atelier",
+       "caption": "Construction d'un atelier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ic911c781b70dec20/version/1476034413/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ic911c781b70dec20/version/1476034413/image.jpg",
+       "alt": "Couverture en panneaux sandwich sur charpente traditionnelle",
+       "caption": "Couverture en panneaux sandwich sur charpente traditionnelle"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ia438fb08e35ece54/version/1476034413/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ia438fb08e35ece54/version/1476034413/image.jpg",
+       "alt": "Construction d'un atelier",
+       "caption": "Construction d'un atelier"
+      }
+     ],
+     "lead": "Réalisation d'un atelier : plancher et murs en ossature bois, couverture en panneaux sandwich sur charpente traditionnelle. 60 m²."
+    },
+    {
+     "kind": "gallery",
+     "id": "abris",
+     "eyebrow": "Abri de jardin et garage",
+     "title": "Assemblage <em class=\"it\">traditionnel</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i424a2891e3fe4a74/version/1456677787/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i424a2891e3fe4a74/version/1456677787/image.jpg",
+       "alt": "Abri pour le bois, assemblage traditionnel (10 m²)",
+       "caption": "Abri pour le bois, assemblage traditionnel (10 m²)"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i09b632d239b01de2/version/1456677825/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i09b632d239b01de2/version/1456677825/image.jpg",
+       "alt": "Garage sur poteaux ronds, couverture bac acier (45 m²)",
+       "caption": "Garage sur poteaux ronds, couverture bac acier (45 m²)"
+      }
+     ],
+     "lead": "Abri pour le bois en assemblage traditionnel, 10 m². Garage sur poteaux ronds, couverture bac acier, 45 m²."
+    },
+    {
+     "kind": "gallery",
+     "id": "extensions",
+     "eyebrow": "Extensions d'habitation",
+     "title": "Jardin d'hiver <em class=\"it\">et sas d'entrée</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i77b7964094f30d72/version/1456677951/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i77b7964094f30d72/version/1456677951/image.jpg",
+       "alt": "Extension d'habitation",
+       "caption": "Extension d'habitation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib541425453a4b0fa/version/1456677951/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib541425453a4b0fa/version/1456677951/image.jpg",
+       "alt": "Extension d'habitation",
+       "caption": "Extension d'habitation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i60975c1f083f0574/version/1456677951/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i60975c1f083f0574/version/1456677951/image.jpg",
+       "alt": "Extension d'habitation",
+       "caption": "Extension d'habitation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/if200717ed18cc25f/version/1456678068/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/if200717ed18cc25f/version/1456678068/image.jpg",
+       "alt": "Jardin d'hiver (19,50 m²)",
+       "caption": "Jardin d'hiver (19,50 m²)"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i54e0b3d943a2fba7/version/1456678068/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i54e0b3d943a2fba7/version/1456678068/image.jpg",
+       "alt": "Jardin d'hiver : ossature bois sur soubassement maçonné",
+       "caption": "Jardin d'hiver : ossature bois sur soubassement maçonné"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4ccb9b0c9b2ec2d6/version/1456678068/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i4ccb9b0c9b2ec2d6/version/1456678068/image.jpg",
+       "alt": "Jardin d'hiver : couverture en ardoise",
+       "caption": "Jardin d'hiver : couverture en ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i6ef31f117fda89f7/version/1447352760/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i6ef31f117fda89f7/version/1447352760/image.jpg",
+       "alt": "Sas d'entrée (8 m²)",
+       "caption": "Sas d'entrée (8 m²)"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/iab652c72bcc72d29/version/1447352760/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/iab652c72bcc72d29/version/1447352760/image.jpg",
+       "alt": "Sas d'entrée : ossature bois et bardage clin classe 4",
+       "caption": "Sas d'entrée : ossature bois et bardage clin classe 4"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i235f303bf25d29bc/version/1447352760/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i235f303bf25d29bc/version/1447352760/image.jpg",
+       "alt": "Sas d'entrée : couverture en ardoise",
+       "caption": "Sas d'entrée : couverture en ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i198efcd07c689dba/version/1447352760/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i198efcd07c689dba/version/1447352760/image.jpg",
+       "alt": "Sas d'entrée",
+       "caption": "Sas d'entrée"
+      }
+     ],
+     "lead": "Jardin d'hiver : structure ossature bois posée sur soubassement en maçonnerie et enduit, couverture en ardoise, 19,50 m². Sas d'entrée : ossature bois et bardage clin classe 4, couverture en ardoise, 8 m². Autre sas d'entrée : ossature bois et bardage clin, couverture en fibro-ciment, habillage intérieur en volige rabotée, 7,50 m²."
+    },
+    {
+     "kind": "gallery",
+     "id": "isolation-exterieure",
+     "eyebrow": "Isolation par l'extérieur",
+     "title": "Laine de bois <em class=\"it\">et bardage mélèze</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i98688a40936b5371/version/1444561782/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i98688a40936b5371/version/1444561782/image.jpg",
+       "alt": "Isolation par l'extérieur d'une maison, bardage en mélèze",
+       "caption": "Isolation par l'extérieur d'une maison, bardage en mélèze"
+      }
+     ],
+     "lead": "Isolation par l'extérieur d'une maison : laine de bois et isolant de toiture sous bardage en mélèze. Label BBC. 100 m²."
+    },
+    {
+     "kind": "gallery",
+     "id": "atelier-160",
+     "eyebrow": "Auto-construction avec le client",
+     "title": "Un atelier <em class=\"it\">de 160 m²</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ibb3aee14a9d6a712/version/1444323374/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ibb3aee14a9d6a712/version/1444323374/image.jpg",
+       "alt": "Atelier : ossature bois et bardage en mélèze",
+       "caption": "Atelier : ossature bois et bardage en mélèze"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i582ff47208aed48b/version/1444323374/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i582ff47208aed48b/version/1444323374/image.jpg",
+       "alt": "Atelier : couverture en panneaux sandwich et bac acier",
+       "caption": "Atelier : couverture en panneaux sandwich et bac acier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i9f059f74b965ec6f/version/1444323374/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i9f059f74b965ec6f/version/1444323374/image.jpg",
+       "alt": "Atelier de 160 m² en ossature bois",
+       "caption": "Atelier de 160 m² en ossature bois"
+      }
+     ],
+     "lead": "Ossature bois et bardage en mélèze, couverture en panneaux sandwich et bac acier, 160 m², réalisé en auto-construction avec le client."
+    }
+   ]
+  },
+  {
+   "slug": "couverture-zinguerie",
+   "label": "Couverture",
+   "title": "Couverture Zinguerie",
+   "eyebrow": "Ardoise · Tuile · Bac acier · Fenêtres de toit",
+   "lead": "J'interviens sur tout type de couverture, en neuf ou rénovation.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/ic789ade9927228a4/version/1476037382/image.jpg",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "couverture",
+     "eyebrow": "Couverture et zinguerie",
+     "title": "Tout type <em class=\"it\">de couverture</em>",
+     "lead": "En neuf ou en rénovation.",
+     "items": [
+      [
+       "Couvertures",
+       "Ardoise, tuile ou bac acier."
+      ],
+      [
+       "Zinguerie",
+       "Gouttières et entourages de cheminée."
+      ],
+      [
+       "Fenêtres de toit",
+       "Fourniture et pose de fenêtres de toit."
+      ],
+      [
+       "Lucarnes",
+       "Réalisation de lucarnes."
+      ]
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos-couverture",
+     "eyebrow": "Réalisations",
+     "title": "Couverture <em class=\"it\">et zinguerie</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i617cb205e2919b07/version/1476037381/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i617cb205e2919b07/version/1476037381/image.jpg",
+       "alt": "Bac acier",
+       "caption": "Bac acier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i78647f414a03d5e7/version/1476037381/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i78647f414a03d5e7/version/1476037381/image.jpg",
+       "alt": "Pose de fenêtre de toit sur couverture ardoise",
+       "caption": "Pose de fenêtre de toit sur couverture ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib8aa7d5b62bc97aa/version/1476037382/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib8aa7d5b62bc97aa/version/1476037382/image.jpg",
+       "alt": "Pose de fenêtre de toit sur couverture ardoise",
+       "caption": "Pose de fenêtre de toit sur couverture ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/ic789ade9927228a4/version/1476037382/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/ic789ade9927228a4/version/1476037382/image.jpg",
+       "alt": "Pose de couverture ardoise sur l'extension d'une habitation",
+       "caption": "Pose de couverture ardoise sur l'extension d'une habitation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/i25e0dcf3cd9a809f/version/1476037382/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/i25e0dcf3cd9a809f/version/1476037382/image.jpg",
+       "alt": "Jonction entre existant et la nouvelle couverture ardoise",
+       "caption": "Jonction entre existant et la nouvelle couverture ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/i1efd6b6d975b4438/version/1476037382/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/i1efd6b6d975b4438/version/1476037382/image.jpg",
+       "alt": "Jonction entre existant et la nouvelle couverture ardoise",
+       "caption": "Jonction entre existant et la nouvelle couverture ardoise"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/if7bffe9fdc6a6d5d/version/1476037382/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/if7bffe9fdc6a6d5d/version/1476037382/image.jpg",
+       "alt": "Détail soigné du faîtage",
+       "caption": "Détail soigné du faîtage"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/i8864592aaa1afe70/version/1476037530/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1024x2048:format=jpg/path/s300077807adb88ed/image/i8864592aaa1afe70/version/1476037530/image.jpg",
+       "alt": "Couverture",
+       "caption": "Couverture"
+      }
+     ],
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "combles",
+   "label": "Combles & bardages",
+   "title": "Combles, bardages et terrasses",
+   "eyebrow": "Aménagement de combles · Bardage & isolation · Terrasses",
+   "lead": "Aménagement et modification de combles, bardages bois ou composite avec ou sans isolation extérieure, terrasses et planchers.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s300077807adb88ed/image/i6513c115735c0ea4/version/1456679370/image.jpg",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "amenagements",
+     "eyebrow": "Prestations",
+     "title": "Combles, bardages <em class=\"it\">et terrasses</em>",
+     "items": [
+      [
+       "Combles",
+       "Aménagement et modification de combles, renforcement de charpente, habillage intérieur, isolation traditionnelle ou écologique."
+      ],
+      [
+       "Bardage et isolation",
+       "Bardages bois ou composite, avec ou sans isolation extérieure : une protection contre les intempéries et une meilleure isolation thermique et acoustique."
+      ],
+      [
+       "Terrasses et planchers",
+       "Terrasses extérieures en bois ou composite, pose de planchers intérieurs."
+      ]
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "amenagement-combles",
+     "eyebrow": "Aménagement de combles",
+     "title": "Lambris, charpente <em class=\"it\">et plancher</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i445b858cea4a584e/version/1476035844/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i445b858cea4a584e/version/1476035844/image.jpg",
+       "alt": "Bardage bois",
+       "caption": "Bardage bois"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i9c53d1ac426d5a10/version/1476035844/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i9c53d1ac426d5a10/version/1476035844/image.jpg",
+       "alt": "Bardage bois",
+       "caption": "Bardage bois"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i217395ae593cdf2c/version/1476035844/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i217395ae593cdf2c/version/1476035844/image.jpg",
+       "alt": "Isolation parois et rampants",
+       "caption": "Isolation parois et rampants"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie911effd27f07dd3/version/1476035756/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie911effd27f07dd3/version/1476035756/image.jpg",
+       "alt": "Aménagement de combles",
+       "caption": "Aménagement de combles"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i2b8cb107f2a1ca9a/version/1456681647/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i2b8cb107f2a1ca9a/version/1456681647/image.jpg",
+       "alt": "Aménagement de combles",
+       "caption": "Aménagement de combles"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i8008926efea787da/version/1456681647/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i8008926efea787da/version/1456681647/image.jpg",
+       "alt": "Aménagement de combles",
+       "caption": "Aménagement de combles"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie97daf85b67c0425/version/1456681647/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ie97daf85b67c0425/version/1456681647/image.jpg",
+       "alt": "Aménagement de combles",
+       "caption": "Aménagement de combles"
+      }
+     ],
+     "lead": "Pose d'un bardage en lambris. Modification d'une charpente ancienne pour réaliser un étage intermédiaire dans le volume des combles. Réalisation d'un plancher."
+    },
+    {
+     "kind": "gallery",
+     "id": "bardages",
+     "eyebrow": "Bardage & isolation",
+     "title": "Isolation intérieure <em class=\"it\">d'un bâtiment bois</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i74a841da5d0b3518/version/1456679193/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i74a841da5d0b3518/version/1456679193/image.jpg",
+       "alt": "Isolation intérieure d'un bâtiment en ossature bois",
+       "caption": "Isolation intérieure d'un bâtiment en ossature bois"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i7f792b06f1a125dc/version/1456679193/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i7f792b06f1a125dc/version/1456679193/image.jpg",
+       "alt": "Isolation intérieure d'un bâtiment en ossature bois",
+       "caption": "Isolation intérieure d'un bâtiment en ossature bois"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ibf5810fae00a57c5/version/1456679193/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ibf5810fae00a57c5/version/1456679193/image.jpg",
+       "alt": "Habillage par voliges rabotées",
+       "caption": "Habillage par voliges rabotées"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/if3f9be59f69cc740/version/1456679193/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/if3f9be59f69cc740/version/1456679193/image.jpg",
+       "alt": "Habillage par voliges rabotées",
+       "caption": "Habillage par voliges rabotées"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i31fe37f1f81df5a1/version/1456679193/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i31fe37f1f81df5a1/version/1456679193/image.jpg",
+       "alt": "Bardage et isolation",
+       "caption": "Bardage et isolation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i9a5364f9e023f473/version/1456679193/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i9a5364f9e023f473/version/1456679193/image.jpg",
+       "alt": "Bardage et isolation",
+       "caption": "Bardage et isolation"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s300077807adb88ed/image/i6513c115735c0ea4/version/1456679370/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s300077807adb88ed/image/i6513c115735c0ea4/version/1456679370/image.jpg",
+       "alt": "Ossature bois et bardage en châtaignier pour une extension d'habitation",
+       "caption": "Ossature bois et bardage en châtaignier pour une extension d'habitation"
+      }
+     ],
+     "lead": "Travaux d'isolation intérieure d'un bâtiment en ossature bois, habillage par voliges rabotées. Construction en ossature bois et bardage en châtaignier pour une extension d'habitation."
+    },
+    {
+     "kind": "gallery",
+     "id": "terrasses",
+     "eyebrow": "Terrasses & planchers",
+     "title": "Mélèze <em class=\"it\">et plancher bois</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib1a58bf10b4a1955/version/1456679633/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/ib1a58bf10b4a1955/version/1456679633/image.jpg",
+       "alt": "Jardin d'hiver : plancher bois, 19,50 m²",
+       "caption": "Jardin d'hiver : plancher bois, 19,50 m²"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/id31d246c8e6a6698/version/1456681708/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/id31d246c8e6a6698/version/1456681708/image.jpg",
+       "alt": "Terrasse extérieure sur solivage en bois de mélèze, 50 m²",
+       "caption": "Terrasse extérieure sur solivage en bois de mélèze, 50 m²"
+      }
+     ],
+     "lead": "Jardin d'hiver : plancher bois, 19,50 m². Terrasse extérieure sur solivage en bois de mélèze, 50 m², pour une extension ossature bois et bardage en châtaignier."
+    }
+   ]
+  },
+  {
+   "slug": "escaliers",
+   "label": "Escaliers",
+   "title": "Escaliers",
+   "eyebrow": "Sur mesure · Droits ou balancés · Neuf ou rénovation",
+   "lead": "Fabrication d'escaliers sur mesure, droits ou balancés, à deux limons ou à limon central, en neuf ou en rénovation.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i65e56d75dd5fb2f4/version/1515950611/image.jpg",
+   "sections": [
+    {
+     "kind": "gallery",
+     "id": "balances",
+     "eyebrow": "Escaliers balancés",
+     "title": "À deux limons <em class=\"it\">ou limon central</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i12c4253a042510f2/version/1515949554/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/image/i12c4253a042510f2/version/1515949554/image.jpg",
+       "alt": "Escalier balancé et palier",
+       "caption": "Escalier balancé et palier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i3c832b87843de16b/version/1515949594/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i3c832b87843de16b/version/1515949594/image.jpg",
+       "alt": "Escalier en montage en atelier",
+       "caption": "Escalier en montage en atelier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i91213dc6763c45fb/version/1515949594/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i91213dc6763c45fb/version/1515949594/image.jpg",
+       "alt": "Escalier balancé",
+       "caption": "Escalier balancé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i13f1b34d8b55c6e8/version/1515949634/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i13f1b34d8b55c6e8/version/1515949634/image.jpg",
+       "alt": "Escalier balancé à deux limons",
+       "caption": "Escalier balancé à deux limons"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i65e56d75dd5fb2f4/version/1515950611/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i65e56d75dd5fb2f4/version/1515950611/image.jpg",
+       "alt": "Escalier balancé à limon central en châtaignier",
+       "caption": "Escalier balancé à limon central en châtaignier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ib11c9fa4a7100924/version/1515950611/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ib11c9fa4a7100924/version/1515950611/image.jpg",
+       "alt": "Montage, limon central",
+       "caption": "Montage, limon central"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i135faa8c24375041/version/1515950611/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i135faa8c24375041/version/1515950611/image.jpg",
+       "alt": "Escalier balancé avec balustres (fer rond, finition métal vieilli)",
+       "caption": "Escalier balancé avec balustres (fer rond, finition métal vieilli)"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ic134a72555f200a7/version/1515950611/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/ic134a72555f200a7/version/1515950611/image.jpg",
+       "alt": "Escalier balancé à limon central",
+       "caption": "Escalier balancé à limon central"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i0018c94d2cf20e41/version/1515950611/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i0018c94d2cf20e41/version/1515950611/image.jpg",
+       "alt": "Limon central",
+       "caption": "Limon central"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i6d328beb543b4c54/version/1515950611/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i6d328beb543b4c54/version/1515950611/image.jpg",
+       "alt": "Quart tournant à limon central",
+       "caption": "Quart tournant à limon central"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "droits",
+     "eyebrow": "Escaliers droits et balustrades",
+     "title": "Fabriqués <em class=\"it\">à l'atelier</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id1657fdc0d5ab77b/version/1515951101/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/id1657fdc0d5ab77b/version/1515951101/image.jpg",
+       "alt": "Balustrade à l'atelier",
+       "caption": "Balustrade à l'atelier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i0fe4cbd9ccf0c9aa/version/1515951101/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i0fe4cbd9ccf0c9aa/version/1515951101/image.jpg",
+       "alt": "Escalier droit en montage",
+       "caption": "Escalier droit en montage"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i2c50e600e0913625/version/1515951101/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i2c50e600e0913625/version/1515951101/image.jpg",
+       "alt": "Escalier droit posé",
+       "caption": "Escalier droit posé"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i490f02aa535e306f/version/1515951101/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i490f02aa535e306f/version/1515951101/image.jpg",
+       "alt": "Escalier droit et palier",
+       "caption": "Escalier droit et palier"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i1fda184016b86de1/version/1515951101/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s300077807adb88ed/image/i1fda184016b86de1/version/1515951101/image.jpg",
+       "alt": "Balustrade du palier de départ",
+       "caption": "Balustrade du palier de départ"
+      }
+     ],
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact-et-questions",
+   "label": "Contact",
+   "title": "Contact et questions",
+   "eyebrow": "Pau · Oloron-Sainte-Marie · Vallée d'Aspe",
+   "lead": "4 impasse des Barats, 64400 Oloron-Sainte-Marie. Tél. 06 33 77 36 29.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s300077807adb88ed/backgroundarea/i232b93cdd41a3869/version/1456940700/image.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Demander un devis",
+     "title": "Votre <em class=\"it\">projet</em>",
+     "lead": "Neuf ou rénovation, du simple dépannage au gros chantier : décrivez votre projet.",
+     "email": "desbats.christian@orange.fr",
+     "subject": "Demande depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33633773629\" style=\"border-bottom:1px solid var(--gold)\">06 33 77 36 29</a>",
+      "E-mail : <a href=\"mailto:desbats.christian@orange.fr\">desbats.christian@orange.fr</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "partenaires",
+     "eyebrow": "Partenaires",
+     "title": "Nous travaillons <em class=\"it\">ensemble !</em>",
+     "lead": "Pour finaliser votre projet, les artisans associent leurs compétences : la spécificité de chacun garantit un travail de qualité.",
+     "items": [
+      {
+       "kicker": "Menuiserie",
+       "title": "HB menuiserie, Hubert Borne",
+       "paras": [
+        "Toutes sortes de travaux de menuiserie : portes, fenêtres, mobilier.",
+        "14 avenue Georges Messier, 64400 Bidos · <a href=\"tel:+33632979338\">06 32 97 93 38</a>"
+       ],
+       "link": [
+        "hb-menuisier.com",
+        "http://www.hb-menuisier.com/"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Contact",
+     "title": "Christian Desbats, <em class=\"it\">Oloron-Sainte-Marie</em>",
+     "text": "Chantiers neufs ou rénovation dans la région de Pau, Oloron-Sainte-Marie et la vallée d'Aspe.",
+     "rows": [
+      [
+       "Adresse",
+       "4 impasse des Barats<br>64400 Oloron-Sainte-Marie"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33633773629\">06 33 77 36 29</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:desbats.christian@orange.fr\">desbats.christian@orange.fr</a>"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/Desbats-Charpente-249526572148820/?fref=ts\" target=\"_blank\" rel=\"noopener\">Desbats Charpente</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "#devis"
+     ],
+     "map_q": "4 impasse des Barats, 64400 Oloron-Sainte-Marie"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Christian Desbats, charpentier-couvreur depuis 1975 : charpente, ossature bois, couverture, zinguerie, combles, bardages, terrasses et escaliers. Neuf et rénovation.",
+  "contact": [
+   "<a href=\"tel:+33633773629\">06 33 77 36 29</a>",
+   "<a href=\"mailto:desbats.christian@orange.fr\">desbats.christian@orange.fr</a>",
+   "4 impasse des Barats, 64400 Oloron-Sainte-Marie"
+  ],
+  "legal": "Christian Desbats, charpentier-couvreur, auto-entrepreneur · SIRET 324 233 915 00044",
+  "legal_url": "https://desbats-charpente.jimdofree.com/about/",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Desbats-Charpente-249526572148820/?fref=ts"
+   ]
+  ]
+ }
+}
