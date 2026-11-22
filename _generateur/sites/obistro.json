@@ -1,0 +1,200 @@
+{
+ "slug": "obistro-90f214",
+ "title": "OBistr'Ro — Restaurant bistronomique, Maître Restaurateur, Tours",
+ "description": "Restaurant bistronomique rue Gambetta à Tours : cuisine 100 % maison à base de produits frais, formule du midi renouvelée chaque semaine. Maître Restaurateur.",
+ "brand": "OBistr'Ro",
+ "monogram": "OB",
+ "tagline": "Bistronomie · Tours",
+ "theme": {
+  "paper": "#f6f1e9",
+  "paper2": "#ebe3d6",
+  "ink": "#1d1a18",
+  "muted": "#635a53",
+  "accent": "#8e2f2a",
+  "accent2": "#74241f",
+  "gold": "#b8914a",
+  "heroem": "#efc9a4",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Karla\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Karla:wght@300;400;500;600&display=swap",
+  "look": "classic"
+ },
+ "topbar": [
+  "<a href=\"tel:+33247054522\">02 47 05 45 22</a>",
+  "9 rue Gambetta, Tours",
+  "<a href=\"#reserver\">Réserver</a>"
+ ],
+ "nav": [
+  ["maison", "La maison"],
+  ["carte", "La formule"],
+  ["reserver", "Réservation"],
+  ["contact", "Contact"]
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/b25e4a_bc74ec527e7b425391ff7fb2153b7b9e~mv2.jpeg/v1/fit/w_2500,h_1330,al_c,q_85/b25e4a_bc74ec527e7b425391ff7fb2153b7b9e~mv2.jpeg",
+  "eyebrow": "Restaurant bistronomique · Maître Restaurateur",
+  "title": "100 % maison,<br><em>produits frais</em>",
+  "lead": "Rue Gambetta, à deux pas de la rue Nationale : une cuisine de saison, une formule du midi qui change chaque semaine.",
+  "cta1": ["Réserver une table", "#reserver"],
+  "cta2": ["Voir la formule", "#carte"]
+ },
+ "figures": [
+  ["100 %", "fait maison"],
+  ["44", "couverts"],
+  ["Mar–Sam", "le midi"],
+  ["Ven–Sam", "le soir"]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "maison",
+   "eyebrow": "La maison",
+   "title": "La bistronomie, <em class=\"it\">rue Gambetta</em>",
+   "img": "https://static.wixstatic.com/media/b25e4a_56e7893e322c4185bf1f8b9ce525335c~mv2.jpeg/v1/fill/w_1200,h_1600,al_c,q_85/b25e4a_56e7893e322c4185bf1f8b9ce525335c~mv2.jpeg",
+   "alt": "OBistr'Ro, Tours",
+   "paras": [
+    "Au 9 rue Gambetta, OBistr'Ro sert une cuisine bistronomique 100 % maison, à base de produits frais et de saison.",
+    "Chaque semaine, une nouvelle formule du midi : entrée, plat, dessert, à composer selon l'appétit. Le vendredi et le samedi soir, la salle accueille aussi le dîner.",
+    "Le restaurant porte le titre de Maître Restaurateur. On parle aussi de nous dans TMV Tours et dans le Guide Sésame."
+   ],
+   "logos": [
+    ["https://static.wixstatic.com/media/b25e4a_a33cec6f173e48c1b0cfcbb0cee40b03~mv2.png/v1/fit/w_300,h_300,q_90/maitre-restaurateur.png", "Maître Restaurateur"],
+    ["https://static.wixstatic.com/media/b25e4a_31d9265db0a34507a30a4127d30482cd~mv2.png/v1/fit/w_460,h_168,q_90/images_logo-tmv.png", "TMV Tours"],
+    ["https://static.wixstatic.com/media/b25e4a_590797747a8546d58002402d9d4ae9b7~mv2.jpg/v1/fit/w_300,h_300,q_90/guide-sesame.jpg", "Guide Sésame"]
+   ]
+  },
+  {
+   "kind": "features",
+   "dark": true,
+   "id": "esprit",
+   "eyebrow": "Notre cuisine",
+   "title": "Ce qui vous attend <em class=\"it\">à table</em>",
+   "lead": "Une cuisine française de saison, simple et soignée.",
+   "items": [
+    ["100 % maison", "Tout est préparé sur place, à base de produits frais."],
+    ["Formule de la semaine", "Un choix d'entrées, de plats et de desserts, renouvelé chaque semaine."],
+    ["Maître Restaurateur", "Le titre qui garantit une cuisine faite maison et des produits bruts."],
+    ["Terrasse", "Une terrasse pour profiter des beaux jours en plein centre de Tours."]
+   ]
+  },
+  {
+   "kind": "menu",
+   "id": "carte",
+   "eyebrow": "La formule du midi · du 17 au 20 novembre",
+   "title": "Cette semaine <em class=\"it\">à l'ardoise</em>",
+   "lead": "100 % maison, à base de produits frais. Servie le midi du mardi au vendredi, hors jours fériés.",
+   "sections": [
+    {
+     "title": "Entrées",
+     "items": [
+      ["Velouté de saison", "", "Butternut, châtaignes, crème à l'ail"],
+      ["Poireaux et chorizo", "", "Tendre de blancs de poireaux, crème de chorizo"],
+      ["Œuf mayonnaise", "", "Jambon basque, crumble de romarin, oseille"]
+     ]
+    },
+    {
+     "title": "Plats",
+     "items": [
+      ["Poisson du marché", "", "Céleri rave, beurre blanc citronné, cacahuète"],
+      ["Volaille jaune", "", "Purée de pommes de terre, cébette, pommes paille, sauce estragon"],
+      ["Faux-filet de bœuf VBF", "+3 €", "Pommes grenailles et pleurotes sautés, sauce au vin rouge"],
+      ["Chou-fleur rôti", "", "Cancoillotte et oignons farcis"]
+     ]
+    },
+    {
+     "title": "Desserts",
+     "items": [
+      ["Ananas rôti", "", "Crème mascarpone, crumble"],
+      ["Sablé et oranges", "", "Orange confite, siphon à l'orange, glace yaourt"],
+      ["Profiteroles", ""]
+     ]
+    }
+   ],
+   "note": "La formule change chaque semaine. Menu enfant : 14 €. Le vendredi et le samedi soir, service à partir de 19h30.",
+   "aside": {
+    "eyebrow": "La formule du midi",
+    "title": "Du mardi au vendredi",
+    "big": "19 € · 23 € · 26 €",
+    "text": "Hors jours fériés. À composer selon l'appétit :",
+    "courses": [
+     ["Entrée", "Velouté de saison, poireaux et chorizo ou œuf mayonnaise"],
+     ["Plat", "Poisson du marché, volaille jaune, faux-filet VBF ou chou-fleur rôti"],
+     ["Dessert", "Ananas rôti, sablé et oranges ou profiteroles"]
+    ],
+    "items": [
+     ["Plat", "19 €"],
+     ["Entrée + plat ou plat + dessert", "23 €"],
+     ["Entrée + plat + dessert", "26 €"],
+     ["Supplément faux-filet de bœuf VBF", "3 €"]
+    ],
+    "cta": ["Réserver une table", "#reserver"]
+   }
+  },
+  {
+   "kind": "gallery",
+   "id": "galerie",
+   "eyebrow": "En images",
+   "title": "Bon <em class=\"it\">appétit !</em>",
+   "photos": [
+    {
+     "thumb": "https://static.wixstatic.com/media/b25e4a_e77435a9e8314afea42a513c54f99346~mv2.jpg/v1/fit/w_900,h_900,q_85/a.jpg",
+     "full": "https://static.wixstatic.com/media/b25e4a_e77435a9e8314afea42a513c54f99346~mv2.jpg/v1/fit/w_1800,h_1800,q_85/a.jpg",
+     "alt": "OBistr'Ro"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b25e4a_95bc196562de44368980f79de17b129b~mv2.jpg/v1/fit/w_900,h_900,q_85/b.jpg",
+     "full": "https://static.wixstatic.com/media/b25e4a_95bc196562de44368980f79de17b129b~mv2.jpg/v1/fit/w_1800,h_1800,q_85/b.jpg",
+     "alt": "OBistr'Ro"
+    },
+    {
+     "thumb": "https://static.wixstatic.com/media/b25e4a_56e7893e322c4185bf1f8b9ce525335c~mv2.jpeg/v1/fit/w_900,h_900,q_85/c.jpeg",
+     "full": "https://static.wixstatic.com/media/b25e4a_56e7893e322c4185bf1f8b9ce525335c~mv2.jpeg/v1/fit/w_1800,h_1800,q_85/c.jpeg",
+     "alt": "OBistr'Ro"
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/b25e4a_e77435a9e8314afea42a513c54f99346~mv2.jpg/v1/fill/w_1920,h_1100,al_c,q_85/salle.jpg",
+   "eyebrow": "Midi du mardi au samedi · soir vendredi et samedi",
+   "title": "Une table vous attend<br><em>rue Gambetta</em>",
+   "cta": ["Réserver une table", "#reserver"]
+  },
+  {
+   "kind": "booking",
+   "id": "reserver",
+   "eyebrow": "Réservation",
+   "title": "Réservez <em class=\"it\">votre table</em>",
+   "lead": "Réservation en ligne, ou par téléphone au 02 47 05 45 22.",
+   "url": "https://reservation.laddition.com/booking/obistro",
+   "label": "Réservation OBistr'Ro (L'Addition)",
+   "height": 680
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Venez <em class=\"it\">nous voir</em>",
+   "text": "En plein centre de Tours, à deux pas de la rue Nationale.",
+   "rows": [
+    ["Adresse", "9 rue Gambetta<br>37000 Tours"],
+    ["Horaires", "Midi : du mardi au samedi, à partir de 12h00<br>Soir : vendredi et samedi, à partir de 19h30"],
+    ["Téléphone", "<a href=\"tel:+33247054522\">02 47 05 45 22</a>"],
+    ["E-mail", "<a href=\"mailto:o.bistro@icloud.com\">o.bistro@icloud.com</a>"],
+    ["Instagram", "<a href=\"https://www.instagram.com/obistro37/\" target=\"_blank\" rel=\"noopener\">@obistro37</a>"]
+   ],
+   "cta": ["Réserver une table", "#reserver"],
+   "map_q": "9 rue Gambetta, 37000 Tours"
+  }
+ ],
+ "footer": {
+  "about": "Restaurant bistronomique, Maître Restaurateur, au 9 rue Gambetta à Tours.",
+  "contact": [
+   "<a href=\"tel:+33247054522\">02 47 05 45 22</a>",
+   "<a href=\"mailto:o.bistro@icloud.com\">o.bistro@icloud.com</a>",
+   "9 rue Gambetta, 37000 Tours"
+  ],
+  "social": [["instagram", "https://www.instagram.com/obistro37/"]],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+ }
+}
