@@ -1,0 +1,296 @@
+{
+ "slug": "pellet-entreprise-b1c4e1",
+ "title": "Pellet Entreprise — Plombier chauffagiste à Saint-Jorioz (74410)",
+ "description": "Pellet Entreprise, plombier chauffagiste à Saint-Jorioz (Haute-Savoie) : chauffage, chaudières et pompes à chaleur, plomberie et salles de bains, climatisation, recherche de fuite, dépannages d'urgence. Devis gratuits.",
+ "brand": "Pellet Entreprise",
+ "tagline": "Chauffage · Plomberie · Climatisation",
+ "monogram": "PE",
+ "theme": {
+  "look": "split",
+  "paper": "#f6f3ee",
+  "paper2": "#ebe4d9",
+  "ink": "#1c2833",
+  "muted": "#5a6470",
+  "accent": "#b0602c",
+  "accent2": "#8c4a20",
+  "gold": "#c8963e",
+  "heroem": "#f3c9a6",
+  "serif": "\"Archivo\",system-ui,sans-serif",
+  "sans": "\"Inter\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33478495559\">04 78 49 55 59</a>",
+  "<a href=\"tel:+33669687265\">06 69 68 72 65</a>"
+ ],
+ "home_label": "Accueil",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg/v1/fill/w_1920,h_1440,al_c,q_90/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg",
+  "eyebrow": "Plombier chauffagiste · Saint-Jorioz · Haute-Savoie",
+  "title": "Chauffage, plomberie, <em>climatisation</em>",
+  "lead": "Spécialistes en chauffage, plomberie, climatisation, nous mettons notre expérience à votre service, chez les particuliers et les professionnels.",
+  "cta1": [
+   "Demander un devis",
+   "#devis"
+  ],
+  "cta2": [
+   "06 69 68 72 65",
+   "tel:+33669687265"
+  ]
+ },
+ "figures": [
+  [
+   "4",
+   "métiers"
+  ],
+  [
+   "6",
+   "marques"
+  ],
+  [
+   "Devis",
+   "gratuits"
+  ],
+  [
+   "74",
+   "Haute-Savoie"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "entreprise",
+   "eyebrow": "Pellet Entreprise",
+   "title": "Un travail sérieux <em class=\"it\">et soigné</em>",
+   "img": "https://static.wixstatic.com/media/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg/v1/fill/w_1000,h_1250,al_c,q_85/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg",
+   "alt": "Pellet Entreprise, plombier chauffagiste à Saint-Jorioz",
+   "paras": [
+    "Spécialistes en chauffage, plomberie, climatisation, nous mettons notre expérience à votre service. Basés à Saint-Jorioz (74410), nous intervenons rapidement chez les particuliers et professionnels.",
+    "Nous effectuons le remplacement de chaudières tous types, chauffe-eaux, chauffages complets (fioul, gaz etc.).",
+    "Qu'il s'agisse de travaux de rénovation ou de créations sanitaires, de dépannages d'urgence, de réparation de fuites, de travaux de réfection de salles de bains, d'installation ou de remplacement de climatisations, nous vous proposons des devis gratuits, un travail sérieux et soigné et des délais d'intervention rapides."
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "prestations",
+   "dark": true,
+   "eyebrow": "Nos prestations",
+   "title": "Quatre métiers, <em class=\"it\">un seul interlocuteur</em>",
+   "lead": "Particuliers et professionnels : devis gratuits et délais d'intervention rapides.",
+   "items": [
+    [
+     "Chauffage",
+     "Chaudières à gaz, à condensation, basse température, pompes à chaleur, poêles à gaz, systèmes de chauffage complets."
+    ],
+    [
+     "Plomberie",
+     "Réparations d'urgence, points d'eau, réfection de salles de bains et de cuisines, pose d'équipements sanitaires."
+    ],
+    [
+     "Climatisation",
+     "Mise en place ou remplacement de climatisations monoblocs ou splits."
+    ],
+    [
+     "Recherche de fuite",
+     "Dégât des eaux, surconsommation anormale : nous stoppons et localisons la fuite, puis réparons."
+    ]
+   ]
+  },
+  {
+   "kind": "quote",
+   "text": "Attachés au travail du cuivre « à l'ancienne », nous installons ou remplaçons les chaudières à gaz, chaudières à condensation, chaudières basse température, pompes à chaleur…",
+   "sub": "Pellet Entreprise · Saint-Jorioz",
+   "eyebrow": "Notre savoir-faire"
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Saint-Jorioz, <em class=\"it\">Haute-Savoie</em>",
+   "text": "N'hésitez pas à nous contacter au 04 78 49 55 59 ou au 06 69 68 72 65.",
+   "rows": [
+    [
+     "Adresse",
+     "112 route de la Tire<br>74410 Saint-Jorioz"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33478495559\">04 78 49 55 59</a><br><a href=\"tel:+33669687265\">06 69 68 72 65</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:pellet.entreprise@gmail.com\">pellet.entreprise@gmail.com</a>"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "#devis"
+   ],
+   "map_q": "112 route de la Tire, 74410 Saint-Jorioz"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "prestations",
+   "label": "Nos prestations",
+   "title": "Nos prestations",
+   "eyebrow": "Chauffage · Plomberie · Climatisation · Recherche de fuite",
+   "lead": "Installation, remplacement, réparation et dépannage, chez les particuliers et les professionnels.",
+   "img": "https://static.wixstatic.com/media/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg/v1/fill/w_1920,h_1080,al_c,q_85/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "chauffage",
+     "eyebrow": "Nos prestations",
+     "title": "Le détail <em class=\"it\">de nos interventions</em>",
+     "items": [
+      {
+       "kicker": "Chauffage",
+       "title": "Chaudières et pompes à chaleur",
+       "paras": [
+        "Attachés au travail du cuivre « à l'ancienne », nous installons ou remplaçons les chaudières à gaz, chaudières à condensation, chaudières basse température, pompes à chaleur etc."
+       ],
+       "list": [
+        "Installation ou remplacement de chaudières tous types et pompes à chaleur",
+        "Réparation ou remplacement de systèmes de chauffage complets",
+        "Installation de poêle à gaz",
+        "etc."
+       ]
+      },
+      {
+       "kicker": "Plomberie",
+       "title": "Sanitaires et salles de bains",
+       "list": [
+        "Réparations d'urgence sur tous types de matériaux",
+        "Création de points d'eau intérieurs ou extérieurs",
+        "Réfection de salles de bains, cuisines ou autres installations sanitaires",
+        "Création ou modification d'évacuations et alimentations d'eau",
+        "Modification du circuit de production d'eau chaude et de circuits de chauffage",
+        "Installation d'équipements sanitaires : douches, WC, éviers, vasques, mitigeurs, robinets, baignoires, salles de bains complètes…"
+       ]
+      },
+      {
+       "kicker": "Climatisation",
+       "title": "Monoblocs ou splits",
+       "paras": [
+        "Nous installons ou remplaçons tous types de systèmes de climatisation : mise en place ou remplacement de climatisations monoblocs ou splits."
+       ]
+      },
+      {
+       "kicker": "Recherche de fuite",
+       "title": "Stopper, localiser, réparer",
+       "paras": [
+        "Dégât des eaux, surconsommation anormale, suspicion de fuite : nous intervenons rapidement afin de stopper et localiser la fuite, effectuer un diagnostic, réparer ou chiffrer les travaux si nécessaire."
+       ],
+       "link": [
+        "Signaler une fuite",
+        "#devis"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "marques",
+     "tight": true,
+     "eyebrow": "Nos marques",
+     "title": "Le matériel <em class=\"it\">que nous posons</em>",
+     "lead": "Chauffage : nous travaillons principalement avec Frisquet, ELM Leblanc, Vaillant et Saunier Duval. Climatisation : principalement avec Atlantic et Fujitsu.",
+     "chips": [
+      "Frisquet",
+      "ELM Leblanc",
+      "Vaillant",
+      "Saunier Duval",
+      "Atlantic",
+      "Fujitsu"
+     ],
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis gratuits",
+   "lead": "112 route de la Tire, 74410 Saint-Jorioz · 04 78 49 55 59 · 06 69 68 72 65",
+   "img": "https://static.wixstatic.com/media/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg/v1/fill/w_1920,h_1080,al_c,q_85/c277f3_28fdc22827614616b53734fd7dc096af~mv2_d_3264_2448_s_4_2.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Devis gratuit",
+     "title": "Demander <em class=\"it\">un devis</em>",
+     "lead": "Chauffage, plomberie, climatisation, recherche de fuite : décrivez-nous votre besoin, nous vous recontactons.",
+     "email": "pellet.entreprise@gmail.com",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33478495559\" style=\"border-bottom:1px solid var(--gold)\">04 78 49 55 59</a>",
+      "Portable : <a href=\"tel:+33669687265\" style=\"border-bottom:1px solid var(--gold)\">06 69 68 72 65</a>",
+      "<a href=\"mailto:pellet.entreprise@gmail.com\" style=\"border-bottom:1px solid var(--gold)\">pellet.entreprise@gmail.com</a>"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Objet",
+       "full": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "SAS Pellet <em class=\"it\">Entreprise</em>",
+     "text": "Basés à Saint-Jorioz (74410), nous intervenons rapidement chez les particuliers et professionnels.",
+     "rows": [
+      [
+       "Adresse",
+       "112 route de la Tire<br>74410 Saint-Jorioz"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33478495559\">04 78 49 55 59</a><br><a href=\"tel:+33669687265\">06 69 68 72 65</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:pellet.entreprise@gmail.com\">pellet.entreprise@gmail.com</a>"
+      ],
+      [
+       "SIRET",
+       "824 944 888 00026"
+      ]
+     ],
+     "map_q": "112 route de la Tire, 74410 Saint-Jorioz",
+     "cta": [
+      "Appeler le 06 69 68 72 65",
+      "tel:+33669687265"
+     ]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Pellet Entreprise, plombier chauffagiste à Saint-Jorioz : chauffage, plomberie, climatisation et recherche de fuite, pour les particuliers et les professionnels. Devis gratuits.",
+  "contact": [
+   "<a href=\"tel:+33478495559\">04 78 49 55 59</a> · <a href=\"tel:+33669687265\">06 69 68 72 65</a>",
+   "<a href=\"mailto:pellet.entreprise@gmail.com\">pellet.entreprise@gmail.com</a>",
+   "112 route de la Tire, 74410 Saint-Jorioz"
+  ],
+  "legal": "SAS Pellet Entreprise · SIRET 824 944 888 00026 · Saint-Jorioz (74)."
+ }
+}
