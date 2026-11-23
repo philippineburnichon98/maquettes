@@ -1,0 +1,892 @@
+{
+ "slug": "tarres-metallerie-b0a468",
+ "title": "Tarres, métallerie serrurerie à Saint-Martin-en-Haut (Monts du Lyonnais, Rhône)",
+ "description": "Tarres, métallerie, serrurerie et menuiserie métallique depuis 1969 à Saint-Martin-en-Haut : escaliers, portes, portails, garde-corps, verrières sur mesure en acier, inox et aluminium.",
+ "brand": "Tarres",
+ "tagline": "Métallerie créative",
+ "monogram": "T",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/168ce5_93e9acee2bb8494a8d38275694948546~mv2.jpg",
+  "height": 50
+ },
+ "theme": {
+  "look": "center",
+  "paper": "#f3f3f1",
+  "paper2": "#e4e5e3",
+  "ink": "#1d2024",
+  "muted": "#5b6066",
+  "accent": "#2b5c86",
+  "accent2": "#1f4566",
+  "gold": "#b8874a",
+  "heroem": "#f1c98d",
+  "serif": "\"Barlow Condensed\",\"Arial Narrow\",sans-serif",
+  "sans": "\"Barlow\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Barlow:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33478486307\">Tél : 04 78 48 63 07</a>",
+  "<a href=\"mailto:contact@tarres.fr\">contact@tarres.fr</a>"
+ ],
+ "home_label": "Accueil",
+ "nav": [],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/168ce5_d1a91b519872459097c8c636e14b2263~mv2.png",
+  "eyebrow": "Métallerie · Serrurerie · Depuis 1969 · Monts du Lyonnais",
+  "title": "Votre imagination <em>pour seule limite</em>",
+  "lead": "Escaliers, portes, portails, garde-corps, verrières : nous fabriquons sur mesure en acier, inox et aluminium, puis nous assemblons et installons.",
+  "cta1": [
+   "Demander un devis",
+   "contactez-nous/#devis"
+  ],
+  "cta2": [
+   "04 78 48 63 07",
+   "tel:+33478486307"
+  ]
+ },
+ "figures": [
+  [
+   "1969",
+   "fondée dans les Monts du Lyonnais"
+  ],
+  [
+   "30",
+   "collaborateurs"
+  ],
+  [
+   "+400",
+   "comptes clients"
+  ],
+  [
+   "3",
+   "métaux : acier, inox, aluminium"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "presentation",
+   "eyebrow": "Depuis 1969",
+   "title": "Un partenaire <em class=\"it\">inscrit dans la durée</em>",
+   "img": "https://static.wixstatic.com/media/168ce5_f17cef10bb4b43fcaa6e584980eed158~mv2.jpg",
+   "alt": "Tarres, métallerie à Saint-Martin-en-Haut",
+   "paras": [
+    "Tarres métallerie est un partenaire inscrit dans la durée, présent depuis 1969 dans les Monts du Lyonnais.",
+    "Métallerie, serrurerie, menuiserie métallique : nous fabriquons sur mesure tous produits en acier, inox et aluminium. Nous travaillons les profils et les tôles, puis nous assemblons et installons vos ouvrages : escaliers, portes, portails, garde-corps, verrières.",
+    "<a href=\"a-propos/\" style=\"border-bottom:1px solid var(--gold)\">Qui sommes-nous ?</a>"
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "savoir-faire",
+   "eyebrow": "Métallerie créative",
+   "title": "Ce que nous <em class=\"it\">fabriquons</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_dee4a5442e0d487291c493f4e4d7d99d~mv2_d_2016_1512_s_2.jpg",
+     "alt": "Escaliers",
+     "title": "Escaliers",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#escaliers"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_0a34a2b2a6f4445d9126d6779c1a892b~mv2.jpg",
+     "alt": "Verrières",
+     "title": "Verrières",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#verrieres"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_a2b8ec4985f746f294548ae1fdc18e10~mv2_d_2048_1536_s_2.jpg",
+     "alt": "Outils industriels",
+     "title": "Outils industriels",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#outils-industriels"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_4a7ff21cece1490e8199f099ccf3133e~mv2.jpg",
+     "alt": "Projets professionnels",
+     "title": "Projets professionnels",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#projets-pro"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_bf2df1725c06432da72986b417c2c0b0~mv2_d_2048_1536_s_2.jpg",
+     "alt": "Portails",
+     "title": "Portails",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#portails"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_e16e307734aa4853ac3d53bbab2c4ab3~mv2.jpg",
+     "alt": "Garde-corps",
+     "title": "Garde-corps",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#gardes-corps"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_e73dd2a03b22419585acba9dd32f9e23~mv2.jpg",
+     "alt": "Portes",
+     "title": "Portes",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#portes"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_3c96da3f85fb40408f045c32fbce681a~mv2.jpg",
+     "alt": "Outils agricoles",
+     "title": "Outils agricoles",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#outils-agricoles"
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_c4541ed3a0794de19424f4a04556862b~mv2_d_2016_1512_s_2.jpg",
+     "alt": "Vos idées",
+     "title": "Vos idées",
+     "link": [
+      "Voir les réalisations",
+      "metallerie-creative/#idees"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "projets",
+   "dark": true,
+   "eyebrow": "Projets",
+   "title": "Quelques <em class=\"it\">chantiers</em>",
+   "items": [
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_c0aa562d64a64f7fb56c6fe9d3be2265~mv2_d_4032_3024_s_4_2.jpg",
+     "alt": "Les halles de la Martinière",
+     "kicker": "Lyon",
+     "title": "Les halles de la Martinière",
+     "paras": [
+      "Nous avons réalisé tous les châssis, mezzanines, brise-vues et comptoirs."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_b3435e4b2d6844c392fab6ace1c25d84~mv2_d_2448_3264_s_4_2.jpg",
+     "alt": "Escalier",
+     "kicker": "Rhône Mutualité",
+     "title": "Escalier",
+     "paras": [
+      "Réalisation et pose d'un escalier colimaçon acier/bois."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_6f1cf39d9f524572ad9f67172043fa8c~mv2.jpg",
+     "alt": "Escalier colimaçon",
+     "kicker": "Rhône Mutualité",
+     "title": "Escalier colimaçon",
+     "paras": [
+      "Escalier colimaçon acier/bois."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_c2589e87cc174adea2d3677a90533e8e~mv2.jpg",
+     "alt": "Kiosque rétro",
+     "kicker": "Conception",
+     "title": "Kiosque rétro",
+     "paras": [
+      "Conception, réalisation et pose de l'ensemble."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_e1baa0ac40c14caeb469ec2adb5f0865~mv2_d_2016_1512_s_2.jpg",
+     "alt": "Charpente métallique",
+     "kicker": "Made IN · Sainte-Marie Lyon",
+     "title": "Charpente métallique",
+     "paras": [
+      "Réalisation et pose d'une charpente métallique et de châssis vitrés pour une salle de conférence de 240 m²."
+     ]
+    },
+    {
+     "img": "https://static.wixstatic.com/media/168ce5_63ab4c574c484809a364559ce78effd9~mv2_d_2048_1536_s_2.jpg",
+     "alt": "Ouvertures en inox",
+     "kicker": "Made IN · Sainte-Marie Lyon",
+     "title": "Ouvertures en inox",
+     "paras": [
+      "Réalisation et pose de toutes les ouvertures et décors en inox."
+     ]
+    },
+    {
+     "kicker": "Monaco",
+     "title": "Dôme lumineux",
+     "paras": [
+      "Réalisation et pose d'un dôme lumineux dans une chocolaterie."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "actualites",
+   "eyebrow": "Actualités",
+   "title": "La vie <em class=\"it\">de l'atelier</em>",
+   "items": [
+    {
+     "kicker": "11/03/2016",
+     "title": "Nouveaux équipements",
+     "paras": [
+      "Acquisition de moyens de manutention, d'une rouleuse et d'autres machines industrielles."
+     ]
+    },
+    {
+     "kicker": "20/04/2017",
+     "title": "Poinçonnage et seconde équipe de pose",
+     "paras": [
+      "Nouveau combiné à commande numérique de poinçonnage et de découpe haute définition, et création d'une deuxième équipe de pose."
+     ]
+    },
+    {
+     "kicker": "24/02/2018",
+     "title": "Tournés vers l'avenir",
+     "paras": [
+      "Réalisation d'un audit fonctionnel, mise en place d'un accompagnement et d'une réorganisation orientés vers le futur."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/168ce5_e1baa0ac40c14caeb469ec2adb5f0865~mv2_d_2016_1512_s_2.jpg",
+   "eyebrow": "Particuliers · Professionnels · Collectivités · Industries",
+   "title": "Un projet en métal <em>sur mesure ?</em>",
+   "cta": [
+    "Demander un devis",
+    "contactez-nous/#devis"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "Tarres, <em class=\"it\">Saint-Martin-en-Haut</em>",
+   "text": "Au cœur des Monts du Lyonnais.",
+   "rows": [
+    [
+     "Adresse",
+     "Rue de la Cassette, ZA les Plaines<br>69850 Saint-Martin-en-Haut"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33478486307\">04 78 48 63 07</a>"
+    ],
+    [
+     "Fax",
+     "04 78 48 69 77"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:contact@tarres.fr\">contact@tarres.fr</a>"
+    ]
+   ],
+   "cta": [
+    "Demander un devis",
+    "contactez-nous/#devis"
+   ],
+   "map_q": "Tarres SAS, Rue de la Cassette, ZA les Plaines, 69850 Saint-Martin-en-Haut"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "À propos",
+   "title": "À propos",
+   "eyebrow": "Tarres depuis 1969",
+   "lead": "Une équipe d'artisans organisée pour répondre aux exigences industrielles.",
+   "img": "https://static.wixstatic.com/media/168ce5_d1a91b519872459097c8c636e14b2263~mv2.png",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "qui-sommes-nous",
+     "eyebrow": "Qui sommes-nous ?",
+     "title": "Fondée en 1969, <em class=\"it\">au cœur des Monts du Lyonnais</em>",
+     "img": "https://static.wixstatic.com/media/168ce5_f17cef10bb4b43fcaa6e584980eed158~mv2.jpg",
+     "alt": "Tarres",
+     "paras": [
+      "Fondée en 1969, Tarres est située au cœur des Monts du Lyonnais. Nous sommes spécialisés dans la conception, l'étude et la réalisation de projets en métal pour les particuliers, les professionnels, les collectivités locales et les industries.",
+      "Forts d'une équipe expérimentée et polyvalente, partageant la fierté du travail bien fait, nous répondons aux critères d'excellence et de professionnalisme les plus pointus.",
+      "Notre équipe élabore vos projets de travaux d'extérieur ou d'intérieur, d'ameublement ou encore d'équipements industriels.",
+      "Nous sommes une équipe d'artisans, organisée pour répondre aux exigences industrielles, unie autour d'un seul et même critère : la satisfaction de nos clients."
+     ]
+    },
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "Notre équipe",
+     "title": "Vos <em class=\"it\">interlocuteurs</em>",
+     "img": "https://static.wixstatic.com/media/168ce5_7e494c34d4664ab585c3cf8b72fbf64f~mv2_d_5152_3864_s_4_2.jpg",
+     "alt": "L'équipe Tarres",
+     "people": [
+      {
+       "name": "Bertrand Colinet",
+       "role": "Président",
+       "img": "https://static.wixstatic.com/media/168ce5_b52458462d754c9db6721ac6a4cf34d1~mv2_d_2550_2067_s_2.jpg"
+      },
+      {
+       "name": "Romain Joannon",
+       "role": "Responsable des travaux extérieurs",
+       "img": "https://static.wixstatic.com/media/168ce5_b9c835cd2c3d4bc1ab4e8ab45a96087e~mv2.jpg"
+      },
+      {
+       "name": "Arnaud Charvolin",
+       "role": "Responsable de la gestion de production",
+       "img": "https://static.wixstatic.com/media/168ce5_062ae3a2fb3c4fd48d986d90025a13b1~mv2_d_1944_2592_s_2.jpg"
+      },
+      {
+       "name": "Matthieu Flachon",
+       "role": "Conducteur de travaux secteur bâtiment",
+       "img": "https://static.wixstatic.com/media/168ce5_0087586b591b44babe231e417d60493e~mv2.jpg"
+      }
+     ],
+     "note": "Équipe Tarres : 04 78 48 63 07 · contact@tarres.fr"
+    },
+    {
+     "kind": "blocks",
+     "id": "de-plus",
+     "eyebrow": "De plus",
+     "title": "Un atelier <em class=\"it\">bien équipé</em>",
+     "lead": "Quelques chiffres : ~4 M€ de chiffre d'affaires en 2018, plus de 400 comptes clients et 30 collaborateurs.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_aef0ff906c6146d1aaedad6a10392d59~mv2.png",
+       "alt": "Ressources de l'atelier",
+       "contain": true,
+       "title": "Nos ressources",
+       "list": [
+        "Banc de scie",
+        "Cintreuse",
+        "Équipements de soudure",
+        "Forge",
+        "Guillotine",
+        "Rouleuse croqueuse",
+        "Perceuse sur colonnes",
+        "Pileuse 140 tonnes",
+        "Pointeuse",
+        "Presse 100 tonnes"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/168ce5_b3435e4b2d6844c392fab6ace1c25d84~mv2_d_2448_3264_s_4_2.jpg",
+     "eyebrow": "Des questions ?",
+     "title": "Parlons <em>de votre projet</em>",
+     "cta": [
+      "Nous contacter",
+      "contactez-nous/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "metallerie-creative",
+   "label": "Métallerie créative",
+   "title": "Métallerie créative",
+   "eyebrow": "Sur mesure",
+   "lead": "Acier, inox, aluminium : fabriqués, assemblés et posés par nos équipes.",
+   "img": "https://static.wixstatic.com/media/168ce5_d1a91b519872459097c8c636e14b2263~mv2.png",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "realisations",
+     "eyebrow": "Métallerie créative",
+     "title": "Nos <em class=\"it\">réalisations</em>",
+     "lead": "Nous fabriquons sur mesure tous produits en acier, inox et aluminium : nous les assemblons et les installons.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_dee4a5442e0d487291c493f4e4d7d99d~mv2_d_2016_1512_s_2.jpg",
+       "alt": "Escaliers",
+       "title": "Escaliers",
+       "link": [
+        "Voir les photos",
+        "#escaliers"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_0a34a2b2a6f4445d9126d6779c1a892b~mv2.jpg",
+       "alt": "Verrières",
+       "title": "Verrières",
+       "link": [
+        "Voir les photos",
+        "#verrieres"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_a2b8ec4985f746f294548ae1fdc18e10~mv2_d_2048_1536_s_2.jpg",
+       "alt": "Outils industriels",
+       "title": "Outils industriels",
+       "link": [
+        "Voir les photos",
+        "#outils-industriels"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_4a7ff21cece1490e8199f099ccf3133e~mv2.jpg",
+       "alt": "Projets professionnels",
+       "title": "Projets professionnels",
+       "link": [
+        "Voir les photos",
+        "#projets-pro"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_bf2df1725c06432da72986b417c2c0b0~mv2_d_2048_1536_s_2.jpg",
+       "alt": "Portails",
+       "title": "Portails",
+       "link": [
+        "Voir les photos",
+        "#portails"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_e16e307734aa4853ac3d53bbab2c4ab3~mv2.jpg",
+       "alt": "Garde-corps",
+       "title": "Garde-corps",
+       "link": [
+        "Voir les photos",
+        "#gardes-corps"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_e73dd2a03b22419585acba9dd32f9e23~mv2.jpg",
+       "alt": "Portes",
+       "title": "Portes",
+       "link": [
+        "Voir les photos",
+        "#portes"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_3c96da3f85fb40408f045c32fbce681a~mv2.jpg",
+       "alt": "Outils agricoles",
+       "title": "Outils agricoles",
+       "link": [
+        "Voir les photos",
+        "#outils-agricoles"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_c4541ed3a0794de19424f4a04556862b~mv2_d_2016_1512_s_2.jpg",
+       "alt": "Vos idées",
+       "title": "Vos idées",
+       "link": [
+        "Voir les photos",
+        "#idees"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "escaliers",
+     "eyebrow": "Escaliers",
+     "title": "Vos <em class=\"it\">escaliers</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_dee4a5442e0d487291c493f4e4d7d99d~mv2_d_2016_1512_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_dee4a5442e0d487291c493f4e4d7d99d~mv2_d_2016_1512_s_2.jpg",
+       "alt": "Escalier droit, limons latéraux crémaillères en U, marches vitrées",
+       "caption": "Escalier droit, limons latéraux crémaillères en U, marches vitrées"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_da8c93c8719649fe8048efe8ab1a6c00~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_da8c93c8719649fe8048efe8ab1a6c00~mv2.jpg",
+       "alt": "Escalier droit, limon central, marches bois, garde-corps lisses horizontales",
+       "caption": "Escalier droit, limon central, marches bois, garde-corps lisses horizontales"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_3e100e37c06940e5a0002d8b68aad17d~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_3e100e37c06940e5a0002d8b68aad17d~mv2.jpg",
+       "alt": "Escalier deux quarts tournant dont une partie hélicoïdale avec fût central, marches bois, garde-corps lisses horizontales",
+       "caption": "Escalier deux quarts tournant dont une partie hélicoïdale avec fût central, marches bois, garde-corps lisses horizontales"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "verrieres",
+     "eyebrow": "Verrières",
+     "title": "Vos <em class=\"it\">verrières</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_77adca445c73454f8333a15129d0ecd9~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_77adca445c73454f8333a15129d0ecd9~mv2.jpg",
+       "alt": "Verrière et porte vitrée style atelier",
+       "caption": "Verrière et porte vitrée style atelier"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_dac850684bd641b28a3a6efac56250f3~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_dac850684bd641b28a3a6efac56250f3~mv2.jpg",
+       "alt": "Verrière vitrée style atelier sous le rampant de l'escalier",
+       "caption": "Verrière vitrée style atelier sous le rampant de l'escalier"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_0a34a2b2a6f4445d9126d6779c1a892b~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_0a34a2b2a6f4445d9126d6779c1a892b~mv2.jpg",
+       "alt": "Verrière et porte vitrée avec traverses aléatoires et vitrages de différentes compositions",
+       "caption": "Verrière et porte vitrée avec traverses aléatoires et vitrages de différentes compositions"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "outils-industriels",
+     "eyebrow": "Outils industriels",
+     "title": "Vos <em class=\"it\">outils industriels</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_a2b8ec4985f746f294548ae1fdc18e10~mv2_d_2048_1536_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_a2b8ec4985f746f294548ae1fdc18e10~mv2_d_2048_1536_s_2.jpg",
+       "alt": "Vos outils industriels"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_0ab33188d5554793a62c1c8f98ad60e5~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_0ab33188d5554793a62c1c8f98ad60e5~mv2.jpg",
+       "alt": "Vos outils industriels"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_911fec019cb94c88acc1b2f48ac8d412~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_911fec019cb94c88acc1b2f48ac8d412~mv2.jpg",
+       "alt": "Vos outils industriels"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_627d682383dd46be8a445763710da891~mv2_d_5312_2988_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_627d682383dd46be8a445763710da891~mv2_d_5312_2988_s_4_2.jpg",
+       "alt": "Vos outils industriels"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "projets-pro",
+     "eyebrow": "Projets professionnels",
+     "title": "Vos <em class=\"it\">projets professionnels</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_4a7ff21cece1490e8199f099ccf3133e~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_4a7ff21cece1490e8199f099ccf3133e~mv2.jpg",
+       "alt": "Devanture de magasin : habillage en cassette tôle laquée",
+       "caption": "Devanture de magasin : habillage en cassette tôle laquée"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_8138e8b281654df2bbe95ee70c2e6b92~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_8138e8b281654df2bbe95ee70c2e6b92~mv2.jpg",
+       "alt": "Devanture de magasin : habillage en tôle aluminium laquée",
+       "caption": "Devanture de magasin : habillage en tôle aluminium laquée"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_82d1953f921541d2a961bbfdfc30bec2~mv2_d_5152_3864_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_82d1953f921541d2a961bbfdfc30bec2~mv2_d_5152_3864_s_4_2.jpg",
+       "alt": "Miroir, rideau inox et habillage de mur béton en tôle inox",
+       "caption": "Miroir, rideau inox et habillage de mur béton en tôle inox"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "portails",
+     "eyebrow": "Portails",
+     "title": "Vos <em class=\"it\">portails</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_bf2df1725c06432da72986b417c2c0b0~mv2_d_2048_1536_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_bf2df1725c06432da72986b417c2c0b0~mv2_d_2048_1536_s_2.jpg",
+       "alt": "Vos portails"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_be77e40ddca84f9397bc894dbde0dc5c~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_be77e40ddca84f9397bc894dbde0dc5c~mv2.jpg",
+       "alt": "Portail coulissant, barreaudage vertical, remplissage tôle découpée et volutes",
+       "caption": "Portail coulissant, barreaudage vertical, remplissage tôle découpée et volutes"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_72c109ae27b849a58d27c61ef9cdec5e~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_72c109ae27b849a58d27c61ef9cdec5e~mv2.jpg",
+       "alt": "Portail coulissant, traverse haute cintrée, barreaudage vertical, soubassement tôle découpée",
+       "caption": "Portail coulissant, traverse haute cintrée, barreaudage vertical, soubassement tôle découpée"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_bd4c025474844d42b1d8404b519d0449~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_bd4c025474844d42b1d8404b519d0449~mv2.jpg",
+       "alt": "Portail coulissant, habillage tôle pliée",
+       "caption": "Portail coulissant, habillage tôle pliée"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "gardes-corps",
+     "eyebrow": "Garde-corps",
+     "title": "Vos <em class=\"it\">garde-corps</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_42d4c47666554cd593e2c42c91d6bb85~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_42d4c47666554cd593e2c42c91d6bb85~mv2.jpg",
+       "alt": "Garde-corps d'escalier en inox",
+       "caption": "Garde-corps d'escalier en inox"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_fbe2cd3005004929b35c7d9c1264ea2c~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_fbe2cd3005004929b35c7d9c1264ea2c~mv2.jpg",
+       "alt": "Garde-corps avec soubassement en tôle découpée",
+       "caption": "Garde-corps avec soubassement en tôle découpée"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_e16e307734aa4853ac3d53bbab2c4ab3~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_e16e307734aa4853ac3d53bbab2c4ab3~mv2.jpg",
+       "alt": "Garde-corps avec soubassement en lisses resserrées",
+       "caption": "Garde-corps avec soubassement en lisses resserrées"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "portes",
+     "eyebrow": "Portes",
+     "title": "Vos <em class=\"it\">portes</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_eb38045bdec24f3cb591a55406ef9e57~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_eb38045bdec24f3cb591a55406ef9e57~mv2.jpg",
+       "alt": "Porte coulissante type atelier",
+       "caption": "Porte coulissante type atelier"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_e73dd2a03b22419585acba9dd32f9e23~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_e73dd2a03b22419585acba9dd32f9e23~mv2.jpg",
+       "alt": "Porte en profils acier à rupture de pont thermique, vitrée avec protection tôle découpée, soubassement tôlé",
+       "caption": "Porte en profils acier à rupture de pont thermique, vitrée avec protection tôle découpée, soubassement tôlé"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_952721c25e2349fea9291e085ddd30d9~mv2_d_5152_3864_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_952721c25e2349fea9291e085ddd30d9~mv2_d_5152_3864_s_4_2.jpg",
+       "alt": "Rideaux métalliques à enroulement",
+       "caption": "Rideaux métalliques à enroulement"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "outils-agricoles",
+     "eyebrow": "Outils agricoles",
+     "title": "Vos <em class=\"it\">outils agricoles</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_3c96da3f85fb40408f045c32fbce681a~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_3c96da3f85fb40408f045c32fbce681a~mv2.jpg",
+       "alt": "Vos outils agricoles"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_50688bc5ec3446b7985b770920eab054~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_50688bc5ec3446b7985b770920eab054~mv2.jpg",
+       "alt": "Vos outils agricoles"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_20d931d047a048959d5fcb3cb0fb4887~mv2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_20d931d047a048959d5fcb3cb0fb4887~mv2.jpg",
+       "alt": "Vos outils agricoles"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "idees",
+     "eyebrow": "Vos idées",
+     "title": "Vos idées, <em class=\"it\">votre imagination</em>",
+     "photos": [
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_c4541ed3a0794de19424f4a04556862b~mv2_d_2016_1512_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_c4541ed3a0794de19424f4a04556862b~mv2_d_2016_1512_s_2.jpg",
+       "alt": "Vos idées, votre imagination"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_9552ded28884488f9cf14ec029f5db4b~mv2_d_2016_1512_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_9552ded28884488f9cf14ec029f5db4b~mv2_d_2016_1512_s_2.jpg",
+       "alt": "Pont",
+       "caption": "Pont"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_fb3a5b1ea9cb4f70bd2171d065100347~mv2_d_4032_3024_s_4_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_fb3a5b1ea9cb4f70bd2171d065100347~mv2_d_4032_3024_s_4_2.jpg",
+       "alt": "Fenêtre",
+       "caption": "Fenêtre"
+      },
+      {
+       "thumb": "https://static.wixstatic.com/media/168ce5_aabdf1baa2144893bf1216a9da95e420~mv2_d_2048_1536_s_2.jpg",
+       "full": "https://static.wixstatic.com/media/168ce5_aabdf1baa2144893bf1216a9da95e420~mv2_d_2048_1536_s_2.jpg",
+       "alt": "Préau",
+       "caption": "Préau"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/168ce5_c2589e87cc174adea2d3677a90533e8e~mv2.jpg",
+     "eyebrow": "Acier · Inox · Aluminium",
+     "title": "Votre imagination <em>pour seule limite</em>",
+     "cta": [
+      "Nous contacter",
+      "contactez-nous/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rejoignez-nous",
+   "label": "Rejoignez-nous",
+   "title": "Rejoignez-nous",
+   "eyebrow": "Recrutement",
+   "lead": "Métallier, technicien pose : rejoignez l'équipe Tarres.",
+   "img": "https://static.wixstatic.com/media/168ce5_d1a91b519872459097c8c636e14b2263~mv2.png",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "offres",
+     "eyebrow": "Rejoignez-nous !",
+     "title": "Nous <em class=\"it\">recrutons</em>",
+     "lead": "Envie de travailler l'acier, l'inox et l'aluminium au sein d'une équipe d'artisans ? Envoyez-nous votre candidature.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_b143b3a15ae948fbb13ec35eb1ac68d6~mv2.jpg",
+       "alt": "Métallier",
+       "kicker": "Atelier",
+       "title": "Métallier (ouvrier atelier)",
+       "link": [
+        "Postulez !",
+        "mailto:contact@tarres.fr?subject=Candidature%20m%C3%A9tallier"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/168ce5_a13e501373a64a3399d62230324c9b9f~mv2.jpg",
+       "alt": "Technicien pose",
+       "kicker": "Chantier",
+       "title": "Technicien pose",
+       "link": [
+        "Postulez !",
+        "mailto:contact@tarres.fr?subject=Candidature%20technicien%20pose"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contactez-nous",
+   "label": "Contact",
+   "title": "Contactez-nous",
+   "eyebrow": "Devis et questions",
+   "lead": "Une question, un projet ? Appelez-nous ou écrivez-nous.",
+   "img": "https://static.wixstatic.com/media/168ce5_d1a91b519872459097c8c636e14b2263~mv2.png",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contactez-nous",
+     "title": "Des <em class=\"it\">questions ?</em>",
+     "lead": "Escalier, portail, garde-corps, verrière, projet professionnel ou industriel : décrivez-nous votre projet.",
+     "email": "contact@tarres.fr",
+     "subject": "Demande depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33478486307\" style=\"border-bottom:1px solid var(--gold)\">04 78 48 63 07</a>",
+      "Fax : 04 78 48 69 77",
+      "E-mail : <a href=\"mailto:contact@tarres.fr\">contact@tarres.fr</a>",
+      "Rue de la Cassette, ZA les Plaines<br>69850 Saint-Martin-en-Haut"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "Tarres, <em class=\"it\">Saint-Martin-en-Haut</em>",
+     "text": "Au cœur des Monts du Lyonnais.",
+     "rows": [
+      [
+       "Adresse",
+       "Rue de la Cassette, ZA les Plaines<br>69850 Saint-Martin-en-Haut"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33478486307\">04 78 48 63 07</a>"
+      ],
+      [
+       "Fax",
+       "04 78 48 69 77"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:contact@tarres.fr\">contact@tarres.fr</a>"
+      ]
+     ],
+     "cta": [
+      "Appeler",
+      "tel:+33478486307"
+     ],
+     "map_q": "Tarres SAS, Rue de la Cassette, ZA les Plaines, 69850 Saint-Martin-en-Haut"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Tarres, métallerie, serrurerie et menuiserie métallique depuis 1969 à Saint-Martin-en-Haut : fabrication sur mesure, assemblage et pose en acier, inox et aluminium.",
+  "contact": [
+   "<a href=\"tel:+33478486307\">04 78 48 63 07</a>",
+   "Fax : 04 78 48 69 77",
+   "<a href=\"mailto:contact@tarres.fr\">contact@tarres.fr</a>",
+   "Rue de la Cassette, ZA les Plaines, 69850 Saint-Martin-en-Haut"
+  ],
+  "legal": "Tarres SAS · Saint-Martin-en-Haut (69)",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/EtsTarres/"
+   ],
+   [
+    "linkedin",
+    "https://www.linkedin.com/company/tarres/about/"
+   ]
+  ]
+ }
+}
