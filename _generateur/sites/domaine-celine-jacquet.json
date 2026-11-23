@@ -1,0 +1,531 @@
+{
+ "slug": "celine-jacquet-ec57d0",
+ "title": "Domaine Céline Jacquet, vigneronne à Arbin (Savoie) : Chignin, Roussette, Chignin-Bergeron, Mondeuse d'Arbin",
+ "description": "Petit domaine viticole à Arbin, en Combe de Savoie, créé en 2011 : 3,5 ha de coteaux plein sud, Jacquère, Altesse, Roussanne et Mondeuse. 66 chemin du ruisseau, 73800 Arbin.",
+ "brand": "Domaine Céline Jacquet",
+ "tagline": "Vigneronne à Arbin · Savoie",
+ "agegate": true,
+ "theme": {
+  "look": "editorial",
+  "paper": "#f6f3ee",
+  "paper2": "#ebe5db",
+  "ink": "#211b20",
+  "muted": "#655d63",
+  "accent": "#7a1f3d",
+  "accent2": "#5e1830",
+  "gold": "#a98a4f",
+  "heroem": "#f1d4a8",
+  "serif": "\"Fraunces\",Georgia,serif",
+  "sans": "\"Karla\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Karla:wght@300;400;500;700&display=swap"
+ },
+ "logo": {
+  "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=150x10000:format=png/path/sd4878f697a9cad5b/image/i551c9acff538677b/version/1508229206/image.png",
+  "height": 56
+ },
+ "topbar": [
+  "<a href=\"tel:+33684356410\">06 84 35 64 10</a>",
+  "<a href=\"mailto:celinejacquet8@hotmail.com\">celinejacquet8@hotmail.com</a>"
+ ],
+ "nav": [
+  [
+   "domaine",
+   "Le domaine"
+  ],
+  [
+   "vins",
+   "Les produits"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "hero": {
+  "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=2000x1500:format=jpg/path/sd4878f697a9cad5b/backgroundarea/i34704f7f19a2a98f/version/1508228912/image.jpg",
+  "eyebrow": "Arbin · Combe de Savoie",
+  "title": "Un terroir, une expression,<br>notre <em>passion</em>",
+  "lead": "Petit domaine viticole situé sur la commune d'Arbin : nous cultivons différents cépages savoyards en respectant la typicité de notre terroir.",
+  "cta1": [
+   "Découvrir nos vins",
+   "les-produits/"
+  ],
+  "cta2": [
+   "06 84 35 64 10",
+   "tel:+33684356410"
+  ]
+ },
+ "figures": [
+  [
+   "2011",
+   "création du domaine"
+  ],
+  [
+   "3,5 ha",
+   "de vignes en Combe de Savoie"
+  ],
+  [
+   "7",
+   "vins : blancs, rosé, rouges"
+  ],
+  [
+   "Plein sud",
+   "coteaux argilo-calcaires"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "domaine",
+   "eyebrow": "Bienvenue",
+   "title": "Petit domaine viticole, <em class=\"it\">à Arbin</em>",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/sd4878f697a9cad5b/image/i9ef1cea9250696cf/version/1508158463/image.png",
+   "alt": "Domaine Céline Jacquet",
+   "paras": [
+    "Petit domaine viticole, situé sur la commune d'Arbin.",
+    "Nous cultivons différents cépages savoyards en respectant la typicité de notre terroir : Jacquère, Altesse, Roussanne et Mondeuse.",
+    "Riche de cette expérience commencée en 2011, le domaine cultive aujourd'hui 3,5 hectares de vignes sur la Combe de Savoie."
+   ],
+   "sign": "Céline Jacquet"
+  },
+  {
+   "kind": "blocks",
+   "id": "decouvrir",
+   "eyebrow": "Le domaine en trois pas",
+   "title": "Des coteaux <em class=\"it\">au verre</em>",
+   "items": [
+    {
+     "kicker": "Le domaine",
+     "title": "Des vignes à flanc de montagne",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/ib65d0fd8c3338cf8/version/1508162243/image.jpg",
+     "alt": "Les vignes du domaine",
+     "paras": [
+      "Des coteaux argilo-calcaires, exposés plein sud, sur la Combe de Savoie."
+     ],
+     "link": [
+      "Découvrir le domaine",
+      "le-domaine/"
+     ]
+    },
+    {
+     "kicker": "Les produits",
+     "title": "Trois blancs, un rosé, trois rouges",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i9c20a95200574281/version/1508162317/image.jpg",
+     "alt": "Le vignoble",
+     "paras": [
+      "Jacquère Chignin, Roussette de Savoie, Chignin Bergeron, Rosé de Savoie et trois Mondeuses."
+     ],
+     "link": [
+      "Voir les vins",
+      "les-produits/"
+     ]
+    },
+    {
+     "kicker": "Contact",
+     "title": "Nous rendre visite",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i73b3e3361bf89386/version/1508162243/image.jpg",
+     "alt": "Le domaine à Arbin",
+     "paras": [
+      "66 chemin du ruisseau, à Arbin : un appel ou un message avant de passer."
+     ],
+     "link": [
+      "Nous contacter",
+      "contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i54ee7948197c3f73/version/1508162458/image.jpg",
+   "eyebrow": "Mondeuse d'Arbin",
+   "title": "Le même cépage,<br><em>deux vins différents</em>",
+   "cta": [
+    "Découvrir « Mes Aïeux »",
+    "les-produits/#vins"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Nous trouver",
+   "title": "Le domaine, <em class=\"it\">à Arbin</em>",
+   "text": "Petit domaine viticole, situé sur la commune d'Arbin, au cœur de la Combe de Savoie.",
+   "rows": [
+    [
+     "Adresse",
+     "Domaine Céline Jacquet<br>66 chemin du ruisseau<br>73800 Arbin"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33684356410\">06 84 35 64 10</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:celinejacquet8@hotmail.com\">celinejacquet8@hotmail.com</a>"
+    ]
+   ],
+   "cta": [
+    "Appeler le domaine",
+    "tel:+33684356410"
+   ],
+   "map_q": "66 chemin du ruisseau, 73800 Arbin"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "le-domaine",
+   "label": "Le domaine",
+   "title": "Le domaine",
+   "eyebrow": "Petit domaine viticole",
+   "lead": "Créé en 2011 à Arbin, le domaine cultive aujourd'hui 3,5 hectares de vignes sur la Combe de Savoie.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/ib646713b3451878b/version/1508162243/image.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "histoire",
+     "eyebrow": "Depuis 2011",
+     "title": "De 0,45 are <em class=\"it\">à 3,5 hectares</em>",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/sd4878f697a9cad5b/image/ib646713b3451878b/version/1508162243/image.jpg",
+     "alt": "Les vignes du domaine Céline Jacquet",
+     "paras": [
+      "Le domaine a été créé en 2011 avec une surface de 0,45 are de vignes, avec l'élaboration de trois produits différents, issus des cépages Jacquère, Altesse et Mondeuse.",
+      "Riche de cette expérience, on cultive aujourd'hui 3,5 hectares de vignes sur la Combe de Savoie.",
+      "Tout au long de l'année, on travaille avec soin la vigne en fonction du cépage et de la météo, pour ainsi élaborer nos vins avec leur expression."
+     ],
+     "sign": "Céline Jacquet"
+    },
+    {
+     "kind": "quote",
+     "eyebrow": "Notre devise",
+     "text": "« Un terroir, une expression, notre passion… »",
+     "sub": "Domaine Céline Jacquet"
+    },
+    {
+     "kind": "features",
+     "id": "terroir",
+     "eyebrow": "Le terroir",
+     "title": "Les coteaux <em class=\"it\">de la Combe de Savoie</em>",
+     "lead": "Nous cultivons différents cépages savoyards en respectant la typicité de notre terroir.",
+     "items": [
+      [
+       "En coteaux",
+       "Nos vignes se situent surtout en coteaux, sur les flancs de montagne."
+      ],
+      [
+       "Argilo-calcaire",
+       "Les cépages s'épanouissent sur des sols argilo-calcaires."
+      ],
+      [
+       "Plein sud",
+       "Un ensoleillement optimum, avec une exposition plein sud."
+      ],
+      [
+       "Au fil de l'année",
+       "La vigne est travaillée avec soin, en fonction du cépage et de la météo."
+      ]
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Le domaine <em class=\"it\">et ses vignes</em>",
+     "photos": [
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/ib646713b3451878b/version/1508162243/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/ib646713b3451878b/version/1508162243/image.jpg",
+       "alt": "Domaine Céline Jacquet, Arbin"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/ib65d0fd8c3338cf8/version/1508162243/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/ib65d0fd8c3338cf8/version/1508162243/image.jpg",
+       "alt": "Domaine Céline Jacquet, Arbin"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i9c20a95200574281/version/1508162317/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i9c20a95200574281/version/1508162317/image.jpg",
+       "alt": "Domaine Céline Jacquet, Arbin"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i73b3e3361bf89386/version/1508162243/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i73b3e3361bf89386/version/1508162243/image.jpg",
+       "alt": "Domaine Céline Jacquet, Arbin"
+      },
+      {
+       "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i54ee7948197c3f73/version/1508162458/image.jpg",
+       "full": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i54ee7948197c3f73/version/1508162458/image.jpg",
+       "alt": "Domaine Céline Jacquet, Arbin"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "les-produits",
+   "label": "Les produits",
+   "title": "Les produits",
+   "eyebrow": "Blancs, rosé et rouges de Savoie",
+   "lead": "On commence par les blancs, on poursuit avec le rosé et on finit avec les rouges.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i9c20a95200574281/version/1508162317/image.jpg",
+   "sections": [
+    {
+     "kind": "cards",
+     "id": "vins",
+     "eyebrow": "Les vins du domaine",
+     "title": "Sept vins, <em class=\"it\">quatre cépages savoyards</em>",
+     "lead": "Jacquère, Altesse, Roussanne et Mondeuse : chaque vin avec sa température de service et ses accords.",
+     "tabs": [
+      [
+       "blanc",
+       "Blancs"
+      ],
+      [
+       "rose",
+       "Rosé"
+      ],
+      [
+       "rouge",
+       "Rouges"
+      ]
+     ],
+     "items": [
+      {
+       "cat": "blanc",
+       "color": "#d8c27a",
+       "tag": "Vin de Savoie · Blanc",
+       "name": "Jacquère Chignin",
+       "app": "Cépage Jacquère",
+       "desc": "Un vin blanc typiquement savoyard, avec le cépage « Jacquère » qui allie principalement des notes d'agrumes tout en gardant une belle fraîcheur en bouche.",
+       "sheet": [
+        [
+         "Cépage",
+         "Jacquère"
+        ],
+        [
+         "Service",
+         "Entre 8 et 10 °C"
+        ],
+        [
+         "Accords",
+         "Fruits de mer, apéritif, spécialités savoyardes"
+        ]
+       ]
+      },
+      {
+       "cat": "blanc",
+       "color": "#cdb86a",
+       "tag": "Roussette de Savoie · Blanc",
+       "name": "Roussette de Savoie",
+       "app": "Cépage Altesse",
+       "desc": "Un cépage unique appelé « Altesse » qui nous offre un vin blanc fruité et léger, qui accompagne à merveille les poissons, les plats en sauce (volaille) ou encore lors d'un apéritif.",
+       "sheet": [
+        [
+         "Cépage",
+         "Altesse"
+        ],
+        [
+         "Service",
+         "Entre 12 et 14 °C"
+        ],
+        [
+         "Accords",
+         "Poissons, plats en sauce (volaille), apéritif"
+        ]
+       ]
+      },
+      {
+       "cat": "blanc",
+       "color": "#c9a65a",
+       "tag": "Vin de Savoie · Blanc",
+       "name": "Chignin Bergeron",
+       "app": "Cépage Roussanne",
+       "desc": "Le cépage « Roussanne » nous apporte une bonne persistance au nez et en bouche, notamment avec des notes d'abricot.",
+       "sheet": [
+        [
+         "Cépage",
+         "Roussanne"
+        ],
+        [
+         "Service",
+         "Vers 15 °C"
+        ],
+        [
+         "Accords",
+         "Plats cuisinés, noix de Saint-Jacques par exemple"
+        ]
+       ]
+      },
+      {
+       "cat": "rose",
+       "color": "#d98a8f",
+       "tag": "Vin de Savoie · Rosé",
+       "name": "Rosé de Savoie",
+       "app": "100 % Mondeuse",
+       "desc": "Notre rosé est élaboré avec le cépage emblématique de la région, soit 100 % Mondeuse, ce qui apporte une belle couleur avec des notes fruitées.",
+       "sheet": [
+        [
+         "Cépage",
+         "Mondeuse"
+        ],
+        [
+         "Accords",
+         "L'apéritif, les grillades"
+        ]
+       ]
+      },
+      {
+       "cat": "rouge",
+       "color": "#7a1f3d",
+       "tag": "Vin de Savoie · Rouge",
+       "name": "Mondeuse « Saint Jean de la Porte »",
+       "app": "Cépage Mondeuse",
+       "desc": "Un vin rouge typiquement savoyard, avec le cépage « Mondeuse » qui se caractérise par des notes fruitées et épicées.",
+       "sheet": [
+        [
+         "Cépage",
+         "Mondeuse"
+        ],
+        [
+         "Service",
+         "Entre 18 et 20 °C"
+        ],
+        [
+         "Accords",
+         "Plateau de fromages, tartiflette"
+        ]
+       ]
+      },
+      {
+       "cat": "rouge",
+       "color": "#6a1a33",
+       "tag": "Vin de Savoie Arbin · Rouge",
+       "name": "Mondeuse « Arbin »",
+       "app": "Cépage Mondeuse",
+       "desc": "La Mondeuse apporte à ce vin une structure et un équilibre unique. On retrouve des notes poivrées, des fruits rouges et de l'astringence en fin de bouche.",
+       "sheet": [
+        [
+         "Cépage",
+         "Mondeuse"
+        ],
+        [
+         "Arômes",
+         "Notes poivrées, fruits rouges"
+        ],
+        [
+         "Accords",
+         "Plats en sauce comme un civet de gibier, tomme de Savoie"
+        ]
+       ]
+      },
+      {
+       "cat": "rouge",
+       "color": "#55142a",
+       "tag": "Vin de Savoie Arbin · Rouge",
+       "name": "Mondeuse Arbin « Mes Aïeux »",
+       "app": "Deux parcelles d'Arbin",
+       "desc": "La cuvée « Mes Aïeux » est un assemblage de deux parcelles de Mondeuse sur la commune d'Arbin. On retrouve toutes les caractéristiques du cépage, en privilégiant les fruits, la structure et l'équilibre. Cette cuvée démontre qu'avec le même cépage, sur la même commune, on peut avoir deux vins différents.",
+       "sheet": [
+        [
+         "Cépage",
+         "Mondeuse"
+        ],
+        [
+         "Assemblage",
+         "Deux parcelles d'Arbin"
+        ],
+        [
+         "Style",
+         "Fruit, structure, équilibre"
+        ]
+       ]
+      }
+     ],
+     "note": "Pour connaître les vins disponibles et leurs tarifs, contactez directement le domaine."
+    },
+    {
+     "kind": "banner",
+     "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i54ee7948197c3f73/version/1508162458/image.jpg",
+     "eyebrow": "Au domaine, à Arbin",
+     "title": "Une question<br><em>sur nos vins ?</em>",
+     "cta": [
+      "Nous contacter",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Domaine Céline Jacquet",
+   "lead": "66 chemin du ruisseau, 73800 Arbin.",
+   "img": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sd4878f697a9cad5b/image/i73b3e3361bf89386/version/1508162243/image.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "Le domaine, <em class=\"it\">à Arbin</em>",
+     "text": "Petit domaine viticole, situé sur la commune d'Arbin, au cœur de la Combe de Savoie.",
+     "rows": [
+      [
+       "Adresse",
+       "Domaine Céline Jacquet<br>66 chemin du ruisseau<br>73800 Arbin"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33684356410\">06 84 35 64 10</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:celinejacquet8@hotmail.com\">celinejacquet8@hotmail.com</a>"
+      ]
+     ],
+     "cta": [
+      "Appeler le domaine",
+      "tel:+33684356410"
+     ],
+     "map_q": "66 chemin du ruisseau, 73800 Arbin"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Nous écrire",
+     "title": "Un message <em class=\"it\">pour le domaine</em>",
+     "lead": "Une question sur nos vins, une visite au domaine : écrivez-nous.",
+     "email": "celinejacquet8@hotmail.com",
+     "subject": "Message depuis le site",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ],
+     "submit": "Envoyer"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Petit domaine viticole situé sur la commune d'Arbin, en Combe de Savoie. Un terroir, une expression, notre passion…",
+  "contact": [
+   "<a href=\"tel:+33684356410\">06 84 35 64 10</a>",
+   "<a href=\"mailto:celinejacquet8@hotmail.com\">celinejacquet8@hotmail.com</a>",
+   "66 chemin du ruisseau, 73800 Arbin"
+  ],
+  "legal": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+  "legal_url": "https://domaine-celinejacquet.jimdofree.com/about/"
+ }
+}
