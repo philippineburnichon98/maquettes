@@ -1,0 +1,829 @@
+{
+ "slug": "chretien-jimenez-avocats-acfdf9",
+ "title": "Alexandre Chrétien et Isabelle Jimenez-Barat, avocats au barreau de Bordeaux",
+ "description": "Maître Alexandre Chrétien et Maître Isabelle Jimenez-Barat, avocats au barreau de Bordeaux, 111 cours de l'Argonne : droit de la famille, droit des étrangers, droit pénal, droit de l'immobilier, contentieux civil et commercial.",
+ "brand": "Chrétien · Jimenez-Barat",
+ "tagline": "Avocats au barreau de Bordeaux",
+ "monogram": "CJ",
+ "home_label": "Accueil",
+ "phead": "box",
+ "theme": {
+  "look": "framed",
+  "paper": "#f7f5f1",
+  "paper2": "#ebe6de",
+  "ink": "#1d2230",
+  "muted": "#5d6270",
+  "accent": "#6d2433",
+  "accent2": "#521a26",
+  "gold": "#a88b5c",
+  "heroem": "#e9cfc0",
+  "serif": "\"Cormorant Garamond\",Georgia,serif",
+  "sans": "\"Lato\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Lato:wght@300;400;700&display=swap"
+ },
+ "topbar": [
+  "<a href=\"tel:+33556746949\">05 56 74 69 49</a> · sur rendez-vous",
+  "<a href=\"mailto:alexandre.chretien@avocat-conseil.fr\">alexandre.chretien@avocat-conseil.fr</a>",
+  "111, cours de l'Argonne · Bordeaux"
+ ],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/d2ba14_36081089201d403c8862c1cf5c4a2c9d~mv2.jpg",
+  "eyebrow": "Avocats au barreau de Bordeaux",
+  "title": "Alexandre Chrétien <em>&amp; Isabelle Jimenez-Barat</em>",
+  "lead": "Au cœur de Bordeaux, près de la place de la Victoire et du Palais de justice. Rendez-vous par téléphone ou sur place, rapidement et en urgence si nécessaire.",
+  "cta1": [
+   "Prendre rendez-vous",
+   "contact/"
+  ],
+  "cta2": [
+   "05 56 74 69 49",
+   "tel:+33556746949"
+  ]
+ },
+ "figures": [
+  [
+   "2001",
+   "prestation de serment de Me Jimenez-Barat"
+  ],
+  [
+   "2011",
+   "prestation de serment de Me Chrétien"
+  ],
+  [
+   "6",
+   "domaines de compétence"
+  ],
+  [
+   "AJ",
+   "aide juridictionnelle acceptée"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "img": "https://static.wixstatic.com/media/bb36b3410cce47f6b36fc29f24c565b0.jpg",
+   "alt": "",
+   "eyebrow": "Présentation",
+   "title": "Des cabinets indépendants, <em class=\"it\">inscrits au barreau de Bordeaux</em>",
+   "paras": [
+    "Les cabinets de Maître Alexandre Chrétien, Maître Isabelle Jimenez-Barat et Maître Céline Touray sont des cabinets indépendants inscrits au barreau de Bordeaux.",
+    "Ils mettent leurs compétences juridiques au service de leurs clients, dans leurs domaines respectifs et communs, face à des besoins de plus en plus variés.",
+    "<a href=\"presentation/\" style=\"border-bottom:1px solid var(--gold)\">Lire la présentation</a>"
+   ],
+   "sign": "Cours de l'Argonne, Bordeaux"
+  },
+  {
+   "kind": "blocks",
+   "id": "competences",
+   "eyebrow": "Compétences",
+   "title": "Six domaines <em class=\"it\">d'intervention</em>",
+   "items": [
+    {
+     "kicker": "Famille et personnes",
+     "title": "Droit de la famille",
+     "list": [
+      "Divorce",
+      "Pension alimentaire",
+      "Droit de visite et d'hébergement",
+      "Tutelle, curatelle, successions"
+     ],
+     "link": [
+      "Voir le détail",
+      "competences/#famille"
+     ]
+    },
+    {
+     "kicker": "Séjour et recours",
+     "title": "Droit des étrangers",
+     "list": [
+      "Titre de séjour",
+      "Regroupement familial",
+      "Obligation de quitter le territoire",
+      "Naturalisation"
+     ],
+     "link": [
+      "Voir le détail",
+      "competences/#etrangers"
+     ]
+    },
+    {
+     "kicker": "Défense",
+     "title": "Droit pénal",
+     "list": [
+      "Crimes, délits et contraventions",
+      "Défense ou constitution de partie civile",
+      "Infractions routières et permis de conduire"
+     ],
+     "link": [
+      "Voir le détail",
+      "competences/#domaines"
+     ]
+    },
+    {
+     "kicker": "Biens",
+     "title": "Droit de l'immobilier",
+     "list": [
+      "Droit immobilier",
+      "Droit de la construction"
+     ],
+     "link": [
+      "Voir le détail",
+      "competences/#domaines"
+     ]
+    },
+    {
+     "kicker": "Contentieux",
+     "title": "Contentieux général civil et commercial",
+     "list": [
+      "Contrats civils et commerciaux",
+      "Responsabilité civile",
+      "Droit de la consommation"
+     ],
+     "link": [
+      "Voir le détail",
+      "competences/#domaines"
+     ]
+    },
+    {
+     "kicker": "Entreprises",
+     "title": "Droit des affaires",
+     "list": [
+      "Droit commercial",
+      "Statuts de société",
+      "Rédaction d'actes et contentieux"
+     ],
+     "link": [
+      "Voir le détail",
+      "competences/#domaines"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "team",
+   "id": "avocats",
+   "img": "https://static.wixstatic.com/media/f84f9edff22c4f77a4be1f9898b2f8d6.jpg",
+   "alt": "Les avocats",
+   "eyebrow": "Les avocats",
+   "title": "Trois avocats, <em class=\"it\">une même adresse</em>",
+   "people": [
+    {
+     "name": "Me Alexandre Chrétien",
+     "role": "Avocat depuis 2011 · droit des étrangers, droit de la famille",
+     "img": "https://static.wixstatic.com/media/d2ba14_b43feaa9370a4c68b6a061508a09e002~mv2.jpg"
+    },
+    {
+     "name": "Me Isabelle Jimenez-Barat",
+     "role": "Avocate depuis 2001 · droit de la famille, droit de l'immobilier",
+     "img": "https://static.wixstatic.com/media/d2ba14_6f4e65d0f6d9404bb5f072b6c5b62f17~mv2.jpg"
+    },
+    {
+     "name": "Me Céline Touray",
+     "role": "Droit des affaires, droit commercial, statuts de société"
+    }
+   ],
+   "note": "Consultations sur rendez-vous."
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/782e82bd666b4f4f9e7ebb0d7c160b76.jpg",
+   "eyebrow": "Actualité",
+   "title": "Brèves du cabinet <em>et revue de presse</em>",
+   "cta": [
+    "Lire les brèves",
+    "actualite/"
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "img": "https://static.wixstatic.com/media/d2ba14_958fd5d8327d4298b1a059ce5dc29477.jpg",
+   "eyebrow": "Nous contacter",
+   "title": "Cours de l'Argonne, <em class=\"it\">au cœur de Bordeaux</em>",
+   "text": "Près de la place de la Victoire et du Palais de justice. Consultations sur rendez-vous, par téléphone ou sur place, rapidement et en urgence si nécessaire.",
+   "rows": [
+    [
+     "Adresse",
+     "111, cours de l'Argonne, 33000 Bordeaux"
+    ],
+    [
+     "Accès",
+     "Tram B, arrêt Saint-Nicolas"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33556746949\">05 56 74 69 49</a> (sur rendez-vous)"
+    ],
+    [
+     "Fax",
+     "09 89 46 98 20"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:alexandre.chretien@avocat-conseil.fr\">alexandre.chretien@avocat-conseil.fr</a><br><a href=\"mailto:jimenezbarat@free.fr\">jimenezbarat@free.fr</a>"
+    ],
+    [
+     "Secrétariat",
+     "Du lundi au vendredi, de 9h00 à 19h00"
+    ],
+    [
+     "Barreau",
+     "Barreau de Bordeaux"
+    ]
+   ],
+   "cta": [
+    "Écrire au cabinet",
+    "contact/#ecrire"
+   ],
+   "map_q": "111 cours de l'Argonne, 33000 Bordeaux"
+  }
+ ],
+ "footer": {
+  "about": "Maître Alexandre Chrétien et Maître Isabelle Jimenez-Barat, avocats au barreau de Bordeaux, 111 cours de l'Argonne. Consultations sur rendez-vous ; aide juridictionnelle acceptée lorsque les conditions sont remplies.",
+  "contact": [
+   "<a href=\"tel:+33556746949\">05 56 74 69 49</a>",
+   "Fax : 09 89 46 98 20",
+   "<a href=\"mailto:alexandre.chretien@avocat-conseil.fr\">alexandre.chretien@avocat-conseil.fr</a>",
+   "<a href=\"mailto:jimenezbarat@free.fr\">jimenezbarat@free.fr</a>",
+   "111, cours de l'Argonne, 33000 Bordeaux"
+  ],
+  "legal": "Avocats au barreau de Bordeaux",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/Alexandre-Chr%C3%A9tien-Avocat-628134070659294/?fref=hovercard"
+   ]
+  ]
+ },
+ "pages": [
+  {
+   "slug": "presentation",
+   "label": "Présentation",
+   "title": "Présentation",
+   "h1": "<em>Présentation</em>",
+   "eyebrow": "Avocats Bordeaux",
+   "lead": "Des cabinets indépendants inscrits au barreau de Bordeaux, cours de l'Argonne.",
+   "img": "https://static.wixstatic.com/media/bb36b3410cce47f6b36fc29f24c565b0.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "cabinets",
+     "img": "https://static.wixstatic.com/media/d2ba14_36081089201d403c8862c1cf5c4a2c9d~mv2.jpg",
+     "alt": "",
+     "eyebrow": "Les cabinets",
+     "title": "Au service <em class=\"it\">de leurs clients</em>",
+     "paras": [
+      "Les cabinets de Maître Alexandre Chrétien, Maître Isabelle Jimenez-Barat et Maître Céline Touray sont des cabinets indépendants inscrits au barreau de Bordeaux.",
+      "Ils mettent leurs compétences juridiques au service de leurs clients, dans leurs domaines respectifs et communs, face à des besoins de plus en plus variés.",
+      "Le cabinet est situé cours de l'Argonne, au cœur de Bordeaux, près de la place de la Victoire et du Palais de justice. Les rendez-vous se prennent par téléphone ou sur place, rapidement et en urgence si nécessaire."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Domaines",
+     "title": "Les matières <em class=\"it\">traitées</em>",
+     "chips": [
+      "Droit de la famille",
+      "Droit pénal",
+      "Droit des étrangers",
+      "Droit des mineurs",
+      "Contrats civils et commerciaux",
+      "Droit de la santé",
+      "Droit de la construction",
+      "Droit des assurances",
+      "Droit commercial",
+      "Droit des affaires"
+     ],
+     "items": []
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/f84f9edff22c4f77a4be1f9898b2f8d6.jpg",
+     "eyebrow": "Les avocats",
+     "title": "Faire <em>connaissance</em>",
+     "cta": [
+      "Les avocats",
+      "../les-avocats/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "les-avocats",
+   "label": "Les avocats",
+   "title": "Les avocats",
+   "h1": "Les <em>avocats</em>",
+   "eyebrow": "Barreau de Bordeaux",
+   "lead": "Maître Alexandre Chrétien, Maître Isabelle Jimenez-Barat et Maître Céline Touray.",
+   "img": "https://static.wixstatic.com/media/f84f9edff22c4f77a4be1f9898b2f8d6.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "alexandre-chretien",
+     "img": "https://static.wixstatic.com/media/d2ba14_b43feaa9370a4c68b6a061508a09e002~mv2.jpg",
+     "alt": "Maître Alexandre Chrétien",
+     "eyebrow": "Avocat depuis 2011",
+     "title": "Alexandre <em class=\"it\">Chrétien</em>",
+     "paras": [
+      "Avocat depuis 2011, il a prêté serment après avoir préparé l'examen d'entrée au CFPA de Bordeaux et obtenu le Certificat d'aptitude à la profession d'avocat. Il a suivi sa formation universitaire à la Faculté de droit Aix-Marseille III.",
+      "Son cabinet a une vocation généraliste : il intervient en droit privé, en droit public et en droit pénal, devant les juridictions de droit commun et spécialisées, notamment en droit de la famille (divorce, pensions alimentaires) et en droit des étrangers (titres de séjour, contestation d'obligations de quitter le territoire français).",
+      "<b>2007</b> · Maîtrise de droit, lauréat de la Faculté de droit Aix-Marseille III, mention droit médical et pharmaceutique.<br><b>2008</b> · Double lauréat de la même faculté, mentions droit de la santé et droit médical et pharmaceutique."
+     ],
+     "sign": "alexandre.chretien@avocat-conseil.fr"
+    },
+    {
+     "kind": "story",
+     "id": "isabelle-jimenez-barat",
+     "img": "https://static.wixstatic.com/media/d2ba14_6f4e65d0f6d9404bb5f072b6c5b62f17~mv2.jpg",
+     "alt": "Maître Isabelle Jimenez-Barat",
+     "eyebrow": "Avocate depuis 2001",
+     "title": "Isabelle <em class=\"it\">Jimenez-Barat</em>",
+     "paras": [
+      "Avocate au barreau de Bordeaux, elle a prêté serment en 2001 après avoir préparé l'examen d'entrée au Centre de formation professionnelle des avocats de Bordeaux et obtenu le CAPA.",
+      "Avant d'entrer dans la profession, elle a été assistante juridique dans des cabinets à Biarritz, puis à Bordeaux. Sa formation universitaire l'a menée de la faculté de droit de Bayonne à celle de Bordeaux.",
+      "Elle intervient principalement en droit privé et en droit pénal, devant l'ensemble des juridictions de droit commun et spécialisées.",
+      "<b>1995</b> · DEA de droit privé, Bordeaux.<br><b>1996</b> · DESS de droit des affaires et fiscalité.<br><b>2001</b> · Prestation de serment."
+     ],
+     "sign": "jimenezbarat@free.fr"
+    },
+    {
+     "kind": "team",
+     "id": "equipe",
+     "eyebrow": "À la même adresse",
+     "title": "Trois cabinets <em class=\"it\">indépendants</em>",
+     "people": [
+      {
+       "name": "Me Alexandre Chrétien",
+       "role": "Droit des étrangers, droit de la famille, aide juridictionnelle",
+       "img": "https://static.wixstatic.com/media/d2ba14_b43feaa9370a4c68b6a061508a09e002~mv2.jpg"
+      },
+      {
+       "name": "Me Isabelle Jimenez-Barat",
+       "role": "Droit de la famille, divorce, droit de l'immobilier",
+       "img": "https://static.wixstatic.com/media/d2ba14_6f4e65d0f6d9404bb5f072b6c5b62f17~mv2.jpg"
+      },
+      {
+       "name": "Me Céline Touray",
+       "role": "Droit des affaires, droit commercial, statuts de société"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "competences",
+   "label": "Compétences",
+   "title": "Compétences",
+   "h1": "<em>Compétences</em>",
+   "eyebrow": "Droit privé, droit public, droit pénal",
+   "lead": "Famille, étrangers, pénal, santé, mineurs, travail, immobilier, contentieux civil et commercial, affaires.",
+   "img": "https://static.wixstatic.com/media/bb36b3410cce47f6b36fc29f24c565b0.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "domaines",
+     "eyebrow": "Compétences du cabinet",
+     "title": "Domaines <em class=\"it\">d'intervention</em>",
+     "items": [
+      {
+       "title": "Droit de la famille et des personnes",
+       "list": [
+        "Divorce",
+        "Pensions alimentaires",
+        "Garde des enfants",
+        "Tutelle, curatelle",
+        "Successions"
+       ]
+      },
+      {
+       "title": "Droit des étrangers",
+       "list": [
+        "Demandes de titre de séjour",
+        "Demandes de naturalisation",
+        "Contestation des obligations de quitter le territoire",
+        "Discriminations"
+       ]
+      },
+      {
+       "title": "Droit pénal",
+       "list": [
+        "Crimes, délits et contraventions",
+        "Défense ou constitution de partie civile",
+        "Infractions routières et permis de conduire"
+       ]
+      },
+      {
+       "title": "Droit de la santé",
+       "list": [
+        "Réparation des dommages corporels",
+        "Accidents médicaux et responsabilité pharmaceutique",
+        "Hospitalisation d'office",
+        "Contentieux de la sécurité sociale"
+       ]
+      },
+      {
+       "title": "Droit des mineurs",
+       "list": [
+        "Assistance éducative et placement",
+        "Filiation et adoption",
+        "Infractions pénales"
+       ]
+      },
+      {
+       "title": "Droit du travail",
+       "list": [
+        "Licenciements et sanctions disciplinaires",
+        "Ruptures conventionnelles"
+       ]
+      }
+     ],
+     "note": "Également : droit de la consommation, droit immobilier, droit de la construction, responsabilité civile, droit commercial et des affaires (rédaction d'actes et contentieux), contentieux général civil et commercial."
+    },
+    {
+     "kind": "blocks",
+     "id": "famille",
+     "eyebrow": "Avocat en droit de la famille",
+     "title": "Droit <em class=\"it\">de la famille</em>",
+     "items": [
+      {
+       "kicker": "Devant le juge aux affaires familiales",
+       "title": "Divorce",
+       "paras": [
+        "Maître Alexandre Chrétien et Maître Isabelle Jimenez-Barat accompagnent leurs clients dans les procédures de divorce, que le mariage ait été célébré en France ou à l'étranger, qu'il s'agisse d'un divorce par consentement mutuel ou d'un divorce contentieux.",
+        "Ils demandent les pièces nécessaires, rédigent et déposent les requêtes ou assignations, et suivent le dossier jusqu'à la mention du divorce sur les actes d'état civil."
+       ]
+      },
+      {
+       "kicker": "Articles 371-2 et 373-2-2 du Code civil",
+       "title": "Pension alimentaire",
+       "paras": [
+        "Chacun des parents contribue à l'entretien et à l'éducation des enfants à proportion de ses ressources, de celles de l'autre parent et des besoins de l'enfant ; cette obligation ne cesse pas de plein droit à la majorité.",
+        "L'avocat conseille, assiste et représente son client pour demander la fixation d'une pension alimentaire, l'aide à évaluer le montant qui peut être réclamé et suit le dossier jusqu'à l'exécution complète du jugement."
+       ]
+      },
+      {
+       "kicker": "Articles 373-2 et 373-2-1 du Code civil",
+       "title": "Droit de visite et d'hébergement",
+       "paras": [
+        "La séparation des parents est sans incidence sur l'exercice de l'autorité parentale ; le droit de visite et d'hébergement ne peut être refusé à l'autre parent que pour des motifs graves.",
+        "Le cabinet conseille sur l'opportunité d'une résidence alternée, d'un droit de visite et d'hébergement classique ou élargi, et assiste son client en cas de non-présentation d'enfant, du dépôt de plainte jusque devant le tribunal correctionnel."
+       ]
+      }
+     ],
+     "chips": [
+      "Assistance éducative",
+      "Droit pénal des mineurs",
+      "Séparation de corps"
+     ],
+     "note": "Lorsque les conditions sont remplies, les avocats acceptent d'intervenir au titre de l'aide juridictionnelle et préparent avec vous la demande adressée au bureau d'aide juridictionnelle compétent."
+    },
+    {
+     "kind": "blocks",
+     "id": "etrangers",
+     "eyebrow": "Avocat en droit des étrangers",
+     "title": "Droit <em class=\"it\">des étrangers</em>",
+     "items": [
+      {
+       "kicker": "Devant la préfecture",
+       "title": "Titre de séjour",
+       "paras": [
+        "Maître Alexandre Chrétien assiste les demandeurs de titre de séjour sur tout le territoire, principalement devant les préfectures de la Gironde et des Bouches-du-Rhône. Il conseille le fondement le plus adapté, légal ou conventionnel, notamment pour les ressortissants algériens.",
+        "Le dossier est suivi jusqu'à la délivrance du titre ; en cas de refus, la décision peut être contestée devant le tribunal administratif ou la cour administrative d'appel."
+       ]
+      },
+      {
+       "kicker": "Auprès de l'OFII",
+       "title": "Regroupement familial",
+       "paras": [
+        "Le dossier est transmis à la direction territoriale de l'OFII compétente selon le domicile du client, puis suivi jusqu'à la décision du préfet, qui doit intervenir dans les 6 mois suivant le dépôt du dossier complet.",
+        "En cas de refus : recours administratif devant le préfet et/ou le ministre de l'Intérieur, ou recours contentieux devant le tribunal administratif."
+       ]
+      },
+      {
+       "kicker": "Recours",
+       "title": "Obligation de quitter le territoire",
+       "paras": [
+        "Après un refus de titre de séjour assorti d'une OQTF, avec ou sans délai : recours administratifs devant le préfet ou le ministre de l'Intérieur, recours contentieux devant le tribunal administratif ou la cour administrative d'appel, principalement en Gironde et dans les Bouches-du-Rhône.",
+        "Le dossier est suivi jusqu'à l'annulation du refus et la délivrance du titre."
+       ]
+      }
+     ],
+     "chips": [
+      "Centre de rétention",
+      "Demande de visa",
+      "Naturalisation"
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/d2ba14_36081089201d403c8862c1cf5c4a2c9d~mv2.jpg",
+     "eyebrow": "Un premier rendez-vous",
+     "title": "Exposer <em>votre situation</em>",
+     "cta": [
+      "Contacter le cabinet",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualite",
+   "label": "Actualité",
+   "title": "Actualité",
+   "h1": "<em>Actualité</em>",
+   "eyebrow": "Brèves et presse",
+   "lead": "Les brèves du cabinet et les affaires suivies dans la presse.",
+   "img": "https://static.wixstatic.com/media/782e82bd666b4f4f9e7ebb0d7c160b76.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "rubriques",
+     "eyebrow": "Actualité",
+     "title": "Deux <em class=\"it\">rubriques</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/ce869fe69ee06f7fb7804558876455dd.jpg",
+       "title": "Dans la presse",
+       "paras": [
+        "Les affaires du cabinet relayées par la presse."
+       ],
+       "link": [
+        "Voir la revue de presse",
+        "#presse"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/782e82bd666b4f4f9e7ebb0d7c160b76.jpg",
+       "title": "Brèves du cabinet",
+       "paras": [
+        "Notes de jurisprudence et points de droit."
+       ],
+       "link": [
+        "Lire les brèves",
+        "#breves"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blog",
+     "id": "breves",
+     "eyebrow": "Brèves du cabinet",
+     "title": "Les <em class=\"it\">brèves</em>",
+     "lead": "Notes de droit publiées par le cabinet.",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Droit de la famille : la présence d'un animal dangereux au domicile d'un parent ne suffit pas",
+       "cat": "Droit de la famille",
+       "date": "16 avril 2019",
+       "desc": "Résidence en alternance et article 373-2-9 du Code civil.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2019/04/16/droit-de-la-famille-la-presence-d-un-animal-dangereux-au-domicile-dun-parent-ne-suffit-pa"
+      },
+      {
+       "title": "L'intérêt commun de l'indivision prime sur l'intérêt personnel d'un indivisaire",
+       "cat": "Indivision",
+       "date": "16 avril 2019",
+       "desc": "Article 815-5 du Code civil : un indivisaire peut être autorisé par le juge à passer seul un acte.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2019/04/16/lintérêt-commun-de-lindivision-prime-sur-lintérêt-personnel-dun-indivisaire"
+      },
+      {
+       "title": "Décision du juge aux affaires familiales du TGI de Bordeaux du 29 février 2019",
+       "cat": "Droit de la famille",
+       "date": "10 avril 2019",
+       "desc": "La médiation familiale obligatoire doit avoir lieu avant la saisine du juge aux affaires familiales.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2019/04/10/décision-du-juge-aux-affaires-familiales-du-tgi-de-bordeaux-du-29-février-2019"
+      },
+      {
+       "title": "Droit des étrangers : quel droit au séjour pour l'étranger séparé de son conjoint ressortissant français ?",
+       "cat": "Droit des étrangers",
+       "date": "19 février 2016",
+       "desc": "Ce que prévoit le CESEDA pour l'étranger marié à un ressortissant français, en cas de divorce ou de rupture de la vie commune.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2016/02/19/droit-des-étrangers-incidence-du-divorce-ou-de-la-rupture-de-la-vie-commune-sur-le-titre"
+      },
+      {
+       "title": "L'intégration de systèmes de géolocalisation des véhicules utilisés par les VRP",
+       "cat": "Droit du travail",
+       "date": "17 juillet 2015",
+       "desc": "Le contrôle de l'activité d'un VRP par son employeur.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2015/07/17/lintégration-de-systèmes-de-géolocalisation-des-véhicules-utilisés-par-les-vrp"
+      },
+      {
+       "title": "Le droit de visite des grands-parents sur leurs petits-enfants",
+       "cat": "Droit de la famille",
+       "date": "17 juillet 2015",
+       "desc": "L'article 371-4 du Code civil et le rôle du juge aux affaires familiales.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2015/07/17/le-droit-de-visite-des-grandsparents-sur-leurs-petits-enfants",
+       "page": "droit-de-visite-des-grands-parents"
+      },
+      {
+       "title": "À savoir : 12 points sur le permis de conduire",
+       "cat": "Permis de conduire",
+       "date": "16 juillet 2015",
+       "desc": "Les questions les plus fréquentes posées en consultation sur le permis de conduire.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2015/07/16/à-savoir-12-points-sur-le-permis-de-conduire"
+      },
+      {
+       "title": "De l'obligation d'entretien entre ascendants et descendants",
+       "cat": "Droit de la famille",
+       "date": "16 juillet 2015",
+       "desc": "Une obligation qui résulte directement de la loi, et non d'une convention.",
+       "url": "https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2015/07/16/de-lobligation-dentretien-entre-ascendants-et-descendants"
+      }
+     ],
+     "all": [
+      "Toutes les brèves sur le site actuel",
+      "https://abaloneavocats.wixsite.com/chretien-jimenez/news"
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "presse",
+     "eyebrow": "Dans la presse",
+     "title": "Revue <em class=\"it\">de presse</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/d2ba14_a65cd57218684216bd20111f86892ee0.jpg",
+       "kicker": "Sud Ouest · 28 janvier 2014",
+       "title": "Gironde : viol et actes de barbarie sur fond d'alcool",
+       "link": [
+        "Lire l'article",
+        "http://www.sudouest.fr/2014/01/28/une-soiree-de-sevices-sur-fond-d-alcool-1443086-3181.php"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/8c29ed2b0f8b4b77b9cf326ebde2d949.jpg",
+       "kicker": "IJBA · Imprimatur",
+       "title": "Mazen Hamoudi, caméraman caché",
+       "link": [
+        "Lire l'article (PDF)",
+        "http://ijba.u-bordeaux-montaigne.fr/uploads/productions/imprimatur/imprimatur_671.pdf"
+       ]
+      },
+      {
+       "kicker": "Sud Ouest · 12 mars 2014",
+       "title": "Deux agresseurs du maire de Créon (33) condamnés",
+       "link": [
+        "Lire l'article",
+        "http://www.sudouest.fr/2014/03/12/deux-agresseurs-de-darmian-condamnes-1488189-2780.php"
+       ]
+      },
+      {
+       "kicker": "Sud Ouest · 26 mai 2015",
+       "title": "Bordeaux : il organise le viol d'une mineure par un de ses amis contre 30 euros",
+       "link": [
+        "Lire l'article",
+        "http://www.sudouest.fr/2015/05/26/douze-ans-pour-viol-et-proxenetisme-1931329-2780.php"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "<em>Contact</em>",
+   "eyebrow": "Sur rendez-vous",
+   "lead": "111, cours de l'Argonne, 33000 Bordeaux · 05 56 74 69 49",
+   "img": "https://static.wixstatic.com/media/d2ba14_958fd5d8327d4298b1a059ce5dc29477.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "contact",
+     "img": "https://static.wixstatic.com/media/d2ba14_958fd5d8327d4298b1a059ce5dc29477.jpg",
+     "eyebrow": "Nous contacter",
+     "title": "Cours de l'Argonne, <em class=\"it\">au cœur de Bordeaux</em>",
+     "text": "Près de la place de la Victoire et du Palais de justice. Consultations sur rendez-vous, par téléphone ou sur place, rapidement et en urgence si nécessaire.",
+     "rows": [
+      [
+       "Adresse",
+       "111, cours de l'Argonne, 33000 Bordeaux"
+      ],
+      [
+       "Accès",
+       "Tram B, arrêt Saint-Nicolas"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33556746949\">05 56 74 69 49</a> (sur rendez-vous)"
+      ],
+      [
+       "Fax",
+       "09 89 46 98 20"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:alexandre.chretien@avocat-conseil.fr\">alexandre.chretien@avocat-conseil.fr</a><br><a href=\"mailto:jimenezbarat@free.fr\">jimenezbarat@free.fr</a>"
+      ],
+      [
+       "Secrétariat",
+       "Du lundi au vendredi, de 9h00 à 19h00"
+      ],
+      [
+       "Barreau",
+       "Barreau de Bordeaux"
+      ]
+     ],
+     "cta": [
+      "Écrire au cabinet",
+      "#ecrire"
+     ],
+     "map_q": "111 cours de l'Argonne, 33000 Bordeaux"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Formulaire de contact",
+     "title": "Votre <em class=\"it\">message</em>",
+     "lead": "Présentez brièvement votre demande et indiquez vos coordonnées.",
+     "side": [
+      "<b>Téléphone</b><br><a href=\"tel:+33556746949\">05 56 74 69 49</a>",
+      "<b>Fax</b><br>09 89 46 98 20",
+      "<b>E-mail</b><br><a href=\"mailto:alexandre.chretien@avocat-conseil.fr\">alexandre.chretien@avocat-conseil.fr</a><br><a href=\"mailto:jimenezbarat@free.fr\">jimenezbarat@free.fr</a>",
+      "<b>Aide juridictionnelle</b><br>Lorsque les conditions sont remplies, les avocats acceptent d'intervenir au titre de l'aide juridictionnelle et préparent avec vous la demande adressée au bureau d'aide juridictionnelle compétent."
+     ],
+     "email": "alexandre.chretien@avocat-conseil.fr",
+     "subject": "Message depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "rows": 5,
+       "required": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualite/droit-de-visite-des-grands-parents",
+   "hidden": true,
+   "title": "Le droit de visite des grands-parents sur leurs petits-enfants",
+   "h1": "Le droit de visite des grands-parents sur leurs petits-enfants",
+   "eyebrow": "Brèves du cabinet",
+   "img": "https://static.wixstatic.com/media/782e82bd666b4f4f9e7ebb0d7c160b76.jpg",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Droit de la famille",
+     "date": "17 juillet 2015",
+     "chapo": "Nombreuses sont les histoires familiales qui peuvent aboutir à écarter de fait les grands-parents de leurs petits-enfants. Le Code civil contient des dispositions destinées à préserver ces liens entre générations.",
+     "keys": "L'enfant a le droit d'entretenir des relations personnelles avec ses ascendants (article 371-4 du Code civil). Seul l'intérêt de l'enfant peut y faire obstacle. L'action relève du juge aux affaires familiales et n'appartient qu'aux grands-parents.",
+     "body": [
+      {
+       "h2": "Un droit de l'enfant"
+      },
+      {
+       "p": "L'article 371-4 du Code civil pose le principe : l'enfant a le droit d'entretenir des relations personnelles avec ses ascendants. Seul l'intérêt de l'enfant peut faire obstacle à l'exercice de ce droit."
+      },
+      {
+       "h2": "Comment agir ?"
+      },
+      {
+       "ul": [
+        [
+         "Le juge aux affaires familiales.",
+         "L'action relève de la compétence exclusive et souveraine du juge aux affaires familiales du lieu de résidence habituelle de l'enfant. Il fixe notamment les modalités des rencontres, leur lieu et leur durée, et peut interdire aux grands-parents de dénigrer les parents devant les enfants si ce risque existe."
+        ],
+        [
+         "Les grands-parents seuls.",
+         "L'action n'appartient qu'aux grands-parents : le père ou la mère ne peut pas agir à leur place."
+        ]
+       ]
+      },
+      {
+       "h2": "À ne pas confondre"
+      },
+      {
+       "p": "Cette situation ne se confond pas avec le placement de l'enfant chez ses grands-parents lorsqu'il est en danger chez ses parents : ce placement relève du juge des enfants."
+      }
+     ],
+     "source": "Brève publiée par Maître Alexandre Chrétien. <a href=\"https://abaloneavocats.wixsite.com/chretien-jimenez/single-post/2015/07/17/le-droit-de-visite-des-grandsparents-sur-leurs-petits-enfants\" target=\"_blank\" rel=\"noopener\">Article d'origine</a>",
+     "back": [
+      "Toutes les brèves",
+      "../#breves"
+     ]
+    }
+   ]
+  }
+ ]
+}
