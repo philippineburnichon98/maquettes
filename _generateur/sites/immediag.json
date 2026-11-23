@@ -1,0 +1,291 @@
+{
+ "slug": "immediag-7b0e6e",
+ "title": "Immediag — diagnostics immobiliers en Midi-Pyrénées (Ariège, Haute-Garonne, Tarn, Tarn-et-Garonne)",
+ "description": "Immediag, diagnostics immobiliers obligatoires pour la vente, la location ou la gestion de biens en Midi-Pyrénées (09, 31, 81, 82) : amiante, DPE, plomb, termites, ERP, électricité, gaz, Carrez, Boutin. Techniciens certifiés et assurés par Qualixpert LCC.",
+ "brand": "Immediag",
+ "tagline": "Diagnostics immobiliers",
+ "theme": {
+  "look": "center",
+  "paper": "#f8f6f3",
+  "paper2": "#efe9e2",
+  "ink": "#1f2328",
+  "muted": "#5d6066",
+  "accent": "#a8442a",
+  "accent2": "#86331d",
+  "gold": "#d9a441",
+  "heroem": "#f3c98b",
+  "serif": "\"Manrope\",system-ui,sans-serif",
+  "sans": "\"Source Sans 3\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+ },
+ "phead": "plain",
+ "topbar": [
+  "Midi-Pyrénées · 09 · 31 · 81 · 82",
+  "<a href=\"tel:+33632207036\">06 32 20 70 36</a>",
+  "<a href=\"mailto:maespy@live.fr\">maespy@live.fr</a>"
+ ],
+ "extra_css": "@media(max-width:640px){header .topbar span:nth-child(1),header .topbar span:nth-child(3){display:none}}",
+ "hero": {
+  "img": "https://images.pexels.com/photos/30753301/pexels-photo-30753301.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  "eyebrow": "Diagnostics immobiliers · Midi-Pyrénées",
+  "title": "Vos diagnostics immobiliers <em>pour vendre ou louer</em>",
+  "lead": "Immediag, votre diagnostiqueur immobilier sur la région Midi-Pyrénées : amiante, DPE, plomb, termites, ERP, électricité, gaz. Interventions en moins de 24h, du lundi au vendredi de 9h à 19h30.",
+  "cta1": ["Demander un devis", "contactez-nous/"],
+  "cta2": ["06 32 20 70 36", "tel:+33632207036"]
+ },
+ "figures": [
+  ["24h", "pour intervenir"],
+  ["4", "départements : 09, 31, 81, 82"],
+  ["Lun-Ven", "de 9h à 19h30"],
+  ["LCC", "certifiés et assurés par Qualixpert"]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue",
+   "title": "Immediag, <em class=\"it\">diagnostics immobiliers sur Midi-Pyrénées</em>",
+   "img": "https://images.pexels.com/photos/4792480/pexels-photo-4792480.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Plan de maison, règle et lunettes sur un bureau",
+   "paras": [
+    "Bienvenue sur le site officiel de la société Immediag, votre diagnostiqueur immobilier sur la région Midi-Pyrénées.",
+    "IMMEDIAG est une société spécialisée dans le diagnostic immobilier pour toutes ventes, locations ou gestions de biens.",
+    "Pour toutes questions ou demande de devis : Marie Anna Espy, gérante, au <a href=\"tel:+33632207036\" style=\"border-bottom:1px solid var(--gold)\">06 32 20 70 36</a>."
+   ],
+   "sign": "Marie Anna Espy, gérante"
+  },
+  {
+   "kind": "blocks",
+   "id": "obligatoires",
+   "eyebrow": "Vente et location",
+   "title": "Les diagnostics <em class=\"it\">obligatoires</em>",
+   "lead": "Diagnostics immobiliers obligatoires pour la mise en vente ou la mise en location de bien immobilier :",
+   "chips": ["Amiante", "DPE", "Plomb", "DTG", "Termites", "ERP", "Électricité", "Gaz", "Amiante avant démolition"],
+   "items": [
+    {"kicker": "Vendre", "title": "À la vente", "paras": ["Lors de la vente de votre bien, vous devez respecter certains diagnostics."], "link": ["Vos obligations", "vos-obligations/"]},
+    {"kicker": "Louer", "title": "À la location", "paras": ["Les diagnostics à annexer au bail d'habitation : plomb, DPE, état des risques, surface Boutin."], "link": ["Vos obligations", "vos-obligations/"]},
+    {"kicker": "Le détail", "title": "Chaque diagnostic", "paras": ["Logements concernés, qui le fait réaliser, contenu et durée de validité de chaque diagnostic."], "link": ["Les diagnostics immobiliers", "les-diagnostics-immobiliers/"]}
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "eyebrow": "Nos engagements",
+   "title": "Prix, réactivité, <em class=\"it\">fiabilité</em>",
+   "items": [
+    ["Meilleur prix", "Devis gratuit et au meilleur prix avec mise en place de solutions pour vous aider dans le paiement de votre facture."],
+    ["Réactivité", "Rapidité des interventions en moins de 24h. Rapport transmis sous 24h par e-mail et/ou courrier (hors prélèvements)."],
+    ["Disponibilité", "Disponibles et à l'écoute pour toutes vos questions techniques et commerciales."],
+    ["Mobilité", "Intervention sur Midi-Pyrénées (09 – 31 – 81 – 82)."],
+    ["Fiabilité", "Chaque technicien est formé, certifié et assuré par QUALIXPERT LCC."]
+   ]
+  },
+  {
+   "kind": "blocks",
+   "id": "avis",
+   "eyebrow": "Avis et réseau",
+   "title": "Les avis <em class=\"it\">sur Immediag</em>",
+   "items": [
+    {"kicker": "Google", "title": "Avis Google", "paras": ["Consultez les avis laissés par les clients d'Immediag."], "link": ["Voir les avis Google", "https://bit.ly/3q7ARV7"]},
+    {"kicker": "Google", "title": "Laisser le vôtre", "paras": ["Vous avez fait appel à Immediag ? Votre avis aide les prochains clients."], "link": ["Laisser un avis", "https://g.page/r/CWwsSgVdxC9vEB0/review"]},
+    {"kicker": "OH Business", "title": "Réseau d'affaires", "paras": ["Groupe de réseau d'affaires : pour nous rejoindre, n'hésitez pas à m'appeler !"], "link": ["06 32 20 70 36", "tel:+33632207036"]}
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "eyebrow": "Devis gratuit",
+   "title": "Une vente, une location ? Parlons de votre bien",
+   "cta": ["Demander un devis", "contactez-nous/"]
+  },
+  {
+   "kind": "visit",
+   "id": "contact",
+   "eyebrow": "Contact",
+   "title": "Immediag, <em class=\"it\">Midi-Pyrénées</em>",
+   "text": "Pour toutes questions ou demande de devis.",
+   "rows": [
+    ["Gérante", "Marie Anna Espy"],
+    ["Téléphone", "<a href=\"tel:+33632207036\">06 32 20 70 36</a>"],
+    ["E-mail", "<a href=\"mailto:maespy@live.fr\">maespy@live.fr</a>"],
+    ["Secteur", "Ariège, Haute-Garonne, Tarn, Tarn-et-Garonne (09, 31, 81, 82)"],
+    ["Horaires", "Du lundi au vendredi, de 9h à 19h30"],
+    ["Certification", "Techniciens certifiés et assurés par Qualixpert (LCC)"]
+   ],
+   "cta": ["Appeler Immediag", "tel:+33632207036"]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "a-propos",
+   "label": "Qui sommes-nous ?",
+   "title": "Qui sommes-nous ?",
+   "eyebrow": "Immediag",
+   "lead": "IMMEDIAG est une société spécialisée dans le diagnostic immobilier pour toutes ventes, locations ou gestions de biens en Midi-Pyrénées.",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "societe",
+     "eyebrow": "La société",
+     "title": "Votre diagnostiqueur <em class=\"it\">en Midi-Pyrénées</em>",
+     "img": "https://images.pexels.com/photos/4792480/pexels-photo-4792480.jpeg?auto=compress&cs=tinysrgb&w=1920",
+     "alt": "Plan de maison, règle et lunettes sur un bureau",
+     "paras": [
+      "IMMEDIAG est une société spécialisée dans le diagnostic immobilier pour toutes ventes, locations ou gestions de biens.",
+      "Nous intervenons plus spécialement dans les départements 09, 31, 81 et 82, du lundi au vendredi de 9h à 19h30.",
+      "Chaque technicien est formé, certifié et assuré par QUALIXPERT LCC."
+     ],
+     "sign": "Marie Anna Espy, gérante"
+    },
+    {
+     "kind": "features",
+     "id": "engagements",
+     "eyebrow": "Nos engagements",
+     "title": "Ce sur quoi <em class=\"it\">vous pouvez compter</em>",
+     "items": [
+      ["Meilleur prix", "Devis gratuit et au meilleur prix avec mise en place de solutions pour vous aider dans le paiement de votre facture."],
+      ["Réactivité", "Rapidité des interventions en moins de 24h. Rapport transmis sous 24h par e-mail et/ou courrier (hors prélèvements)."],
+      ["Disponibilité", "Disponibles et à l'écoute pour toutes vos questions techniques et commerciales."],
+      ["Mobilité", "Intervention sur Midi-Pyrénées (09 – 31 – 81 – 82)."],
+      ["Fiabilité", "Chaque technicien est formé, certifié et assuré par QUALIXPERT LCC."]
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "zone",
+     "eyebrow": "Zone d'intervention",
+     "title": "Quatre départements <em class=\"it\">de Midi-Pyrénées</em>",
+     "chips": ["Ariège (09)", "Haute-Garonne (31)", "Tarn (81)", "Tarn-et-Garonne (82)"]
+    },
+    {
+     "kind": "banner",
+     "img": "https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1920",
+     "eyebrow": "Devis gratuit",
+     "title": "Une question technique ou commerciale ?",
+     "cta": ["Nous contacter", "../contactez-nous/"]
+    }
+   ]
+  },
+  {
+   "slug": "les-diagnostics-immobiliers",
+   "label": "Les diagnostics",
+   "title": "Les diagnostics immobiliers",
+   "eyebrow": "Retrouvez tous nos diagnostics",
+   "lead": "Diagnostic immobilier obligatoire pour la mise en vente ou la mise en location de bien immobilier.",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "liste",
+     "eyebrow": "Le détail",
+     "title": "Chaque diagnostic <em class=\"it\">en quelques mots</em>",
+     "img": "https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1920",
+     "alt": "Plan de maison",
+     "items": [
+      {"kicker": "Vente · location", "title": "<span id=\"plomb\"></span>Plomb (CREP)", "paras": ["Le constat de risque d'exposition au plomb indique si du plomb est présent dans un logement. Il concerne les appartements et maisons dont le permis de construire a été délivré avant le 1er janvier 1949.", "Il porte sur les revêtements (anciennes peintures, plâtre, briques), y compris extérieurs comme les volets, et sur les annexes à usage courant, par exemple une buanderie."], "list": ["Location : 6 ans", "Vente sans plomb ou sous 1 mg/cm² : illimitée", "Vente à 1 mg/cm² ou plus : 1 an, copie transmise au préfet"]},
+      {"kicker": "Vente", "title": "<span id=\"amiante\"></span>Amiante partie privative (DAPP)", "paras": ["L'état d'amiante concerne les appartements et maisons individuelles dont le permis de construire a été délivré avant le 1er juillet 1997. Le diagnostiqueur recherche les matériaux et produits des listes A et B et évalue leur état de conservation.", "En cas de doute, il effectue des prélèvements analysés par un laboratoire accrédité Cofrac."], "list": ["Sans amiante : sans limite de durée", "Avec amiante : nouveau contrôle dans les 3 ans", "Diagnostic antérieur au 1er janvier 2013 : à renouveler en cas de vente"]},
+      {"kicker": "Copropriété", "title": "Amiante des parties communes", "paras": ["Pour les parties communes, le vendeur n'a pas à les faire diagnostiquer : il demande au syndic une copie de la fiche récapitulative du dossier technique amiante (DTA), qui accompagne l'état d'amiante."]},
+      {"kicker": "Travaux", "title": "Amiante avant démolition ou avant travaux", "paras": ["Les propriétaires d'immeubles construits avant le 1er juillet 1997 doivent informer les entreprises avant travaux. Le repérage, réalisé par un opérateur certifié, porte sur les parties privatives et communes.", "Le propriétaire établit ensuite un dossier technique amiante (DTA) décrivant les matériaux amiantés, leur état, les travaux réalisés et les consignes de sécurité."]},
+      {"kicker": "Vente · location", "title": "<span id=\"dpe\"></span>DPE, diagnostic de performance énergétique", "paras": ["Le DPE estime la consommation énergétique d'un logement et son taux d'émission de gaz à effet de serre, avec deux étiquettes de A à G : énergie et climat. Il concerne tous les logements d'habitation, sauf ceux occupés moins de quatre mois par an.", "Il comprend aussi des recommandations pour réduire les consommations, avec le coût et l'efficacité estimés des travaux envisageables."], "list": ["Validité : 10 ans", "Étiquette énergie obligatoire dans les annonces"]},
+      {"kicker": "Vente", "title": "<span id=\"termites\"></span>Termites (état parasitaire)", "paras": ["Il indique si des termites sont présents dans un logement situé dans une zone délimitée par arrêté préfectoral. Il précise les parties visitées et non visitées et les éléments infestés.", "En cas de termites, le vendeur fait une déclaration en mairie dans le mois suivant leur découverte."], "list": ["Validité : 6 mois"]},
+      {"kicker": "Vente · location", "title": "<span id=\"ernmt\"></span>ERNMT, état des risques", "paras": ["Le vendeur ou le bailleur informe l'acquéreur ou le locataire si le bien est situé dans une zone exposée à des risques naturels, miniers ou technologiques, d'après les arrêtés préfectoraux de la commune."], "list": ["Validité : 6 mois, et pour toute la durée du bail en location"]},
+      {"kicker": "Installation de plus de 15 ans", "title": "<span id=\"electricite\"></span>Électricité", "paras": ["L'état de l'installation intérieure d'électricité donne un aperçu de la sécurité des équipements, sur l'ensemble de l'installation du logement et de ses dépendances. Il n'oblige pas le vendeur à faire réaliser des travaux."], "list": ["Validité : 3 ans", "Norme de référence FD C16-600"]},
+      {"kicker": "Installation de plus de 15 ans", "title": "<span id=\"gaz\"></span>Gaz", "paras": ["L'état de l'installation intérieure de gaz se fait sans démontage : appareils fixes de chauffage et d'eau chaude, tuyauteries fixes et leurs accessoires, aération des locaux et évacuation des produits de combustion."], "list": ["Validité : 3 ans"]},
+      {"kicker": "Vente en copropriété", "title": "<span id=\"carrez\"></span>Loi Carrez", "paras": ["Pour la vente d'un lot de copropriété à usage d'habitation, la superficie dite Carrez doit figurer dans l'acte. Elle ne s'applique pas aux caves, garages, places de stationnement ni aux lots de moins de 8 m²."], "list": ["Superficie réelle inférieure de plus de 5 % : diminution du prix possible"]},
+      {"kicker": "Location", "title": "<span id=\"boutin\"></span>Loi Boutin", "paras": ["Le mesurage établit la surface habitable, après déduction des murs, cloisons, marches, cages d'escalier, gaines, embrasures et parties de moins de 1,80 m de hauteur. Le certificat de mesurage doit être remis au locataire à la signature du bail."], "list": ["Validité : illimitée, sauf travaux modifiant le bien"]},
+      {"kicker": "Copropriété", "title": "Mise en copropriété", "paras": ["Une opération complexe, encadrée par la loi du 10 juillet 1965 et la loi SRU : diagnostics techniques (amiante, plomb…), plans, état descriptif de division et règlement de copropriété. Chaque lot vendu ou loué doit disposer de son dossier de diagnostics techniques."]},
+      {"kicker": "Financement", "title": "Prêt à taux 0 %", "paras": ["Le diagnostic contrôle que le logement respecte les normes de surface et d'habitabilité (étanchéité, sanitaires, eau, cuisine, ventilation, chauffage, gaz, électricité). Il aboutit à un certificat d'habitabilité."], "list": ["Validité : 6 mois"]},
+      {"kicker": "Autres prestations", "title": "Assainissement · RT2012", "paras": ["Renseignements par téléphone ou par e-mail."], "link": ["Nous contacter", "../contactez-nous/"]}
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://images.pexels.com/photos/4792480/pexels-photo-4792480.jpeg?auto=compress&cs=tinysrgb&w=1920",
+     "eyebrow": "Devis gratuit",
+     "title": "Quels diagnostics pour votre bien ?",
+     "cta": ["Demander un devis", "../contactez-nous/"]
+    }
+   ]
+  },
+  {
+   "slug": "vos-obligations",
+   "label": "Vos obligations",
+   "title": "Vos obligations",
+   "eyebrow": "Vendeurs et bailleurs",
+   "lead": "Diagnostic immobilier obligatoire pour la mise en vente ou la mise en location de bien immobilier.",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "obligations",
+     "eyebrow": "Vente et location",
+     "title": "Les diagnostics <em class=\"it\">à fournir</em>",
+     "items": [
+      {"img": "https://immediag.wordpress.com/wp-content/uploads/2014/06/ventes.jpg", "contain": true, "alt": "Ventes", "kicker": "À la vente", "title": "Vendre votre bien", "paras": ["Lors de la vente de votre bien, vous devez respecter certains diagnostics. Ils forment le dossier de diagnostic technique, annexé à la promesse de vente ou, à défaut, à l'acte de vente."], "link": ["Le détail des diagnostics", "../les-diagnostics-immobiliers/"]},
+      {"img": "https://immediag.wordpress.com/wp-content/uploads/2014/06/location.jpg", "contain": true, "alt": "Location", "kicker": "À la location", "title": "Louer votre bien", "paras": ["En location, le dossier de diagnostic technique est annexé au bail d'habitation."], "link": ["Le détail des diagnostics", "../les-diagnostics-immobiliers/"]}
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1920",
+     "eyebrow": "Devis gratuit",
+     "title": "Un doute sur vos obligations ?",
+     "cta": ["Nous contacter", "../contactez-nous/"]
+    }
+   ]
+  },
+  {
+   "slug": "contactez-nous",
+   "label": "Contact",
+   "title": "Contactez-nous",
+   "eyebrow": "Devis gratuit",
+   "lead": "Pour toutes questions ou demande de devis : Marie Anna Espy, gérante.",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Demande de devis",
+     "title": "Votre demande <em class=\"it\">en quelques lignes</em>",
+     "lead": "Remplissez le formulaire : votre messagerie s'ouvre avec la demande prête à envoyer à maespy@live.fr.",
+     "side": [
+      "Tél : <a href=\"tel:+33632207036\">06 32 20 70 36</a>",
+      "<a href=\"mailto:maespy@live.fr\">maespy@live.fr</a>",
+      "Midi-Pyrénées : 09, 31, 81, 82",
+      "Du lundi au vendredi, de 9h à 19h30"
+     ],
+     "email": "maespy@live.fr",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Soumettre",
+     "fields": [
+      {"label": "Nom", "required": true},
+      {"label": "Téléphone", "type": "tel", "required": true},
+      {"label": "Email", "type": "email", "required": true, "full": true},
+      {"label": "Votre demande", "type": "textarea", "rows": 5, "required": true}
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "coordonnees",
+     "eyebrow": "Immediag",
+     "title": "Diagnostics immobiliers <em class=\"it\">en Midi-Pyrénées</em>",
+     "rows": [
+      ["Gérante", "Marie Anna Espy"],
+      ["Téléphone", "<a href=\"tel:+33632207036\">06 32 20 70 36</a>"],
+      ["E-mail", "<a href=\"mailto:maespy@live.fr\">maespy@live.fr</a>"],
+      ["Secteur", "Ariège, Haute-Garonne, Tarn, Tarn-et-Garonne"],
+      ["LinkedIn", "<a href=\"https://www.linkedin.com/in/marie-anna-espy/\" target=\"_blank\" rel=\"noopener\">Marie Anna Espy</a>"]
+     ],
+     "cta": ["Appeler Immediag", "tel:+33632207036"]
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Immediag, diagnostics immobiliers pour toutes ventes, locations ou gestions de biens en Midi-Pyrénées : Ariège, Haute-Garonne, Tarn et Tarn-et-Garonne.",
+  "contact": [
+   "<a href=\"tel:+33632207036\">06 32 20 70 36</a>",
+   "<a href=\"mailto:maespy@live.fr\">maespy@live.fr</a>",
+   "Du lundi au vendredi, 9h-19h30"
+  ],
+  "social": [["linkedin", "https://www.linkedin.com/in/marie-anna-espy/"]],
+  "legal": "Immediag · Marie Anna Espy, gérante · Techniciens certifiés et assurés par Qualixpert (LCC)"
+ }
+}
