@@ -22,7 +22,8 @@
  },
  "logo": {
   "src": "img/DOMAINE-AMEZTIA-IROULEGUY-1.png",
-  "height": 56
+  "height": 56,
+  "bg": "#231c1a"
  },
  "topbar": [
   "Germieta · 64430 Baigorri",
