@@ -986,6 +986,12 @@ def _rise_words(htm):
     return "".join(out)
 
 
+def _h1len(t):
+    """Titre long : taille réduite pour rester sur 3 lignes environ."""
+    n = len(re.sub(r"<[^>]+>|&[a-z#0-9]+;", "x", t))
+    return ' class="long2"' if n > 62 else (' class="long"' if n > 40 else "")
+
+
 def vivant_hero(d, h, figs):
     img = h.get("img")
     f1 = figs[0] if figs else None
@@ -1009,7 +1015,7 @@ def vivant_hero(d, h, figs):
     note = d.get("tagline") or ""
     return f'''<section class="hero vv{"" if img else " noimg"}" id="accueil"><div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="wrap vv-g">
 <div class="vv-txt"><span class="vv-pill"><i class="dot"></i><span class="tp" data-t="{attr(h.get("eyebrow", ""))}">{e(h.get("eyebrow", ""))}</span><b class="caret" aria-hidden="true"></b></span>
-<h1>{_rise_words(h["title"])}</h1><p>{e(h.get("lead", ""))}</p><div class="ctas">{ctas}</div>{f'<small class="mono">{e(note)}</small>' if note else ""}</div>
+<h1{_h1len(h["title"])}>{_rise_words(h["title"])}</h1><p>{e(h.get("lead", ""))}</p><div class="ctas">{ctas}</div>{f'<small class="mono">{e(note)}</small>' if note else ""}</div>
 {vis}</div></section>
 '''
 
@@ -1097,6 +1103,10 @@ VIVANT_CSS = """<style>
 .caret{width:1px;height:1em;background:currentColor;animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
 .vv h1{font-size:clamp(2.7rem,5.6vw,5rem);margin:24px 0 22px;text-shadow:none;color:var(--ink);font-weight:400}
 .vv h1 em{color:var(--ink)}
+.vv h1.long{font-size:clamp(2.4rem,4.4vw,4rem)}.vv h1.long2{font-size:clamp(2.2rem,3.6vw,3.3rem)}
+.look-vivant header.many .navcta{display:none}
+.look-vivant .nav .logo{min-width:0;flex-shrink:1}.look-vivant .logo.gen .nm{min-width:0}.look-vivant .logo.gen .nm,.look-vivant .logo.gen small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:860px){.look-vivant .nav .logo img{max-width:52vw}.look-vivant .burger{flex:none}}
 .vv h1 .w{display:inline-block;animation:rise .9s cubic-bezier(.2,.75,.15,1) calc(.08s + var(--i) * .065s) both}
 @keyframes rise{from{opacity:0;transform:translateY(.45em);filter:blur(8px)}}
 @keyframes fadeup{from{opacity:0;transform:translateY(16px)}}
@@ -1382,6 +1392,8 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
             hcls += f' style="background:{attr(lg["bg"])}{";color:#fff" if _dark else ""}"' 
     if lg:
         lg = dict(lg)
+        # Wix convertit un logo PNG en JPG (« …png/v1/…/img.jpg ») et perd la transparence (fond noir) : on garde le PNG.
+        lg["src"] = re.sub(r"(\.png/v1/[^\s\"']*?)/img\.jpe?g$", r"\1/img.png", lg["src"])
         if not re.match(r"^(https?:|/|data:)", lg["src"]):   # logo stocké avec la maquette : chemin relatif à la page
             lg["src"] = (prefix or "") + lg["src"]
         fb = 'onerror="this.parentElement.textContent=this.alt"'
