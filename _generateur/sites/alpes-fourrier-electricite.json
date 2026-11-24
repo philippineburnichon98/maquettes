@@ -10,7 +10,7 @@
   "bg": "#ffffff"
  },
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f4f6f9",
   "paper2": "#e3e9f1",
   "ink": "#141c2b",

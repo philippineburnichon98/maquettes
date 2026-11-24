@@ -6,7 +6,7 @@
  "monogram": "R",
  "tagline": "Restaurant · Brasserie",
  "theme": {
-  "look": "framed",
+  "look": "vivant", "look_avant": "framed",
   "paper": "#f6f1ea",
   "paper2": "#ece3d6",
   "ink": "#1d1a17",

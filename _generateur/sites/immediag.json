@@ -5,7 +5,7 @@
  "brand": "Immediag",
  "tagline": "Diagnostics immobiliers",
  "theme": {
-  "look": "center",
+  "look": "vivant", "look_avant": "center",
   "paper": "#f8f6f3",
   "paper2": "#efe9e2",
   "ink": "#1f2328",

@@ -6,7 +6,7 @@
  "monogram": "GF",
  "tagline": "Artisan peintre · depuis 1986",
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f6f4ef",
   "paper2": "#e8e4da",
   "ink": "#1c2329",

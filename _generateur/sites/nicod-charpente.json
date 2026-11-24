@@ -7,7 +7,7 @@
  "monogram": "N",
  "phead": "box",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f6f2ec",
   "paper2": "#ebe3d7",
   "ink": "#1f1c19",

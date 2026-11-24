@@ -6,7 +6,7 @@
  "tagline": "Professionnel de la rénovation",
  "monogram": "PN",
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f4f6f8",
   "paper2": "#e3e8ee",
   "ink": "#121a24",

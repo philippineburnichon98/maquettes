@@ -6,7 +6,7 @@
  "tagline": "Chauffage · Plomberie · Climatisation",
  "monogram": "PE",
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f6f3ee",
   "paper2": "#ebe4d9",
   "ink": "#1c2833",

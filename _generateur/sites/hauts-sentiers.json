@@ -11,7 +11,7 @@
   "with_name": true
  },
  "theme": {
-  "look": "framed",
+  "look": "vivant", "look_avant": "framed",
   "paper": "#f8f4ec",
   "paper2": "#eee5d4",
   "ink": "#26201c",

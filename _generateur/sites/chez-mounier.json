@@ -6,7 +6,7 @@
  "tagline": "Restaurant lyonnais depuis 1985",
  "monogram": "CM",
  "theme": {
-  "look": "classic",
+  "look": "vivant", "look_avant": "classic",
   "paper": "#f6efe4",
   "paper2": "#eadfcd",
   "ink": "#2a1a14",

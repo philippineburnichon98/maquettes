@@ -16,7 +16,7 @@
   "serif": "\"Bodoni Moda\",Georgia,serif",
   "sans": "\"Work Sans\",system-ui,sans-serif",
   "fonts": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;1,400&family=Work+Sans:wght@300;400;500;600&display=swap",
-  "look": "center"
+  "look": "vivant", "look_avant": "center"
  },
  "logo": {
   "src": "https://static.wixstatic.com/media/b41804_3c42061eac594e118d36a279e0a14e04~mv2.jpg/v1/fit/w_200,h_284,al_c,q_90/b41804_3c42061eac594e118d36a279e0a14e04~mv2.jpg",

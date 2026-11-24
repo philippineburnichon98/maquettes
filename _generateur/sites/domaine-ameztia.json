@@ -7,7 +7,7 @@
  "monogram": "A",
  "agegate": true,
  "theme": {
-  "look": "framed",
+  "look": "vivant", "look_avant": "framed",
   "paper": "#f7f3ec",
   "paper2": "#ece4d6",
   "ink": "#231c1a",

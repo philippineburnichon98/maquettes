@@ -7,7 +7,7 @@
  "agegate": true,
  "phead": "box",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f8f5ee",
   "paper2": "#efe8d9",
   "ink": "#1f1b16",

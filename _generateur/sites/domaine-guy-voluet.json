@@ -6,7 +6,7 @@
  "tagline": "Vignerons à Juliénas",
  "agegate": true,
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f7f3ee",
   "paper2": "#efe6da",
   "ink": "#22171a",

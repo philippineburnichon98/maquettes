@@ -6,7 +6,7 @@
  "tagline": "Plâtrerie · Peinture · Isolation",
  "monogram": "HP",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f6f4ef",
   "paper2": "#e9e5dc",
   "ink": "#1f2523",

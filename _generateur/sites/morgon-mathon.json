@@ -11,7 +11,7 @@
   "bg": "#f7f2ea"
  },
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f7f2ea",
   "paper2": "#eee5d8",
   "ink": "#1f1716",

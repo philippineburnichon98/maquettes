@@ -9,7 +9,7 @@
   "height": 54
  },
  "theme": {
-  "look": "framed",
+  "look": "vivant", "look_avant": "framed",
   "paper": "#f6f7f9",
   "paper2": "#e7ebf0",
   "ink": "#18212c",

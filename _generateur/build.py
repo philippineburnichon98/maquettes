@@ -1077,6 +1077,8 @@ VIVANT_CSS = """<style>
 @media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
 @media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
 .look-vivant .topbar{display:none}
+.look-vivant header[style*="--navbg"] .nav{background:var(--navbg)}.look-vivant header[data-navdark] .nav{color:#fff}.look-vivant header[data-navdark] .navcta{background:#fff;color:var(--ink)}
+@media(max-width:860px){.look-vivant header[data-navdark] .links{color:var(--ink)}}
 /* accueil */
 .vv{min-height:auto;display:block;background:none!important;color:var(--ink);padding:clamp(120px,14vw,150px) 0 clamp(50px,6vw,80px);overflow:hidden}
 .vv::before{display:none}
@@ -1374,7 +1376,10 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
     if lg and lg.get("bg"):
         _bg = lg["bg"].lstrip("#")
         _dark = len(_bg) == 6 and (0.299 * int(_bg[0:2], 16) + 0.587 * int(_bg[2:4], 16) + 0.114 * int(_bg[4:6], 16)) < 140
-        hcls += f' style="background:{attr(lg["bg"])}{";color:#fff" if _dark else ""}"' 
+        if vivant:   # look vivant : la couleur de fond du logo passe sur la pilule du menu, pas sur toute la largeur
+            hcls += f' style="--navbg:{attr(lg["bg"])}"' + (' data-navdark="1"' if _dark else "")
+        else:
+            hcls += f' style="background:{attr(lg["bg"])}{";color:#fff" if _dark else ""}"' 
     if lg:
         lg = dict(lg)
         if not re.match(r"^(https?:|/|data:)", lg["src"]):   # logo stocké avec la maquette : chemin relatif à la page

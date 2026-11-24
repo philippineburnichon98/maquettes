@@ -10,7 +10,7 @@
   "with_name": true
  },
  "theme": {
-  "look": "center",
+  "look": "vivant", "look_avant": "center",
   "paper": "#f3f6f9",
   "paper2": "#e2e9f0",
   "ink": "#10202e",

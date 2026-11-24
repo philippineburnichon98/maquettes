@@ -6,7 +6,7 @@
  "tagline": "Plâtrerie · Peinture · Décoration",
  "monogram": "BA",
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f7f5f1",
   "paper2": "#ebe6dd",
   "ink": "#22262a",

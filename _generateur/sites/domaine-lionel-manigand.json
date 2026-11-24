@@ -7,7 +7,7 @@
  "tagline": "Vigneron à Saint-Lager",
  "agegate": true,
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f7f2ec",
   "paper2": "#ede3d7",
   "ink": "#211618",

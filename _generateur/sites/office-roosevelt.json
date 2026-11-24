@@ -5,7 +5,7 @@
  "brand": "Office Roosevelt",
  "tagline": "Bronnert – Dutel & Associés, notaires à Lyon 6e",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "logo_accent": false,
   "paper": "#f5f4f0",
   "paper2": "#e9e7e1",

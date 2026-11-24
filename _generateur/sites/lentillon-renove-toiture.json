@@ -5,7 +5,7 @@
  "brand": "Lentillon Rénove Toiture",
  "tagline": "Couverture · Zinguerie",
  "theme": {
-  "look": "framed",
+  "look": "vivant", "look_avant": "framed",
   "paper": "#f3f4f3",
   "paper2": "#e2e5e4",
   "ink": "#1d2427",
