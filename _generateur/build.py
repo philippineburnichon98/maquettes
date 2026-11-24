@@ -1012,35 +1012,21 @@ def craft_figures(figs):
 
 
 CRAFT_CSS = """<style>
-/* ---- Finition sur mesure (theme.craft) ---- */
+/* ---- Finition sur mesure (theme.craft) : la grande bannière plein écran et le menu transparent restent ceux de la mise en page classique (choix de Philippine, 24 nov. 2026) ---- */
 body.craft{font-weight:400;font-size:17px;line-height:1.62}
-.craft :is(.eyebrow,.tag,.k,.ct,.meta,dt,h4,.tabs button,.links,.btn,.fig span,.menu .col h3,.badge,.rm-slots h4,.rm-grid span,.blog .bt button,.rev .k,.logo small,.visit dt,footer h4){text-transform:none!important;letter-spacing:0!important}
-.craft .eyebrow{font-size:.95rem;font-weight:500;color:var(--muted)}
+.craft :is(.eyebrow,.tag,.k,.ct,.meta,dt,h4,.tabs button,.btn,.fig span,.menu .col h3,.badge,.rm-slots h4,.rm-grid span,.blog .bt button,.rev .k,.visit dt,footer h4):not(.hero *){text-transform:none!important;letter-spacing:0!important}
+.craft section:not(.hero) .eyebrow{font-size:.95rem;font-weight:500;color:var(--muted)}
 .craft :is(.head,.split,.cform,.visit .info,.banner>div) .eyebrow{display:none}
-.craft h1 em,.craft h2 em,.craft em.it,.craft .hero h1 em{font-style:normal!important;color:inherit!important}
-.craft h1,.craft h2,.craft h3{font-weight:600;letter-spacing:-.015em;line-height:1.12}
+.craft h2 em,.craft em.it{font-style:normal!important;color:inherit!important}
+.craft h2,.craft h3{font-weight:600;letter-spacing:-.015em;line-height:1.12}
 .craft h2{font-size:clamp(1.8rem,3.2vw,2.6rem)}.craft h3{font-size:1.25rem}
 .craft .head{text-align:left;margin:0 0 40px;max-width:760px}.craft .head h2{margin:0 0 12px}
 .craft .split h2{margin:0 0 22px}.craft .cform h2{margin:0 0 16px!important}
 .craft .tabs{justify-content:flex-start}
-.craft .btn{font-size:1rem;font-weight:600;padding:13px 22px;border-radius:4px;gap:.5em}
+.craft section:not(.hero) .btn{font-size:1rem;font-weight:600;padding:13px 22px;border-radius:4px;gap:.5em}
 .craft .btn:hover{transform:none}
 .craft .rv,.craft .rv.in{opacity:1!important;transform:none!important;transition:none!important}
-/* en-tête : barre pleine, simple, comme un vrai site de professionnel */
-.craft header,.craft header.scrolled{background:var(--paper);color:var(--ink);box-shadow:0 1px 0 var(--line);backdrop-filter:none}
-.craft .links{font-size:.98rem;font-weight:500;gap:26px}.craft .links a::after{display:none}
-.craft .links a[aria-current]{border-bottom:2px solid var(--accent)}
 .craft .logo{font-weight:600}
-/* accueil : la vraie photo, peu assombrie, texte en bas à gauche, taille raisonnable */
-.craft .hero{min-height:min(78svh,760px);margin-top:80px;place-items:end start}
-.craft header.hastop+.hero,.craft header.hastop+.hero.phead{margin-top:112px;padding-top:0}
-.craft .hero::before{background:linear-gradient(0deg,rgba(0,0,0,.66) 0%,rgba(0,0,0,.28) 45%,rgba(0,0,0,0) 75%)}
-.craft .hero .wrap{padding-bottom:clamp(40px,7vh,72px)}
-.craft .hero .eyebrow{color:#fff;opacity:.9;font-size:1rem;text-shadow:0 1px 8px rgba(0,0,0,.5)}.craft .hero .eyebrow::before{display:none}
-.craft .hero h1{font-size:clamp(2.3rem,5vw,4.2rem);margin:10px 0 16px;max-width:18ch;text-shadow:0 1px 18px rgba(0,0,0,.35)}
-.craft .hero p{font-size:1.12rem;max-width:52ch;margin-bottom:26px}
-.craft .hero.phead{min-height:38vh}.craft .hero.phead h1{font-size:clamp(2rem,4.2vw,3.2rem)}
-.craft .pbox{padding-top:clamp(110px,11vw,140px)}.craft .pmono{display:none}
 /* chiffres : une ligne de faits, pas un bandeau de compteurs */
 .craft .figures{border-bottom:1px solid var(--line);background:var(--paper)}
 .craft .figures .wrap{display:flex;flex-wrap:wrap;gap:12px 44px;padding-top:26px;padding-bottom:26px}
@@ -1065,18 +1051,15 @@ body.craft{font-weight:400;font-size:17px;line-height:1.62}
 .craft footer .top{border-color:var(--line)}.craft footer p{opacity:.85!important}
 .craft footer .social a{color:var(--ink);border-color:var(--line)}.craft footer .logo.gen .mono{background:var(--accent);color:#fff}
 /* par métier */
-.craft-artisan h1,.craft-artisan h2,.craft-diagnostiqueur h1,.craft-diagnostiqueur h2{font-weight:700;letter-spacing:-.025em}
-.craft-artisan .hero h1{text-transform:none;max-width:16ch}
+.craft-artisan h2,.craft-diagnostiqueur h2{font-weight:700;letter-spacing:-.025em}
 .craft-diagnostiqueur .fig b{font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:1.35rem}
-.craft-juridique .hero::before{background:linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2))}
-.craft-juridique h1,.craft-juridique h2{font-weight:400}.craft-juridique .btn{border-radius:2px}
-.craft-domaine h1,.craft-domaine h2,.craft-restaurant h1,.craft-restaurant h2{font-weight:400;letter-spacing:-.01em}
-.craft-domaine .hero h1{max-width:20ch}
+.craft-juridique h2{font-weight:400}.craft-juridique .btn{border-radius:2px}
+.craft-domaine h2,.craft-restaurant h2{font-weight:400;letter-spacing:-.01em}
 .craft-artisan .sign,.craft-diagnostiqueur .sign{font-family:var(--sans);font-style:normal;font-weight:600;font-size:1.05rem}
 /* bandeau d'appel (artisans, diagnostiqueurs) : le téléphone d'abord */
 .callbar{background:var(--accent);color:#fff}.callbar .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 28px;padding-top:18px;padding-bottom:18px}
 .callbar a{font-size:clamp(1.3rem,2.4vw,1.7rem);font-weight:700;letter-spacing:-.01em;white-space:nowrap}.callbar span{opacity:.92}
-@media(max-width:860px){.craft .hero{min-height:70svh}.craft .figures .wrap{gap:10px 26px}}
+@media(max-width:860px){.craft .figures .wrap{gap:10px 26px}}
 </style>"""
 
 
