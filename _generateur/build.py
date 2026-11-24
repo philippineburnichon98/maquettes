@@ -157,7 +157,7 @@ footer .top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bott
 footer .logo{color:#fff}footer h4{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px}
 footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
 footer .bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;padding-top:24px;font-size:.74rem;opacity:.7}
-@media(max-width:760px){footer .top{grid-template-columns:1fr}}
+@media(max-width:760px){footer .top{grid-template-columns:minmax(0,1fr)}footer .logo .nm{white-space:normal}}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .9s,transform .9s}.rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
 .solo-text{max-width:820px}.solo-text h2{margin:16px 0 26px}.solo-text p{margin-bottom:18px;color:color-mix(in srgb,var(--ink) 85%%,transparent)}
