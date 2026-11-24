@@ -65,7 +65,10 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - `"look": "vivant"` dans `theme` : fond clair avec halos de couleur (accent, gold, heroem) qui dérivent, menu en pilule flottante avec bouton (cta1), pastille qui s'écrit toute seule (hero.eyebrow), grand titre serré dont les mots montent un à un (le mot en `<em>` passe en Instrument Serif italique), photo arrondie avec cartes flottantes tirées des VRAIS chiffres (`figures[0]` compteur, `figures[1]` pastille) et du bouton principal, bandeau défilant des chiffres, cartes arrondies qui apparaissent en fondu.
 - Polices DM Sans + Instrument Serif + DM Mono (`"keep_fonts": true` garde celles du JSON).
 - Valeur ajoutée : sur un site multi-pages (3 pages ou plus), section « parcours » sur l'accueil : une carte par page (01 / 05, barre qui se remplit, photo de la page, accroche, lien). Titre réglable avec `parcours_eyebrow` / `parcours_title`.
-- Jamais choisi au hasard : à mettre explicitement. Ne pas l'appliquer aux maquettes déjà envoyées.
+- Validé par Philippine le 24 nov. 2026 (« j'aime beaucoup le design ») : **toutes les NOUVELLES maquettes classiques prennent `"look": "vivant"`**. Jamais sur les maquettes déjà envoyées.
+
+## Domaines : les vins sur l'accueil (règle de Philippine, 24 nov. 2026)
+- Si le domaine a des vins disponibles, ils sont OBLIGATOIREMENT dans une section de la page d'accueil. build.py le fait tout seul : si les cuvées (`cards` ou `order`) ne sont que sur une autre page, leur section est recopiée sur l'accueil après la 1re section (id `vins-accueil`). `"home_wines": false` pour désactiver. Un domaine = `agegate` ou type « domaine » dans prospects.csv.
 
 ## Variété, animations, logo, âge légal (demande de Philippine, 12 oct. 2026)
 - `theme.look` : `classic` (grande bannière plein écran, version préférée de Philippine pour le Bouchon des Artistes), `split` (texte à gauche sur fond clair, photo arrondie à droite), `center` (titre centré, cartes arrondies), `editorial` (grands titres fins, filets, citation à guillemet), `framed` (photo d'accueil encadrée, coins arrondis, boutons ronds). Sans valeur, le look est choisi d'après le slug : les maquettes ne se ressemblent plus. Choisis le look qui va le mieux au métier et à la charte.

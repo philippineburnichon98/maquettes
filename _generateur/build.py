@@ -1275,8 +1275,40 @@ def style_pages(d, full):
     return pages
 
 
+def _est_domaine(d):
+    if d.get("agegate"):
+        return True
+    import csv
+    f = pathlib.Path(__file__).resolve().parent / "prospects.csv"
+    if f.exists():
+        for r in csv.DictReader(open(f, encoding="utf-8")):
+            if r.get("slug_maquette") == d.get("slug"):
+                return "domaine" in r.get("type", "").lower()
+    return False
+
+
+def _vins_accueil(d):
+    """Règle de Philippine (24 nov. 2026) : un domaine qui a des vins disponibles les montre
+    OBLIGATOIREMENT dans une section de la page d'accueil. Si les cuvées ne sont que sur une
+    autre page, leur section (cards ou order) est recopiée sur l'accueil, après la 1re section.
+    "home_wines": false pour désactiver."""
+    if d.get("home_wines") is False or not d.get("pages") or not _est_domaine(d):
+        return d
+    if any(b["kind"] in ("cards", "order") for b in d["sections"]):
+        return d
+    for pg in d["pages"]:
+        for b in pg["sections"]:
+            if b["kind"] in ("cards", "order"):
+                copie = {**b, "id": "vins-accueil"}
+                secs = list(d["sections"])
+                secs.insert(1 if secs else 0, copie)
+                return {**d, "sections": secs}
+    return d
+
+
 def build_all(d):
     """Rend la page d'accueil et, si le JSON a des "pages", une page par entrée : {slug: html}."""
+    d = _vins_accueil(d)
     idmap = None
     if d.get("pages"):
         idmap = {}

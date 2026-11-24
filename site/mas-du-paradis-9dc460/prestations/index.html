@@ -235,6 +235,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .menu aside dl.courses dt{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;opacity:.75;margin-bottom:4px}.menu aside dl.courses dd{font-size:.95rem;line-height:1.45}
 .pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
 </style>
+
 <style>
 header .topbar{height:32px;overflow:hidden;font-size:.74rem;letter-spacing:.06em;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);transition:height .3s,border-color .3s}
 header .topbar .wrap{display:flex;justify-content:flex-end;align-items:center;gap:22px;height:100%;white-space:nowrap}header .topbar a:hover{text-decoration:underline}
@@ -308,6 +309,7 @@ const A=document.getElementById('agegate');if(A){let ok=false;try{ok=localStorag
 if(!ok){A.hidden=false;document.body.style.overflow='hidden';A.querySelector('.yes').focus()}
 A.querySelector('.yes').onclick=()=>{try{localStorage.setItem('age_ok','1')}catch(e){}A.hidden=true;document.body.style.overflow=''};
 A.querySelector('.no').onclick=()=>{A.querySelector('.no-msg').hidden=false}}})()</script>
+
 <script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
 var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
 </body>
