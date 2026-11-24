@@ -6,10 +6,12 @@
  "tagline": "Avocat · Barreau d'Aix-en-Provence",
  "logo": {
   "src": "https://image.jimcdn.com/app/cms/image/transf/none/path/s62ffd6b57986b111/image/ie9975f4fdfe2647f/version/1505120140/image.png",
-  "height": 56
+  "height": 56,
+  "bg": "#1d2230"
  },
  "theme": {
-  "look": "vivant", "look_avant": "editorial",
+  "look": "vivant",
+  "look_avant": "editorial",
   "paper": "#f6f4f0",
   "paper2": "#ebe6de",
   "ink": "#1d2230",

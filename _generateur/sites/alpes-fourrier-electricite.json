@@ -7,10 +7,11 @@
  "logo": {
   "src": "https://static.wixstatic.com/media/41d000_177d8f66ee3bfc09bea7f331e4a98295.png",
   "height": 52,
-  "bg": "#ffffff"
+  "bg": "#141c2b"
  },
  "theme": {
-  "look": "vivant", "look_avant": "split",
+  "look": "vivant",
+  "look_avant": "split",
   "paper": "#f4f6f9",
   "paper2": "#e3e9f1",
   "ink": "#141c2b",

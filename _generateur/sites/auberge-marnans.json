@@ -6,10 +6,12 @@
  "tagline": "Restaurant · Bar",
  "logo": {
   "src": "https://static.wixstatic.com/media/0f8fd5_547c918fe3df4db5865fb559f5bc6148~mv2.png/v1/fit/w_720,h_222,al_c,q_85/img.png",
-  "height": 46
+  "height": 46,
+  "bg": "#2a2420"
  },
  "theme": {
-  "look": "vivant", "look_avant": "classic",
+  "look": "vivant",
+  "look_avant": "classic",
   "paper": "#f8f4ec",
   "paper2": "#efe6d6",
   "ink": "#2a2420",

@@ -6,11 +6,13 @@
  "tagline": "Vins du Bugey · Cerdon AOC",
  "logo": {
   "src": "https://static.wixstatic.com/media/84770f_0b13d8e5e77a4296a74c76cb9e7434ee.png",
-  "height": 58
+  "height": 58,
+  "bg": "#2a1e22"
  },
  "agegate": true,
  "theme": {
-  "look": "vivant", "look_avant": "classic",
+  "look": "vivant",
+  "look_avant": "classic",
   "paper": "#f8f3f1",
   "paper2": "#efe3df",
   "ink": "#2a1e22",

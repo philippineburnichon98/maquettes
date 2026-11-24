@@ -5,7 +5,8 @@
  "brand": "Maître Louis Cheret",
  "tagline": "Notaire à Villefranche-sur-Saône",
  "theme": {
-  "look": "vivant", "look_avant": "editorial",
+  "look": "vivant",
+  "look_avant": "editorial",
   "paper": "#f6f5f2",
   "paper2": "#eae8e3",
   "ink": "#1d2230",
@@ -21,7 +22,7 @@
  "logo": {
   "src": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/logo.png",
   "height": 54,
-  "bg": "#ffffff"
+  "bg": "#1d2230"
  },
  "hero": {
   "img": "https://www.notaire-louis-cheret-villefranchesursaone.fr/ressources/common/March%C3%A9_couvert_de_Villefranche.jpg",
