@@ -851,7 +851,7 @@ let n=0;while(1.05/(lum(rgb)+.05)<4.2&&n++<20)rgb=rgb.map(v=>v*.92);const hex=a=
 const R=document.documentElement.style,V=(document.body.dataset.logoVars||'--accent,--accent-2').split(',');R.setProperty(V[0],hex(rgb));if(V[1])R.setProperty(V[1],hex(rgb.map(v=>v*.85)));document.documentElement.dataset.logoAccent=hex(rgb)}catch(e){}};i.src=src})()</script>"""
 
 
-LOOKS = ["split", "center", "editorial", "framed"]
+LOOKS = ["split", "center", "editorial", "framed"]   # "vivant" : à demander explicitement (theme.look)
 
 LOOK_CSS = """<style>
 /* ---- Variantes de mise en page (theme.look) : chaque maquette a sa propre allure, toujours sobre ---- */
@@ -951,10 +951,220 @@ def initials(name):
 
 def pick_look(d):
     t = d.get("theme", {})
-    if t.get("look") in LOOKS or t.get("look") == "classic":   # classic = grande bannière plein écran d'origine, sans variante
+    if t.get("look") in LOOKS or t.get("look") in ("classic", "vivant"):   # classic = grande bannière plein écran d'origine, sans variante
         return t["look"]
     h = sum(ord(c) for c in d.get("slug", "x"))
     return LOOKS[h % len(LOOKS)]
+
+
+# ---------------------------------------------------------------------------
+# Look « vivant » (theme.look = "vivant") — demande de Philippine, 24 nov. 2026,
+# inspiré de heep.ai : fond clair avec halos de couleur qui dérivent, menu en
+# pilule flottante, grand titre serré dont les mots montent un à un (le mot en
+# <em> passe en serif italique), pastille qui s'écrit toute seule, photo arrondie
+# avec des cartes flottantes tirées des VRAIS chiffres du site, bandeau défilant.
+# ---------------------------------------------------------------------------
+VIVANT_FONTS = ('"DM Sans",system-ui,sans-serif', '"DM Sans",system-ui,sans-serif',
+                "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap")
+
+
+def _rise_words(htm):
+    """Découpe le titre en mots animés (les balises <em>, <br> sont conservées)."""
+    out, i = [], 0
+    for part in re.split(r"(<[^>]+>)", htm):
+        if part.startswith("<"):
+            out.append(part)
+            continue
+        for tok in re.split(r"(\s+)", part):
+            if not tok:
+                continue
+            if tok.isspace():
+                out.append(" ")
+            else:
+                out.append(f'<span class="w" style="--i:{i}">{tok}</span>')
+                i += 1
+    return "".join(out)
+
+
+def vivant_hero(d, h, figs):
+    img = h.get("img")
+    f1 = figs[0] if figs else None
+    f2 = figs[1] if len(figs) > 1 else None
+    c1 = ""
+    if f1:
+        num = re.sub(r"<[^>]+>", "", f1[0])
+        m = re.match(r"^([~+≈]?)(\d+(?:[\s\u202f]\d{3})*)(.*)$", num)
+        val = (f'{e(m.group(1))}<b data-count="{m.group(2).replace(" ", "")}">{e(m.group(2))}</b>{e(m.group(3))}' if m else f1[0])
+        c1 = f'<div class="vv-card c1"><span class="lab">{e(d["brand"])}</span><strong>{val}</strong><small>{e(f1[1])}</small></div>'
+    c2 = f'<div class="vv-card c2"><i class="dot"></i><span><b>{f2[0]}</b> {e(f2[1])}</span></div>' if f2 else ""
+    cta = h.get("cta1")
+    c3 = (f'<a class="vv-card c3" href="{attr(cta[1])}"><i class="ck"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></i>'
+          f'<span><b>{e(cta[0])}</b><small>{e(h.get("eyebrow", ""))}</small></span></a>') if cta else ""
+    vis = (f'<div class="vv-vis"><figure style="background-image:url(\'{attr(img)}\');background-position:{attr(h.get("img_pos", "center"))}"></figure>{c1}{c2}{c3}</div>') if img else ""
+    ctas = ""
+    if h.get("cta1"):
+        ctas += f'<a href="{attr(h["cta1"][1])}" class="btn solid">{e(h["cta1"][0])} <span aria-hidden="true">→</span></a>'
+    if h.get("cta2"):
+        ctas += f'<a href="{attr(h["cta2"][1])}" class="btn ghost">{e(h["cta2"][0])}</a>'
+    note = d.get("tagline") or ""
+    return f'''<section class="hero vv{"" if img else " noimg"}" id="accueil"><div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="wrap vv-g">
+<div class="vv-txt"><span class="vv-pill"><i class="dot"></i><span class="tp" data-t="{attr(h.get("eyebrow", ""))}">{e(h.get("eyebrow", ""))}</span><b class="caret" aria-hidden="true"></b></span>
+<h1>{_rise_words(h["title"])}</h1><p>{e(h.get("lead", ""))}</p><div class="ctas">{ctas}</div>{f'<small class="mono">{e(note)}</small>' if note else ""}</div>
+{vis}</div></section>
+'''
+
+
+def _first_img(x):
+    """Première photo trouvée dans les sections d'une page (pour illustrer sa carte)."""
+    if isinstance(x, str):
+        return x if re.match(r"^https?://", x) and re.search(r"\.(jpe?g|png|webp)|wixstatic|jimcdn|images\.pexels", x, re.I) and "logo" not in x.lower() else None
+    if isinstance(x, dict):
+        for k in ("img", "full", "thumb", "src"):
+            r = _first_img(x.get(k)) if k in x else None
+            if r:
+                return r
+        x = list(x.values())
+    if isinstance(x, list):
+        for v in x:
+            r = _first_img(v)
+            if r:
+                return r
+    return None
+
+
+def vivant_parcours(d):
+    """Valeur ajoutée du look vivant : les pages du site présentées comme un parcours
+    (cartes numérotées 01/05, barre qui se remplit), avec leurs vrais titres, accroches et photos."""
+    pgs = [pg for pg in d.get("pages", []) if not pg.get("hidden")]
+    if len(pgs) < 3:
+        return ""
+    n = len(pgs)
+    cards = []
+    for i, pg in enumerate(pgs):
+        src = pg.get("img") or _first_img(pg.get("sections", []))
+        img = f'<img src="{attr(src)}" alt="" loading="lazy" referrerpolicy="no-referrer">' if src else f'<span class="ini">{e(pg.get("label", pg["title"])[:1])}</span>'
+        cards.append(f'''<a class="vv-step rv" href="{attr(pg["slug"])}/" style="--k:{i}"><i class="bar"><i></i></i><span class="num">{e(pg.get("eyebrow", "") if len(pg.get("eyebrow", "")) < 34 else "")}<b>{i + 1:02d} / {n:02d}</b></span>
+<h3>{e(pg.get("label", pg["title"]))}</h3><div class="tint">{img}</div><p>{e(pg.get("lead", ""))}</p><span class="go">Voir la page <span aria-hidden="true">→</span></span></a>''')
+    return f'''<section class="vv-parc" id="parcours"><div class="wrap"><div class="head rv"><span class="eyebrow">{e(d.get("parcours_eyebrow", "Le site en bref"))}</span><h2>{d.get("parcours_title", e(d["brand"]))}</h2></div>
+<div class="vv-steps">{"".join(cards)}</div></div></section>'''
+
+
+def vivant_marquee(figs):
+    if len(figs) < 3:
+        return ""
+    items = "".join(f"<span><b>{v}</b> {e(l)}</span>" for v, l in figs)
+    return f'<div class="vv-mq" aria-hidden="true"><div>{items}{items}{items}{items}</div></div>'
+
+
+VIVANT_CSS = """<style>
+/* ---- look vivant ---- */
+.look-vivant{--mono:"DM Mono",ui-monospace,monospace;--sf:"Instrument Serif",Georgia,serif;font-weight:400;letter-spacing:-.005em}
+.look-vivant h1,.look-vivant h2,.look-vivant h3{font-family:var(--sans);font-weight:400;letter-spacing:-.045em;line-height:1.02}
+.look-vivant h3{letter-spacing:-.025em;line-height:1.15;font-weight:500}
+.look-vivant h1 em,.look-vivant h2 em,.look-vivant em.it{font-family:var(--sf);font-style:italic;font-weight:400;letter-spacing:-.01em;color:inherit}
+.look-vivant .eyebrow{font-family:var(--mono);font-size:.72rem;font-weight:400;letter-spacing:.08em;color:var(--muted)}
+.look-vivant .btn{border-radius:999px;text-transform:none;letter-spacing:0;font-size:.95rem;font-weight:500;padding:13px 22px}
+.look-vivant .btn.solid{background:var(--ink);border-color:var(--ink)}.look-vivant .btn.solid:hover{background:var(--accent);border-color:var(--accent)}
+.look-vivant .btn.ghost{background:#fff;color:var(--ink);border-color:rgba(0,0,0,.12)}.look-vivant .btn.ghost:hover{border-color:var(--ink);background:#fff;color:var(--ink)}
+/* menu en pilule flottante */
+.look-vivant header,.look-vivant header.scrolled{background:transparent;box-shadow:none;backdrop-filter:none;color:var(--ink);padding-top:14px}
+.look-vivant .nav{height:62px;max-width:calc(var(--max) - 8px);background:rgba(255,255,255,.74);backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4);border:1px solid rgba(0,0,0,.06);border-radius:999px;padding:0 8px 0 22px;box-shadow:0 10px 30px -18px rgba(0,0,0,.25)}
+.look-vivant header.scrolled .nav{height:58px;box-shadow:0 14px 34px -16px rgba(0,0,0,.3)}
+.look-vivant .links{text-transform:none;letter-spacing:0;font-size:.9rem;gap:24px}.look-vivant .links a::after{display:none}.look-vivant .links a[aria-current]{border:0;font-weight:600}
+.look-vivant .logo{font-family:var(--sans);font-weight:500;letter-spacing:-.03em;font-size:1.2rem}.look-vivant .logo small{font-family:var(--mono);letter-spacing:.06em;font-size:.58rem}
+.look-vivant .nav .logo img{max-height:42px}
+.navcta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:18px;transition:background .25s}.navcta:hover{background:var(--accent)}
+@media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
+@media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
+.look-vivant .topbar{display:none}
+/* accueil */
+.vv{min-height:auto;display:block;background:none!important;color:var(--ink);padding:clamp(120px,14vw,150px) 0 clamp(50px,6vw,80px);overflow:hidden}
+.vv::before{display:none}
+.blobs{position:absolute;inset:0;pointer-events:none;z-index:0}
+.blobs i{position:absolute;border-radius:50%;filter:blur(80px);opacity:.42}
+.blobs i:nth-child(1){width:520px;height:520px;left:-140px;top:-120px;background:color-mix(in srgb,var(--accent) 55%,#fff);animation:drift1 22s ease-in-out infinite alternate}
+.blobs i:nth-child(2){width:460px;height:460px;right:-120px;top:30%;background:color-mix(in srgb,var(--gold) 60%,#fff);animation:drift2 26s ease-in-out infinite alternate}
+.blobs i:nth-child(3){width:380px;height:380px;left:35%;bottom:-180px;background:color-mix(in srgb,var(--heroem,#f0d9b5) 70%,#fff);animation:drift3 30s ease-in-out infinite alternate}
+@keyframes drift1{to{transform:translate(120px,80px) scale(1.15)}}@keyframes drift2{to{transform:translate(-100px,-60px) scale(.9)}}@keyframes drift3{to{transform:translate(80px,-90px) scale(1.1)}}
+.vv-g{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(36px,5vw,72px);align-items:center;padding-bottom:0!important}
+.vv.noimg .vv-g{grid-template-columns:minmax(0,1fr);max-width:980px}
+.vv-pill{display:inline-flex;align-items:center;gap:9px;background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:999px;padding:7px 14px 7px 10px;font-size:.84rem;box-shadow:0 6px 18px -12px rgba(0,0,0,.3);animation:fadeup .8s both}
+.vv-pill .dot,.vv-card .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);position:relative;flex:none}
+.vv-pill .dot::after,.vv-card .dot::after{content:"";position:absolute;inset:0;border-radius:50%;background:inherit;animation:ping 1.8s cubic-bezier(0,0,.2,1) infinite}
+@keyframes ping{75%,to{transform:scale(2.6);opacity:0}}
+.caret{width:1px;height:1em;background:currentColor;animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.vv h1{font-size:clamp(2.7rem,5.6vw,5rem);margin:24px 0 22px;text-shadow:none;color:var(--ink);font-weight:400}
+.vv h1 em{color:var(--ink)}
+.vv h1 .w{display:inline-block;animation:rise .9s cubic-bezier(.2,.75,.15,1) calc(.08s + var(--i) * .065s) both}
+@keyframes rise{from{opacity:0;transform:translateY(.45em);filter:blur(8px)}}
+@keyframes fadeup{from{opacity:0;transform:translateY(16px)}}
+.vv p{color:var(--muted);font-size:1.08rem;max-width:54ch;text-shadow:none;opacity:1;margin-bottom:30px;animation:fadeup .9s .5s both}
+.vv .ctas{animation:fadeup .9s .65s both}
+.vv .mono{display:block;margin-top:16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.vv-vis{position:relative;animation:fadeup 1s .3s both}
+.vv-vis figure{margin:0 0 0 40px;aspect-ratio:4/4.5;border-radius:28px;background:var(--paper-2) center/cover;box-shadow:0 50px 90px -45px rgba(0,0,0,.5)}
+.vv-card{position:absolute;background:rgba(255,255,255,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.75);border-radius:16px;box-shadow:0 22px 44px -22px rgba(0,0,0,.4);padding:12px 16px;color:var(--ink)}
+.vv-card.c1{left:0;top:9%;min-width:190px;animation:pop .7s .9s both,bob 7s 1.6s ease-in-out infinite}
+.vv-card.c1 .lab{display:inline-block;font-size:.7rem;background:rgba(0,0,0,.05);border-radius:999px;padding:3px 9px;margin-bottom:6px}
+.vv-card.c1 strong{display:block;font-size:2.6rem;font-weight:400;letter-spacing:-.05em;line-height:1}.vv-card.c1 strong b{font-weight:400}
+.vv-card.c1 small{display:block;font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:6px;max-width:200px}
+.vv-card.c2{right:-14px;top:50%;display:flex;align-items:center;gap:10px;font-size:.88rem;border-radius:999px;padding:10px 16px;animation:pop .7s 1.15s both,bob 8s 2s ease-in-out infinite reverse}
+.vv-card.c2 b{font-weight:600}
+.vv-card.c3{right:-26px;bottom:-20px;display:flex;align-items:center;gap:12px;background:#fff;animation:pop .7s 1.4s both;transition:transform .25s}.vv-card.c3:hover{transform:translateY(-3px)}
+.vv-card.c3 .ck{width:30px;height:30px;border-radius:50%;background:color-mix(in srgb,var(--accent) 14%,#fff);color:var(--accent);display:grid;place-items:center;flex:none}.vv-card.c3 svg{width:16px;height:16px}
+.vv-card.c3 b{display:block;font-weight:500;font-size:.92rem}.vv-card.c3 small{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.94)}}@keyframes bob{50%{transform:translateY(-8px)}}
+@media(max-width:900px){.vv-g{grid-template-columns:minmax(0,1fr)}.vv-vis{margin:10px 0 30px}.vv-vis figure{margin:0 14px;aspect-ratio:4/3.6}.vv-card.c1{left:-4px;top:-14px}.vv-card.c2{right:-4px}.vv-card.c3{right:0;bottom:-26px}}
+/* bandeau défilant des chiffres */
+.vv-mq{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.vv-mq div{display:flex;gap:64px;width:max-content;animation:mq 40s linear infinite}
+.vv-mq span{font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap}.vv-mq b{color:var(--ink);font-weight:500}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* sections : titres à gauche, texte à droite, cartes arrondies */
+.look-vivant .head{text-align:left;max-width:var(--max);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:10px 60px;align-items:end;margin:0 0 48px}
+.look-vivant .head .eyebrow{grid-column:1/-1}.look-vivant .head h2{margin:0}.look-vivant .head p{margin:0;font-size:1.02rem}
+@media(max-width:860px){.look-vivant .head{grid-template-columns:minmax(0,1fr)}}
+.look-vivant h2{font-size:clamp(2.2rem,4.4vw,3.6rem)}
+.look-vivant :is(.card,.blocks article,.feat>div,.rev){background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:20px;box-shadow:0 1px 0 rgba(0,0,0,.02);transition:transform .35s cubic-bezier(.2,.75,.15,1),box-shadow .35s}
+.look-vivant :is(.card,.blocks article,.rev):hover{transform:translateY(-4px);box-shadow:0 26px 50px -30px rgba(0,0,0,.35)}
+.look-vivant .blocks article{overflow:hidden}
+.look-vivant .feat{background:none;border:0;gap:16px}
+.look-vivant :is(.visit,.resa,.cform,.booking){border-radius:24px;overflow:hidden;border-color:rgba(0,0,0,.08)}
+.look-vivant .split .img{border-radius:24px}.look-vivant .split .img::after{display:none}
+.look-vivant .gallery button{border-radius:16px}
+.look-vivant .banner{margin:0 16px;border-radius:28px;overflow:hidden}
+.look-vivant .quote{background:none}.look-vivant .quote blockquote{font-family:var(--sf);color:var(--ink);font-size:clamp(1.9rem,4vw,3rem);letter-spacing:-.01em}
+.look-vivant .tabs button{border-radius:999px;text-transform:none;letter-spacing:0;font-size:.88rem}
+.look-vivant :is(.card .tag,.visit dt,footer h4,.blog .ct,.rev .k,.menu .col h3){font-family:var(--mono);font-weight:400;letter-spacing:.06em}
+.look-vivant .fig b,.look-vivant .menu li span,.look-vivant .team b,.look-vivant .card .price b{font-family:var(--sans);letter-spacing:-.03em}
+.look-vivant .rv{transform:translateY(22px);filter:blur(6px);transition:opacity .9s cubic-bezier(.2,.75,.15,1),transform .9s cubic-bezier(.2,.75,.15,1),filter .9s}.look-vivant .rv.in{transform:none;filter:none}
+.look-vivant .grid>.rv:nth-child(3n+2),.look-vivant .blocks>.rv:nth-child(3n+2){transition-delay:.08s}.look-vivant .grid>.rv:nth-child(3n),.look-vivant .blocks>.rv:nth-child(3n){transition-delay:.16s}
+.look-vivant footer{border-radius:28px 28px 0 0}
+.look-vivant .hero.phead{margin:86px 16px 0;border-radius:28px;min-height:40vh}
+.look-vivant .pbox{padding-top:clamp(120px,12vw,150px)}
+@media(prefers-reduced-motion:reduce){.blobs i,.vv h1 .w,.vv-card,.vv-mq div,.vv-pill,.vv p,.vv .ctas,.vv-vis{animation:none!important}.look-vivant .rv{filter:none}}
+
+/* parcours (pages du site) */
+.vv-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.vv-step{display:flex;flex-direction:column;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:18px 18px 20px;transition:transform .35s cubic-bezier(.2,.75,.15,1),box-shadow .35s;transition-delay:calc(var(--k) * 60ms)}
+.look-vivant .vv-step.rv{transition:opacity .9s,filter .9s,transform .35s cubic-bezier(.2,.75,.15,1),box-shadow .35s}.look-vivant .vv-step.rv:hover{transform:translateY(-4px);box-shadow:0 26px 50px -30px rgba(0,0,0,.35)}
+.vv-step .bar{display:block;height:3px;border-radius:3px;background:rgba(0,0,0,.07);overflow:hidden;margin-bottom:14px}.vv-step .bar i{display:block;height:100%;width:0;background:var(--accent);transition:width 1.2s cubic-bezier(.2,.75,.15,1) calc(.3s + var(--k) * .15s)}
+.vv-step.in .bar i{width:calc((var(--k) + 1) / var(--n,6) * 100%)}.vv-step:hover .bar i{width:100%}
+.vv-step .num{display:flex;justify-content:space-between;gap:12px;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.vv-step .num b{font-weight:400;white-space:nowrap}
+.vv-step h3{font-size:1.35rem;margin:10px 0 14px}
+.vv-step .tint{border-radius:14px;overflow:hidden;aspect-ratio:16/9;background:color-mix(in srgb,var(--accent) 10%,var(--paper));display:grid;place-items:center}
+.vv-step:nth-child(3n+2) .tint{background:color-mix(in srgb,var(--gold) 16%,var(--paper))}.vv-step:nth-child(3n) .tint{background:color-mix(in srgb,var(--ink) 6%,var(--paper))}
+.vv-step .tint img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.75,.15,1)}.vv-step:hover .tint img{transform:scale(1.05)}
+.vv-step .ini{font-family:var(--sf);font-style:italic;font-size:4rem;color:var(--accent);opacity:.6}
+.vv-step p{font-size:.92rem;color:var(--muted);margin:14px 0 12px;flex:1}.vv-step .go{font-size:.88rem;font-weight:500}
+@media(prefers-reduced-motion:reduce){.vv-step .bar i{transition:none}}
+</style>"""
+
+VIVANT_JS = r"""<script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const t=document.querySelector('.vv-pill .tp');if(t&&!R){const s=t.dataset.t;t.textContent='';let i=0;setTimeout(function k(){t.textContent=s.slice(0,++i);if(i<s.length)setTimeout(k,28+Math.random()*40)},500)}
+document.querySelectorAll('[data-count]').forEach(b=>{const n=parseInt(b.dataset.count,10);if(!n||R)return;const yr=n>1800&&n<2100,d=1400,t0=performance.now()+900;
+const st=t=>{const k=Math.max(0,Math.min(1,(t-t0)/d)),v=Math.round((yr?n-60:0)+(n-(yr?n-60:0))*(1-Math.pow(1-k,3)));b.textContent=yr?String(v):v.toLocaleString('fr-FR');if(k<1)requestAnimationFrame(st)};requestAnimationFrame(st)});
+})()</script>"""
 
 
 def _navitems(d, page, prefix=""):
@@ -1088,6 +1298,9 @@ def build_all(d):
 
 def build(d, page=None, prefix="", idmap=None):
     t = d["theme"]
+    vivant = pick_look(d) == "vivant"
+    if vivant and not t.get("keep_fonts"):
+        t = {**t, "serif": VIVANT_FONTS[0], "sans": VIVANT_FONTS[1], "fonts": VIVANT_FONTS[2]}
     css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
     h = d["hero"]
     sections = page["sections"] if page else d["sections"]
@@ -1158,16 +1371,17 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <link href="{attr(t["fonts"])}" rel="stylesheet">
 <style>{css}</style>
 {LOOK_CSS}
+{VIVANT_CSS if vivant else ""}
 {TOP_CSS if (d.get("topbar") or f.get("social")) else ""}
 {('<style>' + d['extra_css'] + '</style>') if d.get('extra_css') else ''}
 </head>
 <body class="look-{pick_look(d)}"{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
 {agegate_html(d)}
 <header{hcls}>{('<div class="topbar"><div class="wrap">' + "".join(f"<span>{x}</span>" for x in d["topbar"]) + '</div></div>') if d.get("topbar") else ""}<div class="wrap nav">{hlogo}
-<nav class="links">{nav}</nav>
+<nav class="links">{nav}</nav>{f'<a class="navcta" href="{attr(h["cta1"][1] if re.match(r"^(https?:|#|tel:|mailto:|/)", h["cta1"][1]) else (prefix or "") + h["cta1"][1])}">{e(h["cta1"][0])}</a>' if vivant and h.get("cta1") else ""}
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
-{_pagehead(page, d) if page else HOME_HERO}
-{f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else ""}
+{_pagehead(page, d) if page else (vivant_hero(d, h, d.get("figures", [])) if vivant else HOME_HERO)}
+{(vivant_marquee(d.get("figures", [])) + vivant_parcours(d).replace('class="vv-steps"', f'class="vv-steps" style="--n:{len([p for p in d.get("pages", []) if not p.get("hidden")])}"') if vivant else f'<div class="figures"><div class="wrap">{figs}</div></div>') if figs and not page else ""}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p>{('<div class="social">' + "".join(f'<a href="{attr(u)}" target="_blank" rel="noopener" aria-label="{attr(n.capitalize())}" title="{attr(n.capitalize())}">{SOCIAL_ICONS.get(n.lower(), e(n))}</a>' for n, u in f["social"]) + '</div>') if f.get("social") else ""}</div>
@@ -1178,6 +1392,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <script>{JS}</script>
 {LOGO_JS if (d.get("logo") and d["theme"].get("logo_accent", True)) else ""}
 {LOOK_JS}
+{VIVANT_JS if vivant else ""}
 {ANALYTICS_JS}
 </body>
 </html>'''
