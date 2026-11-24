@@ -5,11 +5,12 @@
  "brand": "A.R.M DIAG",
  "tagline": "Diagnostics immobiliers · Côte-d'Or",
  "logo": {
-  "src": "https://lh3.googleusercontent.com/sitesv/AG8ngQXiMKxD13P-71aeiy8IIuRdHcUC01HfqxTRW9hfAHljCxgCI7y0PjploPqUBijQEhlRTllvdV5OkpOEblTnPB77O7rWzNjwnZImcKdj56DUCrCw93rYQ4tTQCEZkqWIzlM12_mXz-Qw4Y3MQJNj8nwlyQDKZtIO-ZKrHMh09rd860fX9uy2Jo_RFGBB6vg=w16383",
+  "src": "img/logo.webp",
   "height": 54
  },
  "theme": {
-  "look": "vivant", "look_avant": "framed",
+  "look": "vivant",
+  "look_avant": "framed",
   "paper": "#f6f7f9",
   "paper2": "#e7ebf0",
   "ink": "#18212c",
@@ -30,7 +31,7 @@
  ],
  "extra_css": "@media(max-width:640px){header .topbar span:nth-child(1),header .topbar span:nth-child(3){display:none}}",
  "hero": {
-  "img": "https://lh3.googleusercontent.com/sitesv/AG8ngQWUFz6GvFXPrFqFucJkL0kDl21z-4umN6FQ2bStUVj87wKK-99QUz1hs2bIgxgwxNgVNDj_l1MG38YTGOK9jEG8Kz5Tbu1ds49bptpxg8GSVx9xBh9xa4XeQkc_q6g3ZBDEbPk4nB548Rgl5FV8LIXcGUhUC0a9RPrSH5FKNw8JbOqemerG6KoYsJj83qwystLGEYfKrpuIR9i0gmRrpS8cuhX7km9yHBFiplxHR4U=w1280",
+  "img": "img/emmanuel-ray.webp",
   "eyebrow": "Diagnostics immobiliers · Marsannay-la-Côte · Dijon",
   "title": "Vos diagnostics immobiliers, <em>avant le compromis ou le bail</em>",
   "lead": "La SARL A.R.M DIAG est une agence de diagnostics immobiliers située à Marsannay-la-Côte, proche de Dijon. Emmanuel Ray se déplace dans toute la Côte-d'Or et ses départements limitrophes.",
@@ -67,7 +68,7 @@
    "id": "agence",
    "eyebrow": "L'agence",
    "title": "Emmanuel Ray, <em class=\"it\">diagnostiqueur certifié</em>",
-   "img": "https://lh3.googleusercontent.com/sitesv/AG8ngQUL3g-Qb5VFIqziL11YJ8Aw_lXr1yfWBjIl_-lHPad3txcc6P4ctCP_H3aYoLSejQ59X7wvkSH9_iUowtR1f7LNRL9JuxtzGmXnk3Rji01vWvQR95fFynQhU0QGh7rQQZp1JGN16bpmN-9dXeKT8UvUqPk-XHLS2KMTT6IN76pBI8UcFCwcWhwhZW1cmQU=w1280",
+   "img": "img/emmanuel-ray.webp",
    "alt": "Emmanuel Ray, A.R.M DIAG",
    "paras": [
     "La SARL A.R.M DIAG est une agence de diagnostics immobiliers située à Marsannay-la-Côte, proche de Dijon.",
@@ -84,7 +85,7 @@
    "lead": "Les diagnostics immobiliers cités ci-dessous sont à réaliser avant la signature du compromis, de la promesse de vente ou du bail.",
    "items": [
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQcn0w0QZCcqD-7j37MoBGSaaZTPxxK-ouwqEVt0S8WKPRvuLNfmPBxMHXZYg6WG6ZOV0WA0BLd6-kUpGTAjDde53AXnnNxxhNtePHAhPS0GC3F3ra1pKVGgLspxB_y2C81UQmNcMIjGiJ1K0v47w1PHWWYGdzkJBXAZaoEx4tisdh_JPI6AD6374QM1O6o=w1280",
+     "img": "img/dpe.webp",
      "kicker": "Vente · location",
      "title": "DPE",
      "paras": [
@@ -96,7 +97,7 @@
      ]
     },
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQcqDtCy6SDYoXi5x3GuoDlHjwqSdvdmEuwUeORTSsJb-uPMeCX53IlGXQyUoGq36IIwlDZQYT98IqO1u9j5HC3pp71UvUW9BYBNLMKP2M6Wsqt7hlFTvr-8qhsk3O8LuZxk9UApMsgbxe6qqoQ84Gv5TwiYd-XEREOHSrxxw2ACcC3wizhumFIaB5rCeFk=w1280",
+     "img": "img/amiante.webp",
      "kicker": "Avant 1997",
      "title": "Amiante",
      "paras": [
@@ -108,7 +109,7 @@
      ]
     },
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQdUUvhPns09RSd5J8Eld-wrbGCLsBcJDn6_Y7CCXURz0OwBO6MsuchwzGI59A0YoLLV8I0vUxRPOkXHvXWUZ0JuOB9yDLpg84t9JoNuhoAeh-7R_3vz3yAnP4Un9mvunHmiZM4f300cfJSIIuXqrjOieCer82qd5ABTGjfYmsrg8TmanEvrB2n5XUmdbJc=w1280",
+     "img": "img/plomb.webp",
      "kicker": "Avant 1949",
      "title": "Plomb (CREP)",
      "paras": [
@@ -120,7 +121,7 @@
      ]
     },
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQd5BItjVb5zw6ZecS3qgwZK_HhdQtrKic_AjblIWuNJU0qX3A6RMwZyKswcKtfDdeT0lWg_hRbfUUigI2CnvF8jhShdtwe9qMFq85uf_GgMKkQ_XJGn0DDdcJ0rILVNG8zv4WwOggxAX3jQcnVBg13QKn1rwCedcFRc6ZomGp4ET4vN5_mEdQkLuRZ_dEg=w1280",
+     "img": "img/gaz.webp",
      "kicker": "Plus de 15 ans",
      "title": "Gaz",
      "paras": [
@@ -132,7 +133,7 @@
      ]
     },
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQcAD9_HnCVtLpy-_nuj_0u3U5Rrkb_z8m1aHpa8gMxY2pvGf7whucIuaS7H6vENrgtBbhWUsQYglfmAGauI1wIXlPHb4nXpgGbAvW-G-LbSwIMRfv5isnHqutSfXBI-QpKWiFDgJiOZf5qwcH_iLBEA55YhXzkEa27IHTc9XxjsXIDVVeCF4ADp5hRV=w1280",
+     "img": "img/electricite.webp",
      "kicker": "Plus de 15 ans",
      "title": "Électricité",
      "paras": [
@@ -144,7 +145,7 @@
      ]
     },
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQcVlquoMkq3aSwNBhLIeud4JBvu0MkNnU7WYYaLcsCkY5Iw3lVLRDNXR4TB3UdiCg8AsD5pZjmxbNSS1jbaI_qGfp_FqzSmj3OeM9LnbeT3ksgOmU6poLJ5W8GyCcrtOZh12mC3n9cQu-3cVvTDjMBTodJ-chR13x0RyLFxwViexvDTS9Cpr7fqzjgkWRs=w1280",
+     "img": "img/termites.webp",
      "kicker": "Zones concernées",
      "title": "Termites",
      "paras": [
@@ -156,7 +157,7 @@
      ]
     },
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQeBj32sfIVuniMO6qLIAZ947rL3epRfCyfs7lE_1_nNsAoIff5DsvsKzaIY2k6Cd6oYMi9GI3kgQVywMTd6iibXm7eSrFMXIf4hDOTOW-vEARrb4M6oYU3yhBwmpUIST1K0uhXjSLKu178yVYYmXzn8k8qg3OyTTOEJJYOkYal05t0lzIHsXLVwILvEa7Y=w1280",
+     "img": "img/erp.webp",
      "kicker": "Vente · location",
      "title": "ERP",
      "paras": [
@@ -168,7 +169,7 @@
      ]
     },
     {
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQcWO8inBD2LM-TP5wDlwrv_quzUJPKQTlAvdautjrKsN6wm4la2C5szo6oU9HL4AwLeNDTBL2Fnk15sziznchdDUP4GOcoW068XUzabP7ymjpInPcUvnB6Y_WlmIcRIOkUv-0gRjHFr5t5fFSxs5LY8lJOQ2_dBjgqgvoKdPMlIIsAFvzu8Ib6Pgspv=w1280",
+     "img": "img/mesurages.webp",
      "kicker": "Copropriété · bail",
      "title": "Loi Carrez et Boutin",
      "paras": [
@@ -181,41 +182,6 @@
     }
    ],
    "note": "<a class=\"btn solid\" href=\"devis/\">Demander un devis</a>"
-  },
-  {
-   "kind": "gallery",
-   "id": "photos",
-   "eyebrow": "En images",
-   "title": "A.R.M DIAG <em class=\"it\">en Côte-d'Or</em>",
-   "photos": [
-    {
-     "full": "https://lh3.googleusercontent.com/sitesv/AG8ngQUQHxbJylQn2s1lnIaGYcEd0Hv8YIDXFa9-HqN6PebqOIHPHRnzir-EV19Kx4A_wZpn99h-FD5IwOjP4CjCOOpLpJOnALNiAUffT56ABAccK4z0xwI9FMUpHPDdl0a3eYkjJkyv_-djfDN1-M89tNhj3wI3CV-lbifU0Q4grpSSAM2T1uhKpq3QWYU0Yzs4k5WLVVjkAVAstg2u7pnXC45aCAmJ-IS5ILHuKgUy=w1280"
-    },
-    {
-     "full": "https://lh3.googleusercontent.com/sitesv/AG8ngQXpq-sxmtEnGsoSpRCDzAMjVy3U4VTGdyaufkm6aro3InzDtQQKP90hmHEmgYHFvQDUMIpvfYPLAC3zVG4RkgKbuXsdwg4EBBnBO2LrE4njjpqu5_UW4zEhKbF3wTWiS9QuNWeeGzfNN4tATHYW-yaYxfkDyvWd1fGCm-UkFOVFIDobBmCI0CGOVWVFRI6C23ZQEm9qTXb2X4T5Fd61QuJnLWPZ1yFg2MMQhn3x=w1280"
-    },
-    {
-     "full": "https://lh3.googleusercontent.com/sitesv/AG8ngQVoJTLSBwVlpBLA4XeYHDBo_9tkXAg6F7FLGmn5T6YmcLhnj_83lSHVP1JHgMjGwR3LEf3qQ6d5S3blTwwGBJAeQqwXpq0-ERGE2025-wGw8PWQuianH6agQex4RbUa5hLBPUT9CI85nAxlby4mr_tef9Gv-yh8MSq0VTau83lt3rjG4vv3B7JHvLaKz3UKJhWyP61IOaa1DPvDK1aLN9QCzhoHUAo3WffckzVe=w1280"
-    },
-    {
-     "full": "https://lh3.googleusercontent.com/sitesv/AG8ngQWIy-jnTSkLdPC6Qv2UQNBewm6Ns3Mm6GmGMRQAQkVZFZJ9FYrt6P2slRi0-y3KJowF9PH62pwBBIrnOo_5VTfKvR5ZW9dxn2598nkSJnV9AOCSWrmfsDZRzAI7wBV6S01tfYeZJ0ySbJ9twMgNlAHvg7iE8S5tE8vwveHa8Oc5kkAV2YI4EXr1CqiaT6g=w1280"
-    },
-    {
-     "full": "https://lh3.googleusercontent.com/sitesv/AG8ngQWHtOrWMATjqG-tfSZy86yDk1Qk06hccrPvSCdllvch0D94TMQMvPBmnkaQa6-yp8OZ6bf8l8UNFRVpJrlvc16t3ptudfQSQfqJbPXMdBOJFUnBErd2WJw6RqBOIkvuetT03MRz-jXxJz_IP9WEe1yTSGK5SfHgLl1R9wuYUZK03MYIoH5V-PJuciSV7qmIS8O6UB3gTAaIc6nWk8bhgR7KmKnOtUSGRR17SOnRP3Y=w1280"
-    },
-    {
-     "full": "https://sites.google.com/sitesv-images-rt/APXyLQcJgS2_-zn2ycTDJiQB-zGqVbl__qR6f2pUcjRcpGf571h0jivPDcXxIIId1vypAi3QJ9XyoEgyWLVihKKnVVXbq0hT59DLylGuhOlX5byRvO0ecFHC6ttF55ymmymVqY_uI_pFxEtfDLjQK8H4bPNRuTKsKtBK4MPZ-pt06b8JUYJ4kXURWCB7hHCChv3Gy__dECs7SniB-mg8jhD1LNqJMyq-unNs32zoL1x-Qkw=w1280"
-    },
-    {
-     "full": "https://sites.google.com/sitesv-images-rt/APXyLQc37bJ0CUSsXOMcbhudrI6tJ2dYSp9lxkSMnc2sNW1Jlt7Xn672lfxGRSF63ygp-O2wQhFhuoJn0A7PvwzJGdT8tkR1RwP3SUhf9BGjbOveV8seeDNwiePeJD7_dlG_57ZGZAYFqmQCc1Lc8WWlWnzaUope7uqEDpdnjXTIMB-050tpRwFjacBpibj5aBfhjJ0545CN9qPJDHSmVsa5876TxXM5-BZ_z9x3Thi=w1280"
-    },
-    {
-     "full": "https://sites.google.com/sitesv-images-rt/APXyLQfcDJ0uuTe5sOdVp_Omqun6LTGG7tfEbowwgKtCFzb9nZlgnXP1aBbTGX3fDHcaMqjKCyPNEh1v1g6gtSY-qg8oClk58o9Zdm5v4T2msZFvtTgAOojc2w-GCVw5nFwLnkdLDVnbt1p3rqOv2DTQ__szC0uDNozScGCph4L6VuKFic1NCty2TTHHCrlTdX9g5XcDRabsCvtWeQPfgX8hI3eHIdtmUGsdpEURZUYYXu8=w1280"
-    },
-    {
-     "full": "https://sites.google.com/sitesv-images-rt/APXyLQe1jkm7RXujycIrFWn_aTNlOYXZU_8kNueoyGD7jdHTZWu5-VjCW6Km0VOdupHw3D1JG_SeR_CiDlYIo4EfdVoGvAgbUMeajD5ieNbT5q6HtCE3o9-xOmv_TfyN1_GfXYzdN_ySc9ubYL09DZcwr8AKoiCHK0GMg0pRQd5CVWu_U655SmAH6Hu39EMfnJIZskJPWmsX4BlJk4lXoB0cpSFxzNZ2dTSM6uD4xnbf2fo=w1280"
-    }
-   ]
   },
   {
    "kind": "blocks",
@@ -245,7 +211,6 @@
   },
   {
    "kind": "banner",
-   "img": "https://sites.google.com/sitesv-images-rt/APXyLQdJc9AOu4USfxysBErKP6gqpt3rPnizbIbU_CL3Le8fokVdvAt8ZFmiele9_d1NrOFZc4CDf3sRKkgVoVrKQO-YKhF8wzQU7GNYAng7KkYA206z8U3e7e6xsZu2WL-1UPcoFTHt1c59l-KH79j9TO3T2MsFuepyHjK0bl3uazu-yJ3p5VJrMDRfmIdYD4noV6z23mRvkXuymTJO-rBHnHM6T17GXa4iinVc_GXA=w1280",
    "eyebrow": "Une question ?",
    "title": "Merci de me contacter au 07 85 98 98 14 ou par mail",
    "cta": [
@@ -348,7 +313,6 @@
    "slug": "diagnostics",
    "label": "Les diagnostics",
    "title": "Les diagnostics obligatoires",
-   "img": "https://sites.google.com/sitesv-images-rt/APXyLQde7-zkaRjxALLuDWhb9_CIlK-SUX7I8kfBV425_lDgMlsALbfkBUWzHiO-ZtdpgIE4MasDz-ZbL7SQ-yTbSFiY76HMSgIB3WOdkIBQuD4NhQnkb-nPFloE5Ap41XTZD2-4HpW0p9k9_hkVANmBoUgupMez5xBUxTcMEzD61twk4qKxnWmODToya-VwGhd0KrRbjmnT559tprTHOFjM408YRvCBh3Vh3b7G-buX=w1280",
    "eyebrow": "Vente et location",
    "lead": "Ces diagnostics doivent être effectués par un diagnostiqueur professionnel et certifié.",
    "sections": [
@@ -357,7 +321,7 @@
      "id": "certification",
      "eyebrow": "Un diagnostiqueur certifié",
      "title": "Indépendant <em class=\"it\">et impartial</em>",
-     "img": "https://sites.google.com/sitesv-images-rt/APXyLQf5c_PC9m-r1iGoIKC7-HBjs1C0oKeSNftaRComfOKdZkJgQIL8HdqOzG4fsiAVt3NntKxP1HJ99NUC43KBDkEqMC9sJ58ZfZ1s5rdggyWOKEnpbvdYeQe9APLqEYKpI2wJXLdqrpYKVOGizOx59I1Qd4OsZxqwjR6WS_0v2CvP_cxmTY-4LGD0Dtdb4X1ROkgjnf4HUwa34PchDPoJWIQWyyEf-3d4s9zNcomiJRQ=w1280",
+     "img": "img/emmanuel-ray.webp",
      "paras": [
       "Un expert certifié doit être indépendant et impartial vis-à-vis d'une agence immobilière et d'un propriétaire.",
       "Les certifications obtenues par le diagnostiqueur doivent être délivrées par un organisme certificateur agréé par le COFRAC. Les certifications des diagnostiqueurs ne sont valables que 7 ans.",
@@ -372,7 +336,7 @@
      "title": "Chaque diagnostic <em class=\"it\">en quelques mots</em>",
      "items": [
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQeuAshk8nyWUbQcNUOFcpyBeWnz0OzSmgzW-4hgUSbM4Lp8cQwVB3XfITrKbWg7ZrEF4NFULHaZBWED-r52FmIEBgSpR-mixErIUOkYWatNoA-zjqBFAiNj7-QXKwlTcOahH5Q45ZHu5HHeZtyFJZUL3s28pr5qeNQKT7MmNmO0g7WcSe8QmZws_4mk_KJBfGexMW0OialECGv4VlRX-rVGyyjNHW2qAnXEwwvpQw8=w1280",
+       "img": "img/dpe.webp",
        "kicker": "Le DPE",
        "title": "<span id=\"dpe\"></span>Diagnostic de performance énergétique",
        "paras": [
@@ -381,7 +345,6 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQch226vA4_9nBXbMrYl2b_EetUsP0GDoXyoCeDX1tbYxOrYKIZG3fflWDd2pQPuLs50d8YWvTnr92H-sNEF48f8PvMjBCgWStir7pq_hVDCOgsQ6GLWMkifyTMwkPoD4NsnaO4h_WF9eYXeyOaD0OsPFY_gDGirB66BoLVT__DQH938pn5EFggmu64hdiM9r-lt1vDZQ99Rh1XDpiInddy5oMT1Ze_row5fYoJX=w1280",
        "kicker": "Audit",
        "title": "<span id=\"audit\"></span>L'audit énergétique réglementaire",
        "paras": [
@@ -393,7 +356,7 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQdUUvhPns09RSd5J8Eld-wrbGCLsBcJDn6_Y7CCXURz0OwBO6MsuchwzGI59A0YoLLV8I0vUxRPOkXHvXWUZ0JuOB9yDLpg84t9JoNuhoAeh-7R_3vz3yAnP4Un9mvunHmiZM4f300cfJSIIuXqrjOieCer82qd5ABTGjfYmsrg8TmanEvrB2n5XUmdbJc=w1280",
+       "img": "img/plomb.webp",
        "kicker": "Le plomb",
        "title": "<span id=\"plomb\"></span>CREP",
        "paras": [
@@ -402,7 +365,7 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQd5BItjVb5zw6ZecS3qgwZK_HhdQtrKic_AjblIWuNJU0qX3A6RMwZyKswcKtfDdeT0lWg_hRbfUUigI2CnvF8jhShdtwe9qMFq85uf_GgMKkQ_XJGn0DDdcJ0rILVNG8zv4WwOggxAX3jQcnVBg13QKn1rwCedcFRc6ZomGp4ET4vN5_mEdQkLuRZ_dEg=w1280",
+       "img": "img/gaz.webp",
        "kicker": "Le gaz",
        "title": "<span id=\"gaz\"></span>Diagnostic gaz",
        "paras": [
@@ -411,7 +374,7 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQcqDtCy6SDYoXi5x3GuoDlHjwqSdvdmEuwUeORTSsJb-uPMeCX53IlGXQyUoGq36IIwlDZQYT98IqO1u9j5HC3pp71UvUW9BYBNLMKP2M6Wsqt7hlFTvr-8qhsk3O8LuZxk9UApMsgbxe6qqoQ84Gv5TwiYd-XEREOHSrxxw2ACcC3wizhumFIaB5rCeFk=w1280",
+       "img": "img/amiante.webp",
        "kicker": "L'amiante",
        "title": "<span id=\"amiante\"></span>Repérage amiante",
        "paras": [
@@ -420,7 +383,7 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQcAD9_HnCVtLpy-_nuj_0u3U5Rrkb_z8m1aHpa8gMxY2pvGf7whucIuaS7H6vENrgtBbhWUsQYglfmAGauI1wIXlPHb4nXpgGbAvW-G-LbSwIMRfv5isnHqutSfXBI-QpKWiFDgJiOZf5qwcH_iLBEA55YhXzkEa27IHTc9XxjsXIDVVeCF4ADp5hRV=w1280",
+       "img": "img/electricite.webp",
        "kicker": "L'électricité",
        "title": "<span id=\"electricite\"></span>Diagnostic électricité",
        "paras": [
@@ -429,7 +392,7 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQcVlquoMkq3aSwNBhLIeud4JBvu0MkNnU7WYYaLcsCkY5Iw3lVLRDNXR4TB3UdiCg8AsD5pZjmxbNSS1jbaI_qGfp_FqzSmj3OeM9LnbeT3ksgOmU6poLJ5W8GyCcrtOZh12mC3n9cQu-3cVvTDjMBTodJ-chR13x0RyLFxwViexvDTS9Cpr7fqzjgkWRs=w1280",
+       "img": "img/termites.webp",
        "kicker": "Les termites",
        "title": "<span id=\"termites\"></span>État parasitaire",
        "paras": [
@@ -438,7 +401,7 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQeBj32sfIVuniMO6qLIAZ947rL3epRfCyfs7lE_1_nNsAoIff5DsvsKzaIY2k6Cd6oYMi9GI3kgQVywMTd6iibXm7eSrFMXIf4hDOTOW-vEARrb4M6oYU3yhBwmpUIST1K0uhXjSLKu178yVYYmXzn8k8qg3OyTTOEJJYOkYal05t0lzIHsXLVwILvEa7Y=w1280",
+       "img": "img/erp.webp",
        "kicker": "L'ERP",
        "title": "<span id=\"erp\"></span>État des risques et pollutions",
        "paras": [
@@ -447,7 +410,7 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQcWO8inBD2LM-TP5wDlwrv_quzUJPKQTlAvdautjrKsN6wm4la2C5szo6oU9HL4AwLeNDTBL2Fnk15sziznchdDUP4GOcoW068XUzabP7ymjpInPcUvnB6Y_WlmIcRIOkUv-0gRjHFr5t5fFSxs5LY8lJOQ2_dBjgqgvoKdPMlIIsAFvzu8Ib6Pgspv=w1280",
+       "img": "img/mesurages.webp",
        "kicker": "Les mesurages",
        "title": "<span id=\"mesurages\"></span>Loi Carrez et loi Boutin",
        "paras": [
@@ -456,7 +419,6 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQfo_DgpEjSb2dbhg7jVVtJqsAijq0rs8zpq3rGGPqdfVAGlNdAbS5Lv2dOoWd2in8MYimHKfvIJUMbhGaqxn5cspPRWFyNC5316LMc30IZkHuA8F_62BjBsOE2NQvtHENdC1gI4S8hoKooXw5p9DYhpBM2aDPZRwoUc9Vt-DxArm_r4vgyWm9V_paVw5XI=w1280",
        "kicker": "Loi Climat et Résilience",
        "title": "<span id=\"climat\"></span>Loi Climat et Résilience",
        "paras": [
@@ -476,7 +438,6 @@
    "slug": "audit-energetique",
    "label": "Audit énergétique",
    "title": "L'audit énergétique réglementaire",
-   "img": "https://sites.google.com/sitesv-images-rt/APXyLQefZ9Uzk6ocUUGu2IJ7YlbVYMKFjothLtMVHei-NLUKiKr2rUPpoYO2ibuqdguai99WSdQ5Vn1Sbpdkpip8L93_Ng5JkMLSv_wEAZlfAEvIqUPDxIR1_McNQea3PScfOSTZ8ifTRzKqePlA9dtTPysYKl_YpW-Py1hUwNYA3xTkZhkyGGTjUxgBRcIex2L4SWqOwbUs8NHhlCl-NrycTQQiap-GRuQGJ3ROPvoNDBA=w1280",
    "eyebrow": "Questions - Réponses",
    "lead": "Un état des lieux détaillé de la performance d'un logement très consommateur mis en vente, avec des scénarios de travaux.",
    "sections": [
@@ -671,7 +632,6 @@
    "slug": "conditions",
    "label": "Conditions d'intervention",
    "title": "Conditions d'intervention A.R.M DIAG",
-   "img": "https://sites.google.com/sitesv-images-rt/APXyLQdbT4Pq9-9mfOeDbYytIb-Y8wF_NB14qSl_QyPk54ZjWybJ69InCkjCsHzjBSByl8EU1PbxBE01onnU1CXUmIL5-l-hwPK1hMp4c2a9UBYn0u3DM3XvP_0cGf1p0KyKGM6RacGrdtw5NHPGoPQahxMXGtaIHaUnAAAqSZYvEFyhBLXFoEoUrIpd1fM-jGaErlP2bm9w2xo39GX9ovN-Gwu_ANNV6gDF1XsPphB8d5o=w1280",
    "eyebrow": "Avant ma visite",
    "lead": "Il est de l'obligation du propriétaire ou du donneur d'ordre de fournir tous documents et informations utiles à la mission.",
    "sections": [
@@ -746,7 +706,6 @@
      "title": "Rendez-vous, rétractation, <em class=\"it\">assurance</em>",
      "items": [
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQcMJpDDxkYnhhQvaEW8giWMPpNxKn2DJYXyNOIs8mh6tA7PvbbzSyKkbgMV-MAmgLm4L3xbfRAlRulyyiHNH8PXFrJxnxs0JSQBaCAvT4_W5PkdiWuNzCLbVx2uZhbCA-1BQrjEHWmsizohasmkzKHFTHa9o2mmi4FqVgNujzED6IOOOz5pZYxP6RnuK-UHwXgLXGjg1t3fOM6cy9OjMRX-vWk0sra_2PwHL9SS=w1280",
        "kicker": "C.G.U",
        "title": "Rendez-vous et rétractation",
        "paras": [
@@ -759,7 +718,6 @@
        ]
       },
       {
-       "img": "https://sites.google.com/sitesv-images-rt/APXyLQf0RYwQhubDOiML37ktEP7rw_ZXLsJAocqk4Bsi1CnWD-q2gpW21vUo8GkTWZdGeshfLZAEp-YS2dt9EX3ZEjd6q-71y_7Ua47CJ2Fwuc_rtP25O1PNKsNAdI--uJ9IkxynHOIyuWhlV6HltGef262Up_m63KEQB9DaEOqHcQ4ZpBdZIho0-as9MkXh0FFMPMhtQKWmaJ-vvClpITDMbZmwkwF-hmFartgpxBOIWYo=w1280",
        "kicker": "R.G.P.D",
        "title": "Assurance et données",
        "paras": [
@@ -780,7 +738,6 @@
    "slug": "devis",
    "label": "Demander un devis",
    "title": "Demander un devis",
-   "img": "https://sites.google.com/sitesv-images-rt/APXyLQdJc9AOu4USfxysBErKP6gqpt3rPnizbIbU_CL3Le8fokVdvAt8ZFmiele9_d1NrOFZc4CDf3sRKkgVoVrKQO-YKhF8wzQU7GNYAng7KkYA206z8U3e7e6xsZu2WL-1UPcoFTHt1c59l-KH79j9TO3T2MsFuepyHjK0bl3uazu-yJ3p5VJrMDRfmIdYD4noV6z23mRvkXuymTJO-rBHnHM6T17GXa4iinVc_GXA=w1280",
    "eyebrow": "Devis ou renseignement",
    "lead": "Pour une demande de devis ou un renseignement, merci de me contacter au 07 85 98 98 14 ou par mail.",
    "sections": [

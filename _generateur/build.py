@@ -456,7 +456,8 @@ def section_gallery(g):
 
 
 def section_banner(b):
-    return f'''<div class="banner" style="background-image:url('{attr(b["img"])}')"><div class="rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
+    bg = f"background-image:url('{attr(b['img'])}')" if b.get("img") else "background:linear-gradient(135deg,var(--accent),var(--ink))"
+    return f'''<div class="banner" style="{bg}"><div class="rv"><span class="eyebrow">{e(b["eyebrow"])}</span>
 <h2>{b["title"]}</h2><a href="{attr(b["cta"][1])}" class="btn ghost">{e(b["cta"][0])}</a></div></div>'''
 
 
