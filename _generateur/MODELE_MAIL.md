@@ -2,6 +2,8 @@
 
 HISTORIQUE : l'ancien mail (« Pardonnez-moi ce contact un peu direct… juste pour voir ») n'a eu qu'une réponse, un refus. Le modèle du 21 oct. 2026 (un détail flatteur tiré du site, puis un reproche sur le site actuel) a été abandonné le 24 nov. 2026 : Philippine le trouvait artificiel et ne veut plus critiquer le site du prospect. Version retenue : un mail direct, qui dit d'emblée qu'il s'agit d'un site simple et abordable, met la maquette en premier, puis l'argument « clair, pratique sur téléphone, lisible par Google et les IA », puis le prix (290 € + 15 € par mois).
 
+LIEN DE LA MAQUETTE : toujours https://apercu.vitrine-ia.fr/<slug>/ (domaine de Philippine, branché sur le worker « maquettes » le 24 nov. 2026). Ne plus mettre d'adresse en workers.dev dans un nouveau mail : ces liens font peur aux prospects. L'ancienne adresse reste active pour les mails déjà envoyés.
+
 ## Modèle (artisans, restaurants, domaines, diagnostiqueurs)
 
 Objet : Votre site <NOM>, déjà prêt
@@ -10,7 +12,7 @@ Objet : Votre site <NOM>, déjà prêt
 Bonjour <Monsieur X | Madame X | Céline, bonjour Nicolas | Bonjour,>,
 
 Je fais des sites internet simples et abordables pour des <artisans | restaurants | domaines viticoles | diagnostiqueurs immobiliers>. J'ai préparé le vôtre, <avec vos textes et vos photos | avec votre carte, vos photos et la réservation en ligne | avec vos cuvées, vos textes et vos photos> :
-https://maquettes.philippine-burnichon.workers.dev/<slug>/
+https://apercu.vitrine-ia.fr/<slug>/
 
 Il est clair, pratique sur téléphone et bien lisible par Google et par les assistants comme ChatGPT, que de plus en plus de gens utilisent pour <trouver un artisan près de chez eux | choisir où manger | trouver un domaine à visiter ou un vin à acheter | trouver un diagnostiqueur près de chez eux>.
 
