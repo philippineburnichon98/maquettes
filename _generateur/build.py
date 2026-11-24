@@ -922,7 +922,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 </style>"""
 
 LOOK_JS = r"""<script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
-document.querySelectorAll('.fig b').forEach(b=>{const m=b.innerHTML.match(/^(\d[\d\s]*)(.*)$/s);if(!m||R)return;const n=parseInt(m[1].replace(/\s/g,''),10);if(!n||n>100000)return;
+if(!document.body.classList.contains('craft'))document.querySelectorAll('.fig b').forEach(b=>{const m=b.innerHTML.match(/^(\d[\d\s]*)(.*)$/s);if(!m||R)return;const n=parseInt(m[1].replace(/\s/g,''),10);if(!n||n>100000)return;
 const tail=m[2];const io=new IntersectionObserver(es=>{if(!es[0].isIntersecting)return;io.disconnect();const t0=performance.now(),d=1200;
 const step=t=>{const k=Math.min(1,(t-t0)/d),v=Math.round(n*(1-Math.pow(1-k,3)));b.innerHTML=v.toLocaleString('fr-FR')+tail;if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step)},{threshold:.4});io.observe(b)});
 const A=document.getElementById('agegate');if(A){let ok=false;try{ok=localStorage.getItem('age_ok')==='1'}catch(e){}
@@ -955,6 +955,128 @@ def pick_look(d):
         return t["look"]
     h = sum(ord(c) for c in d.get("slug", "x"))
     return LOOKS[h % len(LOOKS)]
+
+
+# ---------------------------------------------------------------------------
+# Finition « sur mesure » (theme.craft = true) — demande de Philippine, 24 nov. 2026 :
+# les maquettes faisaient trop « template IA ». On retire les tics de modèle
+# (mot en italique coloré dans chaque titre, sur-titres en capitales espacées,
+# bandeau de 4 chiffres, cartes à ombre, apparitions au défilement, boutons en
+# capitales) et on donne une typographie et une allure propres à chaque métier.
+# ---------------------------------------------------------------------------
+CRAFT_FONTS = {
+    # métier : (titres, texte, URL Google Fonts)
+    "domaine": ('"Libre Caslon Text",Georgia,serif', '"Libre Franklin",system-ui,sans-serif',
+                "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@400;500;600&display=swap"),
+    "restaurant": ('"Young Serif",Georgia,serif', '"Work Sans",system-ui,sans-serif',
+                   "https://fonts.googleapis.com/css2?family=Young+Serif&family=Work+Sans:wght@400;500;600&display=swap"),
+    "artisan": ('"Schibsted Grotesk",system-ui,sans-serif', '"Schibsted Grotesk",system-ui,sans-serif',
+                "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap"),
+    "diagnostiqueur": ('"IBM Plex Sans",system-ui,sans-serif', '"IBM Plex Sans",system-ui,sans-serif',
+                       "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap"),
+    "juridique": ('"Source Serif 4",Georgia,serif', '"Source Sans 3",system-ui,sans-serif',
+                  "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;500;600&display=swap"),
+}
+
+
+def metier(d):
+    """Métier du prospect : theme.metier, sinon colonne « type » de prospects.csv."""
+    m = (d.get("theme", {}).get("metier") or "").lower()
+    if not m:
+        import csv
+        f = pathlib.Path(__file__).resolve().parent / "prospects.csv"
+        if f.exists():
+            for r in csv.DictReader(open(f, encoding="utf-8")):
+                if r.get("slug_maquette") == d.get("slug"):
+                    m = r.get("type", "").lower()
+                    break
+    for k, v in (("domaine", "domaine"), ("restaurant", "restaurant"), ("diagnost", "diagnostiqueur"),
+                 ("notaire", "juridique"), ("avocat", "juridique"), ("artisan", "artisan")):
+        if k in m:
+            return v
+    return "artisan"
+
+
+def craft_figures(figs):
+    """Garde les vrais chiffres (années, durées, surfaces…) ; écarte le remplissage
+    (« Devis gratuit », « 1 seul interlocuteur », « 0 € le devis », « 4 domaines »)."""
+    out = []
+    for v, l in figs:
+        raw = re.sub(r"<[^>]+>", "", v).strip()
+        if not re.match(r"^[~+≈]?\d", raw):
+            continue
+        if re.fullmatch(r"0\s*€", raw) or re.fullmatch(r"\d", raw):
+            continue
+        out.append((v, l))
+    return out
+
+
+CRAFT_CSS = """<style>
+/* ---- Finition sur mesure (theme.craft) ---- */
+body.craft{font-weight:400;font-size:17px;line-height:1.62}
+.craft :is(.eyebrow,.tag,.k,.ct,.meta,dt,h4,.tabs button,.links,.btn,.fig span,.menu .col h3,.badge,.rm-slots h4,.rm-grid span,.blog .bt button,.rev .k,.logo small,.visit dt,footer h4){text-transform:none!important;letter-spacing:0!important}
+.craft .eyebrow{font-size:.95rem;font-weight:500;color:var(--muted)}
+.craft :is(.head,.split,.cform,.visit .info,.banner>div) .eyebrow{display:none}
+.craft h1 em,.craft h2 em,.craft em.it,.craft .hero h1 em{font-style:normal!important;color:inherit!important}
+.craft h1,.craft h2,.craft h3{font-weight:600;letter-spacing:-.015em;line-height:1.12}
+.craft h2{font-size:clamp(1.8rem,3.2vw,2.6rem)}.craft h3{font-size:1.25rem}
+.craft .head{text-align:left;margin:0 0 40px;max-width:760px}.craft .head h2{margin:0 0 12px}
+.craft .split h2{margin:0 0 22px}.craft .cform h2{margin:0 0 16px!important}
+.craft .tabs{justify-content:flex-start}
+.craft .btn{font-size:1rem;font-weight:600;padding:13px 22px;border-radius:4px;gap:.5em}
+.craft .btn:hover{transform:none}
+.craft .rv,.craft .rv.in{opacity:1!important;transform:none!important;transition:none!important}
+/* en-tête : barre pleine, simple, comme un vrai site de professionnel */
+.craft header,.craft header.scrolled{background:var(--paper);color:var(--ink);box-shadow:0 1px 0 var(--line);backdrop-filter:none}
+.craft .links{font-size:.98rem;font-weight:500;gap:26px}.craft .links a::after{display:none}
+.craft .links a[aria-current]{border-bottom:2px solid var(--accent)}
+.craft .logo{font-weight:600}
+/* accueil : la vraie photo, peu assombrie, texte en bas à gauche, taille raisonnable */
+.craft .hero{min-height:min(78svh,760px);margin-top:80px;place-items:end start}
+.craft header.hastop+.hero,.craft header.hastop+.hero.phead{margin-top:112px;padding-top:0}
+.craft .hero::before{background:linear-gradient(0deg,rgba(0,0,0,.66) 0%,rgba(0,0,0,.28) 45%,rgba(0,0,0,0) 75%)}
+.craft .hero .wrap{padding-bottom:clamp(40px,7vh,72px)}
+.craft .hero .eyebrow{color:#fff;opacity:.9;font-size:1rem;text-shadow:0 1px 8px rgba(0,0,0,.5)}.craft .hero .eyebrow::before{display:none}
+.craft .hero h1{font-size:clamp(2.3rem,5vw,4.2rem);margin:10px 0 16px;max-width:18ch;text-shadow:0 1px 18px rgba(0,0,0,.35)}
+.craft .hero p{font-size:1.12rem;max-width:52ch;margin-bottom:26px}
+.craft .hero.phead{min-height:38vh}.craft .hero.phead h1{font-size:clamp(2rem,4.2vw,3.2rem)}
+.craft .pbox{padding-top:clamp(110px,11vw,140px)}.craft .pmono{display:none}
+/* chiffres : une ligne de faits, pas un bandeau de compteurs */
+.craft .figures{border-bottom:1px solid var(--line);background:var(--paper)}
+.craft .figures .wrap{display:flex;flex-wrap:wrap;gap:12px 44px;padding-top:26px;padding-bottom:26px}
+.craft .fig{padding:0;text-align:left;border:0!important;display:flex;align-items:baseline;gap:10px}
+.craft .fig b{font-size:1.6rem;font-family:var(--serif);font-weight:600;color:var(--ink)}
+.craft .fig span{font-size:.95rem;color:var(--muted)}
+/* blocs : filets plutôt que cartes à ombre */
+.craft .card,.craft .blocks article,.craft .rev{background:none!important;border:0!important;border-top:2px solid var(--ink)!important;border-radius:0!important;box-shadow:none!important;padding:20px 0 0!important}
+.craft .card:hover,.craft .blocks article:hover{transform:none!important;box-shadow:none!important}
+.craft .grid{gap:40px 36px}
+.craft .feat{background:none;border:0;gap:36px;margin-top:40px}.craft .feat div{background:none;padding:18px 0 0;border-top:2px solid currentColor}
+.craft .split .img{border-radius:2px!important}.craft .split .img::after{display:none}
+.craft .gallery button:hover img,.craft .blocks article:hover .bi{transform:none;filter:none}
+.craft .quote{text-align:left;background:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.craft .quote blockquote{margin:0 0 16px;max-width:30ch;font-size:clamp(1.5rem,3vw,2.2rem);color:var(--ink)}.craft .quote p{margin:0}
+.craft .banner{background-attachment:scroll!important;min-height:44vh;place-items:end start;text-align:left}
+.craft .banner::before{background:linear-gradient(0deg,rgba(0,0,0,.65),rgba(0,0,0,.15))}.craft .banner>div{padding:56px 24px;max-width:var(--max);width:100%;margin:0 auto}
+.craft .visit,.craft .resa,.craft .cform{border-radius:0!important;box-shadow:none!important}
+/* pied de page clair, avec les infos utiles */
+.craft footer{background:var(--paper-2);color:var(--ink);padding:52px 0 96px}
+.craft footer .logo,.craft footer a:hover{color:var(--ink)}.craft footer h4{color:var(--ink);font-size:.95rem}
+.craft footer .top{border-color:var(--line)}.craft footer p{opacity:.85!important}
+.craft footer .social a{color:var(--ink);border-color:var(--line)}.craft footer .logo.gen .mono{background:var(--accent);color:#fff}
+/* par métier */
+.craft-artisan h1,.craft-artisan h2,.craft-diagnostiqueur h1,.craft-diagnostiqueur h2{font-weight:700;letter-spacing:-.025em}
+.craft-artisan .hero h1{text-transform:none;max-width:16ch}
+.craft-diagnostiqueur .fig b{font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:1.35rem}
+.craft-juridique .hero::before{background:linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2))}
+.craft-juridique h1,.craft-juridique h2{font-weight:400}.craft-juridique .btn{border-radius:2px}
+.craft-domaine h1,.craft-domaine h2,.craft-restaurant h1,.craft-restaurant h2{font-weight:400;letter-spacing:-.01em}
+.craft-domaine .hero h1{max-width:20ch}
+/* bandeau d'appel (artisans, diagnostiqueurs) : le téléphone d'abord */
+.callbar{background:var(--accent);color:#fff}.callbar .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 28px;padding-top:18px;padding-bottom:18px}
+.callbar a{font-size:clamp(1.3rem,2.4vw,1.7rem);font-weight:700;letter-spacing:-.01em;white-space:nowrap}.callbar span{opacity:.92}
+@media(max-width:860px){.craft .hero{min-height:70svh}.craft .figures .wrap{gap:10px 26px}}
+</style>"""
 
 
 def _navitems(d, page, prefix=""):
@@ -1088,12 +1210,25 @@ def build_all(d):
 
 def build(d, page=None, prefix="", idmap=None):
     t = d["theme"]
+    craft = bool(t.get("craft"))
+    trade = metier(d) if craft else ""
+    if craft and not t.get("craft_keep_fonts"):
+        t = {**t, "serif": CRAFT_FONTS[trade][0], "sans": CRAFT_FONTS[trade][1], "fonts": CRAFT_FONTS[trade][2]}
     css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
     h = d["hero"]
     sections = page["sections"] if page else d["sections"]
     navitems = _navitems(d, page, prefix)
     nav = "".join(f'<a href="{attr(hr)}"{cur}>{e(l)}</a>' for hr, l, cur in navitems)
-    figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d.get("figures", []))
+    figlist = d.get("figures", [])
+    if craft:
+        figlist = d.get("craft_figures", craft_figures(figlist))
+    figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in figlist)
+    callbar = ""
+    if craft and trade in ("artisan", "diagnostiqueur") and not page:
+        tel = next((c for c in (h.get("cta2"), h.get("cta1")) if c and c[1].startswith("tel:")), None)
+        if tel:
+            callbar = f'<div class="callbar"><div class="wrap"><span>{e(h.get("eyebrow", ""))}</span><a href="{attr(tel[1])}">{e(tel[0])}</a></div></div>'
+
     blocks = []
     nstory = 0
     for blk in sections:
@@ -1158,16 +1293,17 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <link href="{attr(t["fonts"])}" rel="stylesheet">
 <style>{css}</style>
 {LOOK_CSS}
+{CRAFT_CSS if craft else ""}
 {TOP_CSS if (d.get("topbar") or f.get("social")) else ""}
 {('<style>' + d['extra_css'] + '</style>') if d.get('extra_css') else ''}
 </head>
-<body class="look-{pick_look(d)}"{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
+<body class="{f"look-craft craft craft-{trade}" if craft else "look-" + pick_look(d)}"{(' data-logo="'+attr(d["logo"]["src"])+'"') if d.get("logo") else ""}>
 {agegate_html(d)}
 <header{hcls}>{('<div class="topbar"><div class="wrap">' + "".join(f"<span>{x}</span>" for x in d["topbar"]) + '</div></div>') if d.get("topbar") else ""}<div class="wrap nav">{hlogo}
 <nav class="links">{nav}</nav>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 {_pagehead(page, d) if page else HOME_HERO}
-{f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else ""}
+{callbar}{f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else ""}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p>{('<div class="social">' + "".join(f'<a href="{attr(u)}" target="_blank" rel="noopener" aria-label="{attr(n.capitalize())}" title="{attr(n.capitalize())}">{SOCIAL_ICONS.get(n.lower(), e(n))}</a>' for n, u in f["social"]) + '</div>') if f.get("social") else ""}</div>
