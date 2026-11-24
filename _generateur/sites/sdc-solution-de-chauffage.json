@@ -6,7 +6,8 @@
  "tagline": "Plombier-chauffagiste · Theys",
  "logo": {
   "src": "https://static.wixstatic.com/media/451e13_afe6186b038f9c524cc8235d1597025e.png/v1/fill/w_441,h_196,al_c,lg_1,q_85/451e13_afe6186b038f9c524cc8235d1597025e.png",
-  "height": 52
+  "height": 52,
+  "bg": "#1d2329"
  },
  "theme": {
   "look": "vivant", "look_avant": "split",
