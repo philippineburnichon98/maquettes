@@ -11,7 +11,7 @@
  },
  "phead": "box",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f7f6f3",
   "paper2": "#ebe8e1",
   "ink": "#1b2230",

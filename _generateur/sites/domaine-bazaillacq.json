@@ -7,7 +7,7 @@
  "monogram": "DB",
  "agegate": true,
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f8f4ec",
   "paper2": "#efe6d4",
   "ink": "#2a251d",

@@ -5,7 +5,7 @@
  "brand": "Maître Louis Cheret",
  "tagline": "Notaire à Villefranche-sur-Saône",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f6f5f2",
   "paper2": "#eae8e3",
   "ink": "#1d2230",

@@ -7,7 +7,7 @@
  "monogram": "CA",
  "home_label": "Accueil",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f6f4ef",
   "paper2": "#e9e5dc",
   "ink": "#1b2433",

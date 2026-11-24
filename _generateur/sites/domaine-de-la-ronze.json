@@ -4,7 +4,7 @@
  "description": "Vigneron de père en fils depuis 1850 à Régnié-Durette : Régnié, Morgon, Côte de Brouilly et Beaujolais-Villages, visite de cave, groupes et gîte La Petite Vernaise.",
  "brand": "Domaine de la Ronze",
  "tagline": "Séraphin Bernardo & Fils · Régnié-Durette",
- "theme": {
+ "theme": {"look": "vivant", "look_avant": "auto", 
   "paper": "#f7f2ea",
   "paper2": "#eee3d4",
   "ink": "#24141a",

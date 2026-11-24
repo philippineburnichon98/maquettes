@@ -6,7 +6,7 @@
  "tagline": "Avocat au barreau de Villefranche-sur-Saône",
  "monogram": "JF",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "logo_accent": false,
   "paper": "#f6f4ef",
   "paper2": "#e9e5dc",

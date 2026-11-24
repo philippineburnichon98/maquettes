@@ -10,7 +10,7 @@
  },
  "agegate": true,
  "theme": {
-  "look": "classic",
+  "look": "vivant", "look_avant": "classic",
   "paper": "#f8f3f1",
   "paper2": "#efe3df",
   "ink": "#2a1e22",

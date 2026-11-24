@@ -6,7 +6,7 @@
  "monogram": "DS",
  "tagline": "Plomberie · Chauffage",
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f5f7fa",
   "paper2": "#e4eaf1",
   "ink": "#142233",

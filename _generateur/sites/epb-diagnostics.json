@@ -6,7 +6,7 @@
  "monogram": "EPB",
  "tagline": "Diagnostics immobiliers",
  "theme": {
-  "look": "center",
+  "look": "vivant", "look_avant": "center",
   "paper": "#f4f7f8",
   "paper2": "#e3ebee",
   "ink": "#15242c",

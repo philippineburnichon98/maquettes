@@ -6,7 +6,7 @@
  "tagline": "Plâtrerie · Plaques · Peinture",
  "monogram": "PL",
  "theme": {
-  "look": "center",
+  "look": "vivant", "look_avant": "center",
   "paper": "#f6f6f4",
   "paper2": "#e8e8e4",
   "ink": "#1d2329",

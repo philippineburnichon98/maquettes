@@ -7,10 +7,10 @@
 <title>Protéger un parent âgé ? Le mandat de protection future | Cabinet de Maître Francou</title>
 <meta name="description" content="Maître Jean-Paul Francou, docteur en droit, avocat au barreau de Villefranche-sur-Saône : droit civil, de la famille, de la construction, droit pénal et droit administratif, en particulier droit de l&#x27;urbanisme.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&amp;family=DM+Mono:wght@400;500&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
 <style>
 :root{--paper:#f6f4ef;--paper-2:#e9e5dc;--ink:#1a2230;--muted:#5b6270;--accent:#1f3a5c;--accent-2:#152a45;
---gold:#a98a58;--line:rgba(0,0,0,.12);--serif:"EB Garamond",Georgia,serif;--sans:"Work Sans",system-ui,sans-serif;--max:1200px}
+--gold:#a98a58;--line:rgba(0,0,0,.12);--serif:"DM Sans",system-ui,sans-serif;--sans:"DM Sans",system-ui,sans-serif;--max:1200px}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
@@ -236,6 +236,111 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .pdfview{margin-top:40px}.pdfview object{width:100%;height:80vh;border:1px solid var(--line);border-radius:6px;background:#fff}
 </style>
 <style>
+/* ---- look vivant ---- */
+.look-vivant{--mono:"DM Mono",ui-monospace,monospace;--sf:"Instrument Serif",Georgia,serif;font-weight:400;letter-spacing:-.005em}
+.look-vivant h1,.look-vivant h2,.look-vivant h3{font-family:var(--sans);font-weight:400;letter-spacing:-.045em;line-height:1.02}
+.look-vivant h3{letter-spacing:-.025em;line-height:1.15;font-weight:500}
+.look-vivant h1 em,.look-vivant h2 em,.look-vivant em.it{font-family:var(--sf);font-style:italic;font-weight:400;letter-spacing:-.01em;color:inherit}
+.look-vivant .eyebrow{font-family:var(--mono);font-size:.72rem;font-weight:400;letter-spacing:.08em;color:var(--muted)}
+.look-vivant .btn{border-radius:999px;text-transform:none;letter-spacing:0;font-size:.95rem;font-weight:500;padding:13px 22px}
+.look-vivant .btn.solid{background:var(--ink);border-color:var(--ink)}.look-vivant .btn.solid:hover{background:var(--accent);border-color:var(--accent)}
+.look-vivant .btn.ghost{background:#fff;color:var(--ink);border-color:rgba(0,0,0,.12)}.look-vivant .btn.ghost:hover{border-color:var(--ink);background:#fff;color:var(--ink)}
+/* menu en pilule flottante */
+.look-vivant header,.look-vivant header.scrolled{background:transparent;box-shadow:none;backdrop-filter:none;color:var(--ink);padding-top:14px}
+.look-vivant .nav{height:62px;max-width:calc(var(--max) - 8px);background:rgba(255,255,255,.74);backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4);border:1px solid rgba(0,0,0,.06);border-radius:999px;padding:0 8px 0 22px;box-shadow:0 10px 30px -18px rgba(0,0,0,.25)}
+.look-vivant header.scrolled .nav{height:58px;box-shadow:0 14px 34px -16px rgba(0,0,0,.3)}
+.look-vivant .links{text-transform:none;letter-spacing:0;font-size:.9rem;gap:24px}.look-vivant .links a::after{display:none}.look-vivant .links a[aria-current]{border:0;font-weight:600}
+.look-vivant .logo{font-family:var(--sans);font-weight:500;letter-spacing:-.03em;font-size:1.2rem}.look-vivant .logo small{font-family:var(--mono);letter-spacing:.06em;font-size:.58rem}
+.look-vivant .nav .logo img{max-height:42px}
+.navcta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:18px;transition:background .25s}.navcta:hover{background:var(--accent)}
+@media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
+@media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
+.look-vivant .topbar{display:none}
+.look-vivant header[style*="--navbg"] .nav{background:var(--navbg)}.look-vivant header[data-navdark] .nav{color:#fff}.look-vivant header[data-navdark] .navcta{background:#fff;color:var(--ink)}
+@media(max-width:860px){.look-vivant header[data-navdark] .links{color:var(--ink)}}
+/* accueil */
+.vv{min-height:auto;display:block;background:none!important;color:var(--ink);padding:clamp(120px,14vw,150px) 0 clamp(50px,6vw,80px);overflow:hidden}
+.vv::before{display:none}
+.blobs{position:absolute;inset:0;pointer-events:none;z-index:0}
+.blobs i{position:absolute;border-radius:50%;filter:blur(80px);opacity:.42}
+.blobs i:nth-child(1){width:520px;height:520px;left:-140px;top:-120px;background:color-mix(in srgb,var(--accent) 55%,#fff);animation:drift1 22s ease-in-out infinite alternate}
+.blobs i:nth-child(2){width:460px;height:460px;right:-120px;top:30%;background:color-mix(in srgb,var(--gold) 60%,#fff);animation:drift2 26s ease-in-out infinite alternate}
+.blobs i:nth-child(3){width:380px;height:380px;left:35%;bottom:-180px;background:color-mix(in srgb,var(--heroem,#f0d9b5) 70%,#fff);animation:drift3 30s ease-in-out infinite alternate}
+@keyframes drift1{to{transform:translate(120px,80px) scale(1.15)}}@keyframes drift2{to{transform:translate(-100px,-60px) scale(.9)}}@keyframes drift3{to{transform:translate(80px,-90px) scale(1.1)}}
+.vv-g{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(36px,5vw,72px);align-items:center;padding-bottom:0!important}
+.vv.noimg .vv-g{grid-template-columns:minmax(0,1fr);max-width:980px}
+.vv-pill{display:inline-flex;align-items:center;gap:9px;background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:999px;padding:7px 14px 7px 10px;font-size:.84rem;box-shadow:0 6px 18px -12px rgba(0,0,0,.3);animation:fadeup .8s both}
+.vv-pill .dot,.vv-card .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);position:relative;flex:none}
+.vv-pill .dot::after,.vv-card .dot::after{content:"";position:absolute;inset:0;border-radius:50%;background:inherit;animation:ping 1.8s cubic-bezier(0,0,.2,1) infinite}
+@keyframes ping{75%,to{transform:scale(2.6);opacity:0}}
+.caret{width:1px;height:1em;background:currentColor;animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.vv h1{font-size:clamp(2.7rem,5.6vw,5rem);margin:24px 0 22px;text-shadow:none;color:var(--ink);font-weight:400}
+.vv h1 em{color:var(--ink)}
+.vv h1 .w{display:inline-block;animation:rise .9s cubic-bezier(.2,.75,.15,1) calc(.08s + var(--i) * .065s) both}
+@keyframes rise{from{opacity:0;transform:translateY(.45em);filter:blur(8px)}}
+@keyframes fadeup{from{opacity:0;transform:translateY(16px)}}
+.vv p{color:var(--muted);font-size:1.08rem;max-width:54ch;text-shadow:none;opacity:1;margin-bottom:30px;animation:fadeup .9s .5s both}
+.vv .ctas{animation:fadeup .9s .65s both}
+.vv .mono{display:block;margin-top:16px;font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.vv-vis{position:relative;animation:fadeup 1s .3s both}
+.vv-vis figure{margin:0 0 0 40px;aspect-ratio:4/4.5;border-radius:28px;background:var(--paper-2) center/cover;box-shadow:0 50px 90px -45px rgba(0,0,0,.5)}
+.vv-card{position:absolute;background:rgba(255,255,255,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.75);border-radius:16px;box-shadow:0 22px 44px -22px rgba(0,0,0,.4);padding:12px 16px;color:var(--ink)}
+.vv-card.c1{left:0;top:9%;min-width:190px;animation:pop .7s .9s both,bob 7s 1.6s ease-in-out infinite}
+.vv-card.c1 .lab{display:inline-block;font-size:.7rem;background:rgba(0,0,0,.05);border-radius:999px;padding:3px 9px;margin-bottom:6px}
+.vv-card.c1 strong{display:block;font-size:2.6rem;font-weight:400;letter-spacing:-.05em;line-height:1}.vv-card.c1 strong b{font-weight:400}
+.vv-card.c1 small{display:block;font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:6px;max-width:200px}
+.vv-card.c2{right:-14px;top:50%;display:flex;align-items:center;gap:10px;font-size:.88rem;border-radius:999px;padding:10px 16px;animation:pop .7s 1.15s both,bob 8s 2s ease-in-out infinite reverse}
+.vv-card.c2 b{font-weight:600}
+.vv-card.c3{right:-26px;bottom:-20px;display:flex;align-items:center;gap:12px;background:#fff;animation:pop .7s 1.4s both;transition:transform .25s}.vv-card.c3:hover{transform:translateY(-3px)}
+.vv-card.c3 .ck{width:30px;height:30px;border-radius:50%;background:color-mix(in srgb,var(--accent) 14%,#fff);color:var(--accent);display:grid;place-items:center;flex:none}.vv-card.c3 svg{width:16px;height:16px}
+.vv-card.c3 b{display:block;font-weight:500;font-size:.92rem}.vv-card.c3 small{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.94)}}@keyframes bob{50%{transform:translateY(-8px)}}
+@media(max-width:900px){.vv-g{grid-template-columns:minmax(0,1fr)}.vv-vis{margin:10px 0 30px}.vv-vis figure{margin:0 14px;aspect-ratio:4/3.6}.vv-card.c1{left:-4px;top:-14px}.vv-card.c2{right:-4px}.vv-card.c3{right:0;bottom:-26px}}
+/* bandeau défilant des chiffres */
+.vv-mq{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.vv-mq div{display:flex;gap:64px;width:max-content;animation:mq 40s linear infinite}
+.vv-mq span{font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap}.vv-mq b{color:var(--ink);font-weight:500}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* sections : titres à gauche, texte à droite, cartes arrondies */
+.look-vivant .head{text-align:left;max-width:var(--max);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:10px 60px;align-items:end;margin:0 0 48px}
+.look-vivant .head .eyebrow{grid-column:1/-1}.look-vivant .head h2{margin:0}.look-vivant .head p{margin:0;font-size:1.02rem}
+@media(max-width:860px){.look-vivant .head{grid-template-columns:minmax(0,1fr)}}
+.look-vivant h2{font-size:clamp(2.2rem,4.4vw,3.6rem)}
+.look-vivant :is(.card,.blocks article,.feat>div,.rev){background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:20px;box-shadow:0 1px 0 rgba(0,0,0,.02);transition:transform .35s cubic-bezier(.2,.75,.15,1),box-shadow .35s}
+.look-vivant :is(.card,.blocks article,.rev):hover{transform:translateY(-4px);box-shadow:0 26px 50px -30px rgba(0,0,0,.35)}
+.look-vivant .blocks article{overflow:hidden}
+.look-vivant .feat{background:none;border:0;gap:16px}
+.look-vivant :is(.visit,.resa,.cform,.booking){border-radius:24px;overflow:hidden;border-color:rgba(0,0,0,.08)}
+.look-vivant .split .img{border-radius:24px}.look-vivant .split .img::after{display:none}
+.look-vivant .gallery button{border-radius:16px}
+.look-vivant .banner{margin:0 16px;border-radius:28px;overflow:hidden}
+.look-vivant .quote{background:none}.look-vivant .quote blockquote{font-family:var(--sf);color:var(--ink);font-size:clamp(1.9rem,4vw,3rem);letter-spacing:-.01em}
+.look-vivant .tabs button{border-radius:999px;text-transform:none;letter-spacing:0;font-size:.88rem}
+.look-vivant :is(.card .tag,.visit dt,footer h4,.blog .ct,.rev .k,.menu .col h3){font-family:var(--mono);font-weight:400;letter-spacing:.06em}
+.look-vivant .fig b,.look-vivant .menu li span,.look-vivant .team b,.look-vivant .card .price b{font-family:var(--sans);letter-spacing:-.03em}
+.look-vivant .rv{transform:translateY(22px);filter:blur(6px);transition:opacity .9s cubic-bezier(.2,.75,.15,1),transform .9s cubic-bezier(.2,.75,.15,1),filter .9s}.look-vivant .rv.in{transform:none;filter:none}
+.look-vivant .grid>.rv:nth-child(3n+2),.look-vivant .blocks>.rv:nth-child(3n+2){transition-delay:.08s}.look-vivant .grid>.rv:nth-child(3n),.look-vivant .blocks>.rv:nth-child(3n){transition-delay:.16s}
+.look-vivant footer{border-radius:28px 28px 0 0}
+.look-vivant .hero.phead{margin:86px 16px 0;border-radius:28px;min-height:40vh}
+.look-vivant .pbox{padding-top:clamp(120px,12vw,150px)}
+@media(prefers-reduced-motion:reduce){.blobs i,.vv h1 .w,.vv-card,.vv-mq div,.vv-pill,.vv p,.vv .ctas,.vv-vis{animation:none!important}.look-vivant .rv{filter:none}}
+
+/* parcours (pages du site) */
+.vv-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.vv-step{display:flex;flex-direction:column;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:20px;padding:18px 18px 20px;transition:transform .35s cubic-bezier(.2,.75,.15,1),box-shadow .35s;transition-delay:calc(var(--k) * 60ms)}
+.look-vivant .vv-step.rv{transition:opacity .9s,filter .9s,transform .35s cubic-bezier(.2,.75,.15,1),box-shadow .35s}.look-vivant .vv-step.rv:hover{transform:translateY(-4px);box-shadow:0 26px 50px -30px rgba(0,0,0,.35)}
+.vv-step .bar{display:block;height:3px;border-radius:3px;background:rgba(0,0,0,.07);overflow:hidden;margin-bottom:14px}.vv-step .bar i{display:block;height:100%;width:0;background:var(--accent);transition:width 1.2s cubic-bezier(.2,.75,.15,1) calc(.3s + var(--k) * .15s)}
+.vv-step.in .bar i{width:calc((var(--k) + 1) / var(--n,6) * 100%)}.vv-step:hover .bar i{width:100%}
+.vv-step .num{display:flex;justify-content:space-between;gap:12px;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.vv-step .num b{font-weight:400;white-space:nowrap}
+.vv-step h3{font-size:1.35rem;margin:10px 0 14px}
+.vv-step .tint{border-radius:14px;overflow:hidden;aspect-ratio:16/9;background:color-mix(in srgb,var(--accent) 10%,var(--paper));display:grid;place-items:center}
+.vv-step:nth-child(3n+2) .tint{background:color-mix(in srgb,var(--gold) 16%,var(--paper))}.vv-step:nth-child(3n) .tint{background:color-mix(in srgb,var(--ink) 6%,var(--paper))}
+.vv-step .tint img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.75,.15,1)}.vv-step:hover .tint img{transform:scale(1.05)}
+.vv-step .ini{font-family:var(--sf);font-style:italic;font-size:4rem;color:var(--accent);opacity:.6}
+.vv-step p{font-size:.92rem;color:var(--muted);margin:14px 0 12px;flex:1}.vv-step .go{font-size:.88rem;font-weight:500}
+@media(prefers-reduced-motion:reduce){.vv-step .bar i{transition:none}}
+</style>
+<style>
 header .topbar{height:32px;overflow:hidden;font-size:.74rem;letter-spacing:.06em;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);transition:height .3s,border-color .3s}
 header .topbar .wrap{display:flex;justify-content:flex-end;align-items:center;gap:22px;height:100%;white-space:nowrap}header .topbar a:hover{text-decoration:underline}
 header.scrolled .topbar{height:0;border-color:transparent}
@@ -247,10 +352,10 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 </style>
 
 </head>
-<body class="look-editorial" data-logo="https://static.wixstatic.com/media/3663d8_d21d9991ced3468c9f14be6d9a47197f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg">
+<body class="look-vivant" data-logo="https://static.wixstatic.com/media/3663d8_d21d9991ced3468c9f14be6d9a47197f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg">
 
 <header class="haslogo hastop"><div class="topbar"><div class="wrap"><span><a href="tel:+33474623714">04 74 62 37 14</a></span><span><a href="mailto:francou.avocat@yahoo.fr">francou.avocat@yahoo.fr</a></span></div></div><div class="wrap nav"><a href="../../" class="logo" style="display:flex;align-items:center;gap:12px"><img src="https://static.wixstatic.com/media/3663d8_d21d9991ced3468c9f14be6d9a47197f.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg" alt="Cabinet de Maître Francou" style="height:46px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt">Cabinet de Maître Francou</a>
-<nav class="links"><a href="../../">Accueil</a><a href="../../urbanisme/">Urbanisme</a><a href="../../penal/">Pénal</a><a href="../../divorce/">Droit de la famille</a><a href="../../se-defendre/">Se défendre</a><a href="../../votre-avocat/">Votre avocat</a><a href="../../honoraires/">Honoraires</a></nav>
+<nav class="links"><a href="../../">Accueil</a><a href="../../urbanisme/">Urbanisme</a><a href="../../penal/">Pénal</a><a href="../../divorce/">Droit de la famille</a><a href="../../se-defendre/">Se défendre</a><a href="../../votre-avocat/">Votre avocat</a><a href="../../honoraires/">Honoraires</a></nav><a class="navcta" href="../../votre-avocat/#ecrire">Contacter votre avocat</a>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="phead pbox" id="accueil"><div class="wrap pbox-g"><div class="rv in"><span class="eyebrow">Se défendre · Votre affaire</span><h1>Protéger un parent âgé ? <em>Le mandat de protection future</em></h1></div>
 <figure><img src="https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg/v1/fit/w_1600,h_1600,al_c,q_85/img.jpg" alt="" referrerpolicy="no-referrer" style="object-position:center"></figure></div></section><style>
@@ -312,6 +417,11 @@ const A=document.getElementById('agegate');if(A){let ok=false;try{ok=localStorag
 if(!ok){A.hidden=false;document.body.style.overflow='hidden';A.querySelector('.yes').focus()}
 A.querySelector('.yes').onclick=()=>{try{localStorage.setItem('age_ok','1')}catch(e){}A.hidden=true;document.body.style.overflow=''};
 A.querySelector('.no').onclick=()=>{A.querySelector('.no-msg').hidden=false}}})()</script>
+<script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const t=document.querySelector('.vv-pill .tp');if(t&&!R){const s=t.dataset.t;t.textContent='';let i=0;setTimeout(function k(){t.textContent=s.slice(0,++i);if(i<s.length)setTimeout(k,28+Math.random()*40)},500)}
+document.querySelectorAll('[data-count]').forEach(b=>{const n=parseInt(b.dataset.count,10);if(!n||R)return;const yr=n>1800&&n<2100,d=1400,t0=performance.now()+900;
+const st=t=>{const k=Math.max(0,Math.min(1,(t-t0)/d)),v=Math.round((yr?n-60:0)+(n-(yr?n-60:0))*(1-Math.pow(1-k,3)));b.textContent=yr?String(v):v.toLocaleString('fr-FR');if(k<1)requestAnimationFrame(st)};requestAnimationFrame(st)});
+})()</script>
 <script>(function(){try{var q=location.search;if(/[?&]moi\b/.test(q))localStorage.setItem('fyce_moi','1');if(/[?&]pasmoi\b/.test(q))localStorage.removeItem('fyce_moi');if(localStorage.getItem('fyce_moi')==='1')return}catch(e){}
 var s=document.createElement('script');s.defer=true;s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "d97afe693f1b460f8a964b23ec19fe6d"}');document.head.appendChild(s)})()</script>
 </body>

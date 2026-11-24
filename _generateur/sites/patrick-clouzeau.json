@@ -5,7 +5,7 @@
  "brand": "Patrick Clouzeau",
  "tagline": "Menuisier à Lyon",
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f7f2ea",
   "paper2": "#ece2d3",
   "ink": "#2a211a",

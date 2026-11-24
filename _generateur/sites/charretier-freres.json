@@ -6,7 +6,7 @@
  "tagline": "Plaquiste peintre · RGE",
  "monogram": "CF",
  "theme": {
-  "look": "split",
+  "look": "vivant", "look_avant": "split",
   "paper": "#f5f2ec",
   "paper2": "#e8e2d7",
   "ink": "#22262a",

@@ -6,7 +6,7 @@
  "tagline": "Charpentier-couvreur",
  "monogram": "CD",
  "theme": {
-  "look": "center",
+  "look": "vivant", "look_avant": "center",
   "paper": "#f5f1ea",
   "paper2": "#e9e1d4",
   "ink": "#22262a",

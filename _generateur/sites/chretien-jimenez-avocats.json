@@ -8,7 +8,7 @@
  "home_label": "Accueil",
  "phead": "box",
  "theme": {
-  "look": "framed",
+  "look": "vivant", "look_avant": "framed",
   "paper": "#f7f5f1",
   "paper2": "#ebe6de",
   "ink": "#1d2230",

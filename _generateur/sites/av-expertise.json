@@ -6,7 +6,7 @@
  "tagline": "Diagnostics immobiliers",
  "monogram": "AV",
  "theme": {
-  "look": "framed",
+  "look": "vivant", "look_avant": "framed",
   "paper": "#f5f6f3",
   "paper2": "#e7ebe6",
   "ink": "#1d2a2f",

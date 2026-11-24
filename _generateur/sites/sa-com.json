@@ -6,7 +6,7 @@
  "tagline": "Électricité & Télécom · Lyon",
  "monogram": "SA",
  "theme": {
-  "look": "editorial",
+  "look": "vivant", "look_avant": "editorial",
   "paper": "#f6f5f2",
   "paper2": "#eae7e0",
   "ink": "#1b1d21",

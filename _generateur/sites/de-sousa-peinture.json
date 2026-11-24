@@ -6,7 +6,7 @@
  "monogram": "DS",
  "tagline": "Artisan peintre · Loire 42",
  "theme": {
-  "look": "center",
+  "look": "vivant", "look_avant": "center",
   "paper": "#f7f5f1",
   "paper2": "#ebe6dd",
   "ink": "#1f1c1a",
