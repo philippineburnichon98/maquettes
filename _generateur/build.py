@@ -1072,6 +1072,7 @@ body.craft{font-weight:400;font-size:17px;line-height:1.62}
 .craft-juridique h1,.craft-juridique h2{font-weight:400}.craft-juridique .btn{border-radius:2px}
 .craft-domaine h1,.craft-domaine h2,.craft-restaurant h1,.craft-restaurant h2{font-weight:400;letter-spacing:-.01em}
 .craft-domaine .hero h1{max-width:20ch}
+.craft-artisan .sign,.craft-diagnostiqueur .sign{font-family:var(--sans);font-style:normal;font-weight:600;font-size:1.05rem}
 /* bandeau d'appel (artisans, diagnostiqueurs) : le téléphone d'abord */
 .callbar{background:var(--accent);color:#fff}.callbar .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 28px;padding-top:18px;padding-bottom:18px}
 .callbar a{font-size:clamp(1.3rem,2.4vw,1.7rem);font-weight:700;letter-spacing:-.01em;white-space:nowrap}.callbar span{opacity:.92}

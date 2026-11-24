@@ -61,6 +61,11 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Dès qu'un prospect a le statut « envoye » (ou suivant) dans prospects.csv, sa maquette est figée : le prospect l'a peut-être déjà vue. Ne régénère pas son JSON, ne touche pas à son dossier site/.
 - Quand on régénère toutes les maquettes (`build.py sites/*.json`), exclure celles des prospects envoyés.
 
+## Finition « sur mesure » (demande de Philippine, 24 nov. 2026)
+- `"craft": true` dans `theme` : retire les tics de « template IA » (mot en italique coloré dans les titres, sur-titres en capitales espacées, bandeau de 4 compteurs, cartes à ombre, apparitions au défilement, boutons en capitales) et applique une typographie propre au métier (domaine : Libre Caslon ; restaurant : Young Serif ; artisan : Schibsted Grotesk ; diagnostiqueur : IBM Plex ; notaire/avocat : Source Serif). Le métier vient de `theme.metier` ou de la colonne `type` de prospects.csv.
+- Chiffres : seuls les vrais chiffres restent (années, durées, surfaces), en une ligne ; `craft_figures` pour choisir à la main. Artisans et diagnostiqueurs : bandeau d'appel avec le téléphone sous l'accueil.
+- `"craft_keep_fonts": true` garde les polices du JSON. Le champ `look` est ignoré en mode craft.
+
 ## Variété, animations, logo, âge légal (demande de Philippine, 12 oct. 2026)
 - `theme.look` : `classic` (grande bannière plein écran, version préférée de Philippine pour le Bouchon des Artistes), `split` (texte à gauche sur fond clair, photo arrondie à droite), `center` (titre centré, cartes arrondies), `editorial` (grands titres fins, filets, citation à guillemet), `framed` (photo d'accueil encadrée, coins arrondis, boutons ronds). Sans valeur, le look est choisi d'après le slug : les maquettes ne se ressemblent plus. Choisis le look qui va le mieux au métier et à la charte.
 - Animations sobres incluses partout : apparition au défilement, chiffres clés qui défilent, zoom léger des photos au survol, bandeaux en parallaxe, en-tête qui se resserre au défilement ; les blocs « story » alternent photo à gauche / à droite.
