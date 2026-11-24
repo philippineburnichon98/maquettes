@@ -1026,7 +1026,6 @@ body.craft{font-weight:400;font-size:17px;line-height:1.62}
 .craft section:not(.hero) .btn{font-size:1rem;font-weight:600;padding:13px 22px;border-radius:4px;gap:.5em}
 .craft .btn:hover{transform:none}
 .craft .rv,.craft .rv.in{opacity:1!important;transform:none!important;transition:none!important}
-.craft .logo{font-weight:600}
 /* chiffres : une ligne de faits, pas un bandeau de compteurs */
 .craft .figures{border-bottom:1px solid var(--line);background:var(--paper)}
 .craft .figures .wrap{display:flex;flex-wrap:wrap;gap:12px 44px;padding-top:26px;padding-bottom:26px}
