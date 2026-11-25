@@ -255,6 +255,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .navcta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:18px;transition:background .25s}.navcta:hover{background:var(--accent)}
 @media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
 @media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
+@media(min-width:861px){.look-vivant header:not(.many) .links a.dup{display:none}}
 .look-vivant .topbar{display:none}
 .look-vivant header[style*="--navbg"] .nav{background:var(--navbg)}.look-vivant header[data-navdark] .nav{color:#fff}.look-vivant header[data-navdark] .navcta{background:#fff;color:var(--ink)}
 @media(max-width:860px){.look-vivant header[data-navdark] .links{color:var(--ink)}}
@@ -343,6 +344,62 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .vv-step .ini{font-family:var(--sf);font-style:italic;font-size:4rem;color:var(--accent);opacity:.6}
 .vv-step p{font-size:.92rem;color:var(--muted);margin:14px 0 12px;flex:1}.vv-step .go{font-size:.88rem;font-weight:500}
 @media(prefers-reduced-motion:reduce){.vv-step .bar i{transition:none}}
+/* ---- variété des rubriques (pas de cartes partout) ---- */
+html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-margin-top:100px}
+.look-vivant .chips{margin-top:34px;gap:10px}
+.look-vivant .dark :is(.card,.blocks article,.feat>div){color:var(--ink)}.look-vivant .dark .blocks article p{color:var(--muted)}
+/* liste éditoriale numérotée */
+.look-vivant .v-list .blocks{display:block;counter-reset:vl;border-top:1px solid var(--line)}
+.look-vivant .v-list .blocks article{counter-increment:vl;display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1.35fr);grid-auto-flow:dense;gap:6px 40px;align-items:start;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:34px 0;overflow:visible;color:inherit}
+.look-vivant .v-list .blocks article::before{content:counter(vl,decimal-leading-zero);grid-column:1;grid-row:1/span 6;font-family:var(--mono);font-size:.8rem;color:var(--accent);padding-top:8px}
+.look-vivant .v-list .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-list .blk :is(.k,h3){grid-column:2}.look-vivant .v-list .blk h3{font-size:clamp(1.4rem,2.4vw,1.9rem);margin:4px 0 0}
+.look-vivant .v-list .blk :is(p,ul,.more){grid-column:3}.look-vivant .v-list .blk p{font-size:.98rem}
+.look-vivant .v-list .blk .bi{grid-column:2;grid-row:3/span 4;width:min(100%,260px);margin:16px 0 0;border-radius:14px;aspect-ratio:4/3}
+.look-vivant .v-list .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-list .blk .more{margin-top:6px;padding-top:0}
+.look-vivant .v-list.dark .blocks,.look-vivant .v-list.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-list.dark .blocks article{color:inherit}.look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}
+/* mosaïque : une grande vignette photo, les autres en aplats colorés */
+.look-vivant .v-bento .blocks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-flow:dense;gap:14px}
+.look-vivant .v-bento .blocks article{grid-column:span 2;border:0;border-radius:24px;padding:28px 26px;background:color-mix(in srgb,var(--accent) 9%,var(--paper));color:var(--ink)}
+.look-vivant .v-bento .blocks article:nth-child(3n+2){background:color-mix(in srgb,var(--gold) 14%,var(--paper))}
+.look-vivant .v-bento .blocks article:nth-child(3n){background:color-mix(in srgb,var(--ink) 7%,var(--paper))}
+.look-vivant .v-bento .blk .bi{width:calc(100% + 52px);margin:-28px -26px 20px;aspect-ratio:16/10;border-radius:0}
+.look-vivant .v-bento .blocks article:first-child{grid-column:span 4;grid-row:span 2;position:relative;min-height:440px;justify-content:flex-end;background:var(--ink);color:#fff;isolation:isolate}
+.look-vivant .v-bento .blocks article:first-child .bi{position:absolute;inset:0;width:100%!important;max-width:none!important;height:100%;margin:0;aspect-ratio:auto;z-index:-2;object-fit:cover;padding:0}
+.look-vivant .v-bento .blocks article:first-child::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 20%,rgba(0,0,0,.78))}
+.look-vivant .v-bento .blocks article:first-child :is(p,li,.k){color:rgba(255,255,255,.85)}.look-vivant .v-bento .blocks article:first-child h3{font-size:clamp(1.6rem,2.8vw,2.3rem)}
+.look-vivant .v-bento .blocks article:first-child a{color:#fff}.look-vivant .v-bento .blocks article:first-child .more{margin-top:0}.look-vivant .v-bento .blocks article:first-child>*{max-width:62ch}
+.look-vivant .v-bento .blocks article:nth-child(n+2) .bi{display:none}
+/* colonne collante : titre à gauche qui reste visible, rubriques à droite */
+.look-vivant .v-split>.wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:20px clamp(40px,6vw,90px);align-items:start}
+.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:2}
+.look-vivant .v-split .head{display:block;position:sticky;top:110px;margin:0}.look-vivant .v-split .head h2{margin:14px 0 18px}
+.look-vivant .v-split .blocks{display:flex;flex-direction:column;gap:0;grid-column:2}
+.look-vivant .v-split .blocks article{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 26px;background:none;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding:28px 0;color:inherit;overflow:visible}
+.look-vivant .v-split .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-split .blk>*{grid-column:2}.look-vivant .v-split .blk .bi{grid-column:1;grid-row:1/span 6;width:120px;margin:4px 0 0;aspect-ratio:1;border-radius:14px}
+.look-vivant .v-split .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-split .blk:not(:has(.bi)){grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .blk:not(:has(.bi))>*{grid-column:1}
+.look-vivant .v-split.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-split.dark .blk p{color:rgba(255,255,255,.72)}
+@media(max-width:860px){.look-vivant .v-list .blocks article{grid-template-columns:44px minmax(0,1fr);gap:6px 14px}.look-vivant .v-list .blk>*:not(.bi){grid-column:2}.look-vivant .v-list .blk .bi{grid-row:auto;grid-column:2}
+.look-vivant .v-bento .blocks{grid-template-columns:minmax(0,1fr)}.look-vivant .v-bento .blocks article,.look-vivant .v-bento .blocks article:first-child{grid-column:1;grid-row:auto}.look-vivant .v-bento .blocks article:first-child{min-height:340px}
+.look-vivant .v-split>.wrap{grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .head{position:static}.look-vivant .v-split .blocks,.look-vivant .v-split>.wrap>*,.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:1}.look-vivant .v-split .blocks article{grid-template-columns:76px minmax(0,1fr);gap:4px 16px}.look-vivant .v-split .blk .bi{width:76px}}
+/* atouts : colonnes ouvertes, sans encadré */
+.look-vivant .feat>div{background:none;border:0;border-top:2px solid var(--ink);border-radius:0;box-shadow:none;padding:22px 4px 0}
+.look-vivant .dark .feat>div{border-color:rgba(255,255,255,.5);color:inherit}
+/* parcours : sommaire en lignes, la photo apparaît au survol */
+.look-vivant .vv-steps{display:block;border-top:1px solid var(--line)}
+.look-vivant .vv-step{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(0,1.2fr) 150px;gap:6px 34px;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:26px 0;position:relative}
+.look-vivant .vv-step.rv:hover{transform:none;box-shadow:none}
+.look-vivant .vv-step .bar{position:absolute;left:0;right:0;bottom:-1px;margin:0;height:2px;background:none}
+.look-vivant .vv-step .num{grid-column:1;grid-row:1;flex-direction:column;gap:4px}.look-vivant .vv-step .num b{font-size:.8rem;color:var(--accent)}
+.look-vivant .vv-step h3{grid-column:2;grid-row:1;margin:0;font-size:clamp(1.4rem,2.6vw,2.1rem);transition:transform .4s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover h3{transform:translateX(8px)}
+.look-vivant .vv-step p{grid-column:3;grid-row:1;margin:0}
+.look-vivant .vv-step .tint{grid-column:4;grid-row:1;aspect-ratio:4/3;opacity:.0;transform:scale(.9) rotate(-3deg);transition:opacity .4s,transform .5s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover .tint{opacity:1;transform:none}
+.look-vivant .vv-step .go{grid-column:3;grid-row:2;font-size:.82rem;color:var(--accent)}
+@media(hover:none){.look-vivant .vv-step .tint{opacity:1;transform:none}}
+@media(max-width:860px){.look-vivant .vv-step{grid-template-columns:minmax(0,1fr) 96px;gap:8px 16px}.look-vivant .vv-step>*{grid-column:1!important;grid-row:auto!important}.look-vivant .vv-step .tint{grid-column:2!important;grid-row:1/span 3!important;opacity:1;transform:none}}
 </style>
 <style>
 header .topbar{height:32px;overflow:hidden;font-size:.74rem;letter-spacing:.06em;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);transition:height .3s,border-color .3s}
@@ -359,7 +416,7 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 <body class="look-vivant" data-logo="https://static.wixstatic.com/media/c6219c_d3fefd357ef246e58fc840e651905ee7~mv2.jpg">
 
 <header class="haslogo hastop"><div class="topbar"><div class="wrap"><span>Bouguenais (44340)</span><span><a href="tel:+33771119542">07 71 11 95 42</a></span><span><a href="mailto:sarl.lementec@outlook.fr">sarl.lementec@outlook.fr</a></span></div></div><div class="wrap nav"><a href="./" class="logo"><img src="https://static.wixstatic.com/media/c6219c_d3fefd357ef246e58fc840e651905ee7~mv2.jpg" alt="SARL Le Mentec" style="height:52px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
-<nav class="links"><a href="#presentation">Accueil</a><a href="#services">Mes services</a><a href="#photos">Photos</a><a href="#devis">Devis</a><a href="#contact">Contact</a></nav><a class="navcta" href="#devis">Demander un devis</a>
+<nav class="links"><a href="#presentation">Accueil</a><a href="#services">Mes services</a><a href="#photos">Photos</a><a href="#devis" class="dup">Devis</a><a href="#contact">Contact</a></nav><a class="navcta" href="#devis">Demander un devis</a>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero vv" id="accueil"><div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="wrap vv-g">
 <div class="vv-txt"><span class="vv-pill"><i class="dot"></i><span class="tp" data-t="Artisan électricien / plombier · Bouguenais">Artisan électricien / plombier · Bouguenais</span><b class="caret" aria-hidden="true"></b></span>
@@ -369,7 +426,7 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 <div class="vv-mq" aria-hidden="true"><div><span><b>2007</b> expériences professionnelles depuis</span><span><b>3</b> métiers : électricité, plomberie, chauffage</span><span><b>PMR</b> accessibilité en plomberie</span><span><b>Neuf</b> et rénovation</span><span><b>2007</b> expériences professionnelles depuis</span><span><b>3</b> métiers : électricité, plomberie, chauffage</span><span><b>PMR</b> accessibilité en plomberie</span><span><b>Neuf</b> et rénovation</span><span><b>2007</b> expériences professionnelles depuis</span><span><b>3</b> métiers : électricité, plomberie, chauffage</span><span><b>PMR</b> accessibilité en plomberie</span><span><b>Neuf</b> et rénovation</span><span><b>2007</b> expériences professionnelles depuis</span><span><b>3</b> métiers : électricité, plomberie, chauffage</span><span><b>PMR</b> accessibilité en plomberie</span><span><b>Neuf</b> et rénovation</span></div></div>
 <section id="presentation"><div class="wrap split">
 <div class="img rv" style="background-image:url('https://static.wixstatic.com/media/c6219c_4139b49b9dca46b0b2f61f85e75ca86d~mv2.jpg')" role="img" aria-label="SARL Le Mentec, électricité et plomberie"></div>
-<div class="rv"><span class="eyebrow">Bienvenue</span><h2>Artisan électricien <em class="it">/ plombier</em></h2><p>Fort de mes expériences professionnelles acquises depuis 2007, je mets à votre service mes compétences avec rigueur et passion.</p><p>Collectant avec vous l'ensemble de vos idées, je vous accompagne pour la réalisation de votre projet.</p><p>Neuf et rénovation.</p></div></div></section><section id="services"><div class="wrap"><div class="head rv"><span class="eyebrow">Mes services</span>
+<div class="rv"><span class="eyebrow">Bienvenue</span><h2>Artisan électricien <em class="it">/ plombier</em></h2><p>Fort de mes expériences professionnelles acquises depuis 2007, je mets à votre service mes compétences avec rigueur et passion.</p><p>Collectant avec vous l'ensemble de vos idées, je vous accompagne pour la réalisation de votre projet.</p><p>Neuf et rénovation.</p></div></div></section><section id="services" class="v-split"><div class="wrap"><div class="head rv"><span class="eyebrow">Mes services</span>
 <h2>Là pour répondre <em class="it">à tous vos besoins</em></h2></div><div class="blocks rv"><article class="blk"><img class="bi" src="https://static.wixstatic.com/media/7e70f3495d9bc2851ec887687d749961.jpg/v1/fill/w_900,h_650,al_c,q_85/7e70f3495d9bc2851ec887687d749961.jpg" alt="Travaux d&#x27;électricité" loading="lazy" referrerpolicy="no-referrer"><span class="k">Électricité</span><h3>Électricité</h3><ul><li>Neuf et rénovation</li><li>Mise aux normes et conformités</li><li>Maison connectée</li><li>Respect de la norme NF C 15-100</li></ul></article><article class="blk"><img class="bi" src="https://static.wixstatic.com/media/4404bde9c89a4d4e89059084f0005674.jpg/v1/fill/w_900,h_650,al_c,q_85/4404bde9c89a4d4e89059084f0005674.jpg" alt="Plomberie" loading="lazy" referrerpolicy="no-referrer"><span class="k">Plomberie</span><h3>Plomberie</h3><ul><li>Neuf et rénovation</li><li>PMR (personnes à mobilité réduite)</li><li>Intervention rapide</li></ul></article><article class="blk"><img class="bi" src="https://static.wixstatic.com/media/339cfb871ff744569b50ce64123dd0d2.jpg/v1/fill/w_900,h_650,al_c,q_85/339cfb871ff744569b50ce64123dd0d2.jpg" alt="Radiateur, roue de température" loading="lazy" referrerpolicy="no-referrer"><span class="k">Chauffage et ventilation</span><h3>Chauffages et ventilation</h3><ul><li>Pompe à chaleur, chauffages électriques, VMC</li><li>Dimensionnement et études thermiques pour un meilleur confort</li></ul></article></div><div class="chips"><span>Neuf</span><span>Rénovation</span><span>Norme NF C 15-100</span><span>Mise aux normes</span><span>Maison connectée</span><span>PMR</span><span>Pompe à chaleur</span><span>VMC</span></div></div></section><section id="marques"><div class="wrap"><div class="solo-text rv"><span class="eyebrow">Marques partenaires</span><h2>Des marques <em class="it">de confiance</em></h2><p>Pour vos installations d'électricité, de plomberie et de chauffage, nous travaillons avec nos marques partenaires.</p><div class="labels"><img src="https://static.wixstatic.com/media/c6219c_2c0038407f874abfbc7c0d65e0715246~mv2.jpg" alt="Marques partenaires" loading="lazy" referrerpolicy="no-referrer"></div></div></div></section><section id="photos"><div class="wrap"><div class="head rv"><span class="eyebrow">En images</span>
 <h2>Nos <em class="it">réalisations</em></h2></div><div class="gallery"><button data-full="https://static.wixstatic.com/media/c6219c_4139b49b9dca46b0b2f61f85e75ca86d~mv2.jpg" aria-label="Agrandir"><img src="https://static.wixstatic.com/media/c6219c_4139b49b9dca46b0b2f61f85e75ca86d~mv2.jpg" alt="SARL Le Mentec" loading="lazy" referrerpolicy="no-referrer"></button><button data-full="https://static.wixstatic.com/media/c6219c_f32be6e141cb487da1593aceae338e76~mv2.jpg" aria-label="Agrandir"><img src="https://static.wixstatic.com/media/c6219c_f32be6e141cb487da1593aceae338e76~mv2.jpg" alt="SARL Le Mentec" loading="lazy" referrerpolicy="no-referrer"></button><button data-full="https://static.wixstatic.com/media/0224de6bdd8a4e9d95f6fbc4e1c948fb.jpg" aria-label="Agrandir"><img src="https://static.wixstatic.com/media/0224de6bdd8a4e9d95f6fbc4e1c948fb.jpg" alt="Électricité et plomberie" loading="lazy" referrerpolicy="no-referrer"></button><button data-full="https://static.wixstatic.com/media/339c3ac08bd44964914ff4f560cbc361.jpg" aria-label="Agrandir"><img src="https://static.wixstatic.com/media/339c3ac08bd44964914ff4f560cbc361.jpg" alt="Électricité et plomberie" loading="lazy" referrerpolicy="no-referrer"></button><button data-full="https://static.wixstatic.com/media/ce6db1f583c53c5191d93f6dfb49801b.jpg" aria-label="Agrandir"><img src="https://static.wixstatic.com/media/ce6db1f583c53c5191d93f6dfb49801b.jpg" alt="Électricité et plomberie" loading="lazy" referrerpolicy="no-referrer"></button></div></div></section><section id="devis"><div class="wrap"><div class="cform rv"><div>
 <span class="eyebrow">Contactez-nous !</span><h2 style="margin:14px 0 16px">Demander <em class="it">un devis</em></h2><p style="color:var(--muted)">Décrivez votre projet d&#x27;électricité, de plomberie ou de chauffage : nous vous recontactons.</p><p style="margin-top:14px">Tél. : <a href="tel:+33771119542" style="border-bottom:1px solid var(--gold)">07 71 11 95 42</a></p><p style="margin-top:14px">E-mail : <a href="mailto:sarl.lementec@outlook.fr" style="border-bottom:1px solid var(--gold)">sarl.lementec@outlook.fr</a></p></div>

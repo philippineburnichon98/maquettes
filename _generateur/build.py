@@ -575,7 +575,8 @@ def section_blocks(b):
         out.append(f'<article class="blk">{img}{k}{h}{ps}{ul}{more}</article>')
     chips = ('<div class="chips">' + "".join(f"<span>{e(c)}</span>" for c in b["chips"]) + "</div>") if b.get("chips") else ""
     note = f'<p class="note">{b["note"]}</p>' if b.get("note") else ""
-    cls = ' class="dark"' if b.get("dark") else ""
+    _c = " ".join(c for c in ("dark" if b.get("dark") else "", b.get("variant", "")) if c)
+    cls = f' class="{_c}"' if _c else ""
     pad = ' style="padding-top:0"' if b.get("tight") else ""
     lead = f'<p>{b["lead"]}</p>' if b.get("lead") else ""
     grid = f'<div class="blocks rv">{"".join(out)}</div>' if out else ""
@@ -1039,6 +1040,27 @@ def _first_img(x):
     return None
 
 
+VIVANT_VARIANTS = ("v-list", "v-bento", "v-split")
+
+
+def _vivant_variants(d, sections):
+    """Look vivant : pas deux grilles de cartes identiques. Chaque rubrique « blocks » reçoit
+    une mise en page différente (liste numérotée, mosaïque, colonne collante), en rotation
+    décalée selon le site pour que les maquettes ne se ressemblent pas entre elles."""
+    k = sum(map(ord, d.get("slug", ""))) % len(VIVANT_VARIANTS)
+    out = []
+    for s in sections:
+        if s.get("kind") == "blocks" and s.get("items") and not s.get("variant"):
+            v = VIVANT_VARIANTS[k % len(VIVANT_VARIANTS)]
+            n = len(s["items"])
+            if v == "v-bento" and (n < 3 or not any(x.get("img") and not x.get("contain") for x in s["items"])):
+                v = "v-list" if n > 2 else "v-split"
+            s = {**s, "variant": v}
+            k += 1
+        out.append(s)
+    return out
+
+
 def vivant_parcours(d):
     """Valeur ajoutée du look vivant : les pages du site présentées comme un parcours
     (cartes numérotées 01/05, barre qui se remplit), avec leurs vrais titres, accroches et photos."""
@@ -1083,6 +1105,7 @@ VIVANT_CSS = """<style>
 .navcta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:18px;transition:background .25s}.navcta:hover{background:var(--accent)}
 @media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
 @media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
+@media(min-width:861px){.look-vivant header:not(.many) .links a.dup{display:none}}
 .look-vivant .topbar{display:none}
 .look-vivant header[style*="--navbg"] .nav{background:var(--navbg)}.look-vivant header[data-navdark] .nav{color:#fff}.look-vivant header[data-navdark] .navcta{background:#fff;color:var(--ink)}
 @media(max-width:860px){.look-vivant header[data-navdark] .links{color:var(--ink)}}
@@ -1171,6 +1194,62 @@ VIVANT_CSS = """<style>
 .vv-step .ini{font-family:var(--sf);font-style:italic;font-size:4rem;color:var(--accent);opacity:.6}
 .vv-step p{font-size:.92rem;color:var(--muted);margin:14px 0 12px;flex:1}.vv-step .go{font-size:.88rem;font-weight:500}
 @media(prefers-reduced-motion:reduce){.vv-step .bar i{transition:none}}
+/* ---- variété des rubriques (pas de cartes partout) ---- */
+html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-margin-top:100px}
+.look-vivant .chips{margin-top:34px;gap:10px}
+.look-vivant .dark :is(.card,.blocks article,.feat>div){color:var(--ink)}.look-vivant .dark .blocks article p{color:var(--muted)}
+/* liste éditoriale numérotée */
+.look-vivant .v-list .blocks{display:block;counter-reset:vl;border-top:1px solid var(--line)}
+.look-vivant .v-list .blocks article{counter-increment:vl;display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1.35fr);grid-auto-flow:dense;gap:6px 40px;align-items:start;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:34px 0;overflow:visible;color:inherit}
+.look-vivant .v-list .blocks article::before{content:counter(vl,decimal-leading-zero);grid-column:1;grid-row:1/span 6;font-family:var(--mono);font-size:.8rem;color:var(--accent);padding-top:8px}
+.look-vivant .v-list .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-list .blk :is(.k,h3){grid-column:2}.look-vivant .v-list .blk h3{font-size:clamp(1.4rem,2.4vw,1.9rem);margin:4px 0 0}
+.look-vivant .v-list .blk :is(p,ul,.more){grid-column:3}.look-vivant .v-list .blk p{font-size:.98rem}
+.look-vivant .v-list .blk .bi{grid-column:2;grid-row:3/span 4;width:min(100%,260px);margin:16px 0 0;border-radius:14px;aspect-ratio:4/3}
+.look-vivant .v-list .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-list .blk .more{margin-top:6px;padding-top:0}
+.look-vivant .v-list.dark .blocks,.look-vivant .v-list.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-list.dark .blocks article{color:inherit}.look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}
+/* mosaïque : une grande vignette photo, les autres en aplats colorés */
+.look-vivant .v-bento .blocks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-flow:dense;gap:14px}
+.look-vivant .v-bento .blocks article{grid-column:span 2;border:0;border-radius:24px;padding:28px 26px;background:color-mix(in srgb,var(--accent) 9%,var(--paper));color:var(--ink)}
+.look-vivant .v-bento .blocks article:nth-child(3n+2){background:color-mix(in srgb,var(--gold) 14%,var(--paper))}
+.look-vivant .v-bento .blocks article:nth-child(3n){background:color-mix(in srgb,var(--ink) 7%,var(--paper))}
+.look-vivant .v-bento .blk .bi{width:calc(100% + 52px);margin:-28px -26px 20px;aspect-ratio:16/10;border-radius:0}
+.look-vivant .v-bento .blocks article:first-child{grid-column:span 4;grid-row:span 2;position:relative;min-height:440px;justify-content:flex-end;background:var(--ink);color:#fff;isolation:isolate}
+.look-vivant .v-bento .blocks article:first-child .bi{position:absolute;inset:0;width:100%!important;max-width:none!important;height:100%;margin:0;aspect-ratio:auto;z-index:-2;object-fit:cover;padding:0}
+.look-vivant .v-bento .blocks article:first-child::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 20%,rgba(0,0,0,.78))}
+.look-vivant .v-bento .blocks article:first-child :is(p,li,.k){color:rgba(255,255,255,.85)}.look-vivant .v-bento .blocks article:first-child h3{font-size:clamp(1.6rem,2.8vw,2.3rem)}
+.look-vivant .v-bento .blocks article:first-child a{color:#fff}.look-vivant .v-bento .blocks article:first-child .more{margin-top:0}.look-vivant .v-bento .blocks article:first-child>*{max-width:62ch}
+.look-vivant .v-bento .blocks article:nth-child(n+2) .bi{display:none}
+/* colonne collante : titre à gauche qui reste visible, rubriques à droite */
+.look-vivant .v-split>.wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:20px clamp(40px,6vw,90px);align-items:start}
+.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:2}
+.look-vivant .v-split .head{display:block;position:sticky;top:110px;margin:0}.look-vivant .v-split .head h2{margin:14px 0 18px}
+.look-vivant .v-split .blocks{display:flex;flex-direction:column;gap:0;grid-column:2}
+.look-vivant .v-split .blocks article{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 26px;background:none;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding:28px 0;color:inherit;overflow:visible}
+.look-vivant .v-split .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-split .blk>*{grid-column:2}.look-vivant .v-split .blk .bi{grid-column:1;grid-row:1/span 6;width:120px;margin:4px 0 0;aspect-ratio:1;border-radius:14px}
+.look-vivant .v-split .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-split .blk:not(:has(.bi)){grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .blk:not(:has(.bi))>*{grid-column:1}
+.look-vivant .v-split.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-split.dark .blk p{color:rgba(255,255,255,.72)}
+@media(max-width:860px){.look-vivant .v-list .blocks article{grid-template-columns:44px minmax(0,1fr);gap:6px 14px}.look-vivant .v-list .blk>*:not(.bi){grid-column:2}.look-vivant .v-list .blk .bi{grid-row:auto;grid-column:2}
+.look-vivant .v-bento .blocks{grid-template-columns:minmax(0,1fr)}.look-vivant .v-bento .blocks article,.look-vivant .v-bento .blocks article:first-child{grid-column:1;grid-row:auto}.look-vivant .v-bento .blocks article:first-child{min-height:340px}
+.look-vivant .v-split>.wrap{grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .head{position:static}.look-vivant .v-split .blocks,.look-vivant .v-split>.wrap>*,.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:1}.look-vivant .v-split .blocks article{grid-template-columns:76px minmax(0,1fr);gap:4px 16px}.look-vivant .v-split .blk .bi{width:76px}}
+/* atouts : colonnes ouvertes, sans encadré */
+.look-vivant .feat>div{background:none;border:0;border-top:2px solid var(--ink);border-radius:0;box-shadow:none;padding:22px 4px 0}
+.look-vivant .dark .feat>div{border-color:rgba(255,255,255,.5);color:inherit}
+/* parcours : sommaire en lignes, la photo apparaît au survol */
+.look-vivant .vv-steps{display:block;border-top:1px solid var(--line)}
+.look-vivant .vv-step{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(0,1.2fr) 150px;gap:6px 34px;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:26px 0;position:relative}
+.look-vivant .vv-step.rv:hover{transform:none;box-shadow:none}
+.look-vivant .vv-step .bar{position:absolute;left:0;right:0;bottom:-1px;margin:0;height:2px;background:none}
+.look-vivant .vv-step .num{grid-column:1;grid-row:1;flex-direction:column;gap:4px}.look-vivant .vv-step .num b{font-size:.8rem;color:var(--accent)}
+.look-vivant .vv-step h3{grid-column:2;grid-row:1;margin:0;font-size:clamp(1.4rem,2.6vw,2.1rem);transition:transform .4s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover h3{transform:translateX(8px)}
+.look-vivant .vv-step p{grid-column:3;grid-row:1;margin:0}
+.look-vivant .vv-step .tint{grid-column:4;grid-row:1;aspect-ratio:4/3;opacity:.0;transform:scale(.9) rotate(-3deg);transition:opacity .4s,transform .5s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover .tint{opacity:1;transform:none}
+.look-vivant .vv-step .go{grid-column:3;grid-row:2;font-size:.82rem;color:var(--accent)}
+@media(hover:none){.look-vivant .vv-step .tint{opacity:1;transform:none}}
+@media(max-width:860px){.look-vivant .vv-step{grid-template-columns:minmax(0,1fr) 96px;gap:8px 16px}.look-vivant .vv-step>*{grid-column:1!important;grid-row:auto!important}.look-vivant .vv-step .tint{grid-column:2!important;grid-row:1/span 3!important;opacity:1;transform:none}}
 </style>"""
 
 VIVANT_JS = r"""<script>(function(){const R=matchMedia('(prefers-reduced-motion:reduce)').matches;
@@ -1349,7 +1428,14 @@ def build(d, page=None, prefix="", idmap=None):
     css = CSS % {**t, "heroem": t.get("heroem", "#f0d9b5")}
     h = d["hero"]
     sections = page["sections"] if page else d["sections"]
+    if vivant:
+        sections = _vivant_variants(d, sections)
     navitems = _navitems(d, page, prefix)
+    if vivant and h.get("cta1") and len(navitems) > 2:
+        # le bouton du menu mène déjà là : pas de second lien « Contact » à côté
+        _c = h["cta1"][1] if re.match(r"^(https?:|#|tel:|mailto:|/)", h["cta1"][1]) else (prefix or "") + h["cta1"][1]
+        _n = lambda u: re.sub(r"(index\.html)?/?$", "", u)
+        navitems = [(hr, l, (cur or "") + (' class="dup"' if _n(hr) == _n(_c) else "")) for hr, l, cur in navitems]
     nav = "".join(f'<a href="{attr(hr)}"{cur}>{e(l)}</a>' for hr, l, cur in navitems)
     figs = "".join(f'<div class="fig rv"><b>{b}</b><span>{e(l)}</span></div>' for b, l in d.get("figures", []))
     blocks = []

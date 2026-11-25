@@ -255,6 +255,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .navcta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:18px;transition:background .25s}.navcta:hover{background:var(--accent)}
 @media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
 @media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
+@media(min-width:861px){.look-vivant header:not(.many) .links a.dup{display:none}}
 .look-vivant .topbar{display:none}
 .look-vivant header[style*="--navbg"] .nav{background:var(--navbg)}.look-vivant header[data-navdark] .nav{color:#fff}.look-vivant header[data-navdark] .navcta{background:#fff;color:var(--ink)}
 @media(max-width:860px){.look-vivant header[data-navdark] .links{color:var(--ink)}}
@@ -343,6 +344,62 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .vv-step .ini{font-family:var(--sf);font-style:italic;font-size:4rem;color:var(--accent);opacity:.6}
 .vv-step p{font-size:.92rem;color:var(--muted);margin:14px 0 12px;flex:1}.vv-step .go{font-size:.88rem;font-weight:500}
 @media(prefers-reduced-motion:reduce){.vv-step .bar i{transition:none}}
+/* ---- variété des rubriques (pas de cartes partout) ---- */
+html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-margin-top:100px}
+.look-vivant .chips{margin-top:34px;gap:10px}
+.look-vivant .dark :is(.card,.blocks article,.feat>div){color:var(--ink)}.look-vivant .dark .blocks article p{color:var(--muted)}
+/* liste éditoriale numérotée */
+.look-vivant .v-list .blocks{display:block;counter-reset:vl;border-top:1px solid var(--line)}
+.look-vivant .v-list .blocks article{counter-increment:vl;display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1.35fr);grid-auto-flow:dense;gap:6px 40px;align-items:start;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:34px 0;overflow:visible;color:inherit}
+.look-vivant .v-list .blocks article::before{content:counter(vl,decimal-leading-zero);grid-column:1;grid-row:1/span 6;font-family:var(--mono);font-size:.8rem;color:var(--accent);padding-top:8px}
+.look-vivant .v-list .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-list .blk :is(.k,h3){grid-column:2}.look-vivant .v-list .blk h3{font-size:clamp(1.4rem,2.4vw,1.9rem);margin:4px 0 0}
+.look-vivant .v-list .blk :is(p,ul,.more){grid-column:3}.look-vivant .v-list .blk p{font-size:.98rem}
+.look-vivant .v-list .blk .bi{grid-column:2;grid-row:3/span 4;width:min(100%,260px);margin:16px 0 0;border-radius:14px;aspect-ratio:4/3}
+.look-vivant .v-list .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-list .blk .more{margin-top:6px;padding-top:0}
+.look-vivant .v-list.dark .blocks,.look-vivant .v-list.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-list.dark .blocks article{color:inherit}.look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}
+/* mosaïque : une grande vignette photo, les autres en aplats colorés */
+.look-vivant .v-bento .blocks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-flow:dense;gap:14px}
+.look-vivant .v-bento .blocks article{grid-column:span 2;border:0;border-radius:24px;padding:28px 26px;background:color-mix(in srgb,var(--accent) 9%,var(--paper));color:var(--ink)}
+.look-vivant .v-bento .blocks article:nth-child(3n+2){background:color-mix(in srgb,var(--gold) 14%,var(--paper))}
+.look-vivant .v-bento .blocks article:nth-child(3n){background:color-mix(in srgb,var(--ink) 7%,var(--paper))}
+.look-vivant .v-bento .blk .bi{width:calc(100% + 52px);margin:-28px -26px 20px;aspect-ratio:16/10;border-radius:0}
+.look-vivant .v-bento .blocks article:first-child{grid-column:span 4;grid-row:span 2;position:relative;min-height:440px;justify-content:flex-end;background:var(--ink);color:#fff;isolation:isolate}
+.look-vivant .v-bento .blocks article:first-child .bi{position:absolute;inset:0;width:100%!important;max-width:none!important;height:100%;margin:0;aspect-ratio:auto;z-index:-2;object-fit:cover;padding:0}
+.look-vivant .v-bento .blocks article:first-child::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 20%,rgba(0,0,0,.78))}
+.look-vivant .v-bento .blocks article:first-child :is(p,li,.k){color:rgba(255,255,255,.85)}.look-vivant .v-bento .blocks article:first-child h3{font-size:clamp(1.6rem,2.8vw,2.3rem)}
+.look-vivant .v-bento .blocks article:first-child a{color:#fff}.look-vivant .v-bento .blocks article:first-child .more{margin-top:0}.look-vivant .v-bento .blocks article:first-child>*{max-width:62ch}
+.look-vivant .v-bento .blocks article:nth-child(n+2) .bi{display:none}
+/* colonne collante : titre à gauche qui reste visible, rubriques à droite */
+.look-vivant .v-split>.wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:20px clamp(40px,6vw,90px);align-items:start}
+.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:2}
+.look-vivant .v-split .head{display:block;position:sticky;top:110px;margin:0}.look-vivant .v-split .head h2{margin:14px 0 18px}
+.look-vivant .v-split .blocks{display:flex;flex-direction:column;gap:0;grid-column:2}
+.look-vivant .v-split .blocks article{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 26px;background:none;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding:28px 0;color:inherit;overflow:visible}
+.look-vivant .v-split .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-split .blk>*{grid-column:2}.look-vivant .v-split .blk .bi{grid-column:1;grid-row:1/span 6;width:120px;margin:4px 0 0;aspect-ratio:1;border-radius:14px}
+.look-vivant .v-split .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-split .blk:not(:has(.bi)){grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .blk:not(:has(.bi))>*{grid-column:1}
+.look-vivant .v-split.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-split.dark .blk p{color:rgba(255,255,255,.72)}
+@media(max-width:860px){.look-vivant .v-list .blocks article{grid-template-columns:44px minmax(0,1fr);gap:6px 14px}.look-vivant .v-list .blk>*:not(.bi){grid-column:2}.look-vivant .v-list .blk .bi{grid-row:auto;grid-column:2}
+.look-vivant .v-bento .blocks{grid-template-columns:minmax(0,1fr)}.look-vivant .v-bento .blocks article,.look-vivant .v-bento .blocks article:first-child{grid-column:1;grid-row:auto}.look-vivant .v-bento .blocks article:first-child{min-height:340px}
+.look-vivant .v-split>.wrap{grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .head{position:static}.look-vivant .v-split .blocks,.look-vivant .v-split>.wrap>*,.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:1}.look-vivant .v-split .blocks article{grid-template-columns:76px minmax(0,1fr);gap:4px 16px}.look-vivant .v-split .blk .bi{width:76px}}
+/* atouts : colonnes ouvertes, sans encadré */
+.look-vivant .feat>div{background:none;border:0;border-top:2px solid var(--ink);border-radius:0;box-shadow:none;padding:22px 4px 0}
+.look-vivant .dark .feat>div{border-color:rgba(255,255,255,.5);color:inherit}
+/* parcours : sommaire en lignes, la photo apparaît au survol */
+.look-vivant .vv-steps{display:block;border-top:1px solid var(--line)}
+.look-vivant .vv-step{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(0,1.2fr) 150px;gap:6px 34px;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:26px 0;position:relative}
+.look-vivant .vv-step.rv:hover{transform:none;box-shadow:none}
+.look-vivant .vv-step .bar{position:absolute;left:0;right:0;bottom:-1px;margin:0;height:2px;background:none}
+.look-vivant .vv-step .num{grid-column:1;grid-row:1;flex-direction:column;gap:4px}.look-vivant .vv-step .num b{font-size:.8rem;color:var(--accent)}
+.look-vivant .vv-step h3{grid-column:2;grid-row:1;margin:0;font-size:clamp(1.4rem,2.6vw,2.1rem);transition:transform .4s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover h3{transform:translateX(8px)}
+.look-vivant .vv-step p{grid-column:3;grid-row:1;margin:0}
+.look-vivant .vv-step .tint{grid-column:4;grid-row:1;aspect-ratio:4/3;opacity:.0;transform:scale(.9) rotate(-3deg);transition:opacity .4s,transform .5s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover .tint{opacity:1;transform:none}
+.look-vivant .vv-step .go{grid-column:3;grid-row:2;font-size:.82rem;color:var(--accent)}
+@media(hover:none){.look-vivant .vv-step .tint{opacity:1;transform:none}}
+@media(max-width:860px){.look-vivant .vv-step{grid-template-columns:minmax(0,1fr) 96px;gap:8px 16px}.look-vivant .vv-step>*{grid-column:1!important;grid-row:auto!important}.look-vivant .vv-step .tint{grid-column:2!important;grid-row:1/span 3!important;opacity:1;transform:none}}
 </style>
 <style>
 header .topbar{height:32px;overflow:hidden;font-size:.74rem;letter-spacing:.06em;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);transition:height .3s,border-color .3s}
@@ -359,7 +416,7 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 <body class="look-vivant">
 
 <header class="hastop"><div class="topbar"><div class="wrap"><span>Midi-Pyrénées · 09 · 31 · 81 · 82</span><span><a href="tel:+33632207036">06 32 20 70 36</a></span><span><a href="mailto:maespy@live.fr">maespy@live.fr</a></span></div></div><div class="wrap nav"><a href="./" class="logo gen"><span class="mono" aria-hidden="true">I</span><span class="nm">Immediag<small>Diagnostics immobiliers</small></span></a>
-<nav class="links"><a href="./" aria-current="page">Accueil</a><a href="a-propos/">Qui sommes-nous ?</a><a href="les-diagnostics-immobiliers/">Les diagnostics</a><a href="vos-obligations/">Vos obligations</a><a href="contactez-nous/">Contact</a></nav><a class="navcta" href="contactez-nous/">Demander un devis</a>
+<nav class="links"><a href="./" aria-current="page">Accueil</a><a href="a-propos/">Qui sommes-nous ?</a><a href="les-diagnostics-immobiliers/">Les diagnostics</a><a href="vos-obligations/">Vos obligations</a><a href="contactez-nous/" class="dup">Contact</a></nav><a class="navcta" href="contactez-nous/">Demander un devis</a>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero vv" id="accueil"><div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="wrap vv-g">
 <div class="vv-txt"><span class="vv-pill"><i class="dot"></i><span class="tp" data-t="Diagnostics immobiliers · Midi-Pyrénées">Diagnostics immobiliers · Midi-Pyrénées</span><b class="caret" aria-hidden="true"></b></span>
@@ -374,11 +431,11 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 <h3>Contact</h3><div class="tint"><span class="ini">C</span></div><p>Pour toutes questions ou demande de devis : Marie Anna Espy, gérante.</p><span class="go">Voir la page <span aria-hidden="true">→</span></span></a></div></div></section>
 <section id="bienvenue"><div class="wrap split">
 <div class="img rv" style="background-image:url('https://images.pexels.com/photos/4792480/pexels-photo-4792480.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920')" role="img" aria-label="Plan de maison, règle et lunettes sur un bureau"></div>
-<div class="rv"><span class="eyebrow">Bienvenue</span><h2>Immediag, <em class="it">diagnostics immobiliers sur Midi-Pyrénées</em></h2><p>Bienvenue sur le site officiel de la société Immediag, votre diagnostiqueur immobilier sur la région Midi-Pyrénées.</p><p>IMMEDIAG est une société spécialisée dans le diagnostic immobilier pour toutes ventes, locations ou gestions de biens.</p><p>Pour toutes questions ou demande de devis : Marie Anna Espy, gérante, au <a href="tel:+33632207036" style="border-bottom:1px solid var(--gold)">06 32 20 70 36</a>.</p><p class="sign">Marie Anna Espy, gérante</p></div></div></section><section id="obligatoires"><div class="wrap"><div class="head rv"><span class="eyebrow">Vente et location</span>
+<div class="rv"><span class="eyebrow">Bienvenue</span><h2>Immediag, <em class="it">diagnostics immobiliers sur Midi-Pyrénées</em></h2><p>Bienvenue sur le site officiel de la société Immediag, votre diagnostiqueur immobilier sur la région Midi-Pyrénées.</p><p>IMMEDIAG est une société spécialisée dans le diagnostic immobilier pour toutes ventes, locations ou gestions de biens.</p><p>Pour toutes questions ou demande de devis : Marie Anna Espy, gérante, au <a href="tel:+33632207036" style="border-bottom:1px solid var(--gold)">06 32 20 70 36</a>.</p><p class="sign">Marie Anna Espy, gérante</p></div></div></section><section id="obligatoires" class="v-split"><div class="wrap"><div class="head rv"><span class="eyebrow">Vente et location</span>
 <h2>Les diagnostics <em class="it">obligatoires</em></h2><p>Diagnostics immobiliers obligatoires pour la mise en vente ou la mise en location de bien immobilier :</p></div><div class="blocks rv"><article class="blk"><span class="k">Vendre</span><h3>À la vente</h3><p>Lors de la vente de votre bien, vous devez respecter certains diagnostics.</p><p class="more"><a href="vos-obligations/">Vos obligations</a></p></article><article class="blk"><span class="k">Louer</span><h3>À la location</h3><p>Les diagnostics à annexer au bail d'habitation : plomb, DPE, état des risques, surface Boutin.</p><p class="more"><a href="vos-obligations/">Vos obligations</a></p></article><article class="blk"><span class="k">Le détail</span><h3>Chaque diagnostic</h3><p>Logements concernés, qui le fait réaliser, contenu et durée de validité de chaque diagnostic.</p><p class="more"><a href="les-diagnostics-immobiliers/">Les diagnostics immobiliers</a></p></article></div><div class="chips"><span>Amiante</span><span>DPE</span><span>Plomb</span><span>DTG</span><span>Termites</span><span>ERP</span><span>Électricité</span><span>Gaz</span><span>Amiante avant démolition</span></div></div></section><section id="engagements"><div class="wrap">
 <div class="rv" style="max-width:660px"><span class="eyebrow">Nos engagements</span>
 <h2 style="margin:14px 0 18px">Prix, réactivité, <em class="it">fiabilité</em></h2><p style="opacity:.8"></p></div>
-<div class="feat rv"><div><i>I.</i><h3>Meilleur prix</h3><p>Devis gratuit et au meilleur prix avec mise en place de solutions pour vous aider dans le paiement de votre facture.</p></div><div><i>II.</i><h3>Réactivité</h3><p>Rapidité des interventions en moins de 24h. Rapport transmis sous 24h par e-mail et/ou courrier (hors prélèvements).</p></div><div><i>III.</i><h3>Disponibilité</h3><p>Disponibles et à l&#x27;écoute pour toutes vos questions techniques et commerciales.</p></div><div><i>IV.</i><h3>Mobilité</h3><p>Intervention sur Midi-Pyrénées (09 – 31 – 81 – 82).</p></div><div><i>V.</i><h3>Fiabilité</h3><p>Chaque technicien est formé, certifié et assuré par QUALIXPERT LCC.</p></div></div></div></section><section id="avis"><div class="wrap"><div class="head rv"><span class="eyebrow">Avis et réseau</span>
+<div class="feat rv"><div><i>I.</i><h3>Meilleur prix</h3><p>Devis gratuit et au meilleur prix avec mise en place de solutions pour vous aider dans le paiement de votre facture.</p></div><div><i>II.</i><h3>Réactivité</h3><p>Rapidité des interventions en moins de 24h. Rapport transmis sous 24h par e-mail et/ou courrier (hors prélèvements).</p></div><div><i>III.</i><h3>Disponibilité</h3><p>Disponibles et à l&#x27;écoute pour toutes vos questions techniques et commerciales.</p></div><div><i>IV.</i><h3>Mobilité</h3><p>Intervention sur Midi-Pyrénées (09 – 31 – 81 – 82).</p></div><div><i>V.</i><h3>Fiabilité</h3><p>Chaque technicien est formé, certifié et assuré par QUALIXPERT LCC.</p></div></div></div></section><section id="avis" class="v-list"><div class="wrap"><div class="head rv"><span class="eyebrow">Avis et réseau</span>
 <h2>Les avis <em class="it">sur Immediag</em></h2></div><div class="blocks rv"><article class="blk"><span class="k">Google</span><h3>Avis Google</h3><p>Consultez les avis laissés par les clients d'Immediag.</p><p class="more"><a href="https://bit.ly/3q7ARV7" target="_blank" rel="noopener">Voir les avis Google</a></p></article><article class="blk"><span class="k">Google</span><h3>Laisser le vôtre</h3><p>Vous avez fait appel à Immediag ? Votre avis aide les prochains clients.</p><p class="more"><a href="https://g.page/r/CWwsSgVdxC9vEB0/review" target="_blank" rel="noopener">Laisser un avis</a></p></article><article class="blk"><span class="k">OH Business</span><h3>Réseau d'affaires</h3><p>Groupe de réseau d'affaires : pour nous rejoindre, n'hésitez pas à m'appeler !</p><p class="more"><a href="tel:+33632207036">06 32 20 70 36</a></p></article></div></div></section><div class="banner" style="background-image:url('https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920')"><div class="rv"><span class="eyebrow">Devis gratuit</span>
 <h2>Une vente, une location ? Parlons de votre bien</h2><a href="contactez-nous/" class="btn ghost">Demander un devis</a></div></div><section id="contact"><div class="wrap"><div class="visit nomap rv"><div class="info">
 <span class="eyebrow">Contact</span><h2>Immediag, <em class="it">Midi-Pyrénées</em></h2><p style="color:var(--muted)">Pour toutes questions ou demande de devis.</p>

@@ -255,6 +255,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .navcta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:18px;transition:background .25s}.navcta:hover{background:var(--accent)}
 @media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
 @media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
+@media(min-width:861px){.look-vivant header:not(.many) .links a.dup{display:none}}
 .look-vivant .topbar{display:none}
 .look-vivant header[style*="--navbg"] .nav{background:var(--navbg)}.look-vivant header[data-navdark] .nav{color:#fff}.look-vivant header[data-navdark] .navcta{background:#fff;color:var(--ink)}
 @media(max-width:860px){.look-vivant header[data-navdark] .links{color:var(--ink)}}
@@ -343,6 +344,62 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .vv-step .ini{font-family:var(--sf);font-style:italic;font-size:4rem;color:var(--accent);opacity:.6}
 .vv-step p{font-size:.92rem;color:var(--muted);margin:14px 0 12px;flex:1}.vv-step .go{font-size:.88rem;font-weight:500}
 @media(prefers-reduced-motion:reduce){.vv-step .bar i{transition:none}}
+/* ---- variété des rubriques (pas de cartes partout) ---- */
+html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-margin-top:100px}
+.look-vivant .chips{margin-top:34px;gap:10px}
+.look-vivant .dark :is(.card,.blocks article,.feat>div){color:var(--ink)}.look-vivant .dark .blocks article p{color:var(--muted)}
+/* liste éditoriale numérotée */
+.look-vivant .v-list .blocks{display:block;counter-reset:vl;border-top:1px solid var(--line)}
+.look-vivant .v-list .blocks article{counter-increment:vl;display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1.35fr);grid-auto-flow:dense;gap:6px 40px;align-items:start;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:34px 0;overflow:visible;color:inherit}
+.look-vivant .v-list .blocks article::before{content:counter(vl,decimal-leading-zero);grid-column:1;grid-row:1/span 6;font-family:var(--mono);font-size:.8rem;color:var(--accent);padding-top:8px}
+.look-vivant .v-list .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-list .blk :is(.k,h3){grid-column:2}.look-vivant .v-list .blk h3{font-size:clamp(1.4rem,2.4vw,1.9rem);margin:4px 0 0}
+.look-vivant .v-list .blk :is(p,ul,.more){grid-column:3}.look-vivant .v-list .blk p{font-size:.98rem}
+.look-vivant .v-list .blk .bi{grid-column:2;grid-row:3/span 4;width:min(100%,260px);margin:16px 0 0;border-radius:14px;aspect-ratio:4/3}
+.look-vivant .v-list .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-list .blk .more{margin-top:6px;padding-top:0}
+.look-vivant .v-list.dark .blocks,.look-vivant .v-list.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-list.dark .blocks article{color:inherit}.look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}
+/* mosaïque : une grande vignette photo, les autres en aplats colorés */
+.look-vivant .v-bento .blocks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-flow:dense;gap:14px}
+.look-vivant .v-bento .blocks article{grid-column:span 2;border:0;border-radius:24px;padding:28px 26px;background:color-mix(in srgb,var(--accent) 9%,var(--paper));color:var(--ink)}
+.look-vivant .v-bento .blocks article:nth-child(3n+2){background:color-mix(in srgb,var(--gold) 14%,var(--paper))}
+.look-vivant .v-bento .blocks article:nth-child(3n){background:color-mix(in srgb,var(--ink) 7%,var(--paper))}
+.look-vivant .v-bento .blk .bi{width:calc(100% + 52px);margin:-28px -26px 20px;aspect-ratio:16/10;border-radius:0}
+.look-vivant .v-bento .blocks article:first-child{grid-column:span 4;grid-row:span 2;position:relative;min-height:440px;justify-content:flex-end;background:var(--ink);color:#fff;isolation:isolate}
+.look-vivant .v-bento .blocks article:first-child .bi{position:absolute;inset:0;width:100%!important;max-width:none!important;height:100%;margin:0;aspect-ratio:auto;z-index:-2;object-fit:cover;padding:0}
+.look-vivant .v-bento .blocks article:first-child::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 20%,rgba(0,0,0,.78))}
+.look-vivant .v-bento .blocks article:first-child :is(p,li,.k){color:rgba(255,255,255,.85)}.look-vivant .v-bento .blocks article:first-child h3{font-size:clamp(1.6rem,2.8vw,2.3rem)}
+.look-vivant .v-bento .blocks article:first-child a{color:#fff}.look-vivant .v-bento .blocks article:first-child .more{margin-top:0}.look-vivant .v-bento .blocks article:first-child>*{max-width:62ch}
+.look-vivant .v-bento .blocks article:nth-child(n+2) .bi{display:none}
+/* colonne collante : titre à gauche qui reste visible, rubriques à droite */
+.look-vivant .v-split>.wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:20px clamp(40px,6vw,90px);align-items:start}
+.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:2}
+.look-vivant .v-split .head{display:block;position:sticky;top:110px;margin:0}.look-vivant .v-split .head h2{margin:14px 0 18px}
+.look-vivant .v-split .blocks{display:flex;flex-direction:column;gap:0;grid-column:2}
+.look-vivant .v-split .blocks article{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 26px;background:none;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding:28px 0;color:inherit;overflow:visible}
+.look-vivant .v-split .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-split .blk>*{grid-column:2}.look-vivant .v-split .blk .bi{grid-column:1;grid-row:1/span 6;width:120px;margin:4px 0 0;aspect-ratio:1;border-radius:14px}
+.look-vivant .v-split .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-split .blk:not(:has(.bi)){grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .blk:not(:has(.bi))>*{grid-column:1}
+.look-vivant .v-split.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-split.dark .blk p{color:rgba(255,255,255,.72)}
+@media(max-width:860px){.look-vivant .v-list .blocks article{grid-template-columns:44px minmax(0,1fr);gap:6px 14px}.look-vivant .v-list .blk>*:not(.bi){grid-column:2}.look-vivant .v-list .blk .bi{grid-row:auto;grid-column:2}
+.look-vivant .v-bento .blocks{grid-template-columns:minmax(0,1fr)}.look-vivant .v-bento .blocks article,.look-vivant .v-bento .blocks article:first-child{grid-column:1;grid-row:auto}.look-vivant .v-bento .blocks article:first-child{min-height:340px}
+.look-vivant .v-split>.wrap{grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .head{position:static}.look-vivant .v-split .blocks,.look-vivant .v-split>.wrap>*,.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:1}.look-vivant .v-split .blocks article{grid-template-columns:76px minmax(0,1fr);gap:4px 16px}.look-vivant .v-split .blk .bi{width:76px}}
+/* atouts : colonnes ouvertes, sans encadré */
+.look-vivant .feat>div{background:none;border:0;border-top:2px solid var(--ink);border-radius:0;box-shadow:none;padding:22px 4px 0}
+.look-vivant .dark .feat>div{border-color:rgba(255,255,255,.5);color:inherit}
+/* parcours : sommaire en lignes, la photo apparaît au survol */
+.look-vivant .vv-steps{display:block;border-top:1px solid var(--line)}
+.look-vivant .vv-step{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(0,1.2fr) 150px;gap:6px 34px;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:26px 0;position:relative}
+.look-vivant .vv-step.rv:hover{transform:none;box-shadow:none}
+.look-vivant .vv-step .bar{position:absolute;left:0;right:0;bottom:-1px;margin:0;height:2px;background:none}
+.look-vivant .vv-step .num{grid-column:1;grid-row:1;flex-direction:column;gap:4px}.look-vivant .vv-step .num b{font-size:.8rem;color:var(--accent)}
+.look-vivant .vv-step h3{grid-column:2;grid-row:1;margin:0;font-size:clamp(1.4rem,2.6vw,2.1rem);transition:transform .4s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover h3{transform:translateX(8px)}
+.look-vivant .vv-step p{grid-column:3;grid-row:1;margin:0}
+.look-vivant .vv-step .tint{grid-column:4;grid-row:1;aspect-ratio:4/3;opacity:.0;transform:scale(.9) rotate(-3deg);transition:opacity .4s,transform .5s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover .tint{opacity:1;transform:none}
+.look-vivant .vv-step .go{grid-column:3;grid-row:2;font-size:.82rem;color:var(--accent)}
+@media(hover:none){.look-vivant .vv-step .tint{opacity:1;transform:none}}
+@media(max-width:860px){.look-vivant .vv-step{grid-template-columns:minmax(0,1fr) 96px;gap:8px 16px}.look-vivant .vv-step>*{grid-column:1!important;grid-row:auto!important}.look-vivant .vv-step .tint{grid-column:2!important;grid-row:1/span 3!important;opacity:1;transform:none}}
 </style>
 <style>
 header .topbar{height:32px;overflow:hidden;font-size:.74rem;letter-spacing:.06em;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);transition:height .3s,border-color .3s}
@@ -359,7 +416,7 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 <body class="look-vivant" data-logo="https://lucvaganay.fr/wp-content/uploads/2018/03/logo-mobile2.jpg">
 
 <header class="haslogo hastop"><div class="topbar"><div class="wrap"><span>Lun–ven 7h30–18h30 · sam. sur RDV</span><span><a href="tel:+33478523663">04 78 52 36 63</a></span></div></div><div class="wrap nav"><a href="../" class="logo"><img src="https://lucvaganay.fr/wp-content/uploads/2018/03/logo-mobile2.jpg" alt="Atelier Luc Vaganay" style="height:52px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></a>
-<nav class="links"><a href="../">Accueil</a><a href="../latelier/" aria-current="page">L&#x27;atelier</a><a href="../restauration-mobilier/">Restauration mobilier</a><a href="../restauration-patrimoine/">Restauration patrimoine</a><a href="../actualites/">Actualités</a><a href="../contact/">Contact</a></nav><a class="navcta" href="../contact/">Demander un devis</a>
+<nav class="links"><a href="../">Accueil</a><a href="../latelier/" aria-current="page">L&#x27;atelier</a><a href="../restauration-mobilier/">Restauration mobilier</a><a href="../restauration-patrimoine/">Restauration patrimoine</a><a href="../actualites/">Actualités</a><a href="../contact/" class="dup">Contact</a></nav><a class="navcta" href="../contact/">Demander un devis</a>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="hero phead" id="accueil" style="background-image:url('https://lucvaganay.fr/wp-content/uploads/2017/11/banner-bois.jpg')"><div class="wrap"><span class="eyebrow">Ébénistes restaurateurs à Lyon 6</span><h1>L'atelier Luc Vaganay <em>au 105 rue Vendôme</em></h1><p>Depuis 1985, Luc Vaganay et son équipe sont spécialisés dans la restauration du patrimoine. L&#x27;Atelier d&#x27;ébénisterie intervient aussi sur tout type de mobilier, même les plus récents.</p></div></section>
 
@@ -367,7 +424,7 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 <div class="img rv" style="background-image:url('https://lucvaganay.fr/wp-content/uploads/2017/10/home.jpg')" role="img" aria-label="Atelier Luc Vaganay"></div>
 <div class="rv"><span class="eyebrow">Qui sommes nous ?</span><h2>L'atelier <em class="it">Luc Vaganay</em></h2><p>Après trois ans d'école aux ateliers d'apprentissage Boisard, Luc Vaganay en sort en 1981 avec un CAP d'ébéniste-marqueteur. Durant quatre années celui-ci travaille chez différents ébénistes-antiquaires de Lyon, et reprend la succession de l'un d'entre eux en juillet 1985 à l'âge de 23 ans avec deux salariés.</p><p>L'entreprise travaille pour une clientèle de particuliers, mais aussi musées, bâtiments publics et mobilier classé Monument historique. Au delà d'une clientèle régionale (Rhône-Alpes), l'atelier travaille dans toute la France et pour une clientèle fidèle en Suisse et au Royaume-Uni.</p><p>Depuis 2008 l'Atelier Luc Vaganay travaille aussi sur des grands chantiers de restauration de Patrimoine.</p><p class="sign">Luc Vaganay</p><div class="labels"><img src="https://lucvaganay.fr/wp-content/uploads/2017/11/EPV.png" alt="Entreprise du Patrimoine Vivant" loading="lazy" referrerpolicy="no-referrer"></div></div></div></section><section id="parcours" class="dark"><div class="wrap"><div class="rv" style="max-width:680px"><span class="eyebrow">Distinctions</span>
 <h2 style="margin:14px 0 16px">Un savoir-faire <em class="it">reconnu</em></h2><p style="opacity:.8">Labelisé Entreprise du Patrimoine Vivant pour la promotion du savoir faire Français. Finaliste au concours Rayonnement des Savoir-Faire.</p></div><ol class="tl rv" style="--n:6"><li><time>1981</time><h3>CAP ébéniste-marqueteur</h3><p>Trois ans d&#x27;école aux ateliers d&#x27;apprentissage Boisard.</p></li><li><time>1985</time><h3>Reprise de l&#x27;atelier</h3><p>En juillet 1985, à l&#x27;âge de 23 ans, avec deux salariés.</p></li><li><time>2006</time><h3>Prix de la dynamique artisanale</h3><p>Décerné par la Banque Populaire.</p></li><li><time>2007</time><h3>Un des meilleurs ouvriers de France</h3><p>Participation au concours.</p></li><li><time>2008</time><h3>Artisan d&#x27;Art</h3><p>Reconnu Artisan d&#x27;Art par la chambre des Métiers.</p></li><li><time>2010</time><h3>Maître Artisan</h3><p>Maître Artisan depuis 2010.</p></li></ol></div></section><section class="quote"><div class="wrap rv"><span class="eyebrow">Notre philosophie</span>
-<blockquote>Nous savons faire la part des choses entre la valeur vénale et la valeur sentimentale de votre mobilier.</blockquote><p>Atelier Luc Vaganay</p></div></section><section id="expertise-sinistre"><div class="wrap"><div class="head rv"><span class="eyebrow">Expertise sinistre</span>
+<blockquote>Nous savons faire la part des choses entre la valeur vénale et la valeur sentimentale de votre mobilier.</blockquote><p>Atelier Luc Vaganay</p></div></section><section id="expertise-sinistre" class="v-split"><div class="wrap"><div class="head rv"><span class="eyebrow">Expertise sinistre</span>
 <h2>Avec les <em class="it">experts d'assurance</em></h2><p>L'atelier Luc Vaganay travaille en collaboration avec les experts d'assurance afin d'établir des devis de sinistres : incendies, dégats des eaux, explosions. Exemple d'une commode Louis XV dont les pieds ont été rongés par un chien.</p></div><div class="blocks rv"><article class="blk"><img class="bi" src="https://lucvaganay.fr/wp-content/uploads/2017/10/commode-louis-xv-rongee.jpg" alt="Commode Louis XV avant restauration" loading="lazy" referrerpolicy="no-referrer"><span class="k">Avant</span></article><article class="blk"><img class="bi" src="https://lucvaganay.fr/wp-content/uploads/2017/11/commode-louis-xv-rongee-detail.jpg" alt="Pied rongé par un chien" loading="lazy" referrerpolicy="no-referrer"><span class="k">Dégâts</span><p>Dégats, rognée par un chien.</p></article><article class="blk"><img class="bi" src="https://lucvaganay.fr/wp-content/uploads/2017/11/commode-louis-xv-rongee-detail-2.jpg" alt="Autre détail des dégâts" loading="lazy" referrerpolicy="no-referrer"><span class="k">Autre détail</span></article><article class="blk"><img class="bi" src="https://lucvaganay.fr/wp-content/uploads/2017/12/commode-louis-xv-rongee-apres.jpg" alt="Commode Louis XV après restauration" loading="lazy" referrerpolicy="no-referrer"><span class="k">Après</span></article></div></div></section>
 <footer><div class="wrap"><div class="top"><div><div class="flogo"><img src="https://lucvaganay.fr/wp-content/uploads/2018/03/logo-mobile2.jpg" alt="Atelier Luc Vaganay" style="height:52px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Atelier Luc Vaganay, ébéniste restaurateur de meubles anciens à Lyon 6e depuis 1985. Restauration de mobilier, restauration du patrimoine, expertise de sinistres.</p><div class="social"><a href="https://www.facebook.com/Luc-Vaganay-SARL-1914204455470623/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a><a href="https://www.linkedin.com/company/luc-vaganay-sarl" target="_blank" rel="noopener" aria-label="Linkedin" title="Linkedin"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></div></div>

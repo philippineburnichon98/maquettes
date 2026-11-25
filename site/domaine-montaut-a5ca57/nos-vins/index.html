@@ -255,6 +255,7 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .navcta{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:18px;transition:background .25s}.navcta:hover{background:var(--accent)}
 @media(max-width:860px){.navcta{display:none}.look-vivant .links{inset:86px 12px auto;border-radius:20px}}
 @media(min-width:861px) and (max-width:1180px){.look-vivant header.many .navcta{display:none}}
+@media(min-width:861px){.look-vivant header:not(.many) .links a.dup{display:none}}
 .look-vivant .topbar{display:none}
 .look-vivant header[style*="--navbg"] .nav{background:var(--navbg)}.look-vivant header[data-navdark] .nav{color:#fff}.look-vivant header[data-navdark] .navcta{background:#fff;color:var(--ink)}
 @media(max-width:860px){.look-vivant header[data-navdark] .links{color:var(--ink)}}
@@ -343,6 +344,62 @@ header{transition:background .35s,box-shadow .35s,color .35s,padding .3s}header.
 .vv-step .ini{font-family:var(--sf);font-style:italic;font-size:4rem;color:var(--accent);opacity:.6}
 .vv-step p{font-size:.92rem;color:var(--muted);margin:14px 0 12px;flex:1}.vv-step .go{font-size:.88rem;font-weight:500}
 @media(prefers-reduced-motion:reduce){.vv-step .bar i{transition:none}}
+/* ---- variété des rubriques (pas de cartes partout) ---- */
+html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-margin-top:100px}
+.look-vivant .chips{margin-top:34px;gap:10px}
+.look-vivant .dark :is(.card,.blocks article,.feat>div){color:var(--ink)}.look-vivant .dark .blocks article p{color:var(--muted)}
+/* liste éditoriale numérotée */
+.look-vivant .v-list .blocks{display:block;counter-reset:vl;border-top:1px solid var(--line)}
+.look-vivant .v-list .blocks article{counter-increment:vl;display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1.35fr);grid-auto-flow:dense;gap:6px 40px;align-items:start;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:34px 0;overflow:visible;color:inherit}
+.look-vivant .v-list .blocks article::before{content:counter(vl,decimal-leading-zero);grid-column:1;grid-row:1/span 6;font-family:var(--mono);font-size:.8rem;color:var(--accent);padding-top:8px}
+.look-vivant .v-list .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-list .blk :is(.k,h3){grid-column:2}.look-vivant .v-list .blk h3{font-size:clamp(1.4rem,2.4vw,1.9rem);margin:4px 0 0}
+.look-vivant .v-list .blk :is(p,ul,.more){grid-column:3}.look-vivant .v-list .blk p{font-size:.98rem}
+.look-vivant .v-list .blk .bi{grid-column:2;grid-row:3/span 4;width:min(100%,260px);margin:16px 0 0;border-radius:14px;aspect-ratio:4/3}
+.look-vivant .v-list .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-list .blk .more{margin-top:6px;padding-top:0}
+.look-vivant .v-list.dark .blocks,.look-vivant .v-list.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-list.dark .blocks article{color:inherit}.look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}
+/* mosaïque : une grande vignette photo, les autres en aplats colorés */
+.look-vivant .v-bento .blocks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-flow:dense;gap:14px}
+.look-vivant .v-bento .blocks article{grid-column:span 2;border:0;border-radius:24px;padding:28px 26px;background:color-mix(in srgb,var(--accent) 9%,var(--paper));color:var(--ink)}
+.look-vivant .v-bento .blocks article:nth-child(3n+2){background:color-mix(in srgb,var(--gold) 14%,var(--paper))}
+.look-vivant .v-bento .blocks article:nth-child(3n){background:color-mix(in srgb,var(--ink) 7%,var(--paper))}
+.look-vivant .v-bento .blk .bi{width:calc(100% + 52px);margin:-28px -26px 20px;aspect-ratio:16/10;border-radius:0}
+.look-vivant .v-bento .blocks article:first-child{grid-column:span 4;grid-row:span 2;position:relative;min-height:440px;justify-content:flex-end;background:var(--ink);color:#fff;isolation:isolate}
+.look-vivant .v-bento .blocks article:first-child .bi{position:absolute;inset:0;width:100%!important;max-width:none!important;height:100%;margin:0;aspect-ratio:auto;z-index:-2;object-fit:cover;padding:0}
+.look-vivant .v-bento .blocks article:first-child::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 20%,rgba(0,0,0,.78))}
+.look-vivant .v-bento .blocks article:first-child :is(p,li,.k){color:rgba(255,255,255,.85)}.look-vivant .v-bento .blocks article:first-child h3{font-size:clamp(1.6rem,2.8vw,2.3rem)}
+.look-vivant .v-bento .blocks article:first-child a{color:#fff}.look-vivant .v-bento .blocks article:first-child .more{margin-top:0}.look-vivant .v-bento .blocks article:first-child>*{max-width:62ch}
+.look-vivant .v-bento .blocks article:nth-child(n+2) .bi{display:none}
+/* colonne collante : titre à gauche qui reste visible, rubriques à droite */
+.look-vivant .v-split>.wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:20px clamp(40px,6vw,90px);align-items:start}
+.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:2}
+.look-vivant .v-split .head{display:block;position:sticky;top:110px;margin:0}.look-vivant .v-split .head h2{margin:14px 0 18px}
+.look-vivant .v-split .blocks{display:flex;flex-direction:column;gap:0;grid-column:2}
+.look-vivant .v-split .blocks article{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 26px;background:none;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding:28px 0;color:inherit;overflow:visible}
+.look-vivant .v-split .blocks article:hover{transform:none;box-shadow:none}
+.look-vivant .v-split .blk>*{grid-column:2}.look-vivant .v-split .blk .bi{grid-column:1;grid-row:1/span 6;width:120px;margin:4px 0 0;aspect-ratio:1;border-radius:14px}
+.look-vivant .v-split .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
+.look-vivant .v-split .blk:not(:has(.bi)){grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .blk:not(:has(.bi))>*{grid-column:1}
+.look-vivant .v-split.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-split.dark .blk p{color:rgba(255,255,255,.72)}
+@media(max-width:860px){.look-vivant .v-list .blocks article{grid-template-columns:44px minmax(0,1fr);gap:6px 14px}.look-vivant .v-list .blk>*:not(.bi){grid-column:2}.look-vivant .v-list .blk .bi{grid-row:auto;grid-column:2}
+.look-vivant .v-bento .blocks{grid-template-columns:minmax(0,1fr)}.look-vivant .v-bento .blocks article,.look-vivant .v-bento .blocks article:first-child{grid-column:1;grid-row:auto}.look-vivant .v-bento .blocks article:first-child{min-height:340px}
+.look-vivant .v-split>.wrap{grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .head{position:static}.look-vivant .v-split .blocks,.look-vivant .v-split>.wrap>*,.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:1}.look-vivant .v-split .blocks article{grid-template-columns:76px minmax(0,1fr);gap:4px 16px}.look-vivant .v-split .blk .bi{width:76px}}
+/* atouts : colonnes ouvertes, sans encadré */
+.look-vivant .feat>div{background:none;border:0;border-top:2px solid var(--ink);border-radius:0;box-shadow:none;padding:22px 4px 0}
+.look-vivant .dark .feat>div{border-color:rgba(255,255,255,.5);color:inherit}
+/* parcours : sommaire en lignes, la photo apparaît au survol */
+.look-vivant .vv-steps{display:block;border-top:1px solid var(--line)}
+.look-vivant .vv-step{display:grid;grid-template-columns:110px minmax(0,1fr) minmax(0,1.2fr) 150px;gap:6px 34px;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:26px 0;position:relative}
+.look-vivant .vv-step.rv:hover{transform:none;box-shadow:none}
+.look-vivant .vv-step .bar{position:absolute;left:0;right:0;bottom:-1px;margin:0;height:2px;background:none}
+.look-vivant .vv-step .num{grid-column:1;grid-row:1;flex-direction:column;gap:4px}.look-vivant .vv-step .num b{font-size:.8rem;color:var(--accent)}
+.look-vivant .vv-step h3{grid-column:2;grid-row:1;margin:0;font-size:clamp(1.4rem,2.6vw,2.1rem);transition:transform .4s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover h3{transform:translateX(8px)}
+.look-vivant .vv-step p{grid-column:3;grid-row:1;margin:0}
+.look-vivant .vv-step .tint{grid-column:4;grid-row:1;aspect-ratio:4/3;opacity:.0;transform:scale(.9) rotate(-3deg);transition:opacity .4s,transform .5s cubic-bezier(.2,.75,.15,1)}.look-vivant .vv-step:hover .tint{opacity:1;transform:none}
+.look-vivant .vv-step .go{grid-column:3;grid-row:2;font-size:.82rem;color:var(--accent)}
+@media(hover:none){.look-vivant .vv-step .tint{opacity:1;transform:none}}
+@media(max-width:860px){.look-vivant .vv-step{grid-template-columns:minmax(0,1fr) 96px;gap:8px 16px}.look-vivant .vv-step>*{grid-column:1!important;grid-row:auto!important}.look-vivant .vv-step .tint{grid-column:2!important;grid-row:1/span 3!important;opacity:1;transform:none}}
 </style>
 <style>
 header .topbar{height:32px;overflow:hidden;font-size:.74rem;letter-spacing:.06em;border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);transition:height .3s,border-color .3s}
@@ -363,7 +420,7 @@ footer .social{display:flex;gap:10px;margin-top:18px}footer .social a{display:gr
 <div class="ctas"><button class="btn solid yes" type="button">Oui, entrer</button><button class="btn ghost no" type="button" style="color:var(--ink);border-color:var(--ink)">Non</button></div>
 <p class="no-msg" hidden>Désolé, vous devez avoir 18 ans pour accéder à ce site. L'abus d'alcool est dangereux pour la santé.</p></div></div>
 <header class="hastop"><div class="topbar"><div class="wrap"><span><a href="tel:+33559213817">05 59 21 38 17</a></span><span><a href="tel:+33680422188">06 80 42 21 88</a></span><span><a href="mailto:domaine.montaut@gmail.com">domaine.montaut@gmail.com</a></span></div></div><div class="wrap nav"><a href="../" class="logo gen"><span class="mono" aria-hidden="true">DM</span><span class="nm">Domaine Montaut<small>Vins AOC Jurançon · Monein</small></span></a>
-<nav class="links"><a href="../">Accueil</a><a href="../le-domaine/">Le Domaine</a><a href="../le-vignoble/">Le vignoble</a><a href="../nos-vins/" aria-current="page">Nos vins</a><a href="../salon-des-vins/">Nous rencontrer</a><a href="../nos-amis-vignerons/">Nos amis vignerons</a><a href="../contact/">Contact</a></nav><a class="navcta" href="../nos-vins/">Découvrir nos vins</a>
+<nav class="links"><a href="../">Accueil</a><a href="../le-domaine/">Le Domaine</a><a href="../le-vignoble/">Le vignoble</a><a href="../nos-vins/" aria-current="page" class="dup">Nos vins</a><a href="../salon-des-vins/">Nous rencontrer</a><a href="../nos-amis-vignerons/">Nos amis vignerons</a><a href="../contact/">Contact</a></nav><a class="navcta" href="../nos-vins/">Découvrir nos vins</a>
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <section class="phead pbox" id="accueil"><div class="wrap pbox-g"><div class="rv in"><span class="eyebrow">AOC Jurançon · sec, moelleux et liquoreux</span><h1>Nos <em>vins</em></h1><p>Des Vins de Jurançon de qualité, vendangés à la main sur nos cinq hectares de vignes à Monein.</p></div>
 <figure><img src="https://www.jurancon-montaut.com/_media/img/large/montage-prestige.jpg" alt="" referrerpolicy="no-referrer" style="object-position:center"></figure></div></section><style>
@@ -393,7 +450,7 @@ body:has(.pbox) header{color:var(--ink)}
 <span class="tag">Jurançon Moelleux · Bio</span><h3>Cuvée Prestige 2022</h3><div class="app">AOC Jurançon · Millésime 2022</div>
 <p>Notre Jurançon Cuvée Prestige est à 100% issue du cépage Petit Manseng. Le raisin est vendangé manuellement par tries successives au mois de novembre et récolté passerillé, c&#x27;est-à-dire à surmaturité. Cette cuvée, à la robe couleur or doré, d&#x27;une parfaite harmonie, développe puissance et concentration. Ce vin blanc moelleux - liquoreux séduit par sa petite nervosité en milieu de bouche et une finale très aromatique et fruitée.</p><dl class="sheet"><dt>Cépage</dt><dd>100 % Petit Manseng</dd><dt>Potentiel de garde</dt><dd>10 à 15 ans</dd><dt>Bouteille</dt><dd>75 cL - 13,5 % vol</dd><dt>Accords</dt><dd>À l&#x27;apéritif et lors de vins d&#x27;honneur ; un foie gras et un fromage de roquefort, de chèvre, ou de brebis des Pyrénées</dd></dl><p class="note" style="text-align:left;margin-top:12px"><a href="https://www.jurancon-montaut.com/boutique-aoc-jurancon-moelleux-cuvee-prestige-2022-bio.html" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Commander sur la boutique</a></p></article><article class="card" data-cat="moelleux" style="--c:#b7861f"><img class="bimg" src="https://www.jurancon-montaut.com/_media/img/large/instinct.jpg" alt="Cuvée L&#x27;instinct 2019" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=this.dataset.sil" data-sil="&lt;svg class=&quot;bimg&quot; viewBox=&quot;0 0 40 120&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M16 2h8v30c0 6 10 10 10 22v58a6 6 0 0 1-6 6H12a6 6 0 0 1-6-6V54c0-12 10-16 10-22z&quot; fill=&quot;#b7861f&quot; opacity=&quot;.85&quot;/&gt;&lt;rect x=&quot;10&quot; y=&quot;66&quot; width=&quot;20&quot; height=&quot;28&quot; fill=&quot;#fff&quot; opacity=&quot;.9&quot;/&gt;&lt;/svg&gt;">
 <span class="tag">Jurançon Moelleux</span><h3>Cuvée L&#x27;instinct 2019</h3><div class="app">AOC Jurançon Moelleux · Millésime 2019</div>
-<p>Vin blanc moelleux, élevé en fûts.</p><dl class="sheet"><dt>Cépage</dt><dd>100 % Petit Manseng</dd><dt>Potentiel de garde</dt><dd>10 à 15 ans</dd><dt>Bouteille</dt><dd>75 cL - 13,5 % vol</dd></dl><p class="note" style="text-align:left;margin-top:12px"><a href="https://www.jurancon-montaut.com/boutique-aoc-jurancon-moelleux-cuvee-linstinct-2019.html" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Commander sur la boutique</a></p></article></div><p class="note">Tarifs : sur la boutique en ligne du domaine ou par téléphone au 05 59 21 38 17.</p></div></section><section id="commander"><div class="wrap"><div class="head rv"><span class="eyebrow">Boutique</span>
+<p>Vin blanc moelleux, élevé en fûts.</p><dl class="sheet"><dt>Cépage</dt><dd>100 % Petit Manseng</dd><dt>Potentiel de garde</dt><dd>10 à 15 ans</dd><dt>Bouteille</dt><dd>75 cL - 13,5 % vol</dd></dl><p class="note" style="text-align:left;margin-top:12px"><a href="https://www.jurancon-montaut.com/boutique-aoc-jurancon-moelleux-cuvee-linstinct-2019.html" target="_blank" rel="noopener" style="border-bottom:1px solid var(--gold)">Commander sur la boutique</a></p></article></div><p class="note">Tarifs : sur la boutique en ligne du domaine ou par téléphone au 05 59 21 38 17.</p></div></section><section id="commander" class="v-list"><div class="wrap"><div class="head rv"><span class="eyebrow">Boutique</span>
 <h2>Commander <em class="it">nos vins</em></h2><p>Merci de bien vouloir faire des cartons multiples de 6 bouteilles (panachage possible).</p></div><div class="blocks rv"><article class="blk"><span class="k">Livraison</span><h3>En France métropolitaine</h3><p>Livraison 12 € ttc pour 6, 12 ou 18 bouteilles, offerte à partir de 24 bouteilles.</p><p>Pour les autres destinations, contactez le Domaine.</p><p class="more"><a href="https://www.jurancon-montaut.com/boutique.html" target="_blank" rel="noopener">Commander sur la boutique en ligne</a></p></article><article class="blk"><span class="k">Paiement</span><h3>Carte bancaire ou chèque</h3><p>Le paiement de vos achats s'effectue en totalité à la commande par carte bancaire ou par chèque, à l'ordre de EARL Bachardou - Domaine Montaut.</p><p class="more"><a href="https://www.jurancon-montaut.com/conditions-generales-de-vente.html" target="_blank" rel="noopener">Conditions générales de vente</a></p></article><article class="blk"><span class="k">Au chai</span><h3>Vente au Domaine</h3><p>Nous vous accueillons toute l'année au Domaine. Dans la mesure du possible, prévenez-nous de votre venue : <a href="tel:+33559213817">05 59 21 38 17</a>.</p><p class="more"><a href="../contact/">Venir au Domaine</a></p></article></div></div></section>
 <footer><div class="wrap"><div class="top"><div><div class="logo gen"><span class="mono" aria-hidden="true">DM</span><span class="nm">Domaine Montaut<small>Vins AOC Jurançon · Monein</small></span></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Le Domaine Montaut, exploitation familiale à Monein, au coeur du Béarn. Bernadette, Fernand et Nicolas Montaut, vignerons indépendants, Vins de Jurançon.</p></div>
