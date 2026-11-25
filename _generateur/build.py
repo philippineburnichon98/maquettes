@@ -1061,6 +1061,154 @@ def _vivant_variants(d, sections):
     return out
 
 
+VP_LAYOUTS = ("vp-split", "vp-tint", "vp-full", "vp-duo")
+
+
+def _vp_imgs(pg, ill=None):
+    """Photos d'une page (sans logos ni pictos), dans l'ordre, sans doublon.
+    Les illustrations « contain » (schémas, pictos de diagnostics…) vont dans `ill`."""
+    out = []
+    ill = [] if ill is None else ill
+
+    def walk(x, key=None):
+        if isinstance(x, dict):
+            if x.get("contain"):
+                if x.get("img") and x["img"] not in ill:
+                    ill.append(x["img"])
+                return
+            for k, v in x.items():
+                walk(v, k)
+        elif isinstance(x, list):
+            for v in x:
+                walk(v, key)
+        elif isinstance(x, str) and key in ("img", "full", "thumb") and x not in out:
+            if re.match(r"^(https?:|img/)", x) and "logo" not in x.lower():
+                out.append(x)
+    if pg.get("img"):
+        out.append(pg["img"])
+    walk(pg.get("sections", []))
+    return out
+
+
+def _vp_points(pg, n=4):
+    """Jusqu'à 4 intitulés tirés du contenu réel de la page (titres de rubriques, atouts, cartes)."""
+    pts = []
+    for s in pg.get("sections", []):
+        for it in s.get("items", []):
+            t = it.get("title") or it.get("name") if isinstance(it, dict) else (it[0] if isinstance(it, list) and it and isinstance(it[0], str) else None)
+            t = re.sub(r"<[^>]+>", "", t or "").strip()
+            if t and len(t) < 60 and t not in pts:
+                pts.append(t)
+    return pts[:n]
+
+
+def vivant_pages(d):
+    """Accueil du look vivant : une vraie mini-section par page du menu (photo, accroche, points clés,
+    lien vers la page), chacune avec une mise en page différente de la précédente."""
+    pgs = [pg for pg in d.get("pages", []) if not pg.get("hidden")]
+    if not pgs:
+        return ""
+    k = sum(map(ord, d.get("slug", ""))) % len(VP_LAYOUTS)
+    # intitulés communs à plusieurs pages (encadré répété, liens de bas de page…) : pas des points clés
+    _cnt = {}
+    for pg in pgs:
+        for t in set(_vp_points(pg, 99)):
+            _cnt[t] = _cnt.get(t, 0) + 1
+    out = []
+    prev = None
+    for i, pg in enumerate(pgs):
+        ill = []
+        imgs = _vp_imgs(pg, ill)
+        if not imgs and ill:
+            lay = "vp-ill vp-rev" if prev == "vp-ill" else "vp-ill"
+        elif not imgs:
+            lay = "vp-band" if prev != "vp-band" else "vp-band vp-light"
+        else:
+            lay = VP_LAYOUTS[k % len(VP_LAYOUTS)]
+            k += 1
+            if lay == "vp-duo" and len(imgs) < 2:
+                lay = "vp-split"
+            if lay == prev:
+                lay = VP_LAYOUTS[k % len(VP_LAYOUTS)]
+                k += 1
+                if lay == "vp-duo" and len(imgs) < 2:
+                    lay = "vp-tint" if prev != "vp-tint" else "vp-full"
+        prev = lay
+        label = pg.get("label", pg["title"])
+        title = pg.get("h1") or pg["title"]
+        lead = pg.get("lead", "")
+        pts = [t for t in _vp_points(pg, 99) if _cnt.get(t, 0) < 2][:4]
+        ptsh = ('<ul class="pts">' + "".join(f"<li>{e(p)}</li>" for p in pts) + "</ul>") if pts else ""
+        num = f'<span class="vp-n">{i + 1:02d}<i></i>{e(label)}</span>'
+        go = f'<a class="vp-go" href="{attr(pg["slug"])}/">Découvrir <span aria-hidden="true">→</span></a>'
+        txt = f'<div class="vp-t rv">{num}<h2>{title if title != label else e(label)}</h2>{f"<p>{e(lead)}</p>" if lead else ""}{ptsh}{go}</div>'
+        if lay.startswith("vp-ill"):
+            tiles = "".join(f'<span style="--i:{j}"><img src="{attr(u)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>' for j, u in enumerate(ill[:4]))
+            body = f'<div class="wrap">{txt}<div class="vp-tiles rv n{min(len(ill), 4)}">{tiles}</div></div>'
+        elif lay.startswith("vp-band"):
+            body = f'<div class="wrap"><div class="vp-t rv">{num}<h2>{title if title != label else e(label)}</h2></div><div class="vp-r rv">{f"<p>{e(lead)}</p>" if lead else ""}{ptsh}{go}</div></div>'
+        elif lay == "vp-full":
+            body = f'<div class="vp-ph rv"><img src="{attr(imgs[0])}" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="wrap">{txt}</div>'
+        elif lay == "vp-duo":
+            body = f'<div class="wrap">{txt}<div class="vp-ph rv"><img src="{attr(imgs[0])}" alt="" loading="lazy" referrerpolicy="no-referrer"><img src="{attr(imgs[1])}" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>'
+        else:
+            fl = f'<span class="vp-fl">{e(pts[0])}</span>' if pts and lay == "vp-tint" else ""
+            body = f'<div class="wrap"><div class="vp-ph rv"><img src="{attr(imgs[0])}" alt="" loading="lazy" referrerpolicy="no-referrer">{fl}</div>{txt}</div>'
+        out.append(f'<section class="vp {lay}" id="p-{attr(pg["slug"])}">{body}</section>')
+    return "".join(out)
+
+
+VP_CSS = """<style>
+/* accueil : une mini-section par page */
+.vp{padding:clamp(70px,9vw,120px) 0;position:relative}
+.vp h2{font-size:clamp(2.1rem,4.2vw,3.4rem);margin:16px 0 18px}
+.vp .vp-n{display:inline-flex;align-items:center;gap:12px;font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.vp .vp-n i{display:block;width:38px;height:1px;background:currentColor;transform-origin:left;transform:scaleX(0);transition:transform 1s .3s cubic-bezier(.2,.75,.15,1)}.vp .rv.in .vp-n i{transform:none}
+.vp p{color:var(--muted);font-size:1.05rem;max-width:52ch}
+.vp .pts{list-style:none;margin:22px 0 28px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.vp .pts li{font-size:.86rem;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid rgba(0,0,0,.08)}
+.vp-go{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fff;border-radius:999px;padding:13px 22px;font-size:.92rem;font-weight:500;transition:background .25s,gap .25s}.vp-go:hover{background:var(--accent);gap:16px}
+.vp-ph{position:relative;border-radius:28px;overflow:hidden}
+.vp-ph img{display:block;width:100%;height:100%;object-fit:cover;transform:scale(1.14);transition:transform 1.8s cubic-bezier(.2,.75,.15,1)}.vp-ph.in img{transform:none}
+/* photo à gauche, texte à droite */
+.vp-split .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(36px,6vw,90px);align-items:center}
+.vp-split .vp-ph{aspect-ratio:4/4.6}
+/* bandeau teinté, photo à droite avec une étiquette flottante */
+.vp-tint>.wrap{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(36px,6vw,90px);align-items:center;background:color-mix(in srgb,var(--accent) 9%,var(--paper));border-radius:36px;padding:clamp(28px,5vw,70px)}
+.vp-tint .vp-ph{order:2;aspect-ratio:16/12;overflow:visible}.vp-tint .vp-ph img{border-radius:24px}
+.vp-tint .vp-fl{position:absolute;left:-22px;bottom:28px;background:rgba(255,255,255,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-radius:999px;padding:11px 18px;font-size:.88rem;font-weight:500;box-shadow:0 20px 40px -20px rgba(0,0,0,.4);animation:bob 7s ease-in-out infinite}
+/* grande photo pleine largeur, texte dans une carte vitrée */
+.vp-full{padding-top:clamp(40px,5vw,60px)}
+.vp-full .vp-ph{margin:0 16px;height:min(78vh,720px)}
+.vp-full .vp-ph img{animation:kb 22s ease-in-out infinite alternate}@keyframes kb{to{transform:scale(1.08) translate(-1.5%,-1%)}}
+.vp-full .wrap{position:relative;margin-top:-220px}
+.vp-full .vp-t{max-width:560px;background:rgba(255,255,255,.86);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-radius:28px;padding:clamp(24px,3.5vw,44px);box-shadow:0 40px 80px -40px rgba(0,0,0,.45)}
+/* titre et deux photos décalées */
+.vp-duo .wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,6vw,90px);align-items:center}
+.vp-duo .vp-ph{display:grid;grid-template-columns:1fr 1fr;gap:16px;overflow:visible;border-radius:0}
+.vp-duo .vp-ph img{border-radius:24px;aspect-ratio:3/4}.vp-duo .vp-ph img:nth-child(2){margin-top:70px;transition-delay:.15s}
+/* bande sombre, sans photo */
+.vp-band{background:var(--ink);color:#fff;margin:0 16px;border-radius:36px}
+.vp-band .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:end}
+.vp-band h2{font-size:clamp(2.4rem,5vw,4.2rem);margin-bottom:0}.vp-band .vp-n{color:color-mix(in srgb,var(--accent) 45%,#fff)}
+.vp-band p{color:rgba(255,255,255,.75)}.vp-band .pts li{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.16);color:#fff}
+.vp-band+.vp-band,.vp+.vp-band,.vp-band+.vp{margin-top:16px}.vp-band .vp-go{background:#fff;color:var(--ink)}.vp-band .vp-go:hover{background:var(--accent);color:#fff}
+/* illustrations du site (pictos, schémas) en tuiles flottantes */
+.vp-ill .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(36px,6vw,90px);align-items:center}
+.vp-tiles{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;max-width:560px;justify-self:center;width:100%}.vp-tiles.n1{grid-template-columns:minmax(0,1fr)}
+.vp-tiles span{display:grid;place-items:center;aspect-ratio:1;min-width:0;min-height:0;overflow:hidden;background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:26px;padding:12%;box-shadow:0 30px 60px -40px rgba(0,0,0,.35);animation:bob 7s calc(var(--i) * -1.7s) ease-in-out infinite}
+.vp-tiles.n1 span{aspect-ratio:4/3}.vp-tiles span:nth-child(even){transform:translateY(34px);animation-name:bob2}@keyframes bob2{0%,100%{transform:translateY(34px)}50%{transform:translateY(24px)}}
+.vp-tiles span:nth-child(3n+2){background:color-mix(in srgb,var(--accent) 8%,#fff)}.vp-tiles img{width:100%;height:100%;object-fit:contain}.vp-tiles.n1 span{padding:6%}
+.vp-light{background:color-mix(in srgb,var(--gold) 12%,var(--paper));color:var(--ink)}.vp-light .vp-n{color:var(--accent)}.vp-light p{color:var(--muted)}.vp-light .pts li{background:#fff;border-color:rgba(0,0,0,.08);color:var(--ink)}.vp-light .vp-go{background:var(--ink);color:#fff}
+.vp-rev .vp-tiles{order:-1}
+@media(max-width:860px){.vp-ill .wrap{grid-template-columns:minmax(0,1fr)}.vp-rev .vp-tiles{order:0}}
+.vp+.vp:not(.vp-band):not(.vp-tint):not(.vp-full){border-top:1px solid var(--line)}
+@media(max-width:860px){.vp-split .wrap,.vp-tint>.wrap,.vp-duo .wrap,.vp-band .wrap{grid-template-columns:minmax(0,1fr)}.vp-tint .vp-ph{order:0}.vp-tint .vp-fl{left:12px}
+.vp-full .vp-ph{height:60vh;margin:0 12px}.vp-full .wrap{margin-top:-120px}.vp-duo .vp-ph img:nth-child(2){margin-top:40px}.vp-band,.vp-tint>.wrap{border-radius:28px}.vp-band{margin:0 12px}}
+@media(prefers-reduced-motion:reduce){.vp-ph img,.vp-full .vp-ph img,.vp-tint .vp-fl,.vp-tiles span{animation:none;transform:none;transition:none}}
+</style>"""
+
+
 def vivant_parcours(d):
     """Valeur ajoutée du look vivant : les pages du site présentées comme un parcours
     (cartes numérotées 01/05, barre qui se remplit), avec leurs vrais titres, accroches et photos."""
@@ -1507,7 +1655,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <link href="{attr(t["fonts"])}" rel="stylesheet">
 <style>{css}</style>
 {LOOK_CSS}
-{VIVANT_CSS if vivant else ""}
+{(VIVANT_CSS + VP_CSS) if vivant else ""}
 {TOP_CSS if (d.get("topbar") or f.get("social")) else ""}
 {('<style>' + d['extra_css'] + '</style>') if d.get('extra_css') else ''}
 </head>
@@ -1517,7 +1665,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <nav class="links">{nav}</nav>{f'<a class="navcta" href="{attr(h["cta1"][1] if re.match(r"^(https?:|#|tel:|mailto:|/)", h["cta1"][1]) else (prefix or "") + h["cta1"][1])}">{e(h["cta1"][0])}</a>' if vivant and h.get("cta1") else ""}
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 {_pagehead(page, d) if page else (vivant_hero(d, h, d.get("figures", [])) if vivant else HOME_HERO)}
-{(vivant_marquee(d.get("figures", [])) + vivant_parcours(d).replace('class="vv-steps"', f'class="vv-steps" style="--n:{len([p for p in d.get("pages", []) if not p.get("hidden")])}"') if vivant else f'<div class="figures"><div class="wrap">{figs}</div></div>') if figs and not page else ""}
+{(vivant_marquee(d.get("figures", [])) if figs else "") + vivant_pages(d) if vivant and not page else (f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else "")}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p>{('<div class="social">' + "".join(f'<a href="{attr(u)}" target="_blank" rel="noopener" aria-label="{attr(n.capitalize())}" title="{attr(n.capitalize())}">{SOCIAL_ICONS.get(n.lower(), e(n))}</a>' for n, u in f["social"]) + '</div>') if f.get("social") else ""}</div>
