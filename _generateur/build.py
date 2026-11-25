@@ -1102,6 +1102,69 @@ def _vp_points(pg, n=4):
     return pts[:n]
 
 
+VP_GENERIC = ("En savoir plus", "Lire la suite", "Voir le détail", "Tout savoir", "Explorer la page", "Voir la page")
+
+
+def _vp_cta(d, pg):
+    """Libellé du bouton d'une section de l'accueil, déduit de la page visée (son type, son nom).
+    None si rien de précis ne ressort : un libellé générique est alors choisi sans doublon."""
+    lab = pg.get("label", pg["title"])
+    txt = " ".join([pg["slug"], lab, pg.get("eyebrow", ""), pg["title"]]).lower()
+    kinds = [x.get("kind") for x in pg.get("sections", [])]
+    if "questionnaire" in txt:
+        return "Répondre au questionnaire"
+    if "devis" in txt:
+        return "Demander un devis"
+    if "contact" in pg["slug"] or lab.lower().startswith("contact"):
+        return "Nous contacter"
+    if any(k in kinds for k in ("resaform", "booking")) or "réserv" in txt:
+        return "Réserver"
+    if "form" in kinds:
+        return "Remplir le formulaire"
+    if "menu" in kinds or "carte" in lab.lower():
+        return "Voir la carte"
+    if "cards" in kinds and _est_domaine(d) or re.search(r"\bvins?\b", lab.lower()):
+        return "Voir les vins"
+    if "tarif" in txt or "prix" in lab.lower():
+        return "Voir les tarifs"
+    if "réalis" in txt or "chantier" in lab.lower():
+        return "Voir les réalisations"
+    if "photo" in lab.lower() or "galerie" in lab.lower() or (kinds and kinds[0] == "gallery"):
+        return "Voir les photos"
+    if "team" in kinds or "équipe" in lab.lower():
+        return "Rencontrer l'équipe"
+    if "blog" in kinds or "actualit" in txt:
+        return "Lire les actualités"
+    if "avis" in lab.lower() or "témoign" in txt:
+        return "Lire les avis"
+    ll = lab.lower()
+    for keys, out in ((("à propos", "qui sommes", "présentation", "a propos"), "Faire connaissance"),
+                      (("histori", "histoire"), "Lire notre histoire"),
+                      (("presse", "palmarès"), "Lire la presse"),
+                      (("honoraires",), "Voir les honoraires"),
+                      (("zone",), "Voir la zone d'intervention"),
+                      (("rencontrer", "informations pratiques", "accès"), "Venir nous voir"),
+                      (("rejoign", "recrut"), "Nous rejoindre"),
+                      (("commande",), "Commander"),
+                      (("vendre", "vous vendez"), "Vendre votre bien"),
+                      (("à découvrir",), "Explorer"),
+                      (("louer", "vous louez"), "Louer votre bien"),
+                      (("acheter",), "Acheter"),
+                      (("visite",), "Préparer la visite")):
+        if any(k in ll for k in keys):
+            return out
+    if ll == "vente":
+        return "Vendre votre bien"
+    for cand in (lab.strip(), pg["title"].strip()):
+        m = re.match(r"^(nos|vos|notre|votre|les|le|la|l'|l’|mon|ma|mes)\s*(.+)$", cand, re.I)
+        if m and len(cand) <= 32:
+            art = m.group(1).lower()
+            return f"Voir {art}{'' if art.endswith(('\'', '’')) else ' '}{m.group(2)}"
+    if len(lab) <= 26:
+        return f"{lab} en détail"
+    return None
+
+
 def vivant_pages(d):
     """Accueil du look vivant : une vraie mini-section par page du menu (photo, accroche, points clés,
     lien vers la page), chacune avec une mise en page différente de la précédente."""
@@ -1116,6 +1179,7 @@ def vivant_pages(d):
             _cnt[t] = _cnt.get(t, 0) + 1
     out = []
     prev = None
+    used = set()
     for i, pg in enumerate(pgs):
         ill = []
         imgs = _vp_imgs(pg, ill)
@@ -1140,7 +1204,11 @@ def vivant_pages(d):
         pts = [t for t in _vp_points(pg, 99) if _cnt.get(t, 0) < 2][:4]
         ptsh = ('<ul class="pts">' + "".join(f"<li>{e(p)}</li>" for p in pts) + "</ul>") if pts else ""
         num = f'<span class="vp-n">{i + 1:02d}<i></i>{e(label)}</span>'
-        go = f'<a class="vp-go" href="{attr(pg["slug"])}/">Découvrir <span aria-hidden="true">→</span></a>'
+        cta = _vp_cta(d, pg)
+        if not cta or cta in used:
+            cta = next((g for g in VP_GENERIC if g not in used), "En savoir plus")
+        used.add(cta)
+        go = f'<a class="vp-go" href="{attr(pg["slug"])}/">{e(cta)} <span aria-hidden="true">→</span></a>'
         txt = f'<div class="vp-t rv">{num}<h2>{title if title != label else e(label)}</h2>{f"<p>{e(lead)}</p>" if lead else ""}{ptsh}{go}</div>'
         if lay.startswith("vp-ill"):
             tiles = "".join(f'<span style="--i:{j}"><img src="{attr(u)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>' for j, u in enumerate(ill[:4]))
@@ -1165,9 +1233,9 @@ VP_CSS = """<style>
 .vp .vp-n{display:inline-flex;align-items:center;gap:12px;font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .vp .vp-n i{display:block;width:38px;height:1px;background:currentColor;transform-origin:left;transform:scaleX(0);transition:transform 1s .3s cubic-bezier(.2,.75,.15,1)}.vp .rv.in .vp-n i{transform:none}
 .vp p{color:var(--muted);font-size:1.05rem;max-width:52ch}
-.vp .pts{list-style:none;margin:22px 0 28px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.vp .pts+.vp-go{margin-top:8px}.vp .pts{list-style:none;margin:24px 0 28px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .vp .pts li{font-size:.86rem;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid rgba(0,0,0,.08)}
-.vp-go{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fff;border-radius:999px;padding:13px 22px;font-size:.92rem;font-weight:500;transition:background .25s,gap .25s}.vp-go:hover{background:var(--accent);gap:16px}
+.vp-go{margin-top:36px;display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fff;border-radius:999px;padding:13px 22px;font-size:.92rem;font-weight:500;transition:background .25s,gap .25s}.vp-go:hover{background:var(--accent);gap:16px}
 .vp-ph{position:relative;border-radius:28px;overflow:hidden}
 .vp-ph img{display:block;width:100%;height:100%;object-fit:cover;transform:scale(1.14);transition:transform 1.8s cubic-bezier(.2,.75,.15,1)}.vp-ph.in img{transform:none}
 /* photo à gauche, texte à droite */
