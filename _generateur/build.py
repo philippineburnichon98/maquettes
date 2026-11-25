@@ -1166,10 +1166,54 @@ def _vp_cta(d, pg):
     return None
 
 
-def vivant_pages(d):
+VP_FORM_RE = re.compile(r"contact|command|devis|questionnaire|reserv|réserv|rendez|formulaire|acces|accès", re.I)
+
+
+def _dedupe_home(blocks, d):
+    """Accueil vivant : pas deux fois la même chose. Supprime les sections « sommaire » qui ne font que renvoyer
+    vers les pages (déjà présentées par vivant_pages) et renvoie les pages déjà couvertes par une section de
+    l'accueil, pour ne pas leur refaire une mini-section."""
+    pgs = {pg["slug"]: pg for pg in d.get("pages", []) if not pg.get("hidden")}
+    def targets(h):
+        out = set()
+        for u in re.findall(r'href="([^"#]+)"', h):
+            if re.match(r"^(https?:|tel:|mailto:|/)", u):
+                continue
+            seg = u.strip("./").split("/")[0]
+            if seg in pgs:
+                out.add(seg)
+        return out
+    keep, covered = [], set()
+    for h in blocks:
+        t = targets(h)
+        n_items = len(re.findall(r"<article", h))
+        if len(t) >= 2 and n_items and len(t) >= n_items - 1 and len(pgs) >= 2:
+            continue   # sommaire des pages : doublon des mini-sections
+        keep.append(h)
+        covered |= t
+        bid = re.search(r'<section[^>]*\bid="([^"]+)"', h)
+        if bid:
+            toks = {x for x in re.split(r"[-_]", bid.group(1).lower()) if len(x) >= 4 and x not in ("accueil", "home", "section")}
+            for sl in pgs:
+                if toks & {x for x in sl.lower().split("-") if len(x) >= 4}:
+                    covered.add(sl)
+        hd = re.search(r"<h2[^>]*>(.*?)</h2>", h, re.S)
+        if hd:
+            txt = re.sub(r"<[^>]+>", " ", hd.group(1)).lower()
+            for sl, pg in pgs.items():
+                lab = (pg.get("label") or pg["title"]).lower()
+                if len(lab) >= 5 and re.search(r"\b" + re.escape(lab) + r"\b", txt):
+                    covered.add(sl)
+    for sl, pg in pgs.items():
+        if VP_FORM_RE.search(sl) or VP_FORM_RE.search(pg.get("label") or pg["title"]):
+            covered.add(sl)   # page formulaire / contact : le bouton d'appel et le bloc final la couvrent
+    return keep, covered
+
+
+def vivant_pages(d, skip=()):
     """Accueil du look vivant : une vraie mini-section par page du menu (photo, accroche, points clés,
     lien vers la page), chacune avec une mise en page différente de la précédente."""
-    pgs = [pg for pg in d.get("pages", []) if not pg.get("hidden")]
+    pgs = [pg for pg in d.get("pages", []) if not pg.get("hidden") and pg["slug"] not in skip]
     if not pgs:
         return ""
     k = sum(map(ord, d.get("slug", ""))) % len(VP_LAYOUTS)
@@ -1394,6 +1438,9 @@ VIVANT_CSS = """<style>
 .look-vivant .grid>.rv:nth-child(3n+2),.look-vivant .blocks>.rv:nth-child(3n+2){transition-delay:.08s}.look-vivant .grid>.rv:nth-child(3n),.look-vivant .blocks>.rv:nth-child(3n){transition-delay:.16s}
 .look-vivant footer{border-radius:28px 28px 0 0}
 .look-vivant .hero.phead{margin:86px 16px 0;border-radius:28px;min-height:40vh}
+@media(min-width:1100px){.look-vivant .grid:has(>:nth-child(5):last-child){grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}}
+.look-vivant .hero .eyebrow{color:#fff;background:rgba(10,10,10,.55);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);padding:10px 18px;border-radius:999px;font-size:.9rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;text-shadow:none;gap:10px}.look-vivant .hero .eyebrow::before{width:7px;height:7px;border-radius:50%;background:#fff;opacity:.85}
+.look-vivant .hero.phead::before{background:linear-gradient(180deg,rgba(0,0,0,.42) 0%,rgba(0,0,0,.3) 35%,rgba(0,0,0,.62) 70%,rgba(0,0,0,.85) 100%)}
 .look-vivant .pbox{padding-top:clamp(120px,12vw,150px)}
 @media(prefers-reduced-motion:reduce){.blobs i,.vv h1 .w,.vv-card,.vv-mq div,.vv-pill,.vv p,.vv .ctas,.vv-vis{animation:none!important}.look-vivant .rv{filter:none}}
 
@@ -1693,6 +1740,9 @@ def build(d, page=None, prefix="", idmap=None):
         blocks.append({"story": section_story, "quote": section_quote, "features": section_features,
                        "cards": section_cards, "menu": section_menu, "gallery": section_gallery,
                        "banner": section_banner, "visit": section_visit, "booking": section_booking, "team": section_team, "resaform": section_resaform, "timeline": section_timeline, "blocks": section_blocks, "blog": section_blog, "article": section_article, "form": section_form, "reviews": section_reviews, "order": section_order}[kind](blk))
+    vp_skip = set()
+    if vivant and not page:
+        blocks, vp_skip = _dedupe_home(blocks, d)
     f = d["footer"]
     fcontact = "".join(f"<li>{c}</li>" for c in f["contact"])
     fnav = "".join(f'<li><a href="{attr(hr)}">{e(l)}</a></li>' for hr, l, cur in navitems)
@@ -1762,7 +1812,7 @@ A.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));addEventLi
 <nav class="links">{nav}</nav>{f'<a class="navcta" href="{attr(h["cta1"][1] if re.match(r"^(https?:|#|tel:|mailto:|/)", h["cta1"][1]) else (prefix or "") + h["cta1"][1])}">{e(h["cta1"][0])}</a>' if vivant and h.get("cta1") else ""}
 <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 {_pagehead(page, d) if page else (vivant_hero(d, h, d.get("figures", [])) if vivant else HOME_HERO)}
-{(vivant_marquee(d.get("figures", [])) if figs else "") + vivant_pages(d) if vivant and not page else (f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else "")}
+{(vivant_marquee(d.get("figures", [])) if figs else "") + vivant_pages(d, vp_skip) if vivant and not page else (f'<div class="figures"><div class="wrap">{figs}</div></div>' if figs and not page else "")}
 {"".join(blocks)}
 <footer><div class="wrap"><div class="top"><div>{flogo}
 <p style="margin-top:18px;max-width:340px;opacity:.75">{e(f["about"])}</p>{('<div class="social">' + "".join(f'<a href="{attr(u)}" target="_blank" rel="noopener" aria-label="{attr(n.capitalize())}" title="{attr(n.capitalize())}">{SOCIAL_ICONS.get(n.lower(), e(n))}</a>' for n, u in f["social"]) + '</div>') if f.get("social") else ""}</div>
