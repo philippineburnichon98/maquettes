@@ -1248,18 +1248,29 @@ def vivant_pages(d, skip=()):
         lead = pg.get("lead", "")
         pts = [t for t in _vp_points(pg, 99) if _cnt.get(t, 0) < 2][:4]
         ptsh = ('<ul class="pts">' + "".join(f"<li>{e(p)}</li>" for p in pts) + "</ul>") if pts else ""
-        num = f'<span class="vp-n">{i + 1:02d}<i></i>{e(label)}</span>' if len(pgs) > 1 else f'<span class="vp-n"><i></i>{e(label)}</span>'
+        # sur-titre : même style que les autres sections (trait animé + texte), sans répéter le titre ni les points dessous
+        ebt = label
+        if label.lower() in re.sub(r"<[^>]+>", "", title).lower():
+            cand = pg.get("eyebrow", "")
+            ebt = cand if cand and len(cand) <= 42 and cand.lower() != label.lower() else ""
+        if ebt:
+            pts = [t for t in pts if t.lower() not in ebt.lower()]
+            ptsh = ('<ul class="pts">' + "".join(f"<li>{e(p)}</li>" for p in pts) + "</ul>") if pts else ""
+        num = f'<span class="vp-n"><i></i>{e(ebt)}</span>' if ebt else ""
+        if "<em" not in title and " " in title.strip():   # même signature que les autres titres : fin en italique
+            _w = title.strip().split(" ", 1)
+            title = f'{_w[0]} <em class="it">{_w[1]}</em>'
         cta = _vp_cta(d, pg)
         if not cta or cta in used:
             cta = next((g for g in VP_GENERIC if g not in used), "En savoir plus")
         used.add(cta)
         go = f'<a class="vp-go" href="{attr(pg["slug"])}/">{e(cta)} <span aria-hidden="true">→</span></a>'
-        txt = f'<div class="vp-t rv">{num}<h2>{title if title != label else e(label)}</h2>{f"<p>{e(lead)}</p>" if lead else ""}{ptsh}{go}</div>'
+        txt = f'<div class="vp-t rv">{num}<h2>{title}</h2>{f"<p>{e(lead)}</p>" if lead else ""}{ptsh}{go}</div>'
         if lay.startswith("vp-ill"):
             tiles = "".join(f'<span style="--i:{j}"><img src="{attr(u)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>' for j, u in enumerate(ill[:4]))
             body = f'<div class="wrap">{txt}<div class="vp-tiles rv n{min(len(ill), 4)}">{tiles}</div></div>'
         elif lay.startswith("vp-band"):
-            body = f'<div class="wrap"><div class="vp-t rv">{num}<h2>{title if title != label else e(label)}</h2></div><div class="vp-r rv">{f"<p>{e(lead)}</p>" if lead else ""}{ptsh}{go}</div></div>'
+            body = f'<div class="wrap"><div class="vp-t rv">{num}<h2>{title}</h2></div><div class="vp-r rv">{f"<p>{e(lead)}</p>" if lead else ""}{ptsh}{go}</div></div>'
         elif lay == "vp-full":
             body = f'<div class="vp-ph rv"><img src="{attr(imgs[0])}" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="wrap">{txt}</div>'
         elif lay == "vp-duo":
@@ -1478,6 +1489,11 @@ html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-
 .look-vivant .v-list .blk:not(:has(.bi)) .bt>*{grid-column:2}.look-vivant .v-list .blk:not(:has(.bi)) .bt>:is(.k,h3){grid-column:1}.look-vivant .v-list .blk:not(:has(.bi)) .bt::before{grid-column:1}
 .look-vivant .v-list .blk:not(:has(.bi)) .bt>h3{margin-top:4px}
 .look-vivant .v-list .blocks article.blk:not(:has(.bi)) .bt{grid-column:1;justify-self:stretch}
+/* un seul style de sur-titre pour toutes les sections : trait animé + texte, couleur d'accent */
+.look-vivant section:not(.hero) .eyebrow,.look-vivant .vp .vp-n{display:inline-flex;align-items:center;gap:12px;font-family:var(--mono);font-size:.72rem;font-weight:400;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.look-vivant section:not(.hero) .eyebrow::before{content:"";display:block;width:38px;height:1px;background:currentColor;transform-origin:left;transition:transform 1s .3s cubic-bezier(.2,.75,.15,1)}
+.look-vivant section:not(.hero) .rv:not(.in) .eyebrow::before,.look-vivant section.rv:not(.hero):not(.in) .eyebrow::before{transform:scaleX(0)}
+.look-vivant :is(.dark,.vp-band:not(.vp-light),.quote) .eyebrow{color:color-mix(in srgb,var(--accent) 45%,#fff)}
 /* typo commune : tous les petits intitulés au même style que les sur-titres de section, titres de même graisse */
 .look-vivant .blk .k,.look-vivant .card .tag{font-family:var(--mono);font-size:.72rem;font-weight:400;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.look-vivant .dark .blk .k,.look-vivant .dark .card .tag{color:rgba(255,255,255,.62)}
 .look-vivant .v-list .blk .bt::before,.look-vivant .vp .vp-n{font-size:.72rem;letter-spacing:.08em}.look-vivant .v-list .blk .bt::before{margin-bottom:10px}
