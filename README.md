@@ -94,3 +94,7 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Synetam / Camille Delpino : V1 figée = reperes-cuisine-pro-b28c6e ; V2 (après call du 15 oct. et CDC du 21 oct.) = plateforme-cuisine-pro-db14e0 (ENVOYÉE le 22 oct. 2026, NE PLUS MODIFIER), accueil + parcours seulement en ligne avant signature du devis (les 5 pages sont générées par un script hors repo). Une nouvelle version = un nouveau slug.
 
 - Malt 13 nov. 2026 (sites deep tech / chimie) : deeptech-chimie-f6ad21, entreprise fictive Moléa, IA + polymères, proche du métier de Synboli (accueil + technologie), générée par un script hors repo. ENVOYÉE le 13 nov. 2026, NE PLUS MODIFIER.
+
+## Relance des prospects d'octobre (25 nov. 2026)
+- Pour relancer les prospects démarchés en octobre avec l'ancienne accroche, chacun a une NOUVELLE maquette en look vivant à une nouvelle adresse : `_generateur/sites/<prospect>-v2.json`, slug `<nom>-v2-<hex>`. L'ancienne maquette envoyée reste figée.
+- ARGOS (style releve) et Girod-Roux (style etabli) n'ont pas de v2 : le look vivant ne s'applique pas aux styles sur mesure.
