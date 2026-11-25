@@ -6,8 +6,8 @@ LIEN DE LA MAQUETTE : toujours https://apercu.vitrine-ia.fr/<slug>/ (domaine de 
 
 ## Modèle (artisans, restaurants, domaines, diagnostiqueurs)
 
-Objet : Votre site <NOM>, déjà prêt
-(Rien d'autre dans l'objet : pas de prix. Les mails envoyés avant le 24 nov. 2026 avaient pour objet « Aperçu nouveau site … » ou « Une idée pour le site … » : la recherche des relances doit couvrir les trois.)
+Objet : Votre site <NOM> retravaillé (choisi par Philippine le 25 nov. 2026 ; avant : « Votre site <NOM>, déjà prêt »)
+(Rien d'autre dans l'objet : pas de prix. Les mails envoyés avant le 24 nov. 2026 avaient pour objet « Aperçu nouveau site … » ou « Une idée pour le site … » : la recherche des relances doit couvrir aussi « Votre site …, déjà prêt » et « Votre nouveau site internet, … » (24-25 nov.) et « Votre site … retravaillé ».)
 
 Bonjour <Monsieur X | Madame X | Céline, bonjour Nicolas | Bonjour,>,
 
@@ -24,7 +24,7 @@ Bien cordialement<, et bons chantiers (artisans)>,
 
 ## Variante notaires et avocats (ton sobre, « Maître »)
 
-Objet : Votre nouveau site internet, <NOM>
+Objet : Votre site <NOM> retravaillé (même objet que les autres métiers depuis le 25 nov. 2026)
 
 Bonjour Maître X, (ou « Maîtres, »)
 
