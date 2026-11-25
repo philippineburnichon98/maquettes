@@ -349,16 +349,22 @@ html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-
 .look-vivant .chips{margin-top:34px;gap:10px}
 .look-vivant .dark :is(.card,.blocks article,.feat>div){color:var(--ink)}.look-vivant .dark .blocks article p{color:var(--muted)}
 /* liste éditoriale numérotée */
-.look-vivant .v-list .blocks{display:block;counter-reset:vl;border-top:1px solid var(--line)}
-.look-vivant .v-list .blocks article{counter-increment:vl;display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1.35fr);grid-auto-flow:dense;gap:6px 40px;align-items:start;background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;padding:34px 0;overflow:visible;color:inherit}
-.look-vivant .v-list .blocks article::before{content:counter(vl,decimal-leading-zero);grid-column:1;grid-row:1/span 6;font-family:var(--mono);font-size:.8rem;color:var(--accent);padding-top:8px}
+.look-vivant .v-list .blocks{display:flex;flex-direction:column;gap:clamp(56px,7vw,100px);counter-reset:vl}
+.look-vivant .v-list .blocks article{counter-increment:vl;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center;background:none;border:0;border-radius:0;box-shadow:none;padding:0;overflow:visible;color:inherit}
 .look-vivant .v-list .blocks article:hover{transform:none;box-shadow:none}
-.look-vivant .v-list .blk :is(.k,h3){grid-column:2}.look-vivant .v-list .blk h3{font-size:clamp(1.4rem,2.4vw,1.9rem);margin:4px 0 0}
-.look-vivant .v-list .blk :is(p,ul,.more){grid-column:3}.look-vivant .v-list .blk p{font-size:.98rem}
-.look-vivant .v-list .blk .bi{grid-column:2;grid-row:3/span 4;width:min(100%,260px);margin:16px 0 0;border-radius:14px;aspect-ratio:4/3}
-.look-vivant .v-list .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
-.look-vivant .v-list .blk .more{margin-top:6px;padding-top:0}
-.look-vivant .v-list.dark .blocks,.look-vivant .v-list.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-list.dark .blocks article{color:inherit}.look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}
+.look-vivant .v-list .blk .bi{grid-column:1;grid-row:1;width:100%;margin:0;aspect-ratio:4/3;border-radius:26px;box-shadow:0 40px 80px -50px rgba(0,0,0,.45)}
+.look-vivant .v-list .blk .bi.contain{object-fit:contain;background:#fff;padding:8%;border:1px solid rgba(0,0,0,.06)}
+.look-vivant .v-list .blk .bt{grid-column:2;grid-row:1;max-width:54ch}
+.look-vivant .v-list .blocks article:nth-child(even) .bi{grid-column:2}.look-vivant .v-list .blocks article:nth-child(even) .bt{grid-column:1;justify-self:end}
+.look-vivant .v-list .blk .bt::before{content:counter(vl,decimal-leading-zero);display:block;font-family:var(--mono);font-size:.8rem;color:var(--accent);margin-bottom:14px}
+.look-vivant .v-list .blk h3{font-size:clamp(1.6rem,2.8vw,2.3rem);margin:8px 0 16px}.look-vivant .v-list .blk p{font-size:1rem}
+.look-vivant .v-list .blk .more{margin-top:18px;padding-top:0}
+.look-vivant .v-list .blk:not(:has(.bi)){grid-template-columns:minmax(0,1fr);border-top:1px solid var(--line);padding-top:clamp(30px,4vw,50px)}
+.look-vivant .v-list .blk:not(:has(.bi)) .bt{grid-column:1;justify-self:stretch;max-width:none;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:0 clamp(30px,5vw,80px);align-items:start}
+.look-vivant .v-list .blk:not(:has(.bi)) .bt>*{grid-column:2}.look-vivant .v-list .blk:not(:has(.bi)) .bt>:is(.k,h3){grid-column:1}.look-vivant .v-list .blk:not(:has(.bi)) .bt::before{grid-column:1}
+.look-vivant .v-list .blk:not(:has(.bi)) .bt>h3{margin-top:4px}
+.look-vivant .v-list .blocks:not(:has(.bi)){gap:0}.look-vivant .v-list .blocks:not(:has(.bi)) .blk{padding:clamp(26px,3vw,40px) 0}.look-vivant .v-list .blocks:not(:has(.bi)) .blk:last-child{border-bottom:1px solid var(--line)}.look-vivant .v-list .blocks:not(:has(.bi)) .blk h3{font-size:clamp(1.4rem,2.2vw,1.9rem)}
+.look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}.look-vivant .v-list.dark .blk:not(:has(.bi)){border-color:rgba(255,255,255,.16)}
 /* mosaïque : une grande vignette photo, les autres en aplats colorés */
 .look-vivant .v-bento .blocks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-flow:dense;gap:14px}
 .look-vivant .v-bento .blocks article{grid-column:span 2;border:0;border-radius:24px;padding:28px 26px;background:color-mix(in srgb,var(--accent) 9%,var(--paper));color:var(--ink)}
@@ -382,7 +388,7 @@ html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-
 .look-vivant .v-split .blk .bi.contain{aspect-ratio:auto;padding:0;background:none}
 .look-vivant .v-split .blk:not(:has(.bi)){grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .blk:not(:has(.bi))>*{grid-column:1}
 .look-vivant .v-split.dark .blocks article{border-color:rgba(255,255,255,.16)}.look-vivant .v-split.dark .blk p{color:rgba(255,255,255,.72)}
-@media(max-width:860px){.look-vivant .v-list .blocks article{grid-template-columns:44px minmax(0,1fr);gap:6px 14px}.look-vivant .v-list .blk>*:not(.bi){grid-column:2}.look-vivant .v-list .blk .bi{grid-row:auto;grid-column:2}
+@media(max-width:860px){.look-vivant .v-list .blocks article,.look-vivant .v-list .blk:not(:has(.bi)) .bt{grid-template-columns:minmax(0,1fr);gap:22px}.look-vivant .v-list .blocks article .bi,.look-vivant .v-list .blocks article .bt,.look-vivant .v-list .blk:not(:has(.bi)) .bt>*{grid-column:1!important;grid-row:auto!important;justify-self:stretch}
 .look-vivant .v-bento .blocks{grid-template-columns:minmax(0,1fr)}.look-vivant .v-bento .blocks article,.look-vivant .v-bento .blocks article:first-child{grid-column:1;grid-row:auto}.look-vivant .v-bento .blocks article:first-child{min-height:340px}
 .look-vivant .v-split>.wrap{grid-template-columns:minmax(0,1fr)}.look-vivant .v-split .head{position:static}.look-vivant .v-split .blocks,.look-vivant .v-split>.wrap>*,.look-vivant .v-split>.wrap>:not(.head):not(.blocks){grid-column:1}.look-vivant .v-split .blocks article{grid-template-columns:76px minmax(0,1fr);gap:4px 16px}.look-vivant .v-split .blk .bi{width:76px}}
 /* atouts : colonnes ouvertes, sans encadré */
@@ -473,7 +479,7 @@ body:has(.pbox) header{color:var(--ink)}
 </style>
 
 <section id="a-1"><div class="wrap"><div class="solo-text rv"><span class="eyebrow">Faites confiance à un diagnostiqueur certifié</span><h2>Vérifier la présence de matériaux <em class="it">ou produits dangereux</em></h2><p>Rénovation, démolition, vente ou location : les matériaux contenant de l'amiante ou du plomb doivent être repérés par un diagnostiqueur certifié. Pour une vente ou une location, ces diagnostics figurent dans le DDT annexé au bail, à l'acte ou au compromis.</p><p>L'exposition au plomb et à l'amiante est un danger majeur pour les occupants et les travailleurs. Nous réalisons aussi les DPE, diagnostics gaz et électricité, termites, surface habitable et état des risques.</p></div></div></section><section id="a-2" class="v-list"><div class="wrap"><div class="head rv"><span class="eyebrow">Préservez la santé des personnes</span>
-<h2>Faites appel à <em class="it">des professionnels certifiés</em></h2></div><div class="blocks rv"><article class="blk"><h3>Diagnostic amiante</h3><p>Examen des matériaux et produits de construction, pour tous les logements dont le permis de construire est antérieur au 1er juillet 1997. En cas de présence d'amiante, des travaux de désamiantage seront nécessaires.</p><ul><li>Absence d'amiante : validité illimitée</li><li>Présence d'amiante : validité de 3 ans</li></ul></article><article class="blk"><h3>Diagnostic plomb (CREP)</h3><p>Le constat de risque d'exposition au plomb mesure la concentration en plomb des revêtements intérieurs et extérieurs des logements construits avant 1949. En cas de présence de plomb, le propriétaire doit réaliser les travaux pour supprimer le risque d'exposition.</p></article></div></div></section><section id="diagnostic-amiante-2"><div class="wrap"><div class="head rv"><span class="eyebrow">Faites-nous confiance !</span>
+<h2>Faites appel à <em class="it">des professionnels certifiés</em></h2></div><div class="blocks rv"><article class="blk"><div class="bt"><h3>Diagnostic amiante</h3><p>Examen des matériaux et produits de construction, pour tous les logements dont le permis de construire est antérieur au 1er juillet 1997. En cas de présence d'amiante, des travaux de désamiantage seront nécessaires.</p><ul><li>Absence d'amiante : validité illimitée</li><li>Présence d'amiante : validité de 3 ans</li></ul></div></article><article class="blk"><div class="bt"><h3>Diagnostic plomb (CREP)</h3><p>Le constat de risque d'exposition au plomb mesure la concentration en plomb des revêtements intérieurs et extérieurs des logements construits avant 1949. En cas de présence de plomb, le propriétaire doit réaliser les travaux pour supprimer le risque d'exposition.</p></div></article></div></div></section><section id="diagnostic-amiante-2"><div class="wrap"><div class="head rv"><span class="eyebrow">Faites-nous confiance !</span>
 <h2>Un repérage <em class="it">amiante ou plomb ?</em></h2><p>Contactez nos diagnostiqueurs certifiés.</p></div><p class="note"><a class="btn solid" href="../contact/">Nous contacter</a> &nbsp; <a class="btn" href="tel:+33546518799">05 46 51 87 99</a></p></div></section>
 <footer><div class="wrap"><div class="top"><div><div class="flogo" style="background:#ffffff"><img src="https://le-de.cdn-website.com/e08b295790634412bd393f5a5e45d7dd/dms3rep/multi/opt/expertim-517w.jpg" alt="Expert&#x27;im" style="height:52px" referrerpolicy="no-referrer" onerror="this.parentElement.textContent=this.alt"></div>
 <p style="margin-top:18px;max-width:340px;opacity:.75">Expert&#x27;im, cabinet indépendant de diagnostics immobiliers à La Rochelle depuis 2001 : deux diagnostiqueurs certifiés, membres de la chambre des experts FNAIM, dans toute la Charente-Maritime.</p></div>
