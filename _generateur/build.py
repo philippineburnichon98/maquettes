@@ -1478,6 +1478,10 @@ html:has(.look-vivant){scroll-padding-top:100px}.look-vivant section[id]{scroll-
 .look-vivant .v-list .blk:not(:has(.bi)) .bt>*{grid-column:2}.look-vivant .v-list .blk:not(:has(.bi)) .bt>:is(.k,h3){grid-column:1}.look-vivant .v-list .blk:not(:has(.bi)) .bt::before{grid-column:1}
 .look-vivant .v-list .blk:not(:has(.bi)) .bt>h3{margin-top:4px}
 .look-vivant .v-list .blocks article.blk:not(:has(.bi)) .bt{grid-column:1;justify-self:stretch}
+/* typo commune : tous les petits intitulés au même style que les sur-titres de section, titres de même graisse */
+.look-vivant .blk .k,.look-vivant .card .tag{font-family:var(--mono);font-size:.72rem;font-weight:400;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.look-vivant .dark .blk .k,.look-vivant .dark .card .tag{color:rgba(255,255,255,.62)}
+.look-vivant .v-list .blk .bt::before,.look-vivant .vp .vp-n{font-size:.72rem;letter-spacing:.08em}.look-vivant .v-list .blk .bt::before{margin-bottom:10px}
+.look-vivant .blk h3,.look-vivant .card h3{font-weight:400}
 .look-vivant .v-list .blocks:not(:has(.bi)){gap:0}.look-vivant .v-list .blocks:not(:has(.bi)) .blk{padding:clamp(26px,3vw,40px) 0}.look-vivant .v-list .blocks:not(:has(.bi)) .blk:last-child{border-bottom:1px solid var(--line)}.look-vivant .v-list .blocks:not(:has(.bi)) .blk h3{font-size:clamp(1.4rem,2.2vw,1.9rem)}
 .look-vivant .v-list.dark .blk p{color:rgba(255,255,255,.72)}.look-vivant .v-list.dark .blk:not(:has(.bi)){border-color:rgba(255,255,255,.16)}
 /* mosaïque : une grande vignette photo, les autres en aplats colorés */
