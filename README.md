@@ -66,6 +66,7 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - Polices DM Sans + Instrument Serif + DM Mono (`"keep_fonts": true` garde celles du JSON).
 - Valeur ajoutée : sur un site multi-pages (3 pages ou plus), section « parcours » sur l'accueil : une carte par page (01 / 05, barre qui se remplit, photo de la page, accroche, lien). Titre réglable avec `parcours_eyebrow` / `parcours_title`.
 - Validé par Philippine le 24 nov. 2026 (« j'aime beaucoup le design ») : **toutes les NOUVELLES maquettes classiques prennent `"look": "vivant"`**. Jamais sur les maquettes déjà envoyées.
+- Retours du 25 nov. 2026 : pas de grille de cartes répétée. Les rubriques `blocks` tournent entre liste numérotée, mosaïque photo et colonne collante (`_vivant_variants`). Sur l'accueil, pas de sommaire « Le site en bref » : une vraie section par page du menu (`vivant_pages`) avec des mises en page qui alternent, et un bouton dont le libellé vient de la page visée (`_vp_cta`), jamais « Découvrir » partout. Le lien du menu identique au bouton d'appel est masqué quand le bouton est visible.
 
 ## Domaines : les vins sur l'accueil (règle de Philippine, 24 nov. 2026)
 - Si le domaine a des vins disponibles, ils sont OBLIGATOIREMENT dans une section de la page d'accueil. build.py le fait tout seul : si les cuvées (`cards` ou `order`) ne sont que sur une autre page, leur section est recopiée sur l'accueil après la 1re section (id `vins-accueil`). `"home_wines": false` pour désactiver. Un domaine = `agegate` ou type « domaine » dans prospects.csv.
