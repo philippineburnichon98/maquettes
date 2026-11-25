@@ -1630,10 +1630,32 @@ def build_all(d):
                 bid = blk.get("id") or ("contact" if blk["kind"] == "visit" else None)
                 if bid:
                     idmap.setdefault(bid, pg["slug"])
-    out = {"": build(d, None, "", idmap)}
+    out = {"": _fix_links(build(d, None, "", idmap), "", d)}
     for pg in d.get("pages", []):
-        out[pg["slug"]] = build(d, pg, "../" * (pg["slug"].count("/") + 1), idmap)
+        pre = "../" * (pg["slug"].count("/") + 1)
+        out[pg["slug"]] = _fix_links(build(d, pg, pre, idmap), pre, d)
     return out
+
+
+def _fix_links(html, prefix, d):
+    """Liens internes écrits « à la main » dans les JSON (rubriques, bannières…) : on les recale
+    sur la profondeur de la page, et un slug approchant (contact → contact-acces) est corrigé."""
+    slugs = [pg["slug"] for pg in d.get("pages", [])]
+    first = {sl.split("/")[0] for sl in slugs}
+
+    def fix(m):
+        attr_, val = m.group(1), m.group(2)
+        if re.match(r"^(https?:|mailto:|tel:|data:|javascript:|#|/)", val) or not val:
+            return m.group(0)
+        bare = re.sub(r"^(\.\./)+", "", val)
+        seg, _, rest = bare.partition("/")
+        if seg in first or seg == "img":
+            return f'{attr_}="{prefix}{bare}"'
+        cand = [x for x in first if x.startswith(seg + "-") or x.startswith(seg) and seg in ("contact", "contactez-nous")]
+        if seg and len(cand) == 1:
+            return f'{attr_}="{prefix}{cand[0]}/{rest.lstrip("/") if "/" in bare else ""}"'
+        return m.group(0)
+    return re.sub(r'\b(href|src)="([^"]*)"', fix, html)
 
 
 def build(d, page=None, prefix="", idmap=None):
