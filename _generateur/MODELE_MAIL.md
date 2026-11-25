@@ -14,7 +14,7 @@ Bonjour <Monsieur X | Madame X | Céline, bonjour Nicolas | Bonjour,>,
 Je fais des sites internet simples et abordables pour des <artisans | restaurants | domaines viticoles | diagnostiqueurs immobiliers>. J'ai préparé le vôtre, <avec vos textes et vos photos | avec votre carte, vos photos et la réservation en ligne | avec vos cuvées, vos textes et vos photos> :
 https://apercu.vitrine-ia.fr/<slug>/
 
-Il est clair, pratique sur téléphone et bien lisible par Google et par les assistants comme ChatGPT, que de plus en plus de gens utilisent pour <trouver un artisan près de chez eux | choisir où manger | trouver un domaine à visiter ou un vin à acheter | trouver un diagnostiqueur près de chez eux>.
+Il est clair, pratique sur téléphone et bien lisible par Google et par les IA comme ChatGPT, que de plus en plus de gens utilisent pour <trouver un artisan près de chez eux | choisir où manger | trouver un domaine à visiter ou un vin à acheter | trouver un diagnostiqueur près de chez eux>.
 
 Je le mets en ligne en une semaine pour 290 €, puis 15 € par mois avec le nom de domaine, l'hébergement et la maintenance. Si vous voulez changer quelque chose avant, on le fait ensemble.
 
@@ -31,7 +31,7 @@ Bonjour Maître X, (ou « Maîtres, »)
 Je réalise des sites internet simples et abordables pour des <études notariales | cabinets d'avocats>. Je me suis permis de préparer le vôtre, qui reprend vos contenus :
 <lien>
 
-Il est clair, agréable à consulter sur téléphone et bien lisible par Google et par les assistants comme ChatGPT, de plus en plus utilisés pour trouver <un notaire | un avocat>.
+Il est clair, agréable à consulter sur téléphone et bien lisible par Google et par les IA comme ChatGPT, de plus en plus utilisés pour trouver <un notaire | un avocat>.
 
 S'il vous convient, je peux le mettre en ligne en une semaine pour 290 €, puis 15 € par mois avec le nom de domaine, l'hébergement et la maintenance. Nous pouvons bien sûr l'ajuster ensemble avant.
 
