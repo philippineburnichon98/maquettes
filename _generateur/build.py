@@ -1248,7 +1248,7 @@ def vivant_pages(d, skip=()):
         lead = pg.get("lead", "")
         pts = [t for t in _vp_points(pg, 99) if _cnt.get(t, 0) < 2][:4]
         ptsh = ('<ul class="pts">' + "".join(f"<li>{e(p)}</li>" for p in pts) + "</ul>") if pts else ""
-        num = f'<span class="vp-n">{i + 1:02d}<i></i>{e(label)}</span>'
+        num = f'<span class="vp-n">{i + 1:02d}<i></i>{e(label)}</span>' if len(pgs) > 1 else f'<span class="vp-n"><i></i>{e(label)}</span>'
         cta = _vp_cta(d, pg)
         if not cta or cta in used:
             cta = next((g for g in VP_GENERIC if g not in used), "En savoir plus")
