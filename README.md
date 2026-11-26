@@ -100,4 +100,4 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 - ARGOS (style releve) et Girod-Roux (style etabli) n'ont pas de v2 : le look vivant ne s'applique pas aux styles sur mesure.
 
 - Malt 26 nov. 2026 (landing pages Locadeco, Lille) : landing-locadeco-401d1f, 2 landings (mariage, entreprise) générées par un script hors repo. ENVOYÉE le 26 nov. 2026, NE PLUS MODIFIER.
-- Locadeco après l'appel du 26 nov. 2026 : landing-locadeco-modeles-33d0a8, 3 modèles de landing « Traiteurs » (élégant, catalogue, immersif) orientés produits, page de présentation à onglets. Script hors repo (build_modeles.py).
+- Locadeco après l'appel du 26 nov. 2026 : landing-locadeco-modeles-33d0a8, 3 modèles de landing « Traiteurs » (1 catalogue, 2 immersif, 3 élégant) orientés produits, page de présentation à onglets. Script hors repo (build_modeles.py).
