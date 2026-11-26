@@ -98,3 +98,5 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 ## Relance des prospects d'octobre (25 nov. 2026)
 - Pour relancer les prospects démarchés en octobre avec l'ancienne accroche, chacun a une NOUVELLE maquette en look vivant à une nouvelle adresse : `_generateur/sites/<prospect>-v2.json`, slug `<nom>-v2-<hex>`. L'ancienne maquette envoyée reste figée.
 - ARGOS (style releve) et Girod-Roux (style etabli) n'ont pas de v2 : le look vivant ne s'applique pas aux styles sur mesure.
+
+- Malt 26 nov. 2026 (landing pages Locadeco, Lille) : landing-locadeco-401d1f, 2 landings (mariage, entreprise) générées par un script hors repo. Figée dès l envoi.
