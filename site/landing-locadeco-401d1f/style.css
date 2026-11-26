@@ -6,6 +6,7 @@ h1,h2,h3{font-family:var(--head);font-weight:600;line-height:1.05;margin:0;lette
 .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
 .top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;gap:18px;height:70px}
+.logo img{height:46px;width:auto}
 .logo{font-family:var(--head);font-size:1.7rem;font-weight:700;letter-spacing:.14em}.logo small{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.2em;color:var(--muted);font-weight:600;margin-top:-4px}
 .top .sp{margin-left:auto;display:flex;gap:10px;align-items:center}
 .tel{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--ink);padding:10px 14px;border-radius:999px}.tel:hover{background:var(--ivory)}
