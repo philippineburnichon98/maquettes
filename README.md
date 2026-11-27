@@ -101,3 +101,4 @@ Reprendre TOUTES les images utiles du site d'origine, chacune à l'endroit qui l
 
 - Malt 26 nov. 2026 (landing pages Locadeco, Lille) : landing-locadeco-401d1f, 2 landings (mariage, entreprise) générées par un script hors repo. ENVOYÉE le 26 nov. 2026, NE PLUS MODIFIER.
 - Locadeco après l'appel du 26 nov. 2026 : landing-locadeco-modeles-33d0a8, 3 modèles de landing « Traiteurs » (1 catalogue, 2 immersif, 3 élégant) orientés produits, page de présentation à onglets. Script hors repo (build_modeles.py).
+- Locadeco espace pro (27 nov. 2026) : espace-pro-locadeco-cfd94d, maquette cliquable de l'espace pro (devenir pro, demande reçue, espace connecté, validation admin). Script hors repo (build_pro.py).
