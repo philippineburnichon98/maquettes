@@ -1310,6 +1310,7 @@ VP_CSS = """<style>
 /* titre et deux photos décalées */
 .vp-duo .wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,6vw,90px);align-items:center}
 .vp-duo .vp-ph{display:grid;grid-template-columns:1fr 1fr;gap:16px;overflow:visible;border-radius:0}
+.vp-duo{overflow-x:clip}
 .vp-duo .vp-ph img{border-radius:24px;aspect-ratio:3/4}.vp-duo .vp-ph img:nth-child(2){margin-top:70px;transition-delay:.15s}
 /* bande sombre, sans photo */
 .vp-band{background:var(--ink);color:#fff;margin:0 16px;border-radius:36px}
