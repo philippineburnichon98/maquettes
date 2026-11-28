@@ -1,0 +1,1010 @@
+{
+ "slug": "biagi-avocat-b9ef56",
+ "title": "Maître Amandine Biagi, avocate au Barreau de Lyon (Lyon 3e)",
+ "description": "Maître Amandine Biagi, avocate au Barreau de Lyon, cabinet à Lyon 3e : droit du travail, droit de la famille, droit commercial (agents commerciaux), dommage corporel et postulation.",
+ "brand": "Maître Amandine Biagi",
+ "tagline": "Avocate au Barreau de Lyon",
+ "monogram": "AB",
+ "home_label": "Accueil",
+ "logo": {
+  "src": "https://www.avocat-biagi-amandine.com/gifs/logo.png",
+  "alt": "Logo avocat à Lyon, Maître BIAGI"
+ },
+ "theme": {
+  "look": "vivant",
+  "paper": "#f5f4f0",
+  "paper2": "#e8e6df",
+  "ink": "#1c232e",
+  "muted": "#5c6470",
+  "accent": "#25405f",
+  "accent2": "#182c45",
+  "gold": "#a8885a",
+  "heroem": "#dfe7ef",
+  "serif": "\"EB Garamond\",Georgia,serif",
+  "sans": "\"Work Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500;600&display=swap"
+ },
+ "phead": "box",
+ "topbar": [
+  "<a href=\"tel:+33469647220\">04 69 64 72 20</a>",
+  "<a href=\"mailto:amandine.biagi@gmail.com\">amandine.biagi@gmail.com</a>",
+  "119 rue Pierre Corneille · Lyon 3e"
+ ],
+ "hero": {
+  "img": "https://www.avocat-biagi-amandine.com/gifs/image1.jpg",
+  "eyebrow": "Avocate au Barreau de Lyon · Lyon 3e",
+  "title": "Maître Amandine <em>Biagi</em>",
+  "lead": "Un cadre, une méthode et une présence constante pour les décisions prises dans un contexte personnel ou professionnel délicat.",
+  "cta1": [
+   "Contacter le cabinet",
+   "contact/"
+  ],
+  "cta2": [
+   "04 69 64 72 20",
+   "tel:+33469647220"
+  ]
+ },
+ "figures": [
+  [
+   "2005",
+   "inscrite au Barreau de Lyon"
+  ],
+  [
+   "2010",
+   "ouverture du cabinet"
+  ],
+  [
+   "2004",
+   "CAPA"
+  ],
+  [
+   "2019",
+   "succession de Me Hilbert-Thomasson"
+  ]
+ ],
+ "parcours_eyebrow": "Le cabinet",
+ "parcours_title": "Domaines <em class=\"it\">d'intervention</em>",
+ "sections": [
+  {
+   "kind": "story",
+   "id": "cabinet",
+   "eyebrow": "Le cabinet",
+   "title": "Un cabinet fondé sur l'expérience, <em class=\"it\">la proximité et la confiance</em>",
+   "paras": [
+    "Maître Amandine Biagi, avocate à Lyon 3e, intervient en droit du travail, droit commercial, droit de la famille et dommage corporel, pour des particuliers comme pour des professionnels.",
+    "Titulaire d'une Maîtrise en Droit des Affaires et d'un DESS en Droit des relations du Travail, elle est inscrite au Barreau de Lyon depuis 2005. Après plusieurs années auprès de confrères, elle ouvre son cabinet en 2010.",
+    "Le cabinet privilégie une relation claire, où les enjeux, les risques et les solutions sont compris avant toute action.",
+    "<a href=\"cabinet-avocat-lyon/\" style=\"border-bottom:1px solid var(--gold)\">Le cabinet</a>"
+   ],
+   "img": "https://www.avocat-biagi-amandine.com/gifs/image1.jpg",
+   "alt": "Statuette de la justice",
+   "sign": "Maître Amandine Biagi"
+  },
+  {
+   "kind": "features",
+   "id": "domaines",
+   "eyebrow": "Domaines de compétences",
+   "title": "Trois domaines <em class=\"it\">au quotidien</em>",
+   "lead": "Le cabinet a une vocation généraliste et a développé des compétences particulières :",
+   "items": [
+    [
+     "Droit de la famille",
+     "Divorce, séparation, résidence des enfants, droit de visite et d'hébergement, pension alimentaire.",
+     "https://www.avocat-biagi-amandine.com/gifs/picto-famille1.png"
+    ],
+    [
+     "Droit du travail",
+     "Contrat de travail, rupture, sanctions, procédures devant le conseil de prud'hommes, pour salariés et employeurs.",
+     "https://www.avocat-biagi-amandine.com/gifs/picto-travail1.png"
+    ],
+    [
+     "Dommage corporel",
+     "Accompagnement des victimes de préjudice corporel ou moral et responsabilité civile.",
+     "https://www.avocat-biagi-amandine.com/gifs/picto-dommage1.png"
+    ]
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "famille",
+   "eyebrow": "Droit de la famille",
+   "title": "Accompagner les décisions sensibles <em class=\"it\">avec mesure et fermeté</em>",
+   "paras": [
+    "Séparation, divorce, résidence des enfants, droit de visite et d'hébergement, pension alimentaire et obligations parentales nécessitent chacun une analyse précise.",
+    "Maître Biagi accompagne ses clients à chaque étape, amiable ou contentieuse, en veillant à l'intérêt des enfants.",
+    "<a href=\"droit-famille-lyon/\" style=\"border-bottom:1px solid var(--gold)\">Droit de la famille</a>"
+   ],
+   "img": "https://www.avocat-biagi-amandine.com/gifs/image2.jpg",
+   "alt": "Engager un avocat"
+  },
+  {
+   "kind": "story",
+   "id": "postulation",
+   "eyebrow": "Postulation",
+   "title": "Un relais local <em class=\"it\">devant les juridictions lyonnaises</em>",
+   "paras": [
+    "Le cabinet assure, devant les juridictions lyonnaises, un relais pour les avocats extérieurs au Barreau de Lyon : constitution, suivi des échanges, communication des actes, audiences de mise en état et liaison avec les confrères plaidants.",
+    "<a href=\"avocat-postulant-lyon/\" style=\"border-bottom:1px solid var(--gold)\">La postulation</a>"
+   ],
+   "img": "https://www.avocat-biagi-amandine.com/gifs/image3.jpg",
+   "alt": "Lyon"
+  },
+  {
+   "kind": "story",
+   "id": "zone",
+   "eyebrow": "Lyon et ses environs",
+   "title": "Une clientèle lyonnaise, <em class=\"it\">une intervention dans toute la France</em>",
+   "paras": [
+    "La majorité des clients se trouve à Lyon et ses environs : Lyon 6, Lyon 7, Bron, Caluire, Villeurbanne, Oullins, Givors, Écully, Sainte-Foy-lès-Lyon, Champagne-au-Mont-d'Or, Saint-Didier-au-Mont-d'Or, Dardilly, Saint-Cyr-au-Mont-d'Or. Maître Biagi intervient dans toute la France.",
+    "Un premier échange permet de clarifier les priorités, les marges de manœuvre et l'action la plus adaptée."
+   ]
+  },
+  {
+   "kind": "visit",
+   "id": "coordonnees",
+   "eyebrow": "Plan d'accès",
+   "title": "Le cabinet, <em class=\"it\">Lyon 3e</em>",
+   "text": "Cabinet de Maître Amandine Biagi, avocate au Barreau de Lyon, à proximité de Lyon 6. Visites sur rendez-vous.",
+   "rows": [
+    [
+     "Adresse",
+     "119 rue Pierre Corneille, 69003 Lyon"
+    ],
+    [
+     "Téléphone",
+     "<a href=\"tel:+33469647220\">04 69 64 72 20</a>"
+    ],
+    [
+     "E-mail",
+     "<a href=\"mailto:amandine.biagi@gmail.com\">amandine.biagi@gmail.com</a>"
+    ],
+    [
+     "Horaires",
+     "Du lundi au vendredi, 9h à 12h et 14h à 19h, sur rendez-vous"
+    ],
+    [
+     "Barreau",
+     "Barreau de Lyon"
+    ]
+   ],
+   "cta": [
+    "Écrire au cabinet",
+    "contact/#ecrire"
+   ],
+   "map_q": "119 rue Pierre Corneille, 69003 Lyon"
+  }
+ ],
+ "footer": {
+  "about": "Maître Amandine Biagi, avocate au Barreau de Lyon depuis 2005, cabinet ouvert en 2010 à Lyon 3e : droit du travail, droit de la famille, droit commercial, dommage corporel, postulation.",
+  "contact": [
+   "<a href=\"tel:+33469647220\">04 69 64 72 20</a>",
+   "<a href=\"mailto:amandine.biagi@gmail.com\">amandine.biagi@gmail.com</a>",
+   "119 rue Pierre Corneille, 69003 Lyon",
+   "Du lundi au vendredi, 9h-12h et 14h-19h"
+  ],
+  "legal": "Maître Amandine Biagi, avocate au Barreau de Lyon, entreprise individuelle. Le cabinet ne prend pas de dossier au titre de l'aide juridictionnelle.",
+  "legal_url": "https://www.avocat-biagi-amandine.com/ressources/ajax/mentions_legales_box.php"
+ },
+ "pages": [
+  {
+   "slug": "cabinet-avocat-lyon",
+   "label": "Cabinet",
+   "title": "Cabinet d'avocat à Lyon",
+   "h1": "Cabinet <em>d'avocat à Lyon</em>",
+   "eyebrow": "Maître Amandine Biagi",
+   "lead": "Inscrite au Barreau de Lyon depuis le 1er avril 2005, cabinet ouvert en janvier 2010, à Lyon 3e.",
+   "img": "https://www.avocat-biagi-amandine.com/photos/530x500/cabinet.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "parcours",
+     "eyebrow": "Parcours",
+     "title": "Une avocate <em class=\"it\">au Barreau de Lyon</em>",
+     "paras": [
+      "Maître Amandine Biagi est titulaire d'une Maîtrise en Droit des Affaires et d'un DESS en Droit des relations du Travail. Elle obtient le CAPA en 2004 et est inscrite au Barreau de Lyon depuis le 1er avril 2005.",
+      "Elle ouvre son cabinet en janvier 2010, après avoir travaillé chez des confrères. Elle reprend les dossiers de Maître Jacques Hilbert-Thomasson, avec qui elle a collaboré pendant de nombreuses années.",
+      "Le cabinet est situé à Lyon 3, près de Lyon 6. La majorité des clients se trouve à Lyon et dans ses environs, mais elle intervient dans toute la France."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/530x500/cabinet.jpg",
+     "alt": "Le cabinet",
+     "sign": "Maître Amandine Biagi"
+    },
+    {
+     "kind": "blocks",
+     "id": "competences",
+     "eyebrow": "Compétences",
+     "title": "Un cabinet <em class=\"it\">à vocation généraliste</em>",
+     "items": [
+      {
+       "kicker": "Agents commerciaux",
+       "title": "Droit commercial",
+       "link": [
+        "Droit commercial",
+        "../droit-commercial/"
+       ]
+      },
+      {
+       "kicker": "Divorce, séparation, enfants",
+       "title": "Droit de la famille",
+       "link": [
+        "Droit de la famille",
+        "../droit-famille-lyon/"
+       ]
+      },
+      {
+       "kicker": "Salariés et employeurs",
+       "title": "Droit du travail",
+       "link": [
+        "Droit du travail",
+        "../droit-travail-lyon/"
+       ]
+      },
+      {
+       "kicker": "Indemnisation",
+       "title": "Dommage corporel",
+       "link": [
+        "Dommage corporel",
+        "../dommage-corporel/"
+       ]
+      }
+     ],
+     "lead": "Le cabinet a développé des compétences en droit commercial (notamment la défense des agents commerciaux), en droit de la famille, en droit du travail et en droit du dommage corporel. Son objectif est d'offrir un service juridique et judiciaire complet grâce à un réseau de confrères aux compétences complémentaires."
+    },
+    {
+     "kind": "timeline",
+     "id": "reperes",
+     "eyebrow": "Repères",
+     "title": "Formation <em class=\"it\">et exercice</em>",
+     "items": [
+      {
+       "when": "2004",
+       "who": "CAPA",
+       "text": "Après une Maîtrise en Droit des Affaires et un DESS en Droit des relations du Travail."
+      },
+      {
+       "when": "2005",
+       "who": "Barreau de Lyon",
+       "text": "Inscription au Barreau de Lyon le 1er avril 2005."
+      },
+      {
+       "when": "2010",
+       "who": "Ouverture du cabinet",
+       "text": "En janvier 2010, après plusieurs années auprès de confrères."
+      },
+      {
+       "when": "2019",
+       "who": "Succession",
+       "text": "Succession de Maître Jacques Hilbert-Thomasson (défense des agents commerciaux), en septembre 2019."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-famille-lyon",
+   "label": "Droit de la famille",
+   "title": "Avocat en droit de la famille à Lyon 3",
+   "h1": "Droit <em>de la famille</em>",
+   "eyebrow": "Divorce · Séparation · Enfants",
+   "lead": "Divorce, pension alimentaire, concubinage, PACS, filiation, droit de visite et d'hébergement, changement de nom.",
+   "img": "https://www.avocat-biagi-amandine.com/photos/566x534/divorce1.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "famille",
+     "eyebrow": "Droit des personnes et de la famille",
+     "title": "Conseiller chaque client <em class=\"it\">selon sa situation</em>",
+     "paras": [
+      "Le droit des personnes et de la famille inclut le divorce, la pension alimentaire, le concubinage, le PACS, la filiation, le droit de visite et d'hébergement et le changement de nom.",
+      "Le cabinet est situé à Lyon 3e. Sa clientèle vient surtout de Lyon et des communes voisines, mais Maître Biagi intervient sur tout le territoire français."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/566x534/divorce1.jpg",
+     "alt": "Avocat divorce"
+    },
+    {
+     "kind": "blocks",
+     "id": "divorces",
+     "eyebrow": "Les quatre types de divorce",
+     "title": "Quatre <em class=\"it\">procédures</em>",
+     "items": [
+      {
+       "kicker": "Divorce amiable",
+       "title": "Le divorce par consentement mutuel",
+       "paras": [
+        "Les époux s'accordent sur le principe de la rupture et sur toutes ses conséquences."
+       ]
+      },
+      {
+       "kicker": "Faute",
+       "title": "Le divorce pour faute",
+       "paras": [
+        "Un époux reproche à l'autre une violation grave ou répétée des devoirs et obligations du mariage, rendant intolérable le maintien de la vie commune."
+       ]
+      },
+      {
+       "kicker": "Divorce accepté",
+       "title": "Le divorce par acceptation du principe de la rupture",
+       "paras": [
+        "Les époux acceptent le principe du divorce mais ne s'entendent pas sur ses effets, notamment pour les enfants ou la liquidation du patrimoine."
+       ]
+      },
+      {
+       "kicker": "Séparation de plus de deux ans",
+       "title": "Le divorce pour altération définitive du lien conjugal",
+       "paras": [
+        "Demandé par un époux vivant séparé de son conjoint depuis plus de deux ans."
+       ]
+      }
+     ],
+     "lead": "Une question ? Appelez le cabinet au <a href=\"tel:+33469647220\">04 69 64 72 20</a>."
+    },
+    {
+     "kind": "story",
+     "id": "divorce",
+     "eyebrow": "Divorce",
+     "title": "Comprendre <em class=\"it\">la procédure</em>",
+     "paras": [
+      "En divorce amiable, les époux, chacun assisté d'un avocat, signent une convention fixant les conséquences de la séparation : résidence des enfants, droit de visite, pension, partage des biens, sort du logement, éventuelle prestation compensatoire.",
+      "En cas de désaccord, l'affaire est portée devant le juge aux affaires familiales. Maître Biagi accompagne ses clients dès la phase de réflexion, prépare les documents et les représente devant le JAF à Lyon.",
+      "Le divorce a aussi des effets patrimoniaux : la liquidation du régime matrimonial est analysée, en lien si besoin avec un notaire."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/403x380/divorce11.jpg",
+     "alt": "Divorce amiable"
+    },
+    {
+     "kind": "story",
+     "id": "enfants",
+     "eyebrow": "Enfants",
+     "title": "Garde, résidence alternée <em class=\"it\">et intérêt de l'enfant</em>",
+     "paras": [
+      "L'organisation de la vie des enfants après la séparation tient compte de leur âge, de leur stabilité, de leur scolarité, de la disponibilité des parents et de la distance entre les domiciles.",
+      "Résidence principale chez l'un des parents avec un droit de visite et d'hébergement pour l'autre, ou résidence alternée si les conditions le permettent. L'autorité parentale est en principe exercée conjointement ; un parent peut saisir le juge aux affaires familiales pour fixer la résidence des enfants."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/403x380/divorce22.jpg",
+     "alt": "Obtenir la garde exclusive"
+    },
+    {
+     "kind": "story",
+     "id": "separation",
+     "eyebrow": "Séparation",
+     "title": "Couples mariés, <em class=\"it\">pacsés ou concubins</em>",
+     "paras": [
+      "Pour un couple marié, la séparation passe par un divorce. La rupture d'un PACS exige des démarches officielles ; le concubinage, en principe libre, peut générer des litiges sur les biens achetés ensemble, les dépenses partagées ou les enfants.",
+      "Si le dialogue subsiste, l'avocat formalise les accords ; si les positions sont inconciliables, il réunit les preuves et défend son client devant la juridiction compétente."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/435x410/separation1.jpg",
+     "alt": "Séparation concubins"
+    },
+    {
+     "kind": "story",
+     "id": "visite",
+     "eyebrow": "Droit de visite et d'hébergement",
+     "title": "Par accord <em class=\"it\">ou par le juge</em>",
+     "paras": [
+      "Le droit de visite et d'hébergement est fixé soit par accord entre les parents, soit par le juge aux affaires familiales. En pratique, il s'exerce souvent un week-end sur deux et la moitié des vacances scolaires, mais d'autres modalités sont possibles si elles servent l'intérêt de l'enfant.",
+      "Lorsque les parents sont d'accord, il est recommandé de faire homologuer l'accord par le juge. En cas de désaccord, il faut saisir le juge aux affaires familiales."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/484x343/visite1.jpg",
+     "alt": "Droit de visite des grands-parents"
+    },
+    {
+     "kind": "story",
+     "id": "pension",
+     "eyebrow": "Pension alimentaire",
+     "title": "Ressources <em class=\"it\">et besoins</em>",
+     "paras": [
+      "Contribution aux charges du mariage, contribution à l'entretien et à l'éducation des enfants mineurs ou des enfants majeurs encore à charge, obligation des enfants envers leurs ascendants dans le besoin.",
+      "Il n'existe pas de barème fixe : le montant tient compte des besoins de celui qui la reçoit et des ressources de celui qui la verse. À ne pas confondre avec la prestation compensatoire, propre au divorce."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/566x401/pensionalim1.jpg",
+     "alt": "Pension alimentaire"
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Droit <em class=\"it\">de la famille</em>",
+     "photos": [
+      {
+       "full": "https://www.avocat-biagi-amandine.com/photos/566x534/divorce2.jpg",
+       "alt": "Séparation de couple"
+      },
+      {
+       "full": "https://www.avocat-biagi-amandine.com/photos/800x534/gemini_generated_image_cpntpbcpntpbcpnt.png",
+       "alt": ""
+      },
+      {
+       "full": "https://www.avocat-biagi-amandine.com/photos/467x440/separation2.jpg",
+       "alt": "Rupture des époux"
+      },
+      {
+       "full": "https://www.avocat-biagi-amandine.com/photos/349x247/visite2.jpg",
+       "alt": "Obtenir droit de visite"
+      },
+      {
+       "full": "https://www.avocat-biagi-amandine.com/photos/566x401/pensionalim2.jpg",
+       "alt": "Prestation compensatoire"
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.avocat-biagi-amandine.com/photos/566x534/divorce2.jpg",
+     "eyebrow": "Un premier échange",
+     "title": "Exposer <em>votre situation</em>",
+     "cta": [
+      "Contacter le cabinet",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-travail-lyon",
+   "label": "Droit du travail",
+   "title": "Avocat en droit du travail à Lyon (3)",
+   "h1": "Droit <em>du travail</em>",
+   "eyebrow": "Salariés et employeurs",
+   "lead": "Contrat de travail, rupture, sanctions, litiges et procédures devant le conseil de prud'hommes de Lyon.",
+   "img": "https://www.avocat-biagi-amandine.com/photos/566x534/travail1.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "contrat",
+     "eyebrow": "Le contrat de travail",
+     "title": "Un accompagnement complet <em class=\"it\">du contrat de travail</em>",
+     "paras": [
+      "Le droit du travail encadre la relation de travail, l'organisation, la rémunération, la rupture du contrat et la résolution des conflits. Maître Biagi, titulaire d'un DESS en droit des relations du travail, accompagne salariés et employeurs.",
+      "Contrats, avenants, clauses de non-concurrence, périodes d'essai, rémunérations variables, clauses de mobilité : CDD, CDI cadre ou non-cadre, contrats particuliers (commerciaux, mandataires sociaux), clauses de confidentialité, d'exclusivité, véhicule et logement de fonction.",
+      "Une question ? Appelez le cabinet au <a href=\"tel:+33469647220\">04 69 64 72 20</a>."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/566x534/travail1.jpg",
+     "alt": "Droit du travail"
+    },
+    {
+     "kind": "blocks",
+     "id": "salaries-employeurs",
+     "eyebrow": "Pour qui ?",
+     "title": "Salariés <em class=\"it\">et employeurs</em>",
+     "items": [
+      {
+       "img": "https://www.avocat-biagi-amandine.com/photos/566x534/travail22.jpg",
+       "kicker": "Salariés",
+       "title": "Défense des droits des salariés",
+       "list": [
+        "Contestation d'un avertissement",
+        "Convocation à un entretien préalable",
+        "Contestation d'un licenciement (faute lourde, faute grave, cause réelle et sérieuse, motif économique)",
+        "Négociation d'un départ ou rupture conventionnelle",
+        "Salaire ou primes impayés",
+        "Vérification des indemnités de licenciement",
+        "Harcèlement moral"
+       ]
+      },
+      {
+       "img": "https://www.avocat-biagi-amandine.com/photos/566x534/travail3.jpg",
+       "kicker": "Employeurs",
+       "title": "Accompagnement des employeurs",
+       "list": [
+        "Rédaction de CDI, CDD, clauses particulières et règlement intérieur",
+        "Organisation des élections DP ou CE",
+        "Procédures de licenciement pour faute, cause personnelle ou économique",
+        "Rupture conventionnelle ou départ négocié",
+        "Plan de sauvegarde de l'emploi ou plan d'intéressement",
+        "Contestation d'un contrôle de l'inspection du travail ou de l'URSSAF",
+        "Embauche d'un salarié étranger"
+       ]
+      },
+      {
+       "img": "https://www.avocat-biagi-amandine.com/photos/566x534/contrat.jpg",
+       "kicker": "Contrat de travail",
+       "title": "Rédiger et faire évoluer le contrat",
+       "paras": [
+        "Les clauses et conditions d'embauche doivent être précisément définies, en cohérence avec les textes légaux et la convention collective applicable. Pendant son exécution, le contrat peut devoir évoluer en raison de nouvelles lois ou décisions de jurisprudence."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "ruptures",
+     "eyebrow": "Rupture du contrat",
+     "title": "Les modes <em class=\"it\">de rupture</em>",
+     "items": [
+      {
+       "img": "https://www.avocat-biagi-amandine.com/photos/566x534/rupture1.jpg",
+       "kicker": "Commun accord",
+       "title": "La rupture à l'amiable",
+       "paras": [
+        "Sans forme imposée, un écrit étant fortement recommandé. Elle ne donne pas droit à l'allocation chômage."
+       ]
+      },
+      {
+       "img": "https://www.avocat-biagi-amandine.com/photos/566x534/rupture2.jpg",
+       "kicker": "Articles L.1237-11 à L.1237-16",
+       "title": "La rupture conventionnelle",
+       "paras": [
+        "Rupture d'un commun accord d'un CDI, après un ou plusieurs entretiens, délai de rétractation de 15 jours calendaires et homologation par l'administration. Elle ouvre droit à l'assurance chômage."
+       ]
+      },
+      {
+       "img": "https://www.avocat-biagi-amandine.com/photos/566x534/rupture3.jpg",
+       "kicker": "Initiative du salarié",
+       "title": "La démission",
+       "paras": [
+        "Rupture unilatérale du CDI par le salarié, qui doit exprimer une volonté claire, sérieuse et non équivoque."
+       ]
+      },
+      {
+       "kicker": "Cause réelle et sérieuse",
+       "title": "Le licenciement",
+       "paras": [
+        "Motif personnel disciplinaire (faute grave, faute lourde), motif personnel non disciplinaire, ou motif économique."
+       ]
+      },
+      {
+       "kicker": "Faits reprochés à l'employeur",
+       "title": "La prise d'acte de la rupture",
+       "paras": [
+        "Elle vaut licenciement sans cause réelle et sérieuse si les faits sont suffisamment graves et prouvés ; sinon, elle vaut démission."
+       ]
+      },
+      {
+       "kicker": "Conseil de prud'hommes",
+       "title": "La résiliation judiciaire",
+       "paras": [
+        "Demande au conseil de prud'hommes de rompre le contrat pour inexécution, en prouvant des manquements particulièrement graves."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "prudhommes",
+     "eyebrow": "Prud'hommes",
+     "title": "Conseil et contentieux <em class=\"it\">devant le conseil de prud'hommes</em>",
+     "paras": [
+      "Tout salarié, sauf les fonctionnaires, peut saisir le conseil de prud'hommes pour un litige lié à son contrat de travail. Si le différend ne se règle pas à l'amiable, Maître Biagi défend son client devant le conseil de prud'hommes de Lyon et/ou la cour d'appel.",
+      "Conseillant à la fois salariés (employés, cadres, ouvriers) et entreprises de tous secteurs, elle anticipe l'argumentation adverse et définit la stratégie de la procédure."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/403x380/prudhomme.jpg",
+     "alt": "Indemnités prud'hommes"
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.avocat-biagi-amandine.com/photos/566x420/prudhomme2.jpg",
+     "eyebrow": "Un litige en droit du travail",
+     "title": "Contacter <em>le cabinet</em>",
+     "cta": [
+      "Contacter le cabinet",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "droit-commercial",
+   "label": "Droit commercial",
+   "title": "Avocat en droit commercial à Lyon 3",
+   "h1": "Droit <em>commercial</em>",
+   "eyebrow": "Défense des agents commerciaux",
+   "lead": "Conseil des agents commerciaux, litiges avec le mandant, contentieux, en France comme à l'international.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "agents",
+     "eyebrow": "Agents commerciaux",
+     "title": "La défense <em class=\"it\">des agents commerciaux</em>",
+     "paras": [
+      "Maître Amandine Biagi a développé depuis de nombreuses années une pratique de la défense des intérêts des agents commerciaux. Elle a été formée par Maître Jacques Hilbert-Thomasson, qui a défendu des agents commerciaux pendant plus de 30 ans, et lui a succédé en septembre 2019.",
+      "Le cabinet conseille les agents commerciaux, gère les litiges avec leur mandant (non-paiement de commissions, rupture de contrat) et assure le contentieux.",
+      "Le cabinet intervient en France comme à l'international, notamment en Italie, en Espagne, aux Pays-Bas, en Pologne et en Allemagne."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "missions",
+     "eyebrow": "Missions",
+     "title": "Les missions <em class=\"it\">les plus fréquentes</em>",
+     "items": [
+      {
+       "title": "Contrat et statut",
+       "list": [
+        "Statut d'agent commercial",
+        "Spécificités du secteur immobilier",
+        "Rédaction et audit de contrats d'agent ou de sous-agent",
+        "Négociation contractuelle",
+        "Cession de cartes"
+       ]
+      },
+      {
+       "title": "Commissions et rupture",
+       "list": [
+        "Calcul des commissions",
+        "Recouvrement d'impayés ou d'arriérés",
+        "Rupture du contrat",
+        "Transactions après rupture",
+        "Indemnité de fin de contrat"
+       ]
+      },
+      {
+       "title": "Procédure",
+       "list": [
+        "Mise en place de procédures",
+        "Représentation devant les tribunaux",
+        "Agents travaillant en France pour des sociétés internationales"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "statut",
+     "eyebrow": "Le statut",
+     "title": "Un statut <em class=\"it\">particulier</em>",
+     "paras": [
+      "Selon le Code de commerce, l'agent commercial est mandaté pour négocier et conclure des contrats au nom d'un tiers, de façon permanente. Travailleur indépendant, il doit respecter un devoir de loyauté et d'information et les clauses de son contrat (non-concurrence post-contractuelle, notamment).",
+      "Maître Biagi accompagne l'agent en amont de la signature du contrat, puis en cas de litige, que le contrat soit écrit ou non : non-respect du préavis, indemnité de rupture refusée, commission non payée, modification du contrat ou du secteur géographique, accusation de faute grave ou de défaut de prospection. Elle privilégie d'abord la négociation amiable et peut plaider devant le tribunal de commerce.",
+      "Rendez-vous du lundi au vendredi au cabinet lyonnais, y compris pour les agents immobiliers."
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://www.avocat-biagi-amandine.com/gifs/image3.jpg",
+     "eyebrow": "Agents commerciaux",
+     "title": "Un litige <em>avec votre mandant</em>",
+     "cta": [
+      "Contacter le cabinet",
+      "../contact/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "dommage-corporel",
+   "label": "Dommage corporel",
+   "title": "Avocat en droit du dommage corporel à Lyon 3",
+   "h1": "Dommage <em>corporel</em>",
+   "eyebrow": "Victimes · Responsabilité civile",
+   "lead": "Accompagner les victimes de dommages corporels à chaque étape de la procédure d'indemnisation.",
+   "img": "https://www.avocat-biagi-amandine.com/photos/414x390/dommages1.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "indemnisation",
+     "eyebrow": "Le droit à l'indemnisation",
+     "title": "La réparation <em class=\"it\">intégrale du préjudice</em>",
+     "paras": [
+      "Le dommage corporel est une atteinte à l'intégrité physique : accident de la route, agression, accident médical, accident du travail ou de la vie courante. Quelle qu'en soit l'origine, la victime a droit à la réparation intégrale de son préjudice, y compris les souffrances endurées (pretium doloris).",
+      "Ce droit suppose de prouver un lien de causalité entre le dommage et le fait générateur, et de justifier les préjudices par des éléments tangibles, y compris les préjudices non visibles.",
+      "Une question ? Appelez le cabinet au <a href=\"tel:+33469647220\">04 69 64 72 20</a>."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/414x390/dommages1.jpg",
+     "alt": "Avocat dommage corporel"
+    },
+    {
+     "kind": "story",
+     "id": "etapes",
+     "eyebrow": "Les étapes",
+     "title": "Expertise, provision, <em class=\"it\">offre d'indemnité</em>",
+     "paras": [
+      "Une expertise médicale permet en principe d'identifier et de chiffrer les préjudices. L'assureur propose ensuite le versement d'une provision, à valoir sur l'indemnisation finale ; l'avocat peut en obtenir un règlement plus rapide.",
+      "L'assureur doit transmettre une offre d'indemnités, que la victime est libre d'accepter ou de refuser. En cas d'offre insuffisante ou de versement tardif, une action judiciaire peut être engagée contre l'assureur."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/477x450/dommages2.jpg",
+     "alt": "Indemnisation dommage corporel"
+    },
+    {
+     "kind": "story",
+     "id": "responsabilite",
+     "eyebrow": "Responsabilité civile",
+     "title": "Responsabilité contractuelle <em class=\"it\">et délictuelle</em>",
+     "paras": [
+      "Vices du consentement, vices cachés, nullité ou résiliation de contrat, responsabilité du fait des choses, des salariés ou d'un animal domestique : un événement courant peut conduire à mettre en cause votre responsabilité ou celle d'autrui.",
+      "L'article 1240 du Code civil fonde la responsabilité délictuelle, l'article 1231-1 la responsabilité contractuelle. Le cabinet assiste ses clients dans ces procédures, quel que soit le type de responsabilité."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/566x534/responsabilite.jpg",
+     "alt": "Avocat responsabilité civile"
+    }
+   ]
+  },
+  {
+   "slug": "avocat-postulant-lyon",
+   "label": "Postulation",
+   "title": "Avocat postulant à Lyon 3",
+   "h1": "Avocat <em>postulant à Lyon</em>",
+   "eyebrow": "Pour les confrères",
+   "lead": "Représentation devant l'ensemble des juridictions de Lyon, à proximité du Palais de Justice.",
+   "img": "https://www.avocat-biagi-amandine.com/photos/566x534/postulation.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "juridictions",
+     "eyebrow": "Juridictions",
+     "title": "Devant l'ensemble <em class=\"it\">des juridictions de Lyon</em>",
+     "paras": [
+      "Pôle de la proximité et de la protection, tribunal judiciaire, tribunal de commerce, tribunal correctionnel, conseil de prud'hommes et cour d'appel de Lyon, ainsi que le tribunal de proximité de Villeurbanne.",
+      "Maître Biagi postule devant le tribunal judiciaire de Lyon ou la cour d'appel de Lyon, et se constitue devant le tribunal de commerce de Lyon."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/566x534/postulation.jpg",
+     "alt": "Postulation avocat"
+    },
+    {
+     "kind": "features",
+     "id": "suivi",
+     "eyebrow": "Un cabinet réactif à Lyon",
+     "title": "Suivi <em class=\"it\">de la mise en état</em>",
+     "items": [
+      [
+       "Transmission sans délai",
+       "Les informations sur le suivi du dossier sont transmises par courriel, fax ou courrier, selon vos préférences."
+      ],
+      [
+       "Proximité du Palais",
+       "La proximité du Palais de Justice permet d'être réactive et de vous substituer, même en urgence."
+      ],
+      [
+       "Honoraires",
+       "Les tarifs sont négociés selon la juridiction, le client et le travail à accomplir."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honoraires-avocat-lyon",
+   "label": "Honoraires",
+   "title": "Honoraires avocat - Lyon",
+   "h1": "<em>Honoraires</em>",
+   "eyebrow": "Transparence",
+   "lead": "Le cabinet prône la transparence pour la facturation de ses honoraires.",
+   "img": "https://www.avocat-biagi-amandine.com/photos/535x504/honoraires1.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "facturation",
+     "eyebrow": "Facturation",
+     "title": "Des honoraires <em class=\"it\">fixés dès le premier entretien</em>",
+     "paras": [
+      "Les honoraires sont fixés dès le premier entretien, selon la procédure engagée ou le conseil demandé. Ils sont libres et fixés selon les modalités prévues par le décret du 12 juillet 2005 et le Règlement Intérieur National (RIN) de la profession d'avocat.",
+      "Le cabinet facture soit au temps passé, soit au forfait, selon la procédure. Dès qu'une procédure judiciaire est engagée, Maître Biagi établit une convention d'honoraires.",
+      "Le cabinet ne prend pas de dossier au titre de l'aide juridictionnelle : pour en bénéficier, il faut contacter l'Ordre des avocats afin de demander la désignation d'un avocat acceptant ce dispositif.",
+      "Une question ? Appelez le cabinet au <a href=\"tel:+33469647220\">04 69 64 72 20</a>."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/535x504/honoraires1.jpg",
+     "alt": "Honoraires avocat"
+    },
+    {
+     "kind": "story",
+     "id": "protection",
+     "eyebrow": "Assurance de protection juridique",
+     "title": "Le libre choix <em class=\"it\">de l'avocat</em>",
+     "paras": [
+      "L'assurance protection juridique permet de couvrir, au moins en partie, les honoraires de l'avocat. Elle peut figurer dans le contrat d'assurance habitation ou être proposée par la banque, notamment avec certaines cartes de crédit.",
+      "L'assureur ne peut pas imposer un avocat : le client choisit librement son avocat."
+     ],
+     "img": "https://www.avocat-biagi-amandine.com/photos/477x450/honoraires2.jpg",
+     "alt": "Protection juridique"
+    }
+   ]
+  },
+  {
+   "slug": "actualites",
+   "label": "Actualités",
+   "title": "Actualités",
+   "h1": "<em>Actualités</em>",
+   "eyebrow": "Droit du travail",
+   "lead": "Commentaires de jurisprudence publiés par le cabinet.",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "blog",
+     "id": "actualites",
+     "eyebrow": "Actualités",
+     "title": "Jurisprudence <em class=\"it\">commentée</em>",
+     "lead": "Les articles publiés sur le site du cabinet :",
+     "step": 6,
+     "posts": [
+      {
+       "title": "Prise d'acte injustifiée : le salarié doit à l'employeur le montant de l'indemnité compensatrice de préavis",
+       "cat": "Droit du travail",
+       "date": "28 septembre 2011",
+       "desc": "Lorsque la prise d'acte produit les effets d'une démission, le salarié qui n'exécute pas son préavis doit l'indemnité compensatrice correspondante (Cass., 8 juin 2011).",
+       "url": "https://www.avocat-biagi-amandine.com/prise-d---acte-injustifiee---le-salarie-doit-a-l---employeur-le-montant-de-l---indemnite-compensatrice-de-preavis_ad4.html",
+       "page": "prise-d-acte-injustifiee"
+      },
+      {
+       "title": "Contrepartie financière à la clause de non-concurrence : versement partiel et date d'effet",
+       "cat": "Droit du travail",
+       "date": "28 septembre 2011",
+       "desc": "La Cour de cassation (22 juin 2011, n° 09-71.567) précise les conséquences d'un versement partiel de la contrepartie financière.",
+       "url": "https://www.avocat-biagi-amandine.com/contrepartie-financiere-a-la-clause-de-non-concurrence---versement-partiel-et-date-d---effet_ad5.html"
+      },
+      {
+       "title": "Messagerie professionnelle : « le salarié a droit, même au temps et au lieu du travail, au respect de l'intimité de sa vie privée »",
+       "cat": "Droit du travail",
+       "date": "28 septembre 2011",
+       "desc": "Commentaire d'un arrêt de la chambre sociale de la Cour de cassation du 5 juillet 2011 sur le respect de la vie privée du salarié au travail.",
+       "url": "https://www.avocat-biagi-amandine.com/-messagerie-professionnelle-----le-salarie-a-droit--meme-au-temps-et-au-lieu-du-travail--au-respect-de-l---intimite-de-sa-vie-privee---_ad6.html"
+      }
+     ],
+     "all": [
+      "Toutes les actualités",
+      "https://www.avocat-biagi-amandine.com/actualites_al.html"
+     ]
+    },
+    {
+     "kind": "story",
+     "id": "liens",
+     "eyebrow": "Liens utiles",
+     "title": "Les liens <em class=\"it\">utiles</em>",
+     "paras": [
+      "<a href=\"https://www.barreaulyon.com/\" target=\"_blank\" rel=\"noopener\">Barreau de Lyon</a> · <a href=\"https://www.service-public.fr/\" target=\"_blank\" rel=\"noopener\">Service-public.fr</a> · <a href=\"https://www.infogreffe.fr/\" target=\"_blank\" rel=\"noopener\">Infogreffe</a> · <a href=\"https://www.legifrance.gouv.fr/\" target=\"_blank\" rel=\"noopener\">Légifrance</a> · <a href=\"https://www.insee.fr/fr/accueil\" target=\"_blank\" rel=\"noopener\">Insee</a>"
+     ],
+     "logos": [
+      [
+       "https://www.avocat-biagi-amandine.com/gifs/logo1.png",
+       "Barreau de Lyon"
+      ],
+      [
+       "https://www.avocat-biagi-amandine.com/gifs/logo2.png",
+       "Service-public.fr"
+      ],
+      [
+       "https://www.avocat-biagi-amandine.com/gifs/logo3.png",
+       "Infogreffe"
+      ],
+      [
+       "https://www.avocat-biagi-amandine.com/gifs/logo4.png",
+       "Légifrance"
+      ],
+      [
+       "https://www.avocat-biagi-amandine.com/gifs/logo5.png",
+       "Insee"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "h1": "<em>Contact</em>",
+   "eyebrow": "Maître Amandine Biagi, avocate",
+   "lead": "119 rue Pierre Corneille, 69003 Lyon · du lundi au vendredi, 9h-12h et 14h-19h, sur rendez-vous.",
+   "img": "https://www.avocat-biagi-amandine.com/gifs/image1.jpg",
+   "sections": [
+    {
+     "kind": "visit",
+     "id": "plan",
+     "eyebrow": "Plan d'accès",
+     "title": "Le cabinet, <em class=\"it\">Lyon 3e</em>",
+     "text": "Cabinet de Maître Amandine Biagi, avocate au Barreau de Lyon, à proximité de Lyon 6. Visites sur rendez-vous.",
+     "rows": [
+      [
+       "Adresse",
+       "119 rue Pierre Corneille, 69003 Lyon"
+      ],
+      [
+       "Téléphone",
+       "<a href=\"tel:+33469647220\">04 69 64 72 20</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:amandine.biagi@gmail.com\">amandine.biagi@gmail.com</a>"
+      ],
+      [
+       "Horaires",
+       "Du lundi au vendredi, 9h à 12h et 14h à 19h, sur rendez-vous"
+      ],
+      [
+       "Barreau",
+       "Barreau de Lyon"
+      ]
+     ],
+     "cta": [
+      "Écrire au cabinet",
+      "#ecrire"
+     ],
+     "map_q": "119 rue Pierre Corneille, 69003 Lyon"
+    },
+    {
+     "kind": "form",
+     "id": "ecrire",
+     "eyebrow": "Formulaire de contact",
+     "title": "Vos <em class=\"it\">coordonnées</em>",
+     "lead": "Indiquez vos coordonnées et l'objet de votre demande.",
+     "side": [
+      "<b>Téléphone</b><br><a href=\"tel:+33469647220\">04 69 64 72 20</a>",
+      "<b>E-mail</b><br><a href=\"mailto:amandine.biagi@gmail.com\">amandine.biagi@gmail.com</a>",
+      "<b>Adresse</b><br>119 rue Pierre Corneille, 69003 Lyon"
+     ],
+     "email": "amandine.biagi@gmail.com",
+     "subject": "Demande depuis le site",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "Prénom"
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel",
+       "required": true
+      },
+      {
+       "label": "Adresse e-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Adresse",
+       "full": true
+      },
+      {
+       "label": "Code postal"
+      },
+      {
+       "label": "Ville"
+      },
+      {
+       "label": "Votre demande concerne",
+       "type": "textarea",
+       "rows": 5,
+       "required": true
+      },
+      {
+       "label": "Site web",
+       "full": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "actualites/prise-d-acte-injustifiee",
+   "hidden": true,
+   "title": "Prise d'acte injustifiée : le salarié doit à l'employeur le montant de l'indemnité compensatrice de préavis",
+   "h1": "Prise d'acte injustifiée : le salarié doit à l'employeur l'indemnité compensatrice de préavis",
+   "eyebrow": "Actualités · Droit du travail",
+   "head": "plain",
+   "sections": [
+    {
+     "kind": "article",
+     "id": "article",
+     "cat": "Droit du travail",
+     "date": "28 septembre 2011",
+     "chapo": "Lorsque la prise d'acte de la rupture produit les effets d'une démission, le salarié qui n'a pas exécuté son préavis doit à l'employeur l'indemnité compensatrice correspondante.",
+     "keys": "Arrêt de la Cour de cassation du 8 juin 2011. L'indemnité compensatrice de préavis est forfaitaire : l'employeur n'a pas à prouver un préjudice. La solution applicable à la démission vaut pour la prise d'acte qui en produit les effets.",
+     "body": [
+      {
+       "h2": "Les faits"
+      },
+      {
+       "p": "Un salarié soutenait que son employeur ne lui avait pas payé l'intégralité de ses heures supplémentaires et avait pris acte de la rupture de son contrat sur ce fondement. Il ne produisait que des copies de son agenda, annotées de sa main ; une attestation présentée par l'employeur contredisait sa version."
+      },
+      {
+       "h2": "La solution"
+      },
+      {
+       "p": "La Cour de cassation approuve les juges d'appel d'avoir rejeté la demande du salarié : la prise d'acte produit les effets d'une démission, dont le régime s'applique pleinement."
+      },
+      {
+       "p": "Le salarié démissionnaire qui ne respecte pas son préavis doit verser l'indemnité compensatrice correspondante. Forfaitaire, elle n'impose pas à l'employeur de prouver un préjudice. La même solution s'applique à la prise d'acte qui produit les effets d'une démission."
+      }
+     ],
+     "source": "Article publié le 28 septembre 2011 sur le site du cabinet de Maître Amandine Biagi.",
+     "back": [
+      "Retour aux actualités",
+      "../"
+     ]
+    }
+   ]
+  }
+ ]
+}
