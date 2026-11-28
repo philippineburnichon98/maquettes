@@ -1,8 +1,8 @@
 nom,type,ville,site_actuel,email,slug_maquette,statut,date
-Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,sans suite (relance du 17 oct. sans reponse),2026-10-09
+Domaine de la Folie,domaine,Chagny (Rully),https://www.domainedelafolie.fr/,domainedelafolie@sfr.fr ; contact@domainedelafolie.fr,domaine-de-la-folie-763489,relance v2 envoyee (25 nov. ; domainedelafolie@sfr.fr en rebond),2026-10-09
 Bouchon des Cordeliers,restaurant,Lyon 2e,http://www.bouchondescordeliers.com/,contact@bouchondescordeliers.com,bouchon-des-cordeliers-4f9a2c,relance prete,2026-10-09
-Domaine Bernard Jomain,domaine,Charentay (Brouilly),https://www.domainebernardjomain.com/,jomainb@wanadoo.fr,domaine-bernard-jomain-2d7c93,relance prete,2026-10-09
-Le Bouchon des Artistes,restaurant,Lyon 3e,https://www.le-bouchon-des-artistes.fr/,lebouchondesartistes@orange.fr,bouchon-des-artistes-b81e57,relance prete,2026-10-09
+Domaine Bernard Jomain,domaine,Charentay (Brouilly),https://www.domainebernardjomain.com/,jomainb@wanadoo.fr,domaine-bernard-jomain-2d7c93,relance v2 envoyee (25 nov.),2026-10-09
+Le Bouchon des Artistes,restaurant,Lyon 3e,https://www.le-bouchon-des-artistes.fr/,lebouchondesartistes@orange.fr,bouchon-des-artistes-b81e57,relance v2 envoyee (25 nov.),2026-10-09
 Les Fines Gueules,restaurant,Lyon 5e,http://www.fines-gueules.fr,,,ecarte (site recent),2026-10-09
 Bouchon Palais Grillet,restaurant,Lyon 2e,https://www.bouchonpalaisgrillet.com/,,,ecarte (site recent),2026-10-09
 La Meuniere,restaurant,Lyon 1er,http://www.lameuniere.fr/,,,ecarte (site recent),2026-10-09
@@ -14,10 +14,10 @@ Domaine Augris,domaine,Villie-Morgon,http://gitedutonnelier.over-blog.com/,domai
 Le Bistrot d'Abel,restaurant,Lyon,http://www.bistrot-abel.fr,,,ecarte (lecture bloquee),2026-10-09
 Cafe Comptoir Abel,restaurant,Lyon,http://www.cafecomptoirabel.com,,,ecarte (lecture bloquee),2026-10-09
 Domaine Les Roches Bleues,domaine,Odenas (Brouilly),https://domainelesrochesbleues.com/,contact@domainelesrochesbleues.com ; domainelesrochesbleues@outlook.com,,"ecarte (site recent et bien fait, avis de Philippine)",2026-10-09
-ARGOS Diagnostic,diagnostiqueur,Lyon 7e,https://www.argos-diagnostic.fr/,contact@argosdiag.fr,argos-diagnostic-adb84d,relance prete,2026-10-09
+ARGOS Diagnostic,diagnostiqueur,Lyon 7e,https://www.argos-diagnostic.fr/,contact@argosdiag.fr,argos-diagnostic-adb84d,relance v2 envoyee (25 nov.),2026-10-09
 Bains et Cie,artisan (salle de bain),,https://bainsetcie.wixsite.com/monsite,bainsetcie@yahoo.com,bains-et-cie-f10f6d,relance prete,2026-10-09
 Entreprise Brun,artisan (plâtrier-peintre),Lyon,https://www.artisan-platrier-peintre.com/,entreprise.brun@gmail.com,entreprise-brun-d7aca1,refus,2026-10-09
-Cabinet Giabicani,avocat,Chambéry,https://www.avocats-giabicani.com/,contact@avocats-giabicani.com,giabicani-d8d892,relance prete,2026-10-09
+Cabinet Giabicani,avocat,Chambéry,https://www.avocats-giabicani.com/,contact@avocats-giabicani.com,giabicani-d8d892,relance v2 envoyee (25 nov.),2026-10-09
 Girod-Roux Menuiserie,artisan (menuisier),,https://www.girod-roux-menuiserie.fr/,fgrmenuiserie@gmail.com ; fredgrx@gmail.com,girod-roux-menuiserie-870921,relance prete,2026-10-09
 Étude Odin-Blondot,notaire,Lyon 6e,https://www.notaires-lyon6.fr/,odin-blondot@69109.notaires.fr,odin-blondot-c1e13c,relance prete,2026-10-09
 Domaine Lionel Despres,domaine,Fleurie,https://www.lionel-despres.com/,contact@lionel-despres.com,lionel-despres-f3408f,relance prete (31 oct.),2026-10-23
@@ -116,7 +116,7 @@ Office Brac de la Perrière,notaire,Lyon (Montchat),https://bracdelaperriere-lyo
 SCP Daoulas Lebosse-Faye Girardeau Chavignier,notaire,La Rochelle,http://www.ldl-larochelle.notaires.fr/,,,ecarte (lecture impossible : boucle de redirection),2026-10-11
 Office ABM,notaire,Toulouse,https://office-abm.notaires.fr/,,,ecarte (lecture impossible : robots.txt),2026-10-11
 Defalque-Cahon & Allegre,notaire,Aix-en-Provence,https://www.defalque-allegre.notaires.fr/,,,"ecarte (site recent, pas d'e-mail)",2026-10-11
-Safaryan Avocat (Maître Lilit Safaryan),avocat (droit du travail),Lyon,https://www.safaryan-avocat.com/,avocat@cabinet-safaryan.com,safaryan-avocat-9211ac,sans suite (relance du 20 oct. sans reponse),2026-10-12
+Safaryan Avocat (Maître Lilit Safaryan),avocat (droit du travail),Lyon,https://www.safaryan-avocat.com/,avocat@cabinet-safaryan.com,safaryan-avocat-9211ac,relance v2 envoyee (25 nov.),2026-10-12
 Domaine des Vieilles Caves,domaine,Chénas,https://www.domaine-des-vieilles-caves.com/,jerome.janodet@orange.fr,,ecarte (site recent : 2026 visible),2026-10-17
 Domaine Franck Besson,domaine,Chénas,http://domainefranckbesson.fr/index.html,domainebesson@wanadoo.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-17
 Domaine des Grands Rouvres,domaine,Chénas,https://domaine-des-grands-rouvres.jimdosite.com,guillaumedurdilly@yahoo.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-17
@@ -137,11 +137,11 @@ Chauffage Plomberie Mathevon (Frédéric Mathevon),artisan (chauffagiste plombie
 L'Artisan Ulmann,artisan (peintre),Vourles,https://www.artisan-ulmann.com/artisan-peintre-local-vourles-rhone-69,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-17
 Sebastian Viron (Penture Italia),artisan (peintre décorateur),Lyon,http://penture.italia.free.fr/artisan-peintre/penture.html,,,ecarte (lecture impossible : erreur de recuperation),2026-10-17
 Home Ribeiro,artisan (plâtrier peintre),Ouest lyonnais,https://homeribeiro.wixsite.com/my-site,homeribeiro@hotmail.com,,ecarte (site recent : Wix 2022-2024),2026-10-17
-Les Murs de Clément (Clément Margot),artisan (peintre),Lyon,https://lesmursdeclement.wixsite.com/lmdc,lesmursdeclement@gmail.com,les-murs-de-clement-374fb0,brouillon pret,2026-10-17
+Les Murs de Clément (Clément Margot),artisan (peintre),Lyon,https://lesmursdeclement.wixsite.com/lmdc,lesmursdeclement@gmail.com,les-murs-de-clement-374fb0,envoye (25 nov.),2026-10-17
 AV Expertise (Andreani-Vetter Expertise),diagnostiqueur,Villefranche-sur-Saône,https://www.avexpertise.com/,contact@avexpertise.com ; contacts@avexpertise.com,av-expertise-e26ce8,brouillon pret,2026-10-17
 Salichon et Associés,notaire,Lyon 6e,https://salichonetassocies.notaires.fr/,,,"ecarte (site recent 2023, pas d'e-mail)",2026-10-17
 Paul & Associés,notaire,Lyon 9e,https://www.paul-et-associes.notaires.fr/notaires-a-lyon/,,,"ecarte (site recent, pas d'e-mail)",2026-10-17
-Maître Louis Cheret,notaire,Villefranche-sur-Saône,https://www.notaire-louis-cheret-villefranchesursaone.fr/,louis.cheret@notaires.fr,louis-cheret-notaire-632c28,brouillon pret,2026-10-17
+Maître Louis Cheret,notaire,Villefranche-sur-Saône,https://www.notaire-louis-cheret-villefranchesursaone.fr/,louis.cheret@notaires.fr,louis-cheret-notaire-632c28,envoye (25 nov.),2026-10-17
 Domaine André Desmures,domaine,Chiroubles,http://www.andre-desmures.com,descop@orange.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
 Domaine Christophe Savoye,domaine,Chiroubles,http://www.vins-chiroubles.com,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-10-18
 Domaine Matray,domaine,Juliénas,https://domainematray.fr/,domaine.matray@wanadoo.fr,,"ecarte (site recent : 2026 visible, agenda 2026)",2026-10-18
@@ -177,7 +177,7 @@ Alpes Habitat Expertises (Sylvain Léo),diagnostiqueur,Échirolles (Grenoble),ht
 Marine Mathiaud,avocat,Grenoble,http://www.mathiaud-avocat-grenoble.fr/,,,ecarte (lecture impossible : redirection en boucle),2026-10-18
 JBV Avocats,avocat,Grenoble,https://www.jbv-avocats.fr/,cabinet@jbv-avocats.fr,,"ecarte (non retenu ce passage : un seul avocat par lot ; Wix 2020, piste de reserve)",2026-10-18
 Maître Mélanie Grimonet,avocat,Annecy,https://grimonet-avocat.fr/,contact@grimonet-avocat.fr,grimonet-avocat-bc4c31,brouillon pret,2026-10-18
-Domaine Roche Saint-Jean (Ludovic Mathon),domaine,Villié-Morgon,https://morgon-mathon.fr/,earl.mathon@wanadoo.fr,morgon-mathon-9ce48a,brouillon pret,2026-10-19
+Domaine Roche Saint-Jean (Ludovic Mathon),domaine,Villié-Morgon,https://morgon-mathon.fr/,earl.mathon@wanadoo.fr,morgon-mathon-9ce48a,envoye (25 nov.),2026-10-19
 Domaine Crêt des Garanches (Sylvie Dufaitre-Genin),domaine,Odenas (Brouilly),https://cretdesgaranches.fr/,sylvie.dufaitre-genin@wanadoo.fr,,"ecarte (site GravCMS correct, aucun e-mail sur le site ; piste de reserve)",2026-10-19
 Domaine Baron de l'Écluse (Jean-François Pégaz),domaine,Saint-Lager (Côte de Brouilly),https://barondelecluse.com/,baron.delecluse2@orange.fr,,ecarte (site modifie en 2026 : image envoyee en 2026/02),2026-10-19
 Domaine du Sancillon,domaine,Odenas,,,,ecarte (ni site ni e-mail sur la fiche),2026-10-19
@@ -349,12 +349,12 @@ L'Auberge de Fourchet,restaurant,Pomeys,https://aubergedefourchet.wixsite.com/au
 Auberge du Cep (Aurélien Merot),restaurant,Fleurie,https://aubergeducep.com/,contact@aubergeducep.com,,"ecarte (site recent : 2026 visible, PDF menu-marche-2026.pdf)",2026-11-01
 Le Tablier Beaujolais,restaurant,Belleville-en-Beaujolais,https://www.letablierbeaujolais.fr/,,,"ecarte (site recent : 2026 visible, © 2026 ; pas d'e-mail)",2026-11-01
 La Terrasse du Beaujolais,restaurant,Chiroubles,https://www.la-terrasse-du-beaujolais.fr/,,,"ecarte (site recent : 2026 visible, actualites 2026 ; pas d'e-mail, formulaire seul)",2026-11-01
-Auberge du Grand Ronjon,restaurant,Cormoz (Ain),https://auberge-du-grand-ronjon.fr/,aubergedugrandronjon@gmail.com,,"ecarte (site modifie en 2026 : modified_time 2026-04-18)",2026-11-01
+Auberge du Grand Ronjon,restaurant,Cormoz (Ain),https://auberge-du-grand-ronjon.fr/,aubergedugrandronjon@gmail.com,,ecarte (site modifie en 2026 : modified_time 2026-04-18),2026-11-01
 Restaurant Rivollier,restaurant,Aveize,https://www.restaurant-rivollier.net/,restaurant-rivollier@hotmail.fr,,ecarte (lecture impossible : robots.txt),2026-11-01
 Le Petit Meunier (Jérôme Gagneux),restaurant,Messimy,https://www.lepetitmeunier.com/,contact@lepetitmeunier.com ; gagneux.jerome@wanadoo.fr,,"ecarte (site recent : 2026 visible, avis clients dates d'avril 2026 ; piste de reserve)",2026-11-01
 Entreprise d'électricité générale BOSKING,artisan (électricien),Rillieux-la-Pape,https://josephboseki.wixsite.com/website,Josephboseki@yahoo.com,,"ecarte (site tres pauvre : services sans description, en doublon ; piste de reserve, Wix ©2020)",2026-11-01
 AC Énergies,artisan (plombier chauffagiste),La Rochelle,https://ac-energies.jimdofree.com/,,,ecarte (e-mail masque par protection anti-spam ; pas d'adresse),2026-11-01
-Cabrol Services,artisan (plombier chauffagiste fumiste),Labruguière (81),https://cabrolservices.wixsite.com/cabrol-services,cabrol-services@laposte.net,,"ecarte (hors zone : Tarn ; Wix ©2024)",2026-11-01
+Cabrol Services,artisan (plombier chauffagiste fumiste),Labruguière (81),https://cabrolservices.wixsite.com/cabrol-services,cabrol-services@laposte.net,,ecarte (hors zone : Tarn ; Wix ©2024),2026-11-01
 LB Services,artisan (électricien),Lyon ?,https://lbserviceslyon.wixsite.com/lbservices-1,,,"ecarte (pas d'e-mail public, pas d'adresse)",2026-11-01
 Électricité Philippe Neveu,artisan (électricien),Craponne (Lyon Ouest),https://philippeneveu.wixsite.com/website,pneveu@sfr.fr,neveu-electricite-ccc17b,brouillon pret,2026-11-01
 Menuiserie Fayolle,artisan (menuisier),Cellieu (42),https://menuiseriefayolle.wixsite.com/menuiserie-fayolle-1,contact@menuiserie-fayolle.fr,,ecarte (site recent : 2026 visible),2026-11-01
@@ -362,8 +362,8 @@ Rhône Rénov Toiture,artisan (couvreur),Rhône,https://rhone-renov-toiture.e-mo
 Dawson Couverture,artisan (couvreur),,https://dawson-couverture.e-monsite.com/,,,ecarte (lecture impossible : erreur client),2026-11-01
 JM Couverture Rénovation,artisan (couvreur),,https://jm-couverture.e-monsite.com/,,,ecarte (lecture impossible : erreur client),2026-11-01
 CARON Charpente et Couverture (SASU),artisan (charpentier couvreur),Villard-Bonnot / Goncelin (Grésivaudan),https://djumai.wixsite.com/caron-2,,,"ecarte (pas d'e-mail public, formulaire seul ; Wix © 2024)",2026-11-01
-A2B Charpente,artisan (charpentier couvreur),Grenoble,https://a2bcharpente.wixsite.com/a2bc,,,"ecarte (pas d'e-mail public ; renvoie vers un nouveau site a2bcharpente.fr)",2026-11-01
-Patrick Sordet Menuiserie & Ébénisterie,artisan (menuisier ébéniste),Carantec (29),https://pasordet.wixsite.com/menebe,ps.menebe@gmail.com,,"ecarte (hors zone : Finistère ; contenu 2025)",2026-11-01
+A2B Charpente,artisan (charpentier couvreur),Grenoble,https://a2bcharpente.wixsite.com/a2bc,,,ecarte (pas d'e-mail public ; renvoie vers un nouveau site a2bcharpente.fr),2026-11-01
+Patrick Sordet Menuiserie & Ébénisterie,artisan (menuisier ébéniste),Carantec (29),https://pasordet.wixsite.com/menebe,ps.menebe@gmail.com,,ecarte (hors zone : Finistère ; contenu 2025),2026-11-01
 BoxDiag,diagnostiqueur,,https://sites.google.com/view/boxdiag/accueil,contact@boxdiag.pro,,"ecarte (pas de ville ni zone d'intervention, ni adresse, ni dirigeant ; Google Sites © 2017-2022)",2026-11-01
 OVE-Diag,diagnostiqueur,Lyon Ouest (Tassin / Sainte-Foy / Francheville / Écully),https://www.ovediag.fr/,,,ecarte (lecture impossible : erreur client),2026-11-01
 Uni'Vert Diag Immo,diagnostiqueur,Lyon / Vienne,https://univertdiagimmo.fr/,,,"ecarte (site recent, WordPress Elementor 2023-2024, pas d'e-mail)",2026-11-01
@@ -371,7 +371,7 @@ Home Diagnostic,diagnostiqueur,Aix-en-Provence,https://www.home-diagnostic.com/,
 Audit DTIE,diagnostiqueur,Aix-en-Provence,https://www.audit-dtie.fr/,,,ecarte (lecture impossible : robots.txt),2026-11-01
 DiagDomus (Laurent Carpentier),diagnostiqueur,Aix-en-Provence / Apt,https://www.diagdomus.com/,contact@DiagDomus.com,,"ecarte (site recent et bien fait, Hostinger AI Builder)",2026-11-01
 ASE Dijon,diagnostiqueur,Dijon / Beaune,http://www.ase-dijon.com/,,,ecarte (lecture impossible : erreur client),2026-11-01
-MP Notaires (Mathieu & Pottier),notaire,Paris 15e,https://www.mpassocies.notaires.fr/en/copie-de-l-etude-et-ses-associés,contact@mpassocies.notaires.fr,,"ecarte (region parisienne ; Wix 2020)",2026-11-01
+MP Notaires (Mathieu & Pottier),notaire,Paris 15e,https://www.mpassocies.notaires.fr/en/copie-de-l-etude-et-ses-associés,contact@mpassocies.notaires.fr,,ecarte (region parisienne ; Wix 2020),2026-11-01
 Notaire Girod,notaire,,https://www.notaire-girod.fr/,,,ecarte (lecture impossible : robots.txt),2026-11-01
 Office Notarial du Faubourg de Lyon (Lagrange / Devaux / Hayette / Garnier-Hayette),notaire,Montluel (01),https://www.officedufaubourg.fr/a-propos-de-l-etude/,officedufaubourg@notaires.fr,,ecarte (site recent : 2026 visible),2026-11-01
 Cabinet de Notaire à Belleville-en-Beaujolais,notaire,Belleville-en-Beaujolais,https://www.notaires-belleville-beaujolais.fr/,,,ecarte (lecture impossible : erreur client),2026-11-01
@@ -426,13 +426,13 @@ CHD Energies,artisan (plombier chauffagiste climaticien),Saint-Quentin-sur-Isèr
 David Laurent Électricité,artisan (électricien plombier),Cucuron (84),https://laurentelectricite.jimdofree.com/,d.laurent84160@gmail.com,,ecarte (hors zone : Vaucluse),2026-11-07
 AG'Energie (Guillaume Reynier-Baret),artisan (climaticien électricien plombier),Grenoble,https://ag-energie38.wixsite.com/agenergie,contact@ag-energie38.com,ag-energie-7cf587,brouillon pret,2026-11-07
 Nicod Charpente Couverture Zinguerie (Morgan Nicod),artisan (charpentier couvreur zingueur),"Sainte-Euphémie (01, région lyonnaise)",https://nicodmorgan.wixsite.com/charpente-nicod,nicod.morgan@hotmail.fr,nicod-charpente-98089d,brouillon pret,2026-11-07
-Kiyar et Fils Charpente,artisan (charpentier couvreur),Annemasse (74),https://kiyar26.wixsite.com/monsite,kiyar26@hotmail.fr,,"ecarte (site maigre sans adresse ; piste de reserve)",2026-11-07
+Kiyar et Fils Charpente,artisan (charpentier couvreur),Annemasse (74),https://kiyar26.wixsite.com/monsite,kiyar26@hotmail.fr,,ecarte (site maigre sans adresse ; piste de reserve),2026-11-07
 MGL (Maçonnerie Gaspar & Luigi),artisan (maçon entreprise generale),Chavanay (42),https://mglbatiment.wixsite.com/mgl42,mgl.entreprisebatiment@gmail.com,,"ecarte (Nicod retenu en priorite ; Wix 2018 une page, piste de reserve)",2026-11-07
-SAS Clément Bruneau,artisan (charpentier couvreur),La Roche-Rigault / Loudun (86),https://bruneauc.wixsite.com/charpentier-couvreur,clement.bruneau86@orange.fr,,"ecarte (hors zone : Vienne ; Wix 2023)",2026-11-07
+SAS Clément Bruneau,artisan (charpentier couvreur),La Roche-Rigault / Loudun (86),https://bruneauc.wixsite.com/charpentier-couvreur,clement.bruneau86@orange.fr,,ecarte (hors zone : Vienne ; Wix 2023),2026-11-07
 Joseph Maçonnerie,artisan (maçon),Grenoble,https://lacatusjoseph.wixsite.com/macon,lacatusjoseph@gmail.com,,"ecarte (Wix 2022, contenu tres pauvre)",2026-11-07
-LCB Multi Services,artisan (couvreur maçon multiservices),Saint-Maurice-de-Beynost (01),https://lcbmultiservices01.wixsite.com/lcbmultiservicescouv,lcb.multiservices01@gmail.com,,"ecarte (Wix 2022 ; zone incoherente : Marne/Ain)",2026-11-07
+LCB Multi Services,artisan (couvreur maçon multiservices),Saint-Maurice-de-Beynost (01),https://lcbmultiservices01.wixsite.com/lcbmultiservicescouv,lcb.multiservices01@gmail.com,,ecarte (Wix 2022 ; zone incoherente : Marne/Ain),2026-11-07
 C2M Expertises (Bruno Perez),diagnostiqueur,Montagny (Givors / Brignais / Mornant),https://www.c2m-expertise-diagnostics-immobiliers.fr/,c2mexpertise@gmail.com,c2m-expertises-fc580d,brouillon pret,2026-11-07
-Expertises Givors (second site de C2M Expertises),diagnostiqueur,Montagny / Givors,http://www.diagnostic-immobilier-givors.fr/,c2mexpertise@gmail.com,,"ecarte (lecture impossible : robots.txt ; doublon de C2M Expertises)",2026-11-07
+Expertises Givors (second site de C2M Expertises),diagnostiqueur,Montagny / Givors,http://www.diagnostic-immobilier-givors.fr/,c2mexpertise@gmail.com,,ecarte (lecture impossible : robots.txt ; doublon de C2M Expertises),2026-11-07
 Cap Expertises BCR,diagnostiqueur,L'Arbresle,https://www.capexpertises-bcr.fr/,,,ecarte (lecture impossible : robots.txt),2026-11-07
 Cabinet Gavard Leroy,diagnostiqueur,Peillonnex (74),https://www.gavardleroy.com/,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-11-07
 D.D.I.S EIRL,diagnostiqueur,Passy (74),https://www.diag.immo/,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-11-07
@@ -480,7 +480,7 @@ Notara,notaire,Lyon 7e,https://www.notara.notaires.fr/,notara.lyon@notaires.fr,,
 ONPC Notaires,notaire,Lyon 6e,https://www.onpc-notaires.fr/,,,"ecarte (site recent : 2026 visible, pas d'e-mail)",2026-11-08
 Me Hugo Rassion,notaire,Lyon 3e,https://www.hugo-rassion.notaires.fr/,,,ecarte (pas d'e-mail public : ni contact ni mentions legales),2026-11-08
 SCP Paillard-Pariset (Me Nicolas Pariset),notaire,Lyon 1er,https://paillard-brunet-pariset-lyon.notaires.fr/l-office-nicolas-pariset.html,nicolas.pariset@notaires.fr ; odile.tertrais.69003@notaires.fr ; scp.paillard-pariset@notaires.fr,,ecarte (site recent : 2026 visible),2026-11-08
-"Domaine Bazaillacq (Christine et Jean-Luc Bazaillacq)",domaine,Jurançon (Pau),https://domainebazaillacq.wixsite.com/domainebazaillacq,jean-luc.bazaillacq@wanadoo.fr,domaine-bazaillacq-13efd7,brouillon pret,2026-11-09
+Domaine Bazaillacq (Christine et Jean-Luc Bazaillacq),domaine,Jurançon (Pau),https://domainebazaillacq.wixsite.com/domainebazaillacq,jean-luc.bazaillacq@wanadoo.fr,domaine-bazaillacq-13efd7,brouillon pret,2026-11-09
 L'Authenchic,restaurant,Toulouse (Minimes),https://lauthenchic.wixsite.com/monsite,lauthenchic@gmail.com,lauthenchic-b8a8e0,brouillon pret,2026-11-09
 Domaine Vayssette,domaine,Gaillac,https://www.domaine-vayssette.fr/fr/,,,ecarte (lecture impossible : autorisation de lecture non accordée),2026-11-09
 Domaine J.-F. Maréchal (Le P'tiou Vigneron),domaine,Apremont (Chambéry),http://www.marechal-apremont.com,marechal.jf@free.fr,,ecarte (lecture impossible : autorisation de lecture non accordée),2026-11-09
@@ -502,7 +502,7 @@ Panos Lipsos Avocat,avocat,Pau,https://avocat-pau-lipsos.fr/,,,ecarte (lecture i
 Maître Guillaume Blanche,avocat,Pau,https://www.guillaume-blanche-avocat.fr/,contact@guillaume-blanche-avocat.fr,,"ecarte (site recent : WordPress 2022-2023, propre et responsive)",2026-11-09
 Loire Diagnostics Services,diagnostiqueur,Angers,https://www.loire-diagnostics-services.com/,,,ecarte (lecture impossible : robots.txt),2026-11-09
 Barraque Diagnostics,diagnostiqueur,Tarbes,https://www.barraquediagnostics.fr/,,,ecarte (lecture impossible : robots.txt),2026-11-09
-DPE47 Diagnostics Immobiliers,diagnostiqueur,Agen (47),https://contactdpe47.wixsite.com/dpe47-1,contactdpe47@gmail.com,,"ecarte (site recent : Wix 2024 ; hors zone)",2026-11-09
+DPE47 Diagnostics Immobiliers,diagnostiqueur,Agen (47),https://contactdpe47.wixsite.com/dpe47-1,contactdpe47@gmail.com,,ecarte (site recent : Wix 2024 ; hors zone),2026-11-09
 AlphaDiag (Nicolas Magnin),diagnostiqueur,Aren (Béarn),https://alphadiag.fr/,contact@alphadiag.fr,,ecarte (site recent : 2026 visible),2026-11-09
 I-DIAG,diagnostiqueur,Saint-Vincent-de-Tyrosse (40),https://www.i-diag.fr/,contact@i-diag.fr,,ecarte (site recent : 2026 visible),2026-11-09
 RC Diags,diagnostiqueur,Aix-en-Provence,https://www.rcdiags.com/,,,ecarte (lecture impossible : robots.txt),2026-11-09
@@ -516,45 +516,45 @@ GB Tech,diagnostiqueur,"Prayssac (46, Cahors)",https://gbtech-info.jimdofree.com
 Diag-Eval (MS BAT),diagnostiqueur,Valras-Plage (34),https://diag-eval.jimdofree.com/,,,"ecarte (hors zone, e-mail masqué par Cloudflare)",2026-11-09
 L2E Lyon Études Expertises,diagnostiqueur,Lyon,http://lyonetudesexpertises.e-monsite.com/pages/a-propos.html,,,ecarte (lecture impossible : site en http seul),2026-11-09
 Diagnostic-Immobilier40,diagnostiqueur,Landes,http://diagnostic-immobilier40.e-monsite.com/pages/nom-structure.html,,,ecarte (lecture impossible : site en http seul),2026-11-09
-Domaine des Deux Voûtes,domaine,Saint-Amour-Bellevue,https://2voutes.jimdofree.com,,,"ecarte (lecture impossible : autorisation de lecture expiree ; pas d'e-mail sur la fiche Bourgogne Tourisme)",2026-11-14
+Domaine des Deux Voûtes,domaine,Saint-Amour-Bellevue,https://2voutes.jimdofree.com,,,ecarte (lecture impossible : autorisation de lecture expiree ; pas d'e-mail sur la fiche Bourgogne Tourisme),2026-11-14
 Domaine La Croix du Battut,domaine,Corrèze (Brive),https://www.domainelacroixdubattut.com/,,,ecarte (lecture impossible : robots.txt),2026-11-14
-Domaine de la Gardelle (Jean Moulène),domaine,Saint-Julien-Maumont (Corrèze),https://www.vinbio19.com/,,,"ecarte (pas d'e-mail public : formulaire seul)",2026-11-14
+Domaine de la Gardelle (Jean Moulène),domaine,Saint-Julien-Maumont (Corrèze),https://www.vinbio19.com/,,,ecarte (pas d'e-mail public : formulaire seul),2026-11-14
 Domaine Borda Xuria (Larraldea),domaine,Irouléguy (Pays basque),http://www.domaine-bordaxuria-larraldea.com,contact@domaine-bordaxuria-larraldea.com,,ecarte (lecture impossible : autorisation de lecture expiree),2026-11-14
 Domaine Ameztia (Gexan et Eñaut Costera),domaine,Baigorri (Irouléguy / Bayonne),https://www.domaine-ameztia.com/,ameztia@orange.fr,domaine-ameztia-793a69,brouillon pret,2026-11-14
 Au Bon Coin,restaurant,Lons (Pau),http://www.auboncoin-pau.com,,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-14
 Café Terroir,restaurant,Lyon 2e,http://www.cafeterroir.fr/,contact@cafeterroir.fr,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-14
-Le Leonie's,restaurant (bar-brasserie),Saint-Germain-des-Fossés (03),https://restaurantleleonie.wixsite.com/leleonies,Restaurant.leleonies@gmail.com,,"ecarte (hors zone : Allier ; Wix © 2024)",2026-11-14
+Le Leonie's,restaurant (bar-brasserie),Saint-Germain-des-Fossés (03),https://restaurantleleonie.wixsite.com/leleonies,Restaurant.leleonies@gmail.com,,ecarte (hors zone : Allier ; Wix © 2024),2026-11-14
 La Bonâme de Bruno,restaurant,Lyon 1er,http://www.restaurant-labonamedebruno.com,,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-14
 Le Petit Glouton,restaurant (bouchon),Lyon 5e,https://le-petit-glouton-restaurant-lyon.eatbu.com/,info@le-petit-glouton.fr,,ecarte (lecture impossible : carte PDF non autorisee),2026-11-14
-Thierry bouchon lyonnais,restaurant (bouchon),Chaponost,https://thierry.eatbu.com/,info@cofire.fr,,"ecarte (ni carte ni photos ni logo ; e-mail d'une autre societe)",2026-11-14
-Le Bouche à Oreille,restaurant (bouchon),Lyon 5e,https://leboucheaoreillelyon.eatbu.com/,nicolas.osmany@hotmail.com,,"ecarte (ni carte ni photos ni horaires ; seul e-mail personnel dans les mentions legales)",2026-11-14
+Thierry bouchon lyonnais,restaurant (bouchon),Chaponost,https://thierry.eatbu.com/,info@cofire.fr,,ecarte (ni carte ni photos ni logo ; e-mail d'une autre societe),2026-11-14
+Le Bouche à Oreille,restaurant (bouchon),Lyon 5e,https://leboucheaoreillelyon.eatbu.com/,nicolas.osmany@hotmail.com,,ecarte (ni carte ni photos ni horaires ; seul e-mail personnel dans les mentions legales),2026-11-14
 Kent Giroud Plomberie et Chauffage,artisan (plombier chauffagiste),Lyon,http://kentgiroud.free.fr/,,,ecarte (lecture impossible : robots.txt),2026-11-14
 AS Chauffage,artisan (chauffagiste),Rhône,http://aschauffage.free.fr/,,,ecarte (lecture impossible : erreur client),2026-11-14
-La Fée Cheminée,artisan (ramoneur),Sévrier (Annecy),https://karinecourgenay.wixsite.com/lafeecheminee,,,"ecarte (site deja refait : renvoie vers lafeecheminee.fr ; pas d'e-mail public)",2026-11-14
+La Fée Cheminée,artisan (ramoneur),Sévrier (Annecy),https://karinecourgenay.wixsite.com/lafeecheminee,,,ecarte (site deja refait : renvoie vers lafeecheminee.fr ; pas d'e-mail public),2026-11-14
 AB Thermic,artisan (plombier chauffagiste),Angers,https://abthermic.e-monsite.com/,,,ecarte (lecture impossible : erreur client),2026-11-14
-Climatek 49,artisan (climaticien chauffagiste),Les Ponts-de-Cé (Angers),https://climatek49.wixsite.com/website,climatek49@gmail.com,,"ecarte (site entretenu : planning annonce jusqu'en 2027 ; Wix ©2022)",2026-11-14
+Climatek 49,artisan (climaticien chauffagiste),Les Ponts-de-Cé (Angers),https://climatek49.wixsite.com/website,climatek49@gmail.com,,ecarte (site entretenu : planning annonce jusqu'en 2027 ; Wix ©2022),2026-11-14
 Climatix,artisan (chauffagiste),Toulouse,http://climatix.free.fr/,,,ecarte (lecture impossible : erreur client),2026-11-14
 Dornier Plomberie,artisan (plombier),La Ravoire (Chambéry),https://dornier-plomberie.jimdosite.com/,,,ecarte (lecture impossible : erreur client),2026-11-14
 Harmonie Peinture (Nicolas Bonnet),artisan (plâtrier peintre),Chavanay (42),https://harmoniepeinture42.wixsite.com/bonnetnicolas,harmoniepeinture42@gmail.com,harmonie-peinture-75ecdb,brouillon pret,2026-11-14
-Raphaël Courmont (plâtrier staffeur),artisan (plâtrier staffeur),Beaujeu (69),https://raphaelcourmont.wixsite.com/platrier,raphaelcourmont@gmail.com,,"ecarte (site recent : Wix ©2023 ; proche de Céline Courmont deja prospectee)",2026-11-14
+Raphaël Courmont (plâtrier staffeur),artisan (plâtrier staffeur),Beaujeu (69),https://raphaelcourmont.wixsite.com/platrier,raphaelcourmont@gmail.com,,ecarte (site recent : Wix ©2023 ; proche de Céline Courmont deja prospectee),2026-11-14
 SG Platrerie (Sylvain Gau),artisan (plâtrier peintre),Toulouse,https://sgplatrerie.wixsite.com/website,sg_platrerie@hotmail.com,,"ecarte (Wix ©2021, ni adresse ni ville precise ; piste de reserve)",2026-11-14
-Marcial GARCIA Rénovation MGR,artisan (plaquiste peintre),Espirat (63),https://marcialgarciamgr.wixsite.com/marcialgarciamgr,marsgarcia@free.fr,,"ecarte (hors zone : Puy-de-Dôme ; Wix ©2025)",2026-11-14
+Marcial GARCIA Rénovation MGR,artisan (plaquiste peintre),Espirat (63),https://marcialgarciamgr.wixsite.com/marcialgarciamgr,marsgarcia@free.fr,,ecarte (hors zone : Puy-de-Dôme ; Wix ©2025),2026-11-14
 Enzo Jolivet,artiste peintre,Rhône-Alpes,https://enzojolivet.wixsite.com/enzo,,,"ecarte (artiste, pas artisan du batiment ; pas d'e-mail)",2026-11-14
 BENLAMRI Fakredine,artisan (plâtrier peintre),Décines-Charpieu (69),https://benlamrifakredine.wixsite.com/my-site,benlamri.fakredine@gmail.com,,"ecarte (Wix recent fin 2022, photos de banque ; piste de reserve)",2026-11-14
-Acte 2i,diagnostiqueur,Chambéry,https://acte2iimmobilierinformatique-grenoble.site-solocal.com/,contact@acte2i.com,,"ecarte (mini-site Solocal non finalise : Lorem ipsum ; vrai site acte2i.com)",2026-11-14
+Acte 2i,diagnostiqueur,Chambéry,https://acte2iimmobilierinformatique-grenoble.site-solocal.com/,contact@acte2i.com,,ecarte (mini-site Solocal non finalise : Lorem ipsum ; vrai site acte2i.com),2026-11-14
 Green Diagnostics,diagnostiqueur,,http://greendiagnostics.free.fr/,,,ecarte (lecture impossible : erreur client),2026-11-14
-GV Diag Immo (Vincent Giraud),diagnostiqueur,Rochegude (30),https://gv-diag-immo8.webnode.fr/,,,"ecarte (hors zone : Gard ; pas d'e-mail)",2026-11-14
+GV Diag Immo (Vincent Giraud),diagnostiqueur,Rochegude (30),https://gv-diag-immo8.webnode.fr/,,,ecarte (hors zone : Gard ; pas d'e-mail),2026-11-14
 Cabinet Labourelle,diagnostiqueur,La Rochelle,http://labourelle.free.fr/,,,ecarte (lecture impossible : erreur client),2026-11-14
-Diag LR (Quentin Parlant),diagnostiqueur,La Rochelle,https://diaglr.wixsite.com/diaglr,contactdiaglr@gmail.com,,"ecarte (site recent : Wix cree en fevrier 2025)",2026-11-14
+Diag LR (Quentin Parlant),diagnostiqueur,La Rochelle,https://diaglr.wixsite.com/diaglr,contactdiaglr@gmail.com,,ecarte (site recent : Wix cree en fevrier 2025),2026-11-14
 Anjou Diagnostic Immobilier SARL,diagnostiqueur,Cholet (49),https://anjoudiagnosticimmobilier.site-solocal.com/,adi-edm@orange.fr,,"ecarte (mini-site Solocal Lorem ipsum ; site principal adi-diagnostic.com : lecture impossible, autorisation expiree)",2026-11-14
 Expertises et Diagnostics Immobilier (EDI),diagnostiqueur,,https://sites.google.com/site/edimmcom/,,,ecarte (lecture impossible : redirection vers la connexion Google),2026-11-14
-SELAS Brunet & Fosset Notaires,notaire,Paris 17e,https://brunet-fosset.notaires.fr/,brunet-fosset@paris.notaires.fr,,"ecarte (region parisienne)",2026-11-14
-Rochelois Notaires (bureau de Lyon),notaire,Lyon,https://rochelois.notaires.fr/,,,"ecarte (site recent : 2026 visible ; pas d'e-mail)",2026-11-14
+SELAS Brunet & Fosset Notaires,notaire,Paris 17e,https://brunet-fosset.notaires.fr/,brunet-fosset@paris.notaires.fr,,ecarte (region parisienne),2026-11-14
+Rochelois Notaires (bureau de Lyon),notaire,Lyon,https://rochelois.notaires.fr/,,,ecarte (site recent : 2026 visible ; pas d'e-mail),2026-11-14
 Me Edouard Ruchon,notaire,Lyon 5e,https://ruchon-lyon5.notaires.fr/,ruchon-lyon5@notaires.fr ; ruchon-lyon@notaires.fr,,"ecarte (site recent : 2026 visible, © 2026 et actualite du 27/01/2026)",2026-11-14
 "Office notarial Girard, Carel Lamarca, Marquet, Derbier (Inference Notaires)",notaire,Annecy,https://inference.fr/,,,"ecarte (simple page vers le mini-site notaires.fr, pas d'e-mail)",2026-11-14
 Office notarial de la Manufacture,notaire,,http://office-notaires.fr.w2fr.com/,,,ecarte (lecture impossible : redirection en boucle),2026-11-14
 SELARL Lembrez et Associés,notaire,Lyon 4e,http://www.lembrez.notaires.fr,simon.thiriat@lembrez.notaires.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-11-14
-NJL Notaires Associés,notaire,Angers,https://notaires-toussaint-angers.fr/,,,"ecarte (site recent : 2026 dans les metadonnees ; pas d'e-mail)",2026-11-14
+NJL Notaires Associés,notaire,Angers,https://notaires-toussaint-angers.fr/,,,ecarte (site recent : 2026 dans les metadonnees ; pas d'e-mail),2026-11-14
 Maître Sophie Aymonod,avocat,Aix-en-Provence,https://avocat-sophieaymonod.jimdofree.com/,sophieaymonod@yahoo.fr,sophie-aymonod-avocat-206c9f,brouillon pret,2026-11-15
 SARL Laurendeau Frédéric,artisan (chauffagiste),"Javrezac (Cognac, 16)",https://laurendeaufrederic.jimdofree.com/,,,"ecarte (hors zone ; e-mail masqué par Cloudflare, illisible)",2026-11-15
 José Thevenin,artisan (plombier),,https://jthevenin.wixsite.com/jose-thevenin08,,,ecarte (lecture impossible : autorisation de lecture non accordée),2026-11-15
@@ -605,7 +605,7 @@ Domaine Lionel Manigand,domaine,"Saint-Lager (69, Côte de Brouilly)",https://lm
 Domaine Voujon Brunet (?),domaine,Rhône (69),https://domvoujonbrunet69.wixsite.com/website,,,"ecarte (lecture impossible : page boutique en erreur client, accueil : autorisation de lecture non accordée)",2026-11-21
 Le Moulin de Breuil,domaine,Montesquieu-des-Albères (66),https://moulindebreuil.wixsite.com/ledomaine,bellevue@hotmail.fr,,"ecarte (lecture impossible : accueil, autorisation de lecture non accordée ; hors zone)",2026-11-21
 Les deux saveurs,restaurant,Seix (09),https://lilianlgrd.wixsite.com/website,lesdeuxsaveurs09@gmail.com,,ecarte (hors zone ; Wix © 2022),2026-11-21
-Le Rockefeller,restaurant (brasserie),Lyon 3e,https://lerockefeller.wixsite.com/lerockefeller,lerockefeller.restaurant@gmail.com,le-rockefeller-7bd297,brouillon pret,2026-11-21
+Le Rockefeller,restaurant (brasserie),Lyon 3e,https://lerockefeller.wixsite.com/lerockefeller,lerockefeller.restaurant@gmail.com,le-rockefeller-7bd297,envoye (25 nov.),2026-11-21
 Le National,restaurant,Lavey-Morcles (Suisse),https://lenationallavey.wixsite.com/le-national,jeandany4146@hotmail.com,,ecarte (hors zone : Suisse),2026-11-21
 Auberge Can Joan / Le Petit Bistro,restaurant,L'Albère (66),https://aubergecanjoan.wixsite.com/monsite,,,ecarte (pas d'e-mail public ; hors zone),2026-11-21
 La Table de Toine,restaurant,Glandon (87),https://latabledetoine87.wixsite.com/la-table-de-toine,,,"ecarte (site recent : 2026 visible, menu Saint-Valentin 2026 ; pas d'e-mail)",2026-11-21
@@ -649,7 +649,7 @@ Axiome Diagnostics,diagnostiqueur,Locminé (56 / Vannes),https://axiomediagnosti
 Diag Immo 56,diagnostiqueur,Morbihan,https://www.diagimmo56.com/,,,ecarte (lecture impossible : robots.txt),2026-11-22
 A.R.M DIAG (Emmanuel Ray),diagnostiqueur,Marsannay-la-Côte (Dijon),https://sites.google.com/view/armdiag/accueil,armdiag21@gmail.com,arm-diag-67f85d,brouillon pret,2026-11-22
 Maître Caroline Alix (Caroline Alix-Voynier),avocat,Vannes,https://alixavocat.wixsite.com/alix-avocat-vannes,alix.caroline@9business.fr,alix-avocat-352ede,brouillon pret,2026-11-22
-Maître Lilia Bouchair,avocat,Grenoble,https://adlens-solutions.wixsite.com/avocat-grenoble,,,"ecarte (pas d'e-mail public ; site d'agence Ad'lens Solutions 2018)",2026-11-22
+Maître Lilia Bouchair,avocat,Grenoble,https://adlens-solutions.wixsite.com/avocat-grenoble,,,ecarte (pas d'e-mail public ; site d'agence Ad'lens Solutions 2018),2026-11-22
 Domaine Céline Jacquet,domaine,Arbin (Savoie / Chambéry),https://domaine-celinejacquet.jimdofree.com/,celinejacquet8@hotmail.com,celine-jacquet-ec57d0,brouillon pret,2026-11-23
 Comme Chez Soi (Paule & Yves Bonnet),domaine,Anse (69),https://www.beaujolais-yves-bonnet.com/,bonnet.yves4@wanadoo.fr ; paulebd@wanadoo.fr,,ecarte (site recent : 2026 visible),2026-11-23
 Domaine Perraud,domaine,La Roche-Vineuse (Mâconnais),https://domaineperraud.fr/,info@domaineperraud.fr,,ecarte (lecture impossible : autorisation de lecture expiree),2026-11-23
@@ -661,33 +661,33 @@ Domaine Venot,domaine,,https://domainevenot.jimdo.com/,,,ecarte (lecture impossi
 Le Bistrot du Marché « Chez Nénette »,restaurant,Les Chères (69),https://bistrot-du-marche.fr,,,ecarte (lecture impossible : autorisation de lecture non accordée),2026-11-23
 Ô Gônes de Saône,restaurant,Fontaines-sur-Saône (69),http://www.ogonesdesaone.fr/,,,ecarte (lecture impossible : autorisation de lecture non accordée),2026-11-23
 Le Winch,restaurant,Lyon 2e,https://www.le-winch.fr/,contact@le-winch.fr,,"ecarte (site recent : 2026 visible ; WordPress Elementor © 2025, agence Ekypia)",2026-11-23
-Le Garage Restaurant,restaurant,Lyon 3e,https://www.legaragerestaurant.fr/,,,"ecarte (site recent : © 2026 ; site Zenchef ; pas d'e-mail public)",2026-11-23
-La Marmite Dauphinoise,restaurant,Grenoble,https://lamarmitedauphinoise.fr/,lamarmitedauphinoise@orange.fr,,"ecarte (site recent : 2026 visible ; site refait en nov. 2026)",2026-11-23
-Chez Marius,restaurant,Grenoble,https://chez-marius-restaurant.fr/,contact@chezmarius.fr,,"ecarte (site recent : © 2026 ; WordPress Elementor refait en 2025)",2026-11-23
-L'Auberge du Lyonnais,restaurant,Annecy,https://www.auberge-du-lyonnais.com/,,,"ecarte (site recent : 2026 visible ; pas d'e-mail public ; Zenchef)",2026-11-23
+Le Garage Restaurant,restaurant,Lyon 3e,https://www.legaragerestaurant.fr/,,,ecarte (site recent : © 2026 ; site Zenchef ; pas d'e-mail public),2026-11-23
+La Marmite Dauphinoise,restaurant,Grenoble,https://lamarmitedauphinoise.fr/,lamarmitedauphinoise@orange.fr,,ecarte (site recent : 2026 visible ; site refait en nov. 2026),2026-11-23
+Chez Marius,restaurant,Grenoble,https://chez-marius-restaurant.fr/,contact@chezmarius.fr,,ecarte (site recent : © 2026 ; WordPress Elementor refait en 2025),2026-11-23
+L'Auberge du Lyonnais,restaurant,Annecy,https://www.auberge-du-lyonnais.com/,,,ecarte (site recent : 2026 visible ; pas d'e-mail public ; Zenchef),2026-11-23
 L'Estaminet,restaurant,Annecy,https://www.lestaminet-annecy.fr/,,,ecarte (lecture impossible : erreur client),2026-11-23
 SARL Le Mentec,artisan (électricien plombier chauffagiste),Bouguenais (Nantes),https://sarllementec.wixsite.com/sarllementec,sarl.lementec@outlook.fr,le-mentec-39a85a,brouillon pret,2026-11-23
-L'Art du Feu,artisan (poêliste),Monteux (84),https://ortega69daniel.wixsite.com/website,lartdufeumonteux@gmail.com,,"ecarte (hors zone : Vaucluse ; Wix © 2021)",2026-11-23
+L'Art du Feu,artisan (poêliste),Monteux (84),https://ortega69daniel.wixsite.com/website,lartdufeumonteux@gmail.com,,ecarte (hors zone : Vaucluse ; Wix © 2021),2026-11-23
 Savoie Flammes,artisan (ramoneur fumiste poêliste),Frontenex (73),https://savoieflammes.wixsite.com/savoieflammes,savoieflammes@gmail.com,,ecarte (site recent : 2026 visible dans une image importee le 13/03/2026 ; © 2023),2026-11-23
-Sarl Abonnel et Blandin,artisan (plombier chauffagiste),Grenoble,https://abonnelblandin.wixsite.com/sarlabonneletblandin,abonnel.blandin@orange.fr,,"ecarte (site recent : Wix © 2024 ; piste de reserve)",2026-11-23
+Sarl Abonnel et Blandin,artisan (plombier chauffagiste),Grenoble,https://abonnelblandin.wixsite.com/sarlabonneletblandin,abonnel.blandin@orange.fr,,ecarte (site recent : Wix © 2024 ; piste de reserve),2026-11-23
 Adam Plomberie & Co (Adam Ferreira),artisan (plombier chauffagiste climaticien),Isère,https://adamplomberie38.wixsite.com/isere,adamplomberie38@gmail.com,,"ecarte (site recent et soigne : Wix recent, CGV/CGU, pas d'adresse)",2026-11-23
 APM Énergies,artisan (photovoltaïque électricien),Meyrieux-Trouet (73),https://apmenergies.wixsite.com/aura,apmenergies@icloud.com,,ecarte (site recent : modele Wix recent non personnalise),2026-11-23
 ISEC (Installation Sanitaire Etude Chauffage),artisan (plombier chauffagiste),,http://isec.e-monsite.com/,,,ecarte (lecture impossible : erreur client),2026-11-23
 EG&S,artisan (électricien),Tomblaine (Nancy),https://electricitegservic.wixsite.com/egs-site-1,electricite.g.services@gmail.com,,ecarte (hors zone : Nancy),2026-11-23
 Tarres (Tarres SAS),artisan (serrurier métallier),Saint-Martin-en-Haut (69),https://tarresmetallerie.wixsite.com/tarres,contact@tarres.fr ; romain.joannon@tarres.fr ; arnaud.charvolin@tarres.fr ; matthieu.flachon@tarres.fr ; Bertrand@collinet.fr,tarres-metallerie-b0a468,brouillon pret,2026-11-23
-Atelier Fontenille,artisan (serrurier métallier ferronnier),Cléré-les-Pins (37),https://atelierfontenille.wixsite.com/website-4,,,"ecarte (pas d'e-mail public ; hors zone : Indre-et-Loire)",2026-11-23
-Diagami,diagnostiqueur,Neuves-Maisons (54),https://diagami.site-solocal.com/,dgdiagami@gmail.com,,"ecarte (hors zone ; mini-site Solocal avec Lorem ipsum)",2026-11-23
+Atelier Fontenille,artisan (serrurier métallier ferronnier),Cléré-les-Pins (37),https://atelierfontenille.wixsite.com/website-4,,,ecarte (pas d'e-mail public ; hors zone : Indre-et-Loire),2026-11-23
+Diagami,diagnostiqueur,Neuves-Maisons (54),https://diagami.site-solocal.com/,dgdiagami@gmail.com,,ecarte (hors zone ; mini-site Solocal avec Lorem ipsum),2026-11-23
 ABC Diagnostic,diagnostiqueur,Bidart (64),https://abcdiagnostic.site-solocal.com/,abcdiagnostic@orange.fr,,"ecarte (mini-site Solocal d'une page avec Lorem ipsum, presque sans contenu propre ; piste de reserve)",2026-11-23
-Adelys,diagnostiqueur,Hérault (Pézenas) / Eure,https://adelys.over-blog.com/,,,"ecarte (pas d'e-mail ni de telephone ; blog fige depuis 2013)",2026-11-23
+Adelys,diagnostiqueur,Hérault (Pézenas) / Eure,https://adelys.over-blog.com/,,,ecarte (pas d'e-mail ni de telephone ; blog fige depuis 2013),2026-11-23
 BDI Bontems Diagnostics Immobiliers,diagnostiqueur,Dijon,https://bdibontemsdiagnosticsimmobiliers.site-solocal.com/,,,ecarte (lecture impossible : erreur client),2026-11-23
 Odite Diagnostics Immobiliers,diagnostiqueur,Grenoble,https://vairogino.site-solocal.com/,,,ecarte (lecture impossible : erreur client),2026-11-23
 Agence Diagnostics Immobiliers Bourgogne,diagnostiqueur,Bourgogne,https://agcediagnosticsimmobiliersbourgogne.site-solocal.com/,,,ecarte (lecture impossible : erreur client),2026-11-23
-Arliane Diagnostic Immobilier (Anjou),diagnostiqueur,Baugé-en-Anjou (49),https://arlianediagnosticimmobilier.site-solocal.com/,anjou@arliane.fr,,"ecarte (agence d'un reseau ; mini-site Solocal avec Lorem ipsum)",2026-11-23
+Arliane Diagnostic Immobilier (Anjou),diagnostiqueur,Baugé-en-Anjou (49),https://arlianediagnosticimmobilier.site-solocal.com/,anjou@arliane.fr,,ecarte (agence d'un reseau ; mini-site Solocal avec Lorem ipsum),2026-11-23
 PL Diagnostics,diagnostiqueur,,http://pldiagnostics.free.fr/PLdiagnostics.html,,,ecarte (lecture impossible : erreur client),2026-11-23
 Hestia Diagnostic,diagnostiqueur,Toulouse (?),https://hestiadiagnostic.wordpress.com/,,,ecarte (pas d'e-mail ni de telephone publics),2026-11-23
-CertiDiag,diagnostiqueur,Paris / Île-de-France,https://certidiag.wordpress.com/,,,"ecarte (region parisienne ; pas d'e-mail)",2026-11-23
+CertiDiag,diagnostiqueur,Paris / Île-de-France,https://certidiag.wordpress.com/,,,ecarte (region parisienne ; pas d'e-mail),2026-11-23
 IDC Diagnostics,diagnostiqueur,Saint-Pierre-d'Oléron (17),https://idc-diagnostics.site123.me/,idc17310@gmail.com,,ecarte (site recent : 2026 visible),2026-11-23
-Aven Diagnostic,diagnostiqueur,Querrien (29),https://avendiagnostic.wordpress.com/,avendiagnostic@gmail.com,,"ecarte (site recent : 2026 visible ; hors zone)",2026-11-23
+Aven Diagnostic,diagnostiqueur,Querrien (29),https://avendiagnostic.wordpress.com/,avendiagnostic@gmail.com,,ecarte (site recent : 2026 visible ; hors zone),2026-11-23
 DIEXCO Aquitaine,diagnostiqueur,Aquitaine,http://diexcoaquitaine.wifeo.com/,,,ecarte (lecture impossible : robots.txt),2026-11-23
 Immediag (Marie Anna Espy),diagnostiqueur,"Midi-Pyrénées (09, 31, 81, 82)",https://immediag.wordpress.com/,maespy@live.fr,immediag-7b0e6e,brouillon pret,2026-11-23
 Office notarial de Me Alain Baret,notaire,Lyon 3e,https://www.alainbaret.notaires.fr/,alain.baret@notaires.fr ; alainbaret@notaires.fr,,"ecarte (site recent : 2026 visible, Elementor, mis a jour le 08/06/2026)",2026-11-23
@@ -697,11 +697,52 @@ Bazaille & Associés,notaire,Givors,https://www.bazaille-associes.notaires.fr/lo
 SCP Tardy-Mentre,notaire,Montceau-les-Mines (71),http://www.tardy-mentre-notaires.fr,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-11-23
 Me Didier Mathy (Sagy Notaire),notaire,Sagy (71),http://www.sagynotaire.com,,,ecarte (lecture impossible : autorisation de lecture expiree),2026-11-23
 Chong Notaires (Me Nathalie Chong-Fah-Shen),notaire,,https://www.chongnotaire.com/,chong.notaires@gmail.com ; etude.chong.86003@notaires.fr,,"ecarte (site CV d'une notaire cherchant une association a Paris, pas une etude)",2026-11-23
-Étude de Me Mathieu Savéan,notaire,Betton (35),https://www.savean.notaires.fr/,mathieu.savean@notaires.fr,,"ecarte (hors zone ; mini-site standard notaires.fr)",2026-11-23
+Étude de Me Mathieu Savéan,notaire,Betton (35),https://www.savean.notaires.fr/,mathieu.savean@notaires.fr,,ecarte (hors zone ; mini-site standard notaires.fr),2026-11-23
 Cabinet Scotto,avocat,Bergerac,https://cabinetscotto.jimdo.com/,,,ecarte (lecture impossible : robots.txt),2026-11-23
 Freydier Avocats,avocat,,https://freydier-avocats.com/,,,ecarte (lecture impossible : robots.txt),2026-11-23
 Berlioux Avocats,avocat,Grenoble,https://berlioux-avocat.com/,accueil@berlioux-avocats.fr,,"ecarte (site recent : 2026 visible, © 2026)",2026-11-23
-Cabinet d'avocat Maire (Me Alexandra Maire),avocat,Eragny-sur-Oise (95),https://alexandramaireavocat.wixsite.com/cabinet-maire,,,"ecarte (region parisienne ; pas d'e-mail public)",2026-11-23
-Me Marialy Guyon,avocat,Pointe-à-Pitre,https://marialyguyonavocat.wixsite.com/ma-page/cabinet,,,"ecarte (hors zone ; pas d'e-mail public)",2026-11-23
+Cabinet d'avocat Maire (Me Alexandra Maire),avocat,Eragny-sur-Oise (95),https://alexandramaireavocat.wixsite.com/cabinet-maire,,,ecarte (region parisienne ; pas d'e-mail public),2026-11-23
+Me Marialy Guyon,avocat,Pointe-à-Pitre,https://marialyguyonavocat.wixsite.com/ma-page/cabinet,,,ecarte (hors zone ; pas d'e-mail public),2026-11-23
 Me Marion La Rizza,avocat,Saint-Égrève (Grenoble),https://marionlarizza.wixsite.com/monsite,marion.larizza@gmail.com,,"ecarte (non retenu ce passage : un seul prospect ; Wix © 2020, blog vide, piste de reserve)",2026-11-23
 Alexandre Chrétien et Isabelle Jimenez-Barat Avocats,avocat,Bordeaux,https://abaloneavocats.wixsite.com/chretien-jimenez,alexandre.chretien@avocat-conseil.fr ; jimenezbarat@free.fr,chretien-jimenez-avocats-acfdf9,brouillon pret,2026-11-23
+3D Diag,diagnostiqueur,Chambéry (Savoie / Haute-Savoie),http://www.3ddiag.fr/,,,ecarte (lecture impossible : robots.txt),2026-11-28
+Diagnostic Immo Caladois (Franck Sobanski),diagnostiqueur,Villefranche-sur-Saône,https://www.diagnostic-immo-caladois.fr/,,,"ecarte (site recent : Arobiz responsive, © 2022 ; e-mail illisible)",2026-11-28
+Diagnostic Immobilier St SARL,diagnostiqueur,Kertzfeld (67),https://diagnosticimmobilierst.site-solocal.com/,contact@di-st.fr,,ecarte (hors zone : Bas-Rhin ; Lorem ipsum),2026-11-28
+Diag Master,diagnostiqueur,Lyon / Meyzieu,https://www.diagmaster.fr/,,,ecarte (site recent : 2026 visible),2026-11-28
+TC Diagnostic (Thierry Chevalard),diagnostiqueur,Vienne / Lyon / Bourgoin-Jallieu,https://www.tc-diagnostic.com/,thierry@tc-diagnostic.com,,ecarte (site recent : 2026 visible),2026-11-28
+NJ Expert Diag,diagnostiqueur,Chonas-l'Amballan (38),https://www.nj-expertdiag.fr/,contact@nj-expertdiag.fr,,ecarte (site recent : 2026 visible),2026-11-28
+Lyon Études Expertises (L2E),diagnostiqueur,Villeurbanne,https://lyon2e.fr/,contact@lyon2e.fr,,"ecarte (site recent : WordPress 2023, mis a jour en dec. 2025)",2026-11-28
+Interdevis Diagnostic Nord Isère,diagnostiqueur,Bourgoin-Jallieu,http://www.diagnostics-bourgoin-vienne.fr/,,,ecarte (lecture impossible : robots.txt illisible ou site sans reponse),2026-11-28
+Develex,diagnostiqueur,Vonnas (01),https://www.develex.fr/,,,ecarte (site recent : 2026 visible),2026-11-28
+Bresse Électricité 24/24 (Alex Dallard),artisan (électricien climatisation),Curtafond (Ain / Bourg-en-Bresse),https://be2424.wixsite.com/2424,AlexBE2424@hotmail.com,bresse-electricite-7ad363,brouillon pret,2026-11-28
+Dauphiné Peinture & Décoration,artisan (peintre décorateur),Échirolles (Grenoble),https://dauphinepeinturede.wixsite.com/dauphinpeinturedcora,dauphine.peinture.decoration@gmail.com,dauphine-peinture-b3a89f,brouillon pret,2026-11-28
+boisdephile,artisan (ébéniste menuisier),Valléry / Vuache (74),https://boisdephile.jimdofree.com/,,,ecarte (hors zone ; e-mail masque ; site mis a jour en sept. 2026),2026-11-28
+Maxime Day Ébéniste,artisan (menuisier ébéniste),,https://maximeday.jimdofree.com/,,,ecarte (ville non indiquee ; pas d'e-mail public),2026-11-28
+Ygout Vincent,artiste peintre,Niort,https://ygoutvincent.wixsite.com/ygoutvincent,ygoutvincent@yahoo.fr,,ecarte (artiste peintre et non artisan du batiment),2026-11-28
+Mandoli Jean-Louis (carrelage),artisan (carreleur),Aix-en-Provence,http://www.carrelage-mandoli.fr/,,,ecarte (lecture impossible : robots.txt illisible),2026-11-28
+Bouchon Thomas (Restaurant Thomas),restaurant (bouchon),Lyon 2e,https://www.restaurant-thomas.com/le-bouchon/,info@restaurant-thomas.com,,ecarte (site recent : 2026 visible),2026-11-28
+Restaurant Le Télégraphe,restaurant,Marcy (69),https://www.restaurant-telegraphe.com/,,,ecarte (site recent : 2026 visible ; pas d'e-mail public),2026-11-28
+Café Miche et Délice,restaurant,Waterloo (Québec),https://dlauzi.wixsite.com/miche,,,ecarte (hors zone : Quebec),2026-11-28
+La Mère Cottivet,restaurant (bouchon),Lyon 2e,https://merecottivet.com/fr/,,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-28
+Le Comptoir des Lônes,restaurant,Villeurbanne,https://www.le-comptoir-des-lones-villeurbanne.fr/,,,ecarte (site recent : 2026 visible ; pas d'e-mail),2026-11-28
+La Pierre Vue,restaurant,La Rochelle,https://www.lapierrevue.com/,,,"ecarte (site recent et bien construit : © 2024, responsive)",2026-11-28
+La Bouillotte,restaurant (associatif),Grenoble,https://labouillotte38.wixsite.com/la-bouillotte,labouillotte38@gmail.com,,ecarte (site recent : 2026 visible),2026-11-28
+Le Laurencin,restaurant (bouchon),Lyon 5e,,lelaurencin@gmail.com,,ecarte (pas de site internet),2026-11-28
+Auberge de Grange Rouet,restaurant,Pavezin (42),https://www.aubergedegrangerouet.com,aubergedegrangerouet@orange.fr,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-28
+L'Etape Cavalière,restaurant,Beaujeu (69),http://www.etape-cavaliere.com,contact@etape-cavaliere.com,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-28
+L'Instant Basque,restaurant,Brive-la-Gaillarde,https://www.linstantbasque.com/,instantbasque.brive@gmail.com,,ecarte (site recent : 2026 visible),2026-11-28
+Notaires du Val du Rhône NOTARHONE,notaire,Vernaison (69),https://benardetassocies.notaires.fr/,office69041.vernaison@notaires.fr,,ecarte (site recent : 2026 visible),2026-11-28
+Étude Soubeyran & Tranchand,notaire,Lyon 8e et Pélussin (42),https://www.etude-soubeyran.notaires.fr/,etude.soubeyran@notaires.fr,,"ecarte (WordPress d'agence 2022-2023, pas assez date)",2026-11-28
+Étude de Me Laura Picot,notaire,Lyon 6e,https://www.picot-lyon.notaires.fr/,laura.picot@69212.notaires.fr,,ecarte (site recent : 2026 visible),2026-11-28
+Office notarial Bertolino,notaire,Villefranche-sur-Saône,https://www.bertolino-villefranchesursaone.notaires.fr,,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-28
+Étude Naz & associés,notaire,Annecy,https://www.naz-associes.notaires.fr/en,accueil@etudenaz.com,,ecarte (lecture impossible : site en JavaScript ; grosse etude),2026-11-28
+1545. Notaires (ex-Notamment Notaires),notaire,Montpellier,https://notamment.notaires.fr/,,,ecarte (hors zone ; site recent : 2026 visible),2026-11-28
+Office notarial du Val de Saône,notaire,Neuville-sur-Saône (69),https://onvs.notaires.fr/,notaires.neuville@onvs.notaires.fr,,ecarte (site recent : 2026 visible),2026-11-28
+Maître Amandine Biagi,avocat,Lyon 3e,https://www.avocat-biagi-amandine.com/,amandine.biagi@gmail.com,biagi-avocat-b9ef56,brouillon pret,2026-11-28
+Cabinet Farabet,avocat,Caluire-et-Cuire,https://www.avocat-farabet.com/,,,"ecarte (pas d'e-mail public ; WordPress entretenu, modifie en mai 2026)",2026-11-28
+Domaine de la Madone (famille Despres),domaine,Fleurie (69),https://www.domaine-de-la-madone.com/,,,ecarte (site recent : 2026 visible ; pas d'e-mail visible),2026-11-28
+Domaine Luquet,domaine,Fuissé (Mâconnais),https://domaine-luquet.com/,domaine@domaine-luquet.com,,ecarte (site recent : 2026 visible),2026-11-28
+Domaine du Merle (Michel Morin),domaine,Sennecey-le-Grand (71),https://www.domainedumerle.com,domainedumerle@sfr.fr,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-28
+Domaine Les Grezels (Raphaël Lagasse),domaine,Gaillac (81),https://domainelesgrezels.wordpress.com/,lesgrezels.gaillac@gmail.com,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-28
+Domaine Laubarel,domaine,Gaillac (81),http://www.domaine-laubarel.com,contact@domaine-laubarel.fr,,ecarte (lecture impossible : autorisation de lecture non accordee),2026-11-28
+Domaine Gabriel Remuet,domaine,Corcelles-en-Beaujolais (69),https://www.remuet.com/,gabriel@remuet.com ; beaujolais.domaine.remuet@wanadoo.fr,domaine-gabriel-remuet-b970cc,brouillon pret,2026-11-28
