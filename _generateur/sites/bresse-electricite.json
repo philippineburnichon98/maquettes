@@ -1,0 +1,752 @@
+{
+ "slug": "bresse-electricite-7ad363",
+ "title": "Bresse Électricité 24/24 — Électricien et climatisation à Curtafond, près de Bourg-en-Bresse (Ain)",
+ "description": "Bresse Électricité 24/24, Alex Dallard, électricien diplômé à Curtafond (01310) près de Bourg-en-Bresse : installation, rénovation, dépannage 24h/24 et 7j/7, climatisation réversible, éclairage LED. Ain, Rhône, Haute-Savoie, Mâconnais, Jura.",
+ "brand": "Bresse Électricité 24/24",
+ "tagline": "Électricité & Climatisation · Curtafond",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/b2c0a7_787366e0f781422faf8c390f311eae45.png",
+  "height": 48,
+  "with_name": true
+ },
+ "theme": {
+  "look": "vivant",
+  "paper": "#f5f6f8",
+  "paper2": "#e5e8ee",
+  "ink": "#141a26",
+  "muted": "#576070",
+  "accent": "#1f4f9a",
+  "accent2": "#173c78",
+  "gold": "#f2b705",
+  "heroem": "#ffd84d"
+ },
+ "topbar": [
+  "Curtafond (01310) · Ain",
+  "<a href=\"tel:+33658791030\">Dépannage 7j/7 : 06 58 79 10 30</a>",
+  "<a href=\"mailto:AlexBE2424@hotmail.com\">AlexBE2424@hotmail.com</a>"
+ ],
+ "extra_css": "@media(max-width:640px){header .topbar span:nth-child(1),header .topbar span:nth-child(3){display:none}}",
+ "home_label": "Présentation",
+ "nav": [],
+ "phead": "box",
+ "hero": {
+  "img": "https://static.wixstatic.com/media/1c23c3_2d528accda234d0ba5d301831269b046~mv2.jpg",
+  "eyebrow": "Électricien diplômé · Curtafond, près de Bourg-en-Bresse",
+  "title": "Une panne ne prévient pas : <em>nous sommes là 24/24</em>",
+  "lead": "Installation, rénovation, dépannage 7 jours sur 7, climatisation et éclairage LED, pour les particuliers et les professionnels.",
+  "cta1": [
+   "Demander un devis",
+   "contact/#devis"
+  ],
+  "cta2": [
+   "06 58 79 10 30",
+   "tel:+33658791030"
+  ]
+ },
+ "figures": [
+  [
+   "24/24",
+   "dépannage 7 jours sur 7"
+  ],
+  [
+   "10 ans",
+   "au service des particuliers et professionnels"
+  ],
+  [
+   "5",
+   "secteurs : Ain, Rhône, Haute-Savoie, Mâconnais, Jura"
+  ],
+  [
+   "17",
+   "prestations, du tableau électrique à l'alarme"
+  ]
+ ],
+ "parcours_eyebrow": "Le site",
+ "parcours_title": "Tout savoir sur <em>nos services</em>",
+ "sections": [
+  {
+   "kind": "story",
+   "id": "presentation",
+   "eyebrow": "Alex Dallard",
+   "title": "Électricien diplômé <em class=\"it\">et expérimenté</em>",
+   "img": "https://static.wixstatic.com/media/1c23c3_2e4f6fadeb174afca1b4b1712715b102~mv2.jpg",
+   "alt": "Alex Dallard, Bresse Électricité 24/24",
+   "paras": [
+    "Électricien diplômé et expérimenté, à votre service depuis plus de 10 ans, j'exerce mon métier avec passion.",
+    "<b>Pourquoi ?</b> Originaires du Revermont, nous sommes aujourd'hui implantés à Curtafond, village situé près de Bourg-en-Bresse.",
+    "« 24/24 » car nous souhaitons être disponibles pour les particuliers et les professionnels 7 jours sur 7, car une panne ne prévient pas !"
+   ],
+   "sign": "Alex Dallard"
+  },
+  {
+   "kind": "blocks",
+   "id": "engagements",
+   "eyebrow": "Au service des particuliers et professionnels",
+   "title": "Professionnalisme, <em class=\"it\">sérieux, minutie</em>",
+   "items": [
+    {
+     "kicker": "Respect",
+     "title": "Vos exigences et les normes",
+     "paras": [
+      "Professionnels, nous sommes respectueux tant de vos exigences que des normes en vigueur."
+     ]
+    },
+    {
+     "kicker": "Mobilité",
+     "title": "De l'Ain au Jura",
+     "paras": [
+      "Motivé et mobile, je me déplace dans l'Ain, Rhône, Haute-Savoie, Mâconnais et Jura."
+     ]
+    },
+    {
+     "kicker": "De A à Z",
+     "title": "Neuf et rénovation",
+     "paras": [
+      "Nous pouvons créer votre installation électrique de A à Z, aussi bien en neuf qu'en rénovation."
+     ]
+    },
+    {
+     "kicker": "Matériel",
+     "title": "Des marques reconnues",
+     "paras": [
+      "Nous utilisons uniquement du matériel de marques professionnelles reconnues et officielles, vendu en magasins et par des professionnels agréés et dont nous connaissons la provenance."
+     ]
+    },
+    {
+     "kicker": "Conseil",
+     "title": "Une étude selon votre budget",
+     "paras": [
+      "Mon travail est aussi de vous conseiller dans le choix et l'installation de vos équipements électriques. Et c'est en tenant compte de vos besoins, vos envies et votre budget que nous réalisons une étude et vous accompagnons."
+     ]
+    },
+    {
+     "kicker": "Délais",
+     "title": "Soin et attention",
+     "paras": [
+      "Le professionnalisme est une valeur importante pour nous à l'égard de nos clients. Nous mettons un point d'honneur à effectuer notre travail avec soin et attention, toujours dans le respect des délais convenus."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "story",
+   "id": "presse",
+   "eyebrow": "Dans la presse",
+   "title": "Dans Le MAGVILLE <em class=\"it\">de Bourg</em>",
+   "img": "https://static.wixstatic.com/media/1c23c3_3ac28f95f2df441abf795b680ca684e0~mv2.jpg",
+   "alt": "Article du MAGVILLE de Bourg sur Bresse Électricité 24/24",
+   "paras": [
+    "Dans Le MAGVILLE de Bourg, édition décembre/janvier.",
+    "Merci pour ce bel article !"
+   ]
+  },
+  {
+   "kind": "banner",
+   "img": "https://static.wixstatic.com/media/1c23c3_af7af523dd744175abb27c5ced6e3e69~mv2.jpg",
+   "eyebrow": "Dépannage 7j/7 · 24h/24",
+   "title": "Une panne, un projet ? <em>Appelez Alex</em>",
+   "cta": [
+    "06 58 79 10 30",
+    "tel:+33658791030"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "prestations",
+   "label": "Prestations",
+   "title": "Prestations",
+   "eyebrow": "Tous travaux d'électricité",
+   "lead": "En tant qu'électricien diplômé et qualifié, Bresse Électricité 24/24 vous propose ses services pour tous travaux d'électricité.",
+   "img": "https://static.wixstatic.com/media/1c23c3_af7af523dd744175abb27c5ced6e3e69~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "services",
+     "eyebrow": "Au service des particuliers et professionnels",
+     "title": "Un service <em class=\"it\">complet</em>",
+     "items": [
+      {
+       "kicker": "Électricité",
+       "title": "Nous vous proposons un service complet",
+       "paras": [
+        "Installation, rénovation partielle ou complète, réparation, dépannage 24h/24 et 7j/7."
+       ]
+      },
+      {
+       "kicker": "Équipements",
+       "title": "Électroménager, image & son",
+       "paras": [
+        "Et vente, installation et réparation d'électroménager, image & son également."
+       ]
+      },
+      {
+       "kicker": "Tous types de locaux",
+       "title": "Intérieur comme extérieur",
+       "paras": [
+        "Nous disposons du savoir-faire, du matériel et de tous les moyens techniques pour mener à bien vos projets dans tous types de locaux : logement individuel, appartement, immeuble, entreprise, local commercial, bâtiment agricole... Aussi bien à l'intérieur qu'à l'extérieur."
+       ]
+      }
+     ],
+     "chips": [
+      "Dépannage 7j/7 24h/24",
+      "Domotique",
+      "Installation",
+      "Tableau électrique",
+      "Automatisme",
+      "VMC",
+      "Climatisation",
+      "Neuf & rénovation",
+      "Chauffage",
+      "Chauffe-eau",
+      "Mise aux normes",
+      "Alimentation - raccordement",
+      "Éclairage",
+      "Électroménager, image & son",
+      "Motorisation",
+      "Interphonie",
+      "Alarme"
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/1c23c3_af7af523dd744175abb27c5ced6e3e69~mv2.jpg",
+     "eyebrow": "Devis gratuit",
+     "title": "Parlons <em>de vos travaux</em>",
+     "cta": [
+      "Demander un devis",
+      "contact/#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "climatisation",
+   "label": "Climatisation",
+   "title": "Climatisation",
+   "eyebrow": "Climatisation réversible",
+   "lead": "La climatisation réversible présente de nombreux avantages.",
+   "img": "https://static.wixstatic.com/media/1c23c3_af7af523dd744175abb27c5ced6e3e69~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "clim",
+     "eyebrow": "Pompe à chaleur air/air",
+     "title": "La climatisation réversible <em class=\"it\">présente de nombreux avantages</em>",
+     "img": "https://static.wixstatic.com/media/1c23c3_2e4f6fadeb174afca1b4b1712715b102~mv2.jpg",
+     "alt": "Alex Dallard, installation de climatisation",
+     "paras": [
+      "Son mode de fonctionnement est similaire à celui de la pompe à chaleur air/air, c'est également ainsi qu'il est nommé.",
+      "La climatisation réversible dispose de 2 fonctions, l'une permettant de climatiser et l'autre de produire de la chaleur. Il est donc capable d'inverser son fonctionnement grâce aux échanges de chaleur permis par le fluide frigorigène."
+     ]
+    },
+    {
+     "kind": "features",
+     "id": "avantages",
+     "eyebrow": "Les avantages",
+     "title": "Confort été <em class=\"it\">comme hiver</em>",
+     "items": [
+      [
+       "Économies d'énergie",
+       "Ce système de chauffage et climatisation produit plus de chaleur qu'il n'en consomme et vous permettra donc une diminution de la consommation d'énergie et de votre facture énergétique."
+      ],
+      [
+       "Température précise",
+       "Il a connu de grandes évolutions et vous pouvez aujourd'hui précisément réguler la température, ce qui optimisera votre confort de vie."
+      ],
+      [
+       "Instantané",
+       "La climatisation réversible permet un chauffage / refroidissement instantanés !"
+      ],
+      [
+       "Pilotage à distance",
+       "Des options sont possibles telles que la programmation et le pilotage à distance."
+      ],
+      [
+       "2-en-1",
+       "Le climatiseur réversible possède des fonctions « 2-en-1 » et permet de faire des économies budgétaires mais également d'avoir un gain d'espace dans votre habitation."
+      ],
+      [
+       "Air assaini",
+       "Il permettra également d'absorber l'humidité de votre pièce et procédera à un assainissement de l'air."
+      ]
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/1c23c3_be8b7542c9574c8db5b9a10bceab117f~mv2_d_1776_2085_s_2.jpg",
+     "eyebrow": "Réalisation",
+     "title": "Deux PAC air/air <em>dans 75 m²</em>",
+     "cta": [
+      "Voir les réalisations",
+      "realisations/"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "l-eclairage-led",
+   "label": "Éclairage LED",
+   "title": "Éclairage LED",
+   "eyebrow": "La technologie LED ne cesse de progresser",
+   "lead": "La technologie LED ne cesse de progresser, leur installation aussi !",
+   "img": "https://static.wixstatic.com/media/1c23c3_af7af523dd744175abb27c5ced6e3e69~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "led",
+     "eyebrow": "LED 4W = 50W halogène",
+     "title": "La technologie LED ne cesse de progresser, <em class=\"it\">leur installation aussi !</em>",
+     "img": "https://static.wixstatic.com/media/1c23c3_029ecee44f6b4cad972e32b83ba1fc4d~mv2_d_1920_1280_s_2.jpg",
+     "alt": "Éclairage de la Brasserie du Théâtre, Bourg-en-Bresse",
+     "paras": [
+      "La majorité des lampes destinées à l'éclairage domestique offre aujourd'hui une qualité d'éclairage satisfaisante : une lampe à LED consommant 4Watts a un rendu lumineux équivalent à une lampe halogène consommant 50Watts avec une durée de vie 20 fois supérieure pour la LED.",
+      "Concrètement : LED 4W = 50W halogène, s'en suivent d'autres avantages..."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "avantages-led",
+     "eyebrow": "Les avantages",
+     "title": "Pourquoi <em class=\"it\">passer à la LED</em>",
+     "items": [
+      {
+       "title": "Durée de vie inégalée",
+       "paras": [
+        "La durée de vie des lampes à LED atteint les 50 000 heures, contre 1 000 heures pour les lampes à incandescence, 2 000 heures pour les lampes halogènes et 10 000 heures pour les fluocompactes."
+       ]
+      },
+      {
+       "title": "Économie d'énergie et économie financière",
+       "paras": [
+        "Les lampes LED ayant une durée de vie largement supérieure à celles des autres technologies, leur achat et remplacement sont donc plus rares. Cela améliore ainsi la rentabilité de l'investissement et permet une économie d'énergie."
+       ]
+      },
+      {
+       "title": "Un éclairage maximal instantané",
+       "paras": [
+        "Les ampoules LED atteignent un niveau maximal de luminosité dès l'allumage : les sources à LED admettent des cycles d'allumage et d'extinction fréquents. Elles émettent instantanément le flux lumineux désiré, sans montée en régime, ce qui peut s'avérer avantageux pour des applications spécifiques comme les lieux de passage par exemple."
+       ]
+      },
+      {
+       "title": "Des lampes compactes",
+       "paras": [
+        "Les modules LED, directement mis en place dans un luminaire et pouvant intégrer une commande électronique, facilitent la mise en œuvre de solutions de gestion de l'éclairage (ex : la détection de présence, la variation selon la lumière du jour)."
+       ]
+      },
+      {
+       "title": "Autres avantages",
+       "paras": [
+        "Fonctionnant en très basse tension et même sous basses températures, c'est un réel avantage pour la sécurité électrique dans le bâtiment. Avec un échauffement de seulement 32°C, les LED ne chauffent pas autant que les lampes à incandescence (150°C) et fluocompactes (70°C) et n'émettent pas de rayons ultraviolets.",
+        "Insensibles aux chocs, elles sont plus robustes que les autres sources d'éclairage. Aussi, les LED de couleur peuvent être employées pour des jeux de lumière sans utilisation de filtre. Enfin, ne contenant pas de mercure, elles sont en grande partie recyclables comme déchet non dangereux (contrairement aux fluocompactes)."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/1c23c3_a2980645e71e4de291100771b4470efd~mv2_d_3974_2481_s_4_2.jpg",
+     "eyebrow": "90 % d'économie d'énergie",
+     "title": "Passez <em>à la LED</em>",
+     "cta": [
+      "Demander un devis",
+      "contact/#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "realisations",
+   "label": "Réalisations",
+   "title": "Réalisations",
+   "eyebrow": "Au service des particuliers et professionnels",
+   "lead": "Maisons, commerces, restaurants de Bourg-en-Bresse : nos chantiers en photos.",
+   "img": "https://static.wixstatic.com/media/1c23c3_af7af523dd744175abb27c5ced6e3e69~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "realisations",
+     "eyebrow": "Réalisations",
+     "title": "Nos chantiers <em class=\"it\">dans l'Ain et alentour</em>",
+     "lead": "Particuliers, commerces, restaurants : quelques travaux réalisés par Bresse Électricité 24/24.",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_be8b7542c9574c8db5b9a10bceab117f~mv2_d_1776_2085_s_2.jpg",
+       "alt": "Rénovation électrique totale d'une maison avec domotique et installation de deux PAC air/air réversibles",
+       "kicker": "Maison · domotique et PAC",
+       "title": "Rénovation électrique totale d'une maison avec domotique et installation de deux PAC air/air réversibles",
+       "paras": [
+        "Rénovation électrique totale d'une maison avec domotique et installation de deux PAC air/air réversibles de 7000W dans une grande pièce de vie de 75m² avec 6 mètres de hauteur sous plafond. Et spots LED encastrés pour une ambiance cosy.",
+        "La PAC air/air, c'est : une utilisation été comme hiver, même lors de températures négatives ; des économies d'énergie importantes ; pilotable à distance ; programmable. Une installation optimisée = des factures d'énergies divisées par 3 !"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_4995dc91e946425d943179399a25e2be~mv2.jpg",
+       "alt": "Boston Tavern (anciennement Le Joffre)",
+       "kicker": "Bourg-en-Bresse",
+       "title": "Boston Tavern (anciennement Le Joffre)",
+       "paras": [
+        "Rénovation électrique totale anciennement Le Joffre devenu le Boston Tavern à Bourg-en-Bresse : électricité complète intérieur/extérieur et enseigne."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_108b0063d9814657a05290d9029a158b~mv2_d_1920_1280_s_2.jpg",
+       "alt": "Brasserie du Théâtre",
+       "kicker": "Bourg-en-Bresse",
+       "title": "Brasserie du Théâtre",
+       "paras": [
+        "Rénovation électrique totale de la Brasserie du Théâtre à Bourg-en-Bresse : bar, restaurant et terrasse. Électricité complète intérieur/extérieur et système HiFi.",
+        "Photos : Claus Photographie"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_a38b36ecc2fc47d0ad18f3a435112bd7~mv2_d_3863_2664_s_4_2.jpg",
+       "alt": "Librairie Papeterie du Théâtre Zannini",
+       "kicker": "Bourg-en-Bresse · 300 m²",
+       "title": "Librairie Papeterie du Théâtre Zannini",
+       "paras": [
+        "Rénovation électrique complète & décoration de la Librairie Papeterie du Théâtre ZANNINI sur 300m² à Bourg-en-Bresse.",
+        "Technologie LED : 90% d'économie d'énergies ! Spots LED haut de gamme pour une meilleure qualité et vision des couleurs et une lumière agréable pour les yeux. Bandeaux LED blancs & multicolores. Projecteurs extérieurs, intérieurs en vitrines et sur rail... Remplacement complet de l'appareillage. Un superbe projet électricité et décoration."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_6c3ec04cc2c3491d957ad773f67ed698~mv2_d_3176_2301_s_2.jpg",
+       "alt": "Bretzel Coffee (anciennement l'Alsace à Table)",
+       "kicker": "Bourg-en-Bresse",
+       "title": "Bretzel Coffee (anciennement l'Alsace à Table)",
+       "paras": [
+        "Rénovation électrique complète du restaurant l'Alsace à Table devenu le Bretzel Coffee à Bourg-en-Bresse."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_b110caf16c5f4b6a8bf922a7cacb160f~mv2_d_3264_2448_s_4_2.jpg",
+       "alt": "Magasin CAROLL",
+       "kicker": "Bourg-en-Bresse · éclairage",
+       "title": "Magasin CAROLL",
+       "paras": [
+        "Rénovation totale de l'éclairage du magasin CAROLL à Bourg-en-Bresse. Travaux réalisés en 3 nuits pour ne pas interrompre le commerce ; passer d'anciennes lampes à un ensemble de lampes LED, le résultat est étincelant ! Le personnel du magasin est ravi. Et enfin place aux peintres...",
+        "Avant/après : grâce au passage à LED, nous passons d'une consommation de plus de 100Watts/h par appareil (sans considérer le pic de consommation monumental au démarrage), à 30Watts/h et une lumière pure et propre. Avec évidemment, des lampes conçues pour durer 50 000 heures, contrairement aux lampes standards à incandescence."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_a907c765332b40aa85c69c1ac6b824f4~mv2.jpg",
+       "alt": "Pose, installation et motorisation d'un portail de 5 mètres",
+       "kicker": "Motorisation",
+       "title": "Pose, installation et motorisation d'un portail de 5 mètres",
+       "paras": [
+        "Pose, installation et réglages d'un ensemble motorisation de portail, avec son bloc moteur, sa crémaillère, ses deux cellules de sécurité, son contact à clef et son gyrophare.",
+        "Belles finitions sur un beau portail, ce qui termine l'entrée d'une belle maison : vous n'avez plus à sortir l'ouvrir sous la pluie en rentrant du travail ni à ressortir sous la pluie quand les invités arrivent ; pour tout conseil, question ou rendez-vous, n'hésitez pas à nous contacter."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_52bb0e999ab8448c919036606f137526~mv2.jpg",
+       "alt": "Après la foudre, nouveau chauffe-eau THERMOR",
+       "kicker": "Chauffe-eau",
+       "title": "Après la foudre, nouveau chauffe-eau THERMOR",
+       "paras": [
+        "Remplacement d'un chauffe-eau touché par la foudre : installation d'un nouveau chauffe-eau de marque Thermor, modèle hybride à économie d'énergie jusqu'à 45% ! Avec sa résistance protégée du calcaire pour une garantie jusqu'à 2 fois supérieure en terme de durée dans le temps comparativement à un autre modèle de chauffe-eau standard.",
+        "Remplacement du relais EDF de marque HAGER pour le chauffage de l'eau pendant les heures creuses afin d'avoir un système totalement neuf et une économie d'énergie optimale ! N'hésitez pas à me contacter en cas de besoin, de prévoyance, ou simplement de conseils. Et n'oubliez pas le parafoudre !"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_ea2e70090ab448c9b7316e3097f60b36~mv2.jpg",
+       "alt": "Spots LED encastrés parmi les poutres",
+       "kicker": "Ferme bressane · LED",
+       "title": "Spots LED encastrés parmi les poutres",
+       "paras": [
+        "Remplacement d'un lustre et installation d'un ensemble de spots LED encastrés, parmi les poutres d'une belle ferme Bressane.",
+        "Avant/après : installation d'un ensemble de spots encastrés à LED pour remplacer un lustre et mettre en valeur de beaux tableaux ! Un nouvel éclairage qui illumine la pièce. Pensez-y : la LED, c'est 90% d'économie d'énergie !"
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_fead879940f94c038e475b32a414d9ef~mv2.jpg",
+       "alt": "Tableau électrique de plus de 30 ans",
+       "kicker": "Mise aux normes",
+       "title": "Tableau électrique de plus de 30 ans",
+       "paras": [
+        "Rénovation/Remise aux normes d'un tableau électrique de plus de 30 ans dans une maison d'habitation en vertu des normes de sécurité en vigueur.",
+        "Toujours intégralement en marques reconnues, garanties et de qualité, ici en LEGRAND. Avant/pendant/après."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/1c23c3_9c777e6b0c6545bf9bd510a08c811262~mv2.jpg",
+       "alt": "Artisans du Monde",
+       "kicker": "Bourg-en-Bresse · LED",
+       "title": "Artisans du Monde",
+       "paras": [
+        "Remplacement du système d'éclairage iodure par de la LED chez Artisans du Monde à Bourg-en-Bresse."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Tous les chantiers <em class=\"it\">en photos</em>",
+     "photos": [
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_9f183531f6fd4db8b89e9f11fbf39833~mv2.jpg",
+       "alt": "Boston Tavern (anciennement Le Joffre)",
+       "caption": "Boston Tavern (anciennement Le Joffre)"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_fd491c90c9cb4a66b28ed46f665eb7b4~mv2.jpg",
+       "alt": "Boston Tavern (anciennement Le Joffre)",
+       "caption": "Boston Tavern (anciennement Le Joffre)"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_9685b9be9c2a473f9d16aecf4dab253e~mv2.jpg",
+       "alt": "Boston Tavern (anciennement Le Joffre)",
+       "caption": "Boston Tavern (anciennement Le Joffre)"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_5d11434116b74124bf2ba33b72f8b054~mv2.jpg",
+       "alt": "Brasserie du Théâtre",
+       "caption": "Brasserie du Théâtre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_df90147e35d34c2980a82025009a213c~mv2.jpg",
+       "alt": "Brasserie du Théâtre",
+       "caption": "Brasserie du Théâtre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_599742f7735c41b5af4f3403c04ba4f6~mv2_d_1920_1280_s_2.jpg",
+       "alt": "Brasserie du Théâtre",
+       "caption": "Brasserie du Théâtre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_7e61ee53c19a44fa8bb511d2dd3d317f~mv2_d_2048_1536_s_2.jpg",
+       "alt": "Brasserie du Théâtre",
+       "caption": "Brasserie du Théâtre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_08d726bf64e6403fae66b7509520daa4~mv2_d_1920_1280_s_2.jpg",
+       "alt": "Brasserie du Théâtre",
+       "caption": "Brasserie du Théâtre"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_a2980645e71e4de291100771b4470efd~mv2_d_3974_2481_s_4_2.jpg",
+       "alt": "Librairie Papeterie du Théâtre Zannini",
+       "caption": "Librairie Papeterie du Théâtre Zannini"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_65365f5770ed4488a39bceb003a4e6a0~mv2.jpg",
+       "alt": "Librairie Papeterie du Théâtre Zannini",
+       "caption": "Librairie Papeterie du Théâtre Zannini"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_9337b1fefe714125ab64548a4af4fbe4~mv2.jpg",
+       "alt": "Librairie Papeterie du Théâtre Zannini",
+       "caption": "Librairie Papeterie du Théâtre Zannini"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_4717733dbca74dc9ad657fe2677a38fd~mv2.jpg",
+       "alt": "Librairie Papeterie du Théâtre Zannini",
+       "caption": "Librairie Papeterie du Théâtre Zannini"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_55a1efc8cd8749a19e9ab430dc189904~mv2_d_3264_2448_s_4_2.jpg",
+       "alt": "Bretzel Coffee (anciennement l'Alsace à Table)",
+       "caption": "Bretzel Coffee (anciennement l'Alsace à Table)"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_a38c6142e6b64da3a45c3cf51823c616~mv2.jpg",
+       "alt": "Bretzel Coffee (anciennement l'Alsace à Table)",
+       "caption": "Bretzel Coffee (anciennement l'Alsace à Table)"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_6b1ed7a17c334662ab1653af0b31b8b1~mv2_d_3264_2448_s_4_2.jpg",
+       "alt": "Bretzel Coffee (anciennement l'Alsace à Table)",
+       "caption": "Bretzel Coffee (anciennement l'Alsace à Table)"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_c34c3eb943464b598fdcacbf2994006f~mv2.jpg",
+       "alt": "Magasin CAROLL",
+       "caption": "Magasin CAROLL"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_385d06324eec4f7fb0dbc01c4fe923f2~mv2.jpg",
+       "alt": "Magasin CAROLL",
+       "caption": "Magasin CAROLL"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_f293ea7904784aef94628e0561ee634f~mv2.jpg",
+       "alt": "Pose, installation et motorisation d'un portail de 5 mètres",
+       "caption": "Pose, installation et motorisation d'un portail de 5 mètres"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_8ee3a36f7b00477cba11892e71d96463~mv2.jpg",
+       "alt": "Pose, installation et motorisation d'un portail de 5 mètres",
+       "caption": "Pose, installation et motorisation d'un portail de 5 mètres"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_53170fbc5acf4faba0437bd87daf9395~mv2.jpg",
+       "alt": "Pose, installation et motorisation d'un portail de 5 mètres",
+       "caption": "Pose, installation et motorisation d'un portail de 5 mètres"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_6ce0a13c69e045be87ecc3637922cfe7~mv2.jpg",
+       "alt": "Pose, installation et motorisation d'un portail de 5 mètres",
+       "caption": "Pose, installation et motorisation d'un portail de 5 mètres"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_046d07345fa04bedb1d8c57f14cc8be9~mv2.jpg",
+       "alt": "Après la foudre, nouveau chauffe-eau THERMOR",
+       "caption": "Après la foudre, nouveau chauffe-eau THERMOR"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_ee8c04c506fc4c28877d51f971ab62f6~mv2.jpg",
+       "alt": "Spots LED encastrés parmi les poutres",
+       "caption": "Spots LED encastrés parmi les poutres"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_54eb7120f72f44fdaefb889bd13ff7ae~mv2.jpg",
+       "alt": "Spots LED encastrés parmi les poutres",
+       "caption": "Spots LED encastrés parmi les poutres"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_61b2f4a6c3bd44feb687127e9fecdcc6~mv2.jpg",
+       "alt": "Tableau électrique de plus de 30 ans",
+       "caption": "Tableau électrique de plus de 30 ans"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_c1010affa2ff4fff851d03e082eb5cf9~mv2.jpg",
+       "alt": "Tableau électrique de plus de 30 ans",
+       "caption": "Tableau électrique de plus de 30 ans"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_bddc7d17f3204723af10216519355d8e~mv2.jpg",
+       "alt": "Artisans du Monde",
+       "caption": "Artisans du Monde"
+      },
+      {
+       "full": "https://static.wixstatic.com/media/1c23c3_fa81df0e91ba402ab7aac49eadf65aba~mv2.jpg",
+       "alt": "Artisans du Monde",
+       "caption": "Artisans du Monde"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contact",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Contactez-nous !",
+   "lead": "Responsabilité civile, garantie décennale, devis gratuit.",
+   "img": "https://static.wixstatic.com/media/1c23c3_af7af523dd744175abb27c5ced6e3e69~mv2.jpg",
+   "sections": [
+    {
+     "kind": "features",
+     "id": "garanties",
+     "eyebrow": "Vos garanties",
+     "title": "Travailler <em class=\"it\">en confiance</em>",
+     "items": [
+      [
+       "Responsabilité Civile",
+       "Entreprise assurée en responsabilité civile."
+      ],
+      [
+       "Garantie Décennale",
+       "Vos travaux couverts par la garantie décennale."
+      ],
+      [
+       "Devis gratuit",
+       "Contactez-nous pour un devis gratuit."
+      ]
+     ]
+    },
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contactez-nous !",
+     "title": "Demander <em class=\"it\">un devis gratuit</em>",
+     "lead": "Décrivez vos travaux d'électricité, de climatisation ou d'éclairage : Alex Dallard vous recontacte.",
+     "email": "AlexBE2424@hotmail.com",
+     "subject": "Demande de devis depuis le site",
+     "submit": "Envoyer le message",
+     "side": [
+      "Port : <a href=\"tel:+33658791030\">06 58 79 10 30</a>",
+      "Mail : <a href=\"mailto:AlexBE2424@hotmail.com\">AlexBE2424@hotmail.com</a>",
+      "1320, rte de Montrevel<br>01310 Curtafond"
+     ],
+     "fields": [
+      {
+       "label": "Nom",
+       "required": true
+      },
+      {
+       "label": "E-mail",
+       "type": "email",
+       "required": true
+      },
+      {
+       "label": "Téléphone",
+       "type": "tel"
+      },
+      {
+       "label": "Objet"
+      },
+      {
+       "label": "Message",
+       "type": "textarea",
+       "required": true
+      }
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Nous trouver",
+     "title": "Bresse Électricité 24/24, <em class=\"it\">Curtafond</em>",
+     "text": "Implantés à Curtafond, village situé près de Bourg-en-Bresse. Déplacements dans l'Ain, Rhône, Haute-Savoie, Mâconnais et Jura.",
+     "img": "https://static.wixstatic.com/media/1c23c3_68ef8785381b48eb8ec571d7b0c5e75b~mv2.jpg",
+     "alt": "Bresse Électricité 24/24",
+     "rows": [
+      [
+       "Contact",
+       "A. Dallard"
+      ],
+      [
+       "Adresse",
+       "1320, rte de Montrevel<br>01310 Curtafond"
+      ],
+      [
+       "Portable",
+       "<a href=\"tel:+33658791030\">06 58 79 10 30</a>"
+      ],
+      [
+       "E-mail",
+       "<a href=\"mailto:AlexBE2424@hotmail.com\">AlexBE2424@hotmail.com</a>"
+      ],
+      [
+       "Facebook",
+       "<a href=\"https://www.facebook.com/BE2424/\" target=\"_blank\" rel=\"noopener\">facebook.com/BE2424</a>"
+      ]
+     ],
+     "cta": [
+      "Demander un devis",
+      "contact/#devis"
+     ],
+     "map_q": "1320 route de Montrevel, 01310 Curtafond"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Bresse Électricité 24/24 & Climatisation, à Curtafond (01310) : au service des particuliers et professionnels. Professionnalisme, sérieux, minutie.",
+  "contact": [
+   "<a href=\"tel:+33658791030\">06 58 79 10 30</a>",
+   "<a href=\"mailto:AlexBE2424@hotmail.com\">AlexBE2424@hotmail.com</a>",
+   "1320, rte de Montrevel, 01310 Curtafond"
+  ],
+  "legal": "Bresse Électricité 24/24 · A. Dallard · 1320, rte de Montrevel, 01310 Curtafond · Responsabilité civile · Garantie décennale",
+  "social": [
+   [
+    "facebook",
+    "https://www.facebook.com/BE2424/"
+   ]
+  ]
+ }
+}
