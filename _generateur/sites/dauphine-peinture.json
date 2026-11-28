@@ -1,0 +1,301 @@
+{
+ "slug": "dauphine-peinture-b3a89f",
+ "title": "Dauphiné Peinture & Décoration — Artisan peintre décorateur à Échirolles (Grenoble)",
+ "description": "Dauphiné Peinture & Décoration, artisan peintre décorateur à Échirolles, Grenoble et ses environs : peinture, enduit traditionnel, béton ciré, rénovation de cuisines et de portes, aménagement. Devis gratuit.",
+ "brand": "Dauphiné Peinture & Décoration",
+ "tagline": "Artisan peintre décorateur · Grenoble",
+ "monogram": "DP",
+ "theme": {
+  "look": "vivant",
+  "paper": "#f6f4f0",
+  "paper2": "#ebe6de",
+  "ink": "#1e2328",
+  "muted": "#5d636a",
+  "accent": "#3b5b74",
+  "accent2": "#2c4558",
+  "gold": "#c19a5b",
+  "heroem": "#f2d7a6",
+  "serif": "\"DM Serif Display\",Georgia,serif",
+  "sans": "\"DM Sans\",system-ui,sans-serif",
+  "fonts": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+ },
+ "topbar": [
+  "Échirolles · Grenoble et environs",
+  "<a href=\"tel:+33608649337\">06 08 64 93 37</a>",
+  "<a href=\"mailto:dauphine.peinture.decoration@gmail.com\">dauphine.peinture.decoration@gmail.com</a>"
+ ],
+ "extra_css": "@media(max-width:640px){header .topbar span:nth-child(1),header .topbar span:nth-child(3){display:none}}",
+ "home_label": "Accueil",
+ "nav": [],
+ "hero": {
+  "img": "https://static.wixstatic.com/media/7ae1dd_3ab31ace96d14c30bacb1a8c75f27fa4~mv2.jpg",
+  "eyebrow": "Artisan peintre décorateur · Grenoble et ses environs",
+  "title": "Aménagement et embellissement <em>de vos intérieurs et extérieurs</em>",
+  "lead": "Peinture, enduit traditionnel, béton ciré, rénovation : un artisan formé chez les Compagnons du Devoir, pour vous conseiller et vous accompagner dans vos projets.",
+  "cta1": [
+   "Demander un devis gratuit",
+   "contactez-moi/#devis"
+  ],
+  "cta2": [
+   "06 08 64 93 37",
+   "tel:+33608649337"
+  ]
+ },
+ "figures": [
+  [
+   "2013",
+   "CAP peintre, Compagnons du Devoir"
+  ],
+  [
+   "4 ans",
+   "de formation complète"
+  ],
+  [
+   "2021",
+   "installé à Grenoble et environs"
+  ],
+  [
+   "Devis",
+   "gratuit"
+  ]
+ ],
+ "sections": [
+  {
+   "kind": "story",
+   "id": "bienvenue",
+   "eyebrow": "Bienvenue",
+   "title": "Artisan peintre <em class=\"it\">décorateur</em>",
+   "img": "https://static.wixstatic.com/media/7ae1dd_9436b57b979546de84746dfae4c69bc6~mv2.jpg",
+   "alt": "Enduit traditionnel à finition teintée noire essuyée",
+   "paras": [
+    "Dauphiné Peinture & Décoration : aménagement et embellissement de vos intérieurs et extérieurs, à Grenoble et ses environs.",
+    "Je suis un artisan peintre en bâtiment de confiance, formé pendant 4 ans, notamment chez les Compagnons du Devoir.",
+    "<a href=\"a-propos/\" style=\"border-bottom:1px solid var(--gold)\">Qui suis-je ?</a>"
+   ]
+  },
+  {
+   "kind": "features",
+   "id": "engagements",
+   "eyebrow": "Pour vos projets",
+   "title": "Un artisan <em class=\"it\">à vos côtés</em>",
+   "lead": "De la première visite à la dernière couche de finition.",
+   "items": [
+    [
+     "Devis gratuit",
+     "Chaque projet commence par un devis gratuit."
+    ],
+    [
+     "Conseils & accompagnement",
+     "Conseils et accompagnement de vos projets, du choix des finitions à la réalisation."
+    ],
+    [
+     "Intérieurs et extérieurs",
+     "Aménagement et embellissement de vos intérieurs et extérieurs."
+    ]
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "services",
+   "label": "Réalisations",
+   "title": "Réalisations",
+   "eyebrow": "Des services professionnels",
+   "lead": "Peinture, enduit, béton ciré, rénovation et aménagement : quelques chantiers.",
+   "img": "https://static.wixstatic.com/media/7ae1dd_b6142256d5894908a0f72657552a40d0~mv2.jpg",
+   "sections": [
+    {
+     "kind": "blocks",
+     "id": "realisations",
+     "eyebrow": "Des services professionnels",
+     "title": "Mes <em class=\"it\">réalisations</em>",
+     "items": [
+      {
+       "img": "https://static.wixstatic.com/media/7ae1dd_61cb833a720c4f42b8df5a99db82a787~mv2.jpg",
+       "alt": "Porte d'entrée décapée et vernie",
+       "kicker": "Welcome home !",
+       "title": "Porte d'entrée",
+       "paras": [
+        "Décapage et application d'un vernis incolore."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/7ae1dd_8326c796086443b4a9930bfdc950a1b0~mv2.jpg",
+       "alt": "Cuisine rénovée",
+       "kicker": "Aux fourneaux !",
+       "title": "Cuisine",
+       "paras": [
+        "Rénovation : ponçage et mise en peinture en 3 couches (sous-couche et 2 couches de finitions)."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/7ae1dd_8c262010fce4437d8f7507f0aeaea54f~mv2.jpg",
+       "alt": "Cuisine ouverte sur séjour et hall d'entrée",
+       "kicker": "Faites confiance à vos envies !",
+       "title": "Aménagement",
+       "paras": [
+        "Création d'ouvertures, agrandissement des espaces et lieux de vie.",
+        "Ici, cuisine ouverte sur séjour et hall d'entrée, pour un espace de vie accueillant et convivial."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/7ae1dd_9436b57b979546de84746dfae4c69bc6~mv2.jpg",
+       "alt": "Enduit traditionnel teinté noir essuyé",
+       "kicker": "À l'ancienne !",
+       "title": "Enduit traditionnel",
+       "paras": [
+        "Enduit texturé traditionnel, fort de caractère, à la finition teintée noire dite essuyée."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/7ae1dd_fd469983ee584408abaedb3c608e7f3b~mv2.jpg",
+       "alt": "Plan de travail en béton ciré",
+       "kicker": "Indémodable !",
+       "title": "Béton ciré",
+       "paras": [
+        "Rénovation d'un plan de travail avec un béton ciré de chez San Marco."
+       ]
+      },
+      {
+       "img": "https://static.wixstatic.com/media/7ae1dd_e96cd47a24dd4211b7aa3935e0ed4033~mv2.jpg",
+       "alt": "Mise en peinture murs et portes",
+       "kicker": "Le fer de lance !",
+       "title": "Peinture",
+       "paras": [
+        "Mise en peinture murs et portes. Cadres de portes foncés pour un contraste et une ambiance déco garantie."
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "id": "photos",
+     "eyebrow": "En images",
+     "title": "Les <em class=\"it\">chantiers</em>",
+     "photos": [
+      {"full": "https://static.wixstatic.com/media/7ae1dd_b6142256d5894908a0f72657552a40d0~mv2.jpg", "alt": "Dauphiné Peinture & Décoration"},
+      {"full": "https://static.wixstatic.com/media/7ae1dd_e96cd47a24dd4211b7aa3935e0ed4033~mv2.jpg", "alt": "Peinture"},
+      {"full": "https://static.wixstatic.com/media/7ae1dd_61cb833a720c4f42b8df5a99db82a787~mv2.jpg", "alt": "Porte d'entrée", "caption": "Porte d'entrée"},
+      {"full": "https://static.wixstatic.com/media/7ae1dd_8326c796086443b4a9930bfdc950a1b0~mv2.jpg", "alt": "Cuisine", "caption": "Cuisine"},
+      {"full": "https://static.wixstatic.com/media/7ae1dd_8c262010fce4437d8f7507f0aeaea54f~mv2.jpg", "alt": "Aménagement", "caption": "Aménagement"},
+      {"full": "https://static.wixstatic.com/media/7ae1dd_9436b57b979546de84746dfae4c69bc6~mv2.jpg", "alt": "Enduit traditionnel", "caption": "Enduit traditionnel"},
+      {"full": "https://static.wixstatic.com/media/7ae1dd_fd469983ee584408abaedb3c608e7f3b~mv2.jpg", "alt": "Béton ciré", "caption": "Béton ciré"}
+     ]
+    },
+    {
+     "kind": "banner",
+     "img": "https://static.wixstatic.com/media/7ae1dd_8c262010fce4437d8f7507f0aeaea54f~mv2.jpg",
+     "eyebrow": "Devis gratuit",
+     "title": "Un projet de peinture <em>ou de rénovation ?</em>",
+     "cta": [
+      "Demander un devis",
+      "contactez-moi/#devis"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "a-propos",
+   "label": "En savoir plus",
+   "title": "Qui suis-je ?",
+   "eyebrow": "En savoir plus",
+   "lead": "Artisan peintre en bâtiment, à Grenoble et ses environs depuis janvier 2021.",
+   "img": "https://static.wixstatic.com/media/7ae1dd_fcd34f72812d4417ae854f4bd6e25a8e~mv2.jpg",
+   "sections": [
+    {
+     "kind": "story",
+     "id": "qui-suis-je",
+     "eyebrow": "Qui suis-je ?",
+     "title": "Un artisan peintre <em class=\"it\">de confiance</em>",
+     "img": "https://static.wixstatic.com/media/7ae1dd_fcd34f72812d4417ae854f4bd6e25a8e~mv2.jpg",
+     "alt": "Dauphiné Peinture & Décoration",
+     "paras": [
+      "Je suis un artisan peintre en bâtiment de confiance. J'ai suivi une formation complète de 4 ans, avec un CAP peintre applicateur de revêtement obtenu en 2013 au sein des Compagnons du Devoir de Nîmes, un Brevet Professionnel et une Mention Complémentaire Décoration obtenus au BTP CFA de Vendée à La Roche-sur-Yon.",
+      "J'ai enrichi mon parcours en travaillant ensuite pour différentes entreprises.",
+      "Fort de cette expérience, j'exerce aujourd'hui ma passion à Grenoble (ville natale) et ses environs depuis janvier 2021."
+     ]
+    },
+    {
+     "kind": "blocks",
+     "id": "formation",
+     "eyebrow": "Parcours",
+     "title": "Une formation <em class=\"it\">complète</em>",
+     "items": [
+      {
+       "kicker": "2013",
+       "title": "CAP peintre applicateur de revêtement",
+       "paras": ["Compagnons du Devoir, Nîmes."]
+      },
+      {
+       "kicker": "BTP CFA de Vendée",
+       "title": "Brevet Professionnel et Mention Complémentaire Décoration",
+       "paras": ["La Roche-sur-Yon."]
+      },
+      {
+       "kicker": "Depuis janvier 2021",
+       "title": "Installé à Grenoble et ses environs",
+       "paras": ["Après plusieurs années dans différentes entreprises."]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "contactez-moi",
+   "label": "Contact",
+   "title": "Contact",
+   "eyebrow": "Devis gratuit",
+   "lead": "Échirolles, Grenoble et ses environs.",
+   "img": "https://static.wixstatic.com/media/7ae1dd_f773ee1ac53c4fee93077130c2be1d74~mv2.jpg",
+   "sections": [
+    {
+     "kind": "form",
+     "id": "devis",
+     "eyebrow": "Contact",
+     "title": "Demander <em class=\"it\">un devis</em>",
+     "lead": "Décrivez votre projet de peinture, de décoration ou de rénovation : je vous recontacte.",
+     "email": "dauphine.peinture.decoration@gmail.com",
+     "subject": "Demande depuis le site",
+     "submit": "Envoyer",
+     "side": [
+      "Tél. : <a href=\"tel:+33608649337\" style=\"border-bottom:1px solid var(--gold)\">06 08 64 93 37</a>",
+      "E-mail : <a href=\"mailto:dauphine.peinture.decoration@gmail.com\" style=\"border-bottom:1px solid var(--gold)\">dauphine.peinture.decoration@gmail.com</a>"
+     ],
+     "fields": [
+      {"label": "Nom", "required": true},
+      {"label": "E-mail", "type": "email", "required": true},
+      {"label": "Objet", "full": true},
+      {"label": "Message", "type": "textarea", "required": true}
+     ]
+    },
+    {
+     "kind": "visit",
+     "id": "contact",
+     "eyebrow": "Zone d'intervention",
+     "title": "Échirolles, <em class=\"it\">Grenoble et environs</em>",
+     "text": "Artisan peintre décorateur basé à Échirolles, pour vos intérieurs et extérieurs à Grenoble et ses environs.",
+     "rows": [
+      ["Secteur", "Échirolles, Grenoble et ses environs"],
+      ["Téléphone", "<a href=\"tel:+33608649337\">06 08 64 93 37</a>"],
+      ["E-mail", "<a href=\"mailto:dauphine.peinture.decoration@gmail.com\">dauphine.peinture.decoration@gmail.com</a>"],
+      ["Instagram", "<a href=\"https://instagram.com/dauphine_peinture_decoration\" target=\"_blank\" rel=\"noopener\">@dauphine_peinture_decoration</a>"]
+     ],
+     "cta": ["Appeler", "tel:+33608649337"],
+     "map_q": "Échirolles, 38130"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "about": "Dauphiné Peinture & Décoration, artisan peintre décorateur à Échirolles : aménagement et embellissement de vos intérieurs et extérieurs, à Grenoble et ses environs.",
+  "contact": [
+   "<a href=\"tel:+33608649337\">06 08 64 93 37</a>",
+   "<a href=\"mailto:dauphine.peinture.decoration@gmail.com\">dauphine.peinture.decoration@gmail.com</a>",
+   "Échirolles (38)"
+  ],
+  "legal": "Dauphiné Peinture & Décoration · Artisan peintre décorateur · Échirolles (38).",
+  "social": [
+   ["instagram", "https://instagram.com/dauphine_peinture_decoration"]
+  ]
+ }
+}
